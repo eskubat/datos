@@ -1,15 +1,36 @@
 // Recolector de Eskubat: lee todas las fuentes, une duplicados y publica publico/ayudas.json
 import fs from 'node:fs';
 import path from 'node:path';
-import { norm } from './comun.js';
+import { norm, pedir, enParalelo, paraDeTexto, temasDe } from './comun.js';
 import * as euskadi from './euskadi.js';
 import * as bdns from './bdns.js';
 
 const SALIDA = path.resolve('publico');
+// El listado de euskadi.eus rechaza clientes identificados como robot (pendiente de decidir cómo acceder).
 const FUENTES = [
-  { clave: 'euskadi', nombre: 'Catálogo de trámites de euskadi.eus', mod: euskadi },
   { clave: 'bdns', nombre: 'Base de Datos Nacional de Subvenciones', mod: bdns },
 ];
+
+// Completa con la ficha de euskadi.eus las ayudas que enlazan a ella (las fichas sí son accesibles)
+async function enriquecer(ayudas) {
+  const objetivo = ayudas.filter((a) => /euskadi\.eus\/(?:.*web01-tramite|servicios\/)/.test(a.url || ''));
+  let ok = 0;
+  await enParalelo(objetivo, 3, async (a) => {
+    const f = euskadi.parseFicha(await pedir(a.url));
+    if (!f.objeto && !f.dirigido) return;
+    ok++;
+    a.resumen = f.objeto || a.resumen;
+    a.cuantia = f.cuantia || a.cuantia;
+    a.dirigido = f.dirigido || a.dirigido;
+    a.organismo = f.organismo || a.organismo;
+    a.presupuesto = a.presupuesto || f.presupuesto;
+    const todo = [a.titulo, f.objeto, f.dirigido].join(' ');
+    a.para = [...new Set([...(a.para || []), ...paraDeTexto(todo)])];
+    a.temas = [...new Set([...(a.temas || []), ...temasDe(todo)])];
+    a.fuentes.push({ nombre: 'euskadi.eus', url: a.url });
+  });
+  log(`Fichas de euskadi.eus: ${ok} de ${objetivo.length} completadas`);
+}
 
 const log = (m) => console.log(new Date().toISOString().slice(11, 19), m);
 const hoy = new Date().toISOString().slice(0, 10);
@@ -81,6 +102,7 @@ async function main() {
 
   for (const k in resultados) for (const a of resultados[k]) a.origen = a.origen || k;
   let ayudas = unir(resultados.euskadi || [], resultados.bdns || []);
+  try { await enriquecer(ayudas); } catch (e) { log(`Aviso: no se pudieron completar fichas: ${e.message}`); }
   for (const a of ayudas) { a.estado = estado(a); delete a.errorFicha; delete a.abiertoSegunFuente; }
   // Fuera: cerradas y las que no tienen fechas y llevan más de 90 días registradas
   const limite = new Date(Date.now() - 90 * 864e5).toISOString().slice(0, 10);
