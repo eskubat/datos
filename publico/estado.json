@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generado": "2026-11-14T23:47:34.884Z",
+  "generado": "2026-11-14T23:53:27.757Z",
   "total": 761,
   "porAmbito": {
     "municipio": 659,
@@ -24,7 +24,7 @@
       "nombre": "Base de Datos Nacional de Subvenciones",
       "ok": true,
       "registros": 1294,
-      "segundos": 197,
+      "segundos": 184,
       "erroresFicha": 0
     }
   }
