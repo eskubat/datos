@@ -3,7 +3,7 @@ import { pedir, texto, entidades, frase, iso, enParalelo, temasDe, paraDeTexto, 
 
 const BASE = 'https://www.euskadi.eus';
 // procedureStatus 16 = "Abierto el plazo de presentación"
-const listaUrl = (pag) => `${BASE}/gobierno-vasco/tramites-servicios/?r01kQry=tT:ayuda_subvencion;mA:documentLanguage.EQ.es,procedureStatus.EQ.16;pp:r01PageSize.20;p:Inter,Inter_portal&r01SearchEngine=meta&r01kTgtPg=${pag}`;
+const listaUrl = (pag) => `${BASE}/gobierno-vasco/tramites-servicios/?r01kQry=tT:ayuda_subvencion;mA:documentLanguage.EQ.es,procedureStatus.EQ.16;pp:r01PageSize.50;p:Inter,Inter_portal&r01SearchEngine=meta&r01kTgtPg=${pag}`;
 
 export function parseLista(html) {
   const items = [];

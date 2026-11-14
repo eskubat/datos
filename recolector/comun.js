@@ -90,7 +90,7 @@ export async function pedir(url, { json = false, tries = 3, timeout = 30000 } = 
     try {
       const r = await fetch(url, {
         signal: ctrl.signal,
-        headers: { 'User-Agent': 'EskubatBot/0.1 (+https://github.com/eskubat/datos)', Accept: json ? 'application/json' : 'text/html,*/*' },
+        headers: { 'User-Agent': 'Mozilla/5.0 (compatible; EskubatBot/0.1; +https://github.com/eskubat/datos)', Accept: json ? 'application/json' : 'text/html,*/*' },
       });
       clearTimeout(t);
       if (r.status === 429 || r.status >= 500) { last = new Error(`HTTP ${r.status}`); await sleep(1500 * (i + 1)); continue; }
