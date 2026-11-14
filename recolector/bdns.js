@@ -1,0 +1,109 @@
+// Fuente: Base de Datos Nacional de Subvenciones (InfoSubvenciones).
+// Recoge convocatorias del Gobierno Vasco, las diputaciones forales y los ayuntamientos de Euskadi.
+import { pedir, norm, frase, iso, enParalelo, temasDe, paraDeTexto, TERRS, MUNI_IDX } from './comun.js';
+
+const BASES = ['https://www.infosubvenciones.es/bdnstrans/api', 'https://www.pap.hacienda.gob.es/bdnstrans/api'];
+const DIAS_ATRAS = 120;
+const PAGE_SIZE = 200;
+const MAX_PAGINAS = 120;
+
+async function api(path) {
+  let last;
+  for (const base of BASES) {
+    try { return await pedir(base + path, { json: true }); } catch (e) { last = e; }
+  }
+  throw last;
+}
+
+function limpiaOrgano(s) {
+  return norm(s).replace(/^(ayuntamiento|udala|concejo|junta administrativa) (de |del |de la )?/, '').replace(/ udala$/, '').trim();
+}
+
+export function clasifica(n1, n2, n3) {
+  const a = norm(n1), b = norm(n2), c = norm(n3);
+  if (/auton/.test(a)) {
+    if (/pais vasco|euskadi|euskal autonomia/.test(b) || /pais vasco|euskadi/.test(c)) return { nivel: 'euskadi', nombre: 'Toda Euskadi' };
+    return null;
+  }
+  if (/local|otros/.test(a) || !a) {
+    for (const k in TERRS) {
+      const parts = k.split('/');
+      const esProv = parts.some((p) => b === p || b === 'diputacion foral de ' + p || b === p + 'ko foru aldundia');
+      const esDip = /foral|foru|diputaci/.test(b + ' ' + c) && parts.some((p) => (b + ' ' + c).indexOf(p) >= 0);
+      if (esProv || esDip) return { nivel: 'territorio', nombre: TERRS[k], terr: TERRS[k] };
+    }
+    for (const x of [b, limpiaOrgano(b), limpiaOrgano(c)]) {
+      if (MUNI_IDX[x]) return { nivel: 'municipio', nombre: MUNI_IDX[x].nombre, terr: MUNI_IDX[x].terr };
+    }
+  }
+  return null;
+}
+
+function ddmmyyyy(d) { return String(d.getDate()).padStart(2, '0') + '/' + String(d.getMonth() + 1).padStart(2, '0') + '/' + d.getFullYear(); }
+const txt = (v) => (v == null ? '' : typeof v === 'string' ? v : v.descripcion || v.description || v.nombre || '');
+const lista = (v) => (Array.isArray(v) ? v.map(txt).filter(Boolean) : v ? [txt(v)].filter(Boolean) : []);
+
+function paraBDNS(benef) {
+  const out = new Set();
+  for (const d of benef) {
+    const n = norm(d);
+    if (/fisicas que no desarrollan/.test(n)) out.add('particular');
+    if (/fisicas que desarrollan|pyme y personas fisicas/.test(n)) { out.add('autonomo'); out.add('empresa'); }
+    if (/pyme|gran empresa/.test(n)) out.add('empresa');
+    if (/juridicas que no desarrollan|sin animo|asociaci/.test(n)) out.add('asociacion');
+  }
+  return [...out];
+}
+
+export async function recoger(log) {
+  const desde = new Date(Date.now() - DIAS_ATRAS * 864e5);
+  const indice = [];
+  let vistos = 0;
+  for (let p = 0; p < MAX_PAGINAS; p++) {
+    const r = await api(`/convocatorias/busqueda?vpd=GE&page=${p}&pageSize=${PAGE_SIZE}&fechaDesde=${encodeURIComponent(ddmmyyyy(desde))}&order=fechaRecepcion&direccion=desc`);
+    const content = r.content || [];
+    vistos += content.length;
+    for (const it of content) {
+      const amb = clasifica(it.nivel1, it.nivel2, it.nivel3);
+      if (amb) indice.push({ it, amb });
+    }
+    if (!content.length || r.last === true || content.length < PAGE_SIZE) break;
+  }
+  log(`BDNS: ${vistos} convocatorias revisadas, ${indice.length} de Euskadi`);
+
+  const det = await enParalelo(indice, 3, ({ it }) => api(`/convocatorias?vpd=GE&numConv=${it.numeroConvocatoria}`));
+  return indice.map(({ it, amb }, k) => {
+    let d = det[k] || {};
+    if (Array.isArray(d)) d = d[0] || {};
+    if (d.content && Array.isArray(d.content)) d = d.content[0] || {};
+    const num = String(it.numeroConvocatoria);
+    const titulo = frase(it.descripcion || d.descripcion || '');
+    const benef = lista(d.tiposBeneficiarios);
+    const finalidad = txt(d.descripcionFinalidad);
+    const url = `https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/${num}`;
+    const organismo = frase(it.nivel3 || it.nivel2 || '');
+    return {
+      id: 'bdns-' + num,
+      bdns: num,
+      titulo,
+      tituloEu: it.descripcionLeng ? frase(it.descripcionLeng) : '',
+      organismo,
+      ambito: amb,
+      inicio: iso(d.fechaInicioSolicitud),
+      fin: iso(d.fechaFinSolicitud),
+      textoPlazo: [d.textInicio, d.textFin].filter(Boolean).join(' · '),
+      abiertoSegunFuente: d.abierto === true || d.abierto === 'true' || d.abierto === 'S',
+      registrada: iso(it.fechaRecepcion),
+      presupuesto: d.presupuestoTotal != null ? Number(d.presupuestoTotal) || null : null,
+      cuantia: '',
+      resumen: finalidad ? `Finalidad: ${finalidad}` : '',
+      dirigido: benef.join('\n'),
+      para: [...new Set([...paraBDNS(benef), ...paraDeTexto(titulo)])],
+      temas: temasDe(titulo + ' ' + finalidad),
+      url: d.sedeElectronica || url,
+      bases: d.urlBasesReguladoras || '',
+      fuentes: [{ nombre: 'BDNS', url }],
+      errorFicha: det[k] && det[k].error ? det[k].error : undefined,
+    };
+  });
+}

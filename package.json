@@ -1,0 +1,1 @@
+{ "name": "eskubat-datos", "private": true, "type": "module", "scripts": { "recoger": "node recolector/index.js" } }

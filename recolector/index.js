@@ -1,0 +1,101 @@
+// Recolector de Eskubat: lee todas las fuentes, une duplicados y publica publico/ayudas.json
+import fs from 'node:fs';
+import path from 'node:path';
+import { norm } from './comun.js';
+import * as euskadi from './euskadi.js';
+import * as bdns from './bdns.js';
+
+const SALIDA = path.resolve('publico');
+const FUENTES = [
+  { clave: 'euskadi', nombre: 'Catálogo de trámites de euskadi.eus', mod: euskadi },
+  { clave: 'bdns', nombre: 'Base de Datos Nacional de Subvenciones', mod: bdns },
+];
+
+const log = (m) => console.log(new Date().toISOString().slice(11, 19), m);
+const hoy = new Date().toISOString().slice(0, 10);
+
+function leerPrevio() {
+  try { return JSON.parse(fs.readFileSync(path.join(SALIDA, 'ayudas.json'), 'utf8')); } catch { return null; }
+}
+
+const VACIAS = new Set('de del la las el los y e o u a en para por con al sus su que se convocatoria convocatorias ayuda ayudas subvencion subvenciones ejercicio ano programa bases reguladoras aprueban aprueba resolucion orden extracto'.split(' '));
+function claves(t) {
+  return new Set(norm(t).replace(/[^a-z0-9 ]+/g, ' ').split(' ').filter((w) => w.length > 2 && !VACIAS.has(w) && !/^20\d\d$/.test(w)));
+}
+function parecido(a, b) {
+  let comun = 0;
+  for (const w of a) if (b.has(w)) comun++;
+  return comun / Math.max(1, Math.min(a.size, b.size));
+}
+
+function unir(eus, bd) {
+  const usados = new Set();
+  const kE = eus.map((x) => claves(x.titulo));
+  for (const b of bd) {
+    if (b.ambito.nivel !== 'euskadi') continue;
+    const kb = claves(b.titulo);
+    let mejor = -1, score = 0;
+    kE.forEach((k, i) => { const s = parecido(kb, k); if (s > score) { score = s; mejor = i; } });
+    if (mejor >= 0 && score >= 0.7 && kb.size >= 3) {
+      const e = eus[mejor];
+      e.bdns = e.bdns || b.bdns;
+      e.bases = e.bases || b.bases;
+      e.inicio = e.inicio || b.inicio;
+      e.fin = e.fin || b.fin;
+      e.presupuesto = e.presupuesto || b.presupuesto;
+      e.para = [...new Set([...(e.para || []), ...(b.para || [])])];
+      e.fuentes.push(...b.fuentes);
+      usados.add(b.id);
+    }
+  }
+  return [...eus, ...bd.filter((b) => !usados.has(b.id))];
+}
+
+function estado(a) {
+  if (a.inicio && a.inicio > hoy) return 'proxima';
+  if (a.fin && a.fin < hoy) return 'cerrada';
+  if (a.fin || a.permanente) return 'abierta';
+  if (a.abiertoSegunFuente || /abierto/i.test(a.estadoFuente || '')) return 'abierta';
+  return 'sinfecha';
+}
+
+async function main() {
+  const previo = leerPrevio();
+  const resultados = {};
+  const estadoFuentes = {};
+  for (const f of FUENTES) {
+    const t0 = Date.now();
+    try {
+      const items = await f.mod.recoger(log);
+      resultados[f.clave] = items;
+      estadoFuentes[f.clave] = { nombre: f.nombre, ok: true, registros: items.length, segundos: Math.round((Date.now() - t0) / 1000), erroresFicha: items.filter((x) => x.errorFicha).length };
+      log(`${f.nombre}: ${items.length} registros`);
+    } catch (e) {
+      // Si una fuente falla, conservamos lo que había de ella en la publicación anterior
+      const anteriores = previo ? previo.ayudas.filter((a) => a.origen === f.clave) : [];
+      resultados[f.clave] = anteriores;
+      estadoFuentes[f.clave] = { nombre: f.nombre, ok: false, error: String(e.message || e), registros: anteriores.length, conservados: true };
+      log(`ERROR en ${f.nombre}: ${e.message || e}`);
+    }
+  }
+
+  for (const k in resultados) for (const a of resultados[k]) a.origen = a.origen || k;
+  let ayudas = unir(resultados.euskadi || [], resultados.bdns || []);
+  for (const a of ayudas) { a.estado = estado(a); delete a.errorFicha; delete a.abiertoSegunFuente; }
+  // Fuera: cerradas y las que no tienen fechas y llevan más de 90 días registradas
+  const limite = new Date(Date.now() - 90 * 864e5).toISOString().slice(0, 10);
+  ayudas = ayudas.filter((a) => a.estado !== 'cerrada' && !(a.estado === 'sinfecha' && a.registrada && a.registrada < limite));
+  ayudas.sort((x, y) => (x.fin || '9999').localeCompare(y.fin || '9999'));
+
+  const porAmbito = ayudas.reduce((m, a) => { m[a.ambito.nivel] = (m[a.ambito.nivel] || 0) + 1; return m; }, {});
+  const porEstado = ayudas.reduce((m, a) => { m[a.estado] = (m[a.estado] || 0) + 1; return m; }, {});
+  const meta = { version: 1, generado: new Date().toISOString(), total: ayudas.length, porAmbito, porEstado, fuentes: estadoFuentes };
+
+  fs.mkdirSync(SALIDA, { recursive: true });
+  fs.writeFileSync(path.join(SALIDA, 'ayudas.json'), JSON.stringify({ ...meta, ayudas }));
+  fs.writeFileSync(path.join(SALIDA, 'estado.json'), JSON.stringify(meta, null, 2));
+  log(`Publicadas ${ayudas.length} ayudas · ${JSON.stringify(porAmbito)} · ${JSON.stringify(porEstado)}`);
+  if (Object.values(estadoFuentes).every((s) => !s.ok)) process.exit(1);
+}
+
+main().catch((e) => { console.error(e); process.exit(1); });

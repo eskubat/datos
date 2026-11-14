@@ -1,0 +1,32 @@
+name: Recolector diario
+on:
+  schedule:
+    - cron: '41 4 * * *'   # cada día a las 05:41 (hora peninsular en invierno)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['recolector/**', '.github/workflows/recolector.yml']
+concurrency:
+  group: recolector
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  recoger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node recolector/index.js
+      - name: Publicar si hay cambios
+        run: |
+          git config user.name "eskubat-bot"
+          git config user.email "eskubat.app@gmail.com"
+          git add publico
+          git diff --cached --quiet && echo "Sin cambios" && exit 0
+          git commit -m "Datos actualizados $(date -u +%Y-%m-%d)"
+          git pull --rebase -q
+          git push
