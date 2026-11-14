@@ -58,6 +58,7 @@ function paraBDNS(benef) {
 export async function recoger(log) {
   const desde = new Date(Date.now() - DIAS_ATRAS * 864e5);
   const indice = [];
+  const diag = {};
   let vistos = 0;
   for (let p = 0; p < MAX_PAGINAS; p++) {
     const r = await api(`/convocatorias/busqueda?vpd=GE&page=${p}&pageSize=${PAGE_SIZE}&fechaDesde=${encodeURIComponent(ddmmyyyy(desde))}&order=fechaRecepcion&direccion=desc`);
@@ -66,10 +67,16 @@ export async function recoger(log) {
     for (const it of content) {
       const amb = clasifica(it.nivel1, it.nivel2, it.nivel3);
       if (amb) indice.push({ it, amb });
+      const txt2 = norm(`${it.nivel2} ${it.nivel3}`);
+      if (/vasco|euskadi|eusko|gipuzk|guipuz|bizkai|vizcay|araba|alava|foral|foru/.test(txt2)) {
+        const k = `${it.nivel1} | ${it.nivel2} | ${amb ? amb.nivel : 'NO CLASIFICADA'}`;
+        diag[k] = (diag[k] || 0) + 1;
+      }
     }
     if (!content.length || r.last === true || content.length < PAGE_SIZE) break;
   }
   log(`BDNS: ${vistos} convocatorias revisadas, ${indice.length} de Euskadi`);
+  for (const [k, n] of Object.entries(diag).sort((a, b) => b[1] - a[1]).slice(0, 40)) log(`  diag ${n} · ${k}`);
 
   const det = await enParalelo(indice, 3, ({ it }) => api(`/convocatorias?vpd=GE&numConv=${it.numeroConvocatoria}`));
   return indice.map(({ it, amb }, k) => {
