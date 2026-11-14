@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generado": "2026-11-14T23:41:17.645Z",
+  "generado": "2026-11-14T23:47:34.884Z",
   "total": 761,
   "porAmbito": {
     "municipio": 659,
@@ -16,7 +16,7 @@
     "euskadi": {
       "nombre": "Catálogo de trámites de euskadi.eus",
       "ok": false,
-      "error": "HTTP 404 en https://www.euskadi.eus/gobierno-vasco/tramites-servicios/?r01kQry=tT:ayuda_subvencion;mA:documentLanguage.EQ.es,procedureStatus.EQ.16;pp:r01PageSize.20;p:Inter,Inter_portal&r01SearchEngine=meta&r01kTgtPg=1",
+      "error": "HTTP 404 en https://www.euskadi.eus/gobierno-vasco/tramites-servicios/?r01kQry=tT:ayuda_subvencion;mA:documentLanguage.EQ.es,procedureStatus.EQ.16;pp:r01PageSize.50;p:Inter,Inter_portal&r01SearchEngine=meta&r01kTgtPg=1",
       "registros": 0,
       "conservados": true
     },
@@ -24,7 +24,7 @@
       "nombre": "Base de Datos Nacional de Subvenciones",
       "ok": true,
       "registros": 1294,
-      "segundos": 199,
+      "segundos": 197,
       "erroresFicha": 0
     }
   }
