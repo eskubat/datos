@@ -124,6 +124,18 @@ export async function recoger(log) {
       url: d.sedeElectronica || url,
       bases: d.urlBasesReguladoras || '',
       fuentes: [{ nombre: 'BDNS', url }],
+      _texto: [
+        'Título: ' + (it.descripcion || ''),
+        it.descripcionLeng ? 'Título en euskera: ' + it.descripcionLeng : '',
+        'Organismo: ' + [it.nivel2, it.nivel3].filter(Boolean).join(' · '),
+        finalidad ? 'Finalidad: ' + finalidad : '',
+        benef.length ? 'Beneficiarios: ' + benef.join('; ') : '',
+        d.textInicio ? 'Inicio del plazo: ' + d.textInicio : '',
+        d.textFin ? 'Fin del plazo: ' + d.textFin : '',
+        d.presupuestoTotal ? 'Presupuesto total de la convocatoria: ' + d.presupuestoTotal + ' euros' : '',
+        lista(d.sectores).length ? 'Sectores: ' + lista(d.sectores).join('; ') : '',
+        lista(d.instrumentos).length ? 'Instrumento: ' + lista(d.instrumentos).join('; ') : '',
+      ].filter(Boolean).join('\n'),
       errorFicha: det[k] && det[k].error ? det[k].error : undefined,
     };
   });

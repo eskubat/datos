@@ -30,6 +30,7 @@ function fichaGipuzkoa(html) {
   const val = (re) => { const i = lineas.findIndex((l) => re.test(l)); return i >= 0 ? (lineas[i].split(':').slice(1).join(':').trim() || lineas[i + 1] || '') : ''; };
   const inicio = iso((val(/^(Fecha de )?inicio|^Plazo.*desde/i).match(/\d{2}[-/]\d{2}[-/]\d{4}/) || [''])[0].replace(/-/g, '/'));
   return {
+    texto: [...new Set(lineas)].join('\n').slice(0, 8000),
     resumen: [...new Set(lineas.filter((l) => l.length > 60))].slice(0, 3).join('\n'),
     organismo: val(/^Departamento|^Órgano/i),
     inicio,
@@ -74,6 +75,7 @@ export async function gipuzkoa(log) {
       cuantia: '',
       resumen: d.resumen || '',
       dirigido: f.colectivo.join('\n'),
+      _texto: [f.titulo, 'Colectivo: ' + f.colectivo.join(', '), 'Plazo: ' + f.plazo, d.texto || ''].join('\n'),
       para: paraDeTexto(f.colectivo.join(' ') + ' ' + f.titulo),
       temas: temasDe([f.titulo, (d.resumen || '').slice(0, 300)].join(' ')),
       url: f.url,
@@ -120,6 +122,7 @@ export async function araba(log) {
     resumen: '',
     dirigido: '',
     para: paraDeTexto(f.titulo),
+    _texto: f.titulo + '\n' + f.plazo,
     temas: temasDe(f.titulo),
     url: f.url,
     fuentes: [{ nombre: 'Sede electrónica de Álava', url: f.url }],

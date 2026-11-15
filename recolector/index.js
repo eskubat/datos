@@ -6,6 +6,7 @@ import * as euskadi from './euskadi.js';
 import * as bdns from './bdns.js';
 import * as forales from './forales.js';
 import { claveLinea } from './historico.js';
+import { aplicar } from './resumen.js';
 
 const SALIDA = path.resolve('publico');
 const FUENTES = [
@@ -33,6 +34,7 @@ async function enriquecer(ayudas) {
     a.para = [...new Set([...(a.para || []), ...paraDeTexto(todo)])];
     a.temas = [...new Set([...(a.temas || []), ...temasDe([a.titulo, (f.objeto || '').slice(0, 300)].join(' '))])];
     a.fuentes.push({ nombre: 'euskadi.eus', url: a.url });
+    if (f.texto) a._texto = [a._texto || '', f.texto].join('\n');
   });
   log(`Fichas de euskadi.eus: ${ok} de ${objetivo.length} completadas`);
 }
@@ -244,6 +246,16 @@ async function main() {
     previstas.sort((a, b) => (a.añoPrevisto - b.añoPrevisto) || (a.mesPrevisto - b.mesPrevisto));
     log(`Histórico: ${ayudas.filter((a) => a.recurrente).length} ayudas actuales se repiten cada año · ${previstas.length} previstas en los próximos meses`);
   } catch (e) { log(`Histórico no disponible: ${e.message}`); }
+
+  // Texto de cada ayuda para los resúmenes (no se publica en la app) y resúmenes ya hechos
+  const fuentes = {};
+  for (const a of ayudas) { if (a._texto) fuentes[a.id] = String(a._texto).slice(0, 12000); delete a._texto; }
+  fs.mkdirSync('cache', { recursive: true });
+  fs.writeFileSync(path.join('cache', 'fuentes.json'), JSON.stringify(fuentes));
+  try {
+    const cache = JSON.parse(fs.readFileSync(path.join('cache', 'resumenes.json'), 'utf8'));
+    log(`Resúmenes aplicados: ${aplicar(ayudas, fuentes, cache)}`);
+  } catch { log('Aún no hay resúmenes'); }
 
   const porAmbito = ayudas.reduce((m, a) => { m[a.ambito.nivel] = (m[a.ambito.nivel] || 0) + 1; return m; }, {});
   const porEstado = ayudas.reduce((m, a) => { m[a.estado] = (m[a.estado] || 0) + 1; return m; }, {});

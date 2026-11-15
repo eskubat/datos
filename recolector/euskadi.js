@@ -59,7 +59,11 @@ export function parseFicha(html) {
     .filter((l) => l.length > 12 && l.length < 220 && !/:\s*$/.test(l) && l !== l.toUpperCase() && !/^(Información detallada|Requisitos:?|Nota:|Ver |Más información|Declaración responsable\.?$|Personas físicas$|Personas jurídicas|Sociedad civil$|Identidad de la persona)/i.test(l) && !/Decreto Legislativo 1\/1997/.test(l))
     .map((l) => l.replace(/^[-•·]\s*/, '')))].slice(0, 12);
   const euros = (dotacion.match(/[\d.]+(?:,\d+)?/) || [])[0];
+  // Texto completo de la ficha (para el resumen): desde "Descripción/Objeto" hasta la tramitación
+  const fin = cuerpo.search(/\n(Solicitud y aportación de documentación|Información de contacto|Código)\n/);
+  const textoFicha = (fin > 0 ? cuerpo.slice(0, fin) : cuerpo).slice(0, 9000);
   return {
+    texto: textoFicha,
     organismo: organismo.trim(),
     objeto: objeto.split('\n').slice(0, 6).join('\n'),
     presupuesto: euros ? Number(euros.replace(/\./g, '').replace(',', '.')) || null : null,
@@ -125,6 +129,7 @@ export async function recoger(log) {
       resumen: f.objeto || '',
       dirigido: f.dirigido || '',
       requisitos: f.requisitos || [],
+      _texto: [it.titulo, f.texto || ''].join('\n'),
       para: paraDeTexto([it.titulo, f.dirigido].join(' ')),
       temas: temasDe([it.titulo, (f.objeto || '').slice(0, 300)].join(' ')),
       url: it.url,

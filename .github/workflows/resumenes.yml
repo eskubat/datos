@@ -1,0 +1,36 @@
+name: Resúmenes con IA
+on:
+  schedule:
+    - cron: '37 */2 * * *'   # cada dos horas, hasta tener todas resumidas
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['recolector/resumen.js', 'recolector/resumir.js', '.github/workflows/resumenes.yml']
+concurrency:
+  group: recolector
+  cancel-in-progress: false
+permissions:
+  contents: write
+  models: read
+jobs:
+  resumir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node recolector/resumir.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAX_PETICIONES: '140'
+      - name: Publicar
+        run: |
+          git config user.name "eskubat-bot"
+          git config user.email "eskubat.app@gmail.com"
+          git add publico cache
+          git diff --cached --quiet && exit 0
+          git commit -m "Resúmenes $(date -u +%Y-%m-%d\ %H:%M)"
+          git pull --rebase -q -X theirs
+          git push
