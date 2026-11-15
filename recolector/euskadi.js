@@ -3,7 +3,7 @@ import { pedir, texto, entidades, frase, iso, enParalelo, temasDe, paraDeTexto, 
 
 const BASE = 'https://www.euskadi.eus';
 // procedureStatus 16 = "Abierto el plazo de presentación"
-const listaUrl = (pag) => `${BASE}/gobierno-vasco/tramites-servicios/?r01kQry=tT:ayuda_subvencion;mA:documentLanguage.EQ.es,procedureStatus.EQ.16;pp:r01PageSize.50;p:Inter,Inter_portal&r01SearchEngine=meta&r01kTgtPg=${pag}`;
+const listaUrl = (pag) => `${BASE}/gobierno-vasco/tramites-servicios/?r01kQry=tT:ayuda_subvencion;mA:documentLanguage.EQ.es,procedureStatus.EQ.16;pp:r01PageSize.50;p:Inter,Inter_portal&r01SearchEngine=meta`;
 
 export function parseLista(html) {
   const items = [];
@@ -63,36 +63,63 @@ export function parseFicha(html) {
   };
 }
 
+const OD = 'https://opendata.euskadi.eus/contenidos/ds_ayudas_subvenciones';
+
+function idDe(url) {
+  return 'eus-' + norm(String(url).replace(/^https?:\/\/[^/]+/, '').replace(/\/web01-[a-z0-9]+\/es\/?$/, '')).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
 export async function recoger(log) {
-  const vistos = new Map();
-  for (let pag = 1; pag <= 40; pag++) {
-    const html = await pedir(listaUrl(pag));
-    const items = parseLista(html).filter((x) => /ayuda|beca|subvenci/i.test(x.tipo));
-    let nuevos = 0;
-    for (const it of items) if (!vistos.has(it.url)) { vistos.set(it.url, it); nuevos++; }
-    log(`euskadi.eus página ${pag}: ${items.length} ayudas (${nuevos} nuevas)`);
-    if (!nuevos) break;
+  const hoy = new Date().toISOString().slice(0, 10);
+  const año = new Date().getFullYear();
+  const porId = new Map();
+  const add = (it) => { const id = idDe(it.url); if (!porId.has(id)) porId.set(id, { ...it, id }); else Object.assign(porId.get(id), Object.fromEntries(Object.entries(it).filter(([, v]) => v))); };
+
+  // 1) Datos abiertos: procedimientos de ayuda del año en curso, el anterior y los últimos 90 días
+  for (const f of ['ultimas_ayudas_subvencion_bec', `ayudas_subvencion_becas_${año}`, `ayudas_subvencion_becas_${año - 1}`]) {
+    try {
+      const d = await pedir(`${OD}/${f}/opendata/ayudas.json`, { json: true, navegador: true, timeout: 60000 });
+      const arr = Array.isArray(d) ? d : Object.values(d).find(Array.isArray) || [];
+      let n = 0;
+      for (const x of arr) {
+        const fin = iso(x.procedureEndDate), inicio = iso(x.procedureStartDate);
+        const abierto = /abierto/i.test(x.procedureStatus || '');
+        if (!(fin ? fin >= hoy : abierto)) continue;
+        if (!x.friendlyUrl && !x.physicalUrl) continue;
+        add({ url: x.friendlyUrl || x.physicalUrl, titulo: x.documentName || x.procedureDenomination, inicio, fin: fin && !/^(2099|2100)/.test(fin) ? fin : null, permanente: !!(fin && /^(2099|2100)/.test(fin)), organismo: x.manager || x.department || x.institution, departamento: x.department, estadoTexto: x.procedureStatus });
+        n++;
+      }
+      log(`Open Data Euskadi ${f}: ${arr.length} procedimientos, ${n} vigentes`);
+    } catch (e) { log(`Open Data Euskadi ${f}: ${e.message}`); }
   }
-  const lista = [...vistos.values()];
-  const fichas = await enParalelo(lista, 4, (it) => pedir(it.url).then(parseFicha));
+
+  // 2) Primera página del catálogo con plazo abierto (incluye ayudas permanentes como Gaztelagun)
+  try {
+    const items = parseLista(await pedir(listaUrl(1), { navegador: true })).filter((x) => /ayuda|beca|subvenci/i.test(x.tipo));
+    items.forEach(add);
+    log(`Catálogo euskadi.eus (plazo abierto): ${items.length}`);
+  } catch (e) { log(`Catálogo euskadi.eus: ${e.message}`); }
+
+  const lista = [...porId.values()];
+  const fichas = await enParalelo(lista, 4, (it) => pedir(it.url).then(parseFicha).catch(() => pedir(it.url, { navegador: true }).then(parseFicha)));
   return lista.map((it, k) => {
     const f = fichas[k] && !fichas[k].error ? fichas[k] : {};
     const todo = [it.titulo, f.objeto, f.dirigido].join(' ');
     return {
-      id: 'eus-' + norm(it.url.replace(BASE, '')).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
+      id: it.id,
       titulo: frase(it.titulo),
-      organismo: f.organismo || it.organismo,
+      organismo: f.organismo || it.organismo || '',
       ambito: { nivel: 'euskadi', nombre: 'Toda Euskadi' },
-      inicio: it.inicio,
-      fin: it.fin,
-      permanente: it.permanente,
-      estadoFuente: it.estadoTexto,
+      inicio: it.inicio || null,
+      fin: it.fin || null,
+      permanente: !!it.permanente,
+      estadoFuente: it.estadoTexto || '',
       presupuesto: f.presupuesto || null,
       cuantia: f.cuantia || '',
       resumen: f.objeto || '',
       dirigido: f.dirigido || '',
       para: paraDeTexto(todo),
-      temas: temasDe(todo),
+      temas: temasDe(todo + ' ' + (it.departamento || '')),
       url: it.url,
       fuentes: [{ nombre: 'euskadi.eus', url: it.url }],
       errorFicha: fichas[k] && fichas[k].error ? fichas[k].error : undefined,

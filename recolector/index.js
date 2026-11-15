@@ -6,8 +6,8 @@ import * as euskadi from './euskadi.js';
 import * as bdns from './bdns.js';
 
 const SALIDA = path.resolve('publico');
-// El listado de euskadi.eus rechaza clientes identificados como robot (pendiente de decidir cómo acceder).
 const FUENTES = [
+  { clave: 'euskadi', nombre: 'Gobierno Vasco (Open Data Euskadi y euskadi.eus)', mod: euskadi },
   { clave: 'bdns', nombre: 'Base de Datos Nacional de Subvenciones', mod: bdns },
 ];
 
@@ -102,7 +102,11 @@ async function main() {
 
   for (const k in resultados) for (const a of resultados[k]) a.origen = a.origen || k;
   let ayudas = unir(resultados.euskadi || [], resultados.bdns || []);
-  try { await enriquecer(ayudas); } catch (e) { log(`Aviso: no se pudieron completar fichas: ${e.message}`); }
+  { // Duplicados exactos (misma ayuda registrada dos veces)
+    const vistos = new Set();
+    ayudas = ayudas.filter((a) => { const k = norm(a.titulo) + '|' + a.ambito.nombre + '|' + (a.fin || ''); if (vistos.has(k)) return false; vistos.add(k); return true; });
+  }
+  try { await enriquecer(ayudas.filter((a) => a.origen !== 'euskadi')); } catch (e) { log(`Aviso: no se pudieron completar fichas: ${e.message}`); }
   for (const a of ayudas) { a.estado = estado(a); delete a.errorFicha; delete a.abiertoSegunFuente; }
   // Fuera: cerradas y las que no tienen fechas y llevan más de 90 días registradas
   const limite = new Date(Date.now() - 90 * 864e5).toISOString().slice(0, 10);

@@ -82,7 +82,12 @@ export function texto(html) {
     .split('\n').map((l) => l.trim()).filter(Boolean).join('\n');
 }
 
-export async function pedir(url, { json = false, tries = 3, timeout = 30000 } = {}) {
+// Algunos servidores públicos (euskadi.eus) rechazan clientes identificados como robot.
+// Para ellos usamos la cabecera de un navegador estándar (decisión del proyecto, ver README).
+const UA_BOT = 'Mozilla/5.0 (compatible; EskubatBot/0.1; +https://github.com/eskubat/datos)';
+const UA_NAVEGADOR = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36';
+
+export async function pedir(url, { json = false, tries = 3, timeout = 30000, navegador = false } = {}) {
   let last;
   for (let i = 0; i < tries; i++) {
     const ctrl = new AbortController();
@@ -90,12 +95,12 @@ export async function pedir(url, { json = false, tries = 3, timeout = 30000 } = 
     try {
       const r = await fetch(url, {
         signal: ctrl.signal,
-        headers: { 'User-Agent': 'Mozilla/5.0 (compatible; EskubatBot/0.1; +https://github.com/eskubat/datos)', Accept: json ? 'application/json' : 'text/html,*/*' },
+        headers: { 'User-Agent': navegador ? UA_NAVEGADOR : UA_BOT, Accept: json ? 'application/json' : 'text/html,*/*' },
       });
       clearTimeout(t);
       if (r.status === 429 || r.status >= 500) { last = new Error(`HTTP ${r.status}`); await sleep(1500 * (i + 1)); continue; }
       if (!r.ok) throw new Error(`HTTP ${r.status} en ${url}`);
-      if (json) return await r.json();
+      if (json) { const t = decodificar(await r.arrayBuffer()).trim(); return JSON.parse(t.replace(/^[\w$.]+\(\s*/, '').replace(/\)\s*;?\s*$/, '')); }
       return decodificar(await r.arrayBuffer());
     } catch (e) {
       clearTimeout(t);
