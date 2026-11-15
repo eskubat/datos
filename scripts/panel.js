@@ -50,6 +50,7 @@ function ficha(id) {
   return f;
 }
 
+const titPendIds = new Set(titPend.map((t) => t.id));
 const ayudas = pub.ayudas.map((a) => ({
   id: a.id, d: idDoc(a.id), titulo: a.titulo, organismo: a.organismoCompleto || a.organismo || '',
   nivel: (a.ambito && a.ambito.nivel) || '', lugar: a.ambito ? [a.ambito.nombre, a.ambito.terr].filter(Boolean).join(', ') : '',
@@ -57,7 +58,7 @@ const ayudas = pub.ayudas.map((a) => ({
   registrada: a.registrada || a.publicacion || '', importeMax: a.importeMax || null,
   resumen: corta(a.resumen, 900), cuantia: corta(unir(a.cuantia), 700), dirigido: corta(unir(a.dirigido), 500),
   requisitos: corta(unir(a.requisitos), 900), fuente: (a.fuentes && a.fuentes[0] && a.fuentes[0].nombre) || a.origen || '',
-  ficha: ficha(a.id), pendiente: pend.some((p) => p.id === a.id),
+  ficha: ficha(a.id), pendiente: pend.some((p) => p.id === a.id), tp: titPendIds.has(a.id),
 }));
 
 // Fuentes: lo que mide el recolector + descripciones de panel/fuentes.json
@@ -78,7 +79,8 @@ let commit = '';
 try { commit = execSync('git log -1 --format=%h', { encoding: 'utf8' }).trim(); } catch {}
 
 const datos = {
-  generado: ahora, commit, cola, hechas, historial: hist.slice(-500),
+  generado: ahora, commit, cola, hechas,
+  noticias: { pendientes: noticias.filter((n) => !decis[n.id]).slice(0, 30).map((n) => ({ id: n.id, titulo: n.titulo || n.title || n.id })), decisiones: Object.entries(decis).slice(-30).reverse().map(([id, d]) => ({ id, titulo: (noticias.find((n) => n.id === id) || {}).titulo || '', accion: d.accion || '', nota: d.nota || '' })) }, historial: hist.slice(-500),
   tarea: { modo: cola.fichas + cola.titulos + cola.noticias === 0 ? 'diaria' : 'cada hora' },
   fuentes: { fecha: (est.generado || '').slice(0, 10), consultadas, potenciales: desc.potenciales, enlaces: est.enlaces || null },
   instrucciones, ayudas, tareas: leer('panel/tareas.json', []), mejora: leer('panel/mejora.json', {}),

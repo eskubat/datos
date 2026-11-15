@@ -326,6 +326,24 @@ body.asis-on .asis{display:flex}
 .asis-vacio .ej{display:block;width:100%;text-align:left;margin:0 0 6px;border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:8px 10px;cursor:pointer;font-size:13.5px}
 .asis-vacio .ej:hover{border-color:var(--accent)}
 .chip.rec-ok{background:var(--accent-soft);color:var(--accent-d)}.chip.rec-warn{background:#fdecd8;color:#8a4b0f}.chip.rec-bad{background:#fbe0dc;color:#9b2c1f}
+.revtabs{display:inline-flex;gap:4px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:3px;margin:16px 0 10px}
+.revtabs button{border:0;background:none;border-radius:999px;padding:6px 16px;font:600 14px var(--body);cursor:pointer;color:var(--muted)}
+.revtabs button.on{background:var(--accent);color:var(--accent-ink)}
+.revgrid{display:grid;grid-template-columns:180px 1fr;gap:22px;align-items:center}
+.corona{width:180px;height:180px} .corona .cn{font:800 28px var(--display);fill:var(--ink)} .corona .cs{font:13px var(--body);fill:var(--muted)}
+.corona circle[data-fl]:hover{opacity:.8}
+.leyenda.col{display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.leyenda .lg{display:flex;align-items:center;gap:8px;border:0;background:none;padding:2px 0;font:14px var(--body);color:var(--ink)}
+button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
+.leyenda .lg i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.lnk{border:0;background:none;padding:0;color:var(--accent-d);text-decoration:underline;cursor:pointer;font:inherit}
+.que{margin-top:12px;padding:10px 12px;background:var(--bg);border-radius:8px;font-size:14px} .que p{margin:4px 0 0;color:var(--ink-2,var(--ink))}
+.notlist{margin:10px 0 0;padding:0;list-style:none;font-size:13px;max-height:190px;overflow:auto} .notlist li{padding:4px 0;border-top:1px solid var(--line)}
+.tbhead{display:flex;align-items:baseline;gap:10px;margin-bottom:8px}
+.tbf{margin-bottom:10px;display:flex;flex-wrap:wrap;gap:8px}
+.tbf input{width:100%;padding:6px 8px;border:1px solid var(--line);border-radius:6px;font:14px var(--body)}
+.ftabla.tb tbody tr{cursor:pointer} .ftabla.tb tbody tr:hover td{background:var(--accent-soft)}
+@media (max-width:640px){.revgrid{grid-template-columns:1fr;justify-items:center}}
 @media (max-width:760px){.estado-rev .er-top{grid-template-columns:1fr}}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
 @media (max-width:760px){.eta{grid-template-columns:1fr}}
@@ -559,6 +577,7 @@ const CAMPOS={
   temas:{t:"Tema",v:a=>a.temas,o:null},
   organismo:{t:"Organismo",v:a=>a.organismo,o:null},
   cierre:{t:"Cierre",v:a=>{const d=diasHasta(a.fin); return d==null||d<0?"":d<=7?"7d":d<=30?"30d":"mas";},o:{"7d":"Cierra en 7 días","30d":"Cierra en 8 a 30 días","mas":"Cierra en más de 30 días"}},
+  tit:{t:"Título",v:a=>a.tp?"pendiente":"revisado",o:{revisado:"Título estandarizado",pendiente:"Título pendiente"}},
   nueva:{t:"Novedad",v:a=>a.registrada&&(hoy()-new Date(a.registrada+"T00:00:00"))/864e5<=7?"si":"",o:{si:"Nueva en los últimos 7 días"}}
 };
 function cuenta(campo){ const m=new Map(); D.ayudas.forEach(a=>[].concat(CAMPOS[campo].v(a)).filter(Boolean).forEach(k=>m.set(k,(m.get(k)||0)+1))); return [...m.entries()].sort((a,b)=>b[1]-a[1]); }
@@ -582,12 +601,10 @@ function renderBase(){
     <section class="card estado-rev">
       <div class="er-top">
         <div class="big">${ico("reloj")}<div><div class="tl">${horas?"Falta para tenerlo todo revisado":"Revisión al día"}</div><div class="tn">${horas?`≈ ${num(horas)} h`:"0 h"}</div>
-          <div class="hint">${horas?`Terminaría el ${fin.toLocaleString("es-ES",{weekday:"long",day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"})} · ritmo ${obs!=null?num(Math.round(obs*10)/10):"10"} fichas/hora`:"No queda nada pendiente."}</div></div></div>
+          <div class="hint">${horas?`Terminaría el ${fin.toLocaleString("es-ES",{weekday:"long",day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"})} · ritmo ${num(Math.round(ritmo*10)/10)} fichas/hora${obs!=null&&obs<=0.5?" (previsto)":""}`:"No queda nada pendiente."}</div></div></div>
         <div class="er-quien">${ico("estrella")}<div><b>Claude revisa ${D.tarea&&D.tarea.modo==="diaria"?"una vez al día":"cada hora, a y 32"}</b><span>Lee la documentación oficial entera, redacta la ficha por tipo de solicitante en castellano y euskera, comprueba cada cifra contra la fuente y te pasa solo las decisiones de criterio.</span></div></div>
       </div>
-      <div class="tl" style="margin:16px 0 6px">Fichas de las ${num(n)} ayudas de la app · pulsa una parte para verlas</div>
-      <div class="segbar">${seg("revisada",cR.revisada||0,"s-ok","Revisadas por Claude")}${seg("pendiente",cR.pendiente||0,"s-pend","Pendientes de revisar")}${seg("sinficha",cR.sinficha||0,"s-sin","Sin texto para revisar")}</div>
-      <div class="leyenda"><span><i class="lh"></i>Revisadas ${num(cR.revisada||0)}</span><span><i class="lpd"></i>Pendientes ${num(cR.pendiente||0)}</span>${cR.sinficha?`<span><i class="lsin"></i>Sin texto ${num(cR.sinficha)}</span>`:""}</div>
+      <div id="revTipo"></div>
     </section>
     <div class="tiles cinco">
       ${tileF("Revisadas por Claude",cR.revisada||0,`${Math.round((cR.revisada||0)*100/n)} % de la app`,{rev:"revisada"},"t-ok")}
@@ -613,9 +630,67 @@ function renderBase(){
         <div><span class="hr">17:52</span>${ico("estrella")}<b>Claude revisa solo lo nuevo o cambiado</b><span>Redacta sus fichas, aplica los cambios que hayas pedido y vuelve a publicar esta página.</span></div>
         <div><span class="hr">Cuando quieras</span>${ico("user")}<b>Tú solo miras los comentarios</b><span>Si hay alguna decisión de criterio, aparece como comentario abierto. Si no, no hay nada que hacer.</span></div>
       </div></div></details>
+    <section class="card" id="tablaB"></section>
   </div>`;
   $("#detalle").querySelectorAll("[data-fl]").forEach(b=>b.onclick=()=>irLista(JSON.parse(b.dataset.fl)));
   $("#detalle").querySelectorAll(".barra-f").forEach(b=>b.onclick=()=>irLista({[b.dataset.f]:b.dataset.v}));
+  renderRevTipo(); renderTablaB();
+}
+function corona(partes,centro,sub){
+  const tot=partes.reduce((s,p)=>s+p.v,0)||1, R=70, C=2*Math.PI*R; let off=0;
+  const arcs=partes.filter(p=>p.v).map(p=>{ const len=p.v/tot*C, gap=partes.filter(x=>x.v).length>1?3:0;
+    const el=`<circle r="${R}" cx="90" cy="90" fill="none" stroke="${p.c}" stroke-width="26" stroke-dasharray="${Math.max(len-gap,0.5)} ${C}" stroke-dashoffset="${-off}" transform="rotate(-90 90 90)" ${p.fl?`data-fl='${esc(JSON.stringify(p.fl))}' style="cursor:pointer"`:""}><title>${esc(p.l)}: ${num(p.v)}</title></circle>`; off+=len; return el; }).join("");
+  return `<svg viewBox="0 0 180 180" class="corona" role="img" aria-label="${esc(partes.map(p=>p.l+": "+p.v).join(", "))}"><circle r="${R}" cx="90" cy="90" fill="none" stroke="var(--line)" stroke-width="26"/>${arcs}<text x="90" y="88" text-anchor="middle" class="cn">${centro}</text><text x="90" y="110" text-anchor="middle" class="cs">${esc(sub)}</text></svg>`;
+}
+const REVTIPOS={
+  fichas:{t:"Fichas",que:"Claude lee entera la documentación oficial de cada ayuda (bases, convocatoria, anexos), extrae plazos, cuantías, requisitos y documentos, y redacta una ficha para cada tipo de solicitante en castellano y en euskera. Comprueba cada cifra contra el texto oficial; si falta un dato, busca el documento que lo tiene, y solo te pasa las decisiones de criterio. Ritmo: 10 por pasada."},
+  titulos:{t:"Títulos",que:"Los títulos oficiales suelen ser largos y técnicos («Resolución de… por la que se convocan…»). Claude los reescribe como un título claro que dice qué se paga y a quién, siguiendo las reglas de Títulos, en castellano y en euskera. Incluye también las convocatorias del histórico, por eso hay más títulos que ayudas. Ritmo: 300 por pasada."},
+  noticias:{t:"Noticias",que:"Claude lee los titulares de ayudas de las noticias (Lehendakaritza, ayudas europeas) y decide si cada uno es una ayuda real a la que se puede optar desde Euskadi. Si lo es, busca la convocatoria oficial y la da de alta en la app; si no (premio sin dotación, plazo cerrado, nota informativa), la descarta y anota por qué. Ritmo: 10 por pasada."}
+};
+function renderRevTipo(){
+  const box=$("#revTipo"); if(!box) return; const k=S.revTipo||"fichas", t=D.cola||{}, hc=D.hechas||{}, A=D.ayudas;
+  const OK="var(--accent)", PD="var(--or)", SN="#b9c2bd"; let partes, cen, sub, extra="";
+  if(k==="fichas"){ const c=Object.fromEntries(cuenta("rev")); partes=[{l:"Revisadas por Claude",v:c.revisada||0,c:OK,fl:{rev:"revisada"}},{l:"Pendientes de revisar",v:c.pendiente||0,c:PD,fl:{rev:"pendiente"}},{l:"Sin texto para revisar",v:c.sinficha||0,c:SN,fl:{rev:"sinficha"}}];
+    cen=Math.round((c.revisada||0)*100/A.length)+"%"; sub="revisadas"; }
+  else if(k==="titulos"){ const pa=A.filter(a=>a.tp).length; partes=[{l:"Estandarizados",v:hc.titulos||0,c:OK},{l:"Pendientes",v:t.titulos||0,c:PD}];
+    const tot=(hc.titulos||0)+(t.titulos||0); cen=tot?Math.round((hc.titulos||0)*100/tot)+"%":"—"; sub="hechos";
+    extra=`<p class="hint" style="margin:8px 0 0">De las ${num(A.length)} ayudas de la app: <button class="lnk" data-fl='{"tit":"revisado"}'>${num(A.length-pa)} con título estandarizado</button> · <button class="lnk" data-fl='{"tit":"pendiente"}'>${num(pa)} pendientes</button>.</p>`; }
+  else { const N=D.noticias||{pendientes:[],decisiones:[]}; partes=[{l:"Decididas",v:hc.noticias||0,c:OK},{l:"Pendientes",v:t.noticias||0,c:PD}];
+    const tot=(hc.noticias||0)+(t.noticias||0); cen=num(tot); sub="noticias";
+    const ACC={alta:"Dada de alta",añadida:"Dada de alta",anadida:"Dada de alta",no_es_ayuda:"No es una ayuda",cerrada:"Plazo cerrado",duplicada:"Ya estaba",sin_convocatoria:"Sin convocatoria oficial"};
+    const L=[...N.pendientes.map(x=>`<li><span class="chip" style="background:var(--or-soft)">Pendiente</span> ${esc(x.titulo)}</li>`),...N.decisiones.slice(0,8).map(x=>`<li><span class="chip">${esc(ACC[x.accion]||x.accion||"Decidida")}</span> ${linkify(esc((x.titulo?x.titulo+" — ":"")+x.nota).slice(0,260))}</li>`)];
+    extra=L.length?`<ul class="notlist">${L.join("")}</ul>`:""; }
+  box.innerHTML=`<div class="revtabs" role="tablist">${Object.entries(REVTIPOS).map(([id,x])=>`<button role="tab" class="${id===k?"on":""}" data-rt="${id}" aria-selected="${id===k}">${x.t}</button>`).join("")}</div>
+    <div class="revgrid">${corona(partes,cen,sub)}
+      <div><div class="leyenda col">${partes.map(p=>`<${p.fl?"button":"span"} class="lg" ${p.fl?`data-fl='${esc(JSON.stringify(p.fl))}'`:""}><i style="background:${p.c}"></i>${esc(p.l)} <b>${num(p.v)}</b></${p.fl?"button":"span"}>`).join("")}</div>
+        ${k==="fichas"?`<p class="hint" style="margin:6px 0 0">Pulsa una parte para ver esas ayudas.</p>`:""}${extra}
+        <div class="que"><b>Qué hace Claude con ${REVTIPOS[k].t.toLowerCase()}</b><p>${REVTIPOS[k].que}</p></div></div></div>`;
+  box.querySelectorAll("[data-rt]").forEach(b=>b.onclick=()=>{ S.revTipo=b.dataset.rt; renderRevTipo(); });
+  box.querySelectorAll("[data-fl]").forEach(b=>b.onclick=()=>irLista(JSON.parse(b.dataset.fl)));
+}
+function renderTablaB(){
+  const box=$("#tablaB"); if(!box) return; const T=S.tb=S.tb||{fl:{},q:"",n:50};
+  const q=T.q.trim().toLowerCase();
+  const L=D.ayudas.filter(a=>pasa(a,T.fl)&&(!q||[a.titulo,a.organismo,a.lugar,a.id].join(" ").toLowerCase().includes(q)))
+    .sort((a,b)=>{ const da=diasHasta(a.fin), db=diasHasta(b.fin); const ka=da==null||da<0?9999:da, kb=db==null||db<0?9999:db; return ka-kb||a.titulo.localeCompare(b.titulo); });
+  const sel=(c)=>{ const ops=CAMPOS[c].o?Object.keys(CAMPOS[c].o):cuenta(c).slice(0,c==="organismo"?80:40).map(x=>x[0]);
+    return `<label class="fsel"><span>${CAMPOS[c].t}</span><select data-tc="${c}"><option value="">Todos</option>${ops.map(o=>`<option value="${esc(o)}" ${T.fl[c]===o?"selected":""}>${esc(etq(c,o))}</option>`).join("")}</select></label>`; };
+  const imp=v=>v?num(v)+" €":"<span class='hint'>—</span>";
+  const plazo=a=>{ const d=diasHasta(a.fin); return `${a.fin?fmtFecha(a.fin):"<span class='hint'>Sin fecha</span>"}<div><span class="chip ${a.estado==="abierta"?"ar-datos":""}">${esc(EST_AY[a.estado]||a.estado||"")}</span>${d!=null&&d>=0&&d<=7?` <span class="chip" style="background:var(--or-soft);color:var(--or-d)">${d===0?"hoy":d===1?"mañana":d+" días"}</span>`:""}</div>`; };
+  box.innerHTML=`<div class="tbhead"><h3 style="margin:0">Todas las ayudas</h3><span class="hint">${num(L.length)} de ${num(D.ayudas.length)}</span></div>
+    <div class="filtros tbf"><label class="fsel" style="flex:1 1 220px"><span>Buscar</span><input id="tbq" type="search" value="${esc(T.q)}" placeholder="Título, organismo, municipio…"></label>${["nivel","para","temas","estado","cierre","rev","tit","com","organismo"].map(sel).join("")}${Object.values(T.fl).some(Boolean)||T.q?`<button class="btn ghost" id="tbx" style="align-self:flex-end">Quitar filtros</button>`:""}</div>
+    <div class="tabwrap"><table class="ftabla tb"><thead><tr><th>Ayuda</th><th>Quién convoca</th><th>Para quién</th><th>Plazo</th><th>Tema</th><th>Revisión</th></tr></thead><tbody>
+    ${L.slice(0,T.n).map(a=>`<tr data-ab="${esc(a.id)}" tabindex="0"><td><b>${esc(a.titulo)}</b><div class="hint">${esc(a.organismo)}</div></td>
+      <td>${esc(NIVEL[a.nivel]||a.nivel||"")}<div class="hint">${esc(a.lugar||"")}</div></td>
+      <td>${[].concat(a.para||[]).map(x=>esc(TIPO_SOL[x]||x)).join(", ")}</td><td>${plazo(a)}</td><td>${[].concat(a.temas||[]).slice(0,2).map(x=>esc(etq("temas",x))).join(", ")||"<span class='hint'>—</span>"}${a.importeMax?`<div class="hint">hasta ${num(a.importeMax)} €</div>`:""}</td>
+      <td><span class="chip ${a.ficha?"rec-ok":"rec-warn"}">${a.ficha?"Ficha revisada":"Ficha pendiente"}</span>${a.tp?`<div><span class="chip rec-warn" style="margin-top:4px">Título pendiente</span></div>`:""}${(()=>{const c=comDe(a); return c&&c!=="ninguno"?`<div class="hint" style="margin-top:4px">${esc(CAMPOS.com.o[c]||c)}</div>`:"";})()}</td></tr>`).join("")}
+    </tbody></table></div>
+    ${L.length>T.n?`<div style="text-align:center;margin-top:10px"><button class="btn" id="tbmas">Mostrar ${num(Math.min(50,L.length-T.n))} más</button></div>`:""}`;
+  box.querySelectorAll("select[data-tc]").forEach(s=>s.onchange=()=>{ T.fl[s.dataset.tc]=s.value; T.n=50; renderTablaB(); });
+  const qi=$("#tbq"); let tm; qi.oninput=()=>{ clearTimeout(tm); tm=setTimeout(()=>{ T.q=qi.value; T.n=50; renderTablaB(); const n=$("#tbq"); n.focus(); n.setSelectionRange(n.value.length,n.value.length); },250); };
+  const x=$("#tbx"); if(x) x.onclick=()=>{ S.tb={fl:{},q:"",n:50}; renderTablaB(); };
+  const m=$("#tbmas"); if(m) m.onclick=()=>{ T.n+=50; renderTablaB(); };
+  box.querySelectorAll("tr[data-ab]").forEach(r=>{ const go=()=>{ S.fl={...T.fl}; Object.keys(S.fl).forEach(k=>!S.fl[k]&&delete S.fl[k]); S.q=T.q; S.selec=new Set(); cambiarVista("l"); seleccionar(r.dataset.ab); }; r.onclick=go; r.onkeydown=e=>{ if(e.key==="Enter") go(); }; });
 }
 
 /* ================= LISTA DE AYUDAS (filtros y selección) ================= */
