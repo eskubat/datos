@@ -166,7 +166,7 @@ async function main() {
     [/sin personalidad jur[ií]dica/i, 'Comunidades de propietarios y otras agrupaciones sin personalidad jurídica'],
     [/entidades locales|administraci/i, 'Ayuntamientos y otras administraciones'],
   ];
-  const ORG_POR_AMBITO = (a) => a.ambito.nivel === 'municipio' ? `Ayuntamiento de ${a.ambito.nombre.split(' / ')[0]}` : a.ambito.nivel === 'territorio' ? `Diputación Foral de ${a.ambito.nombre === 'Araba/Álava' ? 'Álava' : a.ambito.nombre}` : 'Gobierno Vasco';
+  const ORG_POR_AMBITO = (a) => a.ambito.nivel === 'municipio' ? `Ayuntamiento de ${a.ambito.nombre.split(' / ')[0]}` : a.ambito.nivel === 'territorio' ? `Diputación Foral de ${a.ambito.nombre === 'Araba/Álava' ? 'Álava' : a.ambito.nombre}` : a.ambito.nivel === 'estado' ? 'Gobierno de España' : a.ambito.nivel === 'ue' ? 'Unión Europea' : 'Gobierno Vasco';
   // Tipo de solicitante a partir de "a quién va dirigido" (o del título si la fuente no lo dice)
   const TIPO = {
     particular: /personas f[ií]sicas que no desarrollan|^personas f[ií]sicas$|^personas$|particular|unidad(es)? de convivencia|familias|j[oó]venes|estudiantes|alumnado|personas (desemplead|mayores|con discapacidad|trabajadoras|residentes|empadronad|propietari|inquilin|arrendatari|v[ií]ctimas)|pensionistas|ciudadan[ií]a|comunidades de (personas )?propietari|deportistas|personal investigador|investigador(es|as)|menor(es)? a (su )?cargo|mujeres/i,

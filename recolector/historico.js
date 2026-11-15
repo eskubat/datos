@@ -39,7 +39,7 @@ async function bdnsHistorico() {
       revisadas += c.length;
       for (const it of c) {
         const amb = clasifica(it.nivel1, it.nivel2, it.nivel3);
-        if (!amb || RUIDO.test(it.descripcion || '')) continue;
+        if (!amb || amb.nivel === 'estado' || RUIDO.test(it.descripcion || '')) continue;
         out.push({ titulo: limpiaTitulo(it.descripcion), organismo: frase(it.nivel3 || it.nivel2 || ''), ambito: amb, fecha: iso(it.fechaRecepcion), bdns: String(it.numeroConvocatoria) });
       }
       if (!c.length || r.last === true || c.length < 200) break;
