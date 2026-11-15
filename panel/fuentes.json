@@ -1,0 +1,120 @@
+{
+ "consultadas": [
+  {
+   "clave": "euskadi",
+   "nombre": "Gobierno Vasco: Open Data Euskadi y catálogo de euskadi.eus",
+   "que": "Procedimientos de ayuda del Gobierno Vasco y sus organismos (Lanbide, Osakidetza…), con fechas y ficha.",
+   "como": "Datos abiertos + primera página del catálogo con plazo abierto. Se entra como navegador estándar, con pocas descargas al día, porque bloquean a los robots.",
+   "pendiente": "Esperar respuesta a la solicitud de acceso a Open Data Euskadi. Con acceso, leer todas las páginas del catálogo, no solo la primera.",
+   "quien": "Tú"
+  },
+  {
+   "clave": "gipuzkoa",
+   "nombre": "Diputación Foral de Gipuzkoa: sede electrónica",
+   "que": "Líneas de ayuda de la Diputación con plazo.",
+   "como": "Lectura de la web.",
+   "pendiente": ""
+  },
+  {
+   "clave": "araba",
+   "nombre": "Diputación Foral de Álava: «Ayudas en vigor»",
+   "que": "Solo las ayudas destacadas que la Diputación pone en esa página.",
+   "como": "Lectura de la web.",
+   "pendiente": "Cobertura muy baja. Leer la guía de trámites completa de la sede electrónica (egoitza.araba.eus).",
+   "quien": "Claude (código)"
+  },
+  {
+   "clave": "bdns",
+   "nombre": "BDNS (InfoSubvenciones)",
+   "que": "Diputación de Bizkaia, ayuntamientos, el resto de convocatorias de Euskadi y las estatales para toda España.",
+   "como": "API pública. Se descartan las nominativas, directas y convenios.",
+   "pendiente": ""
+  },
+  {
+   "clave": "boletines",
+   "nombre": "Boletines forales: BOB, BOG y BOTHA",
+   "que": "Ayudas de diputaciones y ayuntamientos que no llegan por la BDNS ni por las webs (también Bilbao, Donostia y Vitoria-Gasteiz).",
+   "como": "Sumarios de los últimos 45 días; se quedan las convocatorias y se baja su texto.",
+   "pendiente": ""
+  },
+  {
+   "clave": "",
+   "nombre": "Funding & Tenders Portal (Comisión Europea)",
+   "que": "Convocatorias europeas abiertas y próximas.",
+   "como": "Búsqueda pública. No se publican todas: sirven para cotejar noticias, y la tarea añade las que encajan.",
+   "pendiente": "Decidir qué convocatorias europeas se publican en la app (ahora solo las que aparecen en noticias).",
+   "quien": "Tú"
+  },
+  {
+   "clave": "",
+   "nombre": "Noticias europeas de euskadi.eus",
+   "que": "Titulares de ayudas europeas de Lehendakaritza.",
+   "como": "La tarea decide si cada noticia es una ayuda y busca la convocatoria oficial.",
+   "pendiente": ""
+  },
+  {
+   "clave": "",
+   "nombre": "Histórico de convocatorias",
+   "que": "Convocatorias de años anteriores, para anunciar las que se repiten.",
+   "como": "Barrido semanal.",
+   "pendiente": ""
+  },
+  {
+   "clave": "",
+   "nombre": "Boletines y webs oficiales leídos por Claude",
+   "que": "BOPV, BOE y webs de organismos cuando a una ficha le falta un dato.",
+   "como": "La tarea los busca y copia el texto al repositorio.",
+   "pendiente": ""
+  }
+ ],
+ "potenciales": [
+  {
+   "nombre": "Sumario del BOPV",
+   "por": "El Gobierno Vasco publica ahí todas sus convocatorias. Recogería las que no salen en el catálogo, sobre todo mientras solo se lee su primera página.",
+   "hacer": "Añadirlo al lector de boletines, como el BOB, el BOG y el BOTHA.",
+   "quien": "Claude (código)"
+  },
+  {
+   "nombre": "SPRI: Agencia Vasca de Desarrollo Empresarial",
+   "por": "Gran parte de las ayudas a empresas (innovación, digitalización, internacionalización). Hay que comprobar cuántas llegan ya por euskadi.eus o la BDNS.",
+   "hacer": "Comparar su catálogo con lo que ya tenemos; si faltan, añadir un lector de su web.",
+   "quien": "Claude"
+  },
+  {
+   "nombre": "EVE: Ente Vasco de la Energía",
+   "por": "Ayudas a eficiencia energética, autoconsumo y movilidad eléctrica, para particulares y empresas.",
+   "hacer": "Comprobar cobertura actual; añadir lector si faltan.",
+   "quien": "Claude"
+  },
+  {
+   "nombre": "Sede electrónica de la Diputación de Bizkaia",
+   "por": "Bizkaia llega solo por la BDNS y el BOB, que no recogen las ayudas permanentes ni las fichas de trámite.",
+   "hacer": "Comprobar qué publica la sede que no esté ya; añadir lector si compensa.",
+   "quien": "Claude"
+  },
+  {
+   "nombre": "Webs de Bilbao, Donostia y Vitoria-Gasteiz",
+   "por": "Las tres capitales tienen catálogos propios; ahora solo entran por la BDNS y los boletines.",
+   "hacer": "Ver si hay datos abiertos o una página legible; hoy no se pueden leer automáticamente.",
+   "quien": "Claude"
+  },
+  {
+   "nombre": "Agencias de desarrollo comarcal (Behargintza, Inguralde, Debegesa…)",
+   "por": "Ayudas al empleo y al comercio local; parte llega por la BDNS.",
+   "hacer": "Medir qué falta comparando con la BDNS.",
+   "quien": "Claude"
+  },
+  {
+   "nombre": "Prestaciones permanentes (Ingreso Mínimo Vital, RGI, prestaciones por hijo, bono social)",
+   "por": "Son ayudas que la gente busca, pero no son convocatorias con plazo.",
+   "hacer": "Decisión de producto: ¿entran en la app como «ayudas permanentes»?",
+   "quien": "Tú"
+  },
+  {
+   "nombre": "Fundaciones y obras sociales (BBK, Kutxa, Fundación Vital)",
+   "por": "Convocatorias de ayudas privadas para asociaciones y personas.",
+   "hacer": "Decisión de producto: ¿solo ayudas públicas o también privadas?",
+   "quien": "Tú"
+  }
+ ]
+}
