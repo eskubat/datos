@@ -12,7 +12,7 @@ const DIR = path.join('cache', 'docs');
 const INDICE = path.join(DIR, 'indice.json');
 const MAX_POR_DOC = 200000; // antes 60000: cortaba las bases de cuantía de las órdenes largas del BOPV
 const V = 2; // versión del procesado: si cambia, se vuelven a bajar los documentos
-const MAX_ENLACES = 8;
+const MAX_ENLACES = 12; // antes 8: se quedaban fuera anexos y bases de las convocatorias con muchos enlaces
 const DIAS = 30;
 const sha = (u) => crypto.createHash('sha1').update(u).digest('hex').slice(0, 16);
 const hoy = () => new Date().toISOString().slice(0, 10);
@@ -20,7 +20,7 @@ const hoy = () => new Date().toISOString().slice(0, 10);
 function pdfATexto(buf) {
   const f = path.join(os.tmpdir(), 'eskubat-' + Math.random().toString(36).slice(2) + '.pdf');
   fs.writeFileSync(f, buf);
-  try { return execFileSync('pdftotext', ['-l', '40', '-enc', 'UTF-8', f, '-'], { maxBuffer: 50e6, stdio: ['ignore', 'pipe', 'ignore'] }).toString('utf8'); }
+  try { return execFileSync('pdftotext', ['-l', '150', '-enc', 'UTF-8', f, '-'], { maxBuffer: 50e6, stdio: ['ignore', 'pipe', 'ignore'] }).toString('utf8'); }
   catch { return ''; } finally { fs.rmSync(f, { force: true }); }
 }
 // Texto del PDF sin cabeceras de página de los boletines y, en normas largas, sin la exposición de motivos
@@ -87,7 +87,7 @@ async function bajar(url) {
 }
 
 // Devuelve {id: texto completo} con la ficha + enlaces de cada ayuda (máx. `max` caracteres por ayuda)
-export async function documentacion(ayudas, { log = console.log, max = 200000, extra = () => [] } = {}) {
+export async function documentacion(ayudas, { log = console.log, max = 300000, extra = () => [] } = {}) {
   fs.mkdirSync(DIR, { recursive: true });
   let indice = {};
   try { indice = JSON.parse(fs.readFileSync(INDICE, 'utf8')); } catch {}

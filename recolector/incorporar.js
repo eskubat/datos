@@ -3,6 +3,7 @@
 import fs from 'node:fs';
 import { validar, aplicar, huella } from './resumen.js';
 import { comprobarTitulo, aplicarTitulos } from './titulos.js';
+import { textosClaude } from './textos.js';
 
 const leer = (f, d) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return d; } };
 const pendientes = leer('cache/pendientes.json', []);
@@ -15,7 +16,9 @@ for (const r of nuevos) {
   if (!p) { rechazados++; continue; }
   let fuente = '';
   try { fuente = fs.readFileSync(p.archivo, 'utf8'); } catch { rechazados++; continue; }
-  const v = validar(r, fuente);
+  // Las cifras se validan también contra los documentos oficiales que copió la tarea (cache/textos_claude);
+  // la huella es solo la del texto del recolector, para que la ficha no vuelva a pendientes.
+  const v = validar(r, fuente + textosClaude(r.id));
   campos += v.errores.length;
   cache[r.id] = { h: huella(fuente), r: v, modelo: 'claude', fecha: new Date().toISOString().slice(0, 10) };
   ok++;
