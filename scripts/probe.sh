@@ -1,27 +1,28 @@
 #!/bin/bash
-B='https://www.infosubvenciones.es/bdnstrans/api'
-D=$(date -d '-120 days' +%d/%m/%Y)
-python3 - "$B" "$D" <<'PY'
-import sys,json,urllib.request,urllib.parse,collections
-B,D=sys.argv[1],sys.argv[2]
-def get(u):
-  return json.load(urllib.request.urlopen(urllib.request.Request(B+u,headers={'User-Agent':'EskubatBot/0.1'}),timeout=60))
-c=collections.Counter(); est=[]
-for p in range(0,40):
-  r=get(f"/convocatorias/busqueda?vpd=GE&page={p}&pageSize=200&fechaDesde={urllib.parse.quote(D)}&order=fechaRecepcion&direccion=desc")
-  for it in r.get('content',[]):
-    c[it.get('nivel1')]+=1
-    if (it.get('nivel1') or '').upper().startswith('ESTADO'): est.append(it)
-  if r.get('last') or not r.get('content'): break
-print(c.most_common()); print('estado',len(est))
-reg=collections.Counter(); ab=0
-for it in est[:60]:
-  d=get(f"/convocatorias?vpd=GE&numConv={it['numeroConvocatoria']}")
-  if isinstance(d,list): d=d[0]
-  rs=[x.get('descripcion') for x in (d.get('regiones') or [])]
-  reg[' ; '.join(rs)[:80]]+=1
-  if d.get('abierto'): ab+=1
-  if it is est[0]: print(json.dumps({k:d.get(k) for k in ['descripcion','regiones','tiposBeneficiarios','abierto','fechaFinSolicitud','sedeElectronica','organo','instrumentos']},ensure_ascii=False)[:1500])
-print('abiertas en 60:',ab); print(reg.most_common(15))
-for it in est[:15]: print('-',it.get('nivel2'),'|',(it.get('descripcion') or '')[:110])
-PY
+BOT='Mozilla/5.0 (compatible; EskubatBot/0.1; +https://github.com/eskubat/datos)'
+NAV='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36'
+for u in \
+ 'https://www.bizkaia.eus/es/subvenciones' \
+ 'https://www.bizkaia.eus/es/web/guest/ayudas-y-subvenciones' \
+ 'https://www.bizkaia.eus/es/bob' \
+ 'https://www.bizkaia.eus/es/web/bob' \
+ 'https://apps.bizkaia.eus/BT00/BOB/bobvisual' \
+ 'https://www.bizkaia.eus/lehendakaritza/Bao_bob/sumario.asp?Idioma=CA' \
+ 'https://www.araba.eus/botha/inicio/SGBO5001.aspx' \
+ 'https://www.araba.eus/botha/Busquedas/Resultado.aspx' \
+ 'https://web.araba.eus/es/ayudas-en-vigor' \
+ 'https://egoitza.gipuzkoa.eus/es/bog' \
+ 'https://ssl4.gipuzkoa.net/castell/bog/2026/11/13/' \
+ 'https://www.bilbao.eus/cs/Satellite?pagename=Bilbaonet/Page/BIO_listadoPlantilla&cid=1272991143233&language=es' \
+ 'https://www.bilbao.eus/es/subvenciones' \
+ 'https://www.donostia.eus/info/ciudadano/subvenciones.nsf' \
+ 'https://www.donostia.eus/es/subvenciones' \
+ 'https://www.vitoria-gasteiz.org/we001/was/we001Action.do?idioma=es&accion=subvenciones' \
+ 'https://www.vitoria-gasteiz.org/sedeelectronica/es/subvenciones' \
+ 'https://sede.vitoria-gasteiz.org/' ; do
+  for ua in "$BOT" "$NAV"; do
+    r=$(curl -s -L -m 25 -A "$ua" -o /tmp/p.html -w '%{http_code} %{size_download} %{url_effective}' "$u")
+    t=$(grep -o '<title>[^<]*' /tmp/p.html | head -1 | cut -c8-80)
+    echo "$( [ "$ua" = "$BOT" ] && echo BOT || echo NAV ) $r | $t"
+  done
+done
