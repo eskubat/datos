@@ -378,6 +378,10 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 .dlgv .vtit{font:800 19px var(--display);margin:10px 0 4px;text-transform:none;letter-spacing:0;color:var(--ink)}
 .dlgv .vb{margin-top:10px;padding:10px 12px;background:var(--bg);border-radius:8px;font-size:14px;line-height:1.5}
 .dlgv .vt{display:block;font:700 11px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.lnk.del{color:#9b2c1f}
+.plan-i.clic{cursor:pointer} .plan-i.clic:hover{background:var(--accent-soft)}
+.dlgv .vb.ed textarea{width:100%;min-height:80px;margin:4px 0 8px;font:14px var(--body);padding:8px;border:1px solid var(--line);border-radius:8px}
+.dlgv .fila{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 @media (max-width:760px){.estado-rev .er-top{grid-template-columns:1fr}}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
 @media (max-width:760px){.eta{grid-template-columns:1fr}}
@@ -476,14 +480,16 @@ function planClaude(sec){
 }
 const EST_T={pendiente:"Planificada",en_curso:"En curso",hecha:"Hecha",bloqueada:"Bloqueada"};
 const fechaCorta=(d)=>d.toLocaleDateString("es-ES",{weekday:"short",day:"numeric",month:"short"});
+function chipPe(pe){ return pe&&(pe.estado==="pedida"||pe.estado==="lanzada")?`<span class="chip lista">${pe.estado==="pedida"?"Pedida":"En marcha desde las "+new Date(pe.lanzada||pe.pedida).toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})}</span><br>`:""; }
 function filaPlan(t){
-  const pe=(S.peticiones||{})[t.id];
+  const pe=(S.peticiones||{})[t.id], rv=S.docs.find(d=>d._id==="tarea-"+t.id&&["abierta","lista"].includes(d.estado||"abierta"));
   const puede=(t.estado==="pendiente"||t.estado==="en_curso");
-  const btn=!puede?"":pe&&(pe.estado==="pedida"||pe.estado==="lanzada")?`<span class="chip lista">${pe.estado==="pedida"?"Pedida · empieza antes de una hora":"En marcha desde las "+new Date(pe.lanzada||pe.pedida).toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})}</span>`
-    :`<button class="lnk ej" data-ej="${esc(t.id)}">Ejecutar ahora</button>`;
+  const borr=rv&&rv.origen==="plan-eliminar";
+  const acc=borr?`<span class="chip">Se elimina en la próxima pasada</span><br><button class="lnk" data-vc="${esc(rv._id)}">Ver</button>`:rv?`<span class="chip">En revisión</span><br><button class="lnk" data-vc="${esc(rv._id)}">Ver</button>`
+    :(puede||t.estado==="bloqueada")?`${chipPe(pe)}${puede?`<button class="lnk ej" data-ej="${esc(t.id)}">Ejecutar ahora</button> · `:""}<button class="lnk" data-reabt="${esc(t.id)}">Reabrir</button> · <button class="lnk del" data-delt="${esc(t.id)}">Eliminar</button>`:"";
   return `<li class="plan-i ${t.estado}"><span class="chip ${t.estado==="hecha"?"aplicada":t.estado==="bloqueada"?"":"lista"}">${EST_T[t.estado]||t.estado}</span>
     <div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span>${t.nota?`<span class="pn3">${linkify(t.nota)}</span>`:""}</div>
-    <span class="cuando">${t.estado==="pendiente"&&t.previsto?"Prevista "+cuandoT(t.previsto):t.estado==="hecha"&&t.fecha?"Hecha el "+fmtFecha(t.fecha):""}${btn?`<br>${btn}`:""}</span></li>`;
+    <span class="cuando">${t.estado==="pendiente"&&t.previsto&&!rv?"Prevista "+cuandoT(t.previsto)+"<br>":t.estado==="hecha"&&t.fecha?"Hecha el "+fmtFecha(t.fecha)+"<br>":""}${acc}</span></li>`;
 }
 
 const TRIG={plan:"trig_01Tw2kJALN4KcjhobhJEwxpt",correccion:"trig_01P4CfUrXV2AZpfEM8kPEAXt"};
@@ -504,26 +510,66 @@ async function lanzarAhora(tipo,id){
 
 function verCuestion(id){
   const d=S.docs.find(x=>x._id===id); if(!d) return;
-  const EST={abierta:"Abierta: te toca decidir",lista:"En cola: Claude la aplica en la próxima pasada",aplicada:"Hecha",descartada:"Descartada"};
+  const est=d.estado||"abierta";
+  const EST={abierta:"Abierta: te toca decidir",lista:"Planificada: Claude la aplica en la próxima pasada",aplicada:"Hecha",descartada:"Descartada"};
   const a=d.ayudaId&&AY.get(d.ayudaId), ar=areaDe(d), pe=(S.peticiones||{})["corr-"+id];
   const bloque=(t,x)=>x?`<div class="vb"><span class="vt">${t}</span><div>${linkify(esc(x))}</div></div>`:"";
-  $("#dlgVc").innerHTML=`<div class="vh"><div><span class="chip ar-${ar}">${esc(AREAS[ar]||ar)}</span> <span class="chip">${esc(EST[d.estado||"abierta"]||d.estado)}</span></div><button class="btn ghost" data-cerrarv aria-label="Cerrar">✕</button></div>
+  const puedeEditar=["abierta","lista"].includes(est);
+  $("#dlgVc").innerHTML=`<div class="vh"><div><span class="chip ar-${ar}">${esc(AREAS[ar]||ar)}</span> <span class="chip">${esc(EST[est]||est)}</span></div><button class="btn ghost" data-cerrarv aria-label="Cerrar">✕</button></div>
     <h3 class="vtit">${esc(d.titulo||"(sin título)")}</h3>
     ${d.organismo?`<p class="hint" style="margin:0 0 8px">${esc(d.organismo)}${d.fin?` · cierra el ${fmtFecha(d.fin)}`:""}</p>`:""}
     ${a&&a.url?`<p style="margin:0 0 10px"><a href="${esc(a.url)}" target="_blank" rel="noopener">Página oficial de la ayuda ↗</a></p>`:""}
-    ${bloque("Motivo",d.motivo)}${bloque("Instrucción",d.instruccion)}${bloque("Lo que hizo Claude",d.nota)}
+    ${bloque(est==="abierta"?"Pregunta y propuesta de Claude":"Motivo",d.motivo)}${est!=="abierta"?bloque("Instrucción",d.instruccion):""}${bloque("Lo que hizo Claude",d.nota)}
     ${(d.ayudas||[]).length?bloque("Ayudas del lote",d.ayudas.length+" ayudas"):""}
+    ${puedeEditar?`<div class="vb ed"><span class="vt">${est==="abierta"?"Tu instrucción para Claude":"Cambiar la instrucción"}</span>
+      <textarea id="vIns" placeholder="${est==="abierta"?"Escribe qué hacer, o confirma la propuesta tal cual":"Escribe la nueva instrucción"}">${est==="lista"&&!/^Confirmado:/.test(d.instruccion||"")?esc(d.instruccion||""):""}</textarea>
+      <div class="fila">${est==="abierta"?`<button class="btn primary" data-vact="confirmar">Confirmar propuesta</button><button class="btn" data-vact="enviar">Enviar instrucción</button><button class="btn ghost" data-vact="descartar">Descartar</button>`
+        :`<button class="btn primary" data-vact="enviar">Guardar instrucción</button>`}
+        <button class="lnk" data-vact="claude">Hablarlo con Claude</button></div></div>`:""}
     ${d.actualizada?`<p class="hint" style="margin:10px 0 0">Actualizada el ${fmtFecha(d.actualizada.slice(0,10))}</p>`:""}
-    <div class="fila" style="margin-top:14px">${d.estado==="lista"?(pe&&["pedida","lanzada"].includes(pe.estado)?`<span class="chip lista">${pe.estado==="lanzada"?"En marcha":"Pedida"}</span>`:`<button class="lnk ej" data-ejv="${esc(id)}">Ejecutar ahora</button><span class="hint">·</span>`):""}<button class="lnk" data-irc="${esc(id)}">Abrir en Revisión para cambiarla</button></div>`;
-  const e=$("#dlgVc").querySelector("[data-ejv]"); if(e) e.onclick=async()=>{ e.disabled=true; e.textContent="Lanzando…"; const r=await lanzarAhora("correccion",id); setStatus(r.msg); verCuestion(id); };
+    <div class="fila" style="margin-top:12px">${est==="lista"?`${chipPe(pe).replace("<br>","")}<button class="lnk ej" data-ejv="1">Ejecutar ahora</button><span class="hint">·</span>`:""}${est!=="abierta"&&est!=="descartada"||est==="descartada"?`<button class="lnk" data-vact="reabrir">Reabrir</button><span class="hint">·</span>`:""}<button class="lnk" data-irc="${esc(id)}">Abrir en Revisión</button><span class="hint" id="vSt"></span></div>`;
+  const C=$("#dlgVc");
+  const e=C.querySelector("[data-ejv]"); if(e) e.onclick=async()=>{ e.disabled=true; e.textContent="Lanzando…"; const r=await lanzarAhora("correccion",id); setStatus(r.msg); verCuestion(id); };
+  C.querySelectorAll("[data-vact]").forEach(btn=>btn.onclick=async()=>{
+    const k=btn.dataset.vact, txt=($("#vIns")||{}).value?.trim()||"";
+    if(k==="claude"){ $("#dlgV").close(); abrirAsis(`Sobre la cuestión «${d.titulo||""}» (id ${id}): `); return; }
+    if(k==="enviar"&&!txt){ $("#vIns").focus(); return; }
+    const cambios={confirmar:{estado:"lista",instruccion:"Confirmado: aplica la propuesta del motivo tal como está escrita."},enviar:{estado:"lista",instruccion:txt},descartar:{estado:"descartada"},reabrir:{estado:"abierta"}}[k];
+    if(!S.db){ $("#vSt").textContent="Sin conexión con la base de datos de la página"; return; }
+    btn.disabled=true;
+    try{ await S.db.collection("cuestiones").doc(id).update({...cambios,actualizada:new Date().toISOString()}); Object.assign(d,cambios);
+      setStatus({confirmar:"Confirmada: Claude la aplica en la próxima pasada",enviar:"Instrucción guardada: Claude la aplica en la próxima pasada",descartar:"Descartada",reabrir:"Reabierta: vuelve a Para ti"}[k]);
+      if(k==="descartar"||k==="reabrir") $("#dlgV").close(); else verCuestion(id); renderDetalle(); }
+    catch(err){ btn.disabled=false; $("#vSt").textContent="No se pudo guardar ("+(err&&err.code||"error")+")"; }
+  });
   const dl=$("#dlgV"); if(!dl.open) dl.showModal();
+}
+function verTarea(id){
+  const t=(D.tareas||[]).find(x=>x.id===id); if(!t) return;
+  $("#dlgVc").innerHTML=`<div class="vh"><div><span class="chip">${esc(EST_T[t.estado]||t.estado)}</span> <span class="chip">Fuera de la app</span></div><button class="btn ghost" data-cerrarv aria-label="Cerrar">✕</button></div>
+    <h3 class="vtit">${esc(t.titulo)}</h3><div class="vb"><span class="vt">Qué hay que hacer</span><div>${linkify(esc(t.detalle||""))}</div></div>${t.nota?`<div class="vb"><span class="vt">Nota</span><div>${linkify(esc(t.nota))}</div></div>`:""}
+    <div class="fila" style="margin-top:12px"><button class="lnk" data-vtc="1">Contárselo a Claude (hecho, novedades o cambiar la tarea)</button></div>`;
+  $("#dlgVc").querySelector("[data-vtc]").onclick=()=>{ $("#dlgV").close(); abrirAsis(`Sobre mi tarea «${t.titulo}» (id ${t.id}): `); };
+  const dl=$("#dlgV"); if(!dl.open) dl.showModal();
+}
+async function eliminarTarea(id){
+  const t=(D.tareas||[]).find(x=>x.id===id); if(!t||!S.db){ setStatus("Sin conexión con la base de datos de la página"); return; }
+  if(!confirm(`¿Eliminar «${t.titulo}» del plan?`)) return;
+  const ar=t.area||({fuentes:"fuentes",base:"datos",revision:"datos",eskubat:"eskubat"}[t.seccion||"fuentes"]||"datos"), now=new Date().toISOString();
+  await S.db.collection("cuestiones").doc("tarea-"+t.id).set({area:ar,tarea:t.id,ayudaId:"",titulo:"Eliminar del plan: "+t.titulo,organismo:"Plan de mejoras",url:"",fin:"",tipos:["otro"],motivo:t.detalle||"",estado:"lista",origen:"plan-eliminar",respuesta:"",instruccion:`Elimina la tarea «${t.id}» del plan (panel/tareas.json). No la ejecutes.`,chat:[],creada:now,actualizada:now});
+  setStatus("Eliminada: no se ejecutará y desaparece del plan en la próxima pasada");
+}
+async function reabrirTarea(id){
+  const t=(D.tareas||[]).find(x=>x.id===id); if(!t||!S.db){ setStatus("Sin conexión con la base de datos de la página"); return; }
+  const ar=t.area||({fuentes:"fuentes",base:"datos",revision:"datos",eskubat:"eskubat"}[t.seccion||"fuentes"]||"datos"), now=new Date().toISOString();
+  await S.db.collection("cuestiones").doc("tarea-"+t.id).set({area:ar,tarea:t.id,ayudaId:"",titulo:"Tarea del plan: "+t.titulo,organismo:"Plan de mejoras",url:"",fin:"",tipos:["otro"],motivo:t.detalle||"",estado:"abierta",origen:"plan-reabierta",respuesta:"",instruccion:"",chat:[],creada:now,actualizada:now});
+  setStatus("Reabierta: está en Para ti y Claude no la ejecutará hasta que decidas");
 }
 function filaCorr(d){
   const pe=(S.peticiones||{})["corr-"+d._id];
-  const btn=pe&&(pe.estado==="pedida"||pe.estado==="lanzada")?`<span class="chip lista">${pe.estado==="pedida"?"Pedida · empieza antes de una hora":"En marcha desde las "+new Date(pe.lanzada||pe.pedida).toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})}</span>`:`<button class="lnk ej" data-ejc="${esc(d._id)}">Ejecutar ahora</button>`;
   return `<li class="plan-i pendiente"><span class="chip lista">Corrección</span>
     <div><span class="tl2"><b>${esc(d.titulo||"(sin título)")}</b><span class="chip ar-${areaDe(d)}">${esc(AREAS[areaDe(d)]||"")}</span></span><span>${esc((d.instruccion||d.motivo||"").slice(0,240))}</span></div>
-    <span class="cuando">Prevista ${cuandoT(proximaPasada())}<br>${btn} · <button class="lnk" data-vc="${esc(d._id)}">Ver</button></span></li>`;
+    <span class="cuando">Prevista ${cuandoT(proximaPasada())}<br>${chipPe(pe)}<button class="lnk ej" data-ejc="${esc(d._id)}">Ejecutar ahora</button> · <button class="lnk" data-reab="${esc(d._id)}">Reabrir</button> · <button class="lnk del" data-del="${esc(d._id)}">Eliminar</button> · <button class="lnk" data-vc="${esc(d._id)}">Ver</button></span></li>`;
 }
 function paraTi(){
   const C=S.docs.filter(d=>(d.estado||"abierta")==="abierta").sort((a,b)=>{const da=diasHasta(a.fin),db=diasHasta(b.fin);return (da==null?999:da)-(db==null?999:db);});
@@ -1042,10 +1088,10 @@ function renderMejora(){
       const areaT=t=>t.area||({fuentes:"fuentes",base:"datos",revision:"datos",eskubat:"eskubat"}[t.seccion||"fuentes"]||"datos");
       const ok=a=>!AR||a===AR;
       const arc=a=>`<span class="chip ar-${a}">${esc(AREAS[a]||a)}</span>`;
-      const cuest=(d,cl,et)=>`<li class="plan-i ${cl}"><span class="chip ${cl==="hecha"?"aplicada":"lista"}">${et}</span><div><span class="tl2"><b>${esc(d.titulo||"(sin título)")}</b>${arc(areaDe(d))}</span><span>${esc((cl==="hecha"?(d.nota||""):(d.instruccion||d.motivo||"")).slice(0,240))}</span></div><span class="cuando">${cl==="hecha"&&d.actualizada?"Hecha el "+fmtFecha(d.actualizada.slice(0,10))+"<br>":""}<button class="btn ${cl==="abierta"?"primary":"ghost"}" data-vc="${esc(d._id)}">${cl==="abierta"?"Decidir":"Ver"}</button></span></li>`;
+      const cuest=(d,cl,et)=>`<li class="plan-i ${cl} ${cl==="abierta"?"clic":""}" ${cl==="abierta"?`data-vc="${esc(d._id)}"`:""}><span class="chip ${cl==="hecha"?"aplicada":"lista"}">${et}</span><div><span class="tl2"><b>${esc(d.titulo||"(sin título)")}</b>${arc(areaDe(d))}</span><span>${esc((cl==="hecha"?(d.nota||""):(d.instruccion||d.motivo||"")).slice(0,240))}</span></div><span class="cuando">${cl==="hecha"&&d.actualizada?"Hecha el "+fmtFecha(d.actualizada.slice(0,10))+"<br>":""}<button class="btn ${cl==="abierta"?"primary":"ghost"}" data-vc="${esc(d._id)}">${cl==="abierta"?"Decidir":"Ver"}</button></span></li>`;
       const tarea=t=>filaPlan(t).replace("<div><b>",`<div><span class="tl2"><b>`).replace("</b>",`</b>${arc(areaT(t))}</span>`);
       const TI=[...S.docs.filter(d=>(d.estado||"abierta")==="abierta"&&ok(areaDe(d))).map(d=>cuest(d,"abierta","Abierta")),
-        ...tuyas.filter(t=>ok(areaT(t))).map(t=>`<li class="plan-i pendiente"><span class="chip">${EST_T[t.estado]||t.estado}</span><div><span class="tl2"><b>${esc(t.titulo)}</b>${arc(areaT(t))}</span><span>${esc(t.detalle)}</span></div><span class="cuando"><span class="chip">Fuera de la app</span></span></li>`)];
+        ...tuyas.filter(t=>ok(areaT(t))).map(t=>`<li class="plan-i pendiente clic" data-vt="${esc(t.id)}"><span class="chip">${EST_T[t.estado]||t.estado}</span><div><span class="tl2"><b>${esc(t.titulo)}</b>${arc(areaT(t))}</span><span>${esc(t.detalle)}</span></div><span class="cuando"><span class="chip">Fuera de la app</span></span></li>`)];
       const PLc=S.docs.filter(d=>d.estado==="lista"&&ok(areaDe(d)));
       const PLt=plan.filter(t=>t.estado!=="hecha"&&ok(areaT(t))).sort((a,b)=>({en_curso:0,pendiente:1,bloqueada:2}[a.estado]??3)-({en_curso:0,pendiente:1,bloqueada:2}[b.estado]??3)||a.prioridad-b.prioridad);
       const HEc=S.docs.filter(d=>d.estado==="aplicada"&&ok(areaDe(d))), HEt=plan.filter(t=>t.estado==="hecha"&&ok(areaT(t)));
@@ -1194,7 +1240,11 @@ $("#asisX").onclick=()=>document.body.classList.remove("asis-on");
 $("#asisNuevo").onclick=()=>{ ASIS.msgs=[]; guardaAsis(); renderAsis(); };
 $("#asisSend").onclick=enviarAsis;
 $("#asisIn").onkeydown=(ev)=>{ if(ev.key==="Enter"&&(ev.metaKey||ev.ctrlKey)) enviarAsis(); };
-document.addEventListener("click",ev=>{ const vc=ev.target.closest("[data-vc]"); if(vc){ verCuestion(vc.dataset.vc); return; } const ir=ev.target.closest("[data-irc]"); if(ir){ $("#dlgV").close(); S.filtro="todas"; S.areaF=""; cambiarVista("c"); seleccionar(ir.dataset.irc); return; } if(ev.target.closest("[data-cerrarv]")){ $("#dlgV").close(); return; } const b=ev.target.closest("[data-asis]"); if(b) abrirAsis(b.dataset.asis); const v=ev.target.closest("[data-vi]"); if(v) cambiarVista(v.dataset.vi); });
+document.addEventListener("click",ev=>{ const vc=ev.target.closest("[data-vc]"); if(vc){ verCuestion(vc.dataset.vc); return; } const vt=ev.target.closest("[data-vt]"); if(vt){ verTarea(vt.dataset.vt); return; }
+  const rb=ev.target.closest("[data-reab]"); if(rb){ if(S.db) S.db.collection("cuestiones").doc(rb.dataset.reab).update({estado:"abierta",actualizada:new Date().toISOString()}).then(()=>setStatus("Reabierta: vuelve a Para ti")).catch(()=>setStatus("No se pudo reabrir")); return; }
+  const dl=ev.target.closest("[data-del]"); if(dl){ const d=S.docs.find(x=>x._id===dl.dataset.del); if(d&&S.db&&confirm(`¿Eliminar «${d.titulo||""}»? No se aplicará.`)) S.db.collection("cuestiones").doc(d._id).update({estado:"descartada",actualizada:new Date().toISOString()}).then(()=>setStatus("Eliminada")).catch(()=>setStatus("No se pudo eliminar")); return; }
+  const dt=ev.target.closest("[data-delt]"); if(dt){ eliminarTarea(dt.dataset.delt).catch(()=>setStatus("No se pudo eliminar")); return; }
+  const rt=ev.target.closest("[data-reabt]"); if(rt){ reabrirTarea(rt.dataset.reabt).catch(()=>setStatus("No se pudo reabrir")); return; } const ir=ev.target.closest("[data-irc]"); if(ir){ $("#dlgV").close(); S.filtro="todas"; S.areaF=""; cambiarVista("c"); seleccionar(ir.dataset.irc); return; } if(ev.target.closest("[data-cerrarv]")){ $("#dlgV").close(); return; } const b=ev.target.closest("[data-asis]"); if(b) abrirAsis(b.dataset.asis); const v=ev.target.closest("[data-vi]"); if(v) cambiarVista(v.dataset.vi); });
 $("#refrescar").onclick=()=>{ $("#refrescar").disabled=true; $("#refrescar").textContent="Actualizando…"; try{ sessionStorage.setItem("eskubat-vista",S.vista); }catch{} location.reload(); };
 $("#marca").onclick=(ev)=>{ ev.preventDefault(); cambiarVista("w"); };
 $("#nueva").onclick=()=>abrirNueva("","","");
