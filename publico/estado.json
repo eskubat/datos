@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generado": "2026-11-15T10:21:19.026Z",
+  "generado": "2026-11-15T10:30:09.230Z",
   "total": 414,
   "porAmbito": {
     "municipio": 277,
@@ -18,14 +18,14 @@
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
       "registros": 136,
-      "segundos": 31,
+      "segundos": 34,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 27,
-      "segundos": 17,
+      "segundos": 34,
       "erroresFicha": 0
     },
     "araba": {

@@ -22,10 +22,10 @@
  },
  {
   "id": "bdns-933198",
-  "h": "1d3121e39a1aa963",
+  "h": "8a23182a12cce440",
   "titulo": "Ayudas para estudiar euskara",
   "archivo": "cache/fuentes/bdns-933198-cb7140e5.txt",
-  "caracteres": 25132
+  "caracteres": 26611
  },
  {
   "id": "bdns-933068",
@@ -141,17 +141,17 @@
  },
  {
   "id": "bdns-938969",
-  "h": "918bb8eafdf2c644",
+  "h": "f2fd4b72d9d07463",
   "titulo": "Subvenciones para la realización de obras de instalación y sustitución de ascensores",
   "archivo": "cache/fuentes/bdns-938969-53826c3b.txt",
-  "caracteres": 25132
+  "caracteres": 31443
  },
  {
   "id": "bdns-938955",
-  "h": "efc6e262516168e6",
+  "h": "3e2b2e3c6cdb7fc7",
   "titulo": "Subvenciones destinadas a los gastos de mantenimiento de ascensores comunitarios o zonales en régimen de evaluación individualizada",
   "archivo": "cache/fuentes/bdns-938955-912df81c.txt",
-  "caracteres": 25132
+  "caracteres": 29531
  },
  {
   "id": "bdns-936308",
@@ -190,10 +190,10 @@
  },
  {
   "id": "bdns-939167",
-  "h": "01dc53c04e3b5c44",
+  "h": "13fd5e199cd35ebf",
   "titulo": "Bases para la concesión de nsubvenciones individuales a deportistas y convocatoria",
   "archivo": "cache/fuentes/bdns-939167-774d9262.txt",
-  "caracteres": 34524
+  "caracteres": 39999
  },
  {
   "id": "eus-ayuda-subvencion-2026-egonlabur-2027",
@@ -316,10 +316,10 @@
  },
  {
   "id": "bdns-937599",
-  "h": "9a3dd40511b151b5",
+  "h": "174b5eb43ade39be",
   "titulo": "Subvenciones a las Juntas Administrativas para gastos de ejecución de obras y honorarios técnicos",
   "archivo": "cache/fuentes/bdns-937599-d8e28b41.txt",
-  "caracteres": 27342
+  "caracteres": 40000
  },
  {
   "id": "bdns-937192",
@@ -617,10 +617,10 @@
  },
  {
   "id": "bdns-940878",
-  "h": "92a531bed9bb563d",
+  "h": "1561909f8b95acf0",
   "titulo": "Subvención a la persona emprendedora que quiera poner en marcha una nueva actividad económica para el alquiler de un local comercial vacío",
   "archivo": "cache/fuentes/bdns-940878-a71570d5.txt",
-  "caracteres": 11086
+  "caracteres": 7486
  },
  {
   "id": "bdns-921576",
@@ -2500,7 +2500,7 @@
  },
  {
   "id": "bdns-931954",
-  "h": "11334313f8569a11",
+  "h": "dca2543b9aee4a97",
   "titulo": "Subvenciones de libre concurrencia para el fomento de la contratación de personas jóvenes desempleadas",
   "archivo": "cache/fuentes/bdns-931954-920810e6.txt",
   "caracteres": 40000
