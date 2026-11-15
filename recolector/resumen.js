@@ -51,10 +51,9 @@ export function comprobar(r, fuente = '') {
   if (RE.cifrasEconomicas.test(consiste)) e.push('has incluido cifras económicas en en_que_consiste');
   if (RE.condiciones.test(consiste)) e.push('has incluido colectivos o condiciones en en_que_consiste');
   if (consiste && !RE.tipoAyuda.test(consiste)) e.push('en_que_consiste debe empezar por el tipo de ayuda');
-  if (consiste.length > 400) e.push('en_que_consiste supera 400 caracteres');
   if (/\n/.test(consiste.trim())) e.push('en_que_consiste debe ser un solo párrafo narrativo, sin saltos de línea ni listas');
   const frases = consiste.split(/(?<=[.!])\s+/).filter((f) => f.trim());
-  if (consiste && (frases.length < 2 || consiste.length < 120)) e.push('en_que_consiste debe explicar la ayuda en 2-4 frases completas y bien hiladas (estilo narrativo)');
+  if (consiste && (frases.length < 2 || consiste.length < 120)) e.push('en_que_consiste debe explicar la ayuda en varias frases completas y bien hiladas (estilo narrativo)');
   if (frases.some((f) => !/[.!]$/.test(f.trim()) || f.trim().split(/\s+/).length < 5)) e.push('en_que_consiste tiene frases sueltas o sin terminar: redáctalo como un párrafo con frases completas');
   const cuanto = String(r.cuanto_puede_recibir || '');
   if (!RE.cuantiaValida.test(cuanto)) e.push('cuanto_puede_recibir debe tener una cifra con € o %, o empezar por «Importe variable», «Ayuda no económica» o «No especificado»');
@@ -114,7 +113,7 @@ export function validar(r, fuente) {
   const ok = (t) => cifrasOk(t, nums);
   const out = { errores: comprobar(r, fuente) };
   const tit = (x) => { const t = limpia(x); return t && t.length <= 140 && ok(t) && t !== t.toUpperCase() ? mayus(t) : ''; };
-  const consiste = (x) => { const t = formato(x); return t && ok(t) && !RE.cifrasEconomicas.test(t) && !RE.condiciones.test(t) && t.length <= 450 ? conPunto(mayus(t)) : ''; };
+  const consiste = (x) => { const t = formato(x); return t && ok(t) && !RE.cifrasEconomicas.test(t) && !RE.condiciones.test(t) && t.length <= 1500 ? conPunto(mayus(t)) : ''; };
   const cuanto = (x) => String(x || '').split(/\n+/).map(formato).filter((l) => l && ok(l) && !RE.presupuestoTotal.test(l)).map((l) => conPunto(mayus(l)));
   const quien = (v) => (Array.isArray(v) ? v : []).map((q) => ({ tipo: limpia(q && q.tipo).replace(/[:.]$/, ''), texto: conPunto(mayus(formato(q && q.texto))) })).filter((q) => q.texto && ok(q.texto) && q.texto.length <= 300).slice(0, 8);
   const reqs = (v, eu) => (Array.isArray(v) ? v : []).map((g) => ({
