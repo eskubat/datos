@@ -54,15 +54,6 @@
   "caracteres": 10765
  },
  {
-  "id": "eus-ayuda-subvencion-2026-260528mscaraisedoktoregoa",
-  "h": "5b04fb9976f89f4c",
-  "titulo": "MSCA-RAISE. Ayuda para doctorados académicos y científicos dentro de las Acciones Marie-Sklodowska Curie (MSCA)",
-  "organismoSugerido": "gv-educacion",
-  "organismoFuente": "Educación y Cultura",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-260528mscaraisedoktoregoa-a2020aa7.txt",
-  "caracteres": 23969
- },
- {
   "id": "bdns-939167",
   "h": "62507527500c828f",
   "titulo": "Bases para la concesión de nsubvenciones individuales a deportistas y convocatoria",
@@ -106,42 +97,6 @@
   "organismoFuente": "Ayuntamiento de oñati",
   "archivo": "cache/fuentes/bdns-939389-c30c30c0.txt",
   "caracteres": 1839
- },
- {
-  "id": "eus-ayuda-subvencion-2026-2026-patrimonio-natural-ayudas-a-entidades-locales",
-  "h": "cac5d53ed6a7d6f1",
-  "titulo": "Patrimonio Natural - Ayudas a entidades locales",
-  "organismoSugerido": "gv-industria",
-  "organismoFuente": "Industria, Transición Energética y Sostenibilidad",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-2026-patrimonio-natural-ayudas-a-e-8edb1451.txt",
-  "caracteres": 60000
- },
- {
-  "id": "eus-ayuda-subvencion-2026-2026-cambio-climatico-ayudas-a-entidades-locales",
-  "h": "3a975ddc99c7b0ef",
-  "titulo": "Cambio climático - Ayudas a entidades locales",
-  "organismoSugerido": "gv-industria",
-  "organismoFuente": "Industria, Transición Energética y Sostenibilidad",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-2026-cambio-climatico-ayudas-a-ent-46ac8268.txt",
-  "caracteres": 60000
- },
- {
-  "id": "eus-ayuda-subvencion-2026-2026-asteklima-ayudas-a-entidades-locales",
-  "h": "05597dcd97fade1a",
-  "titulo": "Asteklima - Ayudas a entidades locales",
-  "organismoSugerido": "gv-industria",
-  "organismoFuente": "Industria, Transición Energética y Sostenibilidad",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-2026-asteklima-ayudas-a-entidades--912214d4.txt",
-  "caracteres": 60000
- },
- {
-  "id": "eus-ayuda-subvencion-2026-cefmugazgaindikoberriztag",
-  "h": "2378832ba319bf5b",
-  "titulo": "CEF Energía: mecanismo Conectar Europa",
-  "organismoSugerido": "gv-lehendakaritza",
-  "organismoFuente": "Lehendakaritza",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-cefmugazgaindikoberriztag-ec52daf6.txt",
-  "caracteres": 60000
  },
  {
   "id": "eus-ayuda-subvencion-2026-pce",
@@ -648,24 +603,6 @@
   "caracteres": 27169
  },
  {
-  "id": "eus-ayuda-subvencion-2026-260528beroberrikutzak",
-  "h": "26339ae3e0ec2c59",
-  "titulo": "Fondo de innovación. subasta de calor: la UE da 400 millones a 65 proyectos de tecnologías térmicas",
-  "organismoSugerido": "gv-industria",
-  "organismoFuente": "Energía",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-260528beroberrikutzak-ade7b452.txt",
-  "caracteres": 24170
- },
- {
-  "id": "eus-ayuda-subvencion-2026-260602ercplusbekak",
-  "h": "2f2165be06d9182e",
-  "titulo": "Ciencia disruptiva. becas ERC PLUS. El Consejo Europeo de Investigación estrena estas becas para proyectos para investigación de largo plazo",
-  "organismoSugerido": "gv-industria",
-  "organismoFuente": "Empresa e Industria",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-260602ercplusbekak-50cb2e43.txt",
-  "caracteres": 23696
- },
- {
   "id": "eus-ayuda-subvencion-2026-260603ekintzailetzafuntsa",
   "h": "6268deef469061e2",
   "titulo": "Fondo de emprendimiento social para la ribera Sur en el marco del Pacto del Mediterráneo",
@@ -691,15 +628,6 @@
   "organismoFuente": "Investigación e Innovación",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-260616luzaroeibinvesteuom-7f4ab1c7.txt",
   "caracteres": 24724
- },
- {
-  "id": "eus-ayuda-subvencion-2026-260622defentsazkolaguntza",
-  "h": "9b09df6773fcf7ef",
-  "titulo": "Seguridad y preparación: la UE lanza nuevas ayudas para I+D+i y tecnologías de doble uso (civil y de defensa)",
-  "organismoSugerido": "gv-ciencia",
-  "organismoFuente": "Investigación e Innovación",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-260622defentsazkolaguntza-45191b28.txt",
-  "caracteres": 24941
  },
  {
   "id": "eus-ayuda-subvencion-2026-260622urjauzikopartzuergo",
@@ -729,30 +657,12 @@
   "caracteres": 24355
  },
  {
-  "id": "eus-ayuda-subvencion-2026-260803ongarrietarakolgenf",
-  "h": "b341c345447085c8",
-  "titulo": "Fertilizantes: el FEADER, Fondo Europeo Agrícola de Desarrollo Rural, es uno de los recursos",
-  "organismoSugerido": "gv-alimentacion",
-  "organismoFuente": "Agricultura y Desarrollo Rural",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-260803ongarrietarakolgenf-3cb03491.txt",
-  "caracteres": 25165
- },
- {
   "id": "eus-ayuda-subvencion-2023-fomento-al-alquiler-actuaciones-protegidas-actuaciones-que-se-hayan-acogido-en-un-momento-dado-a-las-ayudas-de-fomento-al-alquiler-mediante-promocion-o-adquisicion-para-su-puesta-en-arrendamiento-protegido",
   "h": "dc378900b5199580",
   "titulo": "Fomento al alquiler: actuaciones protegidas (Actuaciones que se hayan acogido en un momento dado",
   "organismoSugerido": "gv-vivienda",
   "organismoFuente": "Vivienda y Agenda Urbana",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2023-fomento-al-alquiler-actuaciones-pr-43a41a82.txt",
-  "caracteres": 60000
- },
- {
-  "id": "eus-ayuda-subvencion-2026-arrantzataakuikulturarene",
-  "h": "6b804cac7d81d32f",
-  "titulo": "FEMPA. Fondo Europeo Marítimo de Pesca y Acuicultura: la UE augura financiación más ágil para reposición",
-  "organismoSugerido": "gv-lehendakaritza",
-  "organismoFuente": "Lehendakaritza",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-arrantzataakuikulturarene-8a5e065e.txt",
   "caracteres": 60000
  },
  {
@@ -819,15 +729,6 @@
   "caracteres": 60000
  },
  {
-  "id": "eus-ayuda-subvencion-2026-bioaniztasunfundaziohirin",
-  "h": "84428f8c761ea6bb",
-  "titulo": "Medio ambiente urbano y FEDER. Ayudas mediante el Fondo Europeo de Desarrollo Regional y la Fundación Biodiversidad",
-  "organismoSugerido": "gv-lehendakaritza",
-  "organismoFuente": "Lehendakaritza",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-bioaniztasunfundaziohirin-41963c36.txt",
-  "caracteres": 60000
- },
- {
   "id": "eus-ayuda-subvencion-2026-bono-social-termico-2025",
   "h": "10b7cec947f7a21b",
   "titulo": "Bono Social Térmico",
@@ -891,24 +792,6 @@
   "caracteres": 60000
  },
  {
-  "id": "eus-ayuda-subvencion-2026-eiaaffuntsaarrantzagarape",
-  "h": "76dc3719e648b5e4",
-  "titulo": "Pesca: el FEMPA, Fondo Europeo Marítimo, de Pesca y de Acuicultura",
-  "organismoSugerido": "gv-lehendakaritza",
-  "organismoFuente": "Lehendakaritza",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-eiaaffuntsaarrantzagarape-e9ad348d.txt",
-  "caracteres": 60000
- },
- {
-  "id": "eus-ayuda-subvencion-2026-ercstartingrants0926",
-  "h": "e3ca758b0cea5d43",
-  "titulo": "Ciencia: el Consejo Europeo de Investigación (ERC) ha anunciado 421 becas de inicio o starting grants",
-  "organismoSugerido": "gv-educacion",
-  "organismoFuente": "Educación y Cultura",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-ercstartingrants0926-81ecd7ba.txt",
-  "caracteres": 23679
- },
- {
   "id": "eus-servicios-1231402",
   "h": "8b27599ed28266cb",
   "titulo": "EVE - Programa de ayudas a la realización de auditorías energéticas integrales en pyme de los sectores industrial y terciario",
@@ -954,42 +837,6 @@
   "caracteres": 60000
  },
  {
-  "id": "eus-ayuda-subvencion-2026-horizoneicstepscaleup26",
-  "h": "8c1a237548c044a9",
-  "titulo": "Horizon Europe: eIC, Consejo Europeo de Innovación, crea herramientas como el Fondo EIC STEP Scaleup",
-  "organismoSugerido": "gv-lehendakaritza",
-  "organismoFuente": "Lehendakaritza",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-horizoneicstepscaleup26-0ed809ca.txt",
-  "caracteres": 60000
- },
- {
-  "id": "eus-ayuda-subvencion-2026-horizonetaespaziorakogehi",
-  "h": "675a36e26dace4ae",
-  "titulo": "Ciencia e I+D: el Gobierno Vasco lanza unas nuevas ayudas por 3,6 millones de a para la producción investigativa de excelencia y la atracción",
-  "organismoSugerido": "gv-industria",
-  "organismoFuente": "Empresa e Industria",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-horizonetaespaziorakogehi-e1b72f18.txt",
-  "caracteres": 23855
- },
- {
-  "id": "eus-ayuda-subvencion-2026-horizonzeharkakodeialdiak",
-  "h": "1c35169bdf96741c",
-  "titulo": "Horizon: el gran Programa de I+D+i de la UE lanza convocatorias transversales ligadas a multitud de líneas innovadoras",
-  "organismoSugerido": "gv-lehendakaritza",
-  "organismoFuente": "Lehendakaritza",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-horizonzeharkakodeialdiak-70ea0399.txt",
-  "caracteres": 59999
- },
- {
-  "id": "eus-ayuda-subvencion-2026-ikerketagauaunibertsitate",
-  "h": "6098ec655046a49d",
-  "titulo": "La Noche Europea de los Investigadores y la iniciativa Investigadores en las escuelas son proyectos financiados por las Acciones Marie",
-  "organismoSugerido": "gv-lehendakaritza",
-  "organismoFuente": "Lehendakaritza",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-ikerketagauaunibertsitate-511db1be.txt",
-  "caracteres": 60000
- },
- {
   "id": "eus-ayuda-subvencion-2026-isv-inversion-2027-comunicacion-previa",
   "h": "73707ed792d6e056",
   "titulo": "ISV Inversión - Ayudas a inversiones materiales e inmateriales en instalaciones de transformación y en infraestructuras vitivinícolas, así como",
@@ -1017,33 +864,6 @@
   "caracteres": 23979
  },
  {
-  "id": "eus-ayuda-subvencion-2026-msca2026deialdiberria",
-  "h": "d2f974c4747fa985",
-  "titulo": "Ciencia e I+D+I. La Comisión refuerza con más de 210 millones de euros las Acciones Marie Sklodowska-Curie para apoyar a más de 700",
-  "organismoSugerido": "gv-lehendakaritza",
-  "organismoFuente": "Lehendakaritza",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-msca2026deialdiberria-bde2863e.txt",
-  "caracteres": 60000
- },
- {
-  "id": "eus-ayuda-subvencion-2026-mscadoktoretzaostekobeka2",
-  "h": "9e7f4642033d8fe3",
-  "titulo": "MSCA. becas Posdoctorales de las Acciones Marie Sk?odowska-Curie",
-  "organismoSugerido": "gv",
-  "organismoFuente": "",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-mscadoktoretzaostekobeka2-46a7226e.txt",
-  "caracteres": 23879
- },
- {
-  "id": "eus-ayuda-subvencion-2026-nbefenlaguntzaabeltzaintz",
-  "h": "c99c675b11d14b6e",
-  "titulo": "Feaga, fondo europeo de garantía agraria aporta 394.615 euros",
-  "organismoSugerido": "gv-lehendakaritza",
-  "organismoFuente": "Lehendakaritza",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-nbefenlaguntzaabeltzaintz-c3e36a11.txt",
-  "caracteres": 60000
- },
- {
   "id": "eus-ayuda-subvencion-2023-fomento-al-alquiler-ayudas-para-la-promocion-y-o-rehabilitacion-de-viviendas-para-su-cesion-en-arrendamiento-protegido",
   "h": "b756da219b205fcf",
   "titulo": "Fomento al alquiler: ayudas para la promoción y/o rehabilitación de viviendas para su cesión en arrendamiento protegido",
@@ -1051,15 +871,6 @@
   "organismoFuente": "Vivienda y Agenda Urbana",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2023-fomento-al-alquiler-ayudas-para-la-f79150cf.txt",
   "caracteres": 60000
- },
- {
-  "id": "eus-ayuda-subvencion-2026-resourceeutaeiblaguntzakmateri",
-  "h": "74ee33fd5bec9d18",
-  "titulo": "RESourceEU apoya proyectos sobre materias primas críticas",
-  "organismoSugerido": "gv-lehendakaritza",
-  "organismoFuente": "Lehendakaritza",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-resourceeutaeiblaguntzakmateri-e49615c3.txt",
-  "caracteres": 59999
  },
  {
   "id": "eus-ayuda-subvencion-2026-ayuda-victimas-violencia-genero",
@@ -2104,15 +1915,6 @@
   "organismoFuente": "",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2016-eacea-22-2016-4cfb2188.txt",
   "caracteres": 28596
- },
- {
-  "id": "eus-ayuda-subvencion-2018-ucpm-2018-pp-ag",
-  "h": "44b7c4a5c6682158",
-  "titulo": "Mecanismo europeo de protección civil: proyectos de prevención y preparación en el ámbito",
-  "organismoSugerido": "gv",
-  "organismoFuente": "",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2018-ucpm-2018-pp-ag-67b2c6e3.txt",
-  "caracteres": 23530
  },
  {
   "id": "eus-ayuda-subvencion-2020-ayuda-psicologica-y-sanitaria-para-las-victimas-reconocidas-de-vulneraciones-de-derechos-humanos-decreto-107-2012-y-ley-12-2016",
