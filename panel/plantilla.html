@@ -171,9 +171,9 @@ dialog input,dialog select{width:100%;padding:8px 10px;border:1px solid var(--li
 .barra{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding:10px 20px;border-bottom:1px solid var(--line);background:var(--panel)}
 .barra h2{font:800 19px/1.2 var(--display);letter-spacing:-.015em;margin:0}
 body.v-w .barra{display:none}
-body.v-w main, body.v-b main, body.v-f main{grid-template-columns:1fr}
-body.v-w #lista, body.v-b #lista, body.v-f #lista{display:none!important}
-body.v-b .counts, body.v-f .counts{display:none}
+body.v-w main, body.v-b main, body.v-f main, body.v-m main{grid-template-columns:1fr}
+body.v-w #lista, body.v-b #lista, body.v-f #lista, body.v-m #lista{display:none!important}
+body.v-b .counts, body.v-f .counts, body.v-m .counts{display:none}
 .st-pend{background:var(--line)}
 .sec{font:700 19px var(--display);margin:10px 0 0}
 .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
@@ -325,6 +325,7 @@ body.asis-on .asis{display:flex}
 .asis-vacio p{margin:0 0 8px;color:var(--muted);font-size:14px}
 .asis-vacio .ej{display:block;width:100%;text-align:left;margin:0 0 6px;border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:8px 10px;cursor:pointer;font-size:13.5px}
 .asis-vacio .ej:hover{border-color:var(--accent)}
+.plansec{margin:14px 0 6px;font:700 14px var(--display);color:var(--muted)}
 .chip.rec-ok{background:var(--accent-soft);color:var(--accent-d)}.chip.rec-warn{background:#fdecd8;color:#8a4b0f}.chip.rec-bad{background:#fbe0dc;color:#9b2c1f}
 .revtabs{display:inline-flex;gap:4px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:3px;margin:16px 0 10px}
 .revtabs button{border:0;background:none;border-radius:999px;padding:6px 16px;font:600 14px var(--body);cursor:pointer;color:var(--muted)}
@@ -354,6 +355,13 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 .compipe .cp span{display:flex;flex-direction:column} .compipe .cp small{color:var(--muted);font-size:12px}
 .compipe .cp:hover{border-color:var(--accent)}
 .compipe .cp-ab b{color:var(--or-d)} .compipe .cp-pl b{color:var(--ink)} .compipe .cp-ok b{color:var(--accent-d)}
+.lienzo .num .nu{font:600 13px var(--body);fill:var(--muted)}
+.lienzo .banda{fill:var(--accent-soft);opacity:.35;stroke:var(--line)}
+.lienzo .banda-t{font:700 11px var(--body);letter-spacing:.08em;fill:var(--muted)}
+.lienzo .flecha.bus{stroke:var(--or);stroke-dasharray:5 4}
+.lienzo .flecha.ret{stroke:var(--accent);stroke-dasharray:5 4}
+.lienzo .lbl{font:12.5px var(--body);fill:var(--muted)}
+.lienzo .ret-t{fill:var(--accent-d)}
 @media (max-width:760px){.estado-rev .er-top{grid-template-columns:1fr}}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
 @media (max-width:760px){.eta{grid-template-columns:1fr}}
@@ -421,8 +429,8 @@ const TIPOS = {plazo:"Plazo",organismo:"Organismo",documentacion:"Documentación
 const TIPO_SOL = {particular:"Particulares",autonomo:"Autónomos",empresa:"Empresas",asociacion:"Asociaciones",ayuntamiento:"Entidades públicas",general:"General"};
 const NIVEL = {euskadi:"Gobierno Vasco",territorio:"Diputaciones",municipio:"Ayuntamientos",estado:"Estado",ue:"Unión Europea"};
 const EST_AY = {abierta:"Abierta",proxima:"Próxima",sinfecha:"Sin fecha"};
-const VISTAS = {w:"#inicio",b:"#base-de-datos",l:"#lista-de-ayudas",c:"#cuestiones",i:"#instrucciones",f:"#fuentes"};
-const TITULOS = {b:"Datos",l:"Datos · lista de ayudas",c:"Cuestiones abiertas",i:"Instrucciones",f:"Fuentes"};
+const VISTAS = {w:"#inicio",m:"#mejora-continua",b:"#base-de-datos",l:"#lista-de-ayudas",c:"#cuestiones",i:"#instrucciones",f:"#fuentes"};
+const TITULOS = {m:"Mejora continua",b:"Datos",l:"Datos · lista de ayudas",c:"Cuestiones abiertas",i:"Instrucciones",f:"Fuentes"};
 const S = {vista:"w", docs:[], filtro:"abierta", areaF:"", q:"", sel:null, db:null, sample:null, selB:null, verB:null, fl:{}, selec:new Set(), selI:"categorizacion"};
 const $ = (s, el=document) => el.querySelector(s);
 const esc = (t) => String(t ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -474,58 +482,75 @@ function renderInicio(){
   const t=D.cola||{}; const c={abierta:0,lista:0}; S.docs.forEach(d=>{const e=d.estado||"abierta"; if(c[e]!=null) c[e]++;});
   const ca={}; S.docs.filter(d=>(d.estado||"abierta")==="abierta").forEach(d=>{const a=areaDe(d); ca[a]=(ca[a]||0)+1;});
   const diaria=D.tarea&&D.tarea.modo==="diaria";
-  const W=200, H=154, X=i=>i*400, Y=[0,194,388];
+  const W=200, H=154, X=i=>i*400, Y=[0,262,466];
   const IC={
     fuentes:"M3 21h18M5 21V10M19 21V10M9 21V10M15 21V10M2 10l10-6 10 6",
     base:"M12 3c4.4 0 8 1.3 8 3s-3.6 3-8 3-8-1.3-8-3 3.6-3 8-3zM4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3",
-    revision:"M12 2l2 6.5L20.5 11 14 13.5 12 20l-2-6.5L3.5 11 10 8.5z",
     app:"M8 2h8a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM11 18h2",
-    instrucciones:"M3 5h6a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H3zM21 5h-6a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h7z",
+    correccion:"M4 20h4L18.5 9.5a2.1 2.1 0 0 0-3-3L5 17v3zM13.5 7.5l3 3",
+    mejora:"M3 17l6-6 4 4 8-8M15 7h6v6",
     cuestiones:"M21 12a8.5 8.5 0 0 1-12.3 7.6L3 21l1.4-5.4A8.5 8.5 0 1 1 21 12zM9.6 9.4a2.5 2.5 0 1 1 3.4 2.4c-.6.3-1 .8-1 1.5M12 16.5h.01"
   };
-  const PASO={fuentes:[1,"Recolectar","Cada día a las 05:41 el recolector lee todas las fuentes oficiales y actualiza la base de datos. Las ayudas nuevas o cambiadas quedan pendientes de revisar."],
-    base:[2,"Revisar","Cada hora Claude lee entera la documentación de 10 ayudas pendientes y redacta sus fichas por tipo de solicitante. Si falta un dato, busca el boletín oficial."],
-    cuestiones:[3,"Decidir","Solo lo que es decisión tuya llega aquí, con una propuesta. Confirmas o explicas qué cambiar."],
-    app:[4,"Publicar","Las fichas revisadas y tus decisiones se publican en la app. Cuando no quede nada pendiente, la revisión pasa a una vez al día."]};
-  const QUIEN={fuentes:[["robot","Recolector · diario","Un programa automático lee todas las fuentes cada día y actualiza la base de datos."],["persona","Claude · cada noche","Claude mejora las fuentes cada noche: añade lectores nuevos y comprueba que funcionan."]],
-    base:[["persona",diaria?"Claude · cada día":"Claude · cada hora","Claude revisa las ayudas nuevas o cambiadas y redacta sus fichas."]]};
+  const PASO={fuentes:[1,"Recolectar","Cada día a las 05:41 el recolector lee todas las fuentes oficiales. Las ayudas nuevas o cambiadas quedan pendientes de revisar."],
+    base:[2,"Revisar","Cada hora Claude lee entera la documentación de las ayudas pendientes y redacta sus fichas por tipo de solicitante."],
+    app:[3,"Publicar","Las fichas revisadas se publican en la app, en castellano y euskera."],
+    cuestiones:["?","Decidir","Dudas, errores e ideas de cualquier parte: de Fuentes, de Datos o de la app. Tú decides si es una corrección o una mejora."]};
+  const QUIEN={fuentes:[["robot","Recolector · diario","Un programa automático lee todas las fuentes cada día."]],
+    base:[["persona",diaria?"Claude · cada día":"Claude · cada hora","Claude revisa las ayudas nuevas o cambiadas y redacta sus fichas."]],
+    correccion:[["persona",diaria?"Claude · cada día":"Claude · cada hora","En su pasada, Claude aplica primero las correcciones decididas."]],
+    mejora:[["persona","Claude · cada noche","Una tarea del plan cada noche; cada mes Claude repasa el plan."]]};
   const ICQ={persona:"M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21a8 8 0 0 1 16 0",robot:"M5 8h14v11H5zM12 4v4M9 13h.01M15 13h.01M9 16h6M3 12v3M21 12v3"};
   const nodo=(k,x,y,cls,go,tt,st,n,ir)=>{
     const p=PASO[k], q=QUIEN[k];
     return `<g class="nodo ${cls}" ${go?`data-go="${go}" tabindex="0" role="button" aria-label="${esc(tt)}: abrir"`:""}>
-    ${p?`<title>${p[0]} · ${p[1]}: ${p[2]}</title>`:""}
+    ${p?`<title>${p[1]}: ${p[2]}</title>`:""}
     <rect x="${x}" y="${y}" width="${W}" height="${H}" rx="12"/>
     <path class="ico" d="${IC[k]}" transform="translate(${x+16},${y+20})"/>
     <text class="tt" x="${x+16}" y="${y+66}">${tt}</text>
     ${st.map((s,i)=>`<text class="st" x="${x+16}" y="${y+86+i*17}">${s}</text>`).join("")}
     ${n!=null?`<text class="num" x="${x+16}" y="${y+H-14}">${n}</text>`:""}
     ${ir?`<text class="ir" x="${x+W-16}" y="${y+H-18}" text-anchor="end">${ir} →</text>`:""}
-    ${(q||[]).map((qq,i)=>{const qw=28+qq[1].length*6.1, qx=i?x+16:x+46, qy=i?y+78:y+15; return `<g class="quien-b"><title>${qq[2]}</title><rect x="${qx}" y="${qy}" width="${qw}" height="22" rx="11"/><path d="${ICQ[qq[0]]}" transform="translate(${qx+8},${qy+4}) scale(.58)"/><text x="${qx+26}" y="${qy+15}">${qq[1]}</text></g>`;}).join("")}
+    ${(q||[]).map((qq,i)=>{const qw=28+qq[1].length*6.1, qx=x+46, qy=y+15; return `<g class="quien-b"><title>${qq[2]}</title><rect x="${qx}" y="${qy}" width="${qw}" height="22" rx="11"/><path d="${ICQ[qq[0]]}" transform="translate(${qx+8},${qy+4}) scale(.58)"/><text x="${qx+26}" y="${qy+15}">${qq[1]}</text></g>`;}).join("")}
     ${p?(()=>{const bw=30+p[1].length*7.2, bx=x+W-10-bw; return `<g class="paso-b"><rect x="${bx}" y="${y-13}" width="${bw}" height="24" rx="12"/><circle cx="${bx+12}" cy="${y-1}" r="9"/><text class="pn" x="${bx+12}" y="${y+3.5}" text-anchor="middle">${p[0]}</text><text class="pl" x="${bx+26}" y="${y+3.5}">${p[1]}</text></g>`;})():""}
     </g>`;};
-  const fl=(d,dos)=>`<path class="flecha" d="${d}" marker-end="url(#pt)" ${dos?'marker-start="url(#pt)"':""}/>`;
-  const vx=X(1)+44, r=Y[1]+Math.round(H*0.62), hc=D.ayudas.filter(a=>a.ficha).length;
-  const pend=(t.fichas||0)+(t.titulos||0)+(t.noticias||0);
+  const fl=(d,cls="")=>`<path class="flecha ${cls}" d="${d}" marker-end="url(#pt${cls?"2":""})"/>`;
+  const r=Y[0]+Math.round(H*0.5), hc=D.ayudas.filter(a=>a.ficha).length;
+  const bus=Y[0]+H+48, cx=X(0)+W/2;
+  const listas=S.docs.filter(d=>d.estado==="lista").length, aplic=S.docs.filter(d=>d.estado==="aplicada").length;
+  const PL=(D.tareas||[]).filter(t=>t.quien!=="Tú"), plP=PL.filter(t=>t.estado==="pendiente").length, plH=PL.filter(t=>t.estado==="hecha").length;
+  const ret=X(2)+W+34, yC=Y[1]+H/2, yM=Y[2]+H/2;
   $("#detalle").innerHTML=`<div class="flujo">
     <div><h2>Cómo se mantienen al día las ayudas de Eskubat</h2>
-    <p class="intro">Cada día se leen las fuentes oficiales y se actualizan los datos de ayudas. Cada hora Claude revisa las ayudas nuevas o cambiadas, redacta sus fichas y se publican en Eskubat. Lo que es decisión tuya, sea de fuentes, de datos o de la app y su diseño, llega a Cuestiones abiertas. Pulsa una caja para abrirla; pasa el ratón por los pasos para ver qué hacen.</p></div>
-    <div class="lienzo"><svg viewBox="-12 -24 1024 572" role="img" aria-label="Flujo de trabajo de Eskubat">
-      <defs><marker id="pt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--muted)"/></marker></defs>
+    <p class="intro">Arriba, el trabajo de cada día: se leen las fuentes, Claude revisa las ayudas y se publican en Eskubat. Abajo, el bucle de mejora: cualquier duda, error o idea, salga de donde salga, llega a Cuestiones; tú decides si es una <b>corrección</b> (Claude la aplica en la próxima pasada) o una <b>mejora</b> (entra en el plan y Claude la hace una noche). Después la herramienta queda corregida y se publica. Pulsa una caja para abrirla.</p></div>
+    <div class="lienzo"><svg viewBox="-12 -24 1090 652" role="img" aria-label="Flujo de trabajo de Eskubat">
+      <defs><marker id="pt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--muted)"/></marker>
+        <marker id="pt2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--or)"/></marker></defs>
+      <rect class="banda" x="-8" y="${bus-22}" width="1080" height="${Y[2]+H-bus+38}" rx="16"/>
+      <text class="banda-t" x="8" y="${bus-4}">BUCLE DE MEJORA</text>
       ${[0,1].map(i=>fl(`M${X(i)+W+2},${r} L${X(i+1)-3},${r}`)).join("")}
-      ${fl(`M${vx},${Y[0]+H+2} L${vx},${Y[1]-3}`)}
-      ${fl(`M${vx},${Y[1]+H+3} L${vx},${Y[2]-3}`,true)}
-      ${fl(`M${X(1)-3},${Y[2]+H/2} L${X(0)+W/2},${Y[2]+H/2} L${X(0)+W/2},${Y[1]+H+3}`,true)}
-      ${fl(`M${X(1)+W+3},${Y[2]+H/2} L${X(2)+W/2},${Y[2]+H/2} L${X(2)+W/2},${Y[1]+H+3}`,true)}
-      ${nodo("instrucciones",X(1),Y[0],"","i","Instrucciones",["Reglas que sigue Claude"],null,"Ver")}
-      ${nodo("fuentes",X(0),Y[1],"","f","Fuentes",[],(D.fuentes.consultadas||[]).length+" fuentes","Ver")}
-      ${nodo("base",X(1),Y[1],"claude","b","Datos",[`${num(hc)} revisadas · ${num(t.fichas||0)} por revisar`,diaria?"Revisión una vez al día":"Próxima pasada "+proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})],num(D.ayudas.length),"Abrir")}
-      ${nodo("app",X(2),Y[1],"","ce","Eskubat",["La app: ayudas en castellano","y euskera, y su diseño"],null,"Cuestiones")}
-      ${nodo("cuestiones",X(1),Y[2],"clave","c","Cuestiones abiertas",[`Fuentes ${ca.fuentes||0} · Datos ${ca.datos||0} · Eskubat ${ca.eskubat||0}`],c.abierta,"Abrir")}
+      ${[0,1,2].map(i=>`<path class="flecha bus" d="M${X(i)+W/2},${Y[0]+H+2} L${X(i)+W/2},${bus}"/>`).join("")}
+      <path class="flecha bus" d="M${X(0)+W/2},${bus} L${X(2)+W/2},${bus}"/>
+      <text class="lbl" x="${(X(1)+X(2))/2+W/2}" y="${bus+17}" text-anchor="middle">dudas, errores e ideas de cualquier parte</text>
+      ${fl(`M${cx},${bus} L${cx},${Y[1]-3}`,"bus")}
+      ${fl(`M${X(0)+W+2},${yC} L${X(1)-3},${yC}`)}
+      <text class="lbl" x="${X(0)+W+100}" y="${yC-8}" text-anchor="middle">corrección</text>
+      ${fl(`M${X(0)+W/2+40},${Y[1]+H+2} L${X(0)+W/2+40},${yM} L${X(1)-3},${yM}`)}
+      <text class="lbl" x="${X(0)+W+100}" y="${yM-8}" text-anchor="middle">mejora</text>
+      <path class="flecha ret" d="M${X(1)+W+2},${yC} L${ret},${yC}"/>
+      <path class="flecha ret" d="M${X(1)+W+2},${yM} L${ret},${yM} L${ret},${yC}"/>
+      ${fl(`M${ret},${yC} L${ret},${r} L${X(2)+W+3},${r}`,"ret")}
+      <text class="lbl ret-t" x="${ret+8}" y="${(yC+r)/2}" transform="rotate(90 ${ret+8} ${(yC+r)/2})" text-anchor="middle">corregido y publicado</text>
+      ${nodo("fuentes",X(0),Y[0],"","f","Fuentes",[],(D.fuentes.consultadas||[]).reduce((s,g)=>s+(g.filas||[1]).length,0)+" fuentes","Ver")}
+      ${nodo("base",X(1),Y[0],"claude","b","Datos",[`${num(hc)} revisadas · ${num(t.fichas||0)} por revisar`,diaria?"Revisión una vez al día":"Próxima pasada "+proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})],num(D.ayudas.length),"Abrir")}
+      ${nodo("app",X(2),Y[0],"","ce","Eskubat",["La app: ayudas en castellano","y euskera, y su diseño"],null,"Cuestiones")}
+      ${nodo("cuestiones",X(0),Y[1],"clave","c","Cuestiones",[`Fuentes ${ca.fuentes||0} · Datos ${ca.datos||0}`,`Eskubat ${ca.eskubat||0}`],`${c.abierta}<tspan class="nu"> abiertas</tspan>`,"Decidir")}
+      ${nodo("correccion",X(1),Y[1],"claude","cl","Corrección programada",["Fichas, datos y reglas,",`próxima pasada · ${aplic} hechas`],`${listas}<tspan class="nu"> en cola</tspan>`,"Ver")}
+      ${nodo("mejora",X(1),Y[2],"claude","m","Mejora continua",["Fuentes, recolector y app:",`una cada noche · ${plH} hechas`],`${plP}<tspan class="nu"> planificadas</tspan>`,"Ver")}
     </svg></div>
     ${paraTi()}</div>`;
   $("#detalle").querySelectorAll("button[data-pc]").forEach(b=>b.onclick=()=>{ S.filtro="abierta"; cambiarVista("c"); seleccionar(b.dataset.pc); });
   $("#detalle").querySelectorAll(".nodo[data-go]").forEach(n=>{
-    const ir=()=>{ if(n.dataset.go==="ce"){ S.filtro="todas"; S.areaF="eskubat"; cambiarVista("c"); return; } if(n.dataset.go==="c"){ S.filtro="abierta"; S.areaF=""; } cambiarVista(n.dataset.go); };
+    const ir=()=>{ const g=n.dataset.go; if(g==="ce"){ S.filtro="todas"; S.areaF="eskubat"; cambiarVista("c"); return; } if(g==="cl"){ S.filtro="lista"; S.areaF=""; cambiarVista("c"); return; } if(g==="c"){ S.filtro="abierta"; S.areaF=""; } cambiarVista(g); };
     n.onclick=ir; n.onkeydown=(ev)=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); ir(); } };
   });
 }
@@ -616,7 +641,6 @@ function renderBase(){
       <div id="revTipo"></div>
     </section>
     <div class="dos">${barras("Quién convoca","nivel")}${barras("Para quién","para")}${barras("Temas (12 primeros)","temas")}${barras("Organismos (12 primeros)","organismo")}</div>
-    ${planClaude("revision").length||planClaude("base").length?`<section class="card"><h3>Plan de Claude para la base de datos</h3><ul class="plan">${[...planClaude("base"),...planClaude("revision")].map(filaPlan).join("")}</ul></section>`:""}
     <details class="acord"><summary><div class="acs"><h3>Cuando todo esté revisado: el día a día</h3><div class="acst"><span class="prox">Recolector a las 05:41 · Claude revisa lo nuevo a las 17:52 · tú solo miras los comentarios</span></div></div><span class="acf">▾</span></summary>
       <div class="acb"><div class="dia">
         <div><span class="hr">05:41</span>${ico("bd")}<b>El recolector actualiza la base de datos</b><span>Entran las ayudas nuevas, las que han cambiado vuelven a la cola y las cerradas salen de la app.</span></div>
@@ -762,7 +786,7 @@ function campoF(t,x){ return x?`<div class="campo"><h4>${t}</h4><div>${linkify(x
 function renderDetalleB(){
   const a=AY.get(S.selB);
   if(!a&&S.selec&&S.selec.size) return renderLote();
-  if(!a){ const pb=planClaude("base"); $("#detalle").innerHTML=`<div class="vacio"><h2>${num(visiblesB().length)} ayudas en esta lista</h2><p>Abre una para ver su ficha y pedir un cambio, o marca varias (o «Seleccionar» todas las filtradas) para pedir el mismo cambio a todas a la vez. Claude lo aplica en sus próximas pasadas.</p>${pb.length?`<section class="card"><h3>Plan de Claude para la base de datos</h3><ul class="plan">${pb.map(filaPlan).join("")}</ul></section>`:""}</div>`; return; }
+  if(!a){ const pb=planClaude("base"); $("#detalle").innerHTML=`<div class="vacio"><h2>${num(visiblesB().length)} ayudas en esta lista</h2><p>Abre una para ver su ficha y pedir un cambio, o marca varias (o «Seleccionar» todas las filtradas) para pedir el mismo cambio a todas a la vez. Claude lo aplica en sus próximas pasadas.</p></div>`; return; }
   const f=a.ficha, tipos=f?Object.keys(f.versiones):[];
   if(!tipos.includes(S.verB)) S.verB=tipos[0];
   const v=f?f.versiones[S.verB]||{}:null;
@@ -919,8 +943,8 @@ function renderFuentes(){
   const kpi=(n,t,c="")=>`<span class="kpi ${c}"><b>${n}</b>${t}</span>`;
   const chip=q=>`<span class="quien ${/^Tú/.test(q)?"tu":"cl"}">${esc(q)}</span>`;
   $("#detalle").innerHTML=`<div class="flujo">
-    <p class="intro">De dónde salen las ayudas de la app y cómo se mejoran: fuentes consultadas y mejora continua (ideas, revisión mensual, hallazgos y plan de Claude). Registros del recolector del ${fmtFecha(F.fecha)}.</p>
-    ${det("con","Fuentes consultadas",
+    <p class="intro">De dónde salen las ayudas de la app. Las fuentes nuevas y las mejoras de lectura están en Mejora continua. Registros del recolector del ${fmtFecha(F.fecha)}.</p>
+    ${(abiertos.con===undefined&&(abiertos.con=true),"")}${det("con","Fuentes consultadas",
       `${kpi(canales,"fuentes")}${kpi(num(totalApp),"ayudas en la app")}${kpi(num(totalR),"registros leídos hoy")}${avisos?kpi(avisos,"con aviso","av"):""}${F.enlaces?kpi(num(F.enlaces.sustituidos+F.enlaces.quitados),"enlaces rotos corregidos hoy",F.enlaces.rotos?"av":"ok"):""}<div class="mbar" role="img" aria-label="Registros por fuente">${barra}</div><span class="hint" style="flex-basis:100%;margin-top:-4px">Ayudas de la app según su fuente: pasa el ratón para ver cada una.</span>`,
       `<div class="tabwrap"><table class="ftabla agrup"><thead><tr><th>Fuente</th><th>Canal</th><th>Ayudas en la app</th><th>Qué aporta</th><th>Cómo se lee</th><th>Leídos hoy</th></tr></thead><tbody>
       ${con.map(g=>{ const F=g.filas||[]; const n=F.length; return F.map((f,i)=>`<tr class="${i===0?"g-ini":"g-sig"}">
@@ -930,31 +954,6 @@ function renderFuentes(){
         ${i===0?`<td rowspan="${n}">${esc(g.que)}${g.pendiente?`<div class="aviso" style="margin-top:6px">${esc(g.pendiente)}</div>`:""}</td><td rowspan="${n}">${esc(g.como)}</td><td rowspan="${n}" class="n">${g.registros!=null?num(g.registros):"—"}</td>`:""}
       </tr>`).join(""); }).join("")}
       </tbody></table></div>`)}
-    ${det("hacer","Mejora continua",
-      `${tuyas.length?kpi(tuyas.length,"para ti","av"):""}${pot.length?kpi(pot.length,"hallazgos con acción"):""}${kpi(pendC.length,"planificadas")}${bloq?kpi(bloq,"bloqueadas"):""}${hechas?kpi(hechas,"hechas","ok"):""}
-       ${prox?`<span class="prox">Siguiente: <b>${esc(prox.titulo)}</b> · noche del ${fechaCorta(new Date(prox.previsto.getTime()-864e5))}</span>`:""}
-       <span class="prox" style="flex-basis:100%">Revisión mensual del plan: ${M.ultima?`última el ${fmtFecha(M.ultima)}${M.nuevas?` (${M.nuevas} tareas nuevas)`:""} · `:""}próxima el ${proxMes().toLocaleDateString("es-ES",{day:"numeric",month:"long"})}</span>`,
-      `${tuyas.length?`<section class="card parati"><h3>Para ti</h3><ul>${tuyas.map(t=>`<li><div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span></div><span class="chip">${EST_T[t.estado]||t.estado}</span></li>`).join("")}</ul></section>`:""}
-      <section class="card idea"><h3>Propón una idea de mejora</h3>
-        <p class="hint" style="margin:0 0 10px">Cuéntasela a Claude con tus palabras. Te ayuda a concretarla y la añade al plan él mismo; también puede cambiar prioridades o ejecutar una tarea ahora.</p>
-        <button class="btn primary" data-asis="Tengo una idea de mejora: ">Proponer una idea a Claude</button></section>
-      <section class="card"><h3>Revisión mensual</h3>
-        <p class="hint" style="margin:0 0 10px">El día 1 de cada mes Claude repasa todo el sistema y rehace este plan: busca fuentes nuevas, mira dónde faltan ayudas, cómo reducir descargas y consumo, qué fuentes repiten a otras sin aportar ayudas únicas, y qué falla. Lo que encuentra entra en «Hallazgos y acción tomada» y como tareas del plan; lo que necesita tu decisión, en «Lo que te toca a ti».</p>
-        ${M.ultima?`<div class="nota"><b>${fmtFecha(M.ultima)}:</b> ${linkify(M.resumen||"")}</div>`:`<p class="hint" style="margin:0">Primera revisión: ${proxMes().toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long"})}.</p>`}
-        ${M.metricas&&Object.keys(M.metricas).length?`<div class="acst" style="margin-top:10px">${Object.entries(M.metricas).map(([k,v])=>kpi(esc(v),esc(k))).join("")}</div>`:""}
-        <h4 style="margin:16px 0 4px">Rendimiento por fuente</h4>
-        <p class="hint" style="margin:0 0 8px">Cada mes Claude mide, en los últimos 30 días, cuántas veces se lee cada fuente y cuántas ayudas nuevas o cambiadas aporta que no traiga otra. Así se ve si se gasta lectura en fuentes que repiten a otras. Recomienda mantener, reducir la frecuencia, fusionar o dejar de leer; nunca lo aplica sin tu decisión, y avisa si una fuente aporta ayudas únicas.</p>
-        ${rendimientoHTML(M.rendimiento)}
-      </section>
-      <section class="card"><h3>Hallazgos y acción tomada</h3>
-        <p class="hint" style="margin:0 0 10px">Fuentes que Claude ha encontrado y aún no se leen. Ya no necesitan tu atención: cada una tiene su acción decidida (una tarea del plan o una petición en curso). Si alguna necesita algo de ti, sale en «Para ti».</p>
-        ${pot.length?`<div class="tabwrap"><table class="ftabla"><thead><tr><th>Hallazgo</th><th>Por qué importa</th><th>Acción tomada</th><th>Estado</th></tr></thead><tbody>
-        ${pot.map(x=>{ const t=x.tarea&&(D.tareas||[]).find(t=>t.id===x.tarea); const tp=t&&plan.find(p=>p.id===t.id);
-          return `<tr><td><b>${esc(x.nombre)}</b></td><td>${esc(x.por)}</td><td>${esc(x.hacer)}</td>
-          <td>${chip(x.quien)}${t?`<div class="hint" style="margin-top:6px">${EST_T[t.estado]||t.estado}${tp&&tp.previsto&&t.estado==="pendiente"?" · noche del "+fechaCorta(new Date(tp.previsto.getTime()-864e5)):""}</div>`:""}</td></tr>`; }).join("")}
-        </tbody></table></div>`:`<p class="hint" style="margin:0">Sin hallazgos pendientes: todas las fuentes encontradas ya se leen.</p>`}
-      </section>
-      <section class="card"><h3>Plan de Claude para las fuentes</h3><p class="hint" style="margin:0 0 10px">Una mejora cada noche a las 03:17, antes del recolector de las 05:41. La noche siguiente Claude comprueba que funciona.</p><ul class="plan">${plan.map(filaPlan).join("")}</ul></section>`)}
   </div>`;
   $("#detalle").querySelectorAll("details.acord").forEach(d=>d.addEventListener("toggle",()=>{ abiertos[d.dataset.ac]=d.open; }));
 }
@@ -974,6 +973,44 @@ function rendimientoHTML(R){
   ${R.datos?`<p class="hint" style="margin:10px 0 0"><b>Datos del registro:</b> ${esc(R.datos)}</p>`:""}
   ${R.falta?`<div class="aviso" style="margin-top:8px">No se pudo medir: ${esc(R.falta)}</div>`:""}`;
 }
+const SECC={fuentes:"Fuentes",base:"Datos",revision:"Revisión de Claude",eskubat:"Eskubat (app y diseño)"};
+function renderMejora(){
+  const F=D.fuentes, pot=F.potenciales||[];
+  const plan=planClaude(), tuyas=(D.tareas||[]).filter(t=>t.quien==="Tú"&&t.estado!=="hecha");
+  const pendC=plan.filter(t=>t.estado==="pendiente").sort((a,b)=>a.prioridad-b.prioridad), hechas=plan.filter(t=>t.estado==="hecha").length, bloq=plan.filter(t=>t.estado==="bloqueada").length;
+  const prox=pendC[0], M=D.mejora||{};
+  const kpi=(n,t,c="")=>`<span class="kpi ${c}"><b>${n}</b>${t}</span>`;
+  const chip=q=>`<span class="quien ${/^Tú/.test(q)?"tu":"cl"}">${esc(q)}</span>`;
+  $("#detalle").innerHTML=`<div class="flujo">
+    <p class="intro">Aquí llegan las cuestiones que tú decides convertir en mejora (cambian fuentes, el recolector, las reglas o la app) y lo que Claude encuentra en su revisión mensual. Claude las ejecuta de una en una cada noche.</p>
+    <div class="acst">${tuyas.length?kpi(tuyas.length,"para ti","av"):""}${kpi(pendC.length,"planificadas")}${bloq?kpi(bloq,"bloqueadas"):""}${hechas?kpi(hechas,"hechas","ok"):""}${pot.length?kpi(pot.length,"hallazgos con acción"):""}
+      ${prox?`<span class="prox">Siguiente: <b>${esc(prox.titulo)}</b> · noche del ${fechaCorta(new Date(prox.previsto.getTime()-864e5))}</span>`:""}
+      <span class="prox" style="flex-basis:100%">Revisión mensual: ${M.ultima?`última el ${fmtFecha(M.ultima)}${M.nuevas?` (${M.nuevas} tareas nuevas)`:""} · `:""}próxima el ${proxMes().toLocaleDateString("es-ES",{day:"numeric",month:"long"})}</span></div>
+    ${tuyas.length?`<section class="card parati"><h3>Para ti</h3><ul>${tuyas.map(t=>`<li><div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span></div><span class="chip">${EST_T[t.estado]||t.estado}</span></li>`).join("")}</ul></section>`:""}
+      <section class="card"><h3>Plan de Claude</h3><p class="hint" style="margin:0 0 10px">Una mejora cada noche a las 03:17, antes del recolector de las 05:41, en orden de prioridad. La noche siguiente Claude comprueba que funciona. «Ejecutar ahora» la adelanta.</p>${["fuentes","base","revision","eskubat"].map(s=>{ const L=plan.filter(t=>(t.seccion||"fuentes")===s); return L.length?`<h4 class="plansec">${SECC[s]}</h4><ul class="plan">${L.map(filaPlan).join("")}</ul>`:""; }).join("")}</section>
+      <section class="card idea"><h3>Propón una idea de mejora</h3>
+        <p class="hint" style="margin:0 0 10px">Cuéntasela a Claude con tus palabras. Te ayuda a concretarla y la añade al plan él mismo; también puede cambiar prioridades o ejecutar una tarea ahora.</p>
+        <button class="btn primary" data-asis="Tengo una idea de mejora: ">Proponer una idea a Claude</button></section>
+      <section class="card"><h3>Revisión mensual</h3>
+        <p class="hint" style="margin:0 0 10px">El día 1 de cada mes Claude repasa todo el sistema y rehace este plan: busca fuentes nuevas, mira dónde faltan ayudas, cómo reducir descargas y consumo, qué fuentes repiten a otras sin aportar ayudas únicas, y qué falla. Lo que encuentra entra en «Hallazgos y acción tomada» y como tareas del plan; lo que necesita tu decisión, en «Lo que te toca a ti».</p>
+        ${M.ultima?`<div class="nota"><b>${fmtFecha(M.ultima)}:</b> ${linkify(M.resumen||"")}</div>`:`<p class="hint" style="margin:0">Primera revisión: ${proxMes().toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long"})}.</p>`}
+        ${M.metricas&&Object.keys(M.metricas).length?`<div class="acst" style="margin-top:10px">${Object.entries(M.metricas).map(([k,v])=>kpi(esc(v),esc(k))).join("")}</div>`:""}
+        <h4 style="margin:16px 0 4px">Rendimiento por fuente</h4>
+        <p class="hint" style="margin:0 0 8px">Cada mes Claude mide, en los últimos 30 días, cuántas veces se lee cada fuente y cuántas ayudas nuevas o cambiadas aporta que no traiga otra. Así se ve si se gasta lectura en fuentes que repiten a otras. Recomienda mantener, reducir la frecuencia, fusionar o dejar de leer; nunca lo aplica sin tu decisión, y avisa si una fuente aporta ayudas únicas.</p>
+        ${rendimientoHTML(M.rendimiento)}
+      </section>
+      <section class="card"><h3>Hallazgos y acción tomada</h3>
+        <p class="hint" style="margin:0 0 10px">Fuentes que Claude ha encontrado y aún no se leen. Ya no necesitan tu atención: cada una tiene su acción decidida (una tarea del plan o una petición en curso). Si alguna necesita algo de ti, sale en «Para ti».</p>
+        ${pot.length?`<div class="tabwrap"><table class="ftabla"><thead><tr><th>Hallazgo</th><th>Por qué importa</th><th>Acción tomada</th><th>Estado</th></tr></thead><tbody>
+        ${pot.map(x=>{ const t=x.tarea&&(D.tareas||[]).find(t=>t.id===x.tarea); const tp=t&&plan.find(p=>p.id===t.id);
+          return `<tr><td><b>${esc(x.nombre)}</b></td><td>${esc(x.por)}</td><td>${esc(x.hacer)}</td>
+          <td>${chip(x.quien)}${t?`<div class="hint" style="margin-top:6px">${EST_T[t.estado]||t.estado}${tp&&tp.previsto&&t.estado==="pendiente"?" · noche del "+fechaCorta(new Date(tp.previsto.getTime()-864e5)):""}</div>`:""}</td></tr>`; }).join("")}
+        </tbody></table></div>`:`<p class="hint" style="margin:0">Sin hallazgos pendientes: todas las fuentes encontradas ya se leen.</p>`}
+      </section>
+      
+  </div>`;
+}
+
 /* ================= ASISTENTE (Pedir a Claude) ================= */
 const ASIS={msgs:[],log:[],ocupado:false};
 try{ const g=JSON.parse(localStorage.getItem("eskubat-asis")||"null"); if(g&&Array.isArray(g.msgs)) ASIS.msgs=g.msgs.slice(-30); }catch{}
@@ -1018,8 +1055,8 @@ const HERR=[
  {name:"ejecutar_tarea_ahora",description:"Lanza ya una tarea del plan de Claude (por id) en vez de esperar a su noche. Arranca en menos de una hora.",inputSchema:{type:"object",properties:{id:{type:"string"}},required:["id"]},
   execute:async(i)=>{ const t=(D.tareas||[]).find(x=>x.id===i.id); if(!t) throw new Error("No existe esa tarea"); await S.db.collection("peticiones").doc(t.id).set({tarea:t.id,titulo:t.titulo,estado:"pedida",pedida:new Date().toISOString()}); return {hecho:true,tarea:t.titulo}; }},
  {name:"mostrar",description:"Lleva la página a una pantalla: inicio, datos (resumen), lista (con filtros), cuestiones, fuentes o instrucciones. Útil para enseñar al responsable lo que has encontrado.",
-  inputSchema:{type:"object",properties:{pantalla:{type:"string",enum:["inicio","datos","lista","cuestiones","fuentes","instrucciones"]},filtros:{type:"object",description:"Para lista: rev, com, estado, cierre, nivel, para, temas, organismo"},ayuda:{type:"string",description:"Id de una ayuda para abrirla en la lista"}},required:["pantalla"]},
-  execute:(i)=>{ const v={inicio:"w",datos:"b",lista:"l",cuestiones:"c",fuentes:"f",instrucciones:"i"}[i.pantalla]; if(v==="l"){ S.fl=i.filtros||{}; S.selec=new Set(); } cambiarVista(v); if(i.ayuda&&v==="l") seleccionar(i.ayuda); return {hecho:true}; }}
+  inputSchema:{type:"object",properties:{pantalla:{type:"string",enum:["inicio","datos","lista","cuestiones","fuentes","mejora","instrucciones"]},filtros:{type:"object",description:"Para lista: rev, com, estado, cierre, nivel, para, temas, organismo"},ayuda:{type:"string",description:"Id de una ayuda para abrirla en la lista"}},required:["pantalla"]},
+  execute:(i)=>{ const v={inicio:"w",datos:"b",lista:"l",cuestiones:"c",fuentes:"f",mejora:"m",instrucciones:"i"}[i.pantalla]; if(v==="l"){ S.fl=i.filtros||{}; S.selec=new Set(); } cambiarVista(v); if(i.ayuda&&v==="l") seleccionar(i.ayuda); return {hecho:true}; }}
 ];
 function sistemaAsis(){ return `Eres Claude, el asistente de la página «Eskubat — Revisión de ayudas». Eskubat es una app de ayudas y subvenciones de Euskadi. El sistema: un recolector diario lee las fuentes; Claude revisa cada hora (a y 32) las ayudas nuevas o cambiadas y redacta sus fichas; cada noche (03:17) Claude ejecuta una tarea del plan de mejora continua; cada mes revisa el plan. Las cuestiones son decisiones del responsable o cambios pedidos; las «listas» las aplica la revisión horaria en su próxima pasada (las de área eskubat, no).
 Tienes herramientas para consultar los datos y para hacer cambios directamente: úsalas. Si te piden un cambio, hazlo con la herramienta adecuada y di qué has hecho y cuándo se aplicará; no pidas permiso para lo que el responsable ya ha pedido claramente, pero pregunta si algo es ambiguo o afecta a muchas ayudas sin que lo haya dicho. Antes de pedir cambios a ayudas concretas, búscalas para tener los ids. No puedes navegar por la web ni cambiar el código desde aquí: lo que exige código o fuentes nuevas va al plan (proponer_tarea_plan). Responde en castellano, breve y claro, sin jerga técnica. Hoy es ${new Date().toISOString().slice(0,10)}; los datos de la página son del ${hora(D.generado)}.`; }
@@ -1047,7 +1084,7 @@ function abrirAsis(texto){ document.body.classList.add("asis-on"); renderAsis();
 
 /* ================= NAVEGACIÓN ================= */
 function renderLista(){ if(S.vista==="l") renderListaB(); else if(S.vista==="c") renderListaC(); else if(S.vista==="i") renderListaI(); }
-function renderDetalle(){ ({w:renderInicio,b:renderBase,f:renderFuentes,l:renderDetalleB,c:renderDetalleC,i:renderDetalleI})[S.vista](); }
+function renderDetalle(){ ({w:renderInicio,m:renderMejora,b:renderBase,f:renderFuentes,l:renderDetalleB,c:renderDetalleC,i:renderDetalleI})[S.vista](); }
 function cambiarVista(v){
   S.vista=v; const _ao=document.body.classList.contains("asis-on"); document.body.className="v-"+v+(_ao?" asis-on":""); S.q=""; $("#q").value="";
   $("#vtitulo").textContent=TITULOS[v]||""; $("#nueva").style.display=v==="c"?"":"none";
