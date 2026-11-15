@@ -5,6 +5,7 @@ import { norm, pedir, enParalelo, paraDeTexto, temasDe, tituloCorto, organismoCo
 import * as euskadi from './euskadi.js';
 import * as bdns from './bdns.js';
 import * as forales from './forales.js';
+import * as boletines from './boletines.js';
 import { claveLinea } from './historico.js';
 import { aplicar, huella } from './resumen.js';
 import { documentacion } from './enlaces.js';
@@ -19,6 +20,7 @@ const FUENTES = [
   { clave: 'gipuzkoa', nombre: 'Diputación Foral de Gipuzkoa (sede electrónica)', mod: { recoger: forales.gipuzkoa } },
   { clave: 'araba', nombre: 'Diputación Foral de Álava (ayudas en vigor)', mod: { recoger: forales.araba } },
   { clave: 'bdns', nombre: 'Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)', mod: bdns },
+  { clave: 'boletines', nombre: 'Boletines oficiales de Bizkaia, Gipuzkoa y Álava (BOB, BOG, BOTHA)', mod: boletines },
 ];
 
 // Completa con la ficha de euskadi.eus las ayudas que enlazan a ella (las fichas sí son accesibles)
@@ -125,6 +127,19 @@ async function main() {
 
   for (const k in resultados) for (const a of resultados[k]) a.origen = a.origen || k;
   let ayudas = unir([...(resultados.euskadi || []), ...(resultados.gipuzkoa || []), ...(resultados.araba || [])], resultados.bdns || []);
+  // Boletines: solo lo que no tenemos ya (mismo código BDNS o mismo título en el mismo ámbito)
+  {
+    const ids = new Set(ayudas.map((a) => a.id));
+    const kAy = ayudas.map((a) => ({ k: claves(a.titulo), amb: a.ambito.nombre }));
+    let dup = 0;
+    for (const b of resultados.boletines || []) {
+      if (b.bdnsRef && ids.has('bdns-' + b.bdnsRef)) { dup++; continue; }
+      const kb = claves(b.titulo);
+      if (kAy.some((x) => x.amb === b.ambito.nombre && parecido(kb, x.k) >= 0.6)) { dup++; continue; }
+      ayudas.push(b);
+    }
+    log(`Boletines: ${(resultados.boletines || []).length - dup} ayudas nuevas (${dup} ya estaban por otras fuentes)`);
+  }
   // Ayudas añadidas por la tarea a partir de noticias, y marca de posibles noticias (se cotejan antes de publicar)
   try { ayudas.push(...extras(log)); } catch (e) { log(`Extras: ${e.message}`); }
   for (const a of ayudas) if (esPosibleNoticia(a)) a.posibleNoticia = true;
