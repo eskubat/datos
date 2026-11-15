@@ -1,20 +1,19 @@
 ### Ficha oficial: https://www.euskadi.eus/ayuda_subvencion/2026/eve-programa-de-ayudas-a-actuaciones-en-eficiencia-energetica-en-la-industria/web01-a2energi/es/
 Departamento de Industria, Transición Energética y Sostenibilidad
 Energía
-Descripci�n
+Descripción
 Objeto
 A fin de promover acciones que persigan la eficiencia energética, el ahorro de energía, y la reducción de gases de efecto invernadero en la industria manufacturera en el territorio de la CAE, se publica el presente Programa de ayudas a actuaciones en eficiencia energética en la industria.
-Dotaci�n presupuestaria
-52.000.000 €
-Prestaci�n econ�mica
 Dotación presupuestaria
+52.000.000 €
+Prestación económica
 La dotación económica total destinada a este programa asciende a cincuenta y dos millones de euros (52.000.000 €), según el correspondiente crédito establecido al efecto en los presupuestos del EVE y dividido, de acuerdo con las actuaciones subvencionables indicadas en la Base 4ª, en función de las siguientes cuantías:
 Para las actuaciones de tipo 1, 2 y 3, un montante global de 26.000.000 €, financiado mediante los recursos financieros derivados del Fondo Nacional de Eficiencia Energética.
 Para las actuaciones de tipo 4, 5 y 6, un montante global de: 26.000.000 €, financiado mediante recursos propios del EVE.
 Procedimiento de adjudicación de las ayudas
 Teniendo en cuenta que las ayudas previstas se destinan a financiar actuaciones o situaciones concretas que no requieren de valoración comparativa con otras propuestas, las resoluciones de concesión de las ayudas se dictarán mediante un procedimiento de concurrencia sucesiva, una vez realizadas las comprobaciones de concurrencia de la situación o actuación subvencionable y el cumplimiento del resto de requisitos exigidos, hasta el agotamiento del crédito presupuestario asignado en la convocatoria. De este modo, las solicitudes se examinarán y tramitarán conforme a su estricto orden de presentación.
-A qui�n va dirigido
-Grandes Empresas y las Peque�as y Medianas Empresas (PYME)
+A quién va dirigido
+Grandes Empresas y las Pequeñas y Medianas Empresas (PYME)
 En el caso de que la empresa esté asociada o vinculada con otras, los requisitos anteriores deberán cumplirlos el grupo de empresas así formado.
 Conforme a lo previsto para cada tipología de actuación, podrán acceder a las subvenciones objeto de convocatoria del presente programa de ayudas y de acuerdo con los criterios indicados en estas Bases las grandes empresas y las pequeñas y medianas empresas (PYME) que se configuren como personas jurídicas, cumplan con la característica de ser industriales, cuyas inversiones objeto de la ayuda se localicen en la Comunidad Autónoma de Euskadi, y siempre que su CNAE 2025 se encuentre dentro del listado indicado a continuación:
 07. Extracción de minerales metálicos.
@@ -52,7 +51,7 @@ En lo que respecta al cálculo del tamaño de empresa, la categoría de microemp
 En la categoría de PYME, se define pequeña empresa como una empresa que ocupa menos de 50 personas y cuyo volumen de negocios anual o cuyo balance general anual no rebase los 10 millones de euros.
 En la categoría de PYME, se define microempresa como una empresa que ocupa menos de 10 personas y cuyo volumen de negocios anual o cuyo balance general anual no rebase los 2 millones de euros.
 Requisitos:
-Informaci�n detallada
+Información detallada
 Actuaciones subvencionables
 Serán actuaciones subvencionables, las relacionadas a continuación y siempre que estén ejecutadas en la CAE siempre que cumplan con los requisitos que se establecen para cada una de ellas en el anexo I «Actuaciones subvencionables, costes subvencionables y cuantía de las ayudas»:
 Tipo de actuación 1. Inversiones en mejora o sustitución de equipos, instalaciones, procesos industriales, así como sistemas auxiliares, consumidores de energía existentes.
@@ -67,13 +66,10 @@ Los porcentajes aplicables que se aplicarán sobre el coste subvencionable será
 C.1.2. Tipo de actuación 2.- Inversiones en sustitución de equipos o instalaciones existentes generadores de energía para proceso por otros procedentes de energías renovables basados en bombas de calor
 Los porcentajes aplicables que se aplicarán sobre el coste subvencionable serán del 45% para grandes empresas, del 55% para medianas empresas y del 65% para pequeñas empresas.
 C.1.3. Tipo de actuación 3. Implantación de sistemas de gestión energética (SGE).
-Los porcentajes aplicables que se aplicarán sobre el coste subvencionable serán del 15% para grandes empresas, del 20% para medianas empresas y del 25% para pequeñas empresas.
 C.1.4. Tipo de actuación 4. Inversiones en nuevas líneas de producción actualmente no existentes.
 Los porcentajes aplicables que se aplicarán sobre el coste subvencionable serán del 20% para grandes empresas, del 25% para medianas empresas y del 30% para pequeñas empresas.
 C.1.5. Tipo de actuación 5. Instalaciones eléctricas nuevas y la adecuación de las antiguas por el aumento de potencia máxima admisible derivada de actuaciones en eficiencia energética, energías renovables o descarbonización, como: cuadros, transformadores, acometidas, tomas a tierra.
-Los porcentajes aplicables que se aplicarán sobre el coste subvencionable serán del 20% para grandes empresas, del 25% para medianas empresas y del 30% para pequeñas empresas.
 C.1.6. Tipo de actuación 6. Inversiones en descarbonización que conlleven reducción de emisiones GEI (CO2) no incluidas en los tipos anteriores (Tipo de actuación 1, 2, 3, 4 y 5)
-Los porcentajes aplicables que se aplicarán sobre el coste subvencionable serán del 20% para grandes empresas, del 25% para medianas empresas y del 30% para pequeñas empresas.
 Límites
 La cuantía total y máxima de ayuda por actuación y persona beneficiaria o grupo empresarial es de cuatro millones de euros (4.000.000 €).
 Asimismo, no se podrán acoger a este Programa aquellas actuaciones cuyo coste elegible sea inferior a cien mil euros (100.000 €) para actuaciones de tipo 1, 2, 4, 5 y 6, y de cincuenta mil euros (50.000 €) para actuaciones de tipo 3 (SGE), IVA no incluido.
@@ -82,33 +78,30 @@ Actuaciones 1, 2, 3, 4 y 5. Como requisito adicional, el ratio económico-energ�
 Actuaciones 5 y 6. Será actuación subvencionable aquella que permita reducir al menos un 10% los gases de efecto invernadero mediante la descarbonización de la instalación.
 Actuaciones 5 y 6. Como requisito adicional, el ratio económico-ambiental máximo será de 1.500 euros de ayuda por tCO2 de reducción anual de la actuación. Si se supera este ratio máximo, la actuación no será subvencionable.
 Requisitos
-Documentaci�n a presentar
+Documentación a presentar
 Normativa
 Normativa de la convocatoria
 RESOLUCIÓN de 27 de abril de 2026, del director general del Ente Vasco de la Energía, por la que se aprueban las bases reguladoras del programa de ayudas para actuaciones en eficiencia energética en la industria y su convocatoria para el año 2026.
 Organismos
 Organismo que convoca
-Entes p�blicos de derecho privado > EVE - Ente Vasco de la Energ�a
+Entes públicos de derecho privado > EVE - Ente Vasco de la Energía
 Organismo que resuelve
-Entes p�blicos de derecho privado > EVE - Ente Vasco de la Energ�a
-Informaci�n de contacto
+Información de contacto
 Ente Vasco de la Energía
 Teléfono: 946 620 600
 E-mail: gestionayudas@eve.eus
-C�digo
+Código
 12649
-Solicitud y aportaci�n de documentaci�n.
+Solicitud y aportación de documentación.
 Plazo de presentación de solicitudes:
 El plazo de presentación de las solicitudes de ayuda al presente programa de ayudas comenzará a las 8:00 horas del día hábil siguiente de la publicación del Programa, y finalizará en el momento de producirse el agotamiento del presupuesto destinado a este efecto en el Programa de Ayudas.
 En todo caso, con independencia de la existencia de presupuesto disponible, el plazo para la presentación de las solicitudes de ayuda finalizará el miércoles 30 de junio de 2027, aun cuando existiera presupuesto disponible en la convocatoria.
 La justificación de la realización, facturación y abono de la actuación objeto de ayuda por parte de las personas beneficiarias de la ayuda deberá realizarse ante EVE, en un plazo máximo de dieciocho (18) meses contados desde la fecha de notificación de la resolución de concesión y, en todo caso, no más tarde del viernes 29 de septiembre de 2028, de manera electrónica mediante la aplicación informática indicada en la base sexta.
-Tramitaci�n electr�nica
+Tramitación electrónica
 Asegúrese de disponer de un medio de identificación electrónica admitido.
 Prepare la documentación en formato digital.
 Acceda al formulario online mediante el siguiente botón y rellene los datos de la solicitud.
-Tramitación electrónica
-Documentaci�n
-Documentaci�n a presentar
+Documentación
 instrucciones
 Requisitos de documentación en la fase de solicitud de ayuda:
 Ver ANEXO II de las Bases del Programa, apartado 1.
@@ -119,8 +112,7 @@ Otorgamiento representación (PDF, 701 KB)
 Modelo memoria descriptiva (DOCX, 76 KB)
 Cálculo emisiones y ahorro energético EEIND26 (XLSX, 116 KB)
 Requisitos
-Documentaci�n a presentar
-M�s informaci�n
+Más información
 Antes de comenzar:
 Tenga en cuenta que debe disponer de un medio de identificación electrónica.
 Prepare los documentos necesarios en formato digital. (PDF o formatos admitidos)
@@ -131,42 +123,9 @@ Firme la solicitud.
 Envíe la solicitud y los documentos.
 A continuación, verá una pantalla que le indica que el envío ya ha sido realizado (acuse de recibo).
 Posteriormente, podrá continuar con la tramitación y realizar el seguimiento de su expediente a través de Mi carpeta.
-Medios de identificaci�n electr�nica admitidos
-Resoluci�n y recursos
-Plazo de resoluci�n
-6 mes.
-Tipo de concesi�n de la ayuda
-No concursal
-Efectos del silencio
-Desestimatorios
-Recurso potestativo de reposici�n
-Tramitaci�n electr�nica
-Asegúrese de disponer de un medio de identificación electrónica admitido.
-Prepare la documentación en formato digital.
-Acceda a Mi carpeta.
-Mi carpeta
-M�s informaci�n
-Medios de identificaci�n electr�nica admitidos
-Es un recurso de carácter administrativo por el que se pide a un órgano administrativo que revise y enmiende un acto dictado por él mismo.
-Tiene carácter potestativo, lo cual quiere decir que las personas interesadas tienen la alternativa de interponer el recurso de reposición o bien, si lo prefieren, interponer el recurso contencioso-administrativo directamente.
-¿Contra qué actos se interpone?
-Aquellos que pongan fin a la vía administrativa.
-¿Ante qué órgano se interpone?
-El mismo que dictó el acto recurrido.
-¿Qué plazo tiene usted para interponerlo?
-1 mes si el acto recurrido es expreso.
-En cualquier momento a partir del día siguiente a aquel en que se produzca el acto presunto.
-¿Qué plazo tiene la Administración para resolverlo?
-1 mes: si en este plazo no se le notifica la resolución, se entiende desestimado el recurso.
-¿Qué recursos puede usted interponer posteriormente?
-En caso de interponer recurso potestativo de reposición, posteriormente cabe interponer recurso contencioso-administrativo, por vía judicial.
-No obstante, comoquiera que el recurso de reposición tiene carácter potestativo, las personas interesadas pueden interponer el recurso contencioso-administrativo directamente.
-Más información: Título V. Capítulo II. Recursos administrativos, de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
+Medios de identificación electrónica admitidos
 
 ### RESOLUCIÓN de 27 de abril de 2026, del director general del Ente Vasco de la Energía, por la que se aprueban las bases reguladoras del programa de ayudas para actuaciones en eficiencia energética en la industria y su convocatoria para el año 2026.: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2026/05/2602070a.pdf
-BOLETÍN OFICIAL DEL PAÍS VASCO
-N.º 91
-lunes 18 de mayo de 2026
 OTRAS DISPOSICIONES
 ENTE VASCO DE LA ENERGÍA
 2070
@@ -199,13 +158,8 @@ energética en la industria, cuyo contenido figura en el anexo a la presente Res
 del Decreto 64/1985, de 5 de marzo, por el que se regulan las funciones de los órganos rectores
 del Ente Vasco de la Energía (en adelante, EVE).
 Esta aprobación lleva aparejada la correspondiente autorización del gasto.
-2026/2070 (1/37)
-BOLETÍN OFICIAL DEL PAÍS VASCO
-N.º 91
-lunes 18 de mayo de 2026
 DISPOSICIÓN FINAL PRIMERA.– Eficacia.
 La presente Resolución producirá efectos a partir del día siguiente al de su publicación en el
-Boletín Oficial del País Vasco.
 DISPOSICIÓN FINAL SEGUNDA.– Recursos.
 Contra la presente Resolución, que agota la vía administrativa, podrá interponerse, con carácter potestativo, recurso de reposición ante el director general del EVE en el plazo de un mes a
 partir del día siguiente al de su publicación en el Boletín Oficial del País Vasco, o recurso contencioso-administrativo ante los juzgados de lo Contencioso-Administrativo de Bilbao, en el plazo de
@@ -213,18 +167,10 @@ dos meses a partir del día siguiente al de su publicación en el mismo boletín
 En Bilbao, a 27 de abril de 2026.
 El director general del Ente Vasco de la Energía,
 MIKEL AMUNDARAIN LEIBAR.
-2026/2070 (2/37)
-BOLETÍN OFICIAL DEL PAÍS VASCO
-N.º 91
-lunes 18 de mayo de 2026
 ANEXO
 Bases reguladoras del programa de ayudas para actuaciones en eficiencia energética
 en la industria
 – Bases –
-2026/2070 (3/37)
-BOLETÍN OFICIAL DEL PAÍS VASCO
-N.º 91
-lunes 18 de mayo de 2026
 Primera.– Objeto del programa, régimen jurídico y naturaleza de la ayuda.
 a)
 El Departamento de Industria, Transición Energética y Sostenibilidad, de conformidad con los objetivos de
@@ -278,10 +224,6 @@ El presente programa de ayudas y las subvenciones que se concedan en su aplicaci
 el mercado interior, a tenor de lo establecido en el apartado 3 del artículo 107 del Tratado de Funcionamiento
 de la Unión Europea, estando exentas de la obligación de notificación a la Comisión establecida en el artículo
 108 de dicho Tratado.
-2026/2070 (4/37)
-BOLETÍN OFICIAL DEL PAÍS VASCO
-N.º 91
-lunes 18 de mayo de 2026
 Para el supuesto de solicitantes que tengan la consideración de empresa conforme al Reglamento UE
 651/2014 de la Comisión, de 26 de junio de 2014 (en adelante Reglamento 651/2014), por el que se declaran
 determinadas categorías de ayuda compatibles con el mercado común en aplicación de los artículos 107 y
@@ -336,10 +278,6 @@ en la Comunidad Autónoma de Euskadi, y siempre que su CNAE 2025 se encuentre de
 indicado a continuación:
 1.º 07. Extracción de minerales metálicos.
 2.º 08. Otras industrias extractivas.
-2026/2070 (5/37)
-BOLETÍN OFICIAL DEL PAÍS VASCO
-N.º 91
-lunes 18 de mayo de 2026
 b)
 3.º 09. Actividades de apoyo a la industria extractiva.
 4.º 10. Industria Alimentaria.
@@ -388,10 +326,6 @@ funcionamiento de la Unión Europea, modificado por el Reglamento (UE) n.º 1315
 Igualmente, para la categorización de empresa asociada o vinculada, se estará a lo señalado en el Anexo I
 del citado Reglamento. Asimismo, para la calificación de empresa en crisis se considerará lo dispuesto en
 su artículo 2.18 del citado Reglamento.
-2026/2070 (6/37)
-BOLETÍN OFICIAL DEL PAÍS VASCO
-N.º 91
-lunes 18 de mayo de 2026
 c)
 No podrán tener la condición de personas beneficiarias de las ayudas:
 1.º Quienes no cumplan alguna de las circunstancias previstas en el artículo 21 del Reglamento de la Ley
@@ -440,10 +374,6 @@ salvamento y reestructuración de empresas no financieras en crisis (Comunicaci�
 o subvención que les hubiera sido otorgada con anterioridad, bien por haberse declarado una ayuda ilegal
 e incompatible con el mercado interior, bien por cualquier tipo de incumplimiento de las obligaciones que
 le vinieran atribuidas en la concesión.
-2026/2070 (7/37)
-BOLETÍN OFICIAL DEL PAÍS VASCO
-N.º 91
-lunes 18 de mayo de 2026
 8º En cumplimiento de la Ley 14/2007, de 28 de diciembre, de Carta de Justicia y Solidaridad con los países
 empobrecidos del País Vasco, las empresas cuyo objeto social o dedicación sea en todo o en parte la
 producción, comercialización y financiación de armas.
@@ -493,17 +423,293 @@ de una solicitud a la lista de reserva provisional generará derecho alguno para
 que no se resuelva la solicitud de ayuda.
 Se dará publicidad del agotamiento del presupuesto disponible mediante resolución de la Dirección General
 del EVE tanto en el BOPV como en la dirección de internet de EVE: www.eve.eus
-2026/2070 (8/37)
-BOLETÍN OFICIAL DEL PAÍS VASCO
-N.º 91
-lunes 18 de mayo de 2026
 c)
 Para el cómputo de plazos rige lo dispuesto por el artículo 30 de la Ley 39/2015, de 1 de octubre, del
 Procedimiento Administrativo Común de las Administraciones Públicas (en adelante «Ley 39/2015»).
 d)
 Las solicitudes presentadas que, estando correctas, completas y en tramitación, no pudieran ser atendidas
 por agotamiento de la dotación presupuestaria asignada, serán denegadas, por tal motivo, mediante
-resolución d
-
-### Otorgamiento representación (PDF, 701 KB): https://www.euskadi.eus/contenidos/ayuda_subvencion/eficiencia_energ_2026/es_def/adjuntos/EEIND26-Otorgamiento-representacion.pdf
-OTORGAMIENTO D
+resolución de la Dirección General del EVE.
+Cuarta.– Actuaciones subvencionables y cuantía de las ayudas.
+a)
+Serán actuaciones subvencionables, las relacionadas a continuación y siempre que estén ejecutadas en la
+CAE siempre que cumplan con los requisitos que se establecen para cada una de ellas en el Anexo I
+«Actuaciones subvencionables, costes subvencionables y cuantía de las ayudas»:
+1.º Tipo de actuación 1. Inversiones en mejora o sustitución de equipos, instalaciones, procesos industriales,
+así como sistemas auxiliares, consumidores de energía existentes.
+2.º Tipo de actuación 2. Inversiones en sustitución de equipos o instalaciones existentes generadores de
+energía para proceso por otros procedentes de energías renovables basados en bombas de calor.
+3.º Tipo de actuación 3. Implantación de sistemas de gestión energética (SGE).
+4.º Tipo de actuación 4. Inversiones en nuevas líneas de producción actualmente no existentes.
+5.º Tipo de actuación 5. Instalaciones eléctricas nuevas y la adecuación de las antiguas por el aumento de
+potencia máxima admisible derivada de actuaciones en eficiencia energética, energías renovables o
+descarbonización, como: cuadros, transformadores, acometidas, tomas a tierra.
+6.º Tipo de actuación 6. Inversiones en descarbonización que conlleven reducción de emisiones GEI (CO2)
+no incluidas en los tipos anteriores (Tipo de actuación 1, 2, 3, 4 y 5).
+b)
+Las actuaciones podrán ser realizadas a través de empresas de servicios energéticos (en adelante «ESE»)
+entendiendo como tales las enmarcadas en la definición del artículo 19 del Real Decreto-ley 6/2010, de 9 de
+abril, de medidas para el impulso de la recuperación económica y el empleo, siempre que se cumplan las
+siguientes condiciones.
+1.º La solicitud de ayuda será registrada a nombre de la empresa industrial de acuerdo con la base segunda.
+2.º La empresa industrial beneficiaria endosará la ayuda a la ESE.
+3.º La ESE deberá actuar en función de un contrato de servicios energéticos, repercutiendo la ayuda prevista
+en este programa de ayudas, a través del contrato citado, a la propietaria o explotadora de las
+instalaciones donde ejecute el proyecto (beneficiaria de la ayuda).
+La ESE deberá estar registrada en el listado de proveedores de servicios energéticos de IDAE,
+https://www.idae.es/proveedores-de-servicios-energeticos
+c)
+Las actuaciones podrán ser financiadas mediante arrendamiento financiero leasing siempre y cuando se
+cumplan las siguientes condiciones:
+1.º La solicitud de ayuda será registrada a nombre de la empresa industrial.
+2.º El documento de arrendamiento financiero debe reflejar el compromiso de ejecutar la actuación
+subvencionada.
+3.º El compromiso de ejecutar la opción de compra al término del contrato debe ser vinculante desde el
+inicio del contrato.
+d)
+A efectos del periodo de elegibilidad para la admisión de las solicitudes, se exigirá que cualquier compromiso
+en firme de ejecución; presupuestos aceptados, pedidos, contratos, facturas y justificantes de pago
+correspondientes a la ejecución de las instalaciones objeto de ayuda sean de fecha posterior a la solicitud
+de ayuda.
+No obstante, no se consideran como inicio de los trabajos la compra de terrenos y estudios de viabilidad al
+considerarse actuaciones preparatorias.
+e)
+La determinación del coste subvencionable y la cuantía de las ayudas a percibir por las personas
+beneficiarias, para cada tipología de actuación subvencionable recogida en la base cuarta, se incluye en el
+Anexo I de estas bases.
+f)
+Las ayudas a percibir por los destinatarios últimos de las ayudas del Programa estarán sujetas a los requisitos
+y límites establecidos en el Reglamento 651/2014, sin perjuicio, del resto de disposiciones del derecho de la
+Unión Europea que pudieran resultar de aplicación.
+g)
+Finalmente, no serán objeto de subvención en la presente convocatoria de ayudas recogida en este
+Programa aquellas actuaciones cuyo coste elegible sea inferior a cien mil (100.000) euros para actuaciones
+de tipo 1, 2, 4, 5 y 6, y de cincuenta mil (50.000) euros para actuaciones de tipo 3, IVA no incluido.
+Quinta.– Limitaciones generales a las subvenciones.
+a)
+Límite general del importe de las ayudas por persona beneficiaria.
+Conforme a lo señalado en la base cuarta y en el Anexo I «Actuaciones subvencionables, costes
+subvencionables y cuantía de las ayudas».
+b)
+Régimen de compatibilidad con otras subvenciones, ayudas, ingresos o recursos.
+1.º Las ayudas otorgadas en el marco de este Programa de Ayudas serán compatibles con cualesquiera
+otras subvenciones, ayudas, ingresos o recursos que pudieran concederse para la misma actuación
+subvencionable, procedentes de cualesquiera administraciones o entes públicos o privados, nacionales,
+de la Unión Europea o de organismos internacionales, en tanto no superen en su conjunto el límite
+establecido en el artículo, que por el tipo de actuación, corresponda del Reglamento (UE) 651/2014, de
+17 de junio de 2014, por el que se declaran determinadas categorías compatibles con el mercado interior
+en aplicación de los artículos 107 y 108 del Tratado (DO L 187, de 26-06-2014), modificado por el
+Reglamento (UE) 1315/2023, de 23 de junio de 2023 (DO, L 167, de 30-06-2023).
+Estas subvenciones serán compatibles con otras ayudas, subvenciones, ingresos o recursos
+concedidos para el mismo proyecto o actuación cuando dichas medidas de financiación se refieran a
+costes subvencionables diferentes, o cuando las medidas se correspondan total o parcialmente con los
+mismos costes subvencionables y su acumulación no supera la intensidad de ayuda o el importe de
+ayuda más elevados aplicable en función de lo establecido en el Reglamento (UE) 651/2014 de la
+Comisión.
+Sin embargo, las actuaciones objeto de este Programa de Tipo 1, 2, 3 y 4, no serán compatibles con los
+Certificados de Ahorro Energético (CAE) regulados por el Real Decreto 36/2023, de 24 de enero, por el
+que se establece un sistema de Certificados de Ahorro Energético.
+En caso de que la financiación de la Unión gestionada centralmente por las instituciones, agencias,
+empresas comunes u otros órganos de la Unión, que no esté directa o indirectamente bajo el control del
+Estado miembro se combine con ayudas estatales, únicamente se tomarán en consideración estas
+últimas para determinar si se respetan los umbrales de notificación y las intensidades máximas de
+ayuda, siempre que el importe total de la financiación pública concedida en relación con los mismos
+costes subvencionables no exceda de los porcentajes máximos de financiación establecidos en la
+normativa europea aplicable.
+2.º En el supuesto de que las ayudas provenientes de otras entidades se materializasen con posterioridad
+a la resolución de concesión de la subvención por parte del EVE, la persona beneficiaria está obligada
+a comunicarlo al EVE y si del análisis del conjunto de ayudas procede la minoración de la cuantía de la
+ayuda, ésta se comunicará mediante la correspondiente resolución de revocación parcial o total y con
+carácter previo al abono de la misma.
+c)
+Subcontratación o contratación con terceros de las actividades subvencionadas.
+Conforme a lo previsto en el artículo 29 de la LGS y en el artículo 68 del RGS y el artículo 31 de la Ley
+20/2023, se entiende que una persona beneficiaria de la ayuda subcontrata cuando concierta con terceros
+la ejecución total o parcial de la actividad que constituye el objeto de la subvención. Queda fuera de este
+concepto la contratación de aquellos gastos en que tenga que incurrir la persona beneficiaria de la ayuda
+para la realización por sí mismo de la actividad subvencionada.
+A este respecto, la subcontratación o contratación de terceros podrá alcanzar hasta el 100 % del importe de
+la actividad subvencionada, resultando de aplicación para la subcontratación o contratación de terceros de
+las actividades subvencionadas las restantes previsiones recogidas en los citados artículos 29 de la LGS, 68
+del RGS y 31 de la Ley 20/2023.
+De conformidad con lo previsto en el artículo 29.7.d) de la LGS y 31.7.d) de la Ley 20/2023, se autoriza la
+concertación total o parcial de la ejecución de las actividades con entidades vinculadas a la persona
+beneficiaria siempre y cuando:
+1.º Se obtenga la autorización expresa previa del EVE; y
+2.º El importe correspondiente no supere el coste incurrido por la entidad vinculada (es decir, que no exista
+un incremento entre los gastos soportados por la empresa vinculada y los repercutidos a la persona
+solicitante de la ayuda). En estos casos, la acreditación de estos costes reales se ha de llevar a cabo en
+la justificación en los mismos términos establecidos para la acreditación de los gastos de la persona
+beneficiaria.
+d)
+En aplicación de lo previsto en el artículo 31.3 de la LGS y el 30.3 de la Ley 20/2023, sin perjuicio del régimen
+de aplicación de la Ley de Contratos del Sector Público (LCSP) que resulte por la naturaleza jurídica de la
+persona solicitante, cuando el importe del gasto subvencionable supere las cuantías establecidas en la
+Normativa en materia de Contratación Pública para el contrato menor (15.000 euros o superior, IVA excluido
+para servicios y suministros y 40.000 euros o superior, IVA excluido para obras), la persona beneficiaria de
+la ayuda deberá solicitar, como mínimo, tres ofertas de diferentes proveedores, con carácter previo a la
+contracción del compromiso para la obra, la prestación del servicio o la entrega del bien, salvo que por sus
+especiales características no exista en el mercado suficiente número de entidades que las realicen, presten
+o suministren.
+La elección entre las ofertas presentadas se realizará conforme a criterios de eficiencia y economía, así como
+quedar justificada expresamente la elección cuando no recaiga en la propuesta que resulte ser la
+económicamente más ventajosa.
+Sexta.– Gestión y procedimiento de tramitación.
+De conformidad con lo previsto en el artículo 14 de la Ley 39/2015 y en cumplimiento de lo recogido en el Decreto
+91/2023, de 20 de junio, de atención integral y multicanal a la ciudadanía y acceso a los servicios públicos por
+medios electrónicos (en adelante «Decreto 91/2023»), la tramitación completa de los expedientes relativos a este
+programa de ayudas (solicitudes, requerimientos, notificaciones, subsanaciones y demás gestiones) se realizará
+por medios electrónicos, a través de «Mi carpeta» de la sede electrónica de la Administración Pública de la
+Comunidad Autónoma de Euskadi (https://www.euskadi.eus/micarpeta) y haciendo uso de la aplicación de
+tramitación electrónica de Gobierno Vasco – Tramitagune y que se encuentra disponible en Euskadi.eus y en la
+página web de EVE (www.eve.eus).
+La ficha informativa del procedimiento administrativo donde están disponibles las instrucciones para la
+tramitación, las declaraciones responsables y los modelos, y a través de la cual se accede al formulario de solicitud
+está accesible en https://www.euskadi.eus y www.eve.eus
+Cualquier trámite o documento asociado al procedimiento de solicitud y tramitación de ayudas que se aporte
+electrónicamente deberá contar con una firma electrónica reconocida en los términos señalados en el artículo 71
+del Decreto 91/2023. Los medios de identificación y firma electrónica admitidos en la sede electrónica de la
+Administración Pública de la Comunidad Autónoma de Euskadi están accesibles en la siguiente dirección:
+https://www.euskadi.eus/certificados-electronicos
+Los trámites posteriores a la solicitud, por canal electrónico, incluidas las notificaciones y justificaciones, se
+realizarán a través de «Mi carpeta» de la sede electrónica de la Administración Pública de la Comunidad
+Autónoma de Euskadi: https://www.euskadi.eus/micarpeta
+Si la solicitud no reúne los requisitos exigidos por las presentes bases, estuviese incompleta, o fuera defectuosa,
+se requerirá a la persona interesada para que, en un plazo de diez (10) días hábiles a contar desde la recepción
+de la notificación, subsane la falta o acompañe los documentos preceptivos, con indicación de que, si así no lo
+hiciera, se le tendrá por desistido de su petición mediante resolución que deberá ser dictada en los términos
+previstos en el artículo 21 de la Ley 39/2015.
+En el caso de que se presente la solicitud presencialmente, al margen del cauce electrónico establecido, se
+requerirá a la persona interesada para que la subsane a través de su presentación electrónica. A todos los efectos,
+se considerará como fecha de presentación de la solicitud aquella en la que haya sido realizada la subsanación.
+Séptima.– Solicitud de ayuda y periodo de elegibilidad.
+a)
+Se deberá presentar una única solicitud por cada actuación que pretenda ser objeto de ayuda. No se pueden
+presentar varias actuaciones diferentes dentro de una misma solicitud, debiendo presentarse cada una de
+ellas de forma independiente.
+El formulario de solicitud de ayuda y la documentación que debe acompañarlo, deberá adjuntarse a través
+de la aplicación informática indicada en la base sexta y dentro del plazo de solicitud de ayuda previsto en la
+base tercera.
+b)
+Las solicitudes serán atendidas por riguroso orden de presentación hasta el agotamiento de los fondos, sin
+perjuicio de lo indicado en el primer párrafo de la base octava, apartado a) en relación al orden establecido
+para resolver las solicitudes de ayuda.
+En caso de agotamiento del presupuesto y siempre que no hubiera expirado la vigencia del Programa, podrán
+seguir registrándose solicitudes en lista de reserva provisional en los términos indicados en la base tercera.
+c)
+Las solicitudes de ayuda acompañarán toda la documentación indicada en el Anexo II «Documentación a
+aportar en fase de solicitud y justificación» de estas bases en función de la actuación que se pretenda
+subvencionar. No obstante, EVE podrá recabar de la persona solicitante la información y documentación
+complementaria que estime necesaria para el correcto análisis de la solicitud de ayuda.
+Octava.– Resolución, comunicación y publicidad.
+a)
+Teniendo en cuenta que las ayudas previstas se destinan a financiar actuaciones o situaciones concretas
+que no requieren de valoración comparativa con otras propuestas, las resoluciones de concesión de las
+ayudas se dictarán mediante un procedimiento de concurrencia sucesiva, una vez realizadas las
+comprobaciones de concurrencia de la situación o actuación subvencionable y el cumplimiento del resto de
+requisitos exigidos, hasta el agotamiento del crédito presupuestario asignado en la convocatoria. De este
+modo, las solicitudes se examinarán y tramitarán conforme a su estricto orden de presentación.
+b)
+El Área de Ayudas, englobada dentro de la Dirección de Programas de Ayudas y Servicios de Valor Añadido
+del EVE será el órgano competente para la gestión de los expedientes.
+Por su parte, el Director General de EVE resolverá y notificará la resolución en el plazo máximo de seis (6)
+meses a contar desde la fecha de presentación de la solicitud de ayuda (artículo 21.2 de la Ley 39/2015).
+Transcurrido este plazo sin haberse notificado resolución expresa, las personas interesadas podrán entender
+desestimada su solicitud conforme a lo establecido en el artículo 22 de la Ley 20/2023, a los efectos de lo
+recogido en el artículo 25 de Ley 39/2015 y sin perjuicio de la obligación de EVE de resolver expresamente
+sobre la solicitud formulada. Las notificaciones electrónicas de las resoluciones se realizarán a través de
+«Mi carpeta» de la sede electrónica de la Administración Pública de la Comunidad Autónoma de Euskadi:
+https://www.euskadi.eus/micarpeta. Todo ello sin perjuicio de lo previsto en la base tercera para las
+solicitudes que se encuentren en lista de reserva.
+En la resolución, además del contenido señalado en el artículo 22.3 de la Ley 20/2023, se indicará
+expresamente: (i) la actuación objeto de la ayuda, (ii) el importe de la misma (como cantidad bruta sin
+perjuicio de las obligaciones tributarias que procedan por razón de la naturaleza de la persona beneficiaria
+de la ayuda), (iii) la procedencia de los fondos, (iv) aquellos otros aspectos juzgados de interés y (v), en su
+caso, los motivos de denegación.
+c)
+Contra la resolución que agota la vía administrativa la persona solicitante podrá interponer, con carácter
+potestativo, recurso de reposición ante la Dirección General del EVE en el plazo de un mes contado a partir
+del día siguiente a aquel en que tenga lugar la notificación de la resolución o interponer directamente el
+recurso contencioso-administrativo ante los juzgados de lo contencioso-administrativo de Bilbao en el plazo
+de dos meses contados desde el día siguiente al de la notificación de la resolución, todo ello de conformidad
+con lo establecido en los artículos 123 y 124 de la Ley 39/2015, y el artículo 46.1 de la Ley 29/1998, de 13
+de julio, reguladora de la Jurisdicción Contencioso-Administrativa (en adelante «Ley 29/1998»).
+d)
+Finalmente, a la finalización del programa de ayudas, y de conformidad con lo recogido en la Ley 19/2013,
+de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno (en adelante «Ley
+19/2013»), el artículo 30 del RGS y el artículo 15 de la Ley 20/2023, el EVE procederá a publicar en el BOPV,
+en su Portal de Transparencia y en el Registro General de Subvenciones de Euskadi (a través de su remisión
+a la Oficina de Control Económico – OCE) las ayudas otorgadas en virtud de este programa, con indicación
+de los datos legalmente exigidos.
+Novena.– Justificación de la realización de la inversión y abono de las ayudas.
+a)
+La justificación de la realización, facturación y abono de la actuación objeto de ayuda por parte de las
+personas beneficiarias de la ayuda deberá realizarse ante EVE, en un plazo máximo de dieciocho (18) meses
+contados desde la fecha de notificación de la resolución de concesión y, en todo caso, no más tarde del
+viernes 29 de septiembre de 2028, de manera electrónica mediante la aplicación informática indicada en
+la base sexta.
+Todos los documentos se aportarán en formato PDF, con el texto en horizontal en su visión en pantalla, y
+preferentemente sin comprimir.
+b)
+La justificación por parte de la persona beneficiaria de la ayuda deberá realizarse ante EVE, de manera
+electrónica mediante la aplicación informática indicada en la base sexta.
+c)
+La persona beneficiaria de la ayuda deberá aportar toda la documentación indicada en el Anexo II
+«Documentación a aportar en fase de solicitud y justificación» de estas bases, que resulte de aplicación y,
+específicamente, aquella que venga indicada en función de la actuación que se ha ejecutado y tipo de
+financiación de ser el caso. A este respecto, se señala expresamente que no se establece ninguna exención
+de aportación de documentación y que la documentación que se aporte para justificar la ejecución de la
+actuación debe ser coherente con la información aportada en el formulario de solicitud de la ayuda.
+d)
+La acreditación de los certificados de estar al corriente en sus obligaciones tributarias y de hallarse al
+corriente de los pagos con la Seguridad Social, todo ello a excepción de los relativos a la Hacienda Foral de
+Navarra y la Agencia Tributaria Estatal, se verificarán automáticamente y de oficio por parte del EVE.
+No obstante, la persona solicitante podrá denegar expresamente este consentimiento implícito, en cuyo caso
+deberá aportar la correspondiente certificación o el documento requerido, todo ello conforme lo dispuesto en
+el párrafo 2 del artículo 28 de la Ley 39/2015.
+A los efectos de esta acreditación, se estará también a lo dispuesto en la Orden de 13 de febrero de 2023,
+del Consejero de Economía y Hacienda sobre acreditación del cumplimiento de obligaciones tributarias y
+frente a la Seguridad Social, así como de las relativas al reintegro de subvenciones, en el marco de las
+ayudas y subvenciones que se otorguen con cargo a los Presupuestos Generales de Euskadi.
+A este respecto, no se efectuará ningún pago en tanto la persona beneficiaria no se halle al corriente en el
+cumplimiento de sus obligaciones tributarias y frente a la Seguridad Social o sea deudor por resolución de
+procedencia de reintegro.
+e)
+La aportación de la documentación se realizará, por la persona beneficiaria la ayuda, o su representante
+legal, una vez finalizada completamente la actuación, en un único acto y de manera completa. De este modo,
+si la aportación de documentación justificativa realizada estuviese incompleta, fuera defectuosa, o hubiera
+sido presentada por correo postal o de manera presencial, se otorgará a la persona beneficiaria de la ayuda,
+mediante el correspondiente escrito de solicitud de subsanación, un plazo de diez (10) días hábiles a contar
+desde la recepción de la notificación de subsanación por parte de la persona beneficiaria de la ayuda (artículo
+68 de la Ley 39/2015).
+f)
+La falta de presentación de la justificación en el plazo establecido llevará consigo la pérdida del derecho al
+cobro de la ayuda, la revocación de la misma y demás responsabilidades establecidas en la LGS.
+g)
+Únicamente podrá autorizarse una ampliación de los plazos fijados para la ejecución de las actuaciones,
+siempre que se solicite y se apruebe por el órgano concedente con anterioridad al horizonte temporal
+inicialmente aprobado, y cuando obedezca a circunstancias imprevisibles, debidamente justificadas, que
+hagan imposible el cumplimiento de las mismas, pese a haberse adoptado, por parte de las personas
+beneficiarias de las ayudas, las medidas técnicas y de planificación mínimas que les resultaban exigibles.
+En ningún caso se podrán autorizar ampliaciones de plazos para la ejecución de la actuación objeto de ayuda
+que superen en su cómputo total los 24 meses contados desde la fecha de notificación de la resolución de
+concesión de la ayuda y, en todo caso, nunca más tarde del viernes 29 de septiembre de 2028.
+h)
+Una vez recibida la documentación exigida se procederá a su análisis. Si la valoración de la documentación
+aportada resultase positiva, se procederá al abono de la ayuda por parte del EVE con expresa referencia a
+la procedencia de los fondos.
+Si una vez contrastada la documentación justificativa presentada, se advirtiera que a pesar de haberse
+llevado a cabo la inversión y cumplido el objetivo de este Programa el importe de subvención final debiera
+ser inferior al inicialmente otorgado, se procederá a incoar un expediente de revocación parcial de la ayuda.
+Si, por el contrario, la persona beneficiaria incumpliese la obligación de justificación en los términos previstos
+en esta base novena o cualesquiera otras condiciones de las recogidas en estas bases y/o de la normativa
+establecida en materia subvencional, el EVE procederá a incoar un expediente de revocación total o parcial
+de la ayuda atendiendo a los criterios de graduación señalados en la base duodécima y, en su caso, de
+conformidad con el principio de proporcionalidad.
+En ambos supuestos de revocación de la ayuda, se declarará la pérdida del derecho al cobro de la ayuda,
+según el caso, total o parcial.
+i)
+El abono de la subvención, por EVE, se realizará en la cuenta bancaria señalada al efecto por la persona
+beneficiaria de la ayuda, una vez concluida la actuación subvencionable, y previa presentación a EVE de la
+documentación justificativa que permita comprobar tanto la realización de las actividades subvencionadas
+como los gastos realizados, la terminación de cualquier procedimiento de reintegro

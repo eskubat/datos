@@ -1,13 +1,11 @@
 ### Ficha oficial: https://egoitza.araba.eus/es/inicio/tramites/fitxa/subvenciones-acciones-marco-alaves-de-incidencia-y-proteccion-a-personas-defensoras-derechos-humanos-2026
 Trámites - Sede electrónica - Diputación Foral de Álava - egoitza
-Trámites - Sede electrónica - Diputación Foral de Álava - egoitza
 GUÍA DE TRÁMITES
 Configuración
 Aceptar todo
 Rechazar todas
 
 ### Normativa: https://egoitza.araba.eus/es/conoce-la-sede/normativa
-Normativa - Sede electrónica Diputación Foral de Álava - egoitza
 Normativa - Sede electrónica Diputación Foral de Álava - egoitza
 Normativa de la Sede electrónica
 Decreto Foral 50/2022, del Consejo de Gobierno Foral de 27 de diciembre. Aprobar la modificación del Decreto Foral 26/2011, de Consejo de 5 de abril.
@@ -28,7 +26,6 @@ Aceptar todo
 Rechazar todas
 
 ### Preguntas frecuentes: https://egoitza.araba.eus/es/preguntas-frecuentes
-Preguntas frecuentes - egoitza
 Preguntas frecuentes - egoitza
 Preguntas frecuentes Mi Carpeta
 ¿Qué es Mi Carpeta?
@@ -57,7 +54,6 @@ A través de este servicio puedes consultar las notificaciones y comunicaciones 
 Mis borradores
 Próximamente en versiones posteriores.
 Mis pagos
-Próximamente en versiones posteriores.
 ¿Por qué no puedo ver información sobre una solicitud o expediente?
 Es posible que el expediente se esté gestionando con una herramienta de tramitación aún no integrada en Mi Carpeta, o que no estés registrado como persona interesada o representante en ese trámite. En cualquiera de estos casos, te sugerimos contactar con el órgano responsable del trámite, cuya información está disponible en la Sede electrónica, para obtener más detalles.
 Veo mis datos, pero contienen algún error: ¿cómo lo resuelvo?
@@ -69,7 +65,6 @@ Aceptar todo
 Rechazar todas
 
 ### Requisitos técnicos: https://egoitza.araba.eus/es/requisitos-tecnicos
-Requisitos técnicos de la Sede Electrónica de la DFA - egoitza
 Requisitos técnicos de la Sede Electrónica de la DFA - egoitza
 Requisitos técnicos
 Para utilizar la Sede electrónica de la Diputación Foral de Álava su equipo deberá disponer de las siguientes características:
@@ -100,11 +95,9 @@ Rechazar todas
 {{resultado.plazo.estado}}
 {{/ifEquals}}
 {{#ifEquals resultado.plazo.enPlazo "N"}}
-{{resultado.plazo.estado}}
 {{/ifEquals}}
 
 ### Normativa: https://egoitza.araba.eus/es/web/egoitza/conoce-la-sede/normativa
-Normativa - Sede electrónica Diputación Foral de Álava - egoitza
 Normativa - Sede electrónica Diputación Foral de Álava - egoitza
 Normativa de la Sede electrónica
 Decreto Foral 50/2022, del Consejo de Gobierno Foral de 27 de diciembre. Aprobar la modificación del Decreto Foral 26/2011, de Consejo de 5 de abril.
@@ -137,11 +130,9 @@ Rechazar todas
 {{resultado.plazo.estado}}
 {{/ifEquals}}
 {{#ifEquals resultado.plazo.enPlazo "N"}}
-{{resultado.plazo.estado}}
 {{/ifEquals}}
 
 ### Preguntas frecuentes: https://egoitza.araba.eus/es/web/egoitza/preguntas-frecuentes
-Preguntas frecuentes - egoitza
 Preguntas frecuentes - egoitza
 Preguntas frecuentes Mi Carpeta
 ¿Qué es Mi Carpeta?
@@ -170,7 +161,6 @@ A través de este servicio puedes consultar las notificaciones y comunicaciones 
 Mis borradores
 Próximamente en versiones posteriores.
 Mis pagos
-Próximamente en versiones posteriores.
 ¿Por qué no puedo ver información sobre una solicitud o expediente?
 Es posible que el expediente se esté gestionando con una herramienta de tramitación aún no integrada en Mi Carpeta, o que no estés registrado como persona interesada o representante en ese trámite. En cualquiera de estos casos, te sugerimos contactar con el órgano responsable del trámite, cuya información está disponible en la Sede electrónica, para obtener más detalles.
 Veo mis datos, pero contienen algún error: ¿cómo lo resuelvo?
@@ -182,7 +172,6 @@ Aceptar todo
 Rechazar todas
 
 ### Requisitos técnicos: https://egoitza.araba.eus/es/web/egoitza/requisitos-tecnicos
-Requisitos técnicos de la Sede Electrónica de la DFA - egoitza
 Requisitos técnicos de la Sede Electrónica de la DFA - egoitza
 Requisitos técnicos
 Para utilizar la Sede electrónica de la Diputación Foral de Álava su equipo deberá disponer de las siguientes características:

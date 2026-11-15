@@ -580,7 +580,6 @@ duten
 6 premios: lotes de materiales
 artísticos valorados en 100 € cada
 uno
-Sariak 2026ko azaroaren 8an banatuko
 dira, 14:30ean, RKEko harrera-tokian.
 Los premios serán entregados el día 8 de
 noviembre de 2026 a las 14:30 h en la
@@ -794,35 +793,23 @@ Identificar la sesión
 Sesión
 Diputación Foral de Bizkaia
 ASPSESSIONID
-Identificar la sesión
 Sesión
-Diputación Foral de Bizkaia
 TS01
-Identificar la sesión
 Sesión
-Diputación Foral de Bizkaia
 LFR_SESSION_STATE
-Identificar la sesión
 Sesión
-Diputación Foral de Bizkaia
 1 año
-Diputación Foral de Bizkaia
 pc_tecnicas_bizkaia
 1 año
-Diputación Foral de Bizkaia
 pc_analitica_bizkaia
 1 año
-Diputación Foral de Bizkaia
 pc_preferencias_bizkaia
 1 año
-Diputación Foral de Bizkaia
 pc_terceros_bizkaia
 1 año
-Diputación Foral de Bizkaia
 CPLB
 Contiene información utilizada por nuestros servidores de equilibrio de carga
 Sesión
-Diputación Foral de Bizkaia
 Kultursistema_session
 Mantener la sesión de la persona usuaria
 1 hora
@@ -841,31 +828,24 @@ Duración
 Propietario
 Rastrea una visita a través de múltiples solicitudes
 Sesión
-Diputación Foral de Bizkaia
 dtLatC
 Mide la latencia del servidor para la monitorización del rendimiento
 Sesión
-Diputación Foral de Bizkaia
 dtPC
 Necesario para identificar los parámetros adecuados para la transmisión de balizas; incluye ID de sesión para correlación
 Sesión
-Diputación Foral de Bizkaia
 dtSa
 Almacén intermedio para acciones que abarcan páginas
 Sesión
-Diputación Foral de Bizkaia
 rxVisitor
 ID de visitante para correlacionar sesiones
 Permanente
-Diputación Foral de Bizkaia
 rxvt
 Tiempo de espera de sesión
 Sesión
-Diputación Foral de Bizkaia
 iyrc-user-id
 Distinguir a las personas usuarias
 1 hora
-Diputación Foral de Bizkaia
 _ga, _ga_XXXXXXXXXXX
 Distinguir a la persona usuaria
 2 años
@@ -873,39 +853,28 @@ Google Analytics
 _gat, _gat_XXXXXXXXXXX
 Limitar el porcentaje de solicitudes
 1 minuto
-Google Analytics
 _gid
-Distinguir a las personas usuarias
 1 día
-Google Analytics
 MUID
-Distinguir a la persona usuaria
 1 año
 Microsoft Clarity
 _clck
 Asignar preferencias a la misma persona usuaria
 1 año
-Microsoft Clarity
 _clsk
 Conecta múltiples páginas vistas en una sesión
 1 año
-Microsoft Clarity
 CLID
 Identificar la primera visita de una persona usuaria
 1 año
-Microsoft Clarity
 ANONCHK
-Distinguir a la persona usuaria
 1 día
-Microsoft Clarity
 MR
 Indica cuando refrescar MUID
 6 meses
-Microsoft Clarity
 SM
 Sincronizar MUID en el entorno Microsoft
 1 año
-Microsoft Clarity
 Nombre
 Objetivo
 Duración
@@ -913,18 +882,14 @@ Propietario
 Idioma
 Seleccionar el idioma preferido por la persona usuaria
 1 año
-Diputación Foral de Bizkaia
 Guardar los trámites favoritos en Cita Previa
 1 año
-Diputación Foral de Bizkaia
 Nombre
 Objetivo
 Duración
 Propietario
 CLID
-Identificar la primera visita de una persona usuaria
 1 año
-Microsoft Clarity
 APISID
 Almacenar las preferencias del usuario y la información durante la visualización de las páginas con los mapas de Google en ellos
 2 años
@@ -934,9 +899,7 @@ Prevención del fraude
 2 años
 Google
 MUID
-Distinguir a la persona usuaria
 1 año
-Microsoft Clarity
 NID
 Recordar sus preferencias y otra información
 6 meses
@@ -956,9 +919,7 @@ Google
 SM
 Se utiliza para sincronizar el MUID entre dominios de Microsoft
 Sesión
-Microsoft Clarity
 SSID
-Proporcionar entrega de anuncios o retargeting, proporcionar prevención del fraude
 2 años
 Google
 __Secure-1PAPISID
@@ -966,7 +927,6 @@ Crear un perfil de los intereses del visitante del sitio web con el fin de mostr
 2 años
 Google
 __Secure-1PSID
-Crear un perfil de los intereses del visitante del sitio web con el fin de mostrar publicidad de Google relevante y personalizada
 2 años
 Google
 __Secure-1PSIDCC
@@ -974,19 +934,15 @@ Crear un perfil de los intereses de los visitantes del sitio web para mostrar an
 1 año
 Google
 __Secure-1PSIDTS
-Crear un perfil de los intereses de los visitantes del sitio web para mostrar anuncios relevantes y personalizados a través de retargeting
 1 año
 Google
 __Secure-3PSID
-Crear un perfil de los intereses del visitante del sitio web con el fin de mostrar publicidad de Google relevante y personalizada
 2 años
 Google
 __Secure-3PSIDCC
-Crear un perfil de los intereses de los visitantes del sitio web para mostrar anuncios relevantes y personalizados a través de retargeting
 1 año
 Google
 __Secure-3PSIDTS
-Crear un perfil de los intereses de los visitantes del sitio web para mostrar anuncios relevantes y personalizados a través de retargeting
 1 año
 Google
 __Secure-ENID
@@ -997,19 +953,14 @@ Depurar anuncios
 1 año
 Google
 MR
-Indica cuando refrescar MUID
 6 meses
-Microsoft Clarity
 XSRF-TOKEN
-Para evitar ataques CSRF (Cross Site Request Forgery)
 1 hora
 Kultursistema
 _fbp
 Almacenar y rastrear las visitas en los sitios web
 1 año
 Facebook
-kultursistema_session
-Mantener la sesión de la persona usuaria
 1 hora
 Kultursistema
 AEC

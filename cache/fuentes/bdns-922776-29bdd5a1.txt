@@ -375,7 +375,63 @@ programaren
 barruan
 dagokidan
 dirulaguntzaren onuraduna naizen
-aldetik, hona
+aldetik, honako hau baimentzen dut:
+Yo, la persona arriba consignada, como
+beneficiaria de la subvención que me
+corresponde en el marco del programa
+Auzo-Taxi del Ayuntamiento de Bergara,
+autorizo:
+1.- Bergarako Udalak Auzo-Taxi
+programaren barruan aitortzen didan
+dirulaguntzaren
+zenbatekoa
+taxigidariari
+zuzenean
+ordaintzea,
+endosatario gisa.
+1.- Que se abone directamente al taxista,
+como endosatario, el importe de la
+subvención que me reconoce el
+Ayuntamiento de Bergara en el marco del
+programa Auzo-Taxi.
+2.- Taxi-gidariari egindako ordainketa
+hori, ondorio guztietarako, niri onuradun
+gisa aitortutako eta ordaindutako
+dirulaguntzatzat jotzea.
+2.- Que este pago al taxista tenga, a todos
+los
+efectos,
+la
+consideración
+de
+subvención reconocida y abonada a mí
+como beneficiaria.
+3.Baimen
+honek
+Auzo-Taxi
+programaren barruan diruz laguntzeko
+modukoak diren bidaietarako izango du
+eragina,
+oinarri
+arautzaileetan
+ezarritako baldintzen arabera.
+3.- La presente autorización afectará a los
+desplazamientos subvencionables dentro
+del programa Auzo-Taxi, en los términos
+establecidos en las bases reguladoras.
+Baimen honek ez du aldatzen
+dirulaguntzaren
+onuradun
+izaera;
+onuraduna erabiltzailea izango da beti.
+La presente autorización no altera la
+condición de la persona beneficiaria de la
+subvención, que será siempre la persona
+usuaria.
+Bergaran, 20___(e)ko ___________aren ____(e)an.
+En Bergara, a ____ de ____________ de 20___.
+Onuradunaren sinadura
+Firma de la persona beneficiaria
 
 ### Bases reguladoras: https://www.bergara.eus/es/ayudas-economicas
 Plan Estratégico de Subvenciones 2025-2027
@@ -443,7 +499,6 @@ Convocatoria abierta de los programas de subvenciones establecidos para el año 
 Bases publicadas en el Boletín Oficial de Gipuzkoa el 16 de abril de 2025. Código BDNS: 825140.
 Convocatoria abierta de los programas de subvenciones establecidos para el año 2025 con destino a asociaciones o entidades sin ánimo de lucro.
 Bases publicadas en el Boletín Oficial de Gipuzkoa el 16 de abril de 2025. Código BDNS: 825115.
-Bases de concesión de subvenciones a empresas que ponen en euskera sus rótulos, imagen corporativa y sitio web.
 Bases publicadas en el Boletín Oficial de Gipuzkoa el 26 de marzo de 2025. Código BDNS: 819842.
 Bases reguladoras del premio de tarjeta de abono de honor del servicio de deportes.
 Bases publicadas en el Boletín Oficial de Gipuzkoa de 9 de enero de 2025. Código BDNS: 804304.
@@ -500,29 +555,8 @@ horiek aurretik izapidetzeko deialdi publikoa arautzeko oinarriak
 onartu dira eta honen bidez argitaratzen da:
 Mediante decreto de Alcaldía de 29 de julio de 2026 se han
 aprobado las bases reguladoras de las subvenciones del programa Auzo-Taxi y su convocatoria pública de tramitación anticipada, por lo que se procede a su publicación:
-Auzo-Taxi programarako dirulaguntzak eta horiek izapidetzeko deialdi publikoa arautzeko oinarriak.
-Bases reguladoras de las subvenciones del programa Auzo-Taxi y de la convocatoria pública para su tramitación.
-ZIOEN AZALPENA
-EXPOSICIÓN DE MOTIVOS
-Bergarako Udalak 2025eko urtarrilaren 27an egindako bileran onartu zuen Bergarako Udaleko Dirulaguntzen Plan Estrategikoa 2025-2027. Bertan lerro estrategiko desberdinak jasotzen dira, eta horien artean honako hau:
-El Ayuntamiento de Bergara, en sesión celebrada el 27 de
-enero de 2025, aprobó el Plan Estratégico de Subvenciones del
-Ayuntamiento de Bergara 2025-2027, donde se recogen las diferentes líneas estratégicas, entre las que se encuentra la siguiente:
-7. lerro estrategikoa: Auzoak, Landa-garapena, Ingurumena
-eta Iraunkortasuna.
-Línea estratégica 7: Barrios, Desarrollo rural, Medio Ambiente y Sostenibilidad.
-Lerro horretako 3. ekintza da landa-auzoetako bizilagunen
-mobilitaterako laguntza.
-La acción 3.ª de esta línea es una ayuda a la movilidad de
-las personas residentes en barrios rurales.
-Bestalde, plan horretan aurreikusten da dirulaguntza hauek
-urtero emango direla plana indarrean dagoen bitartean eta dirulaguntza emateko deialdi irekia egingo dela. Helburu horrekin
-prestatu dira oinarri hauek.
-Por otro lado, en dicho plan se contempla que estas subvenciones se concederán anualmente mientras el plan esté vigente y
-que se realizará una convocatoria abierta para la concesión de la
-subvención. Las presentes bases se han elaborado con dicho fin.
-1. artikulua.
-Dirulaguntzaren xedea.
+Auzo-Taxi programarako dirulaguntzak eta hor
+[…]
 Artículo 1.
 Objeto de la subvención.
 Oinarri hauen xedea da garraio publikoko zerbitzu erregularra erabiltzerik ez duten landa-auzoetako biztanleei udalerri barruan bidaiatzeko taxia erabiltzeagatik dirulaguntzen emakida
@@ -558,7 +592,6 @@ EK\CV GAO-I-2026-05343
 2026ko abuztuaren 12a, asteazkena
 2026ko abuztuaren 12a, asteazkena
 Gipuzkoako Aldizkari Ofiziala
-Boletín Oficial de Gipuzkoa
 kiaren bitartez horren berri emango da, eta programa bukatutzat emango da, beste dirulaguntzarik eman gabe.
 3. artikulua.
 Número 151
@@ -586,4 +619,289 @@ egotea.
 General de Subvenciones.
 4. Zerga-betebeharrak eta Gizarte Segurantzarekikoak egunean izatea.
 4. Hallarse al corriente en el pago de sus obligaciones tributarias y con la Seguridad Social.
-5. Bergarako Udalareki
+5. Bergarako Udalarekin inongo motatako zorrik ez izatea
+eta betebehar fiskaletan, zergatan eta, zergaz aparte, tasetan eta
+prezio publikoen ordainetan egunean egotea. Bergarako Udalak
+ofizioz egiaztatuko du per tsona eskatzailea Bergarako Udalarekin
+egunean dagoela.
+5. No tener pendiente ningún tipo de deuda con el Ayuntamiento de Bergara y hallarse al corriente en el pago de sus obligaciones fiscales, impuestos, tasas y precios públicos. El Ayuntamiento de Bergara comprobará de oficio que la persona solicitante
+se encuentra al corriente con el Ayuntamiento de Bergara.
+4. artikulua.
+tazioa.
+Eskaerak eta aurkeztu beharreko dokumen-
+Artículo 4.
+Solicitudes y documentación a presentar.
+4.1. Eskabide-orriak aurkezteko epea deialdia Gipuzkoako
+ALDIZKARI OFIZIALEAN argitaratzen den egunaren biharamunean zabalduko da, eta irekita egongo da partidan dagoen dirua agortu
+arte eta, gehienez ere, 2026ko abenduaren 31ra arte.
+4.1. El plazo de presentación de solicitudes se abrirá el
+día siguiente al de la publicación de la convocatoria en el BOLETÍN
+OFICIAL de Gipuzkoa, y permanecerá abierto hasta agotarse los
+fondos de la partida y, como máximo, hasta el 31 de diciembre
+de 2026.
+Dirulaguntza agor tzen bada, horren berri emango da udalaren web-orrian eta udal iragarki-taulan argitaratutako iragarkiaren bidez, eta programa amaitutzat joko da, beste dirulaguntzarik eman gabe.
+En caso de agotarse la subvención, se dará cuenta de ello
+mediante anuncio publicado en la página web municipal y en el
+tablón de anuncios municipal, dándose por finalizado el programa sin concederse más subvenciones.
+Eskaera Bergarako Udaleko Erregistro Orokorrean aurkeztu
+beharko da edo, bestela, urriaren 1eko 39/2015 Legearen 16.4
+artikuluak aurreikusten dituen gainerako bideen bitartez.
+La solicitud se debe presentar en el Registro General del
+Ayuntamiento de Bergara o, en su defecto, a través de los demás
+medios contemplados en el artículo 16.4 de la Ley 39/2015, de
+1 de octubre.
+4.2. Eskabide-orria eskatzaileak edo ordezkariak behar den
+moduan beteta eta sinatuta aurkeztuko da, artikulu honetako
+hurrengo puntuan aipatzen den dokumentazioarekin.
+4.2. La instancia, debidamente cumplimentada y firmada
+por la persona solicitante, deberá acompañarse de la documentación que se indica en el siguiente punto de este artículo.
+Horri dagokionez, jakinarazten da Administrazio Publikoen
+Administrazio Prozedura Erkidearen 39/2015 Legearen 28. artikuluan ezarritakoaren arabera, interesdunek eskubidea dutela
+dokumenturik ez aurkezteko honako egoera hauetakoren bat
+gertatzen denean:
+Al respecto se informa de que, de conformidad con lo establecido en el artículo 28 de la Ley 39/2015 del Procedimiento
+Administrativo Común de las Administraciones Públicas, las personas interesadas tienen derecho a no aportar documentos
+cuando se dé alguna de las siguientes circunstancias:
+a) Dagoeneko korporazioaren esku egotea; kasu horretan,
+ofizioz sartu ahal izango dira, baldin eta eskatzaileak eskabidean honako alderdi hauek adierazten baditu, eta emakida-prozeduraren instrukzioaz arduratzen den organoak egiaztatu beharko ditu:
+a) Que ya se encuentren en poder de la Corporación, en
+cuyo caso podrán incorporarse de oficio siempre que la persona
+solicitante indique en su solicitud los siguientes extremos, que
+deberán ser verificados por el órgano encargado de la instrucción del procedimiento de concesión:
+1. Zein egunetan eta zein organo edo bulegotan aurkeztu
+edo, hala badagokio, eman ziren.
+1. La fecha y el órgano o dependencia en que fueron presentados o, en su caso, emitidos.
+2. Aurkezpena eragin zuen prozeduraren izendapena. Dirulaguntzen deialdia denean, argitalpenaren epigrafea eta urtea
+zehaztuko dira.
+2. Designación del procedimiento que motivó la presentación. Cuando se trate de una convocatoria de subvenciones, se
+especificará el epígrafe y el año de su publicación.
+Administrazioaren esku dauden datu eta dokumentuek indarraldia galduko dute, bai baliozkoak ziren aldia amaitu delako,
+bai prozeduran aurkeztu zirenetik bost urte baino gehiago igaro
+direlako. Nolanahi ere, udalak interesdunari berriro aurkezteko
+eskatu ahal izango dio, ebazteko beharrezkoa den edozein alderdi
+behar bezala egiaztatu gabe gelditu bada.
+Los datos y documentos en poder de la Administración perderán su vigencia bien por haber concluido el período para el
+que tenían validez o por haber transcurrido más de cinco años
+desde su aportación al procedimiento. En cualquier caso, el ayuntamiento podrá requerir a la persona interesada que lo aporte de
+nuevo cuando no quede suficientemente acreditado cualquier
+extremo necesario para resolver.
+www.gipuzkoa.eus
+2
+LG.:S.S.1-1958
+EK\CV GAO-I-2026-05343
+151 zenbakia
+2026ko abuztuaren 12a, asteazkena
+Gipuzkoako Aldizkari Ofiziala
+Número 151
+Miércoles, a 12 de agosto de 2026
+b) Beste edozein administraziok eginak izatea. Kasu horretan, Bergarako Udaleko sail eskudunak zuzenean kontsultatu
+edo eskatu ahal izango ditu oinarri hauetan ezarritako baldintzak betetzen direla egiaztatzeko behar dituen datuak eta/edo
+dokumentuak, salbu eta interesdunak horren aurka egiten badu
+arrazoiak emanez.
+b) Que hayan sido expedidos por cualquier otra Administración. En este caso, el departamento competente en la materia
+del Ayuntamiento de Bergara podrá consultar o recabar directamente los datos y/o documentos que precise para acreditar el
+cumplimiento de los requisitos establecidos en estas bases,
+salvo que la persona interesada se opusiera a ello de forma motivada.
+Interesdunak era arrazoituan bere datuak kontsultatzearen
+aurka egiten badu, dirulaguntza izapidetu ahal izateko behar
+den dokumentazio guztia aurkeztu beharko du.
+En los supuestos en los que la persona interesada se oponga de forma motivada a la consulta de sus datos, debe aportar
+toda la documentación necesaria para su tramitación.
+Hala ere, dokumentua eskuratzea materialki ezinezkoa den
+kasuetan, eskatzaileari eskatu ahal izango zaio dokumentua
+aurkezteko, edo, bestela, dokumentu horren bidez egiaztatutako betekizunak beste bide batzuen bidez egiaztatzeko.
+No obstante, en los supuestos de imposibilidad material de
+obtener el documento, se podrá requerir a la persona solicitante
+su presentación, o en su defecto, la acreditación por otros medios de los requisitos a que se refiere el documento.
+4.3. Eskaera egiteko udal inprimakia erabiliko da eta eskaerarekin batera honako agiri hauek aurkeztu beharko dira:
+4.3. La solicitud se formulará mediante el impreso municipal y deberá ir acompañada de la siguiente documentación:
+a)
+Eskatzailearen NANa, AIZa edo pasaportea.
+a)
+DNI, NIE o pasaporte de la persona solicitante.
+b) Eskaera beste per tsona baten izenean egiten bada, dagokion ordezkaritza-inprimakia ere aurkeztu beharko da, behar
+bezala beteta, inprimakian ber tan aipatzen diren dokumentuekin batera.
+b) En caso de que la solicitud se realice a nombre de otra
+persona, se deberá presentar también el correspondiente impreso de representación, debidamente cumplimentado, junto
+con los documentos que en el mismo se indican.
+c) Adin txikiko batentzat eskatuko balitz, Familia Liburuaren fotokopia edo adingabearen identifikazioa eta gurasoen edo
+tutoreen baimena egiaztatzen duen dokumentazioa aurkeztu
+beharko da.
+c) Si se solicitara para un/a menor de edad, se deberá
+aportar fotocopia del Libro de Familia o documentación que
+acredite la identificación de la persona menor de edad y el consentimiento de padres-madres o tutores/as.
+d) Erabiltzaileak dirulaguntzaren ordainketa taxi-gidariari zuzenean egiteko emandako baimena edo endosu-agiria, behar bezala beteta eta sinatuta.
+d) Documento de autorización o endoso, debidamente cumplimentado y firmado, expedido por la persona usuaria para que
+el pago de la subvención se realice directamente al taxista.
+Udalak ofizioz egiaztatuko du erroldatze-baldintza betetzen
+dela eta Bergarako Udalarekiko ordainketak egunean dituela.
+El ayuntamiento comprobará de oficio el cumplimiento del
+requisito del empadronamiento, así como el de estar al corriente en sus pagos para con el Ayuntamiento de Bergara.
+Baldintzak edo betebeharrak betetzen direla egiaztatzeko,
+Bergarako Udalak honako kontsulta hauek egingo dizkie beste
+administrazio batzuei:
+Para acreditar el cumplimiento de los requisitos u obligaciones, el Ayuntamiento de Bergara realizará ante otras Administraciones las siguientes consultas:
+— Foru Ogasunari: zerga-betebeharrak egunean izatea.
+— A la Hacienda Foral: si está al corriente en sus obligaciones tributarias.
+— Gizarte Segurantzaren Diruzaintza Orokorrari: Gizarte Segurantzarekiko obligazioen ordainketan egunean egotea.
+— A la Tesorería General de la Seguridad Social (TGSS): si está al corriente en el pago de sus obligaciones con la Seguridad
+Social.
+Interesdunak era arrazoituan bere datuak kontsultatzearen
+aurka egiten badu, dirulaguntza izapidetu ahal izateko behar
+den dokumentazio guztia aurkeztu beharko du.
+En los supuestos en los que la persona interesada se oponga de forma motivada a la consulta de sus datos, debe aportar
+toda la documentación necesaria para su tramitación.
+4.4. Aurkeztutako eskabide-orrian edo dokumentazioan zerbait falta bada edo zuzendu daitekeen akatsen bat badago, udaleko sail eskudunak jakinarazpen bat bidaliko dio eskatzaileari
+10 egun baliodun emanez falta diren agiriak aurkezteko edo
+akatsak zuzentzeko. Jakinaraziko zaio okerrak zuzendu ezean
+eskaera atzera egindakotzat joko dela.
+4.4. En el caso de que la solicitud presentada o la documentación aportada sean incompletas o adolezcan de cualquier otro defecto subsanable, el departamento municipal competente enviará una notificación a la persona solicitante concediéndole un plazo de 10 (diez) días hábiles para que presente
+los documentos que faltan o subsane los errores, indicándole
+que, en caso contrario, se le tendrá por desistida en su solicitud.
+Eskaerak azter tzerakoan edo geroago edozein momentutan,
+udalak interesdunari eskatu ahal izango dio 4.3 atalean aurreikusi ez den dokumentazio osagarria aurkeztea, ikusteko bidezkoa
+den dirulaguntza onartzea, mantentzea edo ukatzea.
+A la vista del examen de las solicitudes o en cualquier momento posterior, el ayuntamiento podrá solicitar a la persona interesada que presente otra documentación adicional no prevista en el apartado 4.3 a fin de determinar la procedencia del reconocimiento de la subvención, su mantenimiento o revocación.
+4.5. Eskaera egitean, eskatzaileak oinarri hauek eta deialdi hau baldintza barik onar tzen ditu.
+4.5. La presentación de la solicitud implica que la persona
+solicitante acepta incondicionalmente las presentes bases y convocatoria.
+4.6. Aurreko deialditik eskaera aurkeztuta izan eta onartuta zutenek ez dute dirulaguntza eskaera berririk egin beharko,
+baldin eta udalak hala erabakitzen badu eta espedientean jasota geratzen bada baldintzak betetzen jarraitzen dutela. Udalak
+ofizioz baieztatu ahal izango du dirulaguntza jasotzeko baldintzak betetzen jarraitzen dutela, eta, hala badagokio, endosu-agiria eguneratzea eskatu ahal izango du.
+4.6. Las personas que hubieran presentado solicitud desde la convocatoria anterior y se la hubieran aprobado quedarán
+exentas de realizar nuevas solicitudes de subvención siempre
+que así lo acuerde el ayuntamiento y conste en el expediente
+que siguen cumpliendo los requisitos. El ayuntamiento podrá confirmar de oficio que siguen cumpliendo los requisitos para recibir
+la subvención y, en su caso, podrá exigir que se actualice el documento de endoso.
+www.gipuzkoa.eus
+3
+LG.:S.S.1-1958
+EK\CV GAO-I-2026-05343
+151 zenbakia
+2026ko abuztuaren 12a, asteazkena
+5. artikulua.
+Número 151
+Miércoles, a 12 de agosto de 2026
+Gipuzkoako Aldizkari Ofiziala
+Diruz lagunduko den xedea.
+Artículo 5.
+Objeto subvencionable.
+Diruz lagunduko dira honako baldintza hauek betetzen dituzten bidaiak:
+Serán objeto de subvención los desplazamientos que cumplan los siguientes requisitos:
+Udalerri barruan egindako bidaiak: erabiltzaileen etxebizitzatik erdigunera –kaskora–, beste landa-auzo batera edo –soilik
+Angiozarkoen kasuan– Elgetako anbulatorioaren ordutegian Elgetara; eta baita alderantzizko norabidean ere.
+Desplazamientos que se realicen dentro del municipio desde las viviendas de las personas usuarias hasta el centro-casco
+urbano, hasta otro barrio rural o –únicamente en el caso de Angiozar– hasta Elgeta, dentro del horario del ambulatorio de Elgeta; o viceversa.
+Bidaia horiek Bergarako taxi-lizentzia izan eta Bergarako Udalarekin programa honetarako dagokion harremana formalizatuta
+duten taxi-gidariekin egitea.
+Realizar estos desplazamientos con taxistas que dispongan
+de licencia de taxi de Bergara y tengan formalizada la relación
+correspondiente con el Ayuntamiento de Bergara para este programa.
+Bidaiak egitea deialdia Gipuzkoako ALDIZKARI OFIZIALEAN argitaratu eta hurrengo egunetik hasi eta gehienez ere 2026ko abenduaren 31ra arteko epean, ez baldin bada aurrez agortu dirulaguntza hauetarako aurreikusita zegoen dirua.
+Realizar los desplazamientos en el plazo que se inicia desde
+el día siguiente al de la publicación de la convocatoria en el BOLETÍN OFICIAL de Gipuzkoa y, como máximo, hasta el 31 de diciembre de 2026, salvo que con anterioridad se haya agotado la
+cuantía consignada para estas subvenciones.
+Egindako ibilbideak I. eranskinean jasotako auzo bateko etxebizitza batetik erdigunera –kaskora–, beste landa-auzo batera
+edo –Angiozarkoek soilik– Elgetako anbulatorioko ordutegian Elgetara izatea, edota alderantzizko norabidean.
+Los desplazamientos realizados serán desde una vivienda
+de un barrio recogido en el anexo I hasta el centro-casco urbano, hasta otro barrio rural o –únicamente en el caso de Angiozar– hasta Elgeta, dentro del horario del ambulatorio de Elgeta;
+o viceversa.
+Bidaiak honako egun eta orduen barruan egitea, abuztuan
+izan ezik:
+Los desplazamientos se realizarán en los días y horarios siguientes (excepto agosto):
+Astelehenetik ostiralera: 7:30 - 20:30.
+De lunes a viernes: 7:30 - 20:30.
+Larunbatetan: 9:00 - 20:30.
+Sábados: 9:00 - 20:30.
+Igande eta jaiegunetan egindako bidaiak ez dira diruz lagunduko, ezta abuztuan egindako bidaiak ere.
+6. artikulua.
+No se subvencionarán los desplazamientos realizados en
+domingos y festivos, ni los realizados en el mes de agosto.
+Dirulaguntzen zenbatekoa.
+Artículo 6.
+Cuantía de las subvenciones.
+6.1. Erabiltzaileak egiten duen ibilbidea 10 km baino gutxiagokoa bada, dirulaguntza 13 eurokoa izango da astelehenetik ostiralera, eta 13,5 eurokoa larunbatetan.
+6.1. Si el desplazamiento de la persona usuaria es inferior
+a 10 km, la subvención será de 13 euros de lunes a viernes y
+de 13,5 euros los sábados.
+Ibilbidea edo bidaia 10 km baino luzeagoa bada, dirulaguntza 16 eurokoa izango da astelehenetik ostiralera, eta 16,5 eurokoa larunbatetan.
+Si el desplazamiento o recorrido supera los 10 km, la subvención será de 16 euros de lunes a viernes y de 16,5 euros los
+sábados.
+Beraz, erabiltzaileak 3,5 euro ordaindu beharko dizkio taxigidariari.
+Por lo tanto, la persona usuaria deberá abonar al taxista la
+cantidad de 3,5 euros.
+6.2. Joan-etorria egiten denean, joan eta etorri bakoitza bidaia bat izango da.
+6.2.
+viajes.
+6.3. Artikulu honetan aurreikusitakoaren barruan, onuradunei dagokien dirulaguntzaren zenbatekoa, betiere, diru-izendapenari baldintzatuta geratuko da.
+6.3. La cuantía de la subvención que corresponda a las
+personas beneficiarias según lo dispuesto en este artículo queda
+en todo caso supeditada a la existencia de consignación económica.
+7. artikulua.
+Instrukzioa eta erabakia.
+Los viajes de ida y vuelta se considerarán como dos
+Artículo 7.
+Instrucción y resolución.
+7.1. Udaleko sail eskudunak egiaztatuko du ea eskatutako
+dokumentazio guztia aurkeztu den eta laguntza eskuratzeko baldintzak betetzen diren.
+7.1. El departamento municipal competente comprobará
+si se ha presentado toda la documentación requerida y si se
+cumplen los requisitos para acceder a la ayuda.
+Hori eginda, baldintzak betetzen badira, Auzo-Taxi txar tela
+prestatuko da eta eskatzaileari emango zaio, eta, laguntza izateko
+eskubidea duela egiaztatzeko, per tsona horren datuak eskubidea
+duten per tsonen zerrendan sartuko dira.
+Tras ello, en caso de que se cumplan las condiciones, se expedirá la tarjeta de Auzo-Taxi, que le será entregada a la persona solicitante, cuyos datos serán incluidos en el listado acreditativo de personas con derecho a percibir esta ayuda.
+Oinarri hauetan jasotako baldintzak betetzen ez badira, dagokion erabaki-proposamena egingo da.
+Si no se cumplen las condiciones recogidas en estas bases,
+se elaborará la propuesta de resolución correspondiente.
+Lurralde Batzordeari edo dagokion batzorde informatzaileari
+dirulaguntza hauen kontrolaren berri emango zaio. Udaleko sail
+eskudunak emandako txar telen berri emango dio batzordeari,
+bai eta eskaera egin duen per tsonari dirulaguntzarik ez badagokio, horren gaineko erabaki-proposamena ere.
+Se dará cuenta del control sobre estas ayudas a la Comisión
+de Territorio o a la comisión informativa correspondiente. El departamento municipal competente informará a la comisión de
+las tarjetas expedidas, así como de la propuesta de resolución
+en el caso de las personas solicitantes a las que no corresponda subvención.
+Txartel hori taxi-gidariari derrigorrean erakutsi beharko zaio
+egindako bidaiaren ibilbidearen dirulaguntza jaso ahal izateko.
+Para que el trayecto pueda ser subvencionable será requisito indispensable presentar la tarjeta al taxista.
+www.gipuzkoa.eus
+4
+LG.:S.S.1-1958
+EK\CV GAO-I-2026-05343
+151 zenbakia
+2026ko abuztuaren 12a, asteazkena
+Gipuzkoako Aldizkari Ofiziala
+Número 151
+Miércoles, a 12 de agosto de 2026
+7.2. Auzo-Taxiaren txartela pertsonala eta besterenezina da;
+titularrak baino ezingo du erabili. Behar moduan ez erabiltzea dirulaguntza baliogabetzeko arrazoia izango da.
+7.2. La tarjeta Auzo-Taxi es personal e intransferible, únicamente podrá ser utilizada por su titular. El uso indebido será
+causa de revocación de la subvención.
+7.3. Prozeduraren gaineko erabakia har tzeko eta jakinarazpena egiteko epea gehienez ere bi hilabetekoa izango da.
+Gehienezko epe hori igaro bada erabakiaren gaineko bidezko jakinarazpenik gabe edo txartelik eman gabe, interesdunek ulertu
+ahal izango dute eskaera atzera bota dela administrazioaren isil
+bidez.
+7.3. El plazo máximo para resolver y notificar la resolución
+del procedimiento no podrá exceder de dos meses. En caso de
+que transcurra dicho plazo máximo sin haberse notificado resolución o sin haberse expedido la tarjeta, las personas interesadas podrán entender desestimada su solicitud por silencio administrativo.
+Hartutako erabakiak administrazio-bideari amaiera emango
+dio, eta erabakiaren kontra udaleko alkatearen aurrean berrazter tzeko errekur tsoa tartekatzeko aukera egongo da, edo baita
+zuzenean administrazioarekiko auzi-errekur tsoa tartekatzeko
+ere, Donostiako Administrazioarekiko Auzien organo eskudunaren aurrean, indarrean dagoen araudian ezarritako moduan.
+La resolución adoptada pondrá fin a la vía administrativa, y
+contra la misma cabrá interponer recurso potestativo de reposición ante la Alcaldía de este ayuntamiento, o bien interponer directamente recurso contencioso-administrativo ante el órgano
+competente de lo Contencioso-Administrativo de San Sebastián,
+conforme a lo dispuesto en la normativa vigente.
+7.4. Adingabeak –12 eta 18 urte bitartekoak– bakarrik bidaiatu ahal izateko, txartel per tsonala izan behar dute eta guraso edo tutoreek horretarako baimena eman beharko dute. Guraso edo tutoreek baimendutako adingabeak euren gurasoen
+edo tutoreen erantzukizunpean bidaiatuko dute ondorio guztiekin.
+7.4. Las personas menores de edad de entre 12 y 18 años
+podrán viajar solas siempre que dispongan de su tarjeta personal y de la autorización expresa de sus padres-madres o tutores/as. Las personas menores autorizadas por sus padres-madres o tutores/as viajarán, a todos los efectos, bajo la responsabilidad de dichos/as padres-madres o tutores/as.
+8. artikulua.
+Dirulaguntzaren kudeaketa.
+Artículo 8.
+Gestión de la subvención.
+8.1. Dirulaguntza kudeatuko da programa honetan parte
+har tzen duten taxi-gidarien lankidetzarekin, oinarri hauetan jasotako berezitasunei kalterik egin gabe.
+8

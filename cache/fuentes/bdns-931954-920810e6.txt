@@ -9,8 +9,8 @@ Comunicaciones
 Notificaciones
 Firmas
 CATÁLOGO DE TRÁMITES POR TEMAS
-Informaci�n y atenci�n ciudadana
-Padr�n y datos personales
+Información y atención ciudadana
+Padrón y datos personales
 Impuestos, domiciliaciones y pagos
 Servicios sociales
 Licencias y permisos
@@ -18,68 +18,54 @@ Licencias, autorizaciones y comunicaciones de act.
 Subvenciones y ayudas
 Inscripciones y reservas
 Cita previa
-Acceso a informaci�n
+Acceso a información
 Denuncias, reclamaciones y objetos perdidos
 Ceremonias y homenajes
 Sugerencias y quejas
-Solicitud general y aportaci�n de documentos
-Representaci�n y apoderamientos
+Solicitud general y aportación de documentos
+Representación y apoderamientos
 Parejas de hecho
 Asociaciones
 Volver a categorías
 Pulsa aquí para volver
-Alta en padr�n
-Baja en padr�n
-Modificaci�n en padr�n
-Certificados de padr�n
-Derechos sobre datos de car�cter personal
-Confirmaci�n y renovaci�n personas extranjeras
-Volver a categorías
-Pulsa aquí para volver
-Alta, baja, modificaci�n
+Alta en padrón
+Baja en padrón
+Modificación en padrón
+Certificados de padrón
+Derechos sobre datos de carácter personal
+Confirmación y renovación personas extranjeras
+Alta, baja, modificación
 Certificados y justificantes
 Aplazamiento y fraccionamiento
 Domiciliaciones
 Fianzas y avales
 Exenciones y bonificaciones
 Devoluciones
-Volver a categorías
-Pulsa aquí para volver
 Cita previa
-Prestaciones econ�micas
+Prestaciones económicas
 Recursos sociales
 Mayores, discapacidad y dependencia
 Menores y familias
 Certificados e informes
-Exclusi�n social
-Volver a categorías
-Pulsa aquí para volver
-Licencias y permisos urban�sticos
-Ordenamiento urban�stico
-Certificados e informes
+Exclusión social
+Licencias y permisos urbanísticos
+Ordenamiento urbanístico
 Actividades
-Uso del dominio p�blico
+Uso del dominio público
 Otras
 Cementerio
-Volver a categorías
-Pulsa aquí para volver
 Actividades culturales y deportivas
 Euskera
-Servicios sociales
 Juventud
-Volver a categorías
-Pulsa aquí para volver
-Inscripci�n, modificaci�n y baja en actividades
+Inscripción, modificación y baja en actividades
 Reservas
-Volver a categorías
-Pulsa aquí para volver
 Sobre la Sede
 Validación Docs.
 Quejas y Sugerencias
 Tablón Edictos
 PERFIL DEL CONTRATANTE
-P�GINA WEB DEL AYUNTAMIENTO
-FACTURA ELECTR�NICA
+PÁGINA WEB DEL AYUNTAMIENTO
+FACTURA ELECTRÓNICA
 
 ### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1528032
 j0144708b01a1c0faa907ea04909070b5
@@ -121,394 +107,8 @@ Laudioko garapen ekonomikoa, enpresariala eta
 soziala bultzatzea da, bai eta enpleguaren sorrera
 sustatzea eta udalerriko enpresa-sareari laguntzea
 ere.
-El Área de Promoción Económica tiene entre sus
-objetivos el de impulsar el desarrollo económico,
-empresarial y social de Laudio, así como fomentar la
-generación de empleo y apoyar al tejido empresarial
-del municipio.
-Laudioko lan-merkatua ahulagoa da Euskadi
-osoarekin alderatuta, eta langabezia-tasa %
-11,11koa da. 2025. urtean, udalerrian 1.148
-pertsonak eskatu zuten lana, eta horietatik % 55
-inguru emakumeak ziren. Sektorearen ikuspegitik,
-langabezia zerbitzuen sektorean kontzentratzen da
-nagusiki, hau da, enplegu-eskatzaile guztien %
-76,77.
-El mercado laboral de Laudio/Llodio presenta una
-situación de mayor vulnerabilidad en comparación
-con el conjunto de Euskadi, situándose la tasa de
-desempleo en el 11,11 %. Durante el año 2025, el
-municipio contó con 1.148 personas demandantes de
-empleo, de las cuales aproximadamente el 55 % eran
-mujeres. Desde el punto de vista sectorial, el
-desempleo se concentra principalmente en el sector
-servicios, que representa el 76,77 % del total de
-personas demandantes de empleo.
-Bestalde, 35 urtetik beherakoak Laudioko
-langabeen guztizkoaren % 22,7 dira, eta horrek
-agerian uzten du kolektibo horri zuzendutako neurri
-espezifikoak bultzatzen jarraitu behar dela. Horri
-gehitu behar zaizkio tokiko enpresa-sareak dituen
-erronkak, besteak beste, belaunaldien arteko
-erreleboa, profil profesional berriak sartzea eta gero
-eta lehiakorragoa den ingurunera egokitzea.
-Por otro lado, las personas menores de 35 años
-representan el 22,7 % del total de personas
-desempleadas de Laudio, lo que pone de manifiesto
-la necesidad de seguir impulsando medidas
-específicas dirigidas a este colectivo. A ello se suman
-los retos a los que se enfrenta el tejido empresarial
-local, entre ellos el relevo generacional, la
-incorporación de nuevos perfiles profesionales y la
-adaptación a un entorno cada vez más competitivo.
-j0144708b01a1c0faa907ea04909070b5
-BENETAKO KOPIA, Egiaztatze Kode Seguruaren bidez egiazta daitekeena helbide honetan: / COPIA AUTÉNTICA que
-puede ser comprobada mediante el Código Seguro de Verificación en esta dirección:
-https://udalenegoitza.araba.eus/laudio/validacionDoc/?entidad=LAUDIO
-Ildo horretan, Laudioko gazte langabeak
-kontratatzeko laguntzen deialdiaren helburua
-udalerriko 35 urtetik beherako gazteen kontratazioa
-sustatzea da, gazte horiek lan-merkatuan sartzen
-lagunduz eta, aldi berean, tokiko enpresa-sarea
-mantentzen, berritzen eta indartzen lagunduz.
-En este sentido, la convocatoria de Ayudas a la
-contratación de personas jóvenes desempleadas de
-Laudio/Llodio tiene como finalidad fomentar la
-contratación de jóvenes menores de 35 años del
-municipio, favoreciendo su incorporación al mercado
-laboral y contribuyendo, al mismo tiempo, al
-mantenimiento, renovación y fortalecimiento del
-tejido empresarial local.
-Dirulaguntzei buruzko azaroaren 17ko 38/2003
-Lege Orokorraren 22. artikuluan dirulaguntzak
-norgehiagoka-erregimenean emateko prozedura
-arrunta ezartzen da.
-La Ley 38/2003 de 17 de noviembre, Ley General de
-Subvenciones, establece en su artículo 22 el
-procedimiento de concesión de subvenciones en
-régimen de concurrencia competitiva como
-procedimiento ordinario de concesión.
-Bestalde, Laudioko Udalaren Dirulaguntzen Udal
-Ordenantza, Arabako Lurralde Historikoaren
-Aldizkari Ofizialean (28 zk., 2021eko martxoaren
-10ekoa) argitaratua, dirulaguntzak emateko oinarri
-arautzaile gisa agertzen da, Dirulaguntzei buruzko
-azaroaren 17ko 38/2003 Lege Orokorraren 17.
-artikuluaren 2. atalean adierazitakoarekin bat
-etorriz.
-Por su parte, la Ordenanza Municipal de
-Subvenciones del Ayuntamiento de Llodio publicada
-en el Boletín Oficial del Territorio Histórico de Álava
-nº 28, de 10 de marzo de 2021 aparece como Bases
-reguladoras de la concesión de subvenciones de
-acuerdo con lo indicado en el apartado 2º del artículo
-17 de la Ley 38/2003, de 17 de noviembre, General
-de Subvenciones.
-2022ko azaroaren 28ko Osoko Bilkurak 2023-2027
-laurtekorako Dirulaguntzen Plan Estrategikoa
-onartu zuen. Bertan, "Laudioko langabeen lankontrataziorako laguntza ekonomikoak" izeneko
-dirulaguntza lerroa jasotzen da.
-Visto el acuerdo por Pleno de 28 de noviembre de
-2022, por el que se aprobó el Plan Estratégico de
-Subvenciones para el cuatrienio 2023-2027, que
-contempla la línea de subvención denominada
-“Ayudas económicas a la contratación laboral de
-personas desempleadas de Laudio”.
-Ikusi da Ekonomia eta enpresa sustapeneko
-teknikariaren txostena, 2026eko abuztuaren 24koa.
-Visto el informe de la Técnica de promoción
-económica y empresarial de fecha 24 de agosto de
-2026.
-Ikusi da Udal Idazkaritzak 2026ko irailaren 9an
-egindako txostena (ONGI 2026/22).
-Visto informe emitido por la Secretaría Municipal de
-fecha 9 de septiembre de 2026 (ONGI 2026/22).
-Ikusi da Gobernantza feministaren 2026ko irailaren
-21eko
-txostena
-(CSV: m0144708b00a150a7b107ea2a6090923S)
-Visto el informe de Gobernanza feminista, de fecha
-21 de septiembre de 2026.
-(CSV: m0144708b00a150a7b107ea2a6090923S)
-Ikusi da Hizkuntza Politikei buruzko 2026ko
-irailaren
-8ko
-txostena
-(CSV: 60144708b009080999b07ea0fb09070cV)
-Visto el informe de Políticas Lingüísticas, de fecha 8
-de septiembre de 2026.
-(CSV: 60144708b009080999b07ea0fb09070cV)
-j0144708b01a1c0faa907ea04909070b5
-BENETAKO KOPIA, Egiaztatze Kode Seguruaren bidez egiazta daitekeena helbide honetan: / COPIA AUTÉNTICA que
-puede ser comprobada mediante el Código Seguro de Verificación en esta dirección:
-https://udalenegoitza.araba.eus/laudio/validacionDoc/?entidad=LAUDIO
-Udal Kontu-hartzailetzak 2026ko irailaren 14an
-egindako txostena ikusi da. (451/2026)
-Visto informe emitido por la Intervención Municipal
-de fecha 14 de septiembre de 2026. (451/2026)
-Espedientea izapidetzen jarraitzea proposatzen da,
-0503-2419-471.00
-"Langabeak
-kontratatzeko
-laguntzak" aurrekontu-aplikazioa erabiltzen baita
-dirulaguntzen lerro honetarako, 2023-2027
-Dirulaguntzen Plan Estrategikoaren arabera, zeina
-2022ko azaroaren 28ko osoko bilkurak onartu
-baitzuen. Hala ere, etorkizuneko ekitaldietarako
-egokiagotzat jotzen da 0501 egitura organikoa,
-gastuaren izaera kontuan hartuta.
-Se propone continuar con la tramitación del
-expediente, en base a que la aplicación presupuestaria
-0503-2419-471.00
-“Ayudas
-contratación
-desempleados-as” es la utilizada para esta línea de
-subvención conforme al Plan Estratégico de
-Subvenciones 2023-2027, aprobado por acuerdo
-plenario de 28 de noviembre de 2022. No obstante,
-para ejercicios futuros se considera más adecuada la
-estructura orgánica 0501, atendiendo a la naturaleza
-del gasto.
-Eskumen organoari dagokionez, espedientean jasota
-dago proposamen teknikoa, Tokiko Gobernu
-Batzarrak, organo eskudunak, hartutako erabakiaren
-bidez ebazteko. Beraz, betekizun hori betetzat
-jotzen da.
-En lo referido a la competencia del órgano, consta
-incorporada al expediente la propuesta técnica para su
-resolución mediante Acuerdo de la Junta de Gobierno
-Local, órgano competente, por lo que se entiende
-cumplido dicho requisito.
-Era berean, adierazitako aurrekontu-aplikazioak
-30.000,00 euroko zenbatekoari erantzuteko kreditu
-nahikoa du, Laudion gazte langabeen kontratazioa
-sustatzeko dirulaguntzen deialdia finantzatzeko.
-Asimismo, la aplicación presupuestaria indicada
-cuenta con crédito suficiente para atender el importe
-de 30.000,00 euros, destinado a financiar la
-convocatoria de ayudas económicas para el fomento
-de la contratación de personas jóvenes desempleadas
-en Laudio/Llodio.
-Toki Araubidearen Oinarriak arautzen dituen
-apirilaren 2ko 1985/7ko Legearen 23. artikuluak
-emandako ahalmenak erabiliz eta alkateudalburuaren eskumenak eskuordetzeari buruzko
-2023ko ekainaren 27ko 1152 Dekretua oinarri,
-Tokiko Gobernu Batzarrak hau
-En virtud de las facultades que le otorga el artículo 23
-de la Ley 7/1985, del 2 de abril, de Bases de Régimen
-Local, así como el Decreto número 1152, de 27 de
-junio de 2023, de delegación de funciones de la
-alcaldesa-presidenta, esta Junta de Gobierno Local,
-ERABAKI DU:
-ACUERDA:
-LEHENENGOA.
-Udalaren
-esku-hartzeak
-proposatutako eragozpena alde batera utzita,
-espedientea izapidetzen jarraitzea, martxoaren 5eko
-2/2004 Legegintzako Dekretuaren bidez onartutako
-Toki Ogasunak Arautzen dituen Testu Bateginaren
-216.2
-artikuluaren,
-Dirulaguntzei
-buruzko
-azaroaren 17ko 38/2003 Lege Orokorraren 8., 22.a)
-eta 28. artikuluen, Laudioko Udaleko dirulaguntzak
-arautzen dituen udal-ordenantzaren 15. eta 16.
-artikuluen (2021eko martxoaren 10eko ALHAO,
-PRIMERO. Continuar con la tramitación del
-expediente salvando el reparo propuesto por la
-intervención municipal, en virtud de los artículos
-216.2, del texto refundido de la Reguladora de las
-Haciendas Locales, aprobado en virtud del Decreto
-Legislativo 2/2004, de 5 de marzo, en los artículos 8,
-22.a) y 28 de la Ley 38/2003, de 17 de noviembre,
-General de Subvenciones y los artículos 15 y 16 de la
-Ordenanza municipal reguladora de las subvenciones
-en el Ayuntamiento de Laudio (BOTHA nº28 de 10
-de marzo de 2021), así como en el Presupuesto
-j0144708b01a1c0faa907ea04909070b5
-BENETAKO KOPIA, Egiaztatze Kode Seguruaren bidez egiazta daitekeena helbide honetan: / COPIA AUTÉNTICA que
-puede ser comprobada mediante el Código Seguro de Verificación en esta dirección:
-https://udalenegoitza.araba.eus/laudio/validacionDoc/?entidad=LAUDIO
-28. zk.) eta 2026ko Udal-Aurrekontuaren arabera
-eta Dirulaguntzen Plan Estrategikoaren arabera.
-Municipal 2026 y en
-Subvenciones.
-el Plan Estratégico de
-BIGARRENA.
-Laudion
-gazte
-langabeen
-kontratazioa sustatzeko dirulaguntzen deialdia
-onartzea, Dirulaguntzei buruzko azaroaren 17ko
-38/2003 Lege Orokorraren 22. artikuluan eta haren
-Erregelamendua onartzen duen uztailaren 21eko
-887/2006 Errege Dekretuaren 55. artikuluan
-araututako norgehiagoka-prozeduraren bidez,
-ebazpen honen eranskinean jasotako edukiaren
-arabera.
-SEGUNDO. Aprobar la convocatoria de ayudas
-económicas para el fomento de la contratación de
-personas jóvenes desempleadas en Laudio/Llodio
-mediante el procedimiento de concurrencia
-competitiva regulado en el artículo 22 de la Ley
-38/2003, de 17 de noviembre, General de
-Subvenciones y concordante artículo 55 del Real
-Decreto 887/2006, de 21 de julio, por el que se
-aprueba su Reglamento de acuerdo con el contenido
-del Anexo incluido en la presente resolución y que
-forma parte de la misma.
-Deialdiaren xedea da enpresei eta erakundeei
-dirulaguntzak
-ematea,
-besteren
-konturako
-langileekin lan-kontratuak egiten laguntzeko,
-enplegua sortzera bideratutako udal-estrategiaren
-barruan.
-Constituye el objeto de la convocatoria el
-otorgamiento de subvenciones a empresas y entidades
-con el fin de favorecer la formalización de contratos
-de trabajo con personas trabajadoras por cuenta ajena,
-enmarcadas en la estrategia municipal enfocada a la
-generación de empleo.
-Ebazpen honek udalerriko 35 urtetik beherako
-gazteen kontratazioa sustatzen du, gazte horiek lanmerkatuan sartzen laguntzen du eta, aldi berean,
-tokiko enpresa-sarea mantentzen, berritzen eta
-indartzen laguntzen du.
-Motiva la presente resolución el fomento de la
-contratación de jóvenes menores de 35 años del
-municipio, favoreciendo su incorporación al mercado
-laboral y contribuyendo, al mismo tiempo, al
-mantenimiento, renovación y fortalecimiento del
-tejido empresarial local.
-HIRUGARRENA. Programa hau egiteko 30.000
-euroko gastua onartzea era baimentzea, urteko
-30.000,00
-euroko
-gehieneko
-kreditu
-erabilgarriarekin.
-TERCERO. Aprobar y autorizar el gasto de 30.000
-euros para la realización de este programa con un
-crédito máximo disponible anual de 30.000,00 €.
-Gastu hori 2026ko udal-aurrekontuko 0503-2419471.00 "Langabeak kontratatzeko laguntzak"
-aurrekontu-aplikazioan egotziko da.
-Este gasto se imputará con cargo a la aplicación
-presupuestaria
-0503-2419-471.00
-“Ayudas
-contratación desempleados-as”, del presupuesto
-municipal para 2026.
-LAUGARRENA. Deialdi hau onartzeko iragarkia
-Dirulaguntzen Datu-base Nazionalean eta Arabako
-Lurralde Historikoaren Aldizkari Ofizialean
-argitaratzea, Dirulaguntzei buruzko azaroaren 17ko
-38/2003 Lege Orokorraren 9. eta 20. artikuluetan
-xedatutakoarekin bat etorriz.
-CUARTO. Proceder a la publicación de anuncio de
-aprobación de la presente convocatoria en la Base
-Nacional de Datos de Subvenciones, así como en el
-Boletín Oficial del Territorio Histórico de Álava de
-acuerdo con lo dispuesto en el artículo 9º y 20 de la
-Ley 38/2003, de 17 de noviembre, General de
-Subvenciones.
-j0144708b01a1c0faa907ea04909070b5
-BENETAKO KOPIA, Egiaztatze Kode Seguruaren bidez egiazta daitekeena helbide honetan: / COPIA AUTÉNTICA que
-puede ser comprobada mediante el Código Seguro de Verificación en esta dirección:
-https://udalenegoitza.araba.eus/laudio/validacionDoc/?entidad=LAUDIO
-Nolanahi ere, eta deialdiaren 8. artikuluan
-ezarritakoaren arabera, eskabideak aurkezteko epea
-2026ko azaroaren 30ean amaituko da, 2026ko
-urtarrilaren 1etik azaroaren 30era bitartean
-formalizatutako kontratazio guztiak barne.
-En todo caso, y tal y como se establece en el artículo
-8 de la convocatoria, el plazo de presentación de
-solicitudes finalizará el día 30 de noviembre de 2026,
-incluyendo todas las contrataciones que se hayan
-formalizado desde el día 1 de enero hasta el día 30 de
-noviembre de 2026.
-BOSGARRENA. Deialdi hau ahalik eta gehien
-zabaltzeko, iragarkia udaletxeko iragarki-oholera
-bidaltzea, bai eta udalaren ohiko informazio- eta
-hedapen-bideak ere (udalaren web-orria, sare
-sozialak eta ZUIN).
-QUINTO. Remitir anuncio al Tablón de Anuncios del
-Ayuntamiento, así como demás medios ordinarios de
-información y difusión municipal (página web
-municipal, RRSS, así como ZUIN) con objeto de
-proceder a la mayor difusión de la presente
-convocatoria,
-SEIGARRENA. Erabaki hau Udaleko Esku-hartze
-Zerbitzuari helaraztea.
-SEXTO. Dar traslado del presente acuerdo al servicio
-de Intervención Municipal.
-ERANSKINA
-ANEXO
-Laudion gazte langabeak
-laguntzen deialdia
-kontratatzeko
-Convocatoria de ayudas para la contratación de
-personas jóvenes desempleadas en Llodio
-Ekonomia Sustatzeko Alorraren helburuetako bat
-Laudioko garapen ekonomiko, enpresarial eta
-soziala bultzatzea da. Gaur egun, 35 urtetik
-beherako gazteen langabezia-tasa %22,7koa da
-El Área de Promoción Económica tiene entre sus
-objetivos, impulsar el desarrollo económico,
-empresarial y social de Laudio/Llodio. Actualmente,
-las personas menores de 35 años representan el 22,7
-% del total de personas desempleadas de Laudio.
-Hala ere, azken urteotan, gero eta enpresa txiki eta
-ertain gehiagok ez dute belaunaldi-erreleborik, eta,
-etorkizunean, itxi egingo dira. Agentziaren lan
-esparruen barruan, enplegagarritasuna eta enpresagarapena daude. Hori dela eta, Ekonomi Sustapen
-Sailaren interesekoa da tokiko enplegua sustatzea,
-udalerriko 35 urtetik beherako gazteak kontratatuz,
-Laudioko gazteak kontratatzeko laguntzen
-deialdiaren babesean.
-Sin embargo, en los últimos años, cada vez hay más
-pymes que no cuentan con relevo generacional,
-circunstancia que puede suponer, en el futuro, el
-cierre de algunas de ellas. Dentro de las labores de la
-Agencia, está la empleabilidad y el desarrollo
-empresarial. Por lo que es de interés del área de
-Promoción Económica impulsar el empleo local a
-través de la contratación de personas jóvenes menores
-de 35 años del municipio al amparo de la
-convocatoria de ayudas a la contratación de personas
-jóvenes de Laudio/Llodio.
-Jarduketa horiek kofinantzatzeko laguntzak
-dirulaguntza gisa emango dira, eta honako hauen
-mende egongo dira: Dirulaguntzei buruzko
-azaroaren 17ko 38/2003 Lege Orokorra, uztailaren
-21eko 887/2006 Errege Dekretuaren bidez garatua
-eta arautua; Laudioko Udalaren dirulaguntzak
-arautzen dituen udal-ordenantza (deialdiaren oinarri
-Las ayudas para cofinanciar estas actuaciones se
-concederán en concepto de subvenciones y estarán
-sujetas a la Ley General de Subvenciones 38/2003, de
-17 de noviembre desarrollada y reglamentada por
-medio del Real Decreto 887/2006, de 21 de julio, a la
-Ordenanza Municipal reguladora de subvenciones del
-Ayuntamiento de Llodio (como base reguladora de la
-j0144708b01a1c0faa907ea04909070b5
-BENETAKO KOPIA, Egiaztatze Kode Seguruaren bidez egiazta daitekeena helbide honetan: / COPIA AUTÉNTICA que
-puede ser comprobada mediante el Código Seguro de Verificación en esta dirección:
-https://udalenegoitza.araba.eus/laudio/validacionDoc/?entidad=LAUDIO
-arautzaile gisa), 2021eko martxoaren 10eko
-Arabako
-Lurralde
-Historikoaren
-Aldizkari
-Ofizialean (28. zk.) argitaratua, eta aplikatu
-beharreko legeria osagarria.
-convocatoria) publicada en el Boletín Oficial del
-Territorio Histórico de Álava número 28, de 10 de
-marzo de 2021, así como a la legislación
-complementaria aplicable.
-1. artikulua. - Xedea
+El Área de
+[…]
 Artículo 1. Objeto
 Deialdi honen xedea da Laudioko Udalak,
 Ekonomia Sustatzeko Arloaren bidez, enpresei eta
@@ -647,7 +247,6 @@ kontratuak eta praktikaldikoak izan ezik.
 excepción del contrato para la formación y el
 aprendizaje y de prácticas.
 - Diruz lagundu ahal izango dira 2026ko urtarrilaren
-1etik 2026ko azaroaren 30ra bitarteko formalizaziodata duten kontratazioak, bi egun horiek barne,
 - Podrán ser objeto de subvención las contrataciones
 cuya fecha de formalización esté comprendida entre
 el 1 de enero de 2026 y el 30 de noviembre de 2026,
@@ -665,7 +264,749 @@ baino gehiagok egin arren.
 - No se concederá más de una subvención por la
 contratación de una misma persona, aunque la
 solicitud sea efectuada por diferentes empresas.
-2.- Ez dira diruz lagunduko 2 kontratu
+2.- Ez dira diruz lagunduko 2 kontratu baino
+gehiago onuradun bakoitzeko.
+2.-No se subvencionarán más de 2 contratos por cada
+persona beneficiaria.
+4. artikulua. - Aurrekontu-baliabideak
+Artículo 4. - Disponibilidad presupuestaria
+1.- Deialdi honen bidez emandako dirulaguntza
+guztien guztizko zenbaketa ez da 30.000,00 eurotik
+gorakoa izango.
+1.- El cómputo total de todas las subvenciones
+concedidas por medio de esta convocatoria no
+superará la cantidad de 30.000,00 euros.
+2.- Deialdi honen gastua Laudioko Udalaren 2026ko
+aurrekontuaren kargura egotziko da, 0503-2419471.00
+partidan “Langabeak kontratatzeko
+laguntzak”.
+2.- El gasto de esta convocatoria se imputará con
+cargo al Presupuesto del Ayuntamiento de Laudio/
+Llodio correspondiente al año 2026 en la siguiente
+partida: 0503-2419-471.00 “Ayudas contratación
+desempleados-as”.
+5. artikulua. Zenbatekoa
+Artículo 5. Cuantía
+1.- Gehienez 2.000 euroko laguntza emango da hiru
+hilabeteko lanaldi osoko lan-kontratu bakoitzeko,
+eta 4.000 euroko laguntza, gehienez, sei hilabeteko
+edo gehiagoko lanaldi osoko lan-kontratu
+bakoitzeko. Laguntzaren azken zenbatekoak ezin
+izango du kontratatutako pertsonen soldata-kostuen
+eta Gizarte Segurantzako kostuen % 75 gainditu,
+kontratu-amaieragatiko
+kalte-ordainak
+eta
+enpresaren konturako Gizarte Segurantzako kuota
+barne. Lanaldi partzialeko edo hiru eta sei hilabete
+arteko iraupeneko kontratuen kasuan, laguntza
+lanaldiaren eta/edo lan egindako denboraren
+proportzionala izango da.
+1.-La ayuda máxima será de 2.000 euros por contrato
+de trabajo a jornada completa de tres meses de
+duración y ayuda máxima de 4.000 euros por cada
+contrato de trabajo a jornada completa de duración
+igual o superior a seis meses, sin que la cuantía final
+de la misma pueda superar el 75% de los costes
+salariales, y de Seguridad Social de las personas
+contratadas, incluidas las indemnizaciones por fin de
+contrato y la cuota de Seguridad Social con cargo a la
+empresa. En el caso de contratación a tiempo parcial
+o por una duración entre tres y seis meses, la ayuda
+será proporcional a la jornada y/o al tiempo trabajado.
+2.- Adierazitako dirulaguntzen zenbatekoak % 10
+handituko dira, kontratuak emakumeekin egiten
+direnean. Dirulaguntzaren azken zenbatekoak,
+igoera horiek aplikatzean, ezin izango du inola ere
+gainditu kontratatutako pertsonen soldata-kostuen
+eta Gizarte Segurantzako kostuen % 100, kontratuamaieragatiko
+kalte-ordainak
+eta
+enpresa
+kontratatzailearen konturako Gizarte Segurantzako
+kuota barne.
+2.-Todas las cuantías de subvención señaladas se
+incrementarán un 10% adicional cuando los contratos
+se celebren con mujeres. El importe final de la
+subvención, al aplicarse dichos incrementos, no podrá
+superar en ningún caso el 100% de los costes
+salariales y de Seguridad Social de las personas
+contratadas, incluidas las indemnizaciones por fin de
+contrato y la cuota de Seguridad Social con cargo a la
+empresa contratante.
+j0144708b01a1c0faa907ea04909070b5
+BENETAKO KOPIA, Egiaztatze Kode Seguruaren bidez egiazta daitekeena helbide honetan: / COPIA AUTÉNTICA que
+puede ser comprobada mediante el Código Seguro de Verificación en esta dirección:
+https://udalenegoitza.araba.eus/laudio/validacionDoc/?entidad=LAUDIO
+3.- Aurkeztutako eskabide guztiak aztertu ondoren,
+aurreko bi paragrafoetan ezarritako mugak kontuan
+hartuta ordainketa guztiei aurre egiteko aurrekontukonsignaziorik nahikorik ez badago, hainbanaketa
+proportzionala egingo da erakunde onuradun
+guztien artean.
+3.- Una vez examinadas todas las solicitudes
+presentadas, en el caso de que teniendo en cuenta los
+límites establecidos en los dos párrafos precedentes
+no existiera suficiente consignación presupuestaria
+para hacer frente a la totalidad de pagos, se llevará a
+cabo un prorrateo proporcional entre la totalidad de
+entidades beneficiarias.
+6. artikulua. - Ordainketa
+Artículo 6. Abono
+1.- Ordainketa bakarrean ordainduko da laguntza,
+enpresa onuradunak laguntza bete duela frogatu
+ondoren.
+1.-El abono de la ayuda se materializará en un solo
+pago, tras el cumplimiento de la misma por parte de
+la empresa beneficiaria.
+2.- Lan-kontratuak dirulaguntzaren epealdia amaitu
+baino lehen azkentzen badira, kobratzeko eskubidea
+galduko da, edo emandako dirulaguntza itzuli
+beharko da; kasu horretan, dagokion prozedura
+izapidetuko da, deialdi honetan eta/edo oinarri
+arautzaileetan ezarritakoaren arabera.
+2.-La extinción de los contratos de trabajo con
+anterioridad al término del periodo de duración
+subvencionado, supondrá la pérdida del derecho de
+cobro o el reintegro de la subvención concedida,
+tramitándose el correspondiente procedimiento en los
+términos previstos en la presente convocatoria y/o en
+las bases reguladoras.
+Diruz lagundu beharreko hilabeteetan lan-kontratua
+deuseztatzen bada probaldia ez gainditzeagatik,
+langileak lana bere borondatez uzteagatik,
+bidezkotzat
+jotako
+kaleratzeagatik
+edo
+kontratatutako pertsonaren heriotzagatik edo
+baliaezintasunagatik, dirulaguntzaren zenbatekoa
+lan-kontratuaren benetako iraupenaren proportzioan
+murriztuko da, edo beste kontratu bat egin ahal
+izango da, diruz lagundutako jatorrizkoaren
+baldintza berberetan, 10 egun naturaleko epean.
+En el caso de que se rescindiera el contrato de trabajo
+a lo largo de los meses a subvencionar debido a la no
+superación del periodo de prueba, cese voluntario,
+despido declarado procedente o por muerte o
+invalidez de la persona contratada, se reducirá el
+importe de la subvención en proporción a la duración
+efectiva del contrato de trabajo o se podrá realizar un
+nuevo contrato, en los mismos términos que el
+original subvencionado, en el plazo de 10 días
+naturales.
+7. artikulua. - Beste laguntza edo dirulaguntza
+batzuekiko bateragarritasuna
+Artículo 7. Concurrencia con otras ayudas o
+subvenciones
+Oinarri hauetan aurreikusitako kontrataziorako
+laguntzak bateraezinak izango dira kontzeptu eta
+helburu berberetarako beste administrazio batzuek
+edo beste erakunde publiko edo pribatu batzuek
+emandako beste edozein motatako dirulaguntza edo
+laguntzekin, Gizarte Segurantzak emandako
+hobariak izan ezik.
+Las ayudas a la contratación previstas en las presentes
+bases serán incompatibles con la obtención de
+cualquier otro tipo de subvención o ayuda que por el
+mismo concepto y finalidad le sean otorgadas por
+otras Administraciones o entidades públicas o
+privadas, excepto las bonificaciones otorgadas por la
+Seguridad Social.
+8. artikulua. - Eskabideak aurkezteko epea eta
+modua
+Artículo 8. Plazo y modo de presentación de
+solicitudes
+j0144708b01a1c0faa907ea04909070b5
+BENETAKO KOPIA, Egiaztatze Kode Seguruaren bidez egiazta daitekeena helbide honetan: / COPIA AUTÉNTICA que
+puede ser comprobada mediante el Código Seguro de Verificación en esta dirección:
+https://udalenegoitza.araba.eus/laudio/validacionDoc/?entidad=LAUDIO
+1.- Kontratatu beharreko pertsona bakoitzak
+eskabide bat aurkeztu beharko du, eskatutako
+dokumentazioarekin batera.
+1.-Deberá presentarse una solicitud por cada persona
+a contratar, adjuntando a la misma la documentación
+requerida.
+2.- Eskabideak aurkezteko epea deialdi hau
+ALHAOn argitaratu eta hurrengo egunetik 2026ko
+azaroaren 30era artekoa izango da, egun hori barne.
+2.-El plazo de presentación de solicitudes será desde
+el día siguiente a la publicación de la presente
+convocatoria en el BOTHA hasta el día 30 de
+noviembre de 2026 inclusive.
+3.- Eskaerak eskabide normalizatuan eta Udalaren
+herritarrentzako arreta-zerbitzuan (beheko solairua)
+aurkeztu beharko dira, edo Administrazio Prozedura
+Erkidearen urriaren 1eko 39/2015 Legean
+zehaztutako moduan.
+3.- Las solicitudes deberán presentarse en instancia
+normalizada y en el servicio de atención a la
+ciudadanía (planta baja) del Ayuntamiento o en las
+formas especificadas en Ley 39/2015, del 1 de
+octubre de Procedimiento Administrativo Común.
+9.
+artikulua.
+dokumentazioa
+Artículo 9. Documentación a presentar
+Aurkeztu
+beharreko
+1.- Pertsonak edo erakundeak laguntza eskatzeko
+egintzan
+aurkeztu
+beharreko
+nahitaezko
+dokumentazioa, adierazitako epean, honako hau
+izango da:
+1.-La documentación obligatoria a presentar por la
+persona o entidad en el acto de solicitud de la ayuda
+en el plazo indicado, será la siguiente:
+A. Dirulaguntza eskatzeko eskabide normalizatua.
+A. Instancia normalizada de solicitud de la
+subvención.
+B.
+Enpresari
+dokumentazioa:
+buruzko
+B. Documentación referente a la empresa o entidad:
+a) Eskatzailea pertsona fisikoa bada: Nortasun Agiri
+Nazionalaren fotokopia aurkeztu beharko du.
+a) En el supuesto de que el/la solicitante sea una
+persona física: deberá presentar Fotocopia del
+Documento Nacional de Identidad
+b) Pertsona juridikoen eta erakundeen kasuan:
+identifikazio fiskaleko txartelaren kopia, nortasun
+agiri nazionalarekin eta eskatzailearen ordezkaritzaahalordeekin batera.
+b) En el caso de personas jurídicas y entidades: Copia
+de la Tarjeta de Identificación Fiscal, junto con el
+Documento Nacional de Identidad y poderes de
+representación de la persona solicitante.
+c) Pertsona juridikoen eta erakundeen kasuan,
+enpresaren edo erakundearen eraketa-eskrituren
+fotokopia, gerora egindako aldaketekin eta
+dagozkion erregistroetako inskripzioekin.
+c) En el caso de personas jurídicas y entidades,
+fotocopia de las escrituras de constitución de la
+empresa o entidad con sus posteriores modificaciones
+e inscripción en los registros que corresponda.
+d) Nortasun juridiko propiorik gabeko sozietate
+zibilen kasuan, Foru Ogasunak zigilatutako kontratu
+pribatua sartuko da.
+d) En el caso de las Sociedad Civiles sin personalidad
+jurídica propia, se incluirá el contrato privado sellado
+por Hacienda Foral.
+edo
+erakundeari
+j0144708b01a1c0faa907ea04909070b5
+BENETAKO KOPIA, Egiaztatze Kode Seguruaren bidez egiazta daitekeena helbide honetan: / COPIA AUTÉNTICA que
+puede ser comprobada mediante el Código Seguro de Verificación en esta dirección:
+https://udalenegoitza.araba.eus/laudio/validacionDoc/?entidad=LAUDIO
+e) Jarduera Ekonomikoen gaineko Zergan izandako
+alten eta bajen ziurtagiria, Foru Ogasunak emana.
+e) Certificado de altas y bajas en el Impuesto de
+Actividades Económicas emitido por la Hacienda
+Foral.
+f) Ofizioz egiaztatuko da erakundeak egunean
+dituela foru-ogasunarekiko betebeharrak, salbu eta
+berariaz aurka egiten bada. Kasu horretan,
+dirulaguntza eskatzen duen erakundeak zergabetebeharrak egunean dituela egiaztatzen duen Foru
+Ogasunaren ziurtagiri eguneratua aurkeztu beharko
+da.
+f) Se comprobará de oficio que la entidad se encuentra
+al corriente en sus obligaciones con la Hacienda
+Foral, salvo oposición expresa. En tal caso, se deberá
+presentar Certificado actualizado de la Hacienda
+Foral que acredite que la entidad solicitante de la
+subvención se encuentra al corriente en sus
+obligaciones tributarias.
+g) Ofizioz egiaztatuko da erakundeak egunean
+dituela
+Gizarte
+Segurantzaren
+Diruzaintza
+Nagusiarekin dituen betebeharrak, berariaz aurka
+egiten ez bada. Kasu horretan, Gizarte
+Segurantzaren Diruzaintza Nagusiaren ziurtagiri
+eguneratua aurkeztu beharko da.
+g) Se comprobará de oficio que la entidad se
+encuentra al corriente en sus obligaciones con la
+Tesorería General de la Seguridad Social salvo
+oposición expresa. En tal caso, se deberá presentar
+Certificado actualizado de la Tesorería General de la
+Seguridad Social.
+C. Kontratazioari buruzko dokumentazioa:
+C. Documentación referente a la contratación:
+a) Diruz lagundu beharreko lan-kontratuaren kopia,
+iraupena eta lanaldia adierazita.
+a) Copia del contrato de trabajo a subvencionar donde
+conste duración y jornada laboral.
+b) Kontratatutako pertsonari Gizarte Segurantzako
+Erregimen Orokorrean alta eman izanaren kopia.
+b) Copia del alta de la persona contratada en el
+régimen general de la seguridad social.
+c) Enpresaren lan-bizitzari buruzko txostena,
+Gizarte Segurantzak emana, kontratazioaren
+egunekoa.
+c) Informe de vida laboral de la empresa emitida por
+la Seguridad Social del día de la contratación.
+D.
+Kontratatutako
+dokumentazioa:
+buruzko
+D. Documentación referente a la persona contratada:
+a) Kontratuaren xede den pertsonaren NANaren
+kopia.
+a) Copia de D.N.I. de la persona sujeto del contrato.
+b) Kontratatutako pertsona Lanbiden inskribatuta
+dagoela egiaztatzen duen agiria, enplegu-zerbitzu
+publiko batek emana (inskripzio-aldien txostena).
+b) Documento que acredite la inscripción en Lanbide
+de la persona contratada emitida por un Servicio
+Público de Empleo (Informe de periodos de
+inscripción)
+c) Kontratatutako pertsonaren lan-bizitzari buruzko
+txosten eguneratua, Gizarte Segurantzak emana,
+dirulaguntza eskatzen den kontratua hasi ondorengo
+datarekin (informazio horren helburua da
+c) Informe actualizado de vida laboral de la persona
+contratada emitido por la Seguridad Social con fecha
+posterior al inicio del contrato para el que se pide
+subvención (Esta información tiene como objeto
+pertsonari
+j0144708b01a1c0faa907ea04909070b5
+BENETAKO KOPIA, Egiaztatze Kode Seguruaren bidez egiazta daitekeena helbide honetan: / COPIA AUTÉNTICA que
+puede ser comprobada mediante el Código Seguro de Verificación en esta dirección:
+https://udalenegoitza.araba.eus/laudio/validacionDoc/?entidad=LAUDIO
+kontratatutako
+egiaztatzea).
+pertsona
+langabezian
+zegoela
+comprobar que la persona contratada se encontraba en
+desempleo).
+2.- Udalak ofizioz egiaztatuko du kontratatutako
+pertsonak erreferentziako egunean Laudion
+erroldatuta zeudela.
+2.-El Ayuntamiento realizará de oficio la
+comprobación de que las personas contratadas se
+encontraban empadronadas en Laudio/ Llodio en la
+fecha de referencia.
+3.- Eskatzaileak eskabidean jasotako daturen bat
+faltsutzen badu, dagokion zehapen-araubidea
+aplikatu ahal izango zaio.
+3.-Si la persona solicitante falseara alguno de los
+datos incluidos en la solicitud, podrá verse sometida
+al régimen sancionador procedente.
+10. artikulua. - Akatsak zuzentzea
+Artículo 10. Subsanación de deficiencias
+Dirulaguntzaren eskabideak edo eratorritako
+dokumentazioa deialdian eskatutako baldintzak
+betetzen ez baditu, edo eskabidearekin batera
+eskatutako dokumentazioa aurkezten ez bada,
+Administrazio Publikoen Administrazio Prozedura
+Erkidearen urriaren 1eko 39/2015 Legearen 68.
+artikuluan aurreikusitakoaren arabera, interesdunei
+eskatuko zaie 10 egun balioduneko epean akatsak
+zuzentzeko
+edo
+nahitaezko
+dokumentuak
+aurkezteko, eta adieraziko zaie, hala egin ezean,
+eskaeran atzera egin dutela ulertuko dela, eta beste
+izapiderik gabe artxibatuko dela, lege-testu beraren
+21.1 artikuluan aurreikusitako ondorioekin.
+Si la solicitud o documentación derivada de la misma
+de subvención no reúne los requisitos exigidos en la
+convocatoria, o no se acompañara a la misma la
+documentación exigida, de conformidad con lo
+previsto en el artículo 68 de la Ley 39/2015, de 1 de
+octubre, del Procedimiento Administrativo Común de
+las Administraciones Públicas, se requerirá a los/as
+interesados/as para que, en un plazo de 10 días
+hábiles, subsanen las faltas o acompañen los
+documentos preceptivos, con indicación de que, si así
+no lo hicieran, se les tendrá por desistidos de su
+petición, archivándose sin más trámites, con los
+efectos previstos en el artículo 21.1 del mismo texto
+legal.
+11. artikulua. - Laguntzak emateko prozedura
+Artículo 11. Procedimiento de concesión
+1.- Aurkeztutako eskabideak zuzendu ondoren, hala
+badagokio, Ekonomia Sustapenaren arloko
+arduradunak egingo du instrukzio-lana, arlo bereko
+Ekonomia eta enpresa sustapeneko teknikariak
+lagunduta.
+1.- Una vez subsanadas, en su caso, las solicitudes
+presentadas, la labor instructora será llevada a cabo
+por la Responsable del área de Promoción Económica
+asistida por la Técnica de promoción económica y
+empresarial de la misma área.
+Horretarako, aurkeztutako eskabideak aztertu eta
+ebaluatuko dira, eta egoki ulertzeko eta ebaluatzeko
+beharrezkotzat jotzen den dokumentazio eta/edo
+informazio osagarri guztia eskatu ahal izango da.
+A tal efecto, se procederá al análisis y evaluación de
+las solicitudes presentadas, pudiéndose requerir
+cuanta
+documentación
+y/o
+información
+complementaria considere necesaria para su adecuada
+comprensión y evaluación.
+2.- Eskabide bakoitzari hasiera batean dagokion
+dirulaguntza zehaztuko da, deialdi honetako 5.
+artikuluan ezarritako zenbatekoen arabera.
+Zehaztapen hori instrukzio-lanaren arduradunek
+2.-Se procederá a una determinación de la subvención
+inicialmente correspondiente a cada solicitud en
+función de las cuantías establecidas en el artículo 5º
+de la presente convocatoria. Esta determinación
+j0144708b01a1c0faa907ea04909070b5
+BENETAKO KOPIA, Egiaztatze Kode Seguruaren bidez egiazta daitekeena helbide honetan: / COPIA AUTÉNTICA que
+puede ser comprobada mediante el Código Seguro de Verificación en esta dirección:
+https://udalenegoitza.araba.eus/laudio/validacionDoc/?entidad=LAUDIO
+egindako txostenean agertuko da, baita laguntzak
+emateko ebazpen-proposamenean ere. Proposamen
+hori Tokiko Gobernu Batzarraren erabakiaren bidez
+ebatziko da, udalaren nahitaezko barne-izapideak
+egin ondoren.
+aparecerá en informe emitido por las personas
+responsables de la labor instructora, así como en la
+propuesta de resolución de concesión de ayudas que
+será elevada para su resolución mediante acuerdo de
+Junta de Gobierno Local previo los trámites internos
+municipales preceptivos.
+3.- Aurreko paragrafoan aipatutako Tokiko
+Gobernu Batzarraren erabakiak zehaztuko du,
+halaber, laguntza ekonomikotik zein erakunde
+eskatzaile ez dagozkion, bai eta onuradunek deialdi
+honetako
+13.
+artikuluan
+deskribatutako
+dokumentazioa aurkezteko duten epea ere.
+3.- El acuerdo de concesión de Junta de Gobierno
+Local indicado en el párrafo anterior determinará,
+asimismo, las posibles entidades solicitantes a las que
+no les corresponda la ayuda económica, así como el
+plazo de las beneficiarias de presentación de la
+documentación descrita en el artículo 13 de la
+presente convocatoria.
+4.- Deialdi honetako 13. artikuluan eskatzen den
+dokumentazioa aurkeztu ondoren, hala badagokio,
+eskatzen diren zuzenketekin batera, instrukzioegileek beste txosten bat egingo dute, erakunde
+onuradunak barne, bai eta azken zenbatekoa ere, eta
+emandako dirulaguntza ordaintzeko aginduko da.
+4.- Una vez presentada la documentación exigida en
+el artículo 13 de la presente convocatoria con las
+subsanaciones que, en su caso, sean solicitadas, se
+procederá a la emisión de nuevo informe por parte de
+las personas instructoras incluyendo las entidades
+beneficiarias, así como el importe final que
+corresponda ordenándose el pago de la subvención
+concedida.
+5.- Tokiko Gobernu Batzarra izango da ebazteko
+organo eskuduna, aurreko paragrafoan aipatutako
+instrukzio-organoak proposatuta.
+5.- El órgano competente para resolver será la Junta
+de Gobierno Local, a propuesta del órgano instructor
+referido en el párrafo anterior.
+6.- Dirulaguntza emateko ebazpena hartzeko
+gehieneko epea 3 hilabetekoa izango da, deialdi
+honetan eskabideak aurkezteko aurreikusitako epea
+amaitzen denetik zenbatzen hasita.
+6.- El plazo máximo para dictar resolución de
+concesión de subvención será de 3 meses, a contar
+desde la finalización del plazo de presentación de las
+solicitudes previsto en la presente convocatoria.
+4.- Administrazio Publikoen Administrazio
+Prozedura Erkidearen urriaren 1eko 39/2015
+Legearen 25. artikuluan xedatutakoarekin bat
+etorriz, ebazpena emateko epea amaitu eta enpresa
+edo erakunde interesdunari ez bazaio horren berri
+eman, eskatutako laguntza ezetsi egin dela ulertu
+beharko da.
+7.-De conformidad con lo dispuesto en el artículo 25
+de la Ley 39/2015, de 1 de octubre, del Procedimiento
+Administrativo Común de las Administraciones
+Públicas, una vez transcurrido el plazo previsto para
+dictar la resolución sin que ésta se haya notificado a
+la empresa o entidad interesada, podrá entenderse
+desestimada la ayuda solicitada.
+5.- Ebazpenak amaiera emango dio administraziobideari, eta, haren aurka, berraztertzeko errekurtsoa
+aurkez
+daiteke,
+hargatik
+eragotzi
+gabe
+administrazioarekiko auzibidean aurkaratzea.
+8.- La resolución pondrá fin a vía administrativa,
+procediendo contra la misma el potestativo recurso de
+reposición, sin perjuicio de su posible impugnación
+en vía contencioso-administrativa.
+j0144708b01a1c0faa907ea04909070b5
+BENETAKO KOPIA, Egiaztatze Kode Seguruaren bidez egiazta daitekeena helbide honetan: / COPIA AUTÉNTICA que
+puede ser comprobada mediante el Código Seguro de Verificación en esta dirección:
+https://udalenegoitza.araba.eus/laudio/validacionDoc/?entidad=LAUDIO
+6.- Baiesteko edo ezesteko ebazpena elektronikoki
+jakinaraziko zaie egindako eskaera guztiei.
+9.- La resolución, estimatoria o denegatoria, será
+notificada electrónicamente a la totalidad de
+solicitudes formuladas.
+12. artikulua. - Enpresa
+onuradunen betebeharrak
+erakunde
+Artículo 12. Obligaciones de las empresas y
+entidades beneficiarias
+Oro har, dirulaguntzen pertsona edo erakunde
+onuradunek
+Dirulaguntzei
+buruzko
+Lege
+Orokorraren 14. artikuluan, Dirulaguntzei buruzko
+Lege Orokorraren Erregelamendua onartzen duen
+ekainaren 21eko 887/2006 Errege Dekretuan,
+oinarri arautzaileetan eta, bereziki, honako
+betebehar hauek bete beharko dituzte:
+En general, las personas o entidades beneficiarias de
+las subvenciones deberán cumplir con lo dispuesto en
+el artículo 14 de la Ley General de Subvenciones, en
+el Real Decreto 887/2006, de 21 de junio, por el que
+se aprueba el Reglamento de la Ley, General de
+Subvenciones, en las bases reguladoras y, en
+particular, las siguientes obligaciones:
+- Nolanahi ere, eskaera aurkeztea dirulaguntza
+berariaz onartzea dela ulertuko da, hala badagokio.
+- En todo caso, la presentación de la solicitud se
+entenderá como aceptación expresa de la subvención
+que, en su caso se otorgue.
+- Dirulaguntzaren xede den kontratua egin dela
+egiaztatzea, bai eta dirulaguntza ematea eragin
+zuten betekizunak eta baldintzak bete direla
+egiaztatzea ere.
+- Acreditar la realización del contrato objeto de
+subvención, así como el cumplimiento de los
+requisitos y condiciones que determinaron esa
+concesión.
+- Dirulaguntza ematea eta, bereziki, kontratatutako
+pertsona kargutik kentzea eta, hala badagokio,
+ordeztea eragin zuten inguruabar subjektibo edo
+objektiboetan izandako edozein aldaketaren berri
+ematea.
+- Comunicar cualquier modificación de las
+circunstancias
+subjetivas
+u
+objetivas
+que
+determinaron la concesión de la subvención y, en
+particular, el cese de la persona contratada y, en su
+caso, su sustitución.
+- Edozein administrazio edo erakunde publikok
+jarduera bererako gerora emandako dirulaguntzen
+edo laguntzen zenbatekoa jakinaraztea.
+- Comunicar el importe de las subvenciones o ayudas
+concedidas con posterioridad para la misma actividad
+por cualquier Administración o ente público.
+- Eskatzen zaion informazio guztia ematea, eta
+emandako dirulaguntzarekin lotutako gaietan
+egiaztapen- eta kontrol-jarduketei men egitea.
+- Facilitar toda la información que le sea requerida,
+sometiéndose a las actuaciones de comprobación y
+control en cuestiones relacionadas con la subvención
+concedida.
+13. artikulua. Hasiera batean dirulaguntzaren
+onuradun ziren erakundeek aurkeztu beharreko
+dokumentazioa
+Artículo 13. Documentación a presentar por las
+entidades inicialmente beneficiarias de la
+subvención
+1.- Deialdi honetako 11. artikuluko 3. eta 4. idatzzatien arabera eska daitekeen dokumentazioa
+hasiera batean dirulaguntza jasoko duten
+1.-La documentación exigible de acuerdo con los
+apartados 3 y 4 del artículo 11 de la presente
+convocatoria se deberá entregar en el plazo que, a tal
+efecto, sea otorgado en la resolución que determina
+eta
+j0144708b01a1c0faa907ea04909070b5
+BENETAKO KOPIA, Egiaztatze Kode Seguruaren bidez egiazta daitekeena helbide honetan: / COPIA AUTÉNTICA que
+puede ser comprobada mediante el Código Seguro de Verificación en esta dirección:
+https://udalenegoitza.araba.eus/laudio/validacionDoc/?entidad=LAUDIO
+erakundeak zehazten dituen ebazpenean horretarako
+ematen den epean aurkeztu beharko da.
+las entidades inicialmente beneficiarias de la ayuda
+económica.
+2.- Horretarako, dokumentu hauek aurkeztuko dira:
+2.-A tal efecto, se aportarán los siguientes
+documentos:
+Kontratazioaren xede den pertsonari buruzko
+agiriak:
+Documentos relativos a la persona objeto de la
+contratación:
+a.- Kotizaziorako Datuen Txostena (IDC), Gizarte
+Segurantzak emana.
+a.- Informe de Datos para la Cotización (IDC) emitido
+por la Seguridad Social.
+b.- RLC eta RNT.
+b.- RLC y RNT.
+c.- Kontratazio-aldiari dagozkion nominak.
+c.- Nóminas
+contratación.
+Aurrekoaz aparte,
+ofizioz egiaztatuko da
+erakundeak egunean dituela foru-ogasunarekiko
+betebeharrak, salbu eta berariaz aurka egiten bada.
+Kasu horretan, dirulaguntza eskatzen duen
+erakundeak zerga-betebeharrak egunean dituela
+egiaztatzen duen Foru Ogasunaren ziurtagiri
+eguneratua aurkeztu beharko da.
+Además de lo anterior, se comprobará de oficio que
+la entidad se encuentra al corriente en sus
+obligaciones con la Hacienda Foral, salvo oposición
+expresa. En tal caso, se deberá presentar Certificado
+actualizado de la Hacienda Foral que acredite que la
+entidad solicitante de la subvención se encuentra al
+corriente en sus obligaciones tributarias.
+Era berean, ofizioz egiaztatuko da erakundeak
+egunean dituela Gizarte Segurantzaren Diruzaintza
+Nagusiarekin dituen betebeharrak, berariaz aurka
+egiten ez bada. Kasu horretan, Gizarte
+Segurantzaren Diruzaintza Nagusiaren ziurtagiri
+eguneratua aurkeztu beharko da.
+Asimismo, se comprobará de oficio que la entidad se
+encuentra al corriente en sus obligaciones con la
+Tesorería General de la Seguridad Social salvo
+oposición expresa. En tal caso, se deberá presentar
+Certificado actualizado de la Tesorería General de la
+Seguridad Social.
+14. artikulua. - Dirulaguntza itzultzea
+Artículo 14. Reintegro de la subvención
+Jasotako zenbatekoak itzuli beharko dira, eta
+dirulaguntza ordaindu zenetik dagozkion legezko
+interesak eskatuko dira, baldin eta erakunde
+onuradunek ez badituzte betetzen deialdi honetan,
+dirulaguntza emateko ebazpenean eta aplikatu
+beharreko gainerako arauetan ezarritako baldintzak.
+Hori guztia ez da eragozpena izango ez-betetzearen
+ondorioz bidezkoak diren ekintzak gauzatzeko.
+Procederá el reintegro de las cantidades percibidas,
+así como la exigencia de los intereses legales que
+correspondan desde el momento del pago de la
+subvención, cuando las entidades beneficiarias de las
+mismas incumpliesen las condiciones establecidas en
+la presente convocatoria, en la resolución de
+concesión y en las demás normas que resulten de
+aplicación; todo ello sin perjuicio de las acciones que
+procedan como consecuencia del incumplimiento.
+Honako hauek hartuko dira itzulketa-kasutzat:
+Se considerarán supuestos de reintegro:
+correspondientes
+al
+periodo
+de
+j0144708b01a1c0faa907ea04909070b5
+BENETAKO KOPIA, Egiaztatze Kode Seguruaren bidez egiazta daitekeena helbide honetan: / COPIA AUTÉNTICA que
+puede ser comprobada mediante el Código Seguro de Verificación en esta dirección:
+https://udalenegoitza.araba.eus/laudio/validacionDoc/?entidad=LAUDIO
+- Dirulaguntza lortzea horretarako eskatzen diren
+baldintzak bete gabe.
+- Obtener la subvención sin reunir las condiciones
+requeridas para ello.
+– Dirulaguntzaren helburua ez betetzea.
+- Incumplimiento de la finalidad para la que la
+subvención fue concedida.
+- Onuradunei emakidaren ondorioz ezarritako
+baldintzak ez betetzea.
+- Incumplimiento de las condiciones impuestas a
+los/as beneficiarios/ as con motivo de la concesión.
+- Kontrol-jarduerei uko egitea edo haiek oztopatzea.
+- La negativa u obstrucción a las actuaciones de
+control.
+- Dirulaguntzak garatutako jardueraren kostua
+gainditzea.
+- Que la subvención exceda del coste de la actividad
+desarrollada.
+15. artikulua. - Arau-hausteak eta zehapenak
+Artículo 15. Infracciones y sanciones
+Arau-hauste eta zehapenen araubidea Dirulaguntzei
+buruzko 38/2003 Lege Orokorrean eta hura garatzen
+duen
+Erregelamenduan
+(887/2006
+Errege
+Dekretuaren bidez onartua) xedatutakoak zehazten
+du.
+El régimen de infracciones y sanciones queda
+determinado por lo dispuesto en la Ley 38/2003
+General de Subvenciones, y con el Reglamento que la
+desarrolla aprobado por Real Decreto 887/2006.
+16. artikulua. - Datuen babesa
+Artículo 16. Protección de datos
+Laudioko
+Udalak,
+Datuak
+Babesteko
+Erregelamendu Orokorra (EB 2016/679) eta Datu
+Pertsonalak Babesteko eta Eskubide Digitalak
+Bermatzeko abenduaren 5eko 3/2018 Lege
+Organikoa betez, jakinarazten du eskatzaileen datu
+pertsonalak «Enplegua sustatzea» tratamendujardueraren parte izango direla. Jarduera horren
+arduraduna Laudioko Udala da, eta haren helburua
+da Laudioko Udalaren eskumeneko enplegua
+sustatzeko politikekin lotutako dirulaguntzak
+kudeatzea eta kontrolatzea. Bildutako datuak
+beharrezkoak dira Laudioko Udalari emandako
+botere publikoak gauzatzeko eta legezko
+betebeharrak betetzeko, eta arlo horretan eskumena
+duten administrazio publikoei jakinarazi ahal izango
+zaizkie.
+El Ayuntamiento de Llodio, en cumplimiento del
+Reglamento General de Protección de Datos (UE
+2016/679) y de la Ley Orgánica 3/2018, de 5 de
+diciembre, de Protección de Datos Personales y
+garantía de los derechos digitales, informa que los
+datos personales de los solicitantes formarán parte de
+la actividad de tratamiento «Promoción del Empleo»,
+de la que es responsable el Ayuntamiento de Llodio y
+cuya finalidad es la gestión y control de las
+subvenciones relacionadas con las diferentes políticas
+de promoción del empleo competencia del
+Ayuntamiento de Llodio. Los datos recabados son
+necesarios para el ejercicio de poderes públicos
+conferidos al Ayuntamiento de Llodio y el
+cumplimiento de las obligaciones legales y podrán ser
+comunicados a Administraciones Públicas con
+competencias en la materia.
+XEDAPEN GEHIGARRIA
+DISPOSICIÓN ADICIONAL
+Xedapen gehigarri bakarra
+Disposición Adicional Única
+j0144708b01a1c0faa907ea04909070b5
+BENETAKO KOPIA, Egiaztatze Kode Seguruaren bidez egiazta daitekeena helbide honetan: / COPIA AUTÉNTICA que
+puede ser comprobada mediante el Código Seguro de Verificación en esta dirección:
+https://udalenegoitza.araba.eus/laudio/validacionDoc/?entidad=LAUDIO
+Deialdian eta/edo oinarri arautzaileetan berariaz
+aurreikusten ez den guztirako, honako hauek
+aplikatuko dira: Dirulaguntzei buruzko azaroaren
+17ko 38/2003 Lege Orokorra, aplikatzekoa den
+gainerako garapen-araudia edo araudi sektoriala,
+Administrazio Publikoen Administrazio Prozedura
+Erkidearen urriaren 1eko 39/2015 Legea eta bere
+izaeragatik aplikagarria izan daitekeen beste
+edozein arau-xedapen.
+En lo no previsto expresamente en la convocatoria y/o
+en las Bases Reguladoras, será de aplicación la Ley
+38/2003, de 17 de Noviembre, General de
+Subvenciones, demás normativa de desarrollo o
+sectorial que resulte de aplicación, y la Ley 39/2015,
+de 1 de octubre, del Procedimiento Administrativo
+Común de las Administraciones Públicas, así como
+cualquier otra disposición normativa que, por su
+naturaleza, pudiera resultar de aplicación.
+Eta jasota uzteko eta dagozkion ondoreak izan
+ditzan, hau ematen dut.
+Y para que así conste y surta los efectos oportunos,
+doy la presente.
+Elektronikoki izenpetutako dokumentua
+Documento firmado electrónicamente
 
 ### Bases reguladoras: https://www.laudio.eus/es/ayuntamiento/subvenciones-y-concursos
 Laudio Udala
@@ -710,7 +1051,6 @@ Teléfonos
 SERVICIOS
 010: Tu ayuntamiento más cerca
 Policía Municipal
-Policía municipal
 Organización
 Educación vial
 Modernización de la Policía Municipal
@@ -724,7 +1064,6 @@ Seguridad vial: Al cole, andando o en bici
 Estado del tráfico
 Servicio de Atención Ciudadana (SAC)
 Juzgado de paz
-Servicio de educación
 Servicio de educación
 Euskaltegi Municipal de Llodio
 Servicio de Igualdad
@@ -751,7 +1090,6 @@ Zero plastic
 Servicio de Prevención de las Adicciones
 KontsumoBIDE-Instituto Vasco de Consumo
 Centros socioculturales de personas mayores
-Euskaltegi Municipal de Llodio
 Normalización lingüística
 Herramientas para disfrutar del euskara
 Diccionarios
@@ -811,76 +1149,19 @@ Mapa toponímico de Laudio
 Comité de Aerobiología
 Horarios de autobús y servicio de taxis
 TRANSPARENCIA
-Participación ciudadana
-Nombre del teatro de Laudio
-Portal de participación ciudadana
-Buzones mejora-consulta
-Avisos, quejas y sugerencias
-Mapa de riesgos: puntos conflictivos
-Aportaciones de asociaciones
-Buzón ZUIN: Info-agenda municipal
-Asambleas de barrio
-125 años de la (tercera) ermita de San Juan
-Paseos participativos
-Asociaciones de Laudio/Llodio
-ZUIN: Info-agenda municipal
-ZUIN: Hemeroteca
-Revista ZUIN: Tu ayuntamiento por dentro
-Otras publicaciones
-WiFi Laudioko Azoka
-Twitter Laudio Udala
-Facebook Laudio Udala
-Instagram Laudio Udala
-Enlaces de interés
-Teléfonos de interés
-Escucha la radio
 Radio Llodio
 Multimedia
 Otros servicios
-Farmacias de guardia
 El tiempo
-Mapa toponímico de Laudio
-Comité de Aerobiología
-Horarios de autobús y servicio de taxis
 TRÁMITES
-Participación ciudadana
-Nombre del teatro de Laudio
-Portal de participación ciudadana
-Buzones mejora-consulta
-Avisos, quejas y sugerencias
-Mapa de riesgos: puntos conflictivos
-Aportaciones de asociaciones
-Buzón ZUIN: Info-agenda municipal
-Asambleas de barrio
-125 años de la (tercera) ermita de San Juan
-Paseos participativos
-Asociaciones de Laudio/Llodio
-ZUIN: Info-agenda municipal
-ZUIN: Hemeroteca
-Revista ZUIN: Tu ayuntamiento por dentro
-Otras publicaciones
-WiFi Laudioko Azoka
-Twitter Laudio Udala
-Facebook Laudio Udala
-Instagram Laudio Udala
-Enlaces de interés
-Teléfonos de interés
-Escucha la radio
 Radio Llodio
 Multimedia
 Otros servicios
-Farmacias de guardia
 El tiempo
-Mapa toponímico de Laudio
-Comité de Aerobiología
-Horarios de autobús y servicio de taxis
 AYUNTAMIENTO
-Subvenciones y Concursos
-Subvenciones y concursos
 1.- Bases reguladoras
 Alcaldía
 No existen subvenciones de este área en la web
-Bienestar Social, Cooperación y Salud
 2026
 Convocatoria de Subvenciones dirigidas a entidades y asociaciones sin ánimo de lucro del ámbito de cohesión social para la realización de actividades durante el año 2026.
 ​ Aprobación y bases de la convocatoria
@@ -893,9 +1174,7 @@ Convocatoria de ayudas del programa municipal de ayudas de sostenimiento para el
 ​ BOTHA
 2025
 Convocatoria de Subvenciones dirigidas a entidades y asociaciones sin ánimo de lucro del ámbito de cohesión social para la realización de actividades durante el año 2025.
-​ Aprobación y bases de la convocatoria
 ​ Anuncio BOTHA
-​ Instancia normalizada
 ​ Anexo II
 Plazo de presentación de solicitudes: abierto del 15/09/2025 al 10/10/2025 (ambos incluidos)
 Subvención para la celebración del 100 aniversario de Areta Herri Eskola.
@@ -915,14 +1194,9 @@ Nombramiento del Jurado del XLVII Concurso del Cartel anunciador de las fiestas 
 Plazo: Desde el 4 de junio hasta el 1 de julio (ambos inclusive)
 Convocatoria de subvenciones de libre concurrencia para la realización de programas culturales año 2026
 ​ BOTHA
-​ Formulario de solicitud
-​ Formulario de justificación de subvención
 Plazo: Desde el 4 de junio hasta el 1 de julio (ambos inclusive).
 Convocatoria de subvenciones de libre concurrencia para la realización de programas festivos año 2026
 ​ BOTHA
-​ Formulario de solicitud
-​ Formulario de justificación de subvención
-Plazo: Desde el 4 de junio hasta el 1 de julio (ambos inclusive).
 2025
 XXVII Concurso de pintura al aire libre de Laudio/Llodio
 Convocatoria
@@ -932,27 +1206,18 @@ XVII Concurso infantil de carteles de las fiestas “Sanrokeak 2025”
 ​Convocatoria de subvenciones de libre concurrencia para la realización de programas deportivos año 2025
 ​ Anuncio
 ​ Bases
-​ Formulario de solicitud
 Plazo: Del 5 de junio al 2 de julio
-​ Formulario de justificación de subvención
 Convocatoria de subvenciones de libre concurrencia para la realización de programas culturales año 2025
 ​ Anuncio
 ​ Bases
-​ Formulario de solicitud
-Plazo: Del 5 de junio al 2 de julio
-​ Formulario de justificación de subvención
 Convocatoria de subvenciones de libre concurrencia para la realización de programas festivos año 2025
 ​ Anuncio
 ​ Bases
-​ Formulario de solicitud
 Plazo: Del 3 al 30 de junio
-​ Formulario de justificación de subvención
-Educación, Igualdad y Juventud
 2026
 Convocatoria de subvenciones de concurrencia competitiva dirigida a entidades y asociaciones sin ánimo de lucro que actúen en el ámbito de la igualdad de mujeres y hombres, para la realización de programas y/o actividades durante 2026 en el municipio de Llodio.
 ​ Bases de la convocatoria
 ​ Resumen de la convocatoria
-​ Instancia normalizada
 ​ Anexo I - Memoria detallada del proyecto
 ​ Anexo II - Declaración responsable
 ​ Ficha de terceros
@@ -964,18 +1229,10 @@ Convocatoria del programa municipal de ayudas a mujeres víctimas de violencia m
 ​ BOTHA
 2025
 Convocatoria de subvenciones de concurrencia competitiva dirigida a entidades y asociaciones sin ánimo de lucro que actúen en el ámbito de la igualdad de mujeres y hombres, para la realización de programas y/o actividades durante 2025 en el municipio de Llodio.
-​ Bases de la convocatoria
-​ Resumen de la convocatoria
-​ Instancia normalizada
-​ Anexo I - Memoria detallada del proyecto
-​ Anexo II - Declaración responsable
-​ Ficha de terceros
-​ Justificación de la subvención
 Plazo de presentación de solicitudes: abierto de 28/08/2025 a 24/09/2025 (ambos incluidos)
 ​ Acuerdo de concesión de las subvenciones y pago del 80 %
 ​ Justificaciones de las subvenciones y segundo pago del 20 %
 Convocatoria del programa municipal de ayudas a mujeres víctimas de violencia machista año 2025.
-​ Acuerdo y bases
 ​ BOTHA
 2026
 Becas euskera. Curso 2025-2026.
@@ -986,29 +1243,21 @@ Resolución de concesión de subvenciones
 Subsanación de errores
 Becas euskera. Verano 2026.
 Convocatoria
-BOTHA (extracto de la convocatoria)
 Solicitud / Plazo: abierto de 21 de marzo a 16 de octubre de 2026
 Convocatoria de subvenciones para promoción de la rotulación en euskera para comercio, hostelería y pequeñas empresas de servicio de Llodio. Año 2026.
 Convocatoria
-BOTHA (extracto de la convocatoria)
 Solicitud / Plazo: abierto de 21 de marzo a 6 de octubre de 2026
 2025
 Becas euskera. Curso 2024-2025.
 Convocatoria
-BOTHA (extracto de la convocatoria)
 Solicitud / Plazo: cerrado 15 de julio de 2025
-Resolución de concesión de subvenciones
 Acuerdo sobre reclamaciones
 Becas euskera. Verano 2025.
 Convocatoria
-BOTHA (extracto de la convocatoria)
 Solicitud / Plazo: abierto de 10 de marzo a 15 de octubre de 2025
-Resolución de concesión de subvenciones
 Convocatoria de subvenciones para promoción de la rotulación en euskera para comercio, hostelería y pequeñas empresas de servicio de Llodio. Año 2025.
 Convocatoria
-BOTHA (extracto de la convocatoria)
 Solicitud / Plazo: abierto de 6 de marzo a 6 de noviembre de 2025
-Resolución de concesión de subvenciones
 Laudio HAZI. Agencia de Desarrollo Local
 2026
 Convocatoria de subvenciones de libre concurrencia de ayudas económicas para el fomento de la contratación de personas jóvenes desempleadas en Llodio para el ejercicio 2026.
@@ -1020,8 +1269,198 @@ Anexo de cumplimentación de la solicitud
 Convocatoria de subvenciones para el fomento del autoempleo e incentivar la creación de empresas en Llodio
 Anuncio de la aprobación de la convocatoria (BOTHA num. 82)
 Acuerdo de 26 de junio de 2026, de la Junta de Gobierno Local por la que se aprueba la convocatoria
-Anexo de cumplimentación de la solicitud
 ​Adjudicación de puestos de venta ambulante desde el año 2027 hasta el año 2031 (BORRADOR)
 ​ Bases que han de regir la adjudicación de puestos de venta ambulante desde el año 2027 hasta el año 2031, ambos inclusive, de alimentos en el mercado periódico tradicional de los jueves en Herriko Plaza (BORRADOR)
 Bases que han de regir la adjudicación de puestos de venta ambulante desde el año 2027 hasta el año 2031, ambos inclusive, de equipamiento personal y del hogar en el mercado de los jueves (BORRADOR)
-Bases que han de regir la adjudicación de puestos de venta ambulante desde el año 2027 hasta el año 2031, ambos inclusive, de productores/as en el mercado periódico tradicional de los jueves en la pla
+Bases que han de regir la adjudicación de puestos de venta ambulante desde el año 2027 hasta el año 2031, ambos inclusive, de productores/as en el mercado periódico tradicional de los jueves en la plaza Aldai (BORRADOR)
+Bases que han de regir la adjudicación de puestos de venta ambulante desde el año 2027 hasta el año 2031, ambos inclusive, en Laudioko Hurbileko Merkatua (BORRADOR)
+Plazo hasta el 31 de agosto para realizar cualquier aportación.
+2025
+Aprobación de la convocatoria y de las bases reguladoras para la contratación de personas jóvenes desempleadas en Llodio.
+Publicación BOTHA.142
+Decreto 2025-2027 de 04 de diciembre de 2025 por la que se aprueba la convocatoria y las bases reguladoras para la contratación de personas jóvenes desempleadas en Llodio.
+Anuncio de la aprobacón de la convocatoria (BOTHA num. 92)
+Anuncio BDNS
+Acuerdo de 18 de julio de 2025, de la Junta de Gobierno Local por la que se aprueba la convocatoria
+Anuncio del extracto de la publicación en la BDNS (BOTHA num. 100)
+Campaña “Comprar en la semana del comercio de Laudio tiene su premio”
+Aprobación de las bases
+Concesión de puestos de exposición y venta de productos y artesanía autóctona en la feria "Viernes de Dolores" de 2025
+Bases de la convocatoria
+Ficha del procedimiento
+Instancia normalizada
+Anexo I
+Anexo II
+Plano de puestos de exposición y venta
+Plazo de presentación de solicitudes: abierto del 20/02/2025 al 05/03/2025 (ambos incluidos)
+Anuncio: Lista provisional de admitidos y excluidos
+Anuncio: Lista provisional de productos de alimentación autorizados y denegados
+Decreto 372, aprobación de la relación provisional de personas o entidades aspirantes admitidas y excluidas y las puntuaciones obtenidas para el mercado de “Dolumin Barikuko Azoka” del año 2025
+Anuncio: Lista definitiva de admitidos y excluidos
+Anuncio: Lista definitiva de productos de alimentación autorizados y denegados
+Decreto 548, aprobación de la relación definitiva de personas o entidades aspirantes admitidas y excluidas y las puntuaciones obtenidas para el mercado “Dolumin Barikuko Azoka” del año 2025
+Plano para la elección de puestos
+Decreto 596, elección de puestos y sorteo de txoznas para determinar la ubicación para el mercado de “Dolumin Barikuko Azoka” de 11 de abril de 2025
+Subvenciones y concursos anteriores
+Subvenciones aprobadas 2025
+Subvenciones aprobadas 2024
+Subvenciones aprobadas 2023
+Subvenciones aprobadas 2022
+Subvenciones aprobadas 2021
+Subvenciones aprobadas 2020
+Subvenciones aprobadas 2019
+Subvenciones aprobadas 2018
+Subvenciones aprobadas 2017
+Subvenciones aprobadas 2016
+SEDE
+ELECTRÓNICA
+PLAN GENERAL
+DE ORDENACIÓN
+URBANA (PGOU)
+PLAN CLIMA Y ENERGÍA DE LAUDIO
+PARTICIPA
+LANDALUZE 27
+MAPA SOLAR
+DE LLODIO
+PARTEKATU:
+COMPARTE COCHE
+CANAL ÉTICO
+TOPA!GUNEA
+INFORMACIÓN
+TURÍSTICA
+INFORMACIÓN
+ESTADÍSTICA
+DE LLODIO
+SEGUIMIENTO
+DE ACCIONES:
+RENDICIÓN:
+DE CUENTAS
+OFERTA
+PÚBLICA
+DE EMPLEO
+OFERTAS
+DE EMPLEO
+PLAN DE
+MOVILIDAD
+URBANA
+SOSTENIBLE
+PORTAL DE LA
+TRANSPARENCIA
+HAZNOS TU CONSULTA
+MEJORA TU PUEBLO
+NOTICIAS Y
+AGENDA DE ACTIVIDADES
+ENVÍA TUS
+NOTICIAS
+SUBVENCIONES
+Y CONCURSOS
+IMPUESTOS:
+DOMICILIACIÓN
+Y CALENDARIO
+PASARELA DE
+PAGOS DE LA
+ADMON. VASCA
+VISOR DE
+POLÍGONOS
+INDUSTRIALES
+VISOR DE
+MEDIO NATURAL
+Y CAMINOS
+ESTRATEGIA
+2030
+AUTOBUSES
+Y TAXIS
+AGENCIA DE
+DESARROLLO
+Mostrar másMostrar menos
+Apartados
+AYUNTAMIENTO
+SERVICIOS
+LAUDIO/LLODIO
+CIUDADANÍA
+TRANSPARENCIA
+TRÁMITES
+RSS
+Mapa de la web
+Contacto
+Laudio Udala
+Herriko Plaza
+01400 Laudio (Araba)
+Teléfono: 944 034 800
+Website: www.laudio.eus
+Email: laudio@laudio.eus
+2003-2026 &copy; Ayuntamiento de Llodio
+
+### Boletín oficial: http://www.araba.eus/botha/Boletines/2026/115/2026_115_02791_E.pdf
+2026ko urriaren 7a, asteazkena • 115 zk.
+II - ARABAKO LURRALDE
+HISTORIKOAREN TOKI ADMINISTRAZIOA
+LAUDIOKO UDALA
+Erabakia, 2026ko irailaren 25ekoa, Tokiko Gobernu Batzarrena, 2026an Laudion gazte langabeak
+kontratatzeko lehia askeko laguntzen deialdia
+BDNS(Identif.): 931954.
+Diru-laguntza orokorrei buruzko azaroaren 17ko 38/2003 Legearen 17.3.b eta 20.8.a artikuluetan ezarritakoaren arabera, deialdiaren laburpena argitaratzen da. Horren testu osoa datu base
+nazionalean aurki daiteke. Diru-laguntzak: (https://www.infosubvenciones.es/bdnstrans/GE/es/
+convocatoria/931954).
+Ekonomia Sustatzeko Alorraren helburuetako bat Laudioko garapen ekonomiko, enpresarial eta
+soziala bultzatzea da. Gaur egun, 35 urtetik beherako gazteen langabezia-tasa ehuneko 22,7koa da.
+Hala ere, azken urteotan, gero eta enpresa txiki eta ertain gehiagok ez dute belaunaldi-erreleborik, eta, etorkizunean, itxi egingo dira. Agentziaren lan esparruen barruan, enplegagarritasuna
+eta enpresa-garapena daude. Hori dela eta, Ekonomi Sustapen Sailaren interesekoa da tokiko
+enplegua sustatzea, udalerriko 35 urtetik beherako gazteak kontratatuz, Laudioko gazteak kontratatzeko laguntzen deialdiaren babesean.
+Jarduketa horiek kofinantzatzeko laguntzak dirulaguntza gisa emango dira, eta honako
+hauen mende egongo dira: Dirulaguntzei buruzko azaroaren 17ko 38/2003 Lege Orokorra,
+uztailaren 21eko 887/2006 Errege Dekretuaren bidez garatua eta arautua; Laudioko Udalaren
+dirulaguntzak arautzen dituen udal-ordenantza (deialdiaren oinarri arautzaile gisa), 2021eko
+martxoaren 10eko ALHAOn (28. zk.) argitaratua, eta aplikatu beharreko legeria osagarria.
+1. artikulua. Xedea
+Deialdi honen xedea da Laudioko Udalak, Ekonomia Sustatzeko Arloaren bidez, enpresei eta
+erakundeei dirulaguntzak emateko prozedura arautzea, besteren konturako langileekin lan-kontratuak formalizatzen laguntzeko, enplegua sortzera bideratutako udal-estrategiaren barruan.
+2. artikulua. Onuradunak
+1. Kontrataziorako laguntza hauen onuradun izan ahalko dira besteren konturako langileekin
+lan-kontratuak formalizatzen dituzten pertsona fisiko edo juridiko pribatuak, edozein forma
+juridiko dutela ere, baldin eta deialdi honetan zehaztutako baldintzak betetzen badituzte eta
+lantokia eta jarduera ekonomikoa Laudioko udal-mugartean badute.
+2. Honako hauek ezin izango dute dirulaguntzarik jaso:
+— Enpresa edo erakunde eskatzaileak, baldin eta Dirulaguntzei buruzko azaroaren 17ko
+38/2003 Lege Orokorraren 13. artikuluan jasotako egoeraren batean badaude.
+— Administrazio publikoak, sozietate publikoak eta horietako edozeini lotutako edo horien
+mendeko erakundeak.
+— Enplegu-zentro bereziak.
+3. Eskatzailea nortasun juridikorik gabeko erakundea bada, identifikazio fiskaleko zenbaki
+bat izan beharko du, eta kontrakoa frogatzen ez den bitartean, Kode Zibilaren 393. artikuluan
+ezarritakoa ulertuko da, entitatean parte hartzen duenari dagokion zenbatekoari dagokionez.
+www.araba.eus
+L.G.: VI-1/1958 ISSN: 2254-8432
+2026-02791
+2026ko urriaren 7a, asteazkena • 115 zk.
+3. artikulua. Kontratazioen betekizunak
+1. Kontratazioek, laguntza jasotzeko, deialdi honetan zehazten diren gainerako baldintzez
+gain, honako betekizun hauek bete beharko dituzte:
+— Kontratatzeko unean, pertsona horrek langabezian egon beharko du, Lanbide-Euskal
+Enplegu Zerbitzuan enplegu-eskatzaile gisa izena emanda eta alta emanda egon beharko du
+kontratua hasi aurreko egunean, eta ez egon langile gisa alta emanda Gizarte Segurantzako
+Araubide Orokorrean, ez eta Langile Autonomoen Araubide Berezian ere.
+— Gainera, kontratatuko den pertsonak Laudion erroldatuta egon behar du kontratua hasi
+aurreko egunean.
+— Kontratatuko den pertsonak 35 urte baino gutxiago izan behar ditu kontratua hasi aurreko
+egunean.
+— Ez dira diruz lagunduko honako hauek: enpresaburuaren edo enpresaren kontrola duenaren ezkontidea, oinordekoak eta gainerako senideak, bigarren mailara arteko odol- edo
+ezkontza-ahaidetasuna arte, edo sozietatearen forma juridikoa duten enpresetako administrazioorganoetako edo zuzendaritzako kideenak.
+— Kontratuen gutxieneko iraupena hiru hilabetekoa izango da, eta lanaldi osokoa edo lanaldi
+partzialekoa izan daiteke, lanaldiaren ehuneko 50ekoa gutxienez.
+— Kontratuak edozein modalitatetakoak izan daitezke, prestakuntzarako eta ikaskuntzarako
+kontratuak eta praktikaldikoak izan ezik.
+— Diruz lagundu ahal izango dira 2026ko urtarrilaren 1etik 2026ko azaroaren 30ra bitarteko
+formalizazio-data duten kontratazioak, bi egun horiek barne, hargatik eragotzi gabe kontratuaren
+iraupena data horretatik gorakoa izatea.
+— Pertsona bera kontratatzeagatik ez da dirulaguntza bat baino gehiago emango, eskabidea
+enpresa batek baino gehiagok egin arren.
+2. Ez dira diruz lagunduko 2 kontratu baino gehiago onuradun bakoitzeko.
+4. artikulua. Aurrekontu-baliabideak
+1. Deialdi honen bidez emandako dirulaguntza guztien guztizko zenbaketa ez da 30.000,00
+eurotik gorakoa izango.
+2. Deialdi honen gastua Laudioko Udalaren 2026ko aurrekontuaren kargura egotziko da,
+0503-2419-471.00 partidan “Langabeak kontratatzeko laguntzak”.
+5. artikulua. Zenbatekoa
+1. Gehienez 2.000,00 euroko laguntza emango da hiru hilabeteko lanaldi osoko lan-kontratu
+bakoitzeko, eta 4.000,00 euroko laguntza, gehienez, sei hilabeteko edo gehiagoko lanaldi

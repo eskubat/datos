@@ -371,7 +371,6 @@ Hirugarrena.- Dirulaguntzen Plan Estrategikoa
 Tercera.- Plan Estratégico de Subvenciones
 Dirulaguntza izenduna emateko hitzarmen hau
 indarrean dagoen Gasteizko Udalaren Dirulaguntzen Plan Estrategikoan (2025-2027) dago jasota,
-zeina 2025ko urtarrilaren 17an onetsi baitzuen
 Tokiko Gobernu Batzarrak.
 El presente convenio de subvención nominativa se recoge en el vigente Plan Estratégico
 de Subvenciones del Ayuntamiento de Vitoria-Gasteiz (2025-2027), aprobado por la
@@ -406,232 +405,695 @@ presente convenio y el resto,
 Egiaztatzeko kode seguruak (EKS) agiri elektroniko honen kopia baten osotasuna egiaztatzea ahalbidetzen du, helbide honetan: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
 El código de verificación (CSV) permite la verificación de la integridad de una copia de este documento electrónico en la dirección: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
 Agiri honek sinadura elektronikoa darama, konfiantzazko zerbitzu elektronikoen alderdi jakin batzuk arautzen dituen azaroaren 11ko 6/2020 Legearen arabera.
-Este documento incorpora firma electrónica de acuerdo a la Ley 6/2020, de 11 de noviembre, reguladora de determinados as
-
-### Bases reguladoras: http://www.araba.eus/botha/Boletines/2023/088/2023_088_02293_C.pdf
-viernes, 28 de julio de 2023 • Núm. 88
-II - ADMINISTRACIÓN LOCAL
-DEL TERRITORIO HISTÓRICO DE ÁLAVA
-AYUNTAMIENTO DE VITORIA-GASTEIZ
-SECRETARÍA GENERAL DEL PLENO
-Aprobación definitiva de la ordenanza general de subvenciones del Ayuntamiento de Vitoria-Gasteiz
-El Pleno del Ayuntamiento de Vitoria-Gasteiz, en su sesión ordinaria de 21 de abril de 2023, acordó
-aprobar inicialmente la ordenanza general de subvenciones del Ayuntamiento de Vitoria-Gasteiz.
-Durante el plazo de exposición al público de dicho acuerdo (BOTHA número 53, de 8 de mayo
-de 2023) no se ha presentado reclamación ni sugerencia alguna, por lo que el mismo, hasta entonces provisional, queda elevado a definitivo en base al artículo 49 de la Ley 7/85, de 2 de abril,
-reguladora de las Bases del Régimen Local.
-En cumplimiento de lo previsto en el artículo 70.2 de la citada Ley 7/1985, se procede a la
-completa publicación del texto como requisito para su entrada en vigor.
-Contra esta elevación a definitivo cabe interponer recurso contencioso-administrativo en el
-plazo de dos meses a contar desde el día siguiente al de la publicación del presente anuncio en el
-BOTHA, ante la sala de lo Contencioso-Administrativo del Tribunal Superior de Justicia del País
-Vasco, de conformidad con los artículos 10.1 b) y 46.1 de la Ley 29/1998, de 13 de julio, reguladora de
-la Jurisdicción Contencioso-Administrativa, sin perjuicio de cualquier otro que se estime pertinente.
-En Vitoria-Gasteiz, a 18 de julio 2023
-La Alcaldesa
-MAIDER ETXEBARRIA GARCÍA
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2023-02293
-BOLETÍN OFICIAL DEL TERRITORIO HISTÓRICO DE ÁLAVA
-viernes, 28 de julio de 2023 • Núm. 88
-PROYECTO DE ORDENANZA GENERAL DE SUBVENCIONES DEL AYUNTAMIENTO
-DE VITORIA-GASTEIZ
-PREÁMBULO
--IUna parte importante de los recursos económicos del Ayuntamiento de Vitoria-Gasteiz se
-canalizan a través de subvenciones, con objeto de dar respuesta, con medidas de apoyo
-financiero, a demandas sociales y económicas de personas y entidades públicas o
-privadas.
-Esta acción de fomento se concreta en ámbitos de actuación muy diversos, entre otros:
-cultura, turismo, deporte, educación, juventud, acción por el clima, cooperación,
-participación ciudadana, políticas sociales, igualdad de género, promoción económica,
-planificación estratégica y euskera.
-Todos ellos alineados a favor de los Objetivos de Desarrollo Sostenible (ODS), objetivos
-a nivel mundial para que los países y sus sociedades centren sus esfuerzos en mejorar la
-vida de todas las personas y del planeta desde una perspectiva social, cultural,
-económica y medioambiental, sin dejar a nadie atrás, por el desarrollo de una sociedad
-más justa, libre e igualitaria.
-En la actualidad, el marco normativo específico de las subvenciones está constituido por
-la Ley 38/2003, de 17 de noviembre, General de Subvenciones, (en adelante LGS) y su
-Reglamento de desarrollo, aprobado por Real Decreto 887/2006, de 21 de julio. El
-artículo 3 del la LGS incluye dentro de su ámbito subjetivo de aplicación a las entidades
-que integran la Administración Local.
-Por su parte, el artículo 17.2 de la LGS, dispone que las bases reguladoras de las
-subvenciones de las Corporaciones Locales deberán aprobarse en el marco de las bases
-de ejecución del presupuesto, a través de una ordenanza general de subvenciones o
-mediante una ordenanza específica para las distintas modalidades de subvenciones.
-Para adaptarse a dicho marco normativo se elaboró la Ordenanza Municipal de
-Subvenciones del Ayuntamiento de Vitoria-Gasteiz, aprobada definitivamente por el
-Ayuntamiento en Pleno, el 17 de junio de 2005 y que fue publicada en el Boletín Oficial
-del Territorio Histórico de Álava (BOTHA, nº 5, de 13 de enero de 2006).
-Habiendo transcurrido más de una década desde la aprobación de dicha Ordenanza, las
-modificaciones producidas tanto en las normas específicas de subvenciones, como en
-las normas generales del procedimiento administrativo común, hacen necesario proceder
-a la aprobación de una nueva Ordenanza con el fin de adaptarla a dicho marco
-normativo.
--IIEl ejercicio de la potestad reglamentaria local por el Ayuntamiento de Vitoria-Gasteiz,
-responde a los principios de buena regulación contenidos en el artículo 129 de la Ley
-39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las
-Administraciones Públicas.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2023-02293
-BOLETÍN OFICIAL DEL TERRITORIO HISTÓRICO DE ÁLAVA
-viernes, 28 de julio de 2023 • Núm. 88
-Así pues, esta Ordenanza cumple con los principios de necesidad, eficacia, eficiencia,
-proporcionalidad y seguridad jurídica, facilitando a las personas beneficiarias de las
-subvenciones municipales, una normativa propia que adapta el marco común general a
-las singularidades propias del Ayuntamiento de Vitoria-Gasteiz.
-En virtud del principio de transparencia se ha utilizado el cauce de participación
-ciudadana en el procedimiento de elaboración de la Ordenanza, en concreto, el trámite
-de consulta pública a través del portal web del Ayuntamiento de Vitoria-Gasteiz previsto
-en el artículo 133 de la Ley 39/2015, de 1 de octubre, para la tramitación de las
-disposiciones de carácter normativo.
--IIILa Ley 4/2005, de 18 de febrero, para la Igualdad de Mujeres y Hombres y vidas libres de
-violencia machista contra las mujeres del País Vasco (BOPV, nº 42, de 02/03/2005) en su
-artículo 2.5 señala que los poderes públicos vascos, en los contratos, subvenciones,
-convenios u otro tipo de documentos a través de los cuales se formalice la transferencia
-de fondos públicos, incorporarán cláusulas para la igualdad.
-Y continua diciendo, en su artículo 4.5 que los poderes públicos vascos han de incorporar
-la perspectiva de género en todas sus políticas y acciones, de modo que establezcan en
-todas ellas el objetivo general de eliminar las desigualdades y promover la igualdad de
-mujeres y hombres.
-En cumplimiento de la citada normativa, la presente Ordenanza establece en su artículo
-11.2 que no podrá obtener la condición de personas beneficiarias o entidades
-colaboradoras aquellas en las que concurran las siguientes circunstancias:
--Que hayan sido sancionadas en firme en vía administrativa, laboral o penal por
-vulneración del derecho a la igualdad y a la no discriminación por razón de sexo y/o
-género.
--Que los fines u objetivos, sistema de admisión o acceso, funcionamiento, trayectoria,
-actuación, organización o estatutos sean contrarios al principio de igualdad de género.
--Que incumplan las obligaciones establecidas Ley para la Igualdad de Mujeres y
-Hombres y vidas libres de violencia machista contra las mujeres, o en la Ley Orgánica
-3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.
--Que promuevan actividades que discriminen por razón de sexo y/o género.
-Por último, la Ordenanza respeta las recomendaciones para el uso no sexista del
-lenguaje (artículo 14.11 Ley Orgánica 3/2007, de 22 de marzo).
-TITULO PRELIMINAR
-Disposiciones Generales
-CAPÍTULO I
-Del ámbito de aplicación de la Ordenanza
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2023-02293
-BOLETÍN OFICIAL DEL TERRITORIO HISTÓRICO DE ÁLAVA
-viernes, 28 de julio de 2023 • Núm. 88
-Artículo 1.-Objeto
-Esta Ordenanza tiene por objeto el establecimiento de las bases reguladoras generales
-del procedimiento de concesión de las subvenciones otorgadas por el Ayuntamiento de
-Vitoria-Gasteiz.
-Artículo 2.-Ámbito de aplicación subjetivo
-1.-La presente Ordenanza será de aplicación a las subvenciones otorgadas por el
-Ayuntamiento de Vitoria-Gasteiz, así como por el Centro de Estudios Ambientales (CEA),
-Conservatorio de Danza “José Uruñuela”, Escuela de Música “Luis Aramburu” y otros
-organismos autónomos que se creen.
-2.-Las subvenciones que otorguen las Sociedades Anónimas Municipales, TUVISA
-(Transportes Urbanos de Vitoria Sociedad Anónima), AMVISA (Aguas Municipales de
-Vitoria Sociedad Anónima), ENSANCHE 21 ZABALGUNEA S.A. y las que se puedan
-crear en el ámbito de las competencias municipales, estarán sujetas a la aplicación de los
-principios de gestión e información contenidos en esta Ordenanza.
-En todo caso, estas subvenciones habrán de tener relación directa con el objeto de la
-actividad contenido en la norma de creación o en sus estatutos.
-Artículo 3.-Exclusiones del ámbito de aplicación de la ordenanza
-Están excluidos de la aplicación de esta Ordenanza los siguientes supuestos:
-1.-Los premios que se otorguen sin la previa solicitud de la persona beneficiaria.
-2.-Las subvenciones previstas en la Ley Orgánica 5/1985 de 19 de junio, del Régimen
-Electoral General.
-3.-Las subvenciones reguladas en la Ley Orgánica 3/1987, 2 de julio, de Financiación de
-los Partidos Políticos.
-4.-Las dotaciones económicas a los Grupos Municipales previstas en el Reglamento
-Orgánico Municipal.
-5.-Las aportaciones dinerarias entre el Ayuntamiento y otras Administraciones públicas
-para financiar globalmente la actividad de la administración a la que vayan destinadas.
-6.-Las aportaciones dinerarias que realice el Ayuntamiento a favor de las entidades
-contempladas en el artículo 2 de esta Ordenanza cuyos presupuestos se integren en el
-Presupuesto General del Ayuntamiento, tanto si se destinan a financiar globalmente su
-actividad como la realización de actuaciones concretas en el marco de las funciones que
-tengan atribuidas, siempre que no resulten de una convocatoria pública.
-7.-Las aportaciones dinerarias que realice el Ayuntamiento, en concepto de cuotas, tanto
-ordinarias como extraordinarias, a las asociaciones a que se refiere la disposición
-adicional quinta de la Ley 7/1985, de 2 de abril, reguladora de las Bases de Régimen
-Local, relativa a la asociación de Entidades Locales.
-Artículo 4.-Concepto
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2023-02293
-BOLETÍN OFICIAL DEL TERRITORIO HISTÓRICO DE ÁLAVA
-viernes, 28 de julio de 2023 • Núm. 88
-Se entiende por subvención, toda ayuda económica realizada por el Ayuntamiento de
-Vitoria-Gasteiz y los Organismos Autónomos y Sociedades Anónimas contempladas en el
-artículo 2, a favor de personas públicas o privadas, que cumpla los siguientes requisitos:
-a) Que la ayuda esté sujeta al cumplimiento de un determinado objetivo, la
-ejecución de un proyecto, la realización de una actividad, la adopción de un
-comportamiento singular, ya realizados o por desarrollar, o la concurrencia de una
-situación, debiendo la persona beneficiaria cumplir las obligaciones materiales y formales
-que se hubieran establecido.
-b) Que la entrega de la ayuda
-personas beneficiarias.
-se realice sin contraprestación directa de las
-c) Que el proyecto, la acción, conducta o situación financiada tenga por objeto el
-fomento de una actividad de utilidad pública o interés social o de promoción de una
-finalidad pública.
-CAPÍTULO II
-Disposiciones comunes a las subvenciones públicas
-Artículo 5.-Principios generales
-La gestión de las subvenciones se ajustará a los siguientes principios:
-a) Publicidad, transparencia, concurrencia, objetividad, igualdad y no discriminación.
-b) Eficacia en el cumplimiento de los objetivos fijados por el Ayuntamiento de VitoriaGasteiz.
-c) Eficiencia en la asignación y utilización de los recursos públicos.
-Artículo 6.-Plan Estratégico de Subvenciones
-1.-El Ayuntamiento de Vitoria-Gasteiz, con carácter previo al establecimiento de las
-distintas subvenciones, concretará en un Plan Estratégico los objetivos y efectos que
-pretende alcanzar, el plazo para su consecución, los costes previsibles y las fuentes de
-financiación, supeditándose en todo caso al cumplimiento de los objetivos de estabilidad
-presupuestaria y sostenibilidad financiera.
-La convocatoria o convenio hará referencia al Plan Estratégico de Subvenciones en que
-se integra, señalando de qué modo contribuye al logro de sus objetivos.
-2.-El Plan Estratégico de Subvenciones del Ayuntamiento de Vitoria-Gasteiz, se aprobará
-por la Junta de Gobierno Local, recogerá todas y cada una de las subvenciones
-otorgadas por el Ayuntamiento, sus Organismos Autónomos y Sociedades Anónimas
-Municipales. Sus previsiones tendrán una vigencia de tres años. Si bien, anualmente se
-realizarán las actualizaciones que sean necesarias.
-3.-Una vez aprobado se dará traslado al Consejo Social para su información. Así mismo
-se dará conocimiento de la evaluación del Plan anterior.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2023-02293
-BOLETÍN OFICIAL DEL TERRITORIO HISTÓRICO DE ÁLAVA
-viernes, 28 de julio de 2023 • Núm. 88
-4.-Anualmente cada Departamento o Servicio emitirá dentro del primer cuatrimestre, con
-respecto a la Línea/s de subvención que gestione, un informe/memoria del grado de
-avance y aplicación del Plan, así como los efectos y repercusiones presupuestarias que
-se deriven de su aplicación.
-5.-El control financiero del Plan estratégico se realizará por la Intervención General.
-Artículo 7.-Requisitos adicionales para el otorgamiento de las subvenciones
-Serán requisitos adicionales para el otorgamiento de subvenciones:
-a) La competencia del órgano administrativo concedente.
-b) La existencia de crédito adecuado y suficiente para atender las obligaciones de
-contenido económico que se derivan de la concesión de la subvención.
-c) La tramitación del procedimiento de concesión.
-d) La fiscalización previa de los actos administrativos de contenido económico.
-e) La aprobación del gasto por el órgano competente.
-Artículo 8.-Órganos competentes para la concesión de las subvenciones
-1.-En el ámbito del Ayuntamiento de Vitoria-Gasteiz, el órgano competente para la
-concesión de subvenciones es la Junta de Gobierno Local.
-2.-En el ámbito de los Organismos Autónomos y Sociedades Anónimas se efectuará por
-los órganos que la tengan atribuida en sus respectivos Estatutos y en el caso de que no
-figure, será el consejo rector del organismo autónomo o el consejo de administración de
-las Sociedades.
-Artículo 9.-Personas beneficiarias
-1.-Tendrá la consideración de persona beneficiaria de subvenciones aquellas que estén
-capacitadas para desarrollar el proyecto o actividad que fundamentó su otorgamiento o
-que se encuentren en la situación que legitima su concesión.
-2.-Cuando se prevea expresamente en la convocatoria o convenio, podrán acceder a la
-condición de persona beneficiaria las agrupaciones de personas físicas o jurídicas,
-públicas o privadas, las comunidades de bienes o cualquier otro tipo de unidad
-económica o patrimonio separado que, aun careciendo de personalidad jurídica, puedan
-llevar a cabo los proyectos, actividades o comportamientos o se encuentren en la
-situación que motiva la concesión de la subvención.
-Cuando se trate de agrupaciones de personas físicas o jurídicas, públicas o privadas sin
-personalidad, deberán hacerse constar expresamente, tanto en la solicitud como en la
-resolución de concesión, los compromisos de ejecuc
+Este documento incorpora firma electrónica de acuerdo a la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza.
+Sinatzailearen izena
+Firmado por
+LUIS EDUARDO ROYERO JIMENEZ (Concejal Delegado de Políticas Sociales)
+EKS (Egiaztatzeko Kode Segurua
+CSV (Código Seguro de Verificación)
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+Data eta Ordua
+Fecha y Hora
+Zerbitzaria
+Servidor
+Ayuntamiento de Vitoria-Gasteizko Udala
+Orrialdea
+Página
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+24/08/2026 13:34:32
+justifikatutakoan
+- 20%, una vez justificada correctamente
+la subvención.
+Nolanahi ere, justifikazioa egiaztatzeko fasean,
+Inklusioaren Zerbitzuak egiaztatuko du erakunde
+onuradunak
+aurkeztutako
+aurrekontuaren
+zenbatekoa bat datorrela azkenean exekutatu eta
+justifikatutako
+zenbatekoarekin.
+Azkenean
+gauzatutako zenbatekoa txikiagoa bada, murriztu
+egingo da hasieran emandako dirulaguntzaren
+zenbatekoa. Horrek ez du eragotziko bidegabe
+justifikatutako zenbatekoak (osorik edo zati
+batean) eta horiei dagozkien berandutze-interesak
+itzuli behar izatea, Dirulaguntzei buruzko Udal
+Ordenantzaren 40.1 b) eta c) artikuluan ezarritako
+kasuetan.
+En cualquier caso, el Servicio de Inclusión del
+Departamento de Políticas Sociales, en la
+fase de comprobación de la justificación, verificará que el importe del presupuesto presentado por la entidad beneficiaria coincide
+con la cantidad finalmente ejecutada y justificada. Si la cantidad finalmente ejecutada es
+menor, se reducirá el importe de la subvención inicialmente concedida. Todo ello sin
+perjuicio de tener que reintegrar (total o
+parcialmente) las cantidades indebidamente
+justificadas, más los correspondientes intereses de demora, en los supuestos establecidos en el artículo 40.1 b) y c) de la Ordenanza Municipal de Subvenciones.
+Ezingo da dirulaguntza ordaindu harik eta entitate
+onuradunak zerga-betebeharrak beteta eta Gizarte Segurantzari ordaindu beharrekoak ordainduta
+eduki arte, edo zordun gertatzen bada, dirua itzultzea bidezkoa dela ebatzi delako.
+No podrá realizarse el pago de la subvención
+en tanto la entidad beneficiaria no se halle
+al corriente en el cumplimiento de las obligaciones tributarias y frente a la Seguridad
+Social o sea deudora por resolución de procedencia de reintegro.
+Era berean, ez da dirulaguntza ordainduko baldin
+eta Udalak emandako beste dirulaguntzaren bat
+artean justifikatu gabe badu entitate onuradunak,
+edo, lehendik emandako dirulaguntzaren bat itzultzeko eskatu zaiolarik, itzuli ez badu.
+Asimismo, el abono de la subvención no se
+llevará a cabo si la entidad beneficiaria tuviese pendiente de justificación alguna otra
+subvención concedida por este Ayuntamiento o si no hubiese reintegrado alguna subvención anterior cuando así se haya requerido.
+Bosgarrena.- Beste laguntza batzuekiko bateragarritasuna.
+Quinta: Compatibilidad con otras subvenciones.
+Emandako dirulaguntza bateragarri izango da ekimen bera gauzatzeko eskuratzen diren beste batzuekin.
+La subvención concedida es compatible con
+otras que puedan percibirse para la realización de la misma iniciativa.
+Hala ere, dirulaguntzaren zenbatekoak ezingo du
+gainditu, inolaz ere, diruz lagundutako proiektua-
+En cualquier caso el importe de la subvención en ningún caso podrá ser de tal cuantía
+Egiaztatzeko kode seguruak (EKS) agiri elektroniko honen kopia baten osotasuna egiaztatzea ahalbidetzen du, helbide honetan: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+El código de verificación (CSV) permite la verificación de la integridad de una copia de este documento electrónico en la dirección: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+Agiri honek sinadura elektronikoa darama, konfiantzazko zerbitzu elektronikoen alderdi jakin batzuk arautzen dituen azaroaren 11ko 6/2020 Legearen arabera.
+Este documento incorpora firma electrónica de acuerdo a la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza.
+Sinatzailearen izena
+Firmado por
+LUIS EDUARDO ROYERO JIMENEZ (Concejal Delegado de Políticas Sociales)
+EKS (Egiaztatzeko Kode Segurua
+CSV (Código Seguro de Verificación)
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+Data eta Ordua
+Fecha y Hora
+Zerbitzaria
+Servidor
+Ayuntamiento de Vitoria-Gasteizko Udala
+Orrialdea
+Página
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+24/08/2026 13:34:32
+ren kostua, ez berak bakarrik, ez jasotzen den bestelako edozein dirulaguntza, laguntza, diru-sarrera
+edo baliabiderekin batera (Dirulaguntzei buruzko
+Udal Ordenantzaren 16. artikulua).
+que aisladamente o en concurrencia con
+otras subvenciones, ayudas, ingresos o recursos supere el coste del proyecto subvencionado (artículo 16 de la Ordenanza Municipal de Subvenciones).
+Seigarrena.- Hitzarmenaren iraupena.
+Sexta.- Vigencia del Convenio.
+Hitzarmen hau 2026ko urtarrilaren 1(e)tik abenduaren 31(e)ra bitartean egongo da indarrean.
+El presente convenio surtirá sus efectos entre el 1 de enero y el 31 de diciembre de
+2026.
+Zazpigarrena.- Hitzarmenaren jarraipena..
+Séptima.- Seguimiento del convenio
+Elkarteak eta Gasteizko Udalak Hitzarmenaren
+Jarraipen Batzordea izendatuko dute, izenpetzen
+duten erakunde bakoitzeko kide batek osatuta.
+Batzorde horrek jarduerak gainbegiratu eta haiek
+gauzatzearen jarraipena eta ebaluazioa egingo dute, horretarako behintzat hiru hilean behin bilduko
+dira, harik eta Hitzarmenaren indarraldia irauni
+arte
+La Asociación y el Ayuntamiento de VitoriaGasteiz, designarán una Comisión de Seguimiento del Convenio que estará integrada
+por un miembro de cada una de las entidades que lo suscriben. Esta Comisión supervisará las actividades y realizará un seguimiento y evaluación de su ejecución, reuniéndose,
+al menos, trimestralmente, hasta la extinción
+de la vigencia del Convenio.
+Hitzarmenaren
+jarraipenaz
+eta
+garapenaz
+arduratzen den batzordeak ebatziko ditu
+hitzarmena interpretatu eta gauzatzean sor
+litezkeen arazoak.
+La Comisión del seguimiento y desarrollo del
+convenio,
+resolverá los problemas de
+interpretación y cumplimiento que puedan
+plantearse respecto de este convenio.
+Zortzigarrena.- Justifikatzeko epea eta modua.
+Octava.- Plazo y forma de justificación del
+gasto.
+a.- Entitate onuradunak hiru hilabeteko epean justifikatu beharko du dirulaguntza, diruz lagundutako programa edo jarduera amaitzen denetik kontatuta.
+Dirulaguntzei
+buruzko
+azaroaren
+17ko
+38/2003 Legearen 30. artikuluan xedatutakoaren
+arabera, diruz lagundutako proiektuaren aurrekontuaren % 100 justifikatu beharko da, ez Gasteizko
+Udalak emandako kopurua bakarrik, eta berariaz
+adierazi beharko da zein gasturen kostua egozten
+zaion Udalak emandako dirulagun-tzari.
+a.- La entidad beneficiaria deberá justificar la
+subvención concedida en el plazo de tres
+meses a contar desde la finalización del programa o actividad subvencionada.
+Según establece el artículo 30 de la Ley
+38/2003, de 17 de noviembre, General de
+Subvenciones, se deberá justificar el 100%
+del presupuesto del proyecto objeto de subvención y no sólo la cantidad concedida por
+el Ayuntamiento de Vitoria-Gasteiz, especificando los gastos cuyo coste se imputa a la
+Egiaztatzeko kode seguruak (EKS) agiri elektroniko honen kopia baten osotasuna egiaztatzea ahalbidetzen du, helbide honetan: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+El código de verificación (CSV) permite la verificación de la integridad de una copia de este documento electrónico en la dirección: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+Agiri honek sinadura elektronikoa darama, konfiantzazko zerbitzu elektronikoen alderdi jakin batzuk arautzen dituen azaroaren 11ko 6/2020 Legearen arabera.
+Este documento incorpora firma electrónica de acuerdo a la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza.
+Sinatzailearen izena
+Firmado por
+LUIS EDUARDO ROYERO JIMENEZ (Concejal Delegado de Políticas Sociales)
+EKS (Egiaztatzeko Kode Segurua
+CSV (Código Seguro de Verificación)
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+Data eta Ordua
+Fecha y Hora
+Zerbitzaria
+Servidor
+Ayuntamiento de Vitoria-Gasteizko Udala
+Orrialdea
+Página
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+24/08/2026 13:34:32
+subvención concedida por el Ayuntamiento.
+Dokumentazioa aurkezterakoan, dokumentuak
+normalizatzeko jarraian azalduko diren irizpideak
+hartuko dira kontuan.
+Justifikazioa nahitaezko egintza da entitate onuradunarentzat, eta justifikazioko kontu arruntaren/sinplifikatuaren bidez egingo da, dokumentazio hau aurkeztuta:
+b.- Justifikazioko kontu arruntak honako hauek
+jaso behar ditu:
+b.1. Egindako proiektuaren azalpen-memoria,
+egindako jarduerak eta lortutako emaitzak zehaztuta. Horretarako honako agiri hauek erantsi beharko dira:
+En la presentación de esta documentación
+han de tenerse en cuenta los criterios de
+normalización de documentos que se detallan a continuación.
+La justificación es un acto obligatorio para
+la entidad beneficiaria y se efectuará mediante la modalidad de cuenta justificativa
+ordinaria presentando la siguiente documentación:
+b.- La cuenta justificativa ordinaria deberá
+contener:
+b.1. Memoria explicativa del proyecto realizado con indicación de las actividades realizadas y de los resultados obtenidos. Para ello
+acompañará:
+- Dirulaguntza jaso duen jarduera dela eta egindako azterlan, egitarau, argitalpen, kartel eta bestelako dokumentazio grafiko nahiz idatziaren ale bana.
+- Ejemplar de los estudios, programas, publicaciones, carteles anunciadores y cuanta documentación gráfica y escrita haya sido elaborada en la actividad objeto de la subvención.
+- Emakumeen eta gizonen egoeran duten eragina
+ezagutzeko, eta betiere diruz lagundutako jarduerak ahalbidetzen badu, deialdietan onuradunei
+eskatuko zaie sexuaren eta/edo generoaren arabera banakatutako informazioa emateko honako alderdi hauei buruz:
+- Con el fin de conocer su impacto en la situación de las mujeres y hombres, y siempre
+que la actividad subvencionada lo permita,
+en las convocatorias se exigirá a las personas
+beneficiarias que aporten información desglosada por sexo y/o género de:
+•
+emandako zerbitzuaren azken onuradunak
+edo erabiltzaileak;
+•
+Las personas beneficiarias o usuarias
+finales del servicios prestado;
+•
+entitateko titularrak eta plantilla;
+•
+•
+kontratatu den entitateko plantilla, halakorik bada;
+De las personas titulares de la entidad y de su plantilla;
+•
+De la plantilla de la entidad que se
+haya contratado, en su caso;
+aplikatutako berdintasun-neurrien eragin-
+•
+Otros indicadores que permitan eva-
+•
+Egiaztatzeko kode seguruak (EKS) agiri elektroniko honen kopia baten osotasuna egiaztatzea ahalbidetzen du, helbide honetan: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+El código de verificación (CSV) permite la verificación de la integridad de una copia de este documento electrónico en la dirección: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+Agiri honek sinadura elektronikoa darama, konfiantzazko zerbitzu elektronikoen alderdi jakin batzuk arautzen dituen azaroaren 11ko 6/2020 Legearen arabera.
+Este documento incorpora firma electrónica de acuerdo a la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza.
+Sinatzailearen izena
+Firmado por
+LUIS EDUARDO ROYERO JIMENEZ (Concejal Delegado de Políticas Sociales)
+EKS (Egiaztatzeko Kode Segurua
+CSV (Código Seguro de Verificación)
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+Data eta Ordua
+Fecha y Hora
+Zerbitzaria
+Servidor
+Ayuntamiento de Vitoria-Gasteizko Udala
+Orrialdea
+Página
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+24/08/2026 13:34:32
+kortasuna ebaluatzea ahalbidetzen duten
+beste adierazle batzuk.
+luar la eficacia de las medidas de
+igualdad aplicadas
+- Euskararen erabileraren jarraipena egiteko fitxa.
+- Ficha de seguimiento de utilización del euskera
+b.2. Jardueren kostua justifikatzen duen memoria
+ekonomikoa, justifikazioko kontu arruntaren ereduaren arabera. Atal hauek izan beharko ditu:
+1. atala: funts propioen edo beste erakunde batzuetatik jasotakoen justifikazioa.
+Proiektua edo jarduera hainbat entitate publikok
+edo pribatuk finantzatzen badute edota entitate
+onuradunaren funts propioekin finantzatzen bada
+bete beharko da eranskin hori.
+2. atala: diruz lagundutako proiektuari dagozkion
+gastuen egiaztagirien zerrenda.
+Udal dirulaguntzari egozten zaizkion gastuak justifikatzeko bete beharko da eranskin hori. Gastu
+motak zerrendatuko dira, hartzekoduna, kontzeptua, data eta zenbatekoa zehaztuz. Era berean,
+fakturak eta merkataritzako trafiko juridikoan froga-balio baliokidea duten edo administrazioeraginkortasuna duten gainerako dokumentuak
+aurkeztuko dira, baita horiek ordaindu direla egiaztatzen duten dokumentuak ere.
+b.2. Memoria económica justificativa del coste de las actividades, según modelo de cuenta justificativa ordinaria, que comprende los
+siguientes Apartados:
+Apartado 1: Justificación de fondos propios
+o recibidos de otras entidades.
+Se cumplimentará este Anexo en el caso de
+que el proyecto o actividad sea financiada
+por varios entes públicos o privados, y/o con
+recursos propios de la entidad beneficiaria.
+Apartado 2: Relación de justificantes de
+gasto relativos al proyecto subvencionado.
+Se cumplimentará este anexo para justificar
+los gastos del proyecto que se imputan a la
+subvención municipal, relacionando los tipos de gastos con identificación del acreedor, concepto, fecha e importe. Así mismo,
+se aportarán las facturas y demás documentos de valor probatorio equivalente en el tráfico jurídico-mercantil o con eficacia administrativa, así como los documentos que acreditan el pago de las mismas.
+Eskudirutan ordaintzekotan, aintzat hartu beharko
+da legez ezarritako mugapena.
+Para la realización de los pagos en metálico
+habrá de tenerse en cuenta la limitación legal establecida.
+Egindako jarduerak beste modu batez egiaztatu
+ezin direnean bakarrik onartuko dira jaso-izanaren
+agiriak. Edonola ere, jasotze-agiria sinatzen duen
+pertsona ezin izango da enpresaburua edo profe-
+Únicamente se admitirán recibís cuando las
+actividades realizadas no se puedan acreditar
+por otro medio. En todo caso, la persona que
+firme el recibí no ha de tener la condición de
+empresario o profesional dado que, si así
+Egiaztatzeko kode seguruak (EKS) agiri elektroniko honen kopia baten osotasuna egiaztatzea ahalbidetzen du, helbide honetan: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+El código de verificación (CSV) permite la verificación de la integridad de una copia de este documento electrónico en la dirección: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+Agiri honek sinadura elektronikoa darama, konfiantzazko zerbitzu elektronikoen alderdi jakin batzuk arautzen dituen azaroaren 11ko 6/2020 Legearen arabera.
+Este documento incorpora firma electrónica de acuerdo a la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza.
+Sinatzailearen izena
+Firmado por
+LUIS EDUARDO ROYERO JIMENEZ (Concejal Delegado de Políticas Sociales)
+EKS (Egiaztatzeko Kode Segurua
+CSV (Código Seguro de Verificación)
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+Data eta Ordua
+Fecha y Hora
+Zerbitzaria
+Servidor
+Ayuntamiento de Vitoria-Gasteizko Udala
+Orrialdea
+Página
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+24/08/2026 13:34:32
+sionala izan, kasu horretan dagokion faktura egin
+eta eman beharko baitu ezinbestean.
+Jasotze-agiriak datu hauek hartu beharko ditu
+barne:
+-
+-
+-
+-
+fuera, estaría obligada a expedir y entregar la
+correspondiente factura.
+El recibí deberá contener los siguientes datos:
+-
+Nombre, apellidos, NIF y domicilio de la
+persona expedidora y destinataria
+-
+Gauzatutako eragiketaren edo zerbitzuaren
+deskribapen zehatza, eta haren prezio osoa.
+Descripción detallada de la operación o
+servicio realizado y su precio total
+-
+PFEZaren atxikipena (dagokion zerga-agentzian
+ordaindu dela egiaztatzen duen agiria erantsi
+behar da).
+Retención del IRPF (se deberá acompañar ingreso de dicha retención en la
+Agencia Tributaria correspondiente)
+-
+Lugar, fecha y firma de la persona o entidad receptora.
+Jaulkitzailearen zein jasotzailearen
+deiturak, IFZ eta helbidea.
+izen-
+Tokia, data eta jasotzailearen sinadura.
+Apartado 3: Balance de ingresos y gastos del
+proyecto/actividad.
+3. atala: proiektu edo jardueraren diru-sarrera
+eta gastuen balantzea.
+Apartado 4: Gastos de personal y seguridad
+social.
+4. atala: langile-gastuak eta Gizarte Segurantzakoak.
+Dirulaguntza jaso duen proiektuaren langilegastuak eta Gizarte Segurantzakoak justifikatzeko
+bete beharko da eranskin hori, eta entitate edo
+pertsona onuradunaren kontura izan diren nominak eta TC agiriak (egungo RNT eta RLC agiriak)
+atxiki.
+5. atala: gastu, dieta eta bidaien banan-banako
+likidazioa.
+Eranskin hori beteko da bidaia, dieta, joan-etorri,
+mantenu eta antzekoen gastuak justifikatzeko.
+Gastu horiei dagozkien merkataritza-agiriak erantsi
+egingo dira —erabilitako garraiobidearen txartelak, tiketak, fakturak...—, zenbatekoa zehazteko
+oinarri baitira.
+Erantzukizunpeko adierazpena, alderdi hauei bu-
+Se cumplimentará este anexo para justificar
+los gastos de personal y seguridad social del
+proyecto subvencionado, adjuntando las
+nóminas y TCs (actuales RNT y RLC) a cargo
+de la entidad o persona beneficiaria.
+Apartado 5: Liquidación individualizada de
+gastos, dietas y viajes.
+Se cumplimentará este anexo para justificar
+los gastos de viaje y dietas, desplazamientos,
+manutención etc. Al mismo hay que adjuntar
+los documentos comerciales justificativos del
+gasto (billetes del medio de transporte utilizado, tickets, facturas…) que son la base para
+determinar la cuantía.
+Declaración responsable, que contiene:
+Egiaztatzeko kode seguruak (EKS) agiri elektroniko honen kopia baten osotasuna egiaztatzea ahalbidetzen du, helbide honetan: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+El código de verificación (CSV) permite la verificación de la integridad de una copia de este documento electrónico en la dirección: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+Agiri honek sinadura elektronikoa darama, konfiantzazko zerbitzu elektronikoen alderdi jakin batzuk arautzen dituen azaroaren 11ko 6/2020 Legearen arabera.
+Este documento incorpora firma electrónica de acuerdo a la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza.
+Sinatzailearen izena
+Firmado por
+LUIS EDUARDO ROYERO JIMENEZ (Concejal Delegado de Políticas Sociales)
+EKS (Egiaztatzeko Kode Segurua
+CSV (Código Seguro de Verificación)
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+Data eta Ordua
+Fecha y Hora
+Zerbitzaria
+Servidor
+Ayuntamiento de Vitoria-Gasteizko Udala
+Orrialdea
+Página
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+24/08/2026 13:34:32
+ruz:
+- Fakturak eta ordainagiriak aurreikusitako helburu edo xedea gauzatzetik sortu direla eta Gasteizko Udalaren ekarpenarekin finantzatu direla jasotzen duen adierazpena.
+- Declaración de que las facturas y recibos se
+generaron como consecuencia de la ejecución del objetivo o fin previsto y han sido
+financiadas por la aportación del Ayuntamiento de Vitoria-Gasteiz.
+- Onuradunak proiektua gauzatzeko soldatapeko
+langilerik ez duela jasotzen duen adierazpena (beharrezkoa bada).
+- Declaración de no contar con personal asalariado a cargo para el desarrollo del proyecto (si procede).
+- Onuradunaren erantzukizunpeko adierazpena,
+non diruz lagundutako jarduera finantzatzeko baliatu diren bestelako diru-sarrera edo dirulaguntzak zedarrituko diren, zenbatekoa eta jatorria zehaztuta, edo, kasua bada, ez duela bestelako laguntzarik ez eskatu ez eskuratu azaltzeko adierazpena.
+- Declaración responsable de la persona o
+entidad beneficiaria en la que detalle otras
+subvenciones o ingresos que hayan financiado la actividad subvencionada con indicación
+de importe y procedencia o, en su caso, declaración indicando que no ha solicitado ni es
+perceptora de otras subvenciones para el
+proyecto.
+c) Kontratu txikien zenbatekoa gainditu arren dirulaguntza jaso dezaketen gastuak.
+Diruz lagundu daitekeen gastuaren zenbatekoa
+39.999 eurotik gorakoa bada obra-kontratuetan
+(BEZik gabe), eta 14.999 eurotik gorakoa hornidura- eta zerbitzu-kontratuetan (BEZik gabe), pertsona edo entitate onuradunak gutxienez hiru hornitzaileri eskatu beharko die eskaintza egiteko, obra
+egin, zerbitzua eskaini edo ondasunak emateko
+konpromisoa hartu aurretik, salbu eta haren ezaugarri bereziak direla eta merkatuan ez badago lan
+hori egin, zerbitzu horiek eskaini edo ondasun
+horiek hornitzen dituen aski entitate, edo dirulaguntza eman aurretik gastua egina badago.
+c) Gastos subvencionables que superen la
+cuantía de un contrato menor.
+Cuando el importe del gasto subvencionable
+supere en el contrato de obras la cuantía de
+39.999 euros (IVA excluido) y en suministros
+y servicios la cuantía de 14.999 euros (IVA
+excluido), la persona o entidad beneficiaria
+deberá solicitar como mínimo tres ofertas de
+diferentes proveedores, con carácter previo
+a la contracción del compromiso para la
+obra, la prestación del servicio o la entrega
+del bien, salvo que por sus especiales características no exista en el mercado suficiente
+número de entidades que los realicen, presten o suministren, o salvo que el gasto se
+hubiere realizado con anterioridad a la subvención.
+d) Emandako dirulaguntza ez justifikatzea edo
+behar bezala ez justifikatzea.
+d) Falta de justificación o justificación insuficiente de la subvención concedida.
+Justifikatzeko obligazioa ez betetzeak nahiz behar
+bezala ez justifikatzeak jasotako kopuruak eta dagozkien interesak itzuli beharra ekar dezake bere-
+El incumplimiento de la obligación de justificar o la justificación insuficiente podrá conllevar la obligación de reintegrar las cantidades percibidas más el interés correspondien-
+Egiaztatzeko kode seguruak (EKS) agiri elektroniko honen kopia baten osotasuna egiaztatzea ahalbidetzen du, helbide honetan: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+El código de verificación (CSV) permite la verificación de la integridad de una copia de este documento electrónico en la dirección: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+Agiri honek sinadura elektronikoa darama, konfiantzazko zerbitzu elektronikoen alderdi jakin batzuk arautzen dituen azaroaren 11ko 6/2020 Legearen arabera.
+Este documento incorpora firma electrónica de acuerdo a la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza.
+Sinatzailearen izena
+Firmado por
+LUIS EDUARDO ROYERO JIMENEZ (Concejal Delegado de Políticas Sociales)
+EKS (Egiaztatzeko Kode Segurua
+CSV (Código Seguro de Verificación)
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+Data eta Ordua
+Fecha y Hora
+Zerbitzaria
+Servidor
+Ayuntamiento de Vitoria-Gasteizko Udala
+Orrialdea
+Página
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+24/08/2026 13:34:32
+kin, Dirulaguntzei buruzko Lege Orokorraren
+37.1 artikuluan xedatutakoaren ildotik.
+te, en los términos establecidos en el artículo
+37.1 de la Ley General de Subvenciones.
+Bederatzigarrena.- Diruz lagunduko ez diren gastuak.
+Hitzarmen honen bidez ez dira lagunduko honelako gastuak:
+Novena.- Gastos no subvencionables
+
+Diruz lagundutako jarduerarako ezinbestekoak ez diren gastuak, Dirulaguntzei buruzko
+Ordenantza Orokorraren 30. artikuluari jarraituz.
+
+Zeharkako zergak, berreskuratu edo konpentsatu badaitezke (adibidez, BEZa), eta errentaren gaineko zerga pertsonalak (Ordenantzaren 30.8 artikulua).
+
+Era berean, ez dira diruz lagunduko ibilgetuan
+edari, janari eta opariak, egindako inbertsioak, hala nola altzariak, instalazioak, ekipamendu tekniko, informatikoa edo ikusentzunezkoa, ibilgailuak eta abar, salbu eta diruz lagundutako jardueraren izaerari zalantzarik gabe erantzuten badiote, beharbeharrezkoak badira eta ezarritako epean egiten badira.
+Hamargarrena.- Zeharkako kostuak.
+Dirulaguntzari ez zaizkio jardueraren zeharkako
+kostuak egotziko, Elkarteak aurkeztutako aurrekontuan jasotakoaren arabera.
+Hamaikagarrena.- Azpikontratazioa.
+Baldin eta entitate onuradunak hirugarren batekin
+No se considerarán gastos subvencionables
+en el presente Convenio:
+
+Los gastos que no resulten estrictamente necesarios para la realización de la
+actividad subvencionada conforme al artículo 30 de la Ordenanza General de
+Subvenciones.
+
+Los impuestos indirectos susceptibles de
+recuperación o compensación (por
+ejemplo el IVA), ni los impuestos personales sobre la renta (art.30.8 de la Ordenanza).
+No serán subvencionables los gastos
+referidos a bebidas, comidas, regalos
+con motivo de la actividad, realizados
+por los miembros de la entidad beneficiaria o personal dependiente de la
+misma. Tampoco serán objeto de subvención, las inversiones en el inmovilizado, por ejemplo, mobiliario, instalaciones y equipamiento técnico, informático, audiovisual, vehículos etc… salvo
+aquellas que de manera indubitada respondan a la naturaleza de la actividad
+subvencionada, resulten estrictamente
+necesarias y se realicen en el plazo establecido.
+Décima.- Costes indirectos
+No se imputarán a la subvención costes indirectos de la actividad, según consta en el
+presupuesto presentado por la Asociación.
+
+Undécima.- Subcontratación.
+Se considera que existe subcontratación
+Egiaztatzeko kode seguruak (EKS) agiri elektroniko honen kopia baten osotasuna egiaztatzea ahalbidetzen du, helbide honetan: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+El código de verificación (CSV) permite la verificación de la integridad de una copia de este documento electrónico en la dirección: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+Agiri honek sinadura elektronikoa darama, konfiantzazko zerbitzu elektronikoen alderdi jakin batzuk arautzen dituen azaroaren 11ko 6/2020 Legearen arabera.
+Este documento incorpora firma electrónica de acuerdo a la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza.
+Sinatzailearen izena
+Firmado por
+LUIS EDUARDO ROYERO JIMENEZ (Concejal Delegado de Políticas Sociales)
+EKS (Egiaztatzeko Kode Segurua
+CSV (Código Seguro de Verificación)
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+Data eta Ordua
+Fecha y Hora
+Zerbitzaria
+Servidor
+Ayuntamiento de Vitoria-Gasteizko Udala
+Orrialdea
+Página
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+24/08/2026 13:34:32
+hitzartzen badu azken honek burutzea, osorik edo
+zati batean, dirulaguntzaren xede den jarduera,
+azpikontrataziotzat joko da jarduera hori. Kontzeptu horretatik kanpo geratzen dira entitate onuradunak diruz lagundutako jarduera bere kabuz gauzatzeko egin beharreko gastuak.
+Diruz lagundutako jardueraren % 50eraino azpikontratatu ahal izango du entitate onuradunak
+(Dirulaguntzei buruzko Ordenantza Orokorraren
+29. artikuluan adierazitako baldintzetan.
+Entitate onuradunaren aurrean baino ez dute
+erantzun beharko kontratistek, hark izango baitu
+diruz lagundutako jarduera gauzatzearen erantzukizun osoa Administrazioaren aurrean.
+Inolaz ere ezingo da azpikontratatu diruz lagundutako jardueraren kostua handitzen duen ekintzarik,
+haren edukiari balio erantsirik ez badakarkio.
+Halaber, 29.7 artikuluan xedatutakoaren arabera,
+entitate onuradunak berekin lotura duten pertsona edo entitateekin hitzartu ahalko du jarduera
+gauzatzea, osorik edo zati batean, baldin eta aurretiaz
+organo
+emailearen
+aurrean
+azpikontratatzeko
+baimenaren
+eskabidea
+(webgunean dago) aurkeztu eta organo emailearen baimena lortzen badu, eta diruz lagundu daitekeen zenbatekoak ez badu lotura duen entitateak egindako kostua gainditzen. Kostuaren ziurtapena justifikazioan jasoko da, onuradunaren gastuak ziurtatzeko ezarritako baldintza beretan.
+Gizarte Politiken Sailaren zinegotzi ordezkaria Saileko zinegotzi ordezkariaren esku uzten da diruz
+lagundutako jarduerak azpikontratatzeko eta eskatzailearekin lotura duten pertsona edo entitateekin gauzatzeko baimena emateko eskumena.
+cuando la entidad beneficiaria concierta con
+terceros la realización total o parcial de la
+actividad que constituye el objeto de la subvención. No tendrán tal consideración los
+gastos que tenga que realizar la entidad beneficiaria para la realización por sí misma de
+la actividad subvencionada.
+La entidad beneficiaria podrá subcontratar
+parcialmente hasta el 50 % de la actividad
+subvencionada en los términos señalados en
+el artículo 29 de la Ordenanza General de
+Subvenciones.
+Los contratistas quedarán obligados sólo ante la entidad beneficiaria, que asumirá la total responsabilidad de la ejecución de la actividad subvencionada frente a la Administración.
+En ningún caso podrán subcontratarse actividades que, aumentando el coste de la actividad subvencionada, no aporten valor añadido al contenido de la misma.
+Asimismo, y de conformidad con lo dispuesto
+en el artículo 29.7, la entidad beneficiaria
+podrá concertar la ejecución parcial o total
+con personas o entidades vinculadas, siempre que presente la solicitud de autorización
+para subcontratación (Anexo de subcontratación, está en la web), que obtenga la autorización del órgano concedente y que el importe subvencionable no exceda del coste
+incurrido por la entidad vinculada. La acreditación del coste se realizará en la justificación en los mismos términos establecidos
+para la acreditación de los gastos de la entidad beneficiaria.
+Se delega la competencia para autorizar la
+subcontratación de las actividades subvencionadas y la ejecución con personas o enti-
+Egiaztatzeko kode seguruak (EKS) agiri elektroniko honen kopia baten osotasuna egiaztatzea ahalbidetzen du, helbide honetan: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+El código de verificación (CSV) permite la verificación de la integridad de una copia de este documento electrónico en la dirección: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+Agiri honek sinadura elektronikoa darama, konfiantzazko zerbitzu elektronikoen alderdi jakin batzuk arautzen dituen azaroaren 11ko 6/2020 Legearen arabera.
+Este documento incorpora firma electrónica de acuerdo a la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza.
+Sinatzailearen izena
+Firmado por
+LUIS EDUARDO ROYERO JIMENEZ (Concejal Delegado de Políticas Sociales)
+EKS (Egiaztatzeko Kode Segurua
+CSV (Código Seguro de Verificación)
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+Data eta Ordua
+Fecha y Hora
+Zerbitzaria
+Servidor
+Ayuntamiento de Vitoria-Gasteizko Udala
+Orrialdea
+Página
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+24/08/2026 13:34:32
+dades vinculadas en el Concejal-Delegado del
+Departamento de Políticas Sociales.
+Hamabigarrena.- Dirulaguntza galtzea eta itzultzea.
+Duodécima.- Pérdida de la subvención y reintegro.
+Dirulaguntzei buruzko Ordenantza Orokorraren 40.
+artikuluan adierazten diren kasuetan, itzuli egin
+beharko dira jasotako zenbatekoak, aldez aurretik
+dagokion dosierra izapidetuta.
+Procederá el reintegro de las cantidades percibidas, previa tramitación del oportuno expediente, en los supuestos previstos en el
+artículo 40 de la Ordenanza General de Subvenciones.
+Hamahirugarrena.- Onuradunen betebeharrak.
+Décimotercera.- Obligaciones de la entidad
+beneficiaria.
+− Finantzatutako jarduera burutzea, eta jasotako
+funtsak horretarako baliatzea, dirulaguntza
+emateko hitzarmenean adierazi bezala.
+−
+−
+−
+−
+Proiektuak gauzatzean edozein aldaketa egiten
+bada, Gasteizko Udalaren Gizarte Politiken
+Sailari jakinaraztea.
+Helburu berarekin beste administrazio edo
+erakunde publiko nahiz pribatu nazional nahiz
+nazioartekoren batek emandako dirulaguntza,
+laguntza, diru-sarrera edo baliabiderik jasoz
+gero, Gasteizko Udalaren Gizarte Politiken
+Sailari jakinaraztea, baita zertarako baliatu
+diren ere. Jakin bezain laster eman beharko da
+horren berri.
+Gasteizko Udalaren Gizarte Politiken Sailaren
+aurrean egiaztatzea —hark hitzarmen honetako
+diru-kopurua ordaindu aurretik— zergabetebeharrak bete dituela eta Gizarte
+Segurantzari ordaindu beharrekoak ordaindu,
+eta orobat bete dituela udal ogasunarekiko
+betebeharrak.
+Jasotako diru-kopuruak itzultzea —baldin eta
+hitzarmenaren xede diren proiektu edo
+− Realizar la actividad financiada y aplicar a
+la misma los fondos percibidos en los
+términos del convenio de concesión de la
+subvención.
+−
+Comunicar al Departamento de Políticas
+Sociales del Ayuntamiento de VitoriaGasteiz cualquier modificación en la
+realización de los proyectos.
+−
+Comunicar al Departamento de Políticas
+Sociales del Ayuntamiento de VitoriaGasteiz
+la
+obtención
+de
+otras
+subvenciones, ayudas, ingresos o recursos
+para la misma finalidad, procedentes de
+otras administraciones o entes públicos o
+privados, nacionales o internacionales, y la
+aplicación dada a los anteriores. Esta
+comunicación deberá efectuarse tan
+pronto como se conozca.
+−
+Acreditar ante el Departamento de
+Políticas Sociales del Ayuntamiento de
+Vitoria-Gasteiz que se halla al corriente en
+el cumplimiento de sus obligaciones
+tributarias y frente a la seguridad social,
+así como con sus obligaciones con la
+hacienda municipal, con anterioridad al
+Egiaztatzeko kode seguruak (EKS) agiri elektroniko honen kopia baten osotasuna egiaztatzea ahalbidetzen du, helbide honetan: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+El código de verificación (CSV) permite la verificación de la integridad de una copia de este documento electrónico en la dirección: https://sedeelectronica.vitoriagasteiz.org/verifirmav2/
+Agiri honek sinadura elektronikoa darama, konfiantzazko zerbitzu elektronikoen alderdi jakin batzuk arautzen dituen azaroaren 11ko 6/2020 Legearen arabera.
+Este documento incorpora firma electrónica de acuerdo a la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza.
+Sinatzailearen izena
+Firmado por
+LUIS EDUARDO ROYERO JIMENEZ (Concejal Delegado de Políticas Sociales)
+EKS (Egiaztatzeko Kode Segurua
+CSV (Código Seguro de Verificación)
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+Data eta Ordua
+Fecha y Hora
+Zerbitzaria
+Servidor
+Ayuntamiento de Vitoria-Gasteizko Udala
+Orrialdea
+Página
+FO6BCJMN4QWPC4NDJEH4C7UOYY
+24/08/2026 13:34:32
+jarduerak betetzen ez baditu edo ezarritako
+baldintzetan betetzerik ez badauka—, edota
+diruz lagundutako kostutik gain eskuratutako
+kopurua.
+−
+Diruz lagundutako proiektuaren jarraipena egite
+aldera, eskatutako agiri guztiak eman behar
+zaizkio Udalari.
+−
+Agiriak egiaztatzeko ekintzen mende jartzea,
+baita Gasteizko Udaleko Kontu Hartzailetza
+Nagusiari dagozkion finantza-kontrolerako
+ekintzen eta Herri Kontuen Euskal Epaitegiari
+eta eskumena aitortua zaien bestelako organoei
+buruzko legedian aurreikusitakoen mende ere.
+−
+Dirulaguntza justifikatzea, hitzarmen honen
+zortzigarren klausulan ezarritakoaren ildotik.
+abono del importe objeto de este
+convenio.
+−
+Proceder al reintegro de las cantidades
+percibidas, en los supuestos de,
+incumplimiento o imposibilidad de
+cumplimiento de los proyectos o
+actividades objeto del convenio en las
+condiciones establecidas, o del exceso
+obtenido sobre el coste de la actividad
+subvencionada.
+−
+Dar cuenta al Ayuntamiento de los
+documentos que se le soliciten como
+seguimiento del proyecto subvencionado.
+−
+Someterse a las actuaciones de
+comprobación de documentación y a las
+de control financiero que corresponde a la
+Intervención General del Ayuntamiento de
+Vitoria-Gasteiz y a los previstos en la
+legislación del Tribunal Vasco de Cuentas
+P

@@ -14,8 +14,6 @@ ERABILIENAK
 Gehien tramitatzen diren prozedurak
 Eskabide orokorra
 Erregistro orokorra
-Erregistro orokorra
-Eskabide orokorra
 Sarrera eta Irteera Erregistroen kontsulta
 Dirulaguntzak
 Dirulaguntzak
@@ -37,7 +35,6 @@ Euskarazko errotuluak jartzeagatik dirulaguntzak
 Gazteriako dirulaguntzak
 Idazkaritza
 Idazkaritza
-Eskabide orokorra
 Erabaki baten aurkako alegazioak aurkezteko
 Berraztertzeko errekustsoa aurkezteko
 Errolda
@@ -71,7 +68,6 @@ Zerga betebeharrak zatikatzeko edo geroratzeko eskaera
 TAO txartel eskaera
 Hirigintza
 Hirigintza
-TAO txartel eskaera
 Lizentzia obra txikia
 Obra txikien aurretiazko komunikazioa (Eskaera egin aurretik fiantza jarri behar da)
 Lizentzia obra handia
@@ -92,19 +88,11 @@ Gizarte Zerbitzuak
 Gizarte Prestazioak eta Laguntzak. Mendekotasuna eta Ezgaitasun balorazioak
 Gizarte prestazio eta laguntzak
 Informazioa, balorazioa, diagnostikoa eta orientazioa
-Lankidetza proiektuentzat diru laguntza
-Bestelako tramiteak
 Familia ugarien agiria
-Seme alaben jaiotzagatik diru laguntzak
-Familia eta lana uztartzeko diru laguntzak
 Turismo eta termalismo programa nagusientzat
 Kirolak
 Kirolak
 Kirol dirulaguntzak
-Kirol dirulaguntzak aparteko jarduerengatik - Justifikazioa
-Eskola Kiroleko dirulaguntzak - Justifikazioa
-Irabaziak lortzeko asmorik gabeko kirol elkarte eta taldeei dirulaguntzak - Justifikazioa
-Zumaiako norbanako kirolariei dirulaguntzak
 Kultura
 Kultura
 Azokak
@@ -115,11 +103,9 @@ Kulturako udal lokal edo eraikinen erabilera
 Material eskaera
 Erakusketen programazioa
 Kultur lehiaketak
-Kultur dirulaguntzak
 Berdintasuna
 Berdintasuna
 TAO txartela
-TAO txartel eskaera
 Trafiko isunak
 Kontsultak, ordainketak, alegazioak eta gidari identifikazioa
 Zumaiako udalherriko trafiko isunen kontsulta
@@ -172,7 +158,6 @@ Izenperen B@k-Q
 Sinadura elektronikoko ziurtagiriak.
 Itxi
 &times;
-Jakinarazpen elektronikoa
 Itxi
 &times;
 Erabiltzaile aukeraketa
@@ -791,211 +776,250 @@ Desgaitasuneko kirolarien kasuan, Zumaiako
 Udaleko Kirol sailak antolatutako jarduerak
 izango dira diruz lagunduko direnak.
 En el caso de deportistas con discapacidad,
-
-### Gipuzkoako Lurralde Historikoko eta erakunde honen egutegi ofizialeko: https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2025/09/04/c2506163.pdf
-168
-AUTONOMIA ERKIDEGOKO ADMINISTRAZIOA
-4
-Jueves, a 4 de septiembre de 2025
-ADMINISTRACIÓN DE LA COMUNIDAD
-AUTÓNOMA
-EUSKO JAURLARITZA
-GOBIERNO VASCO
-EKONOMIA, LAN
-ETA ENPLEGU SAILA
-DEPARTAMENTO DE ECONOMÍA,
-TRABAJO Y EMPLEO
-Lan eta Gizarte Segurantzako
-Gipuzkoako Lurralde Ordezkaritza
-Delegación Territorial de Trabajo y
-Seguridad Social de Gipuzkoa
-EBAZPENA, 2025eko irailaren 1ekoa, Lan eta Gizarte
-Segurantzako Gipuzkoako lurralde-ordezkariarena, Gipuzkoako tokiko jaiegunen 2026rako egutegia onartzen duena.
-RESOLUCIÓN de 1 de septiembre de 2025 del delegado
-territorial de Trabajo y Seguridad Social de Gipuzkoa,
-por la que se aprueba el calendario de las fiestas locales de Gipuzkoa para el año 2026.
-Eusko Jaurlaritzak, apirilaren 8ko 82/2025 Dekretuaren bidez
-(2025eko apirilaren 25eko Euskal Herriko Agintaritzaren Aldizkaria), Autonomia Estatutuaren 12. artikuluak eta urriaren 23ko
-2/2015 Legegintzako Errege Dekretuaren bidez onartutako Langileen Estatutuaren testu bateginaren 37. artikuluak ezarritakoa
-betez, Euskal Autonomia Erkidegokoan, 2026. urtean, igandeez
-gain, lan-ondorioetarako baliogabetzat jotzen diren 12 egunen
-zerrenda onartu du.
-El Gobierno Vasco, por Decreto 82/2025, de 8 de abril (Boletín Oficial del País Vasco de 25 de abril de 2025) en aplicación
-del artículo 12 del Estatuto de Autonomía y del artículo 37 del
-texto refundido del Estatuto de los Trabajadores, aprobado por
-el Real Decreto Legislativo 2/2015, de 23 de octubre, ha aprobado la relación de 12 días que, además de los domingos, tendrán la consideración de inhábiles a efectos laborales, durante
-el año 2026, en el ámbito de la C.A. del País Vasco.
-12 egun baliogabe horiek honako hauek dira:
-Dichos 12 días inhábiles son los siguientes:
-— Urtarrilaren 1a, Urteberri eguna.
-— 1 de enero, Año Nuevo.
-— Urtarrilaren 6a, Jaunaren epifania.
-— 6 de enero, Epifanía del Señor.
-— Martxoaren 19a, San Jose.
-— 19 de marzo, San José
-— Apirilaren 2a, Ostegun Santua.
-— 2 de abril, Jueves Santo.
-— Apirilaren 3a, Ostiral Santua.
-— 3 de abril, Viernes Santo.
-— Apirilaren 6a, Pazko Astelehena.
-— 6 de abril, Lunes de Pascua de Resurrección.
-— Maiatzaren 1a, Langileen Eguna.
-— 1 de mayo, Fiesta del Trabajo.
-— Uztailaren 25a, Santiago Apostoluaren Eguna.
-— 25 de julio, Santiago Apóstol.
-— Abuztuaren 15a, Ama Birjinaren Jasokundea.
-— 15 de agosto, Asunción de la Virgen.
-— Urriaren 12a, Jai Nazionala.
-— 12 de octubre, Fiesta Nacional.
-— Abenduaren 8a, Ama Birjina Sor tzez Garbiaren Eguna.
-— 8 de diciembre, Inmaculada Concepción.
-— Abenduaren 25a, Eguberri eguna.
-— 25 de diciembre, Natividad del Señor.
-Aipatutako 82/2025 Dekretuko 2. artikuluan eta Ekonomia,
-Lan eta Enplegu Sailaren egitura organikoa eta funtzionala ezar tzen duen 323/2024 Dekretuko 18. artikuluan ezarritakoaren
-arabera, Gipuzkoako Lurralde Ordezkariari dagokio, udalek proposatuta, bere lurralde historikoan lan ondorioetarako baliogabeak, ordainduak eta ez errekuperagarriak izango diren bi tokijaiegun ezartzea.
-De acuerdo con lo establecido en el art. 2 del citado Decreto
-82/2025 y en el art. 18 del Decreto 323/2024 que establece la
-estructura orgánica y funcional del Departamento de Economía,
-Trabajo y Empleo, corresponde al delegado territorial de Gipuzkoa
-establecer en su territorio histórico, a propuesta de los Ayuntamientos, dos días con carácter de fiestas locales, inhábiles para
-el trabajo, retribuidos y no recuperables.
-Lurraldeko udalekin egin beharreko kontsultak egin eta gero,
-honako hau
-Realizadas las oportunas consultas con los Ayuntamientos
-del territorio,
-XEDATZEN DUT
-DISPONGO
-— Uztailaren 31, Loiolako San Inazio eguna, Gipuzkoako Lurralde Historiko osoan.
-— 31 de julio, San Ignacio de Loyola, en todo el Territorio Histórico de Gipuzkoa.
-— Gipuzkoako Lurralde Historikoko udalerri bakoitzerako:
-www.gipuzkoa.eus
-— Para cada municipio del Territorio Histórico de Gipuzkoa:
-1
-LG.:S.S.1-1958
-EK\CV GAO-I-2025-06163
-2025eko irailaren 4a, osteguna
-168 zenbakia
-2025eko irailaren 4a, osteguna
-Gipuzkoako Aldizkari Ofiziala
-Boletín Oficial de Gipuzkoa
-Número 168
-Jueves, a 4 de septiembre de 2025
-ABALTZISKETA
-Ekainak 24
-San Juan
-ABALTZISKETA
-24 de junio
-San Juan
-ADUNA
-Abuztuak 14
-Andra Mari
-ADUNA
-14 de agosto
-Andra Mari
-AIA
-Abuztuak 7
-AIA
-7 de agosto
-AIZARNAZABAL
-Irailak 29
-AIZARNAZABAL
-29 de septiembre
-ALBIZTUR
-Abuztuak 17
-ALBIZTUR
-17 de agosto
-ALEGIA
-Uztailak 16
-ALEGIA
-16 de julio
-ALKIZA
-Irailak 8
-ALKIZA
-8 de septiembre
-ALTZAGA
-Irailak 29
-ALTZAGA
-29 de septiembre
-ALTZO
-Otsailak 16
-Inauterietako
-astelehena
-ALTZO
-16 de febrero
-Lunes de
-Carnaval
-AMEZKETA
-Abuztuak 24
-Bartolome
-Deuna
-AMEZKETA
-24 de agosto
-San
-Bartolomé
-ANDOAIN
-Ekainak 24
-San Juan
-ANDOAIN
-24 de junio
-San Juan
-ANOETA
-Ekainak 4
-Korputs eguna
-ANOETA
-4 de junio
-Corpus Christi
-ANTZUOLA
-Uztailak 17
-ANTZUOLA
-17 de julio
-ARAMA
-Azaroak 11
-ARAMA
-11 de noviembre
-ARETXABALETA
-Abuztuak 14
-ARETXABALETA
-14 de agosto
-ARRASATE
-Ekainak 24
-San Juan
-Bataiatzailea
-MONDRAGON
-24 de junio
-San Juan
-Bautista
-ASTEASU
-Ekainak 29
-San Pedro
-ASTEASU
-29 de junio
-San Pedro
-ASTIGARRAGA
-Uztailak 24
-ASTIGARRAGA
-24 de julio
-ATAUN
-Azaroak 11
-San Martin
-ATAUN
-11 de noviembre
-San Martín
-AZKOITIA
-Azaroak 30
-San Andres
-AZKOITIA
-30 de noviembre
-San Andrés
-AZPEITIA
-Urtarrilak 20
-San Sebastian
-AZPEITIA
-20 de enero
-San Sebastián
-BALIARRAIN
-Abuztuak 14
-BALIARRAIN
-14 de agosto
-BEASAIN
-Maiatzak 18
+serán objeto de subvención las actividades
+organizadas por el Departamento de Deportes del Ayuntamiento de Zumaia.
+13. ARTIKULUA.- DIRULAGUNTZEN BATERAGARRITASUNA.
+ARTÍCULO 13.- COMPATIBILIDAD CON OTRAS
+AYUDAS.
+Oinarri hauetan zehaztutako dirulaguntzak
+bateragarriak izango dira beste erakunde eta
+organismoek emandako laguntzekin. Hala
+ere, gainfinantzaketa ez da onartuko eta kasu
+horretan, jakinarazi egin beharko du eta dagokion zati proportzionala itzuli beharko du laguntzaren onuradunak.
+Las subvenciones contempladas en las presentes bases serán compatibles con otras
+concedidas por otras entidades u organismos
+públicos o privados. No obstante, no se admitirá la sobrefinanciación, en cuyo caso la persona beneficiaria de la ayuda deberá comunicarlo y devolver la parte proporcional correspondiente
+14. ARTIKULUA.- PUBLIZITATEA
+Oinarri hauen baitan emandako dirulaguntzen onuradun diren pertsonek behar bezala
+iragarri behar dute, euskaraz edota euskaraz
+eta gaztelaniaz, beren ekitaldi eta agerraldi
+publikoetan Zumaiako Udalaren dirulaguntza
+jaso duela.
+ARTÍCULO 14. PUBLICIDAD
+Las personas beneficiarias de las subvenciones concedidas al amparo de las presentes
+bases deberán hacer pública, en euskera y/o
+en euskera y castellano, la percepción de la
+subvención del Ayuntamiento de Zumaia en
+sus actos y comparecencias públicas.
+15. ARTIKULUA.- ARAUBIDEA
+ARTÍCULO 15.- NORMATIVA
+Deialdi honek aurreikusi gabeko alderdi guztietan, betetzekoak izango dira azaroaren 17ko
+38/2003 Legea, Dirulaguntzei buruzko lege
+orokorra (azaroaren 18an argitaratua Estatuko Aldizkari Ofizialean), lege horren garapeneko erregelamendua, uztailaren 21eko
+887/2006 errege-dekretuaren bidez onartua
+(uztailaren 25ean argitaratua Estatuko Aldizkari Ofizialean), Zumaiako Udalaren dirulaguntzak emateko Ordenantza Arautzaile Orokorra.
+En todo lo no estipulado en la presente convocatoria, serán de aplicación la Ley 38/2003,
+de 17 de noviembre, General de Subvenciones (publicada en el Boletín Oficial del Estado
+del 18 de noviembre); el Reglamento de
+Desarrollo de dicha ley, aprobado mediante
+el Real Decreto 887/2006, de 21 de julio (publicado en el Boletín Oficial del Estado del 25
+de julio); la Ordenanza Normativa General sobre otorgamiento de subvenciones del Ayuntamiento de Zumaia.
+Foruen plaza 1 • Tel.: 943 865025 • Faxa: 943 862456 • 20750 ZUMAIA
+www.zumaia.eus •e-mail: udala@zumaia.eus
+I. ERANSKINA / ANEXO I
+NORBANAKOEI ZUZENDUTAKO DIRULAGUNTZEN ESKARI-ORRIA
+HOJA DE SOLICITUD DE SUBVENCIONES INDIVIDUALES
+Interesduna (dirulaguntza jaso nahi duen pertsonaren datuak): / Persona interesada (datos de la
+persona que quiere recibir la ayuda):
+Interesdunaren izena / Nombre de la persona interesada
+NAN-AIZ/ DNI-NIE
+Helbidea / Dirección
+Herria / Población
+PK / CP
+Telefonoa
+Hel. elektronikoa / E-mail
+Ordezkaria (agiri honen aurkezlearen datuak) – Interesduna adin txikikoa denean, gurasoa edo
+legezko tutorea
+Representante (datos de la persona que presenta este documento) – Si la persona interesada es
+menor de edad, madre-padre o tutor legal
+Izen-abizenak / Nombre y apellidos
+NAN-AIZ / DNI-NIE
+Jakinarazpenak bidaltzeko datuak: / Datos para envío de notificaciones:
+Herria / Población
+Helbidea / Domicilio
+Telefonoa
+PK / CP
+Hel. elektronikoa / E-mail
+Banketxea (dirulaguntza sartzeko): / Entidad bancaria para ingreso de la subvención:
+Banketxea /
+Kontu zk. (IBAN barne)/ Número de cuenta (con IBAN)
+Entidad bancaria
+E
+S
+Dirulaguntza eskaeraren datuak: / Datos de la petición de subvención:
+Goi-mailako kirolarientzako dirulaguntza / Ayuda a deportistas de alto nivel.
+Desgaitasuna duten adin txikiko kirolarientzako dirulaguntza. / Ayuda a deportistas menores de edad con
+discapacidad.
+Foruen plaza 1 • Tel.: 943 865025 • Faxa: 943 862456 • 20750 ZUMAIA
+www.zumaia.eus •e-mail: udala@zumaia.eus
+ZUMAIAKO UDALAREKIN OFIZIOZKO KONPROBAZIOAK
+COMPROBACIONES DE OFICIO CON EL AYUNTAMIENTO DE ZUMAIA
+Kirol Patronatuak Zumaiako Udalaren datu
+hauek egiaztatuko ditu:
+El Patronato de Deportes verificará de oficio
+estos datos del Ayuntamiento de Zumaia:
+ERROLDA AGIRIA
+CERTIFICADO DE EMPADRONAMIENTO
+UDALAREKIN ZORRIK EZ DUELA
+HALLARSE AL CORRIENTE DE LOS PAGOS
+BITARTEKOTZAKO PLATAFORMATIK ESKATUKO
+DIREN ZERBITZUAK
+SERVICIOS QUE SE SOLICITARÁN MEDIANTE LA
+PLATAFORMA DE INTERMEDIACIÓN DE DATOS
+Eskatzaileari informatzen zaio, Zumaiako Udalak bere dirulaguntza ordenantzetan (GAOko
+151 aldizkaria, 2020ko abuztuaren 11koa)
+ezarritako baldintzen datuak zuzenean egiaztatuko dituela datuen arloko bitartekotzako
+plataformatik eta beste administrazioetatik.
+Hala ere, egiaztatze horri uko egiteko aukera
+izango du eskatzaileak. Kasu horretan, dagokion dokumentazioa aurkeztu beharko du.
+Se informa al solicitante, que el ayuntamiento
+de Zumaia va a verificar los requisitos establecidos en la ordenanza general de subvenciones (BOG Nº 151, del 11 de agosto de 2020)
+desde los servicios de la plataforma de intermediación de datos y otras administraciones.
+La persona solicitante tendrá opción de oponerse a esa verificación, en cuyo caso deberá
+presentar la documentación pertinente.
+Foru Ogasuna - Zerga-betebeharren
+ordainketa egunean izatearen kontsulta
+Gizarte
+Segurantzaren
+Diruzaintza
+Orokorra
+Gizarte
+Segurantzarekiko
+betebeharren ordainketa egunean izatearen
+kontsulta
+Hacienda Foral - Consulta de estar al
+corriente de pago de las obligaciones
+tributarias
+Tesorería General de la Seguridad Social Consulta de estar al corriente de pago de las
+obligaciones con la Seguridad Social
+Aurka nago eta eskatutako dokumentazioa aurkezten dut
+Me opongo, y aporto la documentación requerida.
+Nire erantzukizunpean adierazten dut nik ordezkatzen dudan pertsona ez dagoela sartuta dirulaguntzak lortzeko oinarri orokorretako 11. artikuluan aipatzen diren debeku
+arrazoietan.
+Declaro bajo mi responsabilidad que la persona a la que represento no está incursa en los
+supuestos de prohibición para la obtención de
+subvenciones a las que se refiere el artículo 11
+de las Bases Generales.
+SÍ
+NO
+BAI
+EZ
+Adierazten dut aurkeztutako datu guztiak
+egiazkoak direla.
+BAI
+Declaro que todos los datos aportados son verídicos.
+SÍ
+NO
+EZ
+Zumaian,
+Eskatzailearen izen-abizenak, NAN-AIZ zenbakia eta sinadura
+Nombre y apellidos de la persona solicitante, Nº de DNI-NIE y firma
+Foruen plaza 1 • Tel.: 943 865025 • Faxa: 943 862456 • 20750 ZUMAIA
+www.zumaia.eus •e-mail: udala@zumaia.eus
+II. ERANSKINA/ANEXO II
+DIRULAGUNTZAK: BESTE LAGUNTZA ESKABIDEEN AITORPENA
+SUBVENCIONES: DECLARACIÓN SOBRE OTRAS SOLICITUDES DE AYUDAS
+Eskatzailearen datuak: / Datos de la persona solicitante:
+Izen-abizenak / Nombre y apellidos
+Helbidea/ Domicilio
+Tel.
+NAN-AIZ / DNI-NIE
+Herria / Población
+PK / CP
+Hel. elektronikoa / E-mail
+Ordezkaria: / Representante:
+Izen-abizenak / Nombre y apellidos
+NAN-AIZ / DNI-NIE
+Jarduera hauetarako eskatutako edo jasotako beste laguntzak (jaso badira, zenbatekoa
+azaldu):
+Otras ayudas solicitadas o recibidas para estas actividades (si se han recibido, especificar
+importe):
+Jasotako zenbatekoa /
+Administrazioa edo erakundea / Administración o entidad
+Importe recibido
+Ez dugu jaso edo eskatu beste inongo laguntzarik / No hemos recibido ni solicitado ninguna
+otra ayuda
+Nire erantzukizunpean goian azaldutako datuak Declaro bajo mi responsabilidad que los datos
+egiazkoak direla adierazten dut.
+arriba indicados son verídicos.
+Zumaian:
+Sinadura / Firma
+Foruen plaza 1 • Tel.: 943 865025 • Faxa: 943 862456 • 20750 ZUMAIA
+www.zumaia.eus •e-mail: udala@zumaia.eus
+III. ERANSKINA
+GOI-MAILAKO KIROLARIAREN JARDUERAREN DESKRIBAPENA/
+Anexo III. Descripción de la actividad deportiva del/de la deportista de alto nivel
+Dagokion atala bete / Cumplimentar la tabla que corresponda:
+MAILA ABSOLUTUAN ARITZEN NAIZ eta emaitza hauek lortu ditut:
+Mis resultados en categoría absoluta son los siguientes:
+LORTUTAKO
+EMAITZA
+Resultado
+Munduko txapelketa, maila absolutuan / Campeonato del
+Mundo absoluto
+Europako txapelketa, maila absolutuan / Campeonato de Europa
+absoluto
+Estatuko txapelketa, maila absolutuan / Campeonato Estatal absoluto
+1etik 3ra
+/ 1 al 3
+4tik 15era
+/ 4 al 15
+1etik 3ra /
+1 al 3
+4tik 10era
+/ 4 al 10
+1etik 2ra /
+1 al 2
+MAILA ABSOLUTUTIK BEHERA ARITZEN NAIZ eta emaitza hauek lortu ditut:
+Mis resultados en categoría inferior a la absoluta son los siguientes:
+LORTUTAKO
+EMAITZA
+Resultado
+Maila absolututik beherako kategoriatan munduko txapelketa /
+Campeonato del Mundo de la categorías inferiores a la absoluta
+Maila absolututik beherako Europako txapelketa / Campeonato
+de Europa de categorías inferiores a la absoluta
+Maila absolututik beherako Estatuko txapelketa / Campeonato
+Estatal de la categoría inferior a la absoluta
+1etik 3ra /
+1 al 3
+4tik 15era
+/ 4 al 15
+1etik 3ra /
+1 al 3
+4tik 10era
+/ 4 al 10
+1etik 2ra /
+1 al 2
+3tik 5era /
+3 al 5
+Foruen plaza 1 • Tel.: 943 865025 • Faxa: 943 862456 • 20750 ZUMAIA
+www.zumaia.eus •e-mail: udala@zumaia.eus
+ADIN TARTETAN EDO MASTER KATEGORIAN ARITZEN NAIZ eta emaitza hauek lortu ditut:
+Mis resultados en categoría master o grupos de edades son los siguientes:
+LORTUTAKO
+EMAITZA
+Resultado
+Maila absolututik beherako kategoriatan munduko txapelketa /
+Campeonato del Mundo de la categorías inferiores a la absoluta
+1etik 3ra /
+1 al 3
+4tik 15era
+/ 4 al 15
+1etik 3ra /
+1 al 3
+Maila absolututik beherako Europako txapelketa / Campeonato
+de Europa de categorías inferiores a la absoluta
+4tik 10era
+/ 4 al 10
+Foruen plaza 1 • Tel.: 943 865025 • Faxa: 943 862456 • 20750 ZUMAIA
+www.zumaia.eus •e-mail: udala@zumaia.eus
+IV. ERANSKINA ANIZTASUN FUNTZIONALEKO KIROLARIAREN JARDUERAREN DESKRIBAPENA
+Anexo IV. Descripción de la actividad deportiva del/de la deportista con diversidad
+funcional
+JARDUERA/ACTIVIDAD
+EKS | CSV:
+EPEALDIA / PERIODO
+ZIRRIBORROA - BORRADOR
+Egiaztatu dokumentu honen osotasuna eta sinadura hurrengo URL edo QR kodean sartuz: https://udal.egoitza.gipuzkoa.eus?De=08110
+Compruebe la integridad y firma de este documento, accediendo a la siguiente URL o código QR: https://udal.egoitza.gipuzkoa.eus?De=08110

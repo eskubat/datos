@@ -292,7 +292,6 @@ La información de la convocatoria estará
 también disponible en el sitio web municipal
 (www.getxo-kultura.eus/ramiropinilla) y un
 extracto de la convocatoria se publicará en el
-Boletín Oficial de Bizkaia a través de la Base
 Nacional de Subvenciones.
 La presentación de solicitudes fuera del plazo
 mencionado dará lugar a su desestimación y
@@ -794,7 +793,82 @@ Dirección General de la Policía (DGP)
 Consulta y verificación de datos de identidad.
 Nortasun-datuen kontsulta eta egiaztapena.
 Tesorería General de la Seguridad Social (TGSS)
-GSDOren ordainketa egunean izatearen kontsul
+GSDOren ordainketa egunean izatearen kontsulta.
+Bizkaiko Foru Aldundia (BFA)
+Consulta de estar al corriente de pago con la
+TGSS.
+Diputación Foral de Bizkaia (DFB)
+Zerga-betebeharrak egunean edukitzearen kontsulta.
+Consulta de estar al corriente en las obligaciones
+tributarias.
+ERANTZUKIZUNEZ AITORTZEN DUT / DECLARO RESPONSABLEMENTE
+Dirulaguntzen onuradun izateko eskatzen diren baldintzak
+betetzen ditut, Dirulaguntzei buruzko 38/2003 Lege
+Orokorraren 13. artikuluaren arabera, baita Getxoko Udalaren
+eta bere erakunde autonomoen indarreko Dirulaguntzei
+buruzko Ordenantza Orokorraren eta dagokion dirulaguntzen
+deialdiaren arabera ere.
+EBAZPENA
+Gizarte-Segurantzako Diruzaintza Orokorra (GSDO)
+Que cumplo/cumplimos con las condiciones exigidas para ser
+beneficiario/a de las subvenciones según el artículo 13 de la Ley
+38/2003 General de Subvenciones así como la Ordenanza
+General de Subvenciones del Ayuntamiento de Getxo y sus
+Organismos Autónomos vigente y la convocatoria de
+subvenciones correspondiente.
+AURKA EGOTEAREN ARRAZOIAK / MOTIVACIÓN PARA LA OPOSICIÓN
+KONTRAKOTASUNAren kasuan, jakinarazten zaizu espedientea
+izapidetzen jarraitu nahi baduzu, horretarako beharrezkoa den
+dokumentazioa aurkeztu beharko duzula.
+En caso de OPOSICIÓN, se le comunica que, si desea continuar con la
+tramitación del expediente, deberá aportar la documentación que
+resulte necesaria para la misma.
+Adierazi, mesedez, jarraian, aurka egotearen arrazoiak:
+Indique por favor, a continuación, el motivo de su oposición:
+Kontrakotasun hori edozein unetan erretiratu ahal izango duzu,
+Datuak Babesteko Ordezkariari zuzendutako idazki bat aurkeztuz HAB
+batean, Bulego Elektronikoan edo posta elektroniko bat bidaliz
+datuak@getxo.eus helbidera, NAN edo nortasuna egiaztatzen duen
+agiri baliokidearekin batera.
+Podrá retirar esta oposición en cualquier momento mediante escrito
+dirigido al/a la Delegado/a de Protección de Datos ante una OAC, en
+Sede Electrónica o enviando correo electrónico a datuak@getxo.eus
+acompañado de su DNI o documento equivalente acreditativo de su
+identidad.
+Data / Fecha: _______________________________________________
+Sinadura / Firma:
+Zure datuak “DIRULAGUNTZAK” tratamenduan sartzen dira; horren arduraduna Getxo Kultura da eta
+helburua du Getxo Kulturak onartutako dirulaguntzak kudeatzea. Tratamenduaren oinarri juridikoa
+interesdunaren adostasuna eta dirulaguntza bat esleitzea da. Datuak arduradunarekin zuzeneko lotura
+duten erakundeei eman ahal izango zaizkie. Titularrak eskubidea du datuak eskuratzeko eta zuzentzeko,
+Sus datos se incorporan al tratamiento “SUBVENCIONES” del que es responsable Getxo Kultura y que
+tiene como finalidad gestionar las subvenciones que aprueba Getxo Kultura. La base jurídica del
+tratamiento es el consentimiento y el otorgamiento de una subvención y podrán ser cedidos a
+organizaciones directamente relacionadas con la persona responsable. Su titular tiene derecho de
+Zenbakia: 2026-1317 Data: 15/10/2026
+Consulta de estar al corriente en obligaciones de
+pago por reintegro de subvenciones.
+Baliozkotze Kod.: 77G7X3TM9LACTNLZ4MAYMG43F
+Egiaztapena: https://sede.getxo-kultura.eus/
+esPublico Gestiona plataformatik elektronikoki sinatutako dokumentua | 9. orrialdea, guztira 10
+Dirulaguntzak
+itzultzeko
+egunean egotearen kontsulta.
+Consulta padrón domiciliario
+Zenbakia: 2026-1317 Data: 15/10/2026
+EBAZPENA
+acceso, rectificación, supresión y portabilidad de sus datos, y la limitación u oposición a su tratamiento
+mediante el envío de una comunicación escrita a la dirección postal del Ayuntamiento o a
+datuak@getxo.eus (delegada de protección de datos) incluyendo en ambos casos documento acreditativo
+de su identidad. También puede iniciar el trámite electrónico disponible al efecto en la sede electrónica de
+la Corporación. Para más información: www.getxo.eus/datos.
+Baliozkotze Kod.: 77G7X3TM9LACTNLZ4MAYMG43F
+Egiaztapena: https://sede.getxo-kultura.eus/
+esPublico Gestiona plataformatik elektronikoki sinatutako dokumentua | 10. orrialdea, guztira 10
+ezabatzeko eta transferitzeko, baita bere datuen trataera mugatzeko edo ukatzeko ere, Udalaren posta
+helbidera edo datuak@getxo.eus (datuak babesteko ordezkaria) helbidera idatzizko jakinarazpen bat
+bidaliz, bere nortasuna egiaztatzen duen agiri bat sartuta, edo Udalaren egoitza elektronikoan horretarako
+eskuragarri dagoen kudeaketa elektronikoa hasiz. Informazio gehiagorako: www.getxo.eus/datuak.
 
 ### Bases reguladoras: https://www.bizkaia.eus/es/bob
 Boletín Oficial de Bizkaia - Bizkaia.eus
@@ -878,35 +952,23 @@ Identificar la sesión
 Sesión
 Diputación Foral de Bizkaia
 ASPSESSIONID
-Identificar la sesión
 Sesión
-Diputación Foral de Bizkaia
 TS01
-Identificar la sesión
 Sesión
-Diputación Foral de Bizkaia
 LFR_SESSION_STATE
-Identificar la sesión
 Sesión
-Diputación Foral de Bizkaia
 1 año
-Diputación Foral de Bizkaia
 pc_tecnicas_bizkaia
 1 año
-Diputación Foral de Bizkaia
 pc_analitica_bizkaia
 1 año
-Diputación Foral de Bizkaia
 pc_preferencias_bizkaia
 1 año
-Diputación Foral de Bizkaia
 pc_terceros_bizkaia
 1 año
-Diputación Foral de Bizkaia
 CPLB
 Contiene información utilizada por nuestros servidores de equilibrio de carga
 Sesión
-Diputación Foral de Bizkaia
 Kultursistema_session
 Mantener la sesión de la persona usuaria
 1 hora
@@ -925,31 +987,24 @@ Duración
 Propietario
 Rastrea una visita a través de múltiples solicitudes
 Sesión
-Diputación Foral de Bizkaia
 dtLatC
 Mide la latencia del servidor para la monitorización del rendimiento
 Sesión
-Diputación Foral de Bizkaia
 dtPC
 Necesario para identificar los parámetros adecuados para la transmisión de balizas; incluye ID de sesión para correlación
 Sesión
-Diputación Foral de Bizkaia
 dtSa
 Almacén intermedio para acciones que abarcan páginas
 Sesión
-Diputación Foral de Bizkaia
 rxVisitor
 ID de visitante para correlacionar sesiones
 Permanente
-Diputación Foral de Bizkaia
 rxvt
 Tiempo de espera de sesión
 Sesión
-Diputación Foral de Bizkaia
 iyrc-user-id
 Distinguir a las personas usuarias
 1 hora
-Diputación Foral de Bizkaia
 _ga, _ga_XXXXXXXXXXX
 Distinguir a la persona usuaria
 2 años
@@ -957,39 +1012,28 @@ Google Analytics
 _gat, _gat_XXXXXXXXXXX
 Limitar el porcentaje de solicitudes
 1 minuto
-Google Analytics
 _gid
-Distinguir a las personas usuarias
 1 día
-Google Analytics
 MUID
-Distinguir a la persona usuaria
 1 año
 Microsoft Clarity
 _clck
 Asignar preferencias a la misma persona usuaria
 1 año
-Microsoft Clarity
 _clsk
 Conecta múltiples páginas vistas en una sesión
 1 año
-Microsoft Clarity
 CLID
 Identificar la primera visita de una persona usuaria
 1 año
-Microsoft Clarity
 ANONCHK
-Distinguir a la persona usuaria
 1 día
-Microsoft Clarity
 MR
 Indica cuando refrescar MUID
 6 meses
-Microsoft Clarity
 SM
 Sincronizar MUID en el entorno Microsoft
 1 año
-Microsoft Clarity
 Nombre
 Objetivo
 Duración
@@ -997,18 +1041,14 @@ Propietario
 Idioma
 Seleccionar el idioma preferido por la persona usuaria
 1 año
-Diputación Foral de Bizkaia
 Guardar los trámites favoritos en Cita Previa
 1 año
-Diputación Foral de Bizkaia
 Nombre
 Objetivo
 Duración
 Propietario
 CLID
-Identificar la primera visita de una persona usuaria
 1 año
-Microsoft Clarity
 APISID
 Almacenar las preferencias del usuario y la información durante la visualización de las páginas con los mapas de Google en ellos
 2 años
@@ -1018,9 +1058,7 @@ Prevención del fraude
 2 años
 Google
 MUID
-Distinguir a la persona usuaria
 1 año
-Microsoft Clarity
 NID
 Recordar sus preferencias y otra información
 6 meses
@@ -1040,9 +1078,7 @@ Google
 SM
 Se utiliza para sincronizar el MUID entre dominios de Microsoft
 Sesión
-Microsoft Clarity
 SSID
-Proporcionar entrega de anuncios o retargeting, proporcionar prevención del fraude
 2 años
 Google
 __Secure-1PAPISID
@@ -1050,7 +1086,6 @@ Crear un perfil de los intereses del visitante del sitio web con el fin de mostr
 2 años
 Google
 __Secure-1PSID
-Crear un perfil de los intereses del visitante del sitio web con el fin de mostrar publicidad de Google relevante y personalizada
 2 años
 Google
 __Secure-1PSIDCC
@@ -1058,19 +1093,15 @@ Crear un perfil de los intereses de los visitantes del sitio web para mostrar an
 1 año
 Google
 __Secure-1PSIDTS
-Crear un perfil de los intereses de los visitantes del sitio web para mostrar anuncios relevantes y personalizados a través de retargeting
 1 año
 Google
 __Secure-3PSID
-Crear un perfil de los intereses del visitante del sitio web con el fin de mostrar publicidad de Google relevante y personalizada
 2 años
 Google
 __Secure-3PSIDCC
-Crear un perfil de los intereses de los visitantes del sitio web para mostrar anuncios relevantes y personalizados a través de retargeting
 1 año
 Google
 __Secure-3PSIDTS
-Crear un perfil de los intereses de los visitantes del sitio web para mostrar anuncios relevantes y personalizados a través de retargeting
 1 año
 Google
 __Secure-ENID
@@ -1081,19 +1112,14 @@ Depurar anuncios
 1 año
 Google
 MR
-Indica cuando refrescar MUID
 6 meses
-Microsoft Clarity
 XSRF-TOKEN
-Para evitar ataques CSRF (Cross Site Request Forgery)
 1 hora
 Kultursistema
 _fbp
 Almacenar y rastrear las visitas en los sitios web
 1 año
 Facebook
-kultursistema_session
-Mantener la sesión de la persona usuaria
 1 hora
 Kultursistema
 AEC

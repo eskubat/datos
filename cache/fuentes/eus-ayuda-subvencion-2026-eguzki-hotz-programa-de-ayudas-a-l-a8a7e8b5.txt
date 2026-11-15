@@ -1,13 +1,12 @@
 ### Ficha oficial: https://www.euskadi.eus/ayuda_subvencion/2026/eguzki-hotz-programa-de-ayudas-a-la-generacion-electrica-para-autoconsumo-y-la-electrificacion-de-los-consumos-termicos-mediante-energias-renovables/web01-tramite/es/
 Ayudas y subvenciones
-Descripci�n
+Descripción
 Objeto
 Ante la necesidad de avanzar en la adaptación de Euskadi al cambio climático y preparar los edificios frente a episodios de altas temperaturas, sin que ello suponga incrementar la dependencia energética ni la factura eléctrica, el programa de ayudas pretende impulsar el uso de energías renovables y mejorar la eficiencia y el confort térmico de los edificios.
 Para ello, se promueve la implantación de instalaciones de generación eléctrica renovable para autoconsumo, así como de sistemas de climatización y/o producción de ACS basados en bombas de calor renovables. Todo ello en el territorio de la Comunidad Autónoma de Euskadi.
-Dotaci�n presupuestaria
-80.000.000 €
-Prestaci�n econ�mica
 Dotación presupuestaria
+80.000.000 €
+Prestación económica
 La dotación económica total destinada a este programa asciende a 80.000.000 €, según el correspondiente crédito establecido al efecto en los presupuestos del EVE.
 Procedimiento de adjudicación de las ayudas
 Las resoluciones de las solicitudes de ayuda se realizarán mediante un procedimiento de concurrencia sucesiva, una vez realizadas las comprobaciones de concurrencia de la situación o actuación subvencionable y el cumplimiento del resto de requisitos exigidos, hasta el agotamiento del crédito presupuestario asignado en las convocatorias. De este modo, las solicitudes se examinarán, tramitarán y resolverán conforme a su estricto orden de presentación.
@@ -67,15 +66,12 @@ Instalación fotovoltaica de generación
 P ≤ 10 kWp
 600
 710
-Instalación fotovoltaica de generación
 P > 10 kWp y P≤ 100 kWp
 450
 535
-Instalación fotovoltaica de generación
 P > 100 kWp y P≤ 1.000 kWp
 350
 420
-Instalación fotovoltaica de generación
 P > 1.000 kWp
 300
 355
@@ -83,11 +79,9 @@ Instalación eólica de generación
 P ≤ 20 kW
 2.900
 3.350
-Instalación eólica de generación
 P > 20 kW y P ≤ 500 kW
 1.950
 2.250
-Instalación eólica de generación
 P > 500 kW
 650
 775
@@ -110,7 +104,6 @@ Las ayudas a la instalación de almacenamiento se otorgarán como importes fijos
 Ayuda de almacenamiento = Módulo almacenamiento x Cap
 Donde Cap es la capacidad nominal de la instalación de almacenamiento realmente instalada en kilovatios por hora (kWh).
 La ayuda de almacenamiento no podrá superar el coste subvencionable de la actuación realizada o, si procede, el coste subvencionable resultante una vez aplicados los recortes derivados de las limitaciones establecidas en este Programa, es decir, el coste elegible.
-En cualquier caso, la cuantía de la ayuda resultante tendrá como límite máximo el 65 % de coste elegible.
 Los módulos de almacenamiento que definen la ayuda a cada una de las actuaciones son los siguientes:
 Instalación según tramos de capacidad
 Módulo ayuda
@@ -126,7 +119,6 @@ Instalación de almacenamiento Cap > 5.000 kWh
 La ratio máxima subvencionable será de 4 kWh/kWp fotovoltaico o kW eólico), tanto para nuevas instalaciones de almacenamiento, como para ampliaciones de instalaciones ya existentes. Se permite la instalación de almacenamiento de mayor capacidad que la citada, sin subvención para la parte de almacenamiento que exceda dicha ratio.
 Para el cálculo de esta ratio se considerará la capacidad total nominal de almacenamiento (nueva y/o existente, en kWh) y la potencia total de generación (nueva y/o existente, en kWp fotovoltaico o kW eólico).
 2. Cálculo de la ayuda para las personas beneficiarias que realizan actividad económica por la que ofrezcan bienes y/o servicios en el mercado
-La ayuda a otorgar será la resultante de la suma de la ayuda a la instalación de generación más la ayuda, si procede, a la instalación de almacenamiento.
 Las ayudas a la instalación de generación resultarán de la multiplicación del coste mínimo (entendiéndose como tal el menor valor a adoptar entre el valor del coste elegible calculado y el valor del coste subvencionable máximo de generación) por el porcentaje de ayuda establecido por potencia y tamaño de empresa.
 En esta línea, el coste elegible calculado en generación es el resultante del sumatorio de todos los costes subvencionables definidos en el punto 2. Costes subvencionables, apartado a) del Anexo I, correspondientes a la instalación de generación eléctrica, una vez aplicados los recortes derivados de las limitaciones establecidas en este Programa.
 Ayuda de generación= Csmin x % tamaño empresa según tramo de potencia
@@ -135,7 +127,6 @@ Donde:
 Csmin es el menor entre Coste elegible y el Coste subvencionable máx.; y,
 Ps es la potencia de la instalación de generación instalada en kilovatios pico (kWp) en caso de instalaciones fotovoltaicas y kilovatios (kW) en caso de instalaciones eólicas.
 Se establecen unos módulos de coste subvencionable máximo en función de la potencia de generación. Los módulos que definen el coste subvencionable máximo y el porcentaje de ayuda por tamaño de empresa a aplicar sobre el coste subvencionable máximo o, si procede, sobre el coste elegible calculado, son los siguientes:
-Instalación según tramos de potencia
 Módulo de coste subvencionable máximo
 (€/kWp o kW)
 Ayuda
@@ -171,48 +162,35 @@ P ≤ 20 kW
 30 %
 40 %
 50 %
-Instalación eólica de generación
-P > 20 kW y P ≤ 500 kW
 3.072
 30 %
 40 %
 50 %
-Instalación eólica de generación
 P > 500 kW
 1.070
 30 %
 40 %
 50 %
-Estos módulos se verán incrementados en el caso de que se renueve la superficie total de la/s cubierta/s sobre la/s que se colocará la instalación solar fotovoltaica (eliminación amianto, cambio estructural, ...); también cuando se instalen marquesinas fotovoltaicas que sirvan como cubierta de aparcamientos.
-Para que estos módulos adicionales sean considerados, es necesario que al menos el 80 % de la potencia total de generación esté ubicada sobre la/s cubierta/s en la/s cual/es se haya procedido a la renovación de la superficie total (eliminación amianto, cambio estructural, ...). En el caso de marquesinas para aparcamientos, también se ha de cumplir que el 80 % de la potencia total de generación se instale sobre las marquesinas fotovoltaicas.
 Actuaciones complementarias de generación
 Coste subvencionable máximo adicional (€/kWp)
-Renovación de la superficie total de la/s cubierta/s sobre la/s que se colocará la instalación solar fotovoltaica (eliminación amianto, cambio estructural, ...)
 P ≤ 10 kWp: 700 €/kWp
 10 kWp < P ≤ 100 kWp: 660 €/kW
 100 kWp < P ≤ 1.000 kWp: 450 €/kWp
 P > 1.000 kWp: 400 €/kWp
-Instalación de marquesinas para proyectos de solar fotovoltaica que sirvan como cubierta de aparcamientos
 P ≤ 10 kWp: 500 €/kWp
 10 kWp < P ≤ 100 kW: 400 €/kWp
-100 kWp < P ≤ 1.000 kWp: 300 €/kWp
-P > 1.000 kWp: 250 €/kWp
 Las ayudas a la instalación de almacenamiento resultarán de la multiplicación del coste mínimo (entendiéndose como tal el menor valor a adoptar entre el valor del coste elegible calculado y el valor del coste subvencionable máximo de almacenamiento) por el porcentaje de ayuda establecido por capacidad de almacenamiento y tamaño de empresa.
 En esta línea, el coste elegible calculado en almacenamiento es el resultante del sumatorio de todos los costes subvencionables definidos en el punto 2. Costes subvencionables, apartado a) del Anexo I, correspondientes a la instalación de almacenamiento eléctrico, una vez aplicados los recortes derivados de las limitaciones establecidas en este Programa.
 Ayuda de almacenamiento= Csmin x % tamaño empresa según tramo de capacidad de almacenamiento
 Coste subvencionable máximo = Módulo ayuda x Cap
 Donde:
-Csmin es el menor entre Coste elegible y el Coste subvencionable máx.; y,
 Cap es la capacidad nominal de la instalación de almacenamiento realmente instalada en kilovatios por hora (kWh).
 Se establecen unos módulos de coste subvencionable máximo en función de la capacidad de almacenamiento. Los módulos que definen el coste subvencionable máximo y el porcentaje de ayuda por tamaño de empresa a aplicar sobre el coste subvencionable máximo o, si procede, sobre el coste elegible calculado, son los siguientes:
-Instalación según tramos de capacidad
 Módulo ayuda
 (€/kWh)
 Ayuda gran empresa
 (%)
-Ayuda mediana empresa
 (%)
-Ayuda pequeña empresa
 (%)
 Instalación de almacenamiento
 Cap ≤ 10 kWh
@@ -220,73 +198,188 @@ Cap ≤ 10 kWh
 45 %
 55 %
 65 %
-Instalación de almacenamiento
 Cap > 10 kWh y Cap ≤ 100 kWh
 500
 45 %
 55 %
 65 %
-Instalación de almacenamiento
 Cap > 100 kWh y Cap ≤ 5.000 kWh
 350
 45 %
 55 %
 65 %
-Instalación de almacenamiento
 Cap > 5.000 kWh
 200
 45 %
 55 %
 65 %
-La ratio máxima subvencionable será de 4 kWh/kWp fotovoltaico o kW eólico), tanto para nuevas instalaciones de almacenamiento, como para ampliaciones de instalaciones ya existentes. Se permite la instalación de almacenamiento de mayor capacidad que la citada, sin subvención para la parte de almacenamiento que exceda dicha ratio.
-Para el cálculo de esta ratio se considerará la capacidad total nominal de almacenamiento (nueva y/o existente, en kWh) y la potencia total de generación (nueva y/o existente, en kWp fotovoltaico o kW eólico).
 3. Cálculo de la ayuda para las personas beneficiarias que no realicen actividad económica por la que ofrezcan bienes y/o servicios en el mercado, y tengan naturaleza pública (los indicados en la base cuarta).
-La ayuda a otorgar será la resultante de la suma de la ayuda a la instalación de generación más la ayuda, si procede, a la instalación de almacenamiento.
-Las ayudas a la instalación de generación se otorgarán como importes fijos unitarios o «módulos» que cubrirán como máximo el coste subvencionable total.
-Ayuda de generación= Módulo generación x Ps
-Donde Ps es la potencia de la instalación de generación instalada en kilovatios pico (kWp) en caso de instalaciones fotovoltaicas y kilovatios (kW) en caso de instalaciones eólicas.
-La ayuda de generación no podrá superar el coste subvencionable de la actuación realizada o, si procede, el coste subvencionable resultante una vez aplicados los recortes derivados de las limitaciones establecidas en este Programa, es decir, el coste elegible.
 En cualquier caso, la cuantía de la ayuda resultante tendrá como límite máximo el 65 % del coste elegible.
-Los módulos de generación que definen la ayuda a cada una de las actuaciones son los siguientes:
-Instalación según tramos de potencia
-Módulo individual
 ayuda
 (€/kWp o kW)
-Módulo colectivo
 ayuda
 (€/kWp o kW)
-Instalación fotovoltaica de generación
 P ≤ 10 kWp
 1.000
 1.110
-Instalación fotovoltaica de generación
-P > 10 kWp y P≤ 100 kWp
 750
 835
-Instalación fotovoltaica de generación
-P > 100 kWp y P≤ 1.000 kWp
 650
 720
-Instalación fotovoltaica de generación
 P > 1.000 kWp
 500
 555
 Instalación eólica de generación P ≤ 20 kW
 4.100
 4.550
-Instalación eólica de generación
-P > 20 kW y P ≤ 500 kW
 2.700
 3.000
 Instalación eólica de generación P > 500 kW
 1.150
 1.275
-Estos módulos se verán incrementados en el cas
+10 kWp < P ≤ 100 kW: 160 €/kWp
+Módulo ayuda
+(€/kWh)
+455
+325
+227
+130
+La ratio máxima subvencionable será de 4 kWh/(kWp fotovoltaico o kW eólico), tanto para nuevas instalaciones de almacenamiento, como para ampliaciones de instalaciones ya existentes. Se permite la instalación de almacenamiento de mayor capacidad que la citada, sin subvención para la parte de almacenamiento que exceda dicha ratio.
+b) Cuantía de la ayuda en inversiones para la realización de instalaciones para la electrificación de los consumos térmicos mediante fuentes de energías renovables
+La potencia, expresada en kilovatios, a efectos del cálculo de la ayuda se corresponderá con la potencia de producción térmica instalada (kW).
+1. Cálculo de la ayuda para las personas beneficiarias que no realizan ninguna actividad económica por la que ofrezcan bienes y/o servicios en el mercado, a excepción de los indicados en el apartado b), subapartado 3º de este mismo punto 3. Cuantía de la ayuda.
+Las ayudas a la instalación de generación térmica se calcularán de acuerdo tanto con las actuaciones de generación y sus módulos de ayuda por kW instalado; así como, si procede, en función de importes de ayuda máxima por vivienda.
+Los módulos que definen la ayuda a cada una de las actuaciones son los mostrados en la siguiente tabla, debiendo tenerse en consideración que la limitación de ayuda aplicada a vivienda, en ningún caso, será de aplicación a espacios habitables dedicados a otros usos:
+Actuaciones de generación
+Módulo ayuda
+(€/kW)
+Ayuda máxima por vivienda
+(€/vivienda)
+Instalaciones aerotérmicas para climatización y/o ACS
+500
+3.000
+Instalaciones geotérmicas para climatización y/o ACS de circuito vertical cerrado
+2.250
+13.500
+Instalaciones geotérmicas para climatización y/o ACS de circuito abierto e hidrotérmicas
+1.600
+9.000
+Sistemas de climatización mediante bombas de calor aire-aire
+150
+500
+Sistemas de climatización mediante rooftop
+aire-aire
+150
+500
+Ayuda = Módulo de generación x Ps
+Donde, Ps es la potencia total, en kW, de cada una de las unidades de producción térmica instaladas, debiendo tenerse en cuenta que las mismas se obtendrán a través de las potencias de producción térmica en calefacción indicadas en las fichas técnicas o especificaciones de los fabricantes de las unidades de generación de acuerdo con los ensayos de la norma UNE-EN 14511 según la temperatura de uso indicada en la memoria técnica o proyecto. En aquellas unidades de generación que suministren calefacción, refrigeración y ACS, se considerará como Ps la potencia unitaria de calefacción de cada unidad, salvo en los casos en los que las unidades sean utilizadas exclusivamente para refrigeración, para las que se considerará como potencia (Ps) la potencia unitaria de refrigeración; si se presentara algún caso de producción exclusiva de ACS, la Ps a adoptar será la de producción unitaria de ACS. En aquellos casos donde la potencia Ps unitaria no se pueda justificar en base a dicha norma, se exige la presentación de un informe firmado por técnico/a competente o empresa acreditada que justifique la potencia Ps.
+En todo caso, la ayuda no podrá superar el 65 % del coste elegible de la actuación efectivamente realizada y convenientemente justificada.
+Las ayudas a la instalación de generación térmica se calcularán de acuerdo tanto con las actuaciones de generación y el valor de su respectivo Coste subvencionable unitario máximo (Csum) por la potencia (kW) instalada, así como en función de las intensidades de la ayuda a aplicar en función del tamaño de empresa.
+Las actuaciones de generación, los valores del Coste subvencionable unitario máximo (Csum), así como las intensidades de las ayudas se detallan en las tablas siguientes:
+Coste subvencionable unitario máximo (Csum)
+(€/kW)
+1.000
+Instalaciones geotérmicas o hidrotérmicas para climatización y/o ACS
+2.300
+350
+Sistemas de climatización mediante rooftop aire-aire
+500
+Tipo de empresa
+Gran empresa
+Mediana empresa
+Pequeña empresa
+Intensidad ayuda
+35 %
+40 %
+45 %
+El coste subvencionable total máximo de la actuación de generación térmica será:
+Coste subvencionable total máximo (€) = Sumatorio (Csum x Ps)
+Donde Csum es el coste subvencionable unitario de cada instalación de la instalación de producción térmica; y, Ps es la potencia total, en kW, de cada una de las unidades de producción térmica instaladas, debiendo tenerse en cuenta que las mismas se obtendrán a través de las potencias de producción térmica en calefacción indicadas en las fichas técnicas o especificaciones de los fabricantes de las unidades de generación de acuerdo con los ensayos de la norma UNE-EN 14511 según la temperatura de uso indicada en la memoria técnica o proyecto. En aquellas unidades de generación que suministren calefacción, refrigeración y ACS, se considerará como Ps la potencia unitaria de calefacción de cada unidad, salvo en los casos en los que las unidades sean utilizadas exclusivamente para refrigeración, para las que se considerará como potencia (Ps) la potencia unitaria de refrigeración; si se presentara algún caso de producción exclusiva de ACS, la Ps a adoptar será la de producción unitaria de ACS. En aquellos casos donde la potencia Ps unitaria no se pueda justificar en base a dicha norma, se exige la presentación de un informe firmado por técnico/a competente o empresa acreditada que justifique la potencia Ps.
+Por tanto, la ayuda será:
+Ayuda = Coste subvencionable total máximo (€) x % tamaño empresa
+En todo caso, la ayuda no podrá superar el coste elegible de la actuación efectivamente realizada y convenientemente justificado.
+Las ayudas a la instalación de generación térmica se calcularán de acuerdo tanto con las actuaciones de generación y el valor de su respectivo Coste subvencionable unitario máximo (Csum) por kW instalado, como en función de la intensidad de la ayuda a aplicar que será del 50 % sobre el coste subvencionable total máximo.
+Las actuaciones de generación y los valores del Coste subvencionable unitario máximo (Csum) se detallan en la tabla siguientes.
+(€/kW)
+1.130
+2.430
+500
+Coste subvencionable total máximo (€) = Suma (Csum x Ps)
+Ayuda = Coste subvencionable total máximo (€) x 50 %
+A quién va dirigido
+Personas físicas
+Personas físicas o personas jurídicas, de naturaleza privada, que no realicen ninguna actividad económica por la que ofrezcan bienes y/o servicios en el mercado
+Personas jurídicas privadas
+Personas jurídicas, de naturaleza privada, o personas físicas que realicen una actividad económica por la que ofrezcan bienes o servicios en el mercado.
+Consorcios, asociaciones o agrupaciones de empresas o de personas físicas, con o sin personalidad jurídica
+Consorcios, asociaciones o agrupaciones de empresas o de personas físicas, con o sin personalidad jurídica, incluyendo, entre otros:
+i. Comunidades de propietarios/as del sector residencial, reguladas por la Ley 49/1960, de 21 de julio, sobre propiedad horizontal, que habrán de cumplir con lo previsto en la Ley 38/2003, de 17 de noviembre.
+ii. Las comunidades de energías renovables y las comunidades ciudadanas de energía, según definición de la Directiva 2018/2001, del Parlamento Europeo y del Consejo, de 11 de diciembre de 2018, relativa al fomento del uso de energía procedente de fuentes renovables, y de la Directiva 2019/944, del Parlamento Europeo y del Consejo, de 5 de junio de 2019, sobre normas comunes para el mercado interior de la electricidad y por la que se modifica la Directiva 2012/27/UE, respectivamente, así como del artículo 4 del Real Decreto-ley 23/2020, de 23 de junio, por el que se aprueban medidas en materia de energía y en otros ámbitos para la reactivación económica.
+Este tipo de personas beneficiarias podrán realizar o no alguna actividad económica por la que ofrezcan bienes y/o servicios en el mercado. Sin embargo, para considerarse que no realizan ninguna actividad económica por la que ofrezcan bienes y/o servicios en el mercado, se deberá cumplir el siguiente requisito: la totalidad de sus socias/os o asociadas/os serán personas físicas que no realizan ninguna actividad económica y/o comunidades de propietarios/as residenciales reguladas por la Ley 49/1960, de 21 de julio, sobre propiedad horizontal.
+Administración General de la Comunidad Autónoma de Euskadi
+La Administración General de la Comunidad Autónoma de Euskadi, las respectivas Diputaciones Forales, así como todas aquellas entidades, organismos públicos, fundaciones y sociedades en cuyo capital social la participación directa e indirecta de la Administración General de la Comunidad Autónoma de Euskadi o de las respectivas Diputaciones Forales sea superior al 50 por ciento o sobre las que ejerzan una posición dominante.
+Autoridades portuarias dependientes de la Administración general del Estado, siempre que estén ubicadas en la CAE.
+Requisitos
+Documentación a presentar
+Normativa
+Normativa de la convocatoria
+RESOLUCIÓN de 23 de octubre de 2026, del director general del Ente Vasco de la Energía, por la que se aprueban las bases reguladoras del programa de ayudas a la generación eléctrica para autoconsumo y la electrificación de los consumos térmicos mediante energías renovables (Eguzki Hotz) y su convocatoria para el 2026.
+Organismos
+Organismo que convoca
+Entes públicos de derecho privado > EVE - Ente Vasco de la Energía
+Organismo que resuelve
+Información de contacto
+Ente Vasco de la Energía
+Teléfono: 946 620 600
+E-mail: gestionayudas@eve.eus
+Código
+1208006
+Solicitud y aportación de documentación.
+Plazo de presentación de solicitudes
+El plazo de presentación de las solicitudes de ayuda al presente Programa comenzará a las 8:00 horas del día hábil siguiente al de su publicación en el Boletín Oficial del País Vasco (en adelante BOPV) y finalizará en el momento de producirse el agotamiento del presupuesto destinado a este efecto al Programa.
+En todo caso, con independencia de la existencia de presupuesto disponible, el plazo para la presentación de las solicitudes de ayuda finalizará el viernes 29 de septiembre de 2028, aun cuando existiera presupuesto disponible en la convocatoria.
+La justificación de la realización, facturación y abono de la actuación objeto de ayuda por parte de las personas beneficiarias de las ayudas deberá realizarse ante el EVE en un plazo máximo de dieciocho (18) meses contados desde la fecha de notificación de la resolución de concesión y, en todo caso, no más tarde del miércoles 31 de octubre de 2029, de manera electrónica mediante la aplicación informática indicada en la base octava.
+Modelos de documentos
+DR-actuacion-adicional (PDF, 97 KB)
+DR-almacenamiento (PDF, 110 KB)
+DR-consumo-y-monitorizacion (PDF, 118 KB)
+DR-CUPS (PDF, 85 KB)
+DR-instalacion-aire-aire-menor-5kW (PDF, 92 KB)
+DR-cumplimiento-ley-morosidad (PDF, 98 KB)
+Otorgamiento-representacion-solicitud-EVE (PDF, 128 KB)
+Tramitación electrónica
+Tramitación presencial
+Asegúrese de disponer de un medio de identificación electrónica admitido.
+Prepare la documentación en formato digital.
+Acceda al formulario online mediante el siguiente botón y rellene los datos de la solicitud.
+Documentación
+instrucciones
+Requisitos de documentación en la fase de solicitud de ayuda:
+Ver ANEXO II de las Bases del Programa, apartado 1.
+Requisitos de documentación en la fase de justificación de las actuaciones:
+Ver ANEXO II de las Bases del Programa, apartado 2.
+Requisitos
+Más información
+Antes de comenzar:
+Tenga en cuenta que debe disponer de un medio de identificación electrónica.
+Prepare los documentos necesarios en formato digital. (PDF o formatos admitidos)
+Después, acceda al servicio electrónico, mediante el siguiente botón, y siga los 4 pasos que le indicamos:
+Rellene el formulario de la solicitud.
+Adjunte los documentos que ha preparado anteriormente.
+Firme la solicitud.
+Envíe la solicitud y los documentos.
+A continuación, verá una pantalla que le indica que el envío ya ha sido realizado (acuse de recibo).
+Posteriormente, podrá continuar con la tramitación y realizar el seguimiento de su expediente a través de Mi carpeta.
+Medios de identificación electrónica admitidos
+Para solicitar la ayuda, deberá:
+Rellenar los formularios, imprimirlos y firmarlos
+Preparar toda la documentación necesaria
+Presentar la solicitud y toda la documentación en los lugares de presentación señalados
+EVE - Acceso a la tramitación
+Documentación
+instrucciones
 
 ### RESOLUCIÓN de 23 de octubre de 2026, del director general del Ente Vasco de la Energía, por la que se aprueban las bases reguladoras del programa de ayudas a la generación eléctrica para autoconsumo y la electrificación de los consumos térmicos mediante energías renovables (Eguzki Hotz) y su convocatoria para el 2026.: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2026/11/2604653a.pdf
-BOLETÍN OFICIAL DEL PAÍS VASCO
-N.º 211
-miércoles 4 de noviembre de 2026
 OTRAS DISPOSICIONES
 ENTE VASCO DE LA ENERGÍA
 4653
@@ -321,10 +414,6 @@ temperatura y el bienestar ante las olas de calor cada vez más frecuentes.
 En consecuencia, el presente programa de ayudas se ha diseñado con el objetivo prioritario
 de promover acciones que persigan la realización de instalaciones de autoconsumo y la electrificación de los consumos térmicos mediante energías renovables, así como paliar y mitigar los
 efectos derivados del conflicto en Irán y la inestabilidad en los precios energéticos.
-2026/4653 (1/63)
-BOLETÍN OFICIAL DEL PAÍS VASCO
-N.º 211
-miércoles 4 de noviembre de 2026
 Por lo expuesto, y según las facultades que me atribuye el Decreto 64/1985, de 5 de marzo, por
 el que se regulan las funciones de los órganos rectores del Ente Vasco de la Energía,
 RESUELVO:
@@ -334,7 +423,6 @@ para autoconsumo y la electrificación de los consumos térmicos mediante energ�
 aparejada la autorización del gasto.
 DISPOSICIÓN FINAL PRIMERA.– Eficacia.
 La presente Resolución producirá efectos a partir del día siguiente al de su publicación en el
-Boletín Oficial del País Vasco.
 DISPOSICIÓN FINAL SEGUNDA.– Recursos.
 Contra la presente Resolución, que agota la vía administrativa, podrá interponerse, con carácter potestativo, recurso de reposición ante el director general del EVE en el plazo de un mes a
 partir del día siguiente al de su publicación en el Boletín Oficial del País Vasco, o recurso contencioso-administrativo ante los juzgados de lo Contencioso-Administrativo de Bilbao, en el plazo de
@@ -342,9 +430,6 @@ dos meses a partir del día siguiente al de su publicación en el mismo boletín
 En Bilbao, a 23 de octubre de 2026.
 El director general del Ente Vasco de la Energía,
 MIKEL AMUNDARAIN LEIBAR.
-2026/4653 (2/63)
-BOLETÍN OFICIAL DEL PAÍS VASCO
-miércoles 4 de noviembre de 2026
 ANEXO
 EGUZKI HOTZ – Bases reguladoras del programa de ayudas a la generación
 eléctrica para autoconsumo y la electrificación de los consumos térmicos
@@ -393,10 +478,6 @@ cual contempla el programa de ayudas a la generación eléctrica para autoconsum
 electrificación de los consumos térmicos mediante energías renovables.
 El presente Programa se integra en el PES del EVE vigente. Las actuaciones
 subvencionables contribuyen a sus objetivos mediante el impulso de la generación
-2026/4653 (3/63)
-N.º 211
-BOLETÍN OFICIAL DEL PAÍS VASCO
-miércoles 4 de noviembre de 2026
 eléctrica renovable para autoconsumo, el almacenamiento asociado y la electrificación
 renovable de los consumos térmicos. La iniciativa Eguzki Hotz contribuye, en los
 términos definidos en el PES, a la adaptación de los edificios, al bienestar térmico y a la
@@ -439,10 +520,6 @@ durante la vigencia del Programa, las ayudas que se concedan con posterioridad s
 someterán a la normativa europea que resulte de aplicación, sin perjuicio de las
 modificaciones de las presentes bases que, en su caso, resulten necesarias para
 garantizar su adecuación a dicha normativa.
-2026/4653 (4/63)
-N.º 211
-BOLETÍN OFICIAL DEL PAÍS VASCO
-miércoles 4 de noviembre de 2026
 2.
 3.
 A los efectos del presente Programa, y a tenor de lo regulado en los artículos 1 y 2
@@ -479,4 +556,172 @@ b) Personas jurídicas, de naturaleza privada, o personas físicas que realicen 
 actividad económica por la que ofrezcan bienes o servicios en el mercado.
 c) Consorcios, asociaciones o agrupaciones de empresas o de personas físicas,
 con o sin personalidad jurídica, incluyendo, entre otros:
-1º Comunidades de propietarios/as del sector residencial, regu
+1º Comunidades de propietarios/as del sector residencial, reguladas por la
+Ley 49/1960, de 21 de julio, sobre propiedad horizontal, que habrán de
+cumplir con lo previsto en la Ley 38/2003, de 17 de noviembre.
+2º Las comunidades de energías renovables y las comunidades ciudadanas
+de energía, según definición de la Directiva 2018/2001, del Parlamento
+Europeo y del Consejo, de 11 de diciembre de 2018, relativa al fomento del
+uso de energía procedente de fuentes renovables, y de la Directiva
+2019/944, del Parlamento Europeo y del Consejo, de 5 de junio de 2019,
+sobre normas comunes para el mercado interior de la electricidad y por la
+que se modifica la Directiva 2012/27/UE, respectivamente, así como del
+artículo 4 del Real Decreto-ley 23/2020, de 23 de junio, por el que se
+aprueban medidas en materia de energía y en otros ámbitos para la
+reactivación económica.
+Este tipo de personas beneficiarias podrán realizar o no alguna actividad
+económica por la que ofrezcan bienes y/o servicios en el mercado. Sin
+embargo, para considerarse que no realizan ninguna actividad económica
+se deberá cumplir el siguiente requisito: la totalidad de sus socias/os o
+asociadas/os serán personas físicas que no realizan ninguna actividad
+económica y/o comunidades de propietarias/os residenciales reguladas
+por la Ley 49/1960, de 21 de julio, sobre propiedad horizontal.
+d) La Administración general de la CAPV, las respectivas diputaciones forales, así
+como todas aquellas entidades, organismos públicos, fundaciones y sociedades
+en cuyo capital social la participación directa e indirecta de la Administración
+general de la CAPV o de las respectivas diputaciones forales sea superior al 50
+por ciento o sobre las que ejerzan una posición dominante.
+e) Autoridades portuarias dependientes de la Administración General del Estado,
+siempre que estén ubicadas en la CAPV.
+2. No podrán acceder a la condición de persona beneficiaria de las ayudas:
+a) Quienes no cumplan alguna de las circunstancias previstas en el artículo 21 del
+Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones,
+aprobado mediante Real Decreto 887/2006, de 21 de julio (en adelante RGS).
+En este contexto, la persona solicitante de la ayuda suscribirá, junto con la
+solicitud de ayuda, una declaración responsable en la que acredite no tener
+pendiente obligaciones de reintegro de subvenciones o ayudas o, en su caso, su
+cumplimiento conforme a los términos establecidos en dicho artículo 21.
+b) Quienes se hallen incursos/as en alguna de las circunstancias previstas en los
+artículos 13.2 y 13.3 de la LGS y 13.1, 13.2, 13.3 y 13.4 de la Ley 20/2023.
+Para la acreditación del cumplimiento de estas circunstancias se estará a lo
+dispuesto en los artículos 13.6 a 13.9 de la Ley 20/2023 y en los artículos 22 bis
+y 23 del RGS y, específicamente, mediante la documentación estipulada en el
+anexo II «Documentación». Adicionalmente, para la acreditación de las
+obligaciones tributarias con la Seguridad Social y las relativas a reintegro de
+subvenciones se estará a lo dispuesto en la Orden de 13 de febrero de 2023, del
+Consejero de Economía y Hacienda, sobre acreditación del cumplimiento de
+obligaciones tributarias y frente a la Seguridad Social, así como de las relativas
+al reintegro de subvenciones, en el marco de las ayudas y subvenciones que se
+otorguen con cargo a los Presupuestos Generales de Euskadi. En este contexto,
+cuando así lo permitan las normas antes mencionadas, las personas solicitantes
+podrán aportar una declaración responsable que acredite no hallarse en las
+circunstancias descritas en los artículos indicados en el subapartado precedente.
+A este respecto, el EVE consultará directamente la información que resulte
+precisa ante la Administración tributaria, de la Seguridad Social y/o cualquier otro
+servicio de interoperabilidad entre Administraciones que se encuentre habilitado
+y que resulte preciso durante la tramitación del procedimiento para dar
+cumplimiento a la apreciación de las citadas circunstancias. No obstante, la
+persona solicitante podrá denegar expresamente este consentimiento implícito,
+en cuyo caso deberá aportar la correspondiente documentación justificativa.
+c) Cualesquiera entidades dependientes de la Administración General del Estado
+distintas de Autoridades portuarias ubicadas en la CAE.
+3. Tampoco podrá acceder a la condición de persona beneficiaria de las ayudas quien
+desarrolle una actividad económica y se encuentre en alguna de las siguientes
+situaciones:
+a) Quien se halle incurso en alguna de las circunstancias previstas en los artículos
+13.3bis de la LGS y 13.5 de la Ley 20/2023.
+b) Las empresas que se encuentran sujetas a sanciones adoptadas por la UE,
+incluidas entre otras, las siguientes:
+1º Personas, entidades u organismos específicamente nombrados en los actos
+jurídicos que imponen esas sanciones;
+2º Empresas que sean propiedad o estén bajo el control de personas, entidades
+u organismos objeto de sanciones adoptadas por la Unión Europea (en
+adelante UE); o,
+3º Empresas activas en industrias objeto de sanciones adoptadas por la UE, en
+la medida en que la ayuda socavara los objetivos de las sanciones
+correspondientes.
+c) Las empresas o actividades de los sectores identificados en el artículo 1.
+apartados 2 a 5 del Reglamento 651/2014.
+d) Las empresas que se encuentren en situación de crisis, conforme a la definición
+que a estos efectos se realiza en el Reglamento 651/2014 y en las directrices
+comunitarias sobre ayudas estatales de salvamento y reestructuración de
+empresas no financieras en crisis (Comunicación de la Comisión, 2014/C 249/1,
+de 31 de julio de 2014).
+e) Las empresas que se encuentren sujetas a una orden de recuperación pendiente
+sobre cualquier ayuda o subvención que les hubiera sido otorgada con
+anterioridad, bien por haberse declarado ayuda ilegal e incompatible con el
+mercado interior, bien por cualquier tipo de incumplimiento de las obligaciones
+que le vinieran atribuidas en la concesión.
+f)
+Las empresas cuyo objeto social o dedicación sea en todo o en parte la
+producción, comercialización y financiación de armas, según la Ley 14/2007, de
+28 de diciembre, de Carta de Justicia y Solidaridad con los países empobrecidos
+del País Vasco.
+g) Quienes incurran en alguna de las circunstancias impedientes recogidas en los
+artículos 109.4 de la Ley 7/2022, de 8 de abril, de residuos y suelos
+contaminados para una economía circular, el artículo 116 de la Ley 10/2021, de
+9 de diciembre, de Administración Ambiental de Euskadi y el artículo 82 de la
+Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas
+trans y para la garantía de los derechos de las personas LGTBI.
+4. En lo que respecta al cálculo del tamaño de empresa, la categoría de microempresas,
+pequeñas y medianas empresas (en adelante pyme) está constituida por las
+empresas que ocupan a menos de 250 personas y cuyo volumen de negocio anual
+no excede los 50 millones de euros, o cuyo balance general anual no rebase los 43
+millones de euros.
+En la categoría de pyme, se define pequeña empresa como una empresa que ocupa
+a menos de 50 personas y cuyo volumen de negocios anual o cuyo balance general
+anual no rebase los 10 millones de euros.
+En la categoría de pyme, se define microempresa como una empresa que ocupa a
+menos de 10 personas y cuyo volumen de negocios anual o cuyo balance general
+anual no rebase los 2 millones de euros. En el caso de que la empresa esté asociada
+o vinculada con otras, los requisitos anteriores deberán cumplirlos el grupo de
+empresas así formado.
+Para la catalogación de pyme, se tendrá en cuenta lo establecido en los artículos 4,
+5 y 6, y en el anexo I «Definición de pyme», del Reglamento (UE) n.º 651/2014 de 17
+de junio de 2014, por el que se declaran determinadas categorías de ayudas
+compatibles con el mercado interior en aplicación de los artículos 107 y 108 del
+Tratado de funcionamiento de la Unión Europea, modificado por el Reglamento (UE)
+n.º 1315/2023, de 23 de junio de 2023 (DO, L 167, de 30-06-2023).
+Igualmente, para la categorización de empresa asociada o vinculada, se estará a lo
+señalado en el citado anexo I del mencionado reglamento. Asimismo, para la
+calificación de empresa en crisis se considerará lo dispuesto en su artículo 2.18 del
+citado reglamento.
+Quinta. Dotación presupuestaria y plazo de presentación de las solicitudes.
+1. La dotación económica total destinada a este Programa asciende a ochenta
+millones de euros (80.000.000 €), según el correspondiente crédito establecido al
+efecto en los presupuestos del EVE y dividido en función de las siguientes cuantías
+para cada una de las actuaciones subvencionables previstas en estas bases:
+a) Inversiones para la realización de nuevas instalaciones de generación de
+energía eléctrica para autoconsumo con fuentes de energías renovables,
+ampliación de instalaciones ya existentes, así como instalaciones de
+almacenamiento asociadas tanto a nuevas instalaciones de generación como a
+instalaciones existentes: 60.000.000 €.
+b) Inversiones para la realización de instalaciones para la electrificación de los
+consumos térmicos mediante fuentes de energías renovables: 20.000.000 €.
+El presupuesto de cada una de las actuaciones subvencionables podrá verse, con
+carácter excepcional, incrementado en un 100 % en función de la demanda y
+desarrollo de actuaciones objeto de subvención, y siempre que existiese
+disponibilidad presupuestaria para los fines propuestos en esta convocatoria y no
+hubiera expirado el plazo de vigencia de la misma. El incremento será acordado
+mediante resolución de la Dirección General del EVE, que se publicará en el BOPV
+y en la web del EVE. La publicación del incremento, por sí sola, no implicará la
+apertura de un nuevo plazo para la presentación de solicitudes ni el inicio de un
+nuevo cómputo de plazo para resolver.
+Al vencimiento del plazo de presentación de solicitudes se permitirá compensar el
+saldo de fondos remanente existente entre las actuaciones subvencionables con el
+objeto de comprometer el mayor número de solicitudes existentes.
+2. El plazo de presentación de las solicitudes de ayuda al presente Programa
+comenzará a las 8:00 horas del día hábil siguiente al de su publicación en el Boletín
+Oficial del País Vasco (en adelante BOPV) y finalizará en el momento de producirse
+el agotamiento del presupuesto destinado a este efecto al Programa.
+En todo caso, con independencia de la existencia de presupuesto disponible, el
+plazo para la presentación de las solicitudes de ayuda finalizará el viernes 29 de
+septiembre de 2028, aun cuando existiera presupuesto disponible en la
+convocatoria. A la finalización del expresado plazo de vigencia no serán admitidas,
+en ningún caso, más solicitudes. No obstante, en caso de que se agote el
+presupuesto asignado y siempre que no hubiera expirado la vigencia del Programa
+(29 de septiembre de 2028), podrán seguir registrándose solicitudes en lista de
+reserva provisional que serán atendidas por riguroso orden de entrada, supeditadas
+a que se produzcan desestimaciones o revocaciones de solicitudes de ayuda
+previas resueltas positivamente que pudieran liberar presupuesto o bien se
+incorpore nuevo presupuesto a la convocatoria. En ningún caso la presentación de
+una solicitud a la lista de reserva provisional generará derecho alguno para la
+persona solicitante hasta que no se resuelva la solicitud de ayuda.
+Se dará publicidad del agotamiento del presupuesto, tanto de cada línea de
+actuación como de la totalidad del Programa, en ambos casos mediante Resolución
+de la Dirección General del EVE con su publicación tanto en el BOPV como en la
+dirección de internet de EVE: www.eve.eus.
+3. Para el cómputo de los plazos rige lo dispuesto por el artículo 30 de la Ley 39/2015,
+de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones
+Públicas.
+4. Las solicitudes presentadas que, estando correctas,

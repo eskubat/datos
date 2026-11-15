@@ -1,10 +1,10 @@
 ### Ficha oficial: https://www.lanbide.euskadi.eus/ayuda_subvencion/2022/ingreso-minimo-vital-imv/weblan00-content/es/
-Descripci�n
+Descripción
 Objeto
 El Ingreso Mínimo Vital es una prestación económica mensual dirigida a prevenir el riesgo de pobreza y exclusión social de las personas que viven solas o están integradas en una unidad de convivencia y carecen de recursos económicos básicos para cubrir sus necesidades básicas.
 Es un derecho subjetivo que nace el mismo día de la fecha de presentación de la solicitud y que garantiza unos ingresos mínimos a quienes se encuentren en situación de vulnerabilidad económica.
 El derecho se conservará mientras subsistan los motivos que dieron lugar a su concesión y se cumplan los requisitos y obligaciones previstos en la Ley.
-Prestaci�n econ�mica
+Prestación económica
 La cuantía del ingreso mínimo vital para la persona beneficiaria individual o la unidad de convivencia será la diferencia entre la renta garantizada y el conjunto de rentas e ingresos de tales personas, siempre que la cuantía resultante sea igual o superior a 10 euros mensuales.
 Cuantías de la renta garantizada en 2026. Unidad no monoparental
 Unidad de convivencia
@@ -56,30 +56,22 @@ Otros
 19.367,04
 1.613,92
 Cuantías de la renta garantizada en 2026. Unidad monoparental
-Unidad de convivencia
 Euros/año
 Euros / mes
-Un adulto y un menor
 13.380,84
 1.115,07
-Un adulto y dos menores
 16.021,80
 1.335,15
-Un adulto y tres menores
 18.662,76
 1.555,23
-Un adulto y cuatro o más menores
 21.303,72
 1.775,31
 Cuantías de la renta garantizada en 2026. El otro progenitor, guardador o acogedor se encuentre ingresado en prisión o en un centro hospitalario por un periodo ininterrumpido igual o superior a un año.
 Convivan exclusivamente con sus progenitores/abuelos/guardadores o acogedores, cuando uno de estos tenga reconocido un grado 3 de dependencia, la incapacidad permanente absoluta o la gran invalidez.
-Unidad de convivencia
 Euros/año
 Euros / mes
-Dos adultos y un menor
 16.021,80
 1.355,15
-Dos adultos y dos menores
 18.662,76
 1.555,23
 Dos adultos y tres o más menores
@@ -97,7 +89,7 @@ Quien a fecha de entrada en vigor de la Ley 19/2021, de 20 de diciembre, fuera b
 Forma de pago:
 El pago de la prestación será mensual y se efectúa por transferencia bancaria a una cuenta del titular de la prestación.
 En ingreso mínimo vital es instransferible. No podrá ofrecerse en garantía de obligaciones, ni ser objeto de cesión total o parcial, compensación o descuento, retención o embargo, salvo las compensaciones que se puedan realizar en los pagos en caso de haber percibido cuantías superiores a las que correspondieran de acuerdo a los criterios y requisitos de fijación de los importes a percibir.
-A qui�n va dirigido
+A quién va dirigido
 Personas integradas en una unidad de convivencia (UC)
 Personas con capacidad jurídica
 Edad mínima 23 años.
@@ -130,18 +122,13 @@ Cuando una mujer, víctima de violencia de género, haya abandonado su domicilio
 En los siguientes supuestos únicamente cabrá la consideración como unidad independiente durante los tres años siguientes a la fecha en la que se hubieran producido los hechos indicados en cada uno de ellos:
 Cuando con motivo del inicio de los trámites de separación, nulidad o divorcio, o de haberse instado la disolución de la pareja de hecho formalmente constituida, una persona abandone su domicilio familiar habitual acompañada o no de sus hijas e hijos o de menores en régimen de guarda con fines de adopción o acogimiento familiar permanente. En el supuesto de parejas de hecho no formalizadas que hubieran cesado la convivencia, la persona que solicite la prestación deberá acreditar, en su caso, el inicio de los trámites para la atribución de la guarda y custodia de las y los menores.
 Cuando se acredite haber abandonado el domicilio por desahucio, o por haber quedado el mismo inhabitable por causa de accidente o de fuerza mayor.
-La existencia de pareja de hecho se acreditará mediante certificación de la inscripción en alguno de los registros específicos existentes en las comunidades autónomas o ayuntamientos del lugar de residencia, en su caso, o documento público en el que conste la constitución de dicha pareja.
-Tanto la mencionada inscripción como la formalización del correspondiente documento público deberán haberse producido con una antelación mínima de dos años con respecto a la fecha de la solicitud de la prestación, no requiriéndose este plazo en el caso de que existan hijos o hijas en común.
 Requisitos:
-La existencia de la unidad de convivencia se acreditar� mediante el libro de familia, certificado del registro civil, y con los datos obrantes en los Padrones municipales relativos a los inscritos en la misma vivienda.
-Cuando no haya coincidencia con los datos que se hayan hecho constar en la solicitud de la prestaci�n se solicitar� la aportaci�n del correspondiente certificado de empadronamiento, hist�rico y colectivo del per�odo requerido en cada supuesto, referidos a los domicilios donde residen o han residido los miembros de la unidad de convivencia, expedido por el Ayuntamiento.
-La existencia de pareja de hecho se acreditar� mediante certificaci�n de la inscripci�n en alguno de los registros espec�ficos existentes en las comunidades aut�nomas o ayuntamientos del lugar de residencia o documento p�blico en el que conste la constituci�n de dicha pareja. Tanto la mencionada inscripci�n como la formalizaci�n del correspondiente documento p�blico deber�n haberse producido con una antelaci�n m�nima de dos a�os con respecto a la fecha de la solicitud de la prestaci�n.
-El inicio de los tr�mites de separaci�n o divorcio, o su existencia, se acreditar� con la presentaci�n de la demanda o con la correspondiente resoluci�n judicial, o mediante documento p�blico.
-No estar unido a otra persona por v�nculo matrimonial o pareja de hecho, se acreditar� por declaraci�n jurada o afirmaci�n solemne del propio sujeto que constar� en la propia solicitud de la prestaci�n. Dicha declaraci�n jurada o afirmaci�n solemne no impedir� que la entidad gestora requiera acreditaci�n adicional en caso de duda fundada.
+La existencia de la unidad de convivencia se acreditará mediante el libro de familia, certificado del registro civil, y con los datos obrantes en los Padrones municipales relativos a los inscritos en la misma vivienda.
+Cuando no haya coincidencia con los datos que se hayan hecho constar en la solicitud de la prestación se solicitará la aportación del correspondiente certificado de empadronamiento, histórico y colectivo del período requerido en cada supuesto, referidos a los domicilios donde residen o han residido los miembros de la unidad de convivencia, expedido por el Ayuntamiento.
+La existencia de pareja de hecho se acreditará mediante certificación de la inscripción en alguno de los registros específicos existentes en las comunidades autónomas o ayuntamientos del lugar de residencia o documento público en el que conste la constitución de dicha pareja. Tanto la mencionada inscripción como la formalización del correspondiente documento público deberán haberse producido con una antelación mínima de dos años con respecto a la fecha de la solicitud de la prestación.
+El inicio de los trámites de separación o divorcio, o su existencia, se acreditará con la presentación de la demanda o con la correspondiente resolución judicial, o mediante documento público.
+No estar unido a otra persona por vínculo matrimonial o pareja de hecho, se acreditará por declaración jurada o afirmación solemne del propio sujeto que constará en la propia solicitud de la prestación. Dicha declaración jurada o afirmación solemne no impedirá que la entidad gestora requiera acreditación adicional en caso de duda fundada.
 Personas beneficiarias individuales (PBI)
-Personas con capacidad jurídica
-Edad mínima 23 años.
-Mayores de edad o menores emancipadas:
 — Mujeres víctimas de violencia de género.
 — Personas víctimas de trata de seres humanos y explotación sexual.
 Mayores de edad:
@@ -163,78 +150,84 @@ Personas sin hogar.
 Personas que hayan iniciado los trámites de separación o divorcio.
 Personas víctimas de trata de seres humanos y explotación sexual.
 Personas que provengan de centros penitenciarios por haber sido liberados de prisión siempre que la privación de libertad haya sido por tiempo superior a seis meses.
-Situaciones especiales
-Tendrán la consideración de PBI o UC independiente aquellas personas que abandonan su domicilio familiar habitual para convivir en el mismo domicilio con otras personas con las que mantienen alguno de los vínculos antes descritos:
-Cuando una mujer, víctima de violencia de género, haya abandonado su domicilio familiar habitual acompañada o no de sus hijas o hijos o de menores en régimen de guarda con fines de adopción o acogimiento familiar permanente.
-En los siguientes supuestos únicamente cabrá la consideración como unidad independiente durante los tres años siguientes a la fecha en la que se hubieran producido los hechos indicados en cada uno de ellos:
-Cuando con motivo del inicio de los trámites de separación, nulidad o divorcio, o de haberse instado la disolución de la pareja de hecho formalmente constituida, una persona abandone su domicilio familiar habitual acompañada o no de sus hijas e hijos o de menores en régimen de guarda con fines de adopción o acogimiento familiar permanente. En el supuesto de parejas de hecho no formalizadas que hubieran cesado la convivencia, la persona que solicite la prestación deberá acreditar, en su caso, el inicio de los trámites para la atribución de la guarda y custodia de las y los menores.
-Cuando se acredite haber abandonado el domicilio por desahucio, o por haber quedado el mismo inhabitable por causa de accidente o de fuerza mayor.
 Requisitos:
-La acreditaci�n de haber vivido de forma independiente respecto a los progenitores, tutores o acogedores se efectuar� mediante los datos facilitados por el Instituto Nacional de Estad�stica o, en su caso, el certificado de empadronamiento hist�rico y colectivo en el que consten todas las personas empadronadas en el domicilio del solicitante durante dicho periodo.
+La acreditación de haber vivido de forma independiente respecto a los progenitores, tutores o acogedores se efectuará mediante los datos facilitados por el Instituto Nacional de Estadística o, en su caso, el certificado de empadronamiento histórico y colectivo en el que consten todas las personas empadronadas en el domicilio del solicitante durante dicho periodo.
 Requisitos
-Tener residencia legal y efectiva en Espa�a y haberla tenido continuada e ininterrumpidamente durante al menos el a�o inmediatamente anterior a la fecha de presentaci�n de la solicitud. No se exigir� a:
-1. Las personas menores incorporadas por nacimiento, adopci�n, guarda o acogimiento.
-2. Las personas v�ctimas de trata de seres humanos y de explotaci�n sexual.
-3. Las mujeres v�ctimas de violencia de g�nero.
-Una persona tiene su residencia habitual en Espa�a si sus estancias en el extranjero no superan los 90 d�as naturales cada a�o natural o cuando la ausencia est� motivada por causas de enfermedad debidamente justificadas.
-Informaci�n detallada
+Tener residencia legal y efectiva en España y haberla tenido continuada e ininterrumpidamente durante al menos el año inmediatamente anterior a la fecha de presentación de la solicitud. No se exigirá a:
+1. Las personas menores incorporadas por nacimiento, adopción, guarda o acogimiento.
+2. Las personas víctimas de trata de seres humanos y de explotación sexual.
+3. Las mujeres víctimas de violencia de género.
+Una persona tiene su residencia habitual en España si sus estancias en el extranjero no superan los 90 días naturales cada año natural o cuando la ausencia esté motivada por causas de enfermedad debidamente justificadas.
+Información detallada
 Empadronamiento
 El domicilio en España se acreditará con el certificado de empadronamiento.
 Residencia legal
 La residencia legal en España se acreditará mediante la inscripción en el registro central de extranjeros, en el caso de nacionales de los Estados miembros de la Unión Europea, Espacio Económico Europeo o la Confederación Suiza, o con tarjeta de familiar de ciudadano de la Unión o autorización de residencia, en cualquiera de sus modalidades, en el caso de extranjeros de otra nacionalidad.
 Las personas víctimas de trata de seres humanos y de explotación sexual, así como sus hijos/as, podrán acreditar la residencia legal en España con la autorización provisional de residencia expedida por la Secretaría de Estado de Seguridad del Ministerio del Interior por colaboración con las autoridades policiales o judiciales, o expedida por la Secretaría de Estado de Migraciones en atención a la situación personal de la víctima.
 Las mujeres víctimas de violencia de género y sus hijos podrán acreditar la residencia legal en España con la autorización provisional de residencia expedida por la autoridad que sea competente para otorgar la autorización de residencia por circunstancias excepcionales, en tanto se resuelve sobre esta última autorización.
-No ser persona usuaria de una prestaci�n de servicio residencial, de car�cter social, sanitario o sociosanitario, con car�cter permanente, salvo en el supuesto de mujeres v�ctimas de violencia de g�nero o personas v�ctimas de trata de seres humanos y explotaci�n sexual.
-No encontrarse cumpliendo condena privativa de libertad: no pueden acceder ni como PBI ni como integrantes de una UC, ni se tendr�n en cuenta sus ingresos.
-Encontrarse en situaci�n de vulnerabilidad econ�mica por carecer de rentas, ingresos o patrimonio suficientes. Se cumple cuando el promedio mensual del conjunto de ingresos y rentas anuales computables, correspondientes al ejercicio anterior, sea inferior, al menos en 10 euros, a la cuant�a mensual de la renta garantizada que corresponda en funci�n de la modalidad y del n�mero de miembros de la UC.
-Cuando la vulnerabilidad haya sobrevenido durante el a�o en curso, se podr� solicitar desde el 1 de abril hasta el 31 de diciembre que se analice el cumplimiento del requisito durante el a�o en curso, considerando para ello la parte proporcional de los ingresos: no se tendr�n en cuenta prestaciones y/o subsidios percibidos en el a�o, que a fecha de solicitud tengan el derecho extinguido por agotamiento, renuncia o por superar el l�mite de ingresos previsto.
-Informaci�n detallada
+No ser persona usuaria de una prestación de servicio residencial, de carácter social, sanitario o sociosanitario, con carácter permanente, salvo en el supuesto de mujeres víctimas de violencia de género o personas víctimas de trata de seres humanos y explotación sexual.
+No encontrarse cumpliendo condena privativa de libertad: no pueden acceder ni como PBI ni como integrantes de una UC, ni se tendrán en cuenta sus ingresos.
+Encontrarse en situación de vulnerabilidad económica por carecer de rentas, ingresos o patrimonio suficientes. Se cumple cuando el promedio mensual del conjunto de ingresos y rentas anuales computables, correspondientes al ejercicio anterior, sea inferior, al menos en 10 euros, a la cuantía mensual de la renta garantizada que corresponda en función de la modalidad y del número de miembros de la UC.
+Cuando la vulnerabilidad haya sobrevenido durante el año en curso, se podrá solicitar desde el 1 de abril hasta el 31 de diciembre que se analice el cumplimiento del requisito durante el año en curso, considerando para ello la parte proporcional de los ingresos: no se tendrán en cuenta prestaciones y/o subsidios percibidos en el año, que a fecha de solicitud tengan el derecho extinguido por agotamiento, renuncia o por superar el límite de ingresos previsto.
 Los requisitos de ingresos y patrimonio para el acceso y mantenimiento de la prestación económica de ingreso mínimo vital, se realizará por la entidad gestora conforme a la información que se recabe por medios telemáticos de la Agencia Estatal de Administración Tributaria y en las Haciendas Tributarias Forales de Navarra y de los territorios históricos del País Vasco.
 No será exigible al solicitante la acreditación de hechos, datos o circunstancias que la Administración de la Seguridad Social deba conocer por sí misma, tales como la situación del beneficiario en relación con el sistema de la Seguridad Social; o la percepción por los miembros de la unidad de convivencia de otra prestación económica que conste en el registro de prestaciones sociales públicas.
 La unidad de convivencia debe estar formada desde hace seis meses.
-Informaci�n detallada
-El domicilio en España se acreditará con el certificado de empadronamiento.
-Todas las personas miembros de la unidad de convivencia del IMV deben acreditar su identidad, incluidas las ni�as/os.
-La expedici�n y renovaci�n del DNI/NIE es gratuita para las personas menores de 14 a�os integradas en una unidad de convivencia de IMV.
-En caso de ser una persona sin hogar, que se considera como aquella que carece de techo y reside habitualmente en el municipio, se acreditar� mediante el empadronamiento en un domicilio ficticio en aplicaci�n de las correspondientes instrucciones t�cnicas a los Ayuntamientos sobre la gesti�n del Padr�n Municipal.
-En caso de haber permanecido en alguno de los centros residenciales de protecci�n de menores, se acreditar� mediante el certificado expedido por la entidad que haya ostentado la acogida o tutela de la Comunidad Aut�noma correspondiente.
-En caso de pertenecer a la condici�n de v�ctima violencia de g�nero, se acreditar� por cualquiera de los medios establecidos en el art�culo 23 de la Ley Org�nica 1/2004, de 28 de diciembre, de Medidas de Protecci�n Integral contra la Violencia de G�nero.
-En caso de pertenecer a la condici�n de v�ctima de trata de seres humanos y de explotaci�n sexual, se acreditar� a trav�s de un informe emitido por los servicios p�blicos encargados de la atenci�n integral a estas v�ctimas o por los servicios sociales. Tambi�n podr� acreditarse mediante un informe emitido por entidades sociales especializadas debidamente reconocidas por las Administraciones P�blicas competentes en la materia.
-En caso de pertenecer a la condici�n de persona con discapacidad igual o superior al 65%, se acreditar� con certificado del �rgano competente de las comunidades aut�nomas y del IMSERSO en Ceuta y Melilla.
-El Certificado expedido por los servicios sociales competentes, se requerir� cuando fuera necesario para acreditar los siguientes requisitos:
-a) La residencia efectiva en Espa�a de las personas que a la fecha de la solicitud se encuentren empadronadas en un domicilio ficticio en aplicaci�n de las correspondientes instrucciones t�cnicas a los Ayuntamientos sobre la gesti�n del Padr�n municipal.
-b) El car�cter temporal de la prestaci�n de servicio residencial, de car�cter social, sanitario o sociosanitario, de la que sea usuario el solicitante de la prestaci�n de ingreso m�nimo vital.
+Todas las personas miembros de la unidad de convivencia del IMV deben acreditar su identidad, incluidas las niñas/os.
+La expedición y renovación del DNI/NIE es gratuita para las personas menores de 14 años integradas en una unidad de convivencia de IMV.
+En caso de ser una persona sin hogar, que se considera como aquella que carece de techo y reside habitualmente en el municipio, se acreditará mediante el empadronamiento en un domicilio ficticio en aplicación de las correspondientes instrucciones técnicas a los Ayuntamientos sobre la gestión del Padrón Municipal.
+En caso de haber permanecido en alguno de los centros residenciales de protección de menores, se acreditará mediante el certificado expedido por la entidad que haya ostentado la acogida o tutela de la Comunidad Autónoma correspondiente.
+En caso de pertenecer a la condición de víctima violencia de género, se acreditará por cualquiera de los medios establecidos en el artículo 23 de la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género.
+En caso de pertenecer a la condición de víctima de trata de seres humanos y de explotación sexual, se acreditará a través de un informe emitido por los servicios públicos encargados de la atención integral a estas víctimas o por los servicios sociales. También podrá acreditarse mediante un informe emitido por entidades sociales especializadas debidamente reconocidas por las Administraciones Públicas competentes en la materia.
+En caso de pertenecer a la condición de persona con discapacidad igual o superior al 65%, se acreditará con certificado del órgano competente de las comunidades autónomas y del IMSERSO en Ceuta y Melilla.
+El Certificado expedido por los servicios sociales competentes, se requerirá cuando fuera necesario para acreditar los siguientes requisitos:
+a) La residencia efectiva en España de las personas que a la fecha de la solicitud se encuentren empadronadas en un domicilio ficticio en aplicación de las correspondientes instrucciones técnicas a los Ayuntamientos sobre la gestión del Padrón municipal.
+b) El carácter temporal de la prestación de servicio residencial, de carácter social, sanitario o sociosanitario, de la que sea usuario el solicitante de la prestación de ingreso mínimo vital.
 c) El domicilio real de la persona que alegara no vivir en el que consta en el empadronamiento.
-d) La inexistencia de v�nculos de parentesco, cuando en el mismo domicilio, adem�s de los solicitantes del ingreso m�nimo vital unidos por dichos v�nculos, se encuentren empadronadas otras personas con las que se alegue no tener lazos de parentesco, de consanguinidad o de afinidad, ni haber constituido una pareja de hecho.
-e) La inexistencia de v�nculos de parentesco entre todos o parte de los convivientes cuando uno de ellos solicitare el ingreso m�nimo vital.
-f) El cumplimiento de los requisitos relativos a la acreditaci�n de haber vivido de forma independiente en Espa�a y a la acreditaci�n de formar parte de una unidad de convivencia durante al menos el a�o anterior a la presentaci�n de la solicitud.
+d) La inexistencia de vínculos de parentesco, cuando en el mismo domicilio, además de los solicitantes del ingreso mínimo vital unidos por dichos vínculos, se encuentren empadronadas otras personas con las que se alegue no tener lazos de parentesco, de consanguinidad o de afinidad, ni haber constituido una pareja de hecho.
+e) La inexistencia de vínculos de parentesco entre todos o parte de los convivientes cuando uno de ellos solicitare el ingreso mínimo vital.
+f) El cumplimiento de los requisitos relativos a la acreditación de haber vivido de forma independiente en España y a la acreditación de formar parte de una unidad de convivencia durante al menos el año anterior a la presentación de la solicitud.
 Normativa
 Normativa reguladora
 Ley 19/2021, de 20 de diciembre, por la que se establece el ingreso mínimo vital.
 Normativa estatal
 Real Decreto 789/2022, de 27 de septiembre, por el que se regula la compatibilidad del Ingreso Mínimo Vital con los ingresos procedentes de rentas del trabajo o de la actividad económica por cuenta propia con el fin de mejorar las oportunidades reales de inclusión social y laboral de las personas beneficiarias de la prestación
-Normativa reguladora
 Incremento extraordinario en la prestación de ingreso mínimo vital. Artículo 45 del Real Decreto-ley 6/2022, de 29 de marzo, por el que se adoptan medidas urgentes en el marco del Plan Nacional de respuesta a las consecuencias económicas y sociales de la guerra en Ucrania.
-Normativa estatal
 Real Decreto-ley 8/2023, de 27 de diciembre, por el que se adoptan medidas para afrontar las consecuencias económicas y sociales derivadas de los conflictos en Ucrania y Oriente Próximo, así como para paliar los efectos de la sequía.
 Organismos
 Organismo que convoca
-Lanbide - Servicio P�blico Vasco de Empleo / Director/a General de Lanbide - Servicio P�blico Vasco de Empleo > Direcci�n de Prestaciones
+Lanbide - Servicio Público Vasco de Empleo / Director/a General de Lanbide - Servicio Público Vasco de Empleo > Dirección de Prestaciones
 Organismo que resuelve
-Lanbide - Servicio P�blico Vasco de Empleo / Director/a General de Lanbide - Servicio P�blico Vasco de Empleo > Direcci�n de Prestaciones
-Informaci�n de contacto
-C�digo
+Información de contacto
+Código
 1230102
-Solicitud y aportaci�n de documentaci�n
-Tramitaci�n electr�nica
-Tramitaci�n presencial
+Solicitud y aportación de documentación
+Tramitación electrónica
+Tramitación presencial
 Rellene los formularios solicitados, si los hubiese.
-Prepare la documentaci�n requerida en formato digital.
-Acceda a la aplicaci�n de tramitaci�n electr�nica a trav�s del bot�n.
-Aseg�rese de disponer de un medio de identificaci�n electr�nica admitido.
+Prepare la documentación requerida en formato digital.
+Acceda a la aplicación de tramitación electrónica a través del botón.
+Asegúrese de disponer de un medio de identificación electrónica admitido.
 ERE DBE 001 SOLICITUD PRESTACIONES
 (pdf , 566.51 KB)
-ERE-DBE-005 DOCUME
+ERE-DBE-005 DOCUMENTOS A PRESENTAR JUNTO A LA SOLICITUD
+(pdf , 537.76 KB)
+ERE-DBE-029 ANEXO I. INFORMACIÓN SOBRE PROTECCIÓN DE DATOS
+(pdf , 310.83 KB)
+ERE-DBE-030 DOMICILIACIÓN DE LA PRESTACIÓN
+(pdf , 1.7 MB)
+ERE-BDG-036 AUTORIZACIÓN PARA LA APLICACIÓN DEL PROCEDIMIENTO ESPECIAL DE REINTEGRO DE RGI
+(pdf , 379.11 KB)
+Acceso a la solicitud
+Requisitos
+Empadronamiento
+Requisitos específicos: Personas integradas en una unidad de convivencia (UC)
+Requisitos específicos: Personas beneficiarias individuales (PBI)
+1. Rellene e imprima los formularios solicitados, si los hubiese.
+2. Prepare la documentación requerida.
+3.Presente toda la documentación en alguno de los lugares indicados.
+4.Debe cumplimentar su información y la de las personas que, en su caso, formen parte de su unidad de convivencia.
+ERE-DBE- 001 SOLICITUD DE PRESTACIONES
+(pdf , 1.7 MB)
 
 ### Incremento extraordinario en la prestación de ingreso mínimo vital. Artículo 45 del Real Decreto-ley 6/2022, de 29 de marzo, por el que se adoptan medidas urgentes en el marco del Plan Nacional de respuesta a las consecuencias económicas y sociales de la guerra en Ucrania.: https://www.boe.es/buscar/pdf/2022/BOE-A-2022-4972-consolidado.pdf
 LEGISLACIÓN CONSOLIDADA
@@ -278,7 +271,6 @@ Artículo 8. Liberación de capacidad en los nudos reservados para concurso para
 Artículo 9. Caducidad de los permisos de capacidad de acceso en caso de incumplimiento de los
 compromisos adquiridos en la celebración de los concursos de acceso. . . . . . . . . . . . . . . . . . . . . . . .
 61
-BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 CAPÍTULO V. Reducción de la intensidad de las emisiones de gases de efecto invernadero durante el ciclo de
 vida de los combustibles. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -342,7 +334,6 @@ los precios de los carburantes. . . . . . . . . . . . . . . . . . . . . . . . . 
 Artículo 26. Crédito extraordinario destinado a financiar la línea de ayudas directas a empresas y
 profesionales especialmente afectados por la subida de los precios de los carburantes.. . . . . . . . . . . . .
 75
-BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 Artículo 27. Línea de ayudas directas a empresas ferroviarias privadas afectadas por la subida de los
 precios de los carburantes y la energía de tracción. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -405,7 +396,6 @@ TÍTULO IV. Otras medidas de apoyo a trabajadores y colectivos vulnerables . . .
 89
 Artículo 44. Medidas en el ámbito laboral. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 89
-BOLETÍN OFICIAL DEL ESTADO
 LEGISLACIÓN CONSOLIDADA
 Artículo 45. Incremento extraordinario en la prestación de ingreso mínimo vital. . . . . . . . . . . . . . . . . . . . . .
 89
@@ -445,4 +435,279 @@ actuaciones que incrementen la capacidad para acceso de nueva generación renova
 Disposición adicional quinta. Descuentos del bono social de electricidad hasta el 31 de diciembre de 2022. . . .
 96
 Disposición adicional sexta. Prórroga de la disposición adicional séptima del Real Decreto-ley 17/2021, de 14
-de septiembre, de medidas urgentes para mitigar
+de septiembre, de medidas urgentes para mitigar el impacto de la escalada de precios del gas natural en los
+mercados minoristas de gas y electricidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+96
+Disposición adicional séptima. Medidas en materia de subvenciones y ayudas públicas aplicables a programas
+de ayudas establecidos en el ámbito de las energías renovables y cofinanciados con fondos FEDER
+correspondientes al período de programación 2014-2020. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+96
+Disposición adicional octava. Información sobre el nuevo bono social y plazo de solicitud. . . . . . . . . . . . . . .
+97
+Disposición adicional novena. Adaptación normativa de las disposiciones relativas a la retribución de las
+actividades reguladas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+97
+Disposición adicional décima. Remisión de información por parte de la Comisión Nacional de los Mercados y la
+Competencia para la determinación de las cuantías a financiar en concepto de bono social y coste de
+suministro de los consumidores a que hace referencia los párrafos j) y k) del artículo 52.4 de la Ley 24/2013,
+de 26 de diciembre. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+97
+Disposición adicional undécima. Autorización del Consejo de Ministros de distribución de créditos. . . . . . . . . .
+98
+Disposición adicional duodécima. Ayudas de Estado. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+98
+Disposición adicional decimotercera. Compatibilidad de ayudas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+98
+LEGISLACIÓN CONSOLIDADA
+Disposición adicional decimocuarta. Suplemento de crédito en el Ministerio de Industria, Comercio y Turismo
+destinado a financiar el programa de compensación costes indirectos vinculado al régimen de comercio de
+derechos de emisión de gases de efecto invernadero. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+98
+Disposición adicional decimoquinta. Suplemento de crédito en el Ministerio para la Transición Ecológica y el
+Reto Demográfico destinado a financiar bono social térmico. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+98
+Disposición adicional decimosexta. Concesión de un crédito extraordinario destinado al Ministerio para la
+Transición Ecológica y el Reto Demográfico. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+99
+Disposición adicional decimoséptima. Suplemento de crédito destinado al Ministerio de Transportes, Movilidad
+y Agenda Urbana. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+99
+Disposición adicional decimoctava. No aplicación del artículo 52 de la Ley 47/2003, de 26 de noviembre,
+General Presupuestaria. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+99
+Disposición adicional decimonovena. Servicio de Atención Telefónica a Víctimas de Discriminación Racial o
+Étnica. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+99
+Disposición adicional vigésima. Medidas excepcionales y temporales de etiquetado en el marco del
+Reglamento (UE) 1169/2011 del Parlamento Europeo y del Consejo de 25 de octubre de 2011 sobre la
+información alimentaria facilitada al consumidor y por el que se modifican los Reglamentos (CE) n.º
+1924/2006 y (CE) n.º 1925/2006 del Parlamento Europeo y del Consejo, y por el que se derogan la Directiva
+87/250/CEE de la Comisión, la Directiva 90/496/CEE del Consejo, la Directiva 1999/10/CE de la Comisión,
+la Directiva 2000/13/CE del Parlamento Europeo y del Consejo, las Directivas 2002/67/CE, y 2008/5/CE de
+la Comisión, y el Reglamento (CE) n.º 608/2004 de la Comisión. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+100
+Disposiciones transitorias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+100
+Disposición transitoria primera. Evaluación de la capacidad de la red de transporte y suspensión de permisos
+de acceso. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+100
+Disposición transitoria segunda. Uso de los almacenamientos subterráneos básicos del 1 de abril de 2022 al
+31 de marzo de 2023. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+101
+Disposición transitoria tercera. Aplicación de las medidas de agilización de los procedimientos en trámite
+relativos a proyectos de energías renovables. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+102
+Disposición transitoria cuarta. Consumidores acogidos al bono social a la entrada en vigor de este real decretoley. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+102
+Disposición transitoria quinta. Acreditación de beneficiarios del ingreso mínimo vital. . . . . . . . . . . . . . . . . . .
+103
+Disposición transitoria sexta. Valores a aplicar para la financiación del bono social y coste de suministro de los
+consumidores a que hace referencia los párrafos j) y k) del artículo 52.4 de la Ley 24/2013, de 26 de
+diciembre. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+103
+Disposición transitoria séptima. Régimen de obligaciones aplicable a las prestaciones de ingreso mínimo vital
+causadas desde el 1 de junio de 2020. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+104
+Disposición transitoria octava. Aplicación de la incorporación del apartado 3 al artículo 62 del Real Decreto-ley
+36/2020, de 30 de diciembre, por el que se aprueban medidas urgentes para la modernización de la
+Administración Pública y para la ejecución del Plan de Recuperación, Transformación y Resiliencia. . . . . . .
+104
+Disposiciones derogatorias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+104
+Disposición derogatoria única. Derogación normativa.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+104
+Disposiciones finales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+104
+LEGISLACIÓN CONSOLIDADA
+Disposición final primera. Modificación de la Ley 25/1964, de 29 de abril, sobre energía nuclear. . . . . . . . . . .
+104
+Disposición final segunda. Modificación del Real Decreto 104/1988, de 29 de enero, sobre homologación y
+convalidación de títulos y estudios extranjeros de educación no universitaria. . . . . . . . . . . . . . . . . . . . . .
+105
+Disposición final tercera. Modificación de la Ley 7/1996, de 15 de enero, de Ordenación del Comercio
+Minorista. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+106
+Disposición final cuarta. Modificación de la Ley 34/1998, de 7 de octubre, del sector de hidrocarburos. . . . . . .
+106
+Disposición final quinta. Modificación del Real Decreto 1955/2000, de 1 de diciembre, por el que se regulan las
+actividades de transporte, distribución, comercialización, suministro y procedimientos de autorización de
+instalaciones de energía eléctrica. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+109
+Disposición final sexta. Modificación del texto refundido de la Ley de Aguas, aprobado por el Real Decreto
+Legislativo 1/2001, de 20 de julio. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+109
+Disposición final séptima. Modificación del Real Decreto 1434/2002, de 27 de diciembre, por el que se regulan
+las actividades de transporte, distribución, comercialización, suministro y procedimientos de autorización de
+instalaciones de gas natural. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+110
+Disposición final octava. Modificación de la Ley 53/2002, de 30 de diciembre, de Medidas Fiscales,
+Administrativas y del Orden Social. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+111
+Disposición final novena. Modificación del Real Decreto 1716/2004, de 23 de julio, por el que se regula la
+obligación de mantenimiento de existencias mínimas de seguridad, la diversificación de abastecimiento de
+gas natural y la corporación de reservas estratégicas de productos petrolíferos. . . . . . . . . . . . . . . . . . . .
+111
+Disposición final décima. Modificación de la Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de
+las Personas Físicas y de modificación parcial de las leyes de los Impuestos sobre Sociedades, sobre la
+Renta de no Residentes y sobre el Patrimonio. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+112
+Disposición final undécima. Modificación de la Orden ITC/3862/2007, de 28 de diciembre, por la que se
+establece el mecanismo de asignación de la capacidad de los almacenamientos subterráneos de gas natural
+y se crea un mercado de capacidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+112
+Disposición final duodécima. Modificación de la Orden ITC/1660/2009, de 22 de junio, por la que se establece
+la metodología de cálculo de la tarifa de último recurso de gas natural. . . . . . . . . . . . . . . . . . . . . . . . . .
+113
+Disposición final decimotercera. Modificación del Real Decreto 104/2010, de 5 de febrero, por el que se regula
+la puesta en marcha del suministro de último recurso en el sector del gas natural. . . . . . . . . . . . . . . . . . .
+113
+Disposición final decimocuarta. Modificación de la Ley 11/2010, de 28 de junio, de reforma del sistema de
+apoyo financiero a la internacionalización de la empresa española. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+114
+Disposición final decimoquinta. Modificación de la Orden HAP/290/2013, de 19 de febrero, por la que se
+establece el procedimiento para la devolución parcial del Impuesto sobre Hidrocarburos por consumo de
+gasóleo profesional. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+114
+Disposición final decimosexta. Modificación de la Ley 21/2013, de 9 de diciembre, de evaluación ambiental. . . .
+115
+Disposición final decimoséptima. Modificación de la Ley 24/2013, de 26 de diciembre, del Sector Eléctrico. . . .
+115
+Disposición final decimoctava. Modificación del Real Decreto 413/2014, de 6 de junio, por el que se regula la
+actividad de producción de energía eléctrica a partir de fuentes de energía renovables, cogeneración y
+residuos.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+118
+Disposición final decimonovena. Modificación del Real Decreto 1075/2014, de 19 de diciembre, sobre la
+aplicación a partir de 2015 de los pagos directos a la agricultura y a la ganadería y otros regímenes de
+ayuda, así como sobre la gestión y control de los pagos directos y de los pagos al desarrollo rural. . . . . . . .
+119
+LEGISLACIÓN CONSOLIDADA
+Disposición final vigésima. Modificación del Real Decreto 198/2015, de 23 de marzo, por el que desarrolla el
+artículo 112 bis del texto refundido de la Ley de Aguas y se regula el canon de utilización de las aguas
+continentales para la producción de energía eléctrica en las demarcaciones intercomunitarias. . . . . . . . . . .
+119
+Disposición final vigésima primera. Modificación de la Ley 39/2015, de 1 de octubre, del Procedimiento
+Administrativo Común de las Administraciones Públicas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+120
+Disposición final vigésima segunda. Modificación de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del
+Sector Público. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+120
+Disposición final vigésima tercera. Modificación del Real Decreto 897/2017, de 6 de octubre, por el que se
+regula la figura del consumidor vulnerable, el bono social y otras medidas de protección para los
+consumidores domésticos de energía eléctrica. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+121
+Disposición final vigésima cuarta. Modificación de la Orden ETU/943/2017, de 6 de octubre, por la que se
+desarrolla el Real Decreto 897/2017, de 6 de octubre, por el que se regula la figura del consumidor
+vulnerable, el bono social y otras medidas de protección para los consumidores domésticos de energía
+eléctrica.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+130
+Disposición final vigésima quinta. Modificación del Real Decreto-ley 12/2018, de 7 de septiembre, de seguridad
+de las redes y sistemas de información. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+139
+Disposición final vigésima sexta. Modificación del Real Decreto 164/2019, de 22 de marzo, por el que se
+establece un régimen gratuito de cuentas de pago básicas en beneficio de personas en situación de
+vulnerabilidad o con riesgo de exclusión financiera. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+139
+Disposición final vigésima séptima. Modificación del Real Decreto-ley 17/2020, de 5 de mayo, por el que se
+aprueban medidas de apoyo al sector cultural y de carácter tributario para hacer frente al impacto
+económico y social del COVID-2019.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+140
+Disposición final vigésima octava. Modificación del Real Decreto-ley 19/2020, de 26 de mayo, por el que se
+adoptan medidas complementarias en materia agraria, científica, económica, de empleo y Seguridad Social
+y tributarias para paliar los efectos del COVID-19. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+140
+Disposición final vigésima novena. Modificación del Real Decreto-ley 25/2020, de 3 de julio, de medidas
+urgentes para apoyar la reactivación económica y el empleo. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+141
+Disposición final trigésima. Modificación del Real Decreto 1183/2020, de 29 de diciembre, de acceso y
+conexión a las redes de transporte y distribución de energía eléctrica.. . . . . . . . . . . . . . . . . . . . . . . . . .
+141
+Disposición final trigésima primera. Modificación del Real Decreto-ley 36/2020, de 30 de diciembre, por el que
+se aprueban medidas urgentes para la modernización de la Administración Pública y para la ejecución del
+Plan de Recuperación, Transformación y Resiliencia. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+142
+Disposición final trigésima segunda. Modificación del Real Decreto-ley 5/2021, de 12 de marzo, de medidas
+extraordinarias de apoyo a la solvencia empresarial en respuesta a la pandemia de la COVID-19.. . . . . . . .
+144
+Disposición final trigésima tercera. Modificación de la Ley 1/2021, de 24 de marzo, de medidas urgentes en
+materia de protección y asistencia a las víctimas de violencia de género. . . . . . . . . . . . . . . . . . . . . . . . .
+145
+Disposición final trigésima cuarta. Modificación del Real Decreto-ley 17/2021, de 14 de septiembre, de medidas
+urgentes para mitigar el impacto de la escalada de precios del gas natural en los mercados minoristas de
+gas y electricidad. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+145
+Disposición final trigésima quinta. Modificación de la Ley 19/2021, de 20 de diciembre, por la que se establece
+el ingreso mínimo vital.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+149
+Disposición final trigésima sexta. Modificación del Real Decreto-ley 29/2021, de 21 de diciembre, por el que se
+adoptan medidas urgentes en el ámbito energético para el fomento de la movilidad eléctrica, el
+autoconsumo y el despliegue de energías renovables.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+151
+LEGISLACIÓN CONSOLIDADA
+Disposición final trigésima séptima. Modificación del Real Decreto-ley 3/2022, de 1 de marzo, de medidas para
+la mejora de la sostenibilidad del transporte de mercancías por carretera y del funcionamiento de la cadena
+logística, y por el que se transpone la Directiva (UE) 2020/1057, de 15 de julio de 2020, por la que se fijan
+normas específicas con respecto a la Directiva 96/71/CE y la Directiva 2014/67/UE para el desplazamiento
+de los conductores en el sector del transporte por carretera, y de medidas excepcionales en materia de
+revisión de precios en los contratos públicos de obras. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+152
+Disposición final trigésima octava. Modificación del Real Decreto-ley 4/2022, de 15 de marzo, por el que se
+adoptan medidas urgentes de apoyo al sector agrario por causa de la sequía. . . . . . . . . . . . . . . . . . . . .
+154
+Disposición final trigésima novena. Salvaguarda de rango de disposiciones reglamentarias. . . . . . . . . . . . . .
+155
+Disposición final cuadragésima. Títulos competenciales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+156
+Disposición final cuadragésima primera. Desarrollo reglamentario y habilitación normativa. . . . . . . . . . . . . . .
+156
+Disposición final cuadragésima segunda. Incorporación de derecho de la Unión Europea.. . . . . . . . . . . . . . .
+156
+Disposición final cuadragésima tercera. Entrada en vigor. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+156
+ANEXO. Modelo de comunicación a remitir por las comercializadoras de referencia a los consumidores, junto con
+la factura, durante los tres meses siguientes a la entrada en vigor de este real decreto-ley . . . . . . . . . . . . . .
+157
+LEGISLACIÓN CONSOLIDADA
+TEXTO CONSOLIDADO
+Última modificación: 30 de junio de 2026
+I
+La invasión de Ucrania por parte de Rusia está generando importantes consecuencias
+en todos los órdenes. Por un lado, desde el punto de vista humanitario, ha dado lugar al
+desplazamiento de millones de refugiados, que siguen llegando a la Unión Europea.
+Asimismo, el inicio de la guerra impide el regreso a Ucrania de muchos ucranianos que se
+encuentran en situación de estancia en nuestro país (actualmente en torno a 114.000).
+Por otro, ha agravado el choque de oferta que viene sufriendo la economía europea
+desde el verano de 2021 a causa de la escalada del precio del gas natural y ha añadido
+además una elevada incertidumbre respecto a su duración e intensidad. El precio del gas
+natural, que, dado el diseño del mercado eléctrico europeo determina en gran medida el
+precio de la electricidad, se ha multiplicado por cinco en un año, subiendo un 25 % desde el
+inicio de la invasión. El petróleo casi ha doblado su precio durante el último año, subiendo un
+20% desde finales de febrero de 2022, mientras el precio del trigo ha aumentado el 30 % en
+el mismo periodo. Se ha producido así un aumento abrupto y generalizado de costes de las
+materias primas y los bienes intermedios, añadido al que ya se venía produciendo como
+consecuencia de los cuellos de botella en las cadenas de producción debidos a las fricciones
+generadas por la rápida recuperación económica tras la pandemia. Las consecuencias
+económicas de esta evolución son un aumento de la tasa de inflación y una ralentización del
+ritmo de crecimiento.
+España está entre los Estados Miembros de la Unión Europea menos expuestos a los
+efectos directos de la invasión de Ucrania. La diversificación de las fuentes de
+aprovisionamiento de gas es muy alta y la relación comercial, de inversión y financiera con
+Rusia y Ucrania es modesta. Sin embargo, los efectos económicos indirectos son
+considerables, sobre todo a través del aumento del precio del gas y del petróleo, pero
+también a través del encarecimiento o la escasez de otras materias primas agrícolas y
+minerales.
+El choque de oferta para la economía europea asociado a la escalada de los precios de
+la energía puede ser de una intensidad semejante a la del segundo choque del petróleo de
+finales de los años setenta del siglo pasado. La economía española afronta esta situación
+desde una posición sólida, con el nivel de empleo más alto desde 2008 y en plena ejecución
+del programa de reformas e inversiones del Plan de Recuperación, Transformación y
+Resiliencia, que tiene en la transición energética uno de sus cuatro ejes principales. No
+obstante, la tasa de inflación ha subido desde un nivel cercano a cero a principios de 2021
+hasta situarse por encima del 5 %, reflejando primero el impacto directo de los precios de la
+energía y, de manera más reciente, su traslación a los precios de los bienes y servicios que
+la utilizan en sus procesos de producción. La subida de los precios de la energía está
+afectando de manera particular a aquellos sectores que la utilizan de manera intensiva y
+tienen poca capacidad de trasladarla a precios, como el transporte por carretera, la pesca, la
+agricultura y la ganadería. La subida de los precios de la electricidad y su efecto sobre la
+inflación afectan también a la renta disponible de los hogares, en particular a la de los más
+vulnerables.
+La respuesta europea a la agre

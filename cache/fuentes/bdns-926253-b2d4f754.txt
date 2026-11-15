@@ -276,7 +276,6 @@ Administrazio
 publikoen arteko datu-bitartekaritzarako oinarria
 honako hauetan zehazten da: pertsona fisikoen
 babesari buruzko Europako Parlamentuaren eta
-Kontseiluaren 2016ko apirilaren 27ko 2016/679
 (EB) Erregelamenduaren 6. artikuluan eta
 urriaren 1eko 39/2015 Legearen 28. artikuluan,
 non aitortzen baita herritarrek eskubidea dutela
@@ -695,4 +694,346 @@ adierazita.
 La persona consumidora realiza una compra en
 un comercio adherido. El comercio registra la
 operación en la plataforma, indicando los datos
-necesari
+necesarios de la persona y el importe de la
+compra.
+2. Baldintzak egiaztatzea
+Plataformak
+egiaztatuko
+du
+erosketak
+kanpainarako zehaztutako baldintzak betetzen
+dituen: gutxieneko zenbatekoa, NAN/AIZren
+araberako mugak, funtsen erabilgarritasuna eta
+ezarritako gainerako arauak.
+3. Bonua sortzea
+Baldintzak betetzen badira, plataformak bonu
+digitalak sortuko ditu, eta kontsumitzailearen
+NAN/AIZri lotuta geratuko dira.
+2. Verificación de condiciones
+La plataforma comprueba si la compra cumple las
+condiciones definidas para la campaña: importe
+mínimo, límites por DNI/NIE, disponibilidad de
+fondos y resto de reglas establecidas.
+4. Gerora erosteko prest egotea
+Sortutako bonuak beste erosketa batean
+erabiltzeko moduan geratzen dira, kanpainaren
+indarraldiaren barruan eta atxikitako edozein
+saltokitan.
+4. Disponibilidad para compra posterior
+Los bonos generados quedan disponibles para ser
+utilizados en una compra posterior, dentro del
+periodo de vigencia de la campaña y en cualquiera
+de los comercios adheridos.
+5. Bonua trukatzea
+Ondorengo erosketan, saltokiak eragiketaren
+datuak plataforman erregistratzen ditu. Sistemak
+automatikoki egiaztatzen du pertsonak bonu
+digital aktiboak eta aplikagarriak dituen, eta
+dagokion deskontua aplikatzeko aukera ematen
+du.
+6. Erregistroa eta trazabilitatea
+Bonua aplikatu ondoren, plataformak egindako
+trukea jasotzen du: erabilitako bonua,
+aplikatutako zenbatekoa, onuraduna, parte hartu
+duen merkataritza, eragiketa-data eta dagokion
+justifikazio-dokumentazioa.
+5. Canje del bono
+En la compra posterior, el comercio registra los
+datos de la operación en la plataforma. El sistema
+verifica automáticamente si la persona dispone de
+bonos digitales activos y aplicables, y permite
+aplicar el descuento correspondiente.
+3. Generación del bono
+Si se cumplen las condiciones, la plataforma
+genera el bono o los bonos digitales
+correspondientes, que quedan asociados al
+DNI/NIE de la persona consumidora.
+6. Registro y trazabilidad
+Una vez aplicado el bono, la plataforma deja
+constancia del canje realizado: bono utilizado,
+importe aplicado, persona beneficiaria, comercio
+participante, fecha de operación y documentación
+justificativa correspondiente.
+7. artikulua.- INSTRUKZIOA ETA
+EBAZPENA
+Artículo
+7.RESOLUCIÓN:
+INSTRUCCIÓN
+Y
+Laguntza horiek emateko instrukzio-organoa
+Behargintzaren zuzendari diharduen udal-langilea
+izango da. Ez badago halakorik, presidenteak
+horretarako teknikari egokia izendatuko du.
+El órgano instructor para la concesión de estas
+ayudas será el/la empleado/a municipal que
+desempeña la Dirección del Área de Behargintza.
+En caso de ausencia, se designará al técnico
+oportuno.
+Eskabideak Alkatetza Dekretu bidez ebatziko dira Las solicitudes serán resueltas mediante Decreto
+instrukzio-organoaren proposamenez.
+de Alcaldía a propuesta del órgano instructor.
+Ekimen honen onuradun izan daitezkeen
+establezimenduen
+artean
+zabaltzeko
+eta
+informatzeko hasierako fase baten ondoren,
+ekimenari atxikitzeko eskaerei buruzko ebazpena
+emango da, eta ezespenik badago, arrazoia
+emango da, eta eskatzaile bakoitzari jakinaraziko
+zaio.
+Ondoren, astean behin,
+indarraldian aurkeztutako
+ebatziko dira.
+Tras una primera fase inicial de difusión e
+información de la iniciativa entre los
+establecimientos susceptibles de beneficiarse de la
+misma, se resolverá sobre las solicitudes de
+adhesión presentadas y, en caso de desestimación,
+se dará razón de la misma, notificándose a cada
+uno de los solicitantes.
+kanpaina honen Posteriormente, con carácter semanal se irán
+atxikitze-eskaerak resolviendo las solicitudes de adhesión
+presentadas durante el periodo de vigencia de
+esta campaña.
+Deialdi honek arautzen dituen diru-laguntzak
+eman ahal izateko, erabakitzeko momentuan
+aurrekontu eta kreditu nahikoa eta egokia eduki
+beharko da.
+La concesión de subvenciones regulada por esta
+convocatoria quedará en cualquier caso
+condicionada a la existencia de disponibilidad
+presupuestaria y, crédito adecuado y suficiente, en
+el momento de la resolución de concesión.
+Kanpainari atxikitako establezimenduen zerrenda La relación de los establecimientos adheridos a la
+www.leioa.net eta www.behargintzaleioa.net campaña se publicará en las web municipales
+webguneetan argitaratuko da.
+www.leioa.net y www.behargintzaleioa.net
+Leioako Udalak behar den moduan emango du El Ayuntamiento de Leioa dará la debida
+jakitera espedientean jasotako informazioa, publicidad a la información contenida en el
+aplikatu beharreko araudiarekin bat etorriz.
+expediente de acuerdo con la normativa de
+aplicación.
+8.
+artikulua.OBLIGAZIOAK:
+ONURADUNEN Artículo 8.- OBLIGACIONES DE LAS
+PERSONAS BENEFICIARIAS:
+Bonuak
+erabiltzea
+kanpainaren
+arautzaileak onartzea ekarriko du.
+oinarri El uso de bonos supone la aceptación de las
+bases reguladoras de la campaña.
+9. artikulua.- BATERAGARRITASUNA.
+Artículo 9.- COMPATIBILIDAD
+Diru-laguntza hauek deituta edo dei daitezkeen
+beste diru-laguntza batzuekin bateragarriak dira,
+betiere jasotako diru-laguntza guztien batuketak
+ez badu aurkeztutako aurrekontua gainditzen.
+Egoera
+horretan,
+dagokion
+zenbatekoan
+gutxituko da deialdi honen bitartez emandako
+Estas subvenciones son compatibles con
+cualesquiera otras convocadas o, que se
+convoquen, siempre que del conjunto de las que
+se reciban por la actividad objeto de las mismas
+no se produzca sobrefinanciación respecto del
+presupuesto sobre el que hayan sido concedidas.
+diru-laguntzaren zenbatekoa.
+Ante tal supuesto, se reducirá en la cantidad
+correspondiente al exceso del importe de la ayuda
+concedida en virtud de la presente convocatoria.
+10. artikulua.- BONUEN LIKIDAZIOA.
+Artículo 10.- LIQUIDACIÓN DE LOS
+BONOS.
+Atxikitako
+establezimenduek
+horretarako Los establecimientos adheridos deberán registrar
+prestatutako plataforman erregistratu beharko en la plataforma habilitada a tal efecto los bonos
+dituzte bonuak, dagokien fakturarekin batera.
+junto con su factura correspondiente.
+Astero likidatuko dira aurreko astean bildutako Semanalmente se procederá a la liquidación de los
+bonuak.
+bonos recaudados durante la semana anterior.
+AZKEN XEDAPENA
+Diru-laguntzen deialdi honek aurreikusten ez
+dituen kasuetarako, honako lege eta araudiak
+aplikatuko dira: azaroaren 17ko Diru-laguntzen
+38/2003 Lege Orokorra; azaroaren 17ko Dirulaguntzen 38/2003 Lege Orokorra onartzen duen
+uztailaren 21eko 887/2006 Errege Dekretua; eta
+Leioako Udalak ematen dituen Diru-laguntzen
+Oinarri Arautzaileak onartzen dituen Ordenantza
+Orokorra.
+DISPOSICIÓN FINAL
+En todo aquello no previsto en esta convocatoria
+de subvenciones será de aplicación la Ley
+38/2003, de 17 de noviembre, General de
+Subvenciones y el Real Decreto 887/2006, de 21
+de julio, por el que se aprueba el Reglamento de
+la Ley 38/2003, de 17 de noviembre, General de
+Subvenciones, así como la Ordenanza General
+por la que se aprueban las Bases Reguladoras de
+las Subvenciones que se concedan por el
+Ayuntamiento de Leioa.
+ARDUERA EKONOMIKOEN GAINEKO ZERGAREN (JEZ) EPIGRAFEEN ZERRENDA
+LISTADO DE EPÍGRAFES DE IMPUESTO DE ACTIVIDADES ECONÓMICAS (IAE)
+Kodea Izena | Nombre
+Código FRUTA, BARAZKI, ORTUARI ETA TUBERKULUEN TXIKIZKAKO MERKATARITZA
+1.641
+COM.MEN.FRUTAS,VERDURAS
+HARAGIEN
+ETA
+BERAIEN
+EKOIZKIN
+ERATORRIEN
+TXIKIZKAKO
+1.642
+MERKATARITZA Y DERIVADOS
+COM.MEN.CARNES
+ARRAINEN
+ETA
+BERAIEN
+EKOIZKIN
+ERATORRIEN
+TXIKIZKAKO
+1.643
+MERKATARITZA
+COM.MEM.
+PESCADOS Y DERIVADOS
+OGI, GOZOKI, KONFITE ETA ANTZEKOEN, BAITA ESNE ETA ESNEKIEN
+1.644
+TXIKIZKAKO MERKATARITZA
+COM.MEN.PAN,PASTELES,CONFITERIA,LACTEOS
+MOTA GUZTIETAKO ARDO ETA EDARIEN TXIKIZKAKO MERKATARITZA
+1.645
+COM.MEN.VINOS Y BEBIDAS
+TABAKO-BARIETATEEN ETA ERRETZAILEENTZAKO GAIEN TXIKIZKAKO
+1.646
+MERKATARITZA
+COM.MEN.TABACOS Y ARTICULOS DE FUMAR
+OROHAR, JANGAIEN ETA EDARIEN TXIKIZKAKO MERKATARITZA
+1.647
+COM.MEN.PRODS..ALIMENTICIOS Y BEBIDAS
+EHUNGINTZAGAI,
+JANTZIGINTZAGAI,
+ZAPATA,
+LARRUAZAL
+ETA
+1.651
+LARRUGINTZAGAIEN
+TXIKIZKAKO
+MERKATARITZA
+COM.MEN.
+PRODS.TEXTILES,
+CONFECCION,
+CALZADO, PIELES
+DROAGINTZA, LURRIN, BOTIKEN* ETA FARMAZIAKO EKOIZKINEN TXIKIZKAKO
+1.652
+MERKATARITZA.
+(* Parafarmaziako
+produktuetarako
+baino ez )
+FARMACIA
+*, DROGUERIA,
+PERFUMERIA,
+HERBORISTERIA
+parafarmacia)
+ETXEKO
+EKIPAMENDU
+ETA
+ERAIKINTZARAKO
+GAIEN
+TXIKIZKAKO
+1.653
+MERKATARITZA
+COM.MEN.
+EQUIPAMIENTO DEL HOGAR Y CONSTRUCCIÓN
+IBILGAILUEN ETA HORIEN ALDAGAILU ETA ORDEZKAIEN TXIKIZKAKO
+1.654
+MERKATARITZA
+COM.MEN.VEHICULOS
+Y ACCESORIOS
+1.656
+ONDASUN ERABILIEN TXIKIZKAKO MERKATARITZA
+1.657
+1.659
+1.662
+1.671
+1.672
+1.673
+1.676
+1.679
+1.967
+1.971
+1.972
+1.973
+1.981
+COM. MEN. DE BIENES USADOS
+MUSIKATRESNEN, ORO HAR, ETA HORIEN ALDAGAILUEN TXIKIZKAKO
+ZERBITZUAK
+MERKATARITZA
+COM.MEN.
+INSTRUMENTOS
+MUSICA Y ACCESORIO
+TXIKIZKAKO BESTELAKO ELIKAGAI-MERKATARITZA
+OTRO COMERCIO AL POR MENOR
+TXIKIZKAKO MERKATARITZA MISTOA EDO INTEGRATUA
+COMERCIO MIXTO O INTEGRADO AL POR MENOR.
+JATETXEETAKO ZERBITZUAK
+RESTAURANTES
+KAFETEGIETAKOAK
+CAFETERIAS
+TABERNAK
+BARES
+TXOKOLATEGI, IZOTZDENDA ETA ORTXATADENDETAKO ZERBITZUAK
+CHOCOLATERIAS, HELADERIAS Y HORCHATERIAS
+JATETXEGINTZARI BEREZKOAK ZAIZKION BESTE ELIKADURA ZERBITZU
+BATZUK
+OTROS
+SERV. ALIMENTACION - RESTAURACION
+TALDEA. KIROL-INSTALAZIOAK ETA KIROLA HOBETZEKO ESKOLAK ETA
+ZERBITZUAK
+INSTALACIONES
+DEPORTIVAS, ESCUELAS Y SERVICIOS DE PERFECCIONAMIENTO
+DEL DEPORTE deddDEPORTE
+IKUZTEGIAK, TINDATEGIAK ETA ANTZEKO ZERBITZUAK
+LAVANDERIAS, TINTORERIAS Y SERVICIOS SIMILARES
+ILEAPAINKETA ARETOAK ETA EDERGINTZA INSTITUTUAK
+SALONES DE PELUQUERIA E INSTITUTOS DE BELLEZA
+ARGAZKIGINTZA ZERBITZUAK ETA FOTOKOPIA ZERBITZUA
+SERVICIOS FOTOGRAFICOS Y FOTOCOPIAS.
+JOLAS-PARKEAK (URETAKOAK ERE BAI)
+JOLAS-PARKEAK
+(TAMAINA)
+URETAKOAK)
+PARQUES
+DE ATRACCIONES (TAMB. ACUATICOS)
+JOLAS-PARKEAK
+(TAMAINA)
+URETAKOAK)
+Kanpoan geratzen
+dira sendagaiak, tabakoa
+eta lotutako
+produktuak, zigarreta elektronikoak eta osagarriak barne.
+JOLAS-PARKEAK
+(TAMAINA)
+URETAKOAK)
+Quedan excluidos
+medicamentos, tabaco
+y productos relacionados,
+incluidos cigarrillos electrónicos y complementos.
+Alkateak, horrela agindu eta izenpetu du
+Idazkariak kontuan hartu du, Ebazpen liburuan
+transkribatzeko,
+Así lo mandó y firmó el Sr. Alcalde,
+Tomado en razón por la Secretaria para la
+transcripción al libro de resoluciones,
+ESTIBALIZ BILBAO LARRONDO
+Firma Electronica Alcalde
+Documento firmado electrónicamente
+por el Sello de Secretaría del
+Ayuntamiento de Leioa
+DEKRETU ZK./DECRETO 24/589 y
+LEIOAKO UDALA 13/08/2026

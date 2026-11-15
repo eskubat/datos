@@ -36,13 +36,11 @@ Decreto Foral 17/2015, de 16 de junio, por el que se aprueba el Reglamento del I
 2- INFORME DE CERTIFICACIÓN PREVIA DE ENTIDAD INNOVADORA
 Objeto: Calificar a una entidad como innovadora, conforme al artículo 89 ter (Deducción por financiación a entidades con alto potencial de crecimiento) de la Norma Foral del Impuesto sobre la Renta de las Personas Físicas.
 Solicitantes: Solo personas jurídicas
-Aplicación: Este certificado puede utilizarse para beneficios fiscales tanto en IRPF como en IS.
 Normativa:
 Norma Foral 3/2014, de 17 de enero, del Impuesto sobre la Renta de las Personas Físicas del Territorio Histórico de Gipuzkoa. Artículo 89 ter, Deducción por financiación a entidades con alto potencial de crecimiento.
 Decreto Foral 33/2014 Reglamento del Impuesto sobre la Renta de las Personas Físicas . Artículo 70. Condiciones para aplicar la deducción por financiación a entidades con alto potencial de crecimiento.
 Plazos:
 Solicitud: antes del inicio del periodo voluntario de autoliquidación.
-Emisión: hasta 3 meses.
 3- PROYECTOS CON INNOVACIÓN TECNOLÓICA APROBADOS EN CONVOCATORIAS DE LA DIPUTACIÓN FORAL DE GIPUZKOA
 Se emitirán de oficio informes de calificación a los proyectos de empresas en las siguientes convocatorias:
 Quantum
@@ -320,50 +318,349 @@ Se aprueba el Reglamento del Impuesto sobre Sociedades, que se incorpora como
 anexo al presente Decreto Foral, en desarrollo de la Norma Foral 2/2014, de 17 de enero,
 del Impuesto sobre Sociedades del Territorio Histórico de Gipuzkoa.
 DISPOSICIÓN ADICIONAL ÚNICA. Referencias normativas.
-Todas las referencias c
-
-### Decreto Foral 33/2014 Reglamento del Impuesto sobre la Renta de las Personas Físicas: https://www.gipuzkoa.eus/documents/2456431/8.0755457E7/DF%2033-2014%20(2025-2).pdf/7e4c25eb-a139-fa5f-d310-deaa4c4bcffd
-DECRETO FORAL 33/2014, de 14 de octubre, por el que
-se aprueba el Reglamento del Impuesto sobre la Renta
-de las Personas Físicas y se modifica el Reglamento
-por el que se desarrollan determinadas obligaciones
-tributarias formales.
-NOTA INTRODUCTORIA
-El presente texto es un documento de divulgación sin ningún carácter
-oficial, que recoge el decreto foral íntegro actualizado.
-Al final del texto se incluye una relación de disposiciones que han ido
-modificando diversos preceptos del reglamento aprobado por el decreto
-foral con respecto a su redacción original.
-ÍNDICE REGLAMENTO
-TÍTULO I RÉGIMEN ESPECIAL PARA PERSONAS DESPLAZADAS ........................................ 19
-Artículo 1. Contenido del régimen especial de tributación para personas trabajadoras desplazadas. ; .. 19
-Artículo 2. Acreditación del derecho a aplicar el régimen.................................................................... 21
-Artículo 3. Ejercicio de opción. ............................................................................................................ 22
-Artículo 4. (sin contenido).................................................................................................................... 23
-Artículo 5. (sin contenido).................................................................................................................... 24
-Artículo 6. (sin contenido).................................................................................................................... 24
-TÍTULO II RENTAS EXENTAS ........................................................................................................... 24
-Artículo 7. Indemnizaciones por despido o cese de la persona trabajadora. ......................................... 24
-Artículo 8. Exención de premios relevantes relacionados con la defensa y promoción de los derechos
-humanos, literarios, artísticos o científicos. .......................................................................................... 24
-Artículo 9. Exención de las ayudas de contenido económico a los deportistas..................................... 26
-Artículo 10. Exención de las gratificaciones extraordinarias y las prestaciones de carácter público
-percibidas por la participación en misiones internacionales de paz o humanitarias.............................. 26
-Artículo 11. Exención para los rendimientos del trabajo percibidos por trabajos realizados en el
-extranjero.............................................................................................................................................. 27
-Artículo 12. Exención de ayudas públicas prestadas por el sector público. .......................................... 27
-Artículo 12 bis. Exención en rendimientos derivados de las prestaciones por supervivencia en forma de
-capital o rescates derivados de contratos de seguros de vida por contribuyentes mayores de 65 años
-que constituyan renta vitalicia asegurada a su favor. ............................................................................ 32
-Artículo 12 ter. Exención de los rendimientos de capital correspondientes a prestaciones de sistemas
-de previsión social percibidas en forma de renta. ................................................................................. 33
-TÍTULO III DETERMINACIÓN DE LA RENTA ............................................................................... 34
-CAPÍTULO I. RENDIMIENTOS DEL TRABAJO .......................................................................................... 34
-Artículo 13. Dietas y asignaciones para gastos de locomoción y gastos normales de manutención y
-estancia. ................................................................................................................................................ 34
-Artículo 13 bis. Compensación de gastos por trabajo desarrollado en la modalidad de teletrabajo. ..... 37
-Artículo 14. Rendimientos del trabajo obtenidos de forma notoriamente irregular en el tiempo,
-rendimientos percibidos de forma fraccionada y determinación del período de generación. ................ 37
-Artículo 15. Porcentajes de integración aplicables a determinados rendimientos del trabajo. .............. 39
-Artículo 16. Límite de rendimientos irregulares. .................................................................................. 40
-Artículo 17. Opciones sobre acciones: límite específico de aplicación de porce
+Todas las referencias contenidas en la normativa tributaria del Territorio Histórico de
+Gipuzkoa al Decreto Foral 45/1997, de 10 de junio, por el que se aprueba el Reglamento
+Texto vigente
+4
+del Impuesto sobre Sociedades, se entenderán referidas a los preceptos
+correspondientes del Reglamento que se aprueba en virtud de este Decreto Foral.
+DISPOSICIÓN DEROGATORIA ÚNICA.
+1. A la entrada en vigor del presente Decreto Foral queda derogado el Decreto Foral
+45/1997, de 10 de junio, por el que se aprueba el Reglamento del Impuesto sobre
+Sociedades, excepto sus disposiciones transitorias primera, octava, décima y
+decimotercera, que continuarán produciendo sus efectos respecto a las situaciones a las
+que resultan de aplicación.
+2. Asimismo, quedan derogadas todas las disposiciones de igual o inferior rango que
+contradigan o se opongan a lo establecido en el presente Decreto Foral y en el
+Reglamento incluido en su anexo, excepto las que desarrollan aquellas disposiciones que
+se consideran vigentes en virtud de lo dispuesto en el apartado 3 de la disposición
+derogatoria única de la Norma Foral 2/2014, de 17 de enero, del Impuesto sobre
+Sociedades del Territorio Histórico de Gipuzkoa.
+DISPOSICIONES FINALES.
+Primera. Modificación del Decreto Foral 49/2006, de 5 de diciembre, por el que se
+desarrollan los procedimientos relativos a consultas tributarias escritas y
+propuestas previas de tributación y se crea la Comisión Consultiva Tributaria.
+Se introducen las siguientes modificaciones en el Decreto Foral 49/2006, de 5 de
+diciembre, por el que se desarrollan los procedimientos relativos a consultas tributarias
+escritas y propuestas previas de tributación y se crea la Comisión Consultiva Tributaria:
+Uno. El apartado 3 del artículo 2 queda redactado en los siguientes términos:
+«3. Los legitimados para formular consultas tributarias pueden hacerlo por sí mismos o
+mediante representante, en cuyo caso será preciso que en el momento de presentación
+de la correspondiente consulta se acredite la representación de conformidad con lo
+dispuesto en los artículos 45, 46 y 47 de la Norma Foral 2/2005, de 8 de marzo, General
+Tributaria del Territorio Histórico de Gipuzkoa y el Decreto Foral 23/2010, de 28 de
+septiembre, por el que se regula la utilización de medios electrónicos en el ámbito de la
+Administración Foral.»
+Dos. Los apartados 4 y 5 del artículo 3 quedan redactados en los siguientes términos:
+«4. En caso de que la consulta se formule por medio de representante se acompañará al
+escrito de consulta la acreditación de la representación de conformidad con lo dispuesto
+en el Decreto Foral 23/2010, de 28 de septiembre, por el que se regula la utilización de
+medios electrónicos en el ámbito de la Administración Foral.»
+«5. Las consultas podrán presentarse utilizando medios electrónicos, informáticos o
+telemáticos siempre que la identificación de las personas o entidades a que se refiere el
+apartado 3 de este artículo quede garantizada por alguno de los medios previstos en el
+Decreto Foral 23/2010, de 28 de septiembre, por el que se regula la utilización de medios
+electrónicos en el ámbito de la Administración Foral.
+En ese caso, podrán presentarse en papel los demás datos, elementos y documentos
+que puedan contribuir a la formación de juicio por parte de la Administración tributaria.»
+Tres. El apartado 3 del artículo 8 queda redactado en los siguientes términos:
+Texto vigente
+5
+«3. Los legitimados para presentar propuestas previas de tributación pueden hacerlo por
+sí mismos o mediante representante, en cuyo caso será preciso que en el momento de
+presentación de la correspondiente solicitud se acredite la representación de conformidad
+con lo dispuesto en el apartado 2 del artículo 46 de la Norma Foral 2/2005, de 8 de
+marzo, General Tributaria del Territorio Histórico de Gipuzkoa y en el Decreto Foral
+23/2010, de 28 de septiembre, por el que se regula la utilización de medios electrónicos
+en el ámbito de la Administración Foral.»
+Cuatro. El apartado 3 del artículo 9 queda redactado en los siguientes términos:
+«3. En el escrito al que se refiere el apartado anterior se hará constar, además, el
+nombre, apellidos, denominación o razón social, domicilio fiscal, número de identificación
+fiscal del obligado tributario y, en su caso, de la persona que le represente, así como el
+lugar, fecha y firma de la persona física que presente la propuesta en nombre propio o en
+representación del obligado tributario.
+Asimismo, en caso de que la propuesta se presente por medio de representante, se
+acompañará al escrito de propuesta la acreditación de la representación de conformidad
+con lo dispuesto en el Decreto Foral 23/2010, de 28 de septiembre, por el que se regula
+la utilización de medios electrónicos en el ámbito de la Adminis tración Foral.»
+Cinco. Se añade una nueva disposición adicional única, con el siguiente contenido:
+«Disposición adicional única. Propuestas previas de tributación específicas.
+1. En los supuestos a que hace referencia la disposición adicional primera del
+Reglamento del Impuesto sobre Sociedades, la Administración tributaria tramitará una
+propuesta previa de tributación específica conforme a las normas establecidas en esta
+disposición adicional.
+2. Estará legitimado para la presentación de la propuesta previa de tributación específica
+el contribuyente que realice las operaciones a que se refiere el apartado 1 de la
+disposición adicional primera del Reglamento del Impuesto sobre Sociedades.
+En el caso de contribuyentes que tributen en el Impuesto sobre Sociedades en el régimen
+especial de consolidación fiscal, la legitimación para presentar la propuesta previa de
+tributación específica corresponderá a la entidad dominante.
+A los efectos de lo previsto en este apartado, resultará de aplicación lo dispuesto en el
+apartado 3 del artículo 8 de este Decreto Foral.
+3. Las propuestas previas de tributación específicas se presentarán en un plazo que
+finaliza al término de los tres meses siguientes a la conclusión del período impositivo
+respecto al que deban surtir efecto.
+No obstante, en el supuesto a que se refiere el apartado 5 del artículo 53 de la Norma
+Foral del Impuesto, el plazo de presentación de la propuesta previa de tributación
+específica se prolongará hasta la finalización del plazo establecido para aprobar las
+cuentas anuales del ejercicio con cargo a cuyo resultado contable positivo se hubiera
+dotado la Reserva especial para el fomento del emprendimiento y el reforzamiento de la
+actividad productiva.
+4. El escrito por el que se presente la propuesta previa de tributación específica incluirá
+los extremos y se acompañará de la documentación que en cada caso se exige en virtud
+de lo dispuesto en la disposición adicional primera del Reglamento del Impuesto sobre
+Texto vigente
+6
+Sociedades, además de los extremos a que hace referencia el apartado 2 del artículo 9
+de este Decreto Foral en cuanto sean relevantes.
+5. Las propuestas previas de tributación específicas que no cumplan el requisito
+establecido en el apartado 3 de esta disposición adicional se archivarán sin más trámite.
+Si el escrito de propuesta previa de tributación específica no reuniera los requisitos
+señalados en los apartados 2 y 4, se requerirá a la persona interesada para que, en un
+plazo de diez días, subsane la falta o acompañe los documentos preceptivos, con
+indicación de que, si así no lo hiciera, su escrito será archivado sin más trámite.
+6. Resultarán de aplicación en la tramitación de las propuestas previas de tributación
+específicas las normas establecidas en el apartado 1 del artículo 10 de este Decreto
+Foral. La Subdirección General de Inspección elaborará un informe al director o a la
+directora general de Hacienda en el que se analicen los elementos de hecho y de
+derecho que sean relevantes para la resolución de la propuesta previa de tributación
+específica, sin que tal informe constituya propuesta de resolución.
+7. El director o la directora general de Hacienda resolverá de forma motivada la
+aprobación o el rechazo de la propuesta previa de tributación específica presentada por
+el contribuyente.
+Transcurrido el plazo de seis meses desde la fecha en que la propuesta previa de
+tributación específica haya tenido entrada en el registro de la Diputación Foral de
+Gipuzkoa sin que haya sido notificada resolución expresa, la propuesta se entenderá
+desestimada.
+8. El contribuyente no podrá aplicar en su autoliquidación los preceptos respecto de los
+que sea preciso la autorización por medio de la aprobación de una propuesta previa de
+tributación específica en tanto no haya recibido notificación aprobatoria de la citada
+propuesta.
+9. No obstante lo dispuesto en el artículo 128 de la Norma Foral 2/2014, de 17 de enero,
+del Impuesto sobre Sociedades del Territorio Histórico de Gipuzkoa, cuando en la fecha
+de finalización del plazo de presentación de la autoliquidación del impuesto no se hubiera
+resuelto una propuesta previa de tributación específica presentada por el contribuyente a
+los efectos de lo previsto en el apartado 5 del artículo 53 de dicha Norma Foral, el
+contribuyente dispondrá del plazo de un mes a contar desde la notificación de la
+Resolución del director o directora general de Hacienda aprobatoria de su propuesta para
+presentar una autoliquidación complementaria del Impuesto sobre Sociedades a los
+efectos de ejercitar la opción por la aplicación de la corrección en materia de aplicación
+del resultado prevista en el artículo 53 de la citada Norma Foral, entendiéndose en tal
+caso que está ejercitándola dentro del plazo voluntario de declaración del impuesto a los
+efectos de lo previsto en el mencionado artículo 128 de la citada Norma Foral.».
+Segunda. Entrada en vigor.
+El presente Decreto Foral entrará en vigor el día siguiente al de su publicación en el
+«Boletín Oficial de Gipuzkoa» y surtirá efectos para los períodos impositivos iniciados a
+partir del 1 de enero de 2014.
+Tercera. Habilitación normativa.
+Se habilita a la Diputada o al Diputado foral del Departamento Hacienda y Finanzas para
+dictar cuantas disposiciones sean necesarias para el desarrollo y aplicación del presente
+Decreto Foral y del Reglamento incluido en su anexo.
+Texto vigente
+7
+ANEXO:
+REGLAMENTO DEL IMPUESTO SOBRE SOCIEDADES
+TÍTULO I
+EL CONTRIBUYENTE
+Artículo 1. (Sin contenido)2
+Artículo 2. Sociedades patrimoniales.
+1. A los exclusivos efectos de lo dispuesto en el artículo 14.1.b) de la Norma Foral del
+Impuesto, cuando las entidades a que se refiere dicha letra no estén sometidas a la
+normativa del Territorio Histórico de Gipuzkoa, se entenderá que las mismas tienen la
+consideración de sociedades patrimoniales cuando cumplan los requisitos establecidos
+en el artículo 14 de la Norma Foral del Impuesto para tener tal consideración.
+2. Para determinar si los beneficios no distribuidos a que se refiere el artículo 14.2.b) de
+la Norma Foral del Impuesto provienen de la realización de actividades económicas, se
+tomará en consideración la normativa vigente en el período impositivo en el que se
+generaron los mencionados beneficios.
+3. (Sin contenido)3
+4. (Sin contenido)4
+Artículo 3. Obligaciones formales de las sociedades patrimoniales.
+1. Las sociedades patrimoniales deberán incluir en la memoria de las cuentas anuales la
+siguiente información:
+a) Beneficios aplicados a reservas que correspondan a períodos impositivos en los que
+tributaron sin tener la consideración de sociedad patrimonial.
+b) Beneficios aplicados a reservas que correspondan a períodos impositivos en los que
+tributaron en el régimen especial de las sociedades patrimoniales regulado en los
+artículos 66 y siguientes de la Norma Foral 7/1996, de 4 de julio, del Impuesto sobre
+2 Este artículo ha quedado sin contenido por el apartado uno del ordinal primero del artículo 2 del Decreto Foral 22/2025, de 2 de
+diciembre, por el que se desarrolla parcialmente la Norma Foral 1/2025, de 9 de mayo y se introducen otras modificaciones
+reglamentarias. El decreto foral entra en vigor el día siguiente al de su publicación en el Boletín Oficial de Gipuzkoa (BOG
+15/12/2025) y la modificación surte efectos a partir de 1 de enero de 2025.
+3 Este apartado ha quedado sin contenido por el apartado dos del ordinal primero del artículo 2 del Decreto Foral 22/2025, de 2
+de diciembre, por el que se desarrolla parcialmente la Norma Foral 1/2025, de 9 de mayo y se introducen otras modificaciones
+reglamentarias. El decreto foral entra en vigor el día siguiente al de su publicación en el Boletín Oficial de Gipuzkoa (BOG
+15/12/2025) y la modificación surte efectos a partir de 1 de enero de 2025.
+4 Este apartado ha quedado sin contenido por el apartado dos del ordinal primero del artículo 2 del Decreto Foral 22/2025, de 2
+de diciembre, por el que se desarrolla parcialmente la Norma Foral 1/2025, de 9 de mayo y se introducen otras modificaciones
+reglamentarias. El decreto foral entra en vigor el día siguiente al de su publicación en el Boletín Oficial de Gipuzkoa (BOG
+15/12/2025) y la modificación surte efectos a partir de 1 de enero de 2025.
+Texto vigente
+8
+Sociedades, o teniendo el carácter de sociedad patrimonial conforme a lo previsto en el
+artículo 14 de la Norma Foral del Impuesto.
+c) En caso de distribución de dividendos y participaciones en beneficios con cargo a
+reservas, designación de la reserva aplicada de entre las dos a las que, por la clase de
+beneficios de los que procedan, se refieren las letras a) y b).
+2. Las menciones en la memoria anual deberán ser efectuadas mientras existan reservas
+de las referidas en el apartado 1.b), aun cuando la entidad no tenga la consideración de
+sociedad patrimonial en esos ejercicios posteriores.
+3. Asimismo, la memoria deberá contener información detallada sobre los cálculos
+efectuados para determinar el resultado de la distribución de los gastos entre las distintas
+fuentes de renta.
+4. Las obligaciones de información establecidas en el presente artículo serán también
+exigibles a las sucesivas entidades que ostenten la titularidad de las reservas referidas
+en el apartado 1.b).
+TÍTULO II
+LA BASE IMPONIBLE
+CAPÍTULO I: Correcciones en materia de gastos.
+Artículo 4. Planes de amortización.
+1. Los contribuyentes podrán solicitar a la Administración tributaria la aprobación de un
+plan de amortización de conformidad con lo dispuesto en el procedimiento general
+establecido en el artículo 44 de este Reglamento, con las especialidades previstas en
+este artículo.
+2. La solicitud deberá contener los siguientes datos:
+a) Descripción de los elementos patrimoniales objeto del plan especial de amortización,
+indicando la actividad a la que se hallen afectos y su ubicación.
+b) Método de amortización que se propone, indicando la distribución temporal de las
+amortizaciones que se deriva del mismo.
+c) Justificación del método de amortización propuesto.
+d) Precio de adquisición o coste de producción de los elementos patrimoniales.
+e) Fecha de puesta en condiciones de funcionamiento de los elementos patrimoniales.
+En el caso de elementos patrimoniales en construcción, se indicará la fecha prevista de
+puesta en condiciones de funcionamiento.
+3. La solicitud se presentará dentro del período de construcción de los elementos
+patrimoniales o dentro de los tres meses siguientes a su puesta en condiciones de
+funcionamiento.
+4. Los planes de amortización aprobados podrán ser modificados a solicitud del
+contribuyente, observándose las normas previstas en los apartados anteriores. Dicha
+Texto vigente
+9
+solicitud deberá presentarse dentro de los tres primeros meses del período impositivo en
+el cual deba surtir efecto dicha modificación.
+5. El procedimiento establecido en este artículo será de aplicación en los supuestos a
+que hacen referencia los artículos 16.2.b), 16.9, 17.6 y 20.3 de la Norma Foral del
+impuesto, debiendo el contribuyente aportar, en cada caso, la justificación de la
+concurrencia de los requisitos establecidos en cada uno de esos preceptos.
+Artículo 5. Amortización mínima.
+Salvo en los casos en que se justifique que la dotación practicada corresponde a la
+depreciación efectiva, cuando un elemento patrimonial se hubiera amortizado en algún
+período impositivo por un importe inferior al resultante de aplicar el coeficiente mínimo de
+amortización que resulta de dividir 100 por el período máximo de amortización a que se
+refiere el apartado 6 del artículo 17 de la Norma Foral del Impuesto, y siempre que de
+dicha actuación se derive una menor tributación a la que hubiere correspondido de
+aplicar la citada amortización mínima, se tendrá en cuenta esta última a los efectos de
+practicar las regularizaciones que resulten procedentes.
+Artículo 6. Contratos de arrendamiento financiero.
+1. El ejercicio de la opción establecida en el artículo 18.3 de la Norma Foral del impuesto
+será objeto de comunicación a la Administración tributaria.
+2. La comunicación de la opción deberá realizarse antes de la finalización del período
+impositivo en el que se pretenda que surta efectos.
+3. La comunicación contendrá, como mínimo, los siguientes datos:
+a) Identificación del activo objeto del contrato de arrendamiento financiero.
+b) Indicación de la fecha de inicio efectivo y fin del período de construcción del activo.
+c) Determinación de los importes y del momento temporal en que se van a satisfacer las
+cuotas del contrato de arrendamiento financiero.
+d) Indicación de que los activos reúnen requisitos técnicos y de diseño singulares y que
+no se corresponden con una producción en serie.
+Artículo 7. Libertad de amortización, amortización acelerada y amortización
+conjunta.
+1. Cuando el contribuyente haya optado por la aplicación de la amortización conjunta de
+los elementos del inmovilizado material, intangible y de las inversiones inmobiliarias, en el
+período impositivo en el que el importe de la amortización conjunta a deducir no supere el
+10 por 100 del precio de adquisición o coste de producción del conjunto de elementos
+patrimoniales sometidos a este método de amortización, cualquiera que sea la fecha en
+la que se hayan incorporado a su activo, podrá deducirse en ese período impositivo la
+totalidad del valor neto fiscal pendiente de amortización.
+2. Cuando el contribuyente deje de cumplir los requisitos para ser considerado
+microempresa, y hubiera optado por la amortización conjunta de elementos patrimoniales
+en ejercicios en que le resultaba de aplicación este régimen, en los períodos impositivos
+en que pase a aplicar otras normas de amortización, se calculará la cantidad pendiente
+de amortización minorando el precio de adquisición o coste de producción de dichos
+elementos patrimoniales en las siguientes cantidades:
+Texto vigente
+10
+- En las dotaciones a la amortización conjunta de los años en los que se aplicó la misma.
+- En su caso, en las dotaciones contables que fueron fiscalmente deducidas en los años
+en los que no se aplicó la amortización conjunta.
+- En su caso, en la pérdida por deterioro que haya sido deducida de la base imponible.
+3. Una vez obtenida la cantidad pendiente a que se refiere el apartado 2 anterior, se
+operará como sigue:
+a) Cuando el valor contable del elemento patrimonial sea superior a la cantidad resultante
+de lo dispuesto en el apartado anterior, esta diferencia se integrará en la base imponible
+del impuesto con carácter positivo, en función de la amortización de dicho elemento,
+durante los años de vida útil que resten hasta la total amortización de dicho elemento.
+b) Cuando el valor contable del bien sea inferior a la cantidad resultante de lo dispuesto
+en el apartado anterior, la diferencia se integrará, con carácter negativo, en la base
+imponible del impuesto del primer período impositivo en que la entidad no tribute bajo las
+reglas para microempresas. La integración de esta diferencia no estará sujeta a su
+imputación en la cuenta de pérdidas y ganancias.
+c) Las integraciones a que se refiere este apartado serán en concepto de amortización.
+4. A los efectos de la reversión con ocasión de la amortización, establecida en el
+apartado 6 del artículo 21 de la Norma Foral del Impuesto, cuando el contribuyente haya
+aplicado la libertad de amortización, la amortización acelerada o la amortización conjunta
+de elementos patrimoniales previstas en la Norma Foral del Impuesto y con posterioridad
+pase a tributar según las reglas de las sociedades patrimoniales, deberá adicionar, como
+mínimo, a la base imponible de cada uno de los períodos en que resulte de aplicación,
+las cantidades pendientes de revertir, en el importe resultante de aplicar al valor de
+adquisición o coste de producción de tales elementos el coeficiente mínimo de
+amortización que resulta de dividir 100 por el período máximo de amortización a que se
+refiere el apartado 6 del artículo 17 de la Norma Foral del Impuesto.
+Artículo 8. Libertad de amortización. Solicitud.
+1. La aplicación de la libertad de amortización a que se refieren las letras e) y f) del
+apartado 1 del artículo 21 de la Norma Foral del Impuesto deberá solicitarse de
+conformidad con el procedimiento general establecido en el artículo 44 de este
+Reglamento, con las especialidades reguladas en este artículo.
+2. El contribuyente presentará ante la Administración tributaria una solicitud que
+contendrá los siguientes datos:
+a) Descripción de los elementos patrimoniales, actividad a la que se hallen afectos y su
+ubicación.
+b) Justificación de su afectación a la reducción y corrección del impacto contaminante de
+la actividad de la empresa, cuando se trate de los elementos a que se refiere la letra e)
+citada anteriormente.
+A estos efectos, la emisión del informe a que se refiere el penúltimo párrafo del apartado
+1 del artículo 21 de la Norma Foral del Impuesto se podrá realizar por el Departamento
+de la Diputación Foral de Gipuzkoa competente por razón de la materia, a petición de la
+Administración tributaria.
+Texto vigente
+11
+c) Resolución de los organismos oficiales del País Vasco aprobando un proyecto para la
+limpieza de suelos contaminados y justificación de la relación directa con el proyecto de
+los elementos a que se refiere la letra f) citada anteriormente.
+d) Precio de adquisición o coste de producción de los elementos patrimoniales.
+e) Fecha de afectación de los elementos patrimoniales a las actividades a que se refieren
+las letras e) y f) antes mencionadas.
+3. La solicitud se presentará dentro del período de construcción de los elementos
+patrimoniales o dentro de los tres meses siguientes a su afectación a las actividades
+referidas.
+Artículo 9. Fondo de comercio financiero.
+A los efectos de lo dispuesto en el artículo 24 de la Norma Foral del impuesto, los
+contribuyentes deberán presentar, conjuntamente con las autoliquidaciones del Impuesto
+sobre Sociedades de los ejercicios en los que reduzcan su base imponible por aplicación
+de lo dispuesto en dicho precepto, la siguiente información:
+a) En relación con la entidad directamente participada:
+1.º Identificación y porcentaje de participación.
+2.º Descripción de sus actividades.
+3.º Valor y fecha de adquisición de las participaciones, así como el valor del patrimonio
+neto contable correspondiente a éstas, determinado a partir de las cuentas anuales
+homogeneizadas.
+4.º Justificación de los criterios de homogeneización valorativa y temporal, así como de
+imputación a los bienes y derechos de la entidad participada, de la diferencia existente
+entre el precio de adquisición de sus participaciones y el patrimonio neto contable
+imputable a las mismas en la fecha de su adquisición.
+b) Cuando la entidad cuyas participaciones se adquieren participe a su vez en otra, en el
+sentido de lo dispuesto en el apartado 2 del artículo 24 de la Norma Foral del Impuesto:
+1.º Identificación de la entidad directamente participada, porcentaje de participación en
+ella y descripción de sus actividades.
+2.º Identificación de las entidades indirectamente participadas, porcentaje de participación
+indirecta en ellas y descripción de sus actividades.
+3.º Valor y fecha de adquisición de las participaciones, así como valor del patrimonio neto
+contable correspondiente a éstas, determinado a partir de las cuentas anuales
+consolidadas elaboradas aplicando los criterios incluidos en el Código de Comercio y en
+sus normas de desarrollo, debidamente homogeneizadas.
+4.º Justificación de los criterios de homogeneización valorativa y temporal, así como de
+imputación a los bienes y derechos de las entidades participadas de la diferencia
+existente entre el precio de adquisición de las participaciones y el patrimonio neto
+contable consolidado imputable a las mismas en la fecha de su adquisición.
+c) Importe de la inversión realizada en la adquisición de participaciones en entidades no
+residentes en territorio español incluida en la base de deducción de la disposición

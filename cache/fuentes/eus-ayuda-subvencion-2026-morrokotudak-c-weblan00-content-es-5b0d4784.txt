@@ -1,10 +1,10 @@
 ### Ficha oficial: https://www.lanbide.euskadi.eus/ayuda_subvencion/2026/morrokotudak-c/weblan00-content/es/
-Descripci�n
+Descripción
 Objeto
 Ayudas destinadas a la financiación de los contratos de trabajo formalizados con el alumnado de las acciones formativas con compromiso de contratación para mujeres y hombres desempleadas/os en ámbitos masculinizados y feminizados (Morrokotudak).
-Dotaci�n presupuestaria
+Dotación presupuestaria
 330.000
-Prestaci�n econ�mica
+Prestación económica
 El procedimiento de concesión de las subvenciones previstas en esta convocatoria por la celebración de los contratos de trabajo será el de concesión sucesiva. Una vez comprobado que las solicitudes cumplen con los requisitos exigidos en esta convocatoria, se concederán ordenadamente, en función del momento en que el expediente esté completo hasta el agotamiento de la dotación presupuestaria prevista en el apartado 2 b) del artículo 1.
 En ningún caso se subvencionarán contratos cuya retribución salarial bruta en cómputo anual y referida a jornada completa sea inferior a las cantidades que por dicho concepto figuran en la siguiente tabla:
 Titulación Académica
@@ -18,253 +18,102 @@ Ciclos Formativos de Grado Medio (FPI), Bachillerato, Formación Profesional bá
 Educación Secundaria Obligatoria o Sin Estudios
 Salario mínimo interprofesional vigente
 El importe subvencionado por cada contrato se determinará en función de la titulación académica o estudios realizados que requiera el desempeño del puesto contratado objeto de subvención y de la duración del contrato, de acuerdo a la siguiente tabla:
-Titulación Académica
 Importe subvención
 Contrato ≥ 6 meses (euros)
 Contrato indefinido (euros)
-Licenciatura, Ingeniería, Arquitectura o Máster-Plan Bolonia, Diplomatura Universitaria, Ingeniería Técnica, Arquitectura Técnica o Grado Universitario-Plan Bolonia
 4.725,00
 15.750,00
-Ciclos Formativos de Grado Superior (FPII)
 4.140,00
 13.800,00
-Ciclos Formativos de Grado Medio (FPI), Bachillerato, Formación Profesional básica y Certificados de Profesionalidad
 3.150,00
 10.500,00
-Educación Secundaria Obligatoria o Sin Estudios
 2.500,00
 8.300,00
 – Todas las cuantías de subvención señaladas se incrementarán un 15 % cuando la persona contratada cumpla, al menos, una de las siguientes características: tener una edad igual o superior a 55 años o ser mujer contratada en un sector masculinizado.
 – Asimismo, las cuantías de subvención previstas se incrementan en un 10 % cuando el contrato que se formaliza es indefinido y con una jornada laboral de, al menos, el 70 % de la jornada laboral establecida.
 – Si la persona contratada cumple las condiciones establecidas en los dos apartados anteriores, el incremento del importe de la subvención será del 20 %.
 En las tablas siguientes se muestran las cuantías subvencionales con los porcentajes subvencionales adicionales:
-Titulación Académica
 Importe subvención (Incremento del 15% si la persona contratada cumple, al menos una de las siguientes características: ser mujer o tener una edad igual o superior a 55 años, artículo 7.3)
-Contrato ≥ 6 meses (euros)
-Contrato indefinido (euros)
-Licenciatura, Ingeniería, Arquitectura o Máster-Plan Bolonia, Diplomatura Universitaria, Ingeniería Técnica, Arquitectura Técnica o Grado Universitario-Plan Bolonia
 5.435,00
 18.115,00
-Ciclos Formativos de Grado Superior (FPII)
 4.760,00
 15.870,00
-Ciclos Formativos de Grado Medio (FPI), Bachillerato, Formación Profesional básica y Certificados de Profesionalidad
 3.620,00
 12.075,00
-Educación Secundaria Obligatoria o Sin Estudios
 2.875,00
 9.545,00
-Titulación Académica
 Importe subvención (Incremento del 10% si el contrato cumple las condiciones del artículo 7.4)
-Contrato indefinido (euros)
-Licenciatura, Ingeniería, Arquitectura o Máster-Plan Bolonia, Diplomatura Universitaria, Ingeniería Técnica, Arquitectura Técnica o Grado Universitario-Plan Bolonia
 17.325,00
-Ciclos Formativos de Grado Superior (FPII)
 15.180,00
-Ciclos Formativos de Grado Medio (FPI), Bachillerato, Formación Profesional básica y Certificados de Profesionalidad
 11.550,00
-Educación Secundaria Obligatoria o Sin Estudios
 9.130,00
-Titulación Académica
 Importe subvención (Incremento del 20% si la persona contratada cumple las condiciones establecidas en los apartados 7.3 y 7.4 de la convocatoria)
-Contrato indefinido (euros)
-Licenciatura, Ingeniería, Arquitectura o Máster-Plan Bolonia, Diplomatura Universitaria, Ingeniería Técnica, Arquitectura Técnica o Grado Universitario-Plan Bolonia
 18.900,00
-Ciclos Formativos de Grado Superior (FPII)
 16.560,00
-Ciclos Formativos de Grado Medio (FPI), Bachillerato, Formación Profesional básica y Certificados de Profesionalidad
 12.600,00
-Educación Secundaria Obligatoria o Sin Estudios
 9.960,00
 – Las cuantías de subvención mencionadas se refieren a contratos a jornada completa. En el supuesto de contratos a tiempo parcial, se ajustarán los importes en proporción a la jornada.
 Forma de pago:
 La subvención concedida para los contratos de trabajo será abonada con cargo al Presupuesto 2027, del siguiente modo:
 a) Un primer pago, del 60%, en el momento de 2027 más próximo a la concesión de la subvención.
 b) Un segundo pago, por el resto de la subvención pendiente en 2027, una vez transcurrido el periodo de 6 meses desde el inicio del contrato y comprobado por Lanbide-Servicio Público Vasco de Empleo que se ha mantenido de alta a la persona contratada.
-A qui�n va dirigido
+A quién va dirigido
 Empresas
 Podrán ser beneficiarias de las ayudas de la presente convocatoria destinadas a la financiación de los contratos de trabajo formalizados con el alumnado de las acciones formativas (Morrokotudak), las empresas, ya sean personas físicas o jurídicas, de carácter privado, con centro de trabajo en la Comunidad Autónoma del País Vasco, que contraten al alumnado en los términos previstos en el artículo 6, estando excluidas las Administraciones Públicas y los organismos autónomos, entes públicos de derecho privado y demás entidades que integran el sector público, así como las empresas de trabajo temporal para el empleo de puesta a disposición, empresas de outsourcing y empresas de multiservicios de personal.
 Requisitos
-Ser empresa, ya sea persona f�sica o jur�dica, de car�cter privado, con centro de trabajo en la Comunidad Aut�noma del Pa�s Vasco.
-No haber sido condenada por delitos de prevaricaci�n, cohecho, malversaci�n de caudales p�blicos, tr�fico de influencias, fraudes y exacciones ilegales o delitos urban�sticos.
-Informaci�n detallada
+Ser empresa, ya sea persona física o jurídica, de carácter privado, con centro de trabajo en la Comunidad Autónoma del País Vasco.
+No haber sido condenada por delitos de prevaricación, cohecho, malversación de caudales públicos, tráfico de influencias, fraudes y exacciones ilegales o delitos urbanísticos.
+Información detallada
 Marque en la solicitud la correspondiente declaración responsable.
-No haber sido condenada o sancionada, mediante sentencia o resoluci�n administrativa firmes, con la perdida de la posibilidad de obtener subvenciones o ayudas p�blicas, sin que haya transcurrido el periodo de condena o sanci�n.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No haber solicitado la declaraci�n de concurso voluntario, haber sido declarada insolvente en cualquier procedimiento, hallarse declarada en concurso, salvo que en este haya adquirido la eficacia un convenio, estar sujeta a intervenci�n judicial, o haber sido inhabilitada conforme a la Ley 22/2003, de 9 de julio, Concursal, sin que haya concluido el per�odo de inhabilitaci�n fijado en la sentencia de calificaci�n del concurso.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No haber dado lugar, por causa de la que hubiese sido declarada culpable, a la resoluci�n firme de cualquier contrato celebrado con la Administraci�n.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No estar incursas las administradoras o administradores de las sociedades mercantiles o quienes ostenten la representaci�n legal de otras personas jur�dicas en alguno de los supuestos del r�gimen de incompatibilidades previsto en la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones P�blicas, y en la Ley 1/2014, de 26 de junio, Reguladora del C�digo de Conducta y de los Conflictos de Intereses de los Cargos P�blicos, o tratarse de cualquiera de los cargos electivos regulados en la Ley Org�nica 5/1985, de 19 de junio, del R�gimen Electoral General, en los t�rminos establecidos en la misma o en la normativa auton�mica que regule estas materias
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-Hallarse al corriente en el cumplimiento de sus obligaciones tributarias y frente a la Seguridad Social, en los t�rminos previstos en la Orden de 13 de febrero de 2023, del Consejero de Econom�a y Hacienda (BOPV de 17 de febrero de 2023).
-Informaci�n detallada
+No haber sido condenada o sancionada, mediante sentencia o resolución administrativa firmes, con la perdida de la posibilidad de obtener subvenciones o ayudas públicas, sin que haya transcurrido el periodo de condena o sanción.
+No haber solicitado la declaración de concurso voluntario, haber sido declarada insolvente en cualquier procedimiento, hallarse declarada en concurso, salvo que en este haya adquirido la eficacia un convenio, estar sujeta a intervención judicial, o haber sido inhabilitada conforme a la Ley 22/2003, de 9 de julio, Concursal, sin que haya concluido el período de inhabilitación fijado en la sentencia de calificación del concurso.
+No haber dado lugar, por causa de la que hubiese sido declarada culpable, a la resolución firme de cualquier contrato celebrado con la Administración.
+No estar incursas las administradoras o administradores de las sociedades mercantiles o quienes ostenten la representación legal de otras personas jurídicas en alguno de los supuestos del régimen de incompatibilidades previsto en la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, y en la Ley 1/2014, de 26 de junio, Reguladora del Código de Conducta y de los Conflictos de Intereses de los Cargos Públicos, o tratarse de cualquiera de los cargos electivos regulados en la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General, en los términos establecidos en la misma o en la normativa autonómica que regule estas materias
+Hallarse al corriente en el cumplimiento de sus obligaciones tributarias y frente a la Seguridad Social, en los términos previstos en la Orden de 13 de febrero de 2023, del Consejero de Economía y Hacienda (BOPV de 17 de febrero de 2023).
 El órgano gestor verificará el cumplimiento automáticamente.
-No tener la residencia fiscal en un pa�s o territorio calificado reglamentariamente como para�so fiscal.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-Hallarse al corriente de pago de obligaciones de reintegro de subvenciones, en los t�rminos previstos en el art�culo 4 de la Orden de 13 de febrero de 2023, del Consejero de Econom�a y Hacienda (BOPV de 17 de febrero de 2023), comprometi�ndose a comunicar cualquier cambio que pudiese suceder en esta circunstancia hasta el momento de la justificaci�n del total de la subvenci�n concedida.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No estar sancionada administrativa o penalmente con la p�rdida de la posibilidad de obtenci�n de subvenciones o ayudas p�blicas, con inclusi�n de las que se hayan producido:
-Por incurrir en discriminaci�n por raz�n de sexo, en virtud del Texto Refundido de la Ley para la Igualdad de Mujeres y Hombres y Vidas Libres de Violencia Machista contra las Mujeres, aprobado por Decreto Legislativo 1/2023, de 16 de marzo, o de la Ley Org�nica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.
-Por imposici�n de sanci�n accesoria prevista en los art�culos 46.1.b) y 46 bis.1.b) del Texto Refundido de la Ley sobre Infracciones y Sanciones en el Orden Social, aprobado por Real Decreto Legislativo 5/2000 de 4 de agosto, mediante resoluci�n firme.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
+No tener la residencia fiscal en un país o territorio calificado reglamentariamente como paraíso fiscal.
+Hallarse al corriente de pago de obligaciones de reintegro de subvenciones, en los términos previstos en el artículo 4 de la Orden de 13 de febrero de 2023, del Consejero de Economía y Hacienda (BOPV de 17 de febrero de 2023), comprometiéndose a comunicar cualquier cambio que pudiese suceder en esta circunstancia hasta el momento de la justificación del total de la subvención concedida.
+No estar sancionada administrativa o penalmente con la pérdida de la posibilidad de obtención de subvenciones o ayudas públicas, con inclusión de las que se hayan producido:
+Por incurrir en discriminación por razón de sexo, en virtud del Texto Refundido de la Ley para la Igualdad de Mujeres y Hombres y Vidas Libres de Violencia Machista contra las Mujeres, aprobado por Decreto Legislativo 1/2023, de 16 de marzo, o de la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.
+Por imposición de sanción accesoria prevista en los artículos 46.1.b) y 46 bis.1.b) del Texto Refundido de la Ley sobre Infracciones y Sanciones en el Orden Social, aprobado por Real Decreto Legislativo 5/2000 de 4 de agosto, mediante resolución firme.
 No estar incursa en causa legalmente establecida que le impida el acceso a ayudas o subvenciones, incluidas las siguientes:
-No tener un plan de igualdad y acoso sexual y LGTBIfobia vigente, siendo una empresa obligada a ello seg�n la normativa del Estado./li>
-No haber establecido medidas para prevenir y combatir el acoso sexual, acoso por raz�n de sexo y las violencias sexuales, en los t�rminos establecidos por la legislaci�n del Estado en materia de igualdad de mujeres y hombres, en el caso de empresas de m�s de 50 trabajadores.
-Cometer, incitar o promocionar LGTBIfobia, incluyendo la promoci�n o realizaci�n de terapias de conversi�n.
-No haber sido sancionada por infracci�n grave o muy grave prevista en la Ley 7/2022, de 8 de abril, de residuos y suelos contaminados para una econom�a circular, o en la Ley 10/2021, de 9 de diciembre, de Administraci�n Ambiental de Euskadi, mediante resoluci�n firme en v�a administrativa, hasta no haber ejecutado las medidas correctoras pertinentes y haber satisfecho la sanci�n
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No haber sido sancionada por infracci�n grave o muy grave prevista en la Ley 7/2022, de 8 de abril, de residuos y suelos contaminados para una econom�a circular, o en la Ley 10/2021, de 9 de diciembre, de Administraci�n Ambiental de Euskadi, mediante resoluci�n firme en v�a administrativa, hasta no haber ejecutado las medidas correctoras pertinentes y haber satisfecho la sanci�n.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
+No tener un plan de igualdad y acoso sexual y LGTBIfobia vigente, siendo una empresa obligada a ello según la normativa del Estado./li>
+No haber establecido medidas para prevenir y combatir el acoso sexual, acoso por razón de sexo y las violencias sexuales, en los términos establecidos por la legislación del Estado en materia de igualdad de mujeres y hombres, en el caso de empresas de más de 50 trabajadores.
+Cometer, incitar o promocionar LGTBIfobia, incluyendo la promoción o realización de terapias de conversión.
+No haber sido sancionada por infracción grave o muy grave prevista en la Ley 7/2022, de 8 de abril, de residuos y suelos contaminados para una economía circular, o en la Ley 10/2021, de 9 de diciembre, de Administración Ambiental de Euskadi, mediante resolución firme en vía administrativa, hasta no haber ejecutado las medidas correctoras pertinentes y haber satisfecho la sanción
+No haber sido sancionada por infracción grave o muy grave prevista en la Ley 7/2022, de 8 de abril, de residuos y suelos contaminados para una economía circular, o en la Ley 10/2021, de 9 de diciembre, de Administración Ambiental de Euskadi, mediante resolución firme en vía administrativa, hasta no haber ejecutado las medidas correctoras pertinentes y haber satisfecho la sanción.
 Haber cumplido con la cuota establecida legalmente de reserva de puestos de trabajo en favor de personas con discapacidad o, en su defecto, haber adoptado las medidas alternativas correspondientes.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-En el caso de asociaciones, no estar incursa en las causas de prohibici�n previstas en los p�rrafos 5 y 6 del art�culo 4 de la Ley Org�nica 1/2002, de 22 de marzo, reguladora del Derecho de Asociaci�n.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No ser una asociaci�n respecto de la que se hubiera suspendido el procedimiento administrativo de inscripci�n por encontrarse indicios racionales de ilicitud penal, en aplicaci�n de lo dispuesto en el art�culo 30.4 de la Ley Org�nica 1/2002, de 22 de marzo, reguladora del Derecho de Asociaci�n, en tanto no recaiga resoluci�n judicial firme en cuya virtud pueda practicarse la inscripci�n en el correspondiente registro.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No encontrarse en alguna de las restantes circunstancias a que hacen referencia los apartados 2 y 3 del art�culo 13 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No incurrir en deslocalizaci�n empresarial en los t�rminos del art�culo 49 de la Ley 20/2023, de 21 de diciembre, reguladora del r�gimen de Subvenciones.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
+En el caso de asociaciones, no estar incursa en las causas de prohibición previstas en los párrafos 5 y 6 del artículo 4 de la Ley Orgánica 1/2002, de 22 de marzo, reguladora del Derecho de Asociación.
+No ser una asociación respecto de la que se hubiera suspendido el procedimiento administrativo de inscripción por encontrarse indicios racionales de ilicitud penal, en aplicación de lo dispuesto en el artículo 30.4 de la Ley Orgánica 1/2002, de 22 de marzo, reguladora del Derecho de Asociación, en tanto no recaiga resolución judicial firme en cuya virtud pueda practicarse la inscripción en el correspondiente registro.
+No encontrarse en alguna de las restantes circunstancias a que hacen referencia los apartados 2 y 3 del artículo 13 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.
+No incurrir en deslocalización empresarial en los términos del artículo 49 de la Ley 20/2023, de 21 de diciembre, reguladora del régimen de Subvenciones.
 Normativa
 Normativa de la convocatoria
 RESOLUCIÓN de 27 de mayo de 2026, del director general de Lanbide-Servicio Público Vasco de Empleo, por la que se procede a la publicación de la convocatoria de las ayudas para financiar la formación y la contratación de mujeres y hombres desempleados en ámbitos masculinizados y feminizados (Morrokotudak), en el ámbito de la Comunidad Autónoma de Euskadi, para el ejercicio 2026.
 Organismos
 Organismo que convoca
-Lanbide - Servicio P�blico Vasco de Empleo > Director/a General de Lanbide - Servicio P�blico Vasco de Empleo
+Lanbide - Servicio Público Vasco de Empleo > Director/a General de Lanbide - Servicio Público Vasco de Empleo
 Organismo que resuelve
-Lanbide - Servicio P�blico Vasco de Empleo / Director/a General de Lanbide - Servicio P�blico Vasco de Empleo > Direcci�n de Administraci�n y Servicios Generales
+Lanbide - Servicio Público Vasco de Empleo / Director/a General de Lanbide - Servicio Público Vasco de Empleo > Dirección de Administración y Servicios Generales
 Organismo financiador/cofinanciador
 Fondo Social Europeo (FSE)
-Informaci�n de contacto
+Información de contacto
 Erakundeei eta Enpresei Arreta emateko Zerbitzua / Servicio de Atención a Entidades y Empresas 945 160 601 (Informazio orokorra / Información general)
-C�digo
+Código
 1113709
 Solicitud
-Tramitaci�n electr�nica
+Tramitación electrónica
 Entrada al sistema
 El usuario accede al sistema activando el botón del "Aplicativo de Formación LAN-F".
 Deberá acceder mediante la introducción del NIF de la Empresa, de un tipo y nº de documento, contraseña.
 Una vez en la aplicación, se podrán realizar las solicitudes y actuaciones correspondientes a la gestión de esta ayuda.
 Aplicativo de Formación LANF
-Documentaci�n
-Copia del contrato de trabajo celebrado, con indicaci�n de la fecha de inicio y fecha fin en caso de los contratos temporales.
-Comunicaci�n por escrito a la RLT (Representaci�n Legal de los Trabajadores) sobre la contrataci�n celebrada, seg�n modelo facilitado en el aplicativo LANF, o en su defecto, declaraci�n expresa indicada en la propia solicitud de no disponer de RLT.
+Documentación
+Copia del contrato de trabajo celebrado, con indicación de la fecha de inicio y fecha fin en caso de los contratos temporales.
+Comunicación por escrito a la RLT (Representación Legal de los Trabajadores) sobre la contratación celebrada, según modelo facilitado en el aplicativo LANF, o en su defecto, declaración expresa indicada en la propia solicitud de no disponer de RLT.
 Requisitos
-Ser empresa, ya sea persona f�sica o jur�dica, de car�cter privado, con centro de trabajo en la Comunidad Aut�noma del Pa�s Vasco.
-No haber sido condenada por delitos de prevaricaci�n, cohecho, malversaci�n de caudales p�blicos, tr�fico de influencias, fraudes y exacciones ilegales o delitos urban�sticos.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No haber sido condenada o sancionada, mediante sentencia o resoluci�n administrativa firmes, con la perdida de la posibilidad de obtener subvenciones o ayudas p�blicas, sin que haya transcurrido el periodo de condena o sanci�n.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No haber solicitado la declaraci�n de concurso voluntario, haber sido declarada insolvente en cualquier procedimiento, hallarse declarada en concurso, salvo que en este haya adquirido la eficacia un convenio, estar sujeta a intervenci�n judicial, o haber sido inhabilitada conforme a la Ley 22/2003, de 9 de julio, Concursal, sin que haya concluido el per�odo de inhabilitaci�n fijado en la sentencia de calificaci�n del concurso.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No haber dado lugar, por causa de la que hubiese sido declarada culpable, a la resoluci�n firme de cualquier contrato celebrado con la Administraci�n.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No estar incursas las administradoras o administradores de las sociedades mercantiles o quienes ostenten la representaci�n legal de otras personas jur�dicas en alguno de los supuestos del r�gimen de incompatibilidades previsto en la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones P�blicas, y en la Ley 1/2014, de 26 de junio, Reguladora del C�digo de Conducta y de los Conflictos de Intereses de los Cargos P�blicos, o tratarse de cualquiera de los cargos electivos regulados en la Ley Org�nica 5/1985, de 19 de junio, del R�gimen Electoral General, en los t�rminos establecidos en la misma o en la normativa auton�mica que regule estas materias
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-Hallarse al corriente en el cumplimiento de sus obligaciones tributarias y frente a la Seguridad Social, en los t�rminos previstos en la Orden de 13 de febrero de 2023, del Consejero de Econom�a y Hacienda (BOPV de 17 de febrero de 2023).
-Informaci�n detallada
-El órgano gestor verificará el cumplimiento automáticamente.
-No tener la residencia fiscal en un pa�s o territorio calificado reglamentariamente como para�so fiscal.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-Hallarse al corriente de pago de obligaciones de reintegro de subvenciones, en los t�rminos previstos en el art�culo 4 de la Orden de 13 de febrero de 2023, del Consejero de Econom�a y Hacienda (BOPV de 17 de febrero de 2023), comprometi�ndose a comunicar cualquier cambio que pudiese suceder en esta circunstancia hasta el momento de la justificaci�n del total de la subvenci�n concedida.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No estar sancionada administrativa o penalmente con la p�rdida de la posibilidad de obtenci�n de subvenciones o ayudas p�blicas, con inclusi�n de las que se hayan producido:
-Por incurrir en discriminaci�n por raz�n de sexo, en virtud del Texto Refundido de la Ley para la Igualdad de Mujeres y Hombres y Vidas Libres de Violencia Machista contra las Mujeres, aprobado por Decreto Legislativo 1/2023, de 16 de marzo, o de la Ley Org�nica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.
-Por imposici�n de sanci�n accesoria prevista en los art�culos 46.1.b) y 46 bis.1.b) del Texto Refundido de la Ley sobre Infracciones y Sanciones en el Orden Social, aprobado por Real Decreto Legislativo 5/2000 de 4 de agosto, mediante resoluci�n firme.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No estar incursa en causa legalmente establecida que le impida el acceso a ayudas o subvenciones, incluidas las siguientes:
-No tener un plan de igualdad y acoso sexual y LGTBIfobia vigente, siendo una empresa obligada a ello seg�n la normativa del Estado./li>
-No haber establecido medidas para prevenir y combatir el acoso sexual, acoso por raz�n de sexo y las violencias sexuales, en los t�rminos establecidos por la legislaci�n del Estado en materia de igualdad de mujeres y hombres, en el caso de empresas de m�s de 50 trabajadores.
-Cometer, incitar o promocionar LGTBIfobia, incluyendo la promoci�n o realizaci�n de terapias de conversi�n.
-No haber sido sancionada por infracci�n grave o muy grave prevista en la Ley 7/2022, de 8 de abril, de residuos y suelos contaminados para una econom�a circular, o en la Ley 10/2021, de 9 de diciembre, de Administraci�n Ambiental de Euskadi, mediante resoluci�n firme en v�a administrativa, hasta no haber ejecutado las medidas correctoras pertinentes y haber satisfecho la sanci�n
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No haber sido sancionada por infracci�n grave o muy grave prevista en la Ley 7/2022, de 8 de abril, de residuos y suelos contaminados para una econom�a circular, o en la Ley 10/2021, de 9 de diciembre, de Administraci�n Ambiental de Euskadi, mediante resoluci�n firme en v�a administrativa, hasta no haber ejecutado las medidas correctoras pertinentes y haber satisfecho la sanci�n.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-Haber cumplido con la cuota establecida legalmente de reserva de puestos de trabajo en favor de personas con discapacidad o, en su defecto, haber adoptado las medidas alternativas correspondientes.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-En el caso de asociaciones, no estar incursa en las causas de prohibici�n previstas en los p�rrafos 5 y 6 del art�culo 4 de la Ley Org�nica 1/2002, de 22 de marzo, reguladora del Derecho de Asociaci�n.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No ser una asociaci�n respecto de la que se hubiera suspendido el procedimiento administrativo de inscripci�n por encontrarse indicios racionales de ilicitud penal, en aplicaci�n de lo dispuesto en el art�culo 30.4 de la Ley Org�nica 1/2002, de 22 de marzo, reguladora del Derecho de Asociaci�n, en tanto no recaiga resoluci�n judicial firme en cuya virtud pueda practicarse la inscripci�n en el correspondiente registro.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No encontrarse en alguna de las restantes circunstancias a que hacen referencia los apartados 2 y 3 del art�culo 13 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-No incurrir en deslocalizaci�n empresarial en los t�rminos del art�culo 49 de la Ley 20/2023, de 21 de diciembre, reguladora del r�gimen de Subvenciones.
-Informaci�n detallada
-Marque en la solicitud la correspondiente declaración responsable.
-Resoluci�n y recursos
-Plazo de resoluci�n
-El plazo m�ximo para resolver y notificar las resoluciones ser� de tres meses desde la fecha en que la solicitud haya tenido entrada en el registro de Lanbide-Servicio P�blico Vasco de Empleo, transcurrido el cual sin haber notificado resoluci�n alguna a la empresa o entidad interesada, se entender� desestimada la solicitud de subvenci�n.
-Tipo de concesi�n de la ayuda
-No concursal
-Efectos del silencio
-Desestimatorios
-Recurso de alzada
-Tramitaci�n electr�nica
-Asegúrese de disponer de un medio de identificación electrónica admitido.
-Prepare la documentación en formato digital.
-Acceda a Mi carpeta.
-Mi carpeta
-M�s informaci�n
-Medios de identificaci�n electr�nica admitidos
-El recurso de alzada es un recurso de carácter administrativo por el que se pide a un órgano administrativo que revise y enmiende un acto dictado por otro órgano dependiente jerárquicamente.
-¿Contra qué actos se interpone?
-Actos que no pongan fin a la vía administrativa.
-Actos de trámite que deciden directa o indirectamente en el fondo del asunto o impiden la continuación del procedimiento.
-¿Ante qué órgano se interpone?
-Ante el mismo órgano que dictó el acto recurrido o su superior jerárquico.
-¿Qué plazo tiene usted para interponerlo?
-1 mes, si el acto recurrido es expreso.
-3 meses, si el acto recurrido es presunto.
-¿Qué plazo tiene la Administración para resolverlo?
-3 meses.
-Si en ese plazo la Administración no le notifica la resolución:
-El recurso se entenderá estimado, si el acto recurrido es presunto.
-El recurso se entenderá desestimado, si el acto recurrido es expreso.
-¿Qué recursos puede usted interponer posteriormente?
-Recurso contencioso-administrativo, por vía judicial.
-Recurso extraordinario de revisión, excepcionalmente.
-Más información: Título V. Capítulo II. Recursos administrativos, de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas
-Alta o modificaci�n de datos del tercero en el "Registro de Terceros"
-Tramitaci�n electr�nica
-Rellene los formularios solicitados, si los hubiese.
-Prepare la documentaci�n requerida en formato digital.
-Acceda a la aplicaci�n de tramitaci�n electr�nica a trav�s del bot�n.
-Aseg�rese de disponer de un medio de identificaci�n electr�nica admitido.
-Acceso al Registro Telemático de T
 
 ### RESOLUCIÓN de 27 de mayo de 2026, del director general de Lanbide-Servicio Público Vasco de Empleo, por la que se procede a la publicación de la convocatoria de las ayudas para financiar la formación y la contratación de mujeres y hombres desempleados en ámbitos masculinizados y feminizados (Morrokotudak), en el ámbito de la Comunidad Autónoma de Euskadi, para el ejercicio 2026.: https://www.euskadi.eus/bopv2/datos/2026/06/2602404a.pdf
-BOLETÍN OFICIAL DEL PAÍS VASCO
-N.º 104
-jueves 4 de junio de 2026
 OTRAS DISPOSICIONES
 LANBIDE-SERVICIO PÚBLICO VASCO DE EMPLEO
 2404
@@ -284,133 +133,538 @@ y la contratación de mujeres y hombres desempleados en ámbitos masculinizados 
 (Morrokotudak), en el ámbito de la Comunidad Autónoma de Euskadi para el ejercicio 2026, adoptado en su sesión de 27 de mayo de 2026, recogida como Anexo a esta resolución.
 Segundo.– Informar que este Acuerdo del Consejo de Administración de Lanbide-Servicio Público
 Vasco de Empleo por el que se aprueba la convocatoria de subvenciones para el ejercicio 2026,
-surtirá efectos desde el día siguiente a la publicación de esta resolución en el Boletín Oficial del País
+surtirá efectos desde el día siguiente a la publicación de esta resolución en el Boletín 
+[…]
+Artículo 1.– Objeto de la convocatoria y recursos económicos.
+1.– El objeto de esta convocatoria son las ayudas destinadas a la financiación de acciones
+formativas con compromiso de contratación para mujeres y hombres desempleados en ámbitos
+masculinizados y feminizados respectivamente (Morrokotudak), así como las ayudas por los contratos de trabajo que se deriven de estas acciones formativas, para el ejercicio 2026.
+2.– Los recursos económicos destinados a la financiación de la presente convocatoria ascienden a 1.100.000 euros, de los cuales, 300.000 euros corresponden al crédito de pago de 2026,
+800.000 euros al crédito de compromiso para el 2027, distribuidos por líneas subvencionales de
+la siguiente forma:
+a) 770.000 euros para financiar acciones de formación con compromiso de contratación para
+mujeres y hombres desempleados en ámbitos masculinizados y feminizados, respectivamente,
+de los cuales 300.000 euros corresponden al crédito de pago 2026 y 470.000 euros al crédito de
+compromiso 2027.
+b) 330.000 euros para la financiación de los contratos de trabajo vinculados a la formación de
+mujeres y hombres desempleados en ámbitos masculinizados y feminizados, respectivamente
+(Morrokotudak), con cargo al crédito de pago del 2027.
+Dichas cuantías podrán verse, en su caso, incrementadas en un 100 % en el supuesto de que
+se aprueben modificaciones presupuestarias de conformidad con la legislación vigente. En el
+supuesto de que existan dichas modificaciones, se dará publicidad a esta circunstancia mediante
+Resolución del director general de Lanbide-Servicio Público Vasco de Empleo.
+3.– Las subvenciones objeto de esta convocatoria podrán estar, en su totalidad o en parte, cofinanciadas por el Fondo Social Europeo en el marco del Programa FSE Plus País Vasco, 2021-2027.
+Artículo 2 – Entidades y Empresas beneficiarias.
+1.– En relación con las ayudas destinadas a las acciones formativas con compromiso de contratación, podrán ser beneficiarias:
+a) Las Empresas con centro de trabajo en la Comunidad Autónoma del País Vasco, independientemente de su forma jurídica, de carácter privado, que vayan a realizar directamente en las
+mismas las contrataciones de las personas formadas. Quedarán excluidas las empresas de trabajo temporal, empresas de outsourcing y empresas de multiservicios de personal, así como
+cualquier empresa pública.
+La formación la podrán realizar:
+– Con medios propios: para poder impartir la formación deberán acreditarse en el correspondiente Certificado de profesionalidad o Certificado profesional o inscribirse en las especialidades
+no acreditables, con carácter previo al inicio de la formación. El alta en el Registro de Entidades
+de Formación gestionado por Lanbide-Servicio Público Vasco de Empleo se mantendrá hasta la
+finalización de la formación, causando baja en dicho momento.
+– Recurriendo a su contratación, con entidades acreditadas o inscritas en el Registro de Entidades de formación de Lanbide-Servicio Público Vasco de Empleo.
+b) Las Entidades de formación, privadas o públicas, acreditadas y/o inscritas, a la fecha de presentación de la solicitud de subvención, en el Registro de Entidades de Formación gestionado por
+Lanbide-Servicio Público Vasco de Empleo, en cualquier otro Registro de Entidades de Formación
+para el empleo de carácter autonómico o en el registro Estatal de Entidades de Formación, para
+la impartición de las especialidades a las que corresponden las acciones formativas por las que
+solicitan subvención.
+A los efectos de esta convocatoria, las solicitudes presentadas por las entidades de formación
+se clasifican en tres categorías:
+b.1.– Solicitudes impulsadas por entidades sectoriales que agrupen o representen a las empresas de un sector de actividad económica en la Comunidad Autónoma del País Vasco, en las que
+las empresas comprometidas a contratar pertenezcan a dicha asociación y sector.
+Las entidades sectoriales deberán estar formalmente constituidas, desde antes del 1 de enero
+de 2024, e identificadas dentro de alguno de los registros de agrupaciones supraempresariales
+vigentes en cualquiera de los Departamentos del Gobierno Vasco.
+Dichas entidades sectoriales deberán contar con personal propio, adscrito a dicha entidad o a
+una que dé los servicios de gestión necesarios para representar los intereses de las empresas
+agrupadas en dicho sector, y con capacidad suficiente para dirigir y gestionar el objeto de desarrollo de esta iniciativa.
+b.2.– Solicitudes impulsadas por empresas que actúen como tractoras y/o generadoras de contratación en otras empresas de sus sectores de actividad radicadas en la Comunidad Autónoma del
+País Vasco. Se entiende que una empresa es tractora de otras cuando entre esta y sus empresas
+colaboradoras existe una relación estable, prolongada en el tiempo y definida por la subcontratación
+de servicios, así como por el consumo de productos de estas otras empresas, generando así, de
+una forma directa e indirecta, la creación de empleos, el crecimiento y el desarrollo económico de las
+empresas traccionadas. Será la empresa tractora la promotora e impulsora de las necesidades de
+nuevo empleo en sus empresas traccionadas.
+b.3.– Solicitudes que no cuenten con el respaldo de las entidades sectoriales a que se refiere
+el apartado b.1, ni de las empresas tractoras a que se refiere el apartado b.2.
+2.– En relación con las ayudas destinadas a la financiación de los contratos de trabajo, serán
+beneficiarias las empresas, ya sean personas físicas o jurídicas, de carácter privado, con centro
+de trabajo en la Comunidad Autónoma del País Vasco, que contraten al alumnado en los términos previstos en el artículo 6, estando excluidas las Administraciones Públicas y los organismos
+autónomos, entes públicos de derecho privado y demás entidades que integran el sector público,
+así como las empresas de trabajo temporal para el empleo de puesta a disposición, empresas de
+outsourcing y empresas de multiservicios de personal.
+Las empresas beneficiarias deberán comunicar a la Representación Legal de las y los Trabajadores de la empresa la contratación realizada al amparo de esta convocatoria.
+3.– No podrá obtener la condición de entidad beneficiaria, aquella en la que concurra alguna de
+las siguientes circunstancias:
+a) Haber sido condenada mediante sentencia firme por delitos de prevaricación, cohecho, malversación de caudales públicos, tráfico de influencias, fraudes y exacciones ilegales o delitos
+urbanísticos.
+b) Haber sido condenada o sancionada, mediante sentencia o resolución administrativa firmes,
+con la perdida de la posibilidad de obtener subvenciones o ayudas públicas, sin que haya transcurrido el periodo de condena o sanción.
+c) Haber solicitado la declaración de concurso voluntario, haber sido declarada insolvente en cualquier procedimiento, hallarse declarada en concurso, salvo que en este haya adquirido la eficacia un
+convenio, estar sujeta a intervención judicial, o haber sido inhabilitada conforme a la Ley 22/2003,
+de 9 de julio, Concursal sin que haya concluido el período de inhabilitación fijado en la sentencia de
+calificación del concurso.
+d) Haber dado lugar, por causa de la que hubiesen sido declaradas culpables, a la resolución
+firme de cualquier contrato celebrado con la Administración.
+e) Estar incursas las administradoras o administradores de las sociedades mercantiles o quienes ostenten la representación legal de otras personas jurídicas en alguno de los supuestos del
+régimen de incompatibilidades previsto en la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, y en la Ley 1/2014, de 26 de
+junio, Reguladora del Código de Conducta y de los Conflictos de Intereses de los Cargos Públicos,
+o tratarse de cualquiera de los cargos electivos regulados en la Ley Orgánica 5/1985, de 19 de
+junio, del Régimen Electoral General, en los términos establecidos en la misma o en la normativa
+autonómica que regule estas materias.
+f) No hallarse al corriente en el cumplimiento de sus obligaciones tributarias y frente a la Seguridad Social, en los términos previstos en la Orden de 13 de febrero de 2023, del consejero de
+Economía y Hacienda (BOPV de 17 de febrero de 2023).
+La acreditación del cumplimiento de las obligaciones tributarias y frente a la Seguridad Social se
+verificará automáticamente por el órgano gestor, con anterioridad a la concesión de la subvención y
+a la realización de cada uno de los pagos. No obstante, el solicitante podrá oponerse expresamente
+a esta verificación, debiendo aportar entonces certificados actualizados que acrediten esta condición.
+g) Tener la residencia fiscal en un país o territorio calificado reglamentariamente como paraíso fiscal.
+h) No hallarse al corriente de pago de obligaciones de reintegro de subvenciones, en los términos previstos en el artículo 4 de la Orden de 13 de febrero de 2023, del consejero de Economía
+y Hacienda (BOPV de 17 de febrero de 2023), comprometiéndose a comunicar cualquier cambio
+que pudiese suceder en esta circunstancia hasta el momento de la justificación del total de la
+subvención concedida.
+i) Estar sancionada administrativa o penalmente con la pérdida de la posibilidad de obtención
+de subvenciones o ayudas públicas, con inclusión de las que se hayan producido:
+– Por incurrir en discriminación por razón de sexo o en discriminación múltiple contemplada
+en el artículo 3.1 del Decreto Legislativo 1/2023, de 16 de marzo, por el que se aprueba el texto
+refundido de la Ley para la Igualdad de Mujeres y Hombres y Vidas Libres de Violencia Machista
+contra las Mujeres.
+– Por imposición de sanción accesoria prevista en los artículos 46.1.b) y 46 bis.1.b) del Texto
+Refundido de la Ley sobre Infracciones y Sanciones en el Orden Social, aprobado por Real Decreto
+Legislativo 5/2000 de 4 de agosto, mediante resolución firme.
+j) Estar incursa en causa legalmente establecida que le impida el acceso a ayudas o subvenciones, incluidas las siguientes:
+– No tener un plan de igualdad y acoso sexual y LGTBIfobia vigente, siendo una empresa obligada a ello según la normativa del Estado.
+– No haber establecido medidas para prevenir y combatir el acoso sexual, acoso por razón
+de sexo y las violencias sexuales, en los términos establecidos por la legislación del Estado en
+materia de igualdad de mujeres y hombres, en el caso de empresas de más de 50 trabajadores.
+– Cometer, incitar o promocionar LGTBIfobia, incluyendo la promoción o realización de terapias
+de conversión.
+k) Haber sido sancionada por infracción grave o muy grave prevista en la Ley 7/2022, de 8 de
+abril, de residuos y suelos contaminados para una economía circular, o en la Ley 10/2021, de 9 de
+diciembre, de Administración Ambiental de Euskadi, mediante resolución firme en vía administrativa, hasta no haber ejecutado las medidas correctoras pertinentes y haber satisfecho la sanción.
+l) No haber cumplido con la cuota establecida legalmente de reserva de puestos de trabajo en
+favor de personas con discapacidad o, en su defecto, haber adoptado las medidas alternativas
+correspondientes.
+m) En el caso de asociaciones, estar incursa en las causas de prohibición previstas en los
+párrafos 5 y 6 del artículo 4 de la Ley Orgánica 1/2002, de 22 de marzo, reguladora del Derecho
+de Asociación.
+n) Ser una asociación respecto de la que se hubiera suspendido el procedimiento administrativo
+de inscripción por encontrarse indicios racionales de ilicitud penal, en aplicación de lo dispuesto
+en el artículo 30.4 de la Ley Orgánica 1/2002, de 22 de marzo, reguladora del Derecho de Asociación, en tanto no recaiga resolución judicial firme en cuya virtud pueda practicarse la inscripción
+en el correspondiente registro.
+ñ) Encontrarse en alguna de las restantes circunstancias a que hacen referencia los apartados
+2 y 3 del artículo 13 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.
+o) Estar incurso en deslocalización empresarial en los términos del artículo 49 de la Ley 20/2023,
+de 21 de diciembre, reguladora del régimen de Subvenciones.
+p) Para subvenciones por importe superior a 30.000 euros y cuando el solicitante sea persona
+física o jurídica con ánimo de lucro, distinta de una entidad de derecho público, no cumplir, en los
+términos previstos en el apartado 3 bis del artículo 13 de la Ley 38/2003, de 17 de noviembre,
+General de Subvenciones, los plazos de pago establecidos en la Ley 3/2004, de 29 de diciembre,
+por la se establecen medidas de lucha contra la morosidad en las operaciones comerciales.
+Se entenderá cumplido este requisito cuando el nivel de cumplimiento de los plazos de pago
+previstos en la Ley 3/2004, de 29 de diciembre, sea igual o superior al porcentaje previsto en la
+disposición final sexta, letra d), apartado segundo, de la Ley 18/2022, de 28 de septiembre, de
+creación y crecimiento de empresas (90 % de facturas pagadas sobre el total de pagos a proveedores, durante el ejercicio anterior, en un plazo inferior al máximo establecido en la Ley 3/2004,
+de 29 de diciembre).
+4.– Los requisitos previstos en el apartado 3 que no sean verificados por Lanbide-Servicio Público
+Vasco de Empleo, serán acreditados mediante la declaración responsable que forma parte del formulario de solicitud.
+En el caso del requisito relativo al apartado p) se acreditará mediante la presentación de la siguiente
+documentación:
+– En el supuesto de que la persona física o jurídica solicitante pueda presentar, de acuerdo
+con la normativa contable, cuenta de pérdidas y ganancias abreviada, mediante la certificación
+prevista en el apartado a) del artículo 13.3 bis de la Ley 38/2003, según el modelo facilitado por
+Lanbide-Servicio Público Vasco de Empleo.
+Esta certificación deberá presentarse junto con la solicitud de subvención.
+– En el supuesto de que, según la normativa contable, no pueda presentar cuenta de pérdidas y
+ganancias abreviada, mediante la documentación a que hace referencia el apartado b) del artículo
+13.3 bis de la Ley 38/2003, esto es, certificación emitida por auditor inscrito en el Registro Oficial
+de Auditores de Cuentas, con el contenido exigido en el número 1.º de dicho apartado o, en caso
+de no ser posible la emisión de tal certificado, mediante Informe de Procedimientos Acordados, en
+los términos previstos en el número 2.º de dicho apartado y en el artículo 22 bis del Reglamento
+de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, aprobado por el Real Decreto
+887/2006, de 21 de julio.
+La presentación de la documentación a que hace referencia el párrafo anterior será requerida a
+las entidades solicitantes por Lanbide-Servicio Público Vasco de Empleo, en su caso, con carácter
+previo a dictar las resoluciones de concesión de las subvenciones.
+5.– Para acceder a la subvención por la realización de las acciones formativas prevista en esta
+convocatoria, las empresas y entidades de formación deberán disponer de los medios personales
+y materiales necesarios para llevar a cabo las acciones formativas que configuran el proyecto formativo por el que solicitan ayuda o comprometerse a disponer de los mismos tras la adjudicación
+de la subvención, en el momento de inicio de la actividad formativa.
+Tales instalaciones y recursos podrán ser propios o de titularidad de terceras entidades privadas o públicas y se deberá disponer de ellos en el territorio de la comunidad autónoma del País
 Vasco.
-Tercero.– Hacer saber que contra este Acuerdo del Consejo de Administración de Lanbide-Servicio Público Vasco de Empleo por el que se aprueban las bases para la convocatoria de
-subvenciones para el ejercicio 2026, podrá interponerse recurso de reposición ante el mismo
-órgano en el plazo de un mes a partir del día siguiente a la publicación de esta resolución en el
-Boletín Oficial del País Vasco, o bien, directamente recurso contencioso-administrativo ante el
-Juzgado de lo Contencioso-Administrativo de Vitoria-Gasteiz, en el plazo de dos meses a contar
-desde el día siguiente a dicha publicación.
-En Vitoria-Gasteiz, a 27 de mayo de 2026.
-El director general de Lanbide-Servicio Público Vasco de Empleo,
-FRANCISCO PEDRAZA MORENO.
-2026/2404 (1/40)
-BOLETÍN OFICIAL DEL PAÍS VASCO
-N.º 104
-jueves 4 de junio de 2026
-ANEXO
-CONVOCATORIA DE LAS AYUDAS PARA FINANCIAR LA FORMACIÓN Y
-CONTRATACIÓN DE MUJERES Y HOMBRES DESEMPLEADOS EN ÁMBITOS
-MASCULINIZADOS Y FEMINIZADOS (MORROKOTUDAK), EN EL ÁMBITO DE LA
-COMUNIDAD AUTÓNOMA DE EUSKADI PARA EL EJERCICIO 2026
-El objetivo prioritario de la oferta formativa dirigida a personas desempleadas es la inserción
-laboral de las mismas. Para ello, la oferta formativa debe ajustarse a las necesidades individuales
-y de los sectores económicos del País Vasco y dotar a las personas en disposición de trabajar de
-las competencias que precisan para desarrollar su proyecto laboral, mejorando su empleabilidad.
-El Decreto 82/2016, de 31 de mayo, por el que se ordena la formación para el trabajo en Euskadi,
-establece entre sus fines, favorecer la formación a lo largo de la vida de las personas trabajadoras
-desempleadas y ocupadas y proporcionar una cualificación ajustada a las necesidades actualizadas
-del mercado de trabajo y que responda a la vez a los requerimientos de productividad y competitividad de las empresas y a las aspiraciones de promoción profesional y desarrollo personal. Esta
-formación debe capacitar a las personas trabajadoras vascas para el desempeño cualificado de las
-diferentes profesiones y para el acceso al empleo, sin ningún tipo de discriminación.
-Teniendo en cuenta que el objetivo prioritario de las acciones formativas es la inserción o reinserción laboral de las personas trabajadoras desempleadas en aquellos empleos que requiere el
-sistema productivo e incentivar la contratación de las personas formadas, se han desarrollado a lo
-largo de varios ejercicios las convocatorias de subvenciones destinadas a la formación profesional
-con compromiso de contratación para personas desempleadas en general, con el doble objetivo
-de dotar de personal cualificado a las empresas que a su vez necesitan disponer de ese personal
-cualificado para trabajar es la esencia sobre la que pivota la formación de demanda y sobre la que
-se articula esta convocatoria.
-Es en este ámbito, en el que todas aquellas empresas necesitadas de contratar personas trabajadoras cualificadas pueden encontrar respuesta a sus necesidades, en tanto en cuanto pueden
-formar, cualificar y dotar de competencias profesionales adaptadas a cada empresa, a las y los distintos participantes en los programas de formación diseñados ad hoc por las mismas empresas, por
-sus asociaciones sectoriales, por las empresas tractoras, o en colaboración con las entidades de
-formación capaces de diseñar y promover dichos programas formativos. El objetivo es que ninguna
-empresa pueda encontrarse sin personas trabajadoras capacitadas para desarrollar sus proyectos.
-Complementariamente con esta reflexión, se ha constatado que el perfil de las mujeres que acceden hoy al mercado de trabajo sigue evolucionado considerablemente hasta situarse en niveles
-equiparables a los hombres. Sin embargo, se encuentran todavía situaciones de mayor temporalidad
-de las mujeres, menor retribución salarial por trabajo de igual valor y nuevas formas de segregación
-laboral (sector, actividad, puesto de trabajo, profesiones,...). Lo que indica que, si bien la incorporación
-de las mujeres al mercado de trabajo manifiesta una mejora continuada, esta no llega a producirse
-con el ritmo y la profundidad esperados, produciéndose signos de desigualdad y discriminación a lo
-largo de la vida laboral de las mismas.
-Si nos centramos en la representación por genero según actividades empresariales, observamos
-que, en las ramas de actividad caracterizadas por una mayor precariedad laboral, la proporción de
-mujeres es mucho mayor (sobrerrepresentación) con respecto a otras ramas de actividad de menor
-precariedad. Dicha desigualdad de género supone una acumulación de desventajas para las mujeres, haciéndolas vulnerables ante situaciones de acceso al mercado de trabajo o autoempleo.
-2026/2404 (2/40)
-BOLETÍN OFICIAL DEL PAÍS VASCO
-N.º 104
-jueves 4 de junio de 2026
-También se sigue constatando una segregación horizontal que tiende a agrupar a las mujeres
-principalmente en sectores de servicios como el textil, oficinas, ventas al por menor, educación,
-actividades sanitarias, servicios domésticos y sociales, frente a otros sectores considerados masculinizados como la construcción, industria manufacturera, transporte y logística o comercio al
-por mayor, entre otros. El acceso de las mujeres a un empleo digno y bien pagado y con plenos
-derechos es uno de los principales retos que se tiene en esta sociedad, como reto democrático y
-económico porque no hay democracia sin plena igualdad.
-Ante esto, se sigue haciendo necesario desarrollar y poner en práctica medidas de acción positiva
-orientadas a fomentar cambios en las estructuras que actualmente dificultan la incorporación, permanencia y promoción de las mujeres dentro de sectores de actividad laboral donde se encuentran
-subrepresentadas. Al igual que se hace necesario desarrollar iniciativas que impulsen la entrada de
-hombres en ocupaciones y actividades donde su representación es baja y donde las mujeres tienen
-una presencia destacada, lo cual a su vez ha podido influir en perpetuar diferencias laborales, económicas y sociales que no se hubieran dado de haber sido mayor la presencia de hombres en dichos
-ámbitos. Esta estrategia se articula buscando cambiar dinámicas socialmente enraizadas y con el fin
-último de que en un futuro próximo se pueda dejar de hablar de sectores masculinizados o feminizados y se pueda hablar de igualdad de oportunidades y de condiciones laborales.
-Durante los ejercicios 2021 y 2022, Lanbide-Servicio Público Vasco de Empleo impulsó el desarrollo de las convocatorias Morrokotudak de subvenciones destinadas a proyectos de formación
-y contratación de mujeres desempleadas en ocupaciones laborales masculinizadas. Siendo unas
-experiencias muy positivas, en el ejercicio 2023 se propuso una evolución al modelo incorporando
-la visión de lo que sucede con los hombres en sectores feminizados. Esta propuesta se hizo a
-favor de una sociedad mejor, más igualitaria y más justa, y así se mantuvo también para el ejercicio 2024.
-Pero tras realizar un análisis del desarrollo de las dos líneas de financiación que conllevaban la
-realización de contrataciones tras el desarrollo de un programa formativo, se decidió en 2025 desagregar dichas líneas en dos iniciativas con personalidad propia que facilite la comprensión de los
-objetivos perseguidos, a qué colectivos van dirigidos y los requisitos establecidos para cada línea.
-Para el desarrollo y sostenibilidad de esta convocatoria, la Ley 1/2013 de Aprendizaje a lo Largo
-de la Vida subraya la necesidad de realizar una oferta integrada de formación profesional, que comprende la formación profesional inicial y la formación profesional para el empleo, a través de una
-amplia red de centros de titularidad pública o privada, mientras que la Ley 4/2018, de 28 de junio,
-de formación Profesional de Euskadi, avanza en este sentido para crear, partiendo de este sistema
-integrado de formación profesional, el llamado modelo combinado de formación profesional, que
-comprende, además, aprendizajes en los ámbitos de la innovación aplicado y el emprendimiento.
-Entre los objetivos del sistema vasco de formación profesional, esta Ley 4/2018 incluye la configuración de sistemas flexibles de formación, basados en un enfoque de aprendizaje por resultados y a
-través de itinerarios de aprendizaje que faciliten la transferencia entre las diferentes ofertas formativas y niveles del sistema educativo y laboral y crea un órgano interdepartamental dirigido a garantizar
-la coordinación de las competencias en materia de formación profesional del sistema educativo y de
-formación profesional para el empleo.
-La gestión de la oferta formativa a que se refiere el presente Acuerdo ha de ajustarse, asimismo,
-a la normativa estatal de aplicación. En este sentido, en relación con la formación acreditable, tras
-la entrada en vigor de la Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de
-la Formación Profesional, el Real Decreto 659/2023, de 18 de julio y el Real Decreto 658/2024,
-de 9 de julio, que la desarrollan, los certificados de profesionalidad quedaron integrados en el
-2026/2404 (3/40)
-BOLETÍN OFICIAL DEL PAÍS VASCO
-N.º 104
-jueves 4 de junio de 2026
-Sistema de Formación Profesional con la denominación de certificados profesionales. En virtud
-del régimen transitorio previsto en la Ley Orgánica 3/2022, y en el Real Decreto 659/2023, permanecerá vigente la ordenación de los certificados de profesionalidad recogida en cada uno de
-los reales decretos por los que se establecen, hasta que no se proceda reglamentariamente a
-su modificación. Asimismo, se mantiene la vigencia de la ordenación del Catálogo Nacional de
-Cualificaciones Profesionales recogida en el Real Decreto 1128/2003, en tanto en cuanto no se
-regule el Catálogo Nacional de Estándares de Competencias profesionales y los centros y entidades actualmente autorizados y acreditados para impartir acciones de formación profesional para
-el empleo, mantendrán las mismas condiciones de autorización para impartir ofertas del Sistema
-de Formación Profesional hasta que se regule reglamentariamente el proceso de inscripción en el
-Registro General de Centros de Formación Profesional.
-La oferta de formación profesional se organiza de forma vertical y escalonada en cinco grados
-(A, B, C, D y E), todos ellos referidos a módulos (de forma parcial en el caso del grado A) del Catálogo Modular, asociados a los estándares de competencias del Catálogo Nacional de Estándares
-de Competencias Profesionales. El grado C es el correspondiente a los certificados profesionales y los grados A y B son ofertas parciales y acumulables que conducen a la obtención de una
-«acreditación parcial de competencia» y un «certificado de competencia», respectivamente. Los
-grados D y E se corresponden con los Ciclos formativos y los cursos de especialización del sistema educativo.
-La Disposición final quinta de la Ley Orgánica 3/2022 previó un periodo de 4 años para la implantación del Sistema de Formación Profesional establecido por la misma. El calendario fue aprobado
-por el Real Decreto 278/2023, de 11 de abril, que estableció el 1 de septiembre de 2023 como fecha
-en la que estarían regulados, organizados y desarrollados los arriba citados elementos integrantes
-del Sistema, así como los instrumentos de gestión previstos en la Ley Orgánica 3/2022. En el año
-2025 se publicó el Real Decreto 69/2025, de 4 de febrero, por el que se desarrollan los elementos
-integrantes y los instrumentos de gestión del Sistema Nacional de Formación Profesional, y se
-modifica el Real Decreto 375/1999, de 5 de marzo, por el que se crea el Instituto Nacional de las
-Cualificaciones.
-En lo que se refiere a la formación profesional para el empleo, la Ley Orgánica 3/2022 derogó
-parcialmente la Ley 30/2015, de 9 de septiembre, reguladora de este sistema, con un enunciado
-muy genérico, al referirse la derogación a cuantas disposiciones se opongan a lo establecido en
-ella, anunciando al mismo tiempo una modificación de tales disposiciones, que resultaría muy
-clarificadora pero que aún no se ha realizado.
-En relación con los certificados de profesionalidad, el Real Decreto 659/2023, de 18 de julio ha
-derogado el Real Decreto 34//2008, de 18 de enero que los regula (salvo el Anexo IV y las referencias contenidas en el Real Decreto 62/2022). Si bien, según lo dispuesto en su Disposición transitoria
-primera, en relación con la Disposición transitoria segunda de la Ley Orgánica 3/2022, «Hasta tanto
-no se proceda reglamentariamente a su modificación, permanecerá vigente la ordenación de los certificados de profesionalidad recogida en cada uno de los reales decretos por los que se establecen y
-su oferta quedará integrada en los grados C del Sistema de Formación Profesional con la denominación de certificados profesionales.» En términos similares se contempla en la Disposición transitoria
-segunda del Real Decreto 278/2023 que estableció el
+Esta información se acreditará mediante la declaración responsable del representante legal de
+la entidad que está incorporada al formulario de la solicitud. En todo caso, la entidad solicitante
+deberá tener a disposición de Lanbide-Servicio Público Vasco de Empleo la documentación que
+sustente la veracidad de los datos contenidos en la citada declaración.
+No está permitida la subcontratación de la ejecución de la actividad formativa, a excepción de
+lo señalado para las empresas beneficiarias que recurren a la contratación de entidades de formación acreditadas o inscritas. A esos efectos, no se considera subcontratación la contratación del
+personal docente (personas físicas) para la impartición de la formación.
+6.– No podrá acceder a la subvención por la realización de las acciones formativas la empresa
+o la entidad que haya incumplido en más del 70 % los compromisos de contratación adquiridos
+en acciones formativas subvencionadas por Lanbide-Servicio Público Vasco de Empleo en alguna
+de las convocatorias de subvenciones a la formación con compromiso de contratación de los tres
+ejercicios anteriores, así como las entidades que no hayan conseguido la contratación en esas
+convocatorias del 30 % del alumnado que llegaron a iniciar la formación, independientemente de
+que abandonasen o superaran o no la formación.
+Artículo 3.– Actuaciones subvencionables.
+Podrán ser objeto de subvención al amparo de esta convocatoria:
+1.– Las acciones formativas con compromiso de contratación que cumplan los requisitos y
+condiciones reguladas en el artículo 5. Tales acciones formativas deberán estar incluidas en el
+Catálogo Vasco de Especialidades formativas. Podrán ser nuevas especialidades formativas que
+se hayan programado para dar respuesta a las necesidades concretas de las empresas contratantes, siempre que las mismas se hayan incorporado al Catálogo Vasco de Especialidades y la
+entidad se encuentre inscrita para su impartición en el Registro de Entidades de formación en el
+momento de presentar la solicitud.
+Las acciones formativas programables se clasifican de la siguiente manera:
+a) Formación acreditable: acciones asociadas al Catálogo Nacional de Cualificaciones Profesionales, o, en su caso, al Catálogo Nacional de Estándares de Competencias Profesionales, dirigidas
+a la obtención de Acreditaciones parciales de competencia, Certificados de profesionalidad o Certificados profesionales, que pueden ser programadas por itinerarios completos, cuando lo hacen por la
+totalidad de las horas de la especialidad, o por módulos formativos. Pueden ser de nivel 1, 2 o 3 de
+cualificación.
+Las acciones formativas conducentes a la obtención de un Grado C (certificado profesional)
+serán impartidas por aquellas entidades formativas autorizadas por el Departamento de Educación para la impartición del Grado D en el que se integran.
+b) Formación no acreditable o de inscripción: son aquellas acciones formativas del Catálogo Vasco
+de Especialidades formativas que no dan pie a la acreditación de las competencias adquiridas.
+2.– Los contratos de trabajo, temporales o indefinidos, celebrados con las personas participantes cuyo objeto sea el desempeño de puestos de trabajo radicados en la Comunidad Autónoma
+de Euskadi y que reúnan los requisitos y condiciones previstos en el artículo 6.
+Artículo 4.– Personas destinatarias de la formación.
+1.– Podrán participar, con carácter exclusivo, mujeres u hombres, respectivamente, desempleados inscritos como demandantes de empleo en Lanbide-Servicio Público Vasco de Empleo o en otro
+Servicio Público de Empleo autonómico o en el Fichero del Sistema Nacional de Garantía Juvenil,
+además de estar en una situación administrativa que le permita la celebración de un contrato laboral.
+2.– Igualmente, y con carácter no prioritario, podrán participar en estas acciones formativas
+las mujeres y hombres trabajadores ocupados, sin que en ningún caso puedan superar el 30 por
+ciento del total de las personas participantes programadas en cada acción formativa, y siempre en
+especialidades no relacionadas con las cualificaciones profesionales que conlleva su ocupación
+actual, y no pudiendo ser posible su contratación por la misma empresa para la que trabaja en
+el momento del comienzo de la acción formativa. A tal efecto, la consideración de las personas
+que participan en las acciones como desempleadas u ocupadas vendrá determinada por la situación laboral en que se hallen al inicio de la formación. En el caso de las y los trabajadores fijos
+discontinuos, durante los periodos en que no trabajen, y de aquellos incluidos en un expediente
+de regulación temporal de empleo, no computarán como ocupados, a los efectos del cálculo del
+porcentaje antes referido.
+3.– A efectos de esta convocatoria, se entenderán incluidas en el colectivo de personas desempleadas aquellas que estén trabajando con un contrato a tiempo parcial, siempre que su jornada
+de trabajo sea inferior a un tercio de la jornada de una persona trabajadora a tiempo completo
+comparable.
+Articulo 5.– Requisitos y condiciones de las acciones formativas.
+1.– En las acciones formativas dirigidas a mujeres y hombres desempleados en ámbitos masculinizados y feminizados respectivamente (Morrokotudak), se entenderá que un ámbito está
+masculinizado o feminizado cuando el porcentaje de representación de mujeres u hombres, respectivamente, no alcance el 60 % en la Comunidad Autónoma de Euskadi. Para la comprobación
+de dicho porcentaje se tendrá en cuenta la información del último año que conste en el informe de
+«Personas empleadas de la CAE según ocupación y sexo», puesta a disposición por Lanbide-Servicio Público Vasco de Empleo, a la fecha de publicación de la convocatoria. Esta información se
+podrá consultar en: www.euskadi.eus/servicios/1113708
+2.– La modalidad de impartición de las acciones formativas será exclusivamente presencial.
+3.– La formación tendrá una duración mínima de 120 horas y máxima de 560 horas (no incluido
+el módulo de formación en empresa u organismo equiparado en los casos de acciones formativas
+dirigidas a la obtención de Certificados de profesionalidad o Certificados profesionales), salvo
+para las especialidades solicitadas por una empresa o por entidades de formación cuya solicitud
+esté impulsada por una entidad sectorial (categoría b.1 del artículo 2.1) y/o empresas tractoras
+(categoría b.2 del artículo 2.1), que podrán no sujetarse a tales límites, previa solicitud, justificación y autorización por la directora de Formación y Empleo de Lanbide-Servicio Público Vasco de
+Empleo.
+4.– La ejecución de las acciones formativas objeto de subvención deberá iniciarse en el ejercicio 2026 y, como máximo, en el plazo de los dos meses siguientes a la notificación de la resolución
+de concesión de la subvención, y finalizar antes del 15 de septiembre de 2027 (incluido la realización del periodo de formación en empresa u organismo equiparado o las prácticas no laborales,
+en su caso).
+5.– Se deberá cumplir el siguiente objetivo formativo: deberán finalizar la formación, al menos,
+el 50 % del alumnado que la inicie.
+6.– Las acciones formativas no acreditables deberán impartirse por la duración total de la especialidad.
+Las acciones formativas asociadas a un certificado de profesionalidad o certificado profesional
+o a un Grado C podrán programarse, en la iniciativa de personas trabajadoras desempleadas por
+certificados completos, por módulos profesionales, por Grados C completos o por Grados B.
+Cuando el plan de Formación contenga la impartición de un certificado de profesionalidad o Grado
+C completos, Lanbide-Servicio Público Vasco de Empleo los disociará en tantas acciones formativas
+vinculadas como módulos profesionales o Grados B contenga el certificado de profesionalidad o
+Grado C correspondiente.
+En los casos en los que un centro programe un Grado C o un certificado profesional que
+contemple la totalidad de los grados B o de los módulos profesionales que los componen, el
+centro estará obligado a contemplar la oferta de la realización de un periodo de formación en
+empresa u organismo equiparado de 80 horas, para todas aquellas personas en formación que
+estuvieran interesadas en obtener un Grado C por acumulación de grados B o certificado profesional por acumulación de módulos profesionales, según lo indicado en el artículo 60.2 del Real
+Decreto 659/2023, de 18 de julio.
+7.– Las acciones formativas se aprobarán con un número máximo de participantes de 20 y con
+un número mínimo de 10. No obstante, se permitirá la incorporación de 2 participantes adicionales
+a los subvencionados en las acciones formativas de los centros que dispongan de la acreditación
+o inscripción para dicho número de participantes. Por los participantes adicionales no se concederá subvención.
+No podrá iniciarse una acción formativa con un número inferior a 10 participantes, salvo excepcionalidades justificadas, solicitadas y autorizadas por la directora de Empleo y Formación de
+Lanbide-Servicio Público Vasco de Empleo. A estos efectos, se considerará como número de participantes que la iniciaron al total de personas que inician la formación el primer día y/o siguientes
+días hasta su fecha límite (5.ª sesión o 25 % de las horas en especialidades formativas dirigidas
+a la obtención de un Certificados de profesionalidad o Certificados profesionales, y 25 % de las
+horas en el resto de especialidades).
+8.– Solo será objeto de subvención la parte teórico-práctica de la acción formativa.
+No serán objeto de subvención el módulo de formación práctica en centro de trabajo u organismo
+equiparado, en el caso de la formación acreditable, o las prácticas en empresas del resto de especialidades.
+9.– En el momento de cumplirse el 25 % de la duración total de cada acción formativa deberán
+permanecer en la misma el 75 % de las participantes que la iniciaron (sin considerar las dos participantes adicionales que se permiten). En caso de permanecer un porcentaje inferior, la acción
+deberá continuar, liquidándose a su finalización de acuerdo con lo señalado en el artículo 18 de
+esta convocatoria. A estos efectos, se considerará como número de participantes que la iniciaron
+al total de personas que inician la formación el primer día de la acción formativa.
+Articulo 6.– Requisitos y condiciones de los contratos.
+1.– Las empresas o entidades han de comprometerse a contratar, en el plazo de tres meses desde
+que finaliza la acción formativa, como mínimo, al 50 % de las personas que finalicen la acción formativa y sean aptas. Este plazo podrá ser ampliado en casos debidamente justificados, solicitados y
+autorizados por la directora de Formación y Empleo de Lanbide-Servicio Público Vasco de Empleo.
+Así mismo, y con carácter excepcional, se considerarán contrataciones adscritas a la iniciativa
+desarrollada y durante el periodo establecido, a todas aquellas contrataciones logradas por las personas participantes gracias al proceso formativo desarrollado y a la titulación alcanzada, sin cuya
+obtención hubiera sido imposible la nueva contratación, y siempre que se cumplan las condiciones
+mínimas de contratación indicadas en este artículo. Estas excepcionalidades deberán ser justificadas
+y solicitadas a la directora de Empleo y Formación de Lanbide-Servicio Público Vasco de Empleo
+para su posterior autorización.
+2.– Para poder ser subvencionables, los contratos temporales deben tener una duración mínima
+de 6 meses, y los contratos indefinidos deben tener una duración mínima de 12 meses.
+Los contratos subvencionables al amparo de esta convocatoria podrán formalizarse en base a
+las modalidades contractuales establecidas por la legislación laboral, siempre que sean contratos
+temporales o indefinidos que tengan la duración mínima establecida en la presente convocatoria.
+Quedarán exceptuados de financiación los contratos de formación en alternancia, los contratos
+mercantiles, los contratos fijo-discontinuos y los contratos celebrados por empresas de trabajo
+temporal con personas trabajadoras para su cesión a una empresa usuaria.
+Los contratos subvencionables deben reunir los siguientes requisitos.
+a) La contratación deberá referirse a puestos de trabajo adecuados al perfil profesional de la
+persona contratada, esto es, al nivel de estudios o de formación y/o a la experiencia profesional,
+siempre que esta formación sea requerida para el puesto a desempeñar.
+b) Los contratos deberán formalizarse por escrito en modelo oficial haciendo constar expresamente la formación y/o cualificación profesional de la persona trabajadora, la fecha de inicio y,
+en su caso, de fin del contrato, la duración del mismo, la jornada laboral, así como el puesto de
+trabajo a desempeñar.
+c) Los contratos podrán ser a jornada completa o a jornada parcial; en este último caso, nunca
+inferior 70 % de la jornada laboral establecida.
+d) Deberá constar en la solicitud la retribución bruta anual en el caso de los indefinidos y la
+retribución bruta mensual en el caso de contratos de duración de al menos 6 meses.
+A efectos de determinar la retribución salarial bruta mínima exigida por la convocatoria, solo
+se tendrán en cuenta el salario base, las pagas extraordinarias y los complementos salariales, quedando expresamente excluidos del cómputo otro tipo de percepciones y complementos
+extrasalariales.
+En ningún caso se subvencionarán contratos cuya retribución salarial bruta en cómputo anual
+y referida a jornada completa sea inferior a las cantidades que por dicho concepto figuran en la
+siguiente tabla:
+Titulación académica
+Licenciatura, Ingeniería, Arquitectura o Máster-Plan Bolonia, Diplomatura
+Universitaria, Ingeniería Técnica, Arquitectura Técnica o Grado UniversitarioPlan Bolonia
+Ciclos Formativos de Grado Superior (FPII)
+Ciclos Formativos de Grado Medio (FPI), Bachillerato, Formación Profesional
+básica y Certificados de Profesionalidad
+Educación Secundaria Obligatoria o Sin Estudios
+Retribución salarial bruta anual mínima
+(euros)
+31.500,00
+27.600,00
+18.700,00
+Salario mínimo interprofesional vigente
+Asimismo, las contrataciones deberán suponer creación de empleo sobre la plantilla media existente en los centros de trabajo de la empresa en la Comunidad Autónoma de Euskadi durante el
+período de los 6 meses inmediatamente anteriores a la incorporación de las personas cuyos contratos se subvencionen. A fecha de contratación, el nuevo contrato ha de suponer un incremento sobre
+dicha media.
+A los efectos del cumplimiento de este requisito no se tendrán en consideración los contratos
+que se hayan extinguido por causas objetivas o despido que no hayan sido declarados como
+improcedentes o nulos, por jubilación, dimisión, muerte, incapacidad permanente total, absoluta
+o gran invalidez, de las personas trabajadoras, así como aquellos en los que se haya producido
+una reducción voluntaria, por parte de la persona trabajadora, del tiempo de trabajo inicialmente
+pactado.
+3.– A los efectos del cumplimiento del compromiso de contratación, será considerada como contratación la incorporación del alumnado como socia o socio trabajador, o de trabajo de una sociedad
+cooperativa o socia o socio trabajador de una sociedad laboral, aportando para ello la documentación
+que acredite dicha incorporación.
+4.– La inserción laboral se deberá realizar exclusivamente en las empresas en base a las cuales
+se presentó la solicitud de la acción formativa. Únicamente de forma excepcional, cuando concurran
+causas justificadas documentalmente que impidan la inserción en alguna de ellas, podrá admitirse
+la inserción en nuevas empresas. Para ello se deberá presentar a través de LANF, con al menos 15
+días hábiles de antelación a la realización del contrato, la solicitud de aceptación de una nueva entidad contratante, adjuntando con la misma, el anexo de compromiso de contratación correspondiente
+y el documento justificativo de la capacidad de representación de la persona firmante de la nueva
+empresa contratante. Además, junto con la solicitud excepcional de incorporar una nueva empresa,
+se deberán adjuntar las justificaciones documentales, individuales y personalizadas, firmadas por el
+representante legal de cada empresa, especificando las causas concretas que impiden la formalización de los contratos a los que se comprometieron. Dichas contrataciones se efectuarán en centros
+de trabajo radicados en la Comunidad Autónoma del País Vasco.
+5.– La contratación deberá realizarse en una ocupación y categoría relacionada con la especialidad formativa impartida. En este sentido, se entenderá como colocación adecuada, aquella
+que tenga por objeto la realización de trabajos vinculados a los conocimientos teórico-prácticos
+adquiridos durante la formación previa. En el caso de la formación asociada a Certificados de profesionalidad o Certificados profesionales deberá corresponderse con alguna de las ocupaciones
+laborales recogidas en la normativa que regula los mismos.
+6.– El contrato de trabajo deberá iniciarse en el plazo de los tres meses siguientes a la finalización de la acción formativa, incluido, en su caso, la formación práctica en centro de trabajo, salvo
+excepcionalidades justificadas, solicitadas y autorizadas por la directora de Empleo y Formación
+de Lanbide-Servicio Público Vasco de Empleo. No obstante, ha de tenerse en cuenta la fecha
+máxima de presentación de la solicitud de subvención por la celebración del contrato de trabajo,
+prevista en el artículo 8.5.b).
+A estos efectos, se considerará que una persona ha finalizado la acción formativa:
+– En las acciones de formación acreditable, cuando cada participante haya completado el periodo
+de formación en empresa u organismo equiparado.
+– En el resto de las acciones formativas, cuando haya finalizado la acción teórico-práctica subvencionada.
+Podrán admitirse contrataciones una vez realizado el 75 % de la acción formativa. Para los casos
+en que la contratación se realice antes de finalizar la acción, el cómputo del periodo exigido para el
+cumplimiento del compromiso de contratación se realizará desde la finalización de la acción formativa.
+7.– No serán objeto de subvención las contrataciones celebradas con el/la cónyuge, descendientes y demás parientes que tengan relación de parentesco por consanguinidad o afinidad, hasta el
+segundo grado inclusive, con la persona empresaria o con quienes tengan el control empresarial,
+ostenten cargos de dirección o sean miembros de los órganos de administración de las empresas
+que revistan la forma jurídica de sociedad, así como la que se produzca con estos últimos.
+Artículo 7.– Cuantía de la subvención.
+1.– La cuantía de la subvención para la financiación de cada acción formativa quedará establecida en función del coste por participante y hora de formación, según los módulos económicos
+definidos a continuación.
+Cada módulo económico se compone de tres: dos de ellos relativos a costes directos, de personal (A) y funcionamiento (B), y un tercero relativo a costes indirectos (C), calculado aplicando el
+porcentaje del 10 % sobre la suma de los módulos relativos a los costes directos.
+a) Módulo A: coste de personal.
+Este concepto de coste directo recoge el coste de personal docente, tutor intermediación, y de
+jefatura de estudios. El módulo A tendrá un coste unitario cuyo valor económico será de 4,99 euros/
+hora/alumno.
+En el supuesto de que el número de participantes en las acciones formativas esté ajustado al
+número máximo de 20 y mínimo de 10 participantes, incluido el caso contemplado en el artículo 5.7
+de la convocatoria, este módulo se aplicará a un número fijo de 15 alumnas/os.
+De esta manera el baremo estándar del módulo tendrá un valor fijo por grupo de formación de
+74,85 euros/hora.
+b) Módulo B: gastos de funcionamiento.
+b.1.– Este módulo incluye dos tipos de costes directos:
+b.1.1.– Costes de mantenimiento que engloba conceptos como: reposición de mobiliario, reparaciones, publicidad, comunicaciones, reuniones y cursos, gestión con empresas, libros y publicaciones,
+amortizaciones y alquileres de inmuebles y equipamientos.
+b.1.2.– Costes de material didáctico específico calculados por la familia profesional y el nivel de
+cualificación a la que corresponde la acción formativa.
+El importe económico correspondiente al módulo B de cada acción formativa, se aplicará según
+los módulos económicos definidos para cada Especialidad Programable en el Catálogo Vasco de
+Especialidades formativas, disponible en la aplicación informática de formación de Lanbide-Servicio Público Vasco de Empleo (LanF).
+c) Módulo C: costes indirectos.
+Este módulo supone el 10 % de los costes del módulo A y B, e incluye conceptos como: gastos
+de personal del Director, gastos de personal del Personal Administrativo, calefacción, alumbrado,
+limpieza, seguro de instalaciones, extintores, alarmas, comunicaciones con el exterior, reuniones,
+conferencias, cursos y otros, locomoción y gestión con empresas, fotocopias (área de administración), material de oficina e informático, agua, productos farmacéuticos, asesorías y gestorías,
+teléfono e Internet, software para departamento de administración, mutuas para el personal, sistemas de Calidad, reparación ascensores.
+La subvención total aprobada para cada acción formativa se calculará del siguiente modo:
+Total subvención por acción formativa = A + B + 10 % (A+B).
+Donde:
+A = Módulo A x n.º horas x 15 alumnas/os.
+B = Módulo B x n.º horas x n.º alumnas/os participantes.
+En ningún caso los módulos económicos a aplicar finalmente podrán superar los previstos en
+la Orden TES/1582/2025, de 30 de diciembre, y, en relación con las acciones formativas dirigidas a la obtención de Certificados de profesionalidad o Certificados profesionales, en la Orden
+EFP/942/2022, de 23 de septiembre.
+En consecuencia, en el supuesto de que la suma de los tres módulos que componen el módulo
+final a aplicar fuese superior a los previstos en las citadas normativas o, en su caso, las que les
+sustituyan y estén vigentes en el momento de publicación de esta Convocatoria, se aplicarán
+estos últimos.
+2.– En relación con los contratos de trabajo celebrados al amparo de esta convocatoria, el
+importe subvencionado por cada contrato se determinará en función de la titulación académica o
+estudios realizados que requiera el desempeño del puesto contratado objeto de subvención y de
+la duración del contrato, de acuerdo a la siguiente tabla:
+Importe subvención
+Titulación académica
+Licenciatura, Ingeniería, Arquitectura o Máster-Plan Bolonia,
+Diplomatura Universitaria, Ingeniería Técnica, Arquitectura
+Técnica o Grado Universitario-Plan Bolonia
+Ciclos Formativos de Grado Superior (FPII)
+Ciclos Formativos de Grado Medio (FPI), Bachillerato,
+Formación Profesional básica y Certificados de Profesionalidad
+Educación Secundaria Obligatoria o Sin Estudios
+Contrato ≥ 6 meses
+(euros)
+Contrato indefinido (euros)
+4.725,00
+15.750,00
+4.140,00
+13.800,00
+3.150,00
+10.500,00
+2.500,00
+8.300,00
+3.– Todas las cuantías de subvención señaladas se incrementarán un 15 % cuando la persona
+contratada cumpla, al menos, una de las siguientes características: tener una edad igual o superior a 55 años o ser mujer contratada en un sector masculinizado.
+4.– Asimismo, las cuantías de subvención previstas se incrementan en un 10 % cuando el contrato que se formaliza es indefinido y con una jornada laboral de, al menos, el 70 % de la jornada
+laboral establecida.
+5.– Si la persona contratada cumple las condiciones establecidas en los apartados 3 y 4 anteriores, el incremento del importe de la subvención será del 20 %.
+En las tablas siguientes se muestran las cuantías subvencionales con los porcentajes subvencionales adicionales:
+Titulación académica
+Licenciatura, Ingeniería, Arquitectura o Máster-Plan Bolonia,
+Diplomatura Universitaria, Ingeniería Técnica, Arquitectura
+Técnica o Grado Universitario-Plan Bolonia
+Ciclos Formativos de Grado Superior (FPII)
+Ciclos Formativos de Grado Medio (FPI), Bachillerato,
+Formación Profesional básica y Certificados de Profesionalidad
+Educación Secundaria Obligatoria o Sin Estudios
+Importe subvención (Incremento del 15 % si la persona
+contratada cumple, al menos una de las siguientes
+características: ser mujer o tener una edad igual o
+superior a 55 años, artículo 7.3)
+Contrato ≥ 6 meses
+Contrato indefinido (euros)
+(euros)
+5.435,00
+18.115,00
+4.760,00
+15.870,00
+3.620,00
+12.075,00
+2.875,00
+9.545,00
+Importe subvención (Incremento del 10 % si el
+contrato cumple las condiciones del artículo 7.4)
+Titulación académica
+Contrato indefinido (euros)
+Licenciatura, Ingeniería, Arquitectura o Máster-Plan Bolonia,
+Diplomatura Universitaria, Ingeniería Técnica, Arquitectura Técnica
+o Grado Universitario-Plan Bolonia
+Ciclos Formativos de Grado Superior (FPII)
+Ciclos Formativos de Grado Medio (FPI), Bachillerato, Formación
+Profesional básica y Certificados de Profesionalidad
+Educación Secundaria Obligatoria o Sin Estudios
+17.325,00
+15.180,00
+11.550,00
+9.130,00
+Importe subvención (Incremento del 20 % si la
+persona contratada cumple las condiciones
+establecidas en los apartados 7.3 y 7.4 de la
+convocatoria)
+Contrato indefinido (euros)
+Titulación académica
+Licenciatura, Ingeniería, Arquitectura o Máster-Plan Bolonia,
+Diplomatura Universitaria, Ingeniería Técnica, Arquitectura Técnica
+o Grado Universitario-Plan Bolonia
+Ciclos Formativos de Grado Superior (FPII)
+Ciclos Formativos de Grado Medio (FPI), Bachillerato, Formación
+Profesional básica y Certificados de Profesionalidad
+Educación Secundaria Obligatoria o Sin Estudios
+18.900,00
+16.560,00
+12.600,00
+9.960,00
+6.– Las cuantías de subvención mencionadas se refieren a contratos a jornada completa. En
+el supuesto de contratos a tiempo parcial, se ajustarán los importes en proporción a la jornada.
+Artículo 8.– Presentación de solicitudes.
+1.– Las solicitudes de las subvenciones para la realización de acciones formativas a las que se
+refiere esta convocatoria se tramitarán de forma electrónica, mediante la aplicación informática de
+formación de Lanbide-Servicio Público Vasco de Empleo (LanF).
+Aquellas empresas y entidades que no tengan acceso a esta aplicación podrán solicitarlo a
+través de la página web de Lanbide-Servicio Vasco de Empleo https://www.lanbide.euskadi.eus/
+formacion-lanbide/-/informacion/registro-de-entidades/
+La ficha informativa del procedimiento administrativo donde están disponibles las instrucciones
+para la tramitación electrónica estará accesible en la siguiente dirección: https://www.euskadi.eus/
+servicios/1113708
+Junto con la solicitud de subvención para la realización de acciones formativas, se aportará la
+siguiente documentación:
+a) Con carácter general:
+a.1.– Memoria del proyecto formativo, según modelo facilitado en la aplicación LanF, que contenga:
+– Informe motivado de necesidad de realización de la formación en relación con la actividad de
+la/s empresa/s y posterior contratación de las personas participantes en la misma en el que se
+hará constar:
+– Perfil de las personas a contratar: características y requisitos. No se podrá definir sexo, edad,
+o cualquier requisito que no sea adecuado a la profesión que se va a contratar, salvo que dicha
+contratación se acoja a algún programa especial.
+– Tipo de contrato a realizar y duración del mismo, indicando la retribución salarial bruta anual
+en euros.
+– Ocupación y categoría profesional en la que se va a realizar la contratación.
+– Ubicación del puesto o puestos de trabajo.
+– Relación de empresas en las que van a prestar los servicios las personas contratadas, con
+identificación del NIF y CNAE.
+– Descripción, si procede, del plan de prácticas no laborales a desarrollar, contenidos, duración, etc.
+a.2.– Cualquier otra información que se exija por Lanbide-Servicio Público Vasco de Empleo, de
+acuerdo con las particularidades del proyecto.
+b) En el supuesto de que las empresas contraten la impartición de la acción formativa, propuesta de contratación justificando, en su caso, la solicitud de tres ofertas y la elección final, así
+como solicitud de autorización previa a Lanbide-Servicio Público Vasco de Empleo en los casos
+previstos en el apartado 11 del artículo 13.
+Esta documentación podrá presentarse en un momento posterior, siempre antes del inicio de
+la acción formativa.
+c) En el caso de solicitudes presentadas por una entidad de formación, impulsadas por una
+entidad sectorial (categoría b.1 del artículo 2.1)) o empresas tractoras según la (categoría b.2 del
+artículo 2.1), además de la Memoria a que hace referencia el apartado a.1 anterior, será necesario
+presentar una declaración responsable firmada por el representante legal de la entidad sectorial
+o empresa tractora, justificando la necesidad de realización de dicha acción formativa y las actuaciones de coordinación e impulso que se van a realizar desde la entidad. Asimismo, deberá indicar
+el listado de empresas dispuestas a contratar y cuantos contratos estarían dispuestas a realizar,
+con el detalle exigido en la Memoria del apartado a.1 anterior.
+Asimismo, deberá adjuntarse la documentación que acredite el cumplimiento de los requisitos
+exigidos en los apartados b.1 y b.2 del artículo 2.1 y el poder de representación del firmante (estatutos, inscripción, acta de constitución, poderes,...).
+d) Para las solicitudes que respondan a la categoría b.3 del artículo 2.1, documento relativo
+al compromiso de contratación de cada una de las empresas que realizarán las contrataciones
+(Anexo de Entidad Formativa, según modelo facilitado en la aplicación LanF). Se deberá adjuntar,
+asimismo, el documento justificativo de la capacidad de representación de la persona firmante de
+la empresa contratante:
+2.– Las solicitudes de subvención por la celebración de los contratos de trabajo se tramitarán
+de forma electrónica e individual por cada uno de los contratos realizados, una solicitud por cada
+contrato, mediante la aplicación informática de formación de Lanbide-Servicio Público Vasco de
+Empleo (LanF).
+Aquellas entidades o empresas que no tengan acceso a esta aplicación podrán solicitarlo a
+través de la página web de Lanbide-Servicio Público Vasco de Empleo www.lanbide.euskadi.eus
+La ficha informativa del procedimiento administrativo donde están disponibles las instrucciones
+para la trami

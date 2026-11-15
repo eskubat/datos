@@ -1,6 +1,4 @@
 ### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1516954
-BOLETÍN OFICIAL DE BIZKAIA
-Martes, 11 de agosto de 2026
 SECCIÓN II
 ADMINISTRACIÓN LOCAL DEL TERRITORIO HISTÓRICO DE BIZKAIA
 Ayuntamiento de Barakaldo
@@ -24,9 +22,7 @@ cve: BOB-2026a151-(II-4397)
 Núm. 151
 BOB
 BOB
-BOLETÍN OFICIAL DE BIZKAIA
 Núm. 151
-Martes, 11 de agosto de 2026
 PRESUPUESTO GENERAL 2026
 A) PRESUPUESTO MUNICIPAL
 Ingresos
@@ -105,9 +101,7 @@ TOTAL
 cve: BOB-2026a151-(II-4397)
 Capítulo
 BOB
-BOLETÍN OFICIAL DE BIZKAIA
 Núm. 151
-Martes, 11 de agosto de 2026
 B) PRESUPUESTOS ORGANISMOS AUTÓNOMOS ADMINISTRATIVOS
 B.1. BARAKALDO KIROLAK
 Ingresos
@@ -187,9 +181,7 @@ TOTAL
 cve: BOB-2026a151-(II-4397)
 Capítulo
 BOB
-BOLETÍN OFICIAL DE BIZKAIA
 Núm. 151
-Martes, 11 de agosto de 2026
 Gastos
 Capítulo
 Gastos
@@ -274,9 +266,7 @@ TOTAL
 cve: BOB-2026a151-(II-4397)
 Capítulo
 BOB
-BOLETÍN OFICIAL DE BIZKAIA
 Núm. 151
-Martes, 11 de agosto de 2026
 B.4. ESCUELAS INFANTILES DE BARAKALDO
 Ingresos
 Capítulo
@@ -351,9 +341,7 @@ TOTAL
 cve: BOB-2026a151-(II-4397)
 Capítulo
 BOB
-BOLETÍN OFICIAL DE BIZKAIA
 Núm. 151
-Martes, 11 de agosto de 2026
 Gastos
 Capítulo
 Gastos
@@ -441,9 +429,7 @@ TOTAL
 cve: BOB-2026a151-(II-4397)
 Capítulo
 BOB
-BOLETÍN OFICIAL DE BIZKAIA
 Núm. 151
-Martes, 11 de agosto de 2026
 C.3. TALLER USOA LANTEGIA, S.A.
 Ingresos
 Capítulo
@@ -556,9 +542,7 @@ TOTAL
 cve: BOB-2026a151-(II-4397)
 Capítulo
 BOB
-BOLETÍN OFICIAL DE BIZKAIA
 Núm. 151
-Martes, 11 de agosto de 2026
 Gastos
 Gastos
 Consolidado
@@ -724,7 +708,6 @@ Categoria
 3
 6
 Total
-Martes, 11 de agosto de 2026
 cve: BOB-2026a151-(II-4397)
 Escala de Administracion Especial
 TECNICO DE ADMINISTRACION GENERAL
@@ -757,7 +740,6 @@ TOTAL Personal Eventual
 Naturaleza
 _pza_des
 PLANTILLA PRESUPUESTARIA 2026
-BOLETÍN OFICIAL DE BIZKAIA
 BOB
 escala
 _cod
@@ -934,7 +916,6 @@ Categoria
 8
 1
 Total
-Martes, 11 de agosto de 2026
 A1
 A1/A2
 A1
@@ -973,13 +954,11 @@ Núm. 151
 cve: BOB-2026a151-(II-4397)
 Naturaleza
 _pza_des
-BOLETÍN OFICIAL DE BIZKAIA
 BOB
 escala
 _cod
 escala
 _des
-BOLETÍN OFICIAL DE BIZKAIA
 AYUDANTE/A DE OFICIOS
 223004
 AP
@@ -1098,7 +1077,6 @@ Categoria
 1
 1
 Total
-Martes, 11 de agosto de 2026
 cve: BOB-2026a151-(II-4397)
 TOTAL general
 TOTAL Personal Laboral Fijo
@@ -1137,13 +1115,10 @@ Núm. 151
 TOTAL Personal Funcionario
 Naturaleza
 _pza_des
-BOLETÍN OFICIAL DE BIZKAIA
 BOB
 
 ### Bases reguladoras: https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/06/12/II-3185_cas.pdf
-BOLETÍN OFICIAL DE BIZKAIA
 Núm. 110
-Viernes, 12 de junio de 2026
 BOB
 SECCIÓN II
 ADMINISTRACIÓN LOCAL DEL TERRITORIO HISTÓRICO DE BIZKAIA
@@ -1181,4 +1156,3 @@ TOTAL
 485.500,00
 cve: BOB-2026a110-(II-3185)
 En Barakaldo, a 5 de junio de 2026.—La Alcaldesa, Amaia del Campo Berasategui
-BOLETÍN OFICIAL DE BIZKAIA

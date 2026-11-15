@@ -618,321 +618,920 @@ dauden fakturen bidez egiaztatutako transakzio
 ekonomiko bat dakartenak baino ez dira onartuko, eta
 beste erakunde batzuek zuzenean ordainduko
 dituztenak ez dira onartuko.
-Sólo se admitirán como gastos subvencionables
-
-### Bases reguladoras: HTTPS://WWW.BIZKAIA.EUS/ES/BOB
-Boletín Oficial de Bizkaia - Bizkaia.eus
-Boletín Oficial de Bizkaia
-ÍNDICE DE EMISORES
-Cerrar índice de emisores
-Emisores seleccionados
-Añadir
-Búsqueda
-BUSCAR EN EL ÍNDICE
-Mostrar
-a
-b
-c
-d
-e
-f
-g
-h
-i
-j
-k
-l
-m
-n
-ñ
-o
-p
-q
-r
-s
-t
-u
-v
-w
-x
+Sólo se admitirán como gastos subvencionables,
+aquellos que supongan una transacción económica
+constatada con facturas a nombre de la entidad
+solicitante de la subvención, no siendo aceptados
+los que vayan a ser abonados directamente por
+otras entidades.
+5. Honako hauek, berriz, ez dira diruz lagundu
+daitezkeen gastuak:
+5. No tendrán la consideración de gastos
+subvencionables:
+a) 2026an egindako gastuak, aurreko urteko deialdiari
+egotzitakoak, baldin eta 2025ean diruz lagundutako
+proiektua gauzatzeko epea luzatu egin bada.
+a) Aquellos gastos realizados en el año 2026
+imputados a la convocatoria del año anterior,
+cuando la ejecución del proyecto subvencionado en
+2025 hubiera sido objeto de prórroga.
+b) Dirulaguntzaren eskatzailea ez den beste erakunde
+batek zuzenean ordaindutako gastuak.
+b) Los gastos abonados directamente por otra
+entidad que no sea la solicitante de la subvención.
+c) Gauzatan ordaindutako babesa.
+c) El patrocinio en especie.
+d) Ekipo-ondasunak eskuratzea, baldin eta haien
+amortizazioa luzeagoa bada foru-dekretu honetan
+jasotzen diren jarduerak egiteko epea baino.
+d) La adquisición de bienes de equipo cuya
+amortización exceda al periodo de ejecución de las
+actividades previstas en el presente decreto foral.
+e) Banku-kontuetako interes zordunak.
+e) Los intereses deudores de las cuentas bancarias.
+f) Interesak, errekarguak eta administrazio-zehapenak
+f) Intereses, recargos y sanciones administrativas y
+8
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+eta zehapen penalak.
+penales.
+g) Prozedura judizialen gastuak.
+g) Gastos de procedimientos judiciales.
+h) BEZa. Bai eskabidearen aurrekontuan, bai
+dirulaguntzaren justifikazioarekin aurkeztuko den
+aurrekontu burutuan, BEZik gabe agertu behar dira
+gastuen zenbatekoak.
+h) El IVA. Tanto en el presupuesto que contiene la
+solicitud como en el presupuesto ejecutado que se
+aportará con la justificación de la subvención
+deberán figurar los importes de gasto sin IVA.
+i) Onuradunak merkataritza-eragiketetan izandako
+gastuak, aplikatu beharreko araudi sektorialean
+aurreikusitako ordainketa-epeetan ordaindu ez
+direnak, edo, halakorik ezean, merkataritzaeragiketetan berankortasunaren aurkako neurriak
+ezartzen dituen abenduaren 29ko 3/2004 Legean
+ezarritakoa.
+i) Los gastos en los que haya incurrido la
+beneficiaria en sus operaciones comerciales que no
+se hayan abonado en los plazos de pago previstos
+en la normativa sectorial que le sea de aplicación, o,
+en su defecto, en lo establecido en la Ley 3/2004,
+de 29 de diciembre, por la que se establecen
+medidas de lucha contra la morosidad en las
+operaciones comerciales.
+j) Oro har, maiatzaren 5/2005 Foru Arauaren 29.
+artikuluarekin bat etorrita, beren-beregi kanpo
+utzitakoak.
+j) En general, los que resultan expresamente
+excluidos conforme al artículo 29 de la Norma Foral
+5/2005, de 31 de mayo.
+6. Foru-dekretu honen helburua eskatzaileen ekintzak
+lagundu eta osatzea da; horregatik ez dira inoiz
+finantzatuko jardueren ondoriozko gastu guztiak.
+6. La finalidad del presente decreto foral será la de
+apoyar y completar la acción de las solicitantes,
+nunca la de financiar en su totalidad los gastos
+derivados de la ejecución de las actividades.
+2. oinarria. Onuradunak.
+Base 2. Beneficiarias.
+1. Foru dekretu honetan araututako dirulaguntzen
+onuradun izan ahalko dira produktore gisa jarduten
+duten sozietate anonimoak, erantzukizun mugatuko
+sozietateak, sozietate kooperatiboak, sozietate zibilak
+eta interes ekonomikoko elkarteak, bai eta enpresajarduerak gauzatzen dituzten pertsona fisikoak ere,
+betiere maiatzaren 31ko 5/2005 Foru Arauaren 12.
+artikuluko ustezkoren batean ez badaude eta
+eskabideak aurkeztean honako eskakizun hauek
+betetzen badituzte:
+1. Podrán beneficiarse de las subvenciones
+reguladas en el presente decreto foral tanto las
+sociedades
+anónimas,
+sociedades
+de
+responsabilidad limitada, sociedades cooperativas,
+las sociedades civiles y las agrupaciones de interés
+económico, como las personas físicas que ejerzan
+actividades empresariales, que no estando incursas
+en las causas del artículo 12 de la Norma Foral
+5/2005 de 31 de mayo, actúen como productores y
+reúnan los siguientes requisitos a fecha de
+presentación de la solicitud:
+a) Egoitza soziala eta/edo fiskala Bizkaiko Lurralde
+Historikoan izatea.
+a) Tener el domicilio social y/o fiscal en el Territorio
+Histórico de Bizkaia.
+b) Xede soziala ikus-entzunezko produkzio izatea.
+b) Tener como objeto social la producción
+audiovisual.
+c) Alta emanda egotea EJZn, dagokion epigrafean:
+961.1.
+c) Estar de alta en el correspondiente epígrafe del
+I.A.E.: 961.1
+9
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+d) Dirulaguntza koprodukzio baterako eskatzen bada,
+eskatzaileak produkzioaren % 25eko partaidetza izan
+beharko du gutxienez.
+d) En el caso que la subvención se solicite para una
+coproducción, la solicitante deberá tener una
+participación de, al menos, el 25 % de la producción
+resultante.
+e) Halaber, Foru Administrazioak 30.000,00 eurotik
+gorako dirulaguntzetarako emandako dirulaguntzen
+araubide juridiko orokorra arautzen duen maiatzaren
+31ko 5/2005 Foru Arauaren 12.3 bis merkataritzaeragiketetan berankortasunaren aurkako neurriak
+ezartzen dituen abenduaren 29ko 3/2004 Legeari
+lotutako irabazi-asmoa duten pertsona juridiko edota
+fisiko pribatuek ordainketa-epeak betetzen dituztela
+egiaztatu beharko dute.
+e) Asimismo, de acuerdo al artículo 12.3 bis, de la
+Norma Foral 5/2005, de 31 de mayo, por la que se
+regula el régimen jurídico general de las
+subvenciones otorgadas por la Administración
+Foral, para aquellas subvenciones por importe
+superior a 30.000,00 euros, las personas jurídicas
+y/o físicas privadas con ánimo de lucro sujetas a la
+Ley 3/2004 de 29 de diciembre, por las que se
+establecen medidas de lucha contra la morosidad
+en las operaciones comerciales, deberán acreditar
+que cumplen con los plazos de pago.
+2. Foru-dekretu honen bidez araututako deialditik
+kanpo geratuko dira ondasun-erkidegoak eta Kode
+Zibilaren 1669. artikuluan aipatutako sozietate zibilak.
+2. Quedarán excluidas de la convocatoria regulada
+por el presente decreto foral las comunidades de
+bienes, y sociedades civiles referidas en el artículo
+1669 del Código Civil.
+3. Era berean, deialdi honetatik kanpo geratzen dira
+Bizkaiko Foru Aldundiaren maiatzaren 21eko 50/2026
+Foru Dekretuaren babesean diruz lagundutako
+onuradunak eta proiektuak. Foru Dekretu horren
+bidez,
+2026an
+ikus-entzunezko
+proiektuen
+preprodukzio-, produkzio- eta sustapen-gastuak
+finantzatzeko dirulaguntzen deialdia eta oinarri
+arautzaileak onartu ziren.
+3. Igualmente, quedan excluidas de la presente
+convocatoria las beneficiarias y los proyectos
+subvencionados al amparo del Decreto Foral
+50/2026, de 21 de mayo, de la Diputación Foral de
+Bizkaia, por el que se aprueban las bases
+reguladoras y la convocatoria de subvenciones
+destinadas a financiar los gastos de preproducción,
+producción
 y
-z
-TODOS
-Último boletín
-viernes 13 de noviembre del 2026
-Número
-219
-CVE
-:
-BOB-2026a219
-Ver Boletín
-PDF
-Ver Sumario
-PDF
-Ver Sumario
-PDF
-Ver Anexo
-PDF
-37 anuncios
-BÚSQUEDA BOB POR FECHA
-Último boletín
-De conformidad con lo dispuesto en el DECRETO FORAL de la Diputación Foral de Bizkaia 97/2009, de 15 de junio, regulador del Boletín Oficial de Bizkaia, el servicio público del Boletín Oficial de Bizkaia no se hace responsable de los datos de carácter personal publicados en el mismo.
-SUSCRÍBETE
-Suscripción al boletín
-Podrás encontrar información de interés sobre oposiciones, normativa...
-Acceder
-Ayuda sobre...
-Ayuda →
-Descripción General
-Tipos de búsqueda
-Operadores de Búsqueda
-Definición y Descripción de los campos
-Canal de noticias RSS
-Atención al público
-Normativa
-Cambiar a:
-EU
-Esta página web, https://www.bizkaia.eus (en adelante la “Página Web”) utiliza herramientas de seguimiento de la navegación a través de la misma y de la dirección IP del destinatario del servicio, con la finalidad de mejorar y garantizar la prestación de servicios o el funcionamiento técnico de la misma, distinguirle de otras personas usuarias y analizar sus hábitos de navegación.
-Nombre
-Objetivo
-Duración
-Propietario
-JSESSIONID
-Identificar la sesión
-Sesión
-Diputación Foral de Bizkaia
-ASPSESSIONID
-Identificar la sesión
-Sesión
-Diputación Foral de Bizkaia
-TS01
-Identificar la sesión
-Sesión
-Diputación Foral de Bizkaia
-LFR_SESSION_STATE
-Identificar la sesión
-Sesión
-Diputación Foral de Bizkaia
-1 año
-Diputación Foral de Bizkaia
-pc_tecnicas_bizkaia
-1 año
-Diputación Foral de Bizkaia
-pc_analitica_bizkaia
-1 año
-Diputación Foral de Bizkaia
-pc_preferencias_bizkaia
-1 año
-Diputación Foral de Bizkaia
-pc_terceros_bizkaia
-1 año
-Diputación Foral de Bizkaia
-CPLB
-Contiene información utilizada por nuestros servidores de equilibrio de carga
-Sesión
-Diputación Foral de Bizkaia
-Kultursistema_session
-Mantener la sesión de la persona usuaria
-1 hora
-Kultursistema
-XSRF-TOKEN
-Para evitar ataques CSRF (Cross Site Request Forgery)
-1 hora
-Kultursistema
-_GRECAPTCHA
-Protege el sitio web del spam y los ataques de fuerza bruta
-6 meses
-Google
-Nombre
-Objetivo
-Duración
-Propietario
-Rastrea una visita a través de múltiples solicitudes
-Sesión
-Diputación Foral de Bizkaia
-dtLatC
-Mide la latencia del servidor para la monitorización del rendimiento
-Sesión
-Diputación Foral de Bizkaia
-dtPC
-Necesario para identificar los parámetros adecuados para la transmisión de balizas; incluye ID de sesión para correlación
-Sesión
-Diputación Foral de Bizkaia
-dtSa
-Almacén intermedio para acciones que abarcan páginas
-Sesión
-Diputación Foral de Bizkaia
-rxVisitor
-ID de visitante para correlacionar sesiones
-Permanente
-Diputación Foral de Bizkaia
-rxvt
-Tiempo de espera de sesión
-Sesión
-Diputación Foral de Bizkaia
-iyrc-user-id
-Distinguir a las personas usuarias
-1 hora
-Diputación Foral de Bizkaia
-_ga, _ga_XXXXXXXXXXX
-Distinguir a la persona usuaria
-2 años
-Google Analytics
-_gat, _gat_XXXXXXXXXXX
-Limitar el porcentaje de solicitudes
-1 minuto
-Google Analytics
-_gid
-Distinguir a las personas usuarias
-1 día
-Google Analytics
-MUID
-Distinguir a la persona usuaria
-1 año
-Microsoft Clarity
-_clck
-Asignar preferencias a la misma persona usuaria
-1 año
-Microsoft Clarity
-_clsk
-Conecta múltiples páginas vistas en una sesión
-1 año
-Microsoft Clarity
-CLID
-Identificar la primera visita de una persona usuaria
-1 año
-Microsoft Clarity
-ANONCHK
-Distinguir a la persona usuaria
-1 día
-Microsoft Clarity
-MR
-Indica cuando refrescar MUID
-6 meses
-Microsoft Clarity
-SM
-Sincronizar MUID en el entorno Microsoft
-1 año
-Microsoft Clarity
-Nombre
-Objetivo
-Duración
-Propietario
-Idioma
-Seleccionar el idioma preferido por la persona usuaria
-1 año
-Diputación Foral de Bizkaia
-Guardar los trámites favoritos en Cita Previa
-1 año
-Diputación Foral de Bizkaia
-Nombre
-Objetivo
-Duración
-Propietario
-CLID
-Identificar la primera visita de una persona usuaria
-1 año
-Microsoft Clarity
-APISID
-Almacenar las preferencias del usuario y la información durante la visualización de las páginas con los mapas de Google en ellos
-2 años
-Google
-HSID
-Prevención del fraude
-2 años
-Google
-MUID
-Distinguir a la persona usuaria
-1 año
-Microsoft Clarity
-NID
-Recordar sus preferencias y otra información
-6 meses
-Google
-SAPISID
-Mostrar anuncios personalizados en los sitios de Google
-2 años
-Google
-SID
-Proporcionar entrega de anuncios o retargeting, proporcionar prevención del fraude
-2 años
-Google
-SIDCC
-Proporcionar la identificación del tráfico web confiable
-1 año
-Google
-SM
-Se utiliza para sincronizar el MUID entre dominios de Microsoft
-Sesión
-Microsoft Clarity
-SSID
-Proporcionar entrega de anuncios o retargeting, proporcionar prevención del fraude
-2 años
-Google
-__Secure-1PAPISID
-Crear un perfil de los intereses del visitante del sitio web con el fin de mostrar publicidad de Google relevante y personalizada
-2 años
-Google
-__Secure-1PSID
-Crear un perfil de los intereses del visitante del sitio web con el fin de mostrar publicidad de Google relevante y personalizada
-2 años
-Google
-__Secure-1PSIDCC
-Crear un perfil de los intereses de los visitantes del sitio web para mostrar anuncios relevantes y personalizados a través de retargeting
-1 año
-Google
-__Secure-1PSIDTS
-Crear un perfil de los intereses de los visitantes del sitio web para mostrar anuncios relevantes y personalizados a través de retargeting
-1 año
-Google
-__Secure-3PSID
-Crear un perfil de los intereses del visitante del sitio web con el fin de mostrar publicidad de Google relevante y personalizada
-2 años
-Google
-__Secure-3PSIDCC
-Crear un perfil de los intereses de los visitantes del sitio web para mostrar anuncios relevantes y personalizados a través de retargeting
-1 año
-Google
-__Secure-3PSIDTS
-Crear un perfil de los intereses de los visitantes del sitio web para mostrar anuncios relevantes y personalizados a través de retargeting
-1 año
-Google
-__Secure-ENID
-1 año
-Google
-ar_debug
-Depurar anuncios
-1 año
-Google
-MR
-Indica cuando refrescar MUID
-6 meses
-Microsoft Clarity
-XSRF-TOKEN
-Para evitar ataques CSRF (Cross Site Request Forgery)
-1 hora
-Kultursistema
-_fbp
-Almacenar y rastrear las visitas en los sitios web
-1 año
-Facebook
-kultursistema_session
-Mantener la sesión de la persona usuaria
-1 hora
-Kultursistema
-AEC
-Detectar spam, fraude y abuso
-6 meses
-Google
-SOCS
-13 meses
-Google
-Locale
-No disponible
-Gobierno Vasco
-_hegoa_coop_session
-Generar un identificador de sesión para las personas usuarias
-Sesión
-Gobierno Vasco
-Siempre activas
-Son necesarias para permitirte navegar por nuestra página web y para las tareas básicas para el correcto funcionamiento de la página.
+promoción
+de
+proyectos
+audiovisuales durante el año 2026.
+4. Era berean, honako pertsona fisika edo juridiko
+hauek ezin izango dute dirulaguntzarik jaso:
+4. Asimismo, no podrán concurrir ni resultar
+beneficiarias de subvención aquellas personas
+físicas o jurídicas:
+a) Sexuarengatik
+edonolako
+diskriminaziorik
+sortzeagatik edo berdintasunaren arloan indarrean
+dagoen
+araudia
+ez
+betetzeagatik,
+zehapen
+administratibo, laboral edo penalen bat jaso dutenak,
+zehapenean ezarritako epean zehar.
+a) Que hayan sido objeto de sanción administrativa,
+laboral o penal por incurrir en discriminación por
+razón de sexo, durante el período impuesto en la
+correspondiente sanción o por incumplimiento de
+la normativa vigente en materia de igualdad.
+b) Beren helburuak, onarpen- edo sarbide-sistema,
+funtzionamendua,
+ibilbidea
+edo
+estatutuak
+emakumeen
+eta
+gizonen
+berdintasunaren
+printzipioaren aurkakoak badira.
+b) Cuyos fines y objetivos, sistema de admisión o
+acceso, funcionamiento, trayectoria, actuación,
+organización o estatutos sean contrarios al
+principio de igualdad de mujeres y hombres.
+c) LGTBI pertsonak eta beste kolektibo batzuetako
+pertsonak
+diskriminatzeagatik
+edo
+tratuberdintasunaren eta diskriminaziorik ezaren arloan
+c) Que hayan sido objeto de sanción administrativa
+o penal por incurrir en discriminación de las
+personas LGTBI y de otros colectivos, durante el
+10
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+indarrean dagoen araudia ez betetzeagatik, zehapen
+administratibo edo penalen bat jaso dutenak,
+zehapenean ezarritako epean zehar.
+periodo impuesto en la correspondiente sanción o
+por incumplimiento de la normativa vigente de
+igualdad de trato y no discriminación.
+d) Hala badagokio, emakumeen eta gizonen
+berdintasunaren
+arloko
+araudian
+ezarritako
+baldintzetan, berdintasun-planak eta sexu-jazarpena,
+sexuan oinarritutako jazarpena eta sexu-indarkeriak
+prebenitzeko eta halakoei aurre egiteko neurriak
+jasotzen dituzten protokoloak eta/edo dokumentuak
+izateko betebeharra bete ez dutenak.
+d) Que, en su caso, no cumplan con la obligación de
+disponer de planes de igualdad y protocolos y/o
+documentos que recojan las medidas para prevenir
+y combatir el acoso sexual, el acoso por razón de
+sexo y las violencias sexuales en los términos
+establecidos por la normativa en materia de
+igualdad de mujeres y hombres.
+e) Europar Batasuneko Batzordeak aldez aurretik
+erabaki badu laguntza bat legez kanpokoa eta merkatu
+bateratuarekin bateraezina dela eta krisian dagoen
+enpresa bat ez dela, berreskuratzeko agindu baten
+mende daudela, krisian dauden enpresa ezfinantzarioak salbatzeko eta berregituratzeko estatulaguntzei buruzko zuzentarauen definizioaren arabera
+(EBAO C249, 31 – 07 – 2014).
+e) Que estén sujetas a una orden de recuperación
+pendiente tras una decisión previa de la Comisión
+de la Unión Europea que haya declarado una ayuda
+ilegal e incompatible con el mercado común y que
+no se trata de una empresa en crisis, de acuerdo
+con la definición de las Directrices sobre ayudas
+estatales de salvamento y de reestructuración de
+empresas no financieras en crisis (DOUE C249,
+31–07–2014).
+II. KAPITULUA
+CAPÍTULO II
+Araubide juridikoa
+Régimen jurídico
+3. oinarria. Aplikatu beharreko araudia.
+Base 3. Normativa aplicable.
+1. Foru-dekretu honetan jasota ez dagoenerako,
+honako hauek ezarriko dira: Foru Administrazioak
+ematen dituen diru-laguntzen araubide juridiko
+orokorra arautzen duen maiatzaren 31ko 5/2005 Foru
+Araua, martxoaren 23ko 34/2010 Foru Dekretuaren
+bidez onetsitako Diru-laguntzen Erregelamendua,
+Administrazioen Publikoen Administrazio Prozedura
+Erkidearen urriaren 1eko 39/2015 Legea, Sektore
+Publikoaren Araubide Juridikoaren urriaren 1eko
+40/2015 Legea, 4/2010 Errege Dekretua, urtarrilaren
+8koa, Administrazio Elektronikoaren esparruan
+Elkarreragingarritasunaren
+Eskema
+Nazionala
+arautzen duena, 311/2022 Errege Dekretua,
+maiatzaren 3koa, Segurtasuneko Eskema Nazionala
+arautzen duena eta beste edozein xedapen arauemaile,
+berak duen izaeragatik ezartzeko modukoa baldin
+bada.
+1. Para todos aquellos aspectos no previstos en el
+presente decreto foral serán aplicables la Norma
+Foral 5/2005, de 31 de mayo, por la que se regula el
+régimen jurídico general de las subvenciones
+otorgadas por la Administración Foral y el
+Reglamento de Subvenciones aprobado por el
+Decreto Foral 34/2010, de 23 de marzo, de la
+Diputación Foral de Bizkaia, así como la Ley
+39/2015, de 1 de octubre, del Procedimiento
+Administrativo Común de las Administraciones
+Públicas, la Ley 40/2015, de 1 de octubre, de
+Régimen Jurídico del Sector Público, el Real
+Decreto 4/2010, de 8 de enero, por el que se regula
+el Esquema Nacional de Interoperabilidad en el
+ámbito de la Administración Electrónica, el Real
+Decreto 311/2022, de 3 de mayo, por el que se
+regula el Esquema Nacional de Seguridad y
+cualquier otra disposición normativa que por su
+naturaleza pudiera resultar de aplicación.
+2. Bizkaiko Gardentasunari buruzko otsailaren 17ko
+1/2016 Foru Araua erakunde pribatu hauei aplikatuko
+2. La Norma Foral 1/2016, de 17 de febrero, de
+Transparencia de Bizkaia, les será de aplicación a
+11
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+zaie: aurrekontu-ekitaldian zehar Bizkaiko Foru
+Aldundiaren 100.000 euroren edo gehiagoren
+laguntzak edo dirulaguntzak jasotzen dituztenei edo
+haien urteko diru-sarreren % 40 Aldundiaren
+laguntzetatik edo dirulaguntzetatik badator, betiere
+gutxienez 5.000 euro badira.
+aquellas entidades privadas que durante un
+ejercicio presupuestario perciban de la Diputación
+Foral de Bizkaia ayudas o subvenciones que
+alcancen al menos una cuantía de 100.000 euros o
+cuando el 40 % del total de sus ingresos anuales
+tengan el carácter de ayuda o subvención pública
+foral, siempre que alcancen como mínimo 5.000
+euros.
+4. oinarria. Arau-hausteak eta zehapenak.
+Base 4. Infracciones y sanciones.
+Arau-hauste eta zehapenei dagokienez, Foru
+Administrazioak
+ematen
+dituen
+dirulaguntzen
+araubide juridiko orokorra arautzen duen maiatzaren
+31ko 5/2005 Foru Arauaren IV. Tituluan xedatutakoa
+ezarriko da, bai eta arau hori garatzen duen
+erregelamenduaren IV. Titulua ere.
+En lo referente a infracciones y sanciones se
+aplicará lo establecido en el Título IV de la Norma
+Foral 5/2005, de 31 de mayo, por la que se regula el
+régimen jurídico general de las subvenciones
+otorgadas por la Administración Foral, y en el Título
+IV de su reglamento de desarrollo.
+III. KAPITULUA
+CAPÍTULO III
+Prozedura
+Procedimiento
+5. oinarria. Eskabideak aurkezteko lekua eta epea.
+Base 5. Lugar y plazo de presentación de las
+solicitudes.
+1. Administrazio Publikoen Administrazio Prozedura
+Erkidearen urriaren 1eko 39/2015 Legearen 14.
+artikuluaren 2. eta 3. zenbakietan xedatutakoarekin
+bat, foru-dekretu honetan arautzen diren dirulaguntzetarako eskabideak Bizkaiko Foru Aldundiaren
+egoitza elektronikoaren bidez aurkeztu beharko dira:
+1. De conformidad con lo dispuesto en el artículo
+14.2 y 3 de la Ley 39/2015, de 1 de octubre, del
+Procedimiento Administrativo Común de las
+Administraciones Públicas, las solicitudes de
+subvención deberán presentarse a través de la sede
+electrónica de la Diputación Foral de Bizkaia:
+https://www.ebizkaia.eus/es/hasiera
+https://www.ebizkaia.eus/es/inicio
+Eskatzaile bakoitzak, gehienez, eskabide bat aurkeztu
+ahal izango du modalitate bakoitzeko. Eskabide
+bakoitzak proiektu bakarra izan beharko du.
+Cada solicitante podrá presentar como máximo una
+solicitud por modalidad. Cada solicitud deberá
+contener un único proyecto.
+Modalitate bakoitzeko eskabide bat baino gehiago
+aurkeztuz gero, aurkeztutako azkena bakarrik hartuko
+da kontuan, eta aurrekoak ezetsi egingo dira.
+En el caso de presentar más de una solicitud por
+modalidad sólo se tendrá en cuenta la última
+presentada desestimándose las anteriores.
+2. Eskabideak aurkezteko epea bost (5) egun
+baliodunekoa izango da, foru dekretu hau Bizkaiko
+Aldizkari Ofizialean argitaratu eta hurrengo egunetik
+aurrera.
+2. El plazo para la presentación de solicitudes será
+de cinco (5) días hábiles contados a partir del día
+siguiente al de la publicación del presente decreto
+foral en el Boletín Oficial de Bizkaia.
+3. Eskabideak aurkezteak esan nahi du berariaz eta
+formalki onartzen direla deialdi honen oinarriak
+definitzen dituzten baldintzak.
+3. La presentación de solicitudes supone la
+aceptación expresa y formal de las condiciones que
+definen las bases de la presente convocatoria.
+12
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+6. oinarria. Eskabidearekin batera aurkeztu beharreko
+agiriak eta betekizunak.
+Base 6. Documentación a acompañar a la solicitud y
+requisitos.
+1. Eskabideak aurkezteko, 39/2015 Legearen 66.6
+artikuluan ezarritakoarekin bat, deialdi honen
+berariazko ereduetara egokitu beharko dira, Bizkaiko
+Foru Aldundiaren egoitza elektronikoan bete eta
+aurkezteko:
+1. Las solicitudes deberán, de acuerdo con lo
+previsto en el artículo 66.6 de la Ley 39/2015,
+ajustarse a los modelos específicos de la presente
+convocatoria, disponibles para su cumplimentación
+y presentación en la sede electrónica de la
+Diputación Foral de Bizkaia:
+https://www.ebizkaia.eus/eu/hasiera
+https://www.ebizkaia.eus/es/inicio
+2. Eskabideekin batera, honako agiri hauek aurkeztu
+beharko dira, nahitaez :
+2. Las solicitudes deberán ir acompañadas de la
+siguiente documentación obligatoria:
+a) Hala badagokio, erakundearen estatutuak edo
+erakundea eratu dela egiaztatzen duten agiriak,
+erakundearen xedea eta helbide soziala adierazita.
+a) En su caso, los estatutos o documentación
+acreditativa de la constitución de la entidad, donde
+deberán figurar el objeto y domicilio social de la
+misma.
+Aurreko dokumentazioa ez da aurkeztu beharko baldin
+eta aurretiaz aurkeztu bada, eta ez badu aldaketarik
+izan.
+Dicha documentación no se aportará en caso de
+haber sido presentada con anterioridad, y siempre
+que no hubiera sufrido modificación alguna.
+b) Produkzio gastuak finantzatzeko dirulaguntzen
+modalitatean:
+b) En la modalidad de subvenciones destinadas a
+financiar los gastos de producción:
+1) Azalpen-memoria eta kronograma.
+1º Memoria explicativa y cronograma.
+2) Ikus-entzunezko proiektuaren fitxa teknikoa eta
+artistikoa.
+Gainera, dirulaguntza eragin duen ikus-entzunezko
+proiektuaren hizkuntza adierazi beharko da.
+2º Ficha técnica y artística del proyecto audiovisual.
+c) Proiektuaren preprodukzio- eta sustapen gastuak
+finantzatzera
+bideratutako
+dirulaguntzen
+modalitateetan, gutxienez, aurreikusitako
+edo
+gauzatutako preprodukzio- edo sustapen jarduera
+guztiak deskribatzen dituen azalpen-memoria eta
+horien kronograma barne hartuta.
+c) En las modalidades de subvenciones destinadas a
+financiar los gastos de preproducción y promoción
+descripción del proyecto que, al menos, incluya una
+memoria explicativa que describa todas y cada una
+de las actuaciones de preproducción o promoción
+previstas o llevadas a cabo, y cronograma de las
+mismas.
+Horrez gainera, dirulaguntza eskatzea eragiten duen
+ikus-entzunezko proiektuaren hizkuntza adierazi
+beharko da.
+Se deberá, además, señalar el idioma del proyecto
+audiovisual que motiva la subvención.
+d) Era berean, sustapen gastuak finantzatzeko
+dirulaguntzen kasuan, ikus-entzunezko proiektua
+Euskal Autonomia Erkidegoko I. eta II. eranskinetan
+d) Asimismo, en el caso de subvenciones para
+financiar gastos de promoción, se deberá adjuntar
+documento que acredite fehacientemente que el
+Se deberá, además, señalar el idioma del proyecto
+audiovisual que motiva la subvención.
+13
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+eta/edo zinema-aretoetan jasotako jaialdietako batean
+edo sari-banaketetan 2026an programatu dela edo
+programatuko dela modu frogagarrian egiaztatzen
+duen dokumentua erantsi beharko da.
+proyecto audiovisual se ha programado o se va a
+programar durante 2026 en alguno de los
+festivales o entrega de premios recogidos en los
+anexos I. y II. y/o en salas de exhibición
+cinematográfica de la Comunidad Autónoma Vasca.
+e) Hala badagokio, legezko edo borondatezko
+ordezkaritza zuzenbidean baliozkoa den edozein
+bitartekoren bidez egiaztatu beharko dena.
+e) En su caso, la representación legal o voluntaria
+que podrá acreditarse por cualquier medio válido
+en derecho.
+3. Eskabideekin batera, honako agiri hauek aurkeztu
+beharko dira, proiektuak baloratu ahal izateko:
+3. Las solicitudes deberán ir acompañadas, en su
+caso, de la siguiente documentación a fin de poder
+valorar los proyectos:
+a) Preprodukzio eta produkzio gastuak finantzatzeko
+dirulaguntzen modalitateetan:
+a) En las modalidades de subvenciones destinadas a
+financiar los gastos de preproducción y producción:
+1) Proiektuaren kalitatea eta balio artistikoa
+egiaztatzeko aurkeztu beharreko dokumentazioa:
+1º Documentación a presentar para acreditar, en su
+caso, la calidad y valor artístico del proyecto:
+-
+Proiektuaren testuingurua.
+-
+Contexto del proyecto.
+-
+Proiektuaren
+informazio
+orokorra,
+haren
+generoari, formatuari (filma, film laburra, etab.) eta
+xede-publikoari buruzkoa. Istorioaren atzean
+dagoen inspirazioaren edo motibazioaren azalpen
+labur bat ere bai.
+-
+Información general del proyecto, sobre su
+género, formato (película, cortometraje, etc.), y
+su público objetivo. También una breve
+explicación de la inspiración o motivación
+detrás de la historia.
+-
+Zuzendaritza proposamena edo estilo bisuala:
+proiektuaren estilo bisualari edo narratiboari
+buruzko proposamen labur bat, oro har.
+-
+Propuesta de dirección o estilo visual: una
+breve propuesta sobre el estilo visual o
+narrativo del proyecto, en términos generales.
+-
+Sinopsi edo laburpen hedatu bat (gehienez 10
+orrialde), argi eta zehatz garatu eta azalduko
+dituena obraren bilbea, pertsonaia nagusiak eta
+mezu edo gai nagusia; proiektuaren egitura,
+bilbearen funtsezko puntuak, pertsonaia nagusien
+arkuak eta obraren tonua zehaztuko ditu.
+-
+Un sinopsis o resumen extendido (máximo de
+10 páginas), que desarrolle y explique de
+manera clara y concisa la trama, los personajes
+principales y el mensaje o tema central de la
+obra; especificando la estructura del proyecto,
+los puntos clave de la trama, los arcos de los
+personajes principales y el tono de la obra.
+2) Esperientzia egiaztatzeko aurkeztu beharreko
+agiriak:
+2º Documentación a presentar para acreditar, en su
+caso, la experiencia:
+-
+-
+Zuzendaritza. Zuzendutako proiektuen zerrenda
+bat aurkeztu beharko da, izenburuekin, datekin eta
+egindako lanaren deskribapen labur batekin.
+Deialdi hau argitaratu arteko esperientzia
+konputagarria baino ez da baloratuko.
+Dirección. Se deberá presentar una lista de los
+proyectos dirigidos, con títulos, fechas y una
+breve descripción del trabajo realizado.
+Solamente se valorará la experiencia
+computable hasta la fecha de publicación de la
+presente convocatoria.
+14
+Alegatutako esperientzia hori egiaztatzeko,
+eskabidearekin batera, honako agiri hauek
+aurkeztu beharko dira: lan-kontratua, edo
+enpresaren ziurtagiria, edo erregistratutako fitxa
+tekniko ofiziala, edo obraren kredituak edo
+antzekoa.
+-
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+-
+Gidoilaria. Gidoien zerrenda bat aurkeztu beharko
+da, izenburua, datak eta proiektuaren izena
+adierazita.
+Para acreditar dicha experiencia alegada se
+deberá presentar, junto con la solicitud, prueba
+documental al efecto: contrato de trabajo, o
+certificado de empresa, o ficha técnica oficial
+registrada, o créditos de la obra o análogo.
+-
+Guionista. Se deberá presentar una lista de los
+guiones, incluyendo título, fechas y el nombre
+del proyecto.
+Deialdi hau argitaratu arteko esperientzia
+konputagarria baino ez da baloratuko.
+Solamente se valorará la experiencia
+computable hasta la fecha de publicación de la
+presente convocatoria.
+Alegatutako esperientzia hori egiaztatzeko,
+eskabidearekin batera, alegatutako obren
+titulartasuna egiaztatzen duen dokumentazioa
+aurkeztuko da: lan-kontratua, edo enpresaren
+ziurtagiria, edo erregistratutako fitxa tekniko
+ofiziala, edo obraren kredituak edo antzekoa.
+Para acreditar dicha experiencia alegada se
+presentará,
+junto
+con
+la
+solicitud,
+documentación que acredite la titularidad de
+las obras alegadas: contrato de trabajo, o
+certificado de empresa, o ficha técnica oficial
+registrada, o créditos de la obra o análogo.
+Produkzio-funtzioen arduraduna. Lan egin duen
+produkzio-proiektuen zerrenda bat aurkeztu
+beharko da, betetako zereginen deskribapen labur
+batekin
+batera
+(produkzio
+exekutiboa,
+produkzioaren koordinazioa, aurrekontuaren
+kudeaketa, eta abar).
+-
+Persona encargada de funciones de
+producción. Se deberá presentar una lista de
+los proyectos de producción en los que se ha
+trabajado, con una descripción breve de las
+funciones
+desempeñadas
+(producción
+ejecutiva, coordinación de producción, gestión
+de presupuesto, etc.).
+Deialdi hau argitaratu arteko esperientzia
+konputagarria baino ez da baloratuko.
+Solamente se valorará la experiencia
+computable hasta la fecha de publicación de la
+presente convocatoria.
+Alegatutako esperientzia hori egiaztatzeko,
+esperientzia hori egiaztatzen duen dokumentazioa
+aurkeztuko da eskabidearekin batera: lankontratua, edo enpresaren ziurtagiria, edo
+erregistratutako fitxa tekniko ofiziala, edo obraren
+kredituak edo antzekoa.
+Para acreditar dicha experiencia alegada se
+presentará,
+junto
+con
+la
+solicitud,
+documentación que acredite dicha experiencia:
+contrato de trabajo, o certificado de empresa, o
+ficha técnica oficial registrada, o créditos de la
+obra o análogo.
+3) Aurrekoa gorabehera, oro har, honako hauek
+aurkeztu ahal dira:
+3º Sin perjuicio de lo anterior, en términos
+generales se puede presentar:
+-
+-
+Curriculum
+vitae
+eguneratua,
+eskatutako
+lanpostuarekin lotutako lan-esperientzia zehaztuz.
+Bertan, honako hauek adieraziko dira: betetako
+kargua; lanpostuaren iraupena (hasiera- eta
+amaiera-datak); zerbitzuak eman ziren enpresaren
+edo erakundearen izena, egindako eginkizunen
+Currículum Vitae actualizado, detallando la
+experiencia laboral relacionada con el puesto
+solicitado, donde se indique: el cargo
+desempeñado; la duración del puesto (fechas
+de inicio y finalización); el nombre de la
+empresa o entidad para la que se prestaron los
+15
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+deskribapen labur batekin batera; parte hartu den
+proiektu espezifikoak, horietako bakoitzean
+egindako lanaren norainokoaren deskribapen
+labur batekin; lortutako sarien adierazpena, eta,
+hala badagokio, jaialdietan izandako parte-hartzea.
+servicios, junto con una breve descripción de
+las funciones realizadas; los proyectos
+específicos en los que se haya participado, con
+una breve descripción del alcance del trabajo
+realizado en cada uno de ellos; indicación de los
+premios y galardones conseguidos y la
+participación en festivales, en su caso.
+-
+Lan-kontratua(k)
+edo
+lanbide-harremana
+egiaztatzen duen dokumentua(k): zuzendari eta
+gidoigile roletarako, sinatutako lan-kontratuen
+kopia bat aurkeztu ahal izango da, ikus-entzunezko
+proiektuekin lotura duela frogatzeko. Produkziofuntzioen arduradunarentzat, ikus-entzunezko
+proiektuen produkzioan parte hartu duela
+egiaztatzen duen dokumentazioa aurkeztu ahal
+izango da (produkzio-kontratuak, lankidetzaakordioak, etab.).
+-
+Contrato(s) laboral(es) o documento(s)
+acreditativo(s) de la relación profesional: para
+los roles de director o directora y guionista, se
+podrá presentar una copia de los contratos de
+trabajo firmados que demuestren la
+vinculación con proyectos audiovisuales. Para
+la persona encargada de funciones de
+producción, se podrá presentar documentación
+que acredite su participación en la producción
+de proyectos audiovisuales (contratos de
+producción, acuerdos de colaboración, etc.).
+-
+Pertsona horrek lan egin duen enpresa edo
+erakundeen erreferentziazko ziurtagiriak edo
+gutunak, honako hauek zehaztuz: betetako
+lanpostua; lan egindako denbora; egindako lanen
+deskribapen laburra; pertsona horrek proiektuan
+benetan parte hartu zuela egiaztatzen duen
+ziurtagiria, bertan duen rola eta erantzukizuna
+zehaztuz; egindako lanaren probak edo laginak
+(ahal denean eta aplikatzekoa denean). Zuzendari
+eta gidoilarien kasuan, ikus-entzunezko materiala,
+amaitutako gidoiak edo horien laburpenak
+aurkeztu ahal izango dira, esperientziaren
+ebidentzia
+gisa.
+Produkzio-funtzioen
+arduradunarentzat, dokumentuak sar daitezke,
+hala nola produkzio-aurrekontuak, kronogramak
+edo produkzio-txostenak.
+-
+Certificados o cartas de referencia de las
+empresas o entidades en las que la persona en
+cuestión haya trabajado, en los que se
+especifique: el puesto desempeñado; el periodo
+de tiempo trabajado; una breve descripción de
+las tareas realizadas; la confirmación de que
+dicha persona participó efectivamente en el
+proyecto, detallando su rol y responsabilidad
+en el mismo; pruebas o muestras del trabajo
+realizado (cuando sea posible y aplicable): En el
+caso de los directores o directoras y guionistas,
+se podrá presentar material audiovisual,
+guiones finalizados o extractos de los mismos
+que sirvan como evidencia de su experiencia.
+Para la persona encargada de funciones de
+producción, se pueden incluir documentos
+como
+presupuestos
+de
+producción,
+cronogramas o informes de producción.
+4) Dokumentazio gehigarria, hala badagokio:
+4º Documentación adicional, en su caso:
+-
+-
+Autonomoa edo freelancea bada, zinpeko
+aitorpena aurkeztu beharko dute, lan egin duten
+proiektuak
+zehaztuz,
+kontratuaren
+edo
+lankidetzaren iraupenari eta izaerari buruzko
+informazioa barne.
+5) Ibilbide profesionala
+beharreko agiriak:
+egiaztatzeko
+aurkeztu
+Si se trata de una autónoma o freelance,
+deberán presentar una declaración jurada que
+detalle los proyectos en los que ha trabajado,
+incluyendo información sobre la duración y
+naturaleza del contrato o colaboración.
+5º Documentación a presentar para acreditar, en su
+caso, la trayectoria profesional:
+16
+-
+Saria egiaztatzen duen dokumentazio ofiziala,
+jaialdiaren ziurtagiri ofizial gisa edo sarijakinarazpen gisa.
+-
+6) Berdintasuna egiaztatzeko aurkeztu beharreko
+agiriak:
+6º Documentación a presentar para acreditar, en su
+caso, la igualdad:
+-
+-
+Lan-kontratua (pertsona hori enpresa edo
+produktore batek kontratatzen badu), karguaren
+funtzio espezifikoak zehazten dituena.
+Eskabidea
+egiteko
+unean
+kontraturik
+formalizatuta ez badago, baina kontratatzeko
+benetako asmoa badago, horri buruzko
+erantzukizunpeko adierazpena aurkeztu ahal
+izango
+da,
+justifikazio-fasean
+kontratuak
+aurkeztearen baldintzapean.
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+-
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+Documentación oficial que acredite el
+galardón, como un certificado oficial del festival
+o una notificación de premiación.
+Produkzio-etxearen edo enpresaren ziurtagiria,
+emakumeak proiektuan duen rola adierazten
+duena.
+Contrato de trabajo (si la persona está
+contratada por una empresa o productora) en
+el que se detallen las funciones específicas del
+cargo.
+En caso de que, en el momento de realizar la
+solicitud, no se tenga ningún contrato
+formalizado, pero haya intención real de su
+contratación,
+podrá
+presentarse
+una
+declaración
+responsable
+al
+respecto,
+condicionado a la presentación de los contratos
+en la fase de justificación.
+-
+Certificado de la productora o empresa en la
+que se indique el rol de la mujer en el proyecto.
+7) Hala badagokio, euskara egiaztatzeko aurkeztu
+beharreko agiriak:
+7º Documentación a presentar para acreditar, en su
+caso, el euskera:
+-
+-
+Erantzukizunpeko adierazpena, jatorrizko bertsioa
+euskaraz izango dela edo euskarazko bertsioa
+egongo dela adieraziz.
+Declaración responsable indicando que la
+versión original será en euskera o que existirá
+versión en euskera.
+8) Lurraldeko lotura egiaztatzeko aurkeztu beharreko
+agiriak:
+8º Documentación a presentar para acreditar, en
+su caso, la vinculación en el Territorio:
+-
+Dagokion lurraldean aurreikusitako errodajeegunen kopurua zehaztuko duen egutegia edo
+errodaje-plana aurkeztea, errodaje-egun guztiei
+dagokienez. Dokumentu horrek honako hauek jaso
+behar ditu: errodaje-jardunaldi bakoitza egiteko
+aurreikusitako data eta kokapen espezifikoak,
+aurreikusitako filmaketa-egunen guztizko kopurua
+eta Bizkaiko Lurralde Historikoan egingo diren
+filmaketa-egun espezifikoen kopurua.
+-
+Calendario o plan de rodaje donde se
+especifique el número de días de rodaje
+previstos en el territorio correspondiente en
+relación con el total de días de rodaje. Este
+documento debe incluir: fechas y localizaciones
+específicas donde se prevea llevar a cabo cada
+jornada de rodaje, número total de días de
+rodaje previstos y número de días de rodaje
+específicos que se realizarán en el Territorio
+Histórico de Bizkaia.
+-
+Filmaketa lurraldean bertan egingo dela edo
+benetan
+egin
+dela
+egiaztatzen
+duen
+dokumentazioa
+eskatu
+ahal
+izango
+da.
+Dokumentazio hori honako hauek izan daiteke,
+besteak beste: tokiko hornitzaileekin egindako
+-
+Se podrá solicitar documentación que acredite
+que la localización del rodaje se llevará o se ha
+llevado a cabo efectivamente en el territorio.
+Esta documentación puede ser, entre otros:
+contratos con proveedores locales (de alquiler
+17
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+kontratuak (ekipamendua alokatzeko kontratuak,
+kokalekuak edo zerbitzuak lurraldean); filmatzeko
+baimenak edo filmatzeko lizentziak dagokion
+lurraldean; tokiko zerbitzuak (adibidez, ekipoak
+alokatzea, garraioa, langileak, etab.) filmaketa
+egingo den eremuan kontratatu direla frogatzen
+duten fakturak edo ordainagiriak.
+de equipo, localizaciones, o servicios en el
+territorio); permisos de rodaje o licencias de
+filmación en el territorio correspondiente;
+facturas o recibos que demuestren la
+contratación de servicios locales (por ejemplo,
+alquiler de equipos, transporte, personal, etc.)
+en la zona donde se llevará a cabo el rodaje.
+b) Sustapen gastuak finantzatzeko dirulaguntzen
+modalitateetan:
+b) En las modalidades de subvenciones destinadas a
+financiar los gastos de promoción:
+1) Sustapen plan xehatua: Planifikatutako sustapen
+estrategia guztiak deskribatzen dituen dokumentua,
+zein jaialdi, merkatu, sare sozial eta komunikabide
+erabiliko diren zehaztuz.
+1º Plan de promoción detallado: Un documento que
+describa todas las estrategias de promoción
+planeadas, especificando qué festivales, mercados,
+redes sociales y medios de comunicación se
+utilizarán.
+2) Parte hartzeko kontratuak edo akordioak: jaialdi eta
+merkatuetan parte hartzeko erabakien, gonbidapenen
+edo berrespenen kopia, proiektua inskribatuta dagoela
+edo ekitaldi horietan aurkeztuko dela frogatzen duena.
+2º Contratos o acuerdos de participación: Copia de
+los acuerdos, invitaciones o confirmación de
+participación en festivales y mercados, que
+demuestren que el proyecto está inscrito o será
+presentado en esos eventos.
+3) Ereduzko sustapen materiala.
+3º Material promocional de ejemplo.
+4) Sustapen plana kudeatzeko eta gauzatzeko ardura
+duten emakumeen zerrenda: sustapen planaren
+kudeaketan eta gauzatzean parte hartzen duen
+emakume bakoitzaren izena, kargua eta eginkizun
+espezifikoak zehaztea. Horren barruan sartzen dira,
+adibidez, marketineko, komunikazioko, diseinuko, sare
+sozialetako eta abarretako arduradunak.
+4º Listado de mujeres responsables en la gestión y
+ejecución del plan de promoción: detallar

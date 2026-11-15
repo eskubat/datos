@@ -8,64 +8,51 @@ Expedientes
 Comunicaciones
 Notificaciones
 CATÁLOGO DE TRÁMITES POR TEMAS
-Informaci�n y atenci�n ciudadana
-Padr�n y datos personales
+Información y atención ciudadana
+Padrón y datos personales
 Impuestos, domiciliaciones y pagos
 Servicios sociales
 Licencias y permisos
 Subvenciones y ayudas
 Inscripciones y reservas
 Cita previa
-Acceso a informaci�n
+Acceso a información
 Denuncias, reclamaciones y objetos perdidos
 Sugerencias y quejas
-Solicitud general y aportaci�n de documentos
-Representaci�n y apoderamientos
+Solicitud general y aportación de documentos
+Representación y apoderamientos
 Parejas de hecho
 Volver a categorías
 Pulsa aquí para volver
-Alta en padr�n
-Baja en padr�n
-Modificaci�n en padr�n
-Certificados de padr�n
-Confirmaci�n y renovaci�n personas extranjeras
-Derechos sobre datos de car�cter personal
-Volver a categorías
-Pulsa aquí para volver
-Alta, baja, modificaci�n
+Alta en padrón
+Baja en padrón
+Modificación en padrón
+Certificados de padrón
+Confirmación y renovación personas extranjeras
+Derechos sobre datos de carácter personal
+Alta, baja, modificación
 Certificados y justificantes
 Aplazamiento y fraccionamiento
 Domiciliaciones
 Exenciones y bonificaciones
 Devoluciones
-Volver a categorías
-Pulsa aquí para volver
 Cita previa
 Certificados e informes
-Volver a categorías
-Pulsa aquí para volver
-Licencias y permisos urban�sticos
-Ordenamiento urban�stico
-Certificados e informes
+Licencias y permisos urbanísticos
+Ordenamiento urbanístico
 Actividades
-Uso del dominio p�blico
+Uso del dominio público
 Otras
-Volver a categorías
-Pulsa aquí para volver
 Actividades culturales y deportivas
 Euskera
-Volver a categorías
-Pulsa aquí para volver
 Reservas
-Volver a categorías
-Pulsa aquí para volver
 Sobre la Sede
 Validación Docs.
 Quejas y Sugerencias
 Tablón Edictos
 PERFIL DEL CONTRATANTE
-P�GINA WEB DEL AYUNTAMIENTO
-FACTURA ELECTR�NICA
+PÁGINA WEB DEL AYUNTAMIENTO
+FACTURA ELECTRÓNICA
 
 ### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1543457
 Ebazpenen eta dekretuen liburua / Libro de
@@ -94,44 +81,8 @@ técnicos, para el año 2026.
 SEGUNDO. Aprobar las bases reguladoras de esta convocatoria de subvenciones
 para el año 2026. Se adjuntan las Bases de la convocatoria como Anexo al presente
 decreto.
-TERCERO. Publicar la presente convocatoria en la Base de Datos Nacional de
-Subvenciones.
-CUARTO. Dar publicidad a las citadas bases publicando su texto íntegro en el
-BOTHA mediante la inserción de un anuncio, en el tablón de anuncios del Ayuntamiento
-y en la página web del Ayuntamiento.
-QUINTO. Dar cuenta del presente decreto al Pleno en la primera sesión que se
-celebre.
-EL ALCALDE-PRESIDENTE,
-Ante mí, LA SECRETARIA,
-Fdo.: Prudencio Otegui Echevarría.
-Fdo.: Vanessa Domínguez Casal
-Documento firmado electrónicamente.
-Agiriaren sinatzailea: / Documento firmado por:
-Kargua / Cargo:
-Data / Fecha:
-Vanessa Domínguez Casal (VºBº)
-Secretario-Interventor VB
-23/10/2026 12:55
-PRUDENCIO OTEGUI ECHEVARRIA (AIARAKO UDALA/AYUNTAMIENTO DE AYALA)
-Alkate - Udalburua / Alcalde-Presidente
-23/10/2026 12:57
-VANESSA DOMINGUEZ CASAL
-Secretario-Interventor
-23/10/2026 13:24
-Ebazpenen eta dekretuen liburua / Libro de
-Resoluciones y Decretos
-23/10/2026
-2026 - 645
-ANEXO I
-Bases de la convocatoria de subvenciones a las juntas administrativas del municipio de Ayala,
-para gastos de ejecución de obras y honorarios técnicos, para 2026.
-Las presentes bases regulan la convocatoria de subvenciones municipales a las juntas administrativas
-del municipio Ayala, con carácter finalista, para la realización de obras y el pago de honorarios técnicos, para
-el ejercicio 2026.
-50144708b038171622f07ea07c0a0d2eA
-BENETAKO KOPIA, Egiaztatze Kode Seguruaren bidez egiazta daitekeena helbide honetan: / COPIA AUTÉNTICA que
-puede ser comprobada mediante el Código Seguro de Verificación en esta dirección:
-https://udalenegoitza.araba.eus/aiara/validacionDoc/?entidad=AYALA
+TERCERO. Publicar la present
+[…]
 Artículo 1. Objeto
 El procedimiento de concesión, por la naturaleza de la subvención a que se refiere, se tramitará por el
 prorrateo, con los límites establecidos en las presentes bases, entre las beneficiarias, del importe global
@@ -480,7 +431,25 @@ cantidad que finalmente les corresponde a la vista y examen de la justificación
 Si habiendo recibido un pago a cuenta, finalmente no se ejecutara la obra o se recibiera el servicio
 técnico subvencionando, este ayuntamiento iniciará un procedimiento de reintegro de acuerdo con lo recogido
 en la ordenanza reguladora de la concesión de subvenciones a las juntas administrativas del municipio de
-Ayala y en la Ley General de Subvenciones para que la beneficiaria pr
+Ayala y en la Ley General de Subvenciones para que la beneficiaria proceda a la devolución de las cantidades
+efectivamente recibidas, además de los intereses de demora que legalmente procedan.
+Artículo 8.
+En todo lo previsto en estas bases se estará a lo dispuesto en la ordenanza reguladora de la concesión
+de subvenciones a las juntas administrativas del municipio de Ayala, para gastos de ejecución de obras y
+honorarios técnicos (publicada en el BOTHA número 25de fecha 28 de febrero de 2018), Ley General de
+Subvenciones 38/03 de 17 de noviembre, y demás legislación complementaria aplicable.
+Agiriaren sinatzailea: / Documento firmado por:
+Kargua / Cargo:
+Data / Fecha:
+Vanessa Domínguez Casal (VºBº)
+Secretario-Interventor VB
+23/10/2026 12:55
+PRUDENCIO OTEGUI ECHEVARRIA (AIARAKO UDALA/AYUNTAMIENTO DE AYALA)
+Alkate - Udalburua / Alcalde-Presidente
+23/10/2026 12:57
+VANESSA DOMINGUEZ CASAL
+Secretario-Interventor
+23/10/2026 13:24
 
 ### Bases reguladoras: https://www.araba.eus/botha/Boletines/2018/025/2018_025_00613_C.pdf
 miércoles, 28 de febrero de 2018 • Núm. 25
@@ -502,28 +471,8 @@ del municipio de Ayala, para gastos de ejecución de obras y honorarios técnico
 Exposición de motivos
 El municipio de Ayala engloba veintitrés juntas administrativas que gestionan veinticuatro
 núcleos de población en los que se divide todo el territorio municipal.
-El ayuntamiento recientemente ha aprobado un nuevo sistema de financiación de las juntas
-administrativas consistente en la participación en el presupuesto del ayuntamiento de manera que constituya para ellas un recurso financiero anual de sus haciendas para sus gastos
-corrientes.
-Conjuntamente con lo anterior, queda pendiente de abordar la manera de ayudar económicamente a las juntas administrativas para la ejecución de obras y para los gastos de honorarios
-técnicos que llevan aparejados.
-Por ello, se considera necesario fijar una normativa que regule las subvenciones que este
-ayuntamiento desea otorgar a las juntas administrativas para los gastos mencionados, que
-no pueden sino adoptar la forma de concesión de subvenciones finalistas, convocándolas con
-carácter periódico para que sean las propias beneficiarias las que soliciten, conforme a cada
-convocatoria, los proyectos que vayan a ejecutar en el espacio temporal de la misma.
-Con carácter general, la gestión de estas subvenciones estará presidida por los principios
-de publicidad, transparencia, concurrencia, objetividad, igualdad y no discriminación, eficacia
-en el cumplimiento de los objetivos fijados, eficiencia en la asignación y utilización de los
-recursos públicos.
-Con esta ordenanza se pretende, por tanto, fijar las bases que regulen las subvenciones
-finalistas a las juntas administrativas para la ejecución de obras y pago de honorarios técnicos
-conforme a lo establecido en los siguientes artículos:
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2018-00613
-BOLETÍN OFICIAL DEL TERRITORIO HISTÓRICO DE ÁLAVA
-miércoles, 28 de febrero de 2018 • Núm. 25
+El ayuntamiento recientemente ha aprobado un nuevo sistema de financiación 
+[…]
 Artículo 1. Objeto
 La presente ordenanza tiene por objeto establecer las bases para la concesión de subvenciones municipales a las juntas administrativas del municipio Ayala con carácter finalista para
 la realización de obras y el pago de honorarios técnicos, cuyo procedimiento de concesión,
@@ -564,7 +513,6 @@ es decir, a las siguientes:
 www.araba.eus
 D.L.: VI-1/1958 ISSN: 2254-8432
 2018-00613
-BOLETÍN OFICIAL DEL TERRITORIO HISTÓRICO DE ÁLAVA
 miércoles, 28 de febrero de 2018 • Núm. 25
 — Junta administrativa de Menoio.
 — Junta administrativa de Murga.
@@ -608,7 +556,6 @@ instalaciones que cubran servicios de interés común.
 www.araba.eus
 D.L.: VI-1/1958 ISSN: 2254-8432
 2018-00613
-BOLETÍN OFICIAL DEL TERRITORIO HISTÓRICO DE ÁLAVA
 miércoles, 28 de febrero de 2018 • Núm. 25
 6. Instalaciones de producción de energía renovable cuya titularidad sea pública.
 7. Instalación de sistemas de protección de peatones en las calles o viales del núcleo de
@@ -646,7 +593,6 @@ representen unos costes de inversión razonables según el criterio técnico.
 www.araba.eus
 D.L.: VI-1/1958 ISSN: 2254-8432
 2018-00613
-BOLETÍN OFICIAL DEL TERRITORIO HISTÓRICO DE ÁLAVA
 miércoles, 28 de febrero de 2018 • Núm. 25
 d) Obras a realizar en bienes públicos (inmuebles o espacios) total o parcialmente cedidos
 o que se prevea ceder a particulares para uso privado.
@@ -659,4 +605,301 @@ año, aunque el pago se realice antes del 30 de enero del año siguiente.
 4.1.5. Para el cálculo de la subvención que corresponda se primarán en todo caso las obras
 de infraestructura básica (según lo recogido en la base 4.1.2. a), de tal manera que el cien por
 cien del importe de la aplicación presupuestaria disponible en cada convocatoria se repartirá
-entre las solicitantes para la realización de obras de infraestructura básica que haya, e
+entre las solicitantes para la realización de obras de infraestructura básica que haya, evitando
+la sobrefinanciación de la obra objeto de subvención y con el límite máximo de 3.000,00 euros
+por cada junta administrativa.
+En el caso de que con el importe máximo de la aplicación no se puedan atender todas las
+solicitudes presentadas, de acuerdo con el párrafo anterior, la cantidad que le corresponda a
+cada junta administrativa se disminuirá proporcionalmente hasta alcanzar en conjunto el límite
+máximo del importe disponible.
+Si, atendidas todas las solicitudes de infraestructura básica, aún quedara importe sin repartir, éste se utilizará para subvencionar las obras de equipamiento y servicios (según lo
+establecido en la base 4.1.2. b), repartiéndose la cantidad sobrante entre todas las solicitudes a
+partes iguales, evitando la sobrefinanciación y sin superar el límite máximo de 3.000,00 euros
+por cada junta administrativa.
+Si, aún atendidas todas las solicitudes de infraestructura básica y de equipamiento y servicios,
+quedara importe sobrante sin repartir, éste se utilizará para subvencionar las obras en caminos
+rurales y ganaderos (según lo establecido en la base 4.1.2. c), repartiéndose dicha cantidad sobrante entre todas las solicitudes de este tipo que haya a partes iguales, evitando la sobrefinanciación y sin superar el límite máximo de 3.000,00 euros por cada junta administrativa.
+Si, realizadas las operaciones descritas en los párrafos anteriores, aún hubiera importe sin
+repartir, el sobrante se repartirá a partes iguales entre todas las solicitudes de infraestructura
+básica que no tengan subvencionada la totalidad de la obra y evitando, en todo caso, sobrefinanciación de ninguna de ellas. Si en alguna de ellas existiera sobrefinanciación, se concedería
+únicamente el importe necesario para cubrir el cien por cien del coste de la obra y el importe
+restante se repartiría entre las demás solicitudes que no tuvieran sobrefinanciación.
+Una vez realizadas todas las operaciones descritas en los apartados anteriores, si hubiera
+crédito sin repartir, se financiarán las solicitudes de infraesetructura básica y de equipamiento
+y servicios a partes iguales entre todas las que haya sin sobrefinanciacioón, a continuación, si
+hay crédito se repartirá entre las solicitudes de obran en caminos rurales y ganaderos a partes
+iguales entre todas las que haya sin sobrefinciación; y finalmente, si aun hubiera crédito sin
+repartir se subvencionaran las solicitudes de obras que se proyecte realizar en los núcleos de
+población que carezcan de habitantes con residencia permanente (según lo establecido en la
+base 4.1.2.d)) repartiéndose dicha cantidad sobrante entre todas las solicitudes de este tipo
+que haya a partes iguales, evitando la sobrefinanciación.
+4.2. Subvención para gastos de honorarios técnicos:
+4.2.1. Se subvencionará el cincuenta por ciento de los honorarios técnicos siguientes:
+— Honorarios de redacción de proyectos, direcciones de obras y direcciones de ejecución
+de obra.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2018-00613
+miércoles, 28 de febrero de 2018 • Núm. 25
+— Honorarios de redacción de estudios de seguridad y salud y de coordinación de seguridad y salud de obras.
+— Honorarios de redacción de memorias valoradas.
+— Honorarios por emisión de informes técnicos necesarios para la realización de la obra
+como informes geotécnicos, de gestión de residuos, trabajos topográficos o cualquier otro
+necesario para la redacción de un proyecto o ejecución de una obra.
+4.2.2. Cada junta administrativa podrá solicitar subvención para tantos honorarios como
+desee, no obstante, se estable un límite anual de subvención de 6.000,00 euros por cada junta
+administrativa para todas las solicitudes presentadas.
+4.2.3. En el supuesto en que con el importe máximo de la aplicación presupuestaria consignada para este tipo de ayudas no se pudieran atender todas las solicitudes presentadas de
+acuerdo con lo establecido en el párrafo anterior, la cantidad total de la partida se repartiría
+entre el número de juntas administrativas solicitantes para establecer un nuevo límite máximo
+para cada una de ellas. Una vez realizada esta operación, se concederá a cada una de ellas el
+cincuenta por ciento de lo solicitado con el límite máximo recalculado y evitando que haya
+sobrefinanciación.
+Si hubiera importe sobrante por causa de sobrefinanciación de alguna solicitud, se repartirá
+a partes iguales entre el resto de juntas administrativas solicitantes aún cuando se supere el
+límite máximo recalculado, hasta agotar el importe de la partida y evitando sobrefinaciación,
+en todo caso.
+Artículo 5. Dotación presupuetaria máxima
+El cómputo total de las subvenciones que se concedan para gastos de ejecución de obras
+no podrá superar la cantidad consignada en la aplicación presupuestaria 943.734.000 “subvenciones a juntas administrativas por obras” en el presupuesto municipal en el momento de
+la convocatoria de la subvención.
+El cómputo total de las subvenciones que se concedan para gastos de honorarios técnicos
+no podrá superar la cantidad consignada en la aplicación presupuestaria 943.734.001 “subvenciones a juntas administrativas por honorarios técnicos” en el presupuesto municipal en
+el momento de la convocatoria de la subvención.
+En el supuesto en que, contempladas todas las solicitudes presentadas y atendiendo a la
+obligatoriedad de evitar sobrefinanciación de las obras o gastos de honorarios técnicos no se
+reparta el importe total de alguna de las aplicaciones mencionadas, el importe sobrante en
+cualquiera de ellas podrá ser utilizado para subvencionar las solicitudes correspondientes a la
+otra línea de subvención en la forma explicada en el artículo cuarto.
+Artículo 6. Obligaciones de las beneficiarias
+6.1. Las obligaciones de las juntas administrativas beneficiarias de la presente subvención
+son las siguientes:
+a) Justificar ante el Ayuntamiento de Ayala el cumplimiento de los requisitos y condiciones,
+así como la ejecución de las obras o gastos para los que se han concedido los fondos.
+b) Someterse a las actuaciones de comprobación aportando cuanta información le sea
+requerida en el seno de esa subvención.
+c) Comunicar a la mayor brevedad posible ante el Ayuntamiento de Ayala la obtención
+de otras subvenciones, ayudas o ingresos que financien las obras o gastos subvencionados.
+d) Conservar los documentos justificativos de la aplicación de los fondos percibidos, en
+tanto que puedan ser objeto de las actuaciones de comprobación y control.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2018-00613
+miércoles, 28 de febrero de 2018 • Núm. 25
+e) Si estuviera en curso alguna de las causas de reintegro, se deberá proceder al reintegro
+de la cuantía recibida.
+La omisión o falsedad de algún dato o documento al presentar la solicitud dará lugar a la
+declaración de nulidad de aquélla, además de las responsabilidades en las que se haya podido
+incurrir.
+6.2. La junta administrativa beneficiaria podrá subcontratar total o parcialmente la obra o
+actuación técnica objeto de la presente subvención.
+Al ser las beneficiarias administraciones públicas, están obligadas a contratar siguiendo
+los requisitos de la legislación sobre contratos de las administraciones públicas vigentes en
+cada momento.
+Por ello, siempre que la actuación a subvencionar exceda de los límites del contrato menor
+(actualmente 50.000,00 euros, excluido el IVA, para las obras y 18.000,00 euros, excluido el IVA,
+para servicios técnicos, o el que se establezca en las futuras leyes que regulen la contratación
+administrativa), junto con la justificación, se deberá presentar certificado del fiel de fechos, con
+el visto bueno del/la regidor/a-presidente/a de la junta administrativa beneficiaria, indicando
+el procedimiento seguido para la contratación, el número de ofertas recibidas y sus importes
+y la puntuación obtenida por el adjudicatario que motive la adjudicación del contrato.
+Artículo 7. Compatibilidad
+La concesión de estas subvenciones será compatible con la obtención de otras subvenciones de cualquier otra administración pública para este mismo fin. Deberá presentarse,
+junto con la solicitud o en cuanto se conozca, la declaración de existencia de otras peticiones
+de ayuda o subvenciones para el mismo fin, y si es el caso, habrán de presentarse, tanto las
+fotocopias compulsadas de las solicitudes cursadas (si aún no hay resolución) como las resoluciones respectivas (concedida incluyendo la cantidad o denegada) o la declaración de que
+está a la espera de resolución.
+En cualquier caso, el beneficiario no podrá obtener sobrefinanciación de la actividad en las
+sumas de todas las subvenciones y/o ayudas percibidas para el mismo fin.
+Artículo 8. Convocatoria. Solicitudes. Documentación y plazo
+Cada año el ayuntamiento publicará una convocatoria, aprobada por el órgano competente
+que desarrollará el procedimiento para la concesión de las subvenciones y se publicará en la
+forma establecia en la Ley General de Subvenciones 38/2003, de 17 de noviembre. En esta
+convocatoria se indicarán las partidas presupuestarias máximas aprobadas en los presupuestos
+para atender a cada tipo de subvención.
+Asimismo, se indicará el plazo de presentación de las solicitudes y todas las demás especificaciones necesarias para la tramitación de las subvenciones.
+Las solicitudes, junto con la documentación que se especifique, deberán ser presentadas
+en el ayuntamiento en instancia normalizada en el plazo que se establezca en la convocatoria.
+Las juntas administrativas únicamente podrán solicitar subvención para obras cuya ejecución finalice en el año de la convocatoria, aunque la adjudicación e inicio de la obra se haya
+producido en el año anterior.
+En el caso de las subvenciones por honorarios técnicos, solo se podrán solicitar por aquellos trabajos que vayan a estar finalizados y facturados en el año de la convocatoria, independientemente de que se hayan adjudicado en el año anterior y en caso de servicios técnicos
+continuados en el tiempo (dirección de obra y similares) hayan podido iniciarse en el año
+anterior a la convocatoria.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2018-00613
+miércoles, 28 de febrero de 2018 • Núm. 25
+Si se detecta alguna irregularidad o deficiencia en la documentación presentada, se dispondrá de un plazo de diez días, a partir del requerimiento, para la subsanación de la solicitud.
+Transcurrido el plazo, si la solicitud no ha sido corregida, será archivada y quedará sin valor
+administrativo.
+Junto con la solicitud (anexo I) se presentará la siguiente documentación:
+a) Declaración jurada sobre la existencia o no de otras peticiones de subvención para la
+misma finalidad y, en su caso, fotocopia compulsada de la petición. Si la petición ha recibido
+respuesta, fotocopia compulsada de la resolución indicando la cantidad concedida o si ha sido
+denegada. Indicar, en su caso, si se está a la espera de resolución (anexo II).
+b) Certificado emitido por la administración competente acreditativo de estar al corriente
+del pago de los impuestos a la hacienda foral y a la Tesorería General de la Seguridad Social,
+o en su caso, autorización firmada por el/la representante de la junta administrativa solicitante
+para que el ayuntamiento de Ayala solicite esos certificados a la administración competente
+(anexo III).
+c) Declaración de no estar incurso en las prohibiciones para obtener la condición de beneficiario, señaladas en el artículo 13, de la Ley 38/2003, de 17 de noviembre, General de
+Subvenciones (anexo IV).
+Artículo 9. Estudio y resolución de las solicitudes
+Las solicitudes serán examinadas y valoradas por la comisión informativa correspondiente,
+una vez recabados los informes correspondientes.
+Si se estima oportuno, el ayuntamiento podrá recabar los datos o aclaraciones pertinentes
+sobre la documentación presentada para completar su estudio o valoración.
+El órgano competente para la resolución de las ayudas es el alcalde-presidente de la corporación.
+El acuerdo de resolución concederá o denegará la ayuda, en este último caso, incluirá la
+correspondiente motivación. La resolución deberá contener los datos del solicitante, la cuantía
+de las ayudas y las condiciones que se impugnan, en su caso.
+La resolución será notificada a todos los solicitantes.
+El plazo máximo para resolver y notificar será de dos meses desde que finalice el plazo de
+presentación de las solicitudes en el ayuntamiento.
+El vencimiento del plazo para dictar resolución sin haberse notificado, legitima a los interesados para entender desestimada su solicitud por silencio administrativo, a fin de interponer
+los recursos administrativos o judiciales que estimen pertinentes
+Artículo 10. Justificación de la subvención
+10.1. Plazo de justificación.
+Todas las beneficiarias deberán presentar la justificación de la subvención con fecha límite
+el 31 de enero del año siguiente a la concesión.
+No obstante, las facturas justificativas tendrán como fecha límite el 31 de diciembre del año
+de la concesión, puesto que la obra o servicio debe ser ejecutado antes de finalizar el año de
+concesión, por lo que, solo se permite que el pago de la factura pueda realizarse en el mes de
+enero del año siguiente al de la concesión.
+10.2. Justificación de las subvenciones.
+Se deberá justificar el cien por cien del presupuesto de la obra o gasto de honorario técnico
+solicitado y no sólo la cantidad concedida por el ayuntamiento.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2018-00613
+miércoles, 28 de febrero de 2018 • Núm. 25
+10.3. Documentación a presentar en la justificación.
+Por cada solicitud de obra o gasto de honorario técnico concedido se deberá presentar:
+— Certificado de fiel de fechos, con el visto bueno del/a regidor/a de la junta administrativa
+(anexo V) declarativo de que la obra se ha ejecutado o el servicio técnico se ha cumplido y/o
+recepcionado, indicando el importe total del coste y, en su caso, el importe total de otras ayudas
+o subvenciones concedidas y el importe de los fondos propios empleados.
+— En caso de haber recibido otras subvenciones o ayudas, copia compulsada de las resoluciones por las que se conceden, si no se han aportado con anterioridad.
+— En el caso en que la obra ejecutada o gasto de honorario técnico tenga una cuantía superior al límite de los contratos menores que en cada momento sea aplicable en función de la
+normativa sobre contratos de las administraciones públicas, se deberá presentar el certificado
+del/a fiel de fechos a que hace referencia el artículo 6.2 de la presente ordenanza.
+— Facturas originales o copias compulsadas de los gastos subvencionados.
+— Justificantes de pago de las facturas presentadas. Se aceptarán como justificante de
+pago en metálico un sello y/o estampillado o firma del establecimiento comercial, empresa o
+profesional que emitió la factura indicativa de que está pagada, un ticket de caja de la entidad
+empresarial o un escrito firmado por el empresario de que ha recibido el pago en metálico de
+la factura indentificándola.
+Si el pago se hace por transferencia bancaria (obligatorio para todos los pagos superiores
+a 2.500,00 euros o lo que establezca en el futuro la normativa en vigor), se deberá presentar el
+justificante bancario de la transferencia o copia compulsada de la libreta donde se contempla
+el mencionado pago.
+— En el caso en que la factura sea emitida por un profesional que esté obligado a realizar
+retención de IRPF, la junta administrativa deberá abonar esa retención a la hacienda foral y
+presentar un justificante de que dicho pago se ha realizado.
+10.4. Falta de justificación o justificación insuficiente.
+El incumplimiento de la obligación de justificación de la subvención en los términos establecidos en esta ordenanza o en la normativa sobre subvenciones o la justificación insuficiente de
+la misma llevará aparejado el reintegro de las cantidades, en su caso, previamente aportadas,
+con las condiciones previstas en esta ordenanza y en la ley general de subvenciones (artículo
+37 de dicha Ley).
+10.5. El Departamento de Intervención analizará la documentación justificativa presentada
+y formulará la propuesta que corresponda, dando por válida la justificación aportada, o en
+su caso, proponiendo el reintegro de la totalidad o parte de la subvención percibida por la
+beneficiaria.
+La Alcaldía resolverá de conformidad con la propuesta de Intervención, salvo que, por
+resolución motivada decida apartarse de su criterio.
+10.6. No se concederá nueva subvención al beneficiario de no acreditarse la debida justificación de las anteriormente percibidas.
+Artículo 11. Pago de la subvención
+El cien por cien del importe total de la subvención será abonado en el momento de la revisión de la justificación que se aporta, salvo que las beneficiarias en el impreso de solicitud
+indiquen expresamente que desean percibir el cincuenta por ciento de la ayuda que se les
+concede anticipadamente, en cuyo caso, se les abonará la citada cantidad en el momento de
+aprobación de la resolución que otorgue la ayuda.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2018-00613
+miércoles, 28 de febrero de 2018 • Núm. 25
+En su caso, el abono de esa cantidad anticipada tendrá la condición de importe abonado
+a cuenta de la cantidad que finalmente les corresponde a la vista y examen de la justificación
+que se presente.
+Si habiendo recibido un pago a cuenta, finalmente no se ejecutara la obra o se recibiera el
+servicio técnico subvencionando, este ayuntamiento iniciará un procedimiento de reintegro
+de acuerdo con lo recogido en la presente ordenanza y en la ley general de subvenciones para
+que la beneficiaria proceda a la devolución de las cantidades efectivamente recibidas, además
+de los intereses de demora que legalmente procedan.
+Artículo 12. Pérdida de las subvenciones y reintegro de las cantidades percibidas
+12.1. En el supuesto en el que concurra alguna causa de nulidad o anulabilidad contempladas en los artículos 47 y 48 de la Ley 39/2015, de 01 de octubre del Procedimiento Administrativo Común de las Administraciones Públicas o se incumplan las condiciones y obligaciones
+impuestas por la normativa de subvenciones o la presente ordenanza se iniciará expediente
+de reintegro de las cantidades percibidas y la exigencia del interés de demora correspondiente
+desde el momento del pago de la subvención hasta la fecha en la que se acuerde la procedencia del reintegro o la fecha en la que el deudor reingrese la cantidad si es anterior a ésta, y se
+resolverá la pérdida de la subvención concedida.
+Asimismo, también se incoará expediente para resolver la pérdida de la subvención, y en
+su caso, reintegro de las cantidades percibidas en los siguientes casos:
+a) Obtención de la subvención falseando las condiciones requeridas para ello u ocultando
+aquellas que lo hubieran impedido.
+b) Incumplimiento total o parcial del proyecto, obra o gasto subvencionado.
+c) Incumplimiento de la obligación de justificación o justificación insuficiente, en los términos establecidos en la presente ordenanza.
+d) Que el importe de la ayuda, aisladamente o en concurrencia con otras ayudas públicas
+o privadas, supere el coste de la obra o servicio técnico subvencionado.
+e) La no comunicación al Ayuntamiento de Ayala de la concesión de otras subvenciones
+públicas o privadas, aunque ya se hubiera aprobado por el Ayuntamiento de Ayala la liquidación oportuna.
+f) La resistencia, excusa, obstrucción o negativa a las actuaciones de comprobación y control financiero de la obra o servicio subvencionado.
+g) Y, en general, el incumplimiento de cualquiera de las obligaciones qeu se fijan en la
+presente ordenanza.
+12.2. El procedimiento para la determinación de la pérdida de la subvención y reintegro
+de las cantidades percibidas, en su caso, se tramitarán de acuerdo con lo regulado en la Ley
+39/2015, de 1 de octubre del Procedimiento Administrativo Común de las Administraciones
+Públicas, garantizándose, en todo caso, la audiencia a los interesados.
+El plazo máximo para resolver y notificar la resolución del procedimiento será de doce
+meses, contado desde la feha de acuerdo de iniciación. Transcurrido dicho plazo, se producirá
+la caducidad del procedimiento, sin perjuicio de la posibilidad de instar uno nuevo dentro del
+periodo de prescripción.
+Artículo 13. Infracciones y sanciones
+El incumplimiento de cualquiera de los requisitos establecidos en estas bases, además ,así
+lo considera el órgano concedente, la iniciación del procedimiento de infracción y sus correspondientes sanciones administrativas, conforme a lo expuesto en el título V, de la Ley 35/2003,
+de 17 de noviembre, general de Subvenciones.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2018-00613
+miércoles, 28 de febrero de 2018 • Núm. 25
+Disposición Final
+Esta ordenanza general municipal, una vez aprobada definitivamente por el pleno de la
+corporación, se publicará íntegramente en el BOTHA, de conformidad con lo establecido en el
+artículo 70.2, de la Ley 7/1985, de 2 de abril, reguladora de las Bases de Régimen Local y entrará
+en vigor transcurrido el plazo de quince días hábiles previstos en el artículo 65.2 del mismo
+texto legal, contado a partir del día siguiente al de la citada publicación.
+Respaldiza, a 12 de febrero de 2018
+El Alcalde-Presidente
+GENTZA ALAMILLO UDAETA
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2018-00613
+miércoles, 28 de febrero de 2018 • Núm. 25
+Bº La Iglesia, nº 3 - 01476 ARESPALDITZA (AIARA-ÁLAVA)
+Teléfono. 945 39 90 13
+Fax. 945 39 93 31
+www.aiarakoudala.eus
+I. ERANSKINA /ANEXO I
+ADMINISTRAZIO BATZARRAK / JUNTAS ADMINISTRATIVAS
+OBRAK EGITEKO GASTUETARAKO DIRU-LAGUNTZEN ESKARIA
+SOLICITUD DE SUBVENCION PARA GASTOS DE EJECUCIÓN DE OBRAS
+ESKATZAILEA / SOLICITANTE
+ADMINISTRAZIO BATZARRA /JUNTA ADMINISTRATIVA
+IKZ / NIF
+ERREGIDORE - PRESIDENTEA /REGIDOR/A - PRESIDENTE/A
+NAN / DNI
+Posta helbidea / Dirección postal
+Telefonoa / Teléfono
+Mugikorra / Móvil
+Posta elektronikoa / Correo electrónico
+ZEIN OBRATARAKO ESKATZEN DEN DIRU-LAGUNTZA / OBRA PARA LA QUE SE SOLICITA SUBVENCIÓN
+Obraren izena / Denominación de la obra:
+Aurrekontua (Guztira BEZa barne):
+Presupuesto(Coste total IVA incluido):
+OBRA MOTA (seinalatu X batekin dagokiona) / TIPO OBRA (señalar con una X la que proceda):
+Oinarrizko azpiegitura / Infraestructura básica.
+Ekipamendu- eta zerbitzu-obrak / Obras de equipamiento y servicios.
+Landa- eta abeltzaintza-bideetako obrak (honako hauek salbu: baso-bideak eta ordenantza
+arautzailean laugarren puntuan, oinarrizko azpiegituren obrei dagokien puntuan, jasotakoa) /
+Obras en caminos rurales y ganaderos(excluidos forestales y excepto lo recogido en el punto cuarto de las obras
+de infraestructura básica de la ordenanza reguladora).
+Biztanle iraunkorrik ez dagoen herriguneetan egin nahi diren obrak /
+Obras que se proyecten realizar en núcleos de población que carezcan de habita

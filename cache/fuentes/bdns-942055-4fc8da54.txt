@@ -1,56 +1,55 @@
 ### Ficha oficial: https://udal.egoitza.gipuzkoa.eus/WAS/AYTO/USCServicioCiudadanoVer15WEB/home.do?ayto=83&lista=1
-Sede electr�nica Lasarte-Oriako
+Sede electrónica Lasarte-Oriako
 [ServletException in:/jsps/home.jsp] No getter method for property subtituloen of bean bloque'
 Tramitando datos de expediente.
 Por favor espere
 x
-Asistencia inform�tica online
-Bienvenido/a al Servicio de Asistencia Inform�tica Online de la sede electr�nica
-S�LO PREGUNTAS SOBRE TEMAS INFORM�TICOS
-El Servicio de Asistencia Inform�tica Online es un chat que le ayuda a navegar por la sede electr�nica.
-En caso necesario y previa autorizaci�n por su parte, el personal t�cnico podr� incluso ver en sus pantallas las aplicaciones que usted tenga en funcionamiento en su ordenador, y navegar por internet compartiendo la misma sesi�n, todo en tiempo real. De esta manera, puede resolver las dudas y solucionar las incidencias que se le presenten en:
-La sede electr�nica de las entidades de Gipuzkoa adheridas a esta plataforma
-Las formas de obtener las credenciales para acceder a la sede electr�nica
+Asistencia informática online
+Bienvenido/a al Servicio de Asistencia Informática Online de la sede electrónica
+SÓLO PREGUNTAS SOBRE TEMAS INFORMÁTICOS
+El Servicio de Asistencia Informática Online es un chat que le ayuda a navegar por la sede electrónica.
+En caso necesario y previa autorización por su parte, el personal técnico podrá incluso ver en sus pantallas las aplicaciones que usted tenga en funcionamiento en su ordenador, y navegar por internet compartiendo la misma sesión, todo en tiempo real. De esta manera, puede resolver las dudas y solucionar las incidencias que se le presenten en:
+La sede electrónica de las entidades de Gipuzkoa adheridas a esta plataforma
+Las formas de obtener las credenciales para acceder a la sede electrónica
 Horario
 Lunes a Viernes:
 De 8:00 a 15:00 horas
 Nota importante
-Este Servicio de Asistencia Inform�tica Online s�lo atiende preguntas sobre temas t�cnicos de acceso a la plataforma y dudas relacionadas con la obtenci�n de las credenciales de acceso.
-Si quiere realizar preguntas espec�ficas sobre otros aspectos de la tramitaci�n, deber� ponerse en contacto con la entidad que presta el servicio en el que est� interesado o con su KZgunea m�s pr�ximo: www.kzgunea.net.
+Este Servicio de Asistencia Informática Online sólo atiende preguntas sobre temas técnicos de acceso a la plataforma y dudas relacionadas con la obtención de las credenciales de acceso.
+Si quiere realizar preguntas específicas sobre otros aspectos de la tramitación, deberá ponerse en contacto con la entidad que presta el servicio en el que está interesado o con su KZgunea más próximo: www.kzgunea.net.
 Certificado digital
-�Necesitas ayuda para utilizar tu certificado digital?
+¿Necesitas ayuda para utilizar tu certificado digital?
 Cerrar
 x
-Calendario de la sede electr�nica
-D�as inh�biles para c�mputo de plazos
-En el c�mputo de plazos de los tr�mites fijados en d�as h�biles, se considerar�n inh�biles adem�s de los s�bados y los domingos, los festivos declarados como tales en los calendarios oficiales del Territorio Hist�rico de Gipuzkoa y de la entidad que est� consultando. Por lo tanto, estos son los d�as inh�biles (adem�s de los sabados y domingos) para este a�o 2026:
-La presentaci�n en un d�a inh�bil se entender� realizada en la primera hora del primer d�a h�bil siguiente, salvo que la norma permita expresamente la recepci�n en d�a inh�bil.
+Calendario de la sede electrónica
+Días inhábiles para cómputo de plazos
+En el cómputo de plazos de los trámites fijados en días hábiles, se considerarán inhábiles además de los sábados y los domingos, los festivos declarados como tales en los calendarios oficiales del Territorio Histórico de Gipuzkoa y de la entidad que está consultando. Por lo tanto, estos son los días inhábiles (además de los sabados y domingos) para este año 2026:
+La presentación en un día inhábil se entenderá realizada en la primera hora del primer día hábil siguiente, salvo que la norma permita expresamente la recepción en día inhábil.
 Cerrar
 &times;
-Notificaci�n electr�nica
-Qu� es la notificaci�n electr�nica
-La notificaci�n electr�nica es la publicaci�n en la Sede Electr�nica de una comunicaci�n administrativa con consecuencias jur�dicas, como pueden ser el comienzo del plazo para contestar o presentar documentaci�n, presentar alegaciones o recursos, etc.
-La persona destinataria de la notificaci�n o las personas previamente autorizadas por ella pueden acceder a la notificaci�n, previa identificaci�n con certificado de firma electr�nica reconocida.
-La notificaci�n electr�nica sustituye a la notificaci�n tradicional en papel.
-La firma del acuse de recibo de la notificaci�n tradicional en papel se sustituye por una firma con clave operativa o certificado de firma electr�nica en la sede electr�nica.
-La persona destinataria de la notificaci�n o sus representantes autorizados pueden acceder a la notificaci�n desde la sede electr�nica haciendo uso de su firma electr�nica. En el momento de la puesta a disposici�n de la notificaci�n esas personas recibir�n un aviso v�a correo electr�nico de que disponen de una notificaci�n electr�nica. Para recibir dicho aviso es necesario haber dado de alta una direcci�n de correo electr�nica operativa. Este correo electr�nico no es una notificaci�n sino un simple aviso de que existe una notificaci�n a la que se puede acceder.
-Cuando cualquiera de las personas facultadas para ello acceda a la notificaci�n �sta se entender� practicada. No obstante, el resto de personas facultadas tambi�n podr�n acceder al contenido de la notificaci�n y conocer qui�n y cu�ndo lo ha recepcionado.
-Transcurridos 10 d�as naturales desde la puesta a disposici�n de la notificaci�n en la sede electr�nica sin que nadie haya accedido a la misma se considera realizada la notificaci�n y se contin�a con el procedimiento, sin que sea necesaria la publicaci�n en el Bolet�n Oficial.
-C�mo acceder al buz�n de notificaciones electr�nicas
+Notificación electrónica
+Qué es la notificación electrónica
+La notificación electrónica es la publicación en la Sede Electrónica de una comunicación administrativa con consecuencias jurídicas, como pueden ser el comienzo del plazo para contestar o presentar documentación, presentar alegaciones o recursos, etc.
+La persona destinataria de la notificación o las personas previamente autorizadas por ella pueden acceder a la notificación, previa identificación con certificado de firma electrónica reconocida.
+La notificación electrónica sustituye a la notificación tradicional en papel.
+La firma del acuse de recibo de la notificación tradicional en papel se sustituye por una firma con clave operativa o certificado de firma electrónica en la sede electrónica.
+La persona destinataria de la notificación o sus representantes autorizados pueden acceder a la notificación desde la sede electrónica haciendo uso de su firma electrónica. En el momento de la puesta a disposición de la notificación esas personas recibirán un aviso vía correo electrónico de que disponen de una notificación electrónica. Para recibir dicho aviso es necesario haber dado de alta una dirección de correo electrónica operativa. Este correo electrónico no es una notificación sino un simple aviso de que existe una notificación a la que se puede acceder.
+Cuando cualquiera de las personas facultadas para ello acceda a la notificación ésta se entenderá practicada. No obstante, el resto de personas facultadas también podrán acceder al contenido de la notificación y conocer quién y cuándo lo ha recepcionado.
+Transcurridos 10 días naturales desde la puesta a disposición de la notificación en la sede electrónica sin que nadie haya accedido a la misma se considera realizada la notificación y se continúa con el procedimiento, sin que sea necesaria la publicación en el Boletín Oficial.
+Cómo acceder al buzón de notificaciones electrónicas
 En nombre propio
-El acceso al Buz�n de notificaciones electr�nicas requiere identificarse en la Sede Electr�nica mediante firma electr�nica. Existen varios tipos de firma electr�nica disponibles:
-Clave operativa emitida por la Diputaci�n Foral de Gipuzkoa.
+El acceso al Buzón de notificaciones electrónicas requiere identificarse en la Sede Electrónica mediante firma electrónica. Existen varios tipos de firma electrónica disponibles:
+Clave operativa emitida por la Diputación Foral de Gipuzkoa.
 B@k-Q de Izenpe
-Certificados de firma electr�nica
+Certificados de firma electrónica
 Cerrar
 &times;
-Notificaci�n electr�nica
 Cerrar
 &times;
-Selecci�n de usuario
+Selección de usuario
 &times;
 Aviso
-No ha sido posible abrir una nueva ventana en su navegador, revise por favor que tenga desactivado el bloqueador de ventanas emergentes. En caso contrario, desact�velo y si el error persiste p�ngase en contacto con la Asistencia Online.
+No ha sido posible abrir una nueva ventana en su navegador, revise por favor que tenga desactivado el bloqueador de ventanas emergentes. En caso contrario, desactívelo y si el error persiste póngase en contacto con la Asistencia Online.
 Cerrar
 &times;
 ???en_US.aviso.legal.texto???
@@ -168,67 +167,66 @@ Egiaztatu dokumentu honen osotasuna eta sinadura hurrengo URL edo QR kodean sart
 Compruebe la integridad y firma de este documento, accediendo a la siguiente URL o código QR: https://udal.egoitza.gipuzkoa.eus?De=08310
 
 ### Bases reguladoras: https://udal.egoitza.gipuzkoa.eus/WAS/AYTO/USCServicioCiudadanoVer15WEB/segundaPag.do
-Sede electr�nica
+Sede electrónica
 Entidad no adherida
-La entidad seleccionada no utiliza esta herramienta para ofrecer su sede electr�nica.
-Por favor, pruebe con alguna de las siguientes p�ginas:
-Seleccione una entidad que utilice la aplicaci�n.
+La entidad seleccionada no utiliza esta herramienta para ofrecer su sede electrónica.
+Por favor, pruebe con alguna de las siguientes páginas:
+Seleccione una entidad que utilice la aplicación.
 Tramitando datos de expediente.
 Por favor espere
 x
-Asistencia inform�tica online
-Bienvenido/a al Servicio de Asistencia Inform�tica Online de la sede electr�nica
-S�LO PREGUNTAS SOBRE TEMAS INFORM�TICOS
-El Servicio de Asistencia Inform�tica Online es un chat que le ayuda a navegar por la sede electr�nica.
-En caso necesario y previa autorizaci�n por su parte, el personal t�cnico podr� incluso ver en sus pantallas las aplicaciones que usted tenga en funcionamiento en su ordenador, y navegar por internet compartiendo la misma sesi�n, todo en tiempo real. De esta manera, puede resolver las dudas y solucionar las incidencias que se le presenten en:
-La sede electr�nica de las entidades de Gipuzkoa adheridas a esta plataforma
-Las formas de obtener las credenciales para acceder a la sede electr�nica
+Asistencia informática online
+Bienvenido/a al Servicio de Asistencia Informática Online de la sede electrónica
+SÓLO PREGUNTAS SOBRE TEMAS INFORMÁTICOS
+El Servicio de Asistencia Informática Online es un chat que le ayuda a navegar por la sede electrónica.
+En caso necesario y previa autorización por su parte, el personal técnico podrá incluso ver en sus pantallas las aplicaciones que usted tenga en funcionamiento en su ordenador, y navegar por internet compartiendo la misma sesión, todo en tiempo real. De esta manera, puede resolver las dudas y solucionar las incidencias que se le presenten en:
+La sede electrónica de las entidades de Gipuzkoa adheridas a esta plataforma
+Las formas de obtener las credenciales para acceder a la sede electrónica
 Horario
 Lunes a Viernes:
 De 8:00 a 15:00 horas
 Nota importante
-Este Servicio de Asistencia Inform�tica Online s�lo atiende preguntas sobre temas t�cnicos de acceso a la plataforma y dudas relacionadas con la obtenci�n de las credenciales de acceso.
-Si quiere realizar preguntas espec�ficas sobre otros aspectos de la tramitaci�n, deber� ponerse en contacto con la entidad que presta el servicio en el que est� interesado o con su KZgunea m�s pr�ximo: www.kzgunea.net.
+Este Servicio de Asistencia Informática Online sólo atiende preguntas sobre temas técnicos de acceso a la plataforma y dudas relacionadas con la obtención de las credenciales de acceso.
+Si quiere realizar preguntas específicas sobre otros aspectos de la tramitación, deberá ponerse en contacto con la entidad que presta el servicio en el que está interesado o con su KZgunea más próximo: www.kzgunea.net.
 Certificado digital
-�Necesitas ayuda para utilizar tu certificado digital?
+¿Necesitas ayuda para utilizar tu certificado digital?
 Cerrar
 x
-Calendario de la sede electr�nica
-D�as inh�biles para c�mputo de plazos
-En el c�mputo de plazos de los tr�mites fijados en d�as h�biles, se considerar�n inh�biles adem�s de los s�bados y los domingos, los festivos declarados como tales en los calendarios oficiales del Territorio Hist�rico de Gipuzkoa y de la entidad que est� consultando. Por lo tanto, estos son los d�as inh�biles (adem�s de los sabados y domingos) para este a�o :
-La presentaci�n en un d�a inh�bil se entender� realizada en la primera hora del primer d�a h�bil siguiente, salvo que la norma permita expresamente la recepci�n en d�a inh�bil.
+Calendario de la sede electrónica
+Días inhábiles para cómputo de plazos
+En el cómputo de plazos de los trámites fijados en días hábiles, se considerarán inhábiles además de los sábados y los domingos, los festivos declarados como tales en los calendarios oficiales del Territorio Histórico de Gipuzkoa y de la entidad que está consultando. Por lo tanto, estos son los días inhábiles (además de los sabados y domingos) para este año :
+La presentación en un día inhábil se entenderá realizada en la primera hora del primer día hábil siguiente, salvo que la norma permita expresamente la recepción en día inhábil.
 Cerrar
 &times;
-Notificaci�n electr�nica
-Qu� es la notificaci�n electr�nica
-La notificaci�n electr�nica es la publicaci�n en la Sede Electr�nica de una comunicaci�n administrativa con consecuencias jur�dicas, como pueden ser el comienzo del plazo para contestar o presentar documentaci�n, presentar alegaciones o recursos, etc.
-La persona destinataria de la notificaci�n o las personas previamente autorizadas por ella pueden acceder a la notificaci�n, previa identificaci�n con certificado de firma electr�nica reconocida.
-La notificaci�n electr�nica sustituye a la notificaci�n tradicional en papel.
-La firma del acuse de recibo de la notificaci�n tradicional en papel se sustituye por una firma con clave operativa o certificado de firma electr�nica en la sede electr�nica.
-La persona destinataria de la notificaci�n o sus representantes autorizados pueden acceder a la notificaci�n desde la sede electr�nica haciendo uso de su firma electr�nica. En el momento de la puesta a disposici�n de la notificaci�n esas personas recibir�n un aviso v�a correo electr�nico de que disponen de una notificaci�n electr�nica. Para recibir dicho aviso es necesario haber dado de alta una direcci�n de correo electr�nica operativa. Este correo electr�nico no es una notificaci�n sino un simple aviso de que existe una notificaci�n a la que se puede acceder.
-Cuando cualquiera de las personas facultadas para ello acceda a la notificaci�n �sta se entender� practicada. No obstante, el resto de personas facultadas tambi�n podr�n acceder al contenido de la notificaci�n y conocer qui�n y cu�ndo lo ha recepcionado.
-Transcurridos 10 d�as naturales desde la puesta a disposici�n de la notificaci�n en la sede electr�nica sin que nadie haya accedido a la misma se considera realizada la notificaci�n y se contin�a con el procedimiento, sin que sea necesaria la publicaci�n en el Bolet�n Oficial.
-C�mo acceder al buz�n de notificaciones electr�nicas
+Notificación electrónica
+Qué es la notificación electrónica
+La notificación electrónica es la publicación en la Sede Electrónica de una comunicación administrativa con consecuencias jurídicas, como pueden ser el comienzo del plazo para contestar o presentar documentación, presentar alegaciones o recursos, etc.
+La persona destinataria de la notificación o las personas previamente autorizadas por ella pueden acceder a la notificación, previa identificación con certificado de firma electrónica reconocida.
+La notificación electrónica sustituye a la notificación tradicional en papel.
+La firma del acuse de recibo de la notificación tradicional en papel se sustituye por una firma con clave operativa o certificado de firma electrónica en la sede electrónica.
+La persona destinataria de la notificación o sus representantes autorizados pueden acceder a la notificación desde la sede electrónica haciendo uso de su firma electrónica. En el momento de la puesta a disposición de la notificación esas personas recibirán un aviso vía correo electrónico de que disponen de una notificación electrónica. Para recibir dicho aviso es necesario haber dado de alta una dirección de correo electrónica operativa. Este correo electrónico no es una notificación sino un simple aviso de que existe una notificación a la que se puede acceder.
+Cuando cualquiera de las personas facultadas para ello acceda a la notificación ésta se entenderá practicada. No obstante, el resto de personas facultadas también podrán acceder al contenido de la notificación y conocer quién y cuándo lo ha recepcionado.
+Transcurridos 10 días naturales desde la puesta a disposición de la notificación en la sede electrónica sin que nadie haya accedido a la misma se considera realizada la notificación y se continúa con el procedimiento, sin que sea necesaria la publicación en el Boletín Oficial.
+Cómo acceder al buzón de notificaciones electrónicas
 En nombre propio
-El acceso al Buz�n de notificaciones electr�nicas requiere identificarse en la Sede Electr�nica mediante firma electr�nica. Existen varios tipos de firma electr�nica disponibles:
-Clave operativa emitida por la Diputaci�n Foral de Gipuzkoa.
+El acceso al Buzón de notificaciones electrónicas requiere identificarse en la Sede Electrónica mediante firma electrónica. Existen varios tipos de firma electrónica disponibles:
+Clave operativa emitida por la Diputación Foral de Gipuzkoa.
 B@k-Q de Izenpe
-Certificados de firma electr�nica
+Certificados de firma electrónica
 Cerrar
 &times;
-Notificaci�n electr�nica
 Cerrar
 &times;
-Selecci�n de usuario
+Selección de usuario
 &times;
 Aviso
-No ha sido posible abrir una nueva ventana en su navegador, revise por favor que tenga desactivado el bloqueador de ventanas emergentes. En caso contrario, desact�velo y si el error persiste p�ngase en contacto con la Asistencia Online.
+No ha sido posible abrir una nueva ventana en su navegador, revise por favor que tenga desactivado el bloqueador de ventanas emergentes. En caso contrario, desactívelo y si el error persiste póngase en contacto con la Asistencia Online.
 Cerrar
 &times;
 ???en_US.aviso.legal.texto???
 Cerrar
 
-### calendarios oficiales del Territorio Hist�rico de Gipuzkoa y de la entidad: https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2025/09/04/c2506163.pdf
+### calendarios oficiales del Territorio Histórico de Gipuzkoa y de la entidad: https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2025/09/04/c2506163.pdf
 168
 AUTONOMIA ERKIDEGOKO ADMINISTRAZIOA
 4
@@ -314,7 +312,6 @@ EK\CV GAO-I-2025-06163
 168 zenbakia
 2025eko irailaren 4a, osteguna
 Gipuzkoako Aldizkari Ofiziala
-Boletín Oficial de Gipuzkoa
 Número 168
 Jueves, a 4 de septiembre de 2025
 ABALTZISKETA
@@ -538,7 +535,6 @@ BIDANIA-GOIATZ
 168 zenbakia
 2025eko irailaren 4a, osteguna
 Gipuzkoako Aldizkari Ofiziala
-Boletín Oficial de Gipuzkoa
 Número 168
 Jueves, a 4 de septiembre de 2025
 ERREZIL
@@ -757,7 +753,6 @@ Guadalupekoa
 168 zenbakia
 2025eko irailaren 4a, osteguna
 Gipuzkoako Aldizkari Ofiziala
-Boletín Oficial de Gipuzkoa
 Santa Ana
 biharamuna
 Número 168
