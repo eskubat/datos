@@ -1,0 +1,2147 @@
+[
+ {
+  "id": "gv",
+  "nombre": "Gobierno Vasco",
+  "alias": [
+   "gobierno vasco",
+   "eusko jaurlaritza",
+   "administracion general de la comunidad autonoma"
+  ]
+ },
+ {
+  "id": "gv-lehendakaritza",
+  "nombre": "Gobierno Vasco - Lehendakaritza",
+  "alias": [
+   "lehendakaritza",
+   "presidencia",
+   "accion exterior",
+   "euskadi global",
+   "politica exterior",
+   "secretaria general de transicion social"
+  ]
+ },
+ {
+  "id": "gv-gobernanza",
+  "nombre": "Gobierno Vasco - Departamento de Gobernanza, Administración Digital y Autogobierno",
+  "alias": [
+   "gobernanza",
+   "administracion digital",
+   "autogobierno",
+   "gobernanza publica"
+  ]
+ },
+ {
+  "id": "gv-economia",
+  "nombre": "Gobierno Vasco - Departamento de Economía, Trabajo y Empleo",
+  "alias": [
+   "economia, trabajo",
+   "trabajo y empleo",
+   "empleo, asuntos sociales",
+   "trabajo y justicia",
+   "direccion de empleo",
+   "inclusion"
+  ]
+ },
+ {
+  "id": "gv-hacienda",
+  "nombre": "Gobierno Vasco - Departamento de Hacienda y Finanzas",
+  "alias": [
+   "hacienda y finanzas",
+   "economia y hacienda"
+  ]
+ },
+ {
+  "id": "gv-educacion",
+  "nombre": "Gobierno Vasco - Departamento de Educación",
+  "alias": [
+   "educacion"
+  ]
+ },
+ {
+  "id": "gv-seguridad",
+  "nombre": "Gobierno Vasco - Departamento de Seguridad",
+  "alias": [
+   "seguridad"
+  ]
+ },
+ {
+  "id": "gv-industria",
+  "nombre": "Gobierno Vasco - Departamento de Industria, Transición Energética y Sostenibilidad",
+  "alias": [
+   "industria",
+   "transicion energetica",
+   "energia",
+   "medio ambiente",
+   "sostenibilidad",
+   "desarrollo economico",
+   "empresa e industria"
+  ]
+ },
+ {
+  "id": "gv-vivienda",
+  "nombre": "Gobierno Vasco - Departamento de Vivienda y Agenda Urbana",
+  "alias": [
+   "vivienda",
+   "agenda urbana",
+   "planificacion territorial"
+  ]
+ },
+ {
+  "id": "gv-salud",
+  "nombre": "Gobierno Vasco - Departamento de Salud",
+  "alias": [
+   "salud",
+   "sanidad"
+  ]
+ },
+ {
+  "id": "gv-bienestar",
+  "nombre": "Gobierno Vasco - Departamento de Bienestar, Juventud y Reto Demográfico",
+  "alias": [
+   "bienestar",
+   "juventud",
+   "reto demografico",
+   "politicas sociales",
+   "igualdad, justicia y politicas sociales",
+   "familias",
+   "infancia"
+  ]
+ },
+ {
+  "id": "gv-movilidad",
+  "nombre": "Gobierno Vasco - Departamento de Movilidad Sostenible",
+  "alias": [
+   "movilidad",
+   "transportes",
+   "infraestructuras"
+  ]
+ },
+ {
+  "id": "gv-cultura",
+  "nombre": "Gobierno Vasco - Departamento de Cultura y Política Lingüística",
+  "alias": [
+   "cultura",
+   "politica linguistica",
+   "euskera",
+   "deportes",
+   "deporte"
+  ]
+ },
+ {
+  "id": "gv-ciencia",
+  "nombre": "Gobierno Vasco - Departamento de Ciencia, Universidades e Innovación",
+  "alias": [
+   "ciencia",
+   "universidades",
+   "investigacion",
+   "innovacion"
+  ]
+ },
+ {
+  "id": "gv-turismo",
+  "nombre": "Gobierno Vasco - Departamento de Turismo, Comercio y Consumo",
+  "alias": [
+   "turismo",
+   "comercio",
+   "consumo"
+  ]
+ },
+ {
+  "id": "gv-alimentacion",
+  "nombre": "Gobierno Vasco - Departamento de Alimentación, Desarrollo Rural, Agricultura y Pesca",
+  "alias": [
+   "alimentacion",
+   "desarrollo rural",
+   "agricultura",
+   "pesca",
+   "puertos y litoral"
+  ]
+ },
+ {
+  "id": "gv-justicia",
+  "nombre": "Gobierno Vasco - Departamento de Justicia y Derechos Humanos",
+  "alias": [
+   "justicia",
+   "derechos humanos",
+   "memoria",
+   "convivencia"
+  ]
+ },
+ {
+  "id": "dfa",
+  "nombre": "Diputación Foral de Álava",
+  "alias": [
+   "diputacion foral de alava",
+   "diputacion foral de araba",
+   "arabako foru aldundia",
+   "dfa"
+  ]
+ },
+ {
+  "id": "dfb",
+  "nombre": "Diputación Foral de Bizkaia",
+  "alias": [
+   "diputacion foral de bizkaia",
+   "diputacion foral de vizcaya",
+   "bizkaiko foru aldundia",
+   "dfb"
+  ]
+ },
+ {
+  "id": "dfg",
+  "nombre": "Diputación Foral de Gipuzkoa",
+  "alias": [
+   "diputacion foral de gipuzkoa",
+   "diputacion foral de guipuzcoa",
+   "gipuzkoako foru aldundia",
+   "dfg"
+  ]
+ },
+ {
+  "id": "ayto-abadino",
+  "nombre": "Ayuntamiento de Abadiño",
+  "alias": [
+   "abadino"
+  ]
+ },
+ {
+  "id": "ayto-abaltzisketa",
+  "nombre": "Ayuntamiento de Abaltzisketa",
+  "alias": [
+   "abaltzisketa"
+  ]
+ },
+ {
+  "id": "ayto-abanto-zierbena",
+  "nombre": "Ayuntamiento de Abanto-Zierbena",
+  "alias": [
+   "abanto-zierbena"
+  ]
+ },
+ {
+  "id": "ayto-aduna",
+  "nombre": "Ayuntamiento de Aduna",
+  "alias": [
+   "aduna"
+  ]
+ },
+ {
+  "id": "ayto-aia",
+  "nombre": "Ayuntamiento de Aia",
+  "alias": [
+   "aia"
+  ]
+ },
+ {
+  "id": "ayto-aizarnazabal",
+  "nombre": "Ayuntamiento de Aizarnazabal",
+  "alias": [
+   "aizarnazabal"
+  ]
+ },
+ {
+  "id": "ayto-ajangiz",
+  "nombre": "Ayuntamiento de Ajangiz",
+  "alias": [
+   "ajangiz"
+  ]
+ },
+ {
+  "id": "ayto-albiztur",
+  "nombre": "Ayuntamiento de Albiztur",
+  "alias": [
+   "albiztur"
+  ]
+ },
+ {
+  "id": "ayto-alegia",
+  "nombre": "Ayuntamiento de Alegia",
+  "alias": [
+   "alegia"
+  ]
+ },
+ {
+  "id": "ayto-alegria-dulantzi",
+  "nombre": "Ayuntamiento de Alegría-Dulantzi",
+  "alias": [
+   "alegria-dulantzi"
+  ]
+ },
+ {
+  "id": "ayto-alkiza",
+  "nombre": "Ayuntamiento de Alkiza",
+  "alias": [
+   "alkiza"
+  ]
+ },
+ {
+  "id": "ayto-alonsotegi",
+  "nombre": "Ayuntamiento de Alonsotegi",
+  "alias": [
+   "alonsotegi"
+  ]
+ },
+ {
+  "id": "ayto-altzaga",
+  "nombre": "Ayuntamiento de Altzaga",
+  "alias": [
+   "altzaga"
+  ]
+ },
+ {
+  "id": "ayto-altzo",
+  "nombre": "Ayuntamiento de Altzo",
+  "alias": [
+   "altzo"
+  ]
+ },
+ {
+  "id": "ayto-amasa-villabona",
+  "nombre": "Ayuntamiento de Amasa-Villabona",
+  "alias": [
+   "amasa-villabona"
+  ]
+ },
+ {
+  "id": "ayto-amezketa",
+  "nombre": "Ayuntamiento de Amezketa",
+  "alias": [
+   "amezketa"
+  ]
+ },
+ {
+  "id": "ayto-amorebieta-etxano",
+  "nombre": "Ayuntamiento de Amorebieta-Etxano",
+  "alias": [
+   "amorebieta-etxano"
+  ]
+ },
+ {
+  "id": "ayto-amoroto",
+  "nombre": "Ayuntamiento de Amoroto",
+  "alias": [
+   "amoroto"
+  ]
+ },
+ {
+  "id": "ayto-amurrio",
+  "nombre": "Ayuntamiento de Amurrio",
+  "alias": [
+   "amurrio"
+  ]
+ },
+ {
+  "id": "ayto-andoain",
+  "nombre": "Ayuntamiento de Andoain",
+  "alias": [
+   "andoain"
+  ]
+ },
+ {
+  "id": "ayto-anoeta",
+  "nombre": "Ayuntamiento de Anoeta",
+  "alias": [
+   "anoeta"
+  ]
+ },
+ {
+  "id": "ayto-antzuola",
+  "nombre": "Ayuntamiento de Antzuola",
+  "alias": [
+   "antzuola"
+  ]
+ },
+ {
+  "id": "ayto-arakaldo",
+  "nombre": "Ayuntamiento de Arakaldo",
+  "alias": [
+   "arakaldo"
+  ]
+ },
+ {
+  "id": "ayto-arama",
+  "nombre": "Ayuntamiento de Arama",
+  "alias": [
+   "arama"
+  ]
+ },
+ {
+  "id": "ayto-aramaio",
+  "nombre": "Ayuntamiento de Aramaio",
+  "alias": [
+   "aramaio"
+  ]
+ },
+ {
+  "id": "ayto-arantzazu",
+  "nombre": "Ayuntamiento de Arantzazu",
+  "alias": [
+   "arantzazu"
+  ]
+ },
+ {
+  "id": "ayto-areatza",
+  "nombre": "Ayuntamiento de Areatza",
+  "alias": [
+   "areatza"
+  ]
+ },
+ {
+  "id": "ayto-aretxabaleta",
+  "nombre": "Ayuntamiento de Aretxabaleta",
+  "alias": [
+   "aretxabaleta"
+  ]
+ },
+ {
+  "id": "ayto-arminon",
+  "nombre": "Ayuntamiento de Armiñón",
+  "alias": [
+   "arminon"
+  ]
+ },
+ {
+  "id": "ayto-arraia-maeztu",
+  "nombre": "Ayuntamiento de Arraia-Maeztu",
+  "alias": [
+   "arraia-maeztu"
+  ]
+ },
+ {
+  "id": "ayto-arrankudiaga-zollo",
+  "nombre": "Ayuntamiento de Arrankudiaga-Zollo",
+  "alias": [
+   "arrankudiaga-zollo"
+  ]
+ },
+ {
+  "id": "ayto-arrasate-mondragon",
+  "nombre": "Ayuntamiento de Arrasate/Mondragón",
+  "alias": [
+   "arrasate/mondragon"
+  ]
+ },
+ {
+  "id": "ayto-arratzu",
+  "nombre": "Ayuntamiento de Arratzu",
+  "alias": [
+   "arratzu"
+  ]
+ },
+ {
+  "id": "ayto-arrazua-ubarrundia",
+  "nombre": "Ayuntamiento de Arrazua-Ubarrundia",
+  "alias": [
+   "arrazua-ubarrundia"
+  ]
+ },
+ {
+  "id": "ayto-arrieta",
+  "nombre": "Ayuntamiento de Arrieta",
+  "alias": [
+   "arrieta"
+  ]
+ },
+ {
+  "id": "ayto-arrigorriaga",
+  "nombre": "Ayuntamiento de Arrigorriaga",
+  "alias": [
+   "arrigorriaga"
+  ]
+ },
+ {
+  "id": "ayto-artea",
+  "nombre": "Ayuntamiento de Artea",
+  "alias": [
+   "artea"
+  ]
+ },
+ {
+  "id": "ayto-artzentales",
+  "nombre": "Ayuntamiento de Artzentales",
+  "alias": [
+   "artzentales"
+  ]
+ },
+ {
+  "id": "ayto-artziniega",
+  "nombre": "Ayuntamiento de Artziniega",
+  "alias": [
+   "artziniega"
+  ]
+ },
+ {
+  "id": "ayto-asparrena",
+  "nombre": "Ayuntamiento de Asparrena",
+  "alias": [
+   "asparrena"
+  ]
+ },
+ {
+  "id": "ayto-asteasu",
+  "nombre": "Ayuntamiento de Asteasu",
+  "alias": [
+   "asteasu"
+  ]
+ },
+ {
+  "id": "ayto-astigarraga",
+  "nombre": "Ayuntamiento de Astigarraga",
+  "alias": [
+   "astigarraga"
+  ]
+ },
+ {
+  "id": "ayto-ataun",
+  "nombre": "Ayuntamiento de Ataun",
+  "alias": [
+   "ataun"
+  ]
+ },
+ {
+  "id": "ayto-atxondo",
+  "nombre": "Ayuntamiento de Atxondo",
+  "alias": [
+   "atxondo"
+  ]
+ },
+ {
+  "id": "ayto-aulesti",
+  "nombre": "Ayuntamiento de Aulesti",
+  "alias": [
+   "aulesti"
+  ]
+ },
+ {
+  "id": "ayto-ayala-aiara",
+  "nombre": "Ayuntamiento de Ayala/Aiara",
+  "alias": [
+   "ayala/aiara"
+  ]
+ },
+ {
+  "id": "ayto-azkoitia",
+  "nombre": "Ayuntamiento de Azkoitia",
+  "alias": [
+   "azkoitia"
+  ]
+ },
+ {
+  "id": "ayto-azpeitia",
+  "nombre": "Ayuntamiento de Azpeitia",
+  "alias": [
+   "azpeitia"
+  ]
+ },
+ {
+  "id": "ayto-anana",
+  "nombre": "Ayuntamiento de Añana",
+  "alias": [
+   "anana"
+  ]
+ },
+ {
+  "id": "ayto-bakio",
+  "nombre": "Ayuntamiento de Bakio",
+  "alias": [
+   "bakio"
+  ]
+ },
+ {
+  "id": "ayto-baliarrain",
+  "nombre": "Ayuntamiento de Baliarrain",
+  "alias": [
+   "baliarrain"
+  ]
+ },
+ {
+  "id": "ayto-balmaseda",
+  "nombre": "Ayuntamiento de Balmaseda",
+  "alias": [
+   "balmaseda"
+  ]
+ },
+ {
+  "id": "ayto-barakaldo",
+  "nombre": "Ayuntamiento de Barakaldo",
+  "alias": [
+   "barakaldo"
+  ]
+ },
+ {
+  "id": "ayto-barrika",
+  "nombre": "Ayuntamiento de Barrika",
+  "alias": [
+   "barrika"
+  ]
+ },
+ {
+  "id": "ayto-barrundia",
+  "nombre": "Ayuntamiento de Barrundia",
+  "alias": [
+   "barrundia"
+  ]
+ },
+ {
+  "id": "ayto-basauri",
+  "nombre": "Ayuntamiento de Basauri",
+  "alias": [
+   "basauri"
+  ]
+ },
+ {
+  "id": "ayto-banos-de-ebro-manueta",
+  "nombre": "Ayuntamiento de Baños de Ebro/Mañueta",
+  "alias": [
+   "banos de ebro/manueta"
+  ]
+ },
+ {
+  "id": "ayto-beasain",
+  "nombre": "Ayuntamiento de Beasain",
+  "alias": [
+   "beasain"
+  ]
+ },
+ {
+  "id": "ayto-bedia",
+  "nombre": "Ayuntamiento de Bedia",
+  "alias": [
+   "bedia"
+  ]
+ },
+ {
+  "id": "ayto-beizama",
+  "nombre": "Ayuntamiento de Beizama",
+  "alias": [
+   "beizama"
+  ]
+ },
+ {
+  "id": "ayto-belauntza",
+  "nombre": "Ayuntamiento de Belauntza",
+  "alias": [
+   "belauntza"
+  ]
+ },
+ {
+  "id": "ayto-berango",
+  "nombre": "Ayuntamiento de Berango",
+  "alias": [
+   "berango"
+  ]
+ },
+ {
+  "id": "ayto-berantevilla",
+  "nombre": "Ayuntamiento de Berantevilla",
+  "alias": [
+   "berantevilla"
+  ]
+ },
+ {
+  "id": "ayto-berastegi",
+  "nombre": "Ayuntamiento de Berastegi",
+  "alias": [
+   "berastegi"
+  ]
+ },
+ {
+  "id": "ayto-bergara",
+  "nombre": "Ayuntamiento de Bergara",
+  "alias": [
+   "bergara"
+  ]
+ },
+ {
+  "id": "ayto-bermeo",
+  "nombre": "Ayuntamiento de Bermeo",
+  "alias": [
+   "bermeo"
+  ]
+ },
+ {
+  "id": "ayto-bernedo",
+  "nombre": "Ayuntamiento de Bernedo",
+  "alias": [
+   "bernedo"
+  ]
+ },
+ {
+  "id": "ayto-berriatua",
+  "nombre": "Ayuntamiento de Berriatua",
+  "alias": [
+   "berriatua"
+  ]
+ },
+ {
+  "id": "ayto-berriz",
+  "nombre": "Ayuntamiento de Berriz",
+  "alias": [
+   "berriz"
+  ]
+ },
+ {
+  "id": "ayto-berrobi",
+  "nombre": "Ayuntamiento de Berrobi",
+  "alias": [
+   "berrobi"
+  ]
+ },
+ {
+  "id": "ayto-bidania-goiatz",
+  "nombre": "Ayuntamiento de Bidania-Goiatz",
+  "alias": [
+   "bidania-goiatz"
+  ]
+ },
+ {
+  "id": "ayto-bilbao",
+  "nombre": "Ayuntamiento de Bilbao",
+  "alias": [
+   "bilbao"
+  ]
+ },
+ {
+  "id": "ayto-busturia",
+  "nombre": "Ayuntamiento de Busturia",
+  "alias": [
+   "busturia"
+  ]
+ },
+ {
+  "id": "ayto-campezo-kanpezu",
+  "nombre": "Ayuntamiento de Campezo/Kanpezu",
+  "alias": [
+   "campezo/kanpezu"
+  ]
+ },
+ {
+  "id": "ayto-deba",
+  "nombre": "Ayuntamiento de Deba",
+  "alias": [
+   "deba"
+  ]
+ },
+ {
+  "id": "ayto-derio",
+  "nombre": "Ayuntamiento de Derio",
+  "alias": [
+   "derio"
+  ]
+ },
+ {
+  "id": "ayto-dima",
+  "nombre": "Ayuntamiento de Dima",
+  "alias": [
+   "dima"
+  ]
+ },
+ {
+  "id": "ayto-donostia-san-sebastian",
+  "nombre": "Ayuntamiento de Donostia / San Sebastián",
+  "alias": [
+   "donostia / san sebastian"
+  ]
+ },
+ {
+  "id": "ayto-durango",
+  "nombre": "Ayuntamiento de Durango",
+  "alias": [
+   "durango"
+  ]
+ },
+ {
+  "id": "ayto-ea",
+  "nombre": "Ayuntamiento de Ea",
+  "alias": [
+   "ea"
+  ]
+ },
+ {
+  "id": "ayto-eibar",
+  "nombre": "Ayuntamiento de Eibar",
+  "alias": [
+   "eibar"
+  ]
+ },
+ {
+  "id": "ayto-elantxobe",
+  "nombre": "Ayuntamiento de Elantxobe",
+  "alias": [
+   "elantxobe"
+  ]
+ },
+ {
+  "id": "ayto-elburgo-burgelu",
+  "nombre": "Ayuntamiento de Elburgo/Burgelu",
+  "alias": [
+   "elburgo/burgelu"
+  ]
+ },
+ {
+  "id": "ayto-elciego",
+  "nombre": "Ayuntamiento de Elciego",
+  "alias": [
+   "elciego"
+  ]
+ },
+ {
+  "id": "ayto-elduain",
+  "nombre": "Ayuntamiento de Elduain",
+  "alias": [
+   "elduain"
+  ]
+ },
+ {
+  "id": "ayto-elgeta",
+  "nombre": "Ayuntamiento de Elgeta",
+  "alias": [
+   "elgeta"
+  ]
+ },
+ {
+  "id": "ayto-elgoibar",
+  "nombre": "Ayuntamiento de Elgoibar",
+  "alias": [
+   "elgoibar"
+  ]
+ },
+ {
+  "id": "ayto-elorrio",
+  "nombre": "Ayuntamiento de Elorrio",
+  "alias": [
+   "elorrio"
+  ]
+ },
+ {
+  "id": "ayto-elvillar-bilar",
+  "nombre": "Ayuntamiento de Elvillar/Bilar",
+  "alias": [
+   "elvillar/bilar"
+  ]
+ },
+ {
+  "id": "ayto-erandio",
+  "nombre": "Ayuntamiento de Erandio",
+  "alias": [
+   "erandio"
+  ]
+ },
+ {
+  "id": "ayto-ereno",
+  "nombre": "Ayuntamiento de Ereño",
+  "alias": [
+   "ereno"
+  ]
+ },
+ {
+  "id": "ayto-ermua",
+  "nombre": "Ayuntamiento de Ermua",
+  "alias": [
+   "ermua"
+  ]
+ },
+ {
+  "id": "ayto-errenteria",
+  "nombre": "Ayuntamiento de Errenteria",
+  "alias": [
+   "errenteria"
+  ]
+ },
+ {
+  "id": "ayto-errezil",
+  "nombre": "Ayuntamiento de Errezil",
+  "alias": [
+   "errezil"
+  ]
+ },
+ {
+  "id": "ayto-erriberagoitia-ribera-alta",
+  "nombre": "Ayuntamiento de Erriberagoitia/Ribera Alta",
+  "alias": [
+   "erriberagoitia/ribera alta"
+  ]
+ },
+ {
+  "id": "ayto-errigoiti",
+  "nombre": "Ayuntamiento de Errigoiti",
+  "alias": [
+   "errigoiti"
+  ]
+ },
+ {
+  "id": "ayto-eskoriatza",
+  "nombre": "Ayuntamiento de Eskoriatza",
+  "alias": [
+   "eskoriatza"
+  ]
+ },
+ {
+  "id": "ayto-etxebarri",
+  "nombre": "Ayuntamiento de Etxebarri",
+  "alias": [
+   "etxebarri"
+  ]
+ },
+ {
+  "id": "ayto-etxebarria",
+  "nombre": "Ayuntamiento de Etxebarria",
+  "alias": [
+   "etxebarria"
+  ]
+ },
+ {
+  "id": "ayto-ezkio-itsaso",
+  "nombre": "Ayuntamiento de Ezkio-Itsaso",
+  "alias": [
+   "ezkio-itsaso"
+  ]
+ },
+ {
+  "id": "ayto-forua",
+  "nombre": "Ayuntamiento de Forua",
+  "alias": [
+   "forua"
+  ]
+ },
+ {
+  "id": "ayto-fruiz",
+  "nombre": "Ayuntamiento de Fruiz",
+  "alias": [
+   "fruiz"
+  ]
+ },
+ {
+  "id": "ayto-gabiria",
+  "nombre": "Ayuntamiento de Gabiria",
+  "alias": [
+   "gabiria"
+  ]
+ },
+ {
+  "id": "ayto-gaintza",
+  "nombre": "Ayuntamiento de Gaintza",
+  "alias": [
+   "gaintza"
+  ]
+ },
+ {
+  "id": "ayto-galdakao",
+  "nombre": "Ayuntamiento de Galdakao",
+  "alias": [
+   "galdakao"
+  ]
+ },
+ {
+  "id": "ayto-galdames",
+  "nombre": "Ayuntamiento de Galdames",
+  "alias": [
+   "galdames"
+  ]
+ },
+ {
+  "id": "ayto-gamiz-fika",
+  "nombre": "Ayuntamiento de Gamiz-Fika",
+  "alias": [
+   "gamiz-fika"
+  ]
+ },
+ {
+  "id": "ayto-garai",
+  "nombre": "Ayuntamiento de Garai",
+  "alias": [
+   "garai"
+  ]
+ },
+ {
+  "id": "ayto-gatika",
+  "nombre": "Ayuntamiento de Gatika",
+  "alias": [
+   "gatika"
+  ]
+ },
+ {
+  "id": "ayto-gautegiz-arteaga",
+  "nombre": "Ayuntamiento de Gautegiz Arteaga",
+  "alias": [
+   "gautegiz arteaga"
+  ]
+ },
+ {
+  "id": "ayto-gaztelu",
+  "nombre": "Ayuntamiento de Gaztelu",
+  "alias": [
+   "gaztelu"
+  ]
+ },
+ {
+  "id": "ayto-gernika-lumo",
+  "nombre": "Ayuntamiento de Gernika-Lumo",
+  "alias": [
+   "gernika-lumo"
+  ]
+ },
+ {
+  "id": "ayto-getaria",
+  "nombre": "Ayuntamiento de Getaria",
+  "alias": [
+   "getaria"
+  ]
+ },
+ {
+  "id": "ayto-getxo",
+  "nombre": "Ayuntamiento de Getxo",
+  "alias": [
+   "getxo"
+  ]
+ },
+ {
+  "id": "ayto-gizaburuaga",
+  "nombre": "Ayuntamiento de Gizaburuaga",
+  "alias": [
+   "gizaburuaga"
+  ]
+ },
+ {
+  "id": "ayto-gordexola",
+  "nombre": "Ayuntamiento de Gordexola",
+  "alias": [
+   "gordexola"
+  ]
+ },
+ {
+  "id": "ayto-gorliz",
+  "nombre": "Ayuntamiento de Gorliz",
+  "alias": [
+   "gorliz"
+  ]
+ },
+ {
+  "id": "ayto-guenes",
+  "nombre": "Ayuntamiento de Güeñes",
+  "alias": [
+   "guenes"
+  ]
+ },
+ {
+  "id": "ayto-harana-valle-de-arana",
+  "nombre": "Ayuntamiento de Harana/Valle de Arana",
+  "alias": [
+   "harana/valle de arana"
+  ]
+ },
+ {
+  "id": "ayto-hernani",
+  "nombre": "Ayuntamiento de Hernani",
+  "alias": [
+   "hernani"
+  ]
+ },
+ {
+  "id": "ayto-hernialde",
+  "nombre": "Ayuntamiento de Hernialde",
+  "alias": [
+   "hernialde"
+  ]
+ },
+ {
+  "id": "ayto-hondarribia",
+  "nombre": "Ayuntamiento de Hondarribia",
+  "alias": [
+   "hondarribia"
+  ]
+ },
+ {
+  "id": "ayto-ibarra",
+  "nombre": "Ayuntamiento de Ibarra",
+  "alias": [
+   "ibarra"
+  ]
+ },
+ {
+  "id": "ayto-ibarrangelu",
+  "nombre": "Ayuntamiento de Ibarrangelu",
+  "alias": [
+   "ibarrangelu"
+  ]
+ },
+ {
+  "id": "ayto-idiazabal",
+  "nombre": "Ayuntamiento de Idiazabal",
+  "alias": [
+   "idiazabal"
+  ]
+ },
+ {
+  "id": "ayto-igorre",
+  "nombre": "Ayuntamiento de Igorre",
+  "alias": [
+   "igorre"
+  ]
+ },
+ {
+  "id": "ayto-ikaztegieta",
+  "nombre": "Ayuntamiento de Ikaztegieta",
+  "alias": [
+   "ikaztegieta"
+  ]
+ },
+ {
+  "id": "ayto-irun",
+  "nombre": "Ayuntamiento de Irun",
+  "alias": [
+   "irun"
+  ]
+ },
+ {
+  "id": "ayto-irura",
+  "nombre": "Ayuntamiento de Irura",
+  "alias": [
+   "irura"
+  ]
+ },
+ {
+  "id": "ayto-iruraiz-gauna",
+  "nombre": "Ayuntamiento de Iruraiz-Gauna",
+  "alias": [
+   "iruraiz-gauna"
+  ]
+ },
+ {
+  "id": "ayto-iruna-oka-iruna-de-oca",
+  "nombre": "Ayuntamiento de Iruña Oka/Iruña de Oca",
+  "alias": [
+   "iruna oka/iruna de oca"
+  ]
+ },
+ {
+  "id": "ayto-ispaster",
+  "nombre": "Ayuntamiento de Ispaster",
+  "alias": [
+   "ispaster"
+  ]
+ },
+ {
+  "id": "ayto-itsasondo",
+  "nombre": "Ayuntamiento de Itsasondo",
+  "alias": [
+   "itsasondo"
+  ]
+ },
+ {
+  "id": "ayto-iurreta",
+  "nombre": "Ayuntamiento de Iurreta",
+  "alias": [
+   "iurreta"
+  ]
+ },
+ {
+  "id": "ayto-izurtza",
+  "nombre": "Ayuntamiento de Izurtza",
+  "alias": [
+   "izurtza"
+  ]
+ },
+ {
+  "id": "ayto-karrantza-harana-valle-de-carranza",
+  "nombre": "Ayuntamiento de Karrantza Harana/Valle de Carranza",
+  "alias": [
+   "karrantza harana/valle de carranza"
+  ]
+ },
+ {
+  "id": "ayto-kortezubi",
+  "nombre": "Ayuntamiento de Kortezubi",
+  "alias": [
+   "kortezubi"
+  ]
+ },
+ {
+  "id": "ayto-kripan",
+  "nombre": "Ayuntamiento de Kripan",
+  "alias": [
+   "kripan"
+  ]
+ },
+ {
+  "id": "ayto-kuartango",
+  "nombre": "Ayuntamiento de Kuartango",
+  "alias": [
+   "kuartango"
+  ]
+ },
+ {
+  "id": "ayto-labastida-bastida",
+  "nombre": "Ayuntamiento de Labastida/Bastida",
+  "alias": [
+   "labastida/bastida"
+  ]
+ },
+ {
+  "id": "ayto-lagran",
+  "nombre": "Ayuntamiento de Lagrán",
+  "alias": [
+   "lagran"
+  ]
+ },
+ {
+  "id": "ayto-laguardia",
+  "nombre": "Ayuntamiento de Laguardia",
+  "alias": [
+   "laguardia"
+  ]
+ },
+ {
+  "id": "ayto-lanciego-lantziego",
+  "nombre": "Ayuntamiento de Lanciego/Lantziego",
+  "alias": [
+   "lanciego/lantziego"
+  ]
+ },
+ {
+  "id": "ayto-lanestosa",
+  "nombre": "Ayuntamiento de Lanestosa",
+  "alias": [
+   "lanestosa"
+  ]
+ },
+ {
+  "id": "ayto-lantaron",
+  "nombre": "Ayuntamiento de Lantarón",
+  "alias": [
+   "lantaron"
+  ]
+ },
+ {
+  "id": "ayto-lapuebla-de-labarca",
+  "nombre": "Ayuntamiento de Lapuebla de Labarca",
+  "alias": [
+   "lapuebla de labarca"
+  ]
+ },
+ {
+  "id": "ayto-larrabetzu",
+  "nombre": "Ayuntamiento de Larrabetzu",
+  "alias": [
+   "larrabetzu"
+  ]
+ },
+ {
+  "id": "ayto-larraul",
+  "nombre": "Ayuntamiento de Larraul",
+  "alias": [
+   "larraul"
+  ]
+ },
+ {
+  "id": "ayto-lasarte-oria",
+  "nombre": "Ayuntamiento de Lasarte-Oria",
+  "alias": [
+   "lasarte-oria"
+  ]
+ },
+ {
+  "id": "ayto-laudio-llodio",
+  "nombre": "Ayuntamiento de Laudio/Llodio",
+  "alias": [
+   "laudio/llodio"
+  ]
+ },
+ {
+  "id": "ayto-laukiz",
+  "nombre": "Ayuntamiento de Laukiz",
+  "alias": [
+   "laukiz"
+  ]
+ },
+ {
+  "id": "ayto-lazkao",
+  "nombre": "Ayuntamiento de Lazkao",
+  "alias": [
+   "lazkao"
+  ]
+ },
+ {
+  "id": "ayto-leaburu-txarama",
+  "nombre": "Ayuntamiento de Leaburu-Txarama",
+  "alias": [
+   "leaburu-txarama"
+  ]
+ },
+ {
+  "id": "ayto-legazpi",
+  "nombre": "Ayuntamiento de Legazpi",
+  "alias": [
+   "legazpi"
+  ]
+ },
+ {
+  "id": "ayto-legorreta",
+  "nombre": "Ayuntamiento de Legorreta",
+  "alias": [
+   "legorreta"
+  ]
+ },
+ {
+  "id": "ayto-legutiano",
+  "nombre": "Ayuntamiento de Legutiano",
+  "alias": [
+   "legutiano"
+  ]
+ },
+ {
+  "id": "ayto-leintz-gatzaga",
+  "nombre": "Ayuntamiento de Leintz-Gatzaga",
+  "alias": [
+   "leintz-gatzaga"
+  ]
+ },
+ {
+  "id": "ayto-leioa",
+  "nombre": "Ayuntamiento de Leioa",
+  "alias": [
+   "leioa"
+  ]
+ },
+ {
+  "id": "ayto-lekeitio",
+  "nombre": "Ayuntamiento de Lekeitio",
+  "alias": [
+   "lekeitio"
+  ]
+ },
+ {
+  "id": "ayto-lemoa",
+  "nombre": "Ayuntamiento de Lemoa",
+  "alias": [
+   "lemoa"
+  ]
+ },
+ {
+  "id": "ayto-lemoiz",
+  "nombre": "Ayuntamiento de Lemoiz",
+  "alias": [
+   "lemoiz"
+  ]
+ },
+ {
+  "id": "ayto-leza",
+  "nombre": "Ayuntamiento de Leza",
+  "alias": [
+   "leza"
+  ]
+ },
+ {
+  "id": "ayto-lezama",
+  "nombre": "Ayuntamiento de Lezama",
+  "alias": [
+   "lezama"
+  ]
+ },
+ {
+  "id": "ayto-lezo",
+  "nombre": "Ayuntamiento de Lezo",
+  "alias": [
+   "lezo"
+  ]
+ },
+ {
+  "id": "ayto-lizartza",
+  "nombre": "Ayuntamiento de Lizartza",
+  "alias": [
+   "lizartza"
+  ]
+ },
+ {
+  "id": "ayto-loiu",
+  "nombre": "Ayuntamiento de Loiu",
+  "alias": [
+   "loiu"
+  ]
+ },
+ {
+  "id": "ayto-mallabia",
+  "nombre": "Ayuntamiento de Mallabia",
+  "alias": [
+   "mallabia"
+  ]
+ },
+ {
+  "id": "ayto-markina-xemein",
+  "nombre": "Ayuntamiento de Markina-Xemein",
+  "alias": [
+   "markina-xemein"
+  ]
+ },
+ {
+  "id": "ayto-maruri-jatabe",
+  "nombre": "Ayuntamiento de Maruri-Jatabe",
+  "alias": [
+   "maruri-jatabe"
+  ]
+ },
+ {
+  "id": "ayto-manaria",
+  "nombre": "Ayuntamiento de Mañaria",
+  "alias": [
+   "manaria"
+  ]
+ },
+ {
+  "id": "ayto-mendaro",
+  "nombre": "Ayuntamiento de Mendaro",
+  "alias": [
+   "mendaro"
+  ]
+ },
+ {
+  "id": "ayto-mendata",
+  "nombre": "Ayuntamiento de Mendata",
+  "alias": [
+   "mendata"
+  ]
+ },
+ {
+  "id": "ayto-mendexa",
+  "nombre": "Ayuntamiento de Mendexa",
+  "alias": [
+   "mendexa"
+  ]
+ },
+ {
+  "id": "ayto-menaka",
+  "nombre": "Ayuntamiento de Meñaka",
+  "alias": [
+   "menaka"
+  ]
+ },
+ {
+  "id": "ayto-moreda-de-alava",
+  "nombre": "Ayuntamiento de Moreda de Álava",
+  "alias": [
+   "moreda de alava"
+  ]
+ },
+ {
+  "id": "ayto-morga",
+  "nombre": "Ayuntamiento de Morga",
+  "alias": [
+   "morga"
+  ]
+ },
+ {
+  "id": "ayto-mundaka",
+  "nombre": "Ayuntamiento de Mundaka",
+  "alias": [
+   "mundaka"
+  ]
+ },
+ {
+  "id": "ayto-mungia",
+  "nombre": "Ayuntamiento de Mungia",
+  "alias": [
+   "mungia"
+  ]
+ },
+ {
+  "id": "ayto-munitibar-arbatzegi-gerrikaitz",
+  "nombre": "Ayuntamiento de Munitibar-Arbatzegi Gerrikaitz",
+  "alias": [
+   "munitibar-arbatzegi gerrikaitz"
+  ]
+ },
+ {
+  "id": "ayto-murueta",
+  "nombre": "Ayuntamiento de Murueta",
+  "alias": [
+   "murueta"
+  ]
+ },
+ {
+  "id": "ayto-muskiz",
+  "nombre": "Ayuntamiento de Muskiz",
+  "alias": [
+   "muskiz"
+  ]
+ },
+ {
+  "id": "ayto-mutiloa",
+  "nombre": "Ayuntamiento de Mutiloa",
+  "alias": [
+   "mutiloa"
+  ]
+ },
+ {
+  "id": "ayto-mutriku",
+  "nombre": "Ayuntamiento de Mutriku",
+  "alias": [
+   "mutriku"
+  ]
+ },
+ {
+  "id": "ayto-muxika",
+  "nombre": "Ayuntamiento de Muxika",
+  "alias": [
+   "muxika"
+  ]
+ },
+ {
+  "id": "ayto-nabarniz",
+  "nombre": "Ayuntamiento de Nabarniz",
+  "alias": [
+   "nabarniz"
+  ]
+ },
+ {
+  "id": "ayto-navaridas",
+  "nombre": "Ayuntamiento de Navaridas",
+  "alias": [
+   "navaridas"
+  ]
+ },
+ {
+  "id": "ayto-oiartzun",
+  "nombre": "Ayuntamiento de Oiartzun",
+  "alias": [
+   "oiartzun"
+  ]
+ },
+ {
+  "id": "ayto-okondo",
+  "nombre": "Ayuntamiento de Okondo",
+  "alias": [
+   "okondo"
+  ]
+ },
+ {
+  "id": "ayto-olaberria",
+  "nombre": "Ayuntamiento de Olaberria",
+  "alias": [
+   "olaberria"
+  ]
+ },
+ {
+  "id": "ayto-ondarroa",
+  "nombre": "Ayuntamiento de Ondarroa",
+  "alias": [
+   "ondarroa"
+  ]
+ },
+ {
+  "id": "ayto-ordizia",
+  "nombre": "Ayuntamiento de Ordizia",
+  "alias": [
+   "ordizia"
+  ]
+ },
+ {
+  "id": "ayto-orendain",
+  "nombre": "Ayuntamiento de Orendain",
+  "alias": [
+   "orendain"
+  ]
+ },
+ {
+  "id": "ayto-orexa",
+  "nombre": "Ayuntamiento de Orexa",
+  "alias": [
+   "orexa"
+  ]
+ },
+ {
+  "id": "ayto-orio",
+  "nombre": "Ayuntamiento de Orio",
+  "alias": [
+   "orio"
+  ]
+ },
+ {
+  "id": "ayto-ormaiztegi",
+  "nombre": "Ayuntamiento de Ormaiztegi",
+  "alias": [
+   "ormaiztegi"
+  ]
+ },
+ {
+  "id": "ayto-orozko",
+  "nombre": "Ayuntamiento de Orozko",
+  "alias": [
+   "orozko"
+  ]
+ },
+ {
+  "id": "ayto-ortuella",
+  "nombre": "Ayuntamiento de Ortuella",
+  "alias": [
+   "ortuella"
+  ]
+ },
+ {
+  "id": "ayto-otxandio",
+  "nombre": "Ayuntamiento de Otxandio",
+  "alias": [
+   "otxandio"
+  ]
+ },
+ {
+  "id": "ayto-oyon-oion",
+  "nombre": "Ayuntamiento de Oyón-Oion",
+  "alias": [
+   "oyon-oion"
+  ]
+ },
+ {
+  "id": "ayto-onati",
+  "nombre": "Ayuntamiento de Oñati",
+  "alias": [
+   "onati"
+  ]
+ },
+ {
+  "id": "ayto-pasaia",
+  "nombre": "Ayuntamiento de Pasaia",
+  "alias": [
+   "pasaia"
+  ]
+ },
+ {
+  "id": "ayto-penacerrada-urizaharra",
+  "nombre": "Ayuntamiento de Peñacerrada-Urizaharra",
+  "alias": [
+   "penacerrada-urizaharra"
+  ]
+ },
+ {
+  "id": "ayto-plentzia",
+  "nombre": "Ayuntamiento de Plentzia",
+  "alias": [
+   "plentzia"
+  ]
+ },
+ {
+  "id": "ayto-portugalete",
+  "nombre": "Ayuntamiento de Portugalete",
+  "alias": [
+   "portugalete"
+  ]
+ },
+ {
+  "id": "ayto-ribera-baja-erribera-beitia",
+  "nombre": "Ayuntamiento de Ribera Baja/Erribera Beitia",
+  "alias": [
+   "ribera baja/erribera beitia"
+  ]
+ },
+ {
+  "id": "ayto-salvatierra-agurain",
+  "nombre": "Ayuntamiento de Salvatierra/Agurain",
+  "alias": [
+   "salvatierra/agurain"
+  ]
+ },
+ {
+  "id": "ayto-samaniego",
+  "nombre": "Ayuntamiento de Samaniego",
+  "alias": [
+   "samaniego"
+  ]
+ },
+ {
+  "id": "ayto-san-millan-donemiliaga",
+  "nombre": "Ayuntamiento de San Millán/Donemiliaga",
+  "alias": [
+   "san millan/donemiliaga"
+  ]
+ },
+ {
+  "id": "ayto-santurtzi",
+  "nombre": "Ayuntamiento de Santurtzi",
+  "alias": [
+   "santurtzi"
+  ]
+ },
+ {
+  "id": "ayto-segura",
+  "nombre": "Ayuntamiento de Segura",
+  "alias": [
+   "segura"
+  ]
+ },
+ {
+  "id": "ayto-sestao",
+  "nombre": "Ayuntamiento de Sestao",
+  "alias": [
+   "sestao"
+  ]
+ },
+ {
+  "id": "ayto-sondika",
+  "nombre": "Ayuntamiento de Sondika",
+  "alias": [
+   "sondika"
+  ]
+ },
+ {
+  "id": "ayto-sopela",
+  "nombre": "Ayuntamiento de Sopela",
+  "alias": [
+   "sopela"
+  ]
+ },
+ {
+  "id": "ayto-sopuerta",
+  "nombre": "Ayuntamiento de Sopuerta",
+  "alias": [
+   "sopuerta"
+  ]
+ },
+ {
+  "id": "ayto-soraluze-placencia-de-las-armas",
+  "nombre": "Ayuntamiento de Soraluze-Placencia de las Armas",
+  "alias": [
+   "soraluze-placencia de las armas"
+  ]
+ },
+ {
+  "id": "ayto-sukarrieta",
+  "nombre": "Ayuntamiento de Sukarrieta",
+  "alias": [
+   "sukarrieta"
+  ]
+ },
+ {
+  "id": "ayto-tolosa",
+  "nombre": "Ayuntamiento de Tolosa",
+  "alias": [
+   "tolosa"
+  ]
+ },
+ {
+  "id": "ayto-trucios-turtzioz",
+  "nombre": "Ayuntamiento de Trucios-Turtzioz",
+  "alias": [
+   "trucios-turtzioz"
+  ]
+ },
+ {
+  "id": "ayto-ubide",
+  "nombre": "Ayuntamiento de Ubide",
+  "alias": [
+   "ubide"
+  ]
+ },
+ {
+  "id": "ayto-ugao-miraballes",
+  "nombre": "Ayuntamiento de Ugao-Miraballes",
+  "alias": [
+   "ugao-miraballes"
+  ]
+ },
+ {
+  "id": "ayto-urduliz",
+  "nombre": "Ayuntamiento de Urduliz",
+  "alias": [
+   "urduliz"
+  ]
+ },
+ {
+  "id": "ayto-urduna-orduna",
+  "nombre": "Ayuntamiento de Urduña/Orduña",
+  "alias": [
+   "urduna/orduna"
+  ]
+ },
+ {
+  "id": "ayto-urkabustaiz",
+  "nombre": "Ayuntamiento de Urkabustaiz",
+  "alias": [
+   "urkabustaiz"
+  ]
+ },
+ {
+  "id": "ayto-urnieta",
+  "nombre": "Ayuntamiento de Urnieta",
+  "alias": [
+   "urnieta"
+  ]
+ },
+ {
+  "id": "ayto-urretxu",
+  "nombre": "Ayuntamiento de Urretxu",
+  "alias": [
+   "urretxu"
+  ]
+ },
+ {
+  "id": "ayto-usurbil",
+  "nombre": "Ayuntamiento de Usurbil",
+  "alias": [
+   "usurbil"
+  ]
+ },
+ {
+  "id": "ayto-valdegovia-gaubea",
+  "nombre": "Ayuntamiento de Valdegovía/Gaubea",
+  "alias": [
+   "valdegovia/gaubea"
+  ]
+ },
+ {
+  "id": "ayto-valle-de-trapaga-trapagaran",
+  "nombre": "Ayuntamiento de Valle de Trápaga-Trapagaran",
+  "alias": [
+   "valle de trapaga-trapagaran"
+  ]
+ },
+ {
+  "id": "ayto-villabuena-de-alava-eskuernaga",
+  "nombre": "Ayuntamiento de Villabuena de Álava/Eskuernaga",
+  "alias": [
+   "villabuena de alava/eskuernaga"
+  ]
+ },
+ {
+  "id": "ayto-vitoria-gasteiz",
+  "nombre": "Ayuntamiento de Vitoria-Gasteiz",
+  "alias": [
+   "vitoria-gasteiz"
+  ]
+ },
+ {
+  "id": "ayto-yecora-iekora",
+  "nombre": "Ayuntamiento de Yécora/Iekora",
+  "alias": [
+   "yecora/iekora"
+  ]
+ },
+ {
+  "id": "ayto-zaldibar",
+  "nombre": "Ayuntamiento de Zaldibar",
+  "alias": [
+   "zaldibar"
+  ]
+ },
+ {
+  "id": "ayto-zaldibia",
+  "nombre": "Ayuntamiento de Zaldibia",
+  "alias": [
+   "zaldibia"
+  ]
+ },
+ {
+  "id": "ayto-zalduondo",
+  "nombre": "Ayuntamiento de Zalduondo",
+  "alias": [
+   "zalduondo"
+  ]
+ },
+ {
+  "id": "ayto-zalla",
+  "nombre": "Ayuntamiento de Zalla",
+  "alias": [
+   "zalla"
+  ]
+ },
+ {
+  "id": "ayto-zambrana",
+  "nombre": "Ayuntamiento de Zambrana",
+  "alias": [
+   "zambrana"
+  ]
+ },
+ {
+  "id": "ayto-zamudio",
+  "nombre": "Ayuntamiento de Zamudio",
+  "alias": [
+   "zamudio"
+  ]
+ },
+ {
+  "id": "ayto-zaratamo",
+  "nombre": "Ayuntamiento de Zaratamo",
+  "alias": [
+   "zaratamo"
+  ]
+ },
+ {
+  "id": "ayto-zarautz",
+  "nombre": "Ayuntamiento de Zarautz",
+  "alias": [
+   "zarautz"
+  ]
+ },
+ {
+  "id": "ayto-zeanuri",
+  "nombre": "Ayuntamiento de Zeanuri",
+  "alias": [
+   "zeanuri"
+  ]
+ },
+ {
+  "id": "ayto-zeberio",
+  "nombre": "Ayuntamiento de Zeberio",
+  "alias": [
+   "zeberio"
+  ]
+ },
+ {
+  "id": "ayto-zegama",
+  "nombre": "Ayuntamiento de Zegama",
+  "alias": [
+   "zegama"
+  ]
+ },
+ {
+  "id": "ayto-zerain",
+  "nombre": "Ayuntamiento de Zerain",
+  "alias": [
+   "zerain"
+  ]
+ },
+ {
+  "id": "ayto-zestoa",
+  "nombre": "Ayuntamiento de Zestoa",
+  "alias": [
+   "zestoa"
+  ]
+ },
+ {
+  "id": "ayto-zierbena",
+  "nombre": "Ayuntamiento de Zierbena",
+  "alias": [
+   "zierbena"
+  ]
+ },
+ {
+  "id": "ayto-zigoitia",
+  "nombre": "Ayuntamiento de Zigoitia",
+  "alias": [
+   "zigoitia"
+  ]
+ },
+ {
+  "id": "ayto-ziortza-bolibar",
+  "nombre": "Ayuntamiento de Ziortza-Bolibar",
+  "alias": [
+   "ziortza-bolibar"
+  ]
+ },
+ {
+  "id": "ayto-zizurkil",
+  "nombre": "Ayuntamiento de Zizurkil",
+  "alias": [
+   "zizurkil"
+  ]
+ },
+ {
+  "id": "ayto-zuia",
+  "nombre": "Ayuntamiento de Zuia",
+  "alias": [
+   "zuia"
+  ]
+ },
+ {
+  "id": "ayto-zumaia",
+  "nombre": "Ayuntamiento de Zumaia",
+  "alias": [
+   "zumaia"
+  ]
+ },
+ {
+  "id": "ayto-zumarraga",
+  "nombre": "Ayuntamiento de Zumarraga",
+  "alias": [
+   "zumarraga"
+  ]
+ },
+ {
+  "id": "lanbide",
+  "nombre": "Lanbide - Servicio Vasco de Empleo",
+  "alias": [
+   "lanbide",
+   "servicio vasco de empleo",
+   "euskal enplegu zerbitzua"
+  ]
+ },
+ {
+  "id": "spri",
+  "nombre": "SPRI - Agencia Vasca de Desarrollo Empresarial",
+  "alias": [
+   "spri",
+   "agencia vasca de desarrollo empresarial"
+  ]
+ },
+ {
+  "id": "eve",
+  "nombre": "EVE - Ente Vasco de la Energía",
+  "alias": [
+   "ente vasco de la energia",
+   "eve"
+  ]
+ },
+ {
+  "id": "emakunde",
+  "nombre": "Emakunde - Instituto Vasco de la Mujer",
+  "alias": [
+   "emakunde"
+  ]
+ },
+ {
+  "id": "osalan",
+  "nombre": "Osalan - Instituto Vasco de Seguridad y Salud Laborales",
+  "alias": [
+   "osalan"
+  ]
+ },
+ {
+  "id": "elankidetza",
+  "nombre": "eLankidetza - Agencia Vasca de Cooperación y Solidaridad",
+  "alias": [
+   "elankidetza",
+   "agencia vasca de cooperacion"
+  ]
+ },
+ {
+  "id": "etxepare",
+  "nombre": "Instituto Vasco Etxepare",
+  "alias": [
+   "etxepare"
+  ]
+ },
+ {
+  "id": "habe",
+  "nombre": "HABE - Instituto de Alfabetización y Reeuskaldunización de Adultos",
+  "alias": [
+   "habe"
+  ]
+ },
+ {
+  "id": "hazi",
+  "nombre": "HAZI Fundazioa",
+  "alias": [
+   "hazi"
+  ]
+ },
+ {
+  "id": "ihobe",
+  "nombre": "Ihobe - Sociedad Pública de Gestión Ambiental",
+  "alias": [
+   "ihobe"
+  ]
+ },
+ {
+  "id": "basquetour",
+  "nombre": "Basquetour - Agencia Vasca de Turismo",
+  "alias": [
+   "basquetour"
+  ]
+ },
+ {
+  "id": "gogora",
+  "nombre": "Gogora - Instituto de la Memoria, la Convivencia y los Derechos Humanos",
+  "alias": [
+   "gogora"
+  ]
+ },
+ {
+  "id": "bioef",
+  "nombre": "BIOEF - Fundación Vasca de Innovación e Investigación Sanitarias",
+  "alias": [
+   "bioef"
+  ]
+ },
+ {
+  "id": "kontsumobide",
+  "nombre": "Kontsumobide - Instituto Vasco de Consumo",
+  "alias": [
+   "kontsumobide"
+  ]
+ },
+ {
+  "id": "ivap",
+  "nombre": "IVAP - Instituto Vasco de Administración Pública",
+  "alias": [
+   "ivap",
+   "instituto vasco de administracion publica"
+  ]
+ },
+ {
+  "id": "etxebide",
+  "nombre": "Etxebide - Servicio Vasco de Vivienda",
+  "alias": [
+   "etxebide"
+  ]
+ },
+ {
+  "id": "ikerbasque",
+  "nombre": "Ikerbasque - Fundación Vasca para la Ciencia",
+  "alias": [
+   "ikerbasque"
+  ]
+ },
+ {
+  "id": "osakidetza",
+  "nombre": "Osakidetza - Servicio Vasco de Salud",
+  "alias": [
+   "osakidetza"
+  ]
+ },
+ {
+  "id": "ue",
+  "nombre": "Unión Europea",
+  "alias": [
+   "union europea",
+   "comision europea"
+  ]
+ },
+ {
+  "id": "bilbao-ekintza",
+  "nombre": "Ayuntamiento de Bilbao - Bilbao Ekintza",
+  "alias": [
+   "bilbao ekintza"
+  ]
+ },
+ {
+  "id": "bilbao-kirolak",
+  "nombre": "Ayuntamiento de Bilbao - Bilbao Kirolak",
+  "alias": [
+   "bilbao kirolak"
+  ]
+ },
+ {
+  "id": "surbisa",
+  "nombre": "Ayuntamiento de Bilbao - Surbisa",
+  "alias": [
+   "surbisa"
+  ]
+ },
+ {
+  "id": "fomento-ss",
+  "nombre": "Ayuntamiento de Donostia / San Sebastián - Fomento de San Sebastián",
+  "alias": [
+   "fomento de san sebastian",
+   "donostia sustapena"
+  ]
+ },
+ {
+  "id": "donostia-kultura",
+  "nombre": "Ayuntamiento de Donostia / San Sebastián - Donostia Kultura",
+  "alias": [
+   "donostia kultura"
+  ]
+ },
+ {
+  "id": "inguralde",
+  "nombre": "Inguralde - Agencia de Desarrollo Local",
+  "alias": [
+   "inguralde"
+  ]
+ },
+ {
+  "id": "behargintza",
+  "nombre": "Behargintza - Agencia de Desarrollo Local",
+  "alias": [
+   "behargintza"
+  ]
+ }
+]
