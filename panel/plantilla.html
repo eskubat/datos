@@ -325,6 +325,7 @@ body.asis-on .asis{display:flex}
 .asis-vacio p{margin:0 0 8px;color:var(--muted);font-size:14px}
 .asis-vacio .ej{display:block;width:100%;text-align:left;margin:0 0 6px;border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:8px 10px;cursor:pointer;font-size:13.5px}
 .asis-vacio .ej:hover{border-color:var(--accent)}
+.chip.rec-ok{background:var(--accent-soft);color:var(--accent-d)}.chip.rec-warn{background:#fdecd8;color:#8a4b0f}.chip.rec-bad{background:#fbe0dc;color:#9b2c1f}
 @media (max-width:760px){.estado-rev .er-top{grid-template-columns:1fr}}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
 @media (max-width:760px){.eta{grid-template-columns:1fr}}
@@ -863,15 +864,33 @@ function renderFuentes(){
         <p class="hint" style="margin:0 0 10px">Cuéntasela a Claude con tus palabras. Te ayuda a concretarla y la añade al plan él mismo; también puede cambiar prioridades o ejecutar una tarea ahora.</p>
         <button class="btn primary" data-asis="Tengo una idea de mejora: ">Proponer una idea a Claude</button></section>
       <section class="card"><h3>Revisión mensual</h3>
-        <p class="hint" style="margin:0 0 10px">El día 1 de cada mes Claude repasa todo el sistema y rehace este plan: busca fuentes nuevas, mira dónde faltan ayudas, cómo reducir descargas y consumo, y qué falla. Lo que encuentra entra aquí como tareas con prioridad; lo que necesita tu decisión, en «Lo que te toca a ti».</p>
+        <p class="hint" style="margin:0 0 10px">El día 1 de cada mes Claude repasa todo el sistema y rehace este plan: busca fuentes nuevas, mira dónde faltan ayudas, cómo reducir descargas y consumo, qué fuentes repiten a otras sin aportar ayudas únicas, y qué falla. Lo que encuentra entra aquí como tareas con prioridad; lo que necesita tu decisión, en «Lo que te toca a ti».</p>
         ${M.ultima?`<div class="nota"><b>${fmtFecha(M.ultima)}:</b> ${linkify(M.resumen||"")}</div>`:`<p class="hint" style="margin:0">Primera revisión: ${proxMes().toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long"})}.</p>`}
         ${M.metricas&&Object.keys(M.metricas).length?`<div class="acst" style="margin-top:10px">${Object.entries(M.metricas).map(([k,v])=>kpi(esc(v),esc(k))).join("")}</div>`:""}
+        <h4 style="margin:16px 0 4px">Rendimiento por fuente</h4>
+        <p class="hint" style="margin:0 0 8px">Cada mes Claude mide, en los últimos 30 días, cuántas veces se lee cada fuente y cuántas ayudas nuevas o cambiadas aporta que no traiga otra. Así se ve si se gasta lectura en fuentes que repiten a otras. Recomienda mantener, reducir la frecuencia, fusionar o dejar de leer; nunca lo aplica sin tu decisión, y avisa si una fuente aporta ayudas únicas.</p>
+        ${rendimientoHTML(M.rendimiento)}
       </section>
       <section class="card"><h3>Plan de Claude para las fuentes</h3><p class="hint" style="margin:0 0 10px">Una mejora cada noche a las 03:17, antes del recolector de las 05:41. La noche siguiente Claude comprueba que funciona.</p><ul class="plan">${plan.map(filaPlan).join("")}</ul></section>`)}
   </div>`;
   $("#detalle").querySelectorAll("details.acord").forEach(d=>d.addEventListener("toggle",()=>{ abiertos[d.dataset.ac]=d.open; }));
 }
 
+
+function rendimientoHTML(R){
+  if(!R||!(R.fuentes||[]).length) return `<p class="hint" style="margin:0">Primera medición en la próxima revisión mensual.</p>`;
+  const n=v=>v==null?"<span class='hint' title='No se puede medir con el registro actual'>s/d</span>":num(v);
+  const REC={mantener:["Mantener","ok"],reducir:["Reducir","warn"],fusionar:["Fusionar","warn"],dejar:["Dejar de leer","bad"],pronto:["Pronto para valorar",""]};
+  return `${R.periodo?`<p class="hint" style="margin:0 0 6px">Periodo: ${esc(R.periodo)}</p>`:""}
+  <div class="tabwrap"><table class="ftabla"><thead><tr><th>Fuente</th><th>Lecturas</th><th>Aportadas</th><th>Únicas</th><th>Duplicadas</th><th>Recomendación</th></tr></thead><tbody>
+  ${R.fuentes.map(f=>{const r=REC[f.recomendacion]||[f.recomendacion||"—",""]; return `<tr><td><b>${esc(f.fuente)}</b>${f.activa_desde?`<div class="hint">activa desde ${fmtFecha(f.activa_desde)}</div>`:""}${f.consumo?`<div class="hint">${esc(f.consumo)}</div>`:""}</td>
+    <td class="n">${n(f.lecturas)}</td><td class="n">${n(f.aportadas)}</td><td class="n">${n(f.unicas)}</td><td class="n">${n(f.duplicadas)}</td>
+    <td><span class="chip rec-${r[1]}">${esc(r[0])}</span>${f.medido===false?` <span class="chip" title="Alguna cifra es una suposición">suposición</span>`:""}<div style="font-size:13px;margin-top:4px">${esc(f.detalle||"")}</div></td></tr>`;}).join("")}
+  </tbody></table></div>
+  ${(R.solapamientos||[]).length?`<p style="margin:10px 0 4px"><b>Solapamientos</b></p><ul style="margin:0;padding-left:18px">${R.solapamientos.map(s=>`<li>${esc(s)}</li>`).join("")}</ul>`:""}
+  ${R.datos?`<p class="hint" style="margin:10px 0 0"><b>Datos del registro:</b> ${esc(R.datos)}</p>`:""}
+  ${R.falta?`<div class="aviso" style="margin-top:8px">No se pudo medir: ${esc(R.falta)}</div>`:""}`;
+}
 /* ================= ASISTENTE (Pedir a Claude) ================= */
 const ASIS={msgs:[],log:[],ocupado:false};
 try{ const g=JSON.parse(localStorage.getItem("eskubat-asis")||"null"); if(g&&Array.isArray(g.msgs)) ASIS.msgs=g.msgs.slice(-30); }catch{}
