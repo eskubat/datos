@@ -90,14 +90,14 @@ export async function botha(desde, vistos, log) {
     const pub = f && MES[norm(f[2])] ? `${f[3]}-${String(MES[norm(f[2])]).padStart(2, '0')}-${f[1].padStart(2, '0')}` : null;
     if (pub && pub < isoDia(desde)) break;
     vistos.add(clave);
-    if (process.env.DEPURAR) log('BOTHA ' + n3 + ' pub ' + pub + '\n' + txt.slice(0, 1500));
+    if (process.env.DEPURAR) log('BOTHA ' + n3 + ' refs: ' + JSON.stringify(txt.split('\n').filter((l) => /\d{5}\s*$/.test(l)).slice(0, 3).map((l) => [...l.slice(-14)].map((c) => c.charCodeAt(0).toString(16)).join(' '))));
     let entidad = '', buf = [];
     for (const raw of txt.split('\n')) {
       const l = raw.trim();
       if (!l || /^www\.araba|^D\.L\.|n[uú]m\. \d+$|^\d+\/\d+$/i.test(l)) continue;
       if (/^(AYUNTAMIENTO|DIPUTACI[OÓ]N|DEPARTAMENTO|JUNTA ADMINISTRATIVA|CUADRILLA|JUNTAS GENERALES|CONSORCIO)\b/.test(l) && l === l.toUpperCase()) { entidad = l; buf = []; continue; }
-      const ref = l.match(/\.{3,}\s*(\d{4})-(\d{5})\s*$/) || l.match(/\s(\d{4})-(\d{5})\s*$/);
-      buf.push(l.replace(/\.{3,}.*$/, '').replace(/\s\d{4}-\d{5}\s*$/, ''));
+      const ref = l.match(/(\d{4})\s*[-\u2010-\u2013]\s*(\d{5})\s*$/);
+      buf.push(l.replace(/[.\u2026·]{3,}.*$/, '').replace(/\s\d{4}\s*[-\u2010-\u2013]\s*\d{5}\s*$/, ''));
       if (ref) {
         const tit = buf.join(' ').replace(/(\w)- (\w)/g, '$1$2').replace(/\s+/g, ' ').trim(); buf = [];
         if (!util(tit)) continue;
