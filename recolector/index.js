@@ -156,7 +156,7 @@ async function main() {
     [/sin personalidad jur[ií]dica/i, 'Comunidades de propietarios y otras agrupaciones sin personalidad jurídica'],
     [/entidades locales|administraci/i, 'Ayuntamientos y otras administraciones'],
   ];
-  const ORG_POR_AMBITO = (a) => a.ambito.nivel === 'municipio' ? `Ayuntamiento de ${a.ambito.nombre.split(' / ')[0]}` : a.ambito.nivel === 'territorio' ? `Diputación Foral de ${a.ambito.nombre === 'Araba/Álava' ? 'Álava' : a.ambito.nombre}` : 'Gobierno Vasco';
+  const ORG_POR_AMBITO = (a) => a.ambito.nivel === 'municipio' ? `Ayto. de ${a.ambito.nombre.split(' / ')[0]}` : a.ambito.nivel === 'territorio' ? `Diputación Foral de ${a.ambito.nombre === 'Araba/Álava' ? 'Álava' : a.ambito.nombre}` : 'Gobierno Vasco';
   // Tipo de solicitante a partir de "a quién va dirigido" (o del título si la fuente no lo dice)
   const TIPO = {
     particular: /personas f[ií]sicas que no desarrollan|^personas f[ií]sicas$|^personas$|particular|unidad(es)? de convivencia|familias|j[oó]venes|estudiantes|alumnado|personas (desemplead|mayores|con discapacidad|trabajadoras|residentes|empadronad|propietari|inquilin|arrendatari|v[ií]ctimas)|pensionistas|ciudadan[ií]a|comunidades de (personas )?propietari|deportistas|personal investigador|investigador(es|as)|menor(es)? a (su )?cargo|mujeres/i,
@@ -191,16 +191,17 @@ async function main() {
   const normalizaOrganismo = (a) => {
     const orig = organismoCorto(String(a.organismo || '').trim());
     const ent = ENTIDADES.find(([re]) => re.test(orig));
-    const base = a.ambito.nivel === 'municipio' ? `Ayuntamiento de ${a.ambito.nombre.split(' / ')[0]}` : a.ambito.nivel === 'territorio' ? `Diputación Foral de ${a.ambito.nombre === 'Araba/Álava' ? 'Álava' : a.ambito.nombre}` : 'Gobierno Vasco';
+    const base = a.ambito.nivel === 'municipio' ? `Ayto. de ${a.ambito.nombre.split(' / ')[0]}` : a.ambito.nivel === 'territorio' ? `Diputación Foral de ${a.ambito.nombre === 'Araba/Álava' ? 'Álava' : a.ambito.nombre}` : 'Gobierno Vasco';
     let detalle = '';
     if (ent) a.organismo = ent[1];
     else {
       a.organismo = base;
       const resto = orig.replace(/^(diputaci[oó]n foral de \S+|gobierno vasco|ayuntamiento de .+)$/i, '').split(' · ').pop().trim();
       // Solo departamentos/áreas; nada de nombres de personas
-      if (resto && !/^[A-ZÁÉÍÓÚ][a-záéíóúñ]+ [A-ZÁÉÍÓÚ][a-záéíóúñ]+( [A-ZÁÉÍÓÚ][\wáéíóúñ]+)*$/.test(resto) && resto.toLowerCase() !== base.toLowerCase()) detalle = a.ambito.nivel === 'euskadi' ? tituloDepto(resto) : ortografia(resto.charAt(0).toUpperCase() + resto.slice(1));
+      if (resto && !/^[A-ZÁÉÍÓÚ][a-záéíóúñ]+ [A-ZÁÉÍÓÚ][a-záéíóúñ]+( [A-ZÁÉÍÓÚ][\wáéíóúñ]+)*$/.test(resto) && resto.toLowerCase() !== base.toLowerCase() && false) detalle = a.ambito.nivel === 'euskadi' ? tituloDepto(resto) : ortografia(resto.charAt(0).toUpperCase() + resto.slice(1));
     }
-    a.organismoDetalle = detalle;
+    // Solo el nombre de la entidad (Gobierno Vasco, Diputación Foral de X, Ayto. de X): sin departamentos ni servicios
+    a.organismoDetalle = '';
   };
   ayudas.forEach(normalizaOrganismo);
   for (const a of ayudas) {
