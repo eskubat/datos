@@ -3984,4 +3984,105 @@ AURREKONTU BANATUTA / PRESUPUESTO DESGLOSADO
 SARRERAK / INGRESOS
 1. ESKATZAILEAREN EKARPENA / APORTACIÓN DE LA SOLICITANTE
 €
-2. DIRU-LAGUNTZA PUBLIKOAK / SUB
+2. DIRU-LAGUNTZA PUBLIKOAK / SUBVENCIONES PÚBLICAS
+Estatua / Estado
+€
+Eusko Jaurlaritza / Gobierno Vasco
+€
+Udalak / Ayuntamientos
+€
+Beste batzuk / Otros
+€
+3. ERAKUNDE PRIBATUEN EKARPENAK / APORTACIONES DE ENTIDADES PRIVADAS
+€
+4. JARDUERAREN SARRERAK / INGRESOS PROPIOS DE LA ACTIVIDAD
+€
+5. BESTE SARRERA BATZUK / OTROS INGRESOS
+€
+6. BIZKAIKO FORU ALDUNDIAREN DEIALDI HONETAN ESKATUTAKO DIRU-LAGUNTZA / SUBVENCIÓN SOLICITADA A ESTA
+CONVOCATORIA DE LA DIPUTACIÓN FORAL DE BIZKAIA
+€
+GUZTIRA / TOTAL
+€
+1. Bazkideen kuotak, fondo propioak eta abar sartuko dira.
+1. Se incluirán: Cuotas de las personas socias, fondos propios, etc.
+2. Atal bakoitzean, guztira jasotako diru-laguntzen kopurua adieraziko da.
+2. En cada apartado se consignará el total de las subvenciones recibidas.
+3. Guztira jasotako ekarpenen kopurua adieraziko da.
+3. Se consignará el total de las subvenciones recibidas.
+4. Hauek adieraziko dira: Inskripzioak, salmentaren ondoriozko sarrerak,
+katalogoen salmenta, leihatilako salmenta, publizitatea ...
+4. Se incluirán: inscripciones, ingresos por ventas, venta de catálogos, taquillas,
+publicidad …
+5. Aurreko ataletan katalogatu ezin diren sarrerak.
+5. Ingresos no catalogables en los demás apartados.
+GASTUAK / GASTOS
+1.
+LANGILEEN GASTUAK / GASTOS DE PERSONAL
+2.
+KANPOKO ZERBITZUAK / SERVICIOS EXTERIORES
+€
+a) Errentamenduak / Arrendamientos
+€
+b) Konponketa eta kontserbazioa / Reparación y conservación
+€
+c) Garraioak / Transportes
+€
+d) Aseguru-primak / Primas de seguros
+€
+e) Zabalkunde gastuak, publizitatea eta propaganda / Gastos de difusión, publicidad y propaganda
+€
+f) Hornidurak (ura. argia, telefonoa...) / Suministros (agua, luz, teléfono, …)
+€
+g) Garbiketa / Limpieza
+€
+h) Kanpoko kontratazioak / Contrataciones externas
+€
+i) Material grafikoa, ikus-entzunezkoa, eta abar editatzea / Edición material gráfico, audiovisual, etc.
+€
+j) Ekoizteko eta muntatzeko gastuak / Gastos de producción y montaje
+€
+k) Kanpoko beste zerbitzu batzuk / Otros servicios exteriores
+€
+3.
+FINANTZA-GASTUAK / GASTOS FINANCIEROS
+€
+4.
+KUDEAKETA HOBETZEKO TRESNETAN EGINIKO GASTUAK / GASTOS INSTRUMENTOS DE MEJORA DE LA GESTIÓN
+€
+5.
+INBERTSIOAK / INVERSIONES
+€
+6.
+BESTE BATZUK / OTROS
+€
+GUZTIRA / TOTAL
+1. Se incluirán: Salarios, cargas sociales, etc. del personal propio.
+2. f) Hauek adieraziko dira: ura, argia ...
+h) Komisariotzaren gastua
+i) Kartelak, katalogoak eta material grafikoa diseinatu eta inprimatzea.
+j) Ekoizpena eta muntaia: jendea kokatzea, leihatilak, argiak, soinua, langile
+teknikoak ...
+k) Komunikazio-gastuak: telefonoa, faxa, mezularitza ....
+3. Maileguen interesen gastuak eta kanpoko finantziazioa.
+2. f) Se incluirán: agua, luz …
+h) Gasto de comisariado
+i) Diseño e impresión de carteles, catálogos y material gráfico.
+j) Producción y montaje: acomodación, taquillas, iluminación, sonido, personal
+técnico …
+k) Gastos de comunicación: teléfono, fax, mensajería …
+3. Gastos de intereses de préstamos y financiación externa.
+4. Kudeaketa hobetzeko erakundeen gogoeta estrategikoei dagozkien gastuak,
+plan estrategikoak, bideragarritasun-planak, erakundeen kudeaketa hobetzeko
+tresnak, arloan espezializatutako enpresek egiten dituztenean.
+5. Hauek adieraziko dira: azpiegiturak, eraikuntzak, eta abar.
+4. Gastos correspondientes a reflexiones estratégicas de las entidades para
+mejorar la gestión: planes estratégicos, de viabilidad, instrumentos de mejora de
+la gestión de las entidades, cuando se acometan a través de empresas
+especializadas en la materia.
+5. Se incluirán: infraestructuras, construcciones, etc.
+6. Aurreko ataletan katalogatu ezin diren gastuak
+6. Gastos no catalogables en los demás apartados
+cve: BAO-BOB-2014a076
+€
+1. Hauek adieraziko dira: langile propioen soldatak, karga sozialak eta abar.

@@ -2661,3 +2661,392 @@ Cómo utilizar el servicio de verificación de boletín electrónico
 Cómo realizar una solicitud de publicación
 Datos personales. Derecho al olvido
 Preguntas frecuentes
+
+### Boletín Oficial de Bizkaia: http://apps.bizkaia.eus/BT00/
+bizkaia.eus - Boletín Oficial de Bizkaia
+Oharra
+Orrialdea zaharkituta dago.
+Orriaren uneko bertsiora joateko, sakatu "Bertsio berrira joan" botoia.
+Aviso
+La página está obsoleta.
+Para ir a la versión actual de la página, pulse sobre el botón "Ir a nueva versión".
+
+### Boletín Oficial del Estado: http://www.boe.es/
+BOE.es - Agencia Estatal Boletín Oficial del Estado
+Agencia Estatal Boletín Oficial del Estado
+Ir a contenido
+Consultar el diario oficial BOE
+Idioma actual:
+Castellano / es
+Puede seleccionar otro idioma:
+es / Castellano
+ca / Català
+gl / Galego
+eu / Euskara
+va / Valencià
+en / English
+fr / Français
+Mi BOE Desconectado.
+Pulse para acceder al servicio 'Mi BOE'
+Diarios Oficiales
+BOE
+BORME
+Otros diarios oficiales
+Información Jurídica
+Todo el Derecho
+Biblioteca Jurídica Digital
+Otros servicios
+Notificaciones
+Edictos judiciales
+Portal de subastas
+Anunciantes
+Datos abiertos
+Boletín Oficial del Estado
+Último BOE
+Buscar en BOE
+Calendario
+Boletín Oficial del Registro Mercantil
+Último BORME
+Buscar en BORME
+Calendario
+Unión Europea (DOUE)
+Boletines autonómicos
+Boletines provinciales
+Todo el Derecho
+Todo el Derecho
+Legislación
+Tribunal Constitucional
+Jurisprudencia (CENDOJ)
+Doctrina de la Fiscalía
+Derechos fundamentales
+Dictámenes del Consejo de Estado
+Abogacía del Estado
+Derecho de la Unión Europea
+Colección histórica: Gazeta (1661-1959)
+Más búsquedas
+Publicaciones jurídicas para descargar
+de forma libre y gratuita:
+Libros jurídicos electrónicos
+Códigos electrónicos
+Códigos electrónicos universitarios
+Material de oposiciones
+Anuarios y revistas
+La Editorial del BOE
+La Librería del BOE
+Otros servicios
+Notificaciones
+Anunciantes
+Datos abiertos
+Transparencia
+Información institucional, organizativa y de planificación
+Información de relevancia jurídica
+Información económica, presupuestaria y estadística
+Información patrimonial
+Contactar
+Sobre la sede electrónica
+Mapa
+Protección de datos
+Sistema Interno de Información
+Tutoriales
+Empleo en la AEBOE
+Avda. de Manoteras, 54 - 28050 Madrid
+
+### formatos admitidos: http://www.euskadi.eus/web01-a4ogainf/es/contenidos/documentacion/estandar_01080402/es_def/index.shtml
+Estrategia Digital
+Departamento de Gobernanza, Administración Digital y Autogobierno
+Detalles
+Grupo: Plataforma Tecnológica e-Administración
+Área: PLATEA Gestión Documental
+Descripción
+Definición de Escenarios
+En el ámbito de la Administración Electrónica, podemos definir los siguientes escenarios respecto de la gestión de documentos electrónicos:
+Escenario
+Requisito Normativo
+Nombre abreviado
+Formatos de Lectura
+Artículo 35. Punto 5.
+Artículo 51. Punto 2.
+Lectura
+Formatos de Presentación
+Artículo 9. Punto 1.
+Artículo 22. Punto 3
+Presentación
+Formatos de Almacenamiento
+No hay requisitos en el decreto 21/2012.
+Almacenamiento
+Formatos para las copias electrónicas de documentos originales en papel
+Artículo 45.
+Artículo 49.
+Papel a electrónico
+Formatos de difusión a través de Internet
+Artículo 9.
+Internet
+Los artículos vienen recogidos en el DECRETO 21/2012, de 21 de febrero, de Administración Electrónica.
+El siguiente diagrama asocia los escenarios a los flujos de documentos electrónicos entre los sistemas de gestión (Registro de Entrada / Salida, Sistemas de Gestión de Expedientes y Sistema de Gestión de Archivo), los archivos (Físico y Digital), los sitios web (euskadi.eus, portales temáticos…) y la Ciudadanía.
+El flujo de los documentos electrónicos en cada uno de los escenarios es el siguiente:
+Escenario
+Flujo de documentos electrónicos
+Lectura
+Documentos electrónicos enviados por la Administración a la Ciudadanía. Son documentos finales; Documentos que no deben ser modificados por nadie, como, por ejemplo, una resolución.
+Presentación
+Documentos electrónicos enviados por la Ciudadanía a la Administración.
+Almacenamiento
+Documentos electrónicos almacenados en el Archivo Digital.
+Documentos electrónicos generados a partir de documentos en soporte papel para enviar a la Ciudadanía o para sustituir papel por documentos digitalizados.
+Internet
+Documentos electrónicos puestos a disposición de la Ciudadanía a través de los sitios web de la Administración. Por ejemplo, formularios, instrucciones para rellenar formularios, normativa…
+Catálogo de Formatos Estandarizados
+Escenario
+Formato
+Denominación formal
+Extensión
+Descripción
+Lectura
+PDF/A
+ISO 19005-1:2005. ISO 19005-2:2011. Electronic document file format for long-term preservation.
+.pdf
+Formato de archivo de documentos electrónicos para conservación a largo plazo
+ejgvDocument
+Utilización: si contiene información que se deba computar, y sólo para el ámbito de PLATEA.
+Escenario
+Formato
+Extensión
+Descripción
+Presentación
+ejgvDocument
+La posible existencia ilimitada de los formatos de documentos electrónicos y las limitaciones técnicas de las organizaciones en general, y de las Administraciones Públicas en particular, no hace posible una aceptación universal de todos los formatos existentes.
+El formato ejgvDocument se circunscribe al ámbito de PLATEA.
+Fichero texto
+Texto plano.
+.txt
+XHTML/HTML
+eXtensible/ Hypertext Markup Language.
+.html
+.htm
+JPEG
+ISO/IEC 15444.
+Information technology – JPEG 2000 image coding system
+.jpg
+.jpeg
+Strict Open XML
+ISO/IEC 29500-1:2012
+Information technology – Document description and processing languages – Office Open XML File Formats
+.docx
+.xlsx
+.pptx
+Ms office documents
+Ms office document.
+.doc
+.xls
+.ppt
+ODF - Open Document Format for Office Applications
+ISO/IEC 26300:2006.
+Information technology – Open Document Format for Office applications (OpenDocument)
+.odt
+.ods
+.odg
+PDF
+ISO 32000-1:2008.
+Document management – Portable document format – Part 1:PDF 1.7
+.pdf
+PDF/A
+ISO 19005-1:2005.
+ISO 19005-2:2011.
+Electronic document file format for long-term preservation.
+.pdf
+PNG
+ISO/IEC 15984:2004.
+Information technology – Computer graphics and image processing – Portable Network Graphics (PNG): Functional specification
+.png
+RTF
+Rich Text Format
+.rtf
+TIFF
+ISO 12639:2004.
+Graphic technology – Prepress digital data exchange – Tag image file format for image technology (TIFF/IT)
+.tif
+AVI
+Audio Video Interleave
+.avi
+MPEG-4
+MP4 media
+ISO/IEC 14496-14:2003.
+Information technology – Coding of audio-visual objects – Part 14:MP4 file format
+.mpeg
+.mp4
+MP3.
+MPEG-1 Audio Layer 3
+ISO/IEC 11172-1:1993.
+ISO/IEC 11172-2:1993.
+ISO/IEC 11172-3:1993.
+ISO/IEC 11172-4:1995.
+ISO/IEC 11172-5:1998.
+.mp3
+EPUB3
+Electronic Publication
+.epub
+Escenario
+Formato
+Extensión
+Descripción
+Almacenamiento
+Comma Separated Values
+.csv
+.txt
+Se recomienda almacenar los documentos electrónicos en el mismo formato en el que se reciben por parte del ciudadano o que se generan dentro de la propia organización.
+Como formato de conservación a largo plazo de los documentos electrónicos almacenados se recomienda la utilización del formato PDF/A.
+XHTML/HTML
+.html
+.htm
+CSS
+Cascading Style Sheets
+.css
+JPEG
+ISO/IEC 15444.
+.jpg
+.jpeg
+MHTML
+Multipurpose Internet Mail Extension HTML
+.mhtml
+.mht
+.odt
+.ods
+.odg
+Strict Open XML
+.docx
+.xlsx
+.pptx
+PDF
+.pdf
+PDF/A
+.pdf
+PNG
+.png
+RTF
+.rtf
+TIFF
+ISO 12639:2004.
+.tif
+AVI
+.avi
+MPEG-4
+MP4 media
+.mpeg
+.mp4
+MP3.
+.mp3
+Ms office document
+.doc
+.xls
+.ppt
+SVG
+Scalable Vector Graphics
+.svg
+Fichero texto
+Texto plano
+.txt
+WebM
+WebM
+.webm
+FLV
+Flash Video
+.flv
+OGG-Vorbis
+OGG Vorbis
+.ogg
+.oga
+GML
+ISO 19136:2007.
+Geographic information – Geography Markup Language (GML)
+.gml
+WFS
+ISO 19142:2010.
+Geographic information – Web Feature Service
+.gml
+WMS
+ISO 19128:2005.
+Geographic information – Web map server interface
+.gml
+Shapefile
+ESRI Shapefile
+.shp
+.shx
+.dbf
+.prj
+.sbn
+.sbx
+.fbn
+.fbx
+.ain
+.aih
+DraWinG
+.dwg
+GZIP
+GNU Zip
+.gz
+ZIP
+ZIP
+.zip
+.7z
+.zipx
+EPUB3
+.epub
+Escenario
+Formato
+Extensión
+Descripción
+PDF/A
+.pdf
+Formato de conservación a largo plazo, es decir, PDF/A, para realizar las copias electrónicas de documentos originales en papel.
+Escenario
+Formato
+Extensión
+Descripción
+Internet
+PDF/A
+.pdf
+Documentos publicados para que los lea el ciudadano:
+Normativas, instrucciones para rellenar formularios, etc.
+PDF Rellenable
+.pdf
+Documentos que debe completar el ciudadano tras descargárselo (por ejemplo: Formularios).
+Como alternativa a la teletramitación, en cualquiera de los tres formatos, el ciudadano siempre tendrá la posibilidad de rellenar el formulario, imprimirlo, firmarlo manuscritamente y aportarlo a una tramitación presencial.
+RTF
+.rtf
+ODF – Open Document Format for Office Applications
+.odt
+.ods
+.odg
+EPUB3
+.epub
+Documentación asociada y otros enlaces
+No aplica
+Estándares nacionales e internacionales
+No aplica
+Versiones de producto
+No aplica
+Otros estándares del catálogo relacionados
+PLATEA Gestión Documental (Dokusi) Servicios (Tecnológicos) - Plataforma Tecnológica e-Administración - PLATEA Gestión Documental
+Historial de revisiones
+Versión 1: 03-07-2017
+Versión 2: 22-07-2019 (última versión)
+
+### Medios de identificación electrónica admitidos: https://www.euskadi.eus/web01-sedeform/es/contenidos/informacion/certificados_admitidos/es_cert_ele/index.shtml
+Sede electrónica
+Estos son los medios de identificación y firma admitidos en esta Sede electrónica, de acuerdo con la política de firma (PDF, 156KB) aprobada en la Orden de 27 de junio de 2012:
+Para la ciudadanía (personas físicas)
+Para las empresas y entidades (personas jurídicas)
+BakQ: Usuario, contraseña y coordenadas/código SMS
+Izenpe: Certificado ciudadano (tarjeta)
+Izenpe: Certificado profesional en la nube
+DNI electrónico
+FNMT: Certificado de persona física
+Más certificados de prestadores de servicios electrónicos de confianza cualificados
+Puede consultar las preguntas más frecuentes de la firma electrónica.
+Izenpe: Certificado de representante de entidad
+Izenpe: Certificados profesionales
+FNMT: Certificado de representante
+Camerfirma: Certificados digitales para empresas
+¿Qué le ha parecido la tramitación?
+Muchas gracias por su valoración y comentarios.
+Cerrar

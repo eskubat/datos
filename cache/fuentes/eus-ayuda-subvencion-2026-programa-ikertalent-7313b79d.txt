@@ -1465,3 +1465,364 @@ más de 1.000 citas, experiencia en supervisión de estudiantes de posgrado. Es 
 revistas científicas internacionales y ha impartido docencia universitaria y formación especializada en genómica y
 bioinformática.
 Se valorará positivamente los conocimientos de inglés y estar en posesión del permiso de conducción tipo B.
+
+### Información detallada: https://www.euskadi.eus/contenidos/ayuda_subvencion/ikertalent_2026/es_def/adjuntos/P9_informacion_es.pdf
+P9-Efectos comparativos de la administración de Bacillus coagulans probiótico o postbiótico
+en la prevención de la obesidad y resistencia a la insulina inducido por la dieta. Implicación
+de las vesículas extracelulares como componentes efectores
+La obesidad es una enfermedad compleja asociada a diversos factores cuya elevada prevalencia
+la convierte en un grave problema de salud pública. Esta enfermedad provoca un estado
+inflamatorio crónico de bajo grado, la cual promueve la disfunción del tejido adiposo y el
+desarrollo de resistencia a la insulina/diabetes tipo 2. En los últimos años se ha prestado especial
+interés a la disbiosis de la microbiota intestinal como factor etiológico clave en la obesidad. En
+este contexto, y considerando la baja adherencia al abordaje no-farmacológico convencional de
+la obesidad (dieta hipocalórica y actividad física), se ha propuesto abordar esta enfermedad
+metabólica actuando directamente sobre la microbiota intestinal mediante la administración de
+bacterias probióticas. El Bacillus coagulans (B. coagulans) ha mostrado eficacia para el manejo
+de algunas alteraciones metabólicas en estudios preclínicos y ensayos clínicos. Dado que la
+administración de bacterias vivas puede conllevar riesgos la comunidad científica se ha centrado
+recientemente en los postbióticos; células microbianas no-viables obtenidas por la inactivación
+de bacterias probióticas o extractos celulares crudos. Asimismo, algunos componentes de los
+probióticos pueden ser responsables de los beneficios derivados de su consumo. Entre estos
+destacan las vesículas extracelulares (VEs) bacterianas ya que pueden penetrar en el torrente
+sanguíneo y llegar a los tejidos del hospedador.
+Objetivo general
+Determinar si el B. coagulans, administrado como bacteria no-viable tras un tratamiento térmico,
+mantiene su eficacia en la prevención de la obesidad y la resistencia a la insulina inducida por la
+dieta y si las VEs derivadas de esta bacteria son, al menos parcialmente, responsables de dicho
+efecto.
+Metodología
+Este proyecto se basa en un estudio preclínico en un modelo animal de obesidad y resistencia a la
+insulina inducidos por dieta. Para abordar el posible dimorfismo sexual, se realizarán dos
+experimentos diferentes con un diseño idéntico. Se usarán ratas Wistar de 8 semanas de edad que
+se distribuirán en cinco grupos experimentales por sexo: grupo control sano alimentado con dieta
+comercial estándar y el resto de los grupos con una dieta comercial rica en grasa saturada y
+fructosa (40% y 10% de la energía, respectivamente) con el fin de desarrollar un modelo dietético
+de obesidad, resistencia a la insulina y esteatosis hepática. Un grupo de estas ratas recibirá solo la
+dieta (grupo control obeso), un grupo recibirá B. coagulans viable (1×10⁹ UFC/día), otro B.
+coagulans inactivado por calor (1×10⁹ UFC/día) y el otro VEs de B. coagulans (cantidad
+equivalente de VEs producidas por una dosis de 1×10⁹ UFC/día de B. coagulans). Los
+tratamientos se administrarán diariamente por vía oral (con pipeta) utilizando agua enriquecida
+con sacarosa (5%) como vehículo. Los animales de los grupos no tratados solo recibirán el
+vehículo. Se mantendrán estas condiciones experimentales durante 8 semanas, tras las cuales los
+animales serán sacrificados y se obtendrán muestras de diferentes depósitos adiposos (blanco y
+marrón), músculo esquelético, sangre, mucosa intestinal y heces (análisis de la microbiota y
+metabolitos bacterianos).
+El diseño experimental propuesto implica trabajo diario con animales (cuidado de animales de
+experimentación y realización de procedimientos de lunes a domingo) en el estabulario de la
+Facultad de Farmacia de la UPV/EHU.
+Valoraciones a realizar
+Durante las 8 semanas de periodo experimental se controlará diariamente el peso corporal de los
+animales y la ingesta de alimento de estos (para controlar el correcto desarrollo del estudio y/o
+valorar la necesidad de un grupo pair fed).
+Durante el sacrificio de los animales se registrarán los pesos finales de diferentes órganos y tejidos
+(principalmente hígado y diferentes depósitos de tejido adiposo blanco y marrón) para determinar
+la eficacia de los tratamientos a estudio tanto en ratas macho como en hembras.
+Determinaciones séricas
+Se estudiarán los niveles séricos de TG, colesterol total, -HDL y -LDL, ácidos grasos libres,
+glucosa, insulina (cálculo del índice HOMA-IR) y adipokinas relacionadas con el control
+glucémico y la inflamación (leptina, adiponectina, TNF-α, CRP, FGF-21, visfatina, apelina,
+resistina, IL-1β, IL-6, IL-10) (ELISA).
+Todas las determinaciones séricas se realizarán mediante espectrofotometría y/o fluorimetría.
+Determinaciones en tejido adiposo blanco
+Se estudiará, mediante tinción H&E y posterior análisis microscópico el número y tamaño de
+adipocitos de diferentes depósitos.
+Se analizará la lipogénesis de novo mediante el estudio de la actividad enzimática, la expresión
+proteica y/o activación de glucosa-6P dehidrogenasa, enzima málica, ACC y FAS, y expresión de
+SREBP1 (Western Blot), mientras que el ensamblaje de TG se estudiará mediante el análisis de
+la expresión proteica de DGAT (Western Blot).
+Se estudiará la captación de ácidos grasos y glucosa (expresión proteica de CD36, FATP1 y
+GLUT-4 por Western Blot), así como la captación de ácidos grasos de los TG de las lipoproteínas
+(actividad enzimática de LPL y expresión génica de PPARγ por RT-PCR).
+Para el estudio de la lipólisis, se determinará la tasa lipolítica ex vivo, y se medirá la expresión
+proteica y/o grado de activación de HSL, ATGL, perilipina y CGI-58 (Western Blot).
+De cara al análisis de la disfunción del tejido adiposo blanco se medirán diferentes marcadores de
+estrés del retículo endoplasmático, así como citokinas pro- y anti-inflamatorias. Asimismo, se
+analizarán marcadores de inflamación/hipertrofia, adipokinas, cascada de señalización de la
+insulina, autofagia y fibrosis (principalmente por Western Blot).
+Finalmente, y de cara a estudiar la posible marronización del tejido adiposo blanco, se utilizará la
+tinción de UCP1 para su posterior estudio inmunohistoquímico, y se medirá su expresión proteica
+(Western Blot).
+Una parte significativa de las determinaciones previstas a realizar en esta parte del proyecto se
+basan en la utilización de técnicas como la RT-PCR y el Western Blot.
+Determinaciones en tejido adiposo marrón
+Se analizará mediante espectrofotometría el contenido de TG de este tejido, y se analizará la
+expresión proteica de UCP1, así como la expresión y/o grado de activación de diversos
+marcadores mitocondriales (Western Blot).
+Se analizará la expresión proteica y/o grado de activación de factores de transcripción y cofactores
+involucrados en la adipogénesis, lipolisis, la captación de ácidos grasos, la mitocondriogénesis,
+la oxidación de ácidos grasos, la captación de glucosa y la síntesis de UCP1 en este tejido (Western
+Blot).
+También se estudiará la expresión proteica de DIO2, de receptores de tiroxina y de diferentes
+batokinas en este tejido (Western Blot).
+La mayoría de las determinaciones previstas a realizar en esta parte del proyecto se basan en la
+utilización de técnica Western Blot.
+Determinaciones en músculo esquelético (músculo gastrocnemio)
+Se estudiará el contenido lipídico de este tejido mediante gravimetría y determinación de TG por
+espectrofotometría.
+Se medirá la expresión proteica y/o grado de activación de proteínas clave de la cascada de
+señalización de la insulina y captación de glucosa (Western Blot).
+Para la determinación de la actividad de enzimas involucradas en el metabolismo del glucógeno,
+se estudiarán la G6PC y GK en este tejido (espectrofotometría).
+La mayoría de las determinaciones previstas a realizar en esta parte del proyecto se basan en la
+utilización de técnicas de espectrofotometría y Western Blot.
+Consideraciones
+Dadas las características del proyecto de investigación (parte preclínica que implica el uso de
+animales de experimentación), resulta de gran importancia que la persona que se vaya a incorporar
+al mismo tenga experiencia previa en el manejo de animales de laboratorio (idealmente que haya
+cursado o este cursando formación para el manejo de animales de experimentación).
+En cuanto al trabajo de laboratorio, debido a la importancia de la caracterización de diferentes
+rutas metabólicas tanto en tejido adiposo blanco y marrón, como en músculo esquelético, es
+imprescindible que la persona que se incorpore al presente proyecto tenga experiencia
+(demostrable) en el manejo de técnicas de biología molecular como la RT-PCR y el Western Blot.
+
+### Información detallada: https://www.euskadi.eus/contenidos/ayuda_subvencion/ikertalent_2026/es_def/adjuntos/P10_informacion_es.pdf
+Título: Desarrollo de films y recubrimientos biodegradables a partir de residuos de setas
+para envases alimentarios activos (P10)
+Lugar: Escuela de Ingeniería de Gipuzkoa, Departamento de Ingeniería Química y del
+Medio Ambiente, Grupo de investigación Procesos de Biorrefinería (BioRP)
+Introducción
+La creciente preocupación por el impacto ambiental de los plásticos convencionales ha
+impulsado la búsqueda de materiales sostenibles para aplicaciones de envasado
+alimentario. Paralelamente, la industria del champiñón genera cantidades significativas
+de residuos, como tallos y biomasa no comercializable, que actualmente poseen un
+aprovechamiento limitado. Estos subproductos contienen compuestos de gran interés,
+especialmente quitina y quitosano, biopolímeros con propiedades biodegradables,
+biocompatibles y antimicrobianas.
+En los últimos años, se han desarrollado tecnologías más sostenibles para la extracción
+y transformación de estos compuestos, basadas en principios de química verde y
+procesos de intensificación como ultrasonidos, microondas o disolventes eutécticos
+profundos. Estas alternativas permiten obtener materiales avanzados, como
+nanoquitina y nanofibras, con potencial para la fabricación de films y recubrimientos
+alimentarios activos.
+El proyecto se enmarca en los principios de la economía circular, proponiendo la
+valorización de residuos micológicos para desarrollar envases biodegradables capaces
+de mejorar la conservación de alimentos frescos y reducir la generación de residuos
+agroalimentarios.
+Objetivos
+El objetivo principal del proyecto es desarrollar biomateriales innovadores a partir de
+residuos micológicos, promoviendo su valorización como materia prima para
+aplicaciones de envasado alimentario. Mediante este enfoque, se busca transformar
+subproductos de bajo valor añadido en materiales sostenibles y biodegradables,
+contribuyendo a la reducción de residuos y al aprovechamiento eficiente de los recursos.
+Asimismo, el proyecto pretende evaluar el potencial de estos biomateriales para
+sustituir parcialmente a los plásticos convencionales en aplicaciones alimentarias,
+favoreciendo el desarrollo de soluciones alineadas con los principios de la economía
+circular y la sostenibilidad ambiental.
+Tareas principales
+El proyecto se articula en una serie de tareas orientadas a la valorización de residuos
+generados por la industria micológica para la obtención de biomateriales sostenibles
+destinados al envasado alimentario. En una primera fase, se llevará a cabo la
+recopilación, acondicionamiento y caracterización de los diferentes residuos
+micológicos, con el fin de identificar su composición y determinar su potencial como
+fuente de compuestos de interés.
+Posteriormente, se abordará la extracción y transformación de los principales
+biopolímeros presentes en estos residuos, especialmente quitina, quitosano,
+nanoquitina y nanofibras de quitina, mediante procesos convencionales y tecnologías
+más sostenibles. Esta etapa permitirá obtener materiales de base biológica con
+propiedades adecuadas para aplicaciones avanzadas en el ámbito del envasado.
+A continuación, se diseñarán y prepararán biomateriales biodegradables a partir de las
+distintas fracciones obtenidas, evaluando sus propiedades mecánicas, térmicas y de
+barrera, así como otras características relevantes para su aplicación en contacto con
+alimentos. Asimismo, se estudiará la obtención e incorporación de compuestos
+bioactivos de origen natural con actividad antioxidante y antimicrobiana para mejorar
+la funcionalidad de los materiales desarrollados.
+Finalmente, los biomateriales obtenidos serán validados en aplicaciones de envasado y
+recubrimiento de alimentos, analizando su capacidad para preservar la calidad y
+prolongar la vida útil de los productos. De forma complementaria, se evaluará la
+sostenibilidad de los procesos y materiales desarrollados para determinar su
+contribución a la economía circular y su potencial de aplicación a escala industrial.
+
+### Información detallada: https://www.euskadi.eus/contenidos/ayuda_subvencion/ikertalent_2026/es_def/adjuntos/T1_informacion_es.pdf
+TÍTULO DEL PROYECTO: Fagos para el biocontrol de patógenos
+prioritarios dentro del sector agroalimentario de Euskadi (T1).
+El proyecto se dirige a la formación de personal tecnólogo (2 años) y está dirigido a
+titulaciones de Grado/Máster en Biotecnología, Microbiología, Ciencia y Tecnología de los
+Alimentos, Biología, Bioquímica, Veterinaria, Farmacia, y otras aﬁnes al ámbito
+biosanitario/agroalimentario.
+INTRODUCCIÓN Y CONTEXTO:
+Las toxiinfecciones e infecciones alimentarias constituyen uno de los grandes desafíos
+para la salud pública, como pone de maniﬁesto una legislación cada vez más restrictiva
+(reglamento (UE) 2024/2895 para el control de Listeria monocytogenes). El control del
+crecimiento bacteriano en alimentos listos para consumo se basa en el uso de
+conservantes y tratamientos térmicos. Sin embargo, estas estrategias presentan
+limitaciones en determinadas matrices alimentarias y no siempre garantizan un control
+eﬁcaz de patógenos persistentes, lo que pone de maniﬁesto la necesidad de nuevas
+herramientas que permitan reforzar la seguridad alimentaria de forma eﬁcaz y sostenible,
+adaptadas a condiciones reales de aplicación complementarias a procesos actuales.
+Este proyecto se enmarca en el Plan de Tecnología de AZTI 2026-2028, dentro la línea
+estratégica “Herramientas biotecnológicas de biocontrol: soluciones estratégicas en clave
+One Health”, focalizada en el desarrollo de herramientas de biocontrol y en el empleo fagos
+como agentes biológicos altamente especíﬁcos, eﬁcaces e inocuos. Estos agentes
+permiten actuar sobre las bacterias diana sin afectar otros microorganismos beneﬁciosos
+presentes en el microbioma de los alimentos, ofreciendo una alternativa sostenible y
+segura a los métodos convencionales.
+OBJETIVOS:
+El objetivo general de este proyecto es el desarrollo de soluciones innovadoras basadas en
+fagos orientadas al biocontrol (prevención y eliminación) de patógenos en la cadena
+agroalimentaria vasca, para mejorar la seguridad alimentaria bajo un enfoque integral One
+Health.
+Los objetivos especíﬁcos son:
+OE1. Incrementar la colección de bacterias de interés para la industria agroalimentaria
+vasca,
+OE2. Ampliar la colección de bacteriófagos caracterizados fenotípica, genotípica y
+tecnológicamente con actividad especíﬁca frente a las bacterias aisladas,
+OE3. Diseñar y optimizar formulaciones de fagos con alta especiﬁcidad y eﬁcacia.
+OE4. Diseñar estrategias de aplicación seguras y sostenibles como alternativa o
+complemento a otras medidas y tecnologías de control existentes.
+OE5. Evaluar la eﬁcacia y seguridad de las nuevas fórmulas en alimentos y entornos
+relevantes.
+METODOLOGÍA / TAREAS:
+Para la consecución de cada objetivo especíﬁco se plantea la siguiente metodología:
+OE1 y OE2: Para el aislamiento de nuevos patógenos y fagos se utilizarán técnicas
+microbiológicas clásicas, empleando medios y condiciones de cultivo especíﬁcos,
+incubación de las muestras con los patógenos de interés, técnica de doble capa, spot
+tests, etc… Se pretende con ello la actualización de la colección privada de cepas para la
+caracterización de fagos y la obtención de suspensiones de fagos en concentración
+suﬁciente para ser caracterizados tecnológica (rango de hospedador, eﬁciencia de paqueo,
+estabilidad…) y genéticamente (secuenciación completa).
+OE3: Tras un primer diseño teórico (por rango de hospedador), se realizará la evaluación
+empírica de posibles combinaciones para descartar antagonismos y potenciar sinergias
+entre fagos.
+OE4: Se estudiarán metodologías para estabilizar y administrar los fagos bajo las
+condiciones de uso previsto para optimizar dosis y forma de aplicación, atendiendo
+también a la posible combinación o interferencia con otros procesos alimentarios.
+OE5: Se realizarán Challenge test para estudiar la eﬁcacia en la eliminación de patógenos
+en superﬁcies orgánicas y matrices alimentarias, o eliminación de bioﬁlms en superﬁcies
+inertes.
+Como resultado principal, el proyecto permitirá obtener, al menos, una solución a base
+de fagos, optimizada y validada para el control de patógenos en matrices alimentarias y/o
+condiciones de aplicación relevantes. En concreto, se obtendrán: formulaciones multifago
+con eﬁcacia demostrada, validación de su eﬁcacia en matrices alimentarias y/o
+condiciones relevantes, y deﬁnición de condiciones óptimas de uso, que aportarán
+evidencia cientíﬁca sobre su eﬁcacia y seguridad como herramientas complementarias
+para la mejora de la seguridad alimentaria, apoyando el avance hacia su futura
+implementación y el desarrollo de un marco normativo adecuado.
+EQUIPO DE TRABAJO Y MEDIOS TÉCNICOS:
+El proyecto será desarrollado dentro del Grupo de investigación en bacteriófagos del Área
+de Calidad, Seguridad e Inocuidad Alimentaria de AZTI. Se trata de un equipo
+multidisciplinar con amplia experiencia en microbiología de alimentos, biotecnología y
+biología de fagos, integrado por cinco investigadoras y tres analistas de apoyo a la
+investigación con perﬁles complementarios, y con una trayectoria cientíﬁca consolidada
+acreditada por publicaciones cientíﬁcas, comunicaciones a congresos, dirección de tesis
+y participación en proyectos de investigación en este ámbito. El proyecto será liderado por
+las doctoras Amaia Lasagabaster (ORCID: 0000-0002-4680-3314) y María Lavilla (ORCID:
+0000-0003-1287-9035).
+El proyecto contará con un sistema de seguimiento basado en la planiﬁcación de las
+actividades de acuerdo con hitos y objetivos deﬁnidos, así como en la realización de
+reuniones periódicas de seguimiento técnico del equipo.
+AZTI dispone de todas las infraestructuras, equipamiento y capacidades cientíﬁcotecnológicos que permiten abordar todas las actividades previstas, incluyendo
+laboratorios de microbiología (BSL-2 y BSL-3), biología molecular y caracterización
+biomolecular, así como instalaciones de planta piloto (manejo de microorganismos
+patógenos y pruebas en condiciones relevantes).
+
+### Información detallada: https://www.euskadi.eus/contenidos/ayuda_subvencion/ikertalent_2026/es_def/adjuntos/T2_informacion_es.pdf
+T2-INFORMACIÓN ADICIONAL
+MONITORIZACIÓN DE LA SANIDAD FORESTAL MEDIANTE COMBINACIÓN DE TÉCNICAS
+MICROBIOLÓGICAS, MOLECULARES E HIPERESPECTRALES.
+DIRECCION POSTAL DONDE SE VA A DESARROLLAR LA FORMACIÓN
+Campus Agroalimentario de Arkaute N-104, km. 355 – 01192 Arkaute (ARABA-ÁLAVA)
+DURACIÓN
+24 meses
+BREVE RESUMEN Y NOVEDAD de la PROPUESTA (Hipótesis de trabajo)
+El aumento del comercio global, el movimiento de plantas de vivero y el cambio climático han acelerado la
+aparición y dispersión de enfermedades forestales emergentes. Muchos patógenos pueden permanecer latentes y
+dispersarse antes de que aparezcan síntomas visibles, dificultando su control mediante métodos convencionales.
+Por ello, resulta prioritario desarrollar herramientas rápidas, precisas y no destructivas capaces de detectar
+infecciones desde las primeras fases, mejorando la prevención y la gestión sanitaria de las masas forestales.
+La propuesta plantea una aproximación multidisciplinar innovadora para detectar enfermedades forestales desde
+semillas y plántulas hasta árboles adultos, integrando tecnologías avanzadas de diagnóstico temprano y
+monitorización. La hipótesis de trabajo establece que los patógenos generan alteraciones fisiológicas detectables
+antes de la aparición de síntomas visibles, permitiendo desarrollar sistemas de detección precoz capaces de reducir
+la dispersión de enfermedades y mejorar la toma de decisiones en gestión forestal sostenible.
+OBJETIVO GENERAL
+Desarrollar una metodología multidisciplinar innovadora para la detección temprana, rápida y no destructiva de
+enfermedades forestales, desde semillas y plantas de vivero hasta masas forestales adultas, con el fin de mejorar
+la prevención, reducir la dispersión de patógenos y optimizar la gestión forestal sostenible.
+OBJETIVOS ESPECÍFICOS
+1.
+Desarrollar protocolos de detección precoz aplicables a semillas, plántulas y árboles en diferentes fases
+de desarrollo.
+2.
+Integrar tecnologías avanzadas de análisis espectral, análisis de datos para la identificación de
+enfermedades forestales.
+3.
+Evaluar la aplicabilidad de las metodologías desarrolladas en viveros y masas forestales reales como
+herramienta de vigilancia y gestión fitosanitaria.
+4.
+Contribuir al desarrollo de estrategias preventivas que minimicen la dispersión de patógenos y mejoren
+la resiliencia de los ecosistemas forestales.
+METODOLOGÍA, PLANIFICACIÓN y FASES de EJECUCIÓN
+La metodología se basará en una aproximación multidisciplinar que integrará análisis espectral, técnicas de
+diagnóstico fitopatológico, análisis avanzado de datos e inteligencia artificial para la detección temprana de
+enfermedades forestales. El trabajo se desarrollará de forma escalonada desde condiciones controladas de
+laboratorio y vivero hasta su validación en masas forestales reales.
+Se analizarán semillas, plántulas y árboles en diferentes estados sanitarios mediante tecnologías no destructivas,
+generando bases de datos espectrales y fisiológicas que permitan identificar patrones asociados a infecciones
+tempranas. Posteriormente, se desarrollarán modelos predictivos y sistemas de clasificación orientados a la
+detección precoz y apoyo a la toma de decisiones en gestión forestal.
+El proyecto se desarrollará mediante una aproximación multidisciplinar que combinará técnicas de diagnóstico
+fitopatológico, análisis espectral, inteligencia artificial y análisis avanzado de datos para detectar enfermedades
+forestales desde fases tempranas.
+La ejecución incluirá:
+1. Selección de especies forestales, patógenos y material vegetal (semillas, plántulas y árboles).
+2. Captura y análisis de datos fisiológicos y espectrales en laboratorio, vivero y masas forestales.
+3. Desarrollo de modelos predictivos para la detección precoz de infecciones antes de la aparición de síntomas
+visibles.
+4. Validación de las metodologías desarrolladas en condiciones reales y comparación con métodos convencionales.
+Transferencia de resultados y elaboración de herramientas de apoyo para la gestión forestal preventiva.
+CRONOGRAMA
+Actividades / Tareas
+Diseño experimental y protocolos de trabajo
+Generación de bases de datos espectrales y sanitarias
+Identificación de firmas asociadas a infecciones tempranas
+Desarrollo y validación de modelos predictivos
+Protocolos operativos en viveros y masas forestales
+Publicaciones científicas e informes técnicos
+Transferencia y divulgación de resultados
+● = periodo de ejecución principal de cada actividad.
+Año 1 (M 1–12)
+●●●●●●
+●●●●●●●●
+●●●●●
+Año 2 (M 13–24)
+●●
+●
+●●●●●●●
+●●●●●
+●●●●
+●●●●
+RESULTADOS, LOGROS a ALCANZAR (productos, procesos, servicios, patentes), APLICABILIDAD
+INDUSTRIAL/TECNOLÓGICA
+El proyecto desarrollará metodologías rápidas y no destructivas para la detección temprana de enfermedades
+forestales desde semillas y plántulas hasta masas forestales adultas. Se generarán bases de datos espectrales,
+modelos predictivos de diagnóstico precoz y protocolos aplicables en viveros y sistemas de vigilancia forestal,
+junto con publicaciones científicas e informes técnicos.
+IMPACTO (científico, social y económico)
+El proyecto impulsará nuevas metodologías de monitorización forestal y mejorará la prevención frente a
+enfermedades emergentes. Además, contribuirá a proteger los ecosistemas forestales, reducir pérdidas económicas
+y reforzar la sostenibilidad y competitividad del sector forestal.
+INTEGRACIÓN DE LA PERSONA SELECCIONADA EN EL GRUPO DE INVESTIGACIÓN
+La persona contratada se incorporará al Grupo de Gestión Forestal de NEIKER, un equipo con amplia experiencia en el
+tema. La persona investigadora participará activamente en todas las fases del proyecto y contará con el apoyo continuo del
+equipo para desarrollar de forma progresiva su autonomía científica y profesional.
+Durante su formación tendrá la oportunidad de:
+•
+Integrarse en un equipo multidisciplinar, dinámico y colaborativo
+•
+Participar en proyectos competitivos de ámbito nacional e internacional.
+•
+Adquirir experiencia a nivel de campo y en técnicas laboratoriales
+•
+Colaborar con grupos de investigación de referencia dentro y fuera de NEIKER.
+•
+Recibir formación científica especializada y formación transversal.
+•
+Participar en seminarios, reuniones científicas y actividades de divulgación.
+•
+Publicar resultados en revistas científicas
+•
+Desarrollar un perfil investigador para su futura carrera profesional.
+•
+Beneficiarse de las condiciones laborales y medidas de conciliación de NEIKER.
+Se valorará positivamente los conocimientos de inglés y estar en posesión del permiso de conducción tipo B.

@@ -2061,4 +2061,385 @@ a) Las recogidas en los artículos 9 y 10 de las presentes bases reguladoras.
 b) Las establecidas en artículo 18 de la Ley 38/2003, de 17 de noviembre. En este sentido, toda referencia en cualquier medio de difusión sobre las inversiones aprobadas deberá incluir que han sido financiadas por el Ministerio para la Transformación Digital y de la Función Pública a través de Red.es.
 El incumplimiento de esta obligación se considerará infracción leve de acuerdo con el artículo 56.c) de la Ley 38/2003, de 17 de noviembre, y se sancionará con una multa fija en los términos previstos en el artículo 59 de la misma ley. Asimismo, podrá ser causa de reintegro de acuerdo con lo establecido en el artículo 37.1.d) de la Ley 38/2003, de 17 de noviembre, y artículo 93 de su Reglamento de desarrollo. No obstante, y sin perjuicio de lo dispuesto por la normativa europea y de las sanciones que en su caso puedan imponerse, de conformidad con lo previsto en el artículo 31.3 del citado Reglamento, si se produjera el incumplimiento de las obligaciones de publicidad establecidas en este artículo y fuera aún posible su cumplimiento en los términos establecidos, o pudieran realizarse acciones correctoras de la falta de publicidad, el órgano concedente requerirá al beneficiario para que adopte las medidas de difusión pertinentes en un plazo no superior a 15 días hábiles, con expresa advertencia de las consecuencias que de dicho incumplimiento pudieran derivarse por aplicación del artículo 37 de la Ley 38/2003, de 17 de noviembre.
 Artículo 32. Control de la ayuda.
-Tanto en la fase de concesión de las ayudas como en la de pago de las mismas o con posterioridad a éste, cuando estas sean financiadas con cargo al FEDER, el órgano concedente, así como los órganos de control competentes, incluidos los recogidos en el artículo 129 del Reglamento (UE, Euratom) n.º 2024/2509 del Parlamento Europeo y del Consejo, de 23 de septiembre de 2024, sobre las normas financieras aplicables al presupuesto general de la Unión, podrán realizar todos aquellos controles e inspecciones que consideren
+Tanto en la fase de concesión de las ayudas como en la de pago de las mismas o con posterioridad a éste, cuando estas sean financiadas con cargo al FEDER, el órgano concedente, así como los órganos de control competentes, incluidos los recogidos en el artículo 129 del Reglamento (UE, Euratom) n.º 2024/2509 del Parlamento Europeo y del Consejo, de 23 de septiembre de 2024, sobre las normas financieras aplicables al presupuesto general de la Unión, podrán realizar todos aquellos controles e inspecciones que consideren convenientes, con el objeto de asegurar el buen fin de la ayuda concedida, estando los solicitantes obligados a prestar colaboración y proporcionar cualquier otra documentación e información que se estime necesaria para la verificación del cumplimiento de las condiciones establecidas en la presente orden. Asimismo, los beneficiarios se comprometen a facilitar las inspecciones y comprobaciones que, en su caso, se efectúen. La oposición a la realización de estas comprobaciones e inspecciones podrá constituir causa de reintegro de la ayuda, sin perjuicio de la tramitación del correspondiente procedimiento sancionador.
+El órgano concedente de la subvención aplicará medidas dirigidas a prevenir, detectar, comunicar y corregir el fraude y la corrupción, prevenir el conflicto de intereses y la doble financiación. Dichas medidas se encuentran recogidas en el Plan de Medidas Antifraude de Red.es, y pueden consultarse en el apartado de «Lucha contra el fraude» del portal de internet de Red.es (https://www.red.es/es/sobre-nosotros/financiacion-europea#luchacontraelfraude.) El citado plan es de aplicación para Red.es en sus actividades de gestión de fondos públicos y europeos.
+Estas medidas incluirán la recogida de información sobre los titulares reales de los perceptores de la ayuda. A tales efectos, los solicitantes deberán aportar el certificado de titularidad real emitido por el Registro Mercantil o por el Registro Central de Titularidades Reales. Asimismo, deberán informar de cualquier cambio posterior en la estructura societaria y en la titularidad real.
+Esta información, en su caso, también podrá ser recabada directamente a través del Registro Central de Titularidades Reales, o cualquier registro público o bases de datos de la Administración habilitados a tales efectos.
+La recogida y al tratamiento de estos datos cumplirá la normativa aplicable en materia de protección de datos.
+Respecto a las comprobaciones que se realicen con posterioridad a la concesión de la subvención, la Administración podrá consultar los sistemas de información para verificar el cumplimiento de las condiciones de los beneficiarios de la subvención.
+A efectos de información y control de estas ayudas, se cederá la información entre los sistemas establecidos para la gestión y control de estas subvenciones con los Sistemas de los Fondos Europeos.
+Sección 4.ª Incumplimientos, pérdida de derecho al cobro, reintegros y sanciones
+Artículo 33. Incumplimientos, reintegros y pérdida de derecho al cobro de las subvenciones.
+El incumplimiento de los requisitos establecidos en estas bases reguladoras y demás normas aplicables, así como de las condiciones que, en su caso, se hayan establecido en la correspondiente resolución de concesión, dará lugar a la obligación de devolver la ayuda percibida más los intereses de demora correspondientes en el momento de detectarse el incumplimiento, conforme a lo dispuesto en el artículo 38 de la Ley 38/2003, de 17 de noviembre. Asimismo, se producirá la pérdida del derecho al cobro total o parcial de la subvención en el supuesto de concurrencia de alguna de las causas previstas en el artículo 37 de la Ley 38/2003, de 17 de noviembre.
+A los efectos de lo establecido en el artículo 37.1.i) de la Ley 38/2003, de 17 de noviembre, se considerarán también causas de reintegro o pérdida de derecho de cobro total o parcial las siguientes:
+a) El incumplimiento del principio de no causar un perjuicio significativo al medioambiente, «Do No Significant Harm» (DNSH), o de las medidas necesarias para garantizar la protección frente al cambio climático de las inversiones en las infraestructuras cuya vida útil sea como mínimo de cinco años, recogidos en el artículo 10 de esta orden, por parte del beneficiario, dará lugar a la obligación de devolver las cantidades percibidas y el interés de demora correspondiente.
+b) La constatación, durante la ejecución de las actuaciones, de desviaciones importantes respecto a lo establecido en la resolución de concesión y las modificaciones aprobadas que puedan comprometer el cumplimiento de los objetivos para los que se concedió la ayuda.
+c) La no autorización del cambio de beneficiario conforme a lo indicado en el artículo 11 de las presentes bases reguladoras (en relación con los beneficiarios de pertenecientes a las categorías d) y e) del artículo 7.1 de las presentes bases reguladoras; esto es, los Centros tecnológicos del ámbito estatal y Empresas).
+d) La no comunicación por parte del beneficiario al órgano competente, de la obtención de otra subvención, ayuda, ingreso o recurso que financie las actividades subvencionadas, conforme a lo indicado en el artículo 16 de las presentes bases reguladoras.
+e) La oposición por parte del beneficiario a que el órgano concedente realice las comprobaciones e inspecciones que considere convenientes, con el objeto de asegurar el buen fin de la ayuda concedida, de acuerdo con lo indicado en el artículo 32 de las presentes bases reguladoras.
+f) La renuncia a la ayuda concedida, conforme a lo indicado en el artículo 30 de las presentes bases reguladoras.
+Será de aplicación lo previsto en el título IV de la Ley 38/2003, de 17 de noviembre, si concurriesen los supuestos de infracciones administrativas en materia de subvenciones.
+Corresponderá a Red.es la tramitación de los procedimientos de reintegro, pérdida de derecho de cobro y su resolución.
+Artículo 34. Criterios de graduación de los posibles incumplimientos.
+Cuando el cumplimiento por el beneficiario se aproxime de modo significativo al cumplimiento total y se acredite por éste una acción inequívocamente tendente a la satisfacción de sus compromisos y de las condiciones de otorgamiento de la ayuda, la cantidad a reintegrar vendrá determinada por la aplicación de los siguientes criterios:
+a) El incumplimiento parcial, ya sea de los objetivos para los que se concedió la ayuda, de la realización de la inversión financiable o de la obligación de justificación, dará lugar al reintegro parcial de la ayuda en el porcentaje correspondiente a los objetivos no alcanzados, o a la inversión no efectuada o no justificada, o al mayor de ellos en caso de concurrir ambos. En todo caso, para apreciar incumplimiento parcial, el grado de cumplimiento de los objetivos para los que se concedió la ayuda deberá superar el cincuenta por ciento (50%).
+b) La realización de modificaciones no autorizadas en el presupuesto financiable supondrá la devolución de la ayuda correspondiente a las cantidades desviadas.
+c) Si siendo preceptiva la solicitud de varias ofertas, éstas no se aportaran o la contratación hubiera recaído, sin adecuada justificación, a una que no fuera la más favorable económicamente, el órgano encargado del seguimiento de las ayudas, de acuerdo con lo previsto en el artículo 83 del Reglamento de la Ley 38/2003, de 17 de noviembre, podrá recabar una tasación pericial del bien o servicio, siendo de cuenta del beneficiario los gastos que se ocasionen. En tal caso, la ayuda se calculará tomando como referencia el menor de los dos valores: el declarado por el beneficiario o el resultante de la tasación.
+d) El incumplimiento de la obligación de dar publicidad a la ayuda concedida, en los términos del artículo 31.3 del Reglamento de la Ley 38/2003, de 17 de noviembre, y de lo establecido en esta orden, será causa del reintegro parcial del importe asociado a dicho incumplimiento.
+El incumplimiento total de los fines para los que se concedió la ayuda, de la realización de la inversión financiable o de la obligación de justificación, dará lugar al reintegro de la totalidad de la ayuda concedida.
+Artículo 35. Procedimiento de pérdida de derecho de cobro y reintegro.
+El procedimiento aplicable será el dispuesto en el título II de la Ley 38/2003, de 17 de noviembre, y en el título III de su Reglamento de desarrollo.
+Artículo 36. Sanciones.
+Las entidades beneficiarias de estas ayudas quedarán sometidas a la regulación contenida en el título IV de la Ley 38/2003, de 17 de noviembre, y el título IV de su Reglamento de desarrollo. Asimismo, quedarán sometidas a lo dispuesto en el capítulo III del título preliminar de la Ley 40/2015, de 1 de octubre, y en el título IV de la Ley 39/2015, de 1 de octubre.
+La potestad sancionadora se ejercerá de acuerdo con lo establecido en el artículo 66 de la Ley 38/2003, de 17 de noviembre.
+Disposición final primera. Título competencial.
+La presente orden se dicta al amparo de las competencias exclusivas del Estado en materia de fomento y coordinación general de la investigación científica y técnica, reconocida en el artículo 149.1.15.ª de la Constitución, y del artículo 149.1.21.ª, que le otorga asimismo la competencia exclusiva en materia de telecomunicaciones.
+Disposición final segunda. Entrada en vigor.
+La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».
+Madrid, 22 de julio de 2026.–El Ministro para la Transformación Digital y de la Función Pública, Óscar López Águeda.
+ANEXO I
+Definiciones
+A los efectos de esta orden, se establecen las siguientes definiciones, atendiendo a la Comunicación de la Comisión Marco sobre ayudas estatales de investigación y desarrollo e innovación (2022/C 414/01), y al Reglamento (UE) n.º 651/2014 de la Comisión, de 17 de junio de 2014, por el que se declaran determinadas categorías de ayudas compatibles con el mercado interior, modificado por el Reglamento (UE) n.º 2023/1315 de la Comisión, de 23 de junio de 2023:
+a) «Infraestructura de investigación»: las instalaciones, los recursos y los servicios afines utilizados por la comunidad científica para llevar a cabo investigaciones en su sector respectivo; esta definición abarca los bienes de equipo o instrumental científicos, los recursos basados en el conocimiento, como colecciones, archivos o información científica estructurada, infraestructuras de carácter instrumental basadas en tecnologías de la información y la comunicación, como GRID, computación, programas informáticos y comunicaciones, o cualquier otra entidad de carácter único necesaria para llevar a cabo la investigación. Estas infraestructuras podrán encontrarse en un solo lugar o estar descentralizadas («red organizada de recursos»). Véase el artículo 2, letra a), del Reglamento (CE) n.º 723/2009 del Consejo, de 25 de junio de 2009, relativo al marco jurídico comunitario aplicable a los Consorcios de Infraestructuras de Investigación Europeas (ERIC) (DO L 206 de 8 de agosto de 2009, p. 1).
+b) «Infraestructura de ensayo y experimentación»: instalaciones, equipos, capacidades y recursos, como los bancos de pruebas, las líneas piloto, los demostradores, las instalaciones de ensayo o los laboratorios vivientes, y los servicios de apoyo conexos utilizados predominantemente por empresas, especialmente por pymes, que buscan ayuda para el ensayo y la experimentación con el fin de desarrollar productos, procesos y servicios nuevos o mejorados, y de probar y mejorar/ampliar la escala de tecnologías con el fin de avanzar a través de la investigación industrial y el desarrollo experimental. El acceso a las infraestructuras de ensayo y experimentación financiadas con fondos públicos está abierto a varios usuarios y ha de concederse de forma transparente y no discriminatoria y en condiciones de mercado. Las infraestructuras de ensayo y experimentación también pueden ser denominadas «infraestructuras tecnológicas», véase el documento de trabajo de los servicios de la Comisión, «Technology Infrastructures», SWD (2019) 158 final, de 8 de abril de 2019.
+c) «Organismo de investigación y difusión de conocimientos» u «organismo de investigación»: toda entidad (por ejemplo, universidades o centros de investigación, organismos de transferencia de tecnologías, intermediarios de innovación o entidades colaborativas reales o virtuales orientadas a la investigación), independientemente de su personalidad jurídica (de Derecho público o privado) o su forma de financiación, cuyo principal objetivo sea realizar investigación fundamental, investigación industrial o desarrollo experimental o difundir ampliamente los resultados de las mismas, mediante la enseñanza, la publicación o la transferencia de tecnología. Cuando dicha entidad desarrolle también actividades económicas, la financiación, los costes y los ingresos respectivos deberán consignarse por separado. Las empresas que puedan ejercer una influencia decisiva en dichas entidades en calidad, por ejemplo, de accionistas o miembros, no podrán gozar de acceso preferente a los resultados de la investigación que generen las entidades.
+e) «Actividades económicas»: Aquellas actividades que consisten en la oferta de bienes y/o servicios en un determinado mercado.
+f) «Actividades no económicas» de los organismos de investigación y de difusión de conocimientos y de infraestructuras de investigación: Se considera que las siguientes actividades suelen ser de naturaleza no económica:
+1.º Las actividades primarias de los organismos de investigación y de difusión de conocimientos y de infraestructuras de investigación, en particular:
+i. La educación para lograr más y mejor personal cualificado. Según la jurisprudencia y la práctica decisoria de la Comisión Europea, y tal como se expone en la Comunicación sobre el concepto de ayuda estatal y en la Comunicación sobre los Servicios de Interés Económico General (SIEG), la educación pública organizada dentro del sistema nacional de educación, financiada predominantemente o enteramente por el Estado y supervisada por este, puede considerarse una actividad no económica.
+ii. La I+D+i independiente para mejorar los conocimientos y la comprensión cuando el organismo de investigación o la infraestructura de investigación emprenda una colaboración efectiva.
+iii. La amplia difusión de resultados de las investigaciones de forma no discriminatoria y no exclusiva, por ejemplo, mediante la enseñanza, bases de datos de acceso abierto, publicaciones abiertas o programas informáticos abiertos.
+2.º Actividades de transferencia de conocimientos, cuando son llevadas a cabo por el organismo de investigación o la infraestructura de investigación (incluidos sus departamentos o filiales) o de forma conjunta, o por cuenta de dichas entidades, y cuando todos los beneficios generados por ellas vuelven a invertirse en actividades primarias del organismo de investigación o la infraestructura de investigación. El carácter no económico de esas actividades no se ve afectado por el hecho de contratar con terceros la prestación de los servicios correspondientes mediante licitación pública.
+g) El concepto empresa y sus categorías, se definen y subdividen de acuerdo a lo establecido en el anexo I del Reglamento (UE) n.º 651/2014 de la Comisión, de 17 de junio de 2014, tal y como se recoge a continuación:
+Empresa:
+«Se considerará empresa toda entidad, independientemente de su forma jurídica, que ejerza una actividad económica. En particular, se considerarán empresas las entidades que ejerzan una actividad artesanal u otras actividades a título individual o familiar, así como las sociedades de personas y las asociaciones que ejerzan una actividad económica de forma regular.»
+Efectivos y límites financieros que definen las categorías de empresas:
+«1. La categoría de microempresas, pequeñas y medianas empresas (PYME) está constituida por las empresas que ocupan a menos de 250 personas y cuyo volumen de negocios anual no excede de 50 millones EUR o cuyo balance general anual no excede de 43 millones EUR.
+2. En la categoría de las PYME, se define pequeña empresa como una empresa que ocupa a menos de 50 personas y cuyo volumen de negocios anual o cuyo balance general anual no supera los 10 millones EUR.
+3. En la categoría de las PYME, se define microempresa como una empresa que ocupa a menos de 10 personas y cuyo volumen de negocios anual o cuyo balance general anual no supera los 2 millones EUR.»
+El cómputo de los efectivos y límites financieros que definen las categorías de empresas, en el caso de empresas asociadas o vinculadas, se realizará de conformidad con lo dispuesto en los artículos 3 a 6 del anexo I del Reglamento (UE) n.º 651/2014 de la Comisión, de 17 de junio de 2014.
+h) Consideración de empresa en crisis: En relación con los beneficiarios de la categoría d) y e) del artículo 7.1 de las presentes bases reguladoras (esto es, Centros tecnológicos del ámbito estatal y Empresas), y de conformidad con lo estipulado en su artículo 7.4 f), será requisito obligatorio no tener la consideración de empresa en crisis conforme a lo dispuesto en el artículo 2.18 del Reglamento (UE) n.º 651/2014 de la Comisión, de 17 de junio de 2014, y conforme a la definición establecida en las Directrices Comunitarias sobre Ayudas Estatales de Salvamento y de Reestructuración de Empresas no financieras en Crisis (2014/C 249/01) (Diario Oficial número 244, de 31 de julio de 2014).
+A estos efectos y conforme a lo dispuesto en el artículo 2.18 del Reglamento (UE) n.º 651/2014 de la Comisión, de 17 de junio de 2014, se considerará que una empresa está en crisis cuando concurra al menos una de las siguientes circunstancias:
+a) Si se trata de una sociedad de responsabilidad limitada, cuando haya disminuido su capital social suscrito en más de la mitad, como consecuencia de las pérdidas acumuladas, lo que sucede cuando la deducción de las pérdidas acumuladas de las reservas conduce a un resultado negativo superior a la mitad del capital social suscrito.
+b) Si se trata de una sociedad en la que al menos algunos socios tienen una responsabilidad ilimitada sobre la deuda de la sociedad, cuando haya desaparecido por las pérdidas acumuladas más de la mitad de sus fondos propios que figuran en su contabilidad.
+c) Cuando la empresa se encuentre inmersa en un procedimiento de concurso de acreedores o insolvencia o reúna los criterios establecidos en su Derecho nacional para ser sometida a un procedimiento de concurso de acreedores o insolvencia a petición de sus acreedores.
+d) Cuando la empresa haya recibido ayuda de salvamento y todavía no haya reembolsado el préstamo o puesto fin a la garantía, o haya recibido ayuda de reestructuración y esté todavía sujeta a un plan de reestructuración.
+ANEXO II
+Ámbitos tecnológicos
+A continuación, se recogen de entre los 10 ámbitos tecnológicos, recogidos en la Recomendación (UE) 2023/2113 de la Comisión de 3 de octubre de 2023, aquellos que serán objeto de financiación:
+1. Tecnologías avanzadas de semiconductores:
+– Microelectrónica, incluidos los procesadores.
+– Tecnologías fotónicas (incluido el láser de alta energía).
+– Chips de alta frecuencia.
+– Equipos de fabricación de semiconductores con tamaños de nodo muy avanzados.
+2. Tecnologías de inteligencia artificial:
+– Computación de alto rendimiento.
+– Computación en la nube y periférica.
+– Tecnologías de análisis de datos.
+– Visión computerizada, procesamiento del lenguaje, reconocimiento de objetos.
+3. Tecnologías cuánticas:
+– Computación cuántica.
+– Criptografía cuántica.
+– Comunicaciones cuánticas.
+– Detección cuántica y radar cuántico.
+5. Tecnologías avanzadas de conectividad, de navegación y digitales:
+– Comunicaciones y conectividad digitales seguras, como la red de acceso radio (RAN) y la Open RAN, o la 5G/6G.
+– Tecnologías de ciberseguridad, incluida la cibervigilancia, los sistemas de seguridad y de intrusión, la criminalística digital.
+– Internet de las cosas y realidad virtual.
+– Tecnologías de registros distribuidos y de identidad digital.
+– Tecnologías de guiado, navegación y control, incluida la aviónica y el posicionamiento marino.
+7. Tecnologías espaciales y de propulsión:
+– Tecnologías de vigilancia espacial y observación de la Tierra.
+– Posicionamiento, navegación y temporización (PNT) espacial.
+– Comunicaciones seguras, incluida la conectividad de órbita terrestre baja (LEO).
+9. Robótica y sistemas autónomos:
+– Drones y vehículos (aéreos, terrestres, de superficie y subacuáticos).
+– Robots y sistemas de precisión controlados por robots.
+– Exoesqueletos.
+– Sistemas basados en la IA.
+A continuación, se recogen de entre los 10 ámbitos tecnológicos, recogidos en la Recomendación (UE) 2023/2113 de la Comisión de 3 de octubre de 2023, aquellos que no serán objeto de financiación:
+4. Biotecnologías:
+– Técnicas de modificación genética.
+– Nuevas técnicas genómicas.
+– Genética dirigida.
+– Biología sintética.
+6. Tecnologías avanzadas de detección:
+– Detección electroóptica, mediante radar, química, biológica, radiológica y distribuida.
+– Magnetómetros, gradiómetros magnéticos.
+– Sensores de campos eléctricos subacuáticos.
+– Gravímetros y gradiómetros de gravedad.
+– Tecnologías específicas centradas en el espacio, desde el nivel de componente hasta el nivel de sistema.
+– Tecnologías de propulsión, incluida la hipersónica y los componentes para uso militar.
+8. Tecnologías energéticas:
+– Tecnologías de fusión nuclear, reactores y generación de energía, tecnologías de conversión radiológica/enriquecimiento/reciclado.
+– Hidrógeno y nuevos combustibles.
+– Tecnologías de cero emisiones netas, incluida la energía fotovoltaica.
+– Redes inteligentes y almacenamiento de energía, baterías.
+10. Tecnologías avanzadas de materiales, de fabricación y de reciclado:
+– Tecnologías de nanomateriales, materiales inteligentes, materiales cerámicos avanzados, materiales de sigilo, materiales seguros y sostenibles desde el diseño.
+– Fabricación aditiva, incluso en los trabajos de campo.
+– Fabricación de microprecisión controlada digitalmente y mecanizado/soldadura con láser a pequeña escala.
+– Tecnologías de extracción, procesamiento y reciclado de materias primas fundamentales (incluida la extracción hidrometalúrgica, la biolixiviación, la filtración nanotecnológica, el procesamiento electroquímico y la masa negra).
+Análisis
+ANÁLISIS
+Rango: Orden
+Fecha de disposición: 22/07/2026
+Fecha de publicación: 01/08/2026
+Fecha de entrada en vigor: 02/08/2026
+Referencias anteriores
+DE CONFORMIDAD con:
+el Real Decreto 887/2006, de 21 de julio (Ref. BOE-A-2006-13371).
+el art. 17 y 22 de la Ley 38/2003, de 17 de noviembre (Ref. BOE-A-2003-20977).
+CITA:
+Recomendación (UE) 2023/2113, de 3 de octubre (Ref. DOUE-L-2023-81409).
+Reglamento (UE) 2021/821, de 20 de mayo (Ref. DOUE-L-2021-80765).
+Reglamento (UE) 651/2014, de 17 de junio (Ref. DOUE-L-2014-81403).
+Materias
+Ayudas
+Centros tecnológicos
+Defensa
+Desarrollo tecnológico
+Empresas
+Fondo Europeo de Desarrollo Regional
+Investigación científica
+Red es
+Subvenciones
+Universidades
+subir
+Contactar
+Sobre la sede electrónica
+Mapa
+Protección de datos
+Sistema Interno de Información
+Tutoriales
+Empleo en la AEBOE
+Avda. de Manoteras, 54 - 28050 Madrid
+
+### Boletín oficial: http://www.boe.es/diario_boe/verifica.php?acc=Verificar&c=BOE-B-2026-32467
+Núm. 248
+Sec. V-B. Pág. 52708
+V. Anuncios
+B. Otros anuncios oficiales
+MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA
+32467
+Extracto de la Resolución de 30 de septiembre de 2026 de la Dirección
+General de la entidad pública empresarial Red.es, M.P., por la que se
+convocan las ayudas 2026 para la creación de infraestructuras para la
+investigación en tecnologías de uso dual.
+BDNS(Identif.):933308
+De conformidad con lo previsto en los artículos 17.3.b y 20.8.a de la Ley 38/
+2003, de 17 de noviembre, General de Subvenciones, se publica el extracto de la
+convocatoria cuyo texto completo puede consultarse en la Base de Datos Nacional
+de Subvenciones (https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/
+933308)
+Primero. Beneficiarios:
+Podrán obtener la condición de beneficiarios:
+a) Las Universidades públicas y sus institutos universitarios de acuerdo con lo
+previsto en la Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario, que
+estén inscritas en el Registro a que se refiere el Real Decreto 1509/2008, de 12 de
+septiembre, por el que se regula el Registro de Universidades, Centros y Títulos.
+b) Los Organismos públicos de investigación (OPI) de la Administración
+General del Estado conforme al artículo 47.2 de la Ley 14/2011, de 1 de junio.
+c) Otros Centros públicos de I+D con personalidad jurídica propia,
+dependientes de la Administración General del Estado o del resto de
+administraciones públicas y sus organismos, que en sus estatutos o en la
+normativa que los regule o en su objeto social tengan la I+D+i como actividad
+principal, no regulados en la Ley 14/2011, de 1 de junio, o en disposiciones
+similares de las comunidades autónomas. En esta categoría se encuadran los
+centros tecnológicos cuya propiedad y gestión sea de las Administraciones
+públicas.
+Ayudas destinadas a la construcción y mejora de infraestructuras para la
+investigación en tecnologías de uso dual, en los ámbitos tecnológicos establecidos
+en la Recomendación (UE) 2023/2113 de la Comisión, de 3 de octubre de 2023
+recogidos en el anexo II de la Orden de Bases reguladoras, en régimen de
+concurrencia competitiva.
+Tercero. Bases reguladoras:
+Orden TDF/811/2026, de 22 de julio, por la que se aprueban las bases
+reguladoras de la concesión de ayudas por la Entidad Pública Empresarial Red.es,
+M.P., para la creación de Infraestructuras para la investigación el ensayo y la
+experimentación en tecnologías de uso dual («BOE» núm. 187, de 1 de agosto de
+2026)
+Cuarto. Cuantía:
+cve: BOE-B-2026-32467
+Verificable en la dirección https://extraboe.boe.es/arde
+Segundo. Objeto:
+Núm. 248
+Sec. V-B. Pág. 52709
+El importe máximo total de las ayudas asciende a ciento catorce millones
+seiscientos noventa mil trescientos cuarenta y tres euros con dos céntimos
+(114.690.343,02 €). El importe mínimo de la ayuda a conceder por cada solicitud
+será de 900.000 € y el máximo de 8.000.000 €, supeditado al presupuesto
+disponible por región.
+Quinto. Plazo de presentación de solicitudes:
+La fecha y hora de finalización del plazo de presentación de solicitudes será la
+correspondiente al transcurso de dos (2) meses contados desde el día siguiente al
+de la publicación del extracto de la Convocatoria en el Boletín Oficial del Estado.
+Sexto. Otros datos:
+Los beneficiarios podrán solicitar un anticipo de la ayuda siempre y cuando se
+cumplan los requisitos establecidos en el artículo 28 de las Bases reguladoras.
+Para la presente Convocatoria se establece como anticipo máximo el ochenta por
+ciento (80%) de la ayuda concedida.
+Madrid, 30 de septiembre de 2026.- El Director General de la entidad pública
+empresarial Red.es, M.P., P.D. de la Presidenta de Red.es (Resolución de 10 de
+noviembre de 2020), Jesús Herrero Pozas.
+cve: BOE-B-2026-32467
+Verificable en la dirección https://extraboe.boe.es/arde
+ID: A260042452-1
+https://www.boe.es
+D.L.: M-1/1958 - ISSN: 0212-033X
+
+### Convocatorias y Ayudas: https://sede.red.gob.es/es/convocatorias-y-ayudas?field_fecha_fin_plazo_value=1
+Convocatorias y ayudas
+AVISO
+Las solicitudes iniciadas que se encuentren sin presentar por un periodo superior a seis meses podrán ser eliminadas del sistema.
+Leer más
+Convocatorias en plazo
+Código
+Nombre
+Fecha Fin de Plazo
+C020/26-SP CV1
+CONVOCATORIA DE SUBVENCIONES CORRESPONDIENTE AL EJERCICIO 2026 PARA LA CREACIÓN DE INFRAESTRUCTURAS PARA LA INVESTIGACIÓN EN TECNOLOGÍAS DE USO DUAL
+09/12/2026
+C004/24-ED
+ANUNCIO DE ADHESIÓN DE ASESORES DIGITALES AL PROGRAMA “AGENTES DEL CAMBIO - KIT CONSULTING”
+C032/21-ED
+ANUNCIO DE ADHESIÓN DE AGENTES DIGITALIZADORES AL PROGRAMA DE AYUDAS PARA LA DIGITALIZACIÓN DE PEQUEÑAS EMPRESAS, MICROEMPRESAS Y PERSONAS EN SITUACIÓN DE AUTOEMPLEO, DENTRO DEL PROGRAMA KIT DIGITAL
+Estás viendo 1 - 3 de 3
+AVISO: Las solicitudes iniciadas que se encuentren sin presentar por un periodo superior a seis meses podrán ser eliminadas del sistema.
+
+### Enlace: https://sede.red.gob.es/sites/sede/files/2026-07/doc20251201103734calendario-oficial-laboral-y-de-dias-inhabiles-y-fe.pdf
+CALENDARIO OFICIAL LABORAL Y DE DÍAS INHÁBILES Y FESTIVOS
+2026 PARA MADRID
+1. Fiestas laborales de la Comunidad de Madrid y la Villa de Madrid
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+1 de enero (jueves), Añ o Nuevo.
+6 de enero (martes), Epifanı́a del Señ or.
+2 de abril, Jueves Santo.
+3 de abril, Viernes Santo.
+1 de mayo (viernes), Fiesta del Trabajo.
+2 de mayo (sá bado), Fiesta de la Comunidad de Madrid.
+15 de agosto (sá bado), Asunció n de la Virgen.
+12 de octubre (lunes). Fiesta Nacional de Españ a.
+2 de noviembre (lunes), traslado de Todos los Santos.
+7 de diciembre (lunes), traslado del Dı́a de la Constitució n Españ ola.
+8 de diciembre (martes), Dı́a de la Inmaculada Concepció n.
+25 de diciembre (viernes), Natividad del Señ or.
+Ademá s de las doce �iestas relacionadas, se celebrará n en Madrid capital dos
+�iestas locales:
+•
+•
+15 de mayo (viernes), San Isidro Labrador.
+9 de noviembre (lunes), festividad de Nuestra Señ ora de La
+Almudena.
+2. Días Inhábiles
+Son dı́as inhá biles en el á mbito de la Administració n General del Estado, a
+efectos de có mputo de plazos:
+•
+En todo territorio nacional: los sá bados, los domingos y los dı́as
+declarados como �iestas de á mbito nacional no sustituibles, o sobre las
+que la totalidad de las Comunidades Autó nomas no ha ejercido facultad
+de sustitució n.
+• En el á mbito territorial de las Comunidades Autó nomas: aquellos
+dı́as determinados por cada Comunidad Autó noma como festivos.
+• En los á mbitos territoriales de las Entidades que integran la
+Administració n Local: los dı́as que establezcan las respectivas
+Comunidades Autó nomas en sus correspondientes calendarios de dı́as
+inhá biles.
+Los dı́as há biles son diferentes a los laborales, por tanto, los sá bados,
+aunque se consideren inhá biles, siguen siendo dı́as laborables.
+3. Fundamento legal
+Decreto 75/2025, de 24 de septiembre, del Consejo de Gobierno, por el
+que se establecen las �iestas laborales para el añ o 2026 en la Comunidad
+de Madrid. BOCM nú m. 229 de 25 de septiembre de 2025.
+Resolució n de 17 de octubre de 20245 de la Direcció ń General de Trabajo,
+por la que se publica la relació n de �iestas laborales para el añ o 2026. BOE
+nú m. 259 de 28 octubre de 2025.
+Acuerdos de la sesió n (11/2025), ordinaria del Pleno del Ayuntamiento de
+Madrid celebrada el dı́a 30 de septiembre de 2025. BOAM nú m. 9996 de
+30 de octubre de 2025.
+Resolució n de 18 de noviembre de 2025, de la Secretarı́a de Estado de
+Funció ń Pú blica, por la que se establece a efectos de có mputo de plazos, el
+calendario de dı́as inhá biles en el á mbito de la Administracion General del
+Estado para el añ o 2026. BOE nú m. 282 de 24 de noviembre de 2025.
+
+### Normativa: https://sede.red.gob.es/es/que-es-la-sede/normativa
+Normativa
+Resolución de 29 de enero de 2010, de la Presidencia de la Entidad Pública empresarial Red.es, por la que se crea la Sede Electrónica de la entidad.
+Resolución de 19 de mayo de 2010, de la Presidencia de la Entidad Pública Empresarial Red.es, por la que se crea el registro electrónico de la entidad pública empresarial Red.es
+La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas reconoce el derecho de los ciudadanos a relacionarse con las administraciones públicas por medios electrónicos para el ejercicio de los derechos previstos en el artículo 13 de la misma ley.
+La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público establece en el artículo 38 que la sede electrónica es aquella dirección electrónica disponible para los ciudadanos a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración Pública, o bien a una o varios organismos públicos o entidades de Derecho Público en el ejercicio de sus competencias. Las sedes electrónicas dispondrán de sistemas que permitan el establecimiento de comunicaciones seguras siempre que sean necesarias.
+El Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos persigue mejorar la eficiencia administrativa para hacer efectiva una Administración totalmente electrónica e interconectada. Desarrolla y concreta el empleo de los medios electrónicos establecidos en las leyes 39/2015 y 40/2015 para garantizar, por una parte, que los procedimientos administrativos se tramiten electrónicamente por la Administración y, por otra, que la ciudadanía se relacione con ella por estos medios en los supuestos en que sea establecido con carácter obligatorio o aquellos lo decidan voluntariamente.
+El Real Decreto 311/2022, de 3 de mayo regula el Esquema Nacional de Seguridad.
+Declaración de conformidad con el Esquema Nacional de Seguridad.
+
+### Enlace: https://sede.red.gob.es/es/convocatorias-y-ayudas
+Convocatorias y ayudas
+AVISO
+Las solicitudes iniciadas que se encuentren sin presentar por un periodo superior a seis meses podrán ser eliminadas del sistema.
+Leer más
+Convocatorias en plazo
+Código
+Nombre
+Fecha Fin de Plazo
+C020/26-SP CV1
+CONVOCATORIA DE SUBVENCIONES CORRESPONDIENTE AL EJERCICIO 2026 PARA LA CREACIÓN DE INFRAESTRUCTURAS PARA LA INVESTIGACIÓN EN TECNOLOGÍAS DE USO DUAL
+09/12/2026
+C004/24-ED
+ANUNCIO DE ADHESIÓN DE ASESORES DIGITALES AL PROGRAMA “AGENTES DEL CAMBIO - KIT CONSULTING”
+C032/21-ED
+ANUNCIO DE ADHESIÓN DE AGENTES DIGITALIZADORES AL PROGRAMA DE AYUDAS PARA LA DIGITALIZACIÓN DE PEQUEÑAS EMPRESAS, MICROEMPRESAS Y PERSONAS EN SITUACIÓN DE AUTOEMPLEO, DENTRO DEL PROGRAMA KIT DIGITAL
+Estás viendo 1 - 3 de 3
+AVISO: Las solicitudes iniciadas que se encuentren sin presentar por un periodo superior a seis meses podrán ser eliminadas del sistema.
+
+### Todos: https://sede.red.gob.es/es/convocatorias-y-ayudas?field_fecha_fin_plazo_value=2&items_per_page=10&combine=&field_fecha_de_inicio_plazo_value=&field_fecha_fin_plazo_value_1=
+Convocatorias y ayudas
+AVISO
+Las solicitudes iniciadas que se encuentren sin presentar por un periodo superior a seis meses podrán ser eliminadas del sistema.
+Leer más
+Todas las convocatorias
+Código
+Nombre
+Fecha Fin de Plazo
+C020/26-SP CV1
+CONVOCATORIA DE SUBVENCIONES CORRESPONDIENTE AL EJERCICIO 2026 PARA LA CREACIÓN DE INFRAESTRUCTURAS PARA LA INVESTIGACIÓN EN TECNOLOGÍAS DE USO DUAL
+09/12/2026
+C023/26-RI
+INVITACIÓN GENERAL A EMPRESAS PARA PATROCINAR EL FORO DE CIBERSEGURIDAD DE 2026
+27/09/2026
+C012/26-IA
+INVITACIÓN GENERAL PARA PARTICIPAR EN EL IMPULSO AL DESARROLLO DE ECOSISTEMAS DE INTELIGENCIA ARTIFICIAL PARA STARTUPS Y PYMES
+10/11/2026
+C019/26-TE
+INVITACIÓN GENERAL A EMPRESAS PARA PARTICIPAR COMO EXPOSITORAS EN EL PABELLÓN DE ESPAÑA EN MWC BARCELONA 2027
+11/09/2026
+C002/26-RI
+INVITACIÓN GENERAL A EMPRESAS PARA PATROCINAR LAS JORNADAS TÉCNICAS DE RedIRIS 2026
+09/03/2026
+C008/25-SP
+RedCyTI SMART ECONOMY - PROGRAMA DE IMPULSO A LAS CIUDADES Y TERRITORIOS INTELIGENTES PARA EL FOMENTO DEL DESARROLLO ECONÓMICO Y PRODUCTIVO
+31/03/2026
+C006/25-SP
+ORDEN DE BASES Y CONVOCATORIA PARA EL EJERCICIO 2025 PARA LA CONCESIÓN DE AYUDAS DESTINADAS A LA REALIZACIÓN DE PROYECTOS DE DESARROLLO EXPERIMENTAL QUE IMPULSEN LA ADOPCIÓN DE LA INTELIGENCIA ARTIFICIAL EN EL ÁMBITO DE LA SALUD
+05/01/2026
+C056/25-DG
+Real Decreto 868/2025, de 30 de septiembre, por el que se modifica el Real Decreto 1024/2022, de 13 de diciembre
+31/10/2025
+C055/25-SI
+CONVOCATORIA DE AYUDAS PARA LA TRANSFORMACIÓN DIGITAL DE LOS SECTORES PRODUCTIVOS ESTRATÉGICOS MEDIANTE EL FOMENTO DE LA ADAPTACIÓN E INCORPORACIÓN DE PARTICIPANTES A LOS ESPACIOS DE DATOS (KIT ESPACIOS DE DATOS)
+31/03/2026
+C041/25-SP
+INVITACIÓN GENERAL PARA PARTICIPAR EN EL DESARROLLO DE CASOS DE USO DE APLICACIÓN DE LAS TECNOLOGÍAS CUÁNTICAS EN SECTORES PRODUCTIVOS ESTRATÉGICOS
+08/10/2025
+Estás viendo 1 - 10 de 101
+AVISO: Las solicitudes iniciadas que se encuentren sin presentar por un periodo superior a seis meses podrán ser eliminadas del sistema.

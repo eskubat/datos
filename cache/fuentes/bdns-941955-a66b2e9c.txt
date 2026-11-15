@@ -3190,4 +3190,321 @@ c) Se destinará un mínimo del 8% a proyectos de animación.
 d) Se destinará un mínimo del 5 % a proyectos de carácter experimental.
 e) Podrá destinarse un mínimo del 5% para coproducciones con empresas extranjeras en las que la participación española sea minoritaria.
 Las reservas señaladas se llevarán a cabo siempre que los proyectos alcancen la puntuación mínima que se establezca en la convocatoria. La parte de las reservas de dicho crédito que, en su caso, no se agote se trasladará de nuevo a la línea general.
-2. En la convocatoria se establecerá la cuantía máxima de la ayuda por proyecto que, dentro del crédito anual destinado a esta línea, podrá alcanzar un importe máximo de 800.000 euros o de 1.000.000 euros si se trata de un proyecto de animación. Este porcentaje podrá verse ampliado hasta el 70 % del coste reconocido, según se establezca en la convocatoria, en el caso de proyectos que tengan la consideración de obras audiovisuales difíciles, cuya definición establece el artículo 21 del
+2. En la convocatoria se establecerá la cuantía máxima de la ayuda por proyecto que, dentro del crédito anual destinado a esta línea, podrá alcanzar un importe máximo de 800.000 euros o de 1.000.000 euros si se trata de un proyecto de animación. Este porcentaje podrá verse ampliado hasta el 70 % del coste reconocido, según se establezca en la convocatoria, en el caso de proyectos que tengan la consideración de obras audiovisuales difíciles, cuya definición establece el artículo 21 del Real Decreto 1084/2015, de 4 de diciembre, o estén incluidos en la relación de obras que establece el artículo 36 de la Ley 27/2014, de 27 de noviembre, en cuanto a las intensidades máximas de ayudas.
+3. En el caso de proyectos de carácter experimental, la cuantía máxima de la ayuda por proyecto podrá alcanzar el porcentaje sobre el coste reconocido por el Instituto de la Cinematografía y de las Artes Audiovisuales correspondiente a la intensidad máxima que resulte de aplicación según el artículo 21 del Real Decreto 1084/2015, de 4 de diciembre y el artículo 36 de la Ley 27/2014, de 27 de noviembre.
+Artículo 25. Convocatoria, solicitudes y documentación.
+1. La convocatoria de estas ayudas podrá realizarse en la modalidad de convocatoria abierta, con un máximo de tres procedimientos de selección anuales.
+2. En dicha convocatoria se establecerá para cada procedimiento, la dotación máxima a conceder, el plazo de presentación de solicitudes, la documentación a adjuntar y el plazo máximo de resolución.
+Artículo 26. Valoración de los proyectos.
+1. Los proyectos serán evaluados por la Comisión de ayudas a la producción de largometrajes y cortometrajes. Salvo lo establecido posteriormente para los proyectos de carácter experimental, se valorarán, sobre una puntuación máxima de 50 puntos, los conceptos siguientes de acuerdo con las ponderaciones relativas máximas que se expresan y según los términos que se establezcan en la convocatoria:
+a) Con hasta un máximo de 45 puntos, la calidad, valor artístico y nivel de desarrollo del proyecto, atendiendo específicamente, entre otros criterios, a la relevancia y originalidad del proyecto, la calidad del guion y de los diálogos, el tratamiento de los personajes, estructura, así como al equipo autoral y técnico del proyecto. En el caso de los documentales, se tendrá en cuenta, entre otros aspectos, la relevancia y originalidad del proyecto, la investigación que desarrolla, la estructura, nivel de desarrollo y madurez del proyecto y equipo autoral y técnico. En las coproducciones con empresas extranjeras en las que la participación española sea minoritaria, se valorará especialmente la trayectoria y solvencia de las empresas coproductoras mayoritarias extranjeras y/o el equipo técnico-artístico extranjero.
+b) Con hasta un máximo de 5 puntos la adecuación del presupuesto presentado al proyecto.
+Únicamente los proyectos que obtengan un mínimo de 25 puntos, podrán ser considerados para obtener ayuda.
+2. A cada proyecto se le asignará una puntuación total, resultante de sumar la puntuación obtenida en la preevaluación de acceso, de acuerdo con el baremo que se establece en el artículo 23.1 b), junto con la obtenida por la valoración de la Comisión.
+Se establecerá una prelación de proyectos en función de la puntuación total obtenida por los mismos, que servirá para efectuar el reparto de las ayudas con el límite de la dotación presupuestaria establecida en la convocatoria.
+3. Los proyectos de carácter experimental serán valorados por la Comisión de ayudas a la producción de largometrajes y cortometrajes, sobre una puntuación máxima de 74 puntos, evaluando los siguientes aspectos de acuerdo con las ponderaciones relativas máximas que se expresan, y según los términos que se establezcan en la convocatoria:
+a) La calidad y valor artístico del proyecto, especialmente, su relevancia y originalidad así como la utilización de recursos expresivos novedosos y radicales, en los términos establecidos en la convocatoria: Hasta 70 puntos.
+b) Adecuación del presupuesto al proyecto: Hasta 4 puntos.
+4. A cada proyecto de carácter experimental se le asignará una puntuación total resultante de sumar a la puntuación obtenida por la valoración de la Comisión, las siguientes puntuaciones objetivas, que se comprobarán por el órgano instructor según el desglose pormenorizado de las mismas que se establezca en la convocatoria:
+a) Financiación del proyecto: hasta 10 puntos.
+Se basará en la disposición y aportación por la empresa de recursos económicos propios y/o inversión privada, así como en la obtención de otras subvenciones públicas para el proyecto.
+b) La solvencia de la empresa productora: Hasta 8 puntos.
+Se basará en la experiencia de la empresa y/o del director o directora del proyecto en los años previos, así como en su participación en festivales y la obtención de premios.
+c) La participación de mujeres en el proyecto: Hasta 8 puntos.
+Para obtener puntuación por la presencia de mujeres en cada uno de los puestos que se detallen en las convocatorias, será necesario que la participación sea exclusivamente femenina, excepto para el caso de guionistas, en el que se permite que haya coparticipación masculina, siempre que todas las personas copartícipes tengan el mismo nivel de responsabilidad, lo que deberá reflejarse en los títulos de crédito.
+d) El fomento de la igualdad real y efectiva de las personas trans, a través de su participación en el proyecto: la puntuación extra que se determine en la convocatoria sin que, en ningún caso, pueda superarse la puntuación máxima de 26 puntos. Para obtener puntuación por la presencia de personas trans en cada uno de los puestos que se detallen en las convocatorias, la participación podrá ser o bien exclusivamente trans, o bien compuesta por personas trans y mujeres, excepto para el caso de guionistas, en el que no se exigirá este requisito siempre que todas las personas copartícipes tengan el mismo nivel de responsabilidad, lo que deberá reflejarse en los títulos de crédito. Asimismo, se exigirá aportar resolución de rectificación de la mención registral del sexo. Una misma persona solamente podrá obtener puntuación por participación de mujer o por participación de persona trans.
+e) Las empresas con domicilio social en las Islas Canarias obtendrán una puntuación extra de 2 puntos sin que, en ningún caso, pueda superarse la puntuación máxima de 100 resultante de sumar a la puntuación obtenida por la valoración de la Comisión las anteriores puntuaciones objetivas.
+5. Únicamente podrán acceder a las ayudas aquellos proyectos que hayan obtenido como mínimo la puntuación total que se establezca en la convocatoria, que no podrá ser inferior a 50 puntos.
+Artículo 27. Resolución y modificación de los proyectos beneficiarios.
+1. El plazo máximo para dictar y publicar las resoluciones de los procedimientos de selección será de seis meses desde el día siguiente al de la publicación del extracto de la convocatoria, salvo que la misma posponga sus efectos a una fecha posterior.
+2. Las empresas beneficiarias de las ayudas podrán introducir modificaciones que supongan una reducción no superior al 30 % del presupuesto conforme al cual hubieran obtenido la ayuda, incluidos los gastos relativos a copias, publicidad y promoción, así como los relativos a intereses pasivos y gastos de negociación de préstamos oficiales, siempre que se mantenga el cumplimiento de los requisitos establecidos en los artículos 11.1 y 23.1.
+Las modificaciones que impliquen una reducción del presupuesto superior al citado porcentaje darán lugar a la revocación de la ayuda y a la exigencia de su reintegro.
+Artículo 28. Proyecto definitivo.
+(Suprimido)
+Artículo 29. Pago de la ayuda.
+1. La ayuda se hará efectiva en un único pago una vez publicada la resolución de concesión.
+2. Antes de efectuarse el pago será necesario haber acreditado:
+a) El cumplimiento efectivo de la obligación de encontrarse al corriente del pago, como mínimo, del 33 % del precio del guion.
+b) En aquellos casos en que proceda, que se cuenta con el aval o sistema de garantía conforme a lo establecido en la convocatoria, correspondiente a los recursos propios aportados a los que se refiere el artículo 11.1.e).5.º
+Artículo 30. Obligaciones de la empresa beneficiaria.
+a) Iniciar el rodaje y comunicarlo al Instituto de la Cinematografía y de las Artes Audiovisuales O.A. o al organismo autonómico competente, antes de nueve meses desde la fecha de pago de la ayuda, o antes de doce meses cuando se trate de largometrajes de animación, documentales y coproducciones internacionales técnico-artísticas.
+c) Acreditar el coste de la película conforme a lo establecido en la Orden ECD/2784/2015, de 18 de diciembre, en el plazo máximo de 8 meses a partir de la notificación a la empresa productora del certificado de nacionalidad española de la película. En el caso de proyectos de carácter experimental, la acreditación se realizará conforme a lo establecido para las películas de cortometraje en la citada orden, en el plazo máximo de tres meses.
+g) Acreditar, con anterioridad a efectuarse el pago, el cumplimiento efectivo de la obligación de encontrarse al corriente del pago, como mínimo, del 33 % del precio del guion. Excepto en los casos en los que se desempeñe por la misma persona la función de guionista y la de productor o productora empresaria individual no se admitirán contratos en los que se exima del pago parcial o total del guion.
+h) Salvo para los proyectos de carácter experimental, destinar a copias, publicidad y promoción para el estreno del largometraje en salas de exhibición en España, independientemente de que dicho gasto sea soportado por la empresa productora o por la distribuidora, al menos el 5 % del presupuesto del largometraje declarado a efectos de reconocimiento de coste, una vez deducidos los gastos de copias, publicidad, promoción, intereses pasivos y gastos de negociación de préstamos con entidades financieras. Dicho porcentaje se reducirá hasta el límite mínimo del 4 %, de forma proporcional a la ayuda percibida por el proyecto, de acuerdo con la fórmula que se establezca en la convocatoria.
+Esta obligación se entenderá asimismo cumplida cuando el citado gasto sea igual o superior a 150.000 euros.
+i) Salvo para los proyectos de carácter experimental, estrenar el largometraje, como mínimo, de forma no necesariamente simultánea, en 20 locales de exhibición, bien sean complejos cinematográficos o salas de exhibición cinematográfica con una única pantalla, en el plazo máximo de doce meses a contar desde la notificación del certificado de nacionalidad. El número de locales se reducirá a 5 en el caso de los largometrajes de carácter documental y a 7 locales en el caso de largometrajes con versión original en lenguas cooficiales distintas del castellano. En este caso deberá exhibirse en versión original en, al menos, 5 locales.
+Sección 5.ª Ayudas a la producción de cortometrajes
+Artículo 31. Objeto, requisitos y compatibilidad.
+1. Las ayudas para la producción de cortometrajes, reguladas en el artículo 27 de la Ley 55/2007, de 28 de diciembre, destinadas a empresas productoras de carácter independiente, tienen como objeto la financiación de cortometrajes sobre proyecto, así como de cortometrajes realizados, siempre que se cumplan los requisitos generales establecidos en el artículo 5.
+2. En el caso de las ayudas a cortometrajes realizados, además deberán cumplirse los plazos de calificación, nacionalidad y reconocimiento del coste que se establezcan en las respectivas convocatorias.
+3. Dichas ayudas son compatibles entre sí, con el límite máximo de 100.000 euros por película beneficiaria o de 180.000 euros para las películas de animación.
+4. La concesión de estas ayudas está condicionada a que los proyectos acrediten su carácter cultural. El certificado cultural se expedirá de oficio, sin necesidad de solicitud expresa y sin tramitación específica, en favor de los proyectos beneficiarios de las ayudas, al haber sido valorado y confirmado su carácter cultural por parte de la Comisión de ayudas a la producción de largometrajes y cortometrajes.
+Artículo 32. Cuantía, convocatoria y documentación.
+1. Dentro del crédito anual destinado tanto a las ayudas para la producción de cortometrajes sobre proyecto como a las ayudas para la producción de cortometrajes realizados, se reservará un mínimo del 35 % para aquellos realizados exclusivamente por directoras y un mínimo del 8 % para los de animación; y su cuantía podrá alcanzar el porcentaje del coste reconocido por el Instituto de la Cinematografía y de las Artes Audiovisuales O.A. correspondiente a la intensidad máxima de ayuda que resulte de aplicación según el artículo 21 del Real Decreto 1084/2015, de 4 de diciembre, y el artículo 36 de la Ley 27/2014, de 27 de noviembre.
+2. La convocatoria de estas ayudas podrá realizarse en la modalidad de convocatoria abierta, con un máximo de tres procedimientos de selección anuales. En dicha convocatoria se establecerá para cada procedimiento, la dotación máxima a conceder, el plazo de presentación de solicitudes, la documentación que debe acompañarse y el plazo máximo de resolución.
+Artículo 33. Valoración de los proyectos y de los cortometrajes realizados.
+1. Los proyectos de cortometraje y los cortometrajes ya realizados serán valorados por la Comisión de ayudas a la producción de largometrajes y cortometrajes, evaluando los conceptos que se indican en los apartados siguientes para cada línea de ayuda, de acuerdo con las ponderaciones relativas máximas que se expresan, y según los términos que se establezcan en la convocatoria.
+2. En las ayudas para la producción de cortometrajes sobre proyecto, la evaluación de los proyectos se realizará atendiendo a los siguientes criterios, con las ponderaciones relativas máximas que se expresan sobre un total de 60 puntos:
+a) La calidad y valor artístico del guion y proyecto: Hasta 55 puntos.
+b) El presupuesto y su adecuación al proyecto: Hasta 5 puntos.
+3. A cada proyecto de cortometraje se le asignará una puntuación total resultante de sumar a la puntuación obtenida por la valoración de la Comisión, las siguientes puntuaciones objetivas, sobre un total de 40 puntos, que se comprobarán por el órgano instructor según el desglose pormenorizado de las mismas que se establezca en las convocatorias:
+a) La viabilidad del proyecto basada en la solvencia de la empresa solicitante: Hasta 15 puntos.
+Se basará en la experiencia de la empresa y/o del director o directora del proyecto en los años previos, así como en su participación en festivales y la obtención de premios y ayudas.
+b) El plan de financiación: Hasta 11 puntos.
+Se basará en la disposición y aportación por la empresa de recursos económicos propios y/o inversión privada, así como en la obtención de otras subvenciones públicas para el proyecto y en contratos o compromisos en firme con prestadores de servicios de comunicación audiovisual.
+Para obtener puntuación en cada uno de los puestos que se detallen en las convocatorias, será necesario que la participación sea exclusivamente femenina, excepto para el caso de guionistas, en el que se permite que haya coparticipación masculina, siempre que todas las personas copartícipes tengan el mismo nivel de responsabilidad, lo que deberá reflejarse en los títulos de crédito.
+d) El fomento de la igualdad real y efectiva de las personas trans, a través de su participación en el proyecto: Hasta 1 punto. Para obtener puntuación por la presencia de personas trans en cada uno de los puestos que se detallen en las convocatorias, la participación podrá ser o bien exclusivamente trans, o bien compuesta por personas trans y mujeres, excepto para el caso de guionistas, en el que no se exigirá este requisito siempre que todas las personas copartícipes tengan el mismo nivel de responsabilidad, lo que deberá reflejarse en los títulos de crédito. Asimismo, se exigirá aportar resolución de rectificación de la mención registral del sexo. Una misma persona solamente podrá obtener puntuación por participación de mujer o por participación de persona trans.
+4. En las ayudas para cortometrajes realizados, la ponderación sobre una puntuación máxima de 50 puntos será la siguiente:
+a) La calidad y el valor artístico de la película: Hasta 45 puntos.
+b) La adecuación del presupuesto a la película realizada: Hasta 5 puntos.
+5. A cada cortometraje realizado se le asignará una puntuación total resultante de sumar a la puntuación obtenida por la valoración de la Comisión, las siguientes puntuaciones objetivas, sobre un total de 25 puntos que se comprobarán por el órgano instructor según el desglose pormenorizado de las mismas que se establezca en las convocatorias:
+a) La trayectoria de la empresa solicitante y el plan de financiación: Hasta 11 puntos.
+Se basará en otras ayudas públicas obtenidas por la película, así como en la participación en festivales y la obtención de premios tanto por la empresa productora como por el director o directora de la película.
+b) La participación de mujeres en el proyecto: Hasta 8 puntos.
+c) El fomento de la igualdad real y efectiva de las personas trans, a través de su participación en el proyecto: Hasta 1 punto. Para obtener puntuación por la presencia de personas trans en cada uno de los puestos que se detallen en las convocatorias, la participación podrá ser o bien exclusivamente trans, o bien compuesta por personas trans y mujeres, excepto para el caso de guionistas, en el que no se exigirá este requisito siempre que todas las personas copartícipes tengan el mismo nivel de responsabilidad, lo que deberá reflejarse en los títulos de crédito. Asimismo, se exigirá aportar resolución de rectificación de la mención registral del sexo. Una misma persona solamente podrá obtener puntuación por participación de mujer o por participación de persona trans.
+6. En el caso de que la solicitud se efectúe por una agrupación de interés económico, la solvencia y la trayectoria de la empresa solicitante podrá referirse a la propia agrupación o a las empresas productoras independientes que formen parte de ésta y que, bien sean las socias con mayor participación de la agrupación en el momento de la solicitud de la ayuda, bien ostenten su administración en dicho momento.
+7. La puntuación mínima que se debe conseguir para obtener ayuda se establecerá en la convocatoria, y no podrá ser inferior a 50 puntos para los proyectos de cortometraje y a 40 puntos para los cortometrajes realizados.
+Artículo 34. Resolución y pago de las ayudas.
+1. El plazo máximo para dictar y publicar la resolución será de 6 meses desde el día siguiente al de la publicación del extracto de la convocatoria, salvo que la misma posponga sus efectos a una fecha posterior.
+2. Las empresas beneficiarias no podrán introducir modificaciones que supongan una reducción superior al 30 % del presupuesto por el que se obtuvo la ayuda, dando lugar las mismas a la revocación de la ayuda y a la exigencia de su reintegro.
+La introducción de cambios sustanciales en el proyecto aprobado se regirá por lo establecido en el artículo 8.7.
+3. Las ayudas se harán efectivas mediante un único pago tras la notificación de la resolución de concesión, en el caso de ayudas sobre proyecto y, en el caso de las ayudas a cortometrajes realizados, tras la notificación de la resolución de reconocimiento del coste y una vez efectuada la entrega de la copia de la película según lo establecido en el artículo 9.1.g).
+Artículo 35. Obligaciones de las empresas beneficiarias.
+1. Son obligaciones generales para todas las ayudas a la producción de cortometrajes, las establecidas en el artículo 9.
+2. En las ayudas para la producción de cortometrajes sobre proyecto, además, existen las siguientes obligaciones específicas:
+a) Iniciar el rodaje y comunicarlo al Instituto de la Cinematografía y de las Artes Audiovisuales O.A. o al organismo autonómico competente dentro del plazo de seis meses desde la fecha de percepción de la subvención. En el caso de cortometrajes de animación, documentales y coproducciones internacionales técnico-artísticas este plazo será de ocho meses.
+b) Comunicar al Instituto de la Cinematografía y de las Artes Audiovisuales O.A. o al organismo autonómico competente el final de rodaje y solicitar la calificación y el certificado de nacionalidad en el plazo máximo de seis meses, o de diez meses cuando se trate de cortometrajes de animación, documentales y coproducciones internacionales técnico-artísticas, a contar desde la fecha del inicio de rodaje. En películas de animación se considerará inicio de rodaje la fecha de incorporación del movimiento en los dibujos, y final de rodaje la fecha de finalización de filmaciones, que deberá ser anterior, en todo caso, al proceso de mezclas y montaje. Estas circunstancias deberán acreditarse documentalmente.
+c) Acreditar el coste de la película conforme a lo establecido en la Orden ECD/2784/2015, de 18 de diciembre, en el plazo de tres meses a partir de la notificación del certificado de nacionalidad española de la película.
+3. El incumplimiento de las obligaciones establecidas en el apartado anterior dará lugar al reintegro total de la ayuda.
+Sección 6.ª Órganos de asesoramiento en la concesión de ayudas.
+Artículo 36. Comisión de ayudas a la producción de largometrajes y cortometrajes.
+1. La Comisión de ayudas a la producción de largometrajes y cortometrajes, regulada en los artículos 33 y 34 del Real Decreto 1084/2015, de 4 de diciembre, es el órgano de asesoramiento de la Dirección General del Instituto de la Cinematografía y de las Artes Audiovisuales en la concesión de las ayudas selectivas para la producción de largometrajes sobre proyecto, y de las ayudas para la producción de cortometrajes sobre proyecto y realizados a las que se refiere esta orden.
+2. A esta Comisión le serán de aplicación las normas de funcionamiento que establece la sección 3.ª del capítulo II del título preliminar de la Ley 40/2015, de 1 de octubre, así como los motivos de abstención y posibilidad de recusación establecidos en su sección 4.ª La composición se ajustará al principio de presencia equilibrada de mujeres y hombres que establece el artículo 54 de la Ley Orgánica 3/2007, de 22 de marzo para la igualdad efectiva de hombres y mujeres.
+3. Cualquier comunicación de las personas solicitantes o interesadas en los proyectos presentados con vocales de órganos colegiados con el fin de aportar apreciaciones sobre los mismos, sin mediar un requerimiento formal para ello por el comité asesor correspondiente, comportará la exclusión del proyecto de la convocatoria y el archivo de la correspondiente solicitud; sin perjuicio de cualquier otra responsabilidad que se pudiera derivar de dicha comunicación.
+CAPÍTULO III
+Registro administrativo de empresas cinematográficas y audiovisuales
+Artículo 37. Estructura.
+El Registro Administrativo de Empresas Cinematográficas y Audiovisuales del Instituto de la Cinematografía y de las Artes Audiovisuales, regulado en el capítulo IV del Real Decreto 1084/2015, de 4 de diciembre, se compondrá de las siguientes secciones:
+a) Primera: Empresas de producción de películas cinematográficas y otras obras audiovisuales. En ella se inscribirán aquellas empresas cuyo objeto sea la producción de las obras audiovisuales.
+b) Segunda: Empresas de distribución de películas cinematográficas y audiovisuales. En ella se inscribirán aquellas empresas cuyo objeto sea la distribución nacional de estas obras.
+c) Tercera: Exhibición. En ella se inscribirán las personas titulares de salas de exhibición cinematográfica, tengan o no forma empresarial, con anotación de cada una de las salas de su titularidad.
+d) Cuarta: Empresas de exportación de películas y de otras obras audiovisuales. En ella se inscribirán las empresas dedicadas a la exportación de dichas obras.
+Disposición adicional primera. Certificado cultural para la aplicación de incentivos fiscales.
+1. Para la aplicación de los incentivos fiscales por inversiones en producciones cinematográficas y series audiovisuales que establece el artículo 36 de la Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, las obras deberán contar con un certificado cultural expedido por el Instituto de la Cinematografía y de las Artes Audiovisuales O.A. o por el órgano correspondiente de la Comunidad Autónoma con competencia en la materia. En el caso de las series audiovisuales, la expedición del certificado se efectuará por cada temporada, para lo cual en la solicitud deberá especificarse el número de episodios que la integran.
+2. En el supuesto de las inversiones a las que se refiere el artículo 36.1 de la Ley 27/2014, de 27 de noviembre, cuando se trate de la producción de una obra para la que no se solicite ayuda a la producción, el procedimiento de solicitud y los requisitos para la obtención del certificado serán los siguientes:
+a) La solicitud del certificado cultural se efectuará junto con la del certificado de nacionalidad a través de la sede electrónica asociada del Ministerio de Cultura, mediante el modelo normalizado disponible en la misma.
+Dicho modelo incluirá una declaración responsable por la que la entidad solicitante manifiesta que la obra no ha sido creada íntegra y exclusivamente por inteligencia artificial generativa y que, si en el desarrollo de la producción se han utilizado modelos de inteligencia artificial generativa, ha existido una intervención humana relevante y se ha respetado la normativa reguladora en materia de inteligencia artificial y de propiedad intelectual, en particular, el texto refundido de la Ley de Propiedad Intelectual, aprobado por el Real Decreto Legislativo 1/1996, de 12 de abril, y su normativa de desarrollo.
+b) El certificado se expedirá cuando se cumplan los requisitos establecidos en el artículo 12.3 de esta orden, siempre que se trate de inversiones en producciones que den derecho a deducción, según lo dispuesto en el artículo 36.1 de la Ley 27/2014, de 27 de noviembre y atendiendo a las definiciones contenidas en la Ley 55/2007, de 28 de diciembre, del Cine.
+3. En el supuesto de las inversiones a las que se refiere el artículo 36.2 de la Ley 27/2014, de 27 de noviembre, el procedimiento de solicitud y los requisitos para la obtención del certificado serán los siguientes:
+a) La solicitud se efectuará a través de la sede electrónica asociada del Ministerio de Cultura mediante el modelo normalizado disponible en la misma.
+Dicho modelo incluirá una declaración responsable por la que la entidad solicitante manifiesta que los trabajos realizados no han sido ejecutados íntegra y exclusivamente por inteligencia artificial generativa y que, si en el desarrollo de la producción se han utilizado modelos de inteligencia artificial generativa, ha existido una intervención humana relevante y se ha respetado la normativa reguladora en materia de inteligencia artificial y de propiedad intelectual, en particular, el texto refundido de la Ley de Propiedad Intelectual, aprobado por el Real Decreto Legislativo 1/1996, de 12 de abril, y su normativa de desarrollo.
+Y, asimismo, incluirá una declaración responsable sobre la veracidad de los datos contenidos en los documentos aportados con la solicitud.
+b) Junto a la solicitud deberá aportarse la siguiente documentación:
+1.º Memoria explicativa que indique cuáles van a ser o han sido los trabajos realizados y que justifique su adecuación y correspondencia con los criterios indicados en la solicitud.
+2.º Ficha técnico-artística de la producción que vaya a ser o haya sido rodada en España.
+3.º Ficha detallada con el número de días, fechas y lugares de rodaje. Si se trata de servicios de animación, o efectos visuales, o postproducción, calendario tentativo de trabajo y lugares donde se realizan dichos trabajos.
+c) El certificado se expedirá cuando se obtenga la puntuación mínima requerida, de acuerdo con el baremo que se establece en el anexo de esta orden.
+4. En el ámbito de actuación del Instituto de la Cinematografía y de las Artes Audiovisuales la resolución por la que se expida o deniegue el certificado cultural pondrá fin a la vía administrativa y se notificará a la persona interesada en el plazo máximo de un mes desde su solicitud. Transcurrido este plazo sin notificar la resolución, la solicitud se entenderá estimada.
+5. La persona titular de la Dirección General del Instituto de la Cinematografía y de las Artes Audiovisuales podrá revocar el certificado cultural expedido si se comprueba que finalmente no se cumplen los criterios que justificaron su otorgamiento bien sea en los procedimientos de obtención del certificado de nacionalidad o calificación de la producción, cuando dichos procedimientos deban realizarse, o, en otro caso, en el proceso de comprobación del cumplimiento de las obligaciones correspondientes que pueda llevarse a cabo.
+Disposición adicional segunda. Medidas específicas y de flexibilización en la aplicación de determinados preceptos para hacer frente al impacto económico de la COVID-19.
+1. Las obligaciones y requisitos establecidos en los artículos de la presente orden que se indican en este apartado, cuando concurran las circunstancias previstas en los párrafos siguientes, se exigirán del siguiente modo:
+a) En relación al artículo 11.1 e) 2.º, relativo a la acreditación de la financiación exigible mediante contratos formalizados por las empresas solicitantes de ayudas generales y selectivas para la producción de largometrajes sobre proyecto con empresas de distribución cinematográfica, si el ejercicio anterior al de la convocatoria es el año 2020, el 2021 o el 2022 la recaudación mínima exigible a la empresa distribuidora podrá reducirse a la mitad, o bien referirse al año 2019, a elección de la empresa solicitante.
+b) En relación a los artículos 21.1 h) y 30.1 h) relativos a los gastos que deben destinarse a copias, publicidad y promoción para el estreno del largometraje en salas de exhibición en España, cuando dicho estreno se realice en los años 2021 o 2022, o bien ya se haya realizado en el año 2020 pero el reconocimiento del coste se solicite en el año 2021, los gastos serán de, al menos, el 5 % en el caso de ayudas generales y el 2 % en el caso de ayudas selectivas. Dicho porcentaje se reducirá hasta el límite mínimo del 3 % en el caso de ayudas generales y del 1 % en el caso de ayudas selectivas de forma proporcional a la ayuda percibida por el proyecto, de acuerdo con la fórmula que se establezca en las respectivas convocatorias.
+c) El número de locales de exhibición exigido para el cumplimiento de los requisitos relativos al estreno del largometraje, cuando dicho estreno se realice en el año 2020, en el 2021 o en el 2022, se reducirá de la siguiente manera:
+1.º Respecto a la obligación establecida en el artículo 21.1.i) el estreno se deberá efectuar en 20 locales para largometrajes con un coste reconocido superior a 2.000.000 euros; en 10 locales para largometrajes con coste igual o inferior a 2.000.000 euros; en 6 locales para largometrajes con versión original en lenguas cooficiales distintas del castellano, en 3 de los cuales, al menos, se exhibirán en su versión original; y en 2 locales para largometrajes de carácter documental.
+2.º Respecto a la obligación establecida en el artículo 30.1.i) el estreno se deberá efectuar en 7 locales, que se reducirán a 2 para largometrajes de carácter documental y para largometrajes con versión original en lenguas cooficiales distintas del castellano.
+d) En relación al artículo 18.2, relativo a la valoración de la solvencia de las empresas solicitantes, los plazos de seis años, o de doce años en el caso de proyectos de animación, que establece artículo 18.2.b) para la valoración de la solvencia de la empresa solicitante de las ayudas generales, serán de ocho años, o de catorce en el caso de proyectos de animación, cuando entre ellos haya que tener en consideración al año 2020, al 2021 o al 2022.
+e) En relación al artículo 20, relativo al pago de las ayudas generales a la producción de largometrajes sobre proyecto, para los proyectos que resulten beneficiarios en el año 2020, el primer pago, al que se refiere el párrafo a), será del 40 % de la ayuda; y el segundo pago, al que se refiere el párrafo b), será del 30 %. Estos porcentajes relativos al primer y segundo pago de la ayuda también podrán aplicarse en las convocatorias de los años 2021 y 2022, en función de las disponibilidades presupuestarias.
+f) En relación al artículo 23.1.c) y 23.2.b) relativo a la producción previa exigible a las empresas solicitantes de las ayudas selectivas, se dispone que los plazos de seis años, o de doce años en el caso de proyectos de animación, serán de ocho años, o a catorce en el caso de proyectos de animación, cuando entre ellos haya que tener en consideración los años 2020, 2021 o 2022.
+g) En relación al artículo 33.3.a), relativo a la valoración de la viabilidad del proyecto basada en la solvencia de las empresas solicitantes de las ayudas para la producción de cortometrajes sobre proyecto, cuando los plazos establecidos en las convocatorias para la valoración de este criterio incluyan los años 2020, 2021 o 2022, esos plazos se aumentarán en dos años.
+2. Serán reconocidos como coste de la película conforme se establece en la Orden ECD/2784/2015, de 18 de diciembre, los gastos subvencionables en que hayan incurrido las empresas beneficiarias de las ayudas generales y selectivas a la producción de largometrajes sobre proyecto y ayudas a la producción de cortometrajes sobre proyecto que, como consecuencia de la COVID-19 o de las medidas establecidas para combatirla, no hayan podido aplicarse, total o parcialmente, al proyecto objeto de la subvención percibida.
+3. De acuerdo con la previsión del artículo 36.1 f’’) de la Ley 27/2014, de 27 de noviembre, y como consecuencia de la situación extraordinaria ocasionada por la COVID-19, aumentará la intensidad máxima de las ayudas públicas hasta el 75% del coste reconocido para aquellas producciones que hayan recibido en el año 2019 ayudas generales o selectivas a la producción de largometrajes sobre proyecto, que soliciten el certificado de nacionalidad española en los años 2020 y 2021, y que posean un especial valor cultural y artístico de acuerdo con los siguientes criterios:
+a) En el caso de películas beneficiarias de las ayudas generales, tener carácter documental o haber obtenido un mínimo de 3 puntos en la suma de los criterios «1. Carácter cultural» y «2. Trayectoria del director o directora» del «Anexo I. Baremo para la evaluación de las ayudas generales para la producción de largometrajes sobre proyecto» de la Orden CUD/769/2018, de 17 de julio por la que se establecen las bases reguladoras de las ayudas previstas en el Capítulo III de la Ley 55/2007, de 28 de diciembre, del Cine, y se determina la estructura del Registro Administrativo de Empresas Cinematográficas y Audiovisuales, así como en el Anexo I de la convocatoria efectuada mediante Resolución de 24 de julio de 2019 de la Dirección General del Instituto de la Cinematografía y de las Artes Audiovisuales por la que se convocan para el año 2019 ayudas generales para la producción de largometrajes sobre proyecto.
+b) En el caso de películas beneficiarias de las ayudas selectivas, tener carácter documental, experimental o haber obtenido un mínimo de 20 puntos en la segunda fase de la evaluación del proyecto en base a su calidad y valor artístico, según lo establecido en el artículo 26.1 b) de la Orden CUD/769/2018, de 17 de julio, y en el apartado Noveno 2 b) de la convocatoria efectuada mediante Resolución de 8 de mayo de 2019, de la Dirección General del Instituto de la Cinematografía y de las Artes Audiovisuales por la que se convocan para el año 2019 ayudas selectivas para la producción de largometrajes sobre proyecto.
+Disposición adicional tercera. Ampliación de plazos para el cumplimiento de obligaciones impuestas a películas beneficiarias de ayudas concedidas desde el año 2016.
+1. Se amplían los plazos para el cumplimiento de las obligaciones que a continuación se señalan, cuando les resulten de aplicación, en relación con las películas beneficiarias de ayudas generales y selectivas para la producción de largometrajes sobre proyecto, así como de ayudas a la producción de cortometrajes sobre proyecto concedidas desde el año 2016.
+a) Para las películas beneficiarias de ayudas generales y selectivas para la producción de largometrajes sobre proyecto que hayan iniciado el estreno en el año 2020 o que lo hagan en los años 2021 o 2022, se amplía en diez meses el plazo máximo establecido para el estreno comercial en salas de exhibición del largometraje.
+b) Para las películas beneficiarias de ayudas generales y selectivas para la producción de largometrajes sobre proyecto y de ayudas para la producción de cortometrajes sobre proyecto, se amplía en cinco meses el plazo para comunicar al Instituto de la Cinematografía y de las Artes Audiovisuales el fin de rodaje y solicitar la calificación y el certificado de nacionalidad de la película, cuando dichos plazos venzan en el año 2021 o 2022.
+2. En supuestos especialmente justificados, mediante resolución motivada de la Dirección General del Instituto de la Cinematografía y de las Artes Audiovisuales, se podrán extender los plazos establecidos en el apartado anterior, a solicitud de las empresas beneficiarias de las ayudas.»
+Disposición adicional cuarta. Aplicación de las medidas de agilización de las subvenciones financiables con fondos europeos.
+Las ayudas estatales para la producción de largometrajes y de cortometrajes a las que se refieren las presentes bases reguladoras son actuaciones susceptibles de ser financiables con los fondos del Instrumento Europeo de Recuperación, y a las mismas les serán de aplicación las medidas de agilización previstas en el capítulo V del título IV del Real Decreto-ley 36/2020, de 30 de diciembre, por el que se aprueban medidas urgentes para la modernización de la Administración Pública y para la ejecución del plan de Recuperación, Transformación y Resiliencia.
+Disposición derogatoria única. Derogación normativa.
+A la entrada en vigor de esta orden quedan derogados los artículos 11 al 39, ambos incluidos, los artículos 70.1.a) y 71, la disposición adicional única, las disposiciones transitorias primera y segunda y los anexos de la Orden CUD/769/2018, de 17 de julio por la que se establecen las bases reguladoras de las ayudas previstas en el Capítulo III de la Ley 55/2007, de 28 de diciembre, del Cine, y se determina la estructura del Registro Administrativo de Empresas Cinematográficas y Audiovisuales.
+Disposición final primera. Habilitación competencial.
+Esta orden se dicta al amparo del artículo 149.1.13.ª de la Constitución que atribuye la competencia exclusiva al Estado en bases y coordinación de la planificación general de la actividad económica y del artículo 149.2 de la Constitución que dispone que, sin perjuicio de las competencias que podrán asumir las Comunidades Autónomas, el Estado considerará el servicio de la cultura como deber y atribución esencial y facilitará la comunicación cultural entre las Comunidades Autónomas, de acuerdo con ellas.
+Disposición final segunda. Habilitación para dictar resoluciones para la aplicación de la orden y establecimiento de modelos oficiales.
+Se autoriza a la persona titular de la Dirección General del Instituto de la Cinematografía y de las Artes Audiovisuales para dictar las resoluciones que sean precisas para la aplicación de lo dispuesto en esta orden, incluyendo el establecimiento de los modelos oficiales que correspondan.
+Disposición final tercera. Eficacia temporal.
+La reserva del crédito anual destinado a los proyectos realizados exclusivamente por directoras que establece el artículo 17.1 en las ayudas generales para la producción de largometrajes sobre proyecto se hará efectiva de la siguiente manera: en la convocatoria que se realice el año 2020 se reservará el 20 %, en la convocatoria del año 2021 se reservará un mínimo del 25 % y a partir de la convocatoria del año 2022, se reservará un mínimo del 35 %.
+Disposición final cuarta. Entrada en vigor.
+Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», salvo lo establecido en la disposición final tercera.
+ANEXO
+Baremo para la acreditación del carácter cultural de la obra que se acoja al incentivo fiscal regulado en el artículo 36.2 de la Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades
+I. Producciones de imagen real (puntuación mínima requerida: 15)
+Puntuación máxima
+35
+I. A
+Contenido Cultural.
+18
+A.1
+Al menos 5 escenas de la producción están ambientadas en España, en otro país del Consejo de Europa, en un país hispanohablante (entendiendo por tal, y en lo sucesivo, el país donde el español o el castellano es la lengua oficial) o en una localización fantástica, imaginaria o que no pueda ser determinada.
+6
+A.2
+Al menos un personaje protagonista o principal es español o de otro país del Consejo de Europa, de un país hispanohablante o de una nacionalidad que no se puede determinar.
+3
+A.3
+Al menos 2 localizaciones representativas y reconocibles como España, sirven como el escenario de una escena cada una.
+4
+A.4
+La trama refleje el patrimonio artístico o cultural, la realidad social o un periodo histórico relevante, así como personajes o lugares míticos.
+4
+A.5
+El argumento o la historia está inspirado o es una adaptación de una obra existente de ficción o de no-ficción (por ejemplo, un libro, cómic, película, programa de televisión, ópera, obra de teatro, videojuego).
+4
+A.6
+Diálogo original grabado principalmente en español o en alguna de las lenguas oficiales de España o de otros países del Espacio Económico Europeo.
+8
+A.7
+Una versión final de la producción estará disponible doblada o subtitulada en español o en otra lengua oficial española.
+2
+A.8
+Que se incluya en la obra lengua de signos españolas reconocidas en España como propias, realizada en España.
+1
+I. B
+Desarrollo de los trabajos de la producción:
+9
+B.1
+Porcentaje del rodaje principal realizado en España por obra o por capítulo.
+8
+B.1.1
+Al menos el 50 %
+8
+B.1.2
+Al menos el 33 %
+7
+B.1.3
+Al menos el 25 %
+6
+B.1.4
+Al menos el 15 % o un mínimo de 2 semanas
+5
+B.2
+Al menos el 50 % de los Efectos Visuales (VFX) o Efectos Especiales Prácticos (SFX) se realizan en España.
+4
+B.3
+Al menos el 50 % del trabajo en grabación de música o postproducción de audio o postproducción de imagen se realiza en España.
+4
+B.4
+Al menos el 50 % de las empresas proveedoras de elementos técnicos (cámara, iluminación, sonido, maquinistas) del rodaje en España son españolas.
+4
+I. C
+Personal ciudadano o residente español o en otro país del Espacio Económico Europeo (cuando el puesto que se indica sea ocupado por varias personas, se obtendrá puntuación si al menos a una de ellas cumple el requisito).
+8
+C.1
+Director o directora.
+4
+C.2
+Guionista.
+2
+C.3
+Compositor o compositora.
+2
+C.4
+Director o directora de fotografía.
+2
+C.5
+Productor ejecutivo o productora ejecutiva.
+1
+C.6
+Actor o actriz protagonista.
+4
+C.7
+Al menos el 50 % del resto del personal artístico.
+2
+C.8
+Jefe o jefa de equipo (diseñador/a de producción principal, diseñador/a de vestuario principal, montador/a principal, diseñador/a de sonido principal, supervisor/a principal de efectos visuales, supervisor/a principal de maquillaje y peluquería).
+2
+C.9
+Al menos el 50 % del personal técnico y de producción, en las escenas rodadas en España.
+4
+II. Producciones de imagen de animación y efectos visuales y postproducción (puntuación mínima requerida: 15)
+35
+II. A
+18
+A.1
+Al menos 5 escenas de la producción están ambientadas en España, en otro país del Consejo de Europa, en uno de los países hispanohablantes entendiendo por tal, y en lo sucesivo, el país donde el español o el castellano es la lengua oficial) o en una localización fantástica, imaginaria o que no pueda ser determinada.
+6
+A.2
+Al menos un personaje principal es español o de otro país del Espacio Económico Europeo, de un país hispanohablante o de una nacionalidad que no se puede determinar.
+3
+A.3
+4.
+A.4
+4
+A.5
+Diálogo original grabado principalmente en español o en alguna de las lenguas oficiales de España o de otros países del Espacio Económico Europeo
+8
+A.6
+2
+A.7
+1
+II. B
+Desarrollo de los trabajos de la producción.
+9
+B.1
+Porcentaje de gastos de diseño de personajes, fondos, pre-visualización y animación/efectos visuales realizados en España por obra o por capítulo.
+8
+B.1.2
+8
+B.1.3
+7
+B.1.4
+6
+B.1.5
+Al menos el 15 %
+5
+B.1.6
+Al menos el 10 %
+4
+B.2
+Al menos el 50 % del trabajo en grabación de música o postproducción de audio o postproducción de imagen se realiza en España, por obra o por capítulo.
+4
+B.3
+La audiodescripción de la obra audiovisual se realiza en España
+1
+II. C
+Personal ciudadano o residente español o en otro país del Espacio Económico Europeo. (Cuando el puesto que se indica sea ocupado por varias personas, se obtendrá puntuación si al menos a una de ellas cumple el requisito).
+8
+C.1
+4
+C.2
+Guionista.
+2
+C.3
+2
+C.4
+Director o directora de animación/a; o supervisor o supervisora de efectos visuales; o supervisor o supervisora de postproducción; o montador o montadora de la obra audiovisual.
+2
+C.5
+Productor ejecutivo o productora ejecutiva; o empresa responsable de todo o parte del servicio de producción.
+1
+C.6
+Diseñador o diseñadora de personajes; o animador o animadora; o modelador o modeladora; o iluminador o iluminadora; o compositor o compositora de VFX; o artista Foley; o editor o editora de sonido; o mezclador o mezcladora de sonido.
+2
+C 7
+Jefe o jefa de equipo de modelado, o de layaut, o de lightning, o de FX, o de CFX, o de compositing, o de animación y sonido.
+2
+C 8
+Al menos el 50 % del personal técnico y de producción de las escenas realizadas en España.
+4
+Madrid, 26 de junio de 2020.–El Ministro de Cultura y Deporte, José Manuel Rodríguez Uribes.
+Este documento es de carácter informativo y no tiene valor jurídico.
+Ayúdenos a mejorar: puede dirigir sus comentarios y sugerencias a nuestro Servicio de atención al ciudadano
+Contactar
+Sobre la sede electrónica
+Mapa
+Protección de datos
+Sistema Interno de Información
+Tutoriales
+Empleo en la AEBOE
+Avda. de Manoteras, 54 - 28050 Madrid
