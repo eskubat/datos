@@ -245,6 +245,7 @@ body.v-v .counts, body.v-f .counts{display:none}
   <h1><a href="#inicio" id="marca" style="color:inherit;text-decoration:none"><span>Eskubat</span> · Revisión de ayudas</a></h1>
   <div class="spacer"></div>
   <span class="status" id="status">Conectando…</span>
+  <button class="btn" id="refrescar" title="Carga la última versión de la página: fuentes, base de datos y estado de la revisión">↻ Actualizar</button>
 </header>
 <div class="barra" id="barra">
   <button class="btn" id="aInicio">← Inicio</button>
@@ -673,6 +674,7 @@ $("#counts").addEventListener("click",ev=>{const b=ev.target.closest(".count"); 
   if(b.dataset.quitar){ S.campoB=null; } else if(b.dataset.fb){ S.filtroB=b.dataset.fb; } else S.filtro=b.dataset.f; renderLista();});
 $("#q").addEventListener("input",ev=>{S.q=ev.target.value; renderLista();});
 $("#aInicio").onclick=()=>cambiarVista("w");
+$("#refrescar").onclick=()=>{ $("#refrescar").disabled=true; $("#refrescar").textContent="Actualizando…"; try{ sessionStorage.setItem("eskubat-vista",S.vista); }catch{} location.reload(); };
 $("#marca").onclick=(ev)=>{ ev.preventDefault(); cambiarVista("w"); };
 $("#nueva").onclick=()=>abrirNueva("","","");
 $("#ncancel").onclick=()=>$("#dlg").close();
@@ -683,16 +685,18 @@ $("#fnueva").addEventListener("submit",async ev=>{
   try{ await S.db.collection("cuestiones").doc(id).set(doc); $("#dlg").close(); $("#fnueva").reset(); S.filtro="abierta"; if(S.vista!=="c") cambiarVista("c"); seleccionar(id); }
   catch(err){ setStatus("No se pudo crear ("+(err&&err.code||"error")+")"); }
 });
+function textoDatos(){ const m=Math.round((Date.now()-Date.parse(D.generado))/60000); return "Datos de "+(m<60?`hace ${Math.max(m,0)} min`:hora(D.generado))+" · se renuevan en cada pasada de Claude"; }
 const DESDE_HASH=Object.fromEntries(Object.entries(VISTAS).map(([k,v])=>[v,k]));
 window.addEventListener("hashchange",()=>{ const v=DESDE_HASH[location.hash]; if(v&&v!==S.vista) cambiarVista(v); });
-cambiarVista(DESDE_HASH[location.hash]||"w");
+let vIni=DESDE_HASH[location.hash]; try{ if(!vIni){ vIni=sessionStorage.getItem("eskubat-vista")||""; } sessionStorage.removeItem("eskubat-vista"); }catch{}
+cambiarVista(vIni||"w"); setStatus(textoDatos());
 (async()=>{
   const db=await claude.use("db");
   if(!db){ setStatus("Sin conexión con la base de datos de la página"); return; }
   S.db=db;
   const t=setTimeout(()=>setStatus("La base de datos tarda en responder"),10000);
   db.collection("cuestiones").onSnapshot(snap=>{
-    if(!snap.metadata.fromCache){ clearTimeout(t); setStatus("Al día · datos del "+hora(D.generado)); }
+    if(!snap.metadata.fromCache){ clearTimeout(t); setStatus(textoDatos()); }
     const editando=document.activeElement&&["instr","pin","pcambio"].includes(document.activeElement.id);
     S.docs=snap.docs.map(x=>({_id:x.id,...x.data()}));
     renderLista(); if(!editando) renderDetalle();
