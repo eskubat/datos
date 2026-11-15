@@ -16,7 +16,7 @@ for (const r of nuevos) {
   try { fuente = fs.readFileSync(p.archivo, 'utf8'); } catch { rechazados++; continue; }
   const v = validar(r, fuente);
   campos += v.errores.length;
-  cache[r.id] = { h: p.h, r: v, modelo: 'claude', fecha: new Date().toISOString().slice(0, 10) };
+  cache[r.id] = { h: huella(fuente), r: v, modelo: 'claude', fecha: new Date().toISOString().slice(0, 10) };
   ok++;
 }
 fs.writeFileSync('cache/resumenes.json', JSON.stringify(cache));
