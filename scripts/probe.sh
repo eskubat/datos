@@ -1,21 +1,13 @@
 #!/usr/bin/env bash
 set -u
 mkdir -p muestras
-U="Mozilla/5.0 (compatible; EskubatBot/0.1; +https://github.com/eskubat/datos)"
-g() { curl -sSL -m 60 -A "$U" -o "muestras/$1" -w "$1 %{http_code} %{size_download}\n" "$2"; }
-g gl.html 'https://egoitza.gipuzkoa.eus/es/subvenciones?p_p_id=Subvenciones_WAR_LEEsubvencionesportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_Subvenciones_WAR_LEEsubvencionesportlet_myaction=lista&_Subvenciones_WAR_LEEsubvencionesportlet_idMateria=CULT&_Subvenciones_WAR_LEEsubvencionesportlet_d-7690214-p=1&_Subvenciones_WAR_LEEsubvencionesportlet_ejercicio=2026'
-g gd.html 'https://egoitza.gipuzkoa.eus/es/subvenciones?p_p_id=Subvenciones_WAR_LEEsubvencionesportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_Subvenciones_WAR_LEEsubvencionesportlet_cserv=EKTX02&_Subvenciones_WAR_LEEsubvencionesportlet_myaction=detalle&_Subvenciones_WAR_LEEsubvencionesportlet_depto=10&_Subvenciones_WAR_LEEsubvencionesportlet_ejercicio=2026'
-g av.html 'https://web.araba.eus/es/ayudas-en-vigor'
-python3 - <<'PY'
-import re,html
-def txt(f,a,b=6000):
-    s=open('muestras/'+f,'rb').read().decode('utf-8','replace')
-    s=re.sub(r'<script[\s\S]*?</script>|<style[\s\S]*?</style>','',s)
-    t=re.sub(r'<(tr|li|p|div|h\d|td|br)[^>]*>','\n',s); t=html.unescape(re.sub(r'<[^>]+>','',t)); t=re.sub(r'[ \t]+',' ',t); t=re.sub(r'\n\s*\n+','\n',t)
-    i=t.find(a); print('=====',f,i); print(t[max(0,i):i+b])
-txt('gl.html','Cultura',3500)
-s=open('muestras/gl.html','rb').read().decode('utf-8','replace')
-i=s.find('myaction=detalle'); print('RAW', re.sub(r'\s+',' ',s[i-1500:i+1500]))
-txt('gd.html','TXEKINBERRI',4000)
-txt('av.html','Ayudas en vigor',3000)
-PY
+UB="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+for p in "api-granted-benefits/?api=granted-benefits" "api-administration/?api=administration_events"; do
+  f=muestras/$(echo $p | cut -c1-20 | tr '/?=' '___').html
+  curl -sSL -m 60 -A "$UB" -o "$f" -w "$p %{http_code} %{size_download}\n" "https://opendata.euskadi.eus/$p"
+  grep -oE "(https?:)?//[a-zA-Z0-9.-]*euskadi\.eus/[^\"' <>)]*" "$f" | grep -iE "api|swagger|json|yaml|openapi" | sort -u | head -20
+  grep -oE "[\"'][^\"']*(swagger|openapi|api-docs)[^\"']*[\"']" "$f" | sort -u | head -10
+done
+for u in "https://api.euskadi.eus/granted-benefits/v1.0/granted-benefits?_elements=2" "https://api.euskadi.eus/granted-benefits?_elements=2" "https://api.euskadi.eus/administration/events?_elements=2" "https://api.euskadi.eus/administration/v1.0/events?_elements=2" "https://api.euskadi.eus/swagger-ui/" "https://api.euskadi.eus/"; do
+  echo "== $u"; curl -sSL -m 30 -A "$UB" "$u" | head -c 500; echo
+done
