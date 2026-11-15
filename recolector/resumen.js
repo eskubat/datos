@@ -6,7 +6,7 @@
 import crypto from 'node:crypto';
 import { POR_ID } from './organismos.js';
 
-const VERSION = 'v3';
+const VERSION = 'v4';
 const TIPOS = ['particular', 'autonomo', 'empresa', 'asociacion', 'ayuntamiento'];
 export const huella = (t) => crypto.createHash('sha1').update(VERSION + ':' + String(t || '')).digest('hex').slice(0, 16);
 
@@ -42,8 +42,8 @@ export function formato(t) {
 const conPunto = (t) => (t && !/[.!?…:]$/.test(t) ? t + '.' : t);
 const mayus = (t) => (t ? t.charAt(0).toUpperCase() + t.slice(1) : t);
 
-// Comprueba una ficha (sección 11). Devuelve la lista de errores (vacía = correcta).
-export function comprobar(r, fuente = '') {
+// Comprueba UNA versión (la de un tipo de solicitante) con las reglas de la sección 11
+function comprobarVersion(r, fuente = '') {
   const e = [];
   const nums = new Set(numeros(fuente));
   const consiste = String(r.en_que_consiste || '');
@@ -80,7 +80,7 @@ export function comprobar(r, fuente = '') {
       if (RE.noRequisito.test(x)) e.push(`documentación, plazos u obligaciones posteriores en requisitos: «${x}»`);
     }
   }
-  if (quien.length === 1 && req.some((g) => g.grupo)) e.push('con un solo tipo de solicitante, requisitos lleva un único grupo sin nombre');
+  if (quien.length === 1 && req.some((g) => g.grupo)) e.push('con un solo colectivo, requisitos lleva un único grupo sin nombre');
   // Cifras duplicadas entre campos
   const cifrasDe = (t) => new Set(numeros(t).filter((n) => n.length >= 2));
   const qTxt = quien.map((q) => q.texto).join(' '), rTxt = req.flatMap((g) => g.requisitos || []).join(' ');
@@ -101,9 +101,25 @@ export function comprobar(r, fuente = '') {
   if (/\((pdf|docx?|xlsx?)\b|\b\d+\s*(kb|mb)\b|descargar|m[aá]s informaci[oó]n/i.test(todo)) e.push('texto de enlaces o adjuntos (PDF, KB, «Descargar», «Más información») en la ficha');
   if (/\busted\b/i.test(todo)) e.push('no uses «usted»: tono neutro y cercano');
   if (RE.cifraMal.test(todo)) e.push('cifras con formato incorrecto (debe ser «3.000 €» y «50 %»)');
+  return [...new Set(e)];
+}
+
+// Comprueba una ficha completa: organismo + una versión por tipo de solicitante. Devuelve la lista de errores.
+export function comprobar(r, fuente = '') {
+  const e = [];
   const id = r.quien_convoca && r.quien_convoca.organismo_id;
   if (!id) e.push('falta quien_convoca.organismo_id');
   else if (!POR_ID[id]) e.push(`organismo_id «${id}» no existe en la tabla maestra (cache/organismos.json)`);
+  const vs = r.versiones && typeof r.versiones === 'object' ? r.versiones : {};
+  const ks = Object.keys(vs);
+  if (!ks.length) e.push('falta «versiones»: una versión completa por cada tipo de solicitante que puede pedir la ayuda');
+  for (const k of ks) {
+    if (!TIPOS.includes(k)) { e.push(`versión «${k}» no válida: usa particular, autonomo, empresa, asociacion o ayuntamiento`); continue; }
+    for (const x of comprobarVersion({ ...vs[k], titulo: r.titulo }, fuente)) e.push(`[${k}] ${x}`);
+  }
+  const eu = r.versiones_eu && typeof r.versiones_eu === 'object' ? Object.keys(r.versiones_eu) : [];
+  const faltan = ks.filter((k) => !eu.includes(k));
+  if (faltan.length) e.push(`faltan versiones en euskera: ${faltan.join(', ')}`);
   return [...new Set(e)];
 }
 
@@ -120,18 +136,23 @@ export function validar(r, fuente) {
     grupo: limpia(g && g.grupo).replace(/[:.]$/, ''),
     requisitos: (Array.isArray(g && g.requisitos) ? g.requisitos : []).map(formato).filter((x) => x && ok(x) && (eu || !RE.noRequisito.test(x))).map((x) => conPunto(mayus(x))).slice(0, 8),
   })).filter((g) => g.requisitos.length);
-  for (const sfx of ['', '_eu']) {
-    out['titulo' + sfx] = tit(r['titulo' + sfx]);
-    out['cuanto_puede_recibir' + sfx] = cuanto(r['cuanto_puede_recibir' + sfx]);
-    out['quien_puede_pedirla' + sfx] = quien(r['quien_puede_pedirla' + sfx]);
-    out['requisitos' + sfx] = reqs(r['requisitos' + sfx], !!sfx);
-  }
-  out.en_que_consiste = consiste(r.en_que_consiste);
-  const ce = formato(r.en_que_consiste_eu);
-  out.en_que_consiste_eu = ce && ok(ce) ? conPunto(mayus(ce)) : '';
+  const version = (v, eu) => {
+    const ce = formato(v && v.en_que_consiste);
+    return {
+      en_que_consiste: eu ? (ce && ok(ce) ? conPunto(mayus(ce)) : '') : consiste(v && v.en_que_consiste),
+      cuanto_puede_recibir: cuanto(v && v.cuanto_puede_recibir),
+      quien_puede_pedirla: quien(v && v.quien_puede_pedirla),
+      requisitos: reqs(v && v.requisitos, eu),
+    };
+  };
+  const versiones = (vs, eu) => Object.fromEntries(Object.entries(vs && typeof vs === 'object' ? vs : {}).filter(([k]) => TIPOS.includes(k)).map(([k, v]) => [k, version(v, eu)]));
+  out.titulo = tit(r.titulo);
+  out.titulo_eu = tit(r.titulo_eu);
+  out.versiones = versiones(r.versiones, false);
+  out.versiones_eu = versiones(r.versiones_eu, true);
   const id = r.quien_convoca && r.quien_convoca.organismo_id;
   out.organismo_id = id && POR_ID[id] ? id : '';
-  out.tipos = (Array.isArray(r.tipos) ? r.tipos : []).filter((x) => TIPOS.includes(x));
+  out.tipos = Object.keys(out.versiones);
   out.datos = Array.isArray(r.datos) ? r.datos.slice(0, 200) : [];
   const motivos = [];
   if (r.revision_manual && r.revision_manual.necesaria) motivos.push(String(r.revision_manual.motivo || 'sin motivo'));
@@ -145,31 +166,43 @@ export function validar(r, fuente) {
 const lineasQuien = (qs) => (qs.length === 1 ? [qs[0].texto] : qs.map((q) => (q.tipo ? `${q.tipo}: ${q.texto.charAt(0).toLowerCase()}${q.texto.slice(1)}` : q.texto)));
 const lineasReq = (gs) => (gs.length === 1 && !gs[0].grupo ? gs[0].requisitos : gs.flatMap((g) => [...(g.grupo ? ['## ' + g.grupo] : []), ...g.requisitos]));
 
-// Aplica las fichas válidas a las ayudas publicadas
+// Versión validada -> campos que usa la app
+const aCampos = (v, todos) => ({
+  resumen: v.en_que_consiste || '',
+  cuantia: v.cuanto_puede_recibir.join('\n'),
+  dirigido: lineasQuien(v.quien_puede_pedirla).join('\n'),
+  requisitos: lineasReq(v.requisitos.map((g) => ({ ...g, grupo: g.grupo === 'Todos' ? todos : g.grupo }))),
+});
+
+// Aplica las fichas válidas a las ayudas publicadas.
+// a.versiones = { particular: {resumen, cuantia, dirigido, requisitos}, empresa: {…} }: la app muestra la del perfil.
 export function aplicar(ayudas, fuentes, cache) {
   let n = 0;
   for (const a of ayudas) {
     const c = cache[a.id];
     if (!c || !fuentes[a.id] || c.h !== huella(fuentes[a.id])) continue;
     const r = c.r;
-    if (!r.quien_puede_pedirla) continue; // fichas de versiones anteriores
+    const ks = Object.keys(r.versiones || {}).filter((k) => r.versiones[k].en_que_consiste || r.versiones[k].quien_puede_pedirla.length);
+    if (!ks.length) continue;
     if (r.titulo) { if (!a.tituloOficial) a.tituloOficial = a.titulo; a.titulo = r.titulo; }
-    if (r.en_que_consiste) a.resumen = r.en_que_consiste;
-    if (r.cuanto_puede_recibir.length) a.cuantia = r.cuanto_puede_recibir.join('\n');
-    if (r.quien_puede_pedirla.length) a.dirigido = lineasQuien(r.quien_puede_pedirla).join('\n');
-    a.requisitos = lineasReq(r.requisitos);
+    a.versiones = Object.fromEntries(ks.map((k) => [k, aCampos(r.versiones[k], 'Todos')]));
+    // Sin perfil (y para búsquedas y tarjetas): la primera versión
+    Object.assign(a, a.versiones[ks[0]]);
     a.requisitosGenerales = true;
-    if (r.tipos.length) a.para = r.tipos;
+    a.para = ks;
     if (r.organismo_id && POR_ID[r.organismo_id]) {
       const o = POR_ID[r.organismo_id];
       Object.assign(a, { organismoId: o.id, organismo: o.corto, organismoCompleto: o.completo, organismoEu: o.eu });
       delete a.revisarOrganismo;
     }
     if (r.revision) a.revisar = r.revision; else delete a.revisar;
-    const cifras = [...(a.cuantia || '').matchAll(/(\d{1,3}(?:\.\d{3})+|\d+)(?:,\d+)?\s*€/g)].map((m) => Number(m[1].replace(/\./g, ''))).filter((x) => x >= 50 && x < 5e6);
+    const todo = ks.map((k) => a.versiones[k].cuantia).join('\n');
+    const cifras = [...todo.matchAll(/(\d{1,3}(?:\.\d{3})+|\d+)(?:,\d+)?\s*€/g)].map((m) => Number(m[1].replace(/\./g, ''))).filter((x) => x >= 50 && x < 5e6);
     a.importeMax = cifras.length ? Math.max(...cifras) : null;
-    if (r.titulo_eu || r.en_que_consiste_eu) {
-      a.eu = { titulo: r.titulo_eu || '', resumen: r.en_que_consiste_eu || '', cuantia: r.cuanto_puede_recibir_eu.join('\n'), dirigido: lineasQuien(r.quien_puede_pedirla_eu).join('\n'), requisitos: lineasReq(r.requisitos_eu.map((g) => ({ ...g, grupo: g.grupo === 'Todos' ? 'Guztiak' : g.grupo }))) };
+    const keu = Object.keys(r.versiones_eu || {}).filter((k) => ks.includes(k) && r.versiones_eu[k].en_que_consiste);
+    if (r.titulo_eu || keu.length) {
+      const veu = Object.fromEntries(keu.map((k) => [k, aCampos(r.versiones_eu[k], 'Guztiak')]));
+      a.eu = { titulo: r.titulo_eu || '', versiones: veu, ...(keu.length ? veu[keu[0]] : {}) };
     }
     a.resumenIA = true;
     n++;

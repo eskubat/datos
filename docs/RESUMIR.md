@@ -14,37 +14,41 @@ Las reglas de qué va en cada campo están en **`docs/CATEGORIZACION.md`** (resu
 
 ## Formato de cada ficha
 
+Una versión completa por cada tipo de solicitante que puede pedir la ayuda (ver «Versiones por tipo de solicitante» en `docs/CATEGORIZACION.md`).
+
 ```json
 {
   "id": "…", "h": "…",
   "datos": [
-    { "etiqueta": "PERFIL", "solicitante": "Pymes", "dato": "Menos de 50 trabajadores", "cita": "texto literal breve" }
+    { "etiqueta": "PERFIL", "tipo": "empresa", "colectivo": "Pymes", "dato": "Menos de 50 trabajadores", "cita": "texto literal breve" }
   ],
   "quien_convoca": { "organismo_id": "gv-vivienda", "texto_fuente": "Departamento de Vivienda y Agenda Urbana" },
-  "titulo": "Préstamos para rehabilitar edificios de viviendas",
-  "en_que_consiste": "Préstamo para … Cubre …",
-  "cuanto_puede_recibir": "Hasta 3.000 € por vivienda (50 % del coste).\nPago único.",
-  "quien_puede_pedirla": [
-    { "tipo": "Personas autónomas", "texto": "Dadas de alta desde hace al menos 6 meses y con domicilio fiscal en Euskadi." },
-    { "tipo": "Pymes", "texto": "Con menos de 50 trabajadores y domicilio fiscal en Euskadi." }
-  ],
-  "requisitos": [
-    { "grupo": "Todos", "requisitos": ["Realizar la inversión en un centro de trabajo situado en Euskadi."] },
-    { "grupo": "Pymes", "requisitos": ["Realizar una inversión mínima de 10.000 €."] }
-  ],
-  "tipos": ["autonomo", "empresa"],
-  "revision_manual": { "necesaria": false, "motivo": "" },
-  "titulo_eu": "…", "en_que_consiste_eu": "…", "cuanto_puede_recibir_eu": "…",
-  "quien_puede_pedirla_eu": [{ "tipo": "…", "texto": "…" }],
-  "requisitos_eu": [{ "grupo": "…", "requisitos": ["…"] }]
+  "titulo": "Préstamos y subvenciones para rehabilitar edificios de viviendas",
+  "titulo_eu": "…",
+  "versiones": {
+    "particular": {
+      "en_que_consiste": "Préstamos y subvenciones para … Sirven para … También …",
+      "cuanto_puede_recibir": "Hasta 25.000 € por vivienda.\nPréstamo de hasta 39.000 € por vivienda.",
+      "quien_puede_pedirla": [
+        { "tipo": "Comunidades de propietarios", "texto": "Comunidades de personas propietarias de edificios con uso principal de vivienda." },
+        { "tipo": "Personas propietarias únicas", "texto": "Personas físicas propietarias de todo el edificio." }
+      ],
+      "requisitos": [
+        { "grupo": "Todos", "requisitos": ["Tener licencia municipal de obras."] },
+        { "grupo": "Comunidades de propietarios", "requisitos": ["Estar representadas según la Ley de Propiedad Horizontal."] }
+      ]
+    },
+    "asociacion": { "en_que_consiste": "…", "cuanto_puede_recibir": "…", "quien_puede_pedirla": [ … ], "requisitos": [ … ] }
+  },
+  "versiones_eu": { "particular": { … }, "asociacion": { … } },
+  "revision_manual": { "necesaria": false, "motivo": "" }
 }
 ```
 
+- Claves de `versiones`: solo `particular`, `autonomo`, `empresa`, `asociacion`, `ayuntamiento` (Entidad pública). `versiones_eu` tiene las mismas claves, con la misma información en euskera batua correcto y natural (no traducción literal); el grupo común de requisitos se llama «Guztiak».
+- Dentro de una versión: un solo colectivo → `quien_puede_pedirla` con un elemento y `requisitos` con un único grupo `"grupo": ""`. Varios colectivos → un elemento por colectivo y grupos de requisitos con el mismo nombre («Todos» para los comunes).
 - `quien_convoca.organismo_id`: un `id` de `cache/organismos.json` (el más concreto: el departamento del Gobierno Vasco que convoca, nunca una dirección inferior). Parte de `organismoSugerido` y corrígelo si la documentación dice otra cosa. Si no hay ninguno que coincida, déjalo vacío y marca `revision_manual` con el nombre que aparece en la fuente.
-- Un solo tipo de solicitante: `quien_puede_pedirla` con un elemento (su `texto` es la frase completa) y `requisitos` con un único grupo con `"grupo": ""`.
-- `cuanto_puede_recibir`: una línea por tramo o tipo (separadas por `\n`); si cambia por tipo, empieza cada línea por el nombre del tipo («Pymes: hasta 20.000 €.»).
-- `titulo` (no lo regula el documento): 4-14 palabras, claro, empieza por el tipo de ayuda; sin año, plazo, organismo, municipio, línea o anexo.
-- `tipos`: de `particular`, `autonomo`, `empresa`, `asociacion`, `ayuntamiento` (una comunidad de propietarios cuenta como `particular`).
-- Versión en euskera (`*_eu`): la misma información y estructura, en euskera batua correcto y natural (no traducción literal). En `requisitos_eu` el grupo común se llama «Guztiak».
+- `cuanto_puede_recibir`: una línea por tramo (separadas por `\n`); si cambia por colectivo dentro de la versión, empieza cada línea por su nombre.
+- `titulo` (común a todas las versiones): 4-14 palabras, claro, empieza por el tipo de ayuda; sin año, plazo, organismo, municipio, línea o anexo.
 - No incluir fechas ni plazos: la app los calcula aparte.
 - Si `cache/pendientes.json` y `cache/titulos_pendientes.json` están vacíos, no hagas nada.

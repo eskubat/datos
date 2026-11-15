@@ -5,6 +5,24 @@ Documento de referencia (Eugenio Igoa, 15/11/2026). La versión completa con tab
 ## Regla de oro
 Cada dato va en **un solo campo**. Si una frase mezcla datos, se parte. Solo información de la fuente; si falta: «No especificado en la convocatoria». Palabras propias, frases cortas, ortografía siempre correcta.
 
+## Versiones por tipo de solicitante
+Quien abre una ayuda solo lee la información que le afecta según su perfil. Por eso cada ficha tiene **una versión completa por cada tipo de perfil** que puede pedirla: `particular`, `autonomo`, `empresa`, `asociacion` y `ayuntamiento` (en la app, «Entidad pública»).
+
+1. Identifica en la documentación todos los colectivos que pueden pedir la ayuda, con su nombre concreto. No uses etiquetas genéricas («Asociaciones», «Particulares», «Autónomos y pymes») si la convocatoria dice algo más preciso.
+2. Asigna cada colectivo a uno o varios tipos (equivalencias observadas en las ayudas actuales):
+   - **particular**: personas físicas; personas empadronadas en el municipio; personas de 18 años o más; jóvenes; mujeres; mujeres víctimas de violencia de género; pensionistas de la Seguridad Social y sus beneficiarios; madres o padres de familias monoparentales; padre o madre de la unidad familiar; quien tenga la guarda y custodia; acogedor o acogedora; tutor o tutora; personas de una unidad de convivencia; personas sin alojamiento; personas trabajadoras por cuenta ajena; personal investigador en formación; titulares de viviendas; personas físicas con un máximo de 5 viviendas en propiedad.
+   - **autonomo**: personas físicas que trabajan por cuenta propia; autónomos.
+   - **empresa**: pymes; grandes empresas; empresas privadas; empresas del sector cultural; personas jurídicas privadas; comunidades de bienes con actividad económica; empresas y cooperativas de trabajo asociado; centros tecnológicos y centros de investigación privados.
+   - **asociacion**: asociaciones sin ánimo de lucro; asociaciones culturales; centros vascos - euskal etxeak; cofradías de pescadores y sus federaciones; asociaciones profesionales del sector pesquero; organizaciones de productores; organizaciones profesionales; organizaciones sindicales; entidades colaboradoras de Lanbide.
+   - **ayuntamiento** (Entidad pública): ayuntamientos; entidades locales; municipios; concejos; mancomunidades; consorcios; agencias de desarrollo local; universidades públicas y centros de investigación públicos.
+   - **Varios tipos**: comunidades de propietarios → particular + asociacion · cooperativas de viviendas → particular + asociacion · «Autónomos y pymes» → autonomo + empresa · «Personas físicas o jurídicas» → particular + autonomo + empresa (+ asociacion si no se excluye a las entidades sin ánimo de lucro) · «Personas y empresas que promueven obras privadas» → particular + autonomo + empresa · agentes de la Red Vasca de Ciencia → empresa (privados) y ayuntamiento (públicos).
+   - Si un colectivo no encaja con claridad, asígnalo al más cercano y explícalo en `revision_manual`.
+3. Cada versión se lee sola, como si los demás tipos no existieran: su «En qué consiste» (solo las líneas o actuaciones a las que puede acceder ese tipo), su «Cuánto puede recibir» (solo sus importes), su «Quién puede pedirla» (solo sus colectivos, con el nombre de la fuente) y sus requisitos (los comunes más los suyos). Lo común se repite en cada versión. Nunca se mencionan en una versión importes, requisitos o colectivos de otro tipo.
+4. Si varios colectivos del mismo tipo tienen condiciones distintas (p. ej. «Comunidades de propietarios» y «Personas físicas propietarias», ambos particular), dentro de esa versión van agrupados: un elemento por colectivo en «Quién puede pedirla» y grupos de requisitos con su nombre.
+5. Si la ayuda es para un solo tipo, hay una sola versión.
+6. No son colectivos y nunca van en «Quién puede pedirla»: líneas de ayuda («Inversiones productivas», «Creación de empleo»), obligaciones, tratamientos («Tratamientos odontológicos»), sectores de actividad («Industria alimentaria») ni apartados de la convocatoria («Segundo. Objeto», «Cuarto. Cuantía»).
+7. Antes de terminar, comprueba en cada versión que ninguna cifra, colectivo o requisito pertenece a otro tipo y que responde por sí sola a: qué es, cuánto recibo, si puedo pedirla y qué tengo que cumplir.
+
 ## Qué va en cada campo
 | Dato | Campo |
 |---|---|
