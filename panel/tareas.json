@@ -15,7 +15,7 @@
   "detalle": "Hoy solo entran las 4 o 5 ayudas «destacadas» de web.araba.eus. Leer el catálogo completo de la sede electrónica (egoitza.araba.eus).",
   "fuente": "Diputación Foral de Álava",
   "quien": "Claude",
-  "prioridad": 2,
+  "prioridad": 3,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -27,7 +27,7 @@
   "quien": "Claude",
   "estado": "pendiente",
   "seccion": "fuentes",
-  "prioridad": 3
+  "prioridad": 5
  },
  {
   "id": "spri",
@@ -35,7 +35,7 @@
   "detalle": "Comparar el catálogo de ayudas de SPRI con lo que ya llega por euskadi.eus y la BDNS. Si faltan, añadir un lector de su web.",
   "fuente": "SPRI",
   "quien": "Claude",
-  "prioridad": 4,
+  "prioridad": 6,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -45,7 +45,7 @@
   "detalle": "Igual que SPRI, para las ayudas de energía del Ente Vasco de la Energía.",
   "fuente": "EVE",
   "quien": "Claude",
-  "prioridad": 5,
+  "prioridad": 7,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -55,7 +55,7 @@
   "detalle": "Ver qué publica la sede electrónica que no llegue por la BDNS ni el BOB (ayudas permanentes, fichas de trámite) y añadir lector si compensa.",
   "fuente": "Diputación Foral de Bizkaia",
   "quien": "Claude",
-  "prioridad": 6,
+  "prioridad": 8,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -67,7 +67,7 @@
   "quien": "Claude",
   "estado": "pendiente",
   "seccion": "fuentes",
-  "prioridad": 7
+  "prioridad": 9
  },
  {
   "id": "capitales",
@@ -75,7 +75,7 @@
   "detalle": "Las tres capitales solo entran por la BDNS y los boletines. Buscar datos abiertos o páginas legibles de sus catálogos de ayudas.",
   "fuente": "Ayuntamientos de las capitales",
   "quien": "Claude",
-  "prioridad": 8,
+  "prioridad": 10,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -85,7 +85,7 @@
   "detalle": "Behargintza, Inguralde, Debegesa y similares: comparar lo que publican con lo que ya llega por la BDNS.",
   "fuente": "Agencias de desarrollo comarcal",
   "quien": "Claude",
-  "prioridad": 9,
+  "prioridad": 11,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -95,7 +95,7 @@
   "detalle": "Ahora solo se lee la primera página. Se hará cuando Open Data Euskadi dé acceso, para no forzar sus servidores.",
   "fuente": "Gobierno Vasco",
   "quien": "Claude",
-  "prioridad": 10,
+  "prioridad": 12,
   "estado": "bloqueada",
   "nota": "Espera al acceso de Open Data Euskadi (tarea tuya).",
   "seccion": "fuentes"
@@ -109,5 +109,25 @@
   "prioridad": 1,
   "estado": "pendiente",
   "seccion": "fuentes"
+ },
+ {
+  "id": "avatar-cabecera",
+  "titulo": "Cabecera: avatar del empleado arriba a la derecha",
+  "detalle": "Mostrar en la cabecera, arriba a la derecha del texto, el avatar del empleado que ejecuta las tareas del plan. Debe verse en todas las pantallas. Se comprueba abriendo la página: el avatar aparece alineado a la derecha del título. Falta saber qué imagen usar como avatar; hasta que el responsable la indique, no inventar una.",
+  "fuente": "Página de revisión (panel/plantilla.html)",
+  "seccion": "base",
+  "quien": "Claude",
+  "prioridad": 4,
+  "estado": "pendiente"
+ },
+ {
+  "id": "ejecutar-enlace",
+  "titulo": "Pantalla Mejora continua: «Ejecutar ahora» como enlace en todas las tareas planificadas",
+  "detalle": "Cada tarea del plan en estado pendiente (las de Claude) debe mostrar «Ejecutar ahora» como texto con hipervínculo, no como botón. Al pulsarlo se lanza la tarea en menos de una hora. En las bloqueadas y en las del responsable no aparece. Quitar el enlace «Ver las reglas» de esa pantalla. Se comprueba abriendo Mejora continua: todas las pendientes de Claude tienen el enlace, no hay botones y «Ver las reglas» ya no está.",
+  "fuente": "Página de revisión (panel/plantilla.html)",
+  "seccion": "base",
+  "quien": "Claude",
+  "prioridad": 2,
+  "estado": "pendiente"
  }
 ]
