@@ -1,7 +1,5 @@
 name: Resúmenes con IA
 on:
-  schedule:
-    - cron: '37 */2 * * *'   # cada dos horas, hasta tener todas resumidas
   workflow_dispatch:
   push:
     branches: [main]

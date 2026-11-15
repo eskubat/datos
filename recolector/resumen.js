@@ -67,8 +67,9 @@ async function llamar(lote, token, log) {
         body: JSON.stringify({ model: modelo, temperature: 0.1, max_tokens: 3500, response_format: { type: 'json_object' }, messages: [{ role: 'system', content: INSTRUCCIONES }, { role: 'user', content: contenido }] }),
       }).catch((e) => ({ ok: false, status: 0, text: async () => String(e) }));
       if (r.ok) {
-        const j = await r.json();
-        try { return { modelo, datos: JSON.parse(j.choices[0].message.content).ayudas || [] }; } catch { log(`Respuesta no válida de ${modelo}`); break; }
+        const cuerpo = await r.text();
+        try { const j = JSON.parse(cuerpo); return { modelo, datos: JSON.parse(j.choices[0].message.content).ayudas || [] }; }
+        catch { log(`${modelo}: respuesta no válida (${cuerpo.slice(0, 60).replace(/\s+/g, ' ')})`); return null; }
       }
       const cuerpo = (await r.text()).slice(0, 200);
       if (r.status === 429) {
