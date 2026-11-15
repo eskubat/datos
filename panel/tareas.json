@@ -123,5 +123,16 @@
   "prioridad": 2,
   "estado": "pendiente",
   "seccion": "fuentes"
+ },
+ {
+  "id": "adjuntos-enlazados",
+  "titulo": "Descargar las bases enlazadas desde las páginas municipales y de la BDNS",
+  "detalle": "Algunas ayudas llegan sin sus bases: la ficha del Concurso de Escaparates de Oñati (bdns-939389) es la página de subvenciones de Socioeconomía de oñati.eus, que enlaza «Bases del concurso» y «Criterios de valoración» sin descargarlos; y en la BDNS de Maison&Objet París (bdns-938576) solo se bajó el formulario de inscripción, no la convocatoria con el porcentaje y los gastos cubiertos. Seguir los enlaces a PDF de esas páginas y bajar todos los documentos de cada convocatoria de la BDNS.",
+  "fuente": "Ayuntamientos y BDNS",
+  "quien": "Claude",
+  "prioridad": 12,
+  "estado": "pendiente",
+  "seccion": "fuentes",
+  "fecha": "2026-11-16"
  }
 ]
