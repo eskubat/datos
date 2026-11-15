@@ -1,23 +1,30 @@
 {
   "version": 1,
-  "generado": "2026-11-15T00:01:58.402Z",
-  "total": 337,
+  "generado": "2026-11-15T00:10:49.127Z",
+  "total": 440,
   "porAmbito": {
-    "municipio": 324,
-    "euskadi": 7,
-    "territorio": 6
+    "municipio": 301,
+    "euskadi": 134,
+    "territorio": 5
   },
   "porEstado": {
-    "abierta": 161,
+    "abierta": 266,
     "proxima": 8,
-    "sinfecha": 168
+    "sinfecha": 166
   },
   "fuentes": {
+    "euskadi": {
+      "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
+      "ok": true,
+      "registros": 136,
+      "segundos": 43,
+      "erroresFicha": 0
+    },
     "bdns": {
       "nombre": "Base de Datos Nacional de Subvenciones",
       "ok": true,
-      "registros": 695,
-      "segundos": 134,
+      "registros": 667,
+      "segundos": 136,
       "erroresFicha": 0
     }
   }
