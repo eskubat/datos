@@ -429,8 +429,8 @@ const TIPOS = {plazo:"Plazo",organismo:"Organismo",documentacion:"Documentación
 const TIPO_SOL = {particular:"Particulares",autonomo:"Autónomos",empresa:"Empresas",asociacion:"Asociaciones",ayuntamiento:"Entidades públicas",general:"General"};
 const NIVEL = {euskadi:"Gobierno Vasco",territorio:"Diputaciones",municipio:"Ayuntamientos",estado:"Estado",ue:"Unión Europea"};
 const EST_AY = {abierta:"Abierta",proxima:"Próxima",sinfecha:"Sin fecha"};
-const VISTAS = {w:"#inicio",m:"#correccion-y-mejora",b:"#base-de-datos",l:"#lista-de-ayudas",c:"#cuestiones",i:"#instrucciones",f:"#fuentes"};
-const TITULOS = {m:"Corrección y mejora",b:"Datos",l:"Datos · lista de ayudas",c:"Revisión",i:"Instrucciones",f:"Fuentes"};
+const VISTAS = {w:"#inicio",m:"#mejora-continua",b:"#base-de-datos",l:"#lista-de-ayudas",c:"#cuestiones",i:"#instrucciones",f:"#fuentes"};
+const TITULOS = {m:"Mejora continua",b:"Datos",l:"Datos · lista de ayudas",c:"Revisión",i:"Instrucciones",f:"Fuentes"};
 const S = {vista:"w", docs:[], filtro:"abierta", areaF:"", q:"", sel:null, db:null, sample:null, selB:null, verB:null, fl:{}, selec:new Set(), selI:"categorizacion"};
 const $ = (s, el=document) => el.querySelector(s);
 const esc = (t) => String(t ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -540,7 +540,7 @@ function renderInicio(){
       ${nodo("base",X(1),Y[0],"claude","b","Datos",[`${num(hc)} revisadas · ${num(t.fichas||0)} por revisar`,diaria?"Revisión una vez al día":"Próxima pasada "+proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})],num(D.ayudas.length),"Abrir")}
       ${nodo("app",X(2),Y[0],"","ce","Eskubat",["La app: ayudas en castellano","y euskera, y su diseño"],null,"Revisión")}
       ${nodo("cuestiones",X(0),Y[1],"clave","c","Revisión",[`Fuentes ${ca.fuentes||0} · Datos ${ca.datos||0}`,`Eskubat ${ca.eskubat||0}`],`${c.abierta}<tspan class="nu"> abiertas</tspan>`,"Decidir")}
-      ${nodo("mejora",X(1),Y[1],"claude","m","Corrección y mejora",[`${listas} correcciones en cola`,`${plP} mejoras planificadas`],`${aplic+plH}<tspan class="nu"> hechas</tspan>`,"Ver")}
+      ${nodo("mejora",X(1),Y[1],"claude","m","Mejora continua",[`${listas} correcciones en cola`,`${plP} mejoras planificadas`],`${aplic+plH}<tspan class="nu"> hechas</tspan>`,"Ver")}
     </svg></div>
     ${paraTi()}</div>`;
   $("#detalle").querySelectorAll("button[data-pc]").forEach(b=>b.onclick=()=>{ S.filtro="abierta"; cambiarVista("c"); seleccionar(b.dataset.pc); });
@@ -1058,7 +1058,7 @@ const HERR=[
   inputSchema:{type:"object",properties:{pantalla:{type:"string",enum:["inicio","datos","lista","cuestiones","fuentes","mejora","instrucciones"]},filtros:{type:"object",description:"Para lista: rev, com, estado, cierre, nivel, para, temas, organismo"},ayuda:{type:"string",description:"Id de una ayuda para abrirla en la lista"}},required:["pantalla"]},
   execute:(i)=>{ const v={inicio:"w",datos:"b",lista:"l",cuestiones:"c",fuentes:"f",mejora:"m",instrucciones:"i"}[i.pantalla]; if(v==="l"){ S.fl=i.filtros||{}; S.selec=new Set(); } cambiarVista(v); if(i.ayuda&&v==="l") seleccionar(i.ayuda); return {hecho:true}; }}
 ];
-function sistemaAsis(){ return `Eres Claude, el asistente de la página «Eskubat — Revisión de ayudas». Eskubat es una app de ayudas y subvenciones de Euskadi. El sistema: un recolector diario lee las fuentes; Claude revisa cada hora (a y 32) las ayudas nuevas o cambiadas y redacta sus fichas; cada hora (a y 17) Claude ejecuta una tarea del plan de mejora continua; cada mes revisa el plan. Las cuestiones (pantalla «Revisión») son decisiones del responsable o cambios pedidos; las «listas» son correcciones que aplica la pasada horaria (las de área eskubat, no); lo que exige código o fuentes va al plan de mejora. Las dos cosas se ven en la pantalla «Corrección y mejora».
+function sistemaAsis(){ return `Eres Claude, el asistente de la página «Eskubat — Revisión de ayudas». Eskubat es una app de ayudas y subvenciones de Euskadi. El sistema: un recolector diario lee las fuentes; Claude revisa cada hora (a y 32) las ayudas nuevas o cambiadas y redacta sus fichas; cada hora (a y 17) Claude ejecuta una tarea del plan de mejora continua; cada mes revisa el plan. Las cuestiones (pantalla «Revisión») son decisiones del responsable o cambios pedidos; las «listas» son correcciones que aplica la pasada horaria (las de área eskubat, no); lo que exige código o fuentes va al plan de mejora. Las dos cosas se ven en la pantalla «Mejora continua».
 Tienes herramientas para consultar los datos y para hacer cambios directamente: úsalas. Si te piden un cambio, hazlo con la herramienta adecuada y di qué has hecho y cuándo se aplicará; no pidas permiso para lo que el responsable ya ha pedido claramente, pero pregunta si algo es ambiguo o afecta a muchas ayudas sin que lo haya dicho. Antes de pedir cambios a ayudas concretas, búscalas para tener los ids. No puedes navegar por la web ni cambiar el código desde aquí: lo que exige código o fuentes nuevas va al plan (proponer_tarea_plan). Responde en castellano, breve y claro, sin jerga técnica. Hoy es ${new Date().toISOString().slice(0,10)}; los datos de la página son del ${hora(D.generado)}.`; }
 function renderAsis(){
   const box=$("#asisMsgs"); if(!box) return;
@@ -1127,7 +1127,7 @@ $("#fnueva").addEventListener("submit",async ev=>{
   catch(err){ setStatus("No se pudo crear ("+(err&&err.code||"error")+")"); }
 });
 function textoDatos(){ const m=Math.round((Date.now()-Date.parse(D.generado))/60000); return "Datos de "+(m<60?`hace ${Math.max(m,0)} min`:hora(D.generado))+" · se renuevan en cada pasada de Claude"; }
-const DESDE_HASH={...Object.fromEntries(Object.entries(VISTAS).map(([k,v])=>[v,k])),"#revision":"b","#mejora-continua":"m"};
+const DESDE_HASH={...Object.fromEntries(Object.entries(VISTAS).map(([k,v])=>[v,k])),"#revision":"b","#correccion-y-mejora":"m"};
 window.addEventListener("hashchange",()=>{ const v=DESDE_HASH[location.hash]; if(v&&v!==S.vista) cambiarVista(v); });
 let vIni=DESDE_HASH[location.hash]; try{ if(!vIni){ vIni=sessionStorage.getItem("eskubat-vista")||""; } sessionStorage.removeItem("eskubat-vista"); }catch{}
 cambiarVista(vIni||"w"); setStatus(textoDatos());
