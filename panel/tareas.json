@@ -1,21 +1,11 @@
 [
  {
-  "id": "avatar-cabecera",
-  "titulo": "Avatar del empleado en la cabecera",
-  "detalle": "Pedido por el responsable: crear ya el avatar (no esperar). Poner en panel/plantilla.html, dentro de <header>, como último elemento (a la derecha, después del botón «↻ Actualizar», alineado con el título y visible en todas las pantallas) este SVG, tal cual: <svg class=\"avatar\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 40 40\" width=\"36\" height=\"36\" role=\"img\" aria-label=\"Claude, el empleado que ejecuta el plan\"><title>Claude · ejecuta el plan de mejoras</title><circle cx=\"20\" cy=\"20\" r=\"20\" fill=\"var(--accent)\"/><circle cx=\"20\" cy=\"15.5\" r=\"6.5\" fill=\"var(--panel)\"/><path d=\"M9 35c2-7 6-10.5 11-10.5s9 3.5 11 10.5z\" fill=\"var(--panel)\"/><path d=\"M30 4.5l1.3 2.7 3 .4-2.2 2.1.5 3-2.6-1.4-2.6 1.4.5-3-2.2-2.1 3-.4z\" fill=\"var(--or)\"/></svg> Usa los colores del tema (var(--accent), var(--panel), var(--or)), así que funciona en claro y oscuro. CSS: header .avatar{flex:none;width:36px;height:36px;border-radius:50%}. Comprobar abriendo la página: el avatar aparece arriba a la derecha en todas las pantallas y a 360 px de ancho no provoca scroll horizontal.",
-  "fuente": "Cuestión asis-mwifi150",
-  "seccion": "base",
-  "quien": "Claude",
-  "prioridad": 1,
-  "estado": "pendiente"
- },
- {
   "id": "bopv",
   "titulo": "Leer el sumario del BOPV",
   "detalle": "Añadir el BOPV al lector de boletines (como BOB, BOG y BOTHA) para recoger las convocatorias del Gobierno Vasco que no salen en la primera página del catálogo de euskadi.eus.",
   "fuente": "Sumario del BOPV",
   "quien": "Claude",
-  "prioridad": 2,
+  "prioridad": 1,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -25,7 +15,7 @@
   "detalle": "Hoy solo entran las 4 o 5 ayudas «destacadas» de web.araba.eus. Leer el catálogo completo de la sede electrónica (egoitza.araba.eus).",
   "fuente": "Diputación Foral de Álava",
   "quien": "Claude",
-  "prioridad": 3,
+  "prioridad": 2,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -37,7 +27,7 @@
   "quien": "Claude",
   "estado": "pendiente",
   "seccion": "fuentes",
-  "prioridad": 4
+  "prioridad": 3
  },
  {
   "id": "spri",
@@ -45,7 +35,7 @@
   "detalle": "Comparar el catálogo de ayudas de SPRI con lo que ya llega por euskadi.eus y la BDNS. Si faltan, añadir un lector de su web.",
   "fuente": "SPRI",
   "quien": "Claude",
-  "prioridad": 5,
+  "prioridad": 4,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -55,7 +45,7 @@
   "detalle": "Igual que SPRI, para las ayudas de energía del Ente Vasco de la Energía.",
   "fuente": "EVE",
   "quien": "Claude",
-  "prioridad": 6,
+  "prioridad": 5,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -65,7 +55,7 @@
   "detalle": "Ver qué publica la sede electrónica que no llegue por la BDNS ni el BOB (ayudas permanentes, fichas de trámite) y añadir lector si compensa.",
   "fuente": "Diputación Foral de Bizkaia",
   "quien": "Claude",
-  "prioridad": 7,
+  "prioridad": 6,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -77,7 +67,7 @@
   "quien": "Claude",
   "estado": "pendiente",
   "seccion": "fuentes",
-  "prioridad": 8
+  "prioridad": 7
  },
  {
   "id": "capitales",
@@ -85,7 +75,7 @@
   "detalle": "Las tres capitales solo entran por la BDNS y los boletines. Buscar datos abiertos o páginas legibles de sus catálogos de ayudas.",
   "fuente": "Ayuntamientos de las capitales",
   "quien": "Claude",
-  "prioridad": 9,
+  "prioridad": 8,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -95,7 +85,7 @@
   "detalle": "Behargintza, Inguralde, Debegesa y similares: comparar lo que publican con lo que ya llega por la BDNS.",
   "fuente": "Agencias de desarrollo comarcal",
   "quien": "Claude",
-  "prioridad": 10,
+  "prioridad": 9,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -105,7 +95,7 @@
   "detalle": "Ahora solo se lee la primera página. Se hará cuando Open Data Euskadi dé acceso, para no forzar sus servidores.",
   "fuente": "Gobierno Vasco",
   "quien": "Claude",
-  "prioridad": 11,
+  "prioridad": 10,
   "estado": "bloqueada",
   "nota": "Espera al acceso de Open Data Euskadi (tarea tuya).",
   "seccion": "fuentes"
