@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-15T20:45:03.174Z",
+ "generado": "2026-11-15T21:04:42.726Z",
  "noticias": [
   {
    "id": "eus-ayuda-subvencion-2026-202605europasentitzendasa",
@@ -85,80 +85,80 @@
    "id": "eus-ayuda-subvencion-2026-ercstartingrants0926",
    "titulo": "CIENCIA. El Consejo Europeo de Investigación (ERC) ha anunciado 421 becas de inicio o starting grants por valor de 705 millones para investigadores noveles, pudiendo pedir ayudas extra de la campaña Elige Europa los provenientes de fuera de la UE o del resto de países ligados al Programa Horizon de I+D+i de la UE.",
    "url": "https://www.euskadi.eus/ayuda_subvencion/2026/ercstartingrants0926/web01-s1leheki/es/",
-   "accion": "pendiente",
-   "nota": "",
+   "accion": "no_es_ayuda",
+   "nota": "Noticia de resultados: Starting Grants del ERC ya concedidas (21 investigadores atraídos desde Norteamérica, uno a la UPV/EHU); no hay convocatoria que solicitar.",
    "ayudaId": null
   },
   {
    "id": "eus-ayuda-subvencion-2026-horizoneicstepscaleup26",
    "titulo": "Horizon Europe. EIC, Consejo Europeo de Innovación, crea herramientas como el Fondo EIC STEP Scaleup, y anuncia mejoras en sus líneas de ayuda en la fase final del programa 2021-2027 de Horizon, en especial las que apoyan tecnologías profundas y estratégicas para la UE, empresas emergentes y escalables, innovaciones disruptivas, proyectos de riesgo, proyectos individuales no consorciados, e innovación a cargo de mujeres emprendedoras en sectores como la cuántica",
    "url": "https://www.euskadi.eus/ayuda_subvencion/2026/horizoneicstepscaleup26/web01-tramite/es/",
-   "accion": "pendiente",
-   "nota": "",
+   "accion": "no_es_ayuda",
+   "nota": "Anuncio general del programa de trabajo 2027 del EIC (STEP Scale Up, Pathfinder, Transition, Women TechEU) sin convocatoria concreta; el EIC Accelerator 2027 ya está como extra-eic-accelerator-2027. La página de la convocatoria abierta Women TechEU (https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48106227) no se pudo consultar en esta pasada: revisar en la próxima.",
    "ayudaId": null
   },
   {
    "id": "eus-ayuda-subvencion-2026-horizonetaespaziorakogehi",
    "titulo": "CIENCIA E I+D: el Gobierno Vasco lanza unas nuevas ayudas por 3,6 millones de 2026 a 2028 para la producción investigativa de excelencia y la atracción de talento, la conexión de las universidades vascas con el Espacio Europeo de Investigación y con consorcios de cara a Programas de la UE como Horizon",
    "url": "https://www.euskadi.eus/ayuda_subvencion/2026/horizonetaespaziorakogehi/web01-s1leheki/es/",
-   "accion": "pendiente",
-   "nota": "",
+   "accion": "no_es_ayuda",
+   "nota": "Noticia de la aprobación de un programa del Gobierno Vasco 2026-2028 (1,2 millones anuales) para universidades vascas; no se ha encontrado convocatoria pública solicitable.",
    "ayudaId": null
   },
   {
    "id": "eus-ayuda-subvencion-2026-horizonzeharkakodeialdiak",
    "titulo": "HORIZON. El gran Programa de I+D+i de la UE lanza convocatorias transversales ligadas a multitud de líneas innovadoras, que atañen a inteligencia artificial y digitalización, energía y descarbonización, industria, biodiversidad, océanos, varios retos ambientales, sector audiovisual, vehículos inteligentes, a la iniciativa creativa y sostenible Bauhaus, a su academia, al sector de la construcción, y a objetivos transversales como la atracción de talento, las infraestructuras científicas o la sinergia con el Fondo de Competitividad",
    "url": "https://www.euskadi.eus/ayuda_subvencion/2026/horizonzeharkakodeialdiak/web01-tramite/es/",
-   "accion": "pendiente",
-   "nota": "",
+   "accion": "no_es_ayuda",
+   "nota": "Anuncio general de 500 millones adicionales de Horizon Europe y futuras convocatorias, sin convocatoria concreta.",
    "ayudaId": null
   },
   {
    "id": "eus-ayuda-subvencion-2026-ikerketagauaunibertsitate",
    "titulo": "La Noche Europea de los Investigadores y la iniciativa Investigadores en las escuelas son proyectos financiados por las Acciones Marie Sklodowska-Curie (MSCA), que forman parte de Horizon, el Programa de la UE para la investigación y la innovación. Para los años 2026 y 2027, la Comisión Europea apoyará 49 proyectos con una financiación de 16,3 millones de euros",
    "url": "https://www.euskadi.eus/ayuda_subvencion/2026/ikerketagauaunibertsitate/web01-tramite/es/",
-   "accion": "pendiente",
-   "nota": "",
-   "ayudaId": null
+   "accion": "añadida",
+   "nota": "Habla de la convocatoria MSCA and Citizens para organizar la Noche Europea de los Investigadores, próxima (9/3/2027-8/6/2027): https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-CITIZENS-01-01",
+   "ayudaId": "extra-msca-citizens-2027"
   },
   {
    "id": "eus-ayuda-subvencion-2026-msca2026deialdiberria",
    "titulo": "CIENCIA E I+D+I. La Comisión refuerza con más de 210 millones de euros las Acciones Marie Sklodowska-Curie para apoyar a más de 700 investigadores en Europa. Más de 700 investigadores podrán desarrollar sus carreras en Europa gracias a esta financiación adicional de las Acciones Marie Sklodowska-Curie (MSCA), integrada en la iniciativa Elige Europa, destinada a atraer talento científico, investigación e innovación tecnológica",
    "url": "https://www.euskadi.eus/ayuda_subvencion/2026/msca2026deialdiberria/web01-tramite/es/",
-   "accion": "pendiente",
-   "nota": "",
+   "accion": "no_es_ayuda",
+   "nota": "Noticia de resultados: récord de 21.627 solicitudes en las becas posdoctorales MSCA 2026 (cerrada); la convocatoria 2027 se añade desde eus-ayuda-subvencion-2026-mscadoktoretzaostekobeka2.",
    "ayudaId": null
   },
   {
    "id": "eus-ayuda-subvencion-2026-mscadoktoretzaostekobeka2",
    "titulo": "MSCA. BECAS Posdoctorales de las Acciones Marie Sk?odowska-Curie. La edición de 2026 tiene 21.627 investigadores solicitantes que optan a casi 400 millones de euros. Complementan a la iniciativa \"Elige Europa para la ciencia\". Se adjudicarán en febrero de 2027.",
    "url": "https://www.euskadi.eus/ayuda_subvencion/2026/mscadoktoretzaostekobeka2/web01-s1leheki/es/",
-   "accion": "pendiente",
-   "nota": "",
-   "ayudaId": null
+   "accion": "añadida",
+   "nota": "Describe las becas posdoctorales MSCA; la convocatoria 2027 está próxima (7/4/2027-8/9/2027): https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-PF-01-01",
+   "ayudaId": "extra-msca-pf-2027"
   },
   {
    "id": "eus-ayuda-subvencion-2026-nbefenlaguntzaabeltzaintz",
    "titulo": "FEAGA, FONDO EUROPEO DE GARANTÍA AGRARIA aporta 394.615 euros dentro de una ayuda de 565.056 euros al sector del vacuno de leche por el incremento de los costes de combustibles y fertilizantes, dentro de un paquete vasco de 5,95 millones para agricultura, ganadería y pesca",
    "url": "https://www.euskadi.eus/ayuda_subvencion/2026/nbefenlaguntzaabeltzaintz/web01-tramite/es/",
-   "accion": "pendiente",
-   "nota": "",
+   "accion": "no_es_ayuda",
+   "nota": "Noticia del paquete de ayudas extraordinarias al sector agrario (Orden de 3/11/2026, BOPV n.º 214, https://www.euskadi.eus/bopv2/datos/2026/11/2604727a.pdf): se tramitan de oficio, sin plazo de solicitud.",
    "ayudaId": null
   },
   {
    "id": "eus-ayuda-subvencion-2026-resourceeutaeiblaguntzakmateri",
    "titulo": "RESourceEU apoya proyectos sobre materias primas críticas, de la mano del Banco Europeo de Inversiones y otras fuentes de la UE y estatales. Tras los últimos anuncios se llega a 93 proyectos financiados, en torno a la extracción, transformación y reciclaje, y la reducción de la dependencia comercial exterior. Se auguran nuevas financiaciones en próximos años.",
    "url": "https://www.euskadi.eus/ayuda_subvencion/2026/resourceeutaeiblaguntzakmateri/web01-tramite/es/",
-   "accion": "pendiente",
-   "nota": "",
+   "accion": "no_es_ayuda",
+   "nota": "Anuncio de la iniciativa RESourceEU sobre materias primas críticas, sin convocatoria concreta.",
    "ayudaId": null
   },
   {
    "id": "eus-ayuda-subvencion-2018-ucpm-2018-pp-ag",
    "titulo": "MECANISMO EUROPEO DE PROTECCIÓN CIVIL. Proyectos de prevención y preparación en el ámbito de la protección civil y contaminación marina",
    "url": "https://www.euskadi.eus/ayuda_subvencion/2018/ucpm-2018-pp-ag/web01-s1leheki/es/",
-   "accion": "pendiente",
-   "nota": "",
+   "accion": "no_es_ayuda",
+   "nota": "Convocatoria de 2018 del Mecanismo Europeo de Protección Civil, cerrada el 25 de abril de 2018.",
    "ayudaId": null
   }
  ]
