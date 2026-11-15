@@ -365,6 +365,8 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 .filtro-area{display:flex;gap:6px;flex-wrap:wrap}
 .filtro-area .fa{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:6px 14px;font:600 14px var(--body);cursor:pointer;color:var(--ink)}
 .filtro-area .fa b{margin-left:4px;color:var(--muted);font-weight:700}
+.filtro-area .inc-h{margin-left:auto;display:flex;align-items:center;gap:6px;font-size:14px;color:var(--muted);cursor:pointer}
+.filtro-area{align-items:center}
 .filtro-area .fa.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)} .filtro-area .fa.on b{color:var(--accent-ink)}
 .acord.mc h3 .cnt{display:inline-block;margin-left:6px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:0 9px;font-size:13px}
 .acord.mc.ti{border-color:var(--or)} .acord.mc.ti summary{background:var(--or-soft)}
@@ -1049,14 +1051,19 @@ function renderMejora(){
       const HEc=S.docs.filter(d=>d.estado==="aplicada"&&ok(areaDe(d))), HEt=plan.filter(t=>t.estado==="hecha"&&ok(areaT(t)));
       const HE=[...HEc.map(d=>({f:(d.actualizada||"").slice(0,10),h:cuest(d,"hecha","Corrección")})),...HEt.map(t=>({f:t.fecha||"",h:tarea(t)}))].sort((x,y)=>y.f.localeCompare(x.f));
       const cnt=(fn)=>["","fuentes","datos","eskubat"].map(k=>[k,fn(k)]);
-      const tot=k=>{ const o=a=>!k||a===k; return S.docs.filter(d=>["abierta","lista","aplicada"].includes(d.estado||"abierta")&&o(areaDe(d))).length+(D.tareas||[]).filter(t=>o(areaT(t))).length; };
+      const conH=!!S.mHechas;
+      const tot=k=>{ const o=a=>!k||a===k;
+        const ti=S.docs.filter(d=>(d.estado||"abierta")==="abierta"&&o(areaDe(d))).length+tuyas.filter(t=>o(areaT(t))).length;
+        const pl=S.docs.filter(d=>d.estado==="lista"&&o(areaDe(d))).length+plan.filter(t=>t.estado!=="hecha"&&o(areaT(t))).length;
+        const he=conH?S.docs.filter(d=>d.estado==="aplicada"&&o(areaDe(d))).length+plan.filter(t=>t.estado==="hecha"&&o(areaT(t))).length:0;
+        return ti+pl+he; };
       const acc=(id,tt,n,cls,cuerpo,vacio)=>`<details class="acord mc ${cls}" data-mab="${id}" ${ab[id]?"open":""}><summary><div class="acs"><h3>${tt} <span class="cnt">${n}</span></h3></div><span class="acf">▾</span></summary><div class="acb">${n?cuerpo:`<p class="hint" style="margin:0">${vacio}</p>`}</div></details>`;
-      return `<div class="filtro-area">${cnt(tot).map(([k,n])=>`<button class="fa ${AR===k?"on":""}" data-ma="${k}">${k?AREAS[k].replace(" (app y diseño)",""):"Todas"} <b>${n}</b></button>`).join("")}</div>
+      return `<div class="filtro-area">${cnt(tot).map(([k,n])=>`<button class="fa ${AR===k?"on":""}" data-ma="${k}">${k?AREAS[k].replace(" (app y diseño)",""):"Todas"} <b>${n}</b></button>`).join("")}<label class="inc-h"><input type="checkbox" id="mHechas" ${conH?"checked":""}> Incluir hechas</label></div>
       ${acc("ti","Para ti",TI.length,"ti",`<ul class="plan">${TI.join("")}</ul>`,"Nada que decidir.")}
       ${acc("pl","Planificadas",PLc.length+PLt.length,"",`
         ${PLc.length?`<h4 class="plansec">Correcciones · próxima pasada, ${proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})}</h4><ul class="plan">${PLc.map(filaCorr).join("")}</ul>`:""}
         ${PLt.length?`<h4 class="plansec">Plan de mejoras · una cada hora, a y 17</h4><ul class="plan">${PLt.map(tarea).join("")}</ul>`:""}`,"Nada planificado.")}
-      ${acc("he","Hechas",HE.length,"",`<ul class="plan">${HE.map(x=>x.h).join("")}</ul>`,"Aún no hay nada hecho.")}`;
+      ${conH?acc("he","Hechas",HE.length,"",`<ul class="plan">${HE.map(x=>x.h).join("")}</ul>`,"Aún no hay nada hecho."):""}`;
     })()}
       <section class="card"><h3>Reglas que sigue Claude</h3><p class="hint" style="margin:0 0 10px">Categorización, cómo resume y cómo escribe los títulos. Las correcciones de criterio que decides se escriben aquí.</p><button class="btn" data-vi="i">Ver las reglas</button></section>
       <section class="card idea"><h3>Propón una idea de mejora</h3>
@@ -1080,6 +1087,7 @@ function renderMejora(){
       </section>
   </div>`;
   $("#detalle").querySelectorAll("[data-ma]").forEach(b=>b.onclick=()=>{ S.mArea=b.dataset.ma; renderMejora(); });
+  const mh=$("#mHechas"); if(mh) mh.onchange=()=>{ S.mHechas=mh.checked; if(mh.checked) S.mAb.he=true; renderMejora(); };
   $("#detalle").querySelectorAll("details[data-mab]").forEach(d=>d.addEventListener("toggle",()=>{ S.mAb[d.dataset.mab]=d.open; }));
 }
 
