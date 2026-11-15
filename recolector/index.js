@@ -166,6 +166,38 @@ async function main() {
     ayuntamiento: /ayuntamiento|entidades locales|mancomunidad|cuadrilla|concejo|agencias de desarrollo|administraci[oó]n|universidades|centros tecnol[oó]gicos|centros de investigaci/i,
   };
   const tiposDe = (texto) => Object.keys(TIPO).filter((k) => TIPO[k].test(texto));
+  // Nombres de organismos coherentes: entidad corta y reconocible + detalle (departamento) aparte
+  const ENTIDADES = [
+    [/lanbide/i, 'Lanbide'], [/osakidetza/i, 'Osakidetza'], [/\bspri\b|agencia vasca de desarrollo empresarial/i, 'SPRI'],
+    [/\beve\b|ente vasco de la energ/i, 'EVE'], [/emakunde/i, 'Emakunde'], [/osalan/i, 'Osalan'], [/elankidetza/i, 'eLankidetza'],
+    [/etxepare/i, 'Instituto Vasco Etxepare'], [/\bhabe\b/i, 'HABE'], [/\bhazi\b/i, 'HAZI'], [/ihobe/i, 'Ihobe'], [/basquetour/i, 'Basquetour'],
+    [/gogora/i, 'Gogora'], [/bioef/i, 'BIOEF'], [/kontsumobide/i, 'Kontsumobide'], [/\bivap\b/i, 'IVAP'], [/etxebide/i, 'Etxebide'],
+    [/ikerbasque/i, 'Ikerbasque'], [/uni[oó]n europea/i, 'Unión Europea'], [/bilbao ekintza/i, 'Bilbao Ekintza'], [/bilbao kirolak/i, 'Bilbao Kirolak'],
+    [/surbisa/i, 'Surbisa'], [/donostia sustapena|fomento de san sebasti/i, 'Fomento de San Sebastián'], [/donostia kultura/i, 'Donostia Kultura'],
+    [/inguralde/i, 'Inguralde'], [/behargintza/i, 'Behargintza'],
+  ];
+  const PEQ = new Set(['de', 'del', 'la', 'las', 'los', 'el', 'y', 'e', 'a', 'en', 'para', 'con', 'por']);
+  const tituloDepto = (t) => {
+    let x = ortografia(String(t || '').replace(/\s+/g, ' ').trim()).replace(/ling[uü]istica/gi, 'Lingüística');
+    if (!x) return '';
+    if (!/^(departamento|viceconsejer|direcci|delegaci|secretar|servicio|lehendakaritza|instituto|agencia)/i.test(x)) x = 'Departamento de ' + x;
+    return x.split(' ').map((w, i) => (i > 0 && PEQ.has(w.toLowerCase()) ? w.toLowerCase() : w.charAt(0).toUpperCase() + w.slice(1))).join(' ');
+  };
+  const normalizaOrganismo = (a) => {
+    const orig = organismoCorto(String(a.organismo || '').trim());
+    const ent = ENTIDADES.find(([re]) => re.test(orig));
+    const base = a.ambito.nivel === 'municipio' ? `Ayuntamiento de ${a.ambito.nombre.split(' / ')[0]}` : a.ambito.nivel === 'territorio' ? `Diputación Foral de ${a.ambito.nombre === 'Araba/Álava' ? 'Álava' : a.ambito.nombre}` : 'Gobierno Vasco';
+    let detalle = '';
+    if (ent) a.organismo = ent[1];
+    else {
+      a.organismo = base;
+      const resto = orig.replace(/^(diputaci[oó]n foral de \S+|gobierno vasco|ayuntamiento de .+)$/i, '').split(' · ').pop().trim();
+      // Solo departamentos/áreas; nada de nombres de personas
+      if (resto && !/^[A-ZÁÉÍÓÚ][a-záéíóúñ]+ [A-ZÁÉÍÓÚ][a-záéíóúñ]+( [A-ZÁÉÍÓÚ][\wáéíóúñ]+)*$/.test(resto) && resto.toLowerCase() !== base.toLowerCase()) detalle = a.ambito.nivel === 'euskadi' ? tituloDepto(resto) : ortografia(resto.charAt(0).toUpperCase() + resto.slice(1));
+    }
+    a.organismoDetalle = detalle;
+  };
+  ayudas.forEach(normalizaOrganismo);
   for (const a of ayudas) {
     {
       const lineas = String(a.dirigido || '').split('\n').map((l) => l.trim()).filter((l) => l && !/^(requisitos|obligaciones|los requisitos)/i.test(l));
@@ -204,15 +236,13 @@ async function main() {
       a.requisitosGenerales = espec.length < a.requisitos.length;
       a.requisitos = espec;
     }
-    if (!a.organismo || /^(ayuntamiento|diputaci)/i.test(a.organismo)) a.organismo = a.organismo && a.ambito.nivel !== 'municipio' ? a.organismo : ORG_POR_AMBITO(a);
     a.organismoGeneral = a.ambito.nivel === 'euskadi' ? 'Gobierno Vasco' : ORG_POR_AMBITO(a);
-    a.titulo = ortografia(a.titulo); a.organismo = ortografia(a.organismo);
+    a.titulo = ortografia(a.titulo);
     a.resumen = ortografia(a.resumen); a.cuantia = ortografia(a.cuantia); a.dirigido = ortografia(a.dirigido);
     if (a.requisitos) a.requisitos = a.requisitos.map(ortografia);
     a.resumen = limpiaTexto(a.resumen); a.cuantia = limpiaTexto(a.cuantia); a.dirigido = limpiaTexto(a.dirigido);
     if (a.requisitos) a.requisitos = a.requisitos.map(limpiaTexto).filter(Boolean);
     a.estado = estado(a); delete a.errorFicha; delete a.abiertoSegunFuente;
-    a.organismo = organismoCorto(a.organismo);
     const corto = tituloCorto(a.titulo, a.organismo, a.ambito);
     if (corto !== a.titulo) { a.tituloOficial = a.titulo; a.titulo = corto; }
   }
@@ -246,6 +276,7 @@ async function main() {
         previstas.push({ id: 'prev-' + l.clave.replace(/[^a-z0-9]+/g, '-').slice(0, 80), titulo: ortografia(tituloCorto(l.titulo, l.organismo, l.ambito)), tituloOficial: l.titulo, organismo: ortografia(organismoCorto(l.organismo)), ambito: l.ambito, mesPrevisto: l.mes, añoPrevisto: y, años: l.años, duracionDias: l.duracionDias, url: l.url, estado: 'prevista' });
       }
     }
+    previstas.forEach(normalizaOrganismo);
     previstas.sort((a, b) => (a.añoPrevisto - b.añoPrevisto) || (a.mesPrevisto - b.mesPrevisto));
     log(`Histórico: ${ayudas.filter((a) => a.recurrente).length} ayudas actuales se repiten cada año · ${previstas.length} previstas en los próximos meses`);
   } catch (e) { log(`Histórico no disponible: ${e.message}`); }
