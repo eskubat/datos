@@ -362,6 +362,13 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 .lienzo .flecha.ret{stroke:var(--accent);stroke-dasharray:5 4}
 .lienzo .lbl{font:12.5px var(--body);fill:var(--muted)}
 .lienzo .ret-t{fill:var(--accent-d)}
+.filtro-area{display:flex;gap:6px;flex-wrap:wrap}
+.filtro-area .fa{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:6px 14px;font:600 14px var(--body);cursor:pointer;color:var(--ink)}
+.filtro-area .fa b{margin-left:4px;color:var(--muted);font-weight:700}
+.filtro-area .fa.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)} .filtro-area .fa.on b{color:var(--accent-ink)}
+.acord.mc h3 .cnt{display:inline-block;margin-left:6px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:0 9px;font-size:13px}
+.acord.mc.ti{border-color:var(--or)} .acord.mc.ti summary{background:var(--or-soft)}
+.plan-i .tl2{display:flex;align-items:center;gap:8px;flex-wrap:wrap} .plan-i .tl2 .chip{font-size:11.5px;padding:1px 8px}
 @media (max-width:760px){.estado-rev .er-top{grid-template-columns:1fr}}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
 @media (max-width:760px){.eta{grid-template-columns:1fr}}
@@ -978,15 +985,31 @@ function renderMejora(){
   const chip=q=>`<span class="quien ${/^Tú/.test(q)?"tu":"cl"}">${esc(q)}</span>`;
   $("#detalle").innerHTML=`<div class="flujo">
     <p class="intro">Lo que decides en Revisión llega aquí y Claude lo aplica cada hora: las <b>correcciones</b> (fichas, datos y reglas) en la pasada de y 32, y las <b>mejoras</b> (fuentes, recolector, página) de una en una a y 17. También entra lo que Claude encuentra en su revisión mensual.</p>
-    <div class="acst">${tuyas.length?kpi(tuyas.length,"para ti","av"):""}${kpi(pendC.length,"planificadas")}${bloq?kpi(bloq,"bloqueadas"):""}${hechas?kpi(hechas,"hechas","ok"):""}${pot.length?kpi(pot.length,"hallazgos con acción"):""}
-      ${prox?`<span class="prox">Siguiente: <b>${esc(prox.titulo)}</b> · ${cuandoT(prox.previsto)}</span>`:""}
+    <div class="acst">${prox?`<span class="prox">Siguiente: <b>${esc(prox.titulo)}</b> · ${cuandoT(prox.previsto)}</span>`:""}
       <span class="prox" style="flex-basis:100%">Revisión mensual: ${M.ultima?`última el ${fmtFecha(M.ultima)}${M.nuevas?` (${M.nuevas} tareas nuevas)`:""} · `:""}próxima el ${proxMes().toLocaleDateString("es-ES",{day:"numeric",month:"long"})}</span></div>
-    ${tuyas.length?`<section class="card parati"><h3>Para ti</h3><ul>${tuyas.map(t=>`<li><div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span></div><span class="chip">${EST_T[t.estado]||t.estado}</span></li>`).join("")}</ul></section>`:""}
-      ${(()=>{ const L=S.docs.filter(d=>d.estado==="lista"), H=S.docs.filter(d=>d.estado==="aplicada").sort((a,b)=>(b.actualizada||"").localeCompare(a.actualizada||"")).slice(0,6);
-        return `<section class="card"><h3>Correcciones</h3><p class="hint" style="margin:0 0 10px">Se aplican en la próxima pasada, ${proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})}. Si exigen código, Claude las pasa al plan de mejoras.</p>
-        ${L.length?`<ul class="plan">${L.map(d=>`<li class="plan-i pendiente"><span class="chip lista">En cola</span><div><b>${esc(d.titulo||"(sin título)")}</b><span>${esc((d.instruccion||d.motivo||"").slice(0,220))}</span></div><span class="cuando"><button class="btn ghost" data-vc="${esc(d._id)}">Ver</button></span></li>`).join("")}</ul>`:`<p class="hint" style="margin:0">Ninguna en cola.</p>`}
-        ${H.length?`<h4 class="plansec">Últimas aplicadas</h4><ul class="plan">${H.map(d=>`<li class="plan-i hecha"><span class="chip aplicada">Hecha</span><div><b>${esc(d.titulo||"")}</b>${d.nota?`<span class="pn3">${linkify(d.nota)}</span>`:""}</div><span class="cuando"><button class="btn ghost" data-vc="${esc(d._id)}">Ver</button></span></li>`).join("")}</ul>`:""}</section>`; })()}
-      <section class="card"><h3>Plan de mejoras</h3><p class="hint" style="margin:0 0 10px">Una mejora cada hora (a y 17), en orden de prioridad. Las que tocan el recolector se comprueban a las 07:17, tras su lectura diaria de las 05:41. «Ejecutar ahora» la adelanta.</p>${["fuentes","base","revision","eskubat"].map(s=>{ const L=plan.filter(t=>(t.seccion||"fuentes")===s); return L.length?`<h4 class="plansec">${SECC[s]}</h4><ul class="plan">${L.map(filaPlan).join("")}</ul>`:""; }).join("")}</section>
+    ${(()=>{
+      const AR=S.mArea||"", ab=S.mAb||(S.mAb={ti:true,pl:true,he:false});
+      const areaT=t=>t.area||({fuentes:"fuentes",base:"datos",revision:"datos",eskubat:"eskubat"}[t.seccion||"fuentes"]||"datos");
+      const ok=a=>!AR||a===AR;
+      const arc=a=>`<span class="chip ar-${a}">${esc(AREAS[a]||a)}</span>`;
+      const cuest=(d,cl,et)=>`<li class="plan-i ${cl}"><span class="chip ${cl==="hecha"?"aplicada":"lista"}">${et}</span><div><span class="tl2"><b>${esc(d.titulo||"(sin título)")}</b>${arc(areaDe(d))}</span><span>${esc((cl==="hecha"?(d.nota||""):(d.instruccion||d.motivo||"")).slice(0,240))}</span></div><span class="cuando">${cl==="hecha"&&d.actualizada?"Hecha el "+fmtFecha(d.actualizada.slice(0,10))+"<br>":""}<button class="btn ${cl==="abierta"?"primary":"ghost"}" data-vc="${esc(d._id)}">${cl==="abierta"?"Decidir":"Ver"}</button></span></li>`;
+      const tarea=t=>filaPlan(t).replace("<div><b>",`<div><span class="tl2"><b>`).replace("</b>",`</b>${arc(areaT(t))}</span>`);
+      const TI=[...S.docs.filter(d=>(d.estado||"abierta")==="abierta"&&ok(areaDe(d))).map(d=>cuest(d,"abierta","Abierta")),
+        ...tuyas.filter(t=>ok(areaT(t))).map(t=>`<li class="plan-i pendiente"><span class="chip">${EST_T[t.estado]||t.estado}</span><div><span class="tl2"><b>${esc(t.titulo)}</b>${arc(areaT(t))}</span><span>${esc(t.detalle)}</span></div><span class="cuando"><span class="chip">Fuera de la app</span></span></li>`)];
+      const PLc=S.docs.filter(d=>d.estado==="lista"&&ok(areaDe(d)));
+      const PLt=plan.filter(t=>t.estado!=="hecha"&&ok(areaT(t))).sort((a,b)=>({en_curso:0,pendiente:1,bloqueada:2}[a.estado]??3)-({en_curso:0,pendiente:1,bloqueada:2}[b.estado]??3)||a.prioridad-b.prioridad);
+      const HEc=S.docs.filter(d=>d.estado==="aplicada"&&ok(areaDe(d))), HEt=plan.filter(t=>t.estado==="hecha"&&ok(areaT(t)));
+      const HE=[...HEc.map(d=>({f:(d.actualizada||"").slice(0,10),h:cuest(d,"hecha","Corrección")})),...HEt.map(t=>({f:t.fecha||"",h:tarea(t)}))].sort((x,y)=>y.f.localeCompare(x.f));
+      const cnt=(fn)=>["","fuentes","datos","eskubat"].map(k=>[k,fn(k)]);
+      const tot=k=>{ const o=a=>!k||a===k; return S.docs.filter(d=>["abierta","lista","aplicada"].includes(d.estado||"abierta")&&o(areaDe(d))).length+(D.tareas||[]).filter(t=>o(areaT(t))).length; };
+      const acc=(id,tt,n,cls,cuerpo,vacio)=>`<details class="acord mc ${cls}" data-mab="${id}" ${ab[id]?"open":""}><summary><div class="acs"><h3>${tt} <span class="cnt">${n}</span></h3></div><span class="acf">▾</span></summary><div class="acb">${n?cuerpo:`<p class="hint" style="margin:0">${vacio}</p>`}</div></details>`;
+      return `<div class="filtro-area">${cnt(tot).map(([k,n])=>`<button class="fa ${AR===k?"on":""}" data-ma="${k}">${k?AREAS[k].replace(" (app y diseño)",""):"Todas"} <b>${n}</b></button>`).join("")}</div>
+      ${acc("ti","Para ti",TI.length,"ti",`<ul class="plan">${TI.join("")}</ul>`,"Nada que decidir.")}
+      ${acc("pl","Planificadas",PLc.length+PLt.length,"",`
+        ${PLc.length?`<h4 class="plansec">Correcciones · próxima pasada, ${proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})}</h4><ul class="plan">${PLc.map(d=>cuest(d,"pendiente","En cola")).join("")}</ul>`:""}
+        ${PLt.length?`<h4 class="plansec">Plan de mejoras · una cada hora, a y 17</h4><ul class="plan">${PLt.map(tarea).join("")}</ul>`:""}`,"Nada planificado.")}
+      ${acc("he","Hechas",HE.length,"",`<ul class="plan">${HE.map(x=>x.h).join("")}</ul>`,"Aún no hay nada hecho.")}`;
+    })()}
       <section class="card"><h3>Reglas que sigue Claude</h3><p class="hint" style="margin:0 0 10px">Categorización, cómo resume y cómo escribe los títulos. Las correcciones de criterio que decides se escriben aquí.</p><button class="btn" data-vi="i">Ver las reglas</button></section>
       <section class="card idea"><h3>Propón una idea de mejora</h3>
         <p class="hint" style="margin:0 0 10px">Cuéntasela a Claude con tus palabras. Te ayuda a concretarla y la añade al plan él mismo; también puede cambiar prioridades o ejecutar una tarea ahora.</p>
@@ -1007,8 +1030,9 @@ function renderMejora(){
           <td>${chip(x.quien)}${t?`<div class="hint" style="margin-top:6px">${EST_T[t.estado]||t.estado}${tp&&tp.previsto&&t.estado==="pendiente"?" · "+cuandoT(tp.previsto):""}</div>`:""}</td></tr>`; }).join("")}
         </tbody></table></div>`:`<p class="hint" style="margin:0">Sin hallazgos pendientes: todas las fuentes encontradas ya se leen.</p>`}
       </section>
-      
   </div>`;
+  $("#detalle").querySelectorAll("[data-ma]").forEach(b=>b.onclick=()=>{ S.mArea=b.dataset.ma; renderMejora(); });
+  $("#detalle").querySelectorAll("details[data-mab]").forEach(d=>d.addEventListener("toggle",()=>{ S.mAb[d.dataset.mab]=d.open; }));
 }
 
 /* ================= ASISTENTE (Pedir a Claude) ================= */
