@@ -175,15 +175,22 @@ export function paraDeTexto(t) {
 }
 
 // ---------- Títulos cortos ----------
+const SIGLAS = new Set(['EDLP', 'ITE', 'UE', 'CAE', 'CAPV', 'BDNS', 'NEB', 'MSCA', 'RAISE', 'IRPF', 'IVA', 'ONG', 'ONGD', 'PYME', 'PYMES', 'TIC', 'TEIC', 'AMPA', 'AMPAS', 'EHU', 'UPV', 'BERC', 'BERCS', 'CIC', 'SPRI', 'HAZI', 'EVE', 'ISV', 'AES', 'AEM', 'LGTBI', 'BOPV', 'BOB', 'BOG', 'BOTHA', 'DFB', 'DFG', 'DFA', 'IKERTALENT', 'ONEKIN', 'HEZIBI', 'GAUZATU', 'MOVES', 'PERTE', 'FEDER', 'FSE', 'FEADER', 'FEMPA', 'LEADER', 'COVID', 'ESA', 'BIC', 'THCS', 'IA', 'TXEKINBERRI', 'EUSKALTEL', 'HABE', 'BEC', 'BAT']);
+const PALABRAS_CORTAS = new Set(['Y', 'E', 'O', 'U', 'DE', 'DEL', 'LA', 'LAS', 'LOS', 'EL', 'EN', 'CON', 'POR', 'PARA', 'SIN', 'AL', 'UN', 'UNA', 'SUS', 'QUE', 'AÑO', 'PLAN', 'OBRA', 'ALTA', 'BAJA', 'VIDA', 'ARTE', 'CASA', 'RED', 'SE', 'NO', 'MI', 'TU', 'A', 'LO', 'ES', 'SU', 'YA', 'MAS', 'MÁS', 'SER', 'OTRO', 'OTRA', 'TODO', 'TODA', 'PARA', 'SOBRE', 'ENTRE']);
 // Quita del título lo que la app ya muestra en otro sitio (plazo, año, organismo, municipio)
 // y lo acorta a la primera frase si es muy largo. El título oficial se guarda aparte.
 const ORG_EN_TITULO = /\s*,?\s*\b(?:del|de la|por el|por la)\s+(?:excmo\.?\s+)?(?:gobierno vasco|eusko jaurlaritza|diputaci[oó]n foral de (?:bizkaia|gipuzkoa|[aá]lava|araba)|dfb|dfg|dfa)\b/gi;
 export function tituloCorto(t, organismo = '', ambito = {}) {
   let s = String(t || '').replace(/\s+/g, ' ').trim();
   s = s.replace(/\s*\([^()]*\b(?:19|20)\d\d\b[^()]*\)/g, '')
-    .replace(/\b[A-ZÁÉÍÓÚÑÜ]{2,}(?:\s+[A-ZÁÉÍÓÚÑÜ]{2,})+\b/g, (w) => (w.length > 12 ? w.toLowerCase() : w));
+    // Numeración interna de la convocatoria: no ayuda a entender de qué va
+    .replace(/\s*[(\[]?\b(?:l[ií]nea|anexo|modalidad|lote|fase|cap[ií]tulo|apartado|eje|medida|tipolog[ií]a)\s+(?:n[º°o.]*\s*)?[\divxlcIVXLC]+[a-zA-Z]?\b[)\]]?/gi, '')
+    .replace(/\.{3,}|…/g, '')
+    // Palabras en mayúsculas sin ser siglas: a minúsculas (se conservan las siglas conocidas y las cortas)
+    .replace(/[A-ZÁÉÍÓÚÑÜ][A-ZÁÉÍÓÚÑÜ]+|\bY\b|\bE\b|\bO\b|\bU\b/g, (w) => (SIGLAS.has(w) || (w.length <= 4 && !PALABRAS_CORTAS.has(w)) ? w : w.toLowerCase()));
   s = s
     .replace(/^(?:la |el )?(?:aprobaci[oó]n de (?:las )?bases(?: reguladoras)?(?: y (?:de )?(?:la )?convocatoria)?|bases reguladoras(?: y (?:la )?convocatoria)?|convocatoria(?: p[uú]blica)?)(?: general)?\s+(?:de |del |para (?:la |el )?)?(?=(?:las |los )?(?:ayudas?|subvenci|becas?|premios?|programa|concurso|incentiv))/i, '')
+    .replace(/^(?:orden|resoluci[oó]n|decreto)\s+(?:foral\s+)?de\s+(?=(?:las |los )?(?:ayudas?|subvenci|becas?|premios?))/i, '')
     .replace(/^convocatoria (?:p[uú]blica )?(?:para la concesi[oó]n )?(?:de |para )(?=(?:las |los )?(?:ayudas?|subvenci|becas?|premios?))/i, '')
     .replace(/^(?:las|los)\s+(?=(?:ayudas?|subvenci|becas?|premios?))/i, '')
     .replace(/^convocatoria general de subvenciones\s*(?:\d{4})?\s*[.,-]?\s*anexo\s*n?[º°o.]*\s*\d+\s*[:.\-]\s*/i, '')
@@ -203,7 +210,7 @@ export function tituloCorto(t, organismo = '', ambito = {}) {
   s = s.replace(/^((?:las |los )?(?:ayudas?|subvenci[oó]n(?:es)?|becas?|premios?)\s+)(?:para|de) la concesi[oó]n de (?:las |los )?(ayudas?|subvenci[oó]n(?:es)?|becas?|premios?)\s+/i, '$2 ')
     .replace(/^(\S+),\s+(?=para|destinad|a |de )/i, '$1 ')
     .replace(/\s+(?:en|de|del|para|el|la|los|las|y|a)\s*$/i, '')
-    .replace(/\(\s*\)/g, '').replace(/(\s*,\s*){2,}/g, ', ').replace(/\s+([,.;:])/g, '$1').replace(/([,.;:])(?=[^\s\d])/g, '$1 ')
+    .replace(/(\w)-\s+(?=[A-ZÁÉÍÓÚ])/g, '$1-').replace(/\(\s*\)/g, '').replace(/(\s*,\s*){2,}/g, ', ').replace(/\s+([,.;:])/g, '$1').replace(/([,.;:])(?=[^\s\d])/g, '$1 ')
     .replace(/\s{2,}/g, ' ').replace(/^[\s,.;:\-–]+|[\s,.;:\-–]+$/g, '').trim();
   s = s.replace(/^(\S+),\s+(?=para|destinad|a |de )/i, '$1 ');
   // Muy largo: primera frase si tiene sentido por sí sola; si no, corte en palabra
@@ -221,13 +228,16 @@ export function tituloCorto(t, organismo = '', ambito = {}) {
       const sub = s.split(/\s*[:;]\s+/)[0];
       if (sub.length >= 20 && sub.length <= 100) s = sub;
       else {
-        const corte = s.slice(0, 100);
-        const coma = corte.lastIndexOf(', ');
-        s = coma >= 45 ? corte.slice(0, coma) : corte.replace(/\s+\S*$/, '').replace(/\s+(?:en|de|del|para|el|la|los|las|y|a|e|o|con|por)$/i, '') + '…';
+        // Corte en un punto natural (coma, "que", "dentro de"...) sin puntos suspensivos; si no lo hay, se deja entero hasta 150
+        const zona = s.slice(0, 125);
+        const cortes = [...zona.matchAll(/,\s|\s(?:que|dentro de|en el marco|con el fin|con cargo|al amparo|como consecuencia|seleccionad|aprobad|cofinanciad|mediante)\s/gi)].map((m) => m.index).filter((i) => i >= 45);
+        if (cortes.length) s = s.slice(0, cortes[cortes.length - 1]);
+        else if (s.length > 150) s = s.slice(0, 145).replace(/\s+\S*$/, '');
+        s = s.replace(/[\s,;:]+$/, '').replace(/\s+(?:en|de|del|para|el|la|los|las|y|a|e|o|con|por|al|un|una)$/i, '');
       }
     }
   }
-  s = s || String(t || '').trim();
+  s = (s || String(t || '').trim()).replace(/[\s,;:.]+$/, '').replace(/\s+(?:en|de|del|para|el|la|los|las|y|a|e|o|con|por|al|un|una)$/i, '');
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
@@ -256,7 +266,7 @@ const TILDES = {
   publicacion: 'publicación', convocatoria: 'convocatoria', ayuda: 'ayuda', jovenes: 'jóvenes', mas: 'más', ambiental: 'ambiental',
   dia: 'día', dias: 'días', genero: 'género', periodo: 'periodo', comun: 'común', publica: 'pública', publicas: 'públicas',
   deposito: 'depósito', energia: 'energía', alquiler: 'alquiler', basico: 'básico', tecnica: 'técnica', tecnicas: 'técnicas',
-  estrategico: 'estratégico', estrategica: 'estratégica', escolares: 'escolares', polideportivo: 'polideportivo', solidaria: 'solidaria',
+  regimen: 'régimen', tecnologia: 'tecnología', tecnologias: 'tecnologías', politica: 'política', politicas: 'políticas', agricola: 'agrícola', pesqueria: 'pesquería', maritimo: 'marítimo', academicos: 'académicos', medico: 'médico', area: 'área', areas: 'áreas', tramite: 'trámite', tramites: 'trámites', unico: 'único', critico: 'crítico', historico: 'histórico', historica: 'histórica', publicos: 'públicos', basicos: 'básicos', telematica: 'telemática', ultimo: 'último', ultima: 'última', proposito: 'propósito', credito: 'crédito', creditos: 'créditos', interes: 'interés', jovenes: 'jóvenes', estrategico: 'estratégico', estrategica: 'estratégica', escolares: 'escolares', polideportivo: 'polideportivo', solidaria: 'solidaria',
 };
 const PROPIOS = ['Euskadi', 'País Vasco', 'Gobierno Vasco', 'Diputación Foral', 'Comunidad Autónoma', 'Bizkaia', 'Gipuzkoa', 'Araba', 'Álava', 'Lanbide', 'Osakidetza', 'Unión Europea'];
 export function ortografia(t) {
