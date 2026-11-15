@@ -101,7 +101,7 @@ textarea{width:100%;min-height:90px;resize:vertical;padding:10px;border:1px soli
 dialog{border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink);width:min(560px,92vw);padding:20px}
 dialog::backdrop{background:rgba(0,0,0,.35)}
 dialog label{display:block;font-size:13px;color:var(--muted);margin:10px 0 4px}
-dialog input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg)}
+dialog input,dialog select{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg)}
 .vtabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
 .vtabs button{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:4px 12px;cursor:pointer;font-size:13px}
 .vtabs button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent-d);font-weight:600}
@@ -300,6 +300,10 @@ body.v-l .barra .spacer{display:none}
 .t-ok .tn{color:var(--accent)} .t-or .tn{color:var(--or-d)} .t-pend .tn{color:var(--or-d)}
 .lote{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;max-height:360px;overflow:auto}
 .lote li{display:flex;flex-direction:column;font-size:14px}.lote li span{font-size:12.5px;color:var(--muted)}
+.sepf{width:1px;align-self:stretch;background:var(--line);margin:0 4px}
+.chip.ar-fuentes{background:var(--info-soft);color:var(--info);border-color:transparent}
+.chip.ar-datos{background:var(--accent-soft);color:var(--accent-d);border-color:transparent}
+.chip.ar-eskubat{background:var(--warn-soft);color:var(--warn);border-color:transparent}
 @media (max-width:760px){.estado-rev .er-top{grid-template-columns:1fr}}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
 @media (max-width:760px){.eta{grid-template-columns:1fr}}
@@ -340,6 +344,8 @@ body.v-l .barra .spacer{display:none}
     <h2 style="font:700 20px var(--display);margin:0">Nueva cuestión</h2>
     <label for="nt">Asunto</label>
     <input id="nt" required placeholder="Ej.: Añadir el BOPV como fuente">
+    <label for="nar">Área</label>
+    <select id="nar"><option value="datos">Datos (ayudas, fichas, revisión)</option><option value="fuentes">Fuentes (de dónde salen las ayudas)</option><option value="eskubat">Eskubat (la app y su diseño)</option></select>
     <label for="na">Id de la ayuda (opcional)</label>
     <input id="na" placeholder="bdns-920153">
     <label for="nd">Qué hay que aclarar o cambiar</label>
@@ -360,8 +366,8 @@ const TIPO_SOL = {particular:"Particulares",autonomo:"Autónomos",empresa:"Empre
 const NIVEL = {euskadi:"Gobierno Vasco",territorio:"Diputaciones",municipio:"Ayuntamientos",estado:"Estado",ue:"Unión Europea"};
 const EST_AY = {abierta:"Abierta",proxima:"Próxima",sinfecha:"Sin fecha"};
 const VISTAS = {w:"#inicio",b:"#base-de-datos",l:"#lista-de-ayudas",c:"#cuestiones",i:"#instrucciones",f:"#fuentes"};
-const TITULOS = {b:"Base de datos y revisión",l:"Lista de ayudas",c:"Cuestiones abiertas",i:"Instrucciones",f:"Fuentes de ayudas"};
-const S = {vista:"w", docs:[], filtro:"abierta", q:"", sel:null, db:null, sample:null, selB:null, verB:null, fl:{}, selec:new Set(), selI:"categorizacion"};
+const TITULOS = {b:"Datos",l:"Datos · lista de ayudas",c:"Cuestiones abiertas",i:"Instrucciones",f:"Fuentes"};
+const S = {vista:"w", docs:[], filtro:"abierta", areaF:"", q:"", sel:null, db:null, sample:null, selB:null, verB:null, fl:{}, selec:new Set(), selI:"categorizacion"};
 const $ = (s, el=document) => el.querySelector(s);
 const esc = (t) => String(t ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const linkify = (t) => esc(t).replace(/https?:\/\/[^\s)»";,]+[^\s)»";,.]/g, u => `<a href="${u}" target="_blank" rel="noopener">${u.length>70?u.slice(0,67)+"…":u}</a>`);
@@ -375,6 +381,8 @@ const setStatus = (t) => { $("#status").textContent=t; };
 const AY = new Map(D.ayudas.map(a=>[a.id,a]));
 function proximaPasada(){ const d=new Date(), n=new Date(d); n.setUTCMinutes(32,0,0); if(n<=d) n.setUTCHours(n.getUTCHours()+1); return n; }
 
+const AREAS={fuentes:"Fuentes",datos:"Datos",eskubat:"Eskubat (app y diseño)"};
+function areaDe(d){ if(d.area&&AREAS[d.area]) return d.area; if(d.ayudaId||(d.ayudas&&d.ayudas.length)) return "datos"; if(/^fuente|fundaci|prestaci|europe|open data|bopv|recolector/i.test((d.titulo||"")+" "+(d.motivo||"").slice(0,80))) return "fuentes"; if(/dise[ñn]o|logo|pantalla|app\b|aplicaci[oó]n|icono|color/i.test(d.titulo||"")) return "eskubat"; return "datos"; }
 /* ================= PLAN Y PENDIENTES ================= */
 function proxMes(){ const d=new Date(); const n=new Date(d.getFullYear(),d.getMonth()+(d.getDate()===1&&d.getHours()<2?0:1),1,2,41); return n; }
 function proximaNoche(){ const d=new Date(); const n=new Date(d); n.setHours(3,17,0,0); if(n<=d) n.setDate(n.getDate()+1); return n; }
@@ -408,6 +416,7 @@ function paraTi(){
 /* ================= INICIO ================= */
 function renderInicio(){
   const t=D.cola||{}; const c={abierta:0,lista:0}; S.docs.forEach(d=>{const e=d.estado||"abierta"; if(c[e]!=null) c[e]++;});
+  const ca={}; S.docs.filter(d=>(d.estado||"abierta")==="abierta").forEach(d=>{const a=areaDe(d); ca[a]=(ca[a]||0)+1;});
   const diaria=D.tarea&&D.tarea.modo==="diaria";
   const W=200, H=154, X=i=>i*400, Y=[0,194,388];
   const IC={
@@ -443,22 +452,24 @@ function renderInicio(){
   const pend=(t.fichas||0)+(t.titulos||0)+(t.noticias||0);
   $("#detalle").innerHTML=`<div class="flujo">
     <div><h2>Cómo se mantienen al día las ayudas de Eskubat</h2>
-    <p class="intro">Cada día se leen las fuentes oficiales y se actualiza la base de datos de ayudas. Cada hora Claude revisa las ayudas nuevas o cambiadas, redacta sus fichas y se publican en la app. Lo que es decisión tuya llega a Cuestiones abiertas. Pulsa una caja para abrirla; pasa el ratón por los pasos para ver qué hacen.</p></div>
+    <p class="intro">Cada día se leen las fuentes oficiales y se actualizan los datos de ayudas. Cada hora Claude revisa las ayudas nuevas o cambiadas, redacta sus fichas y se publican en Eskubat. Lo que es decisión tuya, sea de fuentes, de datos o de la app y su diseño, llega a Cuestiones abiertas. Pulsa una caja para abrirla; pasa el ratón por los pasos para ver qué hacen.</p></div>
     <div class="lienzo"><svg viewBox="-12 -24 1024 572" role="img" aria-label="Flujo de trabajo de Eskubat">
       <defs><marker id="pt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--muted)"/></marker></defs>
       ${[0,1].map(i=>fl(`M${X(i)+W+2},${r} L${X(i+1)-3},${r}`)).join("")}
       ${fl(`M${vx},${Y[0]+H+2} L${vx},${Y[1]-3}`)}
       ${fl(`M${vx},${Y[1]+H+3} L${vx},${Y[2]-3}`,true)}
+      ${fl(`M${X(1)-3},${Y[2]+H/2} L${X(0)+W/2},${Y[2]+H/2} L${X(0)+W/2},${Y[1]+H+3}`,true)}
+      ${fl(`M${X(1)+W+3},${Y[2]+H/2} L${X(2)+W/2},${Y[2]+H/2} L${X(2)+W/2},${Y[1]+H+3}`,true)}
       ${nodo("instrucciones",X(1),Y[0],"","i","Instrucciones",["Reglas que sigue Claude"],null,"Ver")}
-      ${nodo("fuentes",X(0),Y[1],"","f","Fuentes oficiales",[],(D.fuentes.consultadas||[]).length+" fuentes","Ver")}
-      ${nodo("base",X(1),Y[1],"claude","b","Base de datos y revisión",[`${num(hc)} revisadas · ${num(t.fichas||0)} por revisar`,diaria?"Revisión una vez al día":"Próxima pasada "+proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})],num(D.ayudas.length),"Abrir")}
-      ${nodo("app",X(2),Y[1],"estatico","","App Eskubat",["Ayudas publicadas,","castellano y euskera"],null,"")}
-      ${nodo("cuestiones",X(1),Y[2],"clave","c","Cuestiones abiertas",[c.lista?`${c.lista} ${c.lista===1?"lista":"listas"} para aplicar`:"Confirmas o dices",c.lista?"":"qué cambiar"],c.abierta,"Abrir")}
+      ${nodo("fuentes",X(0),Y[1],"","f","Fuentes",[],(D.fuentes.consultadas||[]).length+" fuentes","Ver")}
+      ${nodo("base",X(1),Y[1],"claude","b","Datos",[`${num(hc)} revisadas · ${num(t.fichas||0)} por revisar`,diaria?"Revisión una vez al día":"Próxima pasada "+proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})],num(D.ayudas.length),"Abrir")}
+      ${nodo("app",X(2),Y[1],"","ce","Eskubat",["La app: ayudas en castellano","y euskera, y su diseño"],null,"Cuestiones")}
+      ${nodo("cuestiones",X(1),Y[2],"clave","c","Cuestiones abiertas",[`Fuentes ${ca.fuentes||0} · Datos ${ca.datos||0} · Eskubat ${ca.eskubat||0}`],c.abierta,"Abrir")}
     </svg></div>
     ${paraTi()}</div>`;
   $("#detalle").querySelectorAll("button[data-pc]").forEach(b=>b.onclick=()=>{ S.filtro="abierta"; cambiarVista("c"); seleccionar(b.dataset.pc); });
   $("#detalle").querySelectorAll(".nodo[data-go]").forEach(n=>{
-    const ir=()=>{ if(n.dataset.go==="c") S.filtro="abierta"; cambiarVista(n.dataset.go); };
+    const ir=()=>{ if(n.dataset.go==="ce"){ S.filtro="todas"; S.areaF="eskubat"; cambiarVista("c"); return; } if(n.dataset.go==="c"){ S.filtro="abierta"; S.areaF=""; } cambiarVista(n.dataset.go); };
     n.onclick=ir; n.onkeydown=(ev)=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); ir(); } };
   });
 }
@@ -688,17 +699,19 @@ function renderDetalleB(){
 /* ================= CUESTIONES ================= */
 function visibles(){
   const q=S.q.trim().toLowerCase();
-  return S.docs.filter(d=>(S.filtro==="todas"||(d.estado||"abierta")===S.filtro)&&(!q||[d.titulo,d.organismo,d.ayudaId,d.motivo].join(" ").toLowerCase().includes(q)))
+  return S.docs.filter(d=>(S.filtro==="todas"||(d.estado||"abierta")===S.filtro)&&(!S.areaF||areaDe(d)===S.areaF)&&(!q||[d.titulo,d.organismo,d.ayudaId,d.motivo].join(" ").toLowerCase().includes(q)))
    .sort((a,b)=>{ const da=diasHasta(a.fin), db=diasHasta(b.fin); const ka=da==null||da<0?9999:da, kb=db==null||db<0?9999:db; return ka-kb||String(a.titulo).localeCompare(String(b.titulo)); });
 }
 function renderListaC(){
   const c={abierta:0,lista:0,aplicada:0,descartada:0}; S.docs.forEach(d=>c[d.estado||"abierta"]++);
-  $("#counts").innerHTML=Object.entries(ESTADOS).map(([k,v])=>`<button class="count" data-f="${k}" aria-pressed="${S.filtro===k}"><b>${c[k]}</b>${v.label}</button>`).join("")+`<button class="count" data-f="todas" aria-pressed="${S.filtro==="todas"}"><b>${S.docs.length}</b>Todas</button>`;
+  const ca={}; S.docs.filter(d=>S.filtro==="todas"||(d.estado||"abierta")===S.filtro).forEach(d=>{const a=areaDe(d); ca[a]=(ca[a]||0)+1;});
+  $("#counts").innerHTML=Object.entries(ESTADOS).map(([k,v])=>`<button class="count" data-f="${k}" aria-pressed="${S.filtro===k}"><b>${c[k]}</b>${v.label}</button>`).join("")+`<button class="count" data-f="todas" aria-pressed="${S.filtro==="todas"}"><b>${S.docs.length}</b>Todas</button>`+
+    `<span class="sepf"></span>`+[["","Todas las áreas"],...Object.entries(AREAS)].map(([k,v])=>`<button class="count area" data-ar="${k}" aria-pressed="${S.areaF===k}">${k?`<b>${ca[k]||0}</b>`:""}${v}</button>`).join("");
   const v=visibles();
   if(!v.length){ $("#items").innerHTML=`<p class="hint" style="padding:16px">${S.docs.length?"Nada en este filtro.":"Todavía no hay cuestiones."}</p>`; return; }
   $("#items").innerHTML=v.map(d=>{ const e=d.estado||"abierta", dd=diasHasta(d.fin), urge=e==="abierta"&&dd!=null&&dd>=0&&dd<=3;
     return `<button class="item" role="listitem" data-id="${esc(d._id)}" aria-current="${S.sel===d._id}"><span class="stripe st-${e}"></span>
-      <span><span class="t">${esc(d.titulo)}</span><span class="m"><span>${esc(d.organismo||"")}</span>
+      <span><span class="t">${esc(d.titulo)}</span><span class="m"><span class="chip ar-${areaDe(d)}">${esc(AREAS[areaDe(d)].split(" ")[0])}</span><span>${esc(d.organismo||"")}</span>
       ${urge?`<span class="chip urge">${dd===0?"cierra hoy":dd===1?"cierra mañana":"cierra en "+dd+" días"}</span>`:""}
       ${(d.tipos||[]).slice(0,3).map(t=>`<span class="chip">${esc(TIPOS[t]||t)}</span>`).join("")}</span></span></button>`; }).join("");
 }
@@ -710,7 +723,7 @@ function renderDetalleC(){
   $("#detalle").innerHTML=`<div class="wrap">
     <div><button class="btn ghost volver" id="volver">← Lista</button></div>
     <div class="cab"><h2>${esc(d.titulo)}</h2>
-      <div class="meta"><span class="chip ${e}">${ESTADOS[e].uno}</span>${d.ayudaId?`<code>${esc(d.ayudaId)}</code>`:""}<span>${esc(d.organismo||"")}</span>${plazo?`<span>${plazo}</span>`:""}
+      <div class="meta"><span class="chip ${e}">${ESTADOS[e].uno}</span><label class="hint">Área <select id="carea">${Object.entries(AREAS).map(([k,v])=>`<option value="${k}" ${areaDe(d)===k?"selected":""}>${v}</option>`).join("")}</select></label>${d.ayudaId?`<code>${esc(d.ayudaId)}</code>`:""}<span>${esc(d.organismo||"")}</span>${plazo?`<span>${plazo}</span>`:""}
       ${d.url?`<a href="${esc(urlOk(d.url))}" target="_blank" rel="noopener">Ficha oficial</a>`:""}${d.ayudaId&&AY.has(d.ayudaId)?`<button class="btn ghost" id="irb">Ver en la base de datos</button>`:""}</div></div>
     ${d.nota?`<div class="nota"><b>Nota de Claude:</b> ${linkify(d.nota)}</div>`:""}
     <section class="card"><h3>Qué hay que aclarar</h3><div class="motivo">${linkify(d.motivo||"")}</div></section>
@@ -728,6 +741,7 @@ function renderDetalleC(){
     </section></div>`;
   const b=(id,fn)=>{const el=$("#"+id); if(el) el.onclick=fn;};
   b("volver",()=>document.body.classList.remove("ver-detalle"));
+  const ca=$("#carea"); if(ca) ca.onchange=()=>guardar(d._id,{area:ca.value});
   b("irb",()=>{ S.fl={}; S.selec=new Set(); cambiarVista("l"); seleccionar(d.ayudaId); });
   const instr=$("#instr"); if(instr) instr.onblur=async()=>{ if(instr.value!==(d.instruccion||"")) await guardar(d._id,{instruccion:instr.value}); };
   b("confirmar",()=>guardar(d._id,{estado:"lista",instruccion:"Confirmado: aplica la propuesta del motivo tal como está escrita."}));
@@ -834,7 +848,7 @@ function seleccionar(id){
   if(S.vista==="l") S.selB=id; else if(S.vista==="i") S.selI=id; else S.sel=id;
   document.body.classList.add("ver-detalle"); renderLista(); renderDetalle(); $("#detalle").scrollTop=0;
 }
-function abrirNueva(t,a,d){ if(!S.db) return; $("#nt").value=t; $("#na").value=a; $("#nd").value=d; $("#dlg").showModal(); }
+function abrirNueva(t,a,d,ar){ if(!S.db) return; $("#nt").value=t; $("#na").value=a; $("#nd").value=d; $("#nar").value=ar||(S.areaF||(S.vista==="f"?"fuentes":"datos")); $("#dlg").showModal(); }
 $("#detalle").addEventListener("click",async ev=>{
   const b=ev.target.closest("button[data-ej]"); if(!b) return;
   if(!S.db){ setStatus("Sin conexión con la base de datos de la página"); return; }
@@ -845,7 +859,7 @@ $("#detalle").addEventListener("click",async ev=>{
 });
 $("#items").addEventListener("click",ev=>{const it=ev.target.closest(".item"); if(it) seleccionar(it.dataset.id);});
 $("#counts").addEventListener("click",ev=>{const b=ev.target.closest(".count"); if(!b) return;
-  if(b.dataset.f) S.filtro=b.dataset.f; renderLista();});
+  if(b.dataset.ar!=null) S.areaF=b.dataset.ar; else if(b.dataset.f) S.filtro=b.dataset.f; renderLista();});
 $("#q").addEventListener("input",ev=>{S.q=ev.target.value; renderLista();});
 $("#aInicio").onclick=()=>cambiarVista("w");
 $("#refrescar").onclick=()=>{ $("#refrescar").disabled=true; $("#refrescar").textContent="Actualizando…"; try{ sessionStorage.setItem("eskubat-vista",S.vista); }catch{} location.reload(); };
@@ -855,7 +869,7 @@ $("#ncancel").onclick=()=>$("#dlg").close();
 $("#fnueva").addEventListener("submit",async ev=>{
   ev.preventDefault(); const t=$("#nt").value.trim(), dsc=$("#nd").value.trim(), aid=$("#na").value.trim(); if(!t||!dsc) return;
   const id="manual-"+Date.now().toString(36), a=aid?AY.get(aid):null, now=new Date().toISOString();
-  const doc={titulo:t,motivo:dsc,ayudaId:aid,organismo:a?.organismo||"",url:a?.url||"",fin:a?.fin||"",tipos:["otro"],estado:"abierta",origen:"manual",respuesta:"",instruccion:"",chat:[],creada:now,actualizada:now};
+  const doc={area:$("#nar").value||"datos",titulo:t,motivo:dsc,ayudaId:aid,organismo:a?.organismo||"",url:a?.url||"",fin:a?.fin||"",tipos:["otro"],estado:"abierta",origen:"manual",respuesta:"",instruccion:"",chat:[],creada:now,actualizada:now};
   try{ await S.db.collection("cuestiones").doc(id).set(doc); $("#dlg").close(); $("#fnueva").reset(); S.filtro="abierta"; if(S.vista!=="c") cambiarVista("c"); seleccionar(id); }
   catch(err){ setStatus("No se pudo crear ("+(err&&err.code||"error")+")"); }
 });
