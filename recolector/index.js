@@ -4,11 +4,14 @@ import path from 'node:path';
 import { norm, pedir, enParalelo, paraDeTexto, temasDe } from './comun.js';
 import * as euskadi from './euskadi.js';
 import * as bdns from './bdns.js';
+import * as forales from './forales.js';
 
 const SALIDA = path.resolve('publico');
 const FUENTES = [
   { clave: 'euskadi', nombre: 'Gobierno Vasco (Open Data Euskadi y euskadi.eus)', mod: euskadi },
-  { clave: 'bdns', nombre: 'Base de Datos Nacional de Subvenciones', mod: bdns },
+  { clave: 'gipuzkoa', nombre: 'Diputación Foral de Gipuzkoa (sede electrónica)', mod: { recoger: forales.gipuzkoa } },
+  { clave: 'araba', nombre: 'Diputación Foral de Álava (ayudas en vigor)', mod: { recoger: forales.araba } },
+  { clave: 'bdns', nombre: 'Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)', mod: bdns },
 ];
 
 // Completa con la ficha de euskadi.eus las ayudas que enlazan a ella (las fichas sí son accesibles)
@@ -101,7 +104,7 @@ async function main() {
   }
 
   for (const k in resultados) for (const a of resultados[k]) a.origen = a.origen || k;
-  let ayudas = unir(resultados.euskadi || [], resultados.bdns || []);
+  let ayudas = unir([...(resultados.euskadi || []), ...(resultados.gipuzkoa || []), ...(resultados.araba || [])], resultados.bdns || []);
   { // Duplicados exactos (misma ayuda registrada dos veces)
     const vistos = new Set();
     ayudas = ayudas.filter((a) => { const k = norm(a.titulo) + '|' + a.ambito.nombre + '|' + (a.fin || ''); if (vistos.has(k)) return false; vistos.add(k); return true; });
