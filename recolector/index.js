@@ -230,7 +230,7 @@ async function main() {
     const fuente = organismoCorto(String(a.organismo || '').trim());
     // Administración del Estado: «Gobierno de España - Ministerio de …» (el ministerio sale del nivel 2 de la BDNS)
     if (a.ambito && a.ambito.nivel === 'estado') {
-      const min = String(a.ministerio || '').toLowerCase().replace(/(^|\s)(\S)/g, (m, e, c) => e + c.toUpperCase()).replace(/\b(De|Del|La|Las|Los|Y|E|Para|El|En)\b/g, (w) => w.toLowerCase());
+      const min = String(a.ministerio || '').toLowerCase().replace(/(^|\s)(\S)/g, (m, e, c) => e + c.toUpperCase()).replace(/\b(De|Del|La|Las|Los|Y|E|Para|El|En|Con|A|Al)\b/g, (w) => w.toLowerCase());
       Object.assign(a, { organismoFuente: fuente, organismoId: 'estado', organismo: 'Gobierno de España', organismoCompleto: min ? `Gobierno de España - ${min}` : 'Gobierno de España', organismoEu: 'Espainiako Gobernua' });
       delete a.revisarOrganismo; delete a.organismoDetalle; delete a.ministerio;
       return;
