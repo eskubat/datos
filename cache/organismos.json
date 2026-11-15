@@ -2143,5 +2143,33 @@
   "alias": [
    "behargintza"
   ]
+ },
+ {
+  "id": "estado",
+  "nombre": "Gobierno de España",
+  "alias": []
+ },
+ {
+  "id": "estado-icex",
+  "nombre": "Gobierno de España - ICEX",
+  "alias": [
+   "icex",
+   "icex espana exportacion e inversiones"
+  ]
+ },
+ {
+  "id": "estado-idae",
+  "nombre": "Gobierno de España - IDAE (Ministerio para la Transición Ecológica)",
+  "alias": [
+   "idae",
+   "instituto para la diversificacion y ahorro de la energia"
+  ]
+ },
+ {
+  "id": "estado-cis",
+  "nombre": "Gobierno de España - CIS (Ministerio de la Presidencia)",
+  "alias": [
+   "centro de investigaciones sociologicas"
+  ]
  }
 ]

@@ -54,6 +54,14 @@ const PROPIOS = [
   ['inguralde', 'Inguralde', 'Inguralde - Agencia de Desarrollo Local', 'Inguralde', ['inguralde']],
   ['behargintza', 'Behargintza', 'Behargintza - Agencia de Desarrollo Local', 'Behargintza', ['behargintza']],
 ];
+// Administración del Estado: en la ficha resumen solo «Gobierno de España»; el detalle lleva el organismo.
+// No entran en resolver(): las estatales se asignan por ámbito (index.js) o desde la ficha categorizada.
+const ESTATALES = [
+  ['estado', 'Gobierno de España', []],
+  ['estado-icex', 'Gobierno de España - ICEX', ['icex', 'icex espana exportacion e inversiones']],
+  ['estado-idae', 'Gobierno de España - IDAE (Ministerio para la Transición Ecológica)', ['idae', 'instituto para la diversificacion y ahorro de la energia']],
+  ['estado-cis', 'Gobierno de España - CIS (Ministerio de la Presidencia)', ['centro de investigaciones sociologicas']],
+];
 const FORALES = [
   ['dfa', 'Diputación Foral de Álava', 'Arabako Foru Aldundia', ['diputacion foral de alava', 'diputacion foral de araba', 'arabako foru aldundia', 'dfa']],
   ['dfb', 'Diputación Foral de Bizkaia', 'Bizkaiko Foru Aldundia', ['diputacion foral de bizkaia', 'diputacion foral de vizcaya', 'bizkaiko foru aldundia', 'dfb']],
@@ -72,6 +80,7 @@ export const CATALOGO = [
   ...FORALES.map(([id, corto, eu, alias]) => ({ id, corto, completo: corto, eu, alias })),
   ...MUNIS.map(([n]) => ({ id: 'ayto-' + norm(n).replace(/[^a-z0-9]+/g, '-'), corto: `Ayuntamiento de ${n}`, completo: `Ayuntamiento de ${n}`, eu: udala(n), alias: [norm(n)] })),
   ...PROPIOS.map(([id, corto, completo, eu, alias]) => ({ id, corto, completo, eu, alias })),
+  ...ESTATALES.map(([id, completo, alias]) => ({ id, corto: 'Gobierno de España', completo, eu: 'Espainiako Gobernua', alias })),
 ];
 export const POR_ID = Object.fromEntries(CATALOGO.map((o) => [o.id, o]));
 

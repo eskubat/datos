@@ -342,6 +342,10 @@ async function main() {
         previstas.push({ id: 'prev-' + l.clave.replace(/[^a-z0-9]+/g, '-').slice(0, 80), titulo: ortografia(tituloCorto(l.titulo, l.organismo, l.ambito)), tituloOficial: l.titulo, organismo: ortografia(organismoCorto(l.organismo)), ambito: l.ambito, mesPrevisto: l.mes, añoPrevisto: y, años: l.años, duracionDias: l.duracionDias, url: l.url, estado: 'prevista' });
       }
     }
+    // Previstas descartadas a mano (p. ej. una línea que ya se convocó y cerró): cache/previstas_ocultas.json = [id, …]
+    let ocultas = [];
+    try { ocultas = JSON.parse(fs.readFileSync(path.join('cache', 'previstas_ocultas.json'), 'utf8')); } catch {}
+    previstas = previstas.filter((p) => !ocultas.includes(p.id));
     previstas.forEach(normalizaOrganismo);
     previstas.sort((a, b) => (a.añoPrevisto - b.añoPrevisto) || (a.mesPrevisto - b.mesPrevisto));
     log(`Histórico: ${ayudas.filter((a) => a.recurrente).length} ayudas actuales se repiten cada año · ${previstas.length} previstas en los próximos meses`);
