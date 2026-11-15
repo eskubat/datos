@@ -945,4 +945,72 @@ Servicios de cesión de información tributaria para administraciones y entidade
 Requisitos previos
 En este apartado se describen los trámites necesarios para solicitar y obtener cesiones de información tributaria de la Hacienda Foral de Gipuzkoa, se especifican los distintos canales de suministro disponibles para los organismos autorizados y se ofrecen diversos formularios para canalizar a través del registro electrónico la presentación de diferentes demandas o manifestaciones de otros organismos.
 Solicitud
-El organismo interesado solicitará la autorización de acceso, cumplimentando a tal efecto una Solicitud de suministro de
+El organismo interesado solicitará la autorización de acceso, cumplimentando a tal efecto una Solicitud de suministro de información tributaria por cada nuevo tipo de información que requiera o nuevo canal de suministro de información. Se detallará:
+Información concreta a suministrar
+Justificación de la necesidad de dicha información
+Normativa en que se basa
+Identificación de personas usuarias
+Demás extremos que contempla el citado modelo
+Formalización
+En el supuesto de que la cesión de datos haya de efectuarse periódicamente o de forma continuada y los datos se refieran o afecten a un elevado número de personas se deberá suscribir el correspondiente convenio de colaboración. Si el organismo solicitante ya lo tiene suscrito, se referenciará.
+En todo caso, el suministro concreto, requerirá autorización del responsable del fichero del Departamento de Hacienda y Finanzas u órgano que actúe por delegación.
+Autorización a personas usuarias del organismo
+Cuando el suministro se materialice por el acceso a la información tributaria de una o más personas autorizadas, éstas recibirán un mail con las obligaciones que tienen en materia de seguridad de la información, y para poder activarles sus permisos de acceso deberán responder al mismo confirmando su recepción, en señal de aceptación de todos y cada uno de los extremos que figuran en el mismo.
+Las posteriores altas, bajas y modificaciones de personas usuarias se realizarán mediante el formulario establecido al efecto.
+Requisitos técnicos
+Para servicios accesibles a través del portal de Trámites online de esta sede: la persona usuaria autorizada debe disponer de un certificado digital incluido en la lista de certificados admitidos.
+Servicios de interoperabilidad SCSP: la Diputación Foral de Gipuzkoa pone servicios propios a disposición de las administraciones públicas autorizadas. Esta autorización se comprueba en cada petición.
+
+### Normativa: https://egoitza.gipuzkoa.eus/es/zerga-informazioa/normativa
+Información tributaria para entidades públicas
+Normativa
+Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos.
+Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.
+Norma Foral 2/2005, de 8 de marzo, General Tributaria del Territorio Histórico de Gipuzkoa.
+Decreto Foral 23/2010, de 28 de septiembre, por el que se regula la utilización de medios electrónicos en el ámbito de la Administración Foral (BOG de 7 de octubre de 2010).
+Esquema Nacional de Seguridad (ENS).
+Esquema Nacional de Interoperabilidad (ENI).
+Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
+Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.
+Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los Servicios Públicos.
+
+### Contenido del boletín BOG: https://egoitza.gipuzkoa.eus/es/bog/informacion-normativa/contenido-boletin
+Contenido del boletín
+El BOG es el diario oficial de publicación de las normas forales, decretos forales así como del resto de disposiciones y actos emanados desde la Administración Foral.
+Es también labor de este diario oficial dar publicidad a actos administrativos y disposiciones generales de las entidades locales con sede en el Territorio Histórico de Gipuzkoa, además de los anuncios de la Administración de Justicia y particulares que deban insertarse en virtud de disposición legal o reglamentaria. Asimismo, se insertan, en su caso, disposiciones y actos emanados desde el Estado y las instituciones comunes de la Comunidad Autónoma, sin perjuicio de la correspondiente publicación en sus diarios respectivos.
+Idioma de los textos:
+Las disposiciones, resoluciones y actos administrativos se publican en el BOG simultáneamente en las dos lenguas oficiales del Territorio Histórico, teniendo la consideración de oficial y auténtico el texto en ambas lenguas.
+Secciones:
+El Boletín Oficial de Gipuzkoa se distribuye en las siguientes secciones:
+Disposiciones Generales del Territorio Histórico de Gipuzkoa
+Administración del Territorio Histórico de Gipuzkoa
+Administración Local
+Administración de la Comunidad Autónoma
+Administración del Estado
+Administración de Justicia
+Otros
+
+### Cómo buscar textos en el BOG: https://egoitza.gipuzkoa.eus/es/bog/informacion-normativa/buscar-textos
+Búsqueda de boletines
+Las búsquedas en el BOG se pueden realizar desde dos pantallas:
+Pantalla inicial o búsqueda sencilla
+Rellenando alguno de los siguientes campos:
+Año: año de publicación del BOG.
+Nº boletín: nº de boletín publicado en el año.
+Palabras: indicar las palabras por las que se realizará la búsqueda. El resultado son los anuncios en los que aparecen las palabras tecleadas, sin importar el orden de aparición.
+Frase: en este caso se busca la frase exacta tal y como aparece tecleada en el campo en el cuerpo del anuncio.
+Pantalla búsqueda avanzada
+En esta pantalla, además de los campos señalados en el apartado anterior, existe la posibilidad de completar más la búsqueda con los siguientes campos:
+Fecha: fecha de publicación del BOG.
+Órgano emisor: entidad emisora del anuncio. Ejemplo: Diputación Foral de Gipuzkoa, Ayuntamiento de…)
+Tipo anuncio: contenido del anuncio. Ejemplo: oferta pública de empleo, Aprobación Plan Urbanístico, etc.
+Sección: sección del BOG en que aparece el anuncio.
+Rango: rango del anuncio: Acuerdo, Decreto, Decreto Foral.,….
+Los interesados podrán obtener una copia oficial de cualquier anuncio en papel mediante la impresión del mismo con medios propios desde la web del Boletín Oficial de Gipuzkoa.
+
+### Normativa del BOG: https://egoitza.gipuzkoa.eus/es/bog/informacion-normativa/normativa
+Normativa del BOG
+Norma Foral 5/2007, de 27 de marzo, reguladora del Boletín Oficial de Gipuzkoa (BOG nº 77, de 20 de abril), modificada por la Norma Foral 1/2015, de 6 de marzo (BOG nº 50, de 16 de marzo). Texto consolidado en vigor.
+Ley 5/2002, de 4 de abril, reguladora de los Boletines Oficiales de las Provincias (BOE nº 82, de 5 de abril).
+Orden Foral de 19 de mayo de 2009, reguladora del procedimiento para la remisión de documentos destinados a su publicación en el Boletín Oficial de Gipuzkoa (BOG nº 97, de 28 de mayo). Está vigente en lo que no contradiga lo establecido en la Norma Foral 1/2015, de 6 de marzo, de modificación de la Norma Foral 5/2007, de 27 de marzo reguladora del Boletín Oficial de Gipuzkoa.
+Norma Foral 9/2019, de 23 de diciembre, por la que se aprueban los presupuestos generales del Territorio Histórico de Gipuzkoa para el año 2020 (BOG nº 248, de 30 de diciembre): disposición adicional segunda (actualización de las tasas).

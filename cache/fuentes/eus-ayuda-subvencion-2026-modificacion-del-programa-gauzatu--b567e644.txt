@@ -1067,4 +1067,727 @@ November 2022.
 utilización de combustibles gaseosos y sus instrucciones técnicas complementarias ICG 01 a 11. BOE
 núm. 211, de 4 de septiembre de 2006.
 [7] Real Decreto 542/2020, de 26 de mayo, por el que se modifican y derogan diferentes disposiciones
-en materia de calidad y seguridad industrial, BO
+en materia de calidad y seguridad industrial, BOE núm. 172, de 20 de junio de 2020.
+[8] BS ISO 19880-1:2020. Gaseous hydrogen – Fuelling stations.
+[9] J. LaChance, W. Houf, B. Middleton, and L. Fluer, “Analyses to support development of risk- informed
+separation distances for hydrogen codes and standards,” Tech. Rep. SAND2009-0874, Sandia
+National Laboratories, March 2009.
+[10] K. M. Groth, J.L. LaChance, and A. P. Harris, “Early-stage quantitative risk assessment to support
+development of codes and standard requirements for indoor fueling of hydrogen vehicles,” Tech. Rep.
+SAND2012-10150, Sandia National Laboratories, Novembre 2012.
+[11] A. Glover, A. Baird, and D. Brooks, “Final report on hydrogen plant hazards and risk analysis
+supporting hydrogen plant siting near nuclear power plants,” Tech. Rep. SAND2020-10150, Sandia
+National Laboratories, Novembre 2012.
+[12] Hans van ’t Noordende (ISPT) and Richard Bollen (ISPT), “Safety Aspects of Green Hydrogen
+Production on Industrial Scale”, Public Report, Hydrohub Innovation Program, Institute for Sustainable
+Process Technology (ISPT), The Netherlands, November 2023.
+Report reference: RMC0500759
+Release: 02
+© 2024 Vysus Group
+Escenarios de accidente en instalaciones en las que se manipule hidrógeno
+Seguridad Industrial, País Vasco
+Page 24
+Anexo A
+Report reference: RMC0500759
+Release: 02
+© 2024 Vysus Group
+Tabla de distribución de
+frecuencias
+Escenarios de accidente en instalaciones en las que se manipule hidrógeno
+Seguridad Industrial, País Vasco
+Page 25
+Anexo B Medianas de las
+distribuciones consideradas
+Distribución lognormal:
+La mediana de una distribución lognormal se calcula mediante la siguiente ecuación:
+𝑀𝑒𝑑𝑖𝑎𝑛𝑎
+𝑒
+Distribución beta:
+La mediana de una distribución beta se calcula mediante la siguiente ecuación:
+𝑀𝑒𝑑𝑖𝑎𝑛𝑎
+Report reference: RMC0500759
+Release: 02
+© 2024 Vysus Group
+𝛼
+𝛼
+𝛽
+Escenarios de accidente en instalaciones en las que se manipule hidrógeno
+Seguridad Industrial, País Vasco
+Page 27
+Anexo C Bow-tie fuga interna
+(fallo de la membrana)
+Report reference: RMC0500759
+Release: 02
+© 2024 Vysus Group
+Escenarios de accidente en instalaciones en las que se manipule hidrógeno
+Seguridad Industrial, País Vasco
+Page 28
+-
+Pressure piling
+Pressure relief
+Corrosion damage
+leading to physical
+breakdown of cell (Hole
+in bipolar plate, failure
+of internal gasket)
+Mechanical degradation of membrane (clogging,
+thinning, etc.)
+Material
+specification
+Protective coating
+P-HW
+P-HW
+Process control
+system
+(Electrolyte/flow/
+power/temperature/
+control within design
+envelop)
+A-HW
+Mechanical stress
+causing membrane
+perforation (screw it too
+hard before operation)
+Monitoring of cell
+voltage and
+inspections
+ST
+Water quality
+analysis
+Gas quality analysis
+FAT
+Membrane leak test
+Degradation: Error
+in production of
+membrane (on supplier
+side) causing hot spot
+formation.
+Instrument or control failure causing an
+imbalance in the H2-02
+line
+Independent Level
+and Pressure
+safeguarding
+Concentration
+monitoring to
+prevent high
+concentration of
+H2/02 build-up
+Sludge filter
+indicating that
+corrosion is
+happening in the
+system exceeding
+expected values
+ST
+Analysis of
+electrolyte for
+corrosion particles
+ST
+Cell voltage/stack
+voltage analysis
+Preventive
+maintenance, replace
+membrane and/or
+assemblies based on
+state of materials
+Sludge filter
+indicating that
+corrosion is
+happening in the
+system exceeding
+expected values
+Proper control of
+mechanical
+compression
+Temperature control
+Regular preventive
+maintenance
+Manufacturing
+quality assurance
+Performance testing
+such as by
+cell/stack voltage
+Membrane leak test
+Filling the system
+with more than 50%
+liquid (in a closed
+system this would
+prevent/limit
+combining of oxygen
+even if there is an
+upset in control
+system)
+Too high DP over
+membrane causing
+damage
+Low/Partial current
+density from low cell
+voltage enhancing gas
+cross-over (AK)
+Regular inspection of
+instruments and
+equipment (interval
+based on SIL
+requirements)
+Conductivity control
+(Ignition prevention)
+Explosion proof
+(containment of pressure
+within stack by
+mechanical design)
+Design: minimize volume
+of gas in stack and high
+surface to volume ratio to
+increase heat loss
+Grounding to
+prevent static discharge
+Liquid in piping
+preventing/reducing
+charge build-up (AK)
+Filtering of catalyst
+particles to prevent
+ignition due to these
+particles (does this barrier
+also apply to Ni particles?
+Small diameter piping to
+increase heat loss in case
+of combustion
+Atex (equipment
+selection, ignition proof,
+instrument, etc.)
+Grounding to prevent
+static discharge
+Filtering of catalyst particles to prevent ignition
+due to these particles
+(catalytic oxidation) (does
+this barrier also apply to
+Ni particles?
+Minimizing volumes
+per seperator (ESD
+sectionization)
+Ignition prevention
+(for a detonation the
+ignition energy is higher
+than for a deflagration)
+Design pressure of system
+rated for detonation pressures (is this practical/
+feasible?) - barrier
+aplicable everywhere
+Reverse current during process, producing
+Hydrogen on the
+Oxygen side and vice
+versa (can occur when
+the process stops)
+Polarization unit
+(avoids reverse
+currents)
+ST
+Operator training
+and knowledge/
+expertise
+-
+Current detection
+causing a shutdown
+of the process in a
+way to prevent
+reverse voltage
+Dynamic operations:
+electrical load
+variation
+Human factor
+analysis
+Preference for
+automated plant
+philosophy
+Interlocks
+Pressure balancing
+line (AK)
+Delta P control
+Liquid flow control
+Gas quality
+measurement
+Design a proper trip
+sequence to prevent
+reverse currents
+taking process safety
+response times into
+account
+Ramp-up and
+ramp-down
+procedure to avoid
+reverse currents
+Power/process
+control of system to
+operate within safe
+limits
+Operating within
+operating window
+(proper system
+design)
+Explosion in G/L
+seperators
+- Immediate detonation
+Hydrogen and
+oxygen in separate
+electrolyzer process
+streams (Alkaline &
+PEM): Single stack
+considered. P=30
+barg pressure.
+Excluding De-oxo
+Deflagration to
+- detonation
+transition
+Emergency shutdown
+system after detection of
+high concentration
+hydrogen in oxygen or
+vice versa
+L/D<X (check if this
+barrier is applicable)
+Low diameter of piping to
+increase heat loss
+preventing DDT (is this
+feasible?)
+Pressure Relief
+(check effectiveness)
+Flame arrestor
+- Negative pressure after
+Combining
+Hydrogen and
+oxygen inside
+process above
+LEL (inner
+leakage)
+explosion in equipment
+(system remains closed)
+Is this credible?
+Anti vacuum breakers
+(is this feasible/practical?)
+-
+Pressure proof
+design (create weak spots
+in design: only applicable
+to deflagrations, rate it for
+expected overpressure)
+Quarter pipes for
+deflection of the blast
+wave outside the process
+Wrapping/explosion
+curtain around equipment
+(is it practical?)
+Blast, Rupture,
+Shrapnel
+Blast
+wall/bunkers/etc.
+to nearby
+- Escalation
+stack(s)/separators
+Placing separators
+outdoors to reduce
+pressure build-up
+Modular Design
+Minimize presence of
+personnel in vicinity of
+equipment containing
+hot lye
+PPE
+Process Safety
+safeguarding such as
+Safety Check valves
+preventing backflow/ESD
+system, proper design
+-
+Operating
+Procedures/Manuals
+Explosion in piping
+between cell stack and
+seperator (G/L flow)
+-
+Separation distance
+Human error such inadvertently opening a
+valve causing an
+imbalance in the H2-O2
+-
+Preventive
+maintenance
+-
+Power control
+Explosion in cell
+stack and equipment
+rupture causing fatalities
+(PEM) (liters of gas
+contained within stack)
+Secondary confinement
+Assessment of
+dynamic operation
+range of power
+versus gas
+permeability and
+operate within those
+limits (design)
+-
+Operator training
+Safety Separation
+distances
+Blast Walls
+-
+Hot Lye spray
+(outside) (AK)
+-
+Heat radiation from
+combustion reaction
+inside equipment
+affecting personnel/
+equipment outside
+Splash screens
+(is this practical?)
+Loss of containment
+causing backflow from
+other parts of the
+system
+Process Safety
+safeguarding such as
+Safety Check valves
+preventing backflow/ESD
+system, proper design
+Minimize presence
+of personnel
+- Jet Fire after internal
+Separation distance
+Process Safety
+safeguarding such as
+Safety Check valves
+preventing backflow/ESD
+system, proper design
+Minimize presence
+of personnel
+explosion (either when
+you have an explosion
+that is near the UEL
+range or as a follow-up
+consequence after the
+loss of containment)
+after explosion (domino
+effects)
+(for example in piping
+to consumers and other
+vessels) (DDT)
+
+### Boletín Oficial del País Vasco: https://www.euskadi.eus/bopv
+Boletín Oficial del País Vasco
+Sede electrónica
+Consulta
+Consulta simple
+Servicios
+Solicitar una publicación
+Consulta avanzada
+Textos consolidados
+Difusión selectiva
+Verificación Boletín Electrónico
+Último boletín RSS
+Sumario n.º
+218, viernes 13 de noviembre de 2026
+Otros formatos:
+PDF
+(227 KB - 4 Pág.)
+EPUB
+(107 KB)
+Texto bilingüe
+AUTORIDADES Y PERSONAL
+Nombramientos, situaciones e incidencias
+LEHENDAKARITZA
+DECRETO 189/2026, de 10 de noviembre, por el que se cesa a la delegada de Euskadi en Argentina y Uruguay.
+4828
+OSAKIDETZA-SERVICIO VASCO DE SALUD
+RESOLUCIÓN 4294/2026, de 7 de septiembre, del director gerente de la Organización Sanitaria Integrada Bilbao-Basurto, por la que se cesa, a petición propia, a la subdirectora médica, en la Organización Sanitaria Integrada Bilbao-Basurto de Osakidetza-Servicio vasco de salud.
+4829
+RESOLUCIÓN 4369/2026, de 21 de septiembre, del director gerente de la Organización Sanitaria Integrada Bilbao-Basurto, por la que se nombra, mediante libre designación, a una jefa de Grupo Administración (UGS) en la Organización Sanitaria Integrada Bilbao-Basurto de Osakidetza-Servicio vasco de salud.
+4830
+RESOLUCIÓN 4370/2026, de 21 de septiembre, del director gerente de la Organización Sanitaria Integrada Bilbao-Basurto, por la que se nombra, mediante libre designación, a una jefa de Grupo Administración (UGS) en la Organización Sanitaria Integrada Bilbao-Basurto de Osakidetza-Servicio vasco de salud.
+4831
+UNIVERSIDAD DEL PAÍS VASCO
+RESOLUCIÓN de 28 de octubre de 2026, del rector de la Universidad del País Vasco / Euskal Herriko Unibertsitatea, por la que se nombra catedrático de Universidad, cuyo concurso de acceso a plazas de cuerpos de funcionarios docentes universitarios fue convocado por Resolución de 4 de marzo de 2026 (BOPV de 12-03-2026 y BOE de 13-03-2026).
+4832
+RESOLUCIÓN de 29 de octubre de 2026, del rector de la Universidad del País Vasco / Euskal Herriko Unibertsitatea, por la que se nombra profesora titular de Universidad, cuyo concurso de acceso a plazas de cuerpos de funcionarios docentes universitarios fue convocado por Resolución de 12 de febrero de 2026 (BOPV de 19-02-2026) y Resolución de 16 de febrero de 2026 (BOE de 23-02-2026).
+4833
+Oposiciones y concursos
+DEPARTAMENTO DE SEGURIDAD
+RESOLUCIÓN de 30 de octubre de 2026, del viceconsejero de Seguridad, por la que se anuncia la fecha de colocación, en el portal Gurenet, de la Resolución de 30 de octubre de 2026, dictada en el procedimiento de provisión de puestos de trabajo, por los sistemas de libre designación y de concurso de méritos específicos y generales de la Ertzaintza.
+4834
+RESOLUCIÓN 4258/2026, de 2 de septiembre, del director gerente de la Organización Sanitaria Integrada Bilbao-Basurto, por la que se convoca la provisión, mediante libre designación, de un puesto de supervisor/a de Enfermería de la Unidad Asistencial Revilla 3 (Hospitalización Respiratorio y Enfermedades Infecciosas) en la Organización Sanitaria Integrada Bilbao-Basurto de Osakidetza-Servicio vasco de salud.
+4835
+RESOLUCIÓN 4259/2026, de 2 de septiembre, del director gerente de la Organización Sanitaria Integrada Bilbao-Basurto, por la que se convoca la provisión, mediante libre designación, de un puesto de supervisor/a de Guardia en la Organización Sanitaria Integrada Bilbao-Basurto de Osakidetza-Servicio vasco de salud.
+4836
+RESOLUCIÓN 4260/2026, de 2 de septiembre, del director gerente de la Organización Sanitaria Integrada Bilbao-Basurto, por la que se convoca la provisión, mediante libre designación, de un puesto de supervisor/a de Enfermería del Hospital de Día Quirúrgico (UCSI-URPA) en la Organización Sanitaria Integrada Bilbao-Basurto de Osakidetza-Servicio vasco de salud.
+4837
+RESOLUCIÓN 4261/2026, de 2 de septiembre, del director gerente de la Organización Sanitaria Integrada Bilbao-Basurto, por la que se convoca la provisión, mediante libre designación, de un puesto de supervisor/a de Cuidados en la Organización Sanitaria Integrada Bilbao-Basurto de Osakidetza-Servicio vasco de salud.
+4838
+OTRAS DISPOSICIONES
+DEPARTAMENTO DE INDUSTRIA, TRANSICIÓN ENERGÉTICA Y SOSTENIBILIDAD
+RESOLUCIÓN de 29 de octubre de 2026, del delegado territorial de Industria, Transición Energética y Sostenibilidad de Álava, por la que se otorga autorización administrativa previa y autorización administrativa de construcción para la hibridación de cogeneración existente con parque solar y almacenamiento de baterías «Coalsema», en el término municipal de Berantevilla (Álava), y promovido por Compañía Alavesa de Secado de Madera, S.A.
+4839
+RESOLUCIÓN de 5 de noviembre de 2026, del director de Juego y Espectáculos, por la que se nombra a las personas integrantes de la Comisión de Valoración para la concesión de subvenciones a las entidades sin ánimo de lucro, para la realización de actividades de información y prevención universal del juego patológico.
+4840
+DEPARTAMENTO DE EDUCACIÓN
+ORDEN de 9 de octubre de 2026, de la consejera de Educación, por la que se extingue la autorización del Centro Privado de Educación Infantil, Primaria y Secundaria «La Anunciata» de Donostia / San Sebastián (Gipuzkoa), por cese de actividad.
+4841
+ORDEN de 19 de octubre de 2026, de la consejera de Educación, por la que se modifica la autorización del Centro Privado de Educación Secundaria «Ibaiondo» de Leioa (Bizkaia).
+4842
+DEPARTAMENTO DE VIVIENDA Y AGENDA URBANA
+ORDEN de 3 de noviembre de 2026, del consejero de Vivienda y Agenda Urbana, por la que se inicia el procedimiento de adjudicación de 19 alojamientos dotacionales, en el municipio de Eibar, en la calle Bittor Sarasketa.
+4843
+ORDEN de 28 de octubre de 2026, del consejero de Vivienda y Agenda Urbana, por la que se inicia el procedimiento de declaración del municipio de Santurtzi como zona de mercado residencial tensionado.
+4844
+DEPARTAMENTO DE SALUD
+ORDEN de 30 de octubre de 2026, del consejero de Salud, por la que se aprueban las bases reguladoras de concesión de ayudas y se realiza la convocatoria de las ayudas a los proyectos de I+D con participación vasca seleccionados en la convocatoria internacional competitiva Call for transnational proposals 2025 – «Better care closer to home: Enhancing primary and community care», en el marco del partenariado europeo de transformación de sistemas de salud «European Partnership on Transforming Heatlh and Care System (THCS)», promovido por la Unión Europea dentro del Programa Marco Horizonte Europa (Acuerdo de subvención N.º: 101095654), de la Fundación Vasca de Innovación e Investigación Sanitarias, Bioef.
+4845
+DEPARTAMENTO DE TURISMO, COMERCIO Y CONSUMO
+RESOLUCIÓN de 5 de noviembre de 2026, de la directora de Kontsumobide-Instituto Vasco de Consumo, de corrección de errores de la Resolución de 9 de octubre de 2026, por la que se designan los miembros de la Comisión de Valoración de las ayudas destinadas a las organizaciones de personas consumidoras, en el ejercicio 2026.
+4846
+DEPARTAMENTO DE ALIMENTACIÓN, DESARROLLO RURAL, AGRICULTURA Y PESCA
+ORDEN de 20 de octubre de 2026, de la consejera de Alimentación, Desarrollo Rural, Agricultura y Pesca, por la que se convocan ayudas, acogidas al régimen de minimis, para la realización de eventos sociales que dinamicen el medio rural y litoral de la Comunidad Autónoma del País Vasco, para el año 2026.
+4847
+ORDEN de 3 de noviembre de 2026, de la consejera de Alimentación, Desarrollo Rural, Agricultura y Pesca, por la que se aprueban las bases y se convocan, para el ejercicio 2026, las ayudas a las agrupaciones de personas productoras agrarias y forestales, previstas en el PEPAC (2023-2027).
+4848
+SPRI-AGENCIA VASCA DE DESARROLLO EMPRESARIAL
+RESOLUCIÓN de 5 de noviembre de 2026, de la directora de internacionalización de SPRI-Agencia Vasca de Desarrollo Empresarial, por la que se modifican las resoluciones de 29 de julio de 2021, 27 de julio de 2022, 9 de junio de 2023 y 24 de septiembre de 2024, por las que se aprobaron las bases reguladoras y la convocatoria del programa «Gauzatu Internacional».
+4849
+ANUNCIOS
+Otros anuncios oficiales
+DEPARTAMENTO DE ECONOMÍA, TRABAJO Y EMPLEO
+ANUNCIO de 26 de octubre de 2026,, por el que se notifica la Resolución de 19 de septiembre de 2026, de la directora de Trabajo y Seguridad Social, dictada en el expediente sancionador número 01/2026/93.
+4850
+ANUNCIO por el que se notifican resoluciones de solicitudes de aplazamiento y fraccionamiento del pago de sanciones dictadas en expedientes por infracción a las normas de tráfico, circulación y seguridad vial.
+4851
+ANUNCIO por el que se notifican resoluciones del director de Coordinación de Seguridad, incoatorias de varios expedientes sancionadores, con relación a infracciones de la Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana (LOPSC).
+4852
+ANUNCIO por el que se notifica la Orden de 8 de octubre de 2026, del consejero de Seguridad, por la que se declara al reclamante desistido de la reclamación patrimonial por responsabilidad patrimonial de la Administración y se procede al archivo del expediente.
+4853
+ANUNCIO de 19 de octubre de 2026, de la delegada territorial de Vivienda de Bizkaia, relativo a notificaciones de expedientes del Registro de Solicitantes de Vivienda Protegida y Alojamientos Dotacionales y del derecho subjetivo de acceso a una vivienda.
+4854
+DEPARTAMENTO DE BIENESTAR, JUVENTUD Y RETO DEMOGRÁFICO
+ANUNCIO de 26 de octubre de 2026, del director de Infancia, Adolescencia y Familias, por el que se notifican requerimientos de documentación relativos a expedientes del Registro de Parejas de Hecho de la Comunidad Autónoma del País Vasco.
+4855
+ANUNCIO de 2 de noviembre de 2026, de la directora de Apoyos para la Vida Plena, por el que se notifican requerimientos de subsanación, recursos y resoluciones administrativas.
+4856
+AGENCIA VASCA DEL AGUA
+ANUNCIO por el que se publica resolución de concesión administrativa para un aprovechamiento de aguas, en el término municipal de Azkoitia (Gipuzkoa).
+4857
+Anuncios particulares
+TÚ PINTAS MUCHO, S. COOP. PEQUEÑA DE INICIATIVA SOCIAL
+ANUNCIO relativo al acuerdo de disolución, nombramiento de liquidadora y liquidación de la sociedad cooperativa Tú Pintas Mucho, S. Coop. Pequeña de Iniciativa Social.
+4858
+Sumario
+ANUNCIOS
+Información general
+Características
+Cómo utilizar el servicio de consulta
+Cómo utilizar el servicio de difusión selectiva
+Cómo utilizar el servicio de verificación de boletín electrónico
+Cómo realizar una solicitud de publicación
+Datos personales. Derecho al olvido
+Preguntas frecuentes
+
+### Boletín Oficial de Bizkaia: http://apps.bizkaia.eus/BT00/
+bizkaia.eus - Boletín Oficial de Bizkaia
+Oharra
+Orrialdea zaharkituta dago.
+Orriaren uneko bertsiora joateko, sakatu "Bertsio berrira joan" botoia.
+Aviso
+La página está obsoleta.
+Para ir a la versión actual de la página, pulse sobre el botón "Ir a nueva versión".
+
+### Boletín Oficial del Estado: http://www.boe.es/
+BOE.es - Agencia Estatal Boletín Oficial del Estado
+Agencia Estatal Boletín Oficial del Estado
+Ir a contenido
+Consultar el diario oficial BOE
+Idioma actual:
+Castellano / es
+Puede seleccionar otro idioma:
+es / Castellano
+ca / Català
+gl / Galego
+eu / Euskara
+va / Valencià
+en / English
+fr / Français
+Mi BOE Desconectado.
+Pulse para acceder al servicio 'Mi BOE'
+Diarios Oficiales
+BOE
+BORME
+Otros diarios oficiales
+Información Jurídica
+Todo el Derecho
+Biblioteca Jurídica Digital
+Otros servicios
+Notificaciones
+Edictos judiciales
+Portal de subastas
+Anunciantes
+Datos abiertos
+Boletín Oficial del Estado
+Último BOE
+Buscar en BOE
+Calendario
+Boletín Oficial del Registro Mercantil
+Último BORME
+Buscar en BORME
+Calendario
+Unión Europea (DOUE)
+Boletines autonómicos
+Boletines provinciales
+Todo el Derecho
+Todo el Derecho
+Legislación
+Tribunal Constitucional
+Jurisprudencia (CENDOJ)
+Doctrina de la Fiscalía
+Derechos fundamentales
+Dictámenes del Consejo de Estado
+Abogacía del Estado
+Derecho de la Unión Europea
+Colección histórica: Gazeta (1661-1959)
+Más búsquedas
+Publicaciones jurídicas para descargar
+de forma libre y gratuita:
+Libros jurídicos electrónicos
+Códigos electrónicos
+Códigos electrónicos universitarios
+Material de oposiciones
+Anuarios y revistas
+La Editorial del BOE
+La Librería del BOE
+Otros servicios
+Notificaciones
+Anunciantes
+Datos abiertos
+Transparencia
+Información institucional, organizativa y de planificación
+Información de relevancia jurídica
+Información económica, presupuestaria y estadística
+Información patrimonial
+Contactar
+Sobre la sede electrónica
+Mapa
+Protección de datos
+Sistema Interno de Información
+Tutoriales
+Empleo en la AEBOE
+Avda. de Manoteras, 54 - 28050 Madrid
+
+### Propiedad industrial: https://www.euskadi.eus/procedimiento/propiedad-industrial/web01-a2indust/es/
+Departamento de Industria, Transición Energética y Sostenibilidad
+Industria y minas
+Descripción
+La propiedad industrial es el derecho exclusivo que posee una persona física o jurídica sobre una invención, un signo distintivo o un diseño industrial.
+La información recogida a continuación corresponde a los ámbitos de las Patentes y Marcas, y al de las Indicaciones Geográficas de Productos Artesanales e Industriales:
+Patentes y Marcas
+Mediante convenio suscrito por la Oficina Española de Patentes y Marcas y el entonces Departamento de Desarrollo Económico, Sostenibilidad y Medio Ambiente, del Gobierno Vasco, publicado en el BOPV nº61 de 28 de marzo de 2023, ambas instituciones demuestran su interés en establecer una vía de colaboración que permita desarrollar un sistema integrado de formación, información y sensibilización que facilite a universidades, centros de investigación e innovación y empresas la adecuada protección de sus derechos de propiedad industrial, con el objeto de redundar en una mejora de la competitividad del tejido empresarial de la Comunidad Autónoma de Euskadi, y facilitar a las universidades la adecuada transferencia de conocimiento.
+Los términos objeto del citado convenio son los siguientes:
+Difundir la información tecnológica objeto de registro.
+Promover un mayor y mejor conocimiento, protección y observancia de los derechos de propiedad industrial.
+Llevar a cabo las actividades de lucha contra la falsificación de derechos de propiedad industrial que se consideren oportunas.
+Entre las obligaciones adquiridas por el Departamento de Desarrollo Económico, Sostenibilidad y Medio Ambiente (actualmente denominado Departamento de Industria, Transición Energética y Sostenibilidad), se encuentran:
+Divulgar la importancia y utilidad de la propiedad industrial, así como de su observancia y de la necesidad de lucha contra la falsificación dentro de sus programas de actividades.
+Prestar a terceros, servicios relacionados con la información de patentes y de otros títulos de propiedad industrial siempre de conformidad con su propia regulación legal.
+Colaborar en la realización de actividades para dar a conocer los distintos sistemas de propiedad industrial a las empresas, los centros públicos de investigación, universidades, emprendedores, centros de innovación y otros análogos.
+Indicaciones Geográficas de Productos Artesanales e Industriales
+Las indicaciones geográficas establecen derechos de propiedad industrial para productos cuyas cualidades están especialmente ligadas a una determinada área de producción, por ser parte de la identidad local y del patrimonio cultural, estando directamente vinculadas al «saber hacer» de las personas productoras.
+La protección a través de indicaciones geográficas de productos artesanales e industriales tiene por objeto:
+Conservar y desarrollar el patrimonio cultural.
+Contribuir al incremento de la rentabilidad y al atractivo de profesiones artesanales tradicionales.
+Promover un impacto positivo de la econcomía regional y local, impulsando el empleo sostenible y mejorando la cohesión social.
+Asegurar a las personas productoras un modo de valorizar sus productos y su saber hacer, así como una herramienta eficaz contra la competencia desleal y las falsificaciones.
+Constituir una garantía, para las personas consumidoras, sobre la calidad y la autenticidad de un producto.
+A quién va dirigido
+Cualquier persona física o jurídica, tanto pública como privada.
+Normativa aplicable
+Normativa y jurisprudencia recogida en la web de la Oficina Española de Patentes y Marcas
+Normativa reguladora
+REGLAMENTO (UE) 2023/2411 del Parlamento Europeo y del Consejo de 18 de octubre de 2023 relativo a la protección de las indicaciones geográficas de productos artesanales e industriales y por el que se modifican los Reglamentos (UE) 2017/1001 y (UE) 2019/1753.
+REGLAMENTO DE EJECUCIÓN (UE) 2025/1956 de la Comisión, de 29 de septiembre de 2025, por el que se establecen disposiciones de aplicación del Reglamento (UE) 2023/2411 del Parlamento Europeo y del Consejo, relativo a la protección de las indicaciones geográficas de productos artesanales e industriales.
+REGLAMENTO DELEGADO (UE) 2025/1955 de la Comisión, de 29 de septiembre de 2025, por el que se completa el Reglamento (UE) 2023/2411 del Parlamento Europeo y del Consejo, relativo a la protección de las indicaciones geográficas de productos artesanales e industriales.
+REAL DECRETO 1190/2025, de 26 de diciembre, por el que se regulan los procedimientos nacionales relativos a la inscripción, modificación y anulación de las indicaciones geográficas de productos artesanales e industriales de ámbito territorial supraautonómico en el Registro de la Unión, así como determinados aspectos relativos a las mismas de conformidad con la normativa de la Unión Europea
+Organismos
+Organismo que gestiona
+Industria, Transición Energética y Sostenibilidad / Viceconsejería de Promoción Industrial > Dirección de Desarrollo y Administración Industrial
+Organismo que resuelve
+Información de contacto
+Datos de contacto
+Delegaciones Territoriales del Departamento de Industria, Transición Energética y Sostenibilidad
+Delegación Territorial de Álava
+c/ Samaniego, 2 01008 VITORIA-GASTEIZ
+Tfno: 945 01 77 71
+Fax: 945 01 70 51
+patente-markak-araba@euskadi.eus
+Delegación Territorial de Bizkaia
+c/ General Concha, 23 48010 BILBAO
+Tfno: 944 03 14 38
+Fax: 944 03 14 45
+patente-markak-bizkaia@euskadi.eus
+Delegación Territorial de Gipuzkoa
+c/ Easo, 10 20006 DONOSTIA-SAN SEBASTIÁN
+Tfno: 943 02 25 22
+Fax: 943 02 25 42
+patente-markak-gipuzkoa@euskadi.eus
+Código(s)
+Información
+AVISO (07/04/2025): La Oficina Española de Patentes y Marcas ha convocado las subvenciones para el fomento de solicitudes de patentes y modelos de utilidad para el 2025 (https://www.oepm.es/es/sobre-OEPM/servicios-al-ciudadano/ayudas-y-subvenciones/ayudas-de-la-oepm-para-el-fomento-de-solicitudes-de-patentes-y-modelos-de-utilidad/)
+Más información sobre Patentes y Marcas
+Tramitación electrónica
+Tramitación presencial
+
+### Presentación: https://www.euskadi.eus/presentacion-seguridad-industrial/web01-a2indust/es/
+Departamento de Industria, Transición Energética y Sostenibilidad
+Industria y minas
+La Seguridad Industrial es el sistema de disposiciones obligatorias que tienen por objeto la prevención y limitación de riesgos, así como la protección contra accidentes capaces de producir daños a las personas, a los bienes o al medio ambiente derivados de la actividad industrial o de la utilización, funcionamiento y mantenimiento de las instalaciones o equipos y de la producción, uso o consumo, almacenamiento o deshecho de los productos industriales.
+A esta unidad administrativa le corresponde efectuar el control y seguimiento del cumplimiento reglamentario de los productos e instalaciones que forman parte de sus áreas de actuación
+AREAS DE ACTUACIÓN:
+INDUSTRIA
+Registro de Establecimientos Industriales
+Vehículos
+Metrología
+Instalaciones de protección contra incendios
+Seguridad en máquinas
+Autorización de Organismos de Control, Organismos Notificados y Laboratorios
+Patentes y Marcas
+Control de productos
+Otros (Metales preciosos, Aparatos de bronceado)
+SEGURIDAD INDUSTRIAL
+Aparatos elevadores (ascensores, grúas torre y grúas autopropulsadas)
+Instalaciones de gas y almacenamientos de combustibles gaseosos
+Instalaciones térmicas (calefacción, climatización y agua caliente sanitaria)
+Equipos a presión
+Instalaciones frigoríficas
+Almacenamientos de productos químicos
+Prevención de accidentes graves con sustancias peligrosas
+MARCO NORMATIVO
+Ley 8/2004, de 12 de noviembre, de Industria de la Comunidad Autónoma de Euskadi (BOPV 29-11-2004). Establece el marco normativo regulador en el ámbito de competencia de la Comunidad Autónoma del País Vasco, y además determina las directrices para la intervención y control administrativo de las instalaciones, aparatos, equipos, procesos y productos industriales.
+Ley 21/1992, de 16 de julio, de Industria (BOE 23-7-1992). Establece el marco normativo regulador en el Estado, teniendo como objetivo establecer las bases de ordenación del sector industrial.
+Reglamentos Técnicos Sectoriales. Su objeto es la prevención y limitación en cada sector de los riesgos derivados de la actividad industrial o de la utilización, funcionamiento y mantenimiento de las instalaciones, equipos o productos industriales y la protección contra accidentes susceptibles de producir daños o perjuicios a las personas o los bienes.
+ORGANIZACIÓN
+Servicios centrales:
+Dirección de Energía,Minas y Administración Industrial
+c/ Donostia-San Sebastián, 1 - 01010- VITORIA-GASTEIZ
+Tfn: 945 01 82 18
+Fax: 945 01 99 78
+demadi@ej-gv.es
+Servicios Territoriales:
+Delegaciones Territoriales del Departamenteo de Desarrollo Economico y Competittividad.
+Delegación Territorial de Alava
+Delegación Territorial de Bizkaia
+Delegación Territorial de Gipuzkoa
+c/ Samaniego, 2
+01008 VITORIA-GASTEIZ
+945 017770 - Fax 945 017787
+c/ General Concha, 23
+48010 BILBAO
+94 4031400 - Fax 94 4031445
+c/ Easo, 10
+20006 DONOSTIA-SAN SEBASTIÁN
+943 022500 - Fax 943 022542
+Fecha de última modificación: 04/11/2021

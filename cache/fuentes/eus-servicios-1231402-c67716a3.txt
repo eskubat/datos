@@ -790,4 +790,849 @@ integrales son, al menos, los siguientes:
 � Descripción general de las instalaciones energéticas (equipos de producción, compresores,
 climatización, salas de generación de calor y o frío, sistemas de iluminación, sistemas de
 ventilación, …) destacando su ubicación, y los tipos de servicio energético que satisfacen.
-� Inventarios de equipos de producción y auxiliares (compresores, climatización,
+� Inventarios de equipos de producción y auxiliares (compresores, climatización, generación
+de calor y/o frío, iluminación, sistemas de ventilación, etc.), incluyendo sus características
+técnicas individuales.
+� Inventario de consumos energéticos anuales por tipo de energía.
+� Balance energético de acuerdo con los distintos servicios energéticos a satisfacer.
+� Propuestas de implementación de tecnologías con uso de energías renovables; y propuestas
+de ahorro de energía por implementación de tecnologías de elevada eficiencia energética.
+Las propuestas técnicas deben ser abiertas en cuanto a la tipología de escenario más
+favorable a la propuesta de renovación planteada. Es decir, se podrán plantear soluciones
+técnicas fundamentadas únicamente en tecnologías de uso de energía renovables, o
+solamente medidas de ahorro por incorporación de tecnologías de elevada eficiencia
+energética, o bien podrán darse soluciones técnicas mixtas por combinación de las dos
+anteriores. Además, si procede, se deberán hacer constar los aspectos técnicos normativos
+que pudieran ofrecer dificultades técnicas a una futura renovación con incorporación de
+tecnologías fundamentadas en el uso de energías renovables.
+� Para cada propuesta planteada debe indicarse el balance energético teórico de la nueva
+situación: energías renovables propuestas, medidas de ahorro energético previstas, nuevos
+consumos energéticos y su participación en el balance, así como el ahorro energético y
+económico derivado del nuevo escenario energético. Las propuestas deben indicarse por
+orden de viabilidad técnica.
+� Para cada propuesta planteada debe indicarse la inversión teórica requerida acorde con la
+nueva situación: inversiones requeridas por las instalaciones de energías renovables
+propuestas y por las medidas de ahorro de energía previstas. Las propuestas deben
+indicarse por orden de viabilidad técnico-económica.
+No se podrán acoger al presente programa de ayudas aquellas actuaciones cuyo coste sea
+inferior a 1.000 euros (IVA no incluido).
+B) Coste subvencionable.
+Además de lo previsto en esta Base y en el artículo 49 del Reglamento 651/2014, resultará de
+aplicación lo recogido en los artículos 31 de la LGS, 30 de la Ley 20/2023 y 83 del RGLS.
+Dentro de las actuaciones subvencionables, los costes subvencionables serán los costes de los
+trabajos necesarios para la correcta realización de dichas actuaciones, incluyendo la recopilación
+de información, realización de visitas, mediciones y cálculos, organización de reuniones y
+dinámicas y redacción de documentos. Además, se tendrá en consideración que:
+� Toda partida económica de material y mano de obra deberá ser directamente atribuible al
+tipo de actuación objeto de subvención.
+� Los costes subvencionables se expresarán incluyendo deducciones fiscales u otras cargas.
+En todo caso, se establece un límite máximo al coste subvencionable en función del consumo
+de energía de las instalaciones contempladas en la auditoría por lo que, en ningún caso, el coste
+subvencionable sobre el que aplicar el porcentaje de ayuda previsto en este Anexo I superará
+dichos máximos:
+<500
+Coste
+subvencionable
+máximo
+(euros)
+9.800
+150
+<300
+7.700
+50
+<150
+6.600
+30
+<50
+5.300
+20
+<30
+4.400
+10
+<20
+3.800
+0
+<10
+3.300
+Consumo de energía de las instalaciones
+contempladas en la auditoría
+(tep/año)
+300
+No se considerará como coste subvencionable
+� Los gastos financieros consecuencia del coste de la actuación.
+� Gastos de personal propio.
+� Servidores, impresoras, y en general todo tipo de equipos ofimáticos.
+� Las inversiones en reparación, adecuación y mantenimiento de equipos e instalaciones.
+� Y, en general, todos aquellos costes que no estén claramente definidos y que no puedan
+identificarse de forma directa para el logro de los objetivos previstos en este programa de
+ayudas.
+Por último, en lo que respecta a la consideración de los tributos como coste subvencionable, se
+estará a lo dispuesto en el artículo 30.8 de la Ley 20/2023.
+C) Cuantía de las ayudas.
+Las actuaciones descritas en el presente Anexo I de este programa de ayudas tendrán una
+ayuda del 50 % del coste subvencionable.
+ANEXO II
+DOCUMENTACIÓN
+La documentación que se relaciona en este anexo tiene por objeto acreditar el cumplimiento de
+las condiciones exigidas en el Programa de Ayudas al que se presenta la actuación para la que
+se solicita la ayuda.
+Todos los documentos se aportarán en formato PDF, con el texto en horizontal en su visión en
+pantalla, y preferentemente sin comprimir.
+A) Documentación requerida para realizar la solicitud de ayuda.
+a) NIF/NIE de la persona solicitante y, en su caso, de la persona que la represente legalmente.
+No será necesaria la aportación de copia de DNI si el/la interesado/a no se opone
+expresamente a que sus datos de identidad personal puedan ser consultados por EVE. No
+será necesaria la aportación de copia de DNI si el interesado no se opone expresamente a
+que sus datos de identidad personal puedan ser consultados por el EVE.
+Por su parte, para el caso del NIF/NIE de la persona solicitante, la disposición adicional octava
+de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía
+de los derechos digitales reconoce la potestad de verificación de las administraciones
+públicas, en relación con los datos personales que obren en su poder, para comprobar la
+exactitud de los mismos.
+b) En el caso de que la solicitud se presente a través de una o un representante legal, el/la
+firmante de la solicitud de la ayuda deberá estar debidamente acreditado/a en los términos
+legalmente establecidos, aportando la escritura o documento de apoderamiento. Se aportará,
+a su vez, copia del DNI/NIE de quien firme la solicitud (representante legal).
+c) En el caso de que la solicitud se presente a través de una persona delegada, el o la firmante
+de la solicitud de la ayuda deberá estar debidamente acreditado/a, aportando el documento
+de otorgamiento de representación (disponible en www.eve.eus), donde se autorice la firma y
+gestión de la solicitud de ayuda. Se deberá aportar copia del DNI del firmante de la solicitud
+(delegado/a).
+d) Declaración responsable firmada por la persona solicitante o por su representante legal,
+donde conste detallado que la persona solicitante de la actuación:
+� No se encuentra en ninguna de las situaciones previstas en los artículos 13.2, 13.3 y 13.3
+bis de la LGS.
+� No incurre en ninguna de las circunstancias previstas en el artículo 13 de la Ley 20/2023.
+� No se encuentra incurso/a en cualesquiera obligaciones de reintegro de otras
+subvenciones o ayudas, o, en su caso, ha cumplido fielmente con sus obligaciones de
+reintegro de otras subvenciones o ayudas, conforme a los términos establecidos en los
+artículos 4 y 7 de la Orden de 13 de febrero de 2023, del Consejero de Economía y
+Hacienda. Asimismo, no ha sido sancionado/a mediante resolución firme con la pérdida
+de la posibilidad de obtener subvenciones conforme a la legislación aplicable.
+La presentación de la solicitud de ayuda conllevará la autorización de la persona
+solicitante para que el órgano concedente obtenga de forma directa, a través de
+certificados telemáticos, información relativa a la inhabilitación para la obtención de
+subvenciones y ayudas públicas, a efectos de lo dispuesto en los artículos 13.2 de la LGS
+y 13.1.a) de la Ley 20/2023.
+No obstante, la o el solicitante podrá denegar expresamente el consentimiento a esta
+autorización al órgano concedente, debiendo aportar entonces, declaración responsable,
+en los términos indicados en este apartado.
+� Se encuentra al corriente en el cumplimiento de sus obligaciones tributarias y con la
+Seguridad Social, según establece el artículo 22 del RGS. La presentación de la solicitud
+de ayuda conllevará la autorización de la persona solicitante para que el órgano
+concedente obtenga de forma directa la acreditación de las circunstancias previstas en
+los artículos 18 y 19 del RGS, a través de certificados telemáticos, todo ello a excepción
+de los relativos a la Hacienda Foral de Navarra y la Agencia Tributaria Estatal, certificados
+que deberá aportar la o el solicitante de la ayuda.
+No obstante, la persona solicitante podrá denegar expresamente el consentimiento a esta
+autorización al órgano concedente, debiendo aportar entonces además de la declaración
+responsable, certificado tributario de estar al corriente del cumplimiento de las
+obligaciones tributarias, acreditación del cumplimiento de las obligaciones con la
+Seguridad Social y certificado tributario de residencia fiscal.
+A los efectos de esta acreditación, se estará también a lo dispuesto en la Orden de 13 de
+febrero de 2023, del Consejero de Economía y Hacienda sobre acreditación del
+cumplimiento de obligaciones tributarias y frente a la Seguridad Social, así como de las
+relativas al reintegro de subvenciones, en el marco de las ayudas y subvenciones que se
+otorguen con cargo a los Presupuestos Generales de Euskadi.
+� No ha solicitado o recibido otras ayudas para la misma actuación o finalidad. En caso de
+haberlas solicitado o recibido, se indicará el importe de la ayuda solicitada u obtenida, así
+como la Administración, organismo o entidad pública concedente. En caso de haber
+recibido otras ayudas, se deberá aportar copia de las resoluciones positivas de
+otorgamiento de otras ayudas concedidas por otros organismos a fecha de solicitud.
+La presentación de la solicitud de ayuda conllevará la autorización del o de la solicitante
+para que el órgano concedente obtenga de forma directa, a través de certificados
+telemáticos, información relativa a la obtención de cualesquiera otras ayudas,
+subvenciones o fondos, a efectos de lo dispuesto en los artículos 16 de la Ley 20/2023 y
+32 del RGS.
+� En conjunto con otras ayudas, subvenciones, ingresos o recursos, públicos o privados,
+no está sobrefinanciando y se compromete a no sobrefinanciar la actuación o finalidad
+objeto de solicitud de ayuda (es decir, no superará el coste de la actuación
+subvencionada).
+�· No incurre en alguna de las circunstancias impedientes recogidas en los artículos 109.4
+de la Ley 7/2022, de 8 de abril, de residuos y suelos contaminados para una economía
+circular, el artículo 116 de la Ley 10/2021, de 9 de diciembre, de Administración Ambiental
+de Euskadi y el artículo 82 de la Ley 4/2023, de 28 de febrero, para la igualdad real y
+efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI.
+� No se encuentra sancionada por decisión adoptada por la UE, no está en crisis, según lo
+establecido por las Directrices Comunitarias sobre ayudas estatales de salvamento y de
+reestructuración de empresas en crisis (Comunicación de la Comisión, 2014/C 249/1, de
+31 de julio de 2014), ni se encuentra sujeta a una orden de recuperación pendiente sobre
+cualquier ayuda o subvención que les hubiera sido otorgada con anterioridad, bien por
+haberse declarado ayuda ilegal e incompatible con el mercado interior, bien por cualquier
+tipo de incumplimiento de las obligaciones que le vinieran atribuidas en la concesión.
+� No tiene por objeto social o se dedica, en todo o en parte, a la producción,
+comercialización y financiación de armas (Ley 14/2007, de 28 de diciembre, de Carta de
+justicia y Solidaridad con países empobrecidos del País Vasco).
+e) Para las empresas que estén obligadas a disponer de un plan de igualdad vigente según la
+normativa vigente, copia del citado plan. Para el caso de empresas de más de 50 personas
+trabajadoras, documento que acredite la implantación de medidas para prevenir y combatir el
+acoso sexual o acoso por razón de sexo en los términos establecidos por la Legislación del
+Estado en materia de igualdad de mujeres y hombres.
+f) Documentación acreditativa de la condición de PYME, conforme a los requisitos fijados al
+efecto en el RD 56/2006:
+� Certificado expedido por la Seguridad Social en el que conste la información relativa al
+número de empleados de la empresa.
+� Documento acreditativo del volumen anual de negocios y balance general anual.
+g) Declaración responsable en la que figure la condición de Pequeña empresa o Mediana
+empresa, según la definición recogida en el Anexo I del Reglamento 651/2014.
+Adicionalmente, las empresas que tengan la condición de pequeñas o medianas empresas
+conforme a lo dispuesto en el artículo 2 del Anexo I del Reglamento 651/2014, deberán aportar
+aquella documentación que permita verificar tal condición mediante:
+� Certificado expedido por la Seguridad Social en el que conste la información relativa al
+número de empleados/as de la empresa.
+� Documento acreditativo del volumen anual de negocios y balance general anual.
+h) Documento oficial en el que conste el código CNAE 2025, o en su defecto el CNAE 2009,
+correspondiente a la actividad económica de la persona solicitante.
+A nivel orientativo indicar que suele parecer en el «Informe de situación de un código de
+cuenta de cotización» de la TGSS, la tarjeta de identificación fiscal de la persona beneficiaria;
+la declaración censal; el impuesto de actividades económicas; la escritura de constitución,
+entre otros.
+i) En el caso de autónomos, documento oficial de cotización en el régimen especial de
+trabajadores autónomos de Seguridad Social.
+j) Certificado bancario acreditativo del IBAN de la cuenta, de la que la persona solicitante deberá
+ser titular; este número de cuenta será en el que, cumplidos todos los requisitos del proceso
+exigido por el presente programa de ayudas, y habiendo adquirido la persona solicitante la
+condición de beneficiario/a, se abonará la subvención finalmente resuelta.
+k) Descripción técnico-energética tanto a nivel global del emplazamiento (horas de
+funcionamiento anual, número de trabajadoras/es, turnos, consumos y costes energéticos,
+etc.) como de las instalaciones principales consumidoras de energía, indicando el alcance de
+la auditoría (monitorizaciones a realizar, balances energéticos a desarrollar y su complejidad,
+análisis de viabilidad de energías renovables, etc.).
+l) Presupuesto de la empresa o empresas que realizarán la actuación, cuya fecha debe ser
+posterior a la publicación de estas Bases en el BOPV, y suficientemente desglosado, de
+manera que permita la distinción de las partidas económicas relevantes de la actuación
+subvencionable.
+m) La oferta o, de conformidad con el precepto establecido en el artículo 31.3 de la LGS y en la
+base 6.4 b del Programa, conjunto de ofertas solicitadas a diferentes proveedores/as y entre
+ellas la propuesta aceptada.
+En aplicación de lo previsto en el artículo 31.3 de la LGS y el artículo 30.3 de la Ley 20/2023,
+cuando el importe del gasto subvencionable supere las cuantías establecidas en la Normativa
+en materia de Contratación Pública para el contrato menor (15.000 euros o superior, IVA
+excluido para servicios y suministros), la persona solicitante de la ayuda deberá solicitar y
+aportar junto a la solicitud de ayuda como mínimo tres ofertas de diferentes proveedores/as,
+con carácter previo a la contracción del compromiso para la prestación del servicio, salvo que
+por sus especiales características no exista en el mercado suficiente número de entidades
+que las realicen, presten o suministren.
+La elección entre las ofertas presentadas se realizará conforme a criterios de eficiencia y
+economía, así como quedar justificada expresamente la elección cuando no recaiga en la
+propuesta que resulte ser la económicamente más ventajosa.
+B) Documentación requerida para justificar la realización, facturación y abono de la
+actuación realizada.
+a) Declaración responsable firmada por la persona solicitante o por su representante legal,
+donde conste detallado que la persona solicitante de la actuación:
+� No se encuentra en ninguna de las situaciones previstas en los artículos 13.2, 13.3 y 13.3
+bis de la LGS.
+� No estar incurso en ninguna de las circunstancias previstas en el artículo 13 de la Ley
+20/2023.
+� No se encuentra incurso/a en cualesquiera obligaciones de reintegro de otras
+subvenciones o ayudas, o, en su caso, ha cumplido fielmente con sus obligaciones de
+reintegro de otras subvenciones o ayudas, conforme a los términos establecidos en los
+artículos 4 y 7 de la Orden de 13 de febrero de 2023, del Consejero de Economía y
+Hacienda. Asimismo, no ha sido sancionado/a mediante resolución firme con la pérdida
+de la posibilidad de obtener subvenciones conforme a la legislación aplicable.
+La presentación de la solicitud de ayuda conllevará la autorización de la persona
+solicitante para que el órgano concedente obtenga de forma directa, a través de
+certificados telemáticos, información relativa a la inhabilitación para la obtención de
+subvenciones y ayudas públicas, a efectos de lo dispuesto en los artículos 13.2 de la LGS
+y 13.1.a de la Ley 20/2023.
+No obstante, la o el solicitante podrá denegar expresamente el consentimiento a esta
+autorización al órgano concedente, debiendo aportar entonces, declaración responsable,
+en los términos indicados en este apartado.
+� Se encuentra al corriente en el cumplimiento de sus obligaciones tributarias y con la
+Seguridad Social, según establece el artículo 22 del RGS. La presentación de la solicitud
+de pago conllevará la autorización de la persona solicitante para que el órgano
+concedente obtenga de forma directa la acreditación de las circunstancias previstas en
+los artículos 18 y 19 del RGS, a través de certificados telemáticos, todo ello a excepción
+de los relativos a la Hacienda Foral de Navarra y la Agencia Tributaria Estatal, certificados
+que deberá aportar la o el solicitante de la ayuda.
+No obstante, la persona solicitante podrá denegar expresamente el consentimiento a esta
+autorización al órgano concedente, debiendo aportar entonces además de la declaración
+responsable, certificado tributario de estar al corriente del cumplimiento de las
+obligaciones tributarias, acreditación del cumplimiento de las obligaciones con la
+Seguridad Social y certificado tributario de residencia fiscal.
+A los efectos de esta acreditación, se estará también a lo dispuesto en la Orden de 13 de
+febrero de 2023, del Consejero de Economía y Hacienda sobre acreditación del
+cumplimiento de obligaciones tributarias y frente a la Seguridad Social, así como de las
+relativas al reintegro de subvenciones, en el marco de las ayudas y subvenciones que se
+otorguen con cargo a los Presupuestos Generales de Euskadi.
+� No ha solicitado o recibido otras ayudas para la misma actuación o finalidad. En caso de
+haberlas solicitado o recibido, se indicará el importe de la ayuda solicitada u obtenida, así
+como la Administración, organismo o entidad pública concedente. En caso de haber
+recibido otras ayudas, se deberá aportar copia de las resoluciones positivas de
+otorgamiento de otras ayudas concedidas por otros organismos a fecha de solicitud.
+La presentación de la solicitud de ayuda conllevará la autorización del solicitante para que
+el órgano concedente obtenga de forma directa, a través de certificados telemáticos,
+información relativa a la obtención de cualesquiera otras ayudas, subvenciones o fondos,
+a efectos de lo dispuesto en los artículos 16 de la Ley 20/2023 y 32 del RGS.
+� En conjunto con otras ayudas, subvenciones, ingresos o recursos, públicos o privados,
+no está sobrefinanciando y se compromete a no sobrefinanciar la actuación o finalidad
+objeto de solicitud de ayuda (es decir, no superará el coste de la actuación
+subvencionada).
+� No incurre en alguna de las circunstancias impedientes recogidas en los artículos 109.4
+de la Ley 7/2022, de 8 de abril, de residuos y suelos contaminados para una economía
+circular, el artículo 116 de la Ley 10/2021, de 9 de diciembre, de Administración Ambiental
+de Euskadi y el artículo 82 de la Ley 4/2023, de 28 de febrero, para la igualdad real y
+efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI.
+� No se encuentra sancionada por decisión adoptada por la UE, no está en crisis, según
+lo establecido por las Directrices Comunitarias sobre ayudas estatales de salvamento y
+de reestructuración de empresas en crisis (Comunicación de la Comisión, 2014/C 249/1,
+de 31 de julio de 2014), ni se encuentra sujeta a una orden de recuperación pendiente
+sobre cualquier ayuda o subvención que les hubiera sido otorgada con anterioridad, bien
+por haberse declarado ayuda ilegal e incompatible con el mercado interior, bien por
+cualquier tipo de incumplimiento de las obligaciones que le vinieran atribuidas en la
+concesión.
+� No tiene por objeto social o se dedica, en todo o en parte, a la producción,
+comercialización y financiación de armas (Ley 14/2007, de 28 de diciembre, de Carta de
+justicia y Solidaridad con países empobrecidos del País Vasco).
+� Se compromete a garantizar:
+� El cumplimiento de las normas nacionales y comunitarias sobre requisitos de
+igualdad de oportunidades y no discriminación, aplicables a este tipo de
+actuaciones;
+� El cumplimiento de las normas medioambientales nacionales y comunitarias, y
+sobre desarrollo sostenible; y
+� La aplicación de medidas antifraude eficaces y proporcionadas en el ámbito de
+gestión del proyecto objeto de ayuda, salvo para personas físicas.
+b) Contrato formalizado por escrito entre la persona beneficiaria y empresa contratista, debiendo
+presentar de forma detallada y desglosada las diferentes partidas económicas. No se admitirá
+ningún contrato con partidas económicas agregadas de manera que impidan la distinción de
+las partidas económicas relevantes del estudio. En caso de que a modo de contrato se aporte
+la aceptación del presupuesto, la fecha de la aceptación deberá ser posterior al registro de la
+solicitud de ayuda.
+c) Facturas (copias auténticas) justificativas de las auditorías energéticas integrales realizadas,
+las cuales deberán estar emitidas al que ostente la condición de beneficiario/a, tal y como se
+indica en la base 2.1 y, desglosadas, valoradas económicamente por partidas y fechadas de
+acuerdo con los plazos indicados en la base 4.ª
+d) Documentos justificativos del pago de las facturas, que permitan identificar a la persona
+beneficiaria de la ayuda, al tercero/a que recibe el pago, la fecha de pago (fecha valor) y los
+datos necesarios para identificar la actuación objeto de ayuda.
+e) Copia auténtica del informe final de la auditoría para la que se ha solicitado la ayuda. En esta
+línea, debe respetarse el alcance de la actuación en los términos indicados en el Anexo I.
+Este informe deberá contener un apartado específico de síntesis y conclusiones, al que se
+acompañará de un resumen, en forma de cuadro, en el que se recojan las medidas analizadas,
+tanto en el ámbito de las energías renovables como en el de la eficiencia energética, las
+inversiones necesarias, los ahorros energéticos y económicos anuales esperados, así como
+el retorno de la inversión de cada medida.
+
+### RESOLUCIÓN de 7 de julio de 2026, del director general del Ente Vasco de la Energía, por la que se acuerda el cierre anticipado de la vigencia del programa de ayudas a la realización de auditorías energéticas integrales en PYMEs de los sectores industrial y terciario: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2026/07/2603269a.pdf
+OTRAS DISPOSICIONES
+ENTE VASCO DE LA ENERGÍA
+3269
+RESOLUCIÓN de 7 de julio de 2026, del director general del Ente Vasco de la Energía, por la
+que se acuerda el cierre anticipado de la vigencia del programa de ayudas a la realización de
+auditorías energéticas integrales en PYMEs de los sectores industrial y terciario.
+ANTECEDENTES
+I.– Que, mediante Resolución de 24 de abril de 2025, del director general del EVE, publicada en
+el Boletín Oficial del País Vasco (BOPV) n.º 92 de 19 de mayo de 2025 se procedió a la aprobación, convocatoria y publicación de las bases reguladoras del programa de ayudas a la realización
+de auditorías energéticas integrales en pyme de los sectores industrial y terciario.
+II.– Que la base 3.ª de la citada convocatoria de ayudas establece que el plazo de presentación
+de las solicitudes de ayuda comenzará a las 08:00 h del día hábil siguiente de la publicación de
+las referidas bases en el BOPV y finalizará en el momento de producirse el agotamiento del presupuesto destinado a este efecto en el programa de ayudas. En todo caso, con independencia de
+la existencia de presupuesto disponible, el plazo para la presentación de las solicitudes de ayuda
+finalizará el 12 de octubre de 2028.
+III.– Adicionalmente, las bases 4.ª y 9.ª del programa de ayudas a la realización de auditorías
+energéticas integrales en PYME de los sectores industrial y terciario establecen respectivamente
+que los proyectos objeto de subvención tendrán que estar ejecutados, facturados y pagados en
+un plazo máximo de seis (6) meses a contar desde la fecha de notificación de la resolución de
+otorgamiento de la ayuda y, en todo caso, no más tarde del lunes 31 de diciembre de 2028 y la
+aportación de la documentación justificativa de la ejecución del proyecto se debe presentar obligatoriamente en un plazo máximo de seis (6) meses a contar desde la fecha de notificación de la
+resolución de otorgamiento de la ayuda y, en todo caso, no más tarde del lunes 15 de enero de
+2029.
+IV.– Que el número de solicitudes recibidas en el programa de ayudas a la realización de
+auditorías energéticas integrales en PYME de los sectores industrial y terciario se encuentra
+ostensiblemente por debajo de lo previsto, lo que ha conllevado que en estos momentos la ejecución presupuestaria del programa de ayudas en cuestión sea muy inferior respecto a lo estimado
+y al cumplimiento de los objetivos recogidos en el Plan Estratégico de Subvenciones del EVE.
+V.– Que por todo lo anteriormente indicado, este Ente considera recomendable y justificado
+cerrar de forma anticipada la vigencia del programa de ayudas, modificando la fecha máxima para
+la presentación de solicitudes y para la ejecución, facturación, pago y justificación de las inversiones, al objeto de poder destinar los recursos públicos existentes, de carácter limitado, a otras
+líneas de subvenciones y conseguir los objetivos pretendidos de una forma más efectiva.
+VI.– Que, de acuerdo con el Decreto 10/2015, de 3 de febrero, de segunda modificación del
+Decreto por el que se regulan las funciones de los órganos rectores del Ente Vasco de la Energía
+(EVE), la competencia para la ejecución de los acuerdos adoptados por el Consejo de Dirección,
+así como aprobar y gestionar las convocatorias de subvenciones y ayudas autorizadas por el Con-
+sejo de Dirección, corresponde al director general del EVE, debiéndose garantizar la difusión de
+las citadas bases a través del Boletín Oficial del País Vasco.
+Por lo expuesto,
+RESUELVO:
+Primero.– Acordar la modificación de las bases n.º 3, 4 y 9 del programa de ayudas a la realización de auditorías energéticas integrales en PYME de los sectores industrial y terciario, para
+proceder a su cierre anticipado, de conformidad con el siguiente detalle:
+(i) El plazo para la presentación de solicitudes de ayuda al programa de ayudas a la realización
+de auditorías energéticas integrales en PYME de los sectores industrial y terciario finalizará el 31
+de diciembre de 2026 o, en su caso, en el momento de producirse el agotamiento del presupuesto
+destinado a este programa de ayudas, si es anterior a dicha fecha;
+(ii) La ejecución, facturación y pago completos de los proyectos acogidos al programa de ayudas a la realización de auditorías energéticas integrales en PYME de los sectores industrial y
+terciario deberá realizarse en un plazo máximo de seis (6) meses a contar desde la fecha de
+notificación de la resolución de otorgamiento de la ayuda y, en todo caso, no más tarde del 15 de
+septiembre de 2027 y;
+(iii) La aportación de la documentación justificativa de la ejecución de los proyectos acogidos al
+programa de ayudas a la realización de auditorías energéticas integrales en PYME de los sectores
+industrial y terciario deberá realizarse en un plazo máximo de seis (6) meses a contar desde la
+fecha de notificación de la resolución de otorgamiento de la ayuda y, en todo caso, no más tarde
+del 1 de octubre de 2027.
+De acuerdo con lo anterior, las referidas bases quedan redactadas de la siguiente forma:
+Apartado 2.º de la Base 3.ª – Dotación presupuestaria y plazo de presentación de las solicitudes:
+«3.2.– El plazo de presentación de las solicitudes de ayuda al presente programa de ayudas comenzará a las 08:00 h del día siguiente hábil siguiente de la publicación de las
+presentes bases en el Boletín Oficial del País Vasco (en adelante «BOPV») y finalizará en
+el momento de producirse el agotamiento del presupuesto destinado a este efecto en el
+Programa de Ayudas.
+En todo caso, con independencia de la existencia de presupuesto disponible, el plazo para
+la presentación de las solicitudes de ayuda finalizará el 31 de diciembre de 2026, aun
+cuando existiera presupuesto disponible en la convocatoria. A la finalización del expresado
+plazo de vigencia no serán admitidas más solicitudes.
+Se dará publicidad del agotamiento del presupuesto disponible mediante Resolución
+del director general de EVE tanto en el BOPV como en la dirección de internet de EVE:
+www.eve.eus».
+Apartado 1.º, letra b), de la Base 4.ª – Actuaciones subvencionables:
+«b) La ejecución, facturación y pago de la actuación se realice en un plazo máximo de seis
+(6) meses a contar desde la fecha de notificación de la resolución de otorgamiento de la
+ayuda y, en todo caso, no más tarde del 15 de septiembre de 2027.».
+Apartado 1.º de la Base 9.ª – Justificación de la realización de la inversión y abono de la ayuda:
+«9.1.– La justificación de la realización de la actuación objeto de ayuda por parte de las personas beneficiarias de la ayuda deberá realizarse ante EVE en un plazo máximo de seis (6)
+meses a contar desde la fecha de notificación de la resolución de otorgamiento de la ayuda
+y, en todo caso, no más tarde del 1 de octubre de 2027, de manera electrónica mediante la
+aplicación informática indicada en la Base 6.».
+Segundo.– Disponer la publicación de la presente Resolución en el Boletín Oficial del País
+Vasco (BOPV).
+Tercero.– Contra la presente Resolución, que agota la vía administrativa, podrá interponerse,
+con carácter potestativo, recurso de reposición ante el director general del EVE en el plazo de un
+mes a partir del día siguiente al de su publicación en el BOPV, o alternativamente recurso contencioso-administrativo ante los juzgados de lo Contencioso-Administrativo de Bilbao, en el plazo de
+dos meses a partir del día siguiente al de su publicación en el BOPV.
+En Bilbao, a 7 de julio de 2026.
+El director general del Ente Vasco de la Energía,
+MIKEL AMUNDARAIN LEIBAR.
+
+### Otorgamiento de representación para el procedimiento (PDF, 128 KB): https://www.euskadi.eus/contenidos/ayuda_subvencion/eve_audit_energetica_pyme_2025/es_def/adjuntos/Otorgamiento-representacion-solicitud-EVE.pdf
+OTORGAMIENTO DE REPRESENTACIÓN PARA EL PROCEDIMIENTO
+En el presente procedimiento la persona/entidad representante puede ejercitar las siguientes facultades durante la
+convocatoria:
+▪
+▪
+▪
+Formular peticiones y solicitudes.
+Aportar cuantos datos y documentos se soliciten o se interesen.
+Recibir todo tipo de comunicaciones/notificaciones.
+Normas aplicables:
+▪
+Artículo 5 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
+Procedimiento sobre el que se otorga la representación *
+1
+DATOS DE LA PERSONA / ENTIDAD QUE OTORGA LA REPRESENTACIÓN
+Información del titular
+Nombre / Nombre de la entidad:
+C.I.F./N.I.F.:
+Apellido 1:
+Apellido 2:
+E-mail:
+Teléfono fijo:
+Teléfono móvil:
+Información de la persona representante legal (solo en caso de entidad)
+Nombre:
+N.I.F.:
+Apellido 1:
+Apellido 2:
+E-mail:
+Teléfono fijo:
+2
+Teléfono móvil:
+DATOS DE LA PERSONA / ENTIDAD QUE ACEPTA LA REPRESENTACIÓN
+Información de la persona titular
+Nombre / Nombre de la entidad:
+C.I.F./N.I.F.:
+Apellido 1:
+Apellido 2:
+E-mail:
+Teléfono fijo:
+Teléfono móvil:
+Información de la persona representante legal (solo en caso de entidad)
+Nombre:
+N.I.F.:
+Apellido 1:
+Apellido 2:
+E-mail:
+Teléfono fijo:
+OTORGAMIENTO DE REPRESENTACIÓN
+Teléfono móvil:
+INFORMACIÓN SOBRE PROTECCIÓN DE DATOS PARA LA PERSONA REPRESENTADA
+(En cumplimiento del Reglamento UE 2016/679 de Protección de Datos)
+La gestión del procedimiento para el que otorga representación mediante el presente escrito implica que EVE deba tratar sus datos de
+carácter personal. Dicho tratamiento se realizará bajo las especificaciones indicadas en los siguientes apartados.
+ENTE VASCO DE ENERGIA (EVE)
+Responsable del
+tratamiento
+NIF: Q5150001E
+Dirección: Alameda de Urquijo, 36, 1ª Planta, 48011, Bilbao (Bizkaia)
+teléfono: 94 403 56 00
+contacto DPD: dpd@eve.eus
+Finalidad
+- Análisis y gestión de su solicitud de ayuda y, en su caso, ejecución y control de la relación que se
+establezca como consecuencia de su concesión.
+- En lo que concierne al dato de género, cuya cumplimentación es voluntaria, el dato se utilizará en el
+marco de las políticas y estrategias en materia de igualdad del Gobierno Vasco y únicamente para fines
+de monitorización y estadística.
+- En lo que concierne al idioma seleccionado para comunicarse con el EVE, cuya cumplimentación es
+obligatoria, el dato se utilizará en el marco de las políticas y estrategias en materia lingüística del
+Gobierno Vasco y únicamente para fines de monitorización y estadística.
+Legitimación del
+tratamiento y
+conservación
+- El tratamiento es necesario para el cumplimiento de una misión realizada en interés público o en el
+ejercicio de poderes públicos conferidos al responsable del tratamiento.
+- Conservación de la información: durante el plazo de estudio de la solicitud y los plazos legales que le
+sean de aplicación. En caso de concesión de la ayuda, los datos pasarán a formar parte del
+expediente de concesión y se conservarán mientras ésta permanezca activa y, posteriormente, durante
+los plazos legales que le sean de aplicación.
+Destinatarios/as de
+cesiones
+Organismos y Autoridades autonómicas, locales, estatales o de la Unión Europea de control y con
+competencia en la materia y en los supuestos previstos en el artículo 15.9 de la Ley 20/2023.
+Derechos de las personas
+interesadas
+Las personas interesadas pueden ejercitar sus derechos de acceso, rectificación, supresión, portabilidad
+y la limitación u oposición, dirigiéndose por escrito al contacto DPD del EVE, indicando “ejercicio
+derechos protección de datos”, en la medida en que éstos puedan ser ejercidos conforme a lo previsto en la
+normativa en materia subvencional.
+Las personas interesadas tienen derecho a retirar el consentimiento prestado.
+Las personas interesadas tienen derecho a reclamar ante las Autoridades de Control (Autoridad Vasca de
+Protección de Datos www.avpd.eus y la Agencia Española de Protección de Datos www.aepd.es).
+Todo/a beneficiario/a se compromete a que, con anterioridad a facilitar al EVE cualquier dato personal de cualquier persona
+física/jurídica involucrada en la gestión y, en su caso, posterior ejecución del proyecto indicado en su solicitud de ayuda, habrá
+informado a tal persona física/jurídica de lo anteriormente expuesto y cumplido cualesquiera otros requisitos que pudieran ser de
+aplicación para la correcta cesión de los datos personales al EVE.
+OTORGAMIENTO DE REPRESENTACIÓN
+INFORMACIÓN SOBRE PROTECCIÓN DE DATOS PARA LA PERSONA REPRESENTANTE Y COMPROMISOS ADQUIRIDOS
+(En cumplimiento del Reglamento UE 2016/679 de Protección de Datos)
+ENTE VASCO DE ENERGIA (EVE)
+Responsable del
+tratamiento
+NIF: Q5150001E
+Dirección: Alameda de Urquijo, 36, 1ª Planta, 48011, Bilbao (Bizkaia)
+teléfono: 94 403 56 00
+contacto DPD: dpd@eve.eus
+Finalidad
+Legitimación del
+tratamiento y
+conservación
+Destinatarios/as de
+cesiones
+Derechos de las personas
+interesadas
+- Gestionar su poder de representación y el procedimiento para el que se le ha otorgado.
+- En lo que concierne al idioma seleccionado para comunicarse con el EVE, cuya cumplimentación es
+obligatoria, el dato se utilizará en el marco de las políticas y estrategias en materia lingüística del Gobierno
+Vasco y únicamente para fines de monitorización y estadística.
+Consentimiento del/de la interesado/a manifestado con la firma del presente documento.
+Conservación de la información: durante los plazos legales que le sean de aplicación.
+Organismos y Autoridades autonómicas, locales, estatales o de la Unión Europea de control y con
+competencia en la materia y en los supuestos previstos en el artículo 15.9 de la Ley 20/2023.
+Las personas interesadas pueden ejercitar sus derechos de acceso, rectificación, supresión, portabilidad y la
+limitación u oposición, dirigiéndose por escrito al contacto DPD del EVE, indicando “ejercicio derechos
+protección de datos”, en la medida en que éstos puedan ser ejercidos conforme a lo previsto en la
+normativa en materia subvencional.
+Las personas interesadas tienen derecho a retirar el consentimiento prestado.
+Las personas interesadas tienen derecho a reclamar ante las Autoridades de Control (Autoridad Vasca de
+Protección de Datos www.avpd.eus y la Agencia Española de Protección de Datos www.aepd.es).
+Para ejercer la representación, el/la representante accederá a y tratará los datos personales de su representado/a con estricta
+confidencialidad y aplicando las medidas de seguridad pertinentes, exclusivamente para la gestión del procedimiento y con prohibición
+de usarlos para ninguna otra finalidad. Tampoco podrá comunicarlos a terceros, salvo que exista autorización expresa de su
+representado/a. Estos compromisos se adquieren de manera indefinida, incluso una vez finalizada la representación.
+Si el/la representante detectara alguna brecha de seguridad en los canales de comunicación de datos hacia EVE, se lo deberá
+comunicar inmediatamente a dicho ente.
+OTORGAMIENTO DE REPRESENTACIÓN
+ACEPTACIÓN DE LA REPRESENTACIÓN
+3
+Con la firma del presente escrito la persona/entidad representante acepta la representación conferida y responde de la autenticidad de
+la firma de la persona otorgante.
+En
+a
+Persona representada
+Persona representante
+Ente Vasco de la Energía – EVE • Alameda de Urquijo, 36 - 1º • Edificio Plaza Bizkaia • 48011 BILBAO
+• Tel.: (34) 944 035 600 • Fax: (34) 944 035 699 • e-mail: gestionayudas@eve.eus
+OTORGAMIENTO DE REPRESENTACIÓN
+
+### Boletín Oficial del País Vasco: https://www.euskadi.eus/bopv
+Boletín Oficial del País Vasco
+Sede electrónica
+Consulta
+Consulta simple
+Servicios
+Solicitar una publicación
+Consulta avanzada
+Textos consolidados
+Difusión selectiva
+Verificación Boletín Electrónico
+Último boletín RSS
+Sumario n.º
+218, viernes 13 de noviembre de 2026
+Otros formatos:
+PDF
+(227 KB - 4 Pág.)
+EPUB
+(107 KB)
+Texto bilingüe
+AUTORIDADES Y PERSONAL
+Nombramientos, situaciones e incidencias
+LEHENDAKARITZA
+DECRETO 189/2026, de 10 de noviembre, por el que se cesa a la delegada de Euskadi en Argentina y Uruguay.
+4828
+OSAKIDETZA-SERVICIO VASCO DE SALUD
+RESOLUCIÓN 4294/2026, de 7 de septiembre, del director gerente de la Organización Sanitaria Integrada Bilbao-Basurto, por la que se cesa, a petición propia, a la subdirectora médica, en la Organización Sanitaria Integrada Bilbao-Basurto de Osakidetza-Servicio vasco de salud.
+4829
+RESOLUCIÓN 4369/2026, de 21 de septiembre, del director gerente de la Organización Sanitaria Integrada Bilbao-Basurto, por la que se nombra, mediante libre designación, a una jefa de Grupo Administración (UGS) en la Organización Sanitaria Integrada Bilbao-Basurto de Osakidetza-Servicio vasco de salud.
+4830
+RESOLUCIÓN 4370/2026, de 21 de septiembre, del director gerente de la Organización Sanitaria Integrada Bilbao-Basurto, por la que se nombra, mediante libre designación, a una jefa de Grupo Administración (UGS) en la Organización Sanitaria Integrada Bilbao-Basurto de Osakidetza-Servicio vasco de salud.
+4831
+UNIVERSIDAD DEL PAÍS VASCO
+RESOLUCIÓN de 28 de octubre de 2026, del rector de la Universidad del País Vasco / Euskal Herriko Unibertsitatea, por la que se nombra catedrático de Universidad, cuyo concurso de acceso a plazas de cuerpos de funcionarios docentes universitarios fue convocado por Resolución de 4 de marzo de 2026 (BOPV de 12-03-2026 y BOE de 13-03-2026).
+4832
+RESOLUCIÓN de 29 de octubre de 2026, del rector de la Universidad del País Vasco / Euskal Herriko Unibertsitatea, por la que se nombra profesora titular de Universidad, cuyo concurso de acceso a plazas de cuerpos de funcionarios docentes universitarios fue convocado por Resolución de 12 de febrero de 2026 (BOPV de 19-02-2026) y Resolución de 16 de febrero de 2026 (BOE de 23-02-2026).
+4833
+Oposiciones y concursos
+DEPARTAMENTO DE SEGURIDAD
+RESOLUCIÓN de 30 de octubre de 2026, del viceconsejero de Seguridad, por la que se anuncia la fecha de colocación, en el portal Gurenet, de la Resolución de 30 de octubre de 2026, dictada en el procedimiento de provisión de puestos de trabajo, por los sistemas de libre designación y de concurso de méritos específicos y generales de la Ertzaintza.
+4834
+RESOLUCIÓN 4258/2026, de 2 de septiembre, del director gerente de la Organización Sanitaria Integrada Bilbao-Basurto, por la que se convoca la provisión, mediante libre designación, de un puesto de supervisor/a de Enfermería de la Unidad Asistencial Revilla 3 (Hospitalización Respiratorio y Enfermedades Infecciosas) en la Organización Sanitaria Integrada Bilbao-Basurto de Osakidetza-Servicio vasco de salud.
+4835
+RESOLUCIÓN 4259/2026, de 2 de septiembre, del director gerente de la Organización Sanitaria Integrada Bilbao-Basurto, por la que se convoca la provisión, mediante libre designación, de un puesto de supervisor/a de Guardia en la Organización Sanitaria Integrada Bilbao-Basurto de Osakidetza-Servicio vasco de salud.
+4836
+RESOLUCIÓN 4260/2026, de 2 de septiembre, del director gerente de la Organización Sanitaria Integrada Bilbao-Basurto, por la que se convoca la provisión, mediante libre designación, de un puesto de supervisor/a de Enfermería del Hospital de Día Quirúrgico (UCSI-URPA) en la Organización Sanitaria Integrada Bilbao-Basurto de Osakidetza-Servicio vasco de salud.
+4837
+RESOLUCIÓN 4261/2026, de 2 de septiembre, del director gerente de la Organización Sanitaria Integrada Bilbao-Basurto, por la que se convoca la provisión, mediante libre designación, de un puesto de supervisor/a de Cuidados en la Organización Sanitaria Integrada Bilbao-Basurto de Osakidetza-Servicio vasco de salud.
+4838
+OTRAS DISPOSICIONES
+DEPARTAMENTO DE INDUSTRIA, TRANSICIÓN ENERGÉTICA Y SOSTENIBILIDAD
+RESOLUCIÓN de 29 de octubre de 2026, del delegado territorial de Industria, Transición Energética y Sostenibilidad de Álava, por la que se otorga autorización administrativa previa y autorización administrativa de construcción para la hibridación de cogeneración existente con parque solar y almacenamiento de baterías «Coalsema», en el término municipal de Berantevilla (Álava), y promovido por Compañía Alavesa de Secado de Madera, S.A.
+4839
+RESOLUCIÓN de 5 de noviembre de 2026, del director de Juego y Espectáculos, por la que se nombra a las personas integrantes de la Comisión de Valoración para la concesión de subvenciones a las entidades sin ánimo de lucro, para la realización de actividades de información y prevención universal del juego patológico.
+4840
+DEPARTAMENTO DE EDUCACIÓN
+ORDEN de 9 de octubre de 2026, de la consejera de Educación, por la que se extingue la autorización del Centro Privado de Educación Infantil, Primaria y Secundaria «La Anunciata» de Donostia / San Sebastián (Gipuzkoa), por cese de actividad.
+4841
+ORDEN de 19 de octubre de 2026, de la consejera de Educación, por la que se modifica la autorización del Centro Privado de Educación Secundaria «Ibaiondo» de Leioa (Bizkaia).
+4842
+DEPARTAMENTO DE VIVIENDA Y AGENDA URBANA
+ORDEN de 3 de noviembre de 2026, del consejero de Vivienda y Agenda Urbana, por la que se inicia el procedimiento de adjudicación de 19 alojamientos dotacionales, en el municipio de Eibar, en la calle Bittor Sarasketa.
+4843
+ORDEN de 28 de octubre de 2026, del consejero de Vivienda y Agenda Urbana, por la que se inicia el procedimiento de declaración del municipio de Santurtzi como zona de mercado residencial tensionado.
+4844
+DEPARTAMENTO DE SALUD
+ORDEN de 30 de octubre de 2026, del consejero de Salud, por la que se aprueban las bases reguladoras de concesión de ayudas y se realiza la convocatoria de las ayudas a los proyectos de I+D con participación vasca seleccionados en la convocatoria internacional competitiva Call for transnational proposals 2025 – «Better care closer to home: Enhancing primary and community care», en el marco del partenariado europeo de transformación de sistemas de salud «European Partnership on Transforming Heatlh and Care System (THCS)», promovido por la Unión Europea dentro del Programa Marco Horizonte Europa (Acuerdo de subvención N.º: 101095654), de la Fundación Vasca de Innovación e Investigación Sanitarias, Bioef.
+4845
+DEPARTAMENTO DE TURISMO, COMERCIO Y CONSUMO
+RESOLUCIÓN de 5 de noviembre de 2026, de la directora de Kontsumobide-Instituto Vasco de Consumo, de corrección de errores de la Resolución de 9 de octubre de 2026, por la que se designan los miembros de la Comisión de Valoración de las ayudas destinadas a las organizaciones de personas consumidoras, en el ejercicio 2026.
+4846
+DEPARTAMENTO DE ALIMENTACIÓN, DESARROLLO RURAL, AGRICULTURA Y PESCA
+ORDEN de 20 de octubre de 2026, de la consejera de Alimentación, Desarrollo Rural, Agricultura y Pesca, por la que se convocan ayudas, acogidas al régimen de minimis, para la realización de eventos sociales que dinamicen el medio rural y litoral de la Comunidad Autónoma del País Vasco, para el año 2026.
+4847
+ORDEN de 3 de noviembre de 2026, de la consejera de Alimentación, Desarrollo Rural, Agricultura y Pesca, por la que se aprueban las bases y se convocan, para el ejercicio 2026, las ayudas a las agrupaciones de personas productoras agrarias y forestales, previstas en el PEPAC (2023-2027).
+4848
+SPRI-AGENCIA VASCA DE DESARROLLO EMPRESARIAL
+RESOLUCIÓN de 5 de noviembre de 2026, de la directora de internacionalización de SPRI-Agencia Vasca de Desarrollo Empresarial, por la que se modifican las resoluciones de 29 de julio de 2021, 27 de julio de 2022, 9 de junio de 2023 y 24 de septiembre de 2024, por las que se aprobaron las bases reguladoras y la convocatoria del programa «Gauzatu Internacional».
+4849
+ANUNCIOS
+Otros anuncios oficiales
+DEPARTAMENTO DE ECONOMÍA, TRABAJO Y EMPLEO
+ANUNCIO de 26 de octubre de 2026,, por el que se notifica la Resolución de 19 de septiembre de 2026, de la directora de Trabajo y Seguridad Social, dictada en el expediente sancionador número 01/2026/93.
+4850
+ANUNCIO por el que se notifican resoluciones de solicitudes de aplazamiento y fraccionamiento del pago de sanciones dictadas en expedientes por infracción a las normas de tráfico, circulación y seguridad vial.
+4851
+ANUNCIO por el que se notifican resoluciones del director de Coordinación de Seguridad, incoatorias de varios expedientes sancionadores, con relación a infracciones de la Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana (LOPSC).
+4852
+ANUNCIO por el que se notifica la Orden de 8 de octubre de 2026, del consejero de Seguridad, por la que se declara al reclamante desistido de la reclamación patrimonial por responsabilidad patrimonial de la Administración y se procede al archivo del expediente.
+4853
+ANUNCIO de 19 de octubre de 2026, de la delegada territorial de Vivienda de Bizkaia, relativo a notificaciones de expedientes del Registro de Solicitantes de Vivienda Protegida y Alojamientos Dotacionales y del derecho subjetivo de acceso a una vivienda.
+4854
+DEPARTAMENTO DE BIENESTAR, JUVENTUD Y RETO DEMOGRÁFICO
+ANUNCIO de 26 de octubre de 2026, del director de Infancia, Adolescencia y Familias, por el que se notifican requerimientos de documentación relativos a expedientes del Registro de Parejas de Hecho de la Comunidad Autónoma del País Vasco.
+4855
+ANUNCIO de 2 de noviembre de 2026, de la directora de Apoyos para la Vida Plena, por el que se notifican requerimientos de subsanación, recursos y resoluciones administrativas.
+4856
+AGENCIA VASCA DEL AGUA
+ANUNCIO por el que se publica resolución de concesión administrativa para un aprovechamiento de aguas, en el término municipal de Azkoitia (Gipuzkoa).
+4857
+Anuncios particulares
+TÚ PINTAS MUCHO, S. COOP. PEQUEÑA DE INICIATIVA SOCIAL
+ANUNCIO relativo al acuerdo de disolución, nombramiento de liquidadora y liquidación de la sociedad cooperativa Tú Pintas Mucho, S. Coop. Pequeña de Iniciativa Social.
+4858
+Sumario
+ANUNCIOS
+Información general
+Características
+Cómo utilizar el servicio de consulta
+Cómo utilizar el servicio de difusión selectiva
+Cómo utilizar el servicio de verificación de boletín electrónico
+Cómo realizar una solicitud de publicación
+Datos personales. Derecho al olvido
+Preguntas frecuentes
+
+### Boletín Oficial de Bizkaia: http://apps.bizkaia.eus/BT00/
+bizkaia.eus - Boletín Oficial de Bizkaia
+Oharra
+Orrialdea zaharkituta dago.
+Orriaren uneko bertsiora joateko, sakatu "Bertsio berrira joan" botoia.
+Aviso
+La página está obsoleta.
+Para ir a la versión actual de la página, pulse sobre el botón "Ir a nueva versión".
+
+### Boletín Oficial del Estado: http://www.boe.es/
+BOE.es - Agencia Estatal Boletín Oficial del Estado
+Agencia Estatal Boletín Oficial del Estado
+Ir a contenido
+Consultar el diario oficial BOE
+Idioma actual:
+Castellano / es
+Puede seleccionar otro idioma:
+es / Castellano
+ca / Català
+gl / Galego
+eu / Euskara
+va / Valencià
+en / English
+fr / Français
+Mi BOE Desconectado.
+Pulse para acceder al servicio 'Mi BOE'
+Diarios Oficiales
+BOE
+BORME
+Otros diarios oficiales
+Información Jurídica
+Todo el Derecho
+Biblioteca Jurídica Digital
+Otros servicios
+Notificaciones
+Edictos judiciales
+Portal de subastas
+Anunciantes
+Datos abiertos
+Boletín Oficial del Estado
+Último BOE
+Buscar en BOE
+Calendario
+Boletín Oficial del Registro Mercantil
+Último BORME
+Buscar en BORME
+Calendario
+Unión Europea (DOUE)
+Boletines autonómicos
+Boletines provinciales
+Todo el Derecho
+Todo el Derecho
+Legislación
+Tribunal Constitucional
+Jurisprudencia (CENDOJ)
+Doctrina de la Fiscalía
+Derechos fundamentales
+Dictámenes del Consejo de Estado
+Abogacía del Estado
+Derecho de la Unión Europea
+Colección histórica: Gazeta (1661-1959)
+Más búsquedas
+Publicaciones jurídicas para descargar
+de forma libre y gratuita:
+Libros jurídicos electrónicos
+Códigos electrónicos
+Códigos electrónicos universitarios
+Material de oposiciones
+Anuarios y revistas
+La Editorial del BOE
+La Librería del BOE
+Otros servicios
+Notificaciones
+Anunciantes
+Datos abiertos
+Transparencia
+Información institucional, organizativa y de planificación
+Información de relevancia jurídica
+Información económica, presupuestaria y estadística
+Información patrimonial
+Contactar
+Sobre la sede electrónica
+Mapa
+Protección de datos
+Sistema Interno de Información
+Tutoriales
+Empleo en la AEBOE
+Avda. de Manoteras, 54 - 28050 Madrid
+
+### Presentación: https://www.euskadi.eus/energia-presentacion/web01-a2energi/es/
+Departamento de Industria, Transición Energética y Sostenibilidad
+Energía
+Euskadi es un pequeño país, con una superficie de unos 7.250 km2, pero con un alto nivel de industrialización, superior a la media europea. El 48% del consumo energético de nuestra región corresponde a la industria, mientras que el consumo en los edificios (viviendas, comercios y servicios), que en Europa constituye el 40% del total, en la CAPV es inferior al 20% gracias a las moderadas temperaturas tanto invernales como veraniegas. Al igual que en el resto del mundo, el suministro de energía para el transporte es el de mayor crecimiento en los últimos años, alcanzando ya este sector el 33% del consumo final de energía en Euskadi.
+La razón de ser fundamental de la Estrategia energética para Euskadi es el garantizar que nuestro país, con un alto consumo energético y muy escasos recursos naturales, disponga de energía suficiente en cantidad, calidad y tiempo, a un coste competitivo y de forma sostenible para el medioambiente.
+Contacto
+1- Servicios centrales:
+Dirección de Energía,Minas y Administración Industrial
+c/ Donostia-San Sebastián, 1 - 01010- VITORIA-GASTEIZ
+Tfn: 945 01 82 18
+Fax: 945 01 99 78
+demadi@euskadi.eus
+2- Servicios Territoriales:
+Delegaciones Territoriales del Departamenteo de Desarrollo Economico y Competitividad.
+Delegación Territorial de Alava
+Delegación Territorial de Bizkaia
+Delegación Territorial de Gipuzkoa
+c/ Samaniego, 2
+01008 VITORIA-GASTEIZ
+945 017770 - Fax 945 017787
+c/ General Concha, 23
+48010 BILBAO
+94 4031400 - Fax 94 4031445
+c/ Easo, 10
+20006 DONOSTIA-SAN SEBASTIÁN
+943 022500 - Fax 943 022542
+Fecha de última modificación: 08/02/2018
+
+### Plan de energía de Euskadi 2030: https://www.euskadi.eus/estrategia-energetica-euskadi-2030/web01-a2energi/es/
+Departamento de Industria, Transición Energética y Sostenibilidad
+Energía
+Entidad:
+Industria, Transición Energética y Sostenibilidad
+Órgano:
+Dirección de Proyectos Estratégicos y Administración Industrial
+Estado:
+Proyecto en ejecución
+Identificación
+Objetivos
+La Estrategia Energética de Euskadi es el instrumento de planificación que recoge los fundamentos de la política energética de Euskadi generalmente con un horizonte de 10 años. La anterior estrategia aprobada con el horizonte 2020 ha sido revisada para adaptarla a la nueva situación socio-económica de la sociedad vasca debido a importantes cambios en el marco normativo, así como a la evolución de la tecnología, los mercados y del consumo energético de los últimos años, marcados por la crisis económica y financiera internacional, y con la vista puesta en el año 2030.
+La visión a largo plazo hacia la cual se dirige la Estrategia Energética es la evolución progresiva del modelo socioeconómico, en especial en lo referido a la industria, la vivienda y el transporte, hacia un nuevo modelo de menor consumo energético, estando este consumo centrado en las energías renovables, con la energía eléctrica como principal vector energético. Como objetivos a largo plazo se plantean un consumo cero de petróleo para usos energéticos en 2050 y un consumo cero de combustibles fósiles con emisiones netas cero de GEI al final de este siglo, así como reducir las emisiones de GEI en un 80% en el año 2050 respecto a 2005.
+Con esta visión, los objetivos a largo plazo pretenden alcanzar un sistema energético cada vez más bajo en carbono a la vez que competitivo. Los objetivos generales son los que se reflejan a continuación:
+Intensificar las actuaciones en eficiencia energética en todos los sectores para limitar el nivel de consumo energético.
+Contribuir a mantener un sistema energético competitivo y sostenible e incrementar el aprovechamiento de las energías renovables.
+Establecer áreas prioritarias de investigación, identificación de recursos, desarrollo tecnológico e industrial en el campo energético.
+La Estrategia Energética de Euskadi se compone de un conjunto de líneas de actuación que avanzan en el camino de la eficiencia energética y la seguridad del suministro emprendido por Euskadi desde que cuenta con una política energética propia, distribuidas en diferentes ámbitos:
+Se establecen líneas de actuación dirigidas a la reducción de la demanda de energía, bien por la reducción de los niveles de consumo, por la utilización de energías renovables u otras alternativas de suministro energético, o finalmente, por la gestión de la demanda para optimizar el sistema energético.
+Sector transporte
+Sector industrial
+Edificios y viviendas
+Sector primario
+Administración
+También se consideran actuaciones referentes a la supervisión de mercados y suministro energético, incluyendo los estudios para determinar el potencial de suministro local.
+En cuanto al desarrollo tecnológico e industrial, se recogen líneas dirigidas a aprovechar las nuevas oportunidades de futuro que se presentan a la industria vasca para innovar en tecnologías energéticas de vanguardia.
+Plan al que se adscribe
+Plan de seguimiento y revisión
+Para conocer la evolución del marco energético y el grado de avance de la Estrategia Energética de Euskadi resulta necesario establecer un mecanismo de control y seguimiento periódico de las medidas incluidas en la misma, así como de sus efectos. La comparación de los objetivos establecidos en la Estrategia con los resultados realmente obtenidos en el transcurso del tiempo permitirá efectuar el control de la misma, de manera que se puedan detectar las desviaciones existentes y plantear las medidas correctoras.
+Los elementos del Plan de Seguimiento serán los siguientes:
+Informes anuales de seguimiento que recojan un resumen de las actuaciones realizadas en el ámbito de la Estrategia en el año, de los cambios habidos en el marco energético y la evolución de los indicadores de seguimiento en relación a los objetivos establecidos.
+Informes intermedios de evaluación, que serán realizados cada tres años. En los informes de evaluación, en los que además de la información recogida en el informe de seguimiento se realizará una evaluación de las desviaciones en la realización de las actuaciones y de los indicadores, proponiéndose medidas correctoras para las mismas.
+Estos informes serán elaborados por el Ente Vasco de la Energía integrando información de diferentes fuentes tanto propias como de operadores energéticos, consumidores de energía e instituciones.
+Los indicadores de seguimiento deberán estar basados en información de calidad y consistente que refleje la realidad de la situación energética en el País Vasco y den una medida de las actuaciones realizadas y su impacto. Estos indicadores se agrupan en un cuadro de mando y cubren los aspectos siguientes:
+Eficiencia energética
+Dependencia del petróleo y de los combustibles fósiles
+Aprovechamiento de energías renovables
+Estructura del suministro de energía eléctrica
+Actuaciones de desarrollo tecnológico
+Impacto ambiental
+Inversiones y ayudas
+Anualmente se calcularán en colaboración con Ihobe las emisiones energéticas de gases de efecto invernadero y otros contaminantes como óxidos de nitrógeno, dióxido de azufre, monóxido de carbono y partículas.
+Cada 5 años se realizará una reflexión alrededor de la Estrategia Energética para determinar la necesidad de adaptarla al progreso de la tecnología, de la sociedad, de la normativa y de las políticas europeas, y mantenerla alineada con los objetivos de sostenibilidad que se establezcan en las políticas del País Vasco
+Alcance
+Escenarios de política energética 2030
+También han sido analizados diferentes escenarios energéticos a largo plazo en Euskadi, que aplican medidas de política energética, según distintos grados de intensidad en la aplicación de los programas de eficiencia energética y de avance de las energías renovables, y que suponen diferentes niveles de objetivos y de esfuerzo inversor para su consecución.
+El escenario objetivo de políticas energéticas 2030 supone un importante esfuerzo en la consecución de las metas que se proponen, sobre todo en los sectores más atomizados de edificios y transporte. Las claves de política energética consideradas han sido las siguientes:
+Maximizar el fomento de la eficiencia energética y propiciar la incorporación de nuevas instalaciones de aprovechamiento de las energías renovables en la industria vasca, aprovechando las posibilidades de ahorro existentes en el sector, renovando e incorporando nuevas instalaciones de cogeneración de alta eficiencia, todo ello con el objetivo final de reducir sus costes energéticos, mejorando su competitividad y sostenibilidad.
+Intensificar las actuaciones en materia de ahorro energético y de incremento del equipamiento de instalaciones para el aprovechamiento de las energías renovables en los edificios, que permita reducir la factura energética, sobre todo en lo que hace referencia a los edificios y alumbrado público de la administración pública vasca.
+Avanzar en el transporte y la movilidad sostenible, sabiendo que las actuaciones en este sector requieren cambios estructurales a largo plazo, a través de un uso más racional y sostenible, mediante el fomento del transporte público, o la incorporación paulatina de vehículos alternativos al petróleo y de menor consumo específico.
+Mejorar la sostenibilidad del parque de generación eléctrica mediante la incorporación de nuevas instalaciones de renovables y cogeneración, incrementando la generación distribuida y fomentando el autoconsumo.
+Participantes y agentes
+Plan 3E2030. Documento para consulta pública (PDF, 2 MB) del 7 de julio de 2016.
+Estudio Ambiental Estratégico. Documento para consulta pública (PDF, 2 MB) del 7 de julio de 2016
+Fecha de última modificación: 20/01/2016

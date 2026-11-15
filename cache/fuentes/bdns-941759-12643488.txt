@@ -2217,4 +2217,193 @@ Objetivo
 Duración
 Propietario
 JSESSIONID
-I
+Identificar la sesión
+Sesión
+Diputación Foral de Bizkaia
+ASPSESSIONID
+Sesión
+TS01
+Sesión
+LFR_SESSION_STATE
+Sesión
+1 año
+pc_tecnicas_bizkaia
+1 año
+pc_analitica_bizkaia
+1 año
+pc_preferencias_bizkaia
+1 año
+pc_terceros_bizkaia
+1 año
+CPLB
+Contiene información utilizada por nuestros servidores de equilibrio de carga
+Sesión
+Kultursistema_session
+Mantener la sesión de la persona usuaria
+1 hora
+Kultursistema
+XSRF-TOKEN
+Para evitar ataques CSRF (Cross Site Request Forgery)
+1 hora
+Kultursistema
+_GRECAPTCHA
+Protege el sitio web del spam y los ataques de fuerza bruta
+6 meses
+Google
+Nombre
+Objetivo
+Duración
+Propietario
+Rastrea una visita a través de múltiples solicitudes
+Sesión
+dtLatC
+Mide la latencia del servidor para la monitorización del rendimiento
+Sesión
+dtPC
+Necesario para identificar los parámetros adecuados para la transmisión de balizas; incluye ID de sesión para correlación
+Sesión
+dtSa
+Almacén intermedio para acciones que abarcan páginas
+Sesión
+rxVisitor
+ID de visitante para correlacionar sesiones
+Permanente
+rxvt
+Tiempo de espera de sesión
+Sesión
+iyrc-user-id
+Distinguir a las personas usuarias
+1 hora
+_ga, _ga_XXXXXXXXXXX
+Distinguir a la persona usuaria
+2 años
+Google Analytics
+_gat, _gat_XXXXXXXXXXX
+Limitar el porcentaje de solicitudes
+1 minuto
+_gid
+1 día
+MUID
+1 año
+Microsoft Clarity
+_clck
+Asignar preferencias a la misma persona usuaria
+1 año
+_clsk
+Conecta múltiples páginas vistas en una sesión
+1 año
+CLID
+Identificar la primera visita de una persona usuaria
+1 año
+ANONCHK
+1 día
+MR
+Indica cuando refrescar MUID
+6 meses
+SM
+Sincronizar MUID en el entorno Microsoft
+1 año
+Nombre
+Objetivo
+Duración
+Propietario
+Idioma
+Seleccionar el idioma preferido por la persona usuaria
+1 año
+Guardar los trámites favoritos en Cita Previa
+1 año
+Nombre
+Objetivo
+Duración
+Propietario
+CLID
+1 año
+APISID
+Almacenar las preferencias del usuario y la información durante la visualización de las páginas con los mapas de Google en ellos
+2 años
+Google
+HSID
+Prevención del fraude
+2 años
+Google
+MUID
+1 año
+NID
+Recordar sus preferencias y otra información
+6 meses
+Google
+SAPISID
+Mostrar anuncios personalizados en los sitios de Google
+2 años
+Google
+SID
+Proporcionar entrega de anuncios o retargeting, proporcionar prevención del fraude
+2 años
+Google
+SIDCC
+Proporcionar la identificación del tráfico web confiable
+1 año
+Google
+SM
+Se utiliza para sincronizar el MUID entre dominios de Microsoft
+Sesión
+SSID
+2 años
+Google
+__Secure-1PAPISID
+Crear un perfil de los intereses del visitante del sitio web con el fin de mostrar publicidad de Google relevante y personalizada
+2 años
+Google
+__Secure-1PSID
+2 años
+Google
+__Secure-1PSIDCC
+Crear un perfil de los intereses de los visitantes del sitio web para mostrar anuncios relevantes y personalizados a través de retargeting
+1 año
+Google
+__Secure-1PSIDTS
+1 año
+Google
+__Secure-3PSID
+2 años
+Google
+__Secure-3PSIDCC
+1 año
+Google
+__Secure-3PSIDTS
+1 año
+Google
+__Secure-ENID
+1 año
+Google
+ar_debug
+Depurar anuncios
+1 año
+Google
+MR
+6 meses
+XSRF-TOKEN
+1 hora
+Kultursistema
+_fbp
+Almacenar y rastrear las visitas en los sitios web
+1 año
+Facebook
+1 hora
+Kultursistema
+AEC
+Detectar spam, fraude y abuso
+6 meses
+Google
+SOCS
+13 meses
+Google
+Locale
+No disponible
+Gobierno Vasco
+_hegoa_coop_session
+Generar un identificador de sesión para las personas usuarias
+Sesión
+Gobierno Vasco
+Siempre activas
+Son necesarias para permitirte navegar por nuestra página web y para las tareas básicas para el correcto funcionamiento de la página.

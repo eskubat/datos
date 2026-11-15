@@ -789,4 +789,679 @@ gestión pesquera y oceanográfica, mediante la optimización de plataformas aut
 la integración de datos de alta resolución y el diseño de estrategias innovadoras de
 muestreo adaptadas a un contexto de cambio global. De este modo, el proyecto refuerza
 la capacidad de anticipación, resiliencia e innovación del sistema científico-tecnológico
-aplicado al medio marino, favorecie
+aplicado al medio marino, favoreciendo una gestión más sostenible de los recursos y una
+transición hacia modelos de monitorización de menor impacto ambiental.
+Objetivos: Esta tesis doctoral se plantea los siguientes logros:
+• Desarrollar estrategias de planificación y navegación autónoma para gliders y
+USVs en condiciones oceanográficas variables, optimizando la eficiencia
+energética y el rendimiento de las misiones.
+• Diseñar metodologías de muestreo adaptativo que permitan ajustar la estrategia
+de observación a la dinámica temporal de procesos costeros de rápida evolución.
+• Integrar requisitos operativos específicos orientados a la medida de ciertos
+procesos o dictados por los requerimientos de sensores específicos (como
+acústica o turbulencia) en la planificación de misiones.
+• Estudiar las mejoras de estas soluciones en entornos multi-agente - con más de
+un glider y/o vehículo autónomo de superficie.
+• Desarrollar estrategias para la integración de gliders y USVs en campañas
+oceanográficas y pesqueras, maximizando la complementariedad con barcos
+científicos tripulados, por ejemplo.
+Infraestructura de investigación: Para llevar a cabo su tesis la/el estudiante tendrá acceso
+a una infraestructura de primer nivel, con varios USVs, gliders y ROVs (Remote Operated
+Vehicles), así como acceso a barcos de referencia instrumentalizados con sensórica
+avanzada de pesca y oceanografía. Mas allá del equipo de investigadores que estará al
+cargo de la dirección de la tesis, la/el estudiante dispondrá de un amplio grupo de
+expertos internacionales tanto en el ámbito de la investigación oceanográfica y en la
+pesca, como en el modelado de sensórica multi-modal y navegación robótica móvil. El
+sistema de oceanografía operacional de la costa vasca (EuskOOs) le ofrecerá un marco de
+experimentación, ya que pondrá información oceanográfica a su disposición. Contará con
+datos de variables ambientales (corrientes, variables hidrográficas y biogeoquímicas)
+IEZ-CIF G48/939508 - F38 zenb. Fundazioen Errejistroan Inskribatuta - Inscrita en el Registro de Fundaciones con el nº F38
+obtenidas de distintas plataformas de observación como satélites oceanográficos,
+plataformas operacionales in-situ que incluyen un sistema de radar HF, así como datos de
+pesquería recabados en las campañas oceanográficas de muestreo que se realizan
+anualmente en el golfo de Vizcaya para la evaluación de recursos pesqueros. La
+anticipación de disponibilidad de zonas de navegación acotadas y aprobadas para el
+testeo de campo es también un factor ventajoso para llevar a cabo esta labor de
+investigación.
+Se espera que los resultados podrán integrarse en infraestructuras operacionales
+existentes, como el POA (Pasaia Ocean Autonomy), una infraestructura avanzada de
+observación oceánica que integra gliders y otros sistemas autónomos marinos dentro de
+un enfoque multiplataforma, cuyo objetivo es el desarrollo de nuevos servicios de
+monitorización marina basados en datos autónomos, incluyendo aplicaciones para la
+evaluación de ecosistemas, seguimiento de recursos pesqueros y apoyo a la toma de
+decisiones. Esta infraestructura incluye actualmente dos gliders instrumentados con
+sensores físicos, biogeoquímicos y acústicos y dos vehículos de superficie no tripulados.
+Además, el POA cuenta con capacidades completas de operación, control de misiones y
+gestión de datos bajo estándares de calidad e interoperabilidad, proporcionando un
+entorno técnico consolidado y adecuado para el desarrollo de la tesis.
+Lugar: La tesis se llevará a cabo principalmente en el centro de Sukarriera, en el grupo
+Tecnologías Pesqueras Sostenibles, y en el grupo de Ingeniería Costera y Oceanografía
+Operacional situado en el centro de Pasaia. El equipo investigador tiene una amplia
+trayectoria en investigación avanzada en robótica móvil, planificación y fusión de sistemas
+multi-modales, así como una sólida trayectoria en oceanografía operacional, observación
+multiplataforma y despliegue de tecnologías autónomas marinas. Esto se complementa
+también con una amplia experiencia en tecnologías aplicadas a campañas pesqueras y
+gestión de datos en tiempo real. Asimismo, la red de contactos con otros grupos de
+investigación destacados a escala internacional permitirá al doctorando visitar centros
+nacionales e internacionales de investigación.
+Plan formativo:
+•
+•
+Formación avanzada en manejo de AUVs, USVs y sensoria oceanográfica
+Formación en simuladores marinos robóticos y desarrollos para la planificación
+avanzada de trayectorias en entornos 3D, 2D y 2.5D.
+•
+•
+IEZ-CIF G48/939508 - F38 zenb. Fundazioen Errejistroan Inskribatuta - Inscrita en el Registro de Fundaciones con el nº F38
+•
+•
+•
+Optimización espacio-temporal de estrategias de muestreo de acuerdo a las
+variables de interés, teniendo en cuenta parámetros como adaptación en tiempo
+real, entropía, exploración vs explotación, naturaleza de los eventos costeros y
+los sensores que realizan las mediciones correspondientes.
+Colaboración entre múltiple AUVs y USVs para llevar a cabo las misiones, así como
+la complementación de campañas oceanográficas y pesqueras llevadas a cabo a
+bordo de barcos científicos.
+Participación en redes internacionales y colaboración con expertos en autonomía
+marina, oceanografía operacional y evaluación pesquera
+Estancias en centros internacionales de referencia
+Participación en congresos y workshops internacionales.
+Referencias:
+[1] “Monitoring of anchovy schools by a glider-mounted echo sounder in the SouthEastern Bay of Biscay”, G. Fievet, G. Boyra, A. Caballero, I. Manso-Narvarte, U. Martínez,
+A. Nieto, A. Rubio, Fisheries Oceanography, 35 (6), pp. 833–848, 2026.
+[2] “Template-Free nonrevisiting uniform coverage path planning on curved surfaces”, T.
+Yang, J. V. Miro, M. Nguyen, Y. Wang, R. Xiong, IEEE/ASME Transactions on
+Mechatronics, 28 (4), pp. 1853-1861, 2023.
+[3] “EuroGOOS roadmap for operational coastal downstream services”, G. El-Serafy G, L.
+Mészáros, V. Fernández, A. Capet, J. She, M. Sotillo, A. Melet, S. Legrand, B. Mourre, F.
+Campuzano, I. Federico, A. Guarnieri, A. Rubio, T. Dabrowski, G. Umgiesser, J. Staneva, L.
+Ursella, I. Pairaud, A. Bruschi, H. Frigstad, K. Baetens, V. Creach, G. Charria, F. AlvarezFanjul, Frontiers of Marine Science, 10 (1177615), 2023.
+[4] “ITSASDRONE, an autonomous marine surface drone for fish monitoring around
+wave energy devices”, A. Uriarte, G. Boyra, J.M. Ferarios, G. Gabiña, J. Lasa, I. Quincoces,
+S. Beatriz, Proceedings of the European Wave and Tidal Energy Conference, volume 15,
+2023.
+[5] “A standard processing framework for the location data of satellite-linked buoys on
+drifting fish aggregating devices”, Y. Baidai, J. Uranga, M. Grande, H. Murua, J. Santiago,
+I. Quincoces, G. Boyra, Aquatic Living Resources, 35, pp 13, 2022.
+[6] “Sampling-based incremental information gathering with applications to robotic
+exploration and environmental monitoring”, M. Ghaffari Jadidi, J. Valls Miro, G.
+Dissanayake, The International Journal of Robotics Research, 38 (6), pp. 658-685, 2019.
+IEZ-CIF G48/939508 - F38 zenb. Fundazioen Errejistroan Inskribatuta - Inscrita en el Registro de Fundaciones con el nº F38
+PERFIL DEL CANDIDATO/A:
+• Titulación/Estudios: Título universitario en Ingeniería Mecatrónica, Informática,
+Eléctrica, Industrial, de telecomunicaciones, Física o cualquier otra titulación o
+recorrido académico que ofrezca conocimientos relacionados con la temática del
+proyecto.
+• Especialidad: no requerida
+• Idiomas: inglés
+• Otros conocimientos:
+- Serán altamente valorados conocimientos en robótica, sensórica,
+interfaces/sistemas embarcados, programación de sistemas (Python, C++),
+lenguajes de programación científicos y de simulación (p.e. Matlab). Así como
+conocimientos de ROS, machine learning (PyTorch, Tensorflow), Latex y
+entornos de desarrollo en Open Source.
+- Al mismo tiempo, se valorará muy positivamente desarrollos o experiencias
+previas del candidato en entornos relacionados con Oceanografía, Ciencias del
+Mar, Ciencias Ambientales u otras titulaciones afines.
+• Requerimiento de MÁSTER: Sí, o formación equivalente que permita realizar una
+tesis.
+OBSERVACIONES:
+• El/la candidata/a ideal es un/una estudiante con flexibilidad para adaptarse a
+diferentes situaciones y retos científico-tecnológicos, con alta grado de iniciativa y
+proactividad en búsqueda de soluciones, capaz de combinar conocimientos de su
+ámbito de conocimiento con otros ámbitos transversales para la identificación y
+desarrollo de soluciones innovadoras.
+• Altamente valorable: motivación por la investigación científica, constatado
+principalmente con publicaciones científicas y estancias en centros de
+investigación.
+• Disponibilidad para viajar (estancias, congresos).
+
+### Información detallada: https://www.euskadi.eus/contenidos/ayuda_subvencion/ikertalent_2026/es_def/adjuntos/P6_informacion_es.pdf
+AYUDA FORMACIÓN PREDOCTORAL-IKERTALENT
+Título Proyecto: Diseño y digitalización de procesos avanzados de biorrefinería
+para la valorización de subproductos agroalimentarios
+El proyecto predoctoral propuesto por AZTI, a desarrollar en sus instalaciones de Derio, se
+orienta al diseño, desarrollo y validación de estrategias avanzadas de biorrefinería aplicadas
+a subproductos y corrientes secundarias de la industria agroalimentaria, con el objetivo de
+obtener ingredientes de alto valor añadido para aplicaciones alimentarias y nutracéuticas. La
+propuesta combina tecnologías de pretratamiento, fraccionamiento, extracción, purificación,
+estabilización y digitalización de procesos, con un enfoque integrado de sostenibilidad,
+eficiencia de recursos y transferencia industrial.
+1. Enfoque técnico y justificación
+La generación de pérdidas, subproductos y corrientes secundarias en la transformación
+alimentaria constituye una fuente relevante de biomasa infrautilizada. Muchas de estas
+corrientes contienen fracciones de interés tecnológico y nutricional, como proteínas,
+péptidos, fibras, lípidos, compuestos fenólicos, minerales u otros componentes bioactivos.
+Sin embargo, su aprovechamiento exige procesos capaces de manejar matrices heterogéneas,
+variables en composición y estabilidad, y con requerimientos específicos de seguridad,
+funcionalidad, calidad y escalabilidad.
+En este contexto, el proyecto plantea una aproximación de biorrefinería alimentaria,
+entendida como la combinación ordenada de operaciones unitarias orientadas al
+aprovechamiento integral de una materia prima residual o secundaria. El objetivo no es
+únicamente recuperar una fracción de interés, sino diseñar rutas de valorización que
+maximicen el rendimiento global, reduzcan la generación de residuos secundarios y generen
+conocimiento sobre la relación entre composición de la materia prima, condiciones de
+proceso y propiedades del ingrediente obtenido.
+La incorporación de herramientas de digitalización constituye un elemento diferencial del
+proyecto. La adquisición sistemática de datos de proceso, su estructuración y análisis
+permitirán identificar variables críticas, establecer ventanas operativas robustas, apoyar la
+optimización experimental y facilitar la futura transferencia a escala piloto o industrial. Esta
+dimensión digital se aplicará como soporte al diseño experimental y como base para la
+modelización de procesos de valorización.
+2. Objetivo general y objetivos específicos
+El objetivo general del proyecto es desarrollar y validar una estrategia integrada de
+biorrefinería avanzada y digitalización de procesos para la valorización sostenible de
+subproductos agroalimentarios, orientada a la obtención de ingredientes de alto valor
+añadido para aplicaciones en alimentación y nutracéutica, maximizando el rendimiento, la
+calidad funcional y la eficiencia técnico-ambiental del proceso.
+1. Seleccionar y caracterizar subproductos agroalimentarios con potencial de
+valorización, considerando composición, disponibilidad, estabilidad, seguridad y
+aplicabilidad industrial.
+2. Diseñar rutas de pretratamiento, procesado, fraccionamiento, extracción, purificación
+y estabilización adaptadas a la naturaleza de cada corriente.
+3. Evaluar el rendimiento de recuperación y la calidad físico-química, tecnológica,
+funcional y, cuando proceda, bioactiva de los ingredientes obtenidos.
+4. Desarrollar una capa de digitalización basada en captura, estructuración y análisis de
+datos de proceso, orientada a la monitorización de variables críticas y al apoyo a la
+optimización.
+5. Integrar indicadores técnicos, funcionales, ambientales y de escalabilidad para
+seleccionar las configuraciones de proceso con mayor potencial de transferencia.
+3. Metodología de trabajo
+La metodología se organizará en una secuencia de trabajo experimental e iterativa. En primer
+lugar, se realizará una revisión técnico-científica y una selección justificada de materias
+primas, priorizando corrientes con interés por su composición, volumen, estabilidad, facilidad
+de obtención y potencial de aplicación. Esta etapa incluirá la caracterización inicial de las
+matrices seleccionadas y la definición de criterios de valorización.
+Posteriormente se diseñarán rutas de biorrefinería que podrán incluir, según la materia prima
+y el objetivo de valorización, operaciones de reducción de tamaño, separación sólido-líquido,
+tratamientos térmicos, tratamientos enzimáticos o fermentativos, extracción, concentración,
+filtración por membranas, purificación y estabilización. Cada operación se evaluará en función
+de su contribución al rendimiento, selectividad, conservación de la funcionalidad, consumo
+de recursos y generación de corrientes residuales.
+Los ingredientes o fracciones obtenidas se caracterizarán mediante técnicas físico-químicas y
+funcionales adecuadas a cada caso. La caracterización podrá incluir composición proximal,
+perfil de compuestos de interés, propiedades tecnológicas, estabilidad, solubilidad, capacidad
+emulsificante, capacidad antioxidante u otros parámetros relevantes para su incorporación
+en matrices alimentarias o nutracéuticas. La selección de ensayos dependerá de la naturaleza
+de la fracción obtenida y de la aplicación prevista.
+La digitalización del proceso se abordará mediante la identificación de variables críticas, la
+definición de puntos de captura de datos, la estructuración de bases de datos experimentales
+y el uso de análisis multivariante o modelos predictivos sencillos para relacionar condiciones
+de operación, características de materia prima y propiedades del ingrediente final. Este
+enfoque permitirá mejorar el control del proceso, reducir la variabilidad y generar
+conocimiento útil para el escalado.
+4. Resultados esperados
+Como resultados principales se espera obtener una caracterización técnico-funcional de una
+o varias corrientes secundarias agroalimentarias con potencial de valorización, al menos una
+ruta de biorrefinería validada a escala de laboratorio, una o varias fracciones o ingredientes
+con interés tecnológico o nutricional, y un marco de digitalización aplicable a la
+monitorización y optimización del proceso.
+El proyecto generará conocimiento sobre la influencia de la variabilidad de la materia prima,
+las condiciones de operación y la secuencia de procesos en el rendimiento y la calidad del
+producto final. Este conocimiento permitirá establecer criterios técnicos para la selección de
+materias primas, el diseño de procesos de valorización y la definición de condiciones de
+operación reproducibles y transferibles.
+5. Plan de trabajo
+El proyecto se desarrollará durante cuatro años. El primer año se centrará en la revisión
+científico-técnica, la selección de materias primas, la caracterización inicial y el diseño
+experimental. El segundo año abordará el desarrollo de rutas de pretratamiento,
+fraccionamiento y recuperación de ingredientes. El tercer año se orientará a la optimización
+de procesos, caracterización avanzada de fracciones e integración de datos experimentales.
+El cuarto año se dedicará a la consolidación de la capa de digitalización, la comparación de
+alternativas, la evaluación de escalabilidad y la integración final de resultados para la tesis
+doctoral.
+Los hitos técnicos previstos incluyen la selección justificada de materias primas, la definición
+de rutas de valorización, la validación experimental de los procesos, la obtención de
+ingredientes con propiedades objetivo, la implementación del esquema de digitalización y la
+integración de indicadores técnicos, funcionales y ambientales. Los entregables principales
+serán un informe de selección y caracterización de materias primas, un informe de rutas de
+biorrefinería, un informe de ingredientes obtenidos y caracterización, y un informe de
+digitalización y modelización del proceso.
+6. Capacidades técnicas y entorno de ejecución
+La ejecución del proyecto requiere capacidades en procesado de matrices alimentarias,
+bioprocesos, separación y purificación, análisis físico-químico, caracterización funcional,
+sostenibilidad y tratamiento de datos. AZTI dispone de un entorno científico-técnico
+adecuado para el desarrollo del proyecto, incluyendo capacidades de laboratorio y escala
+piloto, experiencia en valorización de subproductos, desarrollo de ingredientes, ecoeficiencia
+de procesos y digitalización aplicada a sistemas alimentarios.
+La persona predoctoral se integrará en un equipo multidisciplinar con experiencia en
+tecnología alimentaria, procesos de biorrefinería, caracterización de matrices complejas,
+sostenibilidad, análisis de datos y transferencia tecnológica. La supervisión científica y técnica
+permitirá asegurar la coherencia metodológica, la trazabilidad experimental, la revisión
+periódica de avances y la orientación de los resultados hacia una tesis doctoral robusta y con
+potencial de aplicación.
+
+### Información detallada: https://www.euskadi.eus/contenidos/ayuda_subvencion/ikertalent_2026/es_def/adjuntos/P7_informacion_es.pdf
+Proyecto GAZTOMICS
+GAZTOMICS
+P7-Estudio integrado del terroir microbiano de los quesos
+artesanos y desarrollo de fermentos autóctonos
+Sobre LEARTIKER
+La tesis doctoral se desarrollará en LEARTIKER, centro tecnológico integrado en la Red
+Vasca de Ciencia, Tecnología e Innovación (RVCTI) y miembro de Basque Research and
+Technology Alliance (BRTA). Como cooperativa sin ánimo de lucro perteneciente a la
+División de Conocimiento de MONDRAGON, LEARTIKER trabaja para generar y transferir
+conocimiento científico-tecnológico al tejido empresarial y a la sociedad, impulsando
+proyectos orientados a la innovación y al desarrollo sostenible.
+La persona investigadora se incorporará a un entorno multidisciplinar en el que conviven
+la investigación aplicada, la transferencia tecnológica y la colaboración con empresas,
+universidades y centros de investigación. Este ecosistema permite desarrollar una
+carrera investigadora conectada con los retos reales del sector alimentario y con una
+clara orientación hacia la generación de impacto científico, tecnológico y social.
+Proyecto de tesis doctoral en LEARTIKER
+El proyecto GAZTOMICS tiene como objetivo investigar los microorganismos presentes
+en los sistemas de producción de queso artesano para comprender cómo influyen en las
+características finales del producto y aprovechar ese conocimiento para desarrollar
+nuevos fermentos autóctonos de alto valor tecnológico.
+Esta tesis doctoral, desarrollada en colaboración entre LEARTIKER y la UNIVERSIDAD
+DEL PAÍS VASCO (EHU), ofrece la oportunidad de participar en una investigación
+innovadora que combina microbiología, biología molecular, bioinformática y tecnología
+alimentaria, aportando soluciones reales a uno de los sectores más representativos del
+entorno agroalimentario vasco.
+El reto
+La calidad, personalidad y diferenciación de los quesos artesanos dependen en gran
+medida de las comunidades microbianas presentes en la leche, las instalaciones de
+producción y los procesos de maduración. Este conjunto de microorganismos, conocido
+1
+LEARTIKER, S.COOP.- F95815114
+Xemein Etorbidea 12 A, 48270 Markina-Xemein, Bizkaia
+946 169 089 | info@leartiker.com | www.leartiker.com
+Proyecto GAZTOMICS
+como terroir microbiano, contribuye directamente al desarrollo de aromas, sabores y
+texturas únicas.
+Sin embargo, todavía existe un conocimiento limitado sobre qué microorganismos son
+responsables de estas características y cómo pueden aprovecharse para mejorar los
+procesos productivos. Actualmente, muchas queserías utilizan fermentos comerciales
+estandarizados que garantizan la seguridad y estabilidad del proceso, pero que pueden
+limitar la singularidad de los productos.
+GAZTOMICS busca identificar y caracterizar microorganismos autóctonos con potencial
+tecnológico para desarrollar nuevos fermentos adaptados a las características
+específicas de cada entorno productivo.
+Objetivos del proyecto
+El proyecto persigue tres grandes objetivos:
+•
+Caracterizar la microbiota presente en diferentes etapas de la producción de
+queso artesano.
+•
+Comprender las funciones metabólicas de los microorganismos que participan en
+la calidad y diferenciación del producto.
+•
+Desarrollar y validar fermentos autóctonos capaces de mejorar la calidad,
+reproducibilidad y sostenibilidad de la producción quesera.
+Para ello, se estudiarán muestras procedentes de leche cruda, instalaciones de
+producción y quesos en distintas fases de maduración.
+Tecnologías y metodología
+La persona doctoranda trabajará con herramientas avanzadas de microbiología
+molecular y análisis de datos biológicos, adquiriendo formación en áreas altamente
+demandadas tanto en investigación como en la industria alimentaria y biotecnológica.
+Entre las principales actividades del proyecto destacan:
+•
+Caracterización de comunidades
+secuenciación masiva.
+microbianas
+mediante
+técnicas
+de
+•
+Análisis bioinformático de datos genómicos y metagenómicos.
+•
+Aislamiento y estudio de microorganismos de interés tecnológico.
+•
+Desarrollo y validación de nuevos fermentos para aplicaciones en quesería
+artesanal.
+2
+LEARTIKER, S.COOP.- F95815114
+Xemein Etorbidea 12 A, 48270 Markina-Xemein, Bizkaia
+946 169 089 | info@leartiker.com | www.leartiker.com
+Proyecto GAZTOMICS
+La combinación de trabajo experimental y análisis computacional proporcionará una
+visión integral de la investigación en ciencias ómicas aplicadas a los alimentos.
+Impacto esperado
+Los resultados de GAZTOMICS contribuirán a generar conocimiento científico sobre los
+ecosistemas microbianos asociados a la producción quesera y facilitarán su
+transferencia al sector productivo.
+Entre los resultados previstos se encuentran:
+•
+Identificación de microorganismos asociados a la calidad del queso.
+•
+Obtención de nuevas cepas autóctonas con interés tecnológico.
+•
+Desarrollo de fermentos innovadores para queserías artesanas.
+•
+Publicación de resultados científicos y transferencia del conocimiento generado
+al sector.
+Además, el proyecto contribuirá a reforzar la competitividad de las queserías artesanas,
+promoviendo la valorización de los recursos microbianos locales y reduciendo la
+dependencia de cultivos comerciales externos.
+Entorno de trabajo
+La investigación se desarrollará en LEARTIKER, un centro tecnológico con experiencia
+en innovación alimentaria y transferencia tecnológica. La persona seleccionada
+trabajará en un entorno multidisciplinar, colaborando con investigadores especialistas
+en microbiología, biología molecular, bioinformática y tecnología láctea.
+Además del trabajo científico y técnico asociado a la tesis doctoral, la persona candidata
+pasará a formar parte de una organización comprometida con el desarrollo profesional
+de las personas. LEARTIKER promueve la formación continua, el aprendizaje
+colaborativo y la participación activa en proyectos estratégicos de investigación e
+innovación.
+El equipo de trabajo está formado por profesionales de diferentes disciplinas científicas
+y tecnológicas, favoreciendo un entorno dinámico donde compartir conocimiento,
+desarrollar nuevas competencias y participar en iniciativas con impacto directo en el
+sector agroalimentario.
+3
+LEARTIKER, S.COOP.- F95815114
+Xemein Etorbidea 12 A, 48270 Markina-Xemein, Bizkaia
+946 169 089 | info@leartiker.com | www.leartiker.com
+Proyecto GAZTOMICS
+El proyecto permitirá acceder a equipamiento científico avanzado y participar en
+colaboraciones con universidades, centros de investigación y empresas del sector
+alimentario.
+Perfil de las personas candidatas
+Se buscan personas con vocación investigadora e interés por la microbiología, la
+biotecnología y la innovación alimentaria. Titulaciones recomendadas:
+•
+Biotecnología.
+•
+Biología.
+•
+Bioquímica y Biología Molecular.
+•
+Ciencia y Tecnología de los Alimentos.
+•
+Titulaciones afines.
+Se valorarán conocimientos en microbiología, biología molecular o análisis de datos, así
+como la capacidad de trabajar en equipos multidisciplinares y la motivación para
+desarrollar una tesis doctoral con aplicación directa al sector productivo.
+Una oportunidad para desarrollar una carrera investigadora
+Esta tesis doctoral representa una oportunidad para incorporarse a un proyecto
+científico de alto impacto y desarrollar una carrera investigadora en el ámbito de la
+alimentación saludable y sostenible.
+La persona seleccionada contará con:
+•
+Un entorno de investigación aplicada conectado con las necesidades reales del
+sector agroalimentario.
+•
+Participación en proyectos de innovación desarrollados junto con empresas,
+universidades y centros de investigación.
+•
+Formación continua y acompañamiento para el desarrollo profesional.
+•
+Flexibilidad organizativa y medidas orientadas a favorecer la conciliación personal
+y profesional.
+•
+Integración en un equipo joven, multidisciplinar y comprometido con la
+generación de conocimiento y valor para la sociedad.
+•
+Posibilidad de continuar desarrollando una trayectoria profesional en un entorno
+tecnológico e innovador una vez finalizada la etapa doctoral.
+4
+LEARTIKER, S.COOP.- F95815114
+Xemein Etorbidea 12 A, 48270 Markina-Xemein, Bizkaia
+946 169 089 | info@leartiker.com | www.leartiker.com
+Proyecto GAZTOMICS
+Compromiso con las personas
+En LEARTIKER creemos que las personas son el motor de la innovación. Por ello,
+fomentamos una cultura basada en la colaboración, la responsabilidad, la orientación al
+servicio, el rigor científico y el desarrollo continuo. Asimismo, promovemos la igualdad
+de oportunidades y la inclusión, valorando la diversidad como un elemento clave para
+impulsar la creatividad y el avance del conocimiento.
+5
+LEARTIKER, S.COOP.- F95815114
+Xemein Etorbidea 12 A, 48270 Markina-Xemein, Bizkaia
+946 169 089 | info@leartiker.com | www.leartiker.com
+
+### Información detallada: https://www.euskadi.eus/contenidos/ayuda_subvencion/ikertalent_2026/es_def/adjuntos/P8_informacion_es.pdf
+P8-INFORMACIÓN ADICIONAL:
+MONITORIZACIÓN, DIVERSIDAD GENÉTICA Y MANEJO SOSTENIBLE DE CANDIDATUS PHYTOPLASMA
+SOLANI EN PATATA.
+DIRECCION POSTAL DONDE SE VA A DESARROLLAR LA FORMACIÓN
+Campus Agroalimentario de ArkauteN-104, km. 355 – 01192 Arkaute (ARABA-ÁLAVA)
+DURACIÓN
+48 meses
+Marco científico del proyecto
+La patata es el cuarto cultivo básico global, tras arroz, maíz y trigo. El coste de este cultivo ha aumentado debido
+a problemas de sanidad vegetal, agravado por el cambio climático, que favorece la transmisión y desarrollo de
+patógenos emergentes y re-emergentes. Entre ellos destaca el fitoplasma Candidatus Phytoplasma solani,
+agente causal del “stolbur” en patata. La transmisión del patógeno depende de insectos vectores como
+Hyalesthes obsoletus (chicharritas) y Pentastiridius leporinus (chicharrita de la remolacha), que adquieren el
+fitoplasma al alimentarse de plantas infectadas. Se considera una enfermedad re-emergente porque, aunque se
+conoce desde hace décadas, en los últimos años ha aumentado su importancia y expansión. Tras los primeros
+brotes de vid (bois noir) en Francia en los 60, aparecieron epidemias severas en maíz en países balcánicos entre
+los años 90 y 2000. Más tarde, el síndrome de las bajas riquezas (SBR) en remolacha se expandió desde Francia
+hacia Europa central y en la última década ha aumentado en patata. En España la situación parece fragmentaria
+en patata, aunque existe preocupación porque las condiciones climáticas y la presión regulatoria en UE insecticidas
+sistémicos. En NEIKER ya hemos detectado cultivos de patata con presencia de stolburg y los agricultores nos
+han trasladado su preocupación por el SBR de remolacha. Todavía se desconoce la importancia epidemiológica
+en patata, otros cultivos (remolacha azucarera, vid, tomate) y de los reservorios silvestres (correhuelas, ortigas) en
+el mantenimiento del patógeno. Se conocen poco los mecanismos de patogenicidad y la influencia de la variabilidad
+genética del fitoplasma en su agresividad. Faltan estudios sobre métodos de detección temprana y estrategias
+eficaces de control y en España la epidemiología sigue poco caracterizada.
+Debido a que los fitoplasmas no pueden cultivarse in vitro, su detección se basa en técnicas de PCR y posterior
+secuenciación para su identificación. Muchos haplotipos han sido secuenciados y están disponibles en bases de
+datos públicas como GenBank. Sin embargo, no existe todavía un pangenoma completo y consolidado de
+Candidatus Phytoplasma solani que permita identificar genes conservados y detectar variabilidad en efectores y
+genes asociados a adaptación ecológica o de hospedador.
+En este contexto, el proyecto de tesis propuesto que se registrará en la UPV/EHU, se centrará en el estudio de la
+variabilidad genética de fitoplasmas asociados a patata en nuestro territorio y en crear nuevas
+herramientas para la monitorización de este patógeno re-emergente y de sus vectores. Además, se
+evaluarán posibles tratamientos alternativos para proteger a las plantas de los vectores y se estudiarán prácticas
+de manejo de cultivos recomendados para evitar la transmisión de fitoplasmas, entre ellos, la identificación de
+variedades de patata resistentes y posibles marcadores genéticos de resistencia.
+OBJETIVOS
+O1. Desarrollar métodos de screening rápidos de muestreo de plantas y de insectos vectores. O2. Conocer la
+variabilidad genética de fitoplasmas en campos rotatoriamente dedicados al cultivo de patata. O3. Conocer la
+variabilidad genética de fitoplasmas en flora salvaje que actúen de reservorios del patógeno. O4. Generar un
+pangenoma de Candidatus Phytoplasma solani para identificar regiones genómicas variables, genes asociados a
+adaptación ecológica y posibles efectores implicados en la interacción planta-patógeno. O5. Evaluar el potencial
+de técnicas de manejo de cultivos y tratamientos biológicos alternativos en la protección de la patata frente a los
+vectores de stolburg, incluida la identificación de variedades resistentes de patata.
+METODOLOGÍA, PLANIFICACIÓN y FASES de EJECUCIÓN
+obj esp./tareas
+1.
+Métodos
+screening
+de
+2.
+Variabilidad
+genética
+en
+parcelas de cultivo
+metodología
+hitos
+entregables
+Comparar PCR anidada, qPCR
+desde tarjetas FTA, insectos y
+plantas con distintos marcadores
+de variabilidad. Desarrollo de
+librerías
+multiplex
+para
+secuenciación de bajo coste
+Se diagnosticarán muestras
+geolocalizadas de cultivos y
+posibles vectores en parcelas
+donde se haya detectado o se
+haya sospechado previamente
+de stolburg
+H1: Conseguir un método
+rápido, sostenible y de bajo
+coste
+validado
+por
+comparación con muestras
+positivas analizadas por
+métodos oficiales
+H2.1: Diagnosticar al menos
+190 muestras en áreas de
+cultivo
+de
+diferentes
+condiciones ambientales y
+genotipar
+las
+muestras
+positivas para stolburg
+H2.2: Secuenciar haplotipos
+diferentes
+H3.1: Diagnosticar al menos
+190
+muestras
+en
+ecosistemas seminaturales
+de diferentes condiciones
+ambientales
+H3.2: Genotipar las muestras
+positivas para stolburg
+H3.3: Secuenciar haplotipos
+diferentes
+H4.1: Separar las secuencias
+del patógeno del hospedante
+H4.2: Ensamblar y anotar los
+diferentes genomas
+H4.3: Definir el genoma
+conservado (core-genome) y
+el variable.
+E1:
+Protocolo
+de
+genotipado de muestras
+de plantas e insectos
+rápido y de bajo coste.
+H5.1:
+Evaluación
+la
+protección de tratamientos
+alternativos
+frente
+a
+Hyalesthes obsoletus
+H5.2: Evaluación de la
+protección de tratamientos
+alternativos
+frente
+a
+Pentastiridius leporinus
+E5:
+Informe
+de
+tratamientos alternativos
+para la protección de
+cultivos de patata frente a
+plagas transmisoras de
+stolburg.
+3.
+Variabilidad
+genética
+en
+márgenes
+Se diagnosticarán muestras
+geolocalizadas de correhuelas,
+ortigas y posibles vectores en
+áreas no cultivadas adyacentes
+4. Pangenoma
+Se utilizarán diversos softwares
+de
+bioinformática
+en
+el
+computador HPC del Donostia
+International Physics Center
+(DIPC) y se considerará una
+estancia bien en la Universidad
+Palacký de Olomouc (UPOL,CZ)
+Universidad de Kiel (DE), de
+Dundee (UK) o el IBMCP
+(CSIC,Valencia).
+Se evaluarán la eficacia de
+tratamientos alternativos para
+proteger las plantas de vectores
+en colaboración con la escuela
+Técnica Superior de Ingeniería
+Agronómica
+y
+Biociencias
+(ETSIAB). Se considerará una
+estancia bien en Crops Research
+Centre del Teagasc (IRL) o bien
+en INIAP (ECU)
+5. Protección
+cultivos
+de
+E2.1:
+Mapa
+de
+distribución de CPso en
+terrenos cultivables
+E2.2: Árbol filogenético
+de haplotipos en relación
+con
+su
+hospedador,
+vectores y ecosistema.
+E3.1:
+Mapa
+de
+distribución de CPso en
+áreas no-cultivadas
+E3.2: Árbol filogenético
+de haplotipos en relación
+con
+su
+hospedador,
+vectores y ecosistema.
+E4: Primer pan-genoma
+de
+Candidatus
+Phytoplasma solani
+Figura 1. Cronograma planeado por año y trimestre. AO Amaia Ortiz; MOLP Maria de la O Leyva; CD Candidato a Doctor
+INTEGRACIÓN DE LA PERSONA SELECCIONADA EN EL GRUPO DE INVESTIGACIÓN
+La persona contratada se incorporará al Grupo de Protección y mejora Genética de la Patata de NEIKER, un equipo con
+amplia experiencia en el tema. La persona investigadora participará activamente en todas las fases del proyecto y contará
+con el apoyo continuo del equipo para desarrollar de forma progresiva su autonomía científica y profesional.
+Durante el doctorado tendrá la oportunidad de:
+•
+Integrarse en un equipo multidisciplinar, dinámico y colaborativo
+•
+Participar en proyectos competitivos de ámbito nacional e internacional.
+•
+Adquirir experiencia en técnicas agronómicas y laboratoriales
+•
+Colaborar con grupos de investigación de referencia dentro y fuera de NEIKER.
+•
+Recibir formación científica especializada y formación transversal.
+•
+Participar en seminarios, reuniones científicas y actividades de divulgación.
+•
+Presentar resultados en congresos nacionales e internacionales.
+•
+Realizar estancias en centros de investigación nacionales o extranjeros.
+•
+Publicar resultados en revistas científicas internacionales
+•
+Desarrollar un perfil investigador competitivo para su futura carrera profesional.
+•
+Beneficiarse de las condiciones laborales y medidas de conciliación de NEIKER.
+CV RESUMIDO DE LAS RESPONSABLE DEL PROYECTO
+Dra. Amaia Ortiz Barredo: Doctora en CC Biológicas por la Universidad del País Vasco, especializada en el
+manejo integrado y ecológico de cultivos extensivos y hortícolas. Actualmente es jefa del Departamento Técnico
+de Producción y Protección Vegetal de NEIKER-BRTA, desde el cual dirige y coordina proyectos de I+D+i en
+cultivos extensivos y protegidos. Durante 18 años, compatibilizó su actividad en NEIKER, con la de profesora en
+la Universidad Pública de Navarra, Escuela Técnica Superior de Ingenieros agrónomos, impartiendo las
+asignaturas del área de Sanidad Vegetal. Premio Nacional PHYTOMA (1998) por su trabajo sobre control integrado
+de enfermedades víricas en remolacha azucarera. Ha publicado más de 50 artículos científicos resultado de
+proyectos de investigación e innovación. Coautora de 4 patentes internacionales del ámbito de la identificación y
+análisis de riesgo de plagas vegetales mediante sistemas de visión artificial. Actualmente está involucrada en varios
+proyectos europeos y nacionales sobre estrategias de manejo agrícola, incluyendo factores ecológicos y
+económicos para la toma de decisiones en calidad de cosecha y seguridad alimentaria. Tesis doctorales dirigidas:
+5
+María de la O Leyva Pérez: Licenciada en Biología y Doctora en Biología por la Universitat de València.
+Investigadora especializada en genética molecular vegetal, bioinformática, transcriptómica y mejora genética de
+cultivos, con 20 años de experiencia en España, Irlanda, Dinamarca y Países Bajos. Sus líneas de investigación
+se centran en genómica de resistencia a estreses bióticos y abióticos en patata, olivo, tomate y cebada.
+Actualmente es coordinadora científica del proyecto europeo PATAFEST en Neiker. Ha participado y liderado
+proyectos europeos, nacionales y autonómicos, incluyendo programas Marie Skłodowska-Curie, Horizon Europe y
+proyectos de Teagasc, Neiker y Junta de Andalucía. Cuenta con 25 publicaciones científicas revisadas por pares,
+más de 1.000 citas, experiencia en supervisión de estudiantes de posgrado. Es inventora de 1 patente, revisora de
+revistas científicas internacionales y ha impartido docencia universitaria y formación especializada en genómica y
+bioinformática.
+Se valorará positivamente los conocimientos de inglés y estar en posesión del permiso de conducción tipo B.
