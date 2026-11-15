@@ -226,7 +226,7 @@ export function tituloCorto(t, organismo = '', ambito = {}) {
 
 // Organismo legible: primer departamento, sin siglas entre paréntesis ni listas con '#'
 export function organismoCorto(o) {
-  let s = String(o || '').split('#')[0].replace(/\s*\([A-Z]{2,}\)\s*/g, ' ').replace(/\s+/g, ' ').trim();
+  let s = String(o || '').split('#')[0].replace(/^(?:consejero|viceconsejero|director|directora|diputado|diputada)(?:\/a)?\s+(?:general\s+)?(?:de|del)\s+/i, '').replace(/\s*\([A-Z]{2,}\)\s*/g, ' ').replace(/\s+/g, ' ').trim();
   if (s.length > 70) s = s.split(/\s*[·,]\s*/)[0];
   return s;
 }
