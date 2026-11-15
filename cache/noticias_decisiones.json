@@ -39,5 +39,55 @@
   "accion": "duplicada",
   "ayudaId": "eus-ayuda-subvencion-2026-ayudas-al-amparo-de-la-estrategia-de-desarrollo-local-participativo-2026",
   "nota": "Noticia de Irekia (Consejo de Gobierno 15/09/2026) sobre los 2,1 M€ FEMPA para la EDLP del GALP Itsas Garapen Elkartea, que ya tenemos como ayuda abierta hasta el 17/11/2026."
+ },
+ "eus-ayuda-subvencion-2026-ercstartingrants0926": {
+  "accion": "no_es_ayuda",
+  "ayudaId": "",
+  "nota": "Noticia de resultados: Starting Grants del ERC ya concedidas (21 investigadores atraídos desde Norteamérica, uno a la UPV/EHU); no hay convocatoria que solicitar."
+ },
+ "eus-ayuda-subvencion-2026-horizoneicstepscaleup26": {
+  "accion": "no_es_ayuda",
+  "ayudaId": "",
+  "nota": "Anuncio general del programa de trabajo 2027 del EIC (STEP Scale Up, Pathfinder, Transition, Women TechEU) sin convocatoria concreta; el EIC Accelerator 2027 ya está como extra-eic-accelerator-2027. La página de la convocatoria abierta Women TechEU (https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48106227) no se pudo consultar en esta pasada: revisar en la próxima."
+ },
+ "eus-ayuda-subvencion-2026-horizonetaespaziorakogehi": {
+  "accion": "no_es_ayuda",
+  "ayudaId": "",
+  "nota": "Noticia de la aprobación de un programa del Gobierno Vasco 2026-2028 (1,2 millones anuales) para universidades vascas; no se ha encontrado convocatoria pública solicitable."
+ },
+ "eus-ayuda-subvencion-2026-horizonzeharkakodeialdiak": {
+  "accion": "no_es_ayuda",
+  "ayudaId": "",
+  "nota": "Anuncio general de 500 millones adicionales de Horizon Europe y futuras convocatorias, sin convocatoria concreta."
+ },
+ "eus-ayuda-subvencion-2026-ikerketagauaunibertsitate": {
+  "accion": "añadida",
+  "ayudaId": "extra-msca-citizens-2027",
+  "nota": "Habla de la convocatoria MSCA and Citizens para organizar la Noche Europea de los Investigadores, próxima (9/3/2027-8/6/2027): https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-CITIZENS-01-01"
+ },
+ "eus-ayuda-subvencion-2026-msca2026deialdiberria": {
+  "accion": "no_es_ayuda",
+  "ayudaId": "",
+  "nota": "Noticia de resultados: récord de 21.627 solicitudes en las becas posdoctorales MSCA 2026 (cerrada); la convocatoria 2027 se añade desde eus-ayuda-subvencion-2026-mscadoktoretzaostekobeka2."
+ },
+ "eus-ayuda-subvencion-2026-mscadoktoretzaostekobeka2": {
+  "accion": "añadida",
+  "ayudaId": "extra-msca-pf-2027",
+  "nota": "Describe las becas posdoctorales MSCA; la convocatoria 2027 está próxima (7/4/2027-8/9/2027): https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-PF-01-01"
+ },
+ "eus-ayuda-subvencion-2026-nbefenlaguntzaabeltzaintz": {
+  "accion": "no_es_ayuda",
+  "ayudaId": "",
+  "nota": "Noticia del paquete de ayudas extraordinarias al sector agrario (Orden de 3/11/2026, BOPV n.º 214, https://www.euskadi.eus/bopv2/datos/2026/11/2604727a.pdf): se tramitan de oficio, sin plazo de solicitud."
+ },
+ "eus-ayuda-subvencion-2026-resourceeutaeiblaguntzakmateri": {
+  "accion": "no_es_ayuda",
+  "ayudaId": "",
+  "nota": "Anuncio de la iniciativa RESourceEU sobre materias primas críticas, sin convocatoria concreta."
+ },
+ "eus-ayuda-subvencion-2018-ucpm-2018-pp-ag": {
+  "accion": "no_es_ayuda",
+  "ayudaId": "",
+  "nota": "Convocatoria de 2018 del Mecanismo Europeo de Protección Civil, cerrada el 25 de abril de 2018."
  }
 }
