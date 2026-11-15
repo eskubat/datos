@@ -73,7 +73,7 @@ async function bog(dias, vistos, log) {
 }
 
 // ---------- BOTHA (Álava): sumario PDF por número ----------
-async function botha(desde, vistos, log) {
+export async function botha(desde, vistos, log) {
   const out = [];
   const portada = await bajar('https://www.araba.eus/botha/inicio/SGBO5001.aspx');
   const m = portada && portada.match(/Boletines\/(\d{4})\/(\d{3})\//);
@@ -90,6 +90,7 @@ async function botha(desde, vistos, log) {
     const pub = f && MES[norm(f[2])] ? `${f[3]}-${String(MES[norm(f[2])]).padStart(2, '0')}-${f[1].padStart(2, '0')}` : null;
     if (pub && pub < isoDia(desde)) break;
     vistos.add(clave);
+    if (process.env.DEPURAR) log('BOTHA ' + n3 + ' pub ' + pub + '\n' + txt.slice(0, 1500));
     let entidad = '', buf = [];
     for (const raw of txt.split('\n')) {
       const l = raw.trim();
