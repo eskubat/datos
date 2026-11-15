@@ -190,6 +190,27 @@ async function main() {
     .map((l) => l.replace(/^\s*(?:[-–—•·*]|(?:[a-zA-Z]|[ivxIVX]{1,4}|\d{1,2})[.)])\s*/, '').trim())
     .filter((l) => l && !REDUNDANTE.test(l)).join('\n');
   // Organismo: siempre un registro de la tabla maestra (recolector/organismos.js), nunca el texto de la web
+  // Sin preguntas en los textos: la pregunta es el título de la sección. El texto que sigue a una pregunta
+  // va a la sección que corresponde («¿Qué requisitos…?» → Requisitos; «¿Quién puede…?» → Quién puede pedirla;
+  // «¿Cuánto…?» → Cuánto puedes recibir). Fuera también los textos de enlaces («Folleto (PDF, 629 KB)»).
+  const ENLACE_TXT = /\((pdf|docx?|xlsx?|odt|ods|zip|rtf|pptx?)\b[^)]*\)|\b\d+([.,]\d+)?\s*(kb|mb)\b/i;
+  const destinoDe = (q) => (/requisit|condicion|deben cumplir/i.test(q) ? 'requisitos' : /qui[eé]n|beneficiari|dirigid|destinatari|personas|entidades/i.test(q) ? 'dirigido' : /cu[aá]nt|importe|cuant[ií]a|euros/i.test(q) ? 'cuantia' : 'resumen');
+  const repartePreguntas = (a) => {
+    const destino = { resumen: [], requisitos: [], dirigido: [], cuantia: [] };
+    for (const campo of ['resumen', 'cuantia', 'dirigido']) {
+      let actual = campo;
+      for (const l of String(a[campo] || '').split('\n').map((x) => x.trim()).filter(Boolean)) {
+        if (ENLACE_TXT.test(l)) continue;
+        if (/^¿[^?]{3,}\?$/.test(l)) { const d = destinoDe(l); actual = d === 'resumen' ? campo : d; continue; }
+        destino[actual].push(l);
+      }
+    }
+    a.resumen = destino.resumen.join('\n');
+    a.cuantia = destino.cuantia.join('\n');
+    a.dirigido = destino.dirigido.join('\n');
+    const req = (a.requisitos || []).filter((l) => !ENLACE_TXT.test(l) && !/^¿[^?]*\?$/.test(l.trim()));
+    a.requisitos = [...req, ...destino.requisitos.filter((l) => !req.includes(l))];
+  };
   const normalizaOrganismo = (a) => {
     const fuente = organismoCorto(String(a.organismo || '').trim());
     const { id, revisar } = resolver(fuente, a.ambito);
@@ -242,6 +263,7 @@ async function main() {
       a.requisitos = espec;
     }
     a.organismoGeneral = a.ambito.nivel === 'euskadi' ? 'Gobierno Vasco' : ORG_POR_AMBITO(a);
+    repartePreguntas(a);
     a.titulo = ortografia(a.titulo);
     a.resumen = ortografia(a.resumen); a.cuantia = limpiaLista(ortografia(a.cuantia)); a.dirigido = limpiaLista(ortografia(a.dirigido));
     if (a.requisitos) a.requisitos = limpiaLista(a.requisitos.map(ortografia).join('\n')).split('\n').filter(Boolean);

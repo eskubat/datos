@@ -94,6 +94,9 @@ export function comprobar(r, fuente = '') {
   const todo = [r.titulo, consiste, cuanto, qTxt, rTxt].join(' ');
   const may = (todo.match(RE.mayusculas) || []).filter((w) => !SIGLAS.has(w));
   if (may.length) e.push(`palabras en mayúsculas: ${[...new Set(may)].join(', ')}`);
+  if (/[¿?]/.test(todo)) e.push('no puede haber preguntas: las preguntas son los títulos de sección, el texto responde');
+  if (/\((pdf|docx?|xlsx?)\b|\b\d+\s*(kb|mb)\b|descargar|m[aá]s informaci[oó]n/i.test(todo)) e.push('texto de enlaces o adjuntos (PDF, KB, «Descargar», «Más información») en la ficha');
+  if (/\busted\b/i.test(todo)) e.push('no uses «usted»: tono neutro y cercano');
   if (RE.cifraMal.test(todo)) e.push('cifras con formato incorrecto (debe ser «3.000 €» y «50 %»)');
   const id = r.quien_convoca && r.quien_convoca.organismo_id;
   if (!id) e.push('falta quien_convoca.organismo_id');

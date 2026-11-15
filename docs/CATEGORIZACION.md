@@ -30,6 +30,13 @@ Lo que no describe a la persona/entidad sino lo que solicita, su vivienda, proye
 ## Ortografía
 Tildes, «¿», mayúscula inicial y nombres propios; nada en MAYÚSCULAS salvo siglas; cifras «3.000 €», «1.500,50 €», «50 %»; punto final en frases y requisitos. Se respetan nombres oficiales y topónimos (Bizkaia, Araba/Álava, Donostia / San Sebastián…). Si una cifra parece errónea, no se arregla: `revision_manual`.
 
+## Estilo (igual en todas las ayudas)
+- **Sin preguntas.** Las preguntas son los títulos de las secciones de la app; el texto responde. Si la fuente organiza la información en preguntas («¿Qué requisitos deben cumplir…?»), su contenido va al campo que corresponde y la pregunta desaparece.
+- **Lenguaje de la calle:** frases cortas y directas, palabras comunes en lugar de jerga administrativa («la vivienda donde vives» mejor que «vivienda habitual y permanente» cuando no cambia el sentido; «pedir» mejor que «solicitar» en el texto corrido; «ayuntamiento» mejor que «entidad local»). Sin perder exactitud: cifras, plazos y condiciones tal cual.
+- Mismo tono en todas las fichas: neutro y cercano, sin «usted», sin exclamaciones ni adjetivos promocionales.
+- Nunca copiar textos de enlaces o adjuntos («Folleto informativo (PDF, 629 KB)», «Descargar», «Más información»).
+- Una frase suelta que funciona como título («Actuaciones subvencionables») no se copia: su contenido se integra en el campo o se redacta como lista.
+
 ## Desempate
 ¿De quién es? → Convoca. ¿Para qué es? → Consiste. ¿Cuánto me dan? → Cuánto. ¿Es para alguien como yo? → Quién. ¿Qué tengo que cumplir? → Requisitos. Si no resuelve ninguna duda: descartar.
 Ejemplos: «Ingresos inferiores a 30.000 €» → Quién · «Inversión mínima de 5.000 €» → Requisitos · «Alquiler mensual máximo de 900 €» → Requisitos · «No haber recibido esta ayuda en 3 años» → Requisitos · «Se subvenciona el 40 %» → Cuánto · «Dotación de 2.000.000 €» → descartar · «No es subvencionable el IVA» → Consiste · «Compatible sin superar el 100 % del coste» → Cuánto · «Obligación de mantener el empleo 2 años» → descartar · «Línea 1: rehabilitación, hasta 10.000 €, para comunidades de propietarios con edificios anteriores a 1980» → se parte en Consiste / Cuánto / Quién / Requisitos.
