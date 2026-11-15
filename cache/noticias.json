@@ -213,17 +213,6 @@
   ],
   "candidatosUE": [
    {
-    "id": "HORIZON-CL4-2024-DATA-01-03",
-    "titulo": "Piloting emerging Smart IoT Platforms and decentralized intelligence (IA)",
-    "convocatoria": "O-CEI 2nd OPEN CALL FOR UPTAKE PROJECTS",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45703720",
-    "inicio": "2026-11-12",
-    "fin": "2027-01-14",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
     "id": "HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
     "titulo": "Robust and trustworthy GenerativeAI for Robotics and industrial automation (RIA) (AI/Data/Robotics & Made in Europe Partnerships)",
     "convocatoria": "GRAIL Open Call — Genesis (1st Open Call)",
@@ -235,35 +224,13 @@
     "cascada": true
    },
    {
-    "id": "HORIZON-CL4-2024-HUMAN-03-04",
-    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
-    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
+    "id": "HORIZON-CL4-2024-DATA-01-03",
+    "titulo": "Piloting emerging Smart IoT Platforms and decentralized intelligence (IA)",
+    "convocatoria": "O-CEI 2nd OPEN CALL FOR UPTAKE PROJECTS",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
-    "inicio": "2026-11-09",
-    "fin": "2027-01-08",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "HORIZON-EIE-2023-CONNECT-03-01",
-    "titulo": "Implementing co-funded action plans for connected regional innovation valleys",
-    "convocatoria": "SYSTEMEU - Financial Support to Third Parties (FSTP) \n\nWhat is the aim?\nTo support digital innovations in healthcare, energy and mobility as they progress from the prototype stage (TRL 6) to a market-ready system (TRL 8).\n\nWho can take part?\nRegions: Bavaria (DE), Norte Region (PT), Castile and León (ES), Romania (RO) and Tuzla (BiH) only.\nConsortia: 2–8 partners from at least 2–5 regions (depending on project size).\n\nType: Triple Helix (academia, business, public authorities).\n\nProject sizes & budget\n\nFlagship: up to €2.2 million (5–8 partners, all regions). Proposed by consortia composed by 5 to 8 partners covering all 5 participating SYSTEMEU regions and including at least one RTO/University, one company, and one public sector entity actively involved in public service delivery (e.g., municipal administrations or hospitals).\n",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45659376",
-    "inicio": "2026-09-15",
-    "fin": "2026-11-23",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "HORIZON-EIT-2025-KIC-IBA-F",
-    "titulo": "EITFOOD Business Plan 2026",
-    "convocatoria": "Seedbed Venture Catalyst Call for Startups",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
-    "inicio": "2026-11-06",
-    "fin": "2026-12-16",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45703720",
+    "inicio": "2026-11-12",
+    "fin": "2027-01-14",
     "estado": "abierta",
     "cascada": true
    },
@@ -297,6 +264,39 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
     "inicio": "2026-11-06",
     "fin": "2027-01-05",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-CL4-2024-HUMAN-03-04",
+    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
+    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
+    "inicio": "2026-11-09",
+    "fin": "2027-01-08",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-EIE-2023-CONNECT-03-01",
+    "titulo": "Implementing co-funded action plans for connected regional innovation valleys",
+    "convocatoria": "SYSTEMEU - Financial Support to Third Parties (FSTP) \n\nWhat is the aim?\nTo support digital innovations in healthcare, energy and mobility as they progress from the prototype stage (TRL 6) to a market-ready system (TRL 8).\n\nWho can take part?\nRegions: Bavaria (DE), Norte Region (PT), Castile and León (ES), Romania (RO) and Tuzla (BiH) only.\nConsortia: 2–8 partners from at least 2–5 regions (depending on project size).\n\nType: Triple Helix (academia, business, public authorities).\n\nProject sizes & budget\n\nFlagship: up to €2.2 million (5–8 partners, all regions). Proposed by consortia composed by 5 to 8 partners covering all 5 participating SYSTEMEU regions and including at least one RTO/University, one company, and one public sector entity actively involved in public service delivery (e.g., municipal administrations or hospitals).\n",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45659376",
+    "inicio": "2026-09-15",
+    "fin": "2026-11-23",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-EIT-2025-KIC-IBA-F",
+    "titulo": "EITFOOD Business Plan 2026",
+    "convocatoria": "Seedbed Venture Catalyst Call for Startups",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
+    "inicio": "2026-11-06",
+    "fin": "2026-12-16",
     "estado": "abierta",
     "cascada": true
    }
@@ -314,17 +314,6 @@
   ],
   "candidatosUE": [
    {
-    "id": "HORIZON-CL4-2024-DATA-01-03",
-    "titulo": "Piloting emerging Smart IoT Platforms and decentralized intelligence (IA)",
-    "convocatoria": "O-CEI 2nd OPEN CALL FOR UPTAKE PROJECTS",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45703720",
-    "inicio": "2026-11-12",
-    "fin": "2027-01-14",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
     "id": "HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
     "titulo": "Robust and trustworthy GenerativeAI for Robotics and industrial automation (RIA) (AI/Data/Robotics & Made in Europe Partnerships)",
     "convocatoria": "GRAIL Open Call — Genesis (1st Open Call)",
@@ -336,35 +325,13 @@
     "cascada": true
    },
    {
-    "id": "HORIZON-CL4-2024-HUMAN-03-04",
-    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
-    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
+    "id": "HORIZON-CL4-2024-DATA-01-03",
+    "titulo": "Piloting emerging Smart IoT Platforms and decentralized intelligence (IA)",
+    "convocatoria": "O-CEI 2nd OPEN CALL FOR UPTAKE PROJECTS",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
-    "inicio": "2026-11-09",
-    "fin": "2027-01-08",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "HORIZON-EIE-2023-CONNECT-03-01",
-    "titulo": "Implementing co-funded action plans for connected regional innovation valleys",
-    "convocatoria": "SYSTEMEU - Financial Support to Third Parties (FSTP) \n\nWhat is the aim?\nTo support digital innovations in healthcare, energy and mobility as they progress from the prototype stage (TRL 6) to a market-ready system (TRL 8).\n\nWho can take part?\nRegions: Bavaria (DE), Norte Region (PT), Castile and León (ES), Romania (RO) and Tuzla (BiH) only.\nConsortia: 2–8 partners from at least 2–5 regions (depending on project size).\n\nType: Triple Helix (academia, business, public authorities).\n\nProject sizes & budget\n\nFlagship: up to €2.2 million (5–8 partners, all regions). Proposed by consortia composed by 5 to 8 partners covering all 5 participating SYSTEMEU regions and including at least one RTO/University, one company, and one public sector entity actively involved in public service delivery (e.g., municipal administrations or hospitals).\n",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45659376",
-    "inicio": "2026-09-15",
-    "fin": "2026-11-23",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "HORIZON-EIT-2025-KIC-IBA-F",
-    "titulo": "EITFOOD Business Plan 2026",
-    "convocatoria": "Seedbed Venture Catalyst Call for Startups",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
-    "inicio": "2026-11-06",
-    "fin": "2026-12-16",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45703720",
+    "inicio": "2026-11-12",
+    "fin": "2027-01-14",
     "estado": "abierta",
     "cascada": true
    },
@@ -398,6 +365,39 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
     "inicio": "2026-11-06",
     "fin": "2027-01-05",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-CL4-2024-HUMAN-03-04",
+    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
+    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
+    "inicio": "2026-11-09",
+    "fin": "2027-01-08",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-EIE-2023-CONNECT-03-01",
+    "titulo": "Implementing co-funded action plans for connected regional innovation valleys",
+    "convocatoria": "SYSTEMEU - Financial Support to Third Parties (FSTP) \n\nWhat is the aim?\nTo support digital innovations in healthcare, energy and mobility as they progress from the prototype stage (TRL 6) to a market-ready system (TRL 8).\n\nWho can take part?\nRegions: Bavaria (DE), Norte Region (PT), Castile and León (ES), Romania (RO) and Tuzla (BiH) only.\nConsortia: 2–8 partners from at least 2–5 regions (depending on project size).\n\nType: Triple Helix (academia, business, public authorities).\n\nProject sizes & budget\n\nFlagship: up to €2.2 million (5–8 partners, all regions). Proposed by consortia composed by 5 to 8 partners covering all 5 participating SYSTEMEU regions and including at least one RTO/University, one company, and one public sector entity actively involved in public service delivery (e.g., municipal administrations or hospitals).\n",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45659376",
+    "inicio": "2026-09-15",
+    "fin": "2026-11-23",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-EIT-2025-KIC-IBA-F",
+    "titulo": "EITFOOD Business Plan 2026",
+    "convocatoria": "Seedbed Venture Catalyst Call for Startups",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
+    "inicio": "2026-11-06",
+    "fin": "2026-12-16",
     "estado": "abierta",
     "cascada": true
    }
@@ -709,17 +709,6 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-CL4-2024-DATA-01-03",
-    "titulo": "Piloting emerging Smart IoT Platforms and decentralized intelligence (IA)",
-    "convocatoria": "O-CEI 2nd OPEN CALL FOR UPTAKE PROJECTS",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45703720",
-    "inicio": "2026-11-12",
-    "fin": "2027-01-14",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
     "id": "HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
     "titulo": "Robust and trustworthy GenerativeAI for Robotics and industrial automation (RIA) (AI/Data/Robotics & Made in Europe Partnerships)",
     "convocatoria": "GRAIL Open Call — Genesis (1st Open Call)",
@@ -731,35 +720,13 @@
     "cascada": true
    },
    {
-    "id": "HORIZON-CL4-2024-HUMAN-03-04",
-    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
-    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
+    "id": "HORIZON-CL4-2024-DATA-01-03",
+    "titulo": "Piloting emerging Smart IoT Platforms and decentralized intelligence (IA)",
+    "convocatoria": "O-CEI 2nd OPEN CALL FOR UPTAKE PROJECTS",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
-    "inicio": "2026-11-09",
-    "fin": "2027-01-08",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "HORIZON-EIE-2023-CONNECT-03-01",
-    "titulo": "Implementing co-funded action plans for connected regional innovation valleys",
-    "convocatoria": "SYSTEMEU - Financial Support to Third Parties (FSTP) \n\nWhat is the aim?\nTo support digital innovations in healthcare, energy and mobility as they progress from the prototype stage (TRL 6) to a market-ready system (TRL 8).\n\nWho can take part?\nRegions: Bavaria (DE), Norte Region (PT), Castile and León (ES), Romania (RO) and Tuzla (BiH) only.\nConsortia: 2–8 partners from at least 2–5 regions (depending on project size).\n\nType: Triple Helix (academia, business, public authorities).\n\nProject sizes & budget\n\nFlagship: up to €2.2 million (5–8 partners, all regions). Proposed by consortia composed by 5 to 8 partners covering all 5 participating SYSTEMEU regions and including at least one RTO/University, one company, and one public sector entity actively involved in public service delivery (e.g., municipal administrations or hospitals).\n",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45659376",
-    "inicio": "2026-09-15",
-    "fin": "2026-11-23",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "HORIZON-EIT-2025-KIC-IBA-F",
-    "titulo": "EITFOOD Business Plan 2026",
-    "convocatoria": "Seedbed Venture Catalyst Call for Startups",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
-    "inicio": "2026-11-06",
-    "fin": "2026-12-16",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45703720",
+    "inicio": "2026-11-12",
+    "fin": "2027-01-14",
     "estado": "abierta",
     "cascada": true
    },
@@ -771,6 +738,39 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47374969",
     "inicio": "2026-11-09",
     "fin": "2027-01-29",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-EIT-2025-KIC-IBA-F",
+    "titulo": "EITFOOD Business Plan 2026",
+    "convocatoria": "Proof of Concept & Technology Validation Call",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
+    "inicio": "2026-11-06",
+    "fin": "2027-01-18",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-EIT-2025-KIC-IBA-F",
+    "titulo": "EITFOOD Business Plan 2026",
+    "convocatoria": "Open Call for Implementing Participants of the Empowering Women in Agrifood (EWA) Programme 2027-2028",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
+    "inicio": "2026-11-06",
+    "fin": "2027-01-05",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-CL4-2024-HUMAN-03-04",
+    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
+    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
+    "inicio": "2026-11-09",
+    "fin": "2027-01-08",
     "estado": "abierta",
     "cascada": true
    }

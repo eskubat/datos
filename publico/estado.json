@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generado": "2026-11-15T20:18:45.205Z",
-  "total": 518,
+  "generado": "2026-11-15T20:30:04.449Z",
+  "total": 515,
   "porAmbito": {
-    "municipio": 321,
+    "municipio": 318,
     "territorio": 33,
     "estado": 61,
     "euskadi": 101,
     "ue": 2
   },
   "porEstado": {
-    "abierta": 317,
+    "abierta": 315,
     "proxima": 11,
-    "sinfecha": 190
+    "sinfecha": 189
   },
   "previstas": 676,
   "fuentes": {
@@ -41,14 +41,14 @@
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
       "registros": 803,
-      "segundos": 173,
+      "segundos": 164,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales de Bizkaia, Gipuzkoa y Álava (BOB, BOG, BOTHA)",
       "ok": true,
-      "registros": 121,
-      "segundos": 11,
+      "registros": 147,
+      "segundos": 240,
       "erroresFicha": 0
     }
   }
