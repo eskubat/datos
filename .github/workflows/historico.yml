@@ -14,13 +14,18 @@ permissions:
 jobs:
   historico:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
       - run: node recolector/historico.js
+      - uses: actions/cache@v4
+        with:
+          path: cache/docs
+          key: docs-${{ github.run_id }}
+          restore-keys: docs-
       - run: node recolector/index.js
       - name: Publicar
         run: |
