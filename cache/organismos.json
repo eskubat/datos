@@ -2145,6 +2145,39 @@
   ]
  },
  {
+  "id": "fund-bbk",
+  "nombre": "Fundación BBK",
+  "alias": [
+   "fundacion bbk",
+   "bbk fundazioa",
+   "bbk"
+  ]
+ },
+ {
+  "id": "fund-kutxa",
+  "nombre": "Kutxa Fundazioa",
+  "alias": [
+   "kutxa fundazioa",
+   "fundacion kutxa"
+  ]
+ },
+ {
+  "id": "fund-vital",
+  "nombre": "Fundación Vital Fundazioa",
+  "alias": [
+   "fundacion vital",
+   "vital fundazioa"
+  ]
+ },
+ {
+  "id": "fund-lacaixa",
+  "nombre": "Fundación «la Caixa»",
+  "alias": [
+   "fundacion la caixa",
+   "la caixa"
+  ]
+ },
+ {
   "id": "estado",
   "nombre": "Gobierno de España",
   "alias": []
@@ -2163,6 +2196,15 @@
   "alias": [
    "idae",
    "instituto para la diversificacion y ahorro de la energia"
+  ]
+ },
+ {
+  "id": "estado-educacion",
+  "nombre": "Gobierno de España - Ministerio de Educación, Formación Profesional y Deportes",
+  "alias": [
+   "ministerio de educacion, formacion profesional y deportes",
+   "secretaria de estado de educacion",
+   "direccion general de evaluacion y cooperacion territorial"
   ]
  },
  {

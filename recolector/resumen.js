@@ -196,6 +196,7 @@ export function aplicar(ayudas, fuentes, cache) {
     if (r.organismo_id && POR_ID[r.organismo_id]) {
       const o = POR_ID[r.organismo_id];
       Object.assign(a, { organismoId: o.id, organismo: o.corto, organismoCompleto: o.completo, organismoEu: o.eu });
+      if (o.privada) a.privada = true; else delete a.privada;
       delete a.revisarOrganismo;
     }
     if (r.revision) a.revisar = r.revision; else delete a.revisar;

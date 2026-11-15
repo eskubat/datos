@@ -54,12 +54,21 @@ const PROPIOS = [
   ['inguralde', 'Inguralde', 'Inguralde - Agencia de Desarrollo Local', 'Inguralde', ['inguralde']],
   ['behargintza', 'Behargintza', 'Behargintza - Agencia de Desarrollo Local', 'Behargintza', ['behargintza']],
 ];
+// Fundaciones y obras sociales privadas: sus convocatorias no son ayudas públicas (la app las marca con «privada»).
+// Las añade la tarea de resumen a cache/ayudas_extra.json (ver docs/RESUMIR.md, «Fundaciones y obras sociales»).
+const FUNDACIONES = [
+  ['fund-bbk', 'Fundación BBK', 'Fundación BBK', 'BBK Fundazioa', ['fundacion bbk', 'bbk fundazioa', 'bbk']],
+  ['fund-kutxa', 'Kutxa Fundazioa', 'Kutxa Fundazioa', 'Kutxa Fundazioa', ['kutxa fundazioa', 'fundacion kutxa']],
+  ['fund-vital', 'Fundación Vital', 'Fundación Vital Fundazioa', 'Vital Fundazioa', ['fundacion vital', 'vital fundazioa']],
+  ['fund-lacaixa', 'Fundación «la Caixa»', 'Fundación «la Caixa»', '«la Caixa» Fundazioa', ['fundacion la caixa', 'la caixa']],
+];
 // Administración del Estado: en la ficha resumen solo «Gobierno de España»; el detalle lleva el organismo.
 // No entran en resolver(): las estatales se asignan por ámbito (index.js) o desde la ficha categorizada.
 const ESTATALES = [
   ['estado', 'Gobierno de España', []],
   ['estado-icex', 'Gobierno de España - ICEX', ['icex', 'icex espana exportacion e inversiones']],
   ['estado-idae', 'Gobierno de España - IDAE (Ministerio para la Transición Ecológica)', ['idae', 'instituto para la diversificacion y ahorro de la energia']],
+  ['estado-educacion', 'Gobierno de España - Ministerio de Educación, Formación Profesional y Deportes', ['ministerio de educacion, formacion profesional y deportes', 'secretaria de estado de educacion', 'direccion general de evaluacion y cooperacion territorial']],
   ['estado-cis', 'Gobierno de España - CIS (Ministerio de la Presidencia)', ['centro de investigaciones sociologicas']],
 ];
 const FORALES = [
@@ -80,6 +89,7 @@ export const CATALOGO = [
   ...FORALES.map(([id, corto, eu, alias]) => ({ id, corto, completo: corto, eu, alias })),
   ...MUNIS.map(([n]) => ({ id: 'ayto-' + norm(n).replace(/[^a-z0-9]+/g, '-'), corto: `Ayuntamiento de ${n}`, completo: `Ayuntamiento de ${n}`, eu: udala(n), alias: [norm(n)] })),
   ...PROPIOS.map(([id, corto, completo, eu, alias]) => ({ id, corto, completo, eu, alias })),
+  ...FUNDACIONES.map(([id, corto, completo, eu, alias]) => ({ id, corto, completo, eu, alias, privada: true })),
   ...ESTATALES.map(([id, completo, alias]) => ({ id, corto: 'Gobierno de España', completo, eu: 'Espainiako Gobernua', alias })),
 ];
 export const POR_ID = Object.fromEntries(CATALOGO.map((o) => [o.id, o]));
@@ -88,7 +98,7 @@ export const POR_ID = Object.fromEntries(CATALOGO.map((o) => [o.id, o]));
 // Devuelve { id, revisar } — revisar = no se encontró el departamento/organismo exacto.
 export function resolver(texto, ambito = {}) {
   const t = norm(texto || '');
-  const propio = PROPIOS.find(([, , , , alias]) => alias.some((x) => new RegExp(`\\b${x}\\b`).test(t)));
+  const propio = [...PROPIOS, ...FUNDACIONES].find(([, , , , alias]) => alias.some((x) => new RegExp(`\\b${x}\\b`).test(t)));
   if (propio) return { id: propio[0], revisar: false };
   if (ambito.nivel === 'municipio') {
     const m = MUNIS.find(([n]) => norm(n) === norm(ambito.nombre));

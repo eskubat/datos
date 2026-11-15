@@ -257,6 +257,7 @@ async function main() {
     a.organismo = o.corto;
     a.organismoCompleto = o.completo;
     a.organismoEu = o.eu;
+    if (o.privada) a.privada = true; else delete a.privada;
     delete a.organismoDetalle;
     if (revisar || !POR_ID[id]) a.revisarOrganismo = true; else delete a.revisarOrganismo;
   };
