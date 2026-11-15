@@ -249,6 +249,27 @@ section.card.parati{border-color:var(--or);background:var(--or-soft)}
 .plan-i .cuando .btn{font-size:13px;padding:4px 10px}
 .plan-i.hecha b{color:var(--muted)}
 .plan-i .pn3{color:var(--ink)!important}
+
+details.acord{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+details.acord>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:16px;padding:16px 18px}
+details.acord>summary::-webkit-details-marker{display:none}
+details.acord>summary:hover{background:var(--bg)}
+.acs{flex:1;display:flex;flex-direction:column;gap:8px;min-width:0}
+.acs h3{font:700 19px var(--display);margin:0}
+.acst{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px}
+.kpi{display:inline-flex;align-items:baseline;gap:6px;font-size:13.5px;color:var(--muted)}
+.kpi b{font:800 22px var(--display);color:var(--ink);font-variant-numeric:tabular-nums}
+.kpi.av b{color:var(--or-d)} .kpi.ok b{color:var(--accent)}
+.prox{font-size:13.5px;color:var(--muted)} .prox b{color:var(--ink)}
+.mbar{display:flex;gap:2px;height:10px;width:100%;max-width:520px;flex-basis:100%}
+.mbar span{background:var(--accent);border-radius:2px;opacity:.85}
+.mbar span:nth-child(2n){opacity:.6}
+.acf{font-size:18px;color:var(--muted);transition:transform .15s}
+details.acord[open] .acf{transform:rotate(180deg)}
+.acb{padding:0 18px 18px;display:flex;flex-direction:column;gap:12px}
+.acb .tabwrap{border-radius:8px}
+.rb{height:4px;background:var(--bg);border-radius:2px;margin-top:6px;width:70px}
+.rb span{display:block;height:100%;background:var(--accent);border-radius:2px}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
 @media (max-width:760px){.eta{grid-template-columns:1fr}}
 @media (max-width:760px){
@@ -694,21 +715,34 @@ function renderDetalleI(){
 /* ================= FUENTES ================= */
 function renderFuentes(){
   const F=D.fuentes, con=F.consultadas||[], pot=F.potenciales||[];
-  const plan=planClaude("fuentes"), tuyas=(D.tareas||[]).filter(t=>t.quien==="Tú"&&(t.seccion||"fuentes")==="fuentes");
+  const plan=planClaude("fuentes"), tuyas=(D.tareas||[]).filter(t=>t.quien==="Tú"&&(t.seccion||"fuentes")==="fuentes"&&t.estado!=="hecha");
+  const regs=con.filter(x=>x.registros!=null), totalR=regs.reduce((s,x)=>s+x.registros,0), avisos=con.filter(x=>x.pendiente||x.ok===false).length;
+  const pendC=plan.filter(t=>t.estado==="pendiente"), hechas=plan.filter(t=>t.estado==="hecha").length, bloq=plan.filter(t=>t.estado==="bloqueada").length;
+  const prox=pendC[0];
+  const abiertos=S.fuentesAbiertas||(S.fuentesAbiertas={});
+  const barra=regs.slice().sort((a,b)=>b.registros-a.registros).map(x=>`<span style="flex:${Math.max(x.registros,totalR*0.012)}" title="${esc(x.nombre)}: ${num(x.registros)}"></span>`).join("");
+  const det=(id,titulo,stats,cuerpo)=>`<details class="acord" data-ac="${id}" ${abiertos[id]?"open":""}><summary><div class="acs"><h3>${titulo}</h3><div class="acst">${stats}</div></div><span class="acf" aria-hidden="true">▾</span></summary><div class="acb">${cuerpo}</div></details>`;
+  const kpi=(n,t,c="")=>`<span class="kpi ${c}"><b>${n}</b>${t}</span>`;
   const chip=q=>`<span class="quien ${/^Tú/.test(q)?"tu":"cl"}">${esc(q)}</span>`;
   $("#detalle").innerHTML=`<div class="flujo">
     <p class="intro">De dónde salen las ayudas de la app, qué fuentes podrían faltar y qué hay que hacer en cada una. Registros del recolector del ${fmtFecha(F.fecha)}.</p>
-    <h3 class="sec">Consultadas (${con.length})</h3>
-    <div class="tabwrap"><table class="ftabla"><thead><tr><th>Fuente</th><th>Qué aporta</th><th>Cómo se lee</th><th>Registros</th></tr></thead><tbody>
-      ${con.map(x=>`<tr><td><b>${esc(x.nombre)}</b>${x.ok===false?`<div class="aviso">Falló en la última lectura</div>`:""}</td><td>${esc(x.que)}${x.pendiente?`<div class="aviso" style="margin-top:6px">${esc(x.pendiente)}</div>`:""}</td><td>${esc(x.como)}</td><td class="n">${x.registros!=null?num(x.registros):"—"}</td></tr>`).join("")}
-    </tbody></table></div>
-    <h3 class="sec">Posibles fuentes no consultadas (${pot.length})</h3>
-    <div class="tabwrap"><table class="ftabla"><thead><tr><th>Fuente</th><th>Por qué</th><th>Qué hay que hacer</th><th>Quién</th></tr></thead><tbody>
-      ${pot.map(x=>`<tr><td><b>${esc(x.nombre)}</b></td><td>${esc(x.por)}</td><td>${esc(x.hacer)}</td><td>${chip(x.quien)}</td></tr>`).join("")}
-    </tbody></table></div>
-    <h3 class="sec">Qué hay que hacer</h3>
-    ${tuyas.length?`<section class="card parati"><h3>Para ti</h3><ul>${tuyas.map(t=>`<li><div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span></div><span class="chip">${EST_T[t.estado]||t.estado}</span></li>`).join("")}</ul></section>`:""}
-    <section class="card"><h3>Plan de Claude para las fuentes</h3><p class="hint" style="margin:0 0 10px">Una mejora cada noche a las 03:17, antes del recolector de las 05:41. La noche siguiente Claude comprueba que funciona.</p><ul class="plan">${plan.map(filaPlan).join("")}</ul></section></div></div>`;
+    ${det("con","Fuentes consultadas",
+      `${kpi(con.length,"fuentes")}${kpi(num(totalR),"registros leídos")}${avisos?kpi(avisos,"con aviso","av"):""}<div class="mbar" role="img" aria-label="Registros por fuente">${barra}</div><span class="hint" style="flex-basis:100%;margin-top:-4px">Reparto de registros por fuente: pasa el ratón para ver cada una.</span>`,
+      `<div class="tabwrap"><table class="ftabla"><thead><tr><th>Fuente</th><th>Qué aporta</th><th>Cómo se lee</th><th>Registros</th></tr></thead><tbody>
+      ${con.map(x=>`<tr><td><b>${esc(x.nombre)}</b>${x.ok===false?`<div class="aviso">Falló en la última lectura</div>`:""}</td><td>${esc(x.que)}${x.pendiente?`<div class="aviso" style="margin-top:6px">${esc(x.pendiente)}</div>`:""}</td><td>${esc(x.como)}</td><td class="n">${x.registros!=null?num(x.registros):"—"}<div class="rb"><span style="width:${x.registros!=null?Math.max(2,x.registros/Math.max(...regs.map(r=>r.registros),1)*100):0}%"></span></div></td></tr>`).join("")}
+      </tbody></table></div>`)}
+    ${det("pot","Posibles fuentes no consultadas",
+      `${kpi(pot.length,"sin consultar")}${kpi(pot.filter(p=>p.tarea&&plan.some(t=>t.id===p.tarea&&t.estado!=="hecha")).length,"ya en el plan de Claude")}${pot.filter(p=>/^Tú/.test(p.quien)).length?kpi(pot.filter(p=>/^Tú/.test(p.quien)).length,"esperan tu decisión","av"):""}`,
+      `<div class="tabwrap"><table class="ftabla"><thead><tr><th>Fuente</th><th>Por qué</th><th>Qué hay que hacer</th><th>Quién</th></tr></thead><tbody>
+      ${pot.map(x=>`<tr><td><b>${esc(x.nombre)}</b></td><td>${esc(x.por)}</td><td>${esc(x.hacer)}${x.tarea&&plan.find(t=>t.id===x.tarea)?(()=>{const t=plan.find(t=>t.id===x.tarea);return `<div class="hint" style="margin-top:6px">${EST_T[t.estado]}${t.previsto?" · noche del "+fechaCorta(new Date(t.previsto.getTime()-864e5)):""}</div>`;})():""}</td><td>${chip(x.quien)}</td></tr>`).join("")}
+      </tbody></table></div>`)}
+    ${det("hacer","Qué hay que hacer",
+      `${tuyas.length?kpi(tuyas.length,"para ti","av"):""}${kpi(pendC.length,"planificadas")}${bloq?kpi(bloq,"bloqueadas"):""}${hechas?kpi(hechas,"hechas","ok"):""}
+       ${prox?`<span class="prox">Siguiente: <b>${esc(prox.titulo)}</b> · noche del ${fechaCorta(new Date(prox.previsto.getTime()-864e5))}</span>`:""}`,
+      `${tuyas.length?`<section class="card parati"><h3>Para ti</h3><ul>${tuyas.map(t=>`<li><div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span></div><span class="chip">${EST_T[t.estado]||t.estado}</span></li>`).join("")}</ul></section>`:""}
+      <section class="card"><h3>Plan de Claude para las fuentes</h3><p class="hint" style="margin:0 0 10px">Una mejora cada noche a las 03:17, antes del recolector de las 05:41. La noche siguiente Claude comprueba que funciona.</p><ul class="plan">${plan.map(filaPlan).join("")}</ul></section>`)}
+  </div>`;
+  $("#detalle").querySelectorAll("details.acord").forEach(d=>d.addEventListener("toggle",()=>{ abiertos[d.dataset.ac]=d.open; }));
 }
 
 /* ================= NAVEGACIÓN ================= */

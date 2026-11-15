@@ -79,37 +79,43 @@
    "nombre": "Sumario del BOPV",
    "por": "El Gobierno Vasco publica ahí todas sus convocatorias. Recogería las que no salen en el catálogo, sobre todo mientras solo se lee su primera página.",
    "hacer": "Añadirlo al lector de boletines, como el BOB, el BOG y el BOTHA.",
-   "quien": "Claude (código)"
+   "quien": "Claude (código)",
+   "tarea": "bopv"
   },
   {
    "nombre": "SPRI: Agencia Vasca de Desarrollo Empresarial",
    "por": "Gran parte de las ayudas a empresas (innovación, digitalización, internacionalización). Hay que comprobar cuántas llegan ya por euskadi.eus o la BDNS.",
    "hacer": "Comparar su catálogo con lo que ya tenemos; si faltan, añadir un lector de su web.",
-   "quien": "Claude"
+   "quien": "Claude",
+   "tarea": "spri"
   },
   {
    "nombre": "EVE: Ente Vasco de la Energía",
    "por": "Ayudas a eficiencia energética, autoconsumo y movilidad eléctrica, para particulares y empresas.",
    "hacer": "Comprobar cobertura actual; añadir lector si faltan.",
-   "quien": "Claude"
+   "quien": "Claude",
+   "tarea": "eve"
   },
   {
    "nombre": "Sede electrónica de la Diputación de Bizkaia",
    "por": "Bizkaia llega solo por la BDNS y el BOB, que no recogen las ayudas permanentes ni las fichas de trámite.",
    "hacer": "Comprobar qué publica la sede que no esté ya; añadir lector si compensa.",
-   "quien": "Claude"
+   "quien": "Claude",
+   "tarea": "bizkaia-sede"
   },
   {
    "nombre": "Webs de Bilbao, Donostia y Vitoria-Gasteiz",
    "por": "Las tres capitales tienen catálogos propios; ahora solo entran por la BDNS y los boletines.",
    "hacer": "Ver si hay datos abiertos o una página legible; hoy no se pueden leer automáticamente.",
-   "quien": "Claude"
+   "quien": "Claude",
+   "tarea": "capitales"
   },
   {
    "nombre": "Agencias de desarrollo comarcal (Behargintza, Inguralde, Debegesa…)",
    "por": "Ayudas al empleo y al comercio local; parte llega por la BDNS.",
    "hacer": "Medir qué falta comparando con la BDNS.",
-   "quien": "Claude"
+   "quien": "Claude",
+   "tarea": "comarcales"
   }
  ]
 }
