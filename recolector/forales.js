@@ -30,7 +30,7 @@ function fichaGipuzkoa(html) {
   const val = (re) => { const i = lineas.findIndex((l) => re.test(l)); return i >= 0 ? (lineas[i].split(':').slice(1).join(':').trim() || lineas[i + 1] || '') : ''; };
   const inicio = iso((val(/^(Fecha de )?inicio|^Plazo.*desde/i).match(/\d{2}[-/]\d{2}[-/]\d{4}/) || [''])[0].replace(/-/g, '/'));
   return {
-    resumen: lineas.filter((l) => l.length > 60).slice(0, 3).join('\n'),
+    resumen: [...new Set(lineas.filter((l) => l.length > 60))].slice(0, 3).join('\n'),
     organismo: val(/^Departamento|^Órgano/i),
     inicio,
   };

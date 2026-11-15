@@ -112,7 +112,7 @@ async function main() {
   try { await enriquecer(ayudas.filter((a) => a.origen !== 'euskadi')); } catch (e) { log(`Aviso: no se pudieron completar fichas: ${e.message}`); }
   // Fuera las que no puede solicitar cualquiera (nominativas, directas, a una entidad concreta)
   const antes = ayudas.length;
-  ayudas = ayudas.filter((a) => !bdns.RUIDO.test(a.titulo) && !/^(?:[Ss]ubvenci[oó]n|[Aa]yuda|[Aa]portaci[oó]n) (?:a|al|para) (?:la |el )?[A-ZÑ]{2,}\b/.test(a.titulo));
+  ayudas = ayudas.filter((a) => !bdns.RUIDO.test(a.titulo) && !/no es una convocatoria (de subvenciones )?abierta|s[oó]lo pueden (formalizar|presentar)[^.]{0,60}(presupuestos|nominativ)/i.test(a.resumen || '') && !/^(?:[Ss]ubvenci[oó]n|[Aa]yuda|[Aa]portaci[oó]n) (?:a|al|para) (?:la |el )?[A-ZÑ]{2,}\b/.test(a.titulo));
   log(`Descartadas ${antes - ayudas.length} no solicitables`);
   for (const a of ayudas) { a.estado = estado(a); delete a.errorFicha; delete a.abiertoSegunFuente; }
   // Fuera: cerradas y las que no tienen fechas y llevan más de 90 días registradas
