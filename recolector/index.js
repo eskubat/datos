@@ -10,6 +10,8 @@ import { aplicar, huella } from './resumen.js';
 import { documentacion } from './enlaces.js';
 import { resolver, POR_ID, CATALOGO } from './organismos.js';
 import { aplicarTitulos } from './titulos.js';
+import { convocatoriasUE } from './europa.js';
+import { esPosibleNoticia, cotejar, extras, separar } from './noticias.js';
 
 const SALIDA = path.resolve('publico');
 const FUENTES = [
@@ -123,6 +125,12 @@ async function main() {
 
   for (const k in resultados) for (const a of resultados[k]) a.origen = a.origen || k;
   let ayudas = unir([...(resultados.euskadi || []), ...(resultados.gipuzkoa || []), ...(resultados.araba || [])], resultados.bdns || []);
+  // Ayudas añadidas por la tarea a partir de noticias, y marca de posibles noticias (se cotejan antes de publicar)
+  try { ayudas.push(...extras(log)); } catch (e) { log(`Extras: ${e.message}`); }
+  for (const a of ayudas) if (esPosibleNoticia(a)) a.posibleNoticia = true;
+  let europa = [];
+  try { europa = await convocatoriasUE(log); } catch (e) { log(`UE: ${e.message}`); }
+  if (!europa.length) { try { europa = JSON.parse(fs.readFileSync(path.join('cache', 'europa.json'), 'utf8')); } catch {} }
   { // Duplicados exactos (misma ayuda registrada dos veces)
     const vistos = new Set();
     ayudas = ayudas.filter((a) => { const k = norm(a.titulo) + '|' + a.ambito.nombre + '|' + (a.fin || ''); if (vistos.has(k)) return false; vistos.add(k); return true; });
@@ -361,7 +369,7 @@ async function main() {
   try { cacheRes = JSON.parse(fs.readFileSync(path.join('cache', 'resumenes.json'), 'utf8')); } catch {}
   log(`Resúmenes aplicados: ${aplicar(ayudas, fuentes, cacheRes)}`);
   // Lista de pendientes para la tarea de resumen (abiertas primero, por fecha de cierre)
-  const pendientes = ayudas.filter((a) => fuentes[a.id] && (!cacheRes[a.id] || cacheRes[a.id].h !== huella(fuentes[a.id])))
+  const pendientes = ayudas.filter((a) => !a.posibleNoticia && fuentes[a.id] && (!cacheRes[a.id] || cacheRes[a.id].h !== huella(fuentes[a.id])))
     .sort((x, y) => (x.fin || '9999').localeCompare(y.fin || '9999'))
     .map((a) => ({ id: a.id, h: huella(fuentes[a.id]), titulo: a.titulo, organismoSugerido: a.organismoId, organismoFuente: a.organismoFuente || '', archivo: path.join(DIR_F, nombreF(a.id)), caracteres: fuentes[a.id].length }));
   // Tabla maestra de organismos para la tarea de categorización
@@ -378,6 +386,18 @@ async function main() {
   fs.writeFileSync(path.join('cache', 'titulos_pendientes.json'), JSON.stringify(titPend, null, 1));
   log(`Títulos pendientes de estandarizar: ${titPend.length}`);
 
+  // Posibles noticias: cotejo con el portal europeo y con las ayudas propias; fuera de la lista hasta que la tarea decida
+  {
+    const decisiones = (() => { try { return JSON.parse(fs.readFileSync(path.join('cache', 'noticias_decisiones.json'), 'utf8')); } catch { return {}; } })();
+    const sinDecidir = ayudas.filter((a) => a.posibleNoticia && !decisiones[a.id]);
+    const propias = ayudas.filter((a) => !a.posibleNoticia);
+    const cot = cotejar(sinDecidir, propias, europa).map((c) => ({ ...c, archivo: fuentes[c.id] ? path.join('cache', 'fuentes', nombreF(c.id)) : null }));
+    fs.writeFileSync(path.join('cache', 'noticias.json'), JSON.stringify(cot, null, 1));
+    const { publicar, revision } = separar(ayudas, log);
+    ayudas = publicar;
+    fs.mkdirSync(SALIDA, { recursive: true });
+    fs.writeFileSync(path.join(SALIDA, 'revision.json'), JSON.stringify({ generado: new Date().toISOString(), noticias: revision }, null, 1));
+  }
   const porAmbito = ayudas.reduce((m, a) => { m[a.ambito.nivel] = (m[a.ambito.nivel] || 0) + 1; return m; }, {});
   const porEstado = ayudas.reduce((m, a) => { m[a.estado] = (m[a.estado] || 0) + 1; return m; }, {});
   const meta = { version: 1, generado: new Date().toISOString(), total: ayudas.length, porAmbito, porEstado, previstas: previstas.length, fuentes: estadoFuentes };
