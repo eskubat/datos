@@ -38,3 +38,25 @@ if (pub) {
   fs.writeFileSync('publico/ayudas.json', JSON.stringify(pub));
   console.log(`Incorporados ${ok} resúmenes (${rechazados} sin ayuda correspondiente, ${campos} frases descartadas por cifras no verificables). Ayudas con resumen: ${n}/${pub.ayudas.length}. Pendientes: ${leer('cache/pendientes.json', []).length}`);
 }
+
+// Títulos en euskera (cache/titulos_nuevos.json: {"título en castellano": "título en euskera"})
+const titNuevos = leer('cache/titulos_nuevos.json', null);
+if (titNuevos) {
+  const titEu = leer('cache/titulos_eu.json', {});
+  const nums = (t) => (String(t).match(/\d+/g) || []).join(',');
+  let n = 0;
+  for (const [es, eu] of Object.entries(titNuevos)) {
+    const e = String(eu || '').replace(/\s+/g, ' ').trim();
+    if (!e || e.length > 160 || nums(e) !== nums(es) || e === e.toUpperCase()) continue;
+    titEu[es] = e.charAt(0).toUpperCase() + e.slice(1); n++;
+  }
+  fs.writeFileSync('cache/titulos_eu.json', JSON.stringify(titEu, null, 1));
+  fs.writeFileSync('cache/titulos_pendientes.json', JSON.stringify(leer('cache/titulos_pendientes.json', []).filter((t) => !titEu[t]), null, 1));
+  fs.rmSync('cache/titulos_nuevos.json', { force: true });
+  const pub2 = leer('publico/ayudas.json', null);
+  if (pub2) {
+    for (const a of [...pub2.ayudas, ...(pub2.previstas || [])]) if (titEu[a.titulo]) a.tituloEu = titEu[a.titulo];
+    fs.writeFileSync('publico/ayudas.json', JSON.stringify(pub2));
+  }
+  console.log(`Títulos en euskera incorporados: ${n}. Pendientes: ${leer('cache/titulos_pendientes.json', []).length}`);
+}

@@ -44,6 +44,8 @@ Reglas (las comprueba `recolector/incorporar.js`; lo que no cumpla se descarta):
 - No incluir fechas ni plazos: la app los calcula aparte.
 - Castellano correcto con tildes; sin MAYÚSCULAS salvo siglas; sin guiones ni a), 1. al principio de las frases.
 
-3. Guarda la lista en `cache/nuevos.json` y ejecuta `node recolector/incorporar.js`.
+3. Guarda la lista en `cache/nuevos.json`.
+   Además, traduce al euskera los **150 primeros** títulos de `cache/titulos_pendientes.json` (lista de títulos en castellano) y guárdalos en `cache/titulos_nuevos.json` como `{"título en castellano": "título en euskera"}`. Euskera batua natural y claro, mismas cifras y siglas, sin añadir ni quitar información.
+   Ejecuta `node recolector/incorporar.js`.
 4. `git add cache publico && git commit -m "Resúmenes (tarea programada)" && git pull --rebase -X theirs && git push`.
 5. Si `cache/pendientes.json` está vacío, no hagas nada más.

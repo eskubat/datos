@@ -337,6 +337,14 @@ async function main() {
   fs.writeFileSync(path.join('cache', 'pendientes.json'), JSON.stringify(pendientes, null, 1));
   log(`Pendientes de resumen: ${pendientes.length}`);
 
+  // Títulos en euskera: traducciones de la tarea de resumen (cache/titulos_eu.json, clave = título en castellano)
+  let titEu = {};
+  try { titEu = JSON.parse(fs.readFileSync(path.join('cache', 'titulos_eu.json'), 'utf8')); } catch {}
+  for (const a of [...ayudas, ...previstas]) if (titEu[a.titulo]) a.tituloEu = titEu[a.titulo];
+  const sinTitEu = [...new Set([...ayudas.filter((a) => !(a.eu && a.eu.titulo)), ...previstas].map((a) => a.titulo).filter((t) => t && !titEu[t]))];
+  fs.writeFileSync(path.join('cache', 'titulos_pendientes.json'), JSON.stringify(sinTitEu, null, 1));
+  log(`Títulos sin euskera: ${sinTitEu.length}`);
+
   const porAmbito = ayudas.reduce((m, a) => { m[a.ambito.nivel] = (m[a.ambito.nivel] || 0) + 1; return m; }, {});
   const porEstado = ayudas.reduce((m, a) => { m[a.estado] = (m[a.estado] || 0) + 1; return m; }, {});
   const meta = { version: 1, generado: new Date().toISOString(), total: ayudas.length, porAmbito, porEstado, previstas: previstas.length, fuentes: estadoFuentes };
