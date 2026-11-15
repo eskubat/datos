@@ -84,8 +84,8 @@ export function texto(html) {
 
 // Algunos servidores públicos (euskadi.eus) rechazan clientes identificados como robot.
 // Para ellos usamos la cabecera de un navegador estándar (decisión del proyecto, ver README).
-const UA_BOT = 'Mozilla/5.0 (compatible; EskubatBot/0.1; +https://github.com/eskubat/datos)';
-const UA_NAVEGADOR = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36';
+export const UA_BOT = 'Mozilla/5.0 (compatible; EskubatBot/0.1; +https://github.com/eskubat/datos)';
+export const UA_NAVEGADOR = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36';
 
 export async function pedir(url, { json = false, tries = 3, timeout = 30000, navegador = false } = {}) {
   let last;

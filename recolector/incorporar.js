@@ -12,9 +12,12 @@ let ok = 0, rechazados = 0, campos = 0;
 for (const r of nuevos) {
   const p = porId.get(r.id);
   if (!p) { rechazados++; continue; }
-  const v = validar(r, p.texto);
-  const total = ['titulo', 'queEs'].filter((k) => r[k]).length + ['cuantia', 'quien', 'requisitos'].reduce((n, k) => n + (r[k] || []).length, 0);
-  const quedan = ['titulo', 'queEs'].filter((k) => v[k]).length + ['cuantia', 'quien', 'requisitos'].reduce((n, k) => n + v[k].length, 0);
+  let fuente = '';
+  try { fuente = fs.readFileSync(p.archivo, 'utf8'); } catch { rechazados++; continue; }
+  const v = validar(r, fuente);
+  const cuenta = (x) => (Array.isArray(x) ? x : []).reduce((n, g) => n + (g && typeof g === 'object' ? (g.items || []).length : 1), 0);
+  const total = ['titulo', 'queEs'].filter((k) => r[k]).length + ['cuantia', 'quien', 'requisitos'].reduce((n, k) => n + cuenta(r[k]), 0);
+  const quedan = ['titulo', 'queEs'].filter((k) => v[k]).length + ['cuantia', 'quien', 'requisitos'].reduce((n, k) => n + cuenta(v[k]), 0);
   campos += total - quedan;
   cache[r.id] = { h: p.h, r: v, modelo: 'claude', fecha: new Date().toISOString().slice(0, 10) };
   ok++;
@@ -26,7 +29,10 @@ fs.rmSync('cache/nuevos.json', { force: true });
 // Aplicar a lo publicado (fuentes = texto de pendientes + huellas ya guardadas)
 const pub = leer('publico/ayudas.json', null);
 if (pub) {
-  const fuentes = leer('cache/fuentes.json', {});
+  const fuentes = {};
+  for (const p of pendientes) { try { fuentes[p.id] = fs.readFileSync(p.archivo, 'utf8'); } catch {} }
+  // Las ya resumidas que no están en pendientes: su texto sigue en cache/fuentes/
+  for (const a of pub.ayudas) { if (!fuentes[a.id]) { try { fuentes[a.id] = fs.readFileSync('cache/fuentes/' + String(a.id).replace(/[^\w.-]/g, '_') + '.txt', 'utf8'); } catch {} } }
   const n = aplicar(pub.ayudas, fuentes, cache);
   pub.resumidas = n;
   fs.writeFileSync('publico/ayudas.json', JSON.stringify(pub));

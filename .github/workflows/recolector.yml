@@ -11,17 +11,22 @@ concurrency:
   cancel-in-progress: false
 permissions:
   contents: write
-  models: read
 jobs:
   recoger:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
       - run: sudo apt-get install -y -qq poppler-utils >/dev/null
+      # Textos de los documentos enlazados (bases, órdenes, boletines…): caché fuera del repositorio
+      - uses: actions/cache@v4
+        with:
+          path: cache/docs
+          key: docs-${{ github.run_id }}
+          restore-keys: docs-
       - run: node recolector/index.js
       - name: Publicar si hay cambios
         run: |

@@ -7,7 +7,7 @@ import * as bdns from './bdns.js';
 import * as forales from './forales.js';
 import { claveLinea } from './historico.js';
 import { aplicar, huella } from './resumen.js';
-import { textosPdf } from './pdf.js';
+import { documentacion } from './enlaces.js';
 
 const SALIDA = path.resolve('publico');
 const FUENTES = [
@@ -309,28 +309,32 @@ async function main() {
     log(`Enlaces comprobados: ${urls.length}, rotos sustituidos o quitados: ${n}`);
   }
 
-  // Texto de cada ayuda para los resúmenes (no se publica en la app) y resúmenes ya hechos
-  // PDF de la convocatoria (BDNS) y de las bases: se añaden al texto que se resume
+  // Documentación completa de cada ayuda (ficha + todos sus enlaces de información) para los resúmenes.
+  // No se publica en la app: se guarda en cache/fuentes/<id>.txt y la lee la tarea de resumen.
   const docUrl = (id) => `https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=${id}`;
-  let pdfs = {};
-  try { pdfs = await textosPdf(ayudas.flatMap((a) => [...(a._docs || []).map(docUrl), /\.pdf($|\?)/i.test(a.bases || '') ? a.bases : null]).filter(Boolean), log); } catch (e) { log(`PDF: ${e.message}`); }
+  let docs = {};
+  try { docs = await documentacion(ayudas, { log, extra: (a) => (a._docs || []).map(docUrl) }); } catch (e) { log(`Documentación: ${e.message}`); }
   const fuentes = {};
+  const DIR_F = path.join('cache', 'fuentes');
+  fs.mkdirSync(DIR_F, { recursive: true });
+  const nombreF = (id) => String(id).replace(/[^\w.-]/g, '_') + '.txt';
   for (const a of ayudas) {
-    const extra = [...(a._docs || []).map((id) => pdfs[docUrl(id)]), pdfs[a.bases]].filter(Boolean).map((t) => 'Documento oficial (extracto):\n' + t);
-    const t = [a._texto || '', ...extra].join('\n\n').trim();
-    if (t) fuentes[a.id] = t.slice(0, 20000);
+    const t = [docs[a.id] || '', a._texto && !docs[a.id] ? '### Extracto de la fuente\n' + a._texto : ''].join('\n\n').trim();
+    if (t) { fuentes[a.id] = t; fs.writeFileSync(path.join(DIR_F, nombreF(a.id)), t); }
     delete a._texto; delete a._docs;
   }
-  fs.mkdirSync('cache', { recursive: true });
-  fs.writeFileSync(path.join('cache', 'fuentes.json'), JSON.stringify(fuentes));
+  // Fuera los textos de ayudas que ya no existen
+  const vivos = new Set(Object.keys(fuentes).map(nombreF));
+  for (const f of fs.readdirSync(DIR_F)) if (!vivos.has(f)) fs.rmSync(path.join(DIR_F, f));
+  for (const viejo of ['fuentes.json', 'pdfs.json']) fs.rmSync(path.join('cache', viejo), { force: true });
   let cacheRes = {};
   try { cacheRes = JSON.parse(fs.readFileSync(path.join('cache', 'resumenes.json'), 'utf8')); } catch {}
   log(`Resúmenes aplicados: ${aplicar(ayudas, fuentes, cacheRes)}`);
   // Lista de pendientes para la tarea de resumen (abiertas primero, por fecha de cierre)
   const pendientes = ayudas.filter((a) => fuentes[a.id] && (!cacheRes[a.id] || cacheRes[a.id].h !== huella(fuentes[a.id])))
     .sort((x, y) => (x.fin || '9999').localeCompare(y.fin || '9999'))
-    .map((a) => ({ id: a.id, h: huella(fuentes[a.id]), titulo: a.titulo, texto: fuentes[a.id] }));
-  fs.writeFileSync(path.join('cache', 'pendientes.json'), JSON.stringify(pendientes));
+    .map((a) => ({ id: a.id, h: huella(fuentes[a.id]), titulo: a.titulo, archivo: path.join(DIR_F, nombreF(a.id)), caracteres: fuentes[a.id].length }));
+  fs.writeFileSync(path.join('cache', 'pendientes.json'), JSON.stringify(pendientes, null, 1));
   log(`Pendientes de resumen: ${pendientes.length}`);
 
   const porAmbito = ayudas.reduce((m, a) => { m[a.ambito.nivel] = (m[a.ambito.nivel] || 0) + 1; return m; }, {});
