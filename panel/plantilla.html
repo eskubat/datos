@@ -378,7 +378,7 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 .dlgv .vtit{font:800 19px var(--display);margin:10px 0 4px;text-transform:none;letter-spacing:0;color:var(--ink)}
 .dlgv .vb{margin-top:10px;padding:10px 12px;background:var(--bg);border-radius:8px;font-size:14px;line-height:1.5}
 .dlgv .vt{display:block;font:700 11px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
-.lnk.del{color:#9b2c1f}
+.lnk.del{color:#9b2c1f} .btn.del-b{background:#9b2c1f;border-color:#9b2c1f}
 .plan-i.clic{cursor:pointer} .plan-i.clic:hover{background:var(--accent-soft)}
 .dlgv .vb.ed textarea{width:100%;min-height:80px;margin:4px 0 8px;font:14px var(--body);padding:8px;border:1px solid var(--line);border-radius:8px}
 .dlgv .fila{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
@@ -552,11 +552,20 @@ function verTarea(id){
   $("#dlgVc").querySelector("[data-vtc]").onclick=()=>{ $("#dlgV").close(); abrirAsis(`Sobre mi tarea «${t.titulo}» (id ${t.id}): `); };
   const dl=$("#dlgV"); if(!dl.open) dl.showModal();
 }
+function confirmarV(msg,si="Eliminar"){
+  return new Promise(res=>{ const dl=$("#dlgV");
+    $("#dlgVc").innerHTML=`<h3 class="vtit">${esc(msg)}</h3><div class="fila" style="margin-top:14px"><button class="btn primary del-b" data-si>${esc(si)}</button><button class="btn ghost" data-no>Cancelar</button></div>`;
+    const fin=v=>{ dl.removeEventListener("close",onc); if(dl.open) dl.close(); res(v); }, onc=()=>res(false);
+    dl.addEventListener("close",onc,{once:true});
+    $("#dlgVc").querySelector("[data-si]").onclick=()=>fin(true); $("#dlgVc").querySelector("[data-no]").onclick=()=>fin(false);
+    if(!dl.open) dl.showModal(); });
+}
 async function eliminarTarea(id){
   const t=(D.tareas||[]).find(x=>x.id===id); if(!t||!S.db){ setStatus("Sin conexión con la base de datos de la página"); return; }
-  if(!confirm(`¿Eliminar «${t.titulo}» del plan?`)) return;
+  if(!(await confirmarV(`¿Eliminar «${t.titulo}» del plan?`))) return;
   const ar=t.area||({fuentes:"fuentes",base:"datos",revision:"datos",eskubat:"eskubat"}[t.seccion||"fuentes"]||"datos"), now=new Date().toISOString();
   await S.db.collection("cuestiones").doc("tarea-"+t.id).set({area:ar,tarea:t.id,ayudaId:"",titulo:"Eliminar del plan: "+t.titulo,organismo:"Plan de mejoras",url:"",fin:"",tipos:["otro"],motivo:t.detalle||"",estado:"lista",origen:"plan-eliminar",respuesta:"",instruccion:`Elimina la tarea «${t.id}» del plan (panel/tareas.json). No la ejecutes.`,chat:[],creada:now,actualizada:now});
+  S.docs=[...S.docs.filter(x=>x._id!=="tarea-"+t.id),{_id:"tarea-"+t.id,estado:"lista",origen:"plan-eliminar",tarea:t.id,titulo:"Eliminar del plan: "+t.titulo}]; renderDetalle();
   setStatus("Eliminada: no se ejecutará y desaparece del plan en la próxima pasada");
 }
 async function reabrirTarea(id){
@@ -1242,8 +1251,9 @@ $("#asisSend").onclick=enviarAsis;
 $("#asisIn").onkeydown=(ev)=>{ if(ev.key==="Enter"&&(ev.metaKey||ev.ctrlKey)) enviarAsis(); };
 document.addEventListener("click",ev=>{ const vc=ev.target.closest("[data-vc]"); if(vc){ verCuestion(vc.dataset.vc); return; } const vt=ev.target.closest("[data-vt]"); if(vt){ verTarea(vt.dataset.vt); return; }
   const rb=ev.target.closest("[data-reab]"); if(rb){ if(S.db) S.db.collection("cuestiones").doc(rb.dataset.reab).update({estado:"abierta",actualizada:new Date().toISOString()}).then(()=>setStatus("Reabierta: vuelve a Para ti")).catch(()=>setStatus("No se pudo reabrir")); return; }
-  const dl=ev.target.closest("[data-del]"); if(dl){ const d=S.docs.find(x=>x._id===dl.dataset.del); if(d&&S.db&&confirm(`¿Eliminar «${d.titulo||""}»? No se aplicará.`)) S.db.collection("cuestiones").doc(d._id).update({estado:"descartada",actualizada:new Date().toISOString()}).then(()=>setStatus("Eliminada")).catch(()=>setStatus("No se pudo eliminar")); return; }
-  const dt=ev.target.closest("[data-delt]"); if(dt){ eliminarTarea(dt.dataset.delt).catch(()=>setStatus("No se pudo eliminar")); return; }
+  const dl=ev.target.closest("[data-del]"); if(dl){ const d=S.docs.find(x=>x._id===dl.dataset.del); if(!d) return; if(!S.db){ setStatus("Sin conexión con la base de datos de la página"); return; }
+    confirmarV(`¿Eliminar «${d.titulo||""}»? No se aplicará.`).then(ok=>{ if(!ok) return; S.db.collection("cuestiones").doc(d._id).update({estado:"descartada",actualizada:new Date().toISOString()}).then(()=>{ d.estado="descartada"; renderDetalle(); setStatus("Eliminada"); }).catch(e=>setStatus("No se pudo eliminar ("+(e&&e.code||"error")+")")); }); return; }
+  const dt=ev.target.closest("[data-delt]"); if(dt){ eliminarTarea(dt.dataset.delt).catch(e=>setStatus("No se pudo eliminar ("+(e&&e.code||"error")+")")); return; }
   const rt=ev.target.closest("[data-reabt]"); if(rt){ reabrirTarea(rt.dataset.reabt).catch(()=>setStatus("No se pudo reabrir")); return; } const ir=ev.target.closest("[data-irc]"); if(ir){ $("#dlgV").close(); S.filtro="todas"; S.areaF=""; cambiarVista("c"); seleccionar(ir.dataset.irc); return; } if(ev.target.closest("[data-cerrarv]")){ $("#dlgV").close(); return; } const b=ev.target.closest("[data-asis]"); if(b) abrirAsis(b.dataset.asis); const v=ev.target.closest("[data-vi]"); if(v) cambiarVista(v.dataset.vi); });
 $("#refrescar").onclick=()=>{ $("#refrescar").disabled=true; $("#refrescar").textContent="Actualizando…"; try{ sessionStorage.setItem("eskubat-vista",S.vista); }catch{} location.reload(); };
 $("#marca").onclick=(ev)=>{ ev.preventDefault(); cambiarVista("w"); };
