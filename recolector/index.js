@@ -173,7 +173,7 @@ async function main() {
       a.para = tipos;
     }
     if (a.origen === 'bdns' && a.dirigido) {
-      const lineas = a.dirigido.split('\n').map((l) => { const m = QUIEN_BDNS.find(([re]) => re.test(l)); return m ? m[1] : l; });
+      const lineas = a.dirigido.split('\n').filter((l) => !/:\s*$/.test(l)).map((l) => { const m = QUIEN_BDNS.find(([re]) => re.test(l)); return m ? m[1] : l; });
       a.dirigido = [...new Set(lineas)].join('\n');
     }
     if (a.origen === 'bdns' && /^Finalidad: /.test(a.resumen || '')) {
@@ -246,6 +246,28 @@ async function main() {
     previstas.sort((a, b) => (a.añoPrevisto - b.añoPrevisto) || (a.mesPrevisto - b.mesPrevisto));
     log(`Histórico: ${ayudas.filter((a) => a.recurrente).length} ayudas actuales se repiten cada año · ${previstas.length} previstas en los próximos meses`);
   } catch (e) { log(`Histórico no disponible: ${e.message}`); }
+
+  // Enlaces rotos: se comprueban y se sustituyen por la ficha de la fuente (o se quitan)
+  {
+    const urls = [...new Set(ayudas.flatMap((a) => [a.url, a.bases, a.boletin]).filter((u) => /^https?:\/\//.test(u || '')))];
+    const roto = {};
+    await enParalelo(urls, 8, async (u) => {
+      try {
+        const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 20000);
+        const r = await fetch(u, { method: 'GET', redirect: 'follow', signal: ctrl.signal, headers: { 'User-Agent': 'Mozilla/5.0 (compatible; EskubatBot/0.1; +https://github.com/eskubat/datos)' } });
+        clearTimeout(t);
+        if (r.status === 404 || r.status === 410) roto[u] = true;
+        try { r.body && r.body.cancel(); } catch {}
+      } catch { /* sin respuesta: no lo damos por roto */ }
+    });
+    let n = 0;
+    for (const a of ayudas) {
+      if (roto[a.url]) { const alt = (a.fuentes || []).map((f) => f.url).find((u) => u && !roto[u] && u !== a.url); a.url = alt || ''; n++; }
+      if (roto[a.bases]) { a.bases = ''; n++; }
+      if (roto[a.boletin]) { a.boletin = ''; n++; }
+    }
+    log(`Enlaces comprobados: ${urls.length}, rotos sustituidos o quitados: ${n}`);
+  }
 
   // Texto de cada ayuda para los resúmenes (no se publica en la app) y resúmenes ya hechos
   const fuentes = {};

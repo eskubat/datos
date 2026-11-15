@@ -51,6 +51,55 @@ export function limpiaTitulo(t) {
   return frase(s.charAt(0).toUpperCase() + s.slice(1));
 }
 
+// ---------- Extracto publicado en el boletín (viene dentro del detalle de la BDNS) ----------
+const ENT = { amp: '&', lt: '<', gt: '>', quot: '"', nbsp: ' ', aacute: 'á', eacute: 'é', iacute: 'í', oacute: 'ó', uacute: 'ú', ntilde: 'ñ', Aacute: 'Á', Eacute: 'É', Iacute: 'Í', Oacute: 'Ó', Uacute: 'Ú', Ntilde: 'Ñ', uuml: 'ü', ordm: 'º', ordf: 'ª', euro: '€' };
+function htmlATexto(h) {
+  return String(h || '').replace(/<br\s*\/?>/gi, '\n').replace(/<\/(p|li|div|h\d|tr)>/gi, '\n').replace(/<li[^>]*>/gi, '- ').replace(/<[^>]+>/g, '')
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n)).replace(/&([a-zA-Z]+);/g, (m, n) => ENT[n] ?? m)
+    .split('\n').map((l) => l.replace(/\s+/g, ' ').trim()).filter(Boolean).join('\n');
+}
+const SECCIONES = [
+  ['objeto', /^(?:\w+[.:-]\s*)?(objeto|finalidad|descripci[oó]n del objeto)\b.{0,40}$/i],
+  ['beneficiarios', /^(?:\w+[.:-]\s*)?(beneficiari|personas beneficiarias|destinatari|qui[eé]n puede)\S*.{0,60}$/i],
+  ['requisitos', /^(?:\w+[.:-]\s*)?requisitos\b.{0,60}$/i],
+  ['cuantia', /^(?:\w+[.:-]\s*)?(cuant[ií]a|importe|dotaci[oó]n|cr[eé]dito|financiaci[oó]n)\b.{0,60}$/i],
+  ['plazo', /^(?:\w+[.:-]\s*)?(plazo|lugar y plazo|presentaci[oó]n de solicitudes)\b.{0,80}$/i],
+  ['otros', /^(?:\w+[.:-]\s*)?(bases reguladoras|otros datos|criterios|documentaci[oó]n|forma de pago|r[eé]gimen|procedimiento|resoluci[oó]n|justificaci[oó]n|compatibilidad|descripci[oó]n)\b.{0,60}$/i],
+];
+export function partesExtracto(texto) {
+  const out = { objeto: [], beneficiarios: [], requisitos: [], cuantia: [], plazo: [], otros: [] };
+  let actual = 'otros';
+  for (const l of texto.split('\n')) {
+    const sec = l.length < 90 ? SECCIONES.find(([, re]) => re.test(l)) : null;
+    if (sec) { actual = sec[0]; continue; }
+    out[actual].push(l);
+  }
+  return out;
+}
+
+// ---------- Plazo calculado ("5 días hábiles desde el día siguiente a la publicación") ----------
+const FESTIVOS = ['01-01', '01-06', '05-01', '08-15', '10-12', '11-01', '12-06', '12-08', '12-25'];
+const habil = (d) => d.getUTCDay() !== 0 && d.getUTCDay() !== 6 && !FESTIVOS.includes(d.toISOString().slice(5, 10));
+export function calculaFin(textoPlazo, publicacion) {
+  if (!publicacion) return null;
+  const t = norm(textoPlazo);
+  const ini = new Date(publicacion + 'T00:00:00Z');
+  ini.setUTCDate(ini.getUTCDate() + 1); // día siguiente a la publicación
+  let m = t.match(/(\d+|un|una|dos|tres|quince|diez|veinte|treinta)\s+(dias?|mes(?:es)?|semanas?)\s*(habiles|naturales)?/);
+  if (!m || !/public/.test(t)) return null;
+  const NUM = { un: 1, una: 1, dos: 2, tres: 3, diez: 10, quince: 15, veinte: 20, treinta: 30 };
+  const n = Number(m[1]) || NUM[m[1]];
+  if (!n || n > 120) return null;
+  const d = new Date(ini);
+  if (/^mes/.test(m[2])) { d.setUTCMonth(d.getUTCMonth() + n); d.setUTCDate(d.getUTCDate() - 1); }
+  else if (/^semana/.test(m[2])) d.setUTCDate(d.getUTCDate() + 7 * n - 1);
+  else if (m[3] === 'habiles' || !m[3]) { let k = habil(d) ? 1 : 0; while (k < n) { d.setUTCDate(d.getUTCDate() + 1); if (habil(d)) k++; } }
+  else d.setUTCDate(d.getUTCDate() + n - 1);
+  // Si el último día es inhábil, pasa al siguiente hábil
+  while (!habil(d)) d.setUTCDate(d.getUTCDate() + 1);
+  return { inicio: ini.toISOString().slice(0, 10), fin: d.toISOString().slice(0, 10) };
+}
+
 function ddmmyyyy(d) { return String(d.getDate()).padStart(2, '0') + '/' + String(d.getMonth() + 1).padStart(2, '0') + '/' + d.getFullYear(); }
 const txt = (v) => (v == null ? '' : typeof v === 'string' ? v : v.descripcion || v.description || v.nombre || '');
 const lista = (v) => (Array.isArray(v) ? v.map(txt).filter(Boolean) : v ? [txt(v)].filter(Boolean) : []);
@@ -103,6 +152,20 @@ export async function recoger(log) {
     const finalidad = txt(d.descripcionFinalidad);
     const url = `https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/${num}`;
     const organismo = frase(it.nivel3 || it.nivel2 || '');
+    // Extracto del boletín: objeto, beneficiarios, cuantía y plazo; y fecha de publicación para calcular el cierre
+    const anuncio = (d.anuncios || [])[0] || {};
+    const extracto = htmlATexto(anuncio.texto || '');
+    const partes = extracto ? partesExtracto(extracto) : null;
+    const pubClave = Object.keys(anuncio).find((k) => /public/i.test(k) && /\d{4}-\d{2}-\d{2}/.test(String(anuncio[k])));
+    const publicacion = (pubClave && String(anuncio[pubClave]).slice(0, 10)) || ((String(anuncio.url || '').match(/(20\d\d)\/(\d{2})\/(\d{2})/) || []).slice(1).join('-') || null);
+    let inicioCalc = null, finCalc = null;
+    if (!d.fechaFinSolicitud) {
+      const c = calculaFin([d.textFin, partes ? partes.plazo.join(' ') : ''].join(' '), publicacion);
+      if (c) { inicioCalc = d.fechaInicioSolicitud ? null : c.inicio; finCalc = c.fin; }
+    }
+    const lineasReq = partes ? [...partes.beneficiarios, ...partes.requisitos].filter((l) => /^[-•·]|^[a-z]\)|^\d+[.)]\s/.test(l)).map((l) => l.replace(/^(?:[-•·]|[a-z]\)|\d+[.)])\s*/, '')) : [];
+    const benefTxt = partes ? partes.beneficiarios.filter((l) => !/^[-•·]|^[a-z]\)|^\d+[.)]\s/.test(l)) : [];
+    const cuantiaTxt = partes ? partes.cuantia.filter((l) => !/dotaci[oó]n presupuestaria|aplicaci[oó]n presupuestaria|partida|cr[eé]dito (total|presupuestario)/i.test(l)) : [];
     return {
       id: 'bdns-' + num,
       bdns: num,
@@ -110,21 +173,26 @@ export async function recoger(log) {
       tituloEu: it.descripcionLeng ? frase(it.descripcionLeng) : '',
       organismo,
       ambito: amb,
-      inicio: iso(d.fechaInicioSolicitud),
-      fin: iso(d.fechaFinSolicitud),
+      inicio: iso(d.fechaInicioSolicitud) || inicioCalc,
+      fin: iso(d.fechaFinSolicitud) || finCalc,
+      finCalculado: !!finCalc,
+      publicacion,
+      boletin: anuncio.url || '',
       textoPlazo: [d.textInicio, d.textFin].filter(Boolean).join(' · '),
       abiertoSegunFuente: d.abierto === true || d.abierto === 'true' || d.abierto === 'S',
       registrada: iso(it.fechaRecepcion),
       presupuesto: d.presupuestoTotal != null ? Number(d.presupuestoTotal) || null : null,
-      cuantia: '',
-      resumen: finalidad ? `Finalidad: ${finalidad}` : '',
-      dirigido: benef.join('\n'),
+      cuantia: cuantiaTxt.join('\n'),
+      resumen: partes && partes.objeto.length ? partes.objeto.slice(0, 4).join('\n') : (finalidad ? `Finalidad: ${finalidad}` : ''),
+      dirigido: [...benef, ...benefTxt.filter((l) => l.length < 200)].join('\n'),
+      requisitos: lineasReq.slice(0, 10),
       para: [...new Set([...paraBDNS(benef), ...paraDeTexto(titulo)])],
       temas: temasDe(titulo + ' ' + finalidad),
       url: d.sedeElectronica || url,
-      bases: d.urlBasesReguladoras || '',
+      bases: String(d.urlBasesReguladoras || '').replace(/\s+/g, ''),
       fuentes: [{ nombre: 'BDNS', url }],
       _texto: [
+        extracto ? 'Extracto publicado en el boletín:\n' + extracto : '',
         'Título: ' + (it.descripcion || ''),
         it.descripcionLeng ? 'Título en euskera: ' + it.descripcionLeng : '',
         'Organismo: ' + [it.nivel2, it.nivel3].filter(Boolean).join(' · '),
