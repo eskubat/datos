@@ -12,7 +12,7 @@ import { calculaFin, partesExtracto, RUIDO } from './bdns.js';
 const DIAS = 45;
 const CACHE = path.join('cache', 'boletines.json');
 const ES_AYUDA = /(convocatoria|bases|extracto)[^.]{0,250}(subvenci|ayudas?\b|becas?\b|premios?\b|concurso)|^(subvenciones|ayudas|becas|premios)\b|\bconcurso (infantil|literario|de (fotograf|pintura|escaparates|carteles|relatos|postales|ideas|dibujo))/i;
-const NO_AYUDA = /lista (provisional|definitiva)|admitid|excluid|proceso selectivo|\bplazas?\b|bolsa de (empleo|trabajo)|resoluci[oó]n (definitiva )?de (la )?concesi|concesi[oó]n de las? (subvenci|ayudas)|adjudicaci|plan estrat[eé]gico|ordenanza|cr[eé]dito|tramitaci[oó]n anticipada|subasta|provisi[oó]n|nombramiento|modificaci[oó]n de (la|las)|correcci[oó]n de errores|desistimiento|reintegro|justificaci[oó]n|resoluci[oó]n de (la )?convocatoria|ampliaci[oó]n del cr[eé]dito|contrataci[oó]n de|licitaci/i;
+const NO_AYUDA = /lista (provisional|definitiva)|admitid|excluid|proceso selectivo|\bplazas?\b|bolsa de (empleo|trabajo)|resoluci[oó]n (definitiva )?de (la )?concesi|concesi[oó]n de las? (subvenci|ayudas)|adjudicaci|plan estrat[eé]gico|ordenanza|cr[eé]dito|tramitaci[oó]n anticipada|subasta|provisi[oó]n|nombramiento|modificaci[oó]n de (la|las)|correcci[oó]n de errores|desistimiento|reintegro|justificaci[oó]n|resoluci[oó]n de (la )?convocatoria|ampliaci[oó]n del cr[eé]dito|contrataci[oó]n de|licitaci|incremento|jurado|nombra|lista de (personas|solicitudes)/i;
 const leer = (f, d) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return d; } };
 const hoyMenos = (n) => { const d = new Date(Date.now() - n * 864e5); return d; };
 const isoDia = (d) => d.toISOString().slice(0, 10);
@@ -90,7 +90,6 @@ export async function botha(desde, vistos, log) {
     const pub = f && MES[norm(f[2])] ? `${f[3]}-${String(MES[norm(f[2])]).padStart(2, '0')}-${f[1].padStart(2, '0')}` : null;
     if (pub && pub < isoDia(desde)) break;
     vistos.add(clave);
-    if (process.env.DEPURAR) log('BOTHA ' + n3 + ' refs: ' + JSON.stringify(txt.split('\n').filter((l) => /\d{5}\s*$/.test(l)).slice(0, 3).map((l) => [...l.slice(-14)].map((c) => c.charCodeAt(0).toString(16)).join(' '))));
     let entidad = '', buf = [];
     for (const raw of txt.split('\n')) {
       const l = raw.trim();
