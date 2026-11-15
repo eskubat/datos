@@ -119,7 +119,7 @@ export async function recoger(log) {
       resumen: f.objeto || '',
       dirigido: f.dirigido || '',
       para: paraDeTexto([it.titulo, f.dirigido].join(' ')),
-      temas: temasDe(todo + ' ' + (it.departamento || '')),
+      temas: temasDe([it.titulo, (f.objeto || '').slice(0, 300)].join(' ')),
       url: it.url,
       fuentes: [{ nombre: 'euskadi.eus', url: it.url }],
       errorFicha: fichas[k] && fichas[k].error ? fichas[k].error : undefined,

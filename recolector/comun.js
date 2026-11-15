@@ -143,22 +143,24 @@ export const MUNI_IDX = (() => {
 })();
 
 // ---------- Temas y destinatarios ----------
+// Temas: expresiones con límites de palabra para no etiquetar de más ("parte" no es "arte")
 export const TEMAS = [
-  ['vivienda', /vivienda|alquiler|rehabilit|fachada|ascensor|edific|accesibilidad/],
-  ['empleo', /empleo|contrataci|trabajador|desemple|inserci[oó]n laboral|lanbide/],
-  ['cultura', /cultur|m[uú]sica|teatro|libro|euskera|euskara|festival|arte|cine|patrimonio|bertso|audiovisual/],
-  ['estudios', /beca|estudi|universit|formaci|investigaci|doctor|m[aá]ster/],
-  ['digitalizacion', /digital|tecnolog|innova|inteligencia artificial|ciberseg|i\+d/],
-  ['familia', /famili|hij[oa]s|infancia|conciliaci|natalidad|mayores|dependencia|cuidad/],
-  ['energia', /energ|renovable|eficiencia|bicicleta|movilidad|veh[ií]culo|solar|clima|medio ambiente|residuo|sostenib/],
-  ['comercio', /comercio|hostel|tienda|consumo|bono/],
-  ['emprendimiento', /emprend|empresa|pyme|aut[oó]nom|startup|industria|internacionaliz/],
-  ['educacion', /educaci|escuela|ampa|centro docente|alumn|ikastola/],
-  ['deporte', /deport|club|competici/],
-  ['social', /social|cooperaci[oó]n|inclusi|discapacidad|voluntari|igualdad|mujer|juventud|asociaci/],
-  ['rural', /agrar|agr[ií]col|ganad|rural|pesca|forestal|caser[ií]o|alimentaci/],
+  ['vivienda', /\b(vivienda|alquiler|rehabilitaci[oó]n de (edificios|viviendas)|fachadas?|ascensor|emancipaci|gaztelagun|bizigune)/],
+  ['empleo', /\b(empleo|contrataci[oó]n de personas|contratar|desemplead|inserci[oó]n (socio)?laboral|lanbide|puestos? de trabajo|autoempleo)/],
+  ['cultura', /\b(cultura|culturales?|m[uú]sica|teatro|libros?|edici[oó]n de|festival|artes?\b|artistas?|cine|audiovisual|patrimonio|bertso|museos?|danza|literari)/],
+  ['estudios', /\b(becas?|estudiantes?|universitari|investigaci[oó]n|doctora|m[aá]ster|formaci[oó]n profesional|cursos?)\b/],
+  ['digitalizacion', /\b(digital|digitalizaci|tecnol[oó]gic|innovaci[oó]n|inteligencia artificial|ciberseguridad|i\+d)/],
+  ['familia', /\b(familias?|hij[oa]s|infancia|menores|conciliaci|natalidad|nacimiento|personas mayores|dependencia|cuidados?)\b/],
+  ['energia', /\b(energ[ée]tic|energ[ií]a|renovables?|eficiencia|movilidad sostenible|veh[ií]culos? el[ée]ctric|bicicleta|autoconsumo|solar|clima|medio ambiente|ambiental|residuos|biodiversidad)/],
+  ['comercio', /\b(comercio|comercial(es)?|hosteler|tiendas?|consumo|bonos?)\b/],
+  ['emprendimiento', /\b(emprend|empresas?|pymes?|aut[oó]nom[oa]s|startups?|industria|internacionalizaci|competitividad)/],
+  ['educacion', /\b(educaci[oó]n|educativ|escuelas?|ampas?|centros docentes|alumnado|ikastola|coeducaci)/],
+  ['deporte', /\b(deport|clubs?|clubes|competiciones?|federad)/],
+  ['social', /\b(inclusi[oó]n social|servicios sociales|exclusi[oó]n|vulnerab|pobreza|cooperaci[oó]n al desarrollo|discapacidad|voluntariado|igualdad|mujeres|violencia|juventud|j[oó]venes|tercer sector|derechos humanos|migrante)/],
+  ['rural', /\b(agrari|agr[ií]col|ganad|rural(es)?|pesca|pesquer|forestal|caser[ií]o|explotaci[oó]n|alimentari)/],
 ];
-export function temasDe(t) { const n = norm(t); return TEMAS.filter((x) => x[1].test(n)).map((x) => x[0]); }
+// Se etiqueta por el título y el comienzo de la descripción, no por requisitos ni destinatarios
+export function temasDe(t) { const n = String(t || '').toLowerCase(); return TEMAS.filter((x) => x[1].test(n)).map((x) => x[0]); }
 
 // Destinatarios a partir de texto libre
 export function paraDeTexto(t) {

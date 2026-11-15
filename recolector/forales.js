@@ -75,7 +75,7 @@ export async function gipuzkoa(log) {
       resumen: d.resumen || '',
       dirigido: f.colectivo.join('\n'),
       para: paraDeTexto(f.colectivo.join(' ') + ' ' + f.titulo),
-      temas: temasDe(todo),
+      temas: temasDe([f.titulo, (d.resumen || '').slice(0, 300)].join(' ')),
       url: f.url,
       fuentes: [{ nombre: 'Sede electrónica de Gipuzkoa', url: f.url }],
     };

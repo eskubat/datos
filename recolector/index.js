@@ -30,7 +30,7 @@ async function enriquecer(ayudas) {
     a.presupuesto = a.presupuesto || f.presupuesto;
     const todo = [a.titulo, f.objeto, f.dirigido].join(' ');
     a.para = [...new Set([...(a.para || []), ...paraDeTexto(todo)])];
-    a.temas = [...new Set([...(a.temas || []), ...temasDe(todo)])];
+    a.temas = [...new Set([...(a.temas || []), ...temasDe([a.titulo, (f.objeto || '').slice(0, 300)].join(' '))])];
     a.fuentes.push({ nombre: 'euskadi.eus', url: a.url });
   });
   log(`Fichas de euskadi.eus: ${ok} de ${objetivo.length} completadas`);
