@@ -12,7 +12,7 @@ import { calculaFin, partesExtracto, RUIDO } from './bdns.js';
 const DIAS = 45;
 const CACHE = path.join('cache', 'boletines.json');
 const ES_AYUDA = /(convocatoria|bases|extracto)[^.]{0,250}(subvenci|ayudas?\b|becas?\b|premios?\b|concurso)|^(subvenciones|ayudas|becas|premios)\b|\bconcurso (infantil|literario|de (fotograf|pintura|escaparates|carteles|relatos|postales|ideas|dibujo))/i;
-const NO_AYUDA = /lista (provisional|definitiva)|admitid|excluid|proceso selectivo|\bplazas?\b|bolsa de (empleo|trabajo)|resoluci[oó]n (definitiva )?de (la )?concesi|concesi[oó]n de las? (subvenci|ayudas)|adjudicaci|plan estrat[eé]gico|ordenanza|cr[eé]dito|tramitaci[oó]n anticipada|subasta|provisi[oó]n|nombramiento|modificaci[oó]n de (la|las)|correcci[oó]n de errores|desistimiento|reintegro|justificaci[oó]n|resoluci[oó]n de (la )?convocatoria|ampliaci[oó]n del cr[eé]dito|contrataci[oó]n de|licitaci|incremento|jurado|nombra|lista de (personas|solicitudes)/i;
+const NO_AYUDA = /lista (provisional|definitiva)|admitid|excluid|proceso selectivo|\bplazas?\b|bolsa de (empleo|trabajo)|resoluci[oó]n (definitiva )?de (la )?concesi|concesi[oó]n de las? (subvenci|ayudas)|adjudicaci|plan estrat[eé]gico|ordenanza|cr[eé]dito|tramitaci[oó]n anticipada|subasta|provisi[oó]n|nombramiento|modificaci[oó]n de (la|las)|correcci[oó]n de errores|desistimiento|reintegro|justificaci[oó]n|resoluci[oó]n de (la )?convocatoria|ampliaci[oó]n del cr[eé]dito|contrataci[oó]n de|licitaci|incremento|jurado|nombra|lista de (personas|solicitudes)|concedidas|aprobaci[oó]n inicial|relaci[oó]n de (subvenciones|ayudas)|abono de|terrenos/i;
 const leer = (f, d) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return d; } };
 const hoyMenos = (n) => { const d = new Date(Date.now() - n * 864e5); return d; };
 const isoDia = (d) => d.toISOString().slice(0, 10);
@@ -132,20 +132,26 @@ async function bob(desde, vistos, log) {
     if (pub && pub < isoDia(desde)) break;
     vistos.add(clave);
     const pdfCompleto = `http://www.bizkaia.eus/lehendakaritza/Bao_bob/${año}/${String(mes).padStart(2, '0')}/BOB-${año}a${n3}.pdf`;
-    let entidad = '', buf = [];
+    // En el sumario del BOB la referencia va al final de la PRIMERA línea de cada anuncio
+    let entidad = '', cur = null;
+    const cierra = () => {
+      if (!cur) return;
+      const tit = cur.lineas.join(' ').replace(/(\w)- (\w)/g, '$1$2').replace(/\s+/g, ' ').trim();
+      if (util(tit)) {
+        const bdns = (tit.match(/BDNS\s*\(Identif\.?\)\s*:?\s*(\d+)/i) || [])[1] || null;
+        out.push({ boletin: 'BOB', titulo: tit.replace(/\s*BDNS\s*\(Identif\.?\).*$/i, ''), entidad: cur.entidad, terr: 'Bizkaia', publicacion: pub, url: pdfCompleto, ref: cur.ref, bdnsRef: bdns });
+      }
+      cur = null;
+    };
     for (const raw of txt.split('\n')) {
       const l = raw.trim();
-      if (!l || /^(BOLET[IÍ]N OFICIAL|BOB$|N[uú]m\.|cve:|SECCI[OÓ]N)/i.test(l)) continue;
+      if (!l || /^(BOLET[IÍ]N OFICIAL|BOB$|N[uú]m\.|cve:|SECCI[OÓ]N|ADMINISTRACI[OÓ]N (FORAL|LOCAL|DEL ESTADO|AUTON))/i.test(l)) continue;
       const ref = l.match(/(BOB-\d{4}a\d{3}-\((?:I|II|III|IV|V)-\d+\))\s*$/);
-      if (!ref && /^(Ayuntamiento|Diputaci[oó]n Foral|Departamento|Mancomunidad|Consorcio|Juntas Generales)\b/.test(l) && l.length < 90 && !/[.,]$/.test(l)) { entidad = l; buf = []; continue; }
-      buf.push(ref ? l.replace(ref[1], '').trim() : l);
-      if (ref) {
-        const tit = buf.join(' ').replace(/(\w)- (\w)/g, '$1$2').replace(/\s+/g, ' ').trim(); buf = [];
-        if (!util(tit)) continue;
-        const bdns = (tit.match(/BDNS\s*\(Identif\.?\)\s*:?\s*(\d+)/i) || [])[1] || null;
-        out.push({ boletin: 'BOB', titulo: tit.replace(/\s*BDNS\s*\(Identif\.?\).*$/i, ''), entidad, terr: 'Bizkaia', publicacion: pub, url: pdfCompleto, ref: ref[1], bdnsRef: bdns });
-      }
+      if (ref) { cierra(); cur = { ref: ref[1], entidad, lineas: [l.replace(ref[1], '').trim()] }; continue; }
+      if (/^(Ayuntamiento|Diputaci[oó]n Foral|Departamento|Mancomunidad|Consorcio|Juntas Generales|DIPUTACI[OÓ]N FORAL)\b/.test(l) && l.length < 100 && !/[.,]$/.test(l)) { cierra(); entidad = l; continue; }
+      if (cur) cur.lineas.push(l);
     }
+    cierra();
   }
   return out;
 }
