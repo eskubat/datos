@@ -15,3 +15,12 @@ for (const r of leer('cache/nuevos.json', [])) {
   if (e.length) { mal++; console.log(`\n✗ ${r.id}\n  - ${e.join('\n  - ')}`); }
 }
 console.log(mal ? `\n${mal} fichas con errores` : 'Todas las fichas cumplen las reglas');
+// Títulos (cache/titulos_nuevos.json)
+import { comprobarTitulo } from './titulos.js';
+let malT = 0;
+for (const [orig, v] of Object.entries(leer('cache/titulos_nuevos.json', {}))) {
+  const e = comprobarTitulo(v && v.es, orig);
+  if (!(v && v.eu)) e.push('falta el título en euskera');
+  if (e.length) { malT++; console.log(`✗ título «${v && v.es}» (original: «${orig.slice(0, 80)}»)\n  - ${e.join('\n  - ')}`); }
+}
+console.log(malT ? `${malT} títulos con errores` : 'Todos los títulos cumplen las reglas');

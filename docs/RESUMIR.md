@@ -9,7 +9,7 @@ Las reglas de qué va en cada campo están en **`docs/CATEGORIZACION.md`** (resu
 3. **Paso 1, extraer**: trocea la documentación en datos atómicos (una idea por dato) y etiqueta cada uno `CONVOCA`, `CONSISTE`, `CUANTIA`, `PERFIL`, `REQUISITO` o `DESCARTAR`, con `solicitante` si solo afecta a un tipo. Si un dato encaja en dos campos, usa la tabla de desempate.
 4. **Paso 2, redactar** cada campo solo con los datos de su etiqueta, con palabras propias y la ortografía corregida.
 5. Escribe la lista de fichas en `cache/nuevos.json` y ejecuta `node recolector/comprobar.js`. Corrige cada error que indique y repite hasta que no haya errores. Si una regla no se puede cumplir por cómo es la fuente (o una cifra de la fuente parece errónea), pon `revision_manual: {necesaria: true, motivo: "…"}`.
-6. Traduce también al euskera los **150 primeros** títulos de `cache/titulos_pendientes.json` y guárdalos en `cache/titulos_nuevos.json` como `{"título en castellano": "título en euskera"}` (euskera batua natural, mismas cifras y siglas).
+6. **Títulos**: estandariza los **300 primeros** de `cache/titulos_pendientes.json` (`{original, actual, organismo, id}`) siguiendo `docs/TITULOS.md`, en castellano y euskera, y guárdalos en `cache/titulos_nuevos.json`. `node recolector/comprobar.js` también comprueba los títulos: corrige hasta que no haya errores.
 7. Ejecuta `node recolector/incorporar.js`, luego `git add cache publico && git commit -m "Fichas categorizadas (tarea programada)" && git pull --rebase -X theirs && git push`.
 
 ## Formato de cada ficha
@@ -49,6 +49,6 @@ Una versión completa por cada tipo de solicitante que puede pedir la ayuda (ver
 - Dentro de una versión: un solo colectivo → `quien_puede_pedirla` con un elemento y `requisitos` con un único grupo `"grupo": ""`. Varios colectivos → un elemento por colectivo y grupos de requisitos con el mismo nombre («Todos» para los comunes).
 - `quien_convoca.organismo_id`: un `id` de `cache/organismos.json` (el más concreto: el departamento del Gobierno Vasco que convoca, nunca una dirección inferior). Parte de `organismoSugerido` y corrígelo si la documentación dice otra cosa. Si no hay ninguno que coincida, déjalo vacío y marca `revision_manual` con el nombre que aparece en la fuente.
 - `cuanto_puede_recibir`: una línea por tramo (separadas por `\n`); si cambia por colectivo dentro de la versión, empieza cada línea por su nombre.
-- `titulo` (común a todas las versiones): 4-14 palabras, claro, empieza por el tipo de ayuda; sin año, plazo, organismo, municipio, línea o anexo.
+- `titulo` (común a todas las versiones): sigue `docs/TITULOS.md`.
 - No incluir fechas ni plazos: la app los calcula aparte.
 - Si `cache/pendientes.json` y `cache/titulos_pendientes.json` están vacíos, no hagas nada.

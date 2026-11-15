@@ -9,6 +9,7 @@ import { claveLinea } from './historico.js';
 import { aplicar, huella } from './resumen.js';
 import { documentacion } from './enlaces.js';
 import { resolver, POR_ID, CATALOGO } from './organismos.js';
+import { aplicarTitulos } from './titulos.js';
 
 const SALIDA = path.resolve('publico');
 const FUENTES = [
@@ -369,12 +370,13 @@ async function main() {
   log(`Pendientes de resumen: ${pendientes.length}`);
 
   // Títulos en euskera: traducciones de la tarea de resumen (cache/titulos_eu.json, clave = título en castellano)
-  let titEu = {};
+  // Títulos estandarizados (docs/TITULOS.md) en castellano y euskera, escritos por la tarea programada
+  let titEu = {}, titulos = {};
   try { titEu = JSON.parse(fs.readFileSync(path.join('cache', 'titulos_eu.json'), 'utf8')); } catch {}
-  for (const a of [...ayudas, ...previstas]) if (titEu[a.titulo]) a.tituloEu = titEu[a.titulo];
-  const sinTitEu = [...new Set([...ayudas.filter((a) => !(a.eu && a.eu.titulo)), ...previstas].map((a) => a.titulo).filter((t) => t && !titEu[t]))];
-  fs.writeFileSync(path.join('cache', 'titulos_pendientes.json'), JSON.stringify(sinTitEu, null, 1));
-  log(`Títulos sin euskera: ${sinTitEu.length}`);
+  try { titulos = JSON.parse(fs.readFileSync(path.join('cache', 'titulos.json'), 'utf8')); } catch {}
+  const titPend = aplicarTitulos([...ayudas, ...previstas], titulos, titEu);
+  fs.writeFileSync(path.join('cache', 'titulos_pendientes.json'), JSON.stringify(titPend, null, 1));
+  log(`Títulos pendientes de estandarizar: ${titPend.length}`);
 
   const porAmbito = ayudas.reduce((m, a) => { m[a.ambito.nivel] = (m[a.ambito.nivel] || 0) + 1; return m; }, {});
   const porEstado = ayudas.reduce((m, a) => { m[a.estado] = (m[a.estado] || 0) + 1; return m; }, {});

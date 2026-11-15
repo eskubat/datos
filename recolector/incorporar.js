@@ -2,6 +2,7 @@
 // los valida contra el texto de la fuente, los guarda en cache/resumenes.json y los aplica a publico/ayudas.json.
 import fs from 'node:fs';
 import { validar, aplicar, huella } from './resumen.js';
+import { comprobarTitulo, aplicarTitulos } from './titulos.js';
 
 const leer = (f, d) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return d; } };
 const pendientes = leer('cache/pendientes.json', []);
@@ -36,24 +37,27 @@ if (pub) {
   console.log(`Incorporados ${ok} resúmenes (${rechazados} sin ayuda correspondiente, ${campos} avisos de las comprobaciones). Ayudas con resumen: ${n}/${pub.ayudas.length}. Pendientes: ${leer('cache/pendientes.json', []).length}`);
 }
 
-// Títulos en euskera (cache/titulos_nuevos.json: {"título en castellano": "título en euskera"})
+// Títulos estandarizados (cache/titulos_nuevos.json: {"título original": {"es": "…", "eu": "…"}})
 const titNuevos = leer('cache/titulos_nuevos.json', null);
 if (titNuevos) {
-  const titEu = leer('cache/titulos_eu.json', {});
-  const nums = (t) => (String(t).match(/\d+/g) || []).join(',');
-  let n = 0;
-  for (const [es, eu] of Object.entries(titNuevos)) {
-    const e = String(eu || '').replace(/\s+/g, ' ').trim();
-    if (!e || e.length > 160 || nums(e) !== nums(es) || e === e.toUpperCase()) continue;
-    titEu[es] = e.charAt(0).toUpperCase() + e.slice(1); n++;
+  const titulos = leer('cache/titulos.json', {});
+  let n = 0, mal = 0;
+  for (const [orig, v] of Object.entries(titNuevos)) {
+    const es = String((v && v.es) || '').replace(/\s+/g, ' ').trim();
+    const eu = String((v && v.eu) || '').replace(/\s+/g, ' ').trim();
+    const e = comprobarTitulo(es, orig);
+    if (!eu) e.push('falta el título en euskera');
+    if (e.length) { mal++; console.log(`✗ «${orig}» → «${es}»: ${e.join('; ')}`); continue; }
+    titulos[orig] = { es: es.charAt(0).toUpperCase() + es.slice(1), eu: eu.charAt(0).toUpperCase() + eu.slice(1) };
+    n++;
   }
-  fs.writeFileSync('cache/titulos_eu.json', JSON.stringify(titEu, null, 1));
-  fs.writeFileSync('cache/titulos_pendientes.json', JSON.stringify(leer('cache/titulos_pendientes.json', []).filter((t) => !titEu[t]), null, 1));
+  fs.writeFileSync('cache/titulos.json', JSON.stringify(titulos, null, 1));
+  fs.writeFileSync('cache/titulos_pendientes.json', JSON.stringify(leer('cache/titulos_pendientes.json', []).filter((p) => !titulos[p.original]), null, 1));
   fs.rmSync('cache/titulos_nuevos.json', { force: true });
   const pub2 = leer('publico/ayudas.json', null);
   if (pub2) {
-    for (const a of [...pub2.ayudas, ...(pub2.previstas || [])]) if (titEu[a.titulo]) a.tituloEu = titEu[a.titulo];
+    aplicarTitulos([...pub2.ayudas, ...(pub2.previstas || [])], titulos, leer('cache/titulos_eu.json', {}));
     fs.writeFileSync('publico/ayudas.json', JSON.stringify(pub2));
   }
-  console.log(`Títulos en euskera incorporados: ${n}. Pendientes: ${leer('cache/titulos_pendientes.json', []).length}`);
+  console.log(`Títulos incorporados: ${n}. Rechazados: ${mal}. Pendientes: ${leer('cache/titulos_pendientes.json', []).length}`);
 }
