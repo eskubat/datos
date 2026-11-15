@@ -11,6 +11,7 @@ Recolector diario de ayudas y subvenciones de Euskadi para la app Eskubat. Se ej
 | Sede electrónica de Gipuzkoa | Líneas de ayuda de la Diputación Foral de Gipuzkoa con plazo | HTML |
 | web.araba.eus · Ayudas en vigor | Ayudas destacadas de la Diputación Foral de Álava | HTML |
 | BDNS (infosubvenciones.es) | Diputación Foral de Bizkaia, ayuntamientos y resto de convocatorias de Euskadi | API pública |
+| Boletines oficiales (BOPV, BOB, BOG, BOTHA) | Convocatorias de los últimos 45 días que no llegan por las otras fuentes (BOPV: Gobierno Vasco y su sector público) | Sumarios en PDF/HTML y texto de cada convocatoria |
 
 Se descartan las subvenciones que no puede solicitar cualquiera (nominativas, directas, convenios con una entidad concreta).
 

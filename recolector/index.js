@@ -20,7 +20,7 @@ const FUENTES = [
   { clave: 'gipuzkoa', nombre: 'Diputación Foral de Gipuzkoa (sede electrónica)', mod: { recoger: forales.gipuzkoa } },
   { clave: 'araba', nombre: 'Diputación Foral de Álava (ayudas en vigor)', mod: { recoger: forales.araba } },
   { clave: 'bdns', nombre: 'Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)', mod: bdns },
-  { clave: 'boletines', nombre: 'Boletines oficiales de Bizkaia, Gipuzkoa y Álava (BOB, BOG, BOTHA)', mod: boletines },
+  { clave: 'boletines', nombre: 'Boletines oficiales (BOPV, BOB, BOG, BOTHA)', mod: boletines },
 ];
 
 // Completa con la ficha de euskadi.eus las ayudas que enlazan a ella (las fichas sí son accesibles)

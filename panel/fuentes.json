@@ -69,11 +69,17 @@
   },
   {
    "clave": "boletines",
-   "que": "Ayudas de diputaciones y ayuntamientos que no llegan por la BDNS ni por las webs (también Bilbao, Donostia y Vitoria-Gasteiz).",
+   "que": "Convocatorias del Gobierno Vasco que no salen en la primera página del catálogo (BOPV) y ayudas de diputaciones y ayuntamientos que no llegan por la BDNS ni por las webs (también Bilbao, Donostia y Vitoria-Gasteiz).",
    "como": "Sumarios de los últimos 45 días; se quedan las convocatorias y se baja su texto.",
    "pendiente": "",
-   "grupo": "Boletines forales",
+   "grupo": "Boletines oficiales",
    "filas": [
+    {
+     "nombre": "BOPV · Boletín Oficial del País Vasco",
+     "fuente": [
+      "Boletín Oficial del País Vasco"
+     ]
+    },
     {
      "nombre": "BOB · Boletín Oficial de Bizkaia",
      "fuente": [
@@ -189,13 +195,6 @@
   }
  ],
  "potenciales": [
-  {
-   "nombre": "Sumario del BOPV",
-   "por": "El Gobierno Vasco publica ahí todas sus convocatorias. Recogería las que no salen en el catálogo, sobre todo mientras solo se lee su primera página.",
-   "hacer": "Añadirlo al lector de boletines, como el BOB, el BOG y el BOTHA.",
-   "quien": "Claude (código)",
-   "tarea": "bopv"
-  },
   {
    "nombre": "SPRI: Agencia Vasca de Desarrollo Empresarial",
    "por": "Gran parte de las ayudas a empresas (innovación, digitalización, internacionalización). Hay que comprobar cuántas llegan ya por euskadi.eus o la BDNS.",

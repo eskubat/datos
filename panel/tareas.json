@@ -6,8 +6,10 @@
   "fuente": "Sumario del BOPV",
   "quien": "Claude",
   "prioridad": 1,
-  "estado": "pendiente",
-  "seccion": "fuentes"
+  "estado": "hecha",
+  "seccion": "fuentes",
+  "fecha": "2026-11-16",
+  "nota": "Añadido el BOPV al lector de boletines: busca el último sumario a partir del último número visto (sAA_NNNN.pdf), lee hacia atrás los de los últimos 45 días, se queda con las órdenes y resoluciones que convocan ayudas, becas o premios y baja el PDF de cada una para el plazo; se entra como navegador, igual que en el resto de euskadi.eus. La red de esta sesión no llega a euskadi.eus, así que el formato del sumario se comprobó con WebFetch (n.º 211, 4-11-2026) y la primera prueba real será el recolector de las 05:41. Se esperan unas 10-30 convocatorias del Gobierno Vasco en la primera pasada, menos las que ya están en el catálogo."
  },
  {
   "id": "araba-sede",
