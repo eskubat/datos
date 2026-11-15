@@ -1,21 +1,22 @@
 #!/bin/bash
 NAV='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36'
-show(){ echo "=== $1"; curl -s -L -m 30 -A "$NAV" "$1" -o /tmp/p.html; python3 - <<'PY'
+sudo apt-get install -y -qq poppler-utils >/dev/null 2>&1
+echo "=== BOG día"; curl -s -L -m 30 -A "$NAV" 'https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2026/11/13/bc261113.htm' -o /tmp/g.html; wc -c /tmp/g.html
+python3 -c "
 import re,html
-s=open('/tmp/p.html',encoding='utf8',errors='ignore').read()
-links=re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>',s,re.S)
-n=0
-for h,t in links:
-  t=html.unescape(re.sub('<[^>]+>',' ',t)).strip()
-  t=re.sub(r'\s+',' ',t)
-  if re.search(r'subvenc|ayuda|convoca|bases|dirulaguntz|laguntz|sumario|pdf|bolet',t+h,re.I) and len(t)>3:
-    print('  ',t[:110],'|',h[:120]); n+=1
-  if n>25: break
-print('  enlaces totales',len(links))
-PY
-}
-show 'https://www.bizkaia.eus/es/bob'
-show 'https://www.araba.eus/botha/inicio/SGBO5001.aspx'
-show 'https://egoitza.gipuzkoa.eus/es/bog'
-show 'https://www.donostia.eus/es/euskera/subvenciones'
-show 'https://www.vitoria-gasteiz.org/'
+s=open('/tmp/g.html',encoding='utf8',errors='ignore').read()
+t=html.unescape(re.sub(r'<[^>]+>','\n',s)); t=re.sub(r'\n\s*\n+','\n',t)
+print(t[:2500])
+print('LINKS',[h for h in re.findall(r'href=\"([^\"]+)\"',s)][:15])"
+echo "=== BOB sumario"; curl -s -L -m 30 -A "$NAV" 'http://www.bizkaia.eus/lehendakaritza/Bao_bob/Sumario/2026/11/BOB-2026a219s.pdf' -o /tmp/b.pdf; file /tmp/b.pdf; pdftotext -layout /tmp/b.pdf - | head -80
+echo "=== BOTHA item"; curl -s -L -m 30 -A "$NAV" 'https://www.araba.eus/botha/Busquedas/Resultado.aspx?File=Boletines/2026/131/2026_131_03265_C.xml&hl=' -o /tmp/a.html; python3 -c "
+import re,html
+s=open('/tmp/a.html',encoding='utf8',errors='ignore').read()
+t=html.unescape(re.sub(r'<[^>]+>','\n',s)); t=re.sub(r'\n\s*\n+','\n',t); print(t[:1500])"
+echo "=== BOTHA sumarios previos"; curl -s -L -m 30 -A "$NAV" 'https://www.araba.eus/botha/inicio/SGBO5001.aspx' | grep -o 'href="[^"]*"' | grep -iv 'Resultado' | head -40
+echo "=== Vitoria"; curl -s -L -m 30 -A "$NAV" 'https://www.vitoria-gasteiz.org/wb021/was/contenidoAction.do?idioma=es&uid=u1f560f07_14d757ff0f6__7ed7' -o /tmp/v.html; python3 -c "
+import re,html
+s=open('/tmp/v.html',encoding='utf8',errors='ignore').read()
+for h,t in re.findall(r'<a[^>]+href=\"([^\"]+)\"[^>]*>(.*?)</a>',s,re.S):
+  t=re.sub(r'\s+',' ',html.unescape(re.sub('<[^>]+>',' ',t))).strip()
+  if re.search(r'subvenc|ayuda|beca|premio|convoca',t,re.I): print('  ',t[:100],'|',h[:130])"
