@@ -167,6 +167,24 @@ async function main() {
       a.area = a.resumen.replace(/^Finalidad: /, '');
       a.resumen = '';
     }
+    // Lo que dice cuánto dinero se puede recibir va a la cuantía, esté donde esté en la fuente
+    {
+      const DINERO = /(\d[\d.]*(?:,\d+)?\s*(?:€|euros?)|\d+\s*(?:%|por ciento))/i;
+      const ES_IMPORTE = /m[aá]xim|hasta|importe|cuant[ií]a|subvenci[oó]n (de|ser[aá])|ayuda (de|ser[aá]|directa)|ascender[aá]|por (persona|vivienda|solicitud|hij|contrat|alumn|plaza|beneficiari)|fondo perdido|%/i;
+      const NO_ES = /presupuesto|cr[eé]dito|dotaci[oó]n|partida|consignaci|recursos econ[oó]micos/i;
+      const quita = (l) => l.replace(/^(?:[a-z]|[ivx]+)[.)]\s+/i, '').trim();
+      const mover = [];
+      if (a.requisitos) a.requisitos = a.requisitos.filter((r) => { if (DINERO.test(r) && ES_IMPORTE.test(r) && !NO_ES.test(r)) { mover.push(quita(r)); return false; } return true; });
+      const lineasResumen = String(a.resumen || '').split('\n');
+      const restoResumen = lineasResumen.filter((l) => { if (DINERO.test(l) && ES_IMPORTE.test(l) && !NO_ES.test(l)) { mover.push(quita(l)); return false; } return true; });
+      if (restoResumen.join(' ').trim()) a.resumen = restoResumen.join('\n');
+      const actuales = String(a.cuantia || '').split('\n').filter(Boolean).filter((l) => !NO_ES.test(l));
+      a.cuantia = [...new Set([...actuales, ...mover])].join('\n');
+      // Importe máximo orientativo para la tarjeta ("Hasta 39.000 €")
+      const cifras = [...a.cuantia.matchAll(/(\d{1,3}(?:\.\d{3})+|\d+)(?:,\d+)?\s*(?:€|euros?)/gi)].map((m) => Number(m[1].replace(/\./g, ''))).filter((n) => n >= 50 && n < 5e6);
+      a.importeMax = cifras.length ? Math.max(...cifras) : null;
+      delete a.presupuesto;
+    }
     if (a.requisitos) {
       const espec = a.requisitos.filter((r) => !GENERICO.test(r));
       a.requisitosGenerales = espec.length < a.requisitos.length;
