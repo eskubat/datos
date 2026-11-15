@@ -346,6 +346,7 @@ function proximaPasada(){ const d=new Date(), n=new Date(d); n.setUTCMinutes(32,
 function cuestionDe(id){ return S.docs.find(x=>x.ayudaId===id); }
 
 /* ================= PLAN Y PENDIENTES ================= */
+function proxMes(){ const d=new Date(); const n=new Date(d.getFullYear(),d.getMonth()+(d.getDate()===1&&d.getHours()<2?0:1),1,2,41); return n; }
 function proximaNoche(){ const d=new Date(); const n=new Date(d); n.setHours(3,17,0,0); if(n<=d) n.setDate(n.getDate()+1); return n; }
 function planClaude(sec){
   const T=(D.tareas||[]).filter(t=>t.quien!=="Tú"&&(!sec||(t.seccion||"fuentes")===sec)); const pend=(D.tareas||[]).filter(t=>t.quien!=="Tú"&&t.estado==="pendiente").sort((a,b)=>a.prioridad-b.prioridad);
@@ -718,7 +719,7 @@ function renderFuentes(){
   const plan=planClaude("fuentes"), tuyas=(D.tareas||[]).filter(t=>t.quien==="Tú"&&(t.seccion||"fuentes")==="fuentes"&&t.estado!=="hecha");
   const regs=con.filter(x=>x.registros!=null), totalR=regs.reduce((s,x)=>s+x.registros,0), avisos=con.filter(x=>x.pendiente||x.ok===false).length;
   const pendC=plan.filter(t=>t.estado==="pendiente"), hechas=plan.filter(t=>t.estado==="hecha").length, bloq=plan.filter(t=>t.estado==="bloqueada").length;
-  const prox=pendC[0];
+  const prox=pendC[0], M=D.mejora||{};
   const abiertos=S.fuentesAbiertas||(S.fuentesAbiertas={});
   const barra=regs.slice().sort((a,b)=>b.registros-a.registros).map(x=>`<span style="flex:${Math.max(x.registros,totalR*0.012)}" title="${esc(x.nombre)}: ${num(x.registros)}"></span>`).join("");
   const det=(id,titulo,stats,cuerpo)=>`<details class="acord" data-ac="${id}" ${abiertos[id]?"open":""}><summary><div class="acs"><h3>${titulo}</h3><div class="acst">${stats}</div></div><span class="acf" aria-hidden="true">▾</span></summary><div class="acb">${cuerpo}</div></details>`;
@@ -736,10 +737,16 @@ function renderFuentes(){
       `<div class="tabwrap"><table class="ftabla"><thead><tr><th>Fuente</th><th>Por qué</th><th>Qué hay que hacer</th><th>Quién</th></tr></thead><tbody>
       ${pot.map(x=>`<tr><td><b>${esc(x.nombre)}</b></td><td>${esc(x.por)}</td><td>${esc(x.hacer)}${x.tarea&&plan.find(t=>t.id===x.tarea)?(()=>{const t=plan.find(t=>t.id===x.tarea);return `<div class="hint" style="margin-top:6px">${EST_T[t.estado]}${t.previsto?" · noche del "+fechaCorta(new Date(t.previsto.getTime()-864e5)):""}</div>`;})():""}</td><td>${chip(x.quien)}</td></tr>`).join("")}
       </tbody></table></div>`)}
-    ${det("hacer","Qué hay que hacer",
+    ${det("hacer","Mejora continua",
       `${tuyas.length?kpi(tuyas.length,"para ti","av"):""}${kpi(pendC.length,"planificadas")}${bloq?kpi(bloq,"bloqueadas"):""}${hechas?kpi(hechas,"hechas","ok"):""}
-       ${prox?`<span class="prox">Siguiente: <b>${esc(prox.titulo)}</b> · noche del ${fechaCorta(new Date(prox.previsto.getTime()-864e5))}</span>`:""}`,
+       ${prox?`<span class="prox">Siguiente: <b>${esc(prox.titulo)}</b> · noche del ${fechaCorta(new Date(prox.previsto.getTime()-864e5))}</span>`:""}
+       <span class="prox" style="flex-basis:100%">Revisión mensual del plan: ${M.ultima?`última el ${fmtFecha(M.ultima)}${M.nuevas?` (${M.nuevas} tareas nuevas)`:""} · `:""}próxima el ${proxMes().toLocaleDateString("es-ES",{day:"numeric",month:"long"})}</span>`,
       `${tuyas.length?`<section class="card parati"><h3>Para ti</h3><ul>${tuyas.map(t=>`<li><div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span></div><span class="chip">${EST_T[t.estado]||t.estado}</span></li>`).join("")}</ul></section>`:""}
+      <section class="card"><h3>Revisión mensual</h3>
+        <p class="hint" style="margin:0 0 10px">El día 1 de cada mes Claude repasa todo el sistema y rehace este plan: busca fuentes nuevas, mira dónde faltan ayudas, cómo reducir descargas y consumo, y qué falla. Lo que encuentra entra aquí como tareas con prioridad; lo que necesita tu decisión, en «Lo que te toca a ti».</p>
+        ${M.ultima?`<div class="nota"><b>${fmtFecha(M.ultima)}:</b> ${linkify(M.resumen||"")}</div>`:`<p class="hint" style="margin:0">Primera revisión: ${proxMes().toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long"})}.</p>`}
+        ${M.metricas&&Object.keys(M.metricas).length?`<div class="acst" style="margin-top:10px">${Object.entries(M.metricas).map(([k,v])=>kpi(esc(v),esc(k))).join("")}</div>`:""}
+      </section>
       <section class="card"><h3>Plan de Claude para las fuentes</h3><p class="hint" style="margin:0 0 10px">Una mejora cada noche a las 03:17, antes del recolector de las 05:41. La noche siguiente Claude comprueba que funciona.</p><ul class="plan">${plan.map(filaPlan).join("")}</ul></section>`)}
   </div>`;
   $("#detalle").querySelectorAll("details.acord").forEach(d=>d.addEventListener("toggle",()=>{ abiertos[d.dataset.ac]=d.open; }));
