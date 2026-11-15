@@ -382,6 +382,15 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 .plan-i.clic{cursor:pointer} .plan-i.clic:hover{background:var(--accent-soft)}
 .dlgv .vb.ed textarea{width:100%;min-height:80px;margin:4px 0 8px;font:14px var(--body);padding:8px;border:1px solid var(--line);border-radius:8px}
 .dlgv .fila{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.cab-ag{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.cab-ag .intro{margin:0}
+.avatar{display:flex;align-items:center;gap:10px;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:6px 16px 6px 6px;cursor:pointer;text-align:left;flex:none;font:inherit;color:var(--ink)}
+.avatar:hover{border-color:var(--accent)}
+.avatar .av-c{width:40px;height:40px;border-radius:50%;background:var(--accent);display:grid;place-items:center;flex:none}
+.avatar .av-c svg{width:24px;height:24px;fill:none;stroke:var(--accent-ink);stroke-width:2;stroke-linecap:round}
+.avatar .av-t{display:flex;flex-direction:column;line-height:1.25} .avatar .av-t b{font:700 14px var(--display)} .avatar .av-t small{color:var(--muted);font-size:12px}
+.avatar.grande{border:0;padding:0;cursor:default} .avatar.grande .av-c{width:52px;height:52px} .avatar.grande .av-t b{font-size:17px}
+@media (max-width:700px){.cab-ag{flex-direction:column}}
 @media (max-width:760px){.estado-rev .er-top{grid-template-columns:1fr}}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
 @media (max-width:760px){.eta{grid-template-columns:1fr}}
@@ -470,7 +479,8 @@ const AREAS={fuentes:"Fuentes",datos:"Datos",eskubat:"Eskubat (app y diseño)"};
 function areaDe(d){ if(d.area&&AREAS[d.area]) return d.area; if(d.ayudaId||(d.ayudas&&d.ayudas.length)) return "datos"; if(/^fuente|fundaci|prestaci|europe|open data|bopv|recolector/i.test((d.titulo||"")+" "+(d.motivo||"").slice(0,80))) return "fuentes"; if(/dise[ñn]o|logo|pantalla|app\b|aplicaci[oó]n|icono|color/i.test(d.titulo||"")) return "eskubat"; return "datos"; }
 /* ================= PLAN Y PENDIENTES ================= */
 function proxMes(){ const d=new Date(); const n=new Date(d.getFullYear(),d.getMonth()+(d.getDate()===1&&d.getHours()<2?0:1),1,2,41); return n; }
-function proximaNoche(){ const d=new Date(); const n=new Date(d); n.setMinutes(17,0,0); if(n<=d) n.setHours(n.getHours()+1); return n; }
+function proximaNoche(){ const d=new Date(); const n=new Date(d); n.setMinutes(30,0,0); if(n<=d) n.setHours(n.getHours()+1); return n; }
+function proximaCorr(){ const d=new Date(); const n=new Date(d); n.setMinutes(0,0,0); if(n<=d) n.setHours(n.getHours()+1); return n; }
 function cuandoT(d){ const h=d.toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"}); const dd=Math.round((new Date(d.getFullYear(),d.getMonth(),d.getDate())-new Date(new Date().toDateString()))/864e5); return (dd===0?"hoy":dd===1?"mañana":d.toLocaleDateString("es-ES",{weekday:"short",day:"numeric"}))+", "+h; }
 function planClaude(sec){
   const T=(D.tareas||[]).filter(t=>t.quien!=="Tú"&&(!sec||(t.seccion||"fuentes")===sec)); const pend=(D.tareas||[]).filter(t=>t.quien!=="Tú"&&t.estado==="pendiente").sort((a,b)=>a.prioridad-b.prioridad);
@@ -492,7 +502,7 @@ function filaPlan(t){
     <span class="cuando">${t.estado==="pendiente"&&t.previsto&&!rv?"Prevista "+cuandoT(t.previsto)+"<br>":t.estado==="hecha"&&t.fecha?"Hecha el "+fmtFecha(t.fecha)+"<br>":""}${acc}</span></li>`;
 }
 
-const TRIG={plan:"trig_01Tw2kJALN4KcjhobhJEwxpt",correccion:"trig_01P4CfUrXV2AZpfEM8kPEAXt"};
+const TRIG={plan:"trig_01Tw2kJALN4KcjhobhJEwxpt",correccion:"trig_01DVvci5VXGbQFn2mE6gvddp"};
 async function lanzarAhora(tipo,id){
   const now=new Date().toISOString();
   let titulo="", pid=id, base={};
@@ -574,11 +584,32 @@ async function reabrirTarea(id){
   await S.db.collection("cuestiones").doc("tarea-"+t.id).set({area:ar,tarea:t.id,ayudaId:"",titulo:"Tarea del plan: "+t.titulo,organismo:"Plan de mejoras",url:"",fin:"",tipos:["otro"],motivo:t.detalle||"",estado:"abierta",origen:"plan-reabierta",respuesta:"",instruccion:"",chat:[],creada:now,actualizada:now});
   setStatus("Reabierta: está en Para ti y Claude no la ejecutará hasta que decidas");
 }
+
+const AGENTES={
+  datos:{nombre:"Revisor de datos",tarea:"Eskubat · resúmenes de ayudas",horario:()=>D.tarea&&D.tarea.modo==="diaria"?"Una vez al día, a las 17:52":"Cada hora, a y 32",
+    rol:"Revisa los datos: redacta las fichas de las ayudas nuevas o cambiadas, estandariza los títulos y decide las noticias. Lo que es decisión tuya te lo manda a «Para ti».",
+    hace:["Lee entera la documentación oficial de cada ayuda pendiente (10 por pasada) y redacta su ficha por tipo de solicitante, en castellano y euskera.","Si falta un dato, busca el boletín o la convocatoria oficial y lo resuelve él mismo.","Estandariza hasta 300 títulos por pasada y decide hasta 10 noticias (si son ayudas reales, las da de alta).","Comprueba cada cifra contra la fuente y vuelve a publicar esta página.","Lo que necesita tu criterio lo apunta en «Para ti» con su propuesta."],
+    reglas:true},
+  mejora:{nombre:"Responsable de mejora continua",tarea:"Eskubat · correcciones y plan de mejoras",horario:()=>"Correcciones a en punto · mejoras a y 30",
+    rol:"Revisa y ejecuta correcciones y mejoras. Se alimenta de lo que decides en «Para ti», que le llega del Revisor de datos.",
+    hace:["A en punto aplica las correcciones que has decidido en «Para ti»: fichas, datos, reglas y cambios en el plan. Si no puede, te la devuelve con lo que falta.","A y 30 hace una tarea del plan de mejoras: fuentes nuevas, lectores del recolector, cambios en esta página. Lo que tocó en el recolector lo comprueba a las 07:30.","Lo que exige código lo pasa al plan; lo que necesita tu decisión vuelve a «Para ti».","El día 1 de cada mes repasa todo el sistema y rehace el plan."],
+    reglas:true}
+};
+function avatar(id){ const a=AGENTES[id];
+  return `<button class="avatar" data-ag="${id}" title="Ver qué hace y sus instrucciones"><span class="av-c"><svg viewBox="0 0 24 24"><path d="M12 12a4.2 4.2 0 1 0 0-8.4 4.2 4.2 0 0 0 0 8.4zM4 21a8 8 0 0 1 16 0"/></svg></span><span class="av-t"><b>${esc(a.nombre)}</b><small>${esc(a.horario())}</small></span></button>`; }
+function verAgente(id){ const a=AGENTES[id];
+  $("#dlgVc").innerHTML=`<div class="vh"><div class="avatar grande"><span class="av-c"><svg viewBox="0 0 24 24"><path d="M12 12a4.2 4.2 0 1 0 0-8.4 4.2 4.2 0 0 0 0 8.4zM4 21a8 8 0 0 1 16 0"/></svg></span><span class="av-t"><b>${esc(a.nombre)}</b><small>${esc(a.horario())} · Claude</small></span></div><button class="btn ghost" data-cerrarv aria-label="Cerrar">✕</button></div>
+    <p style="margin:12px 0 6px">${esc(a.rol)}</p>
+    <div class="vb"><span class="vt">Instrucciones</span><ul style="margin:4px 0 0;padding-left:18px">${a.hace.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>
+    <p class="hint" style="margin:10px 0 0">Tarea programada: ${esc(a.tarea)}.</p>
+    <div class="fila" style="margin-top:12px">${a.reglas?`<button class="lnk" data-vi="i" data-cerrarv2>Reglas que sigue (categorización, resúmenes, títulos)</button><span class="hint">·</span>`:""}<button class="lnk" data-agc="${id}">Pedirle un cambio</button></div>`;
+  $("#dlgVc").querySelector("[data-agc]").onclick=()=>{ $("#dlgV").close(); abrirAsis(`Quiero cambiar cómo trabaja el ${a.nombre}: `); };
+  const dl=$("#dlgV"); if(!dl.open) dl.showModal(); }
 function filaCorr(d){
   const pe=(S.peticiones||{})["corr-"+d._id];
   return `<li class="plan-i pendiente"><span class="chip lista">Corrección</span>
     <div><span class="tl2"><b>${esc(d.titulo||"(sin título)")}</b><span class="chip ar-${areaDe(d)}">${esc(AREAS[areaDe(d)]||"")}</span></span><span>${esc((d.instruccion||d.motivo||"").slice(0,240))}</span></div>
-    <span class="cuando">Prevista ${cuandoT(proximaPasada())}<br>${chipPe(pe)}<button class="lnk ej" data-ejc="${esc(d._id)}">Ejecutar ahora</button> · <button class="lnk" data-reab="${esc(d._id)}">Reabrir</button> · <button class="lnk del" data-del="${esc(d._id)}">Eliminar</button> · <button class="lnk" data-vc="${esc(d._id)}">Ver</button></span></li>`;
+    <span class="cuando">Prevista ${cuandoT(proximaCorr())}<br>${chipPe(pe)}<button class="lnk ej" data-ejc="${esc(d._id)}">Ejecutar ahora</button> · <button class="lnk" data-reab="${esc(d._id)}">Reabrir</button> · <button class="lnk del" data-del="${esc(d._id)}">Eliminar</button> · <button class="lnk" data-vc="${esc(d._id)}">Ver</button></span></li>`;
 }
 function paraTi(){
   const C=S.docs.filter(d=>(d.estado||"abierta")==="abierta").sort((a,b)=>{const da=diasHasta(a.fin),db=diasHasta(b.fin);return (da==null?999:da)-(db==null?999:db);});
@@ -740,6 +771,7 @@ function renderBase(){
   const cR=Object.fromEntries(cuenta("rev")), cC=Object.fromEntries(cuenta("com"));
   const seg=(k,v,cls,lab)=>v?`<button class="sg ${cls}" style="flex:${v}" data-fl='${esc(JSON.stringify({rev:k}))}' title="${lab}: ${num(v)}"><span>${v/n>.06?num(v):""}</span></button>`:"";
   $("#detalle").innerHTML=`<div class="flujo">
+    <div class="cab-ag"><p class="intro">Todas las ayudas de la app y su estado de revisión. Pulsa una parte del gráfico o una fila para verlas.</p>${avatar("datos")}</div>
     <section class="card estado-rev">
       <div class="er-top">
         <div class="big">${ico("reloj")}<div><div class="tl">${horas?"Falta para tenerlo todo revisado":"Revisión al día"}</div><div class="tn">${horas?`≈ ${num(horas)} h`:"0 h"}</div>
@@ -971,7 +1003,7 @@ function renderDetalleC(){
       <label for="instr" class="hint" style="display:block;margin:14px 0 6px">O explica qué cambiar:</label>
       <textarea id="instr" class="instr" placeholder="Ej.: «No, las comunidades de propietarios solo en Particular» o «el plazo es hasta el 30/11».">${esc(d.instruccion||"")}</textarea>
       <div class="fila"><button class="btn" id="enviar">Enviar cambio</button><span class="hint" id="instrst"></span></div>`
-      :`<div class="motivo">${d.instruccion?linkify(d.instruccion):"<span class='hint'>Sin instrucción.</span>"}</div><div class="fila">${e==="lista"?`<span class="hint">Se aplicará en la próxima pasada de Claude (a y 32).</span>`:""}<button class="btn" id="reabrir">${e==="lista"?"Deshacer":"Reabrir"}</button></div>`}
+      :`<div class="motivo">${d.instruccion?linkify(d.instruccion):"<span class='hint'>Sin instrucción.</span>"}</div><div class="fila">${e==="lista"?`<span class="hint">Se aplicará en la próxima pasada de correcciones (a en punto).</span>`:""}<button class="btn" id="reabrir">${e==="lista"?"Deshacer":"Reabrir"}</button></div>`}
     </section>
     <section class="card" id="cchat"><h3>¿Dudas? Habla con Claude</h3>
       <div class="chat" id="chat">${chat.map(m=>`<div class="msg ${m.role}">${m.role==="assistant"?linkify(m.content):esc(m.content)}</div>`).join("")||`<p class="hint" style="margin:0">Pregunta sobre esta cuestión antes de decidir. Claude ve la cuestión, pero no navega por la web desde aquí.</p>`}</div>
@@ -1089,7 +1121,7 @@ function renderMejora(){
   const kpi=(n,t,c="")=>`<span class="kpi ${c}"><b>${n}</b>${t}</span>`;
   const chip=q=>`<span class="quien ${/^Tú/.test(q)?"tu":"cl"}">${esc(q)}</span>`;
   $("#detalle").innerHTML=`<div class="flujo">
-    <p class="intro">Lo que decides en Revisión llega aquí y Claude lo aplica cada hora: las <b>correcciones</b> (fichas, datos y reglas) en la pasada de y 32, y las <b>mejoras</b> (fuentes, recolector, página) de una en una a y 17. También entra lo que Claude encuentra en su revisión mensual.</p>
+    <div class="cab-ag"><p class="intro">Lo que decides en Revisión llega aquí y Claude lo aplica cada hora: las <b>correcciones</b> (fichas, datos y reglas) a en punto, y las <b>mejoras</b> (fuentes, recolector, página) de una en una a y 30. También entra lo que Claude encuentra en su revisión mensual.</p>${avatar("mejora")}</div>
     <div class="acst">${prox?`<span class="prox">Siguiente: <b>${esc(prox.titulo)}</b> · ${cuandoT(prox.previsto)}</span>`:""}
       <span class="prox" style="flex-basis:100%">Revisión mensual: ${M.ultima?`última el ${fmtFecha(M.ultima)}${M.nuevas?` (${M.nuevas} tareas nuevas)`:""} · `:""}próxima el ${proxMes().toLocaleDateString("es-ES",{day:"numeric",month:"long"})}</span></div>
     ${(()=>{
@@ -1116,8 +1148,8 @@ function renderMejora(){
       return `<div class="filtro-area">${cnt(tot).map(([k,n])=>`<button class="fa ${AR===k?"on":""}" data-ma="${k}">${k?AREAS[k].replace(" (app y diseño)",""):"Todas"} <b>${n}</b></button>`).join("")}<label class="inc-h"><input type="checkbox" id="mHechas" ${conH?"checked":""}> Incluir hechas</label></div>
       ${acc("ti","Para ti",TI.length,"ti",`<ul class="plan">${TI.join("")}</ul>`,"Nada que decidir.")}
       ${acc("pl","Planificadas",PLc.length+PLt.length,"",`
-        ${PLc.length?`<h4 class="plansec">Correcciones · próxima pasada, ${proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})}</h4><ul class="plan">${PLc.map(filaCorr).join("")}</ul>`:""}
-        ${PLt.length?`<h4 class="plansec">Plan de mejoras · una cada hora, a y 17</h4><ul class="plan">${PLt.map(tarea).join("")}</ul>`:""}`,"Nada planificado.")}
+        ${PLc.length?`<h4 class="plansec">Correcciones · próxima pasada, ${proximaCorr().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})}</h4><ul class="plan">${PLc.map(filaCorr).join("")}</ul>`:""}
+        ${PLt.length?`<h4 class="plansec">Plan de mejoras · una cada hora, a y 30</h4><ul class="plan">${PLt.map(tarea).join("")}</ul>`:""}`,"Nada planificado.")}
       ${conH?acc("he","Hechas",HE.length,"",`<ul class="plan">${HE.map(x=>x.h).join("")}</ul>`,"Aún no hay nada hecho."):""}`;
     })()}
       <section class="card"><h3>Reglas que sigue Claude</h3><p class="hint" style="margin:0 0 10px">Categorización, cómo resume y cómo escribe los títulos. Las correcciones de criterio que decides se escriben aquí.</p><button class="btn" data-vi="i">Ver las reglas</button></section>
@@ -1166,7 +1198,7 @@ const HERR=[
     return {total:L.length,ids_todas:L.length<=300?L.map(a=>a.id):undefined,resultados:L.slice(0,Math.min(i.limite||15,40)).map(resumenAyuda)}; }},
  {name:"ver_ficha",description:"Ficha completa de una ayuda (por id): datos de la fuente y, si está revisada, la ficha de Claude por tipo de solicitante.",inputSchema:{type:"object",properties:{id:{type:"string"}},required:["id"]},
   execute:(i)=>{ const a=AY.get(i.id); if(!a) throw new Error("No existe esa ayuda"); return {...resumenAyuda(a),url:a.url,resumen:a.resumen,cuantia:a.cuantia,dirigido:a.dirigido,requisitos:a.requisitos,ficha:a.ficha,cuestiones:cuestionesDe(a.id).map(c=>({id:c._id,estado:c.estado,motivo:(c.motivo||"").slice(0,300),nota:c.nota}))}; }},
- {name:"pedir_cambio_ayudas",description:"Pide a la revisión horaria de Claude un cambio en una o varias fichas (se aplica en la próxima pasada, a y 32). Pasa los ids exactos.",
+ {name:"pedir_cambio_ayudas",description:"Pide a la revisión horaria de Claude un cambio en una o varias fichas (se aplica en la próxima pasada de correcciones, a en punto). Pasa los ids exactos.",
   inputSchema:{type:"object",properties:{ids:{type:"array",items:{type:"string"}},instruccion:{type:"string",description:"Qué cambiar, en frases concretas"}},required:["ids","instruccion"]},
   execute:async(i)=>{ const ids=(i.ids||[]).filter(x=>AY.has(x)); if(!ids.length) throw new Error("Ningún id válido"); 
     if(ids.length===1){ const a=AY.get(ids[0]); const id=await nuevaCuestion({id:a.d+"-"+Date.now().toString(36),area:"datos",ayudaId:a.id,titulo:a.titulo,organismo:a.organismo,url:a.url,fin:a.fin,motivo:"Cambio pedido desde el asistente.",estado:"lista",instruccion:i.instruccion}); return {hecho:true,cuestion:id}; }
@@ -1193,7 +1225,7 @@ const HERR=[
   inputSchema:{type:"object",properties:{pantalla:{type:"string",enum:["inicio","datos","lista","cuestiones","fuentes","mejora","instrucciones"]},filtros:{type:"object",description:"Para lista: rev, com, estado, cierre, nivel, para, temas, organismo"},ayuda:{type:"string",description:"Id de una ayuda para abrirla en la lista"}},required:["pantalla"]},
   execute:(i)=>{ const v={inicio:"w",datos:"b",lista:"l",cuestiones:"c",fuentes:"f",mejora:"m",instrucciones:"i"}[i.pantalla]; if(v==="l"){ S.fl=i.filtros||{}; S.selec=new Set(); } cambiarVista(v); if(i.ayuda&&v==="l") seleccionar(i.ayuda); return {hecho:true}; }}
 ];
-function sistemaAsis(){ return `Eres Claude, el asistente de la página «Eskubat — Revisión de ayudas». Eskubat es una app de ayudas y subvenciones de Euskadi. El sistema: un recolector diario lee las fuentes; Claude revisa cada hora (a y 32) las ayudas nuevas o cambiadas y redacta sus fichas; cada hora (a y 17) Claude ejecuta una tarea del plan de mejora continua; cada mes revisa el plan. Las cuestiones (pantalla «Revisión») son decisiones del responsable o cambios pedidos; las «listas» son correcciones que aplica la pasada horaria (las de área eskubat, no); lo que exige código o fuentes va al plan de mejora. Las dos cosas se ven en la pantalla «Mejora continua».
+function sistemaAsis(){ return `Eres Claude, el asistente de la página «Eskubat — Revisión de ayudas». Eskubat es una app de ayudas y subvenciones de Euskadi. El sistema: un recolector diario lee las fuentes; el «Revisor de datos» (Claude, cada hora a y 32) redacta las fichas de las ayudas nuevas o cambiadas y manda las dudas a «Para ti»; el «Responsable de mejora continua» (Claude) aplica las correcciones decididas cada hora a en punto y hace una tarea del plan de mejora cada hora a y 30; cada mes repasa el plan. Las cuestiones (pantalla «Revisión») son decisiones del responsable o cambios pedidos; las «listas» son correcciones que aplica la pasada de correcciones (las de área eskubat, no); lo que exige código o fuentes va al plan de mejora. Las dos cosas se ven en la pantalla «Mejora continua».
 Tienes herramientas para consultar los datos y para hacer cambios directamente: úsalas. Si te piden un cambio, hazlo con la herramienta adecuada y di qué has hecho y cuándo se aplicará; no pidas permiso para lo que el responsable ya ha pedido claramente, pero pregunta si algo es ambiguo o afecta a muchas ayudas sin que lo haya dicho. Antes de pedir cambios a ayudas concretas, búscalas para tener los ids. No puedes navegar por la web ni cambiar el código desde aquí: lo que exige código o fuentes nuevas va al plan (proponer_tarea_plan). Responde en castellano, breve y claro, sin jerga técnica. Hoy es ${new Date().toISOString().slice(0,10)}; los datos de la página son del ${hora(D.generado)}.`; }
 function renderAsis(){
   const box=$("#asisMsgs"); if(!box) return;
@@ -1249,7 +1281,8 @@ $("#asisX").onclick=()=>document.body.classList.remove("asis-on");
 $("#asisNuevo").onclick=()=>{ ASIS.msgs=[]; guardaAsis(); renderAsis(); };
 $("#asisSend").onclick=enviarAsis;
 $("#asisIn").onkeydown=(ev)=>{ if(ev.key==="Enter"&&(ev.metaKey||ev.ctrlKey)) enviarAsis(); };
-document.addEventListener("click",ev=>{ const vc=ev.target.closest("[data-vc]"); if(vc){ verCuestion(vc.dataset.vc); return; } const vt=ev.target.closest("[data-vt]"); if(vt){ verTarea(vt.dataset.vt); return; }
+document.addEventListener("click",ev=>{ const ag=ev.target.closest("[data-ag]"); if(ag){ verAgente(ag.dataset.ag); return; } if(ev.target.closest("[data-cerrarv2]")&&$("#dlgV").open) $("#dlgV").close();
+  const vc=ev.target.closest("[data-vc]"); if(vc){ verCuestion(vc.dataset.vc); return; } const vt=ev.target.closest("[data-vt]"); if(vt){ verTarea(vt.dataset.vt); return; }
   const rb=ev.target.closest("[data-reab]"); if(rb){ if(S.db) S.db.collection("cuestiones").doc(rb.dataset.reab).update({estado:"abierta",actualizada:new Date().toISOString()}).then(()=>setStatus("Reabierta: vuelve a Para ti")).catch(()=>setStatus("No se pudo reabrir")); return; }
   const dl=ev.target.closest("[data-del]"); if(dl){ const d=S.docs.find(x=>x._id===dl.dataset.del); if(!d) return; if(!S.db){ setStatus("Sin conexión con la base de datos de la página"); return; }
     confirmarV(`¿Eliminar «${d.titulo||""}»? No se aplicará.`).then(ok=>{ if(!ok) return; S.db.collection("cuestiones").doc(d._id).update({estado:"descartada",actualizada:new Date().toISOString()}).then(()=>{ d.estado="descartada"; renderDetalle(); setStatus("Eliminada"); }).catch(e=>setStatus("No se pudo eliminar ("+(e&&e.code||"error")+")")); }); return; }
