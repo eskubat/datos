@@ -370,6 +370,12 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 .acord.mc.ti{border-color:var(--or)} .acord.mc.ti summary{background:var(--or-soft)}
 .lnk.ej{font-weight:600}
 .plan-i .tl2{display:flex;align-items:center;gap:8px;flex-wrap:wrap} .plan-i .tl2 .chip{font-size:11.5px;padding:1px 8px}
+.dlgv{border:0;border-radius:14px;padding:18px 20px;max-width:640px;width:calc(100vw - 32px);box-shadow:0 12px 40px rgba(20,33,28,.25)}
+.dlgv::backdrop{background:rgba(20,33,28,.35)}
+.dlgv .vh{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.dlgv .vtit{font:800 19px var(--display);margin:10px 0 4px;text-transform:none;letter-spacing:0;color:var(--ink)}
+.dlgv .vb{margin-top:10px;padding:10px 12px;background:var(--bg);border-radius:8px;font-size:14px;line-height:1.5}
+.dlgv .vt{display:block;font:700 11px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
 @media (max-width:760px){.estado-rev .er-top{grid-template-columns:1fr}}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
 @media (max-width:760px){.eta{grid-template-columns:1fr}}
@@ -411,6 +417,7 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
   <div class="asis-m" id="asisMsgs"></div>
   <div class="asis-i"><textarea id="asisIn" placeholder="Escribe y pulsa Enviar (Ctrl+Enter)"></textarea><button class="btn primary" id="asisSend">Enviar</button></div>
 </aside>
+<dialog id="dlgV" class="dlgv"><div id="dlgVc"></div></dialog>
 <dialog id="dlg">
   <form id="fnueva" method="dialog">
     <h2 style="font:700 20px var(--display);margin:0">Nueva cuestión</h2>
@@ -491,6 +498,23 @@ async function lanzarAhora(tipo,id){
   else if(!lanzado) return {ok:false,msg:"Sin conexión con la base de datos de la página"};
   const MOT={server_not_connected:"falta el conector Claude Code Remote",needs_reauth:"hay que reconectar Claude Code Remote",approval_required:"falta tu permiso",not_in_manifest:"no diste permiso al conector",sin_conexion:"la página no tiene acceso a las tareas programadas"};
   return {ok:true,lanzado,msg:lanzado?`«${titulo}» lanzada: Claude está trabajando en ella ahora`:`No se pudo lanzar al momento (${MOT[err]||err}); queda pedida y empieza antes de una hora`};
+}
+
+function verCuestion(id){
+  const d=S.docs.find(x=>x._id===id); if(!d) return;
+  const EST={abierta:"Abierta: te toca decidir",lista:"En cola: Claude la aplica en la próxima pasada",aplicada:"Hecha",descartada:"Descartada"};
+  const a=d.ayudaId&&AY.get(d.ayudaId), ar=areaDe(d), pe=(S.peticiones||{})["corr-"+id];
+  const bloque=(t,x)=>x?`<div class="vb"><span class="vt">${t}</span><div>${linkify(esc(x))}</div></div>`:"";
+  $("#dlgVc").innerHTML=`<div class="vh"><div><span class="chip ar-${ar}">${esc(AREAS[ar]||ar)}</span> <span class="chip">${esc(EST[d.estado||"abierta"]||d.estado)}</span></div><button class="btn ghost" data-cerrarv aria-label="Cerrar">✕</button></div>
+    <h3 class="vtit">${esc(d.titulo||"(sin título)")}</h3>
+    ${d.organismo?`<p class="hint" style="margin:0 0 8px">${esc(d.organismo)}${d.fin?` · cierra el ${fmtFecha(d.fin)}`:""}</p>`:""}
+    ${a&&a.url?`<p style="margin:0 0 10px"><a href="${esc(a.url)}" target="_blank" rel="noopener">Página oficial de la ayuda ↗</a></p>`:""}
+    ${bloque("Motivo",d.motivo)}${bloque("Instrucción",d.instruccion)}${bloque("Lo que hizo Claude",d.nota)}
+    ${(d.ayudas||[]).length?bloque("Ayudas del lote",d.ayudas.length+" ayudas"):""}
+    ${d.actualizada?`<p class="hint" style="margin:10px 0 0">Actualizada el ${fmtFecha(d.actualizada.slice(0,10))}</p>`:""}
+    <div class="fila" style="margin-top:14px">${d.estado==="lista"?(pe&&["pedida","lanzada"].includes(pe.estado)?`<span class="chip lista">${pe.estado==="lanzada"?"En marcha":"Pedida"}</span>`:`<button class="lnk ej" data-ejv="${esc(id)}">Ejecutar ahora</button><span class="hint">·</span>`):""}<button class="lnk" data-irc="${esc(id)}">Abrir en Revisión para cambiarla</button></div>`;
+  const e=$("#dlgVc").querySelector("[data-ejv]"); if(e) e.onclick=async()=>{ e.disabled=true; e.textContent="Lanzando…"; const r=await lanzarAhora("correccion",id); setStatus(r.msg); verCuestion(id); };
+  const dl=$("#dlgV"); if(!dl.open) dl.showModal();
 }
 function filaCorr(d){
   const pe=(S.peticiones||{})["corr-"+d._id];
@@ -1157,11 +1181,12 @@ $("#counts").addEventListener("click",ev=>{const b=ev.target.closest(".count"); 
 $("#q").addEventListener("input",ev=>{S.q=ev.target.value; renderLista();});
 $("#aInicio").onclick=()=>cambiarVista("w");
 $("#asisFab").onclick=()=>abrirAsis();
+$("#dlgV").addEventListener("click",ev=>{ if(ev.target.id==="dlgV") $("#dlgV").close(); });
 $("#asisX").onclick=()=>document.body.classList.remove("asis-on");
 $("#asisNuevo").onclick=()=>{ ASIS.msgs=[]; guardaAsis(); renderAsis(); };
 $("#asisSend").onclick=enviarAsis;
 $("#asisIn").onkeydown=(ev)=>{ if(ev.key==="Enter"&&(ev.metaKey||ev.ctrlKey)) enviarAsis(); };
-document.addEventListener("click",ev=>{ const vc=ev.target.closest("[data-vc]"); if(vc){ S.filtro="todas"; S.areaF=""; cambiarVista("c"); seleccionar(vc.dataset.vc); return; } const b=ev.target.closest("[data-asis]"); if(b) abrirAsis(b.dataset.asis); const v=ev.target.closest("[data-vi]"); if(v) cambiarVista(v.dataset.vi); });
+document.addEventListener("click",ev=>{ const vc=ev.target.closest("[data-vc]"); if(vc){ verCuestion(vc.dataset.vc); return; } const ir=ev.target.closest("[data-irc]"); if(ir){ $("#dlgV").close(); S.filtro="todas"; S.areaF=""; cambiarVista("c"); seleccionar(ir.dataset.irc); return; } if(ev.target.closest("[data-cerrarv]")){ $("#dlgV").close(); return; } const b=ev.target.closest("[data-asis]"); if(b) abrirAsis(b.dataset.asis); const v=ev.target.closest("[data-vi]"); if(v) cambiarVista(v.dataset.vi); });
 $("#refrescar").onclick=()=>{ $("#refrescar").disabled=true; $("#refrescar").textContent="Actualizando…"; try{ sessionStorage.setItem("eskubat-vista",S.vista); }catch{} location.reload(); };
 $("#marca").onclick=(ev)=>{ ev.preventDefault(); cambiarVista("w"); };
 $("#nueva").onclick=()=>abrirNueva("","","");
