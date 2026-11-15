@@ -1,5 +1,14 @@
 [
  {
+  "id": "bdns-938437",
+  "h": "ded307213c54694c",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación Norshipping Oslo del 8 de junio de al 11 de junio",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938437-87918486.txt",
+  "caracteres": 4631
+ },
+ {
   "id": "bdns-937669",
   "h": "4e95aa33b93cca8c",
   "titulo": "Ayudas de EDLP",
@@ -45,6 +54,24 @@
   "caracteres": 116676
  },
  {
+  "id": "bdns-920153",
+  "h": "5fce41725b1dcfd5",
+  "titulo": "Primera convocatoria del programa de incentivos a proyectos singulares innovadores de ahorro y eficiencia energética (innovae)",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Instituto para la diversificación y ahorro de la energía (idae)",
+  "archivo": "cache/fuentes/bdns-920153-0d3796f0.txt",
+  "caracteres": 172850
+ },
+ {
+  "id": "bdns-938416",
+  "h": "912cdc06945a2e07",
+  "titulo": "Resolución de Convocatoria de 20 de octubre de del XXXV Curso de Posgrado del CIS",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Centro de investigaciones sociológicas",
+  "archivo": "cache/fuentes/bdns-938416-d7c73d55.txt",
+  "caracteres": 60277
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-pi2026-f-weblan00-content-es",
   "h": "06336cbad398e1c7",
   "titulo": "Ayudas para el desarrollo de proyectos integrales de empleo, formación e inserción laboral",
@@ -64,12 +91,21 @@
  },
  {
   "id": "ara-01629001-solicitud-ayudas-excepcionales-en-apoyo-al-sector-g",
-  "h": "c5edb0fed1395f78",
+  "h": "47fce7386fcc0208",
   "titulo": "Ayudas destinadas a reforzar la adaptación, resiliencia y sostenibilidad del sector agrario alavés frente a los efectos del cambio climático",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01629001-solicitud-ayudas-excepcionales-en-apoyo-al-sect-585fc393.txt",
-  "caracteres": 33153
+  "caracteres": 61759
+ },
+ {
+  "id": "bdns-939398",
+  "h": "6b50c58174b057f0",
+  "titulo": "Ayudas para la realización del curso tutorizado en línea «Competencias para el desarrollo de la función directiva»",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de evaluación y cooperación territorial",
+  "archivo": "cache/fuentes/bdns-939398-cdb6d104.txt",
+  "caracteres": 108800
  },
  {
   "id": "bdns-938969",
@@ -90,6 +126,42 @@
   "caracteres": 33461
  },
  {
+  "id": "bdns-938582",
+  "h": "507e2b9e1dd2f2ea",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria Asociación FA maison&objet I Paris del 14 de enero de al 18 de enero de 202",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938582-10b34a6e.txt",
+  "caracteres": 11250
+ },
+ {
+  "id": "bdns-938491",
+  "h": "7020b775b97e30f7",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación lineapelle NEW YORK enero Nueva York",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938491-bbb5cc49.txt",
+  "caracteres": 5432
+ },
+ {
+  "id": "bdns-938488",
+  "h": "fd7c1259bb4511a2",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación lineapelle london enero Londres 19 de enero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938488-b5248891.txt",
+  "caracteres": 5840
+ },
+ {
+  "id": "bdns-938468",
+  "h": "df6af5dd13652245",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación bijorhca I París del 16 de enero de al 18 de enero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938468-bcf0555e.txt",
+  "caracteres": 5569
+ },
+ {
   "id": "bdns-936308",
   "h": "7da98b0059c8dad9",
   "titulo": "Gauzatu Internacional - Grandes Empresas",
@@ -99,6 +171,15 @@
   "caracteres": 200000
  },
  {
+  "id": "bdns-931709",
+  "h": "a59cc2e119f84c25",
+  "titulo": "Concesión de ayudas para la participación en Feria Asociación heimtextil, Frankfurt",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-931709-935776f0.txt",
+  "caracteres": 3880
+ },
+ {
   "id": "bdns-921443",
   "h": "611ac21594c94f68",
   "titulo": "Premios al Reto de Periodismo de Datos",
@@ -106,6 +187,15 @@
   "organismoFuente": "Diputación foral de Bizkaia",
   "archivo": "cache/fuentes/bdns-921443-493c4665.txt",
   "caracteres": 75377
+ },
+ {
+  "id": "bdns-938459",
+  "h": "2bc9db04c7c59124",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación light middle EAST Dubái",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938459-9418196f.txt",
+  "caracteres": 5051
  },
  {
   "id": "eus-ayuda-subvencion-2026-ojm2026",
@@ -126,6 +216,15 @@
   "caracteres": 10765
  },
  {
+  "id": "bdns-937455",
+  "h": "ba0094918f4efdd4",
+  "titulo": "Normas reguladoras para la concesión de compensaciones establecidas en el concepto 485 del presupuesto de gastos del ces",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Consejo económico y social",
+  "archivo": "cache/fuentes/bdns-937455-54de5a52.txt",
+  "caracteres": 72069
+ },
+ {
   "id": "bdns-939167",
   "h": "5a643d431039ea49",
   "titulo": "Bases para la concesión de nsubvenciones individuales a deportistas y convocatoria",
@@ -133,6 +232,42 @@
   "organismoFuente": "Ayuntamiento de zumaia",
   "archivo": "cache/fuentes/bdns-939167-aa029de3.txt",
   "caracteres": 104812
+ },
+ {
+  "id": "bdns-938580",
+  "h": "89a70b25cb4d48aa",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación FA BAU Múnich del 11 de enero de al 15 de enero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938580-2f1a2615.txt",
+  "caracteres": 5929
+ },
+ {
+  "id": "bdns-938576",
+  "h": "5e3c0c6a949d5ff6",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación maison&objet París del 14 de enero de al 18 de enero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938576-f3296b40.txt",
+  "caracteres": 4021
+ },
+ {
+  "id": "bdns-938522",
+  "h": "866a249ac025a491",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación barefoot european SHOE FAIR I Offenbach del 29 al 31 de enero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938522-d26ace4d.txt",
+  "caracteres": 5661
+ },
+ {
+  "id": "bdns-938479",
+  "h": "db282a58edb7b9c8",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación performance DAYS I Munich del 17 de marzo de al 18 de marzo",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938479-f0b77c47.txt",
+  "caracteres": 5599
  },
  {
   "id": "eus-ayuda-subvencion-2026-egonlabur-2027",
@@ -270,6 +405,24 @@
   "caracteres": 23995
  },
  {
+  "id": "bdns-938595",
+  "h": "f284f9c284806a6c",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación Whos' Next y SIL I París del 16 al 18 de enero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938595-7e4665bd.txt",
+  "caracteres": 5205
+ },
+ {
+  "id": "bdns-938528",
+  "h": "fc8221017fd27641",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación WHO'S NEXT I París del 16 de enero de al 18 de enero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938528-6776982f.txt",
+  "caracteres": 6318
+ },
+ {
   "id": "bdns-938472",
   "h": "1ec128f2072cbe6e",
   "titulo": "Concurso gazte proiektuak",
@@ -306,6 +459,24 @@
   "caracteres": 200000
  },
  {
+  "id": "bdns-931689",
+  "h": "e52d8944dd4c1218",
+  "titulo": "Concesión de ayudas para la participación en sirha Lyon, Francia del 21 de enero de al 25 de enero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-931689-4cecf567.txt",
+  "caracteres": 19236
+ },
+ {
+  "id": "bdns-931664",
+  "h": "2caad3a6c8d3afd4",
+  "titulo": "Concesión de ayudas para la participación en nafem SHOW Orlando Fl",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-931664-2f575adb.txt",
+  "caracteres": 19611
+ },
+ {
   "id": "bdns-929124",
   "h": "af7f1ede234e9ac8",
   "titulo": "Ayudas de emergencia social (aes) y de las ayudas económicas municipales (aem) en el municipio",
@@ -340,6 +511,15 @@
   "organismoFuente": "Empleo, Asuntos Sociales e Inclusión",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-2605nebauzoetarako3lerroe-6e757e76.txt",
   "caracteres": 30107
+ },
+ {
+  "id": "bdns-938573",
+  "h": "9c3709a31ed19706",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la FA sport achat hiver Grenoble del 25 de enero de al 27 de enero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938573-856096fb.txt",
+  "caracteres": 3765
  },
  {
   "id": "bdns-938096",
@@ -387,6 +567,42 @@
   "caracteres": 200000
  },
  {
+  "id": "bdns-939101",
+  "h": "cca903c24c5ccb3d",
+  "titulo": "Premio Alimentos Mejores Aceites de Oliva Virgen Extra, campaña",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de alimentación",
+  "archivo": "cache/fuentes/bdns-939101-ffdc5dc1.txt",
+  "caracteres": 94866
+ },
+ {
+  "id": "bdns-941501",
+  "h": "5c481ef21ee471b1",
+  "titulo": "Ayudas destinadas al mantenimiento de la red estatal de centros de excelencia de formación profesional",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Secretaría general de formación profesional",
+  "archivo": "cache/fuentes/bdns-941501-656ff716.txt",
+  "caracteres": 189472
+ },
+ {
+  "id": "bdns-941470",
+  "h": "233d7cef5274c5f3",
+  "titulo": "Ayudas destinadas a la incorporación de nuevos centros a la red estatal de centros de excelencia de la formación profesional",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Secretaría general de formación profesional",
+  "archivo": "cache/fuentes/bdns-941470-0dfa7d9e.txt",
+  "caracteres": 197067
+ },
+ {
+  "id": "bdns-938474",
+  "h": "fc18118c94850b93",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación milano fashion & jewels Milán 20 febrerode al 22 febrero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938474-52ed0793.txt",
+  "caracteres": 5809
+ },
+ {
   "id": "bdns-938418",
   "h": "bdc06fffe487616b",
   "titulo": "Bases para la concesión de subvenciones a quienes obtengan el título de \"Monitor/a o Director/a de Actividades de Tiempo Libre Infantil",
@@ -394,6 +610,15 @@
   "organismoFuente": "Ayuntamiento de bergara",
   "archivo": "cache/fuentes/bdns-938418-d3eab82c.txt",
   "caracteres": 53869
+ },
+ {
+  "id": "bdns-931749",
+  "h": "82cae68de4362d76",
+  "titulo": "Concesión de ayudas para la participación en Feria_Asociación EXPO RIVA schuh & garda BAGS I Riva Del Garda del 16 al 19 enero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-931749-64f3d32e.txt",
+  "caracteres": 7389
  },
  {
   "id": "bdns-928845",
@@ -432,6 +657,15 @@
   "caracteres": 97082
  },
  {
+  "id": "bdns-940056",
+  "h": "d420bc9dcf57be4f",
+  "titulo": "Ayudas públicas en del Programa Nacional de Exploración Minera",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de política energética y minas",
+  "archivo": "cache/fuentes/bdns-940056-de294e89.txt",
+  "caracteres": 102170
+ },
+ {
   "id": "bdns-938141",
   "h": "e16d7b6706adc5b0",
   "titulo": "Ayudas económicas a los vecinos para el estudio del euskera",
@@ -439,6 +673,15 @@
   "organismoFuente": "Ayuntamiento de elciego",
   "archivo": "cache/fuentes/bdns-938141-54999653.txt",
   "caracteres": 5836
+ },
+ {
+  "id": "bdns-933308",
+  "h": "5a4fbf26383ee720",
+  "titulo": "Ayudas para la creación de infraestructuras para la investigación en tecnologías de uso dual",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Entidad pública empresarial red.es",
+  "archivo": "cache/fuentes/bdns-933308-ef7bfbe6.txt",
+  "caracteres": 199999
  },
  {
   "id": "eus-ayuda-subvencion-2026-programa-onekin",
@@ -1602,6 +1845,15 @@
   "caracteres": 55063
  },
  {
+  "id": "bdns-921810",
+  "h": "e9fe378841c283da",
+  "titulo": "Cooperación Técnica descentralizada",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Agencia estatal agencia española de cooperación internacional para el desarrollo",
+  "archivo": "cache/fuentes/bdns-921810-b2d60896.txt",
+  "caracteres": 141124
+ },
+ {
   "id": "bdns-921351",
   "h": "ece2490343ae36c1",
   "titulo": "Subvención gaituzsport",
@@ -1645,6 +1897,42 @@
   "organismoFuente": "Ayuntamiento de errenteria",
   "archivo": "cache/fuentes/bdns-934941-8ac11fa6.txt",
   "caracteres": 29506
+ },
+ {
+  "id": "bdns-938592",
+  "h": "0c96e479a65be6df",
+  "titulo": "Concesión de ayudas para la Participación en la Feria_Asociación Coterie, Magic",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938592-882e0935.txt",
+  "caracteres": 5380
+ },
+ {
+  "id": "bdns-938566",
+  "h": "fbc068588bf320b7",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación THE atlanta SHOE market I Atlanta del 13 al 15 de febrero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938566-9891749b.txt",
+  "caracteres": 5700
+ },
+ {
+  "id": "bdns-938504",
+  "h": "b85fe12be1af079d",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación micam Milano I Milán del 21 de febrero de al 23 de febrero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938504-6054bcb6.txt",
+  "caracteres": 5608
+ },
+ {
+  "id": "bdns-938482",
+  "h": "93e9b5354880a9f4",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación semana de la MODA I Paris",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938482-b55eecc4.txt",
+  "caracteres": 6406
  },
  {
   "id": "bdns-925434",
@@ -1719,6 +2007,24 @@
   "caracteres": 4298
  },
  {
+  "id": "bdns-938420",
+  "h": "a3d2592415062085",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación global industrie Lyon del 15 de marzo de al 18 de marzo",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938420-5233216d.txt",
+  "caracteres": 15142
+ },
+ {
+  "id": "bdns-938404",
+  "h": "ade4fa1a3dcf50cf",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación fastener FAIR Stuttgart del 6 de abril de al 8 de abril",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938404-e26afdb0.txt",
+  "caracteres": 15233
+ },
+ {
   "id": "bdns-924199",
   "h": "dea87819db938f31",
   "titulo": "Ayudas al fomento de la contratación laboral",
@@ -1728,6 +2034,15 @@
   "caracteres": 96454
  },
  {
+  "id": "bdns-938391",
+  "h": "e8d29fbbccb992c4",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación CIMT Pekín del 19 de abril de al 24 de abril",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938391-bc0218d2.txt",
+  "caracteres": 15608
+ },
+ {
   "id": "bdns-940351",
   "h": "7f5ec875315bae31",
   "titulo": "Subvenciones forales destinadas a la organización de competiciones deportivas federadas en el THB",
@@ -1735,6 +2050,42 @@
   "organismoFuente": "Diputación foral de Bizkaia",
   "archivo": "cache/fuentes/bdns-940351-70cfadcb.txt",
   "caracteres": 97401
+ },
+ {
+  "id": "bdns-925030",
+  "h": "4fcfe59f2de0dc43",
+  "titulo": "Orden del Ministro de Derechos Sociales, Consumo y Agenda por la que se convocan, mediante tramitación anticipada",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de consumo",
+  "archivo": "cache/fuentes/bdns-925030-57a89321.txt",
+  "caracteres": 90931
+ },
+ {
+  "id": "bdns-938586",
+  "h": "81acd8135ba94a3e",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación TOYS milano Milán del 9 de mayo de al 10 de mayo",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938586-ebba91cb.txt",
+  "caracteres": 5508
+ },
+ {
+  "id": "bdns-941955",
+  "h": "bc64e2f2ae8195d4",
+  "titulo": "Ayudas a la producción de cortometrajes realizados",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Instituto de la cinematografía y de las artes audiovisuales",
+  "archivo": "cache/fuentes/bdns-941955-a66b2e9c.txt",
+  "caracteres": 199999
+ },
+ {
+  "id": "bdns-938422",
+  "h": "3a970826fd5f03f1",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación tecma Ciudad De México del 15 de junio de al 17 de junio",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938422-65dcd604.txt",
+  "caracteres": 15223
  },
  {
   "id": "bdns-923844",
@@ -1753,6 +2104,42 @@
   "organismoFuente": "EVE - Ente Vasco de la Energía",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-eve-programa-de-ayudas-a-actuacion-8ad30ccb.txt",
   "caracteres": 195180
+ },
+ {
+  "id": "bdns-938587",
+  "h": "f73c16d1b7fc7830",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación KIND AND jugend Colonia del 7 de al 9 de septiembre",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938587-d5c1dcce.txt",
+  "caracteres": 6140
+ },
+ {
+  "id": "bdns-938401",
+  "h": "be88ba4b36125f53",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación fabtech Chicago del 13 de septiembre de al 16 de septiembre",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938401-192ed4a7.txt",
+  "caracteres": 15355
+ },
+ {
+  "id": "bdns-938394",
+  "h": "df41f0586e364c92",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación EMO Milán del 4 de octubre de al 8 de octubre",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938394-6791db9b.txt",
+  "caracteres": 15205
+ },
+ {
+  "id": "bdns-938414",
+  "h": "e1502446f04179c9",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación formnext Frankfurt del 26 de octubre de al 29 de octubre",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938414-b4e03ad4.txt",
+  "caracteres": 15247
  },
  {
   "id": "eus-ayuda-subvencion-2026-morrokotudak-c-weblan00-content-es",
@@ -1780,6 +2167,15 @@
   "organismoFuente": "Ayuntamiento de beasain",
   "archivo": "cache/fuentes/bdns-921473-3b2c356e.txt",
   "caracteres": 7380
+ },
+ {
+  "id": "bdns-938389",
+  "h": "2e8bec3ac3ef2f01",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación blech EXPO Stuttgart del 26 de octubre de al 29 de octubre",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-938389-045ccac4.txt",
+  "caracteres": 15329
  },
  {
   "id": "bdns-929319",
@@ -1827,6 +2223,15 @@
   "caracteres": 85617
  },
  {
+  "id": "bdns-920927",
+  "h": "566169d7dba3167a",
+  "titulo": "Entregas dinerarias sin contraprestación a las entidades colaboradoras en gestión de ayudas de ICEX para actividades cuya realización esté",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-920927-7d6272b0.txt",
+  "caracteres": 34946
+ },
+ {
   "id": "bdns-926766",
   "h": "501aaf76de663e62",
   "titulo": "Ayuda para el desarrollo de programas de Euskal Fondoa",
@@ -1843,6 +2248,51 @@
   "organismoFuente": "EVE - Ente Vasco de la Energía",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-eguzki-hotz-programa-de-ayudas-a-l-60907913.txt",
   "caracteres": 166815
+ },
+ {
+  "id": "bdns-941154",
+  "h": "1a8c5e24157821ee",
+  "titulo": "España crece-ICO AGRI crecimiento y expansión (MRR) (exenciones por categorías agrícola)",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Instituto de crédito oficial",
+  "archivo": "cache/fuentes/bdns-941154-8d8a8138.txt",
+  "caracteres": 200000
+ },
+ {
+  "id": "bdns-941145",
+  "h": "9e88a1acd8457fb7",
+  "titulo": "España crece-ICO crecimiento y expansión (MRR) (exenciones por categorías)",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Instituto de crédito oficial",
+  "archivo": "cache/fuentes/bdns-941145-a9528ead.txt",
+  "caracteres": 200000
+ },
+ {
+  "id": "bdns-938087",
+  "h": "840724bba7a1ad6d",
+  "titulo": "España crece - ICO crecimiento y expansión (MRR) (minimis pesca)",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Instituto de crédito oficial",
+  "archivo": "cache/fuentes/bdns-938087-f6c4793c.txt",
+  "caracteres": 200000
+ },
+ {
+  "id": "bdns-938086",
+  "h": "5f4271762d1e3383",
+  "titulo": "España crece - ICO crecimiento y expansión (MRR) (minimis agrícola)",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Instituto de crédito oficial",
+  "archivo": "cache/fuentes/bdns-938086-6b1d9ac7.txt",
+  "caracteres": 200000
+ },
+ {
+  "id": "bdns-938077",
+  "h": "6f18bbaff4c4ce3b",
+  "titulo": "España crece - ICO crecimiento y expansión (MRR) (minimis general)",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Instituto de crédito oficial",
+  "archivo": "cache/fuentes/bdns-938077-0bc4e52e.txt",
+  "caracteres": 200000
  },
  {
   "id": "eus-ayuda-subvencion-2023-bono-social-termico-2022",
@@ -2160,6 +2610,15 @@
   "caracteres": 28110
  },
  {
+  "id": "bdns-941981",
+  "h": "556c4227794b86f4",
+  "titulo": "Ayudas para los Planes de Producción y Comercialización, con posibilidad de anticipos a los mismos",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Secretaría general de pesca",
+  "archivo": "cache/fuentes/bdns-941981-fc1516aa.txt",
+  "caracteres": 200000
+ },
+ {
   "id": "bdns-941926",
   "h": "652b9031e0d0a9b0",
   "titulo": "Primera convocatoria de subvenciones para la realización de proyectos de empleo protegido",
@@ -2176,6 +2635,15 @@
   "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
   "archivo": "cache/fuentes/bdns-941900-bd79d2c3.txt",
   "caracteres": 200000
+ },
+ {
+  "id": "bdns-941791",
+  "h": "4ca8f32f5dfd6931",
+  "titulo": "Premio Nacional de Estadística",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Instituto nacional de estadística",
+  "archivo": "cache/fuentes/bdns-941791-f84df256.txt",
+  "caracteres": 37894
  },
  {
   "id": "bdns-941759",
@@ -2421,6 +2889,15 @@
   "caracteres": 118129
  },
  {
+  "id": "bdns-937580",
+  "h": "cc825706c91eddca",
+  "titulo": "Subvención a las organizaciones sindicales y coaliciones electorales de la policía nacional con representación en el consejo de policía, en lo",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de la policía",
+  "archivo": "cache/fuentes/bdns-937580-cc254edf.txt",
+  "caracteres": 16237
+ },
+ {
   "id": "bdns-937284",
   "h": "e97286d7bd8cee56",
   "titulo": "Campaña de venta bonos para incentivar el comercio local y el sector servicios",
@@ -2473,6 +2950,15 @@
   "organismoFuente": "Bilbao ekintza",
   "archivo": "cache/fuentes/bdns-936153-756dfd68.txt",
   "caracteres": 71290
+ },
+ {
+  "id": "bdns-936148",
+  "h": "cb588cd55601abae",
+  "titulo": "Resolución de 5 de octubre de, de la Subsecretaría de Transportes y Movilidad,",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general del instituto geográfico nacional",
+  "archivo": "cache/fuentes/bdns-936148-064e160c.txt",
+  "caracteres": 104906
  },
  {
   "id": "bdns-936041",
@@ -2599,6 +3085,24 @@
   "organismoFuente": "Inguralde",
   "archivo": "cache/fuentes/bdns-934996-59bc261b.txt",
   "caracteres": 50294
+ },
+ {
+  "id": "bdns-934857",
+  "h": "9594f0d8ced82142",
+  "titulo": "Ayudas para seguros de las poblaciones acuícolas continentales",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Entidad estatal de seguros agrarios - enesa",
+  "archivo": "cache/fuentes/bdns-934857-edd0ddb7.txt",
+  "caracteres": 135498
+ },
+ {
+  "id": "bdns-934800",
+  "h": "9ba434e0b8055e80",
+  "titulo": "Ayudas para seguros de las poblaciones acuícolas marinas",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Entidad estatal de seguros agrarios - enesa",
+  "archivo": "cache/fuentes/bdns-934800-0bc6db56.txt",
+  "caracteres": 135498
  },
  {
   "id": "bdns-934718",
@@ -2889,6 +3393,15 @@
   "caracteres": 89011
  },
  {
+  "id": "bdns-933143",
+  "h": "aabed615095d6bca",
+  "titulo": "Convocatoria del premio a tesis doctorales de especial relevancia en materia laboral",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Subsecretaría de trabajo y economía social",
+  "archivo": "cache/fuentes/bdns-933143-4c011602.txt",
+  "caracteres": 42110
+ },
+ {
   "id": "bdns-932892",
   "h": "e578c6fe79b9f7de",
   "titulo": "Acuerdo de colaboración que se suscribe entre bilbao ekintza, epel, y arizmendiarrieta kristau fundazioa",
@@ -3022,6 +3535,24 @@
   "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
   "archivo": "cache/fuentes/bdns-931105-07365771.txt",
   "caracteres": 200000
+ },
+ {
+  "id": "bdns-931088",
+  "h": "c65dc5697cbb116d",
+  "titulo": "Orden por la que se efectúa la convocatoria correspondiente al de la del Programa Auto+",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de programas industriales",
+  "archivo": "cache/fuentes/bdns-931088-a69d6730.txt",
+  "caracteres": 200000
+ },
+ {
+  "id": "bdns-931087",
+  "h": "e9650925a66cc2c4",
+  "titulo": "Programa de ayuda al estudio de la Escuela Diplomática",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Subsecretaría de asuntos exteriores, unión europea y cooperación",
+  "archivo": "cache/fuentes/bdns-931087-6156bb02.txt",
+  "caracteres": 59466
  },
  {
   "id": "bdns-931058",
@@ -3159,6 +3690,15 @@
   "caracteres": 72034
  },
  {
+  "id": "bdns-929492",
+  "h": "ceff753e84c41438",
+  "titulo": "Becas para la matriculación en el Máster de Formación Permanente en Dirección Logística 4.0 de la UCO",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Ejército de tierra",
+  "archivo": "cache/fuentes/bdns-929492-e72bf506.txt",
+  "caracteres": 66225
+ },
+ {
   "id": "bdns-929190",
   "h": "0275b096950c4362",
   "titulo": "Subvenciones por parte destinadas a las actividades de culturales de carácter anual",
@@ -3175,6 +3715,15 @@
   "organismoFuente": "Diputación foral de Bizkaia",
   "archivo": "cache/fuentes/bdns-929139-fce3ad63.txt",
   "caracteres": 104418
+ },
+ {
+  "id": "bdns-929102",
+  "h": "360fbc5b65b510e4",
+  "titulo": "Ayudas de viaje para participar en la reunión científica CNIC PhDay",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Centro nacional de investigaciones cardiovasculares carlos iii f.s.p.",
+  "archivo": "cache/fuentes/bdns-929102-5a5dea42.txt",
+  "caracteres": 14779
  },
  {
   "id": "bdns-929034",
