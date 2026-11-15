@@ -2,12 +2,15 @@ name: Sondeo de fuentes
 on:
   workflow_dispatch:
   push:
-    paths: ['scripts/probe.sh']
+    paths: ['scripts/probe.sh', '.github/workflows/sondeo.yml']
 permissions:
-  contents: write
+  contents: read
+  models: read
 jobs:
   sondeo:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - run: bash scripts/probe.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
