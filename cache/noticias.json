@@ -5,95 +5,17 @@
   "url": "https://www.euskadi.eus/ayuda_subvencion/2026/202605europasentitzendasa/web01-s1leheki/es/",
   "fin": "2026-11-19",
   "terminos": [
-   "EMFAF",
-   "CERV"
+   "EMFAF"
   ],
   "candidatosUE": [
    {
-    "id": "CERV-2024-CITIZENS-VALUES",
-    "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
-    "convocatoria": "Low threshold - Elérhető",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639",
-    "inicio": "2026-10-19",
-    "fin": "2026-12-12",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2024-CITIZENS-VALUES",
-    "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
-    "convocatoria": "Call for proposals for large grants No. 4/SPLOT/GD/2026",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639",
-    "inicio": "2026-10-27",
-    "fin": "2026-12-28",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2025-DAPHNE",
-    "titulo": "Call for proposals to prevent and combat gender-based violence and violence against children",
-    "convocatoria": "Comprehensive and inclusive support for women and girls' victims of GBV",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47589185",
-    "inicio": "2026-09-18",
-    "fin": "2026-11-23",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2024-CITIZENS-VALUES",
-    "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
-    "convocatoria": "A running call No. 5 for bilateral cooperation project proposals",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639",
-    "inicio": "2025-12-17",
-    "fin": "2027-02-01",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2024-CITIZENS-VALUES",
-    "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
-    "convocatoria": "Call for proposal for support to Slovenian and Croatian SCOs to “Go out and vote!” campaigns",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639",
-    "inicio": "2025-09-05",
-    "fin": "2028-01-01",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2024-CITIZENS-VALUES",
-    "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
-    "convocatoria": " ReAction – Rapid Response Grants ",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639",
-    "inicio": "2025-09-11",
-    "fin": "2028-03-31",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2023-CITIZENS-CIV",
-    "titulo": "Citizens’ engagement and participation",
-    "convocatoria": "",
-    "programa": "CERV Lump Sum Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/CERV-2023-CITIZENS-CIV.json",
-    "inicio": "2023-04-04",
-    "fin": "2023-09-05",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "EMFAF-2023-PIA-FisheriesScientificAdvice",
-    "titulo": "Improving scientific knowledge to strengthen the science-basis of management decisions under the Common Fisheries Policy",
-    "convocatoria": "",
+    "id": "EMFAF-2027-PIA-ScientificAdviceFisheries",
+    "titulo": "Improving scientific knowledge to strengthen the science-basis of management decisions under the CFP",
+    "convocatoria": "Improving scientific knowledge to strengthen the science-basis of management decisions under the CFP",
     "programa": "EMFAF Project Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/EMFAF-2023-PIA-FisheriesScientificAdvice.json",
-    "inicio": "2023-03-28",
-    "fin": "2023-09-19",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EMFAF-2027-PIA-ScientificAdviceFisheries",
+    "inicio": "2026-11-12",
+    "fin": "2027-02-23",
     "estado": "abierta",
     "cascada": false
    }
@@ -113,24 +35,24 @@
   ],
   "candidatosUE": [
    {
-    "id": "HORIZON-MSCA-2023-FTP-01-01",
-    "titulo": "MSCA Feedback To Policy 2023",
-    "convocatoria": "",
-    "programa": "HORIZON Coordination and Support Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-MSCA-2023-FTP-01-01.json",
-    "inicio": "2023-03-07",
-    "fin": "2023-06-06",
+    "id": "HORIZON-RAISE-2026-01-03",
+    "titulo": "RAISE Doctoral Networks for AI in Science (RAISE pilot)",
+    "convocatoria": "RAISE Doctoral Networks for AI in Science",
+    "programa": "HORIZON TMA MSCA Doctoral Networks",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-RAISE-2026-01-03",
+    "inicio": "2026-05-28",
+    "fin": "2026-11-24",
     "estado": "abierta",
     "cascada": false
    },
    {
-    "id": "HORIZON-MSCA-2023-PF-01-01",
-    "titulo": "MSCA Postdoctoral Fellowships 2023",
-    "convocatoria": "",
-    "programa": "HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-MSCA-2023-PF-01-01.json",
-    "inicio": "2023-04-12",
-    "fin": "2023-09-13",
+    "id": "HORIZON-MSCA-2026-DN-01-01",
+    "titulo": "MSCA Doctoral Networks 2026",
+    "convocatoria": "MSCA Doctoral Networks 2026",
+    "programa": "HORIZON TMA MSCA Doctoral Networks",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2026-DN-01-01",
+    "inicio": "2026-05-28",
+    "fin": "2026-11-24",
     "estado": "abierta",
     "cascada": false
    },
@@ -142,17 +64,6 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-RAISE-2027-01-04",
     "inicio": "2026-10-13",
     "fin": "2027-02-02",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-RAISE-2026-01-03",
-    "titulo": "RAISE Doctoral Networks for AI in Science (RAISE pilot)",
-    "convocatoria": "RAISE Doctoral Networks for AI in Science",
-    "programa": "HORIZON TMA MSCA Doctoral Networks",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-RAISE-2026-01-03",
-    "inicio": "2026-05-28",
-    "fin": "2026-11-24",
     "estado": "abierta",
     "cascada": false
    },
@@ -179,22 +90,33 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-MSCA-2026-DN-01-01",
-    "titulo": "MSCA Doctoral Networks 2026",
-    "convocatoria": "MSCA Doctoral Networks 2026",
+    "id": "HORIZON-MSCA-2027-DN-01-01",
+    "titulo": "MSCA Doctoral Networks 2027",
+    "convocatoria": "MSCA Doctoral Networks 2027",
     "programa": "HORIZON TMA MSCA Doctoral Networks",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2026-DN-01-01",
-    "inicio": "2026-05-28",
-    "fin": "2026-11-24",
-    "estado": "abierta",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-DN-01-01",
+    "inicio": "2027-05-26",
+    "fin": "2027-11-23",
+    "estado": "proxima",
     "cascada": false
    },
    {
-    "id": "HORIZON-MSCA-2027-COFUND-01-01",
-    "titulo": "MSCA COFUND 2027",
-    "convocatoria": "MSCA COFUND 2027",
-    "programa": "HORIZON TMA MSCA Cofund Doctoral programme",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-COFUND-01-01",
+    "id": "HORIZON-MSCA-2027-PF-01-01",
+    "titulo": "MSCA Postdoctoral Fellowships 2027",
+    "convocatoria": "MSCA Postdoctoral Fellowships 2027",
+    "programa": "HORIZON TMA MSCA Postdoctoral Fellowships - Global Fellowships",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-PF-01-01",
+    "inicio": "2027-04-07",
+    "fin": "2027-09-08",
+    "estado": "proxima",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-MSCA-2027-COFUND-02-01",
+    "titulo": "MSCA Choose Europe for Science 2027",
+    "convocatoria": "MSCA Choose Europe for Science 2027",
+    "programa": "HORIZON TMA MSCA Cofund Postdoctoral programme",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-COFUND-02-01",
     "inicio": "2026-12-08",
     "fin": "2027-04-06",
     "estado": "proxima",
@@ -203,218 +125,6 @@
   ],
   "candidatosAyudas": [],
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-260528mscaraisedoktoregoa-a2020aa7.txt"
- },
- {
-  "id": "eus-ayuda-subvencion-2026-2026-patrimonio-natural-ayudas-a-entidades-locales",
-  "titulo": "Patrimonio Natural - Ayudas a entidades locales",
-  "url": "https://www.euskadi.eus/ayuda_subvencion/2026/2026-patrimonio-natural-ayudas-a-entidades-locales/web01-tramite/es/",
-  "fin": "2026-11-30",
-  "terminos": [],
-  "candidatosUE": [],
-  "candidatosAyudas": [],
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-2026-patrimonio-natural-ayudas-a-e-8edb1451.txt"
- },
- {
-  "id": "eus-ayuda-subvencion-2026-2026-cambio-climatico-ayudas-a-entidades-locales",
-  "titulo": "Cambio climático - Ayudas a entidades locales",
-  "url": "https://www.euskadi.eus/ayuda_subvencion/2026/2026-cambio-climatico-ayudas-a-entidades-locales/web01-tramite/es/",
-  "fin": "2026-11-30",
-  "terminos": [
-   "CERV"
-  ],
-  "candidatosUE": [
-   {
-    "id": "CERV-2024-CITIZENS-VALUES",
-    "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
-    "convocatoria": "Low threshold - Elérhető",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639",
-    "inicio": "2026-10-19",
-    "fin": "2026-12-12",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2024-CITIZENS-VALUES",
-    "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
-    "convocatoria": "Call for proposals for large grants No. 4/SPLOT/GD/2026",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639",
-    "inicio": "2026-10-27",
-    "fin": "2026-12-28",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2025-DAPHNE",
-    "titulo": "Call for proposals to prevent and combat gender-based violence and violence against children",
-    "convocatoria": "Comprehensive and inclusive support for women and girls' victims of GBV",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47589185",
-    "inicio": "2026-09-18",
-    "fin": "2026-11-23",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2024-CITIZENS-VALUES",
-    "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
-    "convocatoria": "A running call No. 5 for bilateral cooperation project proposals",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639",
-    "inicio": "2025-12-17",
-    "fin": "2027-02-01",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2024-CITIZENS-VALUES",
-    "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
-    "convocatoria": "Call for proposal for support to Slovenian and Croatian SCOs to “Go out and vote!” campaigns",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639",
-    "inicio": "2025-09-05",
-    "fin": "2028-01-01",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2024-CITIZENS-VALUES",
-    "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
-    "convocatoria": " ReAction – Rapid Response Grants ",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639",
-    "inicio": "2025-09-11",
-    "fin": "2028-03-31",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2023-CITIZENS-CIV",
-    "titulo": "Citizens’ engagement and participation",
-    "convocatoria": "",
-    "programa": "CERV Lump Sum Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/CERV-2023-CITIZENS-CIV.json",
-    "inicio": "2023-04-04",
-    "fin": "2023-09-05",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "CERV-2023-EQUAL",
-    "titulo": "Call for proposals to promote equality and to fight against racism, xenophobia and discrimination",
-    "convocatoria": "",
-    "programa": "CERV Lump Sum Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/CERV-2023-EQUAL.json",
-    "inicio": "2022-12-08",
-    "fin": "2023-06-20",
-    "estado": "abierta",
-    "cascada": false
-   }
-  ],
-  "candidatosAyudas": [],
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-2026-cambio-climatico-ayudas-a-ent-46ac8268.txt"
- },
- {
-  "id": "eus-ayuda-subvencion-2026-2026-asteklima-ayudas-a-entidades-locales",
-  "titulo": "Asteklima - Ayudas a entidades locales",
-  "url": "https://www.euskadi.eus/ayuda_subvencion/2026/2026-asteklima-ayudas-a-entidades-locales/web01-tramite/es/",
-  "fin": "2026-11-30",
-  "terminos": [
-   "CERV"
-  ],
-  "candidatosUE": [
-   {
-    "id": "CERV-2024-CITIZENS-VALUES",
-    "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
-    "convocatoria": "Low threshold - Elérhető",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639",
-    "inicio": "2026-10-19",
-    "fin": "2026-12-12",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2024-CITIZENS-VALUES",
-    "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
-    "convocatoria": "Call for proposals for large grants No. 4/SPLOT/GD/2026",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639",
-    "inicio": "2026-10-27",
-    "fin": "2026-12-28",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2025-DAPHNE",
-    "titulo": "Call for proposals to prevent and combat gender-based violence and violence against children",
-    "convocatoria": "Comprehensive and inclusive support for women and girls' victims of GBV",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47589185",
-    "inicio": "2026-09-18",
-    "fin": "2026-11-23",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2024-CITIZENS-VALUES",
-    "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
-    "convocatoria": "A running call No. 5 for bilateral cooperation project proposals",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639",
-    "inicio": "2025-12-17",
-    "fin": "2027-02-01",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2024-CITIZENS-VALUES",
-    "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
-    "convocatoria": "Call for proposal for support to Slovenian and Croatian SCOs to “Go out and vote!” campaigns",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639",
-    "inicio": "2025-09-05",
-    "fin": "2028-01-01",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2024-CITIZENS-VALUES",
-    "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
-    "convocatoria": " ReAction – Rapid Response Grants ",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639",
-    "inicio": "2025-09-11",
-    "fin": "2028-03-31",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "CERV-2023-CITIZENS-CIV",
-    "titulo": "Citizens’ engagement and participation",
-    "convocatoria": "",
-    "programa": "CERV Lump Sum Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/CERV-2023-CITIZENS-CIV.json",
-    "inicio": "2023-04-04",
-    "fin": "2023-09-05",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "CERV-2023-EQUAL",
-    "titulo": "Call for proposals to promote equality and to fight against racism, xenophobia and discrimination",
-    "convocatoria": "",
-    "programa": "CERV Lump Sum Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/CERV-2023-EQUAL.json",
-    "inicio": "2022-12-08",
-    "fin": "2023-06-20",
-    "estado": "abierta",
-    "cascada": false
-   }
-  ],
-  "candidatosAyudas": [],
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-2026-asteklima-ayudas-a-entidades--912214d4.txt"
  },
  {
   "id": "eus-ayuda-subvencion-2026-cefmugazgaindikoberriztag",
@@ -426,83 +136,6 @@
   ],
   "candidatosUE": [
    {
-    "id": "CEF-T-2021-AFIFCOEN-UNITS",
-    "titulo": "Alternative Fuel Infrastructure Facility - Unit Contributions",
-    "convocatoria": "",
-    "programa": "CEF AFIF-EVRI Unit Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/CEF-T-2021-AFIFCOEN-UNITS.json",
-    "inicio": "2021-09-16",
-    "fin": "2023-11-07",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "CEF-T-2021-AFIFCOEN-WORKS-ZE",
-    "titulo": "Alternative Fuel Infrastructure Facility - Works - Zero Emissions",
-    "convocatoria": "",
-    "programa": "CEF Infrastructure Projects",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/CEF-T-2021-AFIFCOEN-WORKS-ZE.json",
-    "inicio": "2021-09-16",
-    "fin": "2023-11-07",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "CEF-T-2021-AFIFCOEN-WORKS-LNG",
-    "titulo": "Alternative Fuel Infrastructure Facility - Works - LNG",
-    "convocatoria": "",
-    "programa": "CEF Infrastructure Projects",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/CEF-T-2021-AFIFCOEN-WORKS-LNG.json",
-    "inicio": "2021-09-16",
-    "fin": "2023-11-07",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "CEF-T-2021-AFIFGEN-WORKS-LNG",
-    "titulo": "Alternative Fuel Infrastructure Facility - Works - LNG",
-    "convocatoria": "",
-    "programa": "CEF Infrastructure Projects",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/CEF-T-2021-AFIFGEN-WORKS-LNG.json",
-    "inicio": "2021-09-16",
-    "fin": "2023-11-07",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "CEF-T-2021-AFIFGEN-UNITS",
-    "titulo": "Alternative Fuel Infrastructure Facility - Unit Contributions",
-    "convocatoria": "",
-    "programa": "CEF AFIF-EVRI Unit Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/CEF-T-2021-AFIFGEN-UNITS.json",
-    "inicio": "2021-09-16",
-    "fin": "2023-11-07",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "CEF-T-2021-AFIFGEN-WORKS-ZE",
-    "titulo": "Alternative Fuel Infrastructure Facility - Works - Zero Emissions",
-    "convocatoria": "",
-    "programa": "CEF Infrastructure Projects",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/CEF-T-2021-AFIFGEN-WORKS-ZE.json",
-    "inicio": "2021-09-16",
-    "fin": "2023-11-07",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "CEF-T-2023-MILMOB-WORKS",
-    "titulo": "Adaptation of the TEN-T to civilian-defence dual use - studies, works or mixed",
-    "convocatoria": "",
-    "programa": "CEF Infrastructure Projects",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/CEF-T-2023-MILMOB-WORKS.json",
-    "inicio": "2023-05-03",
-    "fin": "2023-09-21",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
     "id": "EMFAF-2027-PIA-ScientificAdviceFisheries",
     "titulo": "Improving scientific knowledge to strengthen the science-basis of management decisions under the CFP",
     "convocatoria": "Improving scientific knowledge to strengthen the science-basis of management decisions under the CFP",
@@ -510,6 +143,17 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EMFAF-2027-PIA-ScientificAdviceFisheries",
     "inicio": "2026-11-12",
     "fin": "2027-02-23",
+    "estado": "abierta",
+    "cascada": false
+   },
+   {
+    "id": "CEF-DIG-2026-CABLE-REPAIR-CAPACITIES-WORKS",
+    "titulo": "Submarine Cable Repair Capacities - Works",
+    "convocatoria": "Submarine Cable Repair Capacities",
+    "programa": "CEF Infrastructure Projects",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-DIG-2026-CABLE-REPAIR-CAPACITIES-WORKS",
+    "inicio": "2026-06-23",
+    "fin": "2026-11-25",
     "estado": "abierta",
     "cascada": false
    }
@@ -545,50 +189,6 @@
   ],
   "candidatosUE": [
    {
-    "id": "INFRAEOSC-03-2020",
-    "titulo": "Integration and consolidation of the existing pan-European access mechanism to public research infrastructures and commercial services through the EOSC Portal",
-    "convocatoria": "",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/271COMPETITIVE_CALLen",
-    "inicio": "2021-07-15",
-    "fin": "2023-07-22",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "HORIZON-CL5-2023-D6-01-06",
-    "titulo": "Zero-emission e-commerce and freight delivery and return choices by retailers, consumers and local authorities",
-    "convocatoria": "",
-    "programa": "HORIZON  Research and Innovation Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL5-2023-D6-01-06.json",
-    "inicio": "2023-05-04",
-    "fin": "2023-09-05",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "LIFE-2023-CET-ENERCOMFACILITY",
-    "titulo": "European Energy Communities Facility",
-    "convocatoria": "",
-    "programa": "LIFE Project Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/LIFE-2023-CET-ENERCOMFACILITY.json",
-    "inicio": "2023-05-11",
-    "fin": "2023-11-16",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "ERC-2023-POC",
-    "titulo": "ERC PROOF OF CONCEPT GRANTS",
-    "convocatoria": "",
-    "programa": "HORIZON ERC Proof of Concept Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/ERC-2023-POC.json",
-    "inicio": "2022-10-20",
-    "fin": "2023-09-21",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
     "id": "ERC-2027-POC",
     "titulo": "Proof of Concept Grant",
     "convocatoria": "Call for proposals for ERC Proof of Concept",
@@ -611,13 +211,13 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-JU-EUROHPC-2026-SPT-10-01",
-    "titulo": "Superconducting Platform Technologies",
-    "convocatoria": "Superconducting Platform Technologies",
-    "programa": "HORIZON JU Research and Innovation Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-SPT-10-01",
-    "inicio": "2026-08-13",
-    "fin": "2026-11-17",
+    "id": "HORIZON-CL5-2026-11-D3-04",
+    "titulo": "De-risking renewable fuel technologies through transnational pre-commercial procurement of renewable fuel industrial value chains",
+    "convocatoria": "ENERGY",
+    "programa": "HORIZON Pre-commercial Procurement",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-04",
+    "inicio": "2026-08-04",
+    "fin": "2026-12-01",
     "estado": "abierta",
     "cascada": false
    },
@@ -630,6 +230,50 @@
     "inicio": "2026-10-06",
     "fin": "2027-01-05",
     "estado": "abierta",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-JU-EUROHPC-2026-SPT-10-01",
+    "titulo": "Superconducting Platform Technologies",
+    "convocatoria": "Superconducting Platform Technologies",
+    "programa": "HORIZON JU Research and Innovation Actions",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-SPT-10-01",
+    "inicio": "2026-08-13",
+    "fin": "2026-11-17",
+    "estado": "abierta",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-CL4-2027-01-MAT-PROD-49",
+    "titulo": "‘Proof of market’ to improve valorisation and commercialisation of Horizon generated R&I results (IA)",
+    "convocatoria": "INDUSTRY",
+    "programa": "HORIZON Innovation Actions",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-49",
+    "inicio": "2026-10-13",
+    "fin": "2027-02-02",
+    "estado": "abierta",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-EIE-2027-01-CONNECT-02",
+    "titulo": "Reinforcing synergies between experimentation spaces and innovation procurement",
+    "convocatoria": "Interconnected Innovation Ecosystems (2027.1)",
+    "programa": "HORIZON Pre-commercial Procurement",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2027-01-CONNECT-02",
+    "inicio": "2027-06-01",
+    "fin": "2027-09-15",
+    "estado": "proxima",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-EIE-2027-01-CONNECT-03",
+    "titulo": "Enhancing the involvement of philanthropic organisations in innovation ecosystems",
+    "convocatoria": "Interconnected Innovation Ecosystems (2027.1)",
+    "programa": "HORIZON Coordination and Support Actions",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2027-01-CONNECT-03",
+    "inicio": "2027-06-01",
+    "fin": "2027-09-15",
+    "estado": "proxima",
     "cascada": false
    }
   ],
@@ -647,28 +291,6 @@
    "HORIZON"
   ],
   "candidatosUE": [
-   {
-    "id": "HORIZON-EIC-2021-EEN-01-01",
-    "titulo": "Cooperation with EEN",
-    "convocatoria": "",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2443COMPETITIVE_CALLen",
-    "inicio": "2023-01-24",
-    "fin": "2023-07-25",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "HORIZON-EIC-2021-STARTUPEU-01-01",
-    "titulo": "Enhancing synergies between the EIC and Startup Europe",
-    "convocatoria": "",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/3041COMPETITIVE_CALLen",
-    "inicio": "2023-04-05",
-    "fin": "2023-06-06",
-    "estado": "abierta",
-    "cascada": true
-   },
    {
     "id": "HORIZON-EIC-2025-WOMENTECH",
     "titulo": "Women Tech.EU initiative",
@@ -692,47 +314,69 @@
     "cascada": true
    },
    {
-    "id": "HORIZON-EIC-2023-EUIPA-PRIZES-03-01",
-    "titulo": "EUIPA cat 1",
-    "convocatoria": "",
-    "programa": "HORIZON Recognition Prize",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-EIC-2023-EUIPA-PRIZES-03-01.json",
-    "inicio": "2023-04-20",
-    "fin": "2023-08-17",
+    "id": "HORIZON-EIC-2027-ACCELERATOR-01",
+    "titulo": "Short proposal",
+    "convocatoria": "Short proposal",
+    "programa": "HORIZON EIC Accelerator",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2027-ACCELERATOR-01",
+    "inicio": "2026-11-10",
+    "fin": "2027-12-16",
     "estado": "abierta",
     "cascada": false
    },
    {
-    "id": "HORIZON-EIC-2023-EUSIC-PRIZES-04",
-    "titulo": "The European Social Innovation Competition 2023",
-    "convocatoria": "",
+    "id": "HORIZON-EIC-2026-PRIZE-WIP",
+    "titulo": "The European Prize for Women Innovators",
+    "convocatoria": "The European Prize for Women Innovators",
     "programa": "HORIZON Recognition Prize",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-EIC-2023-EUSIC-PRIZES-04.json",
-    "inicio": "2023-03-30",
-    "fin": "2023-05-30",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-PRIZE-WIP",
+    "inicio": "2026-09-02",
+    "fin": "2026-12-01",
     "estado": "abierta",
     "cascada": false
    },
    {
-    "id": "HORIZON-EIC-2023-EUIPA-PRIZES-03-02",
-    "titulo": "EUIPA cat 2",
-    "convocatoria": "",
+    "id": "HORIZON-EIC-2026-PRIZE-WIP-RisingInnovators",
+    "titulo": "Rising Innovators category",
+    "convocatoria": "The European Prize for Women Innovators",
     "programa": "HORIZON Recognition Prize",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-EIC-2023-EUIPA-PRIZES-03-02.json",
-    "inicio": "2023-04-20",
-    "fin": "2023-08-17",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-PRIZE-WIP-RisingInnovators",
+    "inicio": "2026-09-02",
+    "fin": "2026-12-01",
     "estado": "abierta",
     "cascada": false
    },
    {
-    "id": "HORIZON-EIC-2023-ICAPITAL-PRIZE-02-1",
-    "titulo": "The European Capital of Innovation Awards iCapital 2023",
-    "convocatoria": "",
-    "programa": "HORIZON Recognition Prize",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-EIC-2023-ICAPITAL-PRIZE-02-1.json",
-    "inicio": "2023-03-08",
-    "fin": "2023-06-29",
-    "estado": "abierta",
+    "id": "HORIZON-WIDERA-2027-01-WIDENING-01",
+    "titulo": "EIC Pre-accelerator - Widening",
+    "convocatoria": "EIC Pre-accelerator - Widening",
+    "programa": "HORIZON Coordination and Support Actions",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2027-01-WIDENING-01",
+    "inicio": "2027-05-05",
+    "fin": "2027-11-18",
+    "estado": "proxima",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-EIC-2027-DEFENCE-01",
+    "titulo": "EIC STEP Defence",
+    "convocatoria": "EIC STEP Scale Up Defence",
+    "programa": "HORIZON EIC Equity Only",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2027-DEFENCE-01",
+    "inicio": "2026-12-01",
+    "fin": "2027-06-01",
+    "estado": "proxima",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-EIC-2027-STEP",
+    "titulo": "EIC STEP Scale Up",
+    "convocatoria": "EIC STEP Scale Up",
+    "programa": "HORIZON EIC Equity Only",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2027-STEP",
+    "inicio": "2026-11-18",
+    "fin": "2027-11-24",
+    "estado": "proxima",
     "cascada": false
    }
   ],
@@ -770,17 +414,6 @@
   ],
   "candidatosUE": [
    {
-    "id": "EMFAF-2023-PIA-FisheriesScientificAdvice",
-    "titulo": "Improving scientific knowledge to strengthen the science-basis of management decisions under the Common Fisheries Policy",
-    "convocatoria": "",
-    "programa": "EMFAF Project Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/EMFAF-2023-PIA-FisheriesScientificAdvice.json",
-    "inicio": "2023-03-28",
-    "fin": "2023-09-19",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
     "id": "EMFAF-2027-PIA-ScientificAdviceFisheries",
     "titulo": "Improving scientific knowledge to strengthen the science-basis of management decisions under the CFP",
     "convocatoria": "Improving scientific knowledge to strengthen the science-basis of management decisions under the CFP",
@@ -815,17 +448,6 @@
   ],
   "candidatosUE": [
    {
-    "id": "EMFAF-2023-PIA-FisheriesScientificAdvice",
-    "titulo": "Improving scientific knowledge to strengthen the science-basis of management decisions under the Common Fisheries Policy",
-    "convocatoria": "",
-    "programa": "EMFAF Project Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/EMFAF-2023-PIA-FisheriesScientificAdvice.json",
-    "inicio": "2023-03-28",
-    "fin": "2023-09-19",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
     "id": "EMFAF-2027-PIA-ScientificAdviceFisheries",
     "titulo": "Improving scientific knowledge to strengthen the science-basis of management decisions under the CFP",
     "convocatoria": "Improving scientific knowledge to strengthen the science-basis of management decisions under the CFP",
@@ -850,50 +472,6 @@
   ],
   "candidatosUE": [
    {
-    "id": "INFRAEOSC-03-2020",
-    "titulo": "Integration and consolidation of the existing pan-European access mechanism to public research infrastructures and commercial services through the EOSC Portal",
-    "convocatoria": "",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/271COMPETITIVE_CALLen",
-    "inicio": "2021-07-15",
-    "fin": "2023-07-22",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "HORIZON-CL5-2023-D6-01-06",
-    "titulo": "Zero-emission e-commerce and freight delivery and return choices by retailers, consumers and local authorities",
-    "convocatoria": "",
-    "programa": "HORIZON  Research and Innovation Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL5-2023-D6-01-06.json",
-    "inicio": "2023-05-04",
-    "fin": "2023-09-05",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "LIFE-2023-CET-ENERCOMFACILITY",
-    "titulo": "European Energy Communities Facility",
-    "convocatoria": "",
-    "programa": "LIFE Project Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/LIFE-2023-CET-ENERCOMFACILITY.json",
-    "inicio": "2023-05-11",
-    "fin": "2023-11-16",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "ERC-2023-POC",
-    "titulo": "ERC PROOF OF CONCEPT GRANTS",
-    "convocatoria": "",
-    "programa": "HORIZON ERC Proof of Concept Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/ERC-2023-POC.json",
-    "inicio": "2022-10-20",
-    "fin": "2023-09-21",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
     "id": "ERC-2027-POC",
     "titulo": "Proof of Concept Grant",
     "convocatoria": "Call for proposals for ERC Proof of Concept",
@@ -916,13 +494,13 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-JU-EUROHPC-2026-SPT-10-01",
-    "titulo": "Superconducting Platform Technologies",
-    "convocatoria": "Superconducting Platform Technologies",
-    "programa": "HORIZON JU Research and Innovation Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-SPT-10-01",
-    "inicio": "2026-08-13",
-    "fin": "2026-11-17",
+    "id": "HORIZON-CL5-2026-11-D3-04",
+    "titulo": "De-risking renewable fuel technologies through transnational pre-commercial procurement of renewable fuel industrial value chains",
+    "convocatoria": "ENERGY",
+    "programa": "HORIZON Pre-commercial Procurement",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-04",
+    "inicio": "2026-08-04",
+    "fin": "2026-12-01",
     "estado": "abierta",
     "cascada": false
    },
@@ -935,6 +513,50 @@
     "inicio": "2026-10-06",
     "fin": "2027-01-05",
     "estado": "abierta",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-JU-EUROHPC-2026-SPT-10-01",
+    "titulo": "Superconducting Platform Technologies",
+    "convocatoria": "Superconducting Platform Technologies",
+    "programa": "HORIZON JU Research and Innovation Actions",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-SPT-10-01",
+    "inicio": "2026-08-13",
+    "fin": "2026-11-17",
+    "estado": "abierta",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-CL4-2027-01-MAT-PROD-49",
+    "titulo": "‘Proof of market’ to improve valorisation and commercialisation of Horizon generated R&I results (IA)",
+    "convocatoria": "INDUSTRY",
+    "programa": "HORIZON Innovation Actions",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-49",
+    "inicio": "2026-10-13",
+    "fin": "2027-02-02",
+    "estado": "abierta",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-EIE-2027-01-CONNECT-02",
+    "titulo": "Reinforcing synergies between experimentation spaces and innovation procurement",
+    "convocatoria": "Interconnected Innovation Ecosystems (2027.1)",
+    "programa": "HORIZON Pre-commercial Procurement",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2027-01-CONNECT-02",
+    "inicio": "2027-06-01",
+    "fin": "2027-09-15",
+    "estado": "proxima",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-EIE-2027-01-CONNECT-03",
+    "titulo": "Enhancing the involvement of philanthropic organisations in innovation ecosystems",
+    "convocatoria": "Interconnected Innovation Ecosystems (2027.1)",
+    "programa": "HORIZON Coordination and Support Actions",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2027-01-CONNECT-03",
+    "inicio": "2027-06-01",
+    "fin": "2027-09-15",
+    "estado": "proxima",
     "cascada": false
    }
   ],
@@ -953,83 +575,6 @@
   ],
   "candidatosUE": [
    {
-    "id": "HORIZON-EIC-2023-PATHFINDERCHALLENGES-01-01",
-    "titulo": "EIC Pathfinder Challenge: Clean and efficient cooling",
-    "convocatoria": "",
-    "programa": "HORIZON EIC Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-EIC-2023-PATHFINDERCHALLENGES-01-01.json",
-    "inicio": "2023-06-20",
-    "fin": "2023-10-18",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-EIC-2023-PATHFINDERCHALLENGES-01-02",
-    "titulo": "EIC Pathfinder Challenge: AEC digitalisation for a new triad of design, fabrication, and materials",
-    "convocatoria": "",
-    "programa": "HORIZON EIC Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-EIC-2023-PATHFINDERCHALLENGES-01-02.json",
-    "inicio": "2023-06-20",
-    "fin": "2023-10-18",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-EIC-2023-PATHFINDERCHALLENGES-01-03",
-    "titulo": "EIC Pathfinder Challenge: Precision Nutrition",
-    "convocatoria": "",
-    "programa": "HORIZON EIC Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-EIC-2023-PATHFINDERCHALLENGES-01-03.json",
-    "inicio": "2023-06-20",
-    "fin": "2023-10-18",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-EIC-2023-PATHFINDERCHALLENGES-01-05",
-    "titulo": "EIC Pathfinder Challenge: In-space solar energy harvesting for innovative space applications",
-    "convocatoria": "",
-    "programa": "HORIZON EIC Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-EIC-2023-PATHFINDERCHALLENGES-01-05.json",
-    "inicio": "2023-06-20",
-    "fin": "2023-10-18",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-EIC-2023-PATHFINDERCHALLENGES-01-04",
-    "titulo": "EIC Pathfinder Challenge: Responsible Electronics",
-    "convocatoria": "",
-    "programa": "HORIZON EIC Grants",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-EIC-2023-PATHFINDERCHALLENGES-01-04.json",
-    "inicio": "2023-06-20",
-    "fin": "2023-10-18",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-EIC-2021-EEN-01-01",
-    "titulo": "Cooperation with EEN",
-    "convocatoria": "",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2443COMPETITIVE_CALLen",
-    "inicio": "2023-01-24",
-    "fin": "2023-07-25",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "HORIZON-EIC-2021-STARTUPEU-01-01",
-    "titulo": "Enhancing synergies between the EIC and Startup Europe",
-    "convocatoria": "",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/3041COMPETITIVE_CALLen",
-    "inicio": "2023-04-05",
-    "fin": "2023-06-06",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
     "id": "HORIZON-EIC-2025-WOMENTECH",
     "titulo": "Women Tech.EU initiative",
     "convocatoria": "Women TechEU Open Call",
@@ -1039,6 +584,83 @@
     "fin": "2027-01-14",
     "estado": "abierta",
     "cascada": true
+   },
+   {
+    "id": "HORIZON-EIC-2021-EEN-01-01",
+    "titulo": "Cooperation with EEN",
+    "convocatoria": "Open Call 4bis for the selection of EEN organisations delivering Investment Readiness Services (IRS) and Follow-up Support – EEN2EIC \n",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/43849514",
+    "inicio": "2026-07-08",
+    "fin": "2027-06-30",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-EIC-2027-ACCELERATOR-01",
+    "titulo": "Short proposal",
+    "convocatoria": "Short proposal",
+    "programa": "HORIZON EIC Accelerator",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2027-ACCELERATOR-01",
+    "inicio": "2026-11-10",
+    "fin": "2027-12-16",
+    "estado": "abierta",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-CL5-2026-11-D3-04",
+    "titulo": "De-risking renewable fuel technologies through transnational pre-commercial procurement of renewable fuel industrial value chains",
+    "convocatoria": "ENERGY",
+    "programa": "HORIZON Pre-commercial Procurement",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-04",
+    "inicio": "2026-08-04",
+    "fin": "2026-12-01",
+    "estado": "abierta",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-EIC-2026-PRIZE-WIP",
+    "titulo": "The European Prize for Women Innovators",
+    "convocatoria": "The European Prize for Women Innovators",
+    "programa": "HORIZON Recognition Prize",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-PRIZE-WIP",
+    "inicio": "2026-09-02",
+    "fin": "2026-12-01",
+    "estado": "abierta",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-EIE-2027-02-CONNECT-01",
+    "titulo": "European Startup and Scaleup Hubs pilot",
+    "convocatoria": "Interconnected Innovation Ecosystems (2027.2)",
+    "programa": "HORIZON Programme Cofund Actions",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2027-02-CONNECT-01",
+    "inicio": "2026-10-06",
+    "fin": "2027-01-05",
+    "estado": "abierta",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-JU-EUROHPC-2026-SPT-10-01",
+    "titulo": "Superconducting Platform Technologies",
+    "convocatoria": "Superconducting Platform Technologies",
+    "programa": "HORIZON JU Research and Innovation Actions",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-SPT-10-01",
+    "inicio": "2026-08-13",
+    "fin": "2026-11-17",
+    "estado": "abierta",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-EIC-2026-PRIZE-WIP-RisingInnovators",
+    "titulo": "Rising Innovators category",
+    "convocatoria": "The European Prize for Women Innovators",
+    "programa": "HORIZON Recognition Prize",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-PRIZE-WIP-RisingInnovators",
+    "inicio": "2026-09-02",
+    "fin": "2026-12-01",
+    "estado": "abierta",
+    "cascada": false
    }
   ],
   "candidatosAyudas": [
@@ -1060,90 +682,90 @@
   ],
   "candidatosUE": [
    {
-    "id": "HORIZON-CL4-2021-HUMAN-01-21",
-    "titulo": "Art-driven use experiments and design (RIA)",
-    "convocatoria": "",
+    "id": "HORIZON-CL4-2024-DATA-01-03",
+    "titulo": "Piloting emerging Smart IoT Platforms and decentralized intelligence (IA)",
+    "convocatoria": "O-CEI 2nd OPEN CALL FOR UPTAKE PROJECTS",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2041COMPETITIVE_CALLen",
-    "inicio": "2022-12-19",
-    "fin": "2023-03-31",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45703720",
+    "inicio": "2026-11-12",
+    "fin": "2027-01-14",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-HLTH-2021-CARE-05-04",
-    "titulo": "Health care innovation procurement network",
-    "convocatoria": "",
+    "id": "HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
+    "titulo": "Robust and trustworthy GenerativeAI for Robotics and industrial automation (RIA) (AI/Data/Robotics & Made in Europe Partnerships)",
+    "convocatoria": "GRAIL Open Call — Genesis (1st Open Call)",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2902COMPETITIVE_CALLen",
-    "inicio": "2023-03-31",
-    "fin": "2023-05-31",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48401116",
+    "inicio": "2026-11-09",
+    "fin": "2027-02-10",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-CL6-2021-GOVERNANCE-01-21",
-    "titulo": "Potential of drones as multi-purpose vehicle – risks and added values",
-    "convocatoria": "",
+    "id": "HORIZON-CL4-2024-HUMAN-03-04",
+    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
+    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/3064COMPETITIVE_CALLen",
-    "inicio": "2023-04-13",
-    "fin": "2023-07-11",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
+    "inicio": "2026-11-09",
+    "fin": "2027-01-08",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-HLTH-2022-CARE-10-01",
-    "titulo": "European partnership on transforming health and care systems",
-    "convocatoria": "",
+    "id": "HORIZON-EIE-2023-CONNECT-03-01",
+    "titulo": "Implementing co-funded action plans for connected regional innovation valleys",
+    "convocatoria": "SYSTEMEU - Financial Support to Third Parties (FSTP) \n\nWhat is the aim?\nTo support digital innovations in healthcare, energy and mobility as they progress from the prototype stage (TRL 6) to a market-ready system (TRL 8).\n\nWho can take part?\nRegions: Bavaria (DE), Norte Region (PT), Castile and León (ES), Romania (RO) and Tuzla (BiH) only.\nConsortia: 2–8 partners from at least 2–5 regions (depending on project size).\n\nType: Triple Helix (academia, business, public authorities).\n\nProject sizes & budget\n\nFlagship: up to €2.2 million (5–8 partners, all regions). Proposed by consortia composed by 5 to 8 partners covering all 5 participating SYSTEMEU regions and including at least one RTO/University, one company, and one public sector entity actively involved in public service delivery (e.g., municipal administrations or hospitals).\n",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2981COMPETITIVE_CALLen",
-    "inicio": "2023-03-24",
-    "fin": "2023-06-13",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45659376",
+    "inicio": "2026-09-15",
+    "fin": "2026-11-23",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-CL4-2021-HUMAN-01-08",
-    "titulo": "NGI International Collaboration - Transatlantic fellowship programme (CSA)",
-    "convocatoria": "",
+    "id": "HORIZON-EIT-2025-KIC-IBA-F",
+    "titulo": "EITFOOD Business Plan 2026",
+    "convocatoria": "Seedbed Venture Catalyst Call for Startups",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2001COMPETITIVE_CALLen",
-    "inicio": "2022-11-30",
-    "fin": "2023-01-31",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
+    "inicio": "2026-11-06",
+    "fin": "2026-12-16",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-EIC-2021-EEN-01-01",
-    "titulo": "Cooperation with EEN",
-    "convocatoria": "",
+    "id": "HORIZON-MISS-2024-OCEAN-IBA",
+    "titulo": "EU Public Infrastructure for the European Digital Twin Ocean, phase 2",
+    "convocatoria": "INTEGRATION OF INNOVATIVE OCEAN SOLUTIONS INTO EDITO",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2443COMPETITIVE_CALLen",
-    "inicio": "2023-01-24",
-    "fin": "2023-07-25",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47374969",
+    "inicio": "2026-11-09",
+    "fin": "2027-01-29",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-EIT-2023-25-Cross-KIC-Strategic-Synergies",
-    "titulo": "EIT Cross-KIC Strategic Synergies",
-    "convocatoria": "",
+    "id": "HORIZON-EIT-2025-KIC-IBA-F",
+    "titulo": "EITFOOD Business Plan 2026",
+    "convocatoria": "Proof of Concept & Technology Validation Call",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2401COMPETITIVE_CALLen",
-    "inicio": "2023-01-18",
-    "fin": "2023-03-13",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
+    "inicio": "2026-11-06",
+    "fin": "2027-01-18",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-CL4-2021-HUMAN-01-03",
-    "titulo": "European Network of AI Excellence Centres: Pillars of the European AI lighthouse (RIA)",
-    "convocatoria": "",
+    "id": "HORIZON-EIT-2025-KIC-IBA-F",
+    "titulo": "EITFOOD Business Plan 2026",
+    "convocatoria": "Open Call for Implementing Participants of the Empowering Women in Agrifood (EWA) Programme 2027-2028",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2802COMPETITIVE_CALLen",
-    "inicio": "2023-02-28",
-    "fin": "2023-05-31",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
+    "inicio": "2026-11-06",
+    "fin": "2027-01-05",
     "estado": "abierta",
     "cascada": true
    }
@@ -1161,90 +783,90 @@
   ],
   "candidatosUE": [
    {
-    "id": "HORIZON-CL4-2021-HUMAN-01-21",
-    "titulo": "Art-driven use experiments and design (RIA)",
-    "convocatoria": "",
+    "id": "HORIZON-CL4-2024-DATA-01-03",
+    "titulo": "Piloting emerging Smart IoT Platforms and decentralized intelligence (IA)",
+    "convocatoria": "O-CEI 2nd OPEN CALL FOR UPTAKE PROJECTS",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2041COMPETITIVE_CALLen",
-    "inicio": "2022-12-19",
-    "fin": "2023-03-31",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45703720",
+    "inicio": "2026-11-12",
+    "fin": "2027-01-14",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-HLTH-2021-CARE-05-04",
-    "titulo": "Health care innovation procurement network",
-    "convocatoria": "",
+    "id": "HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
+    "titulo": "Robust and trustworthy GenerativeAI for Robotics and industrial automation (RIA) (AI/Data/Robotics & Made in Europe Partnerships)",
+    "convocatoria": "GRAIL Open Call — Genesis (1st Open Call)",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2902COMPETITIVE_CALLen",
-    "inicio": "2023-03-31",
-    "fin": "2023-05-31",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48401116",
+    "inicio": "2026-11-09",
+    "fin": "2027-02-10",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-CL6-2021-GOVERNANCE-01-21",
-    "titulo": "Potential of drones as multi-purpose vehicle – risks and added values",
-    "convocatoria": "",
+    "id": "HORIZON-CL4-2024-HUMAN-03-04",
+    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
+    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/3064COMPETITIVE_CALLen",
-    "inicio": "2023-04-13",
-    "fin": "2023-07-11",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
+    "inicio": "2026-11-09",
+    "fin": "2027-01-08",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-HLTH-2022-CARE-10-01",
-    "titulo": "European partnership on transforming health and care systems",
-    "convocatoria": "",
+    "id": "HORIZON-EIE-2023-CONNECT-03-01",
+    "titulo": "Implementing co-funded action plans for connected regional innovation valleys",
+    "convocatoria": "SYSTEMEU - Financial Support to Third Parties (FSTP) \n\nWhat is the aim?\nTo support digital innovations in healthcare, energy and mobility as they progress from the prototype stage (TRL 6) to a market-ready system (TRL 8).\n\nWho can take part?\nRegions: Bavaria (DE), Norte Region (PT), Castile and León (ES), Romania (RO) and Tuzla (BiH) only.\nConsortia: 2–8 partners from at least 2–5 regions (depending on project size).\n\nType: Triple Helix (academia, business, public authorities).\n\nProject sizes & budget\n\nFlagship: up to €2.2 million (5–8 partners, all regions). Proposed by consortia composed by 5 to 8 partners covering all 5 participating SYSTEMEU regions and including at least one RTO/University, one company, and one public sector entity actively involved in public service delivery (e.g., municipal administrations or hospitals).\n",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2981COMPETITIVE_CALLen",
-    "inicio": "2023-03-24",
-    "fin": "2023-06-13",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45659376",
+    "inicio": "2026-09-15",
+    "fin": "2026-11-23",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-CL4-2021-HUMAN-01-08",
-    "titulo": "NGI International Collaboration - Transatlantic fellowship programme (CSA)",
-    "convocatoria": "",
+    "id": "HORIZON-EIT-2025-KIC-IBA-F",
+    "titulo": "EITFOOD Business Plan 2026",
+    "convocatoria": "Seedbed Venture Catalyst Call for Startups",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2001COMPETITIVE_CALLen",
-    "inicio": "2022-11-30",
-    "fin": "2023-01-31",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
+    "inicio": "2026-11-06",
+    "fin": "2026-12-16",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-EIC-2021-EEN-01-01",
-    "titulo": "Cooperation with EEN",
-    "convocatoria": "",
+    "id": "HORIZON-MISS-2024-OCEAN-IBA",
+    "titulo": "EU Public Infrastructure for the European Digital Twin Ocean, phase 2",
+    "convocatoria": "INTEGRATION OF INNOVATIVE OCEAN SOLUTIONS INTO EDITO",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2443COMPETITIVE_CALLen",
-    "inicio": "2023-01-24",
-    "fin": "2023-07-25",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47374969",
+    "inicio": "2026-11-09",
+    "fin": "2027-01-29",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-EIT-2023-25-Cross-KIC-Strategic-Synergies",
-    "titulo": "EIT Cross-KIC Strategic Synergies",
-    "convocatoria": "",
+    "id": "HORIZON-EIT-2025-KIC-IBA-F",
+    "titulo": "EITFOOD Business Plan 2026",
+    "convocatoria": "Proof of Concept & Technology Validation Call",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2401COMPETITIVE_CALLen",
-    "inicio": "2023-01-18",
-    "fin": "2023-03-13",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
+    "inicio": "2026-11-06",
+    "fin": "2027-01-18",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-CL4-2021-HUMAN-01-03",
-    "titulo": "European Network of AI Excellence Centres: Pillars of the European AI lighthouse (RIA)",
-    "convocatoria": "",
+    "id": "HORIZON-EIT-2025-KIC-IBA-F",
+    "titulo": "EITFOOD Business Plan 2026",
+    "convocatoria": "Open Call for Implementing Participants of the Empowering Women in Agrifood (EWA) Programme 2027-2028",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2802COMPETITIVE_CALLen",
-    "inicio": "2023-02-28",
-    "fin": "2023-05-31",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
+    "inicio": "2026-11-06",
+    "fin": "2027-01-05",
     "estado": "abierta",
     "cascada": true
    }
@@ -1262,17 +884,6 @@
    "CITIZENS"
   ],
   "candidatosUE": [
-   {
-    "id": "HORIZON-MSCA-2027-CITIZENS-01-01",
-    "titulo": "MSCA and Citizens 2027",
-    "convocatoria": "MSCA and Citizens 2027",
-    "programa": "HORIZON Coordination and Support Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-CITIZENS-01-01",
-    "inicio": "2027-03-09",
-    "fin": "2027-06-08",
-    "estado": "proxima",
-    "cascada": false
-   },
    {
     "id": "CERV-2024-CITIZENS-VALUES",
     "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
@@ -1349,6 +960,17 @@
     "fin": "2028-03-31",
     "estado": "abierta",
     "cascada": true
+   },
+   {
+    "id": "CERV-2026-CITIZENS-VALUES",
+    "titulo": "CERV-2026-CITIZENS-VALUES",
+    "convocatoria": "Call for proposals for civil society organisations active in protecting and promoting Union values: call to intermediaries (financial support to third parties)",
+    "programa": "CERV Project Grants",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CERV-2026-CITIZENS-VALUES",
+    "inicio": "2026-10-27",
+    "fin": "2027-02-24",
+    "estado": "abierta",
+    "cascada": false
    }
   ],
   "candidatosAyudas": [],
@@ -1364,28 +986,6 @@
   ],
   "candidatosUE": [
    {
-    "id": "HORIZON-MSCA-2023-FTP-01-01",
-    "titulo": "MSCA Feedback To Policy 2023",
-    "convocatoria": "",
-    "programa": "HORIZON Coordination and Support Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-MSCA-2023-FTP-01-01.json",
-    "inicio": "2023-03-07",
-    "fin": "2023-06-06",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-MSCA-2023-PF-01-01",
-    "titulo": "MSCA Postdoctoral Fellowships 2023",
-    "convocatoria": "",
-    "programa": "HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-MSCA-2023-PF-01-01.json",
-    "inicio": "2023-04-12",
-    "fin": "2023-09-13",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
     "id": "HORIZON-MSCA-2026-DN-01-01",
     "titulo": "MSCA Doctoral Networks 2026",
     "convocatoria": "MSCA Doctoral Networks 2026",
@@ -1397,24 +997,13 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-MSCA-2027-COFUND-01-01",
-    "titulo": "MSCA COFUND 2027",
-    "convocatoria": "MSCA COFUND 2027",
-    "programa": "HORIZON TMA MSCA Cofund Doctoral programme",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-COFUND-01-01",
-    "inicio": "2026-12-08",
-    "fin": "2027-04-06",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-MSCA-2027-CITIZENS-01-01",
-    "titulo": "MSCA and Citizens 2027",
-    "convocatoria": "MSCA and Citizens 2027",
-    "programa": "HORIZON Coordination and Support Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-CITIZENS-01-01",
-    "inicio": "2027-03-09",
-    "fin": "2027-06-08",
+    "id": "HORIZON-MSCA-2027-DN-01-01",
+    "titulo": "MSCA Doctoral Networks 2027",
+    "convocatoria": "MSCA Doctoral Networks 2027",
+    "programa": "HORIZON TMA MSCA Doctoral Networks",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-DN-01-01",
+    "inicio": "2027-05-26",
+    "fin": "2027-11-23",
     "estado": "proxima",
     "cascada": false
    },
@@ -1430,17 +1019,6 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-MSCA-2027-DN-01-01",
-    "titulo": "MSCA Doctoral Networks 2027",
-    "convocatoria": "MSCA Doctoral Networks 2027",
-    "programa": "HORIZON TMA MSCA Doctoral Networks",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-DN-01-01",
-    "inicio": "2027-05-26",
-    "fin": "2027-11-23",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
     "id": "HORIZON-MSCA-2027-COFUND-02-01",
     "titulo": "MSCA Choose Europe for Science 2027",
     "convocatoria": "MSCA Choose Europe for Science 2027",
@@ -1448,6 +1026,17 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-COFUND-02-01",
     "inicio": "2026-12-08",
     "fin": "2027-04-06",
+    "estado": "proxima",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-MSCA-2027-SE-01-01",
+    "titulo": "MSCA Staff Exchanges 2027",
+    "convocatoria": "MSCA Staff Exchanges 2027",
+    "programa": "HORIZON TMA MSCA Staff Exchanges",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-SE-01-01",
+    "inicio": "2026-12-15",
+    "fin": "2027-04-13",
     "estado": "proxima",
     "cascada": false
    }
@@ -1465,28 +1054,6 @@
   ],
   "candidatosUE": [
    {
-    "id": "HORIZON-MSCA-2023-FTP-01-01",
-    "titulo": "MSCA Feedback To Policy 2023",
-    "convocatoria": "",
-    "programa": "HORIZON Coordination and Support Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-MSCA-2023-FTP-01-01.json",
-    "inicio": "2023-03-07",
-    "fin": "2023-06-06",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-MSCA-2023-PF-01-01",
-    "titulo": "MSCA Postdoctoral Fellowships 2023",
-    "convocatoria": "",
-    "programa": "HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-MSCA-2023-PF-01-01.json",
-    "inicio": "2023-04-12",
-    "fin": "2023-09-13",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
     "id": "HORIZON-MSCA-2026-DN-01-01",
     "titulo": "MSCA Doctoral Networks 2026",
     "convocatoria": "MSCA Doctoral Networks 2026",
@@ -1498,24 +1065,13 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-MSCA-2027-COFUND-01-01",
-    "titulo": "MSCA COFUND 2027",
-    "convocatoria": "MSCA COFUND 2027",
-    "programa": "HORIZON TMA MSCA Cofund Doctoral programme",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-COFUND-01-01",
-    "inicio": "2026-12-08",
-    "fin": "2027-04-06",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-MSCA-2027-CITIZENS-01-01",
-    "titulo": "MSCA and Citizens 2027",
-    "convocatoria": "MSCA and Citizens 2027",
-    "programa": "HORIZON Coordination and Support Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-CITIZENS-01-01",
-    "inicio": "2027-03-09",
-    "fin": "2027-06-08",
+    "id": "HORIZON-MSCA-2027-DN-01-01",
+    "titulo": "MSCA Doctoral Networks 2027",
+    "convocatoria": "MSCA Doctoral Networks 2027",
+    "programa": "HORIZON TMA MSCA Doctoral Networks",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-DN-01-01",
+    "inicio": "2027-05-26",
+    "fin": "2027-11-23",
     "estado": "proxima",
     "cascada": false
    },
@@ -1531,17 +1087,6 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-MSCA-2027-DN-01-01",
-    "titulo": "MSCA Doctoral Networks 2027",
-    "convocatoria": "MSCA Doctoral Networks 2027",
-    "programa": "HORIZON TMA MSCA Doctoral Networks",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-DN-01-01",
-    "inicio": "2027-05-26",
-    "fin": "2027-11-23",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
     "id": "HORIZON-MSCA-2027-COFUND-02-01",
     "titulo": "MSCA Choose Europe for Science 2027",
     "convocatoria": "MSCA Choose Europe for Science 2027",
@@ -1549,6 +1094,17 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-COFUND-02-01",
     "inicio": "2026-12-08",
     "fin": "2027-04-06",
+    "estado": "proxima",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-MSCA-2027-SE-01-01",
+    "titulo": "MSCA Staff Exchanges 2027",
+    "convocatoria": "MSCA Staff Exchanges 2027",
+    "programa": "HORIZON TMA MSCA Staff Exchanges",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-SE-01-01",
+    "inicio": "2026-12-15",
+    "fin": "2027-04-13",
     "estado": "proxima",
     "cascada": false
    }
@@ -1578,17 +1134,6 @@
   ],
   "candidatosUE": [
    {
-    "id": "HORIZON-CL5-2023-D3-02-05",
-    "titulo": "Advanced exploration technologies for geothermal resources in a wide range of geological settings",
-    "convocatoria": "",
-    "programa": "HORIZON  Research and Innovation Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL5-2023-D3-02-05.json",
-    "inicio": "2023-05-04",
-    "fin": "2023-09-05",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
     "id": "HORIZON-CL5-2026-11-D3-06",
     "titulo": "Resource assessment for deep sedimentary and basement reservoirs",
     "convocatoria": "ENERGY",
@@ -1600,68 +1145,79 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-INFRA-2027-SERV-01-01",
-    "titulo": "Access to research infrastructures, their resources and services: large-scale pilots for more integrated scheme across (sub)domains",
-    "convocatoria": "Research Infrastructures 2027",
-    "programa": "HORIZON  Research and Innovation Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-INFRA-2027-SERV-01-01",
-    "inicio": "2027-03-09",
-    "fin": "2027-06-15",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-CL4-2024-TWIN-TRANSITION-01-41",
-    "titulo": "Breakthroughs to improve process industry resource efficiency (Processes4Planet partnership) (RIA)",
-    "convocatoria": "",
-    "programa": "HORIZON  Research and Innovation Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL4-2024-TWIN-TRANSITION-01-41.json",
-    "inicio": "2023-09-19",
-    "fin": "2024-02-07",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-CL6-2024-BIODIV-02-1-two-stage",
-    "titulo": "Demonstrating Nature-based Solutions for the sustainable management of water resources in a changing climate, with special attention to reducing the impacts of extreme droughts",
-    "convocatoria": "",
-    "programa": "HORIZON Innovation Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL6-2024-BIODIV-02-1-two-stage.json",
-    "inicio": "2023-10-17",
-    "fin": "2024-09-17",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-CL5-2024-D3-02-07",
-    "titulo": "Resource Efficiency of PV in Production, Use and Disposal",
-    "convocatoria": "",
-    "programa": "HORIZON Coordination and Support Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL5-2024-D3-02-07.json",
-    "inicio": "2024-09-17",
-    "fin": "2025-01-21",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-CL4-2021-HUMAN-01-21",
-    "titulo": "Art-driven use experiments and design (RIA)",
-    "convocatoria": "",
+    "id": "HORIZON-CL4-2024-DATA-01-03",
+    "titulo": "Piloting emerging Smart IoT Platforms and decentralized intelligence (IA)",
+    "convocatoria": "O-CEI 2nd OPEN CALL FOR UPTAKE PROJECTS",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2041COMPETITIVE_CALLen",
-    "inicio": "2022-12-19",
-    "fin": "2023-03-31",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45703720",
+    "inicio": "2026-11-12",
+    "fin": "2027-01-14",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-HLTH-2021-CARE-05-04",
-    "titulo": "Health care innovation procurement network",
-    "convocatoria": "",
+    "id": "HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
+    "titulo": "Robust and trustworthy GenerativeAI for Robotics and industrial automation (RIA) (AI/Data/Robotics & Made in Europe Partnerships)",
+    "convocatoria": "GRAIL Open Call — Genesis (1st Open Call)",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/2902COMPETITIVE_CALLen",
-    "inicio": "2023-03-31",
-    "fin": "2023-05-31",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48401116",
+    "inicio": "2026-11-09",
+    "fin": "2027-02-10",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-CL4-2024-HUMAN-03-04",
+    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
+    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
+    "inicio": "2026-11-09",
+    "fin": "2027-01-08",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-EIE-2023-CONNECT-03-01",
+    "titulo": "Implementing co-funded action plans for connected regional innovation valleys",
+    "convocatoria": "SYSTEMEU - Financial Support to Third Parties (FSTP) \n\nWhat is the aim?\nTo support digital innovations in healthcare, energy and mobility as they progress from the prototype stage (TRL 6) to a market-ready system (TRL 8).\n\nWho can take part?\nRegions: Bavaria (DE), Norte Region (PT), Castile and León (ES), Romania (RO) and Tuzla (BiH) only.\nConsortia: 2–8 partners from at least 2–5 regions (depending on project size).\n\nType: Triple Helix (academia, business, public authorities).\n\nProject sizes & budget\n\nFlagship: up to €2.2 million (5–8 partners, all regions). Proposed by consortia composed by 5 to 8 partners covering all 5 participating SYSTEMEU regions and including at least one RTO/University, one company, and one public sector entity actively involved in public service delivery (e.g., municipal administrations or hospitals).\n",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45659376",
+    "inicio": "2026-09-15",
+    "fin": "2026-11-23",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-EIT-2025-KIC-IBA-F",
+    "titulo": "EITFOOD Business Plan 2026",
+    "convocatoria": "Seedbed Venture Catalyst Call for Startups",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
+    "inicio": "2026-11-06",
+    "fin": "2026-12-16",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-MISS-2024-OCEAN-IBA",
+    "titulo": "EU Public Infrastructure for the European Digital Twin Ocean, phase 2",
+    "convocatoria": "INTEGRATION OF INNOVATIVE OCEAN SOLUTIONS INTO EDITO",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47374969",
+    "inicio": "2026-11-09",
+    "fin": "2027-01-29",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-EIT-2025-KIC-IBA-F",
+    "titulo": "EITFOOD Business Plan 2026",
+    "convocatoria": "Proof of Concept & Technology Validation Call",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
+    "inicio": "2026-11-06",
+    "fin": "2027-01-18",
     "estado": "abierta",
     "cascada": true
    }

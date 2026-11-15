@@ -99,6 +99,33 @@
   "caracteres": 1839
  },
  {
+  "id": "eus-ayuda-subvencion-2026-2026-patrimonio-natural-ayudas-a-entidades-locales",
+  "h": "cac5d53ed6a7d6f1",
+  "titulo": "Patrimonio Natural - Ayudas a entidades locales",
+  "organismoSugerido": "gv-industria",
+  "organismoFuente": "Industria, Transición Energética y Sostenibilidad",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-2026-patrimonio-natural-ayudas-a-e-8edb1451.txt",
+  "caracteres": 60000
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-2026-cambio-climatico-ayudas-a-entidades-locales",
+  "h": "3a975ddc99c7b0ef",
+  "titulo": "Cambio climático - Ayudas a entidades locales",
+  "organismoSugerido": "gv-industria",
+  "organismoFuente": "Industria, Transición Energética y Sostenibilidad",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-2026-cambio-climatico-ayudas-a-ent-46ac8268.txt",
+  "caracteres": 60000
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-2026-asteklima-ayudas-a-entidades-locales",
+  "h": "05597dcd97fade1a",
+  "titulo": "Asteklima - Ayudas a entidades locales",
+  "organismoSugerido": "gv-industria",
+  "organismoFuente": "Industria, Transición Energética y Sostenibilidad",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-2026-asteklima-ayudas-a-entidades--912214d4.txt",
+  "caracteres": 60000
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-pce",
   "h": "9221b6a7d3962cc5",
   "titulo": "Programa Complementario de Escolarización",
