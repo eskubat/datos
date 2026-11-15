@@ -88,7 +88,9 @@ function estado(a) {
 function tituloSinEdicion(t) {
   let s = String(t || '')
     .replace(/^convocatoria general de subvenciones\s*(?:\d{4})?\s*[.,-]?\s*anexo\s*n?[º°o.]*\s*\d+\s*[:.\-]\s*/i, '')
+    .replace(/\b(?:para|en|de|del)\s+(?:el\s+)?(?:a[nñ]o|ejercicio|curso)\s+(?:19|20)\d\d(?:\s*[-/]\s*(?:19|20)?\d\d)?,?\s*/gi, '')
     .replace(/\(?\b(?:a[nñ]o|ejercicio|curso|convocatoria)?\s*(?:19|20)\d\d(?:\s*[-/]\s*(?:19|20)?\d\d)?\b\)?/gi, '')
+    .replace(/\s+(?:en|de|del|para|el|la|los|las)\s*$/i, '')
     .replace(/\s+([,.;:])/g, '$1').replace(/\s{2,}/g, ' ').replace(/[\s,.;:-]+$/, '').trim();
   return s ? s.charAt(0).toUpperCase() + s.slice(1) : t;
 }
