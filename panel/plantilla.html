@@ -321,8 +321,8 @@ function cuestionDe(id){ return S.docs.find(x=>x.ayudaId===id); }
 
 /* ================= PLAN Y PENDIENTES ================= */
 function proximaNoche(){ const d=new Date(); const n=new Date(d); n.setHours(3,17,0,0); if(n<=d) n.setDate(n.getDate()+1); return n; }
-function planClaude(){
-  const T=(D.tareas||[]).filter(t=>t.quien!=="Tú"); const pend=T.filter(t=>t.estado==="pendiente").sort((a,b)=>a.prioridad-b.prioridad);
+function planClaude(sec){
+  const T=(D.tareas||[]).filter(t=>t.quien!=="Tú"&&(!sec||(t.seccion||"fuentes")===sec)); const pend=(D.tareas||[]).filter(t=>t.quien!=="Tú"&&t.estado==="pendiente").sort((a,b)=>a.prioridad-b.prioridad);
   const n0=proximaNoche();
   return T.map(t=>{ const i=pend.indexOf(t); return {...t, previsto: i>=0?new Date(n0.getTime()+i*864e5):null}; })
     .sort((a,b)=>({en_curso:0,pendiente:1,bloqueada:2,hecha:3}[a.estado]-{en_curso:0,pendiente:1,bloqueada:2,hecha:3}[b.estado])||a.prioridad-b.prioridad);
@@ -339,7 +339,7 @@ function paraTi(){
   const T=(D.tareas||[]).filter(t=>t.quien==="Tú"&&t.estado!=="hecha");
   const items=[...C.map(d=>({tipo:"c",id:d._id,titulo:d.titulo,detalle:d.organismo==="Decisión de producto"||!d.ayudaId?"Decisión tuya":"Cuestión sobre una ayuda"+(d.fin?` · cierra el ${fmtFecha(d.fin)}`:"")})),
     ...T.map(t=>({tipo:"t",titulo:t.titulo,detalle:t.detalle}))];
-  return `<section class="card parati"><h3>Necesita tu atención${items.length?` (${items.length})`:""}</h3>
+  return `<section class="card parati"><h3>Lo que te toca a ti${items.length?` (${items.length})`:""}</h3>
     ${items.length?`<ul>${items.map((x,i)=>`<li><div><b>${esc(x.titulo)}</b><span>${esc(x.detalle)}</span></div>${x.tipo==="c"?`<button class="btn primary" data-pc="${esc(x.id)}">Decidir</button>`:`<span class="chip">Fuera de la app</span>`}</li>`).join("")}</ul>`
     :`<p class="hint" style="margin:0">Nada por ahora. Claude sigue con su plan.</p>`}</section>`;
 }
@@ -379,7 +379,6 @@ function renderInicio(){
   $("#detalle").innerHTML=`<div class="flujo">
     <div><h2>Cómo se mantienen al día las ayudas de Eskubat</h2>
     <p class="intro">Cada día se leen las fuentes oficiales y se actualiza la base de datos de ayudas. Cada hora Claude revisa las ayudas nuevas o cambiadas, redacta sus fichas y las publica en la app. Lo que es decisión tuya llega a Cuestiones abiertas. Pulsa una caja para abrirla; pasa el ratón por los pasos para ver qué hacen.</p></div>
-    ${paraTi()}
     <div class="lienzo"><svg viewBox="-12 -24 1120 572" role="img" aria-label="Flujo de trabajo de Eskubat">
       <defs><marker id="pt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--muted)"/></marker></defs>
       ${[0,1,2].map(i=>fl(`M${X(i)+W+2},${r} L${X(i+1)-3},${r}`)).join("")}
@@ -392,9 +391,7 @@ function renderInicio(){
       ${nodo("app",X(3),Y[1],"estatico","","App Eskubat",["Ayudas publicadas,","castellano y euskera"],null,"")}
       ${nodo("cuestiones",X(2),Y[2],"clave","c","Cuestiones abiertas",[c.lista?`${c.lista} ${c.lista===1?"lista":"listas"} para aplicar`:"Confirmas o dices",c.lista?"":"qué cambiar"],c.abierta,"Abrir")}
     </svg></div>
-    <section class="card"><h3>Plan de trabajo de Claude</h3>
-      <p class="hint" style="margin:0 0 10px">Mejoras que Claude hace por su cuenta: una cada noche, a las 03:17, antes de que el recolector se ejecute a las 05:41. Al día siguiente comprueba que la fuente nueva funciona.</p>
-      <ul class="plan">${planClaude().map(filaPlan).join("")}</ul></section></div>`;
+    ${paraTi()}</div>`;
   $("#detalle").querySelectorAll("button[data-pc]").forEach(b=>b.onclick=()=>{ S.filtro="abierta"; cambiarVista("c"); seleccionar(b.dataset.pc); });
   $("#detalle").querySelectorAll(".nodo[data-go]").forEach(n=>{
     const ir=()=>{ if(n.dataset.go==="c") S.filtro="abierta"; cambiarVista(n.dataset.go); };
@@ -481,6 +478,7 @@ function renderRevision(){
     </section>
     <section class="card"><h3>Fichas pendientes: evolución y previsión</h3>${graficoCola(fin)}</section>
 
+    ${planClaude("revision").length?`<section class="card"><h3>Plan de Claude para la revisión</h3><ul class="plan">${planClaude("revision").map(filaPlan).join("")}</ul></section>`:""}
     <h3 class="sec">Cuando todo esté revisado: el día a día</h3>
     <section class="card">
       <p class="intro" style="margin:0 0 14px">Cuando la cola llegue a cero, la revisión deja de ser cada hora y pasa a una vez al día. Solo revisa lo que ha cambiado desde ayer.</p>
@@ -540,7 +538,7 @@ function renderListaB(){
 function campoF(t,x){ return x?`<div class="campo"><h4>${t}</h4><div>${linkify(x)}</div></div>`:""; }
 function renderDetalleB(){
   const a=AY.get(S.selB);
-  if(!a){ $("#detalle").innerHTML=`<div class="vacio"><h2>Todas las ayudas de la app</h2><p>${num(D.ayudas.length)} ayudas de todas las fuentes. Busca una y ábrela para ver su ficha. Si algo está mal, escribe qué cambiar al pie de la ficha: llega a la tarea como una cuestión lista para aplicar.</p></div>`; return; }
+  if(!a){ const pb=planClaude("base"); $("#detalle").innerHTML=`<div class="vacio"><h2>Todas las ayudas de la app</h2><p>${num(D.ayudas.length)} ayudas de todas las fuentes. Busca una y ábrela para ver su ficha. Si algo está mal, escribe qué cambiar al pie de la ficha: llega a la tarea como una cuestión lista para aplicar.</p>${pb.length?`<section class="card"><h3>Plan de Claude para la base de datos</h3><ul class="plan">${pb.map(filaPlan).join("")}</ul></section>`:""}</div>`; return; }
   const f=a.ficha, tipos=f?Object.keys(f.versiones):[];
   if(!tipos.includes(S.verB)) S.verB=tipos[0];
   const v=f?f.versiones[S.verB]||{}:null;
@@ -682,7 +680,7 @@ function renderDetalleI(){
 /* ================= FUENTES ================= */
 function renderFuentes(){
   const F=D.fuentes, con=F.consultadas||[], pot=F.potenciales||[];
-  const plan=planClaude(), tuyas=(D.tareas||[]).filter(t=>t.quien==="Tú");
+  const plan=planClaude("fuentes"), tuyas=(D.tareas||[]).filter(t=>t.quien==="Tú"&&(t.seccion||"fuentes")==="fuentes");
   const chip=q=>`<span class="quien ${/^Tú/.test(q)?"tu":"cl"}">${esc(q)}</span>`;
   $("#detalle").innerHTML=`<div class="flujo">
     <p class="intro">De dónde salen las ayudas de la app, qué fuentes podrían faltar y qué hay que hacer en cada una. Registros del recolector del ${fmtFecha(F.fecha)}.</p>
@@ -696,7 +694,7 @@ function renderFuentes(){
     </tbody></table></div>
     <h3 class="sec">Qué hay que hacer</h3>
     ${tuyas.length?`<section class="card parati"><h3>Para ti</h3><ul>${tuyas.map(t=>`<li><div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span></div><span class="chip">${EST_T[t.estado]||t.estado}</span></li>`).join("")}</ul></section>`:""}
-    <section class="card"><h3>Plan de Claude</h3><ul class="plan">${plan.map(filaPlan).join("")}</ul></section></div></div>`;
+    <section class="card"><h3>Plan de Claude para las fuentes</h3><p class="hint" style="margin:0 0 10px">Una mejora cada noche a las 03:17, antes del recolector de las 05:41. La noche siguiente Claude comprueba que funciona.</p><ul class="plan">${plan.map(filaPlan).join("")}</ul></section></div></div>`;
 }
 
 /* ================= NAVEGACIÓN ================= */

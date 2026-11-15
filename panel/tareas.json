@@ -6,7 +6,8 @@
   "fuente": "Sumario del BOPV",
   "quien": "Claude",
   "prioridad": 1,
-  "estado": "pendiente"
+  "estado": "pendiente",
+  "seccion": "fuentes"
  },
  {
   "id": "araba-sede",
@@ -15,7 +16,8 @@
   "fuente": "Diputación Foral de Álava",
   "quien": "Claude",
   "prioridad": 2,
-  "estado": "pendiente"
+  "estado": "pendiente",
+  "seccion": "fuentes"
  },
  {
   "id": "spri",
@@ -24,7 +26,8 @@
   "fuente": "SPRI",
   "quien": "Claude",
   "prioridad": 3,
-  "estado": "pendiente"
+  "estado": "pendiente",
+  "seccion": "fuentes"
  },
  {
   "id": "eve",
@@ -33,7 +36,8 @@
   "fuente": "EVE",
   "quien": "Claude",
   "prioridad": 4,
-  "estado": "pendiente"
+  "estado": "pendiente",
+  "seccion": "fuentes"
  },
  {
   "id": "bizkaia-sede",
@@ -42,7 +46,8 @@
   "fuente": "Diputación Foral de Bizkaia",
   "quien": "Claude",
   "prioridad": 5,
-  "estado": "pendiente"
+  "estado": "pendiente",
+  "seccion": "fuentes"
  },
  {
   "id": "capitales",
@@ -51,7 +56,8 @@
   "fuente": "Ayuntamientos de las capitales",
   "quien": "Claude",
   "prioridad": 6,
-  "estado": "pendiente"
+  "estado": "pendiente",
+  "seccion": "fuentes"
  },
  {
   "id": "comarcales",
@@ -60,7 +66,8 @@
   "fuente": "Agencias de desarrollo comarcal",
   "quien": "Claude",
   "prioridad": 7,
-  "estado": "pendiente"
+  "estado": "pendiente",
+  "seccion": "fuentes"
  },
  {
   "id": "euskadi-paginas",
@@ -70,7 +77,8 @@
   "quien": "Claude",
   "prioridad": 8,
   "estado": "bloqueada",
-  "nota": "Espera al acceso de Open Data Euskadi (tarea tuya)."
+  "nota": "Espera al acceso de Open Data Euskadi (tarea tuya).",
+  "seccion": "fuentes"
  },
  {
   "id": "opendata",
@@ -79,6 +87,7 @@
   "fuente": "Gobierno Vasco",
   "quien": "Tú",
   "prioridad": 1,
-  "estado": "pendiente"
+  "estado": "pendiente",
+  "seccion": "fuentes"
  }
 ]
