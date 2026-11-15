@@ -650,7 +650,7 @@ function renderBase(){
     <section class="card" id="tablaB"></section>
     <details class="acord"><summary><div class="acs"><h3>Qué hace Claude</h3><div class="acst"><span class="prox">Revisa ${D.tarea&&D.tarea.modo==="diaria"?"una vez al día, a las 17:52":"cada hora, a y 32"}: fichas, títulos y noticias</span></div></div><span class="acf">▾</span></summary>
       <div class="acb">${Object.values(REVTIPOS).map(x=>`<div class="que"><b>${x.t}</b><p>${x.que}</p></div>`).join("")}
-      <p class="hint" style="margin:10px 0 0">En cada pasada Claude aplica primero los cambios que hayas pedido, después revisa fichas, títulos y noticias, comprueba todo contra las fuentes oficiales y vuelve a publicar esta página. Solo te pasa las decisiones de criterio que no están en las reglas.</p></div></details>
+      <p class="hint" style="margin:10px 0 0">En cada pasada Claude aplica primero los cambios que hayas pedido, después revisa fichas, títulos y noticias, comprueba todo contra las fuentes oficiales y vuelve a publicar esta página. Solo te pasa las decisiones de criterio que no están en las reglas.</p><button class="btn" data-vi="i" style="margin-top:10px">Ver las reglas que sigue Claude</button></div></details>
   </div>`;
   $("#detalle").querySelectorAll("[data-fl]").forEach(b=>b.onclick=()=>irLista(JSON.parse(b.dataset.fl)));
   $("#detalle").querySelectorAll(".barra-f").forEach(b=>b.onclick=()=>irLista({[b.dataset.f]:b.dataset.v}));
@@ -988,6 +988,7 @@ function renderMejora(){
       <span class="prox" style="flex-basis:100%">Revisión mensual: ${M.ultima?`última el ${fmtFecha(M.ultima)}${M.nuevas?` (${M.nuevas} tareas nuevas)`:""} · `:""}próxima el ${proxMes().toLocaleDateString("es-ES",{day:"numeric",month:"long"})}</span></div>
     ${tuyas.length?`<section class="card parati"><h3>Para ti</h3><ul>${tuyas.map(t=>`<li><div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span></div><span class="chip">${EST_T[t.estado]||t.estado}</span></li>`).join("")}</ul></section>`:""}
       <section class="card"><h3>Plan de Claude</h3><p class="hint" style="margin:0 0 10px">Una mejora cada noche a las 03:17, antes del recolector de las 05:41, en orden de prioridad. La noche siguiente Claude comprueba que funciona. «Ejecutar ahora» la adelanta.</p>${["fuentes","base","revision","eskubat"].map(s=>{ const L=plan.filter(t=>(t.seccion||"fuentes")===s); return L.length?`<h4 class="plansec">${SECC[s]}</h4><ul class="plan">${L.map(filaPlan).join("")}</ul>`:""; }).join("")}</section>
+      <section class="card"><h3>Reglas que sigue Claude</h3><p class="hint" style="margin:0 0 10px">Categorización, cómo resume y cómo escribe los títulos. Las correcciones de criterio que decides se escriben aquí.</p><button class="btn" data-vi="i">Ver las reglas</button></section>
       <section class="card idea"><h3>Propón una idea de mejora</h3>
         <p class="hint" style="margin:0 0 10px">Cuéntasela a Claude con tus palabras. Te ayuda a concretarla y la añade al plan él mismo; también puede cambiar prioridades o ejecutar una tarea ahora.</p>
         <button class="btn primary" data-asis="Tengo una idea de mejora: ">Proponer una idea a Claude</button></section>
@@ -1114,7 +1115,7 @@ $("#asisX").onclick=()=>document.body.classList.remove("asis-on");
 $("#asisNuevo").onclick=()=>{ ASIS.msgs=[]; guardaAsis(); renderAsis(); };
 $("#asisSend").onclick=enviarAsis;
 $("#asisIn").onkeydown=(ev)=>{ if(ev.key==="Enter"&&(ev.metaKey||ev.ctrlKey)) enviarAsis(); };
-document.addEventListener("click",ev=>{ const b=ev.target.closest("[data-asis]"); if(b) abrirAsis(b.dataset.asis); });
+document.addEventListener("click",ev=>{ const b=ev.target.closest("[data-asis]"); if(b) abrirAsis(b.dataset.asis); const v=ev.target.closest("[data-vi]"); if(v) cambiarVista(v.dataset.vi); });
 $("#refrescar").onclick=()=>{ $("#refrescar").disabled=true; $("#refrescar").textContent="Actualizando…"; try{ sessionStorage.setItem("eskubat-vista",S.vista); }catch{} location.reload(); };
 $("#marca").onclick=(ev)=>{ ev.preventDefault(); cambiarVista("w"); };
 $("#nueva").onclick=()=>abrirNueva("","","");
