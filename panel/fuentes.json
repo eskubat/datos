@@ -38,6 +38,13 @@
    "pendiente": ""
   },
   {
+   "clave": "fundaciones",
+   "nombre": "Fundaciones y obras sociales: BBK, Kutxa, Vital y «la Caixa»",
+   "que": "Convocatorias privadas (becas, premios, ayudas a asociaciones). En la app van marcadas como privadas.",
+   "como": "No tienen boletín ni BDNS: Claude revisa sus webs una vez al día (primera pasada después de las 8:00) y da de alta las convocatorias abiertas con bases publicadas.",
+   "pendiente": ""
+  },
+  {
    "clave": "",
    "nombre": "Funding & Tenders Portal (Comisión Europea)",
    "que": "Convocatorias europeas abiertas y próximas.",
@@ -108,12 +115,6 @@
    "nombre": "Prestaciones permanentes (Ingreso Mínimo Vital, RGI, prestaciones por hijo, bono social)",
    "por": "Son ayudas que la gente busca, pero no son convocatorias con plazo.",
    "hacer": "Decisión de producto: ¿entran en la app como «ayudas permanentes»?",
-   "quien": "Tú"
-  },
-  {
-   "nombre": "Fundaciones y obras sociales (BBK, Kutxa, Fundación Vital)",
-   "por": "Convocatorias de ayudas privadas para asociaciones y personas.",
-   "hacer": "Decisión de producto: ¿solo ayudas públicas o también privadas?",
    "quien": "Tú"
   }
  ]

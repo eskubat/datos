@@ -63,6 +63,7 @@ const ayudas = pub.ayudas.map((a) => ({
 // Fuentes: lo que mide el recolector + descripciones de panel/fuentes.json
 const desc = leer('panel/fuentes.json', { consultadas: [], potenciales: [] });
 const consultadas = desc.consultadas.map((f) => {
+  if (f.clave === 'fundaciones') return { ...f, registros: pub.ayudas.filter((a) => String(a.organismoId || '').startsWith('fund-') || a.privada).length, ok: true };
   const e = f.clave && est.fuentes ? est.fuentes[f.clave] : null;
   return { ...f, registros: e ? e.registros : null, ok: e ? e.ok : true };
 });
