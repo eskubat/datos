@@ -143,6 +143,10 @@ dialog input{width:100%;padding:8px 10px;border:1px solid var(--line);border-rad
 .flecha{stroke:var(--muted);stroke-width:1.6;fill:none}
 .nodo .ico{fill:none;stroke:var(--accent);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .nodo.clave .ico{stroke:var(--or)}
+.nodo .quien-b rect{fill:var(--accent-d)!important;stroke:none!important}
+.nodo .quien-b path{fill:none;stroke:#fff;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.nodo .quien-b text{font:700 11px var(--body);fill:#fff}
+:root[data-theme="dark"] .nodo .quien-b path,:root[data-theme="dark"] .nodo .quien-b text{stroke:var(--accent-ink);fill:var(--accent-ink)}
 .nodo .paso-b rect{fill:var(--ink)!important;stroke:none!important}
 .nodo:hover .paso-b rect,.nodo:focus .paso-b rect{stroke:none}
 .paso-b circle{fill:var(--or)}
@@ -353,7 +357,7 @@ function paraTi(){
 function renderInicio(){
   const t=D.cola||{}; const c={abierta:0,lista:0}; S.docs.forEach(d=>{const e=d.estado||"abierta"; if(c[e]!=null) c[e]++;});
   const diaria=D.tarea&&D.tarea.modo==="diaria";
-  const W=176, H=154, X=i=>i*272, Y=[0,194,388];
+  const W=200, H=154, X=i=>i*266, Y=[0,194,388];
   const IC={
     fuentes:"M3 21h18M5 21V10M19 21V10M9 21V10M15 21V10M2 10l10-6 10 6",
     base:"M12 3c4.4 0 8 1.3 8 3s-3.6 3-8 3-8-1.3-8-3 3.6-3 8-3zM4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3",
@@ -366,8 +370,12 @@ function renderInicio(){
     revision:[2,"Revisar","Cada hora Claude lee entera la documentación de 10 ayudas pendientes y redacta sus fichas por tipo de solicitante. Si falta un dato, busca el boletín oficial."],
     cuestiones:[3,"Decidir","Solo lo que es decisión tuya llega aquí, con una propuesta. Confirmas o explicas qué cambiar."],
     app:[4,"Publicar","Las fichas revisadas y tus decisiones se publican en la app. Cuando no quede nada pendiente, la revisión pasa a una vez al día."]};
+  const QUIEN={fuentes:["persona","Claude · cada noche","Claude mejora las fuentes: añade lectores nuevos y comprueba que funcionan."],
+    base:["robot","Recolector · diario","Un programa automático lee todas las fuentes y actualiza la base de datos."],
+    revision:["persona",diaria?"Claude · cada día":"Claude · cada hora","Claude revisa las ayudas nuevas o cambiadas y redacta sus fichas."]};
+  const ICQ={persona:"M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21a8 8 0 0 1 16 0",robot:"M5 8h14v11H5zM12 4v4M9 13h.01M15 13h.01M9 16h6M3 12v3M21 12v3"};
   const nodo=(k,x,y,cls,go,tt,st,n,ir)=>{
-    const p=PASO[k];
+    const p=PASO[k], q=QUIEN[k];
     return `<g class="nodo ${cls}" ${go?`data-go="${go}" tabindex="0" role="button" aria-label="${esc(tt)}: abrir"`:""}>
     ${p?`<title>${p[0]} · ${p[1]}: ${p[2]}</title>`:""}
     <rect x="${x}" y="${y}" width="${W}" height="${H}" rx="12"/>
@@ -376,6 +384,7 @@ function renderInicio(){
     ${st.map((s,i)=>`<text class="st" x="${x+16}" y="${y+86+i*17}">${s}</text>`).join("")}
     ${n!=null?`<text class="num" x="${x+16}" y="${y+H-14}">${n}</text>`:""}
     ${ir?`<text class="ir" x="${x+W-16}" y="${y+H-18}" text-anchor="end">${ir} →</text>`:""}
+    ${q?(()=>{const qw=28+q[1].length*6.1, qx=x+46, qy=y+15; return `<g class="quien-b"><title>${q[2]}</title><rect x="${qx}" y="${qy}" width="${qw}" height="22" rx="11"/><path d="${ICQ[q[0]]}" transform="translate(${qx+8},${qy+4}) scale(.58)"/><text x="${qx+26}" y="${qy+15}">${q[1]}</text></g>`;})():""}
     ${p?(()=>{const bw=30+p[1].length*7.2, bx=x+W-10-bw; return `<g class="paso-b"><rect x="${bx}" y="${y-13}" width="${bw}" height="24" rx="12"/><circle cx="${bx+12}" cy="${y-1}" r="9"/><text class="pn" x="${bx+12}" y="${y+3.5}" text-anchor="middle">${p[0]}</text><text class="pl" x="${bx+26}" y="${y+3.5}">${p[1]}</text></g>`;})():""}
     </g>`;};
   const fl=(d,dos)=>`<path class="flecha" d="${d}" marker-end="url(#pt)" ${dos?'marker-start="url(#pt)"':""}/>`;
@@ -384,7 +393,7 @@ function renderInicio(){
   $("#detalle").innerHTML=`<div class="flujo">
     <div><h2>Cómo se mantienen al día las ayudas de Eskubat</h2>
     <p class="intro">Cada día se leen las fuentes oficiales y se actualiza la base de datos de ayudas. Cada hora Claude revisa las ayudas nuevas o cambiadas, redacta sus fichas y las publica en la app. Lo que es decisión tuya llega a Cuestiones abiertas. Pulsa una caja para abrirla; pasa el ratón por los pasos para ver qué hacen.</p></div>
-    <div class="lienzo"><svg viewBox="-12 -24 1120 572" role="img" aria-label="Flujo de trabajo de Eskubat">
+    <div class="lienzo"><svg viewBox="-12 -24 1024 572" role="img" aria-label="Flujo de trabajo de Eskubat">
       <defs><marker id="pt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--muted)"/></marker></defs>
       ${[0,1,2].map(i=>fl(`M${X(i)+W+2},${r} L${X(i+1)-3},${r}`)).join("")}
       ${fl(`M${vx},${Y[0]+H+2} L${vx},${Y[1]-3}`)}
