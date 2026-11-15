@@ -101,22 +101,22 @@
     "cascada": false
    },
    {
+    "id": "HORIZON-MSCA-2027-PF-01-01",
+    "titulo": "MSCA Postdoctoral Fellowships 2027",
+    "convocatoria": "MSCA Postdoctoral Fellowships 2027",
+    "programa": "HORIZON TMA MSCA Postdoctoral Fellowships - Global Fellowships",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-PF-01-01",
+    "inicio": "2027-04-07",
+    "fin": "2027-09-08",
+    "estado": "proxima",
+    "cascada": false
+   },
+   {
     "id": "HORIZON-MSCA-2027-COFUND-02-01",
     "titulo": "MSCA Choose Europe for Science 2027",
     "convocatoria": "MSCA Choose Europe for Science 2027",
     "programa": "HORIZON TMA MSCA Cofund Postdoctoral programme",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-COFUND-02-01",
-    "inicio": "2026-12-08",
-    "fin": "2027-04-06",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-MSCA-2027-COFUND-01-01",
-    "titulo": "MSCA COFUND 2027",
-    "convocatoria": "MSCA COFUND 2027",
-    "programa": "HORIZON TMA MSCA Cofund Doctoral programme",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-COFUND-01-01",
     "inicio": "2026-12-08",
     "fin": "2027-04-06",
     "estado": "proxima",
@@ -682,17 +682,6 @@
   ],
   "candidatosUE": [
    {
-    "id": "HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
-    "titulo": "Robust and trustworthy GenerativeAI for Robotics and industrial automation (RIA) (AI/Data/Robotics & Made in Europe Partnerships)",
-    "convocatoria": "GRAIL Open Call — Genesis (1st Open Call)",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48401116",
-    "inicio": "2026-11-09",
-    "fin": "2027-02-10",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
     "id": "HORIZON-CL4-2024-DATA-01-03",
     "titulo": "Piloting emerging Smart IoT Platforms and decentralized intelligence (IA)",
     "convocatoria": "O-CEI 2nd OPEN CALL FOR UPTAKE PROJECTS",
@@ -704,35 +693,13 @@
     "cascada": true
    },
    {
-    "id": "HORIZON-MISS-2024-OCEAN-IBA",
-    "titulo": "EU Public Infrastructure for the European Digital Twin Ocean, phase 2",
-    "convocatoria": "INTEGRATION OF INNOVATIVE OCEAN SOLUTIONS INTO EDITO",
+    "id": "HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
+    "titulo": "Robust and trustworthy GenerativeAI for Robotics and industrial automation (RIA) (AI/Data/Robotics & Made in Europe Partnerships)",
+    "convocatoria": "GRAIL Open Call — Genesis (1st Open Call)",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47374969",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48401116",
     "inicio": "2026-11-09",
-    "fin": "2027-01-29",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "HORIZON-EIT-2025-KIC-IBA-F",
-    "titulo": "EITFOOD Business Plan 2026",
-    "convocatoria": "Proof of Concept & Technology Validation Call",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
-    "inicio": "2026-11-06",
-    "fin": "2027-01-18",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "HORIZON-EIT-2025-KIC-IBA-F",
-    "titulo": "EITFOOD Business Plan 2026",
-    "convocatoria": "Open Call for Implementing Participants of the Empowering Women in Agrifood (EWA) Programme 2027-2028",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
-    "inicio": "2026-11-06",
-    "fin": "2027-01-05",
+    "fin": "2027-02-10",
     "estado": "abierta",
     "cascada": true
    },
@@ -744,6 +711,17 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
     "inicio": "2026-11-09",
     "fin": "2027-01-08",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-MISS-2024-OCEAN-IBA",
+    "titulo": "EU Public Infrastructure for the European Digital Twin Ocean, phase 2",
+    "convocatoria": "INTEGRATION OF INNOVATIVE OCEAN SOLUTIONS INTO EDITO",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47374969",
+    "inicio": "2026-11-09",
+    "fin": "2027-01-29",
     "estado": "abierta",
     "cascada": true
    },
@@ -766,6 +744,28 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
     "inicio": "2026-11-06",
     "fin": "2026-12-16",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-HLTH-2023-CARE-08-01",
+    "titulo": "European Partnership on Personalised Medicine",
+    "convocatoria": "Cell and Gene Therapy for Personalised Medicine (CGT4PM2027)",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45700894",
+    "inicio": "2026-11-04",
+    "fin": "2027-01-20",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-CL4-2025-03-DATA-11",
+    "titulo": "Open Internet Stack: development of technological commons/open-source 3C building blocks (RIA)",
+    "convocatoria": "Restack Open Call (2027-01R)",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48400841",
+    "inicio": "2026-11-03",
+    "fin": "2027-01-03",
     "estado": "abierta",
     "cascada": true
    }
@@ -783,17 +783,6 @@
   ],
   "candidatosUE": [
    {
-    "id": "HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
-    "titulo": "Robust and trustworthy GenerativeAI for Robotics and industrial automation (RIA) (AI/Data/Robotics & Made in Europe Partnerships)",
-    "convocatoria": "GRAIL Open Call — Genesis (1st Open Call)",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48401116",
-    "inicio": "2026-11-09",
-    "fin": "2027-02-10",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
     "id": "HORIZON-CL4-2024-DATA-01-03",
     "titulo": "Piloting emerging Smart IoT Platforms and decentralized intelligence (IA)",
     "convocatoria": "O-CEI 2nd OPEN CALL FOR UPTAKE PROJECTS",
@@ -805,35 +794,13 @@
     "cascada": true
    },
    {
-    "id": "HORIZON-MISS-2024-OCEAN-IBA",
-    "titulo": "EU Public Infrastructure for the European Digital Twin Ocean, phase 2",
-    "convocatoria": "INTEGRATION OF INNOVATIVE OCEAN SOLUTIONS INTO EDITO",
+    "id": "HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
+    "titulo": "Robust and trustworthy GenerativeAI for Robotics and industrial automation (RIA) (AI/Data/Robotics & Made in Europe Partnerships)",
+    "convocatoria": "GRAIL Open Call — Genesis (1st Open Call)",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47374969",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48401116",
     "inicio": "2026-11-09",
-    "fin": "2027-01-29",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "HORIZON-EIT-2025-KIC-IBA-F",
-    "titulo": "EITFOOD Business Plan 2026",
-    "convocatoria": "Proof of Concept & Technology Validation Call",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
-    "inicio": "2026-11-06",
-    "fin": "2027-01-18",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
-    "id": "HORIZON-EIT-2025-KIC-IBA-F",
-    "titulo": "EITFOOD Business Plan 2026",
-    "convocatoria": "Open Call for Implementing Participants of the Empowering Women in Agrifood (EWA) Programme 2027-2028",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
-    "inicio": "2026-11-06",
-    "fin": "2027-01-05",
+    "fin": "2027-02-10",
     "estado": "abierta",
     "cascada": true
    },
@@ -845,6 +812,17 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
     "inicio": "2026-11-09",
     "fin": "2027-01-08",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-MISS-2024-OCEAN-IBA",
+    "titulo": "EU Public Infrastructure for the European Digital Twin Ocean, phase 2",
+    "convocatoria": "INTEGRATION OF INNOVATIVE OCEAN SOLUTIONS INTO EDITO",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47374969",
+    "inicio": "2026-11-09",
+    "fin": "2027-01-29",
     "estado": "abierta",
     "cascada": true
    },
@@ -869,6 +847,28 @@
     "fin": "2026-12-16",
     "estado": "abierta",
     "cascada": true
+   },
+   {
+    "id": "HORIZON-HLTH-2023-CARE-08-01",
+    "titulo": "European Partnership on Personalised Medicine",
+    "convocatoria": "Cell and Gene Therapy for Personalised Medicine (CGT4PM2027)",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45700894",
+    "inicio": "2026-11-04",
+    "fin": "2027-01-20",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-CL4-2025-03-DATA-11",
+    "titulo": "Open Internet Stack: development of technological commons/open-source 3C building blocks (RIA)",
+    "convocatoria": "Restack Open Call (2027-01R)",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48400841",
+    "inicio": "2026-11-03",
+    "fin": "2027-01-03",
+    "estado": "abierta",
+    "cascada": true
    }
   ],
   "candidatosAyudas": [],
@@ -884,17 +884,6 @@
    "CITIZENS"
   ],
   "candidatosUE": [
-   {
-    "id": "HORIZON-MSCA-2027-CITIZENS-01-01",
-    "titulo": "MSCA and Citizens 2027",
-    "convocatoria": "MSCA and Citizens 2027",
-    "programa": "HORIZON Coordination and Support Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-CITIZENS-01-01",
-    "inicio": "2027-03-09",
-    "fin": "2027-06-08",
-    "estado": "proxima",
-    "cascada": false
-   },
    {
     "id": "CERV-2024-CITIZENS-VALUES",
     "titulo": "Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)",
@@ -971,6 +960,17 @@
     "fin": "2028-03-31",
     "estado": "abierta",
     "cascada": true
+   },
+   {
+    "id": "CERV-2026-CITIZENS-VALUES",
+    "titulo": "CERV-2026-CITIZENS-VALUES",
+    "convocatoria": "Call for proposals for civil society organisations active in protecting and promoting Union values: call to intermediaries (financial support to third parties)",
+    "programa": "CERV Project Grants",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CERV-2026-CITIZENS-VALUES",
+    "inicio": "2026-10-27",
+    "fin": "2027-02-24",
+    "estado": "abierta",
+    "cascada": false
    }
   ],
   "candidatosAyudas": [],
@@ -1008,39 +1008,6 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-MSCA-2027-COFUND-02-01",
-    "titulo": "MSCA Choose Europe for Science 2027",
-    "convocatoria": "MSCA Choose Europe for Science 2027",
-    "programa": "HORIZON TMA MSCA Cofund Postdoctoral programme",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-COFUND-02-01",
-    "inicio": "2026-12-08",
-    "fin": "2027-04-06",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-MSCA-2027-COFUND-01-01",
-    "titulo": "MSCA COFUND 2027",
-    "convocatoria": "MSCA COFUND 2027",
-    "programa": "HORIZON TMA MSCA Cofund Doctoral programme",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-COFUND-01-01",
-    "inicio": "2026-12-08",
-    "fin": "2027-04-06",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-MSCA-2027-CITIZENS-01-01",
-    "titulo": "MSCA and Citizens 2027",
-    "convocatoria": "MSCA and Citizens 2027",
-    "programa": "HORIZON Coordination and Support Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-CITIZENS-01-01",
-    "inicio": "2027-03-09",
-    "fin": "2027-06-08",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
     "id": "HORIZON-MSCA-2027-PF-01-01",
     "titulo": "MSCA Postdoctoral Fellowships 2027",
     "convocatoria": "MSCA Postdoctoral Fellowships 2027",
@@ -1048,6 +1015,17 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-PF-01-01",
     "inicio": "2027-04-07",
     "fin": "2027-09-08",
+    "estado": "proxima",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-MSCA-2027-COFUND-02-01",
+    "titulo": "MSCA Choose Europe for Science 2027",
+    "convocatoria": "MSCA Choose Europe for Science 2027",
+    "programa": "HORIZON TMA MSCA Cofund Postdoctoral programme",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-COFUND-02-01",
+    "inicio": "2026-12-08",
+    "fin": "2027-04-06",
     "estado": "proxima",
     "cascada": false
    },
@@ -1098,39 +1076,6 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-MSCA-2027-COFUND-02-01",
-    "titulo": "MSCA Choose Europe for Science 2027",
-    "convocatoria": "MSCA Choose Europe for Science 2027",
-    "programa": "HORIZON TMA MSCA Cofund Postdoctoral programme",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-COFUND-02-01",
-    "inicio": "2026-12-08",
-    "fin": "2027-04-06",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-MSCA-2027-COFUND-01-01",
-    "titulo": "MSCA COFUND 2027",
-    "convocatoria": "MSCA COFUND 2027",
-    "programa": "HORIZON TMA MSCA Cofund Doctoral programme",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-COFUND-01-01",
-    "inicio": "2026-12-08",
-    "fin": "2027-04-06",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-MSCA-2027-CITIZENS-01-01",
-    "titulo": "MSCA and Citizens 2027",
-    "convocatoria": "MSCA and Citizens 2027",
-    "programa": "HORIZON Coordination and Support Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-CITIZENS-01-01",
-    "inicio": "2027-03-09",
-    "fin": "2027-06-08",
-    "estado": "proxima",
-    "cascada": false
-   },
-   {
     "id": "HORIZON-MSCA-2027-PF-01-01",
     "titulo": "MSCA Postdoctoral Fellowships 2027",
     "convocatoria": "MSCA Postdoctoral Fellowships 2027",
@@ -1138,6 +1083,17 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-PF-01-01",
     "inicio": "2027-04-07",
     "fin": "2027-09-08",
+    "estado": "proxima",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-MSCA-2027-COFUND-02-01",
+    "titulo": "MSCA Choose Europe for Science 2027",
+    "convocatoria": "MSCA Choose Europe for Science 2027",
+    "programa": "HORIZON TMA MSCA Cofund Postdoctoral programme",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-COFUND-02-01",
+    "inicio": "2026-12-08",
+    "fin": "2027-04-06",
     "estado": "proxima",
     "cascada": false
    },
@@ -1189,15 +1145,15 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-INFRA-2027-SERV-01-01",
-    "titulo": "Access to research infrastructures, their resources and services: large-scale pilots for more integrated scheme across (sub)domains",
-    "convocatoria": "Research Infrastructures 2027",
-    "programa": "HORIZON  Research and Innovation Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-INFRA-2027-SERV-01-01",
-    "inicio": "2027-03-09",
-    "fin": "2027-06-15",
-    "estado": "proxima",
-    "cascada": false
+    "id": "HORIZON-CL4-2024-DATA-01-03",
+    "titulo": "Piloting emerging Smart IoT Platforms and decentralized intelligence (IA)",
+    "convocatoria": "O-CEI 2nd OPEN CALL FOR UPTAKE PROJECTS",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45703720",
+    "inicio": "2026-11-12",
+    "fin": "2027-01-14",
+    "estado": "abierta",
+    "cascada": true
    },
    {
     "id": "HORIZON-CL4-2025-03-DIGITAL-EMERGING-07",
@@ -1211,13 +1167,13 @@
     "cascada": true
    },
    {
-    "id": "HORIZON-CL4-2024-DATA-01-03",
-    "titulo": "Piloting emerging Smart IoT Platforms and decentralized intelligence (IA)",
-    "convocatoria": "O-CEI 2nd OPEN CALL FOR UPTAKE PROJECTS",
+    "id": "HORIZON-CL4-2024-HUMAN-03-04",
+    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
+    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45703720",
-    "inicio": "2026-11-12",
-    "fin": "2027-01-14",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
+    "inicio": "2026-11-09",
+    "fin": "2027-01-08",
     "estado": "abierta",
     "cascada": true
    },
@@ -1233,35 +1189,35 @@
     "cascada": true
    },
    {
-    "id": "HORIZON-EIT-2025-KIC-IBA-F",
-    "titulo": "EITFOOD Business Plan 2026",
-    "convocatoria": "Proof of Concept & Technology Validation Call",
+    "id": "HORIZON-EIE-2023-CONNECT-03-01",
+    "titulo": "Implementing co-funded action plans for connected regional innovation valleys",
+    "convocatoria": "SYSTEMEU - Financial Support to Third Parties (FSTP) \n\nWhat is the aim?\nTo support digital innovations in healthcare, energy and mobility as they progress from the prototype stage (TRL 6) to a market-ready system (TRL 8).\n\nWho can take part?\nRegions: Bavaria (DE), Norte Region (PT), Castile and León (ES), Romania (RO) and Tuzla (BiH) only.\nConsortia: 2–8 partners from at least 2–5 regions (depending on project size).\n\nType: Triple Helix (academia, business, public authorities).\n\nProject sizes & budget\n\nFlagship: up to €2.2 million (5–8 partners, all regions). Proposed by consortia composed by 5 to 8 partners covering all 5 participating SYSTEMEU regions and including at least one RTO/University, one company, and one public sector entity actively involved in public service delivery (e.g., municipal administrations or hospitals).\n",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
-    "inicio": "2026-11-06",
-    "fin": "2027-01-18",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45659376",
+    "inicio": "2026-09-15",
+    "fin": "2026-11-23",
     "estado": "abierta",
     "cascada": true
    },
    {
     "id": "HORIZON-EIT-2025-KIC-IBA-F",
     "titulo": "EITFOOD Business Plan 2026",
-    "convocatoria": "Open Call for Implementing Participants of the Empowering Women in Agrifood (EWA) Programme 2027-2028",
+    "convocatoria": "Seedbed Venture Catalyst Call for Startups",
     "programa": "",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
     "inicio": "2026-11-06",
-    "fin": "2027-01-05",
+    "fin": "2026-12-16",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-CL4-2024-HUMAN-03-04",
-    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
-    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
+    "id": "HORIZON-HLTH-2023-CARE-08-01",
+    "titulo": "European Partnership on Personalised Medicine",
+    "convocatoria": "Cell and Gene Therapy for Personalised Medicine (CGT4PM2027)",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
-    "inicio": "2026-11-09",
-    "fin": "2027-01-08",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45700894",
+    "inicio": "2026-11-04",
+    "fin": "2027-01-20",
     "estado": "abierta",
     "cascada": true
    }
