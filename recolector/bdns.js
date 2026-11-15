@@ -191,6 +191,7 @@ export async function recoger(log) {
       url: d.sedeElectronica || url,
       bases: String(d.urlBasesReguladoras || '').replace(/\s+/g, ''),
       fuentes: [{ nombre: 'BDNS', url }],
+      _docs: (d.documentos || []).filter((x) => /espa[nñ]ol|castellano/i.test(x.descripcion || '') || (d.documentos || []).length === 1).map((x) => x.id).slice(0, 2),
       _texto: [
         extracto ? 'Extracto publicado en el boletín:\n' + extracto : '',
         'Título: ' + (it.descripcion || ''),

@@ -22,10 +22,6 @@ jobs:
         with:
           node-version: 22
       - run: node recolector/index.js
-      - run: node recolector/resumir.js
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MAX_PETICIONES: '60'
       - name: Publicar si hay cambios
         run: |
           git config user.name "eskubat-bot"

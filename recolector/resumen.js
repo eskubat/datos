@@ -54,6 +54,14 @@ export function validar(r, fuente) {
   out.quien = listas(r.quien, 6);
   out.requisitos = listas(r.requisitos, 6).filter((x) => !/hacienda|seguridad social|sanci[oó]n|sancionad|para[ií]so fiscal|representaci[oó]n|plan de igualdad|reintegro|obligaciones tributarias/i.test(x));
   out.tipos = (Array.isArray(r.tipos) ? r.tipos : []).filter((x) => TIPOS.includes(x));
+  // Versión en euskera (mismas comprobaciones de cifras)
+  const te = limpia(r.titulo_eu);
+  if (te && te.length <= 140 && cifrasOk(te, nums)) out.titulo_eu = te.charAt(0).toUpperCase() + te.slice(1);
+  const qe = limpia(r.queEs_eu);
+  if (qe && cifrasOk(qe, nums)) out.queEs_eu = qe;
+  out.cuantia_eu = listas(r.cuantia_eu, 6);
+  out.quien_eu = listas(r.quien_eu, 6);
+  out.requisitos_eu = listas(r.requisitos_eu, 6);
   return out;
 }
 
@@ -135,6 +143,7 @@ export function aplicar(ayudas, fuentes, cache) {
     if (r.tipos.length) a.para = r.tipos;
     const cifras = [...(a.cuantia || '').matchAll(/(\d{1,3}(?:\.\d{3})+|\d+)(?:,\d+)?\s*(?:€|euros?)/gi)].map((m) => Number(m[1].replace(/\./g, ''))).filter((x) => x >= 50 && x < 5e6);
     a.importeMax = cifras.length ? Math.max(...cifras) : null;
+    if (r.titulo_eu || r.queEs_eu) a.eu = { titulo: r.titulo_eu || '', resumen: r.queEs_eu || '', cuantia: (r.cuantia_eu || []).join('\n'), dirigido: (r.quien_eu || []).join('\n'), requisitos: r.requisitos_eu || [] };
     a.resumenIA = true;
     n++;
   }

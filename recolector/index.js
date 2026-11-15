@@ -6,7 +6,8 @@ import * as euskadi from './euskadi.js';
 import * as bdns from './bdns.js';
 import * as forales from './forales.js';
 import { claveLinea } from './historico.js';
-import { aplicar } from './resumen.js';
+import { aplicar, huella } from './resumen.js';
+import { textosPdf } from './pdf.js';
 
 const SALIDA = path.resolve('publico');
 const FUENTES = [
@@ -270,14 +271,28 @@ async function main() {
   }
 
   // Texto de cada ayuda para los resúmenes (no se publica en la app) y resúmenes ya hechos
+  // PDF de la convocatoria (BDNS) y de las bases: se añaden al texto que se resume
+  const docUrl = (id) => `https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=${id}`;
+  let pdfs = {};
+  try { pdfs = await textosPdf(ayudas.flatMap((a) => [...(a._docs || []).map(docUrl), /\.pdf($|\?)/i.test(a.bases || '') ? a.bases : null]).filter(Boolean), log); } catch (e) { log(`PDF: ${e.message}`); }
   const fuentes = {};
-  for (const a of ayudas) { if (a._texto) fuentes[a.id] = String(a._texto).slice(0, 12000); delete a._texto; }
+  for (const a of ayudas) {
+    const extra = [...(a._docs || []).map((id) => pdfs[docUrl(id)]), pdfs[a.bases]].filter(Boolean).map((t) => 'Documento oficial (extracto):\n' + t);
+    const t = [a._texto || '', ...extra].join('\n\n').trim();
+    if (t) fuentes[a.id] = t.slice(0, 20000);
+    delete a._texto; delete a._docs;
+  }
   fs.mkdirSync('cache', { recursive: true });
   fs.writeFileSync(path.join('cache', 'fuentes.json'), JSON.stringify(fuentes));
-  try {
-    const cache = JSON.parse(fs.readFileSync(path.join('cache', 'resumenes.json'), 'utf8'));
-    log(`Resúmenes aplicados: ${aplicar(ayudas, fuentes, cache)}`);
-  } catch { log('Aún no hay resúmenes'); }
+  let cacheRes = {};
+  try { cacheRes = JSON.parse(fs.readFileSync(path.join('cache', 'resumenes.json'), 'utf8')); } catch {}
+  log(`Resúmenes aplicados: ${aplicar(ayudas, fuentes, cacheRes)}`);
+  // Lista de pendientes para la tarea de resumen (abiertas primero, por fecha de cierre)
+  const pendientes = ayudas.filter((a) => fuentes[a.id] && (!cacheRes[a.id] || cacheRes[a.id].h !== huella(fuentes[a.id])))
+    .sort((x, y) => (x.fin || '9999').localeCompare(y.fin || '9999'))
+    .map((a) => ({ id: a.id, h: huella(fuentes[a.id]), titulo: a.titulo, texto: fuentes[a.id] }));
+  fs.writeFileSync(path.join('cache', 'pendientes.json'), JSON.stringify(pendientes));
+  log(`Pendientes de resumen: ${pendientes.length}`);
 
   const porAmbito = ayudas.reduce((m, a) => { m[a.ambito.nivel] = (m[a.ambito.nivel] || 0) + 1; return m; }, {});
   const porEstado = ayudas.reduce((m, a) => { m[a.estado] = (m[a.estado] || 0) + 1; return m; }, {});
