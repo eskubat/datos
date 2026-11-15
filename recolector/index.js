@@ -183,6 +183,11 @@ async function main() {
     if (!/^(departamento|viceconsejer|direcci|delegaci|secretar|servicio|lehendakaritza|instituto|agencia)/i.test(x)) x = 'Departamento de ' + x;
     return x.split(' ').map((w, i) => (i > 0 && PEQ.has(w.toLowerCase()) ? w.toLowerCase() : w.charAt(0).toUpperCase() + w.slice(1))).join(' ');
   };
+  // Listas limpias: sin guiones/letras de numeración y sin encabezados que repiten el nombre de la sección
+  const REDUNDANTE = /^((sujetos|personas|entidades)\s+)?(beneficiari|destinatari|solicitantes)[\w/]*(\s+(del programa|de (la|las|esta|estas|los) (ayudas?|subvenci\w*|programa|convocatoria))[^.]*)?\s*:?$|^podr[aá]n (ser beneficiari|solicitar|acogerse|optar)[^.]*:$|^requisitos( que deben cumplir[^.]*)?:?$|^(a qui[eé]n va dirigid[oa]|qui[eé]n puede (pedir|solicitar)la)\s*:?$/i;
+  const limpiaLista = (txt) => String(txt || '').split('\n')
+    .map((l) => l.replace(/^\s*(?:[-–—•·*]|(?:[a-zA-Z]|[ivxIVX]{1,4}|\d{1,2})[.)])\s*/, '').trim())
+    .filter((l) => l && !REDUNDANTE.test(l)).join('\n');
   const normalizaOrganismo = (a) => {
     const orig = organismoCorto(String(a.organismo || '').trim());
     const ent = ENTIDADES.find(([re]) => re.test(orig));
@@ -238,8 +243,8 @@ async function main() {
     }
     a.organismoGeneral = a.ambito.nivel === 'euskadi' ? 'Gobierno Vasco' : ORG_POR_AMBITO(a);
     a.titulo = ortografia(a.titulo);
-    a.resumen = ortografia(a.resumen); a.cuantia = ortografia(a.cuantia); a.dirigido = ortografia(a.dirigido);
-    if (a.requisitos) a.requisitos = a.requisitos.map(ortografia);
+    a.resumen = ortografia(a.resumen); a.cuantia = limpiaLista(ortografia(a.cuantia)); a.dirigido = limpiaLista(ortografia(a.dirigido));
+    if (a.requisitos) a.requisitos = limpiaLista(a.requisitos.map(ortografia).join('\n')).split('\n').filter(Boolean);
     a.resumen = limpiaTexto(a.resumen); a.cuantia = limpiaTexto(a.cuantia); a.dirigido = limpiaTexto(a.dirigido);
     if (a.requisitos) a.requisitos = a.requisitos.map(limpiaTexto).filter(Boolean);
     a.estado = estado(a); delete a.errorFicha; delete a.abiertoSegunFuente;
