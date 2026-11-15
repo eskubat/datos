@@ -470,15 +470,31 @@ const fechaCorta=(d)=>d.toLocaleDateString("es-ES",{weekday:"short",day:"numeric
 function filaPlan(t){
   const pe=(S.peticiones||{})[t.id];
   const puede=(t.estado==="pendiente"||t.estado==="en_curso");
-  const btn=!puede?"":pe&&(pe.estado==="pedida"||pe.estado==="lanzada")?`<span class="chip lista">${pe.estado==="pedida"?"Pedida · empieza antes de una hora":"En marcha"}</span>`
+  const btn=!puede?"":pe&&(pe.estado==="pedida"||pe.estado==="lanzada")?`<span class="chip lista">${pe.estado==="pedida"?"Pedida · empieza antes de una hora":"En marcha desde las "+new Date(pe.lanzada||pe.pedida).toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})}</span>`
     :`<button class="lnk ej" data-ej="${esc(t.id)}">Ejecutar ahora</button>`;
   return `<li class="plan-i ${t.estado}"><span class="chip ${t.estado==="hecha"?"aplicada":t.estado==="bloqueada"?"":"lista"}">${EST_T[t.estado]||t.estado}</span>
     <div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span>${t.nota?`<span class="pn3">${linkify(t.nota)}</span>`:""}</div>
     <span class="cuando">${t.estado==="pendiente"&&t.previsto?"Prevista "+cuandoT(t.previsto):t.estado==="hecha"&&t.fecha?"Hecha el "+fmtFecha(t.fecha):""}${btn?`<br>${btn}`:""}</span></li>`;
 }
+
+const TRIG={plan:"trig_01Tw2kJALN4KcjhobhJEwxpt",correccion:"trig_01P4CfUrXV2AZpfEM8kPEAXt"};
+async function lanzarAhora(tipo,id){
+  const now=new Date().toISOString();
+  let titulo="", pid=id, base={};
+  if(tipo==="plan"){ const t=(D.tareas||[]).find(x=>x.id===id); if(!t) return {ok:false,msg:"No existe esa tarea"}; titulo=t.titulo; base={tarea:t.id,titulo}; }
+  else { const d=S.docs.find(x=>x._id===id); if(!d) return {ok:false,msg:"No existe esa cuestión"}; titulo=d.titulo||""; pid="corr-"+id; base={tipo:"correccion",cuestion:id,titulo}; }
+  let lanzado=false, err="";
+  if(S.mcp){ try{ await S.mcp.callTool("Claude Code Remote","fire_trigger",{trigger_id:TRIG[tipo],text:tipo==="plan"?`Ejecución pedida desde la página. Haz ahora estas tareas del plan, en este orden: ${id}`:`Ejecución pedida desde la página: aplica ahora estas correcciones: ${id}`}); lanzado=true; }
+    catch(e){ err=e&&e.code||"error"; } }
+  else err="sin_conexion";
+  if(S.db){ try{ await S.db.collection("peticiones").doc(pid).set({...base,estado:lanzado?"lanzada":"pedida",pedida:now,...(lanzado?{lanzada:now}:{})}); }catch{ if(!lanzado) return {ok:false,msg:"No se pudo pedir; repite"}; } }
+  else if(!lanzado) return {ok:false,msg:"Sin conexión con la base de datos de la página"};
+  const MOT={server_not_connected:"falta el conector Claude Code Remote",needs_reauth:"hay que reconectar Claude Code Remote",approval_required:"falta tu permiso",not_in_manifest:"no diste permiso al conector",sin_conexion:"la página no tiene acceso a las tareas programadas"};
+  return {ok:true,lanzado,msg:lanzado?`«${titulo}» lanzada: Claude está trabajando en ella ahora`:`No se pudo lanzar al momento (${MOT[err]||err}); queda pedida y empieza antes de una hora`};
+}
 function filaCorr(d){
   const pe=(S.peticiones||{})["corr-"+d._id];
-  const btn=pe&&(pe.estado==="pedida"||pe.estado==="lanzada")?`<span class="chip lista">${pe.estado==="pedida"?"Pedida · empieza antes de una hora":"En marcha"}</span>`:`<button class="lnk ej" data-ejc="${esc(d._id)}">Ejecutar ahora</button>`;
+  const btn=pe&&(pe.estado==="pedida"||pe.estado==="lanzada")?`<span class="chip lista">${pe.estado==="pedida"?"Pedida · empieza antes de una hora":"En marcha desde las "+new Date(pe.lanzada||pe.pedida).toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})}</span>`:`<button class="lnk ej" data-ejc="${esc(d._id)}">Ejecutar ahora</button>`;
   return `<li class="plan-i pendiente"><span class="chip lista">Corrección</span>
     <div><span class="tl2"><b>${esc(d.titulo||"(sin título)")}</b><span class="chip ar-${areaDe(d)}">${esc(AREAS[areaDe(d)]||"")}</span></span><span>${esc((d.instruccion||d.motivo||"").slice(0,240))}</span></div>
     <span class="cuando">Prevista ${cuandoT(proximaPasada())}<br>${btn} · <button class="lnk" data-vc="${esc(d._id)}">Ver</button></span></li>`;
@@ -1084,8 +1100,8 @@ const HERR=[
     instruccion:`Añade al plan de mejora continua (panel/tareas.json) la tarea de Claude «${i.titulo}» (seccion "${i.seccion||"fuentes"}"${i.prioridad?`, prioridad ${i.prioridad}; desplaza las demás`:", con la prioridad que le corresponda por impacto"}): ${i.detalle}`})})},
  {name:"cambiar_plan",description:"Pide un cambio en el plan de mejora continua: reordenar prioridades, quitar o modificar tareas. Se aplica en la próxima pasada.",inputSchema:{type:"object",properties:{instruccion:{type:"string"}},required:["instruccion"]},
   execute:async(i)=>({hecho:true,cuestion:await nuevaCuestion({area:"fuentes",titulo:"Cambio en el plan de mejora continua",organismo:"Mejora continua",motivo:i.instruccion,estado:"lista",origen:"mejora",instruccion:"Cambia panel/tareas.json así: "+i.instruccion})})},
- {name:"ejecutar_tarea_ahora",description:"Lanza ya una tarea del plan de Claude (por id) en vez de esperar a su noche. Arranca en menos de una hora.",inputSchema:{type:"object",properties:{id:{type:"string"}},required:["id"]},
-  execute:async(i)=>{ const t=(D.tareas||[]).find(x=>x.id===i.id); if(!t) throw new Error("No existe esa tarea"); await S.db.collection("peticiones").doc(t.id).set({tarea:t.id,titulo:t.titulo,estado:"pedida",pedida:new Date().toISOString()}); return {hecho:true,tarea:t.titulo}; }},
+ {name:"ejecutar_tarea_ahora",description:"Lanza ya una tarea del plan de Claude (por id): empieza en el momento.",inputSchema:{type:"object",properties:{id:{type:"string"}},required:["id"]},
+  execute:async(i)=>{ const r=await lanzarAhora("plan",i.id); if(!r.ok) throw new Error(r.msg); return {hecho:true,tarea:r.msg}; }},
  {name:"mostrar",description:"Lleva la página a una pantalla: inicio, datos (resumen), lista (con filtros), cuestiones, fuentes o instrucciones. Útil para enseñar al responsable lo que has encontrado.",
   inputSchema:{type:"object",properties:{pantalla:{type:"string",enum:["inicio","datos","lista","cuestiones","fuentes","mejora","instrucciones"]},filtros:{type:"object",description:"Para lista: rev, com, estado, cierre, nivel, para, temas, organismo"},ayuda:{type:"string",description:"Id de una ayuda para abrirla en la lista"}},required:["pantalla"]},
   execute:(i)=>{ const v={inicio:"w",datos:"b",lista:"l",cuestiones:"c",fuentes:"f",mejora:"m",instrucciones:"i"}[i.pantalla]; if(v==="l"){ S.fl=i.filtros||{}; S.selec=new Set(); } cambiarVista(v); if(i.ayuda&&v==="l") seleccionar(i.ayuda); return {hecho:true}; }}
@@ -1129,15 +1145,11 @@ function seleccionar(id){
 }
 function abrirNueva(t,a,d,ar){ if(!S.db) return; $("#nt").value=t; $("#na").value=a; $("#nd").value=d; $("#nar").value=ar||(S.areaF||(S.vista==="f"?"fuentes":"datos")); $("#dlg").showModal(); }
 $("#detalle").addEventListener("click",async ev=>{
-  const bc=ev.target.closest("button[data-ejc]");
-  if(bc){ if(!S.db){ setStatus("Sin conexión con la base de datos de la página"); return; } const d=S.docs.find(x=>x._id===bc.dataset.ejc); if(!d) return; bc.disabled=true; bc.textContent="Pidiendo…";
-    try{ await S.db.collection("peticiones").doc("corr-"+d._id).set({tipo:"correccion",cuestion:d._id,titulo:d.titulo||"",estado:"pedida",pedida:new Date().toISOString()}); }catch(err){ bc.disabled=false; bc.textContent="No se pudo; repite"; } return; }
-  const b=ev.target.closest("button[data-ej]"); if(!b) return;
-  if(!S.db){ setStatus("Sin conexión con la base de datos de la página"); return; }
-  const t=(D.tareas||[]).find(x=>x.id===b.dataset.ej); if(!t) return;
-  b.disabled=true; b.textContent="Pidiendo…";
-  try{ await S.db.collection("peticiones").doc(t.id).set({tarea:t.id,titulo:t.titulo,estado:"pedida",pedida:new Date().toISOString()}); }
-  catch(err){ b.disabled=false; b.textContent="No se pudo; repite"; }
+  const bc=ev.target.closest("button[data-ejc]"), b=ev.target.closest("button[data-ej]"); if(!bc&&!b) return;
+  const el=bc||b; el.disabled=true; el.textContent="Lanzando…";
+  const r=bc?await lanzarAhora("correccion",bc.dataset.ejc):await lanzarAhora("plan",b.dataset.ej);
+  if(!r.ok){ el.disabled=false; el.textContent="Ejecutar ahora"; }
+  setStatus(r.msg);
 });
 $("#items").addEventListener("click",ev=>{const it=ev.target.closest(".item"); if(it) seleccionar(it.dataset.id);});
 $("#counts").addEventListener("click",ev=>{const b=ev.target.closest(".count"); if(!b) return;
@@ -1179,6 +1191,7 @@ cambiarVista(vIni||"w"); setStatus(textoDatos());
   },err=>{ clearTimeout(t); setStatus("Conexión perdida ("+err.code+"). Recarga la página."); });
   db.collection("peticiones").onSnapshot(snap=>{ S.peticiones=Object.fromEntries(snap.docs.map(x=>[x.id,x.data()])); if(["w","f","v","b","m"].includes(S.vista)&&!document.activeElement?.matches?.("textarea")) renderDetalle(); },()=>{});
   try{ S.sample=await claude.use("sample"); }catch{ S.sample=null; }
+  try{ S.mcp=await claude.use("mcp"); }catch{ S.mcp=null; }
   if(S.sample&&["f","c"].includes(S.vista)&&!document.activeElement?.matches?.("textarea")) renderDetalle();
 })();
 </script>
