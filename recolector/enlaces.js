@@ -6,11 +6,12 @@ import os from 'node:os';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { execFileSync } from 'node:child_process';
-import { enParalelo, texto, entidades, UA_BOT, UA_NAVEGADOR } from './comun.js';
+import { enParalelo, texto, entidades, decodificar, UA_BOT, UA_NAVEGADOR } from './comun.js';
 
 const DIR = path.join('cache', 'docs');
 const INDICE = path.join(DIR, 'indice.json');
-const MAX_POR_DOC = 25000;
+const MAX_POR_DOC = 60000;
+const V = 2; // versión del procesado: si cambia, se vuelven a bajar los documentos
 const MAX_ENLACES = 8;
 const DIAS = 30;
 const sha = (u) => crypto.createHash('sha1').update(u).digest('hex').slice(0, 16);
@@ -22,8 +23,14 @@ function pdfATexto(buf) {
   try { return execFileSync('pdftotext', ['-l', '40', '-enc', 'UTF-8', f, '-'], { maxBuffer: 50e6, stdio: ['ignore', 'pipe', 'ignore'] }).toString('utf8'); }
   catch { return ''; } finally { fs.rmSync(f, { force: true }); }
 }
-const limpiaPdf = (t) => t.replace(/\f/g, '\n').split('\n').map((l) => l.replace(/\s+/g, ' ').trim())
-  .filter((l) => l && !/^\d+\s*\/\s*\d+$|^p[aá]g(ina)?\.? ?\d+/i.test(l)).join('\n');
+// Texto del PDF sin cabeceras de página de los boletines y, en normas largas, sin la exposición de motivos
+const CABECERA = /^\d+\s*\/\s*\d+$|^p[aá]g(ina)?\.? ?\d+|^BOLET[IÍ]N OFICIAL|^EHAA|^N\.?º\s*\d+$|^\d{4}\/\d+\s*\(\d+\/\d+\)$|^(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo),? \d+ de \w+ de \d{4}$|^\w+ \d{4}ko \w+ \d+/i;
+const limpiaPdf = (t) => {
+  let x = t.replace(/\f/g, '\n').split('\n').map((l) => l.replace(/\s+/g, ' ').trim()).filter((l) => l && !CABECERA.test(l)).join('\n');
+  const art = x.search(/\n(Art[ií]culo 1\.?|Artículo primero)[ .–-]/);
+  if (art > 3000 && x.length > 20000) x = x.slice(0, 1500) + '\n[…]\n' + x.slice(art + 1);
+  return x;
+};
 
 // Quita menús, pies y avisos de cookies de una página web
 function cuerpoHtml(html) {
@@ -31,6 +38,18 @@ function cuerpoHtml(html) {
   return texto(main.replace(/<(nav|header|footer|aside|form)[\s\S]*?<\/\1>/gi, ''))
     .split('\n').filter((l) => !/cookie|accesibilidad|aviso legal|política de privacidad|mapa web|síguenos|compartir|^(inicio|buscar|menú|euskara|castellano|english|français)$/i.test(l))
     .join('\n');
+}
+// Sin líneas repetidas (las fichas repiten el mismo bloque en varias pestañas) ni la parte de tramitación
+function sinRepetidos(t) {
+  const vistos = new Set();
+  const out = [];
+  for (const l of t.split('\n')) {
+    if (/^(Resoluci[oó]n y recursos|Lugares de presentaci[oó]n|Recurso de alzada)$/i.test(l)) break;
+    const k = l.toLowerCase();
+    if (l.length > 15 && vistos.has(k)) continue;
+    vistos.add(k); out.push(l);
+  }
+  return out.join('\n');
 }
 
 // Enlaces de información de una página: documentos y páginas que explican la ayuda
@@ -62,13 +81,13 @@ async function bajar(url) {
     const buf = Buffer.from(await r.arrayBuffer());
     if (!r.ok) return { estado: r.status };
     if (buf.slice(0, 4).toString() === '%PDF') return { tipo: 'pdf', texto: limpiaPdf(pdfATexto(buf)) };
-    const html = buf.toString('utf8');
-    return { tipo: 'html', html, texto: cuerpoHtml(html) };
+    const html = decodificar(buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength));
+    return { tipo: 'html', html, texto: sinRepetidos(cuerpoHtml(html)) };
   } catch (e) { return { estado: 0 }; } finally { clearTimeout(t); }
 }
 
 // Devuelve {id: texto completo} con la ficha + enlaces de cada ayuda (máx. `max` caracteres por ayuda)
-export async function documentacion(ayudas, { log = console.log, max = 40000, extra = () => [] } = {}) {
+export async function documentacion(ayudas, { log = console.log, max = 60000, extra = () => [] } = {}) {
   fs.mkdirSync(DIR, { recursive: true });
   let indice = {};
   try { indice = JSON.parse(fs.readFileSync(INDICE, 'utf8')); } catch {}
@@ -77,16 +96,16 @@ export async function documentacion(ayudas, { log = console.log, max = 40000, ex
   let nuevos = 0, fallos = 0;
   const obtener = async (u) => {
     const e = indice[u];
-    if (e && e.fecha >= limite && (e.ok || e.intentos >= 3)) return leer(u);
+    if (e && e.v === V && e.fecha >= limite && (e.ok || e.intentos >= 3)) return leer(u);
     const r = await bajar(u);
     if (r.texto && r.texto.length > 80) {
       const guardado = { tipo: r.tipo, texto: r.texto.slice(0, MAX_POR_DOC), enlaces: r.html ? enlacesDe(r.html, u).slice(0, 25) : [] };
       fs.writeFileSync(path.join(DIR, sha(u) + '.json'), JSON.stringify(guardado));
-      indice[u] = { fecha: hoy(), ok: true };
+      indice[u] = { fecha: hoy(), ok: true, v: V };
       nuevos++;
       return guardado;
     }
-    indice[u] = { fecha: hoy(), ok: false, intentos: ((e && !e.ok && e.intentos) || 0) + 1, estado: r.estado };
+    indice[u] = { fecha: hoy(), ok: false, v: V, intentos: ((e && !e.ok && e.v === V && e.intentos) || 0) + 1, estado: r.estado };
     fallos++;
     return null;
   };
