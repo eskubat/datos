@@ -389,6 +389,7 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 .avatar .av-c{width:40px;height:40px;border-radius:50%;background:var(--accent);display:grid;place-items:center;flex:none}
 .avatar .av-c svg{width:24px;height:24px;fill:none;stroke:var(--accent-ink);stroke-width:2;stroke-linecap:round}
 .avatar .av-t{display:flex;flex-direction:column;line-height:1.25} .avatar .av-t b{font:700 14px var(--display)} .avatar .av-t small{color:var(--muted);font-size:12px}
+.tprog{margin:4px 0 6px;padding-left:18px} .tprog li{margin:2px 0}
 .avatar.grande{border:0;padding:0;cursor:default} .avatar.grande .av-c{width:52px;height:52px} .avatar.grande .av-t b{font-size:17px}
 @media (max-width:700px){.cab-ag{flex-direction:column}}
 @media (max-width:760px){.estado-rev .er-top{grid-template-columns:1fr}}
@@ -586,11 +587,11 @@ async function reabrirTarea(id){
 }
 
 const AGENTES={
-  datos:{nombre:"Revisor de datos",tarea:"Eskubat · resúmenes de ayudas",horario:()=>D.tarea&&D.tarea.modo==="diaria"?"Una vez al día, a las 17:52":"Cada hora, a y 32",
+  datos:{nombre:"Revisor de datos",tareas:[["trig_01P4CfUrXV2AZpfEM8kPEAXt","Eskubat · resúmenes de ayudas","cada hora, a y 32"]],horario:()=>D.tarea&&D.tarea.modo==="diaria"?"Una vez al día, a las 17:52":"Cada hora, a y 32",
     rol:"Revisa los datos: redacta las fichas de las ayudas nuevas o cambiadas, estandariza los títulos y decide las noticias. Lo que es decisión tuya te lo manda a «Para ti».",
     hace:["Lee entera la documentación oficial de cada ayuda pendiente (10 por pasada) y redacta su ficha por tipo de solicitante, en castellano y euskera.","Si falta un dato, busca el boletín o la convocatoria oficial y lo resuelve él mismo.","Estandariza hasta 300 títulos por pasada y decide hasta 10 noticias (si son ayudas reales, las da de alta).","Comprueba cada cifra contra la fuente y vuelve a publicar esta página.","Lo que necesita tu criterio lo apunta en «Para ti» con su propuesta."],
     reglas:true},
-  mejora:{nombre:"Responsable de mejora continua",tarea:"Eskubat · correcciones y plan de mejoras",horario:()=>"Correcciones a en punto · mejoras a y 30",
+  mejora:{nombre:"Responsable de mejora continua",tareas:[["trig_01DVvci5VXGbQFn2mE6gvddp","Eskubat · correcciones (cada hora)","a en punto"],["trig_01Tw2kJALN4KcjhobhJEwxpt","Eskubat · plan de mejoras (cada hora)","a y 30"],["trig_01VRXoQcf7ckR8AXcY4r1B3z","Eskubat · revisión mensual de mejora continua","día 1, 02:41"]],horario:()=>"Correcciones a en punto · mejoras a y 30",
     rol:"Revisa y ejecuta correcciones y mejoras. Se alimenta de lo que decides en «Para ti», que le llega del Revisor de datos.",
     hace:["A en punto aplica las correcciones que has decidido en «Para ti»: fichas, datos, reglas y cambios en el plan. Si no puede, te la devuelve con lo que falta.","A y 30 hace una tarea del plan de mejoras: fuentes nuevas, lectores del recolector, cambios en esta página. Lo que tocó en el recolector lo comprueba a las 07:30.","Lo que exige código lo pasa al plan; lo que necesita tu decisión vuelve a «Para ti».","El día 1 de cada mes repasa todo el sistema y rehace el plan."],
     reglas:true}
@@ -601,7 +602,7 @@ function verAgente(id){ const a=AGENTES[id];
   $("#dlgVc").innerHTML=`<div class="vh"><div class="avatar grande"><span class="av-c"><svg viewBox="0 0 24 24"><path d="M12 12a4.2 4.2 0 1 0 0-8.4 4.2 4.2 0 0 0 0 8.4zM4 21a8 8 0 0 1 16 0"/></svg></span><span class="av-t"><b>${esc(a.nombre)}</b><small>${esc(a.horario())} · Claude</small></span></div><button class="btn ghost" data-cerrarv aria-label="Cerrar">✕</button></div>
     <p style="margin:12px 0 6px">${esc(a.rol)}</p>
     <div class="vb"><span class="vt">Instrucciones</span><ul style="margin:4px 0 0;padding-left:18px">${a.hace.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>
-    <p class="hint" style="margin:10px 0 0">Tarea programada: ${esc(a.tarea)}.</p>
+    <div class="vb"><span class="vt">Tareas programadas</span><ul class="tprog">${a.tareas.map(([id,n,hr])=>`<li><a href="https://claude.ai/code/routines/${id}" target="_blank" rel="noopener">${esc(n)} ↗</a><span class="hint"> · ${esc(hr)}</span></li>`).join("")}</ul><a class="hint" href="https://claude.ai/code/routines" target="_blank" rel="noopener">Ver todas las tareas programadas ↗</a></div>
     <div class="fila" style="margin-top:12px">${a.reglas?`<button class="lnk" data-vi="i" data-cerrarv2>Reglas que sigue (categorización, resúmenes, títulos)</button><span class="hint">·</span>`:""}<button class="lnk" data-agc="${id}">Pedirle un cambio</button></div>`;
   $("#dlgVc").querySelector("[data-agc]").onclick=()=>{ $("#dlgV").close(); abrirAsis(`Quiero cambiar cómo trabaja el ${a.nombre}: `); };
   const dl=$("#dlgV"); if(!dl.open) dl.showModal(); }
