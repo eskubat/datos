@@ -184,8 +184,8 @@ async function main() {
     // Lo que dice cuánto dinero se puede recibir va a la cuantía, esté donde esté en la fuente
     {
       const DINERO = /(\d[\d.]*(?:,\d+)?\s*(?:€|euros?)|\d+\s*(?:%|por ciento))/i;
-      const ES_IMPORTE = /m[aá]xim|hasta|importe|cuant[ií]a|subvenci[oó]n (de|ser[aá])|ayuda (de|ser[aá]|directa)|ascender[aá]|por (persona|vivienda|solicitud|hij|contrat|alumn|plaza|beneficiari)|fondo perdido|%/i;
-      const NO_ES = /presupuesto|cr[eé]dito|dotaci[oó]n|partida|consignaci|recursos econ[oó]micos/i;
+      const ES_IMPORTE = /m[aá]xim[oa] (de )?\d|hasta (un m[aá]ximo de )?\d|importe|cuant[ií]a|subvenci[oó]n (de|ser[aá])|ayuda (de|ser[aá]|directa)|ascender[aá]|por (persona|vivienda|solicitud|hij|contrat|alumn|plaza|beneficiari)|fondo perdido|\d+\s*(%|por ciento)\s*(del? (gasto|coste|presupuesto subvencionable|inversi[oó]n|importe))|para optar a (pr[eé]stamos|subvenci)/i;
+      const NO_ES = /presupuesto total|dotaci[oó]n|partida|consignaci|recursos econ[oó]micos|superficie|cr[eé]dito (total|de pago|de compromiso)/i;
       const quita = (l) => l.replace(/^(?:[a-z]|[ivx]+)[.)]\s+/i, '').trim();
       const mover = [];
       if (a.requisitos) a.requisitos = a.requisitos.filter((r) => { if (DINERO.test(r) && ES_IMPORTE.test(r) && !NO_ES.test(r)) { mover.push(quita(r)); return false; } return true; });
