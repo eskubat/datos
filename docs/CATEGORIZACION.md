@@ -16,6 +16,8 @@ Cada dato va en **un solo campo**. Si una frase mezcla datos, se parte. Solo inf
 | Presupuesto total, dotación, fondos; direcciones inferiores, gestor, cofinanciadores, norma, cargos; plazos, cómo solicitar, documentación, contacto; criterios de valoración, obligaciones posteriores, justificación, recursos | Ninguno: descartar |
 
 ## ¿En qué consiste?
+**Estilo narrativo, en todas las ayudas**: un solo párrafo de 2-4 frases completas y bien hiladas que expliquen la ayuda a alguien que no sabe nada de ella: qué es, qué paga o para qué sirve y, si hay varias modalidades, cómo encajan entre sí (conectores: «además», «también», «en el caso de…»). Nunca títulos sueltos, fragmentos, listas ni frases copiadas de la web.
+Ejemplo: «Préstamos y subvenciones para rehabilitar edificios de viviendas. Sirven para obras que mejoran a la vez la eficiencia energética, la accesibilidad y la seguridad contra incendios del edificio. También pueden incluir mejoras en la fachada o en las zonas comunes.»
 Empieza por el tipo de ayuda («Subvención para…», «Préstamo para…»). 2-4 frases, máx. 400 caracteres. Ni €, ni %, ni «hasta N», ni «cuantía/importe»; ni colectivos ni condiciones (empadronados, mayores de, ingresos, renta, dirigida a, podrán solicitar, beneficiari…).
 
 ## ¿Cuánto puede recibir?

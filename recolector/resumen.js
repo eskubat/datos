@@ -52,6 +52,10 @@ export function comprobar(r, fuente = '') {
   if (RE.condiciones.test(consiste)) e.push('has incluido colectivos o condiciones en en_que_consiste');
   if (consiste && !RE.tipoAyuda.test(consiste)) e.push('en_que_consiste debe empezar por el tipo de ayuda');
   if (consiste.length > 400) e.push('en_que_consiste supera 400 caracteres');
+  if (/\n/.test(consiste.trim())) e.push('en_que_consiste debe ser un solo párrafo narrativo, sin saltos de línea ni listas');
+  const frases = consiste.split(/(?<=[.!])\s+/).filter((f) => f.trim());
+  if (consiste && (frases.length < 2 || consiste.length < 120)) e.push('en_que_consiste debe explicar la ayuda en 2-4 frases completas y bien hiladas (estilo narrativo)');
+  if (frases.some((f) => !/[.!]$/.test(f.trim()) || f.trim().split(/\s+/).length < 5)) e.push('en_que_consiste tiene frases sueltas o sin terminar: redáctalo como un párrafo con frases completas');
   const cuanto = String(r.cuanto_puede_recibir || '');
   if (!RE.cuantiaValida.test(cuanto)) e.push('cuanto_puede_recibir debe tener una cifra con € o %, o empezar por «Importe variable», «Ayuda no económica» o «No especificado»');
   if (RE.presupuestoTotal.test(cuanto)) e.push('el presupuesto total no se muestra, solo lo que recibe cada solicitante');
