@@ -195,6 +195,8 @@ async function main() {
   // «¿Cuánto…?» → Cuánto puedes recibir). Fuera también los textos de enlaces («Folleto (PDF, 629 KB)»).
   const ENLACE_TXT = /\((pdf|docx?|xlsx?|odt|ods|zip|rtf|pptx?)\b[^)]*\)|\b\d+([.,]\d+)?\s*(kb|mb)\b/i;
   const destinoDe = (q) => (/requisit|condicion|deben cumplir/i.test(q) ? 'requisitos' : /qui[eé]n|beneficiari|dirigid|destinatari|personas|entidades/i.test(q) ? 'dirigido' : /cu[aá]nt|importe|cuant[ií]a|euros/i.test(q) ? 'cuantia' : 'resumen');
+  const REQ_INF = /^(no\s+(tener|estar|ser|haber|disponer|poseer|percibir|recibir|figurar|hallarse|encontrarse|incurrir|superar|ser\s)|tener|estar|ser|haber|disponer|poseer|acreditar|contar con|cumplir|residir|hallarse|encontrarse|figurar|estar empadronad|ostentar|ser titular|carecer)\b/i;
+  const PERFIL_RE = /\baños\b|edad|empadronad|residir|residencia|ingresos|renta\b|unidad (familiar|de convivencia)|discapacidad|desemplead|demandante de empleo/i;
   const repartePreguntas = (a) => {
     const destino = { resumen: [], requisitos: [], dirigido: [], cuantia: [] };
     for (const campo of ['resumen', 'cuantia', 'dirigido']) {
@@ -202,6 +204,10 @@ async function main() {
       for (const l of String(a[campo] || '').split('\n').map((x) => x.trim()).filter(Boolean)) {
         if (ENLACE_TXT.test(l)) continue;
         if (/^¿[^?]{3,}\?$/.test(l)) { const d = destinoDe(l); actual = d === 'resumen' ? campo : d; continue; }
+        // Frases que empiezan en infinitivo de condición («Tener…», «Estar…», «No haber…») son requisitos;
+        // si describen el perfil de la persona (edad, residencia, ingresos), van a «Quién puede pedirla»
+        const sinMarca = l.replace(/^\s*(?:[-–—•·*]|(?:[a-zA-Z]|\d{1,2})[.)])\s*/, '');
+        if (actual !== 'requisitos' && REQ_INF.test(sinMarca)) { destino[PERFIL_RE.test(sinMarca) && actual !== 'dirigido' ? 'dirigido' : PERFIL_RE.test(sinMarca) ? 'dirigido' : 'requisitos'].push(sinMarca); continue; }
         destino[actual].push(l);
       }
     }

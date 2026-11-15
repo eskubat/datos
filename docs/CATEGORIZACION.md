@@ -59,6 +59,7 @@ Tildes, «¿», mayúscula inicial y nombres propios; nada en MAYÚSCULAS salvo 
 
 ## Desempate
 ¿De quién es? → Convoca. ¿Para qué es? → Consiste. ¿Cuánto me dan? → Cuánto. ¿Es para alguien como yo? → Quién. ¿Qué tengo que cumplir? → Requisitos. Si no resuelve ninguna duda: descartar.
+Las frases que empiezan en infinitivo de condición («Tener…», «Estar…», «Disponer…», «No haber…», «No tener bienes…») son casi siempre REQUISITO; solo van a «Quién puede pedirla» si describen el perfil de la persona o entidad (edad, residencia, ingresos, situación laboral o familiar, forma jurídica, plantilla).
 Ejemplos: «Ingresos inferiores a 30.000 €» → Quién · «Inversión mínima de 5.000 €» → Requisitos · «Alquiler mensual máximo de 900 €» → Requisitos · «No haber recibido esta ayuda en 3 años» → Requisitos · «Se subvenciona el 40 %» → Cuánto · «Dotación de 2.000.000 €» → descartar · «No es subvencionable el IVA» → Consiste · «Compatible sin superar el 100 % del coste» → Cuánto · «Obligación de mantener el empleo 2 años» → descartar · «Línea 1: rehabilitación, hasta 10.000 €, para comunidades de propietarios con edificios anteriores a 1980» → se parte en Consiste / Cuánto / Quién / Requisitos.
 
 ## Proceso (dos pasos) y salida
