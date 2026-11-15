@@ -118,7 +118,7 @@ export async function recoger(log) {
       cuantia: f.cuantia || '',
       resumen: f.objeto || '',
       dirigido: f.dirigido || '',
-      para: paraDeTexto(todo),
+      para: paraDeTexto([it.titulo, f.dirigido].join(' ')),
       temas: temasDe(todo + ' ' + (it.departamento || '')),
       url: it.url,
       fuentes: [{ nombre: 'euskadi.eus', url: it.url }],
