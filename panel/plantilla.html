@@ -344,6 +344,14 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 .tbf input{width:100%;padding:6px 8px;border:1px solid var(--line);border-radius:6px;font:14px var(--body)}
 .ftabla.tb tbody tr{cursor:pointer} .ftabla.tb tbody tr:hover td{background:var(--accent-soft)}
 @media (max-width:640px){.revgrid{grid-template-columns:1fr;justify-items:center}}
+.compipe{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}
+.compipe .tl{margin-right:6px}
+.compipe .cp{display:flex;flex-direction:column;align-items:flex-start;border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:8px 14px;cursor:pointer;font:14px var(--body);color:var(--ink);min-width:150px}
+.compipe .cp b{font:800 24px var(--display);line-height:1.1}
+.compipe .cp small{color:var(--muted);font-size:12px}
+.compipe .cp:hover{border-color:var(--accent)}
+.compipe .cp-ab b{color:var(--or-d)} .compipe .cp-pl b{color:var(--ink)} .compipe .cp-ok b{color:var(--accent-d)}
+.compipe .cpa{font-size:22px;color:var(--muted)}
 @media (max-width:760px){.estado-rev .er-top{grid-template-columns:1fr}}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
 @media (max-width:760px){.eta{grid-template-columns:1fr}}
@@ -605,23 +613,11 @@ function renderBase(){
         <div class="er-quien">${ico("estrella")}<div><b>Claude revisa ${D.tarea&&D.tarea.modo==="diaria"?"una vez al día":"cada hora, a y 32"}</b><span>Lee la documentación oficial entera, redacta la ficha por tipo de solicitante en castellano y euskera, comprueba cada cifra contra la fuente y te pasa solo las decisiones de criterio.</span></div></div>
       </div>
       <div id="revTipo"></div>
+      <div class="compipe"><span class="tl">Comentarios</span>
+        <button class="cp cp-ab" data-fl='{"com":"abierto"}'><b>${num(cC.abierto||0)}</b>abiertos<small>te toca decidir</small></button><span class="cpa">›</span>
+        <button class="cp cp-pl" data-fl='{"com":"pedido"}'><b>${num(cC.pedido||0)}</b>planeados<small>Claude, próxima pasada</small></button><span class="cpa">›</span>
+        <button class="cp cp-ok" data-fl='{"com":"resuelto"}'><b>${num(cC.resuelto||0)}</b>resueltos<small>ya aplicados</small></button></div>
     </section>
-    <div class="tiles cinco">
-      ${tileF("Revisadas por Claude",cR.revisada||0,`${Math.round((cR.revisada||0)*100/n)} % de la app`,{rev:"revisada"},"t-ok")}
-      ${tileF("Pendientes de revisar",cR.pendiente||0,`${num(t.fichas||0)} fichas en la cola`,{rev:"pendiente"},"t-pend")}
-      ${tileF("Comentario abierto",cC.abierto||0,"Te toca decidir",{com:"abierto"},"t-or")}
-      ${tileF("Cambio pedido",cC.pedido||0,"Lo hará Claude en la próxima pasada",{com:"pedido"})}
-      ${tileF("Resueltas",cC.resuelto||0,"Comentarios ya aplicados",{com:"resuelto"},"t-ok")}
-    </div>
-    <div class="tiles cuatro">
-      ${tileF("Ayudas en la app",n,"",{})}
-      ${tileF("Abiertas ahora",A.filter(a=>a.estado==="abierta").length,`${num(A.filter(a=>a.estado==="proxima").length)} próximas · ${num(A.filter(a=>a.estado==="sinfecha").length)} sin fecha`,{estado:"abierta"})}
-      ${tileF("Cierran en 7 días",A.filter(a=>CAMPOS.cierre.v(a)==="7d").length,"",{cierre:"7d"},"t-or")}
-      ${tileF("Nuevas en 7 días",A.filter(a=>CAMPOS.nueva.v(a)==="si").length,"",{nueva:"si"})}
-    </div>
-    <section class="card"><h3>Cola de revisión: evolución y previsión</h3>
-      ${progreso("Fichas",hc.fichas||0,t.fichas||0,"10 por pasada")}${progreso("Títulos",hc.titulos||0,t.titulos||0,"300 por pasada")}${progreso("Noticias",hc.noticias||0,t.noticias||0,"10 por pasada")}
-      ${graficoCola(fin)}</section>
     <div class="dos">${barras("Quién convoca","nivel")}${barras("Para quién","para")}${barras("Temas (12 primeros)","temas")}${barras("Organismos (12 primeros)","organismo")}</div>
     ${planClaude("revision").length||planClaude("base").length?`<section class="card"><h3>Plan de Claude para la base de datos</h3><ul class="plan">${[...planClaude("base"),...planClaude("revision")].map(filaPlan).join("")}</ul></section>`:""}
     <details class="acord"><summary><div class="acs"><h3>Cuando todo esté revisado: el día a día</h3><div class="acst"><span class="prox">Recolector a las 05:41 · Claude revisa lo nuevo a las 17:52 · tú solo miras los comentarios</span></div></div><span class="acf">▾</span></summary>
