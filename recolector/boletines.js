@@ -185,6 +185,7 @@ export async function recoger(log = console.log) {
 
   const out = [];
   for (const [id, x] of Object.entries(cache.items)) {
+    if (!util(x.titulo)) continue;
     const ambito = ambitoDe(x.entidad || '', x.terr);
     if (!ambito) continue;
     const partes = x.texto ? partesExtracto(x.texto) : null;
