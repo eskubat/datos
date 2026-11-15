@@ -143,7 +143,22 @@ async function main() {
     [/entidades locales|administraci/i, 'Ayuntamientos y otras administraciones'],
   ];
   const ORG_POR_AMBITO = (a) => a.ambito.nivel === 'municipio' ? `Ayuntamiento de ${a.ambito.nombre.split(' / ')[0]}` : a.ambito.nivel === 'territorio' ? `Diputación Foral de ${a.ambito.nombre === 'Araba/Álava' ? 'Álava' : a.ambito.nombre}` : 'Gobierno Vasco';
+  // Tipo de solicitante a partir de "a quién va dirigido" (o del título si la fuente no lo dice)
+  const TIPO = {
+    particular: /personas f[ií]sicas que no desarrollan|^personas f[ií]sicas$|^personas$|particular|unidad(es)? de convivencia|familias|j[oó]venes|estudiantes|alumnado|personas (desemplead|mayores|con discapacidad|trabajadoras|residentes|empadronad|propietari|inquilin|arrendatari|v[ií]ctimas)|pensionistas|ciudadan[ií]a|comunidades de (personas )?propietari|deportistas|personal investigador|investigador(es|as)|menor(es)? a (su )?cargo|mujeres/i,
+    autonomo: /aut[oó]nom|personas f[ií]sicas que desarrollan|pyme y personas f[ií]sicas|profesionales/i,
+    empresa: /empresa|pyme|sociedad(es)? (mercantil|limitada|an[oó]nima|laboral)|cooperativa|personas jur[ií]dicas privadas|comercios?\b|establecimientos|explotaciones/i,
+    asociacion: /asociaci|fundaci|sin [aá]nimo de lucro|personas jur[ií]dicas que no desarrollan|personas jur[ií]dicas privadas|tercer sector|clubs?\b|clubes|federaci|ongd?\b|cofrad[ií]as|centros vascos|euskal etxeak|entidades (privadas|colaboradoras|sociales)/i,
+    ayuntamiento: /ayuntamiento|entidades locales|mancomunidad|cuadrilla|concejo|agencias de desarrollo|administraci[oó]n|universidades|centros tecnol[oó]gicos|centros de investigaci/i,
+  };
+  const tiposDe = (texto) => Object.keys(TIPO).filter((k) => TIPO[k].test(texto));
   for (const a of ayudas) {
+    {
+      const lineas = String(a.dirigido || '').split('\n').map((l) => l.trim()).filter((l) => l && !/^(requisitos|obligaciones|los requisitos)/i.test(l));
+      let tipos = [...new Set(lineas.flatMap(tiposDe))];
+      if (!tipos.length) tipos = tiposDe(a.titulo);
+      a.para = tipos;
+    }
     if (a.origen === 'bdns' && a.dirigido) {
       const lineas = a.dirigido.split('\n').map((l) => { const m = QUIEN_BDNS.find(([re]) => re.test(l)); return m ? m[1] : l; });
       a.dirigido = [...new Set(lineas)].join('\n');
