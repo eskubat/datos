@@ -213,7 +213,8 @@ export function tituloCorto(t, organismo = '', ambito = {}) {
     if (frases.length > 1 && !QUE.test(frases[0]) && frases[0].length < 60) {
       // "NEB, Nueva Bauhaus Europea. Convocatoria para barrios..." -> "NEB, Nueva Bauhaus Europea: convocatoria para barrios..."
       let unido = frases[0] + ': ' + frases[1].charAt(0).toLowerCase() + frases[1].slice(1);
-      if (unido.length > 110) { const c = unido.slice(0, 110).lastIndexOf(', '); unido = c > 50 ? unido.slice(0, c) : unido.slice(0, 105).replace(/\s+\S*$/, '').replace(/\s+(?:en|de|del|para|el|la|los|las|y|a|e|o|con|por)$/i, ''); }
+      if (unido.length > 120) { const m = unido.slice(0, 125).search(/,?\s+(?:con financiaci|con cargo|en el marco|dentro de|al amparo)/i); if (m > 50) unido = unido.slice(0, m); }
+      if (unido.length > 120) { const c = unido.slice(0, 120).lastIndexOf(', '); unido = c > 50 ? unido.slice(0, c) : unido.slice(0, 105).replace(/\s+\S*$/, '').replace(/\s+(?:en|de|del|para|el|la|los|las|y|a|e|o|con|por)$/i, ''); }
       s = unido;
     } else if (frases[0].length >= 20 && frases[0].length <= 100) s = frases[0];
     else {
