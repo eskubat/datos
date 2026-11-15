@@ -1,0 +1,33 @@
+name: Histórico semanal
+on:
+  schedule:
+    - cron: '23 3 * * 0'   # domingos
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['recolector/historico.js', '.github/workflows/historico.yml']
+concurrency:
+  group: recolector
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  historico:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node recolector/historico.js
+      - run: node recolector/index.js
+      - name: Publicar
+        run: |
+          git config user.name "eskubat-bot"
+          git config user.email "eskubat.app@gmail.com"
+          git add publico
+          git diff --cached --quiet && exit 0
+          git commit -m "Histórico actualizado $(date -u +%Y-%m-%d)"
+          git pull --rebase -q -X theirs
+          git push

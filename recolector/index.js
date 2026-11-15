@@ -5,6 +5,7 @@ import { norm, pedir, enParalelo, paraDeTexto, temasDe } from './comun.js';
 import * as euskadi from './euskadi.js';
 import * as bdns from './bdns.js';
 import * as forales from './forales.js';
+import { claveLinea } from './historico.js';
 
 const SALIDA = path.resolve('publico');
 const FUENTES = [
@@ -120,12 +121,41 @@ async function main() {
   ayudas = ayudas.filter((a) => a.estado !== 'cerrada' && !(a.estado === 'sinfecha' && a.registrada && a.registrada < limite));
   ayudas.sort((x, y) => (x.fin || '9999').localeCompare(y.fin || '9999'));
 
+  // Histórico: ayudas que se repiten cada año (lo genera historico.js cada semana)
+  let previstas = [];
+  try {
+    const hist = JSON.parse(fs.readFileSync(path.join(SALIDA, 'historico.json'), 'utf8'));
+    const porClave = new Map(hist.lineas.map((l) => [l.clave, l]));
+    const actuales = new Set();
+    for (const a of ayudas) {
+      const k = claveLinea(a.titulo, a.organismo);
+      actuales.add(k);
+      const l = porClave.get(k);
+      if (l) a.recurrente = { años: l.años, mes: l.mes };
+    }
+    const ahora = new Date();
+    for (const l of hist.lineas) {
+      if (actuales.has(l.clave)) continue;
+      let y = ahora.getUTCFullYear();
+      if (l.mes < ahora.getUTCMonth() + 1) y++;
+      const prevista = new Date(Date.UTC(y, l.mes - 1, 1));
+      const dias = (prevista - ahora) / 864e5;
+      const yaConvocada = l.ultimaFecha >= new Date(prevista.getTime() - 200 * 864e5).toISOString().slice(0, 10);
+      const viva = l.ultimaFecha >= new Date(ahora.getTime() - 800 * 864e5).toISOString().slice(0, 10);
+      if (dias > -20 && dias <= 120 && !yaConvocada && viva) {
+        previstas.push({ id: 'prev-' + l.clave.replace(/[^a-z0-9]+/g, '-').slice(0, 80), titulo: l.titulo, organismo: l.organismo, ambito: l.ambito, mesPrevisto: l.mes, añoPrevisto: y, años: l.años, duracionDias: l.duracionDias, url: l.url, estado: 'prevista' });
+      }
+    }
+    previstas.sort((a, b) => (a.añoPrevisto - b.añoPrevisto) || (a.mesPrevisto - b.mesPrevisto));
+    log(`Histórico: ${ayudas.filter((a) => a.recurrente).length} ayudas actuales se repiten cada año · ${previstas.length} previstas en los próximos meses`);
+  } catch (e) { log(`Histórico no disponible: ${e.message}`); }
+
   const porAmbito = ayudas.reduce((m, a) => { m[a.ambito.nivel] = (m[a.ambito.nivel] || 0) + 1; return m; }, {});
   const porEstado = ayudas.reduce((m, a) => { m[a.estado] = (m[a.estado] || 0) + 1; return m; }, {});
-  const meta = { version: 1, generado: new Date().toISOString(), total: ayudas.length, porAmbito, porEstado, fuentes: estadoFuentes };
+  const meta = { version: 1, generado: new Date().toISOString(), total: ayudas.length, porAmbito, porEstado, previstas: previstas.length, fuentes: estadoFuentes };
 
   fs.mkdirSync(SALIDA, { recursive: true });
-  fs.writeFileSync(path.join(SALIDA, 'ayudas.json'), JSON.stringify({ ...meta, ayudas }));
+  fs.writeFileSync(path.join(SALIDA, 'ayudas.json'), JSON.stringify({ ...meta, ayudas, previstas }));
   fs.writeFileSync(path.join(SALIDA, 'estado.json'), JSON.stringify(meta, null, 2));
   log(`Publicadas ${ayudas.length} ayudas · ${JSON.stringify(porAmbito)} · ${JSON.stringify(porEstado)}`);
   if (Object.values(estadoFuentes).every((s) => !s.ok)) process.exit(1);
