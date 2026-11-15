@@ -304,6 +304,10 @@ body.v-l .barra .spacer{display:none}
 .chip.ar-fuentes{background:var(--info-soft);color:var(--info);border-color:transparent}
 .chip.ar-datos{background:var(--accent-soft);color:var(--accent-d);border-color:transparent}
 .chip.ar-eskubat{background:var(--warn-soft);color:var(--warn);border-color:transparent}
+.ftabla.agrup tr.g-sig td{border-top:1px dashed var(--line)}
+.ftabla.agrup td.gcel{background:var(--bg)}
+.ftabla.agrup tr.g-ini td{border-top:2px solid var(--line)}
+.idea{border-color:var(--accent)}
 @media (max-width:760px){.estado-rev .er-top{grid-template-columns:1fr}}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
 @media (max-width:760px){.eta{grid-template-columns:1fr}}
@@ -800,20 +804,27 @@ function renderDetalleI(){
 function renderFuentes(){
   const F=D.fuentes, con=F.consultadas||[], pot=F.potenciales||[];
   const plan=planClaude("fuentes"), tuyas=(D.tareas||[]).filter(t=>t.quien==="Tú"&&(t.seccion||"fuentes")==="fuentes"&&t.estado!=="hecha");
-  const regs=con.filter(x=>x.registros!=null), totalR=regs.reduce((s,x)=>s+x.registros,0), avisos=con.filter(x=>x.pendiente||x.ok===false).length;
+  const filas=con.flatMap(g=>(g.filas||[]).map(f=>({...f,grupo:g.grupo}))), canales=filas.length;
+  const regs=[...filas.filter(x=>x.enApp),...con.filter(g=>g.enAppGrupo).map(g=>({nombre:g.grupo,enApp:g.enAppGrupo}))], totalR=con.reduce((s,x)=>s+(x.registros||0),0), totalApp=regs.reduce((s,x)=>s+x.enApp,0), avisos=con.filter(x=>x.pendiente||x.ok===false).length;
   const pendC=plan.filter(t=>t.estado==="pendiente"), hechas=plan.filter(t=>t.estado==="hecha").length, bloq=plan.filter(t=>t.estado==="bloqueada").length;
   const prox=pendC[0], M=D.mejora||{};
   const abiertos=S.fuentesAbiertas||(S.fuentesAbiertas={});
-  const barra=regs.slice().sort((a,b)=>b.registros-a.registros).map(x=>`<span style="flex:${Math.max(x.registros,totalR*0.012)}" title="${esc(x.nombre)}: ${num(x.registros)}"></span>`).join("");
+  const barra=regs.slice().sort((a,b)=>b.enApp-a.enApp).map(x=>`<span style="flex:${Math.max(x.enApp,totalApp*0.012)}" title="${esc(x.nombre)}: ${num(x.enApp)} ayudas en la app"></span>`).join("");
+  const maxApp=Math.max(1,...regs.map(r=>r.enApp));
   const det=(id,titulo,stats,cuerpo)=>`<details class="acord" data-ac="${id}" ${abiertos[id]?"open":""}><summary><div class="acs"><h3>${titulo}</h3><div class="acst">${stats}</div></div><span class="acf" aria-hidden="true">▾</span></summary><div class="acb">${cuerpo}</div></details>`;
   const kpi=(n,t,c="")=>`<span class="kpi ${c}"><b>${n}</b>${t}</span>`;
   const chip=q=>`<span class="quien ${/^Tú/.test(q)?"tu":"cl"}">${esc(q)}</span>`;
   $("#detalle").innerHTML=`<div class="flujo">
     <p class="intro">De dónde salen las ayudas de la app, qué fuentes podrían faltar y qué hay que hacer en cada una. Registros del recolector del ${fmtFecha(F.fecha)}.</p>
     ${det("con","Fuentes consultadas",
-      `${kpi(con.length,"fuentes")}${kpi(num(totalR),"registros leídos")}${avisos?kpi(avisos,"con aviso","av"):""}${F.enlaces?kpi(num(F.enlaces.sustituidos+F.enlaces.quitados),"enlaces rotos corregidos hoy",F.enlaces.rotos?"av":"ok"):""}<div class="mbar" role="img" aria-label="Registros por fuente">${barra}</div><span class="hint" style="flex-basis:100%;margin-top:-4px">Reparto de registros por fuente: pasa el ratón para ver cada una.</span>`,
-      `<div class="tabwrap"><table class="ftabla"><thead><tr><th>Fuente</th><th>Qué aporta</th><th>Cómo se lee</th><th>Registros</th></tr></thead><tbody>
-      ${con.map(x=>`<tr><td><b>${esc(x.nombre)}</b>${x.ok===false?`<div class="aviso">Falló en la última lectura</div>`:""}</td><td>${esc(x.que)}${x.pendiente?`<div class="aviso" style="margin-top:6px">${esc(x.pendiente)}</div>`:""}</td><td>${esc(x.como)}</td><td class="n">${x.registros!=null?num(x.registros):"—"}<div class="rb"><span style="width:${x.registros!=null?Math.max(2,x.registros/Math.max(...regs.map(r=>r.registros),1)*100):0}%"></span></div></td></tr>`).join("")}
+      `${kpi(canales,"fuentes")}${kpi(num(totalApp),"ayudas en la app")}${kpi(num(totalR),"registros leídos hoy")}${avisos?kpi(avisos,"con aviso","av"):""}${F.enlaces?kpi(num(F.enlaces.sustituidos+F.enlaces.quitados),"enlaces rotos corregidos hoy",F.enlaces.rotos?"av":"ok"):""}<div class="mbar" role="img" aria-label="Registros por fuente">${barra}</div><span class="hint" style="flex-basis:100%;margin-top:-4px">Ayudas de la app según su fuente: pasa el ratón para ver cada una.</span>`,
+      `<div class="tabwrap"><table class="ftabla agrup"><thead><tr><th>Fuente</th><th>Canal</th><th>Ayudas en la app</th><th>Qué aporta</th><th>Cómo se lee</th><th>Leídos hoy</th></tr></thead><tbody>
+      ${con.map(g=>{ const F=g.filas||[]; const n=F.length; return F.map((f,i)=>`<tr class="${i===0?"g-ini":"g-sig"}">
+        ${i===0?`<td rowspan="${n}" class="gcel"><b>${esc(g.grupo)}</b>${g.ok===false?`<div class="aviso">Falló en la última lectura</div>`:""}</td>`:""}
+        <td>${esc(f.nombre)}</td>
+        ${g.enAppGrupo!=null?(i===0?`<td rowspan="${n}" class="n">${num(g.enAppGrupo)}<div class="rb"><span style="width:${Math.max(2,g.enAppGrupo/maxApp*100)}%"></span></div><div class="hint" style="font:12px var(--body)">entre los dos</div></td>`:""):`<td class="n">${f.enApp!=null?`${num(f.enApp)}<div class="rb"><span style="width:${Math.max(2,f.enApp/maxApp*100)}%"></span></div>`:"<span class='hint'>—</span>"}</td>`}
+        ${i===0?`<td rowspan="${n}">${esc(g.que)}${g.pendiente?`<div class="aviso" style="margin-top:6px">${esc(g.pendiente)}</div>`:""}</td><td rowspan="${n}">${esc(g.como)}</td><td rowspan="${n}" class="n">${g.registros!=null?num(g.registros):"—"}</td>`:""}
+      </tr>`).join(""); }).join("")}
       </tbody></table></div>`)}
     ${det("pot","Posibles fuentes no consultadas",
       `${kpi(pot.length,"sin consultar")}${kpi(pot.filter(p=>p.tarea&&plan.some(t=>t.id===p.tarea&&t.estado!=="hecha")).length,"ya en el plan de Claude")}${pot.filter(p=>/^Tú/.test(p.quien)).length?kpi(pot.filter(p=>/^Tú/.test(p.quien)).length,"esperan tu decisión","av"):""}`,
@@ -825,6 +836,12 @@ function renderFuentes(){
        ${prox?`<span class="prox">Siguiente: <b>${esc(prox.titulo)}</b> · noche del ${fechaCorta(new Date(prox.previsto.getTime()-864e5))}</span>`:""}
        <span class="prox" style="flex-basis:100%">Revisión mensual del plan: ${M.ultima?`última el ${fmtFecha(M.ultima)}${M.nuevas?` (${M.nuevas} tareas nuevas)`:""} · `:""}próxima el ${proxMes().toLocaleDateString("es-ES",{day:"numeric",month:"long"})}</span>`,
       `${tuyas.length?`<section class="card parati"><h3>Para ti</h3><ul>${tuyas.map(t=>`<li><div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span></div><span class="chip">${EST_T[t.estado]||t.estado}</span></li>`).join("")}</ul></section>`:""}
+      <section class="card idea" id="idea"><h3>Propón una idea de mejora</h3>
+        <p class="hint" style="margin:0 0 10px">Cuéntale a Claude la idea con tus palabras («¿podemos leer las ayudas de la Cámara de Comercio de Bilbao?», «las fichas de los ayuntamientos pequeños tardan mucho»). Te ayuda a concretarla y, cuando te guste, la añades al plan: entra en la próxima pasada.</p>
+        <div class="chat" id="ichat">${(S.ideaChat||[]).map(m=>`<div class="msg ${m.role}">${m.role==="assistant"?linkify(m.content):esc(m.content)}</div>`).join("")}</div>
+        <div class="chatin"><textarea id="iin" placeholder="Escribe tu idea y pulsa Enviar"></textarea><button class="btn" id="isend">Enviar</button></div>
+        <div class="fila"><button class="btn primary" id="iplan" ${(S.ideaChat||[]).length?"":"disabled"}>Añadir al plan</button>${(S.ideaChat||[]).length?`<button class="btn ghost" id="ilimpia">Empezar otra idea</button>`:""}<span class="hint" id="ist"></span></div>
+      </section>
       <section class="card"><h3>Revisión mensual</h3>
         <p class="hint" style="margin:0 0 10px">El día 1 de cada mes Claude repasa todo el sistema y rehace este plan: busca fuentes nuevas, mira dónde faltan ayudas, cómo reducir descargas y consumo, y qué falla. Lo que encuentra entra aquí como tareas con prioridad; lo que necesita tu decisión, en «Lo que te toca a ti».</p>
         ${M.ultima?`<div class="nota"><b>${fmtFecha(M.ultima)}:</b> ${linkify(M.resumen||"")}</div>`:`<p class="hint" style="margin:0">Primera revisión: ${proxMes().toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long"})}.</p>`}
@@ -833,6 +850,40 @@ function renderFuentes(){
       <section class="card"><h3>Plan de Claude para las fuentes</h3><p class="hint" style="margin:0 0 10px">Una mejora cada noche a las 03:17, antes del recolector de las 05:41. La noche siguiente Claude comprueba que funciona.</p><ul class="plan">${plan.map(filaPlan).join("")}</ul></section>`)}
   </div>`;
   $("#detalle").querySelectorAll("details.acord").forEach(d=>d.addEventListener("toggle",()=>{ abiertos[d.dataset.ac]=d.open; }));
+  bindIdea();
+}
+function ctxMejora(){
+  const F=D.fuentes||{};
+  return `Eres Claude y ayudas al responsable de Eskubat (app de ayudas y subvenciones de Euskadi) a concretar ideas de mejora continua. El sistema: un recolector diario lee fuentes oficiales (${(F.consultadas||[]).map(g=>g.grupo+": "+(g.filas||[]).map(f=>f.nombre).join(", ")).join("; ")}); Claude revisa cada hora las ayudas nuevas o cambiadas y redacta sus fichas; cada noche Claude ejecuta una tarea del plan de mejoras (lectores nuevos, mediciones de cobertura, cambios en la página); cada mes revisa el plan. Fuentes posibles ya identificadas: ${(F.potenciales||[]).map(p=>p.nombre).join("; ")}. Plan actual: ${(D.tareas||[]).filter(t=>t.quien!=="Tú").map(t=>`${t.titulo} (${t.estado})`).join("; ")}. Hay ${D.ayudas.length} ayudas en la app.
+Responde en castellano, breve y concreto. Ayuda a convertir la idea en una tarea que Claude pueda hacer sola: qué hacer, por qué (qué se gana) y cómo se comprueba. Si ya está en el plan, dilo. Si necesita una decisión o un acceso del responsable, dilo claramente. No inventes datos que no conoces.`;
+}
+function bindIdea(){
+  const send=$("#isend"); if(!send) return;
+  if(!S.sample){ $("#idea").querySelectorAll("#isend,#iin").forEach(x=>x.disabled=true); $("#ist").textContent="El chat necesita la conexión con Claude de la página; puedes añadir la idea igualmente."; $("#iplan").disabled=false; }
+  const enviar=async()=>{
+    const t=$("#iin").value.trim(); if(!t||!S.sample) return;
+    S.ideaChat=[...(S.ideaChat||[]),{role:"user",content:t}]; $("#iin").value=""; send.disabled=true;
+    const box=$("#ichat"); box.insertAdjacentHTML("beforeend",`<div class="msg user">${esc(t)}</div><div class="msg assistant" id="istream">Pensando…</div>`);
+    try{ const r=await S.sample([{role:"user",content:ctxMejora()},{role:"assistant",content:"Entendido. ¿Cuál es la idea?"},...S.ideaChat],{cache:false,onText:({text})=>{const el=$("#istream"); if(el) el.textContent=text;}});
+      S.ideaChat.push({role:"assistant",content:r.text}); }
+    catch(err){ const el=$("#istream"); if(el) el.textContent="Claude no ha podido responder ("+(err&&err.code||"error")+")."; }
+    renderFuentes();
+  };
+  send.onclick=enviar; $("#iin").onkeydown=(ev)=>{ if(ev.key==="Enter"&&(ev.metaKey||ev.ctrlKey)) enviar(); };
+  const lim=$("#ilimpia"); if(lim) lim.onclick=()=>{ S.ideaChat=[]; renderFuentes(); };
+  $("#iplan").onclick=async()=>{
+    if(!S.db){ $("#ist").textContent="Sin conexión con la base de datos de la página."; return; }
+    const conv=(S.ideaChat||[]).map(m=>(m.role==="user"?"Responsable: ":"Claude: ")+m.content).join("\n");
+    let titulo="Idea de mejora", detalle=conv||$("#iin").value.trim();
+    if(!detalle){ $("#iin").focus(); return; }
+    $("#iplan").disabled=true; $("#ist").textContent="Preparando la tarea…";
+    if(S.sample&&conv){ try{ const j=await S.sample.json(ctxMejora()+`\n\nConversación:\n${conv}\n\nDevuelve solo un objeto JSON {"titulo": "título corto en imperativo (máx. 70 caracteres)", "detalle": "dos o tres frases: qué hacer, por qué y cómo se comprueba"} con la tarea que ha quedado decidida.`); if(j&&j.titulo){ titulo=j.titulo; detalle=j.detalle||detalle; } }catch{} }
+    const now=new Date().toISOString(), id="idea-"+Date.now().toString(36);
+    try{
+      await S.db.collection("cuestiones").doc(id).set({area:"fuentes",ayudaId:"",titulo:"Idea de mejora: "+titulo,organismo:"Mejora continua",url:"",fin:"",tipos:["otro"],motivo:detalle+(conv?"\n\nConversación:\n"+conv:""),estado:"lista",origen:"mejora",respuesta:"",instruccion:`Añade esta idea al plan de mejora continua (panel/tareas.json) como tarea de Claude, con la prioridad que le corresponda por impacto: «${titulo}». ${detalle}`,chat:[],creada:now,actualizada:now});
+      S.ideaChat=[]; renderFuentes(); $("#ist").textContent="Añadida: aparecerá en el plan tras la próxima pasada (a y 32).";
+    }catch(err){ $("#iplan").disabled=false; $("#ist").textContent="No se pudo añadir ("+(err&&err.code||"error")+")."; }
+  };
 }
 
 /* ================= NAVEGACIÓN ================= */
@@ -891,6 +942,7 @@ cambiarVista(vIni||"w"); setStatus(textoDatos());
   },err=>{ clearTimeout(t); setStatus("Conexión perdida ("+err.code+"). Recarga la página."); });
   db.collection("peticiones").onSnapshot(snap=>{ S.peticiones=Object.fromEntries(snap.docs.map(x=>[x.id,x.data()])); if(["w","f","v","b"].includes(S.vista)&&!document.activeElement?.matches?.("textarea")) renderDetalle(); },()=>{});
   try{ S.sample=await claude.use("sample"); }catch{ S.sample=null; }
+  if(S.sample&&["f","c"].includes(S.vista)&&!document.activeElement?.matches?.("textarea")) renderDetalle();
 })();
 </script>
 </body>

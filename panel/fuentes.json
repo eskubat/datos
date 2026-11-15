@@ -2,77 +2,190 @@
  "consultadas": [
   {
    "clave": "euskadi",
-   "nombre": "Gobierno Vasco: Open Data Euskadi y catálogo de euskadi.eus",
    "que": "Procedimientos de ayuda del Gobierno Vasco y sus organismos (Lanbide, Osakidetza…), con fechas y ficha.",
    "como": "Datos abiertos + primera página del catálogo con plazo abierto. Se entra como navegador estándar, con pocas descargas al día, porque bloquean a los robots.",
    "pendiente": "Solo se lee la primera página del catálogo hasta que Open Data Euskadi dé acceso.",
-   "quien": "Tú"
+   "quien": "Tú",
+   "grupo": "Gobierno Vasco",
+   "filas": [
+    {
+     "nombre": "Open Data Euskadi (datos abiertos)",
+     "fuente": []
+    },
+    {
+     "nombre": "Catálogo de trámites de euskadi.eus",
+     "fuente": []
+    }
+   ],
+   "fuenteGrupo": [
+    "euskadi.eus"
+   ]
   },
   {
    "clave": "gipuzkoa",
-   "nombre": "Diputación Foral de Gipuzkoa: sede electrónica",
    "que": "Líneas de ayuda de la Diputación con plazo.",
    "como": "Lectura de la web.",
-   "pendiente": ""
+   "pendiente": "",
+   "grupo": "Diputación Foral de Gipuzkoa",
+   "filas": [
+    {
+     "nombre": "Sede electrónica",
+     "fuente": [
+      "Sede electrónica de Gipuzkoa"
+     ]
+    }
+   ]
   },
   {
    "clave": "araba",
-   "nombre": "Diputación Foral de Álava: «Ayudas en vigor»",
    "que": "Solo las ayudas destacadas que la Diputación pone en esa página.",
    "como": "Lectura de la web.",
    "pendiente": "Cobertura muy baja: está en el plan de Claude.",
-   "quien": "Claude (código)"
+   "quien": "Claude (código)",
+   "grupo": "Diputación Foral de Álava",
+   "filas": [
+    {
+     "nombre": "Web «Ayudas en vigor»",
+     "fuente": [
+      "Sede electrónica de Álava"
+     ]
+    }
+   ]
   },
   {
    "clave": "bdns",
-   "nombre": "BDNS (InfoSubvenciones)",
    "que": "Diputación de Bizkaia, ayuntamientos, el resto de convocatorias de Euskadi y las estatales para toda España.",
    "como": "API pública. Se descartan las nominativas, directas y convenios.",
-   "pendiente": ""
+   "pendiente": "",
+   "grupo": "Base de Datos Nacional de Subvenciones",
+   "filas": [
+    {
+     "nombre": "BDNS (InfoSubvenciones)",
+     "fuente": [
+      "BDNS"
+     ]
+    }
+   ]
   },
   {
    "clave": "boletines",
-   "nombre": "Boletines forales: BOB, BOG y BOTHA",
    "que": "Ayudas de diputaciones y ayuntamientos que no llegan por la BDNS ni por las webs (también Bilbao, Donostia y Vitoria-Gasteiz).",
    "como": "Sumarios de los últimos 45 días; se quedan las convocatorias y se baja su texto.",
-   "pendiente": ""
+   "pendiente": "",
+   "grupo": "Boletines forales",
+   "filas": [
+    {
+     "nombre": "BOB · Boletín Oficial de Bizkaia",
+     "fuente": [
+      "Boletín Oficial de Bizkaia"
+     ]
+    },
+    {
+     "nombre": "BOG · Boletín Oficial de Gipuzkoa",
+     "fuente": [
+      "Boletín Oficial de Gipuzkoa"
+     ]
+    },
+    {
+     "nombre": "BOTHA · Boletín Oficial de Álava",
+     "fuente": [
+      "Boletín Oficial del Territorio Histórico de Álava"
+     ]
+    }
+   ]
   },
   {
    "clave": "fundaciones",
-   "nombre": "Fundaciones y obras sociales: BBK, Kutxa, Vital y «la Caixa»",
    "que": "Convocatorias privadas (becas, premios, ayudas a asociaciones). En la app van marcadas como privadas.",
    "como": "No tienen boletín ni BDNS: Claude revisa sus webs una vez al día (primera pasada después de las 8:00) y da de alta las convocatorias abiertas con bases publicadas.",
-   "pendiente": ""
+   "pendiente": "",
+   "grupo": "Fundaciones y obras sociales",
+   "filas": [
+    {
+     "nombre": "Fundación BBK",
+     "org": "fund-bbk"
+    },
+    {
+     "nombre": "Kutxa Fundazioa",
+     "org": "fund-kutxa"
+    },
+    {
+     "nombre": "Fundación Vital",
+     "org": "fund-vital"
+    },
+    {
+     "nombre": "Fundación «la Caixa»",
+     "org": "fund-lacaixa"
+    }
+   ]
   },
   {
    "clave": "",
-   "nombre": "Funding & Tenders Portal (Comisión Europea)",
    "que": "Convocatorias europeas abiertas y próximas.",
    "como": "Búsqueda pública. Solo se publican las que puede pedir directamente una persona, una pyme, una asociación o un ayuntamiento vasco sin formar un consorcio internacional; hoy entran a través de las noticias.",
    "pendiente": "Leer el portal entero con ese filtro: está en el plan de Claude.",
    "quien": "Tú",
-   "tarea": "ue-directas"
+   "tarea": "ue-directas",
+   "grupo": "Unión Europea",
+   "filas": [
+    {
+     "nombre": "Funding & Tenders Portal (Comisión Europea)",
+     "fuente": [
+      "Funding & Tenders Portal"
+     ]
+    }
+   ]
   },
   {
    "clave": "",
-   "nombre": "Noticias europeas de euskadi.eus",
    "que": "Titulares de ayudas europeas de Lehendakaritza.",
    "como": "La tarea decide si cada noticia es una ayuda y busca la convocatoria oficial.",
-   "pendiente": ""
+   "pendiente": "",
+   "grupo": "Noticias",
+   "filas": [
+    {
+     "nombre": "Noticias europeas de euskadi.eus",
+     "fuente": []
+    }
+   ]
   },
   {
    "clave": "",
-   "nombre": "Histórico de convocatorias",
    "que": "Convocatorias de años anteriores, para anunciar las que se repiten.",
    "como": "Barrido semanal.",
-   "pendiente": ""
+   "pendiente": "",
+   "grupo": "Histórico",
+   "filas": [
+    {
+     "nombre": "Convocatorias de años anteriores",
+     "fuente": []
+    }
+   ]
   },
   {
    "clave": "",
-   "nombre": "Boletines y webs oficiales leídos por Claude",
    "que": "BOPV, BOE y webs de organismos cuando a una ficha le falta un dato.",
    "como": "La tarea los busca y copia el texto al repositorio.",
-   "pendiente": ""
+   "pendiente": "",
+   "grupo": "Boletines y webs que lee Claude",
+   "filas": [
+    {
+     "nombre": "BOPV · Boletín Oficial del País Vasco",
+     "fuente": [
+      "BOPV"
+     ]
+    },
+    {
+     "nombre": "BOE · Boletín Oficial del Estado",
+     "fuente": [
+      "BOE"
+     ]
+    },
+    {
+     "nombre": "Webs de los organismos convocantes",
+     "fuente": []
+    }
+   ]
   }
  ],
  "potenciales": [

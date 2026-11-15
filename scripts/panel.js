@@ -62,10 +62,11 @@ const ayudas = pub.ayudas.map((a) => ({
 
 // Fuentes: lo que mide el recolector + descripciones de panel/fuentes.json
 const desc = leer('panel/fuentes.json', { consultadas: [], potenciales: [] });
+const cuentaFila = (fl) => fl.org ? pub.ayudas.filter((a) => a.organismoId === fl.org).length
+  : (fl.fuente && fl.fuente.length ? pub.ayudas.filter((a) => a.fuentes && a.fuentes[0] && fl.fuente.includes(a.fuentes[0].nombre)).length : null);
 const consultadas = desc.consultadas.map((f) => {
-  if (f.clave === 'fundaciones') return { ...f, registros: pub.ayudas.filter((a) => String(a.organismoId || '').startsWith('fund-') || a.privada).length, ok: true };
-  const e = f.clave && est.fuentes ? est.fuentes[f.clave] : null;
-  return { ...f, registros: e ? e.registros : null, ok: e ? e.ok : true };
+  const e = f.clave && f.clave !== 'fundaciones' && est.fuentes ? est.fuentes[f.clave] : null;
+  return { ...f, enAppGrupo: f.fuenteGrupo ? cuentaFila({ fuente: f.fuenteGrupo }) : null, registros: e ? e.registros : null, ok: e ? e.ok : true, filas: (f.filas || [{ nombre: f.grupo }]).map((fl) => ({ ...fl, enApp: cuentaFila(fl) })) };
 });
 
 const instrucciones = {};
