@@ -19,12 +19,14 @@ const titPend = leer('cache/titulos_pendientes.json', []);
 const noticias = leer('cache/noticias.json', []);
 const decis = leer('cache/noticias_decisiones.json', {});
 const cola = { fichas: pend.length, titulos: titPend.length, noticias: noticias.filter((n) => !decis[n.id]).length };
+const hechas = { fichas: Object.keys(res).length, titulos: Object.keys(leer('cache/titulos.json', {})).length, noticias: Object.keys(decis).length };
 
 // Historial de la cola: un punto por ejecución (como mucho uno cada 30 minutos)
 const hist = leer('cache/historial_cola.json', []);
 const ult = hist[hist.length - 1];
-if (!ult || Date.parse(ahora) - Date.parse(ult.t) > 30 * 60e3) hist.push({ t: ahora, ...cola });
-else Object.assign(ult, cola);
+const punto = { ...cola, hf: hechas.fichas, ht: hechas.titulos, hn: hechas.noticias };
+if (!ult || Date.parse(ahora) - Date.parse(ult.t) > 30 * 60e3) hist.push({ t: ahora, ...punto });
+else Object.assign(ult, punto);
 fs.writeFileSync('cache/historial_cola.json', JSON.stringify(hist.slice(-2000)));
 
 // Ficha de Claude (formato nuevo con versiones o antiguo plano)
@@ -74,7 +76,7 @@ let commit = '';
 try { commit = execSync('git log -1 --format=%h', { encoding: 'utf8' }).trim(); } catch {}
 
 const datos = {
-  generado: ahora, commit, cola, historial: hist.slice(-500),
+  generado: ahora, commit, cola, hechas, historial: hist.slice(-500),
   tarea: { modo: cola.fichas + cola.titulos + cola.noticias === 0 ? 'diaria' : 'cada hora' },
   fuentes: { fecha: (est.generado || '').slice(0, 10), consultadas, potenciales: desc.potenciales },
   instrucciones, ayudas,
