@@ -368,6 +368,7 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 .filtro-area .fa.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)} .filtro-area .fa.on b{color:var(--accent-ink)}
 .acord.mc h3 .cnt{display:inline-block;margin-left:6px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:0 9px;font-size:13px}
 .acord.mc.ti{border-color:var(--or)} .acord.mc.ti summary{background:var(--or-soft)}
+.lnk.ej{font-weight:600}
 .plan-i .tl2{display:flex;align-items:center;gap:8px;flex-wrap:wrap} .plan-i .tl2 .chip{font-size:11.5px;padding:1px 8px}
 @media (max-width:760px){.estado-rev .er-top{grid-template-columns:1fr}}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
@@ -470,10 +471,17 @@ function filaPlan(t){
   const pe=(S.peticiones||{})[t.id];
   const puede=(t.estado==="pendiente"||t.estado==="en_curso");
   const btn=!puede?"":pe&&(pe.estado==="pedida"||pe.estado==="lanzada")?`<span class="chip lista">${pe.estado==="pedida"?"Pedida · empieza antes de una hora":"En marcha"}</span>`
-    :`<button class="btn" data-ej="${esc(t.id)}">Ejecutar ahora</button>`;
+    :`<button class="lnk ej" data-ej="${esc(t.id)}">Ejecutar ahora</button>`;
   return `<li class="plan-i ${t.estado}"><span class="chip ${t.estado==="hecha"?"aplicada":t.estado==="bloqueada"?"":"lista"}">${EST_T[t.estado]||t.estado}</span>
     <div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span>${t.nota?`<span class="pn3">${linkify(t.nota)}</span>`:""}</div>
     <span class="cuando">${t.estado==="pendiente"&&t.previsto?"Prevista "+cuandoT(t.previsto):t.estado==="hecha"&&t.fecha?"Hecha el "+fmtFecha(t.fecha):""}${btn?`<br>${btn}`:""}</span></li>`;
+}
+function filaCorr(d){
+  const pe=(S.peticiones||{})["corr-"+d._id];
+  const btn=pe&&(pe.estado==="pedida"||pe.estado==="lanzada")?`<span class="chip lista">${pe.estado==="pedida"?"Pedida · empieza antes de una hora":"En marcha"}</span>`:`<button class="lnk ej" data-ejc="${esc(d._id)}">Ejecutar ahora</button>`;
+  return `<li class="plan-i pendiente"><span class="chip lista">Corrección</span>
+    <div><span class="tl2"><b>${esc(d.titulo||"(sin título)")}</b><span class="chip ar-${areaDe(d)}">${esc(AREAS[areaDe(d)]||"")}</span></span><span>${esc((d.instruccion||d.motivo||"").slice(0,240))}</span></div>
+    <span class="cuando">Prevista ${cuandoT(proximaPasada())}<br>${btn} · <button class="lnk" data-vc="${esc(d._id)}">Ver</button></span></li>`;
 }
 function paraTi(){
   const C=S.docs.filter(d=>(d.estado||"abierta")==="abierta").sort((a,b)=>{const da=diasHasta(a.fin),db=diasHasta(b.fin);return (da==null?999:da)-(db==null?999:db);});
@@ -1006,7 +1014,7 @@ function renderMejora(){
       return `<div class="filtro-area">${cnt(tot).map(([k,n])=>`<button class="fa ${AR===k?"on":""}" data-ma="${k}">${k?AREAS[k].replace(" (app y diseño)",""):"Todas"} <b>${n}</b></button>`).join("")}</div>
       ${acc("ti","Para ti",TI.length,"ti",`<ul class="plan">${TI.join("")}</ul>`,"Nada que decidir.")}
       ${acc("pl","Planificadas",PLc.length+PLt.length,"",`
-        ${PLc.length?`<h4 class="plansec">Correcciones · próxima pasada, ${proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})}</h4><ul class="plan">${PLc.map(d=>cuest(d,"pendiente","En cola")).join("")}</ul>`:""}
+        ${PLc.length?`<h4 class="plansec">Correcciones · próxima pasada, ${proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})}</h4><ul class="plan">${PLc.map(filaCorr).join("")}</ul>`:""}
         ${PLt.length?`<h4 class="plansec">Plan de mejoras · una cada hora, a y 17</h4><ul class="plan">${PLt.map(tarea).join("")}</ul>`:""}`,"Nada planificado.")}
       ${acc("he","Hechas",HE.length,"",`<ul class="plan">${HE.map(x=>x.h).join("")}</ul>`,"Aún no hay nada hecho.")}`;
     })()}
@@ -1121,6 +1129,9 @@ function seleccionar(id){
 }
 function abrirNueva(t,a,d,ar){ if(!S.db) return; $("#nt").value=t; $("#na").value=a; $("#nd").value=d; $("#nar").value=ar||(S.areaF||(S.vista==="f"?"fuentes":"datos")); $("#dlg").showModal(); }
 $("#detalle").addEventListener("click",async ev=>{
+  const bc=ev.target.closest("button[data-ejc]");
+  if(bc){ if(!S.db){ setStatus("Sin conexión con la base de datos de la página"); return; } const d=S.docs.find(x=>x._id===bc.dataset.ejc); if(!d) return; bc.disabled=true; bc.textContent="Pidiendo…";
+    try{ await S.db.collection("peticiones").doc("corr-"+d._id).set({tipo:"correccion",cuestion:d._id,titulo:d.titulo||"",estado:"pedida",pedida:new Date().toISOString()}); }catch(err){ bc.disabled=false; bc.textContent="No se pudo; repite"; } return; }
   const b=ev.target.closest("button[data-ej]"); if(!b) return;
   if(!S.db){ setStatus("Sin conexión con la base de datos de la página"); return; }
   const t=(D.tareas||[]).find(x=>x.id===b.dataset.ej); if(!t) return;
@@ -1166,7 +1177,7 @@ cambiarVista(vIni||"w"); setStatus(textoDatos());
     S.docs=snap.docs.map(x=>({_id:x.id,...x.data()}));
     renderLista(); if(!editando) renderDetalle();
   },err=>{ clearTimeout(t); setStatus("Conexión perdida ("+err.code+"). Recarga la página."); });
-  db.collection("peticiones").onSnapshot(snap=>{ S.peticiones=Object.fromEntries(snap.docs.map(x=>[x.id,x.data()])); if(["w","f","v","b"].includes(S.vista)&&!document.activeElement?.matches?.("textarea")) renderDetalle(); },()=>{});
+  db.collection("peticiones").onSnapshot(snap=>{ S.peticiones=Object.fromEntries(snap.docs.map(x=>[x.id,x.data()])); if(["w","f","v","b","m"].includes(S.vista)&&!document.activeElement?.matches?.("textarea")) renderDetalle(); },()=>{});
   try{ S.sample=await claude.use("sample"); }catch{ S.sample=null; }
   if(S.sample&&["f","c"].includes(S.vista)&&!document.activeElement?.matches?.("textarea")) renderDetalle();
 })();
