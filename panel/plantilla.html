@@ -595,7 +595,7 @@ async function reabrirTarea(id){
 const AGENTES={
   datos:{nombre:"Revisor de datos",tareas:[["trig_01P4CfUrXV2AZpfEM8kPEAXt","Eskubat · resúmenes de ayudas","cada hora, a y 32"]],horario:()=>D.tarea&&D.tarea.modo==="diaria"?"Una vez al día, a las 17:52":"Cada hora, a y 32",
     rol:"Revisa los datos: redacta las fichas de las ayudas nuevas o cambiadas, estandariza los títulos y decide las noticias. Lo que es decisión tuya te lo manda a «Para ti».",
-    hace:["Lee entera la documentación oficial de cada ayuda pendiente (10 por pasada) y redacta su ficha por tipo de solicitante, en castellano y euskera.","Si falta un dato, busca el boletín o la convocatoria oficial y lo resuelve él mismo.","Estandariza hasta 300 títulos por pasada y decide hasta 10 noticias (si son ayudas reales, las da de alta).","Comprueba cada cifra contra la fuente y vuelve a publicar esta página.","Lo que necesita tu criterio lo apunta en «Para ti» con su propuesta."],
+    hace:["Lee entera la documentación oficial de cada ayuda pendiente (hasta 30 por pasada, en tandas de 10) y redacta su ficha por tipo de solicitante, en castellano y euskera.","Si falta un dato, busca el boletín o la convocatoria oficial y lo resuelve él mismo.","Estandariza hasta 300 títulos por pasada y decide hasta 10 noticias (si son ayudas reales, las da de alta).","Comprueba cada cifra contra la fuente y vuelve a publicar esta página.","Lo que necesita tu criterio lo apunta en «Para ti» con su propuesta."],
     reglas:true},
   mejora:{nombre:"Responsable de mejora continua",tareas:[["trig_01DVvci5VXGbQFn2mE6gvddp","Eskubat · correcciones (cada hora)","a en punto"],["trig_01Tw2kJALN4KcjhobhJEwxpt","Eskubat · plan de mejoras (cada hora)","a y 30"],["trig_01VRXoQcf7ckR8AXcY4r1B3z","Eskubat · revisión mensual de mejora continua","día 1, 02:41"]],horario:()=>"Correcciones a en punto · mejoras a y 30",
     rol:"Revisa y ejecuta correcciones y mejoras. Se alimenta de lo que decides en «Para ti», que le llega del Revisor de datos.",
@@ -772,7 +772,7 @@ function barras(titulo, campo, max){
 function tileF(titulo,n,hint,filtros,cls=""){ return `<button class="tile tbtn ${cls}" data-fl='${esc(JSON.stringify(filtros))}'><div class="tl">${titulo}</div><div class="tn">${num(n)}</div>${hint?`<div class="hint">${hint}</div>`:""}<span class="ver">Ver →</span></button>`; }
 function renderBase(){
   const t=D.cola||{}, hc=D.hechas||{}, A=D.ayudas, n=A.length;
-  const obs=ritmoObservado(), ritmo=obs&&obs>0.5?obs:10;
+  const obs=ritmoObservado(), ritmo=obs&&obs>0.5?obs:30;
   const horas=Math.max(Math.ceil((t.fichas||0)/ritmo),Math.ceil((t.titulos||0)/300),Math.ceil((t.noticias||0)/10));
   const fin=new Date(proximaPasada().getTime()+Math.max(horas-1,0)*3600e3+20*60e3);
   const cR=Object.fromEntries(cuenta("rev")), cC=Object.fromEntries(cuenta("com"));
@@ -809,9 +809,9 @@ function corona(partes,centro,sub){
   return `<svg viewBox="0 0 180 180" class="corona" role="img" aria-label="${esc(partes.map(p=>p.l+": "+p.v).join(", "))}"><circle r="${R}" cx="90" cy="90" fill="none" stroke="var(--line)" stroke-width="26"/>${arcs}<text x="90" y="88" text-anchor="middle" class="cn">${centro}</text><text x="90" y="110" text-anchor="middle" class="cs">${esc(sub)}</text></svg>`;
 }
 const REVTIPOS={
-  fichas:{t:"Fichas",que:"Claude lee entera la documentación oficial de cada ayuda (bases, convocatoria, anexos), extrae plazos, cuantías, requisitos y documentos, y redacta una ficha para cada tipo de solicitante en castellano y en euskera. Comprueba cada cifra contra el texto oficial; si falta un dato, busca el documento que lo tiene, y solo te pasa las decisiones de criterio. Ritmo: 10 por pasada."},
+  fichas:{t:"Fichas",que:"Claude lee entera la documentación oficial de cada ayuda (bases, convocatoria, anexos), extrae plazos, cuantías, requisitos y documentos, y redacta una ficha para cada tipo de solicitante en castellano y en euskera. Comprueba cada cifra contra el texto oficial; si falta un dato, busca el documento que lo tiene, y solo te pasa las decisiones de criterio. Ritmo: hasta 30 por pasada (en tandas de 10)."},
   titulos:{t:"Títulos",que:"Los títulos oficiales suelen ser largos y técnicos («Resolución de… por la que se convocan…»). Claude los reescribe como un título claro que dice qué se paga y a quién, siguiendo las reglas de Títulos, en castellano y en euskera. Incluye también las convocatorias del histórico, por eso hay más títulos que ayudas. Ritmo: 300 por pasada."},
-  noticias:{t:"Noticias",que:"Claude lee los titulares de ayudas de las noticias (Lehendakaritza, ayudas europeas) y decide si cada uno es una ayuda real a la que se puede optar desde Euskadi. Si lo es, busca la convocatoria oficial y la da de alta en la app; si no (premio sin dotación, plazo cerrado, nota informativa), la descarta y anota por qué. Ritmo: 10 por pasada."}
+  noticias:{t:"Noticias",que:"Claude lee los titulares de ayudas de las noticias (Lehendakaritza, ayudas europeas) y decide si cada uno es una ayuda real a la que se puede optar desde Euskadi. Si lo es, busca la convocatoria oficial y la da de alta en la app; si no (premio sin dotación, plazo cerrado, nota informativa), la descarta y anota por qué. Ritmo: hasta 30 por pasada (en tandas de 10)."}
 };
 function renderRevTipo(){
   const box=$("#revTipo"); if(!box) return; const k=S.revTipo||"total", t=D.cola||{}, hc=D.hechas||{}, A=D.ayudas;
