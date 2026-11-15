@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generado": "2026-11-15T01:54:00.543Z",
+  "generado": "2026-11-15T01:57:25.245Z",
   "total": 450,
   "porAmbito": {
     "municipio": 300,
@@ -12,13 +12,13 @@
     "proxima": 8,
     "sinfecha": 166
   },
-  "previstas": 679,
+  "previstas": 678,
   "fuentes": {
     "euskadi": {
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
       "registros": 136,
-      "segundos": 37,
+      "segundos": 35,
       "erroresFicha": 0
     },
     "gipuzkoa": {
@@ -39,7 +39,7 @@
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
       "registros": 667,
-      "segundos": 127,
+      "segundos": 124,
       "erroresFicha": 0
     }
   }
