@@ -1114,6 +1114,40 @@ function rendimientoHTML(R){
   ${R.falta?`<div class="aviso" style="margin-top:8px">No se pudo medir: ${esc(R.falta)}</div>`:""}`;
 }
 const SECC={fuentes:"Fuentes",base:"Datos",revision:"Revisión de Claude",eskubat:"Eskubat (app y diseño)"};
+
+function renderMBanner(){
+  const box=$("#mBanner"); if(!box) return; const k=S.mTipo||"total", M=D.mejora||{};
+  const plan=planClaude(), rev=new Set(S.docs.filter(d=>d.tarea&&["abierta","lista"].includes(d.estado||"abierta")).map(d=>d.tarea));
+  const C={abierta:0,lista:0,aplicada:0,descartada:0}; S.docs.forEach(d=>{ if(d.tarea) return; const e=d.estado||"abierta"; if(C[e]!=null) C[e]++; });
+  const tu=(D.tareas||[]).filter(t=>t.quien==="Tú"&&t.estado!=="hecha").length;
+  const P={hecha:0,pendiente:0,bloqueada:0,revision:0}; plan.forEach(t=>{ if(rev.has(t.id)) P.revision++; else if(t.estado==="hecha") P.hecha++; else if(t.estado==="bloqueada") P.bloqueada++; else P.pendiente++; });
+  const OK="var(--accent)", PL="#7fb3a3", TI="var(--or)", GR="#b9c2bd";
+  const pct=(a,b)=>b?Math.round(a*100/b)+"%":"—";
+  let partes, cen, sub, extra="";
+  if(k==="total"){ const he=C.aplicada+P.hecha, pl=C.lista+P.pendiente, ti=C.abierta+tu+P.revision;
+    partes=[{l:"Hechas",v:he,c:OK},{l:"Planificadas",v:pl,c:PL},{l:"Para ti",v:ti,c:TI},{l:"Bloqueadas",v:P.bloqueada,c:GR}];
+    cen=pct(he,he+pl+ti+P.bloqueada); sub="hecho"; extra=`Correcciones: ${C.aplicada} hechas, ${C.lista} en cola, ${C.abierta} para ti · Mejoras: ${P.hecha} hechas, ${P.pendiente} planificadas${P.bloqueada?`, ${P.bloqueada} bloqueadas`:""}. Elige una pestaña para ver el detalle.`; }
+  else if(k==="corr"){ partes=[{l:"Aplicadas",v:C.aplicada,c:OK},{l:"En cola",v:C.lista,c:PL},{l:"Para ti (por decidir)",v:C.abierta,c:TI},{l:"Descartadas",v:C.descartada,c:GR}];
+    cen=pct(C.aplicada,C.aplicada+C.lista+C.abierta); sub="aplicadas"; extra=`Se aplican a en punto. Próxima pasada: ${cuandoT(proximaCorr())}.`; }
+  else { partes=[{l:"Hechas",v:P.hecha,c:OK},{l:"Planificadas",v:P.pendiente,c:PL},{l:"En revisión (para ti)",v:P.revision,c:TI},{l:"Bloqueadas",v:P.bloqueada,c:GR}];
+    cen=pct(P.hecha,P.hecha+P.pendiente+P.revision+P.bloqueada); sub="hechas"; extra=`Una cada hora, a y 30. Revisión mensual: ${M.ultima?`última el ${fmtFecha(M.ultima)} · `:""}próxima el ${proxMes().toLocaleDateString("es-ES",{day:"numeric",month:"long"})}.`; }
+  const pend=plan.filter(t=>t.estado==="pendiente"&&!rev.has(t.id)).sort((a,b)=>a.prioridad-b.prioridad), prox=pend[0];
+  const horas=pend.length, fin=horas?new Date(proximaNoche().getTime()+(horas-1)*3600e3):null;
+  const tabs={total:"Total",corr:"Correcciones",mej:"Mejoras"};
+  const tiN=C.abierta+tu+P.revision, plN=C.lista+P.pendiente, heN=C.aplicada+P.hecha;
+  box.innerHTML=`<div class="er-top"><div class="big">${ico("reloj")}<div><div class="tl">${horas?"Falta para terminar el plan de mejoras":"Plan de mejoras al día"}</div><div class="tn">${horas?`≈ ${num(horas)} h`:"0 h"}</div>
+      <div class="hint">${prox?`Siguiente: <b>${esc(prox.titulo)}</b> · ${cuandoT(prox.previsto||proximaNoche())}${fin?` · terminaría ${cuandoT(fin)}`:""}`:"No queda ninguna mejora planificada."}</div></div></div></div>
+    <div class="revtabs" role="tablist">${Object.entries(tabs).map(([id,x])=>`<button role="tab" class="${id===k?"on":""}" data-mt="${id}" aria-selected="${id===k}">${x}</button>`).join("")}</div>
+    <div class="revgrid">${corona(partes,cen,sub)}
+      <div class="leyenda col">${partes.map(p=>`<span class="lg"><i style="background:${p.c}"></i>${esc(p.l)} <b>${num(p.v)}</b></span>`).join("")}</div>
+      <div class="compipe"><span class="tl">Flujo</span>
+        <button class="cp cp-ab" data-mab2="ti"><b>${num(tiN)}</b><span>para ti<small>te toca decidir</small></span></button>
+        <button class="cp cp-pl" data-mab2="pl"><b>${num(plN)}</b><span>planificadas<small>Claude, cada hora</small></span></button>
+        <button class="cp cp-ok" data-mab2="he"><b>${num(heN)}</b><span>hechas<small>aplicadas y publicadas</small></span></button></div></div>
+    <div class="revextra"><p class="hint" style="margin:0">${extra}</p></div>`;
+  box.querySelectorAll("[data-mt]").forEach(b=>b.onclick=()=>{ S.mTipo=b.dataset.mt; renderMBanner(); });
+  box.querySelectorAll("[data-mab2]").forEach(b=>b.onclick=()=>{ const id=b.dataset.mab2; if(id==="he"&&!S.mHechas){ S.mHechas=true; } S.mAb[id]=true; renderMejora(); const d=document.querySelector(`details[data-mab="${id}"]`); if(d) d.scrollIntoView({behavior:"smooth",block:"start"}); });
+}
 function renderMejora(){
   const F=D.fuentes, pot=F.potenciales||[];
   const plan=planClaude(), tuyas=(D.tareas||[]).filter(t=>t.quien==="Tú"&&t.estado!=="hecha");
@@ -1123,8 +1157,7 @@ function renderMejora(){
   const chip=q=>`<span class="quien ${/^Tú/.test(q)?"tu":"cl"}">${esc(q)}</span>`;
   $("#detalle").innerHTML=`<div class="flujo">
     <div class="cab-ag"><p class="intro">Lo que decides en Revisión llega aquí y Claude lo aplica cada hora: las <b>correcciones</b> (fichas, datos y reglas) a en punto, y las <b>mejoras</b> (fuentes, recolector, página) de una en una a y 30. También entra lo que Claude encuentra en su revisión mensual.</p>${avatar("mejora")}</div>
-    <div class="acst">${prox?`<span class="prox">Siguiente: <b>${esc(prox.titulo)}</b> · ${cuandoT(prox.previsto)}</span>`:""}
-      <span class="prox" style="flex-basis:100%">Revisión mensual: ${M.ultima?`última el ${fmtFecha(M.ultima)}${M.nuevas?` (${M.nuevas} tareas nuevas)`:""} · `:""}próxima el ${proxMes().toLocaleDateString("es-ES",{day:"numeric",month:"long"})}</span></div>
+    <section class="card estado-rev" id="mBanner"></section>
     ${(()=>{
       const AR=S.mArea||"", ab=S.mAb||(S.mAb={ti:true,pl:true,he:false});
       const areaT=t=>t.area||({fuentes:"fuentes",base:"datos",revision:"datos",eskubat:"eskubat"}[t.seccion||"fuentes"]||"datos");
@@ -1174,6 +1207,7 @@ function renderMejora(){
         </tbody></table></div>`:`<p class="hint" style="margin:0">Sin hallazgos pendientes: todas las fuentes encontradas ya se leen.</p>`}
       </section>
   </div>`;
+  renderMBanner();
   $("#detalle").querySelectorAll("[data-ma]").forEach(b=>b.onclick=()=>{ S.mArea=b.dataset.ma; renderMejora(); });
   const mh=$("#mHechas"); if(mh) mh.onchange=()=>{ S.mHechas=mh.checked; if(mh.checked) S.mAb.he=true; renderMejora(); };
   $("#detalle").querySelectorAll("details[data-mab]").forEach(d=>d.addEventListener("toggle",()=>{ S.mAb[d.dataset.mab]=d.open; }));
