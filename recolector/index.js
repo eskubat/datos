@@ -352,26 +352,49 @@ async function main() {
     log(`Histórico: ${ayudas.filter((a) => a.recurrente).length} ayudas actuales se repiten cada año · ${previstas.length} previstas en los próximos meses`);
   } catch (e) { log(`Histórico no disponible: ${e.message}`); }
 
-  // Enlaces rotos: se comprueban y se sustituyen por la ficha de la fuente (o se quitan)
+  let enlacesInfo = null;
+  // Enlaces: se normalizan, se comprueban y, si no llevan a la ayuda, se sustituyen por otro de la propia ayuda.
+  // No llevan a la ayuda: dominio suelto o página de inicio, error HTTP (≥ 400, salvo 401/403/429, que suelen ser
+  // bloqueos a robots), redirección a la portada o página de error con código 200 («página no encontrada»…).
   {
-    const urls = [...new Set(ayudas.flatMap((a) => [a.url, a.bases, a.boletin]).filter((u) => /^https?:\/\//.test(u || '')))];
+    const norm = (u) => { u = String(u || '').trim(); if (!u) return ''; if (/^www\.|^[a-z0-9-]+(\.[a-z0-9-]+)+(\/|$)/i.test(u) && !/^https?:\/\//i.test(u)) u = 'https://' + u; return /^https?:\/\//i.test(u) ? u : ''; };
+    const esPortada = (u) => { try { const x = new URL(u); return (x.pathname === '/' || x.pathname === '') && !x.search; } catch { return true; } };
+    const ERROR_TXT = /p[aá]gina no (encontrada|existe|disponible)|no se ha encontrado la p[aá]gina|error 404|404 not found|page not found|orria ez da aurkitu|ez da aurkitu|el recurso solicitado no|la p[aá]gina que buscas|no existe la p[aá]gina/i;
+    for (const a of ayudas) { a.url = norm(a.url); a.bases = norm(a.bases); a.boletin = norm(a.boletin); }
+    const urls = [...new Set(ayudas.flatMap((a) => [a.url, a.bases, a.boletin]).filter((u) => u && !esPortada(u)))];
     const roto = {};
     await enParalelo(urls, 8, async (u) => {
       try {
         const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 20000);
         const r = await fetch(u, { method: 'GET', redirect: 'follow', signal: ctrl.signal, headers: { 'User-Agent': 'Mozilla/5.0 (compatible; EskubatBot/0.1; +https://github.com/eskubat/datos)' } });
         clearTimeout(t);
-        if (r.status === 404 || r.status === 410) roto[u] = true;
-        try { r.body && r.body.cancel(); } catch {}
+        if (r.status >= 400 && ![401, 403, 429].includes(r.status)) roto[u] = 'HTTP ' + r.status;
+        else if (r.url && r.url !== u && esPortada(r.url)) roto[u] = 'redirige a la portada';
+        else if (/html/i.test(r.headers.get('content-type') || '') && r.body) {
+          // Solo los primeros 40 KB: título y cabecera bastan para reconocer una página de error
+          const rd = r.body.getReader(); let html = ''; const dec = new TextDecoder();
+          while (html.length < 40000) { const { done, value } = await rd.read(); if (done) break; html += dec.decode(value, { stream: true }); }
+          try { await rd.cancel(); } catch {}
+          const tit = (html.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || '';
+          const h1 = (html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i) || [])[1] || '';
+          if (ERROR_TXT.test(tit + ' ' + h1.replace(/<[^>]+>/g, ' ')) || /^\s*(error|404)\b/i.test(tit)) roto[u] = 'página de error';
+        } else { try { r.body && r.body.cancel(); } catch {} }
       } catch { /* sin respuesta: no lo damos por roto */ }
     });
-    let n = 0;
+    const util = (u) => u && !roto[u] && !esPortada(u);
+    let sust = 0, quit = 0; const muestras = [];
     for (const a of ayudas) {
-      if (roto[a.url]) { const alt = (a.fuentes || []).map((f) => f.url).find((u) => u && !roto[u] && u !== a.url); a.url = alt || ''; n++; }
-      if (roto[a.bases]) { a.bases = ''; n++; }
-      if (roto[a.boletin]) { a.boletin = ''; n++; }
+      if (a.url && !util(a.url)) {
+        const alt = [...(a.fuentes || []).map((f) => norm(f.url)), a.bases, a.boletin].find((u) => util(u) && u !== a.url);
+        muestras.push(`${a.id}: ${a.url} (${roto[a.url] || 'portada'}) → ${alt || 'sin enlace'}`);
+        if (alt) { a.url = alt; sust++; } else if (roto[a.url]) { a.url = ''; quit++; }
+      }
+      if (a.bases && roto[a.bases]) { a.bases = ''; quit++; }
+      if (a.boletin && roto[a.boletin]) { a.boletin = ''; quit++; }
     }
-    log(`Enlaces comprobados: ${urls.length}, rotos sustituidos o quitados: ${n}`);
+    enlacesInfo = { comprobados: urls.length, rotos: Object.keys(roto).length, sustituidos: sust, quitados: quit };
+    log(`Enlaces comprobados: ${urls.length}, rotos: ${Object.keys(roto).length}, sustituidos: ${sust}, quitados: ${quit}`);
+    muestras.slice(0, 15).forEach((m) => log('  ' + m));
   }
 
   // Documentación completa de cada ayuda (ficha + todos sus enlaces de información) para los resúmenes.
@@ -430,7 +453,7 @@ async function main() {
   }
   const porAmbito = ayudas.reduce((m, a) => { m[a.ambito.nivel] = (m[a.ambito.nivel] || 0) + 1; return m; }, {});
   const porEstado = ayudas.reduce((m, a) => { m[a.estado] = (m[a.estado] || 0) + 1; return m; }, {});
-  const meta = { version: 1, generado: new Date().toISOString(), total: ayudas.length, porAmbito, porEstado, previstas: previstas.length, fuentes: estadoFuentes };
+  const meta = { version: 1, generado: new Date().toISOString(), total: ayudas.length, porAmbito, porEstado, previstas: previstas.length, fuentes: estadoFuentes, enlaces: enlacesInfo };
 
   fs.mkdirSync(SALIDA, { recursive: true });
   fs.writeFileSync(path.join(SALIDA, 'ayudas.json'), JSON.stringify({ ...meta, ayudas, previstas }));

@@ -728,7 +728,7 @@ function renderFuentes(){
   $("#detalle").innerHTML=`<div class="flujo">
     <p class="intro">De dónde salen las ayudas de la app, qué fuentes podrían faltar y qué hay que hacer en cada una. Registros del recolector del ${fmtFecha(F.fecha)}.</p>
     ${det("con","Fuentes consultadas",
-      `${kpi(con.length,"fuentes")}${kpi(num(totalR),"registros leídos")}${avisos?kpi(avisos,"con aviso","av"):""}<div class="mbar" role="img" aria-label="Registros por fuente">${barra}</div><span class="hint" style="flex-basis:100%;margin-top:-4px">Reparto de registros por fuente: pasa el ratón para ver cada una.</span>`,
+      `${kpi(con.length,"fuentes")}${kpi(num(totalR),"registros leídos")}${avisos?kpi(avisos,"con aviso","av"):""}${F.enlaces?kpi(num(F.enlaces.sustituidos+F.enlaces.quitados),"enlaces rotos corregidos hoy",F.enlaces.rotos?"av":"ok"):""}<div class="mbar" role="img" aria-label="Registros por fuente">${barra}</div><span class="hint" style="flex-basis:100%;margin-top:-4px">Reparto de registros por fuente: pasa el ratón para ver cada una.</span>`,
       `<div class="tabwrap"><table class="ftabla"><thead><tr><th>Fuente</th><th>Qué aporta</th><th>Cómo se lee</th><th>Registros</th></tr></thead><tbody>
       ${con.map(x=>`<tr><td><b>${esc(x.nombre)}</b>${x.ok===false?`<div class="aviso">Falló en la última lectura</div>`:""}</td><td>${esc(x.que)}${x.pendiente?`<div class="aviso" style="margin-top:6px">${esc(x.pendiente)}</div>`:""}</td><td>${esc(x.como)}</td><td class="n">${x.registros!=null?num(x.registros):"—"}<div class="rb"><span style="width:${x.registros!=null?Math.max(2,x.registros/Math.max(...regs.map(r=>r.registros),1)*100):0}%"></span></div></td></tr>`).join("")}
       </tbody></table></div>`)}

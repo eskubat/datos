@@ -195,7 +195,8 @@ export async function recoger(log) {
       requisitos: lineasReq.slice(0, 10),
       para: [...new Set([...paraBDNS(benef), ...paraDeTexto(titulo)])],
       temas: temasDe(titulo + ' ' + finalidad),
-      url: d.sedeElectronica || url,
+      // La sede del convocante solo si es un enlace a la ayuda; si es el dominio o la portada, la ficha de la BDNS
+      url: /^[^/?#]+\/[^\s/]/.test(String(d.sedeElectronica || '').trim().replace(/^https?:\/\//i, '')) ? String(d.sedeElectronica).trim() : url,
       bases: String(d.urlBasesReguladoras || '').replace(/\s+/g, ''),
       fuentes: [{ nombre: 'BDNS', url }],
       _docs: (d.documentos || []).filter((x) => /espa[nñ]ol|castellano/i.test(x.descripcion || '') || (d.documentos || []).length === 1).map((x) => x.id).slice(0, 2),

@@ -79,7 +79,7 @@ try { commit = execSync('git log -1 --format=%h', { encoding: 'utf8' }).trim(); 
 const datos = {
   generado: ahora, commit, cola, hechas, historial: hist.slice(-500),
   tarea: { modo: cola.fichas + cola.titulos + cola.noticias === 0 ? 'diaria' : 'cada hora' },
-  fuentes: { fecha: (est.generado || '').slice(0, 10), consultadas, potenciales: desc.potenciales },
+  fuentes: { fecha: (est.generado || '').slice(0, 10), consultadas, potenciales: desc.potenciales, enlaces: est.enlaces || null },
   instrucciones, ayudas, tareas: leer('panel/tareas.json', []), mejora: leer('panel/mejora.json', {}),
 };
 const json = JSON.stringify(datos).replace(/</g, '\\u003c');
