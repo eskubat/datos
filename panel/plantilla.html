@@ -229,6 +229,22 @@ body.v-v .counts, body.v-f .counts{display:none}
 .gcola .fin-t{fill:var(--or-d)}
 .dia{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
 .dia .hr{font:800 13px var(--display);color:var(--or-d);background:var(--or-soft);border-radius:999px;padding:2px 10px;align-self:flex-start}
+
+section.card.parati{border-color:var(--or);background:var(--or-soft)}
+.parati h3{color:var(--or-d)}
+.parati ul,.plan{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.parati li{display:flex;gap:14px;align-items:center;justify-content:space-between;padding:10px 0;border-top:1px solid color-mix(in srgb,var(--or) 25%,transparent)}
+.parati li:first-child{border-top:0}
+.parati li div,.plan-i div{display:flex;flex-direction:column;gap:2px}
+.parati li b,.plan-i b{font:700 15px var(--display)}
+.parati li span:not(.chip),.plan-i div span{font-size:13.5px;color:var(--muted)}
+.plan-i{display:grid;grid-template-columns:110px 1fr auto;gap:14px;align-items:start;padding:10px 0;border-top:1px solid var(--line)}
+.plan-i:first-child{border-top:0}
+.plan-i .chip{justify-self:start}
+.plan-i .cuando{font-size:13px;color:var(--accent-d);font-weight:600;white-space:nowrap}
+.plan-i.hecha b{color:var(--muted)}
+.plan-i .pn3{color:var(--ink)!important}
+@media (max-width:760px){.plan-i{grid-template-columns:1fr}}
 @media (max-width:760px){.eta{grid-template-columns:1fr}}
 @media (max-width:760px){
   main{grid-template-columns:1fr}
@@ -303,6 +319,31 @@ const AY = new Map(D.ayudas.map(a=>[a.id,a]));
 function proximaPasada(){ const d=new Date(), n=new Date(d); n.setUTCMinutes(32,0,0); if(n<=d) n.setUTCHours(n.getUTCHours()+1); return n; }
 function cuestionDe(id){ return S.docs.find(x=>x.ayudaId===id); }
 
+/* ================= PLAN Y PENDIENTES ================= */
+function proximaNoche(){ const d=new Date(); const n=new Date(d); n.setHours(3,17,0,0); if(n<=d) n.setDate(n.getDate()+1); return n; }
+function planClaude(){
+  const T=(D.tareas||[]).filter(t=>t.quien!=="Tú"); const pend=T.filter(t=>t.estado==="pendiente").sort((a,b)=>a.prioridad-b.prioridad);
+  const n0=proximaNoche();
+  return T.map(t=>{ const i=pend.indexOf(t); return {...t, previsto: i>=0?new Date(n0.getTime()+i*864e5):null}; })
+    .sort((a,b)=>({en_curso:0,pendiente:1,bloqueada:2,hecha:3}[a.estado]-{en_curso:0,pendiente:1,bloqueada:2,hecha:3}[b.estado])||a.prioridad-b.prioridad);
+}
+const EST_T={pendiente:"Planificada",en_curso:"En curso",hecha:"Hecha",bloqueada:"Bloqueada"};
+const fechaCorta=(d)=>d.toLocaleDateString("es-ES",{weekday:"short",day:"numeric",month:"short"});
+function filaPlan(t){
+  return `<li class="plan-i ${t.estado}"><span class="chip ${t.estado==="hecha"?"aplicada":t.estado==="bloqueada"?"":"lista"}">${EST_T[t.estado]||t.estado}</span>
+    <div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span>${t.nota?`<span class="pn3">${linkify(t.nota)}</span>`:""}</div>
+    <span class="cuando">${t.estado==="pendiente"&&t.previsto?"Noche del "+fechaCorta(new Date(t.previsto.getTime()-864e5)):t.estado==="hecha"&&t.fecha?"Hecha el "+fmtFecha(t.fecha):""}</span></li>`;
+}
+function paraTi(){
+  const C=S.docs.filter(d=>(d.estado||"abierta")==="abierta").sort((a,b)=>{const da=diasHasta(a.fin),db=diasHasta(b.fin);return (da==null?999:da)-(db==null?999:db);});
+  const T=(D.tareas||[]).filter(t=>t.quien==="Tú"&&t.estado!=="hecha");
+  const items=[...C.map(d=>({tipo:"c",id:d._id,titulo:d.titulo,detalle:d.organismo==="Decisión de producto"||!d.ayudaId?"Decisión tuya":"Cuestión sobre una ayuda"+(d.fin?` · cierra el ${fmtFecha(d.fin)}`:"")})),
+    ...T.map(t=>({tipo:"t",titulo:t.titulo,detalle:t.detalle}))];
+  return `<section class="card parati"><h3>Necesita tu atención${items.length?` (${items.length})`:""}</h3>
+    ${items.length?`<ul>${items.map((x,i)=>`<li><div><b>${esc(x.titulo)}</b><span>${esc(x.detalle)}</span></div>${x.tipo==="c"?`<button class="btn primary" data-pc="${esc(x.id)}">Decidir</button>`:`<span class="chip">Fuera de la app</span>`}</li>`).join("")}</ul>`
+    :`<p class="hint" style="margin:0">Nada por ahora. Claude sigue con su plan.</p>`}</section>`;
+}
+
 /* ================= INICIO ================= */
 function renderInicio(){
   const t=D.cola||{}; const c={abierta:0,lista:0}; S.docs.forEach(d=>{const e=d.estado||"abierta"; if(c[e]!=null) c[e]++;});
@@ -338,6 +379,7 @@ function renderInicio(){
   $("#detalle").innerHTML=`<div class="flujo">
     <div><h2>Cómo se mantienen al día las ayudas de Eskubat</h2>
     <p class="intro">Cada día se leen las fuentes oficiales y se actualiza la base de datos de ayudas. Cada hora Claude revisa las ayudas nuevas o cambiadas, redacta sus fichas y las publica en la app. Lo que es decisión tuya llega a Cuestiones abiertas. Pulsa una caja para abrirla; pasa el ratón por los pasos para ver qué hacen.</p></div>
+    ${paraTi()}
     <div class="lienzo"><svg viewBox="-12 -24 1120 572" role="img" aria-label="Flujo de trabajo de Eskubat">
       <defs><marker id="pt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--muted)"/></marker></defs>
       ${[0,1,2].map(i=>fl(`M${X(i)+W+2},${r} L${X(i+1)-3},${r}`)).join("")}
@@ -349,7 +391,11 @@ function renderInicio(){
       ${nodo("revision",X(2),Y[1],"claude","v","Revisión de Claude",[diaria?"Una vez al día (17:52)":"Cada hora · próx. "+proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"}),pend?"fichas por revisar":"todo revisado"],pend?num(t.fichas||0):"✓","Estado")}
       ${nodo("app",X(3),Y[1],"estatico","","App Eskubat",["Ayudas publicadas,","castellano y euskera"],null,"")}
       ${nodo("cuestiones",X(2),Y[2],"clave","c","Cuestiones abiertas",[c.lista?`${c.lista} ${c.lista===1?"lista":"listas"} para aplicar`:"Confirmas o dices",c.lista?"":"qué cambiar"],c.abierta,"Abrir")}
-    </svg></div></div>`;
+    </svg></div>
+    <section class="card"><h3>Plan de trabajo de Claude</h3>
+      <p class="hint" style="margin:0 0 10px">Mejoras que Claude hace por su cuenta: una cada noche, a las 03:17, antes de que el recolector se ejecute a las 05:41. Al día siguiente comprueba que la fuente nueva funciona.</p>
+      <ul class="plan">${planClaude().map(filaPlan).join("")}</ul></section></div>`;
+  $("#detalle").querySelectorAll("button[data-pc]").forEach(b=>b.onclick=()=>{ S.filtro="abierta"; cambiarVista("c"); seleccionar(b.dataset.pc); });
   $("#detalle").querySelectorAll(".nodo[data-go]").forEach(n=>{
     const ir=()=>{ if(n.dataset.go==="c") S.filtro="abierta"; cambiarVista(n.dataset.go); };
     n.onclick=ir; n.onkeydown=(ev)=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); ir(); } };
@@ -636,7 +682,7 @@ function renderDetalleI(){
 /* ================= FUENTES ================= */
 function renderFuentes(){
   const F=D.fuentes, con=F.consultadas||[], pot=F.potenciales||[];
-  const tareas=[...con.filter(x=>x.pendiente).map(x=>({nombre:x.nombre,hacer:x.pendiente,quien:x.quien||"Claude"})),...pot.map(x=>({nombre:x.nombre,hacer:x.hacer,quien:x.quien}))];
+  const plan=planClaude(), tuyas=(D.tareas||[]).filter(t=>t.quien==="Tú");
   const chip=q=>`<span class="quien ${/^Tú/.test(q)?"tu":"cl"}">${esc(q)}</span>`;
   $("#detalle").innerHTML=`<div class="flujo">
     <p class="intro">De dónde salen las ayudas de la app, qué fuentes podrían faltar y qué hay que hacer en cada una. Registros del recolector del ${fmtFecha(F.fecha)}.</p>
@@ -648,11 +694,9 @@ function renderFuentes(){
     <div class="tabwrap"><table class="ftabla"><thead><tr><th>Fuente</th><th>Por qué</th><th>Qué hay que hacer</th><th>Quién</th></tr></thead><tbody>
       ${pot.map(x=>`<tr><td><b>${esc(x.nombre)}</b></td><td>${esc(x.por)}</td><td>${esc(x.hacer)}</td><td>${chip(x.quien)}</td></tr>`).join("")}
     </tbody></table></div>
-    <h3 class="sec">Qué hay que hacer (${tareas.length})</h3>
-    <div class="tabwrap"><table class="ftabla"><thead><tr><th>Fuente</th><th>Acción</th><th>Quién</th><th></th></tr></thead><tbody>
-      ${tareas.map((x,i)=>`<tr><td><b>${esc(x.nombre)}</b></td><td>${esc(x.hacer)}</td><td>${chip(x.quien)}</td><td><button class="btn" data-t="${i}">Abrir cuestión</button></td></tr>`).join("")}
-    </tbody></table></div></div>`;
-  $("#detalle").querySelectorAll("button[data-t]").forEach(b=>b.onclick=()=>{ const x=tareas[+b.dataset.t]; abrirNueva("Fuente: "+x.nombre,"",x.hacer+"\n\n"); });
+    <h3 class="sec">Qué hay que hacer</h3>
+    ${tuyas.length?`<section class="card parati"><h3>Para ti</h3><ul>${tuyas.map(t=>`<li><div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span></div><span class="chip">${EST_T[t.estado]||t.estado}</span></li>`).join("")}</ul></section>`:""}
+    <section class="card"><h3>Plan de Claude</h3><ul class="plan">${plan.map(filaPlan).join("")}</ul></section></div></div>`;
 }
 
 /* ================= NAVEGACIÓN ================= */

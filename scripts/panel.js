@@ -80,7 +80,7 @@ const datos = {
   generado: ahora, commit, cola, hechas, historial: hist.slice(-500),
   tarea: { modo: cola.fichas + cola.titulos + cola.noticias === 0 ? 'diaria' : 'cada hora' },
   fuentes: { fecha: (est.generado || '').slice(0, 10), consultadas, potenciales: desc.potenciales },
-  instrucciones, ayudas,
+  instrucciones, ayudas, tareas: leer('panel/tareas.json', []),
 };
 const json = JSON.stringify(datos).replace(/</g, '\\u003c');
 const plantilla = fs.readFileSync('panel/plantilla.html', 'utf8');

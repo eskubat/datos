@@ -1,0 +1,84 @@
+[
+ {
+  "id": "bopv",
+  "titulo": "Leer el sumario del BOPV",
+  "detalle": "Añadir el BOPV al lector de boletines (como BOB, BOG y BOTHA) para recoger las convocatorias del Gobierno Vasco que no salen en la primera página del catálogo de euskadi.eus.",
+  "fuente": "Sumario del BOPV",
+  "quien": "Claude",
+  "prioridad": 1,
+  "estado": "pendiente"
+ },
+ {
+  "id": "araba-sede",
+  "titulo": "Leer la guía de trámites completa de Álava",
+  "detalle": "Hoy solo entran las 4 o 5 ayudas «destacadas» de web.araba.eus. Leer el catálogo completo de la sede electrónica (egoitza.araba.eus).",
+  "fuente": "Diputación Foral de Álava",
+  "quien": "Claude",
+  "prioridad": 2,
+  "estado": "pendiente"
+ },
+ {
+  "id": "spri",
+  "titulo": "Medir la cobertura de SPRI",
+  "detalle": "Comparar el catálogo de ayudas de SPRI con lo que ya llega por euskadi.eus y la BDNS. Si faltan, añadir un lector de su web.",
+  "fuente": "SPRI",
+  "quien": "Claude",
+  "prioridad": 3,
+  "estado": "pendiente"
+ },
+ {
+  "id": "eve",
+  "titulo": "Medir la cobertura del EVE",
+  "detalle": "Igual que SPRI, para las ayudas de energía del Ente Vasco de la Energía.",
+  "fuente": "EVE",
+  "quien": "Claude",
+  "prioridad": 4,
+  "estado": "pendiente"
+ },
+ {
+  "id": "bizkaia-sede",
+  "titulo": "Comprobar la sede de la Diputación de Bizkaia",
+  "detalle": "Ver qué publica la sede electrónica que no llegue por la BDNS ni el BOB (ayudas permanentes, fichas de trámite) y añadir lector si compensa.",
+  "fuente": "Diputación Foral de Bizkaia",
+  "quien": "Claude",
+  "prioridad": 5,
+  "estado": "pendiente"
+ },
+ {
+  "id": "capitales",
+  "titulo": "Buscar datos abiertos de Bilbao, Donostia y Vitoria-Gasteiz",
+  "detalle": "Las tres capitales solo entran por la BDNS y los boletines. Buscar datos abiertos o páginas legibles de sus catálogos de ayudas.",
+  "fuente": "Ayuntamientos de las capitales",
+  "quien": "Claude",
+  "prioridad": 6,
+  "estado": "pendiente"
+ },
+ {
+  "id": "comarcales",
+  "titulo": "Medir la cobertura de las agencias comarcales",
+  "detalle": "Behargintza, Inguralde, Debegesa y similares: comparar lo que publican con lo que ya llega por la BDNS.",
+  "fuente": "Agencias de desarrollo comarcal",
+  "quien": "Claude",
+  "prioridad": 7,
+  "estado": "pendiente"
+ },
+ {
+  "id": "euskadi-paginas",
+  "titulo": "Leer todas las páginas del catálogo de euskadi.eus",
+  "detalle": "Ahora solo se lee la primera página. Se hará cuando Open Data Euskadi dé acceso, para no forzar sus servidores.",
+  "fuente": "Gobierno Vasco",
+  "quien": "Claude",
+  "prioridad": 8,
+  "estado": "bloqueada",
+  "nota": "Espera al acceso de Open Data Euskadi (tarea tuya)."
+ },
+ {
+  "id": "opendata",
+  "titulo": "Seguir la solicitud de acceso a Open Data Euskadi",
+  "detalle": "Está pedida y sin respuesta. Si en unos días no contestan, conviene reclamarla por su formulario de contacto. Cuando llegue, avísame y quito el modo «navegador».",
+  "fuente": "Gobierno Vasco",
+  "quien": "Tú",
+  "prioridad": 1,
+  "estado": "pendiente"
+ }
+]

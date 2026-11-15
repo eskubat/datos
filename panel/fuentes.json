@@ -5,7 +5,7 @@
    "nombre": "Gobierno Vasco: Open Data Euskadi y catálogo de euskadi.eus",
    "que": "Procedimientos de ayuda del Gobierno Vasco y sus organismos (Lanbide, Osakidetza…), con fechas y ficha.",
    "como": "Datos abiertos + primera página del catálogo con plazo abierto. Se entra como navegador estándar, con pocas descargas al día, porque bloquean a los robots.",
-   "pendiente": "Esperar respuesta a la solicitud de acceso a Open Data Euskadi. Con acceso, leer todas las páginas del catálogo, no solo la primera.",
+   "pendiente": "Solo se lee la primera página del catálogo hasta que Open Data Euskadi dé acceso.",
    "quien": "Tú"
   },
   {
@@ -20,7 +20,7 @@
    "nombre": "Diputación Foral de Álava: «Ayudas en vigor»",
    "que": "Solo las ayudas destacadas que la Diputación pone en esa página.",
    "como": "Lectura de la web.",
-   "pendiente": "Cobertura muy baja. Leer la guía de trámites completa de la sede electrónica (egoitza.araba.eus).",
+   "pendiente": "Cobertura muy baja: está en el plan de Claude.",
    "quien": "Claude (código)"
   },
   {
@@ -49,7 +49,7 @@
    "nombre": "Funding & Tenders Portal (Comisión Europea)",
    "que": "Convocatorias europeas abiertas y próximas.",
    "como": "Búsqueda pública. No se publican todas: sirven para cotejar noticias, y la tarea añade las que encajan.",
-   "pendiente": "Decidir qué convocatorias europeas se publican en la app (ahora solo las que aparecen en noticias).",
+   "pendiente": "",
    "quien": "Tú"
   },
   {
@@ -110,12 +110,6 @@
    "por": "Ayudas al empleo y al comercio local; parte llega por la BDNS.",
    "hacer": "Medir qué falta comparando con la BDNS.",
    "quien": "Claude"
-  },
-  {
-   "nombre": "Prestaciones permanentes (Ingreso Mínimo Vital, RGI, prestaciones por hijo, bono social)",
-   "por": "Son ayudas que la gente busca, pero no son convocatorias con plazo.",
-   "hacer": "Decisión de producto: ¿entran en la app como «ayudas permanentes»?",
-   "quien": "Tú"
   }
  ]
 }
