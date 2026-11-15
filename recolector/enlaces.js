@@ -19,7 +19,7 @@ const hoy = () => new Date().toISOString().slice(0, 10);
 function pdfATexto(buf) {
   const f = path.join(os.tmpdir(), 'eskubat-' + Math.random().toString(36).slice(2) + '.pdf');
   fs.writeFileSync(f, buf);
-  try { return execFileSync('pdftotext', ['-l', '40', '-enc', 'UTF-8', f, '-'], { maxBuffer: 50e6 }).toString('utf8'); }
+  try { return execFileSync('pdftotext', ['-l', '40', '-enc', 'UTF-8', f, '-'], { maxBuffer: 50e6, stdio: ['ignore', 'pipe', 'ignore'] }).toString('utf8'); }
   catch { return ''; } finally { fs.rmSync(f, { force: true }); }
 }
 const limpiaPdf = (t) => t.replace(/\f/g, '\n').split('\n').map((l) => l.replace(/\s+/g, ' ').trim())

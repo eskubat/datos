@@ -317,7 +317,7 @@ async function main() {
   const fuentes = {};
   const DIR_F = path.join('cache', 'fuentes');
   fs.mkdirSync(DIR_F, { recursive: true });
-  const nombreF = (id) => String(id).replace(/[^\w.-]/g, '_') + '.txt';
+  const nombreF = (id) => String(id).replace(/[^\w.-]/g, '_').slice(0, 60) + '-' + huella(id).slice(0, 8) + '.txt';
   for (const a of ayudas) {
     const t = [docs[a.id] || '', a._texto && !docs[a.id] ? '### Extracto de la fuente\n' + a._texto : ''].join('\n\n').trim();
     if (t) { fuentes[a.id] = t; fs.writeFileSync(path.join(DIR_F, nombreF(a.id)), t); }

@@ -32,7 +32,7 @@ if (pub) {
   const fuentes = {};
   for (const p of pendientes) { try { fuentes[p.id] = fs.readFileSync(p.archivo, 'utf8'); } catch {} }
   // Las ya resumidas que no están en pendientes: su texto sigue en cache/fuentes/
-  for (const a of pub.ayudas) { if (!fuentes[a.id]) { try { fuentes[a.id] = fs.readFileSync('cache/fuentes/' + String(a.id).replace(/[^\w.-]/g, '_') + '.txt', 'utf8'); } catch {} } }
+  for (const a of pub.ayudas) { if (!fuentes[a.id]) { try { fuentes[a.id] = fs.readFileSync('cache/fuentes/' + String(a.id).replace(/[^\w.-]/g, '_').slice(0, 60) + '-' + huella(a.id).slice(0, 8) + '.txt', 'utf8'); } catch {} } }
   const n = aplicar(pub.ayudas, fuentes, cache);
   pub.resumidas = n;
   fs.writeFileSync('publico/ayudas.json', JSON.stringify(pub));
