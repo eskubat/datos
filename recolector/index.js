@@ -84,6 +84,15 @@ function estado(a) {
   return 'sinfecha';
 }
 
+// "Convocatoria general de subvenciones 2026. Anexo nº 26: Euskaraz Baietz! ... 2026" -> "Euskaraz Baietz! ..."
+function tituloSinEdicion(t) {
+  let s = String(t || '')
+    .replace(/^convocatoria general de subvenciones\s*(?:\d{4})?\s*[.,-]?\s*anexo\s*n?[º°o.]*\s*\d+\s*[:.\-]\s*/i, '')
+    .replace(/\(?\b(?:a[nñ]o|ejercicio|curso|convocatoria)?\s*(?:19|20)\d\d(?:\s*[-/]\s*(?:19|20)?\d\d)?\b\)?/gi, '')
+    .replace(/\s+([,.;:])/g, '$1').replace(/\s{2,}/g, ' ').replace(/[\s,.;:-]+$/, '').trim();
+  return s ? s.charAt(0).toUpperCase() + s.slice(1) : t;
+}
+
 async function main() {
   const previo = leerPrevio();
   const resultados = {};
@@ -143,7 +152,7 @@ async function main() {
       const yaConvocada = l.ultimaFecha >= new Date(prevista.getTime() - 200 * 864e5).toISOString().slice(0, 10);
       const viva = l.ultimaFecha >= new Date(ahora.getTime() - 800 * 864e5).toISOString().slice(0, 10);
       if (dias > -20 && dias <= 120 && !yaConvocada && viva) {
-        previstas.push({ id: 'prev-' + l.clave.replace(/[^a-z0-9]+/g, '-').slice(0, 80), titulo: l.titulo, organismo: l.organismo, ambito: l.ambito, mesPrevisto: l.mes, añoPrevisto: y, años: l.años, duracionDias: l.duracionDias, url: l.url, estado: 'prevista' });
+        previstas.push({ id: 'prev-' + l.clave.replace(/[^a-z0-9]+/g, '-').slice(0, 80), titulo: tituloSinEdicion(l.titulo), organismo: l.organismo, ambito: l.ambito, mesPrevisto: l.mes, añoPrevisto: y, años: l.años, duracionDias: l.duracionDias, url: l.url, estado: 'prevista' });
       }
     }
     previstas.sort((a, b) => (a.añoPrevisto - b.añoPrevisto) || (a.mesPrevisto - b.mesPrevisto));

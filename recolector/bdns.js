@@ -40,7 +40,7 @@ export function clasifica(n1, n2, n3) {
 }
 
 // Subvenciones que no se pueden solicitar: nominativas, directas, convenios con una entidad concreta...
-export const RUIDO = /nominativ|subvenciones directas|funcionamiento y actividades de la |izendun|a favor d|convenio|hitzarmen|concesi[oó]n directa|subvenci[oó]n (foral )?directa|subv\.? ?directa|foral directa|se concede|de concesi[oó]n de|aprobar (un|el) gasto|aportaci[oó]n (econ[oó]mica )?(a|al|para) |transferencia|adenda|addenda|excepcional|en especie|reintegro|justificaci[oó]n/i;
+export const RUIDO = /nominativ|se resuelven?\b|resoluci[oó]n de (la )?concesi|desiert|subvenciones directas|funcionamiento y actividades de la |izendun|a favor d|convenio|hitzarmen|concesi[oó]n directa|subvenci[oó]n (foral )?directa|subv\.? ?directa|foral directa|se concede|de concesi[oó]n de|aprobar (un|el) gasto|aportaci[oó]n (econ[oó]mica )?(a|al|para) |transferencia|adenda|addenda|excepcional|en especie|reintegro|justificaci[oó]n/i;
 
 // "Decreto Foral 73/2026, de 23 de julio, ..., por el que se aprueban las bases reguladoras y la convocatoria de subvenciones para X" -> "Subvenciones para X"
 export function limpiaTitulo(t) {
