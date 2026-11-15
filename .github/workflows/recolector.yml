@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['recolector/**', '.github/workflows/recolector.yml']
+    paths: ['recolector/**', 'cache/resumenes.json', 'cache/titulos.json', 'cache/noticias_decisiones.json', 'cache/ayudas_extra.json']
 concurrency:
   group: recolector
   cancel-in-progress: false
