@@ -1,0 +1,482 @@
+### Ficha oficial: https://www.euskadi.eus/ayuda_subvencion/2026/eguzki-hotz-programa-de-ayudas-a-la-generacion-electrica-para-autoconsumo-y-la-electrificacion-de-los-consumos-termicos-mediante-energias-renovables/web01-tramite/es/
+Ayudas y subvenciones
+Descripci�n
+Objeto
+Ante la necesidad de avanzar en la adaptación de Euskadi al cambio climático y preparar los edificios frente a episodios de altas temperaturas, sin que ello suponga incrementar la dependencia energética ni la factura eléctrica, el programa de ayudas pretende impulsar el uso de energías renovables y mejorar la eficiencia y el confort térmico de los edificios.
+Para ello, se promueve la implantación de instalaciones de generación eléctrica renovable para autoconsumo, así como de sistemas de climatización y/o producción de ACS basados en bombas de calor renovables. Todo ello en el territorio de la Comunidad Autónoma de Euskadi.
+Dotaci�n presupuestaria
+80.000.000 €
+Prestaci�n econ�mica
+Dotación presupuestaria
+La dotación económica total destinada a este programa asciende a 80.000.000 €, según el correspondiente crédito establecido al efecto en los presupuestos del EVE.
+Procedimiento de adjudicación de las ayudas
+Las resoluciones de las solicitudes de ayuda se realizarán mediante un procedimiento de concurrencia sucesiva, una vez realizadas las comprobaciones de concurrencia de la situación o actuación subvencionable y el cumplimiento del resto de requisitos exigidos, hasta el agotamiento del crédito presupuestario asignado en las convocatorias. De este modo, las solicitudes se examinarán, tramitarán y resolverán conforme a su estricto orden de presentación.
+Actuaciones subvencionables
+Serán actuaciones subvencionables las relacionadas a continuación, siempre que estén ubicadas en la CAPV y toda la energía generada y almacenada se consuma también en la CAPV:
+a) Inversiones para la realización de nuevas instalaciones de generación de energía eléctrica para autoconsumo con fuentes de energías renovables, ampliación de instalaciones ya existentes, así como instalaciones de almacenamiento asociadas tanto a nuevas instalaciones de generación como a instalaciones existentes.
+Será actuación subvencionable las inversiones para la realización de nuevas instalaciones de generación de energía eléctrica para autoconsumo con fuentes de energías renovables, ampliación de instalaciones ya existentes, así como instalaciones de almacenamiento asociadas tanto a nuevas instalaciones de generación como a instalaciones existentes, siempre que estén ubicadas en Euskadi; además, deberá cumplirse la previsión de que, en cómputo anual, la suma de la energía eléctrica consumida por parte del/de las consumidor/a o consumidores/as asociados a la instalación de autoconsumo objeto de ayuda sea igual o superior al 80 % de la energía anual generada por ésta, según lo establecido en el anexo II «Documentación». Esta restricción no será de aplicación a instalaciones aisladas.
+Para este tipo de actuación objeto de ayuda, todas y cada una de las personas consumidoras de cualquier naturaleza, deberán tener su consumo asociado a la instalación objeto de subvención en la CAPV.
+A los efectos de este Programa, estarán incluidas las siguientes tipologías de instalaciones:
+1. Instalaciones de autoconsumo establecidas en el Real Decreto 244/2019, de 5 de abril, por el que se regulan las condiciones administrativas, técnicas y económicas de generación de energía eléctrica.
+2. Instalaciones aisladas según quedan definidas en Real Decreto 244/2019.
+3. Instalaciones de generación de energía eléctrica renovable, que aun no siendo de autoconsumo según el Real Decreto 244/2019, de 5 de abril por el que se regulan las condiciones administrativas, técnicas y económicas de generación de energía eléctrica, tienen identificadas las personas consumidoras asociadas a la generación, debiendo existir un vínculo de propiedad entre los/las consumidores/as y la instalación de generación. Dicha vinculación propietaria por parte de las personas consumidoras deberá alcanzar una participación directa o indirecta superior al 50 por ciento. No obstante, el requisito de porcentaje mínimo especificado anteriormente no resultará de aplicación para las personas solicitantes de ayuda que tengan encaje en el tipo de persona beneficiaria establecida en la base cuarta, apartado 1, c) 2.º.
+4. Ampliaciones de instalaciones de generación eléctrica acordes con las tipologías indicadas en los puntos 1º, 2º y 3º.
+5. Asimismo, será actuación subvencionable la inversión en baterías de almacenamiento de la energía eléctrica generada, siempre y cuando este almacenamiento esté asociado a una instalación renovable de generación eléctrica nueva o ya existente.
+La instalación de almacenamiento deberá ser parte de la instalación de generación, situándose la batería en la red interior de la instalación.
+Se establece como ratio máximo subvencionable para la instalación de almacenamiento un total de 4 kWh/kWp o kW instalado, según el tipo de instalación sea fotovoltaica o eólica). Se permite la instalación de baterías de mayor capacidad que la citada, si bien no será objeto de subvención la parte de almacenamiento que exceda el valor señalado para dicha ratio.
+La instalación de almacenamiento deberá absorber al menos el 75 % de su energía anual de la instalación de generación de energía eléctrica renovable directamente conectada, según el artículo 41.1.bis del Reglamento (UE) 651/2014 (modificado por en el Reglamento (UE) 2023/1315 de la Comisión de 23 de junio de 2023).
+Las instalaciones de almacenamiento con baterías de plomo‐ácido no son objeto de subvención por el presente Programa.
+Las instalaciones, salvo en el caso de que sean aisladas, deberán contar con un sistema de monitorización de la energía eléctrica producida por la instalación objeto de subvención. La información deberá ser accesible a través de dispositivo móvil o aplicación web. Las funcionalidades de este sistema serán las siguientes:
+1. Este sistema deberá mostrar como mínimo la energía producida por la instalación y el correspondiente consumo energético, proporcionando información diaria, mensual y anual. En el caso de instalaciones de generación de tipo colectivo, únicamente será necesario mostrar la energía producida.
+2. De forma complementaria, el sistema podrá mostrar datos adicionales como pueden ser las emisiones de CO2 evitadas y los ahorros energéticos y económicos generados por la instalación.
+b) Inversiones para la realización de instalaciones para la electrificación de los consumos térmicos mediante fuentes de energías renovables.
+Tendrán la consideración de subvencionable las inversiones en instalaciones de energías renovables en la CAPV que incluyan bombas de calor de climatización y/o ACS (para el bienestar térmico de las personas) fundamentadas en las siguientes tecnologías: aerotermia, geotermia con sondeos verticales, hidrotermia.
+Los casos de uso de tecnología aerotérmica, geotérmica con sondeos verticales, e hidrotérmica, basados en sistemas hidrónicos mediante la utilización exclusiva de agua, serán objeto de subvención para todo tipo de persona beneficiaria.
+Además, sólo en algunos casos, que se especifican más adelante, serán objeto de subvención los sistemas de climatización mediante bombas de calor aire-aire, incluidos los sistemas rooftop. Para que este tipo de sistemas sea objeto de subvención se deberán tener en cuenta los siguientes criterios y condiciones:
+1. Se contemplan los casos de instalaciones fijas (no móviles) basadas en bombas de calor aire-aire de expansión directa que proporcionen climatización para el bienestar térmico de las personas.
+2. A efectos de este Programa, se entenderá por sistema rooftop (aire-aire) aquella bomba de calor autónoma de expansión directa, instalada en cubierta, que integra en una única unidad los elementos de producción térmica, ventilación, filtración y tratamiento de aire, y que proporciona calefacción y/o refrigeración mediante la impulsión directa de aire climatizado a los locales acondicionados a través de una red de conductos, sin utilización de un circuito hidráulico interior de distribución térmica. No tendrán esta consideración los sistemas denominados como multisplit, split o VRF.
+3. Este tipo de sistemas de climatización será objeto de subvención sólo en el caso de que el CUPS eléctrico de la dirección de ubicación de la instalación de climatización, esté asociado de forma directa o indirecta a una instalación de generación eléctrica renovable nueva o existente.
+4. Los sistemas de climatización mediante bombas de calor aire-aire, a excepción de los sistemas rooftop, únicamente serán subvencionables en los siguientes casos de personas beneficiarias y ámbitos de actuación:
+A) Personas beneficiarias que no realicen actividad económica que lleven a cabo la actuación subvencionable en viviendas destinadas a uso exclusivamente residencial.
+B) Pequeño comercio. A los efectos de este Programa, tendrán la consideración de establecimientos de pequeño comercio aquellos establecimientos en los que desarrollen su actividad personas beneficiarias que ejerzan una actividad económica, tengan la consideración de pequeña empresa y cuya actividad principal se encuentre clasificada en la división 47 del CNAE 2025 (comercio al por menor), siempre que la actuación subvencionable se lleve a cabo exclusivamente en dichos establecimientos.
+5. Los sistemas de climatización mediante rooftop aire-aire serán subvencionables para todos los sectores de actuación y, además, para todas las personas beneficiarias contempladas en la base cuarta.
+Para todas las instalaciones objeto de subvención, con independencia de su tecnología, se exige un rendimiento medio estacional (SPF) superior a 2,5.
+Las instalaciones deberán cumplir, cuando corresponda, con los requisitos establecidos en el Reglamento de Instalaciones Térmicas de los Edificios (RITE), aprobado por Real Decreto 1027/2007, de 20 de julio, así como con cualquier otra normativa que les sea de aplicación. Las bombas de calor deberán cumplir con los requerimientos de ecodiseño establecidos en el Reglamento 2016/2281 de la Comisión, de 30 de noviembre de 2016, que aplica la Directiva 2009/125/CE del Parlamento Europeo y del Consejo, por la que se instaura un marco para el establecimiento de requisitos de diseño ecológico aplicables a los productos relacionados con la energía, en lo relativo a los requisitos de diseño ecológico aplicables a los productos de calentamiento de aire, los productos de refrigeración, las enfriadoras de procesos de alta temperatura y los ventiloconvectores.
+Para actuaciones geotérmicas e hidrotérmicas que afecten a acuíferos se garantizará el cumplimiento de la Directiva 2000/60/CE, del 23 de octubre, por el que se establece un marco comunitario de actuación en el ámbito de la política de aguas para asegurarse de que no se produce daño significativo sobre los acuíferos, preservando la calidad del agua y evitando el estrés hídrico.
+Todas las instalaciones geotérmicas deberán incluir la ejecución de sondeos verticales para el intercambio de energía térmica. Los sondeos deberán ser realizados a una profundidad adecuada para garantizar la estabilidad térmica del sistema y deberán cumplir con la normativa técnica aplicable y ambiental vigente, asegurando un intercambio energético eficiente y seguro.
+Las actuaciones desarrolladas en edificios de nueva construcción, identificados en la Ley 38/1999, de Ordenación de la Edificación, tendrán como requisito adicional el uso exclusivo de energías renovables, por lo que únicamente serán objeto de subvención las instalaciones que utilicen fuentes de energía renovables en su totalidad y sin ningún tipo de hibridación con otras fuentes energéticas no renovables.
+Cuantía de las ayudas
+a) Cuantía de las ayudas en inversiones para la realización de nuevas instalaciones de generación de energía eléctrica para autoconsumo con fuentes de energías renovables, ampliación de instalaciones ya existentes, así como instalaciones de almacenamiento asociadas tanto a nuevas instalaciones de generación como a instalaciones existentes
+La potencia de generación, a efectos del cálculo de la ayuda, se corresponderá con la suma de las potencias máximas unitarias de los nuevos módulos fotovoltaicos que configuran dicha instalación (conocida comúnmente como potencia pico), medidas en condiciones estándar según la norma UNE correspondiente. En el caso eólico, la potencia de generación, a efectos del cálculo de la ayuda, se corresponderá con la suma de las potencias nominales unitarias de los nuevos generadores instalados.
+1. Cálculo de la ayuda para las personas beneficiarias que no realizan ninguna actividad económica por la que ofrezcan bienes y/o servicios en el mercado, a excepción de los indicados en el apartado a), subapartado 3º de este mismo punto 3. Cuantía de la ayuda.
+La ayuda a otorgar será la resultante de la suma de la ayuda a la instalación de generación más la ayuda, si procede, a la instalación de almacenamiento.
+Las ayudas a la instalación de generación se otorgarán como importes fijos unitarios o «módulos» que cubrirán como máximo el coste subvencionable total.
+Ayuda de generación= Módulo generación x Ps
+Donde Ps es la potencia de la instalación de generación instalada en kilovatios pico (kWp) en caso de instalaciones fotovoltaicas y kilovatios (kW) en caso de instalaciones eólicas.
+La ayuda de generación no podrá superar el coste subvencionable de la actuación realizada o, si procede, el coste subvencionable resultante una vez aplicados los recortes derivados de las limitaciones establecidas en este Programa, es decir, el coste elegible.
+En cualquier caso, la cuantía de la ayuda resultante tendrá como límite máximo el 65 % de coste elegible.
+Los módulos de generación que definen la ayuda a cada una de las actuaciones son los siguientes:
+Instalación según tramos de potencia
+Módulo individual
+de ayuda
+(€/kWp o kW)
+Módulo colectivo
+de ayuda
+(€/kWp o kW)
+Instalación fotovoltaica de generación
+P ≤ 10 kWp
+600
+710
+Instalación fotovoltaica de generación
+P > 10 kWp y P≤ 100 kWp
+450
+535
+Instalación fotovoltaica de generación
+P > 100 kWp y P≤ 1.000 kWp
+350
+420
+Instalación fotovoltaica de generación
+P > 1.000 kWp
+300
+355
+Instalación eólica de generación
+P ≤ 20 kW
+2.900
+3.350
+Instalación eólica de generación
+P > 20 kW y P ≤ 500 kW
+1.950
+2.250
+Instalación eólica de generación
+P > 500 kW
+650
+775
+Estos módulos se verán incrementados en el caso de que se renueve la superficie total de la/s cubierta/s sobre la/s que se colocará la instalación solar fotovoltaica (eliminación amianto, cambio estructural, ...); también cuando se instalen marquesinas fotovoltaicas que sirvan como cubierta de aparcamientos.
+Para que estos módulos adicionales sean considerados, es necesario que al menos el 80 % de la potencia total de generación esté ubicada sobre la/s cubierta/s en la/s cual/es se haya procedido a la renovación de la superficie total (eliminación amianto, cambio estructural, ...). En el caso de marquesinas para aparcamientos, también se ha de cumplir que el 80 % de la potencia total de generación se instale sobre las marquesinas fotovoltaicas.
+Actuaciones complementarias
+Módulo adicional de generación
+(€/kWp) (según caso)
+Renovación de la superficie total de la/s cubierta/s sobre la/s que se colocará la instalación solar fotovoltaica (eliminación amianto, cambio estructural, ...)
+P ≤ 10 kWp: 200 €/kWp
+10 kWp < P ≤ 100 kWp: 160 €/kWp
+100 kWp < P ≤ 1.000 kWp: 110 €/kWp
+P > 1.000 kWp: 100 €/kWp
+Instalación de marquesinas para proyectos de solar fotovoltaica que sirvan como cubierta de aparcamientos
+P ≤ 10 kWp: 400 €/kWp
+10 kWp < P ≤ 100 kWp: 350 €/kWp
+100 kWp < P ≤ 1.000 kWp: 300 €/kWp
+P > 1.000 kWp: 250 €/kWp
+Las ayudas a la instalación de almacenamiento se otorgarán como importes fijos unitarios o «módulos» que cubrirán como máximo el coste subvencionable total.
+Ayuda de almacenamiento = Módulo almacenamiento x Cap
+Donde Cap es la capacidad nominal de la instalación de almacenamiento realmente instalada en kilovatios por hora (kWh).
+La ayuda de almacenamiento no podrá superar el coste subvencionable de la actuación realizada o, si procede, el coste subvencionable resultante una vez aplicados los recortes derivados de las limitaciones establecidas en este Programa, es decir, el coste elegible.
+En cualquier caso, la cuantía de la ayuda resultante tendrá como límite máximo el 65 % de coste elegible.
+Los módulos de almacenamiento que definen la ayuda a cada una de las actuaciones son los siguientes:
+Instalación según tramos de capacidad
+Módulo ayuda
+(€/kWh)
+Instalación de almacenamiento Cap ≤ 10 kWh
+455
+Instalación de almacenamiento Cap > 10 kWh y Cap ≤ 100 kWh
+325
+Instalación de almacenamiento Cap > 100 kWh y Cap ≤ 5.000 kWh
+227
+Instalación de almacenamiento Cap > 5.000 kWh
+130
+La ratio máxima subvencionable será de 4 kWh/kWp fotovoltaico o kW eólico), tanto para nuevas instalaciones de almacenamiento, como para ampliaciones de instalaciones ya existentes. Se permite la instalación de almacenamiento de mayor capacidad que la citada, sin subvención para la parte de almacenamiento que exceda dicha ratio.
+Para el cálculo de esta ratio se considerará la capacidad total nominal de almacenamiento (nueva y/o existente, en kWh) y la potencia total de generación (nueva y/o existente, en kWp fotovoltaico o kW eólico).
+2. Cálculo de la ayuda para las personas beneficiarias que realizan actividad económica por la que ofrezcan bienes y/o servicios en el mercado
+La ayuda a otorgar será la resultante de la suma de la ayuda a la instalación de generación más la ayuda, si procede, a la instalación de almacenamiento.
+Las ayudas a la instalación de generación resultarán de la multiplicación del coste mínimo (entendiéndose como tal el menor valor a adoptar entre el valor del coste elegible calculado y el valor del coste subvencionable máximo de generación) por el porcentaje de ayuda establecido por potencia y tamaño de empresa.
+En esta línea, el coste elegible calculado en generación es el resultante del sumatorio de todos los costes subvencionables definidos en el punto 2. Costes subvencionables, apartado a) del Anexo I, correspondientes a la instalación de generación eléctrica, una vez aplicados los recortes derivados de las limitaciones establecidas en este Programa.
+Ayuda de generación= Csmin x % tamaño empresa según tramo de potencia
+Coste subvencionable máximo = Módulo coste subvencionable máx. x Ps
+Donde:
+Csmin es el menor entre Coste elegible y el Coste subvencionable máx.; y,
+Ps es la potencia de la instalación de generación instalada en kilovatios pico (kWp) en caso de instalaciones fotovoltaicas y kilovatios (kW) en caso de instalaciones eólicas.
+Se establecen unos módulos de coste subvencionable máximo en función de la potencia de generación. Los módulos que definen el coste subvencionable máximo y el porcentaje de ayuda por tamaño de empresa a aplicar sobre el coste subvencionable máximo o, si procede, sobre el coste elegible calculado, son los siguientes:
+Instalación según tramos de potencia
+Módulo de coste subvencionable máximo
+(€/kWp o kW)
+Ayuda
+gran empresa
+(%)
+Ayuda mediana empresa
+(%)
+Ayuda pequeña empresa
+(%)
+Instalación fotovoltaica de generación P ≤ 10 kWp
+1.188
+25 %
+30 %
+45 %
+Instalación fotovoltaica de generación P > 10 kWp y P≤ 100 kWp
+910
+25 %
+30 %
+45 %
+Instalación fotovoltaica de generación P > 100 kWp y P≤ 1.000 kWp
+749
+25 %
+30 %
+35 %
+Instalación fotovoltaica de generación P > 1.000 kWp
+460
+25 %
+30 %
+35 %
+Instalación eólica de generación con
+P ≤ 20 kW
+4.723
+30 %
+40 %
+50 %
+Instalación eólica de generación
+P > 20 kW y P ≤ 500 kW
+3.072
+30 %
+40 %
+50 %
+Instalación eólica de generación
+P > 500 kW
+1.070
+30 %
+40 %
+50 %
+Estos módulos se verán incrementados en el caso de que se renueve la superficie total de la/s cubierta/s sobre la/s que se colocará la instalación solar fotovoltaica (eliminación amianto, cambio estructural, ...); también cuando se instalen marquesinas fotovoltaicas que sirvan como cubierta de aparcamientos.
+Para que estos módulos adicionales sean considerados, es necesario que al menos el 80 % de la potencia total de generación esté ubicada sobre la/s cubierta/s en la/s cual/es se haya procedido a la renovación de la superficie total (eliminación amianto, cambio estructural, ...). En el caso de marquesinas para aparcamientos, también se ha de cumplir que el 80 % de la potencia total de generación se instale sobre las marquesinas fotovoltaicas.
+Actuaciones complementarias de generación
+Coste subvencionable máximo adicional (€/kWp)
+Renovación de la superficie total de la/s cubierta/s sobre la/s que se colocará la instalación solar fotovoltaica (eliminación amianto, cambio estructural, ...)
+P ≤ 10 kWp: 700 €/kWp
+10 kWp < P ≤ 100 kWp: 660 €/kW
+100 kWp < P ≤ 1.000 kWp: 450 €/kWp
+P > 1.000 kWp: 400 €/kWp
+Instalación de marquesinas para proyectos de solar fotovoltaica que sirvan como cubierta de aparcamientos
+P ≤ 10 kWp: 500 €/kWp
+10 kWp < P ≤ 100 kW: 400 €/kWp
+100 kWp < P ≤ 1.000 kWp: 300 €/kWp
+P > 1.000 kWp: 250 €/kWp
+Las ayudas a la instalación de almacenamiento resultarán de la multiplicación del coste mínimo (entendiéndose como tal el menor valor a adoptar entre el valor del coste elegible calculado y el valor del coste subvencionable máximo de almacenamiento) por el porcentaje de ayuda establecido por capacidad de almacenamiento y tamaño de empresa.
+En esta línea, el coste elegible calculado en almacenamiento es el resultante del sumatorio de todos los costes subvencionables definidos en el punto 2. Costes subvencionables, apartado a) del Anexo I, correspondientes a la instalación de almacenamiento eléctrico, una vez aplicados los recortes derivados de las limitaciones establecidas en este Programa.
+Ayuda de almacenamiento= Csmin x % tamaño empresa según tramo de capacidad de almacenamiento
+Coste subvencionable máximo = Módulo ayuda x Cap
+Donde:
+Csmin es el menor entre Coste elegible y el Coste subvencionable máx.; y,
+Cap es la capacidad nominal de la instalación de almacenamiento realmente instalada en kilovatios por hora (kWh).
+Se establecen unos módulos de coste subvencionable máximo en función de la capacidad de almacenamiento. Los módulos que definen el coste subvencionable máximo y el porcentaje de ayuda por tamaño de empresa a aplicar sobre el coste subvencionable máximo o, si procede, sobre el coste elegible calculado, son los siguientes:
+Instalación según tramos de capacidad
+Módulo ayuda
+(€/kWh)
+Ayuda gran empresa
+(%)
+Ayuda mediana empresa
+(%)
+Ayuda pequeña empresa
+(%)
+Instalación de almacenamiento
+Cap ≤ 10 kWh
+700
+45 %
+55 %
+65 %
+Instalación de almacenamiento
+Cap > 10 kWh y Cap ≤ 100 kWh
+500
+45 %
+55 %
+65 %
+Instalación de almacenamiento
+Cap > 100 kWh y Cap ≤ 5.000 kWh
+350
+45 %
+55 %
+65 %
+Instalación de almacenamiento
+Cap > 5.000 kWh
+200
+45 %
+55 %
+65 %
+La ratio máxima subvencionable será de 4 kWh/kWp fotovoltaico o kW eólico), tanto para nuevas instalaciones de almacenamiento, como para ampliaciones de instalaciones ya existentes. Se permite la instalación de almacenamiento de mayor capacidad que la citada, sin subvención para la parte de almacenamiento que exceda dicha ratio.
+Para el cálculo de esta ratio se considerará la capacidad total nominal de almacenamiento (nueva y/o existente, en kWh) y la potencia total de generación (nueva y/o existente, en kWp fotovoltaico o kW eólico).
+3. Cálculo de la ayuda para las personas beneficiarias que no realicen actividad económica por la que ofrezcan bienes y/o servicios en el mercado, y tengan naturaleza pública (los indicados en la base cuarta).
+La ayuda a otorgar será la resultante de la suma de la ayuda a la instalación de generación más la ayuda, si procede, a la instalación de almacenamiento.
+Las ayudas a la instalación de generación se otorgarán como importes fijos unitarios o «módulos» que cubrirán como máximo el coste subvencionable total.
+Ayuda de generación= Módulo generación x Ps
+Donde Ps es la potencia de la instalación de generación instalada en kilovatios pico (kWp) en caso de instalaciones fotovoltaicas y kilovatios (kW) en caso de instalaciones eólicas.
+La ayuda de generación no podrá superar el coste subvencionable de la actuación realizada o, si procede, el coste subvencionable resultante una vez aplicados los recortes derivados de las limitaciones establecidas en este Programa, es decir, el coste elegible.
+En cualquier caso, la cuantía de la ayuda resultante tendrá como límite máximo el 65 % del coste elegible.
+Los módulos de generación que definen la ayuda a cada una de las actuaciones son los siguientes:
+Instalación según tramos de potencia
+Módulo individual
+ayuda
+(€/kWp o kW)
+Módulo colectivo
+ayuda
+(€/kWp o kW)
+Instalación fotovoltaica de generación
+P ≤ 10 kWp
+1.000
+1.110
+Instalación fotovoltaica de generación
+P > 10 kWp y P≤ 100 kWp
+750
+835
+Instalación fotovoltaica de generación
+P > 100 kWp y P≤ 1.000 kWp
+650
+720
+Instalación fotovoltaica de generación
+P > 1.000 kWp
+500
+555
+Instalación eólica de generación P ≤ 20 kW
+4.100
+4.550
+Instalación eólica de generación
+P > 20 kW y P ≤ 500 kW
+2.700
+3.000
+Instalación eólica de generación P > 500 kW
+1.150
+1.275
+Estos módulos se verán incrementados en el cas
+
+### RESOLUCIÓN de 23 de octubre de 2026, del director general del Ente Vasco de la Energía, por la que se aprueban las bases reguladoras del programa de ayudas a la generación eléctrica para autoconsumo y la electrificación de los consumos térmicos mediante energías renovables (Eguzki Hotz) y su convocatoria para el 2026.: https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2026/11/2604653a.pdf
+BOLETÍN OFICIAL DEL PAÍS VASCO
+N.º 211
+miércoles 4 de noviembre de 2026
+OTRAS DISPOSICIONES
+ENTE VASCO DE LA ENERGÍA
+4653
+RESOLUCIÓN de 23 de octubre de 2026, del director general del Ente Vasco de la Energía, por
+la que se aprueban las bases reguladoras del programa de ayudas a la generación eléctrica
+para autoconsumo y la electrificación de los consumos térmicos mediante energías renovables
+(Eguzki Hotz) y su convocatoria para el 2026.
+El Ente Vasco de la Energía (en adelante EVE), ente público de derecho privado dependiente
+del Departamento de Industria, Transición Energética y Sostenibilidad del Gobierno Vasco, tiene
+encomendadas las actuaciones dirigidas a impulsar el ahorro y la eficiencia energética, los recursos energéticos renovables, la diversificación energética y la promoción de infraestructuras
+energéticas, en el ámbito de la Comunidad Autónoma de Euskadi (en adelante CAE).
+A este respecto, el EVE viene desarrollando diversas acciones encaminadas a cumplir con los
+objetivos recogidos en la Estrategia Energética de Euskadi 2030 (3E-2030). Entre estas actuaciones cabe citar los diversos programas de ayudas a través de los cuales se promueven acciones
+que persiguen el fomento del uso de energías renovables en instalaciones y edificios, en el territorio de la CAE.
+En esta misma línea el Departamento de Desarrollo Económico, Sostenibilidad y Medio
+Ambiente, de conformidad con los objetivos de la Política Energética del Gobierno Vasco materializados en el documento Estrategia Energética de Euskadi 2030 (3E2030), tiene como misión
+contribuir, mediante el necesario impulso público, a aumentar la eficiencia en el consumo de energía, a la consecución de un sistema energético más competitivo, más sostenible y más seguro, al
+disminuir el impacto ambiental, requerir menos energía para el consumo y reducir la dependencia
+de recursos externos.
+Asimismo, el fin de promover el despliegue de las energías renovables eléctricas en el territorio
+de la CAE, y el objeto adicional de paliar y mitigar los efectos derivados del conflicto en Irán y la
+inestabilidad en los precios energéticos, entroncan con la decisión del Consejo de Gobierno por
+la que se han activado, en un primer paquete de medidas del escudo industrial de Euskadi, 1.047
+millones de euros con una subida del 51,4 % en ayudas para la transformación y diversificación de
+las pymes, señalando como uno de los ejes de ayuda la «Autonomía energética», que constituye
+uno de los objetivos básicos del EVE. Las medidas presentadas por el Consejo de Gobierno buscan dar respuesta a las principales necesidades trasladadas por los representantes de la industria
+vasca para hacer frente a las consecuencias del conflicto de Oriente Medio.
+Ante la necesidad de adaptación al cambio climático de Euskadi y de preparación de los edificios frente a las altas temperaturas sin que ello suponga aumentar la dependencia energética y
+la factura eléctrica, es necesaria la incentivación para la implantación de sistemas de climatización sostenible «Eguzki Hotz» a toda la ciudadanía vasca. En este sentido, se pretende facilitar
+la instalación de sistemas de climatización más eficientes y sostenibles, capaces de mejorar la
+temperatura y el bienestar ante las olas de calor cada vez más frecuentes.
+En consecuencia, el presente programa de ayudas se ha diseñado con el objetivo prioritario
+de promover acciones que persigan la realización de instalaciones de autoconsumo y la electrificación de los consumos térmicos mediante energías renovables, así como paliar y mitigar los
+efectos derivados del conflicto en Irán y la inestabilidad en los precios energéticos.
+2026/4653 (1/63)
+BOLETÍN OFICIAL DEL PAÍS VASCO
+N.º 211
+miércoles 4 de noviembre de 2026
+Por lo expuesto, y según las facultades que me atribuye el Decreto 64/1985, de 5 de marzo, por
+el que se regulan las funciones de los órganos rectores del Ente Vasco de la Energía,
+RESUELVO:
+Artículo único.– Aprobar las bases reguladoras del programa de ayudas a la generación eléctrica
+para autoconsumo y la electrificación de los consumos térmicos mediante energías renovables
+(Eguzki Hotz), que figuran en el anexo, y su convocatoria para el año 2026, aprobación que lleva
+aparejada la autorización del gasto.
+DISPOSICIÓN FINAL PRIMERA.– Eficacia.
+La presente Resolución producirá efectos a partir del día siguiente al de su publicación en el
+Boletín Oficial del País Vasco.
+DISPOSICIÓN FINAL SEGUNDA.– Recursos.
+Contra la presente Resolución, que agota la vía administrativa, podrá interponerse, con carácter potestativo, recurso de reposición ante el director general del EVE en el plazo de un mes a
+partir del día siguiente al de su publicación en el Boletín Oficial del País Vasco, o recurso contencioso-administrativo ante los juzgados de lo Contencioso-Administrativo de Bilbao, en el plazo de
+dos meses a partir del día siguiente al de su publicación en el mismo boletín oficial.
+En Bilbao, a 23 de octubre de 2026.
+El director general del Ente Vasco de la Energía,
+MIKEL AMUNDARAIN LEIBAR.
+2026/4653 (2/63)
+BOLETÍN OFICIAL DEL PAÍS VASCO
+miércoles 4 de noviembre de 2026
+ANEXO
+EGUZKI HOTZ – Bases reguladoras del programa de ayudas a la generación
+eléctrica para autoconsumo y la electrificación de los consumos térmicos
+mediante energías renovables
+Primera. Objeto del programa, régimen jurídico y naturaleza de la ayuda
+El Departamento de Industria, Transición Energética y Sostenibilidad, de conformidad
+con los objetivos de la Política Energética del Gobierno Vasco, materializados en el
+documento Estrategia Energética de Euskadi 2030 (3E2030), tiene como misión
+contribuir, mediante el necesario impulso público, a aumentar la eficiencia en el
+consumo de energía y, con ello, a la consecución de un sistema energético más
+competitivo, sostenible y seguro, al disminuir el impacto ambiental, requerir menos
+energía para el consumo o la producción y reducir la dependencia de recursos
+energéticos externos.
+El Ente Vasco de la Energía (en adelante EVE), Ente Público de Derecho Privado
+adscrito al Departamento de Industria, Transición Energética y Sostenibilidad, tiene a
+su cargo, la planificación, la coordinación y el control de las actividades y actuaciones
+del sector público de la Comunidad Autónoma del País Vasco (en adelante CAPV) en el
+campo de la energía de acuerdo con las directrices del Gobierno Vasco en el ámbito de
+sus competencias.
+A fin de promover el despliegue de las energías renovables eléctricas en el territorio de
+la CAPV, y con el objeto adicional de paliar y mitigar los efectos derivados del conflicto
+en Irán y la inestabilidad en los precios energéticos, constituye el objeto de este
+programa de ayudas a la generación eléctrica para autoconsumo y la electrificación de
+los consumos térmicos mediante energías renovables - EGUZKI HOTZ (en adelante
+Programa). Esta consideración entronca con la reciente decisión del Consejo de
+Gobierno por la que se han activado, en un primer paquete de medidas del escudo
+industrial de Euskadi, con 1.047 millones de euros con una subida del 51,4 % en ayudas
+para la transformación y diversificación de las pymes, señalando como uno de los ejes
+de ayuda la “Autonomía energética”, que constituye uno de los objetivos básicos del
+EVE. Las medidas presentadas por el Consejo de Gobierno buscan dar respuesta a las
+principales necesidades trasladadas por los representantes de la industria vasca para
+hacer frente a las consecuencias del conflicto de Oriente Medio.
+Ante la necesidad de adaptación al cambio climático de Euskadi y de preparación de los
+edificios frente a las altas temperaturas sin que ello suponga aumentar la dependencia
+energética y la factura eléctrica, es necesaria la incentivación para la implantación de
+sistemas de climatización sostenible “Eguzki Hotz” a toda la ciudadanía vasca. En este
+sentido, se pretende facilitar la instalación de sistemas de climatización más eficientes
+y sostenibles, capaces de mejorar la temperatura y el bienestar ante las olas de calor
+cada vez más frecuentes.
+En cumplimiento de lo dispuesto en el artículo 8.1 de la Ley 38/2003, de 17 de
+noviembre, General de Subvenciones (en adelante LGS), y lo establecido en el artículo
+6.1 de la Ley 20/2023, de 21 de diciembre, Reguladora del Régimen de Subvenciones,
+el Consejo de Dirección del EVE celebrado el día 5 de febrero de 2025 aprobó el Plan
+Estratégico de Subvenciones de EVE (en adelante PES) para los años 2025-2028, el
+cual contempla el programa de ayudas a la generación eléctrica para autoconsumo y la
+electrificación de los consumos térmicos mediante energías renovables.
+El presente Programa se integra en el PES del EVE vigente. Las actuaciones
+subvencionables contribuyen a sus objetivos mediante el impulso de la generación
+2026/4653 (3/63)
+N.º 211
+BOLETÍN OFICIAL DEL PAÍS VASCO
+miércoles 4 de noviembre de 2026
+eléctrica renovable para autoconsumo, el almacenamiento asociado y la electrificación
+renovable de los consumos térmicos. La iniciativa Eguzki Hotz contribuye, en los
+términos definidos en el PES, a la adaptación de los edificios, al bienestar térmico y a la
+reducción de la dependencia energética. La contribución se medirá mediante los
+indicadores establecidos en el PES.
+En lo que respecta a este Programa la previsión de objetivos del mismo y en qué modo
+contribuye a dicho Plan, es como sigue:
+1. Número de proyectos subvencionados: 13.000
+2. Potencia eléctrica instalada: 150 MW
+3. Capacidad de almacenamiento eléctrico instalado: 136 MWh
+4. Potencia térmica instalada: 100 MW
+El Plan Estratégico de Subvenciones del EVE vigente se encuentra disponible en la
+siguiente dirección: https://www.eve.eus/Corporativo/Portal-deTransparencia/EVE.aspx
+Segunda. Carácter de las ayudas concedidas.
+Las ayudas que se concedan tendrán la consideración de subvenciones a fondo perdido.
+Tercera. Normativa comunitaria aplicable.
+1. El presente Programa y las subvenciones que se concedan en su aplicación, son
+compatibles con el mercado interior, a tenor de lo establecido en el apartado 3 del
+artículo 107 del Tratado de Funcionamiento de la Unión Europea, estando exentas
+de la obligación de notificación a la Comisión establecida en el artículo 108 de dicho
+tratado.
+Para el supuesto de solicitantes que tengan la consideración de empresa conforme
+al Reglamento (UE) n.º 651/2014 de la Comisión, de 26 de junio de 2014 (en
+adelante Reglamento 651/2014), por el que se declaran determinadas categorías
+de ayuda compatibles con el mercado común en aplicación de los artículos 107 y
+108 del Tratado (DOUE 2014 L 187), las ayudas previstas en este Programa se
+enmarcan en el ámbito del citado reglamento, así como a la normativa europea que,
+en su caso, lo modifique, prorrogue o sustituya, y en particular, en el artículo 41 del
+Reglamento 651/2014 «Ayudas a la inversión para la promoción de la energía
+procedente de fuentes renovables (...)» conforme a su redacción última derivada de
+las modificaciones incorporadas por el Reglamento 2023/1315, de 23 de junio de
+2023, por el que se modifica el Reglamento 651/2014 y el Reglamento 2022/2473
+(DOUE L 167/1).
+La concesión de las ayudas quedará condicionada, en todo caso, a la existencia de
+un marco jurídico de ayudas de Estado que otorgue cobertura a las mismas y al
+cumplimiento de los requisitos y condiciones establecidos en la normativa europea
+que resulte aplicable.
+En caso de modificación, prórroga o sustitución del Reglamento (UE) n.º 651/2014
+durante la vigencia del Programa, las ayudas que se concedan con posterioridad se
+someterán a la normativa europea que resulte de aplicación, sin perjuicio de las
+modificaciones de las presentes bases que, en su caso, resulten necesarias para
+garantizar su adecuación a dicha normativa.
+2026/4653 (4/63)
+N.º 211
+BOLETÍN OFICIAL DEL PAÍS VASCO
+miércoles 4 de noviembre de 2026
+2.
+3.
+A los efectos del presente Programa, y a tenor de lo regulado en los artículos 1 y 2
+del anexo I «Definición de pyme» del Reglamento 651/2014, se entiende por
+empresa: «Toda entidad, independientemente de su forma jurídica, que ejerza una
+actividad económica (entendida la misma como cualquier actividad consistente en
+ofrecer bienes y servicios en un determinado mercado). En particular, se
+considerarán empresas las entidades que ejerzan una actividad artesanal u otras
+actividades a título individual o familiar, así como las sociedades de personas y las
+asociaciones que ejerzan una actividad económica de forma regular».
+Los proyectos objeto de ayuda que estén enmarcados en el Reglamento 651/2014
+deberán demostrar que el apoyo del presente Programa tiene un efecto incentivador
+(artículo 6 del Reglamento 651/2014). A estos efectos, se considerará que las
+ayudas tienen un efecto incentivador si la persona beneficiaria, antes de comenzar
+a trabajar en el proyecto o actividad objeto de subvención, ha presentado una
+solicitud de ayuda que contiene, al menos, la información señalada en el artículo
+6.2 del Reglamento 651/2014. En consecuencia, no se aceptarán solicitudes de
+proyectos o trabajos que estén enmarcados en el Reglamento 651/2014 y que ya
+hayan comenzado a ejecutarse con anterioridad a la solicitud de ayuda,
+entendiendo como el inicio del proyecto o de los trabajos la definición del artículo
+2.23) del Reglamento 651/2014. Por ello, se exigirá que cualquier compromiso en
+firme de ejecución, presupuestos aceptados, pedidos, contratos, facturas y
+justificantes de pago correspondientes a la ejecución de las actuaciones
+subvencionables sean posteriores a las solicitudes de ayuda para el caso de
+personas beneficiarias que realicen una actividad económica por la que ofrezcan
+bienes o servicios en el mercado.
+Cuarta. Requisitos para acceder a la condición de personas beneficiarias.
+1. Podrán acceder a la condición de persona beneficiaria de una ayuda, según lo
+previsto para cada tipología de actuación:
+a) Personas físicas o personas jurídicas, de naturaleza privada, que no realicen
+ninguna actividad económica por la que ofrezcan bienes y/o servicios en el
+mercado.
+b) Personas jurídicas, de naturaleza privada, o personas físicas que realicen una
+actividad económica por la que ofrezcan bienes o servicios en el mercado.
+c) Consorcios, asociaciones o agrupaciones de empresas o de personas físicas,
+con o sin personalidad jurídica, incluyendo, entre otros:
+1º Comunidades de propietarios/as del sector residencial, regu
