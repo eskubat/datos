@@ -351,7 +351,10 @@ async function main() {
   // No se publica en la app: se guarda en cache/fuentes/<id>.txt y la lee la tarea de resumen.
   const docUrl = (id) => `https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=${id}`;
   let docs = {};
-  try { docs = await documentacion(ayudas, { log, extra: (a) => (a._docs || []).map(docUrl) }); } catch (e) { log(`Documentación: ${e.message}`); }
+  // Documentos oficiales añadidos a mano o por la tarea de resumen (BOPV, BOTHA, BOB, BOG…): cache/docs_extra.json = {id: [url, …]}
+  let docsExtra = {};
+  try { docsExtra = JSON.parse(fs.readFileSync(path.join('cache', 'docs_extra.json'), 'utf8')); } catch {}
+  try { docs = await documentacion(ayudas, { log, extra: (a) => [...(docsExtra[a.id] || []), ...(a._docs || []).map(docUrl)] }); } catch (e) { log(`Documentación: ${e.message}`); }
   const fuentes = {};
   const DIR_F = path.join('cache', 'fuentes');
   fs.mkdirSync(DIR_F, { recursive: true });
