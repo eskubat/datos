@@ -21,6 +21,8 @@ function limpiaOrgano(s) {
 
 export function clasifica(n1, n2, n3) {
   const a = norm(n1), b = norm(n2), c = norm(n3);
+  // Administración del Estado: se filtran después por regiones (solo toda España o el País Vasco)
+  if (/^estado/.test(a)) return { nivel: 'estado', nombre: 'España' };
   if (/auton/.test(a)) {
     if (/pais vasco|euskadi|euskal autonomia/.test(b) || /pais vasco|euskadi/.test(c)) return { nivel: 'euskadi', nombre: 'Toda Euskadi' };
     return null;
@@ -40,7 +42,7 @@ export function clasifica(n1, n2, n3) {
 }
 
 // Subvenciones que no se pueden solicitar: nominativas, directas, convenios con una entidad concreta...
-export const RUIDO = /nominativ|se resuelven?\b|resoluci[oó]n de (la )?concesi|desiert|subvenciones directas|funcionamiento y actividades de la |izendun|a favor d|convenio|hitzarmen|concesi[oó]n directa|subvenci[oó]n (foral )?directa|subv\.? ?directa|foral directa|se concede|de concesi[oó]n de|aprobar (un|el) gasto|aportaci[oó]n (econ[oó]mica )?(a|al|para) |transferencia|adenda|addenda|excepcional|en especie|reintegro|justificaci[oó]n/i;
+export const RUIDO = /nominativ|convocatoria instrumental|programa ind[ií]gena|se resuelven?\b|resoluci[oó]n de (la )?concesi|desiert|subvenciones directas|funcionamiento y actividades de la |izendun|a favor d|convenio|hitzarmen|concesi[oó]n directa|subvenci[oó]n (foral )?directa|subv\.? ?directa|foral directa|se concede|de concesi[oó]n de|aprobar (un|el) gasto|aportaci[oó]n (econ[oó]mica )?(a|al|para) |transferencia|adenda|addenda|excepcional|en especie|reintegro|justificaci[oó]n/i;
 
 // "Decreto Foral 73/2026, de 23 de julio, ..., por el que se aprueban las bases reguladoras y la convocatoria de subvenciones para X" -> "Subvenciones para X"
 export function limpiaTitulo(t) {
@@ -142,10 +144,14 @@ export async function recoger(log) {
   for (const [k, n] of Object.entries(diag).sort((a, b) => b[1] - a[1]).slice(0, 40)) log(`  diag ${n} · ${k}`);
 
   const det = await enParalelo(indice, 3, ({ it }) => api(`/convocatorias?vpd=GE&numConv=${it.numeroConvocatoria}`));
+  const estatalOk = (d) => (d.regiones || []).some((r) => /^ES\s*-|^ES2(1\d?)?\s*-/.test(String(r.descripcion || '').trim()));
+  let fueraEstado = 0;
   return indice.map(({ it, amb }, k) => {
     let d = det[k] || {};
     if (Array.isArray(d)) d = d[0] || {};
     if (d.content && Array.isArray(d.content)) d = d.content[0] || {};
+    // Estatales: solo las que se pueden pedir desde Euskadi (región «ES - España» o País Vasco)
+    if (amb.nivel === 'estado' && !estatalOk(d)) { fueraEstado++; return null; }
     const num = String(it.numeroConvocatoria);
     const titulo = limpiaTitulo(it.descripcion || d.descripcion || '');
     const benef = lista(d.tiposBeneficiarios);
@@ -172,6 +178,7 @@ export async function recoger(log) {
       titulo,
       tituloEu: it.descripcionLeng ? frase(it.descripcionLeng) : '',
       organismo,
+      ministerio: amb.nivel === 'estado' ? (it.nivel2 || '') : undefined,
       ambito: amb,
       inicio: iso(d.fechaInicioSolicitud) || inicioCalc,
       fin: iso(d.fechaFinSolicitud) || finCalc,
@@ -207,5 +214,5 @@ export async function recoger(log) {
       ].filter(Boolean).join('\n'),
       errorFicha: det[k] && det[k].error ? det[k].error : undefined,
     };
-  });
+  }).filter(Boolean);
 }
