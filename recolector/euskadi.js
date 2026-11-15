@@ -49,7 +49,7 @@ export function parseFicha(html) {
   const idx = t.indexOf('\nObjeto\n');
   const cuerpo = idx >= 0 ? t.slice(idx) : t;
   const organismo = (t.match(/Organismo:\s*\n?([^\n]+)/) || [])[1] || '';
-  const objeto = entre(cuerpo, /^Objeto$/, /^(Dotación presupuestaria|Prestación económica|A quién va dirigido|Requisitos|Normativa)$/);
+  const objeto = entre(cuerpo, /^Objeto$/, /^(Dotación presupuestaria|Prestación económica|A quién va dirigido|Requisitos|Normativa|Información de contacto|Código|Organismos|Tramitación)$/);
   const dotacion = entre(cuerpo, /^Dotación presupuestaria$/, /^(Prestación económica|A quién va dirigido|Requisitos|Normativa|Forma de pago:?)$/);
   const prestacion = entre(cuerpo, /^Prestación económica$/, /^(A quién va dirigido|Requisitos|Forma de pago:?|Normativa)$/);
   const dirigido = entre(cuerpo, /^A quién va dirigido$/, /^(Requisitos:?|Información detallada|Normativa|Organismos|Información de contacto|Tramitación)$/);

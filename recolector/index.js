@@ -125,9 +125,20 @@ async function main() {
   try { await enriquecer(ayudas.filter((a) => a.origen !== 'euskadi')); } catch (e) { log(`Aviso: no se pudieron completar fichas: ${e.message}`); }
   // Fuera las que no puede solicitar cualquiera (nominativas, directas, a una entidad concreta)
   const antes = ayudas.length;
-  ayudas = ayudas.filter((a) => !bdns.RUIDO.test(a.titulo) && !/no es una convocatoria (de subvenciones )?abierta|s[oó]lo pueden (formalizar|presentar)[^.]{0,60}(presupuestos|nominativ)/i.test(a.resumen || '') && !/^(?:[Ss]ubvenci[oó]n|[Aa]yuda|[Aa]portaci[oó]n) (?:a|al|para) (?:la |el )?[A-ZÑ]{2,}\b/.test(a.titulo));
+  ayudas = ayudas.filter((a) => !bdns.RUIDO.test(a.titulo) && !/a efectos de mera noticia|se incluye en secci[oó]n de convocatorias para una mayor visibilidad/i.test(a.resumen || '') && !/no es una convocatoria (de subvenciones )?abierta|s[oó]lo pueden (formalizar|presentar)[^.]{0,60}(presupuestos|nominativ)/i.test(a.resumen || '') && !/^(?:[Ss]ubvenci[oó]n|[Aa]yuda|[Aa]portaci[oó]n) (?:a|al|para) (?:la |el )?[A-ZÑ]{2,}\b/.test(a.titulo));
   log(`Descartadas ${antes - ayudas.length} no solicitables`);
-  const limpiaTexto = (t) => String(t || '')
+  // Líneas que no informan al solicitante: avisos en mayúsculas, códigos internos, enlaces a otras secciones
+  const lineaUtil = (l) => {
+    const t = l.trim();
+    if (!t) return false;
+    const letras = t.replace(/[^A-Za-zÁÉÍÓÚÑÜáéíóúñü]/g, '');
+    if (letras.length > 25 && letras === letras.toUpperCase()) return false;
+    if (/^(información de contacto|código|organismos?|normativa|tramitación|ver más|más información)$/i.test(t)) return false;
+    if (!/\s/.test(t) && t.length > 12) return false;
+    if (/^revie\b|red vasca de información europea|acceso a otros contenidos/i.test(t)) return false;
+    return true;
+  };
+  const limpiaTexto = (t) => String(t || '').split('\n').filter(lineaUtil).join('\n')
     .replace(/\s*N\.?\s*º\s*\d+\s+\w+\s+\d{1,2} de \w+ de \d{4}\s+BOLET[IÍ]N OFICIAL DEL PA[IÍ]S VASCO\s+\d{4}\/\d+\s*\(\d+\/\d+\)\s*/gi, ' ')
     .replace(/\s*BOLET[IÍ]N OFICIAL (?:DEL PA[IÍ]S VASCO|DE BIZKAIA|DE GIPUZKOA|DEL TERRITORIO HIST[OÓ]RICO DE [AÁ]LAVA)[^\n]{0,60}/gi, ' ')
     .replace(/[ \t]{2,}/g, ' ').trim();
