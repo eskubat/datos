@@ -20,12 +20,22 @@
   "seccion": "fuentes"
  },
  {
+  "id": "prestaciones",
+  "titulo": "Añadir las prestaciones permanentes",
+  "detalle": "Decisión del responsable (cuestión «¿Entran en la app las prestaciones permanentes?»): sí, como «ayudas permanentes», sin fecha de cierre y con su ficha como las demás. Empezar por las de Euskadi y las estatales más pedidas: Ingreso Mínimo Vital, Renta de Garantía de Ingresos, prestaciones por hijo, bono social eléctrico y similares. Añadir una fuente (lista de sus páginas oficiales en Lanbide, Seguridad Social, euskadi.eus…) para que el recolector las descargue y entren en pendientes con fin vacío.",
+  "fuente": "Prestaciones permanentes (Lanbide, Seguridad Social, Gobierno Vasco)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "seccion": "fuentes",
+  "prioridad": 3
+ },
+ {
   "id": "spri",
   "titulo": "Medir la cobertura de SPRI",
   "detalle": "Comparar el catálogo de ayudas de SPRI con lo que ya llega por euskadi.eus y la BDNS. Si faltan, añadir un lector de su web.",
   "fuente": "SPRI",
   "quien": "Claude",
-  "prioridad": 3,
+  "prioridad": 4,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -35,7 +45,7 @@
   "detalle": "Igual que SPRI, para las ayudas de energía del Ente Vasco de la Energía.",
   "fuente": "EVE",
   "quien": "Claude",
-  "prioridad": 4,
+  "prioridad": 5,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -45,9 +55,19 @@
   "detalle": "Ver qué publica la sede electrónica que no llegue por la BDNS ni el BOB (ayudas permanentes, fichas de trámite) y añadir lector si compensa.",
   "fuente": "Diputación Foral de Bizkaia",
   "quien": "Claude",
-  "prioridad": 5,
+  "prioridad": 6,
   "estado": "pendiente",
   "seccion": "fuentes"
+ },
+ {
+  "id": "ue-directas",
+  "titulo": "Publicar las convocatorias europeas que se piden sin consorcio",
+  "detalle": "Decisión del responsable (cuestión «¿Qué convocatorias europeas se publican en la app?»): del Funding & Tenders Portal, publicar solo las que puede pedir directamente una persona, una pyme, una asociación o un ayuntamiento vasco sin formar un consorcio internacional (becas, premios, ayudas a pymes, programas Erasmus+ locales); dejar fuera las de investigación en consorcio. Hoy solo entran las que aparecen en las noticias de euskadi.eus: leer el portal, filtrar con ese criterio y meter en pendientes las que pasen.",
+  "fuente": "Funding & Tenders Portal (Comisión Europea)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "seccion": "fuentes",
+  "prioridad": 7
  },
  {
   "id": "capitales",
@@ -55,7 +75,7 @@
   "detalle": "Las tres capitales solo entran por la BDNS y los boletines. Buscar datos abiertos o páginas legibles de sus catálogos de ayudas.",
   "fuente": "Ayuntamientos de las capitales",
   "quien": "Claude",
-  "prioridad": 6,
+  "prioridad": 8,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -65,7 +85,7 @@
   "detalle": "Behargintza, Inguralde, Debegesa y similares: comparar lo que publican con lo que ya llega por la BDNS.",
   "fuente": "Agencias de desarrollo comarcal",
   "quien": "Claude",
-  "prioridad": 7,
+  "prioridad": 9,
   "estado": "pendiente",
   "seccion": "fuentes"
  },
@@ -75,7 +95,7 @@
   "detalle": "Ahora solo se lee la primera página. Se hará cuando Open Data Euskadi dé acceso, para no forzar sus servidores.",
   "fuente": "Gobierno Vasco",
   "quien": "Claude",
-  "prioridad": 8,
+  "prioridad": 10,
   "estado": "bloqueada",
   "nota": "Espera al acceso de Open Data Euskadi (tarea tuya).",
   "seccion": "fuentes"

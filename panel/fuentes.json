@@ -48,9 +48,10 @@
    "clave": "",
    "nombre": "Funding & Tenders Portal (Comisión Europea)",
    "que": "Convocatorias europeas abiertas y próximas.",
-   "como": "Búsqueda pública. No se publican todas: sirven para cotejar noticias, y la tarea añade las que encajan.",
-   "pendiente": "",
-   "quien": "Tú"
+   "como": "Búsqueda pública. Solo se publican las que puede pedir directamente una persona, una pyme, una asociación o un ayuntamiento vasco sin formar un consorcio internacional; hoy entran a través de las noticias.",
+   "pendiente": "Leer el portal entero con ese filtro: está en el plan de Claude.",
+   "quien": "Tú",
+   "tarea": "ue-directas"
   },
   {
    "clave": "",
@@ -116,6 +117,13 @@
    "hacer": "Medir qué falta comparando con la BDNS.",
    "quien": "Claude",
    "tarea": "comarcales"
+  },
+  {
+   "nombre": "Prestaciones permanentes (IMV, RGI, prestaciones por hijo, bono social…)",
+   "por": "La gente las busca como ayudas aunque se piden en cualquier momento. Se publican como ayudas permanentes, sin fecha de cierre.",
+   "hacer": "Empezar por las de Euskadi y las estatales más pedidas: está en el plan de Claude.",
+   "quien": "Claude (código)",
+   "tarea": "prestaciones"
   }
  ]
 }
