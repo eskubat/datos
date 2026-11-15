@@ -429,8 +429,8 @@ const TIPOS = {plazo:"Plazo",organismo:"Organismo",documentacion:"Documentación
 const TIPO_SOL = {particular:"Particulares",autonomo:"Autónomos",empresa:"Empresas",asociacion:"Asociaciones",ayuntamiento:"Entidades públicas",general:"General"};
 const NIVEL = {euskadi:"Gobierno Vasco",territorio:"Diputaciones",municipio:"Ayuntamientos",estado:"Estado",ue:"Unión Europea"};
 const EST_AY = {abierta:"Abierta",proxima:"Próxima",sinfecha:"Sin fecha"};
-const VISTAS = {w:"#inicio",m:"#mejora-continua",b:"#base-de-datos",l:"#lista-de-ayudas",c:"#cuestiones",i:"#instrucciones",f:"#fuentes"};
-const TITULOS = {m:"Mejora continua",b:"Datos",l:"Datos · lista de ayudas",c:"Cuestiones abiertas",i:"Instrucciones",f:"Fuentes"};
+const VISTAS = {w:"#inicio",m:"#correccion-y-mejora",b:"#base-de-datos",l:"#lista-de-ayudas",c:"#cuestiones",i:"#instrucciones",f:"#fuentes"};
+const TITULOS = {m:"Corrección y mejora",b:"Datos",l:"Datos · lista de ayudas",c:"Revisión",i:"Instrucciones",f:"Fuentes"};
 const S = {vista:"w", docs:[], filtro:"abierta", areaF:"", q:"", sel:null, db:null, sample:null, selB:null, verB:null, fl:{}, selec:new Set(), selI:"categorizacion"};
 const $ = (s, el=document) => el.querySelector(s);
 const esc = (t) => String(t ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -449,11 +449,12 @@ const AREAS={fuentes:"Fuentes",datos:"Datos",eskubat:"Eskubat (app y diseño)"};
 function areaDe(d){ if(d.area&&AREAS[d.area]) return d.area; if(d.ayudaId||(d.ayudas&&d.ayudas.length)) return "datos"; if(/^fuente|fundaci|prestaci|europe|open data|bopv|recolector/i.test((d.titulo||"")+" "+(d.motivo||"").slice(0,80))) return "fuentes"; if(/dise[ñn]o|logo|pantalla|app\b|aplicaci[oó]n|icono|color/i.test(d.titulo||"")) return "eskubat"; return "datos"; }
 /* ================= PLAN Y PENDIENTES ================= */
 function proxMes(){ const d=new Date(); const n=new Date(d.getFullYear(),d.getMonth()+(d.getDate()===1&&d.getHours()<2?0:1),1,2,41); return n; }
-function proximaNoche(){ const d=new Date(); const n=new Date(d); n.setHours(3,17,0,0); if(n<=d) n.setDate(n.getDate()+1); return n; }
+function proximaNoche(){ const d=new Date(); const n=new Date(d); n.setMinutes(17,0,0); if(n<=d) n.setHours(n.getHours()+1); return n; }
+function cuandoT(d){ const h=d.toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"}); const dd=Math.round((new Date(d.getFullYear(),d.getMonth(),d.getDate())-new Date(new Date().toDateString()))/864e5); return (dd===0?"hoy":dd===1?"mañana":d.toLocaleDateString("es-ES",{weekday:"short",day:"numeric"}))+", "+h; }
 function planClaude(sec){
   const T=(D.tareas||[]).filter(t=>t.quien!=="Tú"&&(!sec||(t.seccion||"fuentes")===sec)); const pend=(D.tareas||[]).filter(t=>t.quien!=="Tú"&&t.estado==="pendiente").sort((a,b)=>a.prioridad-b.prioridad);
   const n0=proximaNoche();
-  return T.map(t=>{ const i=pend.indexOf(t); return {...t, previsto: i>=0?new Date(n0.getTime()+i*864e5):null}; })
+  return T.map(t=>{ const i=pend.indexOf(t); return {...t, previsto: i>=0?new Date(n0.getTime()+i*3600e3):null}; })
     .sort((a,b)=>({en_curso:0,pendiente:1,bloqueada:2,hecha:3}[a.estado]-{en_curso:0,pendiente:1,bloqueada:2,hecha:3}[b.estado])||a.prioridad-b.prioridad);
 }
 const EST_T={pendiente:"Planificada",en_curso:"En curso",hecha:"Hecha",bloqueada:"Bloqueada"};
@@ -465,7 +466,7 @@ function filaPlan(t){
     :`<button class="btn" data-ej="${esc(t.id)}">Ejecutar ahora</button>`;
   return `<li class="plan-i ${t.estado}"><span class="chip ${t.estado==="hecha"?"aplicada":t.estado==="bloqueada"?"":"lista"}">${EST_T[t.estado]||t.estado}</span>
     <div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span>${t.nota?`<span class="pn3">${linkify(t.nota)}</span>`:""}</div>
-    <span class="cuando">${t.estado==="pendiente"&&t.previsto?"Noche del "+fechaCorta(new Date(t.previsto.getTime()-864e5)):t.estado==="hecha"&&t.fecha?"Hecha el "+fmtFecha(t.fecha):""}${btn?`<br>${btn}`:""}</span></li>`;
+    <span class="cuando">${t.estado==="pendiente"&&t.previsto?"Prevista "+cuandoT(t.previsto):t.estado==="hecha"&&t.fecha?"Hecha el "+fmtFecha(t.fecha):""}${btn?`<br>${btn}`:""}</span></li>`;
 }
 function paraTi(){
   const C=S.docs.filter(d=>(d.estado||"abierta")==="abierta").sort((a,b)=>{const da=diasHasta(a.fin),db=diasHasta(b.fin);return (da==null?999:da)-(db==null?999:db);});
@@ -482,7 +483,7 @@ function renderInicio(){
   const t=D.cola||{}; const c={abierta:0,lista:0}; S.docs.forEach(d=>{const e=d.estado||"abierta"; if(c[e]!=null) c[e]++;});
   const ca={}; S.docs.filter(d=>(d.estado||"abierta")==="abierta").forEach(d=>{const a=areaDe(d); ca[a]=(ca[a]||0)+1;});
   const diaria=D.tarea&&D.tarea.modo==="diaria";
-  const W=200, H=154, X=i=>i*400, Y=[0,262,466];
+  const W=200, H=154, X=i=>i*400, Y=[0,262];
   const IC={
     fuentes:"M3 21h18M5 21V10M19 21V10M9 21V10M15 21V10M2 10l10-6 10 6",
     base:"M12 3c4.4 0 8 1.3 8 3s-3.6 3-8 3-8-1.3-8-3 3.6-3 8-3zM4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3",
@@ -494,11 +495,10 @@ function renderInicio(){
   const PASO={fuentes:[1,"Recolectar","Cada día a las 05:41 el recolector lee todas las fuentes oficiales. Las ayudas nuevas o cambiadas quedan pendientes de revisar."],
     base:[2,"Revisar","Cada hora Claude lee entera la documentación de las ayudas pendientes y redacta sus fichas por tipo de solicitante."],
     app:[3,"Publicar","Las fichas revisadas se publican en la app, en castellano y euskera."],
-    cuestiones:["?","Decidir","Dudas, errores e ideas de cualquier parte: de Fuentes, de Datos o de la app. Tú decides si es una corrección o una mejora."]};
+    cuestiones:["?","Decidir","Dudas, errores e ideas de cualquier parte: de Fuentes, de Datos o de la app. Tú confirmas, explicas qué cambiar o lo descartas."],mejora:["↻","Aplicar","Claude lo aplica cada hora y se publica."]};
   const QUIEN={fuentes:[["robot","Recolector · diario","Un programa automático lee todas las fuentes cada día."]],
     base:[["persona",diaria?"Claude · cada día":"Claude · cada hora","Claude revisa las ayudas nuevas o cambiadas y redacta sus fichas."]],
-    correccion:[["persona",diaria?"Claude · cada día":"Claude · cada hora","En su pasada, Claude aplica primero las correcciones decididas."]],
-    mejora:[["persona","Claude · cada noche","Una tarea del plan cada noche; cada mes Claude repasa el plan."]]};
+    mejora:[["persona","Claude · cada hora","Cada hora Claude aplica las correcciones decididas y hace una mejora del plan; cada mes repasa el plan."]]};
   const ICQ={persona:"M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21a8 8 0 0 1 16 0",robot:"M5 8h14v11H5zM12 4v4M9 13h.01M15 13h.01M9 16h6M3 12v3M21 12v3"};
   const nodo=(k,x,y,cls,go,tt,st,n,ir)=>{
     const p=PASO[k], q=QUIEN[k];
@@ -518,34 +518,29 @@ function renderInicio(){
   const bus=Y[0]+H+48, cx=X(0)+W/2;
   const listas=S.docs.filter(d=>d.estado==="lista").length, aplic=S.docs.filter(d=>d.estado==="aplicada").length;
   const PL=(D.tareas||[]).filter(t=>t.quien!=="Tú"), plP=PL.filter(t=>t.estado==="pendiente").length, plH=PL.filter(t=>t.estado==="hecha").length;
-  const ret=X(2)+W+34, yC=Y[1]+H/2, yM=Y[2]+H/2;
+  const ret=X(2)+W+34, yC=Y[1]+H/2;
   $("#detalle").innerHTML=`<div class="flujo">
     <div><h2>Cómo se mantienen al día las ayudas de Eskubat</h2>
-    <p class="intro">Arriba, el trabajo de cada día: se leen las fuentes, Claude revisa las ayudas y se publican en Eskubat. Abajo, el bucle de mejora: cualquier duda, error o idea, salga de donde salga, llega a Cuestiones; tú decides si es una <b>corrección</b> (Claude la aplica en la próxima pasada) o una <b>mejora</b> (entra en el plan y Claude la hace una noche). Después la herramienta queda corregida y se publica. Pulsa una caja para abrirla.</p></div>
-    <div class="lienzo"><svg viewBox="-12 -24 1090 652" role="img" aria-label="Flujo de trabajo de Eskubat">
+    <p class="intro">Arriba, el trabajo de cada día: se leen las fuentes, Claude revisa las ayudas y se publican en Eskubat. Abajo, el bucle de mejora: cualquier duda, error o idea, salga de donde salga, llega a <b>Revisión</b>, donde decides; Claude lo aplica cada hora, sea una corrección de datos o una mejora de fuentes o de la app, y se publica. Pulsa una caja para abrirla.</p></div>
+    <div class="lienzo"><svg viewBox="-12 -24 1090 470" role="img" aria-label="Flujo de trabajo de Eskubat">
       <defs><marker id="pt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--muted)"/></marker>
         <marker id="pt2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--or)"/></marker></defs>
-      <rect class="banda" x="-8" y="${bus-22}" width="1080" height="${Y[2]+H-bus+38}" rx="16"/>
-      <text class="banda-t" x="8" y="${bus-4}">BUCLE DE MEJORA</text>
+      <rect class="banda" x="-8" y="${bus-22}" width="1080" height="${Y[1]+H-bus+38}" rx="16"/>
+      <text class="banda-t" x="1062" y="${Y[1]+H+8}" text-anchor="end">BUCLE DE MEJORA</text>
       ${[0,1].map(i=>fl(`M${X(i)+W+2},${r} L${X(i+1)-3},${r}`)).join("")}
       ${[0,1,2].map(i=>`<path class="flecha bus" d="M${X(i)+W/2},${Y[0]+H+2} L${X(i)+W/2},${bus}"/>`).join("")}
       <path class="flecha bus" d="M${X(0)+W/2},${bus} L${X(2)+W/2},${bus}"/>
       <text class="lbl" x="${(X(1)+X(2))/2+W/2}" y="${bus+17}" text-anchor="middle">dudas, errores e ideas de cualquier parte</text>
       ${fl(`M${cx},${bus} L${cx},${Y[1]-3}`,"bus")}
       ${fl(`M${X(0)+W+2},${yC} L${X(1)-3},${yC}`)}
-      <text class="lbl" x="${X(0)+W+100}" y="${yC-8}" text-anchor="middle">corrección</text>
-      ${fl(`M${X(0)+W/2+40},${Y[1]+H+2} L${X(0)+W/2+40},${yM} L${X(1)-3},${yM}`)}
-      <text class="lbl" x="${X(0)+W+100}" y="${yM-8}" text-anchor="middle">mejora</text>
-      <path class="flecha ret" d="M${X(1)+W+2},${yC} L${ret},${yC}"/>
-      <path class="flecha ret" d="M${X(1)+W+2},${yM} L${ret},${yM} L${ret},${yC}"/>
-      ${fl(`M${ret},${yC} L${ret},${r} L${X(2)+W+3},${r}`,"ret")}
+      <text class="lbl" x="${X(0)+W+100}" y="${yC-8}" text-anchor="middle">decidido</text>
+      ${fl(`M${X(1)+W+2},${yC} L${ret},${yC} L${ret},${r} L${X(2)+W+3},${r}`,"ret")}
       <text class="lbl ret-t" x="${ret+8}" y="${(yC+r)/2}" transform="rotate(90 ${ret+8} ${(yC+r)/2})" text-anchor="middle">corregido y publicado</text>
       ${nodo("fuentes",X(0),Y[0],"","f","Fuentes",[],(D.fuentes.consultadas||[]).reduce((s,g)=>s+(g.filas||[1]).length,0)+" fuentes","Ver")}
       ${nodo("base",X(1),Y[0],"claude","b","Datos",[`${num(hc)} revisadas · ${num(t.fichas||0)} por revisar`,diaria?"Revisión una vez al día":"Próxima pasada "+proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})],num(D.ayudas.length),"Abrir")}
-      ${nodo("app",X(2),Y[0],"","ce","Eskubat",["La app: ayudas en castellano","y euskera, y su diseño"],null,"Cuestiones")}
-      ${nodo("cuestiones",X(0),Y[1],"clave","c","Cuestiones",[`Fuentes ${ca.fuentes||0} · Datos ${ca.datos||0}`,`Eskubat ${ca.eskubat||0}`],`${c.abierta}<tspan class="nu"> abiertas</tspan>`,"Decidir")}
-      ${nodo("correccion",X(1),Y[1],"claude","cl","Corrección programada",["Fichas, datos y reglas,",`próxima pasada · ${aplic} hechas`],`${listas}<tspan class="nu"> en cola</tspan>`,"Ver")}
-      ${nodo("mejora",X(1),Y[2],"claude","m","Mejora continua",["Fuentes, recolector y app:",`una cada noche · ${plH} hechas`],`${plP}<tspan class="nu"> planificadas</tspan>`,"Ver")}
+      ${nodo("app",X(2),Y[0],"","ce","Eskubat",["La app: ayudas en castellano","y euskera, y su diseño"],null,"Revisión")}
+      ${nodo("cuestiones",X(0),Y[1],"clave","c","Revisión",[`Fuentes ${ca.fuentes||0} · Datos ${ca.datos||0}`,`Eskubat ${ca.eskubat||0}`],`${c.abierta}<tspan class="nu"> abiertas</tspan>`,"Decidir")}
+      ${nodo("mejora",X(1),Y[1],"claude","m","Corrección y mejora",[`${listas} correcciones en cola`,`${plP} mejoras planificadas`],`${aplic+plH}<tspan class="nu"> hechas</tspan>`,"Ver")}
     </svg></div>
     ${paraTi()}</div>`;
   $("#detalle").querySelectorAll("button[data-pc]").forEach(b=>b.onclick=()=>{ S.filtro="abierta"; cambiarVista("c"); seleccionar(b.dataset.pc); });
@@ -982,12 +977,16 @@ function renderMejora(){
   const kpi=(n,t,c="")=>`<span class="kpi ${c}"><b>${n}</b>${t}</span>`;
   const chip=q=>`<span class="quien ${/^Tú/.test(q)?"tu":"cl"}">${esc(q)}</span>`;
   $("#detalle").innerHTML=`<div class="flujo">
-    <p class="intro">Aquí llegan las cuestiones que tú decides convertir en mejora (cambian fuentes, el recolector, las reglas o la app) y lo que Claude encuentra en su revisión mensual. Claude las ejecuta de una en una cada noche.</p>
+    <p class="intro">Lo que decides en Revisión llega aquí y Claude lo aplica cada hora: las <b>correcciones</b> (fichas, datos y reglas) en la pasada de y 32, y las <b>mejoras</b> (fuentes, recolector, página) de una en una a y 17. También entra lo que Claude encuentra en su revisión mensual.</p>
     <div class="acst">${tuyas.length?kpi(tuyas.length,"para ti","av"):""}${kpi(pendC.length,"planificadas")}${bloq?kpi(bloq,"bloqueadas"):""}${hechas?kpi(hechas,"hechas","ok"):""}${pot.length?kpi(pot.length,"hallazgos con acción"):""}
-      ${prox?`<span class="prox">Siguiente: <b>${esc(prox.titulo)}</b> · noche del ${fechaCorta(new Date(prox.previsto.getTime()-864e5))}</span>`:""}
+      ${prox?`<span class="prox">Siguiente: <b>${esc(prox.titulo)}</b> · ${cuandoT(prox.previsto)}</span>`:""}
       <span class="prox" style="flex-basis:100%">Revisión mensual: ${M.ultima?`última el ${fmtFecha(M.ultima)}${M.nuevas?` (${M.nuevas} tareas nuevas)`:""} · `:""}próxima el ${proxMes().toLocaleDateString("es-ES",{day:"numeric",month:"long"})}</span></div>
     ${tuyas.length?`<section class="card parati"><h3>Para ti</h3><ul>${tuyas.map(t=>`<li><div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span></div><span class="chip">${EST_T[t.estado]||t.estado}</span></li>`).join("")}</ul></section>`:""}
-      <section class="card"><h3>Plan de Claude</h3><p class="hint" style="margin:0 0 10px">Una mejora cada noche a las 03:17, antes del recolector de las 05:41, en orden de prioridad. La noche siguiente Claude comprueba que funciona. «Ejecutar ahora» la adelanta.</p>${["fuentes","base","revision","eskubat"].map(s=>{ const L=plan.filter(t=>(t.seccion||"fuentes")===s); return L.length?`<h4 class="plansec">${SECC[s]}</h4><ul class="plan">${L.map(filaPlan).join("")}</ul>`:""; }).join("")}</section>
+      ${(()=>{ const L=S.docs.filter(d=>d.estado==="lista"), H=S.docs.filter(d=>d.estado==="aplicada").sort((a,b)=>(b.actualizada||"").localeCompare(a.actualizada||"")).slice(0,6);
+        return `<section class="card"><h3>Correcciones</h3><p class="hint" style="margin:0 0 10px">Se aplican en la próxima pasada, ${proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})}. Si exigen código, Claude las pasa al plan de mejoras.</p>
+        ${L.length?`<ul class="plan">${L.map(d=>`<li class="plan-i pendiente"><span class="chip lista">En cola</span><div><b>${esc(d.titulo||"(sin título)")}</b><span>${esc((d.instruccion||d.motivo||"").slice(0,220))}</span></div><span class="cuando"><button class="btn ghost" data-vc="${esc(d._id)}">Ver</button></span></li>`).join("")}</ul>`:`<p class="hint" style="margin:0">Ninguna en cola.</p>`}
+        ${H.length?`<h4 class="plansec">Últimas aplicadas</h4><ul class="plan">${H.map(d=>`<li class="plan-i hecha"><span class="chip aplicada">Hecha</span><div><b>${esc(d.titulo||"")}</b>${d.nota?`<span class="pn3">${linkify(d.nota)}</span>`:""}</div><span class="cuando"><button class="btn ghost" data-vc="${esc(d._id)}">Ver</button></span></li>`).join("")}</ul>`:""}</section>`; })()}
+      <section class="card"><h3>Plan de mejoras</h3><p class="hint" style="margin:0 0 10px">Una mejora cada hora (a y 17), en orden de prioridad. Las que tocan el recolector se comprueban a las 07:17, tras su lectura diaria de las 05:41. «Ejecutar ahora» la adelanta.</p>${["fuentes","base","revision","eskubat"].map(s=>{ const L=plan.filter(t=>(t.seccion||"fuentes")===s); return L.length?`<h4 class="plansec">${SECC[s]}</h4><ul class="plan">${L.map(filaPlan).join("")}</ul>`:""; }).join("")}</section>
       <section class="card"><h3>Reglas que sigue Claude</h3><p class="hint" style="margin:0 0 10px">Categorización, cómo resume y cómo escribe los títulos. Las correcciones de criterio que decides se escriben aquí.</p><button class="btn" data-vi="i">Ver las reglas</button></section>
       <section class="card idea"><h3>Propón una idea de mejora</h3>
         <p class="hint" style="margin:0 0 10px">Cuéntasela a Claude con tus palabras. Te ayuda a concretarla y la añade al plan él mismo; también puede cambiar prioridades o ejecutar una tarea ahora.</p>
@@ -1005,7 +1004,7 @@ function renderMejora(){
         ${pot.length?`<div class="tabwrap"><table class="ftabla"><thead><tr><th>Hallazgo</th><th>Por qué importa</th><th>Acción tomada</th><th>Estado</th></tr></thead><tbody>
         ${pot.map(x=>{ const t=x.tarea&&(D.tareas||[]).find(t=>t.id===x.tarea); const tp=t&&plan.find(p=>p.id===t.id);
           return `<tr><td><b>${esc(x.nombre)}</b></td><td>${esc(x.por)}</td><td>${esc(x.hacer)}</td>
-          <td>${chip(x.quien)}${t?`<div class="hint" style="margin-top:6px">${EST_T[t.estado]||t.estado}${tp&&tp.previsto&&t.estado==="pendiente"?" · noche del "+fechaCorta(new Date(tp.previsto.getTime()-864e5)):""}</div>`:""}</td></tr>`; }).join("")}
+          <td>${chip(x.quien)}${t?`<div class="hint" style="margin-top:6px">${EST_T[t.estado]||t.estado}${tp&&tp.previsto&&t.estado==="pendiente"?" · "+cuandoT(tp.previsto):""}</div>`:""}</td></tr>`; }).join("")}
         </tbody></table></div>`:`<p class="hint" style="margin:0">Sin hallazgos pendientes: todas las fuentes encontradas ya se leen.</p>`}
       </section>
       
@@ -1059,7 +1058,7 @@ const HERR=[
   inputSchema:{type:"object",properties:{pantalla:{type:"string",enum:["inicio","datos","lista","cuestiones","fuentes","mejora","instrucciones"]},filtros:{type:"object",description:"Para lista: rev, com, estado, cierre, nivel, para, temas, organismo"},ayuda:{type:"string",description:"Id de una ayuda para abrirla en la lista"}},required:["pantalla"]},
   execute:(i)=>{ const v={inicio:"w",datos:"b",lista:"l",cuestiones:"c",fuentes:"f",mejora:"m",instrucciones:"i"}[i.pantalla]; if(v==="l"){ S.fl=i.filtros||{}; S.selec=new Set(); } cambiarVista(v); if(i.ayuda&&v==="l") seleccionar(i.ayuda); return {hecho:true}; }}
 ];
-function sistemaAsis(){ return `Eres Claude, el asistente de la página «Eskubat — Revisión de ayudas». Eskubat es una app de ayudas y subvenciones de Euskadi. El sistema: un recolector diario lee las fuentes; Claude revisa cada hora (a y 32) las ayudas nuevas o cambiadas y redacta sus fichas; cada noche (03:17) Claude ejecuta una tarea del plan de mejora continua; cada mes revisa el plan. Las cuestiones son decisiones del responsable o cambios pedidos; las «listas» las aplica la revisión horaria en su próxima pasada (las de área eskubat, no).
+function sistemaAsis(){ return `Eres Claude, el asistente de la página «Eskubat — Revisión de ayudas». Eskubat es una app de ayudas y subvenciones de Euskadi. El sistema: un recolector diario lee las fuentes; Claude revisa cada hora (a y 32) las ayudas nuevas o cambiadas y redacta sus fichas; cada hora (a y 17) Claude ejecuta una tarea del plan de mejora continua; cada mes revisa el plan. Las cuestiones (pantalla «Revisión») son decisiones del responsable o cambios pedidos; las «listas» son correcciones que aplica la pasada horaria (las de área eskubat, no); lo que exige código o fuentes va al plan de mejora. Las dos cosas se ven en la pantalla «Corrección y mejora».
 Tienes herramientas para consultar los datos y para hacer cambios directamente: úsalas. Si te piden un cambio, hazlo con la herramienta adecuada y di qué has hecho y cuándo se aplicará; no pidas permiso para lo que el responsable ya ha pedido claramente, pero pregunta si algo es ambiguo o afecta a muchas ayudas sin que lo haya dicho. Antes de pedir cambios a ayudas concretas, búscalas para tener los ids. No puedes navegar por la web ni cambiar el código desde aquí: lo que exige código o fuentes nuevas va al plan (proponer_tarea_plan). Responde en castellano, breve y claro, sin jerga técnica. Hoy es ${new Date().toISOString().slice(0,10)}; los datos de la página son del ${hora(D.generado)}.`; }
 function renderAsis(){
   const box=$("#asisMsgs"); if(!box) return;
@@ -1115,7 +1114,7 @@ $("#asisX").onclick=()=>document.body.classList.remove("asis-on");
 $("#asisNuevo").onclick=()=>{ ASIS.msgs=[]; guardaAsis(); renderAsis(); };
 $("#asisSend").onclick=enviarAsis;
 $("#asisIn").onkeydown=(ev)=>{ if(ev.key==="Enter"&&(ev.metaKey||ev.ctrlKey)) enviarAsis(); };
-document.addEventListener("click",ev=>{ const b=ev.target.closest("[data-asis]"); if(b) abrirAsis(b.dataset.asis); const v=ev.target.closest("[data-vi]"); if(v) cambiarVista(v.dataset.vi); });
+document.addEventListener("click",ev=>{ const vc=ev.target.closest("[data-vc]"); if(vc){ S.filtro="todas"; S.areaF=""; cambiarVista("c"); seleccionar(vc.dataset.vc); return; } const b=ev.target.closest("[data-asis]"); if(b) abrirAsis(b.dataset.asis); const v=ev.target.closest("[data-vi]"); if(v) cambiarVista(v.dataset.vi); });
 $("#refrescar").onclick=()=>{ $("#refrescar").disabled=true; $("#refrescar").textContent="Actualizando…"; try{ sessionStorage.setItem("eskubat-vista",S.vista); }catch{} location.reload(); };
 $("#marca").onclick=(ev)=>{ ev.preventDefault(); cambiarVista("w"); };
 $("#nueva").onclick=()=>abrirNueva("","","");
@@ -1128,7 +1127,7 @@ $("#fnueva").addEventListener("submit",async ev=>{
   catch(err){ setStatus("No se pudo crear ("+(err&&err.code||"error")+")"); }
 });
 function textoDatos(){ const m=Math.round((Date.now()-Date.parse(D.generado))/60000); return "Datos de "+(m<60?`hace ${Math.max(m,0)} min`:hora(D.generado))+" · se renuevan en cada pasada de Claude"; }
-const DESDE_HASH={...Object.fromEntries(Object.entries(VISTAS).map(([k,v])=>[v,k])),"#revision":"b"};
+const DESDE_HASH={...Object.fromEntries(Object.entries(VISTAS).map(([k,v])=>[v,k])),"#revision":"b","#mejora-continua":"m"};
 window.addEventListener("hashchange",()=>{ const v=DESDE_HASH[location.hash]; if(v&&v!==S.vista) cambiarVista(v); });
 let vIni=DESDE_HASH[location.hash]; try{ if(!vIni){ vIni=sessionStorage.getItem("eskubat-vista")||""; } sessionStorage.removeItem("eskubat-vista"); }catch{}
 cambiarVista(vIni||"w"); setStatus(textoDatos());
