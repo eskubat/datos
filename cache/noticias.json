@@ -35,17 +35,6 @@
   ],
   "candidatosUE": [
    {
-    "id": "HORIZON-RAISE-2027-01-04",
-    "titulo": "Developing a model for a Data Lab for Science linking with EOSC and RAISE (RAISE pilot) (CSA)",
-    "convocatoria": "AI in Science",
-    "programa": "HORIZON Coordination and Support Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-RAISE-2027-01-04",
-    "inicio": "2026-10-13",
-    "fin": "2027-02-02",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
     "id": "HORIZON-RAISE-2026-01-03",
     "titulo": "RAISE Doctoral Networks for AI in Science (RAISE pilot)",
     "convocatoria": "RAISE Doctoral Networks for AI in Science",
@@ -53,6 +42,28 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-RAISE-2026-01-03",
     "inicio": "2026-05-28",
     "fin": "2026-11-24",
+    "estado": "abierta",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-MSCA-2026-DN-01-01",
+    "titulo": "MSCA Doctoral Networks 2026",
+    "convocatoria": "MSCA Doctoral Networks 2026",
+    "programa": "HORIZON TMA MSCA Doctoral Networks",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2026-DN-01-01",
+    "inicio": "2026-05-28",
+    "fin": "2026-11-24",
+    "estado": "abierta",
+    "cascada": false
+   },
+   {
+    "id": "HORIZON-RAISE-2027-01-04",
+    "titulo": "Developing a model for a Data Lab for Science linking with EOSC and RAISE (RAISE pilot) (CSA)",
+    "convocatoria": "AI in Science",
+    "programa": "HORIZON Coordination and Support Actions",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-RAISE-2027-01-04",
+    "inicio": "2026-10-13",
+    "fin": "2027-02-02",
     "estado": "abierta",
     "cascada": false
    },
@@ -75,17 +86,6 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-RAISE-2027-01-02",
     "inicio": "2026-10-13",
     "fin": "2027-02-02",
-    "estado": "abierta",
-    "cascada": false
-   },
-   {
-    "id": "HORIZON-MSCA-2026-DN-01-01",
-    "titulo": "MSCA Doctoral Networks 2026",
-    "convocatoria": "MSCA Doctoral Networks 2026",
-    "programa": "HORIZON TMA MSCA Doctoral Networks",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2026-DN-01-01",
-    "inicio": "2026-05-28",
-    "fin": "2026-11-24",
     "estado": "abierta",
     "cascada": false
    },
@@ -211,13 +211,13 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-JU-EUROHPC-2026-SPT-10-01",
-    "titulo": "Superconducting Platform Technologies",
-    "convocatoria": "Superconducting Platform Technologies",
-    "programa": "HORIZON JU Research and Innovation Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-SPT-10-01",
-    "inicio": "2026-08-13",
-    "fin": "2026-11-17",
+    "id": "HORIZON-CL5-2026-11-D3-04",
+    "titulo": "De-risking renewable fuel technologies through transnational pre-commercial procurement of renewable fuel industrial value chains",
+    "convocatoria": "ENERGY",
+    "programa": "HORIZON Pre-commercial Procurement",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-04",
+    "inicio": "2026-08-04",
+    "fin": "2026-12-01",
     "estado": "abierta",
     "cascada": false
    },
@@ -233,13 +233,13 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-CL5-2026-11-D3-04",
-    "titulo": "De-risking renewable fuel technologies through transnational pre-commercial procurement of renewable fuel industrial value chains",
-    "convocatoria": "ENERGY",
-    "programa": "HORIZON Pre-commercial Procurement",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-04",
-    "inicio": "2026-08-04",
-    "fin": "2026-12-01",
+    "id": "HORIZON-JU-EUROHPC-2026-SPT-10-01",
+    "titulo": "Superconducting Platform Technologies",
+    "convocatoria": "Superconducting Platform Technologies",
+    "programa": "HORIZON JU Research and Innovation Actions",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-SPT-10-01",
+    "inicio": "2026-08-13",
+    "fin": "2026-11-17",
     "estado": "abierta",
     "cascada": false
    },
@@ -325,22 +325,22 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-EIC-2026-PRIZE-WIP-RisingInnovators",
-    "titulo": "Rising Innovators category",
+    "id": "HORIZON-EIC-2026-PRIZE-WIP",
+    "titulo": "The European Prize for Women Innovators",
     "convocatoria": "The European Prize for Women Innovators",
     "programa": "HORIZON Recognition Prize",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-PRIZE-WIP-RisingInnovators",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-PRIZE-WIP",
     "inicio": "2026-09-02",
     "fin": "2026-12-01",
     "estado": "abierta",
     "cascada": false
    },
    {
-    "id": "HORIZON-EIC-2026-PRIZE-WIP",
-    "titulo": "The European Prize for Women Innovators",
+    "id": "HORIZON-EIC-2026-PRIZE-WIP-RisingInnovators",
+    "titulo": "Rising Innovators category",
     "convocatoria": "The European Prize for Women Innovators",
     "programa": "HORIZON Recognition Prize",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-PRIZE-WIP",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-PRIZE-WIP-RisingInnovators",
     "inicio": "2026-09-02",
     "fin": "2026-12-01",
     "estado": "abierta",
@@ -494,13 +494,13 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-JU-EUROHPC-2026-SPT-10-01",
-    "titulo": "Superconducting Platform Technologies",
-    "convocatoria": "Superconducting Platform Technologies",
-    "programa": "HORIZON JU Research and Innovation Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-SPT-10-01",
-    "inicio": "2026-08-13",
-    "fin": "2026-11-17",
+    "id": "HORIZON-CL5-2026-11-D3-04",
+    "titulo": "De-risking renewable fuel technologies through transnational pre-commercial procurement of renewable fuel industrial value chains",
+    "convocatoria": "ENERGY",
+    "programa": "HORIZON Pre-commercial Procurement",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-04",
+    "inicio": "2026-08-04",
+    "fin": "2026-12-01",
     "estado": "abierta",
     "cascada": false
    },
@@ -516,13 +516,13 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-CL5-2026-11-D3-04",
-    "titulo": "De-risking renewable fuel technologies through transnational pre-commercial procurement of renewable fuel industrial value chains",
-    "convocatoria": "ENERGY",
-    "programa": "HORIZON Pre-commercial Procurement",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-04",
-    "inicio": "2026-08-04",
-    "fin": "2026-12-01",
+    "id": "HORIZON-JU-EUROHPC-2026-SPT-10-01",
+    "titulo": "Superconducting Platform Technologies",
+    "convocatoria": "Superconducting Platform Technologies",
+    "programa": "HORIZON JU Research and Innovation Actions",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-SPT-10-01",
+    "inicio": "2026-08-13",
+    "fin": "2026-11-17",
     "estado": "abierta",
     "cascada": false
    },
@@ -608,24 +608,24 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-EIC-2026-PRIZE-WIP-RisingInnovators",
-    "titulo": "Rising Innovators category",
-    "convocatoria": "The European Prize for Women Innovators",
-    "programa": "HORIZON Recognition Prize",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-PRIZE-WIP-RisingInnovators",
-    "inicio": "2026-09-02",
+    "id": "HORIZON-CL5-2026-11-D3-04",
+    "titulo": "De-risking renewable fuel technologies through transnational pre-commercial procurement of renewable fuel industrial value chains",
+    "convocatoria": "ENERGY",
+    "programa": "HORIZON Pre-commercial Procurement",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-04",
+    "inicio": "2026-08-04",
     "fin": "2026-12-01",
     "estado": "abierta",
     "cascada": false
    },
    {
-    "id": "HORIZON-JU-EUROHPC-2026-SPT-10-01",
-    "titulo": "Superconducting Platform Technologies",
-    "convocatoria": "Superconducting Platform Technologies",
-    "programa": "HORIZON JU Research and Innovation Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-SPT-10-01",
-    "inicio": "2026-08-13",
-    "fin": "2026-11-17",
+    "id": "HORIZON-EIC-2026-PRIZE-WIP",
+    "titulo": "The European Prize for Women Innovators",
+    "convocatoria": "The European Prize for Women Innovators",
+    "programa": "HORIZON Recognition Prize",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-PRIZE-WIP",
+    "inicio": "2026-09-02",
+    "fin": "2026-12-01",
     "estado": "abierta",
     "cascada": false
    },
@@ -641,24 +641,24 @@
     "cascada": false
    },
    {
-    "id": "HORIZON-CL5-2026-11-D3-04",
-    "titulo": "De-risking renewable fuel technologies through transnational pre-commercial procurement of renewable fuel industrial value chains",
-    "convocatoria": "ENERGY",
-    "programa": "HORIZON Pre-commercial Procurement",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-04",
-    "inicio": "2026-08-04",
-    "fin": "2026-12-01",
+    "id": "HORIZON-JU-EUROHPC-2026-SPT-10-01",
+    "titulo": "Superconducting Platform Technologies",
+    "convocatoria": "Superconducting Platform Technologies",
+    "programa": "HORIZON JU Research and Innovation Actions",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-SPT-10-01",
+    "inicio": "2026-08-13",
+    "fin": "2026-11-17",
     "estado": "abierta",
     "cascada": false
    },
    {
-    "id": "HORIZON-CL4-2027-01-MAT-PROD-49",
-    "titulo": "‘Proof of market’ to improve valorisation and commercialisation of Horizon generated R&I results (IA)",
-    "convocatoria": "INDUSTRY",
-    "programa": "HORIZON Innovation Actions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-49",
-    "inicio": "2026-10-13",
-    "fin": "2027-02-02",
+    "id": "HORIZON-EIC-2026-PRIZE-WIP-RisingInnovators",
+    "titulo": "Rising Innovators category",
+    "convocatoria": "The European Prize for Women Innovators",
+    "programa": "HORIZON Recognition Prize",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-PRIZE-WIP-RisingInnovators",
+    "inicio": "2026-09-02",
+    "fin": "2026-12-01",
     "estado": "abierta",
     "cascada": false
    }
@@ -715,17 +715,6 @@
     "cascada": true
    },
    {
-    "id": "HORIZON-CL4-2024-HUMAN-03-04",
-    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
-    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
-    "inicio": "2026-11-09",
-    "fin": "2027-01-08",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
     "id": "HORIZON-EIT-2025-KIC-IBA-F",
     "titulo": "EITFOOD Business Plan 2026",
     "convocatoria": "Proof of Concept & Technology Validation Call",
@@ -748,24 +737,35 @@
     "cascada": true
    },
    {
-    "id": "HORIZON-HLTH-2023-CARE-08-01",
-    "titulo": "European Partnership on Personalised Medicine",
-    "convocatoria": "Cell and Gene Therapy for Personalised Medicine (CGT4PM2027)",
+    "id": "HORIZON-CL4-2024-HUMAN-03-04",
+    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
+    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45700894",
-    "inicio": "2026-11-04",
-    "fin": "2027-01-20",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
+    "inicio": "2026-11-09",
+    "fin": "2027-01-08",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-CL4-2024-DIGITAL-EMERGING-01-04",
-    "titulo": "Industrial leadership in AI, Data and Robotics boosting competitiveness and the green transition (AI Data and Robotics Partnership) (IA)[[https://www.europarl.europa.eu/RegData/etudes/STUD/2021/662906/IPOL_STU(2021)662906_EN.pdf]]",
-    "convocatoria": "AMALTEA 2nd Open Call - Call for SMEs & Start-ups: Innovative Solutions for Sustainable Construction",
+    "id": "HORIZON-EIE-2023-CONNECT-03-01",
+    "titulo": "Implementing co-funded action plans for connected regional innovation valleys",
+    "convocatoria": "SYSTEMEU - Financial Support to Third Parties (FSTP) \n\nWhat is the aim?\nTo support digital innovations in healthcare, energy and mobility as they progress from the prototype stage (TRL 6) to a market-ready system (TRL 8).\n\nWho can take part?\nRegions: Bavaria (DE), Norte Region (PT), Castile and León (ES), Romania (RO) and Tuzla (BiH) only.\nConsortia: 2–8 partners from at least 2–5 regions (depending on project size).\n\nType: Triple Helix (academia, business, public authorities).\n\nProject sizes & budget\n\nFlagship: up to €2.2 million (5–8 partners, all regions). Proposed by consortia composed by 5 to 8 partners covering all 5 participating SYSTEMEU regions and including at least one RTO/University, one company, and one public sector entity actively involved in public service delivery (e.g., municipal administrations or hospitals).\n",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45704318",
-    "inicio": "2026-11-04",
-    "fin": "2027-01-27",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45659376",
+    "inicio": "2026-09-15",
+    "fin": "2026-11-23",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-EIT-2025-KIC-IBA-F",
+    "titulo": "EITFOOD Business Plan 2026",
+    "convocatoria": "Seedbed Venture Catalyst Call for Startups",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
+    "inicio": "2026-11-06",
+    "fin": "2026-12-16",
     "estado": "abierta",
     "cascada": true
    }
@@ -816,17 +816,6 @@
     "cascada": true
    },
    {
-    "id": "HORIZON-CL4-2024-HUMAN-03-04",
-    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
-    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
-    "inicio": "2026-11-09",
-    "fin": "2027-01-08",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
     "id": "HORIZON-EIT-2025-KIC-IBA-F",
     "titulo": "EITFOOD Business Plan 2026",
     "convocatoria": "Proof of Concept & Technology Validation Call",
@@ -849,24 +838,35 @@
     "cascada": true
    },
    {
-    "id": "HORIZON-HLTH-2023-CARE-08-01",
-    "titulo": "European Partnership on Personalised Medicine",
-    "convocatoria": "Cell and Gene Therapy for Personalised Medicine (CGT4PM2027)",
+    "id": "HORIZON-CL4-2024-HUMAN-03-04",
+    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
+    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45700894",
-    "inicio": "2026-11-04",
-    "fin": "2027-01-20",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
+    "inicio": "2026-11-09",
+    "fin": "2027-01-08",
     "estado": "abierta",
     "cascada": true
    },
    {
-    "id": "HORIZON-CL4-2024-DIGITAL-EMERGING-01-04",
-    "titulo": "Industrial leadership in AI, Data and Robotics boosting competitiveness and the green transition (AI Data and Robotics Partnership) (IA)[[https://www.europarl.europa.eu/RegData/etudes/STUD/2021/662906/IPOL_STU(2021)662906_EN.pdf]]",
-    "convocatoria": "AMALTEA 2nd Open Call - Call for SMEs & Start-ups: Innovative Solutions for Sustainable Construction",
+    "id": "HORIZON-EIE-2023-CONNECT-03-01",
+    "titulo": "Implementing co-funded action plans for connected regional innovation valleys",
+    "convocatoria": "SYSTEMEU - Financial Support to Third Parties (FSTP) \n\nWhat is the aim?\nTo support digital innovations in healthcare, energy and mobility as they progress from the prototype stage (TRL 6) to a market-ready system (TRL 8).\n\nWho can take part?\nRegions: Bavaria (DE), Norte Region (PT), Castile and León (ES), Romania (RO) and Tuzla (BiH) only.\nConsortia: 2–8 partners from at least 2–5 regions (depending on project size).\n\nType: Triple Helix (academia, business, public authorities).\n\nProject sizes & budget\n\nFlagship: up to €2.2 million (5–8 partners, all regions). Proposed by consortia composed by 5 to 8 partners covering all 5 participating SYSTEMEU regions and including at least one RTO/University, one company, and one public sector entity actively involved in public service delivery (e.g., municipal administrations or hospitals).\n",
     "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45704318",
-    "inicio": "2026-11-04",
-    "fin": "2027-01-27",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45659376",
+    "inicio": "2026-09-15",
+    "fin": "2026-11-23",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-EIT-2025-KIC-IBA-F",
+    "titulo": "EITFOOD Business Plan 2026",
+    "convocatoria": "Seedbed Venture Catalyst Call for Startups",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
+    "inicio": "2026-11-06",
+    "fin": "2026-12-16",
     "estado": "abierta",
     "cascada": true
    }
@@ -1233,17 +1233,6 @@
     "cascada": true
    },
    {
-    "id": "HORIZON-CL4-2024-HUMAN-03-04",
-    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
-    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
-    "programa": "",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
-    "inicio": "2026-11-09",
-    "fin": "2027-01-08",
-    "estado": "abierta",
-    "cascada": true
-   },
-   {
     "id": "HORIZON-EIT-2025-KIC-IBA-F",
     "titulo": "EITFOOD Business Plan 2026",
     "convocatoria": "Proof of Concept & Technology Validation Call",
@@ -1262,6 +1251,17 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939719",
     "inicio": "2026-11-06",
     "fin": "2027-01-05",
+    "estado": "abierta",
+    "cascada": true
+   },
+   {
+    "id": "HORIZON-CL4-2024-HUMAN-03-04",
+    "titulo": "Facilitate the engagement in global ICT standardisation development (CSA)",
+    "convocatoria": "Open Call 4 - Short Term and Long Term Funding to support ICT standardisation",
+    "programa": "",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46950864",
+    "inicio": "2026-11-09",
+    "fin": "2027-01-08",
     "estado": "abierta",
     "cascada": true
    }

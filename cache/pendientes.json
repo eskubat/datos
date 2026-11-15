@@ -549,6 +549,15 @@
   "caracteres": 70659
  },
  {
+  "id": "bog-c2606598-htm",
+  "h": "0747cce540038c93",
+  "titulo": "Aprobación de las bases específicas de subvenciones para estudiar euskera",
+  "organismoSugerido": "ayto-anoeta",
+  "organismoFuente": "Ayuntamiento de Anoeta",
+  "archivo": "cache/fuentes/bog-c2606598-htm-260c03d3.txt",
+  "caracteres": 1482
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-bek-2026-webema01-contentemakunde-es",
   "h": "02484a6a38389491",
   "titulo": "Becas de trabajos de investigación en materia de igualdad de mujeres y hombres",
@@ -639,6 +648,15 @@
   "caracteres": 43773
  },
  {
+  "id": "bog-c2607128-htm",
+  "h": "513383096ec790d7",
+  "titulo": "Aprobación definitiva de las bases de la beca \"Hondarribiko Ikerketa Feministarako Beka\"",
+  "organismoSugerido": "ayto-hondarribia",
+  "organismoFuente": "Ayuntamiento de Hondarribia",
+  "archivo": "cache/fuentes/bog-c2607128-htm-3db98f4d.txt",
+  "caracteres": 19951
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-subvenciones-para-proyectos-editoriales-y-audiovisuales-en-el-ambito-de-la-diaspora-vasca-2026",
   "h": "a017e3c741b87b6c",
   "titulo": "Subvenciones para proyectos editoriales y audiovisuales en el ámbito de la Diáspora Vasca",
@@ -700,6 +718,24 @@
   "organismoFuente": "Ayuntamiento de beasain",
   "archivo": "cache/fuentes/bdns-940263-7e7b9c16.txt",
   "caracteres": 24863
+ },
+ {
+  "id": "bog-c2607233-htm",
+  "h": "ab06989fa2de01d3",
+  "titulo": "Bases específicas y la convocatoria de de ayudas a la compra de material escolar",
+  "organismoSugerido": "ayto-legazpi",
+  "organismoFuente": "Ayuntamiento de Legazpi",
+  "archivo": "cache/fuentes/bog-c2607233-htm-a08316d5.txt",
+  "caracteres": 7930
+ },
+ {
+  "id": "bog-c2606809-htm",
+  "h": "1aa7b7ff81546a94",
+  "titulo": "Aprobación inicial de las bases reguladoras del \"Concurso de logos\"",
+  "organismoSugerido": "ayto-lazkao",
+  "organismoFuente": "Ayuntamiento de Lazkao",
+  "archivo": "cache/fuentes/bog-c2606809-htm-8c167827.txt",
+  "caracteres": 963
  },
  {
   "id": "eus-ayuda-subvencion-2026-fp-alternancia",
@@ -898,6 +934,24 @@
   "organismoFuente": "Ayuntamiento de lasarte-oria",
   "archivo": "cache/fuentes/bdns-942055-9440cb3e.txt",
   "caracteres": 24808
+ },
+ {
+  "id": "bog-c2607247-htm",
+  "h": "6beace4997ddaf97",
+  "titulo": "Aprobación inicial de las bases reguladoras de subvenciones para el fomento de nuevos negocios",
+  "organismoSugerido": "ayto-irura",
+  "organismoFuente": "Ayuntamiento de Irura",
+  "archivo": "cache/fuentes/bog-c2607247-htm-335d96ca.txt",
+  "caracteres": 38529
+ },
+ {
+  "id": "bog-c2606753-htm",
+  "h": "184ee4d82c95fa01",
+  "titulo": "Convocatoria de de subvenciones para la promoción de nuevas empresas",
+  "organismoSugerido": "ayto-onati",
+  "organismoFuente": "Ayuntamiento de Oñati",
+  "archivo": "cache/fuentes/bog-c2606753-htm-100cd262.txt",
+  "caracteres": 2339
  },
  {
   "id": "bdns-940983",
@@ -1942,6 +1996,15 @@
   "organismoFuente": "Ayuntamiento de eibar",
   "archivo": "cache/fuentes/bdns-925434-acca627d.txt",
   "caracteres": 127673
+ },
+ {
+  "id": "bog-c2606772-htm",
+  "h": "c00293f7a4b6f77f",
+  "titulo": "Orden Foral FA-ML--0179, de 30 de septiembre,",
+  "organismoSugerido": "dfg",
+  "organismoFuente": "Diputación Foral de Gipuzkoa",
+  "archivo": "cache/fuentes/bog-c2606772-htm-5e87f479.txt",
+  "caracteres": 20102
  },
  {
   "id": "bdns-940942",
@@ -3994,5 +4057,311 @@
   "organismoFuente": "Ayuntamiento de aramaio",
   "archivo": "cache/fuentes/bdns-920423-2b1d72fe.txt",
   "caracteres": 18116
+ },
+ {
+  "id": "bog-c2607316-htm",
+  "h": "2d4484cae1bda84a",
+  "titulo": "Ayudas económicas para gastos de transporte en el ámbito de tratamientos de dependencias",
+  "organismoSugerido": "ayto-mutriku",
+  "organismoFuente": "Ayuntamiento de Mutriku",
+  "archivo": "cache/fuentes/bog-c2607316-htm-79f15351.txt",
+  "caracteres": 9973
+ },
+ {
+  "id": "bog-c2607317-htm",
+  "h": "9507618bbaeee12c",
+  "titulo": "Convocatoria de de ayudas para el transporte de personas que tengan discapacidad o dependencia",
+  "organismoSugerido": "ayto-mutriku",
+  "organismoFuente": "Ayuntamiento de Mutriku",
+  "archivo": "cache/fuentes/bog-c2607317-htm-63fa436c.txt",
+  "caracteres": 10293
+ },
+ {
+  "id": "bog-c2607257-htm",
+  "h": "c7213b154b8fade7",
+  "titulo": "Relación de subvenciones concedidas en la convocatoria de del programa \"Pertsonen Enpresa -",
+  "organismoSugerido": "dfg",
+  "organismoFuente": "Diputación Foral de Gipuzkoa",
+  "archivo": "cache/fuentes/bog-c2607257-htm-a0de3761.txt",
+  "caracteres": 2938
+ },
+ {
+  "id": "bog-c2607272-htm",
+  "h": "3423e1965fe13b90",
+  "titulo": "Bases y convocatoria de de subvenciones para la financiación de actividades y eventos deportivos",
+  "organismoSugerido": "ayto-orio",
+  "organismoFuente": "Ayuntamiento de Orio",
+  "archivo": "cache/fuentes/bog-c2607272-htm-c854508a.txt",
+  "caracteres": 25612
+ },
+ {
+  "id": "bog-c2607197-htm",
+  "h": "08b5379344116b6b",
+  "titulo": "Subvenciones dirigidas a compensar los gastos de mantenimiento y conservación de ascensores comunitarios",
+  "organismoSugerido": "ayto-eibar",
+  "organismoFuente": "Ayuntamiento de Eibar",
+  "archivo": "cache/fuentes/bog-c2607197-htm-2ac5e2bf.txt",
+  "caracteres": 2019
+ },
+ {
+  "id": "bog-c2606911-htm",
+  "h": "3e01a33484e69517",
+  "titulo": "Relación de subvenciones concedidas en la convocatoria de de la línea de ayudas al crecimiento empresarial",
+  "organismoSugerido": "dfg",
+  "organismoFuente": "Diputación Foral de Gipuzkoa",
+  "archivo": "cache/fuentes/bog-c2606911-htm-7ddfa59c.txt",
+  "caracteres": 3124
+ },
+ {
+  "id": "bog-c2606714-htm",
+  "h": "22500d0754018bb6",
+  "titulo": "Subvenciones para las personas que han cursado estudios de euskera",
+  "organismoSugerido": "ayto-zegama",
+  "organismoFuente": "Ayuntamiento de Zegama",
+  "archivo": "cache/fuentes/bog-c2606714-htm-d8dfa733.txt",
+  "caracteres": 3862
+ },
+ {
+  "id": "bog-c2606587-htm",
+  "h": "f861a5ef25a56a9a",
+  "titulo": "Convocatoria de de subvenciones para la organización de festejos de carnaval",
+  "organismoSugerido": "ayto-lasarte-oria",
+  "organismoFuente": "Ayuntamiento de Lasarte-Oria",
+  "archivo": "cache/fuentes/bog-c2606587-htm-fb6f3461.txt",
+  "caracteres": 901
+ },
+ {
+  "id": "bog-c2606564-htm",
+  "h": "451c74725bf2d40b",
+  "titulo": "Convocatoria de de subvenciones a las asociaciones del ámbito de los servicios sociales",
+  "organismoSugerido": "ayto-deba",
+  "organismoFuente": "Ayuntamiento de Deba",
+  "archivo": "cache/fuentes/bog-c2606564-htm-7c627e25.txt",
+  "caracteres": 1741
+ },
+ {
+  "id": "bog-c2606552-htm",
+  "h": "52328dc9d36d4506",
+  "titulo": "Bases y convocatoria de de ayudas para estudiar euskera",
+  "organismoSugerido": "ayto-ibarra",
+  "organismoFuente": "Ayuntamiento de Ibarra",
+  "archivo": "cache/fuentes/bog-c2606552-htm-aba87e60.txt",
+  "caracteres": 838
+ },
+ {
+  "id": "bog-c2606336-htm",
+  "h": "7c04461ac95432d2",
+  "titulo": "Bases y convocatoria de subvenciones para el pago de la tasa de suministro de agua y basuras",
+  "organismoSugerido": "ayto-asteasu",
+  "organismoFuente": "Ayuntamiento de Asteasu",
+  "archivo": "cache/fuentes/bog-c2606336-htm-4dd84d90.txt",
+  "caracteres": 200000
+ },
+ {
+  "id": "bog-c2606670-htm",
+  "h": "ba8f8b77e3b59287",
+  "titulo": "Bases reguladoras y convocatoria de de las subvenciones del plan de equipamientos deportivos",
+  "organismoSugerido": "dfg",
+  "organismoFuente": "Diputación Foral de Gipuzkoa",
+  "archivo": "cache/fuentes/bog-c2606670-htm-2c6ce16e.txt",
+  "caracteres": 110320
+ },
+ {
+  "id": "bog-c2606320-htm",
+  "h": "3cc42819b4187152",
+  "titulo": "Aprobación de las bases reguladoras y convocatoria de para el otorgamiento de subvenciones para la dinamización turística navideña",
+  "organismoSugerido": "dfg",
+  "organismoFuente": "Diputación Foral de Gipuzkoa",
+  "archivo": "cache/fuentes/bog-c2606320-htm-1a29c3f5.txt",
+  "caracteres": 42562
+ },
+ {
+  "id": "bog-c2606930-htm",
+  "h": "89a09a45c5099869",
+  "titulo": "Bases reguladoras y convocatoria de de las ayudas extraordinarias al sector agrario afectado por la sequía en el Territorio Histórico",
+  "organismoSugerido": "dfg",
+  "organismoFuente": "Diputación Foral de Gipuzkoa",
+  "archivo": "cache/fuentes/bog-c2606930-htm-d950f9ee.txt",
+  "caracteres": 68611
+ },
+ {
+  "id": "bob-bob-2026a219-ii-6013-",
+  "h": "29d126ff235b635d",
+  "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación",
+  "organismoSugerido": "ayto-santurtzi",
+  "organismoFuente": "Ayuntamiento de Santurtzi",
+  "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
+  "caracteres": 74532
+ },
+ {
+  "id": "bob-bob-2026a219-ii-5936-",
+  "h": "29d126ff235b635d",
+  "titulo": "De septiembre. Aprobar las bases reguladoras de subvenciones para personas entre 16 y 25",
+  "organismoSugerido": "ayto-sondika",
+  "organismoFuente": "Ayuntamiento de Sondika",
+  "archivo": "cache/fuentes/bob-bob-2026a219-ii-5936--ee5923d2.txt",
+  "caracteres": 74532
+ },
+ {
+  "id": "bob-bob-2026a218-i-1303-",
+  "h": "58f582a55cc01bbb",
+  "titulo": "Social e Igualdad para aprobar la concesión y el abono de las subvenciones del Decreto Foral 20/, de 12 de marzo,",
+  "organismoSugerido": "dfb",
+  "organismoFuente": "Diputación Foral de Bizkaia",
+  "archivo": "cache/fuentes/bob-bob-2026a218-i-1303--87a59497.txt",
+  "caracteres": 50535
+ },
+ {
+  "id": "bob-bob-2026a217-ii-5846-",
+  "h": "7f7778f8d484640a",
+  "titulo": "Terrenos comprendidos en las áreas de reparto de suelo industrial número 6 «ACB» y número 7 «Vega Nervión» de 27 de mayo de. Bases reguladoras",
+  "organismoSugerido": "ayto-sestao",
+  "organismoFuente": "Ayuntamiento de Sestao",
+  "archivo": "cache/fuentes/bob-bob-2026a217-ii-5846--559a8b61.txt",
+  "caracteres": 91595
+ },
+ {
+  "id": "bob-bob-2026a216-i-1274-",
+  "h": "3a00c50705fc1196",
+  "titulo": "E Igualdad, de redistribución de las consignaciones presupuestarias a las que se imputarán las ayudas",
+  "organismoSugerido": "dfb",
+  "organismoFuente": "Diputación Foral de Bizkaia",
+  "archivo": "cache/fuentes/bob-bob-2026a216-i-1274--6b07e9fb.txt",
+  "caracteres": 118233
+ },
+ {
+  "id": "bob-bob-2026a216-ii-5801-",
+  "h": "3a00c50705fc1196",
+  "titulo": "Aprobación de la convocatoria y las bases reguladoras de subvenciones para promover",
+  "organismoSugerido": "ayto-santurtzi",
+  "organismoFuente": "Ayuntamiento de Santurtzi",
+  "archivo": "cache/fuentes/bob-bob-2026a216-ii-5801--16ebb267.txt",
+  "caracteres": 118233
+ },
+ {
+  "id": "bob-bob-2026a213-ii-5650-",
+  "h": "46648e0806252477",
+  "titulo": "901282. Bases reguladoras de las ayudas municipales de urgencia social",
+  "organismoSugerido": "ayto-leioa",
+  "organismoFuente": "Ayuntamiento de Leioa",
+  "archivo": "cache/fuentes/bob-bob-2026a213-ii-5650--6872c075.txt",
+  "caracteres": 103623
+ },
+ {
+  "id": "bob-bob-2026a213-ii-5652-",
+  "h": "46648e0806252477",
+  "titulo": "Aprobación definitiva para la creación de las bases reguladoras de la subvención de «ayuda",
+  "organismoSugerido": "ayto-zalla",
+  "organismoFuente": "Ayuntamiento de Zalla",
+  "archivo": "cache/fuentes/bob-bob-2026a213-ii-5652--05810f38.txt",
+  "caracteres": 103623
+ },
+ {
+  "id": "bob-bob-2026a203-ii-5394-",
+  "h": "71fd570caa44cf0f",
+  "titulo": "Convocatoria para concesión de subvenciones para activida",
+  "organismoSugerido": "ayto-dima",
+  "organismoFuente": "Ayuntamiento de Dima",
+  "archivo": "cache/fuentes/bob-bob-2026a203-ii-5394--4b77daf0.txt",
+  "caracteres": 76387
+ },
+ {
+  "id": "bob-bob-2026a204-ii-5423-",
+  "h": "d02b1cc960d7d07e",
+  "titulo": "Subvenciones municipales. Convocatoria de subvenciones a entidades",
+  "organismoSugerido": "ayto-barrika",
+  "organismoFuente": "Ayuntamiento de Barrika",
+  "archivo": "cache/fuentes/bob-bob-2026a204-ii-5423--eec1765a.txt",
+  "caracteres": 93593
+ },
+ {
+  "id": "bob-bob-2026a204-ii-5410-",
+  "h": "d02b1cc960d7d07e",
+  "titulo": "Extracto de la Resolución/3017, de 9 de octubre de, por la que se convocan ayudas",
+  "organismoSugerido": "ayto-durango",
+  "organismoFuente": "Ayuntamiento de Durango",
+  "archivo": "cache/fuentes/bob-bob-2026a204-ii-5410--a61b74b6.txt",
+  "caracteres": 93593
+ },
+ {
+  "id": "bob-bob-2026a201-ii-5346-",
+  "h": "478e037197764a8d",
+  "titulo": "Bases reguladoras de la convocatoria de subvenciones para aprendizaje y la promoción",
+  "organismoSugerido": "ayto-sestao",
+  "organismoFuente": "Ayuntamiento de Sestao",
+  "archivo": "cache/fuentes/bob-bob-2026a201-ii-5346--96e21cb6.txt",
+  "caracteres": 96978
+ },
+ {
+  "id": "bob-bob-2026a201-ii-5375-",
+  "h": "478e037197764a8d",
+  "titulo": "Subvenciones para la eliminación de pintadas y grafitis en fachadas",
+  "organismoSugerido": "ayto-sondika",
+  "organismoFuente": "Ayuntamiento de Sondika",
+  "archivo": "cache/fuentes/bob-bob-2026a201-ii-5375--f6b8b77a.txt",
+  "caracteres": 96978
+ },
+ {
+  "id": "bob-bob-2026a200-ii-5331-",
+  "h": "77f7c0f9ad093dc7",
+  "titulo": "Subvenciones para el aprendizaje del euskera. Decreto de",
+  "organismoSugerido": "ayto-laukiz",
+  "organismoFuente": "Ayuntamiento de Laukiz",
+  "archivo": "cache/fuentes/bob-bob-2026a200-ii-5331--03e0f294.txt",
+  "caracteres": 8063
+ },
+ {
+  "id": "bob-bob-2026a199-ii-5301-",
+  "h": "983b7f1ea1fdf4b4",
+  "titulo": "Subvenciones Cultura, Euskara y deportes",
+  "organismoSugerido": "ayto-arantzazu",
+  "organismoFuente": "Ayuntamiento de Arantzazu",
+  "archivo": "cache/fuentes/bob-bob-2026a199-ii-5301--af14c118.txt",
+  "caracteres": 122268
+ },
+ {
+  "id": "bob-bob-2026a199-ii-5309-",
+  "h": "983b7f1ea1fdf4b4",
+  "titulo": "Anuncio relativo a la convocatoria del concurso específico",
+  "organismoSugerido": "ayto-bilbao",
+  "organismoFuente": "Ayuntamiento de Bilbao",
+  "archivo": "cache/fuentes/bob-bob-2026a199-ii-5309--914933f0.txt",
+  "caracteres": 122268
+ },
+ {
+  "id": "bob-bob-2026a199-ii-5313-",
+  "h": "983b7f1ea1fdf4b4",
+  "titulo": "Aprobación de la convocatoria y las bases reguladoras de subvenciones para la realización",
+  "organismoSugerido": "ayto-santurtzi",
+  "organismoFuente": "Ayuntamiento de Santurtzi",
+  "archivo": "cache/fuentes/bob-bob-2026a199-ii-5313--ff8f38ef.txt",
+  "caracteres": 122268
+ },
+ {
+  "id": "bob-bob-2026a199-ii-5322-",
+  "h": "983b7f1ea1fdf4b4",
+  "titulo": "AI-1. Deportiva Municipal de Portugalete, S. A. (Demuporsa) Convocatoria de subvenciones para la promoción deportiva a otorgar",
+  "organismoSugerido": "ayto-sondika",
+  "organismoFuente": "Ayuntamiento de Sondika",
+  "archivo": "cache/fuentes/bob-bob-2026a199-ii-5322--7c6f7efc.txt",
+  "caracteres": 122268
+ },
+ {
+  "id": "bob-bob-2026a196-ii-5229-",
+  "h": "07cfd95f72191f9e",
+  "titulo": "Bilbao Ekintza, e: p.",
+  "organismoSugerido": "ayto-sopuerta",
+  "organismoFuente": "Ayuntamiento de Sopuerta",
+  "archivo": "cache/fuentes/bob-bob-2026a196-ii-5229--9e1a3fad.txt",
+  "caracteres": 112988
+ },
+ {
+  "id": "bob-bob-2026a193-ii-5261-",
+  "h": "fb0bdb6485f20f73",
+  "titulo": "Bases del concurso - certamen de dibujo y pintura al aire libre - centenario del funicular",
+  "organismoSugerido": "ayto-valle-de-trapaga-trapagaran",
+  "organismoFuente": "Ayuntamiento de Valle de Trápaga-Trapagaran",
+  "archivo": "cache/fuentes/bob-bob-2026a193-ii-5261--926605d8.txt",
+  "caracteres": 57647
  }
 ]
