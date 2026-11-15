@@ -109,15 +109,5 @@
   "prioridad": 1,
   "estado": "pendiente",
   "seccion": "fuentes"
- },
- {
-  "id": "ejecutar-enlace",
-  "titulo": "Pantalla Mejora continua: «Ejecutar ahora» como enlace en todas las tareas planificadas",
-  "detalle": "Cada tarea del plan en estado pendiente (las de Claude) debe mostrar «Ejecutar ahora» como texto con hipervínculo, no como botón. Al pulsarlo se lanza la tarea en menos de una hora. En las bloqueadas y en las del responsable no aparece. Quitar el enlace «Ver las reglas» de esa pantalla. Se comprueba abriendo Mejora continua: todas las pendientes de Claude tienen el enlace, no hay botones y «Ver las reglas» ya no está.",
-  "fuente": "Página de revisión (panel/plantilla.html)",
-  "seccion": "base",
-  "quien": "Claude",
-  "prioridad": 2,
-  "estado": "pendiente"
  }
 ]
