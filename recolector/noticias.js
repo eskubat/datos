@@ -10,7 +10,7 @@ import { norm, temasDe, paraDeTexto } from './comun.js';
 
 const leer = (f, d) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return d; } };
 const VERBO = /\b(son|está|están|será|serán|lanza|lanzan|reforzará|reforzarán|refuerza|estrena|estrenan|abre|abren|presenta|anuncia|ha anunciado|da|destina|aprueba|impulsa|financiará|apoya|apoyará|augura|cubre|aporta|crea|tiene)\b/i;
-const CABECERA = /^[A-ZÁÉÍÓÚÑ0-9 ,+&'’\-]{3,}[.:]\s/;
+const CABECERA = /^(?!\d{4}[.:]\s)[A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑ0-9 ,+&'’\-]{2,}[.:]\s/;
 export const esPosibleNoticia = (a) => /euskadi\.eus\/ayuda_subvencion\//.test(a.url || '') && (CABECERA.test(a.titulo || '') || VERBO.test(a.titulo || ''));
 
 // Programas europeos: siglas y nombres en castellano -> términos para buscar en el portal
@@ -21,7 +21,7 @@ const PROGRAMAS = [
   [/protecci[oó]n civil|\bUCPM\b/i, ['UCPM']], [/noche europea de los investigadores/i, ['MSCA-2027-CITIZENS', 'CITIZENS']], [/\bRAISE\b/, ['RAISE']],
   [/horizon/i, ['HORIZON']], [/\bEIT\b|instituto europeo de innovaci/i, ['EIT']], [/nueva bauhaus|\bNEB\b/i, ['NEB']], [/\bFEMPA\b|\bEMFAF\b|mar[ií]timo,? de pesca/i, ['EMFAF']],
   [/digital europe|europa digital/i, ['DIGITAL']], [/interreg/i, ['INTERREG']], [/single market|mercado [uú]nico/i, ['SMP']], [/eu4health|programa de salud/i, ['EU4H']],
-  [/ciudadan[ií]a|\bCERV\b/i, ['CERV']], [/materias primas cr[ií]ticas|resourceeu/i, ['RESOURCE', 'CRM']],
+  [/\bCERV\b|ciudadanos, igualdad, derechos y valores/i, ['CERV']], [/materias primas cr[ií]ticas|resourceeu/i, ['RESOURCE', 'CRM']],
 ];
 const VACIAS = new Set('para con los las del una unos unas por que como sus este esta estos estas entre sobre desde hasta ayuda ayudas subvenciones convocatoria programa proyectos europeo europea europeos fondo fondos nuevas nueva'.split(' '));
 const palabras = (t) => new Set(norm(t).replace(/[^a-z0-9ñ ]/g, ' ').split(/\s+/).filter((w) => w.length > 3 && !VACIAS.has(w)));
@@ -29,7 +29,8 @@ const palabras = (t) => new Set(norm(t).replace(/[^a-z0-9ñ ]/g, ' ').split(/\s+
 export function cotejar(noticias, ayudas, europa) {
   return noticias.map((a) => {
     const terminos = PROGRAMAS.filter(([re]) => re.test(a.titulo + ' ' + (a.resumen || ''))).flatMap(([, t]) => t);
-    const ue = terminos.length ? europa.map((c) => ({ c, s: terminos.filter((t) => (c.id + ' ' + c.convocatoria + ' ' + c.titulo).toUpperCase().includes(t)).length }))
+    const hoy = new Date().toISOString().slice(0, 10);
+    const ue = terminos.length ? europa.filter((c) => !c.fin || c.fin >= hoy).map((c) => ({ c, s: terminos.filter((t) => (c.id + ' ' + c.convocatoria + ' ' + c.titulo).toUpperCase().includes(t)).length }))
       .filter((x) => x.s).sort((x, y) => y.s - x.s || (x.c.estado === 'abierta' ? -1 : 1)).slice(0, 8).map(({ c }) => c) : [];
     const pa = palabras(a.titulo);
     const propias = ayudas.map((b) => ({ b, s: [...palabras(b.titulo)].filter((w) => pa.has(w)).length })).filter((x) => x.s >= 3)
