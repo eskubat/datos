@@ -308,6 +308,23 @@ body.v-l .barra .spacer{display:none}
 .ftabla.agrup td.gcel{background:var(--bg)}
 .ftabla.agrup tr.g-ini td{border-top:2px solid var(--line)}
 .idea{border-color:var(--accent)}
+
+.asis-fab{position:fixed;right:20px;bottom:20px;z-index:20;display:flex;align-items:center;gap:8px;border:0;border-radius:999px;padding:12px 18px;background:var(--accent);color:var(--accent-ink);font:700 15px var(--body);box-shadow:0 4px 16px rgba(20,33,28,.25);cursor:pointer}
+.asis-fab .ic{stroke:var(--accent-ink);width:20px;height:20px}
+.asis-fab:hover{background:var(--accent-d)}
+body.asis-on .asis-fab{display:none}
+.asis{position:fixed;top:0;right:0;bottom:0;width:min(440px,100vw);background:var(--panel);border-left:1px solid var(--line);box-shadow:-6px 0 24px rgba(20,33,28,.12);z-index:30;display:none;flex-direction:column}
+body.asis-on .asis{display:flex}
+@media (min-width:1100px){body.asis-on{padding-right:440px}}
+.asis-h{display:flex;align-items:center;gap:10px;padding:14px 16px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.asis-h b{font:800 17px var(--display)} .asis-h .hint{flex-basis:100%;order:3;margin-top:-6px}
+.asis-m{flex:1;overflow:auto;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.asis-i{display:flex;gap:8px;padding:12px 16px;border-top:1px solid var(--line);align-items:flex-end}
+.asis-i textarea{min-height:52px;max-height:160px}
+.msg.accion{align-self:flex-start;background:var(--accent-soft);color:var(--accent-d);font-size:13px;font-weight:600;padding:5px 10px}
+.asis-vacio p{margin:0 0 8px;color:var(--muted);font-size:14px}
+.asis-vacio .ej{display:block;width:100%;text-align:left;margin:0 0 6px;border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:8px 10px;cursor:pointer;font-size:13.5px}
+.asis-vacio .ej:hover{border-color:var(--accent)}
 @media (max-width:760px){.estado-rev .er-top{grid-template-columns:1fr}}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
 @media (max-width:760px){.eta{grid-template-columns:1fr}}
@@ -343,6 +360,12 @@ body.v-l .barra .spacer{display:none}
   <section id="detalle"></section>
 </main>
 
+<button class="asis-fab" id="asisFab" aria-label="Pedir a Claude"><svg class="ic" viewBox="0 0 24 24"><path d="M12 2l2 6.5L20.5 11 14 13.5 12 20l-2-6.5L3.5 11 10 8.5z"/></svg>Pedir a Claude</button>
+<aside class="asis" id="asis" aria-label="Pedir a Claude">
+  <div class="asis-h"><b>Pedir a Claude</b><span class="hint">Consulta y cambia datos, cuestiones y el plan</span><div class="spacer"></div><button class="btn ghost" id="asisNuevo" title="Empezar una conversación nueva">Nueva</button><button class="btn ghost" id="asisX" aria-label="Cerrar">✕</button></div>
+  <div class="asis-m" id="asisMsgs"></div>
+  <div class="asis-i"><textarea id="asisIn" placeholder="Escribe y pulsa Enviar (Ctrl+Enter)"></textarea><button class="btn primary" id="asisSend">Enviar</button></div>
+</aside>
 <dialog id="dlg">
   <form id="fnueva" method="dialog">
     <h2 style="font:700 20px var(--display);margin:0">Nueva cuestión</h2>
@@ -836,12 +859,9 @@ function renderFuentes(){
        ${prox?`<span class="prox">Siguiente: <b>${esc(prox.titulo)}</b> · noche del ${fechaCorta(new Date(prox.previsto.getTime()-864e5))}</span>`:""}
        <span class="prox" style="flex-basis:100%">Revisión mensual del plan: ${M.ultima?`última el ${fmtFecha(M.ultima)}${M.nuevas?` (${M.nuevas} tareas nuevas)`:""} · `:""}próxima el ${proxMes().toLocaleDateString("es-ES",{day:"numeric",month:"long"})}</span>`,
       `${tuyas.length?`<section class="card parati"><h3>Para ti</h3><ul>${tuyas.map(t=>`<li><div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span></div><span class="chip">${EST_T[t.estado]||t.estado}</span></li>`).join("")}</ul></section>`:""}
-      <section class="card idea" id="idea"><h3>Propón una idea de mejora</h3>
-        <p class="hint" style="margin:0 0 10px">Cuéntale a Claude la idea con tus palabras («¿podemos leer las ayudas de la Cámara de Comercio de Bilbao?», «las fichas de los ayuntamientos pequeños tardan mucho»). Te ayuda a concretarla y, cuando te guste, la añades al plan: entra en la próxima pasada.</p>
-        <div class="chat" id="ichat">${(S.ideaChat||[]).map(m=>`<div class="msg ${m.role}">${m.role==="assistant"?linkify(m.content):esc(m.content)}</div>`).join("")}</div>
-        <div class="chatin"><textarea id="iin" placeholder="Escribe tu idea y pulsa Enviar"></textarea><button class="btn" id="isend">Enviar</button></div>
-        <div class="fila"><button class="btn primary" id="iplan" ${(S.ideaChat||[]).length?"":"disabled"}>Añadir al plan</button>${(S.ideaChat||[]).length?`<button class="btn ghost" id="ilimpia">Empezar otra idea</button>`:""}<span class="hint" id="ist"></span></div>
-      </section>
+      <section class="card idea"><h3>Propón una idea de mejora</h3>
+        <p class="hint" style="margin:0 0 10px">Cuéntasela a Claude con tus palabras. Te ayuda a concretarla y la añade al plan él mismo; también puede cambiar prioridades o ejecutar una tarea ahora.</p>
+        <button class="btn primary" data-asis="Tengo una idea de mejora: ">Proponer una idea a Claude</button></section>
       <section class="card"><h3>Revisión mensual</h3>
         <p class="hint" style="margin:0 0 10px">El día 1 de cada mes Claude repasa todo el sistema y rehace este plan: busca fuentes nuevas, mira dónde faltan ayudas, cómo reducir descargas y consumo, y qué falla. Lo que encuentra entra aquí como tareas con prioridad; lo que necesita tu decisión, en «Lo que te toca a ti».</p>
         ${M.ultima?`<div class="nota"><b>${fmtFecha(M.ultima)}:</b> ${linkify(M.resumen||"")}</div>`:`<p class="hint" style="margin:0">Primera revisión: ${proxMes().toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long"})}.</p>`}
@@ -850,47 +870,84 @@ function renderFuentes(){
       <section class="card"><h3>Plan de Claude para las fuentes</h3><p class="hint" style="margin:0 0 10px">Una mejora cada noche a las 03:17, antes del recolector de las 05:41. La noche siguiente Claude comprueba que funciona.</p><ul class="plan">${plan.map(filaPlan).join("")}</ul></section>`)}
   </div>`;
   $("#detalle").querySelectorAll("details.acord").forEach(d=>d.addEventListener("toggle",()=>{ abiertos[d.dataset.ac]=d.open; }));
-  bindIdea();
 }
-function ctxMejora(){
-  const F=D.fuentes||{};
-  return `Eres Claude y ayudas al responsable de Eskubat (app de ayudas y subvenciones de Euskadi) a concretar ideas de mejora continua. El sistema: un recolector diario lee fuentes oficiales (${(F.consultadas||[]).map(g=>g.grupo+": "+(g.filas||[]).map(f=>f.nombre).join(", ")).join("; ")}); Claude revisa cada hora las ayudas nuevas o cambiadas y redacta sus fichas; cada noche Claude ejecuta una tarea del plan de mejoras (lectores nuevos, mediciones de cobertura, cambios en la página); cada mes revisa el plan. Fuentes posibles ya identificadas: ${(F.potenciales||[]).map(p=>p.nombre).join("; ")}. Plan actual: ${(D.tareas||[]).filter(t=>t.quien!=="Tú").map(t=>`${t.titulo} (${t.estado})`).join("; ")}. Hay ${D.ayudas.length} ayudas en la app.
-Responde en castellano, breve y concreto. Ayuda a convertir la idea en una tarea que Claude pueda hacer sola: qué hacer, por qué (qué se gana) y cómo se comprueba. Si ya está en el plan, dilo. Si necesita una decisión o un acceso del responsable, dilo claramente. No inventes datos que no conoces.`;
+
+/* ================= ASISTENTE (Pedir a Claude) ================= */
+const ASIS={msgs:[],log:[],ocupado:false};
+try{ const g=JSON.parse(localStorage.getItem("eskubat-asis")||"null"); if(g&&Array.isArray(g.msgs)) ASIS.msgs=g.msgs.slice(-30); }catch{}
+function guardaAsis(){ try{ localStorage.setItem("eskubat-asis",JSON.stringify({msgs:ASIS.msgs.slice(-30)})); }catch{} }
+function resumenAyuda(a){ return {id:a.id,titulo:a.titulo,organismo:a.organismo,lugar:a.lugar,fin:a.fin,estado:a.estado,revisada:!!a.ficha,comentarios:comDe(a)}; }
+function nuevaCuestion(campos){ if(!S.db) throw new Error("La página no tiene conexión con su base de datos."); const now=new Date().toISOString(); const id=(campos.id||("asis-"+Date.now().toString(36)));
+  const doc={area:"datos",ayudaId:"",titulo:"",organismo:"",url:"",fin:"",tipos:["otro"],motivo:"",estado:"abierta",origen:"asistente",respuesta:"",instruccion:"",chat:[],creada:now,actualizada:now,...campos}; delete doc.id;
+  return S.db.collection("cuestiones").doc(id).set(doc).then(()=>id); }
+const HERR=[
+ {name:"estado_general",description:"Estado actual: cola de revisión, horas que faltan, ayudas, revisadas, cuestiones por estado y área, y tareas del plan.",inputSchema:{type:"object",properties:{}},
+  execute:()=>{ const t=D.cola||{}; const cq={}; S.docs.forEach(d=>{const k=(d.estado||"abierta")+"·"+areaDe(d); cq[k]=(cq[k]||0)+1;});
+    return {generado:D.generado,cola:t,horas_restantes:Math.max(Math.ceil((t.fichas||0)/10),Math.ceil((t.titulos||0)/300),Math.ceil((t.noticias||0)/10)),ayudas:D.ayudas.length,revisadas:D.ayudas.filter(a=>a.ficha).length,cuestiones:cq,
+      plan:(D.tareas||[]).map(x=>({id:x.id,titulo:x.titulo,quien:x.quien,estado:x.estado,prioridad:x.prioridad})),fuentes:(D.fuentes.consultadas||[]).map(g=>g.grupo)}; }},
+ {name:"buscar_ayudas",description:"Busca ayudas en la base de datos. Devuelve el total y hasta 'limite' resultados (id, título, organismo, fin, revisada, comentarios). Úsala antes de pedir cambios a ayudas concretas.",
+  inputSchema:{type:"object",properties:{texto:{type:"string",description:"Palabras del título, organismo o municipio"},revision:{type:"string",enum:["revisada","pendiente","sinficha"]},comentarios:{type:"string",enum:["abierto","pedido","resuelto","ninguno"]},plazo:{type:"string",enum:["abierta","proxima","sinfecha"]},cierre:{type:"string",enum:["7d","30d","mas"]},nivel:{type:"string",enum:["euskadi","territorio","municipio","estado","ue"]},para:{type:"string",enum:["particular","autonomo","empresa","asociacion","ayuntamiento"]},tema:{type:"string"},organismo:{type:"string"},limite:{type:"number"}}},
+  execute:(i)=>{ const fl={rev:i.revision,com:i.comentarios,estado:i.plazo,cierre:i.cierre,nivel:i.nivel,para:i.para,temas:i.tema}; const q=(i.texto||"").toLowerCase(), o=(i.organismo||"").toLowerCase();
+    const L=D.ayudas.filter(a=>pasa(a,fl)&&(!q||[a.titulo,a.organismo,a.lugar,a.id].join(" ").toLowerCase().includes(q))&&(!o||a.organismo.toLowerCase().includes(o)));
+    return {total:L.length,ids_todas:L.length<=300?L.map(a=>a.id):undefined,resultados:L.slice(0,Math.min(i.limite||15,40)).map(resumenAyuda)}; }},
+ {name:"ver_ficha",description:"Ficha completa de una ayuda (por id): datos de la fuente y, si está revisada, la ficha de Claude por tipo de solicitante.",inputSchema:{type:"object",properties:{id:{type:"string"}},required:["id"]},
+  execute:(i)=>{ const a=AY.get(i.id); if(!a) throw new Error("No existe esa ayuda"); return {...resumenAyuda(a),url:a.url,resumen:a.resumen,cuantia:a.cuantia,dirigido:a.dirigido,requisitos:a.requisitos,ficha:a.ficha,cuestiones:cuestionesDe(a.id).map(c=>({id:c._id,estado:c.estado,motivo:(c.motivo||"").slice(0,300),nota:c.nota}))}; }},
+ {name:"pedir_cambio_ayudas",description:"Pide a la revisión horaria de Claude un cambio en una o varias fichas (se aplica en la próxima pasada, a y 32). Pasa los ids exactos.",
+  inputSchema:{type:"object",properties:{ids:{type:"array",items:{type:"string"}},instruccion:{type:"string",description:"Qué cambiar, en frases concretas"}},required:["ids","instruccion"]},
+  execute:async(i)=>{ const ids=(i.ids||[]).filter(x=>AY.has(x)); if(!ids.length) throw new Error("Ningún id válido"); 
+    if(ids.length===1){ const a=AY.get(ids[0]); const id=await nuevaCuestion({id:a.d+"-"+Date.now().toString(36),area:"datos",ayudaId:a.id,titulo:a.titulo,organismo:a.organismo,url:a.url,fin:a.fin,motivo:"Cambio pedido desde el asistente.",estado:"lista",instruccion:i.instruccion}); return {hecho:true,cuestion:id}; }
+    const id=await nuevaCuestion({id:"lote-"+Date.now().toString(36),area:"datos",ayudas:ids,titulo:`Cambio en ${ids.length} ayudas`,organismo:"Varias",motivo:`Cambio pedido desde el asistente. Aplicar a cada una de estas ayudas (ids): ${ids.join(", ")}`,estado:"lista",instruccion:i.instruccion}); return {hecho:true,cuestion:id,ayudas:ids.length}; }},
+ {name:"listar_cuestiones",description:"Lista las cuestiones (decisiones y cambios pedidos), filtrables por estado y área.",inputSchema:{type:"object",properties:{estado:{type:"string",enum:["abierta","lista","aplicada","descartada"]},area:{type:"string",enum:["fuentes","datos","eskubat"]}}},
+  execute:(i)=>S.docs.filter(d=>(!i.estado||(d.estado||"abierta")===i.estado)&&(!i.area||areaDe(d)===i.area)).slice(0,40).map(d=>({id:d._id,area:areaDe(d),estado:d.estado||"abierta",titulo:d.titulo,motivo:(d.motivo||"").slice(0,400),instruccion:d.instruccion,nota:d.nota}))},
+ {name:"decidir_cuestion",description:"Decide una cuestión abierta: confirmar la propuesta, descartarla o responder con lo que hay que cambiar. Solo cuando el responsable lo haya decidido en la conversación.",
+  inputSchema:{type:"object",properties:{id:{type:"string"},decision:{type:"string",enum:["confirmar","descartar","cambiar","reabrir"]},texto:{type:"string",description:"Qué cambiar (si decision = cambiar)"}},required:["id","decision"]},
+  execute:async(i)=>{ const d=S.docs.find(x=>x._id===i.id); if(!d) throw new Error("No existe esa cuestión");
+    const c=i.decision==="confirmar"?{estado:"lista",instruccion:"Confirmado: aplica la propuesta del motivo tal como está escrita."}:i.decision==="descartar"?{estado:"descartada"}:i.decision==="reabrir"?{estado:"abierta"}:{estado:"lista",instruccion:i.texto||""};
+    await S.db.collection("cuestiones").doc(i.id).update({...c,actualizada:new Date().toISOString()}); return {hecho:true,...c}; }},
+ {name:"crear_cuestion",description:"Apunta una cuestión nueva. area: fuentes (de dónde salen las ayudas), datos (fichas, reglas, revisión) o eskubat (la app y su diseño; no la aplica la tarea horaria). Con lista=true queda como instrucción para la próxima pasada; con false, como pregunta abierta.",
+  inputSchema:{type:"object",properties:{area:{type:"string",enum:["fuentes","datos","eskubat"]},titulo:{type:"string"},motivo:{type:"string"},lista:{type:"boolean"}},required:["area","titulo","motivo"]},
+  execute:async(i)=>({hecho:true,cuestion:await nuevaCuestion({area:i.area,titulo:i.titulo,motivo:i.motivo,estado:i.lista?"lista":"abierta",instruccion:i.lista?i.motivo:""})})},
+ {name:"proponer_tarea_plan",description:"Añade una tarea al plan de mejora continua de Claude (la añade la revisión horaria en su próxima pasada y luego la ejecuta la tarea nocturna). Para fuentes nuevas, lectores, mediciones, cambios en la página o en el recolector.",
+  inputSchema:{type:"object",properties:{titulo:{type:"string"},detalle:{type:"string",description:"Qué hacer, por qué y cómo se comprueba"},seccion:{type:"string",enum:["fuentes","base","revision"]},prioridad:{type:"number",description:"1 = la más urgente"}},required:["titulo","detalle"]},
+  execute:async(i)=>({hecho:true,cuestion:await nuevaCuestion({area:"fuentes",titulo:"Idea de mejora: "+i.titulo,organismo:"Mejora continua",motivo:i.detalle,estado:"lista",origen:"mejora",
+    instruccion:`Añade al plan de mejora continua (panel/tareas.json) la tarea de Claude «${i.titulo}» (seccion "${i.seccion||"fuentes"}"${i.prioridad?`, prioridad ${i.prioridad}; desplaza las demás`:", con la prioridad que le corresponda por impacto"}): ${i.detalle}`})})},
+ {name:"cambiar_plan",description:"Pide un cambio en el plan de mejora continua: reordenar prioridades, quitar o modificar tareas. Se aplica en la próxima pasada.",inputSchema:{type:"object",properties:{instruccion:{type:"string"}},required:["instruccion"]},
+  execute:async(i)=>({hecho:true,cuestion:await nuevaCuestion({area:"fuentes",titulo:"Cambio en el plan de mejora continua",organismo:"Mejora continua",motivo:i.instruccion,estado:"lista",origen:"mejora",instruccion:"Cambia panel/tareas.json así: "+i.instruccion})})},
+ {name:"ejecutar_tarea_ahora",description:"Lanza ya una tarea del plan de Claude (por id) en vez de esperar a su noche. Arranca en menos de una hora.",inputSchema:{type:"object",properties:{id:{type:"string"}},required:["id"]},
+  execute:async(i)=>{ const t=(D.tareas||[]).find(x=>x.id===i.id); if(!t) throw new Error("No existe esa tarea"); await S.db.collection("peticiones").doc(t.id).set({tarea:t.id,titulo:t.titulo,estado:"pedida",pedida:new Date().toISOString()}); return {hecho:true,tarea:t.titulo}; }},
+ {name:"mostrar",description:"Lleva la página a una pantalla: inicio, datos (resumen), lista (con filtros), cuestiones, fuentes o instrucciones. Útil para enseñar al responsable lo que has encontrado.",
+  inputSchema:{type:"object",properties:{pantalla:{type:"string",enum:["inicio","datos","lista","cuestiones","fuentes","instrucciones"]},filtros:{type:"object",description:"Para lista: rev, com, estado, cierre, nivel, para, temas, organismo"},ayuda:{type:"string",description:"Id de una ayuda para abrirla en la lista"}},required:["pantalla"]},
+  execute:(i)=>{ const v={inicio:"w",datos:"b",lista:"l",cuestiones:"c",fuentes:"f",instrucciones:"i"}[i.pantalla]; if(v==="l"){ S.fl=i.filtros||{}; S.selec=new Set(); } cambiarVista(v); if(i.ayuda&&v==="l") seleccionar(i.ayuda); return {hecho:true}; }}
+];
+function sistemaAsis(){ return `Eres Claude, el asistente de la página «Eskubat — Revisión de ayudas». Eskubat es una app de ayudas y subvenciones de Euskadi. El sistema: un recolector diario lee las fuentes; Claude revisa cada hora (a y 32) las ayudas nuevas o cambiadas y redacta sus fichas; cada noche (03:17) Claude ejecuta una tarea del plan de mejora continua; cada mes revisa el plan. Las cuestiones son decisiones del responsable o cambios pedidos; las «listas» las aplica la revisión horaria en su próxima pasada (las de área eskubat, no).
+Tienes herramientas para consultar los datos y para hacer cambios directamente: úsalas. Si te piden un cambio, hazlo con la herramienta adecuada y di qué has hecho y cuándo se aplicará; no pidas permiso para lo que el responsable ya ha pedido claramente, pero pregunta si algo es ambiguo o afecta a muchas ayudas sin que lo haya dicho. Antes de pedir cambios a ayudas concretas, búscalas para tener los ids. No puedes navegar por la web ni cambiar el código desde aquí: lo que exige código o fuentes nuevas va al plan (proponer_tarea_plan). Responde en castellano, breve y claro, sin jerga técnica. Hoy es ${new Date().toISOString().slice(0,10)}; los datos de la página son del ${hora(D.generado)}.`; }
+function renderAsis(){
+  const box=$("#asisMsgs"); if(!box) return;
+  box.innerHTML=ASIS.msgs.length?ASIS.msgs.map(m=>m.role==="accion"?`<div class="msg accion">✓ ${esc(m.content)}</div>`:`<div class="msg ${m.role}">${m.role==="assistant"?linkify(m.content):esc(m.content)}</div>`).join("")
+    :`<div class="asis-vacio"><p>Pídeme lo que necesites. Por ejemplo:</p>${["¿Cuánto falta para revisar todo?","Busca las ayudas de Bilbao que cierran esta semana","A las ayudas de Zaldibar añade que hay que estar empadronado","Añade al plan leer la Cámara de Comercio de Bilbao","Ejecuta ahora la tarea del BOPV","¿Qué cuestiones tengo abiertas?"].map(e=>`<button class="ej">${esc(e)}</button>`).join("")}</div>`;
+  box.querySelectorAll(".ej").forEach(b=>b.onclick=()=>{ $("#asisIn").value=b.textContent; enviarAsis(); });
+  box.scrollTop=box.scrollHeight;
 }
-function bindIdea(){
-  const send=$("#isend"); if(!send) return;
-  if(!S.sample){ $("#idea").querySelectorAll("#isend,#iin").forEach(x=>x.disabled=true); $("#ist").textContent="El chat necesita la conexión con Claude de la página; puedes añadir la idea igualmente."; $("#iplan").disabled=false; }
-  const enviar=async()=>{
-    const t=$("#iin").value.trim(); if(!t||!S.sample) return;
-    S.ideaChat=[...(S.ideaChat||[]),{role:"user",content:t}]; $("#iin").value=""; send.disabled=true;
-    const box=$("#ichat"); box.insertAdjacentHTML("beforeend",`<div class="msg user">${esc(t)}</div><div class="msg assistant" id="istream">Pensando…</div>`);
-    try{ const r=await S.sample([{role:"user",content:ctxMejora()},{role:"assistant",content:"Entendido. ¿Cuál es la idea?"},...S.ideaChat],{cache:false,onText:({text})=>{const el=$("#istream"); if(el) el.textContent=text;}});
-      S.ideaChat.push({role:"assistant",content:r.text}); }
-    catch(err){ const el=$("#istream"); if(el) el.textContent="Claude no ha podido responder ("+(err&&err.code||"error")+")."; }
-    renderFuentes();
-  };
-  send.onclick=enviar; $("#iin").onkeydown=(ev)=>{ if(ev.key==="Enter"&&(ev.metaKey||ev.ctrlKey)) enviar(); };
-  const lim=$("#ilimpia"); if(lim) lim.onclick=()=>{ S.ideaChat=[]; renderFuentes(); };
-  $("#iplan").onclick=async()=>{
-    if(!S.db){ $("#ist").textContent="Sin conexión con la base de datos de la página."; return; }
-    const conv=(S.ideaChat||[]).map(m=>(m.role==="user"?"Responsable: ":"Claude: ")+m.content).join("\n");
-    let titulo="Idea de mejora", detalle=conv||$("#iin").value.trim();
-    if(!detalle){ $("#iin").focus(); return; }
-    $("#iplan").disabled=true; $("#ist").textContent="Preparando la tarea…";
-    if(S.sample&&conv){ try{ const j=await S.sample.json(ctxMejora()+`\n\nConversación:\n${conv}\n\nDevuelve solo un objeto JSON {"titulo": "título corto en imperativo (máx. 70 caracteres)", "detalle": "dos o tres frases: qué hacer, por qué y cómo se comprueba"} con la tarea que ha quedado decidida.`); if(j&&j.titulo){ titulo=j.titulo; detalle=j.detalle||detalle; } }catch{} }
-    const now=new Date().toISOString(), id="idea-"+Date.now().toString(36);
-    try{
-      await S.db.collection("cuestiones").doc(id).set({area:"fuentes",ayudaId:"",titulo:"Idea de mejora: "+titulo,organismo:"Mejora continua",url:"",fin:"",tipos:["otro"],motivo:detalle+(conv?"\n\nConversación:\n"+conv:""),estado:"lista",origen:"mejora",respuesta:"",instruccion:`Añade esta idea al plan de mejora continua (panel/tareas.json) como tarea de Claude, con la prioridad que le corresponda por impacto: «${titulo}». ${detalle}`,chat:[],creada:now,actualizada:now});
-      S.ideaChat=[]; renderFuentes(); $("#ist").textContent="Añadida: aparecerá en el plan tras la próxima pasada (a y 32).";
-    }catch(err){ $("#iplan").disabled=false; $("#ist").textContent="No se pudo añadir ("+(err&&err.code||"error")+")."; }
-  };
+async function enviarAsis(){
+  const inp=$("#asisIn"), t=inp.value.trim(); if(!t||ASIS.ocupado) return;
+  if(!S.sample){ ASIS.msgs.push({role:"user",content:t},{role:"assistant",content:"No tengo conexión con Claude en esta vista. Abre la página desde claude.ai con tu cuenta."}); inp.value=""; renderAsis(); return; }
+  ASIS.msgs.push({role:"user",content:t}); inp.value=""; ASIS.ocupado=true; $("#asisSend").disabled=true; renderAsis();
+  const box=$("#asisMsgs"); box.insertAdjacentHTML("beforeend",`<div class="msg assistant" id="asisStream">Pensando…</div>`); box.scrollTop=box.scrollHeight;
+  const tools=HERR.map(hh=>({...hh,execute:async(input)=>{ const r=await hh.execute(input||{}); if(r&&r.hecho){ const L={pedir_cambio_ayudas:"Cambio pedido"+(r.ayudas?` para ${r.ayudas} ayudas`:""),decidir_cuestion:"Cuestión "+({lista:"enviada a la próxima pasada",descartada:"descartada",abierta:"reabierta"}[r.estado]||"actualizada"),crear_cuestion:"Cuestión apuntada",proponer_tarea_plan:"Idea enviada al plan",cambiar_plan:"Cambio en el plan pedido",ejecutar_tarea_ahora:"Ejecución pedida: "+(r.tarea||""),mostrar:null}[hh.name]; if(L) ASIS.msgs.push({role:"accion",content:L}); } return r; }}));
+  const hist=ASIS.msgs.filter(m=>m.role!=="accion").slice(-20);
+  try{
+    const r=await S.sample([{role:"user",content:sistemaAsis()},{role:"assistant",content:"Entendido. ¿Qué necesitas?"},...hist],{cache:false,tools,modelTier:"default",onText:({text})=>{const el=$("#asisStream"); if(el) el.textContent=text;}});
+    ASIS.msgs.push({role:"assistant",content:r.text||"Hecho."});
+  }catch(err){ ASIS.msgs.push({role:"assistant",content:err&&err.code==="rate_limited"?"Demasiadas peticiones seguidas; espera un minuto.":"No he podido responder ("+(err&&err.code||"error")+")."}); }
+  ASIS.ocupado=false; $("#asisSend").disabled=false; guardaAsis(); renderAsis();
 }
+function abrirAsis(texto){ document.body.classList.add("asis-on"); renderAsis(); const i=$("#asisIn"); if(texto){ i.value=texto; } i.focus(); }
 
 /* ================= NAVEGACIÓN ================= */
 function renderLista(){ if(S.vista==="l") renderListaB(); else if(S.vista==="c") renderListaC(); else if(S.vista==="i") renderListaI(); }
 function renderDetalle(){ ({w:renderInicio,b:renderBase,f:renderFuentes,l:renderDetalleB,c:renderDetalleC,i:renderDetalleI})[S.vista](); }
 function cambiarVista(v){
-  S.vista=v; document.body.className="v-"+v; S.q=""; $("#q").value="";
+  S.vista=v; const _ao=document.body.classList.contains("asis-on"); document.body.className="v-"+v+(_ao?" asis-on":""); S.q=""; $("#q").value="";
   $("#vtitulo").textContent=TITULOS[v]||""; $("#nueva").style.display=v==="c"?"":"none";
   if(location.hash!==VISTAS[v]){ try{ history.replaceState(null,"",VISTAS[v]); }catch{} }
   renderLista(); renderDetalle(); window.scrollTo(0,0); $("#detalle").scrollTop=0;
@@ -913,6 +970,12 @@ $("#counts").addEventListener("click",ev=>{const b=ev.target.closest(".count"); 
   if(b.dataset.ar!=null) S.areaF=b.dataset.ar; else if(b.dataset.f) S.filtro=b.dataset.f; renderLista();});
 $("#q").addEventListener("input",ev=>{S.q=ev.target.value; renderLista();});
 $("#aInicio").onclick=()=>cambiarVista("w");
+$("#asisFab").onclick=()=>abrirAsis();
+$("#asisX").onclick=()=>document.body.classList.remove("asis-on");
+$("#asisNuevo").onclick=()=>{ ASIS.msgs=[]; guardaAsis(); renderAsis(); };
+$("#asisSend").onclick=enviarAsis;
+$("#asisIn").onkeydown=(ev)=>{ if(ev.key==="Enter"&&(ev.metaKey||ev.ctrlKey)) enviarAsis(); };
+document.addEventListener("click",ev=>{ const b=ev.target.closest("[data-asis]"); if(b) abrirAsis(b.dataset.asis); });
 $("#refrescar").onclick=()=>{ $("#refrescar").disabled=true; $("#refrescar").textContent="Actualizando…"; try{ sessionStorage.setItem("eskubat-vista",S.vista); }catch{} location.reload(); };
 $("#marca").onclick=(ev)=>{ ev.preventDefault(); cambiarVista("w"); };
 $("#nueva").onclick=()=>abrirNueva("","","");
