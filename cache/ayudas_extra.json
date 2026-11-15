@@ -1,0 +1,80 @@
+[
+ {
+  "id": "extra-msca-dn-2026",
+  "titulo": "MSCA Doctoral Networks 2026",
+  "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2026-DN-01-01",
+  "fuente": "Funding & Tenders Portal",
+  "organismo": "Unión Europea",
+  "ambito": {
+   "nivel": "ue"
+  },
+  "inicio": "2026-05-28",
+  "fin": "2026-11-24",
+  "resumen": "Convocatoria de Redes Doctorales de las Acciones Marie Skłodowska-Curie (Horizonte Europa), con un presupuesto indicativo de 593,03 millones de euros, para programas de formación doctoral en colaboración internacional, interdisciplinar e intersectorial. Incluye el piloto RAISE de redes doctorales de IA en la ciencia (HORIZON-RAISE-2026-01-03, 30 millones), que se solicita dentro de esta misma convocatoria. La solicitud se presenta en el Funding & Tenders Portal hasta el 24 de noviembre de 2026 a las 17:00 (hora de Bruselas).",
+  "dirigido": "Consorcios de universidades, centros de investigación, empresas y otras organizaciones públicas o privadas que formen doctorandos",
+  "para": [
+   "empresa",
+   "asociacion",
+   "ayuntamiento"
+  ],
+  "noticia": "eus-ayuda-subvencion-2026-260528mscaraisedoktoregoa"
+ },
+ {
+  "id": "extra-eic-accelerator-2027",
+  "titulo": "EIC Accelerator 2027 (HORIZON-EIC-2027-ACCELERATOR-01)",
+  "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2027-ACCELERATOR-01",
+  "fuente": "Funding & Tenders Portal",
+  "organismo": "Unión Europea",
+  "ambito": {
+   "nivel": "ue"
+  },
+  "inicio": "2026-11-10",
+  "fin": "2027-11-04",
+  "resumen": "El Consejo Europeo de Innovación (EIC) financia a startups y pymes con innovaciones disruptivas (incluidas tecnologías de doble uso) con una subvención de hasta 2,5 millones de euros y una inversión de capital de 1 a 10 millones. Las propuestas cortas pueden presentarse en cualquier momento y las completas en los cortes del 20 de enero, 17 de marzo, 1 de septiembre y 4 de noviembre de 2027.",
+  "dirigido": "Pymes y pequeñas mid-caps (hasta 499 empleados) establecidas en un Estado miembro o país asociado, y personas que vayan a crear una.",
+  "para": [
+   "empresa",
+   "particular"
+  ],
+  "noticia": "eus-ayuda-subvencion-2026-260622defentsazkolaguntza"
+ },
+ {
+  "id": "extra-gv-agrupaciones-productoras-agrarias-forestales-2026",
+  "titulo": "Ayudas a las agrupaciones de personas productoras agrarias y forestales 2026 previstas en el PEPAC (2023-2027)",
+  "url": "https://www.euskadi.eus/bopv2/datos/2026/11/2604848a.pdf",
+  "fuente": "BOPV",
+  "organismo": "Gobierno Vasco - Departamento de Alimentación, Desarrollo Rural, Agricultura y Pesca",
+  "ambito": {
+   "nivel": "euskadi"
+  },
+  "inicio": "2026-11-14",
+  "fin": "2026-11-23",
+  "resumen": "Orden de 3 de noviembre de 2026 (BOPV n.º 218, 13/11/2026) que aprueba las bases y convoca ayudas, cofinanciadas por el FEADER, para crear agrupaciones de productores (línea 1: porcentaje del valor de la producción comercializada) y para nuevas actividades o proyectos de cooperación de las existentes (línea 2: hasta 50.000 € por actuación y año). Presupuesto de 400.000 € y máximo de 100.000 € por agrupación y año; plazo de 10 días naturales desde el día siguiente a la publicación.",
+  "dirigido": "Agrupaciones u organizaciones de personas productoras agrarias y forestales reconocidas según el Decreto 10/2018, y sus uniones o federaciones, que operen en la CAPV.",
+  "para": [
+   "empresa",
+   "asociacion"
+  ]
+ },
+ {
+  "id": "extra-gv-eventos-sociales-medio-rural-litoral-2026",
+  "titulo": "Ayudas, acogidas al régimen de minimis, para la realización de eventos sociales que dinamicen el medio rural y litoral de la CAPV 2026",
+  "url": "https://www.euskadi.eus/bopv2/datos/2026/11/2604847a.pdf",
+  "fuente": "BOPV",
+  "organismo": "Gobierno Vasco - Departamento de Alimentación, Desarrollo Rural, Agricultura y Pesca",
+  "ambito": {
+   "nivel": "euskadi"
+  },
+  "inicio": "2026-11-14",
+  "fin": "2026-12-13",
+  "resumen": "Orden de 20 de octubre de 2026 (BOPV n.º 218, 13/11/2026) que subvenciona eventos sociales realizados en 2026 en zonas rurales o litorales (municipios de hasta 5.000 habitantes) que dinamicen el territorio: patrimonio, gastronomía, turismo rural, diversificación o lucha contra la despoblación. Hasta el 60 % del coste y 15.000 € según puntuación; presupuesto de 200.000 € por orden de llegada, con plazo de un mes o hasta agotar el presupuesto.",
+  "dirigido": "Personas físicas o jurídicas, públicas o privadas, promotoras de eventos sociales en zonas rurales o litorales de la CAPV (un evento por solicitante).",
+  "para": [
+   "particular",
+   "autonomo",
+   "empresa",
+   "asociacion",
+   "ayuntamiento"
+  ]
+ }
+]

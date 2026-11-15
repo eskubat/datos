@@ -1,0 +1,43 @@
+{
+ "eus-ayuda-subvencion-2026-202605europasentitzendasa": {
+  "accion": "no_es_ayuda",
+  "nota": "Concurso #EuropaSeSiente 2026 de la Secretaría General de Fondos Europeos (premios de difusión, sin dotación de ayuda); el plazo de candidaturas cerró el 12/06/2026 según la nota de Hacienda https://www.hacienda.gob.es/es-es/prensa/noticias/noticiaspdf/613.pdf"
+ },
+ "eus-ayuda-subvencion-2026-260528mscaraisedoktoregoa": {
+  "accion": "añadida",
+  "nota": "Anuncia la convocatoria MSCA Doctoral Networks 2026 (incluye las redes RAISE de IA en la ciencia, HORIZON-RAISE-2026-01-03), abierta del 28/05/2026 al 24/11/2026 según REA (https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions/msca-doctoral-networks_en); no estaba en ayudas.json → extra-msca-dn-2026"
+ },
+ "eus-ayuda-subvencion-2026-cefmugazgaindikoberriztag": {
+  "accion": "no_es_ayuda",
+  "nota": "Informa de las subvenciones CEF Energía ya concedidas (unos 126 M€ a 3 proyectos transfronterizos de renovables); no anuncia una convocatoria abierta ni da plazo."
+ },
+ "eus-ayuda-subvencion-2026-260528beroberrikutzak": {
+  "accion": "no_es_ayuda",
+  "nota": "Resultados de la primera subasta de calor del Fondo de Innovación (400 M€ a 65 proyectos); la segunda subasta (IF26 Heat Auction, 1.000 M€) solo se anuncia para diciembre de 2026, sin página de convocatoria con fechas todavía (https://climate.ec.europa.eu/areas-action/eu-funding-climate-action/innovation-fund/competitive-bidding_en); revisar cuando abra."
+ },
+ "eus-ayuda-subvencion-2026-260602ercplusbekak": {
+  "accion": "no_es_ayuda",
+  "nota": "Presenta las nuevas becas ERC Plus; la convocatoria de 2026 (ERC-2026-PLUS) ya está cerrada y en evaluación, y la de 2027 solo está prevista (publicación 1/06/2027, plazo 1/09/2027) sin página de convocatoria aún (https://erc.europa.eu/news-events/news/new-erc-work-programme-sets-out-2027-funding-opportunities)."
+ },
+ "eus-ayuda-subvencion-2026-260622defentsazkolaguntza": {
+  "accion": "añadida",
+  "nota": "Noticia sobre la apertura del EIC a tecnologías de defensa y doble uso; el EIC Accelerator 2027 está abierto (propuestas cortas en cualquier momento, cortes de propuesta completa 20/01, 17/03, 01/09 y 04/11/2027) y no lo teníamos: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2027-ACCELERATOR-01 (verificado en https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en). STEP Scale Up Defence 2026 cerró el 28/10/2026 y la edición 2027 no tiene aún fechas verificables en página oficial."
+ },
+ "eus-ayuda-subvencion-2026-260803ongarrietarakolgenf": {
+  "accion": "no_es_ayuda",
+  "nota": "Información general sobre medidas de la Comisión Europea (FEADER, anticipos de pagos directos) por el coste de los fertilizantes; no hay convocatoria solicitable."
+ },
+ "eus-ayuda-subvencion-2026-arrantzataakuikulturarene": {
+  "accion": "no_es_ayuda",
+  "nota": "Describe una propuesta de simplificación de las normas del FEMPA (motores, relevo generacional, nuevas líneas); es información legislativa sin convocatoria."
+ },
+ "eus-ayuda-subvencion-2026-bioaniztasunfundaziohirin": {
+  "accion": "no_es_ayuda",
+  "nota": "Convocatoria FEDER de la Fundación Biodiversidad para renaturalización de ciudades 2026 cuyo plazo terminó el 29/10/2026 (plazo cerrado)."
+ },
+ "eus-ayuda-subvencion-2026-eiaaffuntsaarrantzagarape": {
+  "accion": "duplicada",
+  "ayudaId": "eus-ayuda-subvencion-2026-ayudas-al-amparo-de-la-estrategia-de-desarrollo-local-participativo-2026",
+  "nota": "Noticia de Irekia (Consejo de Gobierno 15/09/2026) sobre los 2,1 M€ FEMPA para la EDLP del GALP Itsas Garapen Elkartea, que ya tenemos como ayuda abierta hasta el 17/11/2026."
+ }
+}
