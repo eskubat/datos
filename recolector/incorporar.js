@@ -15,10 +15,7 @@ for (const r of nuevos) {
   let fuente = '';
   try { fuente = fs.readFileSync(p.archivo, 'utf8'); } catch { rechazados++; continue; }
   const v = validar(r, fuente);
-  const cuenta = (x) => (Array.isArray(x) ? x : []).reduce((n, g) => n + (g && typeof g === 'object' ? (g.items || []).length : 1), 0);
-  const total = ['titulo', 'queEs'].filter((k) => r[k]).length + ['cuantia', 'quien', 'requisitos'].reduce((n, k) => n + cuenta(r[k]), 0);
-  const quedan = ['titulo', 'queEs'].filter((k) => v[k]).length + ['cuantia', 'quien', 'requisitos'].reduce((n, k) => n + cuenta(v[k]), 0);
-  campos += total - quedan;
+  campos += v.errores.length;
   cache[r.id] = { h: p.h, r: v, modelo: 'claude', fecha: new Date().toISOString().slice(0, 10) };
   ok++;
 }
@@ -36,7 +33,7 @@ if (pub) {
   const n = aplicar(pub.ayudas, fuentes, cache);
   pub.resumidas = n;
   fs.writeFileSync('publico/ayudas.json', JSON.stringify(pub));
-  console.log(`Incorporados ${ok} resúmenes (${rechazados} sin ayuda correspondiente, ${campos} frases descartadas por cifras no verificables). Ayudas con resumen: ${n}/${pub.ayudas.length}. Pendientes: ${leer('cache/pendientes.json', []).length}`);
+  console.log(`Incorporados ${ok} resúmenes (${rechazados} sin ayuda correspondiente, ${campos} avisos de las comprobaciones). Ayudas con resumen: ${n}/${pub.ayudas.length}. Pendientes: ${leer('cache/pendientes.json', []).length}`);
 }
 
 // Títulos en euskera (cache/titulos_nuevos.json: {"título en castellano": "título en euskera"})
