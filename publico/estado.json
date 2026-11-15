@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generado": "2026-11-15T21:12:52.744Z",
+  "generado": "2026-11-15T21:49:25.882Z",
   "total": 517,
   "porAmbito": {
     "municipio": 318,
@@ -20,14 +20,14 @@
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
       "registros": 136,
-      "segundos": 44,
+      "segundos": 32,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 27,
-      "segundos": 24,
+      "segundos": 30,
       "erroresFicha": 0
     },
     "araba": {
@@ -41,15 +41,21 @@
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
       "registros": 803,
-      "segundos": 182,
+      "segundos": 164,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales de Bizkaia, Gipuzkoa y Álava (BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 147,
-      "segundos": 12,
+      "segundos": 9,
       "erroresFicha": 0
     }
+  },
+  "enlaces": {
+    "comprobados": 719,
+    "rotos": 3,
+    "sustituidos": 0,
+    "quitados": 4
   }
 }

@@ -1,32 +1,3 @@
-### Ficha oficial: https://sede.idae.gob.es/
-Avisos de la Sede
-Actualización de las Guías de Aceptación de ayuda y de Renuncia para las convocatorias FEDER / PRTR
-Actualización de los MANUALES DE IMAGEN correspondientes para cada programa.
-Últimos anuncios
-Histórico
-Instrucción para la tramitación de solicitudes de cambio de beneficiario y...
-Histórico
-Programa 4º ESO+Empresa
-ver más anuncios del tablón
-Preguntas frecuentes
-Imatge
-¿Cuáles son los requisitos técnicos para realizar trámites en la Sede del IDAE?
-Imatge
-¿Tiene problemas para realizar la firma electrónica?
-Ver más preguntas frecuentes
-SICER
-Servicio de Información a la Ciudadanía en Eficiencia Energética y Energías Renovables
-Buzón de quejas
-Para presentar sus incidencias acerca de la sede electrónica
-Ayúdenos a mejorar
-Háganos llegar sus sugerencias sobre la sede electrónica
-Suscríbase tablón de anuncios
-¿Quiére estar informado?
-Identificación Organismo
-Fecha y hora oficiales
-Calendario días inhábiles
-Tablón de anuncios
-
 ### Documento de la convocatoria: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12282
 BOE-A-2026-12282 Orden TED/569/2026, de 4 de junio, por la que se aprueban las bases reguladoras del programa de incentivos a proyectos singulares innovadores de ahorro y eficiencia energética (Programa Innovae).
 Agencia Estatal Boletín Oficial del Estado
@@ -2599,4 +2570,21 @@ desde la fecha de notificación de la resolución de concesión de la ayuda.
 b.
 Proyectos singulares en el sector industrial
 Objeto:
-Promover la real
+Promover la realización de proyectos singulares de carácter innovador, de mejora de
+la tecnología de procesos industriales que reduzcan el consumo de energía final del
+proceso, mediante la mejora de la eficiencia energética.
+Ámbito de aplicación:
+Las actuaciones deben de ser realizadas en instalaciones de empresas del sector
+industrial cuyo CNAE 2025 se encuentre dentro de los que se relacionan en el apartado
+b del anexo 1.3.
+Actuaciones subvencionables:
+1. Serán subvencionables aquellas actuaciones de mejora de la tecnología de los
+procesos industriales que reduzcan el consumo de energía final del proceso, mediante la
+mejora de la eficiencia energética.
+2. No serán subvencionables:
+a) Las instalaciones de cogeneración.
+b) Las instalaciones de energías renovables que no consigan ahorro de energía
+final.
+Para calcular y justificar el ahorro de energía final el solicitante podrá utilizar los
+métodos de medición indicados en el anexo V de la Directiva 2023/1791, de 13 de
+septiembre o, en su caso, los mé

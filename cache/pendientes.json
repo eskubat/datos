@@ -18,6 +18,15 @@
   "caracteres": 299999
  },
  {
+  "id": "bdns-930826",
+  "h": "bf433417daa50202",
+  "titulo": "Ayudas por el nacimiento o adopción del primer descendiente",
+  "organismoSugerido": "ayto-zaldibar",
+  "organismoFuente": "Ayuntamiento de zaldibar",
+  "archivo": "cache/fuentes/bdns-930826-bf421d08.txt",
+  "caracteres": 16162
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-ayudas-al-amparo-de-la-estrategia-de-desarrollo-local-participativo-2026",
   "h": "80f730e6d7b0f66e",
   "titulo": "Ayudas a proyectos al amparo de la estrategia de desarrollo local participativo (EDLP)",
@@ -37,12 +46,21 @@
  },
  {
   "id": "bdns-920153",
-  "h": "d4701f51dccdb4b6",
+  "h": "50736c1d07265032",
   "titulo": "Primera convocatoria del programa de incentivos a proyectos singulares innovadores de ahorro y eficiencia energética (innovae)",
   "organismoSugerido": "estado",
   "organismoFuente": "Instituto para la diversificación y ahorro de la energía (idae)",
   "archivo": "cache/fuentes/bdns-920153-0d3796f0.txt",
   "caracteres": 300000
+ },
+ {
+  "id": "bdns-938416",
+  "h": "43aaf4d18c79ef2e",
+  "titulo": "Resolución de Convocatoria de 20 de octubre de del XXXV Curso de Posgrado del CIS",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Centro de investigaciones sociológicas",
+  "archivo": "cache/fuentes/bdns-938416-d7c73d55.txt",
+  "caracteres": 54569
  },
  {
   "id": "eus-ayuda-subvencion-2026-pi2026-f-weblan00-content-es",
@@ -415,21 +433,21 @@
  },
  {
   "id": "bdns-927115",
-  "h": "107fa646d6781b8e",
+  "h": "3a48b20ca4868c22",
   "titulo": "Subvenciones a las Juntas Administrativas para financiación de gastos generales y fiestas locales",
   "organismoSugerido": "ayto-campezo-kanpezu",
   "organismoFuente": "Ayuntamiento de campezo/kanpezu",
   "archivo": "cache/fuentes/bdns-927115-35503636.txt",
-  "caracteres": 4618
+  "caracteres": 4884
  },
  {
   "id": "bdns-924864",
-  "h": "4fd0d608d45274c9",
+  "h": "3bdfbb44d9428f3b",
   "titulo": "Subvenciones para movilizar vivienda vacía mediante la incorporación a programas de alquiler público – bizigune",
   "organismoSugerido": "ayto-getxo",
   "organismoFuente": "Ayuntamiento de getxo",
   "archivo": "cache/fuentes/bdns-924864-89f6fd82.txt",
-  "caracteres": 70311
+  "caracteres": 77012
  },
  {
   "id": "eus-ayuda-subvencion-2026-2605nebauzoetarako3lerroe",
@@ -523,21 +541,21 @@
  },
  {
   "id": "bdns-941501",
-  "h": "8e42e40e479362ef",
+  "h": "df4573469dbe0af9",
   "titulo": "Ayudas destinadas al mantenimiento de la red estatal de centros de excelencia de formación profesional",
   "organismoSugerido": "estado",
   "organismoFuente": "Secretaría general de formación profesional",
   "archivo": "cache/fuentes/bdns-941501-656ff716.txt",
-  "caracteres": 219035
+  "caracteres": 157224
  },
  {
   "id": "bdns-941470",
-  "h": "df03659dbf1bccce",
+  "h": "e0ddd12662e34c0b",
   "titulo": "Ayudas destinadas a la incorporación de nuevos centros a la red estatal de centros de excelencia de la formación profesional",
   "organismoSugerido": "estado",
   "organismoFuente": "Secretaría general de formación profesional",
   "archivo": "cache/fuentes/bdns-941470-0dfa7d9e.txt",
-  "caracteres": 226630
+  "caracteres": 164819
  },
  {
   "id": "bdns-938474",
@@ -577,12 +595,12 @@
  },
  {
   "id": "bdns-920799",
-  "h": "319336e535fba632",
+  "h": "0402099316dace19",
   "titulo": "Ayuda directa para el ingreso en un centro residencial/vivienda comunitaria",
   "organismoSugerido": "ayto-getxo",
   "organismoFuente": "Ayuntamiento de getxo",
   "archivo": "cache/fuentes/bdns-920799-442406c1.txt",
-  "caracteres": 43773
+  "caracteres": 48245
  },
  {
   "id": "bog-c2607128-htm",
@@ -622,21 +640,21 @@
  },
  {
   "id": "bdns-938141",
-  "h": "e16d7b6706adc5b0",
+  "h": "db3950157c7b1325",
   "titulo": "Ayudas económicas a los vecinos para el estudio del euskera",
   "organismoSugerido": "ayto-elciego",
   "organismoFuente": "Ayuntamiento de elciego",
   "archivo": "cache/fuentes/bdns-938141-54999653.txt",
-  "caracteres": 5836
+  "caracteres": 6633
  },
  {
   "id": "bdns-933308",
-  "h": "54ee793e065593ce",
+  "h": "29c14049c5ed9bab",
   "titulo": "Ayudas para la creación de infraestructuras para la investigación en tecnologías de uso dual",
   "organismoSugerido": "estado",
   "organismoFuente": "Entidad pública empresarial red.es",
   "archivo": "cache/fuentes/bdns-933308-ef7bfbe6.txt",
-  "caracteres": 235655
+  "caracteres": 226166
  },
  {
   "id": "eus-ayuda-subvencion-2026-programa-onekin",
@@ -856,12 +874,12 @@
  },
  {
   "id": "bdns-934476",
-  "h": "38f145f2306a6dd3",
+  "h": "d6f79bd7e5e9394e",
   "titulo": "Ayudas económicas para el tratamiento de termitas en los inmuebles urbanos, y anteriores",
   "organismoSugerido": "ayto-elciego",
   "organismoFuente": "Ayuntamiento de elciego",
   "archivo": "cache/fuentes/bdns-934476-c1b3bf37.txt",
-  "caracteres": 7841
+  "caracteres": 8638
  },
  {
   "id": "bdns-942055",
@@ -1612,12 +1630,12 @@
  },
  {
   "id": "bdns-930698",
-  "h": "f7702736c2005707",
+  "h": "0e6f1a0d962a80cc",
   "titulo": "Ayudas a jóvenes para acceder a consultas de atención psicológica",
   "organismoSugerido": "ayto-zaldibar",
   "organismoFuente": "Ayuntamiento de zaldibar",
   "archivo": "cache/fuentes/bdns-930698-f112b764.txt",
-  "caracteres": 1845
+  "caracteres": 10626
  },
  {
   "id": "bdns-930558",
@@ -1666,21 +1684,21 @@
  },
  {
   "id": "bdns-927981",
-  "h": "2ece746624cb086c",
+  "h": "7145bfdc4c2e4e9f",
   "titulo": "Subvenciones para el empleo",
   "organismoSugerido": "ayto-campezo-kanpezu",
   "organismoFuente": "Ayuntamiento de campezo/kanpezu",
   "archivo": "cache/fuentes/bdns-927981-1226b3c9.txt",
-  "caracteres": 9458
+  "caracteres": 9724
  },
  {
   "id": "bdns-927909",
-  "h": "cb2568dff2c28479",
+  "h": "f53dfea387995569",
   "titulo": "Subvenciones para el fomento de la natalidad",
   "organismoSugerido": "ayto-campezo-kanpezu",
   "organismoFuente": "Ayuntamiento de campezo/kanpezu",
   "archivo": "cache/fuentes/bdns-927909-8dd39047.txt",
-  "caracteres": 5091
+  "caracteres": 5357
  },
  {
   "id": "bdns-927617",
@@ -1936,12 +1954,12 @@
  },
  {
   "id": "bdns-940942",
-  "h": "34063eab627185b9",
+  "h": "b1865d930a22341c",
   "titulo": "Campaña \"Día mundial de los Derechos del Consumidor - 15 de marzo de: Consumir con garantía",
   "organismoSugerido": "ayto-irun",
   "organismoFuente": "Ayuntamiento de irun",
   "archivo": "cache/fuentes/bdns-940942-0d9d0c3c.txt",
-  "caracteres": 116723
+  "caracteres": 126476
  },
  {
   "id": "bdns-940373",
@@ -2926,12 +2944,12 @@
  },
  {
   "id": "bdns-937580",
-  "h": "cc825706c91eddca",
+  "h": "290ffe3eeb8835f1",
   "titulo": "Subvención a las organizaciones sindicales y coaliciones electorales de la policía nacional con representación en el consejo de policía, en lo",
   "organismoSugerido": "estado",
   "organismoFuente": "Dirección general de la policía",
   "archivo": "cache/fuentes/bdns-937580-cc254edf.txt",
-  "caracteres": 16237
+  "caracteres": 17974
  },
  {
   "id": "bdns-937284",
@@ -3754,12 +3772,12 @@
  },
  {
   "id": "bdns-929102",
-  "h": "360fbc5b65b510e4",
+  "h": "463a66cefe06ea0f",
   "titulo": "Ayudas de viaje para participar en la reunión científica CNIC PhDay",
   "organismoSugerido": "estado",
   "organismoFuente": "Centro nacional de investigaciones cardiovasculares carlos iii f.s.p.",
   "archivo": "cache/fuentes/bdns-929102-5a5dea42.txt",
-  "caracteres": 14779
+  "caracteres": 14783
  },
  {
   "id": "bdns-929034",
