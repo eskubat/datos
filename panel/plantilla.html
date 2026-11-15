@@ -431,7 +431,7 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 <aside class="asis" id="asis" aria-label="Pedir a Claude">
   <div class="asis-h"><b>Pedir a Claude</b><span class="hint">Consulta y cambia datos, cuestiones y el plan</span><div class="spacer"></div><button class="btn ghost" id="asisNuevo" title="Empezar una conversación nueva">Nueva</button><button class="btn ghost" id="asisX" aria-label="Cerrar">✕</button></div>
   <div class="asis-m" id="asisMsgs"></div>
-  <div class="asis-i"><textarea id="asisIn" placeholder="Escribe y pulsa Enviar (Ctrl+Enter)"></textarea><button class="btn primary" id="asisSend">Enviar</button></div>
+  <div class="asis-i"><textarea id="asisIn" placeholder="Escribe y pulsa Enter (Mayús+Enter: salto de línea)"></textarea><button class="btn primary" id="asisSend">Enviar</button></div>
 </aside>
 <dialog id="dlgV" class="dlgv"><div id="dlgVc"></div></dialog>
 <dialog id="dlg">
@@ -504,6 +504,12 @@ function filaPlan(t){
 }
 
 const TRIG={plan:"trig_01Tw2kJALN4KcjhobhJEwxpt",correccion:"trig_01DVvci5VXGbQFn2mE6gvddp"};
+async function lanzarCorrecciones(ids){
+  const now=new Date().toISOString(); let lanzado=false, err="";
+  if(S.mcp){ try{ await S.mcp.callTool("Claude Code Remote","fire_trigger",{trigger_id:TRIG.correccion,text:`Ejecución pedida desde la página: aplica ahora estas correcciones: ${ids.join(", ")}`}); lanzado=true; }catch(e){ err=e&&e.code||"error"; } } else err="sin conexión";
+  if(S.db) for(const id of ids){ const d=S.docs.find(x=>x._id===id)||{}; try{ await S.db.collection("peticiones").doc("corr-"+id).set({tipo:"correccion",cuestion:id,titulo:d.titulo||"",estado:lanzado?"lanzada":"pedida",pedida:now,...(lanzado?{lanzada:now}:{})}); }catch{} }
+  return {lanzado,msg:lanzado?`Lanzado ahora: Claude está aplicando ${ids.length===1?"el cambio":ids.length+" cambios"}`:`No se pudo lanzar al momento (${err}); se aplica en la próxima pasada, ${cuandoT(proximaCorr())}`};
+}
 async function lanzarAhora(tipo,id){
   const now=new Date().toISOString();
   let titulo="", pid=id, base={};
@@ -1261,7 +1267,7 @@ const HERR=[
   execute:(i)=>{ const v={inicio:"w",datos:"b",lista:"l",cuestiones:"c",fuentes:"f",mejora:"m",instrucciones:"i"}[i.pantalla]; if(v==="l"){ S.fl=i.filtros||{}; S.selec=new Set(); } cambiarVista(v); if(i.ayuda&&v==="l") seleccionar(i.ayuda); return {hecho:true}; }}
 ];
 function sistemaAsis(){ return `Eres Claude, el asistente de la página «Eskubat — Revisión de ayudas». Eskubat es una app de ayudas y subvenciones de Euskadi. El sistema: un recolector diario lee las fuentes; el «Revisor de datos» (Claude, cada hora a y 32) redacta las fichas de las ayudas nuevas o cambiadas y manda las dudas a «Para ti»; el «Responsable de mejora continua» (Claude) aplica las correcciones decididas cada hora a en punto y hace una tarea del plan de mejora cada hora a y 30; cada mes repasa el plan. Las cuestiones (pantalla «Revisión») son decisiones del responsable o cambios pedidos; las «listas» son correcciones que aplica la pasada de correcciones (las de área eskubat, no); lo que exige código o fuentes va al plan de mejora. Las dos cosas se ven en la pantalla «Mejora continua».
-Tienes herramientas para consultar los datos y para hacer cambios directamente: úsalas. Si te piden un cambio, hazlo con la herramienta adecuada y di qué has hecho y cuándo se aplicará; no pidas permiso para lo que el responsable ya ha pedido claramente, pero pregunta si algo es ambiguo o afecta a muchas ayudas sin que lo haya dicho. Antes de pedir cambios a ayudas concretas, búscalas para tener los ids. No puedes navegar por la web ni cambiar el código desde aquí: lo que exige código o fuentes nuevas va al plan (proponer_tarea_plan). Responde en castellano, breve y claro, sin jerga técnica. Hoy es ${new Date().toISOString().slice(0,10)}; los datos de la página son del ${hora(D.generado)}.`; }
+Tienes herramientas para consultar los datos y para hacer cambios directamente: úsalas. Si te piden un cambio, hazlo con la herramienta adecuada: la página lanza al momento la aplicación de los cambios que dejes en cola, así que di que ya se está aplicando; no pidas permiso para lo que el responsable ya ha pedido claramente, pero pregunta si algo es ambiguo o afecta a muchas ayudas sin que lo haya dicho. Antes de pedir cambios a ayudas concretas, búscalas para tener los ids. No puedes navegar por la web ni cambiar el código desde aquí: lo que exige código o fuentes nuevas va al plan (proponer_tarea_plan). Responde en castellano, breve y claro, sin jerga técnica. Hoy es ${new Date().toISOString().slice(0,10)}; los datos de la página son del ${hora(D.generado)}.`; }
 function renderAsis(){
   const box=$("#asisMsgs"); if(!box) return;
   box.innerHTML=ASIS.msgs.length?ASIS.msgs.map(m=>m.role==="accion"?`<div class="msg accion">✓ ${esc(m.content)}</div>`:`<div class="msg ${m.role}">${m.role==="assistant"?linkify(m.content):esc(m.content)}</div>`).join("")
@@ -1274,12 +1280,14 @@ async function enviarAsis(){
   if(!S.sample){ ASIS.msgs.push({role:"user",content:t},{role:"assistant",content:"No tengo conexión con Claude en esta vista. Abre la página desde claude.ai con tu cuenta."}); inp.value=""; renderAsis(); return; }
   ASIS.msgs.push({role:"user",content:t}); inp.value=""; ASIS.ocupado=true; $("#asisSend").disabled=true; renderAsis();
   const box=$("#asisMsgs"); box.insertAdjacentHTML("beforeend",`<div class="msg assistant" id="asisStream">Pensando…</div>`); box.scrollTop=box.scrollHeight;
-  const tools=HERR.map(hh=>({...hh,execute:async(input)=>{ const r=await hh.execute(input||{}); if(r&&r.hecho){ const L={pedir_cambio_ayudas:"Cambio pedido"+(r.ayudas?` para ${r.ayudas} ayudas`:""),decidir_cuestion:"Cuestión "+({lista:"enviada a la próxima pasada",descartada:"descartada",abierta:"reabierta"}[r.estado]||"actualizada"),crear_cuestion:"Cuestión apuntada",proponer_tarea_plan:"Idea enviada al plan",cambiar_plan:"Cambio en el plan pedido",ejecutar_tarea_ahora:"Ejecución pedida: "+(r.tarea||""),mostrar:null}[hh.name]; if(L) ASIS.msgs.push({role:"accion",content:L}); } return r; }}));
+  const aLanzar=new Set();
+  const tools=HERR.map(hh=>({...hh,execute:async(input)=>{ const r=await hh.execute(input||{}); if(r&&r.hecho){ const cid=hh.name==="decidir_cuestion"?(r.estado==="lista"?input.id:null):hh.name==="crear_cuestion"?(input.lista?r.cuestion:null):r.cuestion; if(cid) aLanzar.add(cid); const L={pedir_cambio_ayudas:"Cambio pedido"+(r.ayudas?` para ${r.ayudas} ayudas`:""),decidir_cuestion:"Cuestión "+({lista:"enviada a la próxima pasada",descartada:"descartada",abierta:"reabierta"}[r.estado]||"actualizada"),crear_cuestion:"Cuestión apuntada",proponer_tarea_plan:"Idea enviada al plan",cambiar_plan:"Cambio en el plan pedido",ejecutar_tarea_ahora:"Ejecución pedida: "+(r.tarea||""),mostrar:null}[hh.name]; if(L) ASIS.msgs.push({role:"accion",content:L}); } return r; }}));
   const hist=ASIS.msgs.filter(m=>m.role!=="accion").slice(-20);
   try{
     const r=await S.sample([{role:"user",content:sistemaAsis()},{role:"assistant",content:"Entendido. ¿Qué necesitas?"},...hist],{cache:false,tools,modelTier:"default",onText:({text})=>{const el=$("#asisStream"); if(el) el.textContent=text;}});
     ASIS.msgs.push({role:"assistant",content:r.text||"Hecho."});
   }catch(err){ ASIS.msgs.push({role:"assistant",content:err&&err.code==="rate_limited"?"Demasiadas peticiones seguidas; espera un minuto.":"No he podido responder ("+(err&&err.code||"error")+")."}); }
+  if(aLanzar.size){ const r=await lanzarCorrecciones([...aLanzar]); ASIS.msgs.push({role:"accion",content:r.msg}); }
   ASIS.ocupado=false; $("#asisSend").disabled=false; guardaAsis(); renderAsis();
 }
 function abrirAsis(texto){ document.body.classList.add("asis-on"); renderAsis(); const i=$("#asisIn"); if(texto){ i.value=texto; } i.focus(); }
@@ -1315,7 +1323,7 @@ $("#dlgV").addEventListener("click",ev=>{ if(ev.target.id==="dlgV") $("#dlgV").c
 $("#asisX").onclick=()=>document.body.classList.remove("asis-on");
 $("#asisNuevo").onclick=()=>{ ASIS.msgs=[]; guardaAsis(); renderAsis(); };
 $("#asisSend").onclick=enviarAsis;
-$("#asisIn").onkeydown=(ev)=>{ if(ev.key==="Enter"&&(ev.metaKey||ev.ctrlKey)) enviarAsis(); };
+$("#asisIn").onkeydown=(ev)=>{ if(ev.key==="Enter"&&!ev.shiftKey&&!ev.isComposing){ ev.preventDefault(); enviarAsis(); } };
 document.addEventListener("click",ev=>{ const ag=ev.target.closest("[data-ag]"); if(ag){ verAgente(ag.dataset.ag); return; } if(ev.target.closest("[data-cerrarv2]")&&$("#dlgV").open) $("#dlgV").close();
   const vc=ev.target.closest("[data-vc]"); if(vc){ verCuestion(vc.dataset.vc); return; } const vt=ev.target.closest("[data-vt]"); if(vt){ verTarea(vt.dataset.vt); return; }
   const rb=ev.target.closest("[data-reab]"); if(rb){ if(S.db) S.db.collection("cuestiones").doc(rb.dataset.reab).update({estado:"abierta",actualizada:new Date().toISOString()}).then(()=>setStatus("Reabierta: vuelve a Para ti")).catch(()=>setStatus("No se pudo reabrir")); return; }
