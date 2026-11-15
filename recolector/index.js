@@ -26,6 +26,7 @@ async function enriquecer(ayudas) {
     a.resumen = f.objeto || a.resumen;
     a.cuantia = f.cuantia || a.cuantia;
     a.dirigido = f.dirigido || a.dirigido;
+    if (f.requisitos && f.requisitos.length) a.requisitos = f.requisitos;
     a.organismo = f.organismo || a.organismo;
     a.presupuesto = a.presupuesto || f.presupuesto;
     const todo = [a.titulo, f.objeto, f.dirigido].join(' ');
@@ -126,7 +127,13 @@ async function main() {
   const antes = ayudas.length;
   ayudas = ayudas.filter((a) => !bdns.RUIDO.test(a.titulo) && !/no es una convocatoria (de subvenciones )?abierta|s[oó]lo pueden (formalizar|presentar)[^.]{0,60}(presupuestos|nominativ)/i.test(a.resumen || '') && !/^(?:[Ss]ubvenci[oó]n|[Aa]yuda|[Aa]portaci[oó]n) (?:a|al|para) (?:la |el )?[A-ZÑ]{2,}\b/.test(a.titulo));
   log(`Descartadas ${antes - ayudas.length} no solicitables`);
+  const limpiaTexto = (t) => String(t || '')
+    .replace(/\s*N\.?\s*º\s*\d+\s+\w+\s+\d{1,2} de \w+ de \d{4}\s+BOLET[IÍ]N OFICIAL DEL PA[IÍ]S VASCO\s+\d{4}\/\d+\s*\(\d+\/\d+\)\s*/gi, ' ')
+    .replace(/\s*BOLET[IÍ]N OFICIAL (?:DEL PA[IÍ]S VASCO|DE BIZKAIA|DE GIPUZKOA|DEL TERRITORIO HIST[OÓ]RICO DE [AÁ]LAVA)[^\n]{0,60}/gi, ' ')
+    .replace(/[ \t]{2,}/g, ' ').trim();
   for (const a of ayudas) {
+    a.resumen = limpiaTexto(a.resumen); a.cuantia = limpiaTexto(a.cuantia); a.dirigido = limpiaTexto(a.dirigido);
+    if (a.requisitos) a.requisitos = a.requisitos.map(limpiaTexto).filter(Boolean);
     a.estado = estado(a); delete a.errorFicha; delete a.abiertoSegunFuente;
     a.organismo = organismoCorto(a.organismo);
     const corto = tituloCorto(a.titulo, a.organismo, a.ambito);

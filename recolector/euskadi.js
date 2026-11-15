@@ -53,6 +53,11 @@ export function parseFicha(html) {
   const dotacion = entre(cuerpo, /^Dotación presupuestaria$/, /^(Prestación económica|A quién va dirigido|Requisitos|Normativa|Forma de pago:?)$/);
   const prestacion = entre(cuerpo, /^Prestación económica$/, /^(A quién va dirigido|Requisitos|Forma de pago:?|Normativa)$/);
   const dirigido = entre(cuerpo, /^A quién va dirigido$/, /^(Requisitos:?|Información detallada|Normativa|Organismos|Información de contacto|Tramitación)$/);
+  // Requisitos: títulos de cada requisito (sin la explicación desplegable ni avisos genéricos)
+  const reqTxt = entre(cuerpo, /^Requisitos:?$/, /^(Normativa|Organismos|Información de contacto|Tramitación|Solicitud y aportación de documentación|Resolución y recursos|Justificación)$/);
+  const requisitos = [...new Set(reqTxt.split('\n')
+    .filter((l) => l.length > 12 && l.length < 220 && !/:\s*$/.test(l) && l !== l.toUpperCase() && !/^(Información detallada|Requisitos:?|Nota:|Ver |Más información|Declaración responsable\.?$|Personas físicas$|Personas jurídicas|Sociedad civil$|Identidad de la persona)/i.test(l) && !/Decreto Legislativo 1\/1997/.test(l))
+    .map((l) => l.replace(/^[-•·]\s*/, '')))].slice(0, 12);
   const euros = (dotacion.match(/[\d.]+(?:,\d+)?/) || [])[0];
   return {
     organismo: organismo.trim(),
@@ -60,6 +65,7 @@ export function parseFicha(html) {
     presupuesto: euros ? Number(euros.replace(/\./g, '').replace(',', '.')) || null : null,
     cuantia: prestacion.split('\n').filter((l) => /€|euro|%|por ciento/i.test(l)).slice(0, 4).join('\n'),
     dirigido: dirigido.split('\n').slice(0, 8).join('\n'),
+    requisitos,
   };
 }
 
@@ -118,6 +124,7 @@ export async function recoger(log) {
       cuantia: f.cuantia || '',
       resumen: f.objeto || '',
       dirigido: f.dirigido || '',
+      requisitos: f.requisitos || [],
       para: paraDeTexto([it.titulo, f.dirigido].join(' ')),
       temas: temasDe([it.titulo, (f.objeto || '').slice(0, 300)].join(' ')),
       url: it.url,
