@@ -30,8 +30,8 @@ Quien abre una ayuda solo lee la información que le afecta según su perfil. Po
 | Tipo de ayuda, finalidad, actuaciones y gastos cubiertos (y no cubiertos), líneas y qué cubre cada una — **sin cifras** | ¿En qué consiste? |
 | Importe máx./mín./fijo/tramos, % del coste, incrementos, límites, topes al acumular, forma de pago | ¿Cuánto puede recibir? |
 | Tipo de solicitante y perfil: edad, ingresos, residencia y antigüedad, situación laboral/familiar, discapacidad; forma jurídica, plantilla, facturación, sector, ubicación, antigüedad | ¿Quién puede pedirla? |
-| Condiciones de lo que se solicita (vivienda, proyecto, inversión mínima, contrato), patrimonio, registros, historial con ayudas, incompatibilidades, exclusiones | Requisitos (por tipo de solicitante) |
-| Presupuesto total, dotación, fondos; direcciones inferiores, gestor, cofinanciadores, norma, cargos; plazos, cómo solicitar, documentación, contacto; criterios de valoración, obligaciones posteriores, justificación, recursos | Ninguno: descartar |
+| Condiciones de lo que se solicita (vivienda, proyecto, inversión mínima, contrato), patrimonio, registros, historial con ayudas, exclusiones | Requisitos (por tipo de solicitante) |
+| Presupuesto total, dotación, fondos; direcciones inferiores, gestor, cofinanciadores, norma, cargos; plazos, cómo solicitar, documentación, contacto; criterios de valoración, obligaciones posteriores, justificación, recursos; **cómo se calculan los ingresos (qué computa y qué no) y compatibilidad o incompatibilidad con otras ayudas** | Ninguno: descartar |
 
 ## ¿En qué consiste?
 **Estilo narrativo, en todas las ayudas**: un solo párrafo de frases completas y bien hiladas (las que haga falta para que se entienda; normalmente 2-4, más si la ayuda lo necesita) que expliquen la ayuda a alguien que no sabe nada de ella: qué es, qué paga o para qué sirve y, si hay varias modalidades, cómo encajan entre sí (conectores: «además», «también», «en el caso de…»). Nunca títulos sueltos, fragmentos, listas ni frases copiadas de la web.
@@ -45,6 +45,12 @@ Primera línea: la cifra clave («Hasta 3.000 € (50 % del coste).»). Una lín
 Un tipo: una frase con todos los datos del perfil y sus cifras (≤ 250 caracteres). Varios tipos: un elemento por tipo, «Tipo: datos de perfil» (≤ 200 caracteres cada uno, legible por sí solo).
 
 ## Requisitos
+**Solo condiciones que la persona o entidad solicitante debe cumplir.** Nunca:
+- Reglas sobre qué ingresos computan o no computan («No computarán las siguientes cuantías: …», «Se computan los rendimientos…»): son cómo se calcula un límite, no un requisito.
+- Listas de compatibilidad o incompatibilidad con otras ayudas («Es compatible con…», «Es incompatible con…»).
+- Elementos de una lista sin la frase que la introduce: si una frase acaba en «:» y lo que sigue depende de ella, o se redacta una condición completa que la incluya («Ser titular de un contrato de alquiler o de compraventa de una vivienda libre en Euskadi.») o se descarta la lista entera.
+- Encabezados: un elemento de una lista nunca se convierte en título de grupo. Los grupos de requisitos solo son tipos de solicitante («Todos», «Pymes»…).
+
 Lo que no describe a la persona/entidad sino lo que solicita, su vivienda, proyecto, patrimonio o historial. Un tipo: un grupo sin nombre. Varios: grupo «Todos» con los comunes y un grupo por tipo con el mismo nombre que en «¿Quién puede pedirla?». En infinitivo o empezando por «No», una condición por línea, con su cifra, máx. 8 por grupo, sin repetir. Sin requisitos genéricos (Hacienda, Seguridad Social, sanciones) salvo que la fuente los destaque. Ninguna cifra de perfil se repite aquí.
 
 ## Ortografía

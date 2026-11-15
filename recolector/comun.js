@@ -294,3 +294,51 @@ export function ortografia(t) {
   }
   return s;
 }
+
+// Reglas que no son requisitos: cómo se calculan los ingresos (qué computa y qué no) y la compatibilidad o
+// incompatibilidad con otras ayudas. Nunca van en «Requisitos» (docs/CATEGORIZACION.md).
+export const NO_ES_REQUISITO = /\b(no\s+)?(se\s+)?computa(n|r[aá]n?)\b|no se (tendr[aá]n|considerar[aá]n) en cuenta|\bse tendr[aá]n en cuenta\b|\bser[aá]n? tenid[ao]s? en cuenta|\b(in)?compatib(le|les|ilidad|ilidades)\b|\bincompatilidad/i;
+
+// Elementos de una lista que cuelgan de la línea anterior acabada en «:». La app los muestra con sangría.
+export const SUBITEM = '◦ ';
+
+// Lista de requisitos a partir de las líneas de la fuente. Una línea que acaba en «:» introduce una lista y, sin ella,
+// los elementos no tienen sentido: si la lista trata del cómputo de ingresos o de la compatibilidad con otras ayudas,
+// se descarta entera (introducción y elementos); si no, se conserva la introducción y sus elementos van debajo,
+// marcados con SUBITEM. Los encabezados («Requisitos económicos:», textos en MAYÚSCULAS) se quitan sin más.
+const CABECERA_REQ = /^((otros\s+)?requisitos?|condiciones)\b[^:]{0,40}:+$/i;
+const INICIO_REQ = /^(no\s+)?(tener|estar|ser|haber|disponer|poseer|acreditar|contar|cumplir|residir|hallarse|encontrarse|figurar|ostentar|carecer|percibir|recibir|realizar|desarrollar|mantener|llevar|si\s)\b/i;
+export function listaRequisitos(lineas, { valida = () => true, validaItem = valida, max = 12 } = {}) {
+  const ls = lineas.map((l) => String(l || '').replace(/^\s*[-–—•·*◦]\s*/, '').trim()).filter(Boolean);
+  const bloques = [];
+  for (let i = 0; i < ls.length; i++) {
+    const l = ls[i];
+    if (!/:\s*$/.test(l)) { if (!NO_ES_REQUISITO.test(l) && valida(l)) bloques.push([l]); continue; }
+    const items = [];
+    let j = i + 1;
+    while (j < ls.length && items.length < 10 && !/:\s*$/.test(ls[j]) && !INICIO_REQ.test(ls[j])) items.push(ls[j++]);
+    i = j - 1;
+    const intro = l.replace(/\s*:+\s*$/, ':');
+    const buenos = items.filter((x) => !NO_ES_REQUISITO.test(x) && validaItem(x));
+    if (CABECERA_REQ.test(l) || l === l.toUpperCase()) { buenos.forEach((x) => bloques.push([x])); continue; }
+    if (!buenos.length || NO_ES_REQUISITO.test(l) || !valida(intro.slice(0, -1))) continue;
+    const sinMarca = (x) => x.replace(/^(?:(?:[a-zA-Z]|\d{1,2})(?:\.\d+)+\.?|(?:[a-zA-Z]|\d{1,2}|[ivxIVX]{1,4})[.)º])\s+/, '');
+    bloques.push([intro, ...buenos.map((x) => SUBITEM + sinMarca(x))]);
+  }
+  // Hasta `max` líneas, sin partir una lista
+  const out = [];
+  for (const b of bloques) { if (out.length && out.length + b.length > max) break; out.push(...b); }
+  return out;
+}
+
+// Tras filtrar líneas sueltas: fuera las introducciones que se han quedado sin elementos y los elementos sin introducción
+export function ajustaListas(reqs) {
+  const out = [];
+  for (let i = 0; i < reqs.length; i++) {
+    const l = reqs[i];
+    if (l.startsWith(SUBITEM)) { if (out.length && (out[out.length - 1].startsWith(SUBITEM) || /:$/.test(out[out.length - 1]))) out.push(l); continue; }
+    if (/:$/.test(l) && !(reqs[i + 1] || '').startsWith(SUBITEM)) continue;
+    out.push(l);
+  }
+  return out;
+}

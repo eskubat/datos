@@ -1,5 +1,5 @@
 // Fuente: catálogo de trámites de euskadi.eus (Gobierno Vasco y sus organismos).
-import { pedir, texto, entidades, frase, iso, enParalelo, temasDe, paraDeTexto, norm } from './comun.js';
+import { pedir, texto, entidades, frase, iso, enParalelo, temasDe, paraDeTexto, norm, listaRequisitos } from './comun.js';
 
 const BASE = 'https://www.euskadi.eus';
 // procedureStatus 16 = "Abierto el plazo de presentación"
@@ -55,9 +55,13 @@ export function parseFicha(html) {
   const dirigido = entre(cuerpo, /^A quién va dirigido$/, /^(Requisitos:?|Información detallada|Normativa|Organismos|Información de contacto|Tramitación)$/);
   // Requisitos: títulos de cada requisito (sin la explicación desplegable ni avisos genéricos)
   const reqTxt = entre(cuerpo, /^Requisitos:?$/, /^(Normativa|Organismos|Información de contacto|Tramitación|Solicitud y aportación de documentación|Resolución y recursos|Justificación)$/);
-  const requisitos = [...new Set(reqTxt.split('\n')
-    .filter((l) => l.length > 12 && l.length < 220 && !/:\s*$/.test(l) && l !== l.toUpperCase() && !/^(Información detallada|Requisitos:?|Nota:|Ver |Más información|Declaración responsable\.?$|Personas físicas$|Personas jurídicas|Sociedad civil$|Identidad de la persona)/i.test(l) && !/Decreto Legislativo 1\/1997/.test(l))
-    .map((l) => l.replace(/^[-•·]\s*/, '')))].slice(0, 12);
+  // Las listas con introducción («Ser titular de un contrato de:») van juntas; las de cómputo de ingresos
+  // o compatibilidad («No computarán las siguientes cuantías:») se descartan enteras (ver listaRequisitos)
+  const util = (l) => l !== l.toUpperCase() && !/^(Información detallada|Requisitos:?|Nota:|Ver |Más información|Declaración responsable\.?$|Personas físicas$|Personas jurídicas|Sociedad civil$|Identidad de la persona)/i.test(l) && !/Decreto Legislativo 1\/1997/.test(l);
+  const requisitos = [...new Set(listaRequisitos(reqTxt.split('\n'), {
+    valida: (l) => l.length > 12 && l.length < 220 && util(l),
+    validaItem: (l) => l.length > 3 && l.length < 400 && util(l),
+  }))];
   const euros = (dotacion.match(/[\d.]+(?:,\d+)?/) || [])[0];
   // Texto completo de la ficha (para el resumen): desde "Descripción/Objeto" hasta la tramitación
   const fin = cuerpo.search(/\n(Solicitud y aportación de documentación|Información de contacto|Código)\n/);

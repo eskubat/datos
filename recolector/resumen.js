@@ -5,6 +5,7 @@
 // - Caché por huella del texto: solo se vuelve a categorizar si la documentación cambia.
 import crypto from 'node:crypto';
 import { POR_ID } from './organismos.js';
+import { NO_ES_REQUISITO } from './comun.js';
 
 const VERSION = 'v4';
 const TIPOS = ['particular', 'autonomo', 'empresa', 'asociacion', 'ayuntamiento'];
@@ -78,6 +79,8 @@ function comprobarVersion(r, fuente = '') {
       vistos.add(k);
       if (!RE.infinitivo.test(limpia(x))) e.push(`el requisito debe empezar por un infinitivo o por «No»: «${x}»`);
       if (RE.noRequisito.test(x)) e.push(`documentación, plazos u obligaciones posteriores en requisitos: «${x}»`);
+      if (NO_ES_REQUISITO.test(x)) e.push(`cómputo de ingresos o compatibilidad con otras ayudas en requisitos (descartar): «${x}»`);
+      if (/:\s*$/.test(limpia(x))) e.push(`requisito que introduce una lista: redáctalo como una sola condición completa: «${x}»`);
     }
   }
   if (quien.length === 1 && req.some((g) => g.grupo)) e.push('con un solo colectivo, requisitos lleva un único grupo sin nombre');
@@ -134,7 +137,7 @@ export function validar(r, fuente) {
   const quien = (v) => (Array.isArray(v) ? v : []).map((q) => ({ tipo: limpia(q && q.tipo).replace(/[:.]$/, ''), texto: conPunto(mayus(formato(q && q.texto))) })).filter((q) => q.texto && ok(q.texto) && q.texto.length <= 300).slice(0, 8);
   const reqs = (v, eu) => (Array.isArray(v) ? v : []).map((g) => ({
     grupo: limpia(g && g.grupo).replace(/[:.]$/, ''),
-    requisitos: (Array.isArray(g && g.requisitos) ? g.requisitos : []).map(formato).filter((x) => x && ok(x) && (eu || !RE.noRequisito.test(x))).map((x) => conPunto(mayus(x))).slice(0, 8),
+    requisitos: (Array.isArray(g && g.requisitos) ? g.requisitos : []).map(formato).filter((x) => x && ok(x) && !/:\s*$/.test(x) && (eu || (!RE.noRequisito.test(x) && !NO_ES_REQUISITO.test(x)))).map((x) => conPunto(mayus(x))).slice(0, 8),
   })).filter((g) => g.requisitos.length);
   const version = (v, eu) => {
     const ce = formato(v && v.en_que_consiste);

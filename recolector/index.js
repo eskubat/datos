@@ -1,7 +1,7 @@
 // Recolector de Eskubat: lee todas las fuentes, une duplicados y publica publico/ayudas.json
 import fs from 'node:fs';
 import path from 'node:path';
-import { norm, pedir, enParalelo, paraDeTexto, temasDe, tituloCorto, organismoCorto, ortografia } from './comun.js';
+import { norm, pedir, enParalelo, paraDeTexto, temasDe, tituloCorto, organismoCorto, ortografia, NO_ES_REQUISITO, ajustaListas } from './comun.js';
 import * as euskadi from './euskadi.js';
 import * as bdns from './bdns.js';
 import * as forales from './forales.js';
@@ -275,6 +275,8 @@ async function main() {
     if (a.requisitos) a.requisitos = limpiaLista(a.requisitos.map(ortografia).join('\n')).split('\n').filter(Boolean);
     a.resumen = limpiaTexto(a.resumen); a.cuantia = limpiaTexto(a.cuantia); a.dirigido = limpiaTexto(a.dirigido);
     if (a.requisitos) a.requisitos = a.requisitos.map(limpiaTexto).filter(Boolean);
+    // Fuera el cómputo de ingresos y la compatibilidad con otras ayudas (no son requisitos), y las listas que han perdido su introducción
+    if (a.requisitos) a.requisitos = ajustaListas(a.requisitos.filter((r) => !NO_ES_REQUISITO.test(r)));
     a.estado = estado(a); delete a.errorFicha; delete a.abiertoSegunFuente;
     const corto = tituloCorto(a.titulo, a.organismo, a.ambito);
     if (corto !== a.titulo) { a.tituloOficial = a.titulo; a.titulo = corto; }
