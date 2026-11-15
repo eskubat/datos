@@ -14,7 +14,7 @@
  {
   "id": "araba-sede",
   "titulo": "Leer la guía de trámites completa de Álava",
-  "detalle": "Hoy solo entran las 4 o 5 ayudas «destacadas» de web.araba.eus. Leer el catálogo completo de la sede electrónica (egoitza.araba.eus).",
+  "detalle": "Hoy solo entran las 4 o 5 ayudas «destacadas» de web.araba.eus. Leer el catálogo completo de la sede electrónica (egoitza.araba.eus). Datos del responsable (16/11): el listado de ayudas está en https://egoitza.araba.eus/es/inicio/tramites?izapideMota=90 y viene dentro del HTML de la página (no hay petición JSON aparte; ej. «Subvenciones nominativas»). La sede tiene un cortafuegos (cookies TS…, LRSESSION de Liferay): una petición sin cookies devuelve la página sin la lista. El lector debe pedir primero la página para recibir las cookies y repetir la petición con ellas, con cabeceras de navegador (Accept text/html, Accept-Language es-ES). Si aun así llega vacía, bloquear la tarea y pedir al responsable el HTML guardado.",
   "fuente": "Diputación Foral de Álava",
   "quien": "Claude",
   "prioridad": 3,
