@@ -21,6 +21,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - run: sudo apt-get install -y -qq poppler-utils >/dev/null
       - run: node recolector/index.js
       - name: Publicar si hay cambios
         run: |

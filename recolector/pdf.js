@@ -20,6 +20,7 @@ const limpia = (t) => t.replace(/\f/g, '\n').split('\n').map((l) => l.replace(/\
 export async function textosPdf(urls, log) {
   let cache = {};
   try { cache = JSON.parse(fs.readFileSync(CACHE, 'utf8')); } catch {}
+  for (const k of Object.keys(cache)) if (!cache[k]) delete cache[k]; // reintentar los que salieron vacíos
   const nuevas = [...new Set(urls)].filter((u) => u && !(u in cache));
   let ok = 0;
   await enParalelo(nuevas.slice(0, 400), 4, async (u) => {
@@ -28,9 +29,10 @@ export async function textosPdf(urls, log) {
       const r = await fetch(u, { headers: { 'User-Agent': UA }, signal: ctrl.signal });
       clearTimeout(t);
       const buf = Buffer.from(await r.arrayBuffer());
-      if (!r.ok || buf.slice(0, 4).toString() !== '%PDF') { cache[u] = ''; return; }
-      cache[u] = limpia(texto(buf)).slice(0, 9000);
-      if (cache[u]) ok++;
+      if (!r.ok) return;
+      if (buf.slice(0, 4).toString() !== '%PDF') { cache[u] = ''; return; }
+      const txt = limpia(texto(buf)).slice(0, 9000);
+      if (txt) { cache[u] = txt; ok++; }
     } catch { /* se reintenta otro día */ }
   });
   fs.mkdirSync('cache', { recursive: true });
