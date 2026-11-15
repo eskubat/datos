@@ -10,7 +10,7 @@ import { enParalelo, texto, entidades, decodificar, UA_BOT, UA_NAVEGADOR } from 
 
 const DIR = path.join('cache', 'docs');
 const INDICE = path.join(DIR, 'indice.json');
-const MAX_POR_DOC = 60000;
+const MAX_POR_DOC = 200000; // antes 60000: cortaba las bases de cuantía de las órdenes largas del BOPV
 const V = 2; // versión del procesado: si cambia, se vuelven a bajar los documentos
 const MAX_ENLACES = 8;
 const DIAS = 30;
@@ -87,7 +87,7 @@ async function bajar(url) {
 }
 
 // Devuelve {id: texto completo} con la ficha + enlaces de cada ayuda (máx. `max` caracteres por ayuda)
-export async function documentacion(ayudas, { log = console.log, max = 60000, extra = () => [] } = {}) {
+export async function documentacion(ayudas, { log = console.log, max = 200000, extra = () => [] } = {}) {
   fs.mkdirSync(DIR, { recursive: true });
   let indice = {};
   try { indice = JSON.parse(fs.readFileSync(INDICE, 'utf8')); } catch {}
@@ -96,10 +96,15 @@ export async function documentacion(ayudas, { log = console.log, max = 60000, ex
   let nuevos = 0, fallos = 0;
   const obtener = async (u) => {
     const e = indice[u];
-    if (e && e.v === V && e.fecha >= limite && (e.ok || e.intentos >= 3)) return leer(u);
+    if (e && e.v === V && e.fecha >= limite && (e.ok || e.intentos >= 3)) {
+      const c = leer(u);
+      // Documentos guardados cortados con un límite menor que el actual: se vuelven a bajar
+      const lim = (c && c.max) || 60000;
+      if (!(c && c.texto.length >= lim && lim < MAX_POR_DOC)) return c;
+    }
     const r = await bajar(u);
     if (r.texto && r.texto.length > 80) {
-      const guardado = { tipo: r.tipo, texto: r.texto.slice(0, MAX_POR_DOC), enlaces: r.html ? enlacesDe(r.html, u).slice(0, 25) : [] };
+      const guardado = { tipo: r.tipo, max: MAX_POR_DOC, texto: r.texto.slice(0, MAX_POR_DOC), enlaces: r.html ? enlacesDe(r.html, u).slice(0, 25) : [] };
       fs.writeFileSync(path.join(DIR, sha(u) + '.json'), JSON.stringify(guardado));
       indice[u] = { fecha: hoy(), ok: true, v: V };
       nuevos++;
