@@ -173,3 +173,60 @@ export function paraDeTexto(t) {
   if (/ayuntamiento|entidades locales|municipio|mancomunidad|cuadrilla|concejo/.test(n)) out.add('ayuntamiento');
   return [...out];
 }
+
+// ---------- Títulos cortos ----------
+// Quita del título lo que la app ya muestra en otro sitio (plazo, año, organismo, municipio)
+// y lo acorta a la primera frase si es muy largo. El título oficial se guarda aparte.
+const ORG_EN_TITULO = /\s*,?\s*\b(?:del|de la|por el|por la)\s+(?:excmo\.?\s+)?(?:gobierno vasco|eusko jaurlaritza|diputaci[oó]n foral de (?:bizkaia|gipuzkoa|[aá]lava|araba)|dfb|dfg|dfa)\b/gi;
+export function tituloCorto(t, organismo = '', ambito = {}) {
+  let s = String(t || '').replace(/\s+/g, ' ').trim();
+  s = s.replace(/\s*\([^()]*\b(?:19|20)\d\d\b[^()]*\)/g, '')
+    .replace(/\b[A-ZÁÉÍÓÚÑÜ]{2,}(?:\s+[A-ZÁÉÍÓÚÑÜ]{2,})+\b/g, (w) => (w.length > 12 ? w.toLowerCase() : w));
+  s = s
+    .replace(/^(?:la |el )?(?:aprobaci[oó]n de (?:las )?bases(?: reguladoras)?(?: y (?:de )?(?:la )?convocatoria)?|bases reguladoras(?: y (?:la )?convocatoria)?|convocatoria(?: p[uú]blica)?)(?: general)?\s+(?:de |del |para (?:la |el )?)?(?=(?:las |los )?(?:ayudas?|subvenci|becas?|premios?|programa|concurso|incentiv))/i, '')
+    .replace(/^convocatoria (?:p[uú]blica )?(?:para la concesi[oó]n )?(?:de |para )(?=(?:las |los )?(?:ayudas?|subvenci|becas?|premios?))/i, '')
+    .replace(/^(?:las|los)\s+(?=(?:ayudas?|subvenci|becas?|premios?))/i, '')
+    .replace(/^convocatoria general de subvenciones\s*(?:\d{4})?\s*[.,-]?\s*anexo\s*n?[º°o.]*\s*\d+\s*[:.\-]\s*/i, '')
+    .replace(/[.,;]?\s*\(?\bplazos?\b[^.()]*\d[^.()]*\)?\.?\s*$/i, '')
+    .replace(/\b(?:para|en|de|del|durante)\s+(?:el\s+)?(?:a[nñ]o|ejercicio|curso|periodo|per[ií]odo)\s+(?:19|20)\d\d(?:\s*[-/]\s*(?:19|20)?\d\d)?/gi, '')
+    .replace(/\b(?:a[nñ]o|ejercicio|curso)?\s*(?:19|20)\d\d(?:\s*[-/]\s*(?:19|20)?\d\d)?\b/gi, '')
+    .replace(ORG_EN_TITULO, '');
+  // Nombre del municipio o territorio al final ("... de Irun", "... en Bizkaia")
+  if (ambito && ambito.nombre) {
+    for (const n of String(ambito.nombre).split(/\s*\/\s*/)) {
+      if (n.length < 3) continue;
+      const nn = n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      s = s.replace(new RegExp(`\\s*,?\\s*\\b(?:del|de la|por el)\\s+(?:excmo\\.?\\s+)?(?:ayuntamiento|udala|concejo)\\s+(?:de\\s+)?${nn}\\b`, 'gi'), '')
+        .replace(new RegExp(`\\s*,?\\s*\\b(?:de|del|en)\\s+(?:la\\s+)?(?:villa\\s+de\\s+|municipio\\s+de\\s+|territorio hist[oó]rico\\s+de\\s+)?${nn}\\b`, 'gi'), '');
+    }
+  }
+  s = s.replace(/^((?:las |los )?(?:ayudas?|subvenci[oó]n(?:es)?|becas?|premios?)\s+)(?:para|de) la concesi[oó]n de (?:las |los )?(ayudas?|subvenci[oó]n(?:es)?|becas?|premios?)\s+/i, '$2 ')
+    .replace(/^(\S+),\s+(?=para|destinad|a |de )/i, '$1 ')
+    .replace(/\s+(?:en|de|del|para|el|la|los|las|y|a)\s*$/i, '')
+    .replace(/\(\s*\)/g, '').replace(/(\s*,\s*){2,}/g, ', ').replace(/\s+([,.;:])/g, '$1').replace(/([,.;:])(?=[^\s\d])/g, '$1 ')
+    .replace(/\s{2,}/g, ' ').replace(/^[\s,.;:\-–]+|[\s,.;:\-–]+$/g, '').trim();
+  s = s.replace(/^(\S+),\s+(?=para|destinad|a |de )/i, '$1 ');
+  // Muy largo: primera frase si tiene sentido por sí sola; si no, corte en palabra
+  if (s.length > 100) {
+    const frases = s.split(/(?<=[a-záéíóúñ)])\.\s+(?=[A-ZÁÉÍÓÚÑ])/);
+    if (frases[0].length >= 20 && frases[0].length <= 100) s = frases[0];
+    else {
+      const sub = s.split(/\s*[:;]\s+/)[0];
+      if (sub.length >= 20 && sub.length <= 100) s = sub;
+      else {
+        const corte = s.slice(0, 100);
+        const coma = corte.lastIndexOf(', ');
+        s = coma >= 45 ? corte.slice(0, coma) : corte.replace(/\s+\S*$/, '').replace(/\s+(?:en|de|del|para|el|la|los|las|y|a|e|o|con|por)$/i, '') + '…';
+      }
+    }
+  }
+  s = s || String(t || '').trim();
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+// Organismo legible: primer departamento, sin siglas entre paréntesis ni listas con '#'
+export function organismoCorto(o) {
+  let s = String(o || '').split('#')[0].replace(/\s*\([A-Z]{2,}\)\s*/g, ' ').replace(/\s+/g, ' ').trim();
+  if (s.length > 70) s = s.split(/\s*[·,]\s*/)[0];
+  return s;
+}
