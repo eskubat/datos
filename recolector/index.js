@@ -207,6 +207,8 @@ async function main() {
     if (!a.organismo || /^(ayuntamiento|diputaci)/i.test(a.organismo)) a.organismo = a.organismo && a.ambito.nivel !== 'municipio' ? a.organismo : ORG_POR_AMBITO(a);
     a.organismoGeneral = a.ambito.nivel === 'euskadi' ? 'Gobierno Vasco' : ORG_POR_AMBITO(a);
     a.titulo = ortografia(a.titulo); a.organismo = ortografia(a.organismo);
+    a.resumen = ortografia(a.resumen); a.cuantia = ortografia(a.cuantia); a.dirigido = ortografia(a.dirigido);
+    if (a.requisitos) a.requisitos = a.requisitos.map(ortografia);
     a.resumen = limpiaTexto(a.resumen); a.cuantia = limpiaTexto(a.cuantia); a.dirigido = limpiaTexto(a.dirigido);
     if (a.requisitos) a.requisitos = a.requisitos.map(limpiaTexto).filter(Boolean);
     a.estado = estado(a); delete a.errorFicha; delete a.abiertoSegunFuente;

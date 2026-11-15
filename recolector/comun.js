@@ -269,8 +269,16 @@ const TILDES = {
   regimen: 'régimen', tecnologia: 'tecnología', tecnologias: 'tecnologías', politica: 'política', politicas: 'políticas', agricola: 'agrícola', pesqueria: 'pesquería', maritimo: 'marítimo', academicos: 'académicos', medico: 'médico', area: 'área', areas: 'áreas', tramite: 'trámite', tramites: 'trámites', unico: 'único', critico: 'crítico', historico: 'histórico', historica: 'histórica', publicos: 'públicos', basicos: 'básicos', telematica: 'telemática', ultimo: 'último', ultima: 'última', proposito: 'propósito', credito: 'crédito', creditos: 'créditos', interes: 'interés', jovenes: 'jóvenes', estrategico: 'estratégico', estrategica: 'estratégica', escolares: 'escolares', polideportivo: 'polideportivo', solidaria: 'solidaria',
 };
 const PROPIOS = ['Euskadi', 'País Vasco', 'Gobierno Vasco', 'Diputación Foral', 'Comunidad Autónoma', 'Bizkaia', 'Gipuzkoa', 'Araba', 'Álava', 'Lanbide', 'Osakidetza', 'Unión Europea'];
+// Erratas frecuentes en los textos oficiales
+const ERRATAS = [
+  [/\bhacer (pasado|sido|realizado|presentado|obtenido|tenido|hecho|solicitado|finalizado|abonado)\b/gi, 'haber $1'],
+  [/\b(Ayudas generales|Requisitos):\s*ara\b/g, '$1: para'],
+  [/\s+([,.;:])(?=\s|$)/g, '$1'],
+  [/\(\s+/g, '('], [/\s+\)/g, ')'],
+];
 export function ortografia(t) {
   let s = String(t || '');
+  for (const [re, r] of ERRATAS) s = s.replace(re, r);
   s = s.replace(/\b[a-zñ]+\b/gi, (w) => {
     const r = TILDES[w.toLowerCase()];
     if (!r || r === w.toLowerCase()) return w;
