@@ -153,6 +153,15 @@
   "caracteres": 72069
  },
  {
+  "id": "botha-2026-121-02956-c-pdf",
+  "h": "243d249012d14fe9",
+  "titulo": "Orden foral 257/, de 13 de octubre: aprobar la convocatoria de subvenciones para la realización",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/botha-2026-121-02956-c-pdf-96cb6bbe.txt",
+  "caracteres": 36696
+ },
+ {
   "id": "extra-gv-agrupaciones-productoras-agrarias-forestales-2026",
   "h": "1fe1cd2c2e83ab96",
   "titulo": "Ayudas a las agrupaciones de personas productoras agrarias y forestales previstas en el pepac",
@@ -502,6 +511,15 @@
   "organismoFuente": "Ayuntamiento de Anoeta",
   "archivo": "cache/fuentes/bog-c2606598-htm-260c03d3.txt",
   "caracteres": 1482
+ },
+ {
+  "id": "botha-2026-126-03072-c-pdf",
+  "h": "aa0f5cb32cc280f5",
+  "titulo": "Resolución de la sección “Protección de personas defensoras de los derechos humanos (PUD)” de la convocatoria de subvenciones para proyectos",
+  "organismoSugerido": "ayto-vitoria-gasteiz",
+  "organismoFuente": "Ayuntamiento de Vitoria-Gasteiz",
+  "archivo": "cache/fuentes/botha-2026-126-03072-c-pdf-ae3516b3.txt",
+  "caracteres": 5182
  },
  {
   "id": "eus-ayuda-subvencion-2026-bek-2026-webema01-contentemakunde-es",
@@ -2086,6 +2104,24 @@
   "organismoFuente": "Icex españa exportación e inversiones, ep e.",
   "archivo": "cache/fuentes/bdns-938586-ebba91cb.txt",
   "caracteres": 5508
+ },
+ {
+  "id": "botha-2026-116-02824-c-pdf",
+  "h": "bdb650cd5e1ac1e3",
+  "titulo": "Ayudas para el estudio del euskera",
+  "organismoSugerido": "ayto-navaridas",
+  "organismoFuente": "Ayuntamiento de Navaridas",
+  "archivo": "cache/fuentes/botha-2026-116-02824-c-pdf-3ccad5ff.txt",
+  "caracteres": 7536
+ },
+ {
+  "id": "botha-2026-118-02861-c-pdf",
+  "h": "2cb806acf88c0b49",
+  "titulo": "Ayudas para el estudio del euskera",
+  "organismoSugerido": "ayto-leza",
+  "organismoFuente": "Ayuntamiento de Leza",
+  "archivo": "cache/fuentes/botha-2026-118-02861-c-pdf-333b5d88.txt",
+  "caracteres": 7512
  },
  {
   "id": "bdns-941955",
@@ -4327,5 +4363,131 @@
   "organismoFuente": "Ayuntamiento de Valle de Trápaga-Trapagaran",
   "archivo": "cache/fuentes/bob-bob-2026a193-ii-5261--926605d8.txt",
   "caracteres": 57647
+ },
+ {
+  "id": "botha-2026-131-03265-c-pdf",
+  "h": "7725e8c3d882ea39",
+  "titulo": "Decreto Foral 42/, de 10 de noviembre, del Consejo de Gobierno Foral",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/botha-2026-131-03265-c-pdf-601695a9.txt",
+  "caracteres": 29159
+ },
+ {
+  "id": "botha-2026-130-03200-c-pdf",
+  "h": "d35fcfa4eb5aee54",
+  "titulo": "Concurso de carteles para anunciar las “Fiestas de carnaval”",
+  "organismoSugerido": "ayto-vitoria-gasteiz",
+  "organismoFuente": "Ayuntamiento de Vitoria-Gasteiz",
+  "archivo": "cache/fuentes/botha-2026-130-03200-c-pdf-4d5c504d.txt",
+  "caracteres": 19368
+ },
+ {
+  "id": "botha-2026-127-03114-c-pdf",
+  "h": "44a429f2b6ed9f2f",
+  "titulo": "Resolución de la sección “Protección de personas defensoras de los derechos humanos (PUD)” de la convocatoria de subvenciones para proyectos",
+  "organismoSugerido": "ayto-vitoria-gasteiz",
+  "organismoFuente": "Ayuntamiento de Vitoria-Gasteiz",
+  "archivo": "cache/fuentes/botha-2026-127-03114-c-pdf-56162686.txt",
+  "caracteres": 6456
+ },
+ {
+  "id": "botha-2026-121-02923-c-pdf",
+  "h": "ce0b07ede07176e5",
+  "titulo": "Decreto Foral 33/, de 29 de septiembre, del Consejo de Gobierno Foral",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/botha-2026-121-02923-c-pdf-d4c191c7.txt",
+  "caracteres": 23842
+ },
+ {
+  "id": "botha-2026-121-02941-c-pdf",
+  "h": "9dbbf7dc922a3f17",
+  "titulo": "Subvenciones concedidas durante el tercer trimestre",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/botha-2026-121-02941-c-pdf-169dcb25.txt",
+  "caracteres": 18625
+ },
+ {
+  "id": "botha-2026-121-02914-c-pdf",
+  "h": "a7435f785039762d",
+  "titulo": "Ayudas para la celebración de fiestas y festejos",
+  "organismoSugerido": "ayto-elburgo-burgelu",
+  "organismoFuente": "Ayuntamiento de Elburgo/Burgelu",
+  "archivo": "cache/fuentes/botha-2026-121-02914-c-pdf-ce01e326.txt",
+  "caracteres": 12159
+ },
+ {
+  "id": "botha-2026-118-02882-c-pdf",
+  "h": "590ff023e7376601",
+  "titulo": "Subvenciones concedidas por el Departamento de Cultura y Deporte durante el tercer trimestre",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/botha-2026-118-02882-c-pdf-af4650f9.txt",
+  "caracteres": 8737
+ },
+ {
+  "id": "botha-2026-118-02888-c-pdf",
+  "h": "975c73685606a2bc",
+  "titulo": "Resolución recurso de reposición en la convocatoria de ayudas para proyectos de sensibilización en materia de prevención de enfermedades",
+  "organismoSugerido": "ayto-vitoria-gasteiz",
+  "organismoFuente": "Ayuntamiento de Vitoria-Gasteiz",
+  "archivo": "cache/fuentes/botha-2026-118-02888-c-pdf-42ddf51d.txt",
+  "caracteres": 12874
+ },
+ {
+  "id": "botha-2026-116-02827-c-pdf",
+  "h": "b6a3afcd0b72b019",
+  "titulo": "Becas para el estudio del euskera",
+  "organismoSugerido": "ayto-bernedo",
+  "organismoFuente": "Ayuntamiento de Bernedo",
+  "archivo": "cache/fuentes/botha-2026-116-02827-c-pdf-9972668f.txt",
+  "caracteres": 5807
+ },
+ {
+  "id": "botha-2026-116-02840-c-pdf",
+  "h": "5cd03a631cd70875",
+  "titulo": "Subvenciones en el ámbito cultural, deportivo, euskera, igualdad, medio ambiente y promoción social",
+  "organismoSugerido": "ayto-bernedo",
+  "organismoFuente": "Ayuntamiento de Bernedo",
+  "archivo": "cache/fuentes/botha-2026-116-02840-c-pdf-9d1acc5c.txt",
+  "caracteres": 17113
+ },
+ {
+  "id": "botha-2026-118-02938-c-pdf",
+  "h": "07989de483326366",
+  "titulo": "Acuerdo 658/, de 13 de octubre, del Consejo de Gobierno Foral",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/botha-2026-118-02938-c-pdf-3356626b.txt",
+  "caracteres": 99965
+ },
+ {
+  "id": "botha-2026-113-02776-c-pdf",
+  "h": "b2106b6da556ae6d",
+  "titulo": "Aprobación de las bases reguladoras y convocatoria para la concesión de subvenciones en materia de cultura",
+  "organismoSugerido": "ayto-alegria-dulantzi",
+  "organismoFuente": "Ayuntamiento de Alegría-Dulantzi",
+  "archivo": "cache/fuentes/botha-2026-113-02776-c-pdf-b529229f.txt",
+  "caracteres": 36508
+ },
+ {
+  "id": "botha-2026-113-02802-c-pdf",
+  "h": "c3b3998c7eacb1d7",
+  "titulo": "Acuerdo 616/, de 29 de septiembre, del Consejo de Gobierno Foral",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/botha-2026-113-02802-c-pdf-fa232494.txt",
+  "caracteres": 67106
+ },
+ {
+  "id": "botha-2026-113-02755-c-pdf",
+  "h": "58a466e009e939fe",
+  "titulo": "Subvenciones para el aprendizaje de euskera. Curso 20252026",
+  "organismoSugerido": "ayto-valdegovia-gaubea",
+  "organismoFuente": "Ayuntamiento de Valdegovía/Gaubea",
+  "archivo": "cache/fuentes/botha-2026-113-02755-c-pdf-55205446.txt",
+  "caracteres": 11383
  }
 ]
