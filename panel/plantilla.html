@@ -241,7 +241,8 @@ section.card.parati{border-color:var(--or);background:var(--or-soft)}
 .plan-i{display:grid;grid-template-columns:110px 1fr auto;gap:14px;align-items:start;padding:10px 0;border-top:1px solid var(--line)}
 .plan-i:first-child{border-top:0}
 .plan-i .chip{justify-self:start}
-.plan-i .cuando{font-size:13px;color:var(--accent-d);font-weight:600;white-space:nowrap}
+.plan-i .cuando{font-size:13px;color:var(--accent-d);font-weight:600;white-space:nowrap;text-align:right;line-height:2}
+.plan-i .cuando .btn{font-size:13px;padding:4px 10px}
 .plan-i.hecha b{color:var(--muted)}
 .plan-i .pn3{color:var(--ink)!important}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
@@ -330,9 +331,13 @@ function planClaude(sec){
 const EST_T={pendiente:"Planificada",en_curso:"En curso",hecha:"Hecha",bloqueada:"Bloqueada"};
 const fechaCorta=(d)=>d.toLocaleDateString("es-ES",{weekday:"short",day:"numeric",month:"short"});
 function filaPlan(t){
+  const pe=(S.peticiones||{})[t.id];
+  const puede=(t.estado==="pendiente"||t.estado==="en_curso");
+  const btn=!puede?"":pe&&(pe.estado==="pedida"||pe.estado==="lanzada")?`<span class="chip lista">${pe.estado==="pedida"?"Pedida · empieza antes de una hora":"En marcha"}</span>`
+    :`<button class="btn" data-ej="${esc(t.id)}">Ejecutar ahora</button>`;
   return `<li class="plan-i ${t.estado}"><span class="chip ${t.estado==="hecha"?"aplicada":t.estado==="bloqueada"?"":"lista"}">${EST_T[t.estado]||t.estado}</span>
     <div><b>${esc(t.titulo)}</b><span>${esc(t.detalle)}</span>${t.nota?`<span class="pn3">${linkify(t.nota)}</span>`:""}</div>
-    <span class="cuando">${t.estado==="pendiente"&&t.previsto?"Noche del "+fechaCorta(new Date(t.previsto.getTime()-864e5)):t.estado==="hecha"&&t.fecha?"Hecha el "+fmtFecha(t.fecha):""}</span></li>`;
+    <span class="cuando">${t.estado==="pendiente"&&t.previsto?"Noche del "+fechaCorta(new Date(t.previsto.getTime()-864e5)):t.estado==="hecha"&&t.fecha?"Hecha el "+fmtFecha(t.fecha):""}${btn?`<br>${btn}`:""}</span></li>`;
 }
 function paraTi(){
   const C=S.docs.filter(d=>(d.estado||"abierta")==="abierta").sort((a,b)=>{const da=diasHasta(a.fin),db=diasHasta(b.fin);return (da==null?999:da)-(db==null?999:db);});
@@ -711,6 +716,14 @@ function seleccionar(id){
   document.body.classList.add("ver-detalle"); renderLista(); renderDetalle(); $("#detalle").scrollTop=0;
 }
 function abrirNueva(t,a,d){ if(!S.db) return; $("#nt").value=t; $("#na").value=a; $("#nd").value=d; $("#dlg").showModal(); }
+$("#detalle").addEventListener("click",async ev=>{
+  const b=ev.target.closest("button[data-ej]"); if(!b) return;
+  if(!S.db){ setStatus("Sin conexión con la base de datos de la página"); return; }
+  const t=(D.tareas||[]).find(x=>x.id===b.dataset.ej); if(!t) return;
+  b.disabled=true; b.textContent="Pidiendo…";
+  try{ await S.db.collection("peticiones").doc(t.id).set({tarea:t.id,titulo:t.titulo,estado:"pedida",pedida:new Date().toISOString()}); }
+  catch(err){ b.disabled=false; b.textContent="No se pudo; repite"; }
+});
 $("#items").addEventListener("click",ev=>{const it=ev.target.closest(".item"); if(it) seleccionar(it.dataset.id);});
 $("#counts").addEventListener("click",ev=>{const b=ev.target.closest(".count"); if(!b) return;
   if(b.dataset.quitar){ S.campoB=null; } else if(b.dataset.fb){ S.filtroB=b.dataset.fb; } else S.filtro=b.dataset.f; renderLista();});
@@ -743,6 +756,7 @@ cambiarVista(vIni||"w"); setStatus(textoDatos());
     S.docs=snap.docs.map(x=>({_id:x.id,...x.data()}));
     renderLista(); if(!editando) renderDetalle();
   },err=>{ clearTimeout(t); setStatus("Conexión perdida ("+err.code+"). Recarga la página."); });
+  db.collection("peticiones").onSnapshot(snap=>{ S.peticiones=Object.fromEntries(snap.docs.map(x=>[x.id,x.data()])); if(["w","f","v","b"].includes(S.vista)&&!document.activeElement?.matches?.("textarea")) renderDetalle(); },()=>{});
   try{ S.sample=await claude.use("sample"); }catch{ S.sample=null; }
 })();
 </script>
