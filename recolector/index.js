@@ -1,7 +1,7 @@
 // Recolector de Eskubat: lee todas las fuentes, une duplicados y publica publico/ayudas.json
 import fs from 'node:fs';
 import path from 'node:path';
-import { norm, pedir, enParalelo, paraDeTexto, temasDe, tituloCorto, organismoCorto } from './comun.js';
+import { norm, pedir, enParalelo, paraDeTexto, temasDe, tituloCorto, organismoCorto, ortografia } from './comun.js';
 import * as euskadi from './euskadi.js';
 import * as bdns from './bdns.js';
 import * as forales from './forales.js';
@@ -131,7 +131,35 @@ async function main() {
     .replace(/\s*N\.?\s*º\s*\d+\s+\w+\s+\d{1,2} de \w+ de \d{4}\s+BOLET[IÍ]N OFICIAL DEL PA[IÍ]S VASCO\s+\d{4}\/\d+\s*\(\d+\/\d+\)\s*/gi, ' ')
     .replace(/\s*BOLET[IÍ]N OFICIAL (?:DEL PA[IÍ]S VASCO|DE BIZKAIA|DE GIPUZKOA|DEL TERRITORIO HIST[OÓ]RICO DE [AÁ]LAVA)[^\n]{0,60}/gi, ' ')
     .replace(/[ \t]{2,}/g, ' ').trim();
+  // Requisitos genéricos que piden todas las ayudas públicas: no aportan y confunden (se resumen en una nota en la app)
+  const GENERICO = /condenad|sancionad|para[ií]so fiscal|reintegro|obligaciones tributarias|seguridad social|poder de representaci|legalmente constituid|identidad de|prohibici|lgtbi|plan de igualdad|sobrefinanciaci|cuota.*reserva|actividades econ[oó]micas|resoluci[oó]n firme|orden de recuperaci|deslocalizaci|ley org[aá]nica 1\/2002|declaraci[oó]n responsable|discriminaci|al corriente|procedimiento de reintegro|ayudas? ilegal|empresas? en crisis|inhabilit|minimis|cumplimiento de las obligaciones/i;
+  // Destinatarios de la BDNS en lenguaje claro
+  const QUIEN_BDNS = [
+    [/f[ií]sicas que no desarrollan/i, 'Particulares (personas que no tienen actividad económica)'],
+    [/pyme y personas f[ií]sicas que desarrollan|f[ií]sicas que desarrollan/i, 'Autónomos y pymes'],
+    [/gran empresa/i, 'Grandes empresas'],
+    [/jur[ií]dicas que no desarrollan/i, 'Asociaciones, fundaciones y otras entidades sin actividad económica'],
+    [/sin personalidad jur[ií]dica/i, 'Comunidades de propietarios y otras agrupaciones sin personalidad jurídica'],
+    [/entidades locales|administraci/i, 'Ayuntamientos y otras administraciones'],
+  ];
+  const ORG_POR_AMBITO = (a) => a.ambito.nivel === 'municipio' ? `Ayuntamiento de ${a.ambito.nombre.split(' / ')[0]}` : a.ambito.nivel === 'territorio' ? `Diputación Foral de ${a.ambito.nombre === 'Araba/Álava' ? 'Álava' : a.ambito.nombre}` : 'Gobierno Vasco';
   for (const a of ayudas) {
+    if (a.origen === 'bdns' && a.dirigido) {
+      const lineas = a.dirigido.split('\n').map((l) => { const m = QUIEN_BDNS.find(([re]) => re.test(l)); return m ? m[1] : l; });
+      a.dirigido = [...new Set(lineas)].join('\n');
+    }
+    if (a.origen === 'bdns' && /^Finalidad: /.test(a.resumen || '')) {
+      a.area = a.resumen.replace(/^Finalidad: /, '');
+      a.resumen = '';
+    }
+    if (a.requisitos) {
+      const espec = a.requisitos.filter((r) => !GENERICO.test(r));
+      a.requisitosGenerales = espec.length < a.requisitos.length;
+      a.requisitos = espec;
+    }
+    if (!a.organismo || /^(ayuntamiento|diputaci)/i.test(a.organismo)) a.organismo = a.organismo && a.ambito.nivel !== 'municipio' ? a.organismo : ORG_POR_AMBITO(a);
+    a.organismoGeneral = a.ambito.nivel === 'euskadi' ? 'Gobierno Vasco' : ORG_POR_AMBITO(a);
+    a.titulo = ortografia(a.titulo); a.organismo = ortografia(a.organismo);
     a.resumen = limpiaTexto(a.resumen); a.cuantia = limpiaTexto(a.cuantia); a.dirigido = limpiaTexto(a.dirigido);
     if (a.requisitos) a.requisitos = a.requisitos.map(limpiaTexto).filter(Boolean);
     a.estado = estado(a); delete a.errorFicha; delete a.abiertoSegunFuente;
@@ -166,7 +194,7 @@ async function main() {
       const yaConvocada = l.ultimaFecha >= new Date(prevista.getTime() - 200 * 864e5).toISOString().slice(0, 10);
       const viva = l.ultimaFecha >= new Date(ahora.getTime() - 800 * 864e5).toISOString().slice(0, 10);
       if (dias > -20 && dias <= 120 && !yaConvocada && viva) {
-        previstas.push({ id: 'prev-' + l.clave.replace(/[^a-z0-9]+/g, '-').slice(0, 80), titulo: tituloCorto(l.titulo, l.organismo, l.ambito), tituloOficial: l.titulo, organismo: organismoCorto(l.organismo), ambito: l.ambito, mesPrevisto: l.mes, añoPrevisto: y, años: l.años, duracionDias: l.duracionDias, url: l.url, estado: 'prevista' });
+        previstas.push({ id: 'prev-' + l.clave.replace(/[^a-z0-9]+/g, '-').slice(0, 80), titulo: ortografia(tituloCorto(l.titulo, l.organismo, l.ambito)), tituloOficial: l.titulo, organismo: ortografia(organismoCorto(l.organismo)), ambito: l.ambito, mesPrevisto: l.mes, añoPrevisto: y, años: l.años, duracionDias: l.duracionDias, url: l.url, estado: 'prevista' });
       }
     }
     previstas.sort((a, b) => (a.añoPrevisto - b.añoPrevisto) || (a.mesPrevisto - b.mesPrevisto));

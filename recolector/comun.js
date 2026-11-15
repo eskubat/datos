@@ -209,7 +209,13 @@ export function tituloCorto(t, organismo = '', ambito = {}) {
   // Muy largo: primera frase si tiene sentido por sí sola; si no, corte en palabra
   if (s.length > 100) {
     const frases = s.split(/(?<=[a-záéíóúñ)])\.\s+(?=[A-ZÁÉÍÓÚÑ])/);
-    if (frases[0].length >= 20 && frases[0].length <= 100) s = frases[0];
+    const QUE = /\b(ayudas?|subvenci|becas?|premios?|programa|bonos?|convocatoria|campa[nñ]a|pr[eé]stamos?|incentivos?|plan|concurso|financiaci)/i;
+    if (frases.length > 1 && !QUE.test(frases[0]) && frases[0].length < 60) {
+      // "NEB, Nueva Bauhaus Europea. Convocatoria para barrios..." -> "NEB, Nueva Bauhaus Europea: convocatoria para barrios..."
+      let unido = frases[0] + ': ' + frases[1].charAt(0).toLowerCase() + frases[1].slice(1);
+      if (unido.length > 110) { const c = unido.slice(0, 110).lastIndexOf(', '); unido = c > 50 ? unido.slice(0, c) : unido.slice(0, 105).replace(/\s+\S*$/, '').replace(/\s+(?:en|de|del|para|el|la|los|las|y|a|e|o|con|por)$/i, ''); }
+      s = unido;
+    } else if (frases[0].length >= 20 && frases[0].length <= 100) s = frases[0];
     else {
       const sub = s.split(/\s*[:;]\s+/)[0];
       if (sub.length >= 20 && sub.length <= 100) s = sub;
@@ -228,5 +234,44 @@ export function tituloCorto(t, organismo = '', ambito = {}) {
 export function organismoCorto(o) {
   let s = String(o || '').split('#')[0].replace(/^(?:consejero|viceconsejero|director|directora|diputado|diputada)(?:\/a)?\s+(?:general\s+)?(?:de|del)\s+/i, '').replace(/\s*\([A-Z]{2,}\)\s*/g, ' ').replace(/\s+/g, ' ').trim();
   if (s.length > 70) s = s.split(/\s*[·,]\s*/)[0];
+  return s;
+}
+
+// ---------- Ortografía ----------
+// Las fuentes a veces escriben sin tildes o en minúsculas los nombres propios. Corregimos lo seguro.
+const TILDES = {
+  asociacion: 'asociación', asociaciones: 'asociaciones', subvencion: 'subvención', educacion: 'educación', formacion: 'formación',
+  promocion: 'promoción', informacion: 'información', creacion: 'creación', inversion: 'inversión', inversiones: 'inversiones',
+  contratacion: 'contratación', rehabilitacion: 'rehabilitación', investigacion: 'investigación', innovacion: 'innovación',
+  organizacion: 'organización', digitalizacion: 'digitalización', gestion: 'gestión', economica: 'económica', economicas: 'económicas',
+  economico: 'económico', economicos: 'económicos', energetica: 'energética', energeticas: 'energéticas', tecnologica: 'tecnológica',
+  tecnologico: 'tecnológico', basica: 'básica', basicas: 'básicas', unica: 'única', academico: 'académico', academica: 'académica',
+  cientifico: 'científico', cientifica: 'científica', practicas: 'prácticas', musica: 'música', musical: 'musical', vehiculo: 'vehículo',
+  vehiculos: 'vehículos', electrico: 'eléctrico', electricos: 'eléctricos', ambito: 'ámbito', poblacion: 'población', situacion: 'situación',
+  produccion: 'producción', edicion: 'edición', difusion: 'difusión', accion: 'acción', acciones: 'acciones', participacion: 'participación',
+  integracion: 'integración', inclusion: 'inclusión', exclusion: 'exclusión', conciliacion: 'conciliación', cooperacion: 'cooperación',
+  adquisicion: 'adquisición', instalacion: 'instalación', sustitucion: 'sustitución', realizacion: 'realización', renovacion: 'renovación',
+  construccion: 'construcción', financiacion: 'financiación', comunicacion: 'comunicación', administracion: 'administración',
+  publicacion: 'publicación', convocatoria: 'convocatoria', ayuda: 'ayuda', jovenes: 'jóvenes', mas: 'más', ambiental: 'ambiental',
+  dia: 'día', dias: 'días', genero: 'género', periodo: 'periodo', comun: 'común', publica: 'pública', publicas: 'públicas',
+  deposito: 'depósito', energia: 'energía', alquiler: 'alquiler', basico: 'básico', tecnica: 'técnica', tecnicas: 'técnicas',
+  estrategico: 'estratégico', estrategica: 'estratégica', escolares: 'escolares', polideportivo: 'polideportivo', solidaria: 'solidaria',
+};
+const PROPIOS = ['Euskadi', 'País Vasco', 'Gobierno Vasco', 'Diputación Foral', 'Comunidad Autónoma', 'Bizkaia', 'Gipuzkoa', 'Araba', 'Álava', 'Lanbide', 'Osakidetza', 'Unión Europea'];
+export function ortografia(t) {
+  let s = String(t || '');
+  s = s.replace(/\b[a-zñ]+\b/gi, (w) => {
+    const r = TILDES[w.toLowerCase()];
+    if (!r || r === w.toLowerCase()) return w;
+    return w[0] === w[0].toUpperCase() ? r.charAt(0).toUpperCase() + r.slice(1) : r;
+  });
+  for (const p of PROPIOS) s = s.replace(new RegExp(`\\b${p.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ /g, '\\s+')}\\b`, 'gi'), p);
+  for (const [n] of MUNIS) {
+    for (const parte of n.split(/\s*\/\s*/)) {
+      if (parte.length < 4) continue;
+      const base = parte.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      s = s.replace(new RegExp(`(?<=\\b(?:de|del|en|a)\\s+)${base.replace(/[.*+?^${}()|[\]\\-]/g, '\\$&')}\\b`, 'gi'), parte);
+    }
+  }
   return s;
 }
