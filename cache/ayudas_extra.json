@@ -1,118 +1,192 @@
 [
- {
-  "id": "extra-msca-dn-2026",
-  "titulo": "MSCA Doctoral Networks 2026",
-  "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2026-DN-01-01",
-  "fuente": "Funding & Tenders Portal",
-  "organismo": "Unión Europea",
-  "ambito": {
-   "nivel": "ue"
+  {
+    "id": "extra-msca-dn-2026",
+    "titulo": "MSCA Doctoral Networks 2026",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2026-DN-01-01",
+    "fuente": "Funding & Tenders Portal",
+    "organismo": "Unión Europea",
+    "ambito": {
+      "nivel": "ue"
+    },
+    "inicio": "2026-05-28",
+    "fin": "2026-11-24",
+    "resumen": "Convocatoria de Redes Doctorales de las Acciones Marie Skłodowska-Curie (Horizonte Europa), con un presupuesto indicativo de 593,03 millones de euros, para programas de formación doctoral en colaboración internacional, interdisciplinar e intersectorial. Incluye el piloto RAISE de redes doctorales de IA en la ciencia (HORIZON-RAISE-2026-01-03, 30 millones), que se solicita dentro de esta misma convocatoria. La solicitud se presenta en el Funding & Tenders Portal hasta el 24 de noviembre de 2026 a las 17:00 (hora de Bruselas).",
+    "dirigido": "Consorcios de universidades, centros de investigación, empresas y otras organizaciones públicas o privadas que formen doctorandos",
+    "para": [
+      "empresa",
+      "asociacion",
+      "ayuntamiento"
+    ],
+    "noticia": "eus-ayuda-subvencion-2026-260528mscaraisedoktoregoa"
   },
-  "inicio": "2026-05-28",
-  "fin": "2026-11-24",
-  "resumen": "Convocatoria de Redes Doctorales de las Acciones Marie Skłodowska-Curie (Horizonte Europa), con un presupuesto indicativo de 593,03 millones de euros, para programas de formación doctoral en colaboración internacional, interdisciplinar e intersectorial. Incluye el piloto RAISE de redes doctorales de IA en la ciencia (HORIZON-RAISE-2026-01-03, 30 millones), que se solicita dentro de esta misma convocatoria. La solicitud se presenta en el Funding & Tenders Portal hasta el 24 de noviembre de 2026 a las 17:00 (hora de Bruselas).",
-  "dirigido": "Consorcios de universidades, centros de investigación, empresas y otras organizaciones públicas o privadas que formen doctorandos",
-  "para": [
-   "empresa",
-   "asociacion",
-   "ayuntamiento"
-  ],
-  "noticia": "eus-ayuda-subvencion-2026-260528mscaraisedoktoregoa"
- },
- {
-  "id": "extra-eic-accelerator-2027",
-  "titulo": "EIC Accelerator 2027 (HORIZON-EIC-2027-ACCELERATOR-01)",
-  "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2027-ACCELERATOR-01",
-  "fuente": "Funding & Tenders Portal",
-  "organismo": "Unión Europea",
-  "ambito": {
-   "nivel": "ue"
+  {
+    "id": "extra-eic-accelerator-2027",
+    "titulo": "EIC Accelerator 2027 (HORIZON-EIC-2027-ACCELERATOR-01)",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2027-ACCELERATOR-01",
+    "fuente": "Funding & Tenders Portal",
+    "organismo": "Unión Europea",
+    "ambito": {
+      "nivel": "ue"
+    },
+    "inicio": "2026-11-10",
+    "fin": "2027-11-04",
+    "resumen": "El Consejo Europeo de Innovación (EIC) financia a startups y pymes con innovaciones disruptivas (incluidas tecnologías de doble uso) con una subvención de hasta 2,5 millones de euros y una inversión de capital de 1 a 10 millones. Las propuestas cortas pueden presentarse en cualquier momento y las completas en los cortes del 20 de enero, 17 de marzo, 1 de septiembre y 4 de noviembre de 2027.",
+    "dirigido": "Pymes y pequeñas mid-caps (hasta 499 empleados) establecidas en un Estado miembro o país asociado, y personas que vayan a crear una.",
+    "para": [
+      "empresa",
+      "particular"
+    ],
+    "noticia": "eus-ayuda-subvencion-2026-260622defentsazkolaguntza"
   },
-  "inicio": "2026-11-10",
-  "fin": "2027-11-04",
-  "resumen": "El Consejo Europeo de Innovación (EIC) financia a startups y pymes con innovaciones disruptivas (incluidas tecnologías de doble uso) con una subvención de hasta 2,5 millones de euros y una inversión de capital de 1 a 10 millones. Las propuestas cortas pueden presentarse en cualquier momento y las completas en los cortes del 20 de enero, 17 de marzo, 1 de septiembre y 4 de noviembre de 2027.",
-  "dirigido": "Pymes y pequeñas mid-caps (hasta 499 empleados) establecidas en un Estado miembro o país asociado, y personas que vayan a crear una.",
-  "para": [
-   "empresa",
-   "particular"
-  ],
-  "noticia": "eus-ayuda-subvencion-2026-260622defentsazkolaguntza"
- },
- {
-  "id": "extra-gv-agrupaciones-productoras-agrarias-forestales-2026",
-  "titulo": "Ayudas a las agrupaciones de personas productoras agrarias y forestales 2026 previstas en el PEPAC (2023-2027)",
-  "url": "https://www.euskadi.eus/bopv2/datos/2026/11/2604848a.pdf",
-  "fuente": "BOPV",
-  "organismo": "Gobierno Vasco - Departamento de Alimentación, Desarrollo Rural, Agricultura y Pesca",
-  "ambito": {
-   "nivel": "euskadi"
+  {
+    "id": "extra-gv-agrupaciones-productoras-agrarias-forestales-2026",
+    "titulo": "Ayudas a las agrupaciones de personas productoras agrarias y forestales 2026 previstas en el PEPAC (2023-2027)",
+    "url": "https://www.euskadi.eus/bopv2/datos/2026/11/2604848a.pdf",
+    "fuente": "BOPV",
+    "organismo": "Gobierno Vasco - Departamento de Alimentación, Desarrollo Rural, Agricultura y Pesca",
+    "ambito": {
+      "nivel": "euskadi"
+    },
+    "inicio": "2026-11-14",
+    "fin": "2026-11-23",
+    "resumen": "Orden de 3 de noviembre de 2026 (BOPV n.º 218, 13/11/2026) que aprueba las bases y convoca ayudas, cofinanciadas por el FEADER, para crear agrupaciones de productores (línea 1: porcentaje del valor de la producción comercializada) y para nuevas actividades o proyectos de cooperación de las existentes (línea 2: hasta 50.000 € por actuación y año). Presupuesto de 400.000 € y máximo de 100.000 € por agrupación y año; plazo de 10 días naturales desde el día siguiente a la publicación.",
+    "dirigido": "Agrupaciones u organizaciones de personas productoras agrarias y forestales reconocidas según el Decreto 10/2018, y sus uniones o federaciones, que operen en la CAPV.",
+    "para": [
+      "empresa",
+      "asociacion"
+    ]
   },
-  "inicio": "2026-11-14",
-  "fin": "2026-11-23",
-  "resumen": "Orden de 3 de noviembre de 2026 (BOPV n.º 218, 13/11/2026) que aprueba las bases y convoca ayudas, cofinanciadas por el FEADER, para crear agrupaciones de productores (línea 1: porcentaje del valor de la producción comercializada) y para nuevas actividades o proyectos de cooperación de las existentes (línea 2: hasta 50.000 € por actuación y año). Presupuesto de 400.000 € y máximo de 100.000 € por agrupación y año; plazo de 10 días naturales desde el día siguiente a la publicación.",
-  "dirigido": "Agrupaciones u organizaciones de personas productoras agrarias y forestales reconocidas según el Decreto 10/2018, y sus uniones o federaciones, que operen en la CAPV.",
-  "para": [
-   "empresa",
-   "asociacion"
-  ]
- },
- {
-  "id": "extra-gv-eventos-sociales-medio-rural-litoral-2026",
-  "titulo": "Ayudas, acogidas al régimen de minimis, para la realización de eventos sociales que dinamicen el medio rural y litoral de la CAPV 2026",
-  "url": "https://www.euskadi.eus/bopv2/datos/2026/11/2604847a.pdf",
-  "fuente": "BOPV",
-  "organismo": "Gobierno Vasco - Departamento de Alimentación, Desarrollo Rural, Agricultura y Pesca",
-  "ambito": {
-   "nivel": "euskadi"
+  {
+    "id": "extra-gv-eventos-sociales-medio-rural-litoral-2026",
+    "titulo": "Ayudas, acogidas al régimen de minimis, para la realización de eventos sociales que dinamicen el medio rural y litoral de la CAPV 2026",
+    "url": "https://www.euskadi.eus/bopv2/datos/2026/11/2604847a.pdf",
+    "fuente": "BOPV",
+    "organismo": "Gobierno Vasco - Departamento de Alimentación, Desarrollo Rural, Agricultura y Pesca",
+    "ambito": {
+      "nivel": "euskadi"
+    },
+    "inicio": "2026-11-14",
+    "fin": "2026-12-13",
+    "resumen": "Orden de 20 de octubre de 2026 (BOPV n.º 218, 13/11/2026) que subvenciona eventos sociales realizados en 2026 en zonas rurales o litorales (municipios de hasta 5.000 habitantes) que dinamicen el territorio: patrimonio, gastronomía, turismo rural, diversificación o lucha contra la despoblación. Hasta el 60 % del coste y 15.000 € según puntuación; presupuesto de 200.000 € por orden de llegada, con plazo de un mes o hasta agotar el presupuesto.",
+    "dirigido": "Personas físicas o jurídicas, públicas o privadas, promotoras de eventos sociales en zonas rurales o litorales de la CAPV (un evento por solicitante).",
+    "para": [
+      "particular",
+      "autonomo",
+      "empresa",
+      "asociacion",
+      "ayuntamiento"
+    ]
   },
-  "inicio": "2026-11-14",
-  "fin": "2026-12-13",
-  "resumen": "Orden de 20 de octubre de 2026 (BOPV n.º 218, 13/11/2026) que subvenciona eventos sociales realizados en 2026 en zonas rurales o litorales (municipios de hasta 5.000 habitantes) que dinamicen el territorio: patrimonio, gastronomía, turismo rural, diversificación o lucha contra la despoblación. Hasta el 60 % del coste y 15.000 € según puntuación; presupuesto de 200.000 € por orden de llegada, con plazo de un mes o hasta agotar el presupuesto.",
-  "dirigido": "Personas físicas o jurídicas, públicas o privadas, promotoras de eventos sociales en zonas rurales o litorales de la CAPV (un evento por solicitante).",
-  "para": [
-   "particular",
-   "autonomo",
-   "empresa",
-   "asociacion",
-   "ayuntamiento"
-  ]
- },
- {
-  "id": "extra-msca-citizens-2027",
-  "titulo": "MSCA and Citizens 2027 (HORIZON-MSCA-2027-CITIZENS-01-01)",
-  "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-CITIZENS-01-01",
-  "fuente": "Funding & Tenders Portal",
-  "organismo": "Unión Europea",
-  "ambito": {
-   "nivel": "ue"
+  {
+    "id": "extra-msca-citizens-2027",
+    "titulo": "MSCA and Citizens 2027 (HORIZON-MSCA-2027-CITIZENS-01-01)",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-CITIZENS-01-01",
+    "fuente": "Funding & Tenders Portal",
+    "organismo": "Unión Europea",
+    "ambito": {
+      "nivel": "ue"
+    },
+    "inicio": "2027-03-09",
+    "fin": "2027-06-08",
+    "resumen": "Convocatoria «MSCA and Citizens» de las Acciones Marie Skłodowska-Curie (Horizonte Europa, acciones de coordinación y apoyo) para organizar la Noche Europea de los Investigadores y actividades de Investigadores en las escuelas, que acercan la investigación y a los investigadores al público. Se solicita en el Funding & Tenders Portal entre el 9 de marzo y el 8 de junio de 2027.",
+    "dirigido": "Universidades, centros de investigación, museos, ayuntamientos y otras organizaciones públicas o privadas que organicen actividades de divulgación científica",
+    "para": [
+      "empresa",
+      "asociacion",
+      "ayuntamiento"
+    ],
+    "noticia": "eus-ayuda-subvencion-2026-ikerketagauaunibertsitate"
   },
-  "inicio": "2027-03-09",
-  "fin": "2027-06-08",
-  "resumen": "Convocatoria «MSCA and Citizens» de las Acciones Marie Skłodowska-Curie (Horizonte Europa, acciones de coordinación y apoyo) para organizar la Noche Europea de los Investigadores y actividades de Investigadores en las escuelas, que acercan la investigación y a los investigadores al público. Se solicita en el Funding & Tenders Portal entre el 9 de marzo y el 8 de junio de 2027.",
-  "dirigido": "Universidades, centros de investigación, museos, ayuntamientos y otras organizaciones públicas o privadas que organicen actividades de divulgación científica",
-  "para": [
-   "empresa",
-   "asociacion",
-   "ayuntamiento"
-  ],
-  "noticia": "eus-ayuda-subvencion-2026-ikerketagauaunibertsitate"
- },
- {
-  "id": "extra-msca-pf-2027",
-  "titulo": "MSCA Postdoctoral Fellowships 2027 (HORIZON-MSCA-2027-PF-01-01)",
-  "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-PF-01-01",
-  "fuente": "Funding & Tenders Portal",
-  "organismo": "Unión Europea",
-  "ambito": {
-   "nivel": "ue"
+  {
+    "id": "extra-msca-pf-2027",
+    "titulo": "MSCA Postdoctoral Fellowships 2027 (HORIZON-MSCA-2027-PF-01-01)",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-PF-01-01",
+    "fuente": "Funding & Tenders Portal",
+    "organismo": "Unión Europea",
+    "ambito": {
+      "nivel": "ue"
+    },
+    "inicio": "2027-04-07",
+    "fin": "2027-09-08",
+    "resumen": "Becas posdoctorales de las Acciones Marie Skłodowska-Curie (Horizonte Europa) para que investigadores doctores de cualquier nacionalidad desarrollen un proyecto de investigación en otro país, en una organización de acogida académica o no académica (universidades, centros de investigación, empresas u organismos públicos), adquieran nuevas competencias y amplíen sus redes. La propuesta se presenta en el Funding & Tenders Portal, junto con la organización de acogida, entre el 7 de abril y el 8 de septiembre de 2027.",
+    "dirigido": "Investigadores con doctorado de cualquier nacionalidad, junto con una organización de acogida",
+    "para": [
+      "particular"
+    ],
+    "noticia": "eus-ayuda-subvencion-2026-mscadoktoretzaostekobeka2"
   },
-  "inicio": "2027-04-07",
-  "fin": "2027-09-08",
-  "resumen": "Becas posdoctorales de las Acciones Marie Skłodowska-Curie (Horizonte Europa) para que investigadores doctores de cualquier nacionalidad desarrollen un proyecto de investigación en otro país, en una organización de acogida académica o no académica (universidades, centros de investigación, empresas u organismos públicos), adquieran nuevas competencias y amplíen sus redes. La propuesta se presenta en el Funding & Tenders Portal, junto con la organización de acogida, entre el 7 de abril y el 8 de septiembre de 2027.",
-  "dirigido": "Investigadores con doctorado de cualquier nacionalidad, junto con una organización de acogida",
-  "para": [
-   "particular"
-  ],
-  "noticia": "eus-ayuda-subvencion-2026-mscadoktoretzaostekobeka2"
- }
+  {
+    "id": "extra-fund-kutxa-iniciativas-sociales-culturales-2027",
+    "titulo": "Ayudas a iniciativas sociales y/o culturales (2027)",
+    "url": "https://kutxafundazioa.eus/es/convocatoria-ayudas-iniciativas-sociales-culturales",
+    "fuente": "kutxafundazioa.eus",
+    "organismo": "Kutxa Fundazioa",
+    "ambito": {
+      "nivel": "territorio",
+      "nombre": "Gipuzkoa"
+    },
+    "inicio": "2026-10-26",
+    "fin": "2026-12-09",
+    "resumen": "Convocatoria anual de Kutxa Fundazioa (programa Aztarna Ekosoziala) para proyectos sociales y culturales que se desarrollen en Gipuzkoa en 2027: lucha contra la pobreza e inclusión, colectivos vulnerables, envejecimiento activo y soledad, igualdad, infancia y juventud, creación artística, sostenibilidad y euskera. Solicitud telemática del 26/10/2026 (9:00) al 9/12/2026 (14:00).",
+    "dirigido": "Asociaciones, fundaciones y demás entidades sin ánimo de lucro de Gipuzkoa",
+    "para": [
+      "asociacion"
+    ]
+  },
+  {
+    "id": "extra-fund-kutxa-katapulta-tour-gipuzkoa-2027",
+    "titulo": "Convocatoria Katapulta Tour Gipuzkoa 2027",
+    "url": "https://kutxafundazioa.eus/sites/default/files/2026-10/KTG_2027_Bases_es.pdf",
+    "fuente": "kutxafundazioa.eus",
+    "organismo": "Kutxa Fundazioa",
+    "ambito": {
+      "nivel": "territorio",
+      "nombre": "Gipuzkoa"
+    },
+    "inicio": "2026-11-02",
+    "fin": "2026-11-30",
+    "resumen": "12.ª edición del programa de Kutxa Fundazioa y la Diputación Foral de Gipuzkoa para impulsar el talento emergente en música y artes escénicas de pequeño formato. Un jurado selecciona 10 proyectos, que reciben 4 actuaciones remuneradas en Gipuzkoa durante 2027 (500 € netos cada una), un vídeo promocional y mentoría con Musika Bulegoa; se prioriza a residentes en Gipuzkoa y menores de 30 años. Resolución antes del 10/02/2027.",
+    "dirigido": "Artistas y grupos emergentes profesionales o semiprofesionales de música y artes escénicas",
+    "para": [
+      "particular",
+      "autonomo"
+    ]
+  },
+  {
+    "id": "extra-fund-bbk-ekin-2027",
+    "titulo": "Programa Ekin 2027 (6.ª edición)",
+    "url": "https://www.bbk.eus/wp-content/uploads/2026/11/BASES-BBK-EKIN-2027.pdf",
+    "fuente": "bbk.eus",
+    "organismo": "Fundación BBK",
+    "ambito": {
+      "nivel": "territorio",
+      "nombre": "Bizkaia"
+    },
+    "inicio": "2026-11-05",
+    "fin": "2026-12-15",
+    "resumen": "Programa de BBK que selecciona 25 proyectos de emprendimiento con componente social, localizados en Bizkaia y en fase previa al crecimiento, para un ciclo de seis meses con incubación de cuatro meses, mentoría y formación. Al final se conceden premios de 10.000 €, 5.000 € y 2.500 € a los proyectos con más potencial, que deben destinarse íntegramente al proyecto. Candidaturas del 5/11/2026 (9:00) al 15/12/2026 (23:59) en la web de BBK.",
+    "dirigido": "Personas emprendedoras mayores de edad y startups o pymes sin actividad todavía, con un proyecto de impacto social en Bizkaia",
+    "para": [
+      "particular",
+      "autonomo",
+      "empresa"
+    ]
+  },
+  {
+    "id": "extra-gauzatu-internacional-pymes-2026",
+    "titulo": "Gauzatu Internacional 2026: anticipos reintegrables para implantaciones productivas de pymes en el exterior",
+    "url": "https://www.spri.eus/es/ayudas/gauzatu-internacional/",
+    "fuente": "spri.eus",
+    "organismo": "SPRI",
+    "ambito": {
+      "nivel": "euskadi"
+    },
+    "inicio": "2026-10-20",
+    "fin": "2026-11-20",
+    "resumen": "Línea para pymes del programa Gauzatu Internacional de SPRI: anticipos reintegrables para implantar en el extranjero una actividad productiva de empresas industriales vascas. Las bases están publicadas en el BOPV n.º 199 de 19/10/2026 (https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604372a.shtml).",
+    "dirigido": "Pequeñas, medianas y microempresas industriales con actividad en la Comunidad Autónoma de Euskadi",
+    "para": [
+      "empresa"
+    ]
+  }
 ]
