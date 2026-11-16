@@ -158,9 +158,11 @@
   "detalle": "Añadir a cache/prestaciones.json las que faltan con su página oficial: prestaciones de la Seguridad Social (nacimiento y cuidado de menor, asignación por hijo o menor a cargo con discapacidad), PNC de Gipuzkoa y Álava, prestación económica de dependencia de las tres diputaciones y la Prestación Complementaria de Vivienda de Lanbide (la ficha de euskadi.eus es de 2012: comprobar si sigue vigente con la Ley 14/2022 antes de añadirla).",
   "fuente": "Prestaciones permanentes (Seguridad Social, diputaciones, Lanbide)",
   "quien": "Claude",
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "fuentes",
-  "prioridad": 13
+  "prioridad": 13,
+  "fecha": "2026-11-16",
+  "nota": "Añadidas 10 prestaciones a cache/prestaciones.json con su página oficial: nacimiento y cuidado de menor y asignación por hijo a cargo con discapacidad (Seguridad Social), PNC de Gipuzkoa y de Álava, y las tres de dependencia (cuidados en el entorno familiar, vinculada al servicio y asistencia personal) de Gipuzkoa y de Álava. La Prestación Complementaria de Vivienda de Lanbide no se añade: la ficha de euskadi.eus sigue citando la Ley 18/2008 y no se pudo confirmar su encaje en la Ley 14/2022 (queda como tarea aparte). La red de la sesión no llega a esas webs: la primera prueba real será el recolector de las 05:41 (se esperan 10 ayudas nuevas en pendientes)."
  },
  {
   "id": "siglas-comprobador",
@@ -497,5 +499,15 @@
   "prioridad": 24,
   "estado": "pendiente",
   "seccion": "fuentes"
+ },
+ {
+  "id": "pcv-vigencia",
+  "titulo": "Comprobar si la Prestación Complementaria de Vivienda de Lanbide sigue vigente",
+  "detalle": "La ficha de euskadi.eus (lanbide_prestacion_vivienda) es de 2012 y cita la Ley 18/2008. Leer la Ley 14/2022 del Sistema Vasco de Garantía de Ingresos y su reglamento (Decreto 147/2023) y la web de Lanbide para ver si la PCV sigue existiendo como prestación aparte o se ha integrado en la RGI; si sigue, añadirla a cache/prestaciones.json con su página oficial vigente.",
+  "fuente": "Lanbide",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "seccion": "fuentes",
+  "prioridad": 25
  }
 ]

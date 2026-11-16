@@ -6,10 +6,14 @@
   "fuente": "miteco.gob.es",
   "organismo": "Gobierno de España",
   "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico",
-  "ambito": { "nivel": "estado" },
+  "ambito": {
+   "nivel": "estado"
+  },
   "resumen": "Descuento en la factura de la luz de la vivienda habitual para consumidores vulnerables con el precio voluntario para el pequeño consumidor (PVPC). Se solicita a una comercializadora de referencia.",
   "dirigido": "Personas físicas titulares del contrato de luz de su vivienda habitual (potencia igual o inferior a 10 kW) que cumplan los requisitos de renta, familia numerosa, pensión mínima o ingreso mínimo vital",
-  "para": ["particular"]
+  "para": [
+   "particular"
+  ]
  },
  {
   "id": "prest-bizkaia-pnc-jubilacion",
@@ -17,10 +21,16 @@
   "url": "https://www.bizkaia.eus/es/ayudas-y-prestaciones-para-personas-con-dependencia-discapacidad/pnc-jubilacion",
   "fuente": "bizkaia.eus",
   "organismo": "Diputación Foral de Bizkaia",
-  "ambito": { "nivel": "territorio", "nombre": "Bizkaia", "terr": "Bizkaia" },
+  "ambito": {
+   "nivel": "territorio",
+   "nombre": "Bizkaia",
+   "terr": "Bizkaia"
+  },
   "resumen": "Pensión mensual para personas de 65 años o más sin ingresos suficientes que no han cotizado, o no lo bastante, para tener una pensión contributiva. Incluye un complemento anual para quien vive de alquiler.",
   "dirigido": "Personas de 65 años o más residentes en Bizkaia con ingresos insuficientes",
-  "para": ["particular"]
+  "para": [
+   "particular"
+  ]
  },
  {
   "id": "prest-bizkaia-pnc-incapacidad",
@@ -28,10 +38,16 @@
   "url": "https://www.bizkaia.eus/es/ayudas-y-prestaciones-para-personas-con-dependencia-discapacidad/pnc-incapacidad",
   "fuente": "bizkaia.eus",
   "organismo": "Diputación Foral de Bizkaia",
-  "ambito": { "nivel": "territorio", "nombre": "Bizkaia", "terr": "Bizkaia" },
+  "ambito": {
+   "nivel": "territorio",
+   "nombre": "Bizkaia",
+   "terr": "Bizkaia"
+  },
   "resumen": "Pensión mensual para personas de 18 a 65 años con una discapacidad del 65 % o más y sin ingresos suficientes que no han cotizado, o no lo bastante, para tener una pensión contributiva.",
   "dirigido": "Personas de 18 a 65 años residentes en Bizkaia con discapacidad igual o superior al 65 % e ingresos insuficientes",
-  "para": ["particular"]
+  "para": [
+   "particular"
+  ]
  },
  {
   "id": "prest-gipuzkoa-pnc-complemento-vivienda",
@@ -39,10 +55,16 @@
   "url": "https://egoitza.gipuzkoa.eus/WAS/CORP/LIAIzapideakWEB/api/v1/tramitePDF/es/1390",
   "fuente": "Sede electrónica de Gipuzkoa",
   "organismo": "Diputación Foral de Gipuzkoa",
-  "ambito": { "nivel": "territorio", "nombre": "Gipuzkoa", "terr": "Gipuzkoa" },
+  "ambito": {
+   "nivel": "territorio",
+   "nombre": "Gipuzkoa",
+   "terr": "Gipuzkoa"
+  },
   "resumen": "Complemento para las personas que cobran una pensión no contributiva y viven de alquiler. Plazo abierto durante todo el año.",
   "dirigido": "Personas que perciben una pensión no contributiva y residen en una vivienda de alquiler en Gipuzkoa",
-  "para": ["particular"]
+  "para": [
+   "particular"
+  ]
  },
  {
   "id": "prest-bizkaia-pecef",
@@ -50,10 +72,16 @@
   "url": "https://www.bizkaia.eus/es/ayudas-y-prestaciones-para-personas-con-dependencia-discapacidad/pecef",
   "fuente": "bizkaia.eus",
   "organismo": "Diputación Foral de Bizkaia",
-  "ambito": { "nivel": "territorio", "nombre": "Bizkaia", "terr": "Bizkaia" },
+  "ambito": {
+   "nivel": "territorio",
+   "nombre": "Bizkaia",
+   "terr": "Bizkaia"
+  },
   "resumen": "Ayuda económica mensual (12 pagos al año) para los gastos de atender en casa a una persona en situación de dependencia cuando la cuida alguien de su familia o entorno sin contrato. El importe depende del grado y los puntos de dependencia y se reduce según los ingresos y si la persona acude a un centro de día. Debe estar incluida en su Programa Individual de Atención (PIA).",
   "dirigido": "Personas con grado de dependencia reconocido (I, II o III) atendidas en su domicilio por una persona cuidadora no profesional de su familia o entorno, mayor de edad y empadronada con ella",
-  "para": ["particular"]
+  "para": [
+   "particular"
+  ]
  },
  {
   "id": "prest-bizkaia-pvs",
@@ -61,10 +89,16 @@
   "url": "https://www.bizkaia.eus/es/ayudas-y-prestaciones-para-personas-con-dependencia-discapacidad/pvs",
   "fuente": "bizkaia.eus",
   "organismo": "Diputación Foral de Bizkaia",
-  "ambito": { "nivel": "territorio", "nombre": "Bizkaia", "terr": "Bizkaia" },
+  "ambito": {
+   "nivel": "territorio",
+   "nombre": "Bizkaia",
+   "terr": "Bizkaia"
+  },
   "resumen": "Ayuda económica para pagar una estancia permanente o temporal en una residencia privada homologada e inscrita en el Registro Foral de Servicios Sociales de Bizkaia, cuando la persona tiene reconocido el derecho a una plaza pública foral y no hay plaza disponible. El importe depende del grado de dependencia y de la capacidad económica de la unidad de convivencia.",
   "dirigido": "Personas valoradas en situación de dependencia con derecho reconocido a una plaza residencial pública foral en Bizkaia",
-  "para": ["particular"]
+  "para": [
+   "particular"
+  ]
  },
  {
   "id": "prest-bizkaia-peap",
@@ -72,9 +106,184 @@
   "url": "https://www.bizkaia.eus/es/ayudas-y-prestaciones-para-personas-con-dependencia-discapacidad/peap",
   "fuente": "bizkaia.eus",
   "organismo": "Diputación Foral de Bizkaia",
-  "ambito": { "nivel": "territorio", "nombre": "Bizkaia", "terr": "Bizkaia" },
+  "ambito": {
+   "nivel": "territorio",
+   "nombre": "Bizkaia",
+   "terr": "Bizkaia"
+  },
   "resumen": "Ayuda económica mensual (12 pagos al año) para contratar a una persona asistente personal que facilite estudiar, trabajar o llevar una vida más autónoma. El importe depende del grado y los puntos de dependencia, se reduce según los ingresos y nunca supera el coste del contrato. Si ya está aprobada en el PIA, se puede pedir en cualquier momento.",
   "dirigido": "Personas de 18 a 65 años con grado de dependencia reconocido (I, II o III), con un plan individual de vida independiente y un contrato de asistencia personal",
-  "para": ["particular"]
+  "para": [
+   "particular"
+  ]
+ },
+ {
+  "id": "prest-ss-nacimiento-cuidado-menor",
+  "titulo": "Prestación por nacimiento y cuidado de menor",
+  "url": "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/6b96a085-4dc0-47af-b2cb-97e00716791e?changeLanguage=es",
+  "fuente": "seg-social.es",
+  "organismo": "Gobierno de España",
+  "ministerio": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "ambito": {
+   "nivel": "estado"
+  },
+  "resumen": "Subsidio de la Seguridad Social durante el descanso por nacimiento, adopción, guarda con fines de adopción o acogimiento de un menor. Equivale al 100 % de la base reguladora; quien no tiene el periodo mínimo de cotización puede cobrar el subsidio no contributivo (100 % del IPREM).",
+  "dirigido": "Personas trabajadoras por cuenta ajena o propia, de alta o en situación asimilada, que disfrutan del descanso o permiso por nacimiento o cuidado de menor y tienen la cotización mínima exigida según su edad",
+  "para": [
+   "particular",
+   "autonomo"
+  ]
+ },
+ {
+  "id": "prest-ss-hijo-cargo-discapacidad",
+  "titulo": "Asignación económica por hijo o menor a cargo con discapacidad",
+  "url": "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/10967/27924/27936?changeLanguage=es",
+  "fuente": "seg-social.es",
+  "organismo": "Gobierno de España",
+  "ministerio": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "ambito": {
+   "nivel": "estado"
+  },
+  "resumen": "Asignación anual de la Seguridad Social por cada hijo o menor a cargo con discapacidad, sin límite de ingresos. El importe lo fija cada año la Ley de Presupuestos: es mayor para hijos mayores de 18 años con discapacidad del 65 % o más, y aún mayor si es del 75 % y necesitan la ayuda de otra persona.",
+  "dirigido": "Familias con hijos o menores a cargo menores de 18 años con discapacidad igual o superior al 33 %, o mayores de 18 años con discapacidad igual o superior al 65 %",
+  "para": [
+   "particular"
+  ]
+ },
+ {
+  "id": "prest-gipuzkoa-pnc",
+  "titulo": "Pensión no contributiva (PNC) de jubilación o incapacidad",
+  "url": "https://egoitza.gipuzkoa.eus/WAS/CORP/LIAIzapideakWEB/api/v1/tramitePDF/es/864",
+  "fuente": "Sede electrónica de Gipuzkoa",
+  "organismo": "Diputación Foral de Gipuzkoa",
+  "ambito": {
+   "nivel": "territorio",
+   "nombre": "Gipuzkoa",
+   "terr": "Gipuzkoa"
+  },
+  "resumen": "Pensión mensual (14 pagas) para personas mayores o con discapacidad sin recursos suficientes, en dos modalidades: jubilación e incapacidad. Se pide en los servicios sociales del ayuntamiento, con cita, y la cuantía depende de los ingresos de la persona o de su unidad de convivencia.",
+  "dirigido": "Personas empadronadas en Gipuzkoa sin recursos suficientes: de 65 años o más (jubilación) o de 18 a 65 años con una discapacidad del 65 % o más (incapacidad), con la residencia legal en España exigida",
+  "para": [
+   "particular"
+  ]
+ },
+ {
+  "id": "prest-gipuzkoa-pece",
+  "titulo": "Prestación económica para cuidados en el entorno familiar (PECE)",
+  "url": "https://egoitza.gipuzkoa.eus/es/listado-tramites/-/tramiteak/xehetasuna/837",
+  "fuente": "Sede electrónica de Gipuzkoa",
+  "organismo": "Diputación Foral de Gipuzkoa",
+  "ambito": {
+   "nivel": "territorio",
+   "nombre": "Gipuzkoa",
+   "terr": "Gipuzkoa"
+  },
+  "resumen": "Ayuda mensual (12 pagas) para cubrir parte de los gastos de atender en casa a una persona en situación de dependencia cuando la cuida un familiar que convive con ella. El importe depende del grado de dependencia, se reduce según los ingresos y si la persona acude a un centro de día.",
+  "dirigido": "Personas con dependencia reconocida (grado I, II o III) empadronadas en Gipuzkoa y atendidas en su domicilio por una persona cuidadora de su familia o entorno que convive con ella",
+  "para": [
+   "particular"
+  ]
+ },
+ {
+  "id": "prest-gipuzkoa-pevs",
+  "titulo": "Prestación económica vinculada al servicio (PEVS)",
+  "url": "https://egoitza.gipuzkoa.eus/es/listado-tramites/-/tramiteak/xehetasuna/853",
+  "fuente": "Sede electrónica de Gipuzkoa",
+  "organismo": "Diputación Foral de Gipuzkoa",
+  "ambito": {
+   "nivel": "territorio",
+   "nombre": "Gipuzkoa",
+   "terr": "Gipuzkoa"
+  },
+  "resumen": "Ayuda mensual (12 pagas) para pagar parte de una plaza privada en un centro de día o una residencia mientras la persona espera una plaza pública o concertada. El importe depende del grado de dependencia y de los ingresos, y nunca supera el coste del servicio.",
+  "dirigido": "Personas con dependencia reconocida (grado I, II o III) empadronadas en Gipuzkoa, con contrato de una plaza privada y en lista de espera de una plaza pública",
+  "para": [
+   "particular"
+  ]
+ },
+ {
+  "id": "prest-gipuzkoa-peap",
+  "titulo": "Prestación económica de asistencia personal (PEAP)",
+  "url": "https://egoitza.gipuzkoa.eus/es/listado-tramites/-/tramiteak/xehetasuna/849",
+  "fuente": "Sede electrónica de Gipuzkoa",
+  "organismo": "Diputación Foral de Gipuzkoa",
+  "ambito": {
+   "nivel": "territorio",
+   "nombre": "Gipuzkoa",
+   "terr": "Gipuzkoa"
+  },
+  "resumen": "Ayuda mensual (12 pagas) para pagar parte del coste de contratar a una persona asistente personal que facilite estudiar, trabajar, participar en la comunidad y llevar una vida más autónoma. El importe depende del grado de dependencia y del coste real del servicio.",
+  "dirigido": "Personas de 3 años o más con dependencia reconocida (grado I, II o III) en Gipuzkoa que contratan a una persona asistente mayor de edad",
+  "para": [
+   "particular"
+  ]
+ },
+ {
+  "id": "prest-araba-pnc",
+  "titulo": "Pensión no contributiva (PNC) de jubilación o invalidez",
+  "url": "https://web.araba.eus/es/servicios-sociales/pension-no-contributiva",
+  "fuente": "web.araba.eus",
+  "organismo": "Diputación Foral de Álava",
+  "ambito": {
+   "nivel": "territorio",
+   "nombre": "Araba/Álava",
+   "terr": "Araba/Álava"
+  },
+  "resumen": "Pensión mensual para personas mayores o con discapacidad sin recursos suficientes, en dos modalidades: jubilación e invalidez. La gestiona el Instituto Foral de Bienestar Social, con cita previa; quien la cobra y vive de alquiler puede pedir además el complemento de alquiler (PNC-A).",
+  "dirigido": "Personas residentes en Álava sin recursos suficientes, mayores de 65 años (jubilación) o con discapacidad (invalidez)",
+  "para": [
+   "particular"
+  ]
+ },
+ {
+  "id": "prest-araba-pecef",
+  "titulo": "Prestación económica para cuidados en el entorno familiar (PECEF)",
+  "url": "https://egoitza.araba.eus/es/inicio/tramites/fitxa/prestacion-economica-para-cuidados-en-el-entorno-familiar-PECEF",
+  "fuente": "Sede electrónica de Álava",
+  "organismo": "Diputación Foral de Álava",
+  "ambito": {
+   "nivel": "territorio",
+   "nombre": "Araba/Álava",
+   "terr": "Araba/Álava"
+  },
+  "resumen": "Ayuda económica para cubrir parte de los gastos de atender en casa a una persona en situación de dependencia por cuidadores no profesionales, siempre que la convivencia y la vivienda sean adecuadas.",
+  "dirigido": "Personas en situación de dependencia en Álava atendidas en su domicilio por personas cuidadoras no profesionales",
+  "para": [
+   "particular"
+  ]
+ },
+ {
+  "id": "prest-araba-peap",
+  "titulo": "Prestación económica de asistencia personal (PEAP)",
+  "url": "https://egoitza.araba.eus/es/inicio/tramites/fitxa/prestacion-economica-de-asistencia-personal-PEAP",
+  "fuente": "Sede electrónica de Álava",
+  "organismo": "Diputación Foral de Álava",
+  "ambito": {
+   "nivel": "territorio",
+   "nombre": "Araba/Álava",
+   "terr": "Araba/Álava"
+  },
+  "resumen": "Ayuda económica para cubrir parte del gasto de contratar una asistencia personal que facilite el acceso a la educación o al trabajo y una vida más autónoma.",
+  "dirigido": "Personas en situación de dependencia en Álava que contratan una asistencia personal",
+  "para": [
+   "particular"
+  ]
+ },
+ {
+  "id": "prest-araba-pevs",
+  "titulo": "Prestación económica vinculada al servicio (PEVS)",
+  "url": "https://egoitza.araba.eus/es/inicio/tramites/fitxa/prestacion-economica-vinculada-al-servicio-PEVS",
+  "fuente": "Sede electrónica de Álava",
+  "organismo": "Diputación Foral de Álava",
+  "ambito": {
+   "nivel": "territorio",
+   "nombre": "Araba/Álava",
+   "terr": "Araba/Álava"
+  },
+  "resumen": "Ayuda económica para pagar una plaza de centro de día o de residencia permanente en un centro privado acreditado cuando no es posible acceder a un servicio público o concertado y así lo indica el Programa Individual de Atención.",
+  "dirigido": "Personas en situación de dependencia en Álava cuyo Programa Individual de Atención indique este servicio",
+  "para": [
+   "particular"
+  ]
  }
 ]
