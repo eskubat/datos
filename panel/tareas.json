@@ -376,8 +376,9 @@
   "prioridad": 2,
   "fuente": "Tarea de resúmenes (16/11)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-16"
+  "estado": "hecha",
+  "fecha": "2026-11-16",
+  "nota": "En publico/ayudas.json había 7 parejas de ayudas de la sede de Álava con el mismo id (14 de 113), no solo 3: líneas de asociaciones y de ayuntamientos, o convocatorias de dos años, que coinciden en los 60 primeros caracteres del friendlyUrl. El lector (recolector/forales.js) ahora añade a esas una huella de 6 caracteres del friendlyUrl completo; las que no chocan conservan su id, y ninguna de las 14 tenía aún ficha, así que no se pierde trabajo. Con el recolector de las 05:41 saldrán 113 ids distintos y las 14 entrarán en pendientes con su id nuevo."
  },
  {
   "id": "araba-sede-contenido-3",

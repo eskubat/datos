@@ -2,6 +2,7 @@
 // (La Diputación de Bizkaia publica sus convocatorias en la BDNS, que ya se recoge.)
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { pedir, texto, entidades, frase, iso, enParalelo, temasDe, paraDeTexto, norm } from './comun.js';
 
 // ---------- Gipuzkoa ----------
@@ -280,8 +281,17 @@ export async function araba(log) {
     if (prev) Object.assign(prev, { tema: f.tema, finalidad: f.finalidad, plazo: prev.plazo || f.plazo, fin: prev.fin || f.fin, ficha: f.ficha, docs: f.docs });
     else out.push(f);
   }
+  // Id: 'ara-' + el friendlyUrl normalizado y cortado a 60 caracteres. Si dos trámites distintos
+  // comparten esos 60 caracteres (p. ej. la línea de asociaciones y la de ayuntamientos, o la
+  // convocatoria de un año y la del siguiente), a esos se les añade una huella corta del
+  // friendlyUrl completo para que cada uno tenga su id (los que no chocan conservan el suyo).
+  const slug = (f) => norm(decodeURIComponent(f.url.split('/fitxa/')[1] || f.titulo)).replace(/[^a-z0-9]+/g, '-');
+  const corto = (f) => 'ara-' + slug(f).slice(0, 60);
+  const veces = {};
+  for (const f of out) veces[corto(f)] = (veces[corto(f)] || 0) + 1;
+  const idDe = (f) => (veces[corto(f)] > 1 ? corto(f).replace(/-+$/, '') + '-' + crypto.createHash('sha1').update(slug(f)).digest('hex').slice(0, 6) : corto(f));
   return out.map((f) => ({
-    id: 'ara-' + norm(decodeURIComponent(f.url.split('/fitxa/')[1] || f.titulo)).replace(/[^a-z0-9]+/g, '-').slice(0, 60),
+    id: idDe(f),
     titulo: frase(f.titulo),
     organismo: 'Diputación Foral de Álava',
     ambito: { nivel: 'territorio', nombre: 'Araba/Álava', terr: 'Araba/Álava' },
