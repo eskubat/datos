@@ -1,21 +1,30 @@
 [
  {
   "id": "extra-onati-contratacion-desempleados-2026",
-  "h": "226a8f33dcbaf344",
+  "h": "1bba4bd550c96d1b",
   "titulo": "Subvenciones para la contratación de personas desempleadas",
   "organismoSugerido": "ayto-onati",
   "organismoFuente": "Ayuntamiento de Oñati",
   "archivo": "cache/fuentes/extra-onati-contratacion-desempleados-2026-e77634d6.txt",
-  "caracteres": 262065
+  "caracteres": 300000
+ },
+ {
+  "id": "ara-subvenciones-acciones-marco-alaves-de-incidencia-y-proteccio",
+  "h": "b3fbc40cadec57d0",
+  "titulo": "Subvenciones dirigidas a asociaciones y entidades sin ánimo de lucro, en régimen de libre concurrencia",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-acciones-marco-alaves-de-incidencia-y-prote-d1857712.txt",
+  "caracteres": 62185
  },
  {
   "id": "bdns-937108",
-  "h": "d68f9eb846aae571",
+  "h": "e80b59c65983277c",
   "titulo": "Decreto de Alcaldia nº /1663 del 14/07/, por lo",
   "organismoSugerido": "ayto-lasarte-oria",
   "organismoFuente": "Ayuntamiento de lasarte-oria",
   "archivo": "cache/fuentes/bdns-937108-7f4aaefa.txt",
-  "caracteres": 12790
+  "caracteres": 15935
  },
  {
   "id": "bdns-937839",
@@ -4518,15 +4527,6 @@
   "caracteres": 73053
  },
  {
-  "id": "prest-bono-social-electrico",
-  "h": "457c167225849042",
-  "titulo": "Bono social eléctrico para consumidores vulnerables",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Gobierno de España",
-  "archivo": "cache/fuentes/prest-bono-social-electrico-a18ad288.txt",
-  "caracteres": 300000
- },
- {
   "id": "prest-bizkaia-pnc-jubilacion",
   "h": "1f02cf4a3f1d4b07",
   "titulo": "Pensión no contributiva de jubilación (PNC jubilación)",
@@ -4534,6 +4534,15 @@
   "organismoFuente": "Diputación Foral de Bizkaia",
   "archivo": "cache/fuentes/prest-bizkaia-pnc-jubilacion-75b35bd2.txt",
   "caracteres": 15479
+ },
+ {
+  "id": "prest-bono-social-electrico",
+  "h": "457c167225849042",
+  "titulo": "Bono social eléctrico para consumidores vulnerables",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Gobierno de España",
+  "archivo": "cache/fuentes/prest-bono-social-electrico-a18ad288.txt",
+  "caracteres": 300000
  },
  {
   "id": "prest-bizkaia-pnc-incapacidad",
