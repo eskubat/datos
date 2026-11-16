@@ -75,5 +75,9 @@
  "eus-ayuda-subvencion-2026-260622urjauzikopartzuergo": {
   "ocultar": true,
   "motivo": "No es una ayuda (no_es_ayuda): noticia de SPRI sobre la financiación en cascada en general, sin convocatoria propia; las convocatorias concretas van por cache/ayudas_extra.json. Decisión del responsable, 16/11/2026."
+ },
+ "ara-convocatoria-publica-de-ayudas-para-la-organizacion-de-curso": {
+  "estado": "cerrada",
+  "motivo": "El plazo ordinario (45 días hábiles desde el 3/1/2026, BOTHA n.º 1 de 2/1/2026) ya cerró; solo se admiten solicitudes fuera de plazo justificadas hasta el 30/11/2026. Decisión del responsable, 16/11/2026."
  }
 }
