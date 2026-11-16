@@ -603,6 +603,10 @@ async function reabrirTarea(id){
 }
 
 const AGENTES={
+  fuentes:{nombre:"Explorador de fuentes",tareas:[["trig_01QHVqAzpXHgRjFkWW9WKDFJ","Eskubat · buscar fuentes nuevas","miércoles, 04:13"]],horario:()=>"Cada miércoles, 04:13",
+    rol:"Busca organismos y entidades que convocan ayudas para Euskadi y todavía no leemos, y los deja propuestos en el plan de mejoras. No escribe lectores: eso lo hace el Responsable de mejora continua.",
+    hace:["Repasa lo que ya tenemos: fuentes consultadas, posibles fuentes, organismos de la base y tareas del plan.","Busca en la web (unas 20 búsquedas) departamentos y sociedades del Gobierno Vasco, diputaciones, ayuntamientos grandes, agencias comarcales, Estado, UE, fundaciones, cámaras y clústeres.","Mira también los organismos que citan las noticias y los documentos y que no tenemos.","Por cada fuente nueva confirmada en su web oficial añade una tarea al plan y la apunta en «Hallazgos»; si necesita tu decisión, te la manda a «Para ti».","El recolector (un programa, no Claude) lee cada día a las 05:41 las fuentes ya consultadas."],
+    reglas:false},
   datos:{nombre:"Revisor de datos",tareas:[["trig_01P4CfUrXV2AZpfEM8kPEAXt","Eskubat · resúmenes de ayudas","cada hora, a y 32"]],horario:()=>D.tarea&&D.tarea.modo==="diaria"?"Una vez al día, a las 17:52":"Cada hora, a y 32",
     rol:"Revisa los datos: redacta las fichas de las ayudas nuevas o cambiadas, estandariza los títulos y decide las noticias. Lo que es decisión tuya te lo manda a «Para ti».",
     hace:["Lee entera la documentación oficial de cada ayuda pendiente (hasta 30 por pasada, en tandas de 10) y redacta su ficha por tipo de solicitante, en castellano y euskera.","Si falta un dato, busca el boletín o la convocatoria oficial y lo resuelve él mismo.","Estandariza hasta 300 títulos por pasada y decide hasta 10 noticias (si son ayudas reales, las da de alta).","Comprueba cada cifra contra la fuente y vuelve a publicar esta página.","Lo que necesita tu criterio lo apunta en «Para ti» con su propuesta."],
@@ -1099,7 +1103,7 @@ function renderFuentes(){
   const kpi=(n,t,c="")=>`<span class="kpi ${c}"><b>${n}</b>${t}</span>`;
   const chip=q=>`<span class="quien ${/^Tú/.test(q)?"tu":"cl"}">${esc(q)}</span>`;
   $("#detalle").innerHTML=`<div class="flujo">
-    <p class="intro">De dónde salen las ayudas de la app. Las fuentes nuevas y las mejoras de lectura están en Mejora continua. Registros del recolector del ${fmtFecha(F.fecha)}.</p>
+    <div class="cab-ag"><p class="intro">De dónde salen las ayudas de la app. Las fuentes nuevas y las mejoras de lectura están en Mejora continua. Registros del recolector del ${fmtFecha(F.fecha)}.</p>${avatar("fuentes")}</div>
     ${(abiertos.con===undefined&&(abiertos.con=true),"")}${det("con","Fuentes consultadas",
       `${kpi(canales,"fuentes")}${kpi(num(totalApp),"ayudas en la app")}${kpi(num(totalR),"registros leídos hoy")}${avisos?kpi(avisos,"con aviso","av"):""}${F.enlaces?kpi(num(F.enlaces.sustituidos+F.enlaces.quitados),"enlaces rotos corregidos hoy",F.enlaces.rotos?"av":"ok"):""}<div class="mbar" role="img" aria-label="Registros por fuente">${barra}</div><span class="hint" style="flex-basis:100%;margin-top:-4px">Ayudas de la app según su fuente: pasa el ratón para ver cada una.</span>`,
       `<div class="tabwrap"><table class="ftabla agrup"><thead><tr><th>Fuente</th><th>Canal</th><th>Ayudas en la app</th><th>Qué aporta</th><th>Cómo se lee</th><th>Leídos hoy</th></tr></thead><tbody>
