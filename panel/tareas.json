@@ -392,5 +392,16 @@
   "quien": "Claude",
   "estado": "pendiente",
   "fecha": "2026-11-16"
+ },
+ {
+  "id": "araba-fin-plazo-sede",
+  "titulo": "Fecha de fin mal leída en la sede de Álava (convocatorias cerradas que salen abiertas hasta 2027)",
+  "detalle": "En recolector/forales.js, el fin de los trámites de la sede de Álava se saca con fechaTexto del texto del plazo, que toma la primera fecha («Del 12 de febrero al 4 de marzo de 2026» → 12 de febrero sin año) y, al quedar en el pasado, le suma un año: 2027-02-12. Pasa con todas las del IFBS, inversiones turísticas, medidas preventivas, seguros ganaderos, residencias, acogimiento, jóvenes informadores… (fin 2027 con el plazo de 2026 ya cerrado, incluso cuando el texto dice «CERRADO»). Hay que tomar la última fecha del texto con el año que aparezca después, y si el texto dice «CERRADO/CERRADA» tratarla como cerrada.",
+  "seccion": "fuentes",
+  "prioridad": 10,
+  "fuente": "Revisor de datos (16/11)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
  }
 ]
