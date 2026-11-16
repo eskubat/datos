@@ -373,5 +373,15 @@
   "parecidaA": "ara-01122001",
   "motivo": "Mismo título («Ayudas forestales») y mismo organismo (Diputación Foral de Álava): dos fichas de la sede (códigos AYS-MONTE-PLAFOR y 01122001) del mismo plan de ayudas forestales; la ficha oficial de ninguna tiene contenido que las distinga.",
   "fecha": "2026-11-16"
+ },
+ "ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-y-p-33821e": {
+  "parecidaA": "ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-y-p-1d9427",
+  "motivo": "Misma convocatoria anual de la DFA (una sola orden foral, 50 % del coste de intervenciones arqueológicas o paleontológicas) partida en la sede en dos fichas: empresas y particulares; solo cambia el tipo de solicitante y la fuente (33821e trae el BOTHA de 2024, 1d9427 solo la sede).",
+  "fecha": "2026-11-16"
+ },
+ "ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-y-p-1d9427": {
+  "parecidaA": "ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-y-p-33821e",
+  "motivo": "Misma convocatoria anual de la DFA (una sola orden foral, 50 % del coste de intervenciones arqueológicas o paleontológicas) partida en la sede en dos fichas: empresas y particulares; solo cambia el tipo de solicitante y la fuente (33821e trae el BOTHA de 2024, 1d9427 solo la sede).",
+  "fecha": "2026-11-16"
  }
 }
