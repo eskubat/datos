@@ -63,6 +63,15 @@
   "caracteres": 300000
  },
  {
+  "id": "ara-multiservicios-rurales-gastos-2026",
+  "h": "7388406b877e61ba",
+  "titulo": "Multiservicios rurales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-multiservicios-rurales-gastos-2026-5d71be6b.txt",
+  "caracteres": 18686
+ },
+ {
   "id": "bdns-939817",
   "h": "842df2f07c5ff2b8",
   "titulo": "Subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -1054,12 +1063,12 @@
  },
  {
   "id": "ara-01630001",
-  "h": "fea66fe42464e583",
+  "h": "dc6d6ff3ed9d0212",
   "titulo": "Ayudas directas al transporte",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01630001-c3540eb7.txt",
-  "caracteres": 96
+  "caracteres": 569
  },
  {
   "id": "bdns-942081",
@@ -1656,6 +1665,15 @@
   "caracteres": 3561
  },
  {
+  "id": "ara-convocatoria-publica-de-ayudas-para-la-organizacion-de-curso",
+  "h": "c5b2d8ebff8e92ad",
+  "titulo": "Ayudas para organizar cursos, jornadas, congresos y seminarios sobre servicios sociales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-publica-de-ayudas-para-la-organizacion-de-c-ae5af4af.txt",
+  "caracteres": 783
+ },
+ {
   "id": "bdns-934941",
   "h": "63126e8c7530af45",
   "titulo": "Convocatoria para la concesión de la línea de subvención 4.7",
@@ -1782,6 +1800,24 @@
   "caracteres": 4298
  },
  {
+  "id": "ara-ayudas-a-asociaciones-y-fundaciones-para-contribuir-a-la-reh",
+  "h": "0d5d361be7102025",
+  "titulo": "Ayudas para rehabilitar y equipar locales de asociaciones y fundaciones",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-a-asociaciones-y-fundaciones-para-contribuir-a-la-9a3ec4e1.txt",
+  "caracteres": 777
+ },
+ {
+  "id": "ara-ayudas-dirigidas-a-asociaciones-y-fundaciones-del-ambito-de-",
+  "h": "441b6890e5e4bfd1",
+  "titulo": "Ayudas para el mantenimiento de asociaciones y fundaciones del ámbito de los servicios sociales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-dirigidas-a-asociaciones-y-fundaciones-del-ambito-df17bee7.txt",
+  "caracteres": 668
+ },
+ {
   "id": "bdns-938420",
   "h": "a3d2592415062085",
   "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación global industrie Lyon del 15 de marzo de al 18 de marzo",
@@ -1836,6 +1872,51 @@
   "caracteres": 90931
  },
  {
+  "id": "ara-ayudas-inversiones-turisticas-en-cuadrillas-2026",
+  "h": "de288a6d0caa4a99",
+  "titulo": "Ayudas para hacer frente a inversiones turísticas en cuadrillas",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-inversiones-turisticas-en-cuadrillas-2026-ca8487c9.txt",
+  "caracteres": 18700
+ },
+ {
+  "id": "ara-ayudas-para-hacer-frente-a-inversiones-turisticas-en-ayuntam",
+  "h": "3ed9ca7055237033",
+  "titulo": "Ayudas para hacer frente a inversiones turísticas en ayuntamientos",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-para-hacer-frente-a-inversiones-turisticas-en-ayu-dab63d35.txt",
+  "caracteres": 18723
+ },
+ {
+  "id": "ara-ayudas-destinadas-a-la-implementacion-de-medidas-preventivas",
+  "h": "b954caa021cfa284",
+  "titulo": "Ayudas destinadas a la implementación de medidas preventivas destinadas a mejorar la protección de ganado frente a ataques de la fauna silvestre",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-destinadas-a-la-implementacion-de-medidas-prevent-ecefeb6e.txt",
+  "caracteres": 18762
+ },
+ {
+  "id": "ara-ayudas-destinadas-implementacion-medidas-preventivas-destina",
+  "h": "73c00044bc5a62db",
+  "titulo": "Ayudas destinadas a la implementación de medidas preventivas destinadas a paliar los daños en el medio rural por especies cinegéticas",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-destinadas-implementacion-medidas-preventivas-des-ac08bbe4.txt",
+  "caracteres": 387
+ },
+ {
+  "id": "ara-ayudas-seguros-ganaderos-2026",
+  "h": "0b355d78e0c47e8d",
+  "titulo": "Ayudas a seguros ganaderos",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-seguros-ganaderos-2026-c3505cc9.txt",
+  "caracteres": 149
+ },
+ {
   "id": "bdns-938586",
   "h": "81acd8135ba94a3e",
   "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación TOYS milano Milán del 9 de mayo de al 10 de mayo",
@@ -1852,6 +1933,15 @@
   "organismoFuente": "Ayuntamiento de Navaridas",
   "archivo": "cache/fuentes/botha-2026-116-02824-c-pdf-3ccad5ff.txt",
   "caracteres": 7536
+ },
+ {
+  "id": "ara-ayudas-dirigidas-a-asociaciones-o-fundaciones-para-contribui",
+  "h": "0538052afddd64d5",
+  "titulo": "Ayudas para el desarrollo de programas y actividades en el ámbito de los servicios sociales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-dirigidas-a-asociaciones-o-fundaciones-para-contr-bc264301.txt",
+  "caracteres": 1220
  },
  {
   "id": "botha-2026-118-02861-c-pdf",
@@ -1879,6 +1969,33 @@
   "organismoFuente": "Icex españa exportación e inversiones, ep e.",
   "archivo": "cache/fuentes/bdns-938422-65dcd604.txt",
   "caracteres": 15223
+ },
+ {
+  "id": "ara-ayudas-ganaderas-2026",
+  "h": "7764e52d9cc76cef",
+  "titulo": "Ayudas destinadas a la gestión de programas colectivos de cría de razas ganaderas",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-ganaderas-2026-51bf026e.txt",
+  "caracteres": 18673
+ },
+ {
+  "id": "ara-ayudas-a-centros-residenciales-para-personas-mayores-que-se-",
+  "h": "398922f6b7251a05",
+  "titulo": "Ayudas a centros residenciales para mejorar la calidad asistencial en cuidados de larga duración",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-a-centros-residenciales-para-personas-mayores-que-6936950b.txt",
+  "caracteres": 18750
+ },
+ {
+  "id": "ara-ayudas-economicas-para-gastos-extraordinarios-en-acogimiento",
+  "h": "122b4cc22d70fed6",
+  "titulo": "Ayudas económicas para gastos extraordinarios de apoyo al acogimiento familiar y a la convivencia una vez finalizada la medida de acogimiento familiar",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-economicas-para-gastos-extraordinarios-en-acogimi-cb998e96.txt",
+  "caracteres": 18750
  },
  {
   "id": "bdns-923844",
@@ -1935,6 +2052,33 @@
   "caracteres": 15205
  },
  {
+  "id": "ara-ayudas-ganaderas",
+  "h": "a30ec61b2bf012a8",
+  "titulo": "Ayudas destinadas a la gestión de programas colectivos de cría de razas ganaderas",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-ganaderas-c841f536.txt",
+  "caracteres": 18668
+ },
+ {
+  "id": "ara-apoyo-a-jovenes-informadores-en-centros-educativos-alaveses-",
+  "h": "f629f6c2816eb268",
+  "titulo": "Apoyo a jóvenes informadores/as en centros educativos alaveses de Enseñanzas Medias",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-apoyo-a-jovenes-informadores-en-centros-educativos-alave-470d0bbd.txt",
+  "caracteres": 18732
+ },
+ {
+  "id": "ara-01609002",
+  "h": "ed5494ad634862a5",
+  "titulo": "Ayudas directas al transporte, aprobadas por el Real Decreto-Ley 18/, de 29 de junio",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-01609002-3565f545.txt",
+  "caracteres": 744
+ },
+ {
   "id": "bdns-938414",
   "h": "e1502446f04179c9",
   "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación formnext Frankfurt del 26 de octubre de al 29 de octubre",
@@ -1953,6 +2097,15 @@
   "caracteres": 702
  },
  {
+  "id": "ara-apoyo-a-jovenes-informadores-en-centros-educativos-alaveses-",
+  "h": "f629f6c2816eb268",
+  "titulo": "Apoyo a jóvenes informadores/as en centros educativos alaveses de Enseñanzas Medias",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-apoyo-a-jovenes-informadores-en-centros-educativos-alave-470d0bbd.txt",
+  "caracteres": 18732
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-morrokotudak-c-weblan00-content-es",
   "h": "62e78b9990472217",
   "titulo": "Ayudas para financiar la formación y contratación de mujeres y hombres desempleados en ámbitos masculinizados y feminizados (morrokotudak)",
@@ -1960,6 +2113,15 @@
   "organismoFuente": "Lanbide - Servicio Público Vasco de Empleo",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-morrokotudak-c-weblan00-content-es-0f660e03.txt",
   "caracteres": 300000
+ },
+ {
+  "id": "ara-ayudas-y-subvenciones-a-la-elaboracion-del-planeamiento-urba",
+  "h": "cbd55ca08c1b0ffa",
+  "titulo": "Subvenciones dirigidas a la financiación de los honorarios de redacción de los instrumentos de planeamiento urbanístico y de los documentos",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-y-subvenciones-a-la-elaboracion-del-planeamiento--a43f0514.txt",
+  "caracteres": 408
  },
  {
   "id": "bdns-940347",
@@ -2383,6 +2545,843 @@
   "organismoFuente": "Gobernanza, Administración Digital y Autogobierno",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2025-ayuda-para-la-financiacion-de-la-a-95a4d3fb.txt",
   "caracteres": 274559
+ },
+ {
+  "id": "ara-ayudas-pac-del-sigc-pagos-directos-y-desarrollo-rural",
+  "h": "224bc8b4d73c230e",
+  "titulo": "Ayudas PAC del SIGC. Pagos directos y desarrollo rural - Campaña",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-pac-del-sigc-pagos-directos-y-desarrollo-rural-449f955b.txt",
+  "caracteres": 18705
+ },
+ {
+  "id": "ara-alava-innova-2025-empresas-y-autonomos",
+  "h": "40216947cb16d1dc",
+  "titulo": "Álava Innova - Empresas y Autónomos",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-alava-innova-2025-empresas-y-autonomos-f1e1e1b4.txt",
+  "caracteres": 18692
+ },
+ {
+  "id": "ara-alava-innova-2025-asociaciones",
+  "h": "c548c885fa2e4bd8",
+  "titulo": "Álava Innova - Asociaciones",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-alava-innova-2025-asociaciones-935d68d8.txt",
+  "caracteres": 18682
+ },
+ {
+  "id": "ara-convocatoria-de-subvenciones-para-desarrollar-iniciativas-cu",
+  "h": "37996107791d2024",
+  "titulo": "Subvenciones para desarrollar iniciativas culturales promovidas por ayuntamientos y cuadrillas y enclave de Treviño. Convocatoria",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-de-subvenciones-para-desarrollar-iniciativa-35738228.txt",
+  "caracteres": 18767
+ },
+ {
+  "id": "ara-interkoop-entidades-sin-animo-de-lucro-2025",
+  "h": "1cb5b35f5e261baa",
+  "titulo": "Ayudas Álava InterKOOP - Entidades sin ánimo de lucro",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-interkoop-entidades-sin-animo-de-lucro-2025-a87b8405.txt",
+  "caracteres": 509
+ },
+ {
+  "id": "ara-convocatoria-de-ayudas-a-la-creacion-audiovisual-2025",
+  "h": "7777ff16bece6039",
+  "titulo": "Ayudas a la creación audiovisual",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-a-la-creacion-audiovisual-2025-95009e07.txt",
+  "caracteres": 416
+ },
+ {
+  "id": "ara-innobideak-kudeabide-2025",
+  "h": "781b641fc3bffb97",
+  "titulo": "Ayudas para desarrollar proyectos de Gestión Avanzada - Innobideak-Kudeabide",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-innobideak-kudeabide-2025-cb9f0893.txt",
+  "caracteres": 434
+ },
+ {
+  "id": "ara-garantias-alquiler-vivienda-adhesion-personas-arrendadoras",
+  "h": "ccf7a8747efb768c",
+  "titulo": "Programa de garantías al alquiler de viviendas - adhesión arrendadores",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-garantias-alquiler-vivienda-adhesion-personas-arrendador-365c506c.txt",
+  "caracteres": 18710
+ },
+ {
+  "id": "ara-obras-menores",
+  "h": "a808ce9e58373a5f",
+  "titulo": "Ayudas para las entidades locales en el Programa de ejecución de obras menores",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-obras-menores-9e7ff236.txt",
+  "caracteres": 544
+ },
+ {
+  "id": "ara-relaciones-vecinales",
+  "h": "a65206b13c048a18",
+  "titulo": "Ayudas para las entidades locales en el Programa de iniciativas para el fomento de relaciones vecinales para la ejecución de obras",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-relaciones-vecinales-fd7c6e2a.txt",
+  "caracteres": 646
+ },
+ {
+  "id": "ara-garantias-alquiler-vivienda-adhesion-personas-arrendatarias",
+  "h": "5d711da8813b8888",
+  "titulo": "Programa de garantías al alquiler de viviendas - adhesión arrendatarios",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-garantias-alquiler-vivienda-adhesion-personas-arrendatar-294510e7.txt",
+  "caracteres": 278
+ },
+ {
+  "id": "ara-ayudas-zonas-limitaciones-naturales-o-especificas",
+  "h": "6b375b19e773ab1b",
+  "titulo": "Ayudas a zonas con limitaciones naturales u otras zonas con limitaciones específicas en el Territorio Histórico",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-zonas-limitaciones-naturales-o-especificas-aa75601b.txt",
+  "caracteres": 18701
+ },
+ {
+  "id": "ara-ayudas-adopcion-compromisos-medioambientales",
+  "h": "8d657361e2026e1a",
+  "titulo": "Ayudas por la adopción de compromisos medioambientales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-adopcion-compromisos-medioambientales-431a4d61.txt",
+  "caracteres": 18696
+ },
+ {
+  "id": "ara-ayudas-destinadas-a-incentivar-la-euskaldunizacion-de-person",
+  "h": "dc1ad907c730462b",
+  "titulo": "Subvención para incentivar la euskaldunización de personas adultas",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-destinadas-a-incentivar-la-euskaldunizacion-de-pe-a5a8b884.txt",
+  "caracteres": 18722
+ },
+ {
+  "id": "ara-convocatoria-subvenciones-medios-euskera",
+  "h": "507c13a7fdb04dc0",
+  "titulo": "Subvenciones destinadas a la consolidación, desarrollo y normalización de proyectos comunicativos locales o comarcales en euskera",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-subvenciones-medios-euskera-05498ba6.txt",
+  "caracteres": 18692
+ },
+ {
+  "id": "ara-emprender-en-alava",
+  "h": "afd49cbc00baf94d",
+  "titulo": "Emprender",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-emprender-en-alava-f023dd54.txt",
+  "caracteres": 541
+ },
+ {
+  "id": "ara-alava-innova-digitaliza-empresas-2026",
+  "h": "7d8f556094d896f1",
+  "titulo": "Álava Innova - Descarboniza _Empresas y Autónomos",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-alava-innova-digitaliza-empresas-2026-74bf274c.txt",
+  "caracteres": 419
+ },
+ {
+  "id": "ara-alava-innova-descarboniza-asociaciones-2026",
+  "h": "7666d4498ce85482",
+  "titulo": "Álava Innova - Descarboniza_ Asociaciones",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-alava-innova-descarboniza-asociaciones-2026-94fa74f2.txt",
+  "caracteres": 414
+ },
+ {
+  "id": "ara-convocatoria-de-subvenciones-para-desarrollar-iniciativas-cu",
+  "h": "37996107791d2024",
+  "titulo": "Subvenciones para desarrollar iniciativas culturales promovidas por ayuntamientos y cuadrillas y enclave de Treviño. Convocatoria",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-de-subvenciones-para-desarrollar-iniciativa-35738228.txt",
+  "caracteres": 18767
+ },
+ {
+  "id": "ara-subvenciones-desarrollo-programas-de-creacion-y-difusion-cul",
+  "h": "46384fd1e3da6326",
+  "titulo": "Subvenciones para el desarrollo de programas de creación y difusión cultural en el Territorio Histórico y enclave de Treviño. - Profesionales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-desarrollo-programas-de-creacion-y-difusion-29fb32a7.txt",
+  "caracteres": 505
+ },
+ {
+  "id": "ara-subvenciones-desarrollo-programas-de-creacion-y-difusion-cul",
+  "h": "46384fd1e3da6326",
+  "titulo": "Subvenciones para el desarrollo de programas de creación y difusión cultural en el Territorio Histórico y enclave de Treviño. - Asociaciones",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-desarrollo-programas-de-creacion-y-difusion-29fb32a7.txt",
+  "caracteres": 505
+ },
+ {
+  "id": "ara-solicitar-subvenciones-para-intervenciones-de-conservacion-y",
+  "h": "d9d0bb49b6bfb6fe",
+  "titulo": "Subvenciones para intervenciones de conservación y restauración del patrimonio cultural promovidas por entidades locales. elementos menores",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-solicitar-subvenciones-para-intervenciones-de-conservaci-a494eb16.txt",
+  "caracteres": 18745
+ },
+ {
+  "id": "ara-subvenciones-para-intervenciones-de-conservacion-y-o-restaur",
+  "h": "1e4816eca6642d4b",
+  "titulo": "Subvenciones para intervenciones de conservación y restauración del patrimonio cultural promovidas por entidades locales. ermitas",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-para-intervenciones-de-conservacion-y-o-res-ec5e6255.txt",
+  "caracteres": 18755
+ },
+ {
+  "id": "ara-solicitar-subvenciones-para-intervenciones-de-conservacion-y",
+  "h": "d9d0bb49b6bfb6fe",
+  "titulo": "Subvenciones para intervenciones de conservación y restauración del patrimonio cultural promovidas por entidades locales. edificios",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-solicitar-subvenciones-para-intervenciones-de-conservaci-a494eb16.txt",
+  "caracteres": 18745
+ },
+ {
+  "id": "ara-solicitar-subvenciones-para-intervenciones-de-conservacion-r",
+  "h": "ec29fe2fa784f8ab",
+  "titulo": "Subvenciones para intervenciones de conservación y/o restauración del patrimonio cultural inmueble promovidas por particulares en el Territorio",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-solicitar-subvenciones-para-intervenciones-de-conservaci-b5115986.txt",
+  "caracteres": 796
+ },
+ {
+  "id": "ara-subvenciones-para-intervenciones-de-conservacion-y-o-restaur",
+  "h": "1e4816eca6642d4b",
+  "titulo": "Subvenciones para intervenciones de conservación y restauración del patrimonio cultural promovidas por entidades locales. bienes histórico-artísticos",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-para-intervenciones-de-conservacion-y-o-res-ec5e6255.txt",
+  "caracteres": 18755
+ },
+ {
+  "id": "ara-ayuda-a-clubes-de-alto-nivel-2026",
+  "h": "87c51070615cc1aa",
+  "titulo": "Kirolaraba A1. Ayuda a Clubes de Alto Nivel. Convocatoria",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayuda-a-clubes-de-alto-nivel-2026-5fa97bd6.txt",
+  "caracteres": 18685
+ },
+ {
+  "id": "ara-convocatoria-subvenciones-para-el-desarrollo-del-deporte-ada",
+  "h": "9f73de89a004d5d0",
+  "titulo": "Subvenciones para el desarrollo del deporte adaptado y de la inclusión en el deporte. Convocatoria",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-subvenciones-para-el-desarrollo-del-deporte-e228a5f4.txt",
+  "caracteres": 19073
+ },
+ {
+  "id": "ara-subvencion-para-desarrollo-de-proyectos-de-jovenes-2026",
+  "h": "7dacdc4a805ecab8",
+  "titulo": "Subvención para desarrollo de proyectos de jóvenes",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvencion-para-desarrollo-de-proyectos-de-jovenes-2026-9ba4a008.txt",
+  "caracteres": 18707
+ },
+ {
+  "id": "ara-subvenciones-adquisicion-herramientas-para-veredas-2026",
+  "h": "fb526cfafb92b0c5",
+  "titulo": "Ayudas para financiar la adquisición de herramientas y equipos de protección individual",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-adquisicion-herramientas-para-veredas-2026-923be536.txt",
+  "caracteres": 18707
+ },
+ {
+  "id": "ara-subvenciones-dirigidas-a-asociaciones-y-entidades-sin-animo-",
+  "h": "347af5c3c2fc96be",
+  "titulo": "Subvenciones dirigidas a asociaciones y entidades sin ánimo de lucro para el desarrollo de proyectos y/o actividades destinadas",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-dirigidas-a-asociaciones-y-entidades-sin-an-01739b2f.txt",
+  "caracteres": 18836
+ },
+ {
+  "id": "ara-subvenciones-para-multiservicios-2026",
+  "h": "7b1fc05977f028ec",
+  "titulo": "Multiservicios rurales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-para-multiservicios-2026-7bcca9ee.txt",
+  "caracteres": 18689
+ },
+ {
+  "id": "ara-convocatoria-ayudas-dirigidas-a-inventariar-y-registrar-los-",
+  "h": "3b982df5a6c408dc",
+  "titulo": "Ayudas dirigidas a inventariar y registrar los bienes de las Entidades Locales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-ayudas-dirigidas-a-inventariar-y-registrar--9386d90f.txt",
+  "caracteres": 19143
+ },
+ {
+  "id": "ara-ayudas-para-la-organizacion-de-ferias-agricolas-y-ganaderas",
+  "h": "cdab082c2a2be317",
+  "titulo": "Ayudas para la organización de ferias agrícolas y ganaderas (Entidades Locales)",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-para-la-organizacion-de-ferias-agricolas-y-ganade-82c717c0.txt",
+  "caracteres": 18711
+ },
+ {
+  "id": "ara-ayudas-transporte-intermunicipal-municipios-menores-20000-ha",
+  "h": "02766343be3b17e5",
+  "titulo": "Subvenciones destinadas a financiar el transporte intramunicipal y dirigidas a municipios del THA menores de 20.000 habitantes. Convocatoria",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-transporte-intermunicipal-municipios-menores-2000-ebb16392.txt",
+  "caracteres": 18725
+ },
+ {
+  "id": "ara-ayudas-gestion-recursos-hidricos",
+  "h": "1c48bdca50634366",
+  "titulo": "Ayudas a la gestión de los recursos hídricos",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-gestion-recursos-hidricos-11bf3fed.txt",
+  "caracteres": 18684
+ },
+ {
+  "id": "ara-ayudas-para-el-fomento-de-la-fruticultura-en-el-territorio-h",
+  "h": "66cc8d32c507a776",
+  "titulo": "Ayudas para el fomento de la fruticultura en el Territorio Histórico (Asesoramiento)",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-para-el-fomento-de-la-fruticultura-en-el-territor-c6faf330.txt",
+  "caracteres": 18748
+ },
+ {
+  "id": "ara-ayudas-para-la-organizacion-de-ferias-agricolas-y-ganaderas-",
+  "h": "b455c4d7fa89bfd8",
+  "titulo": "Ayudas para la organización de ferias agrícolas y ganaderas",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-para-la-organizacion-de-ferias-agricolas-y-ganade-5816b22f.txt",
+  "caracteres": 18716
+ },
+ {
+  "id": "ara-ayudas-inversiones-explotaciones-agrarias-2026",
+  "h": "ac4ced4fe61cf643",
+  "titulo": "Ayudas a las inversiones en explotaciones agrarias",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-inversiones-explotaciones-agrarias-2026-7127bfed.txt",
+  "caracteres": 18698
+ },
+ {
+  "id": "ara-ayudas-turismo-actividad-ayuntamientos-2026",
+  "h": "2fe91a149c62e328",
+  "titulo": "Ayudas gastos de actividad turística en Ayuntamientos",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-turismo-actividad-ayuntamientos-2026-81b4af38.txt",
+  "caracteres": 18695
+ },
+ {
+  "id": "ara-01093001-ayudas-caminos-rurales-2026",
+  "h": "fbf40a0b4545322f",
+  "titulo": "Ayudas destinadas al acondicionamiento de caminos rurales y otras inversiones de interés para el fomento de las actividades agrarias. Anualidad",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-01093001-ayudas-caminos-rurales-2026-0be040ce.txt",
+  "caracteres": 18688
+ },
+ {
+  "id": "ara-subvenciones-para-la-financiacion-de-acciones-conducentes-a-",
+  "h": "43e34c6c62231d6a",
+  "titulo": "Subvenciones para la financiación de acciones conducentes a la rehabilitación de vivienda en Entidades Locales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-para-la-financiacion-de-acciones-conducente-36e7edb7.txt",
+  "caracteres": 18741
+ },
+ {
+  "id": "ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-format",
+  "h": "8bb8ac27cea88665",
+  "titulo": "Ayudas a la inversión en equipamiento formativo",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-fo-e97a71e8.txt",
+  "caracteres": 19069
+ },
+ {
+  "id": "ara-ayudas-formacion-empleo-cursos-entidades-sin-animo-de-lucro-",
+  "h": "3863d4e8fe772da4",
+  "titulo": "Ayudas a la formación para el empleo - Cursos - Entidades sin ánimo de lucro",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-formacion-empleo-cursos-entidades-sin-animo-de-lu-4502a35c.txt",
+  "caracteres": 18716
+ },
+ {
+  "id": "ara-ayudas-a-la-formacion-para-el-empleo-jornadas-entidades-sin-",
+  "h": "e5113d157624643d",
+  "titulo": "Ayudas a la formación para el empleo - Jornadas - Entidades sin ánimo de lucro",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-a-la-formacion-para-el-empleo-jornadas-entidades--b08476e7.txt",
+  "caracteres": 18731
+ },
+ {
+  "id": "ara-ayudas-formacion-empleo-cuadrillas-2026",
+  "h": "d77dd2c78473c628",
+  "titulo": "Ayudas a la formación para el empleo - Cuadrillas",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-formacion-empleo-cuadrillas-2026-67333b7f.txt",
+  "caracteres": 18691
+ },
+ {
+  "id": "ara-ayudas-formacion-atencion-sociosanitaria-2026",
+  "h": "9a6ef68fb9fa2702",
+  "titulo": "Ayudas a la formación para el empleo - Atención Sociosanitaria",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-formacion-atencion-sociosanitaria-2026-8739063c.txt",
+  "caracteres": 18697
+ },
+ {
+  "id": "ara-becas-de-investigacion-fuentes-documentales-de-alava-2026",
+  "h": "983ece4073b10989",
+  "titulo": "Becas de investigación “Fuentes Documentales”",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-becas-de-investigacion-fuentes-documentales-de-alava-202-5bdecb5e.txt",
+  "caracteres": 18709
+ },
+ {
+  "id": "ara-ayudas-deportistas-promesa-2026",
+  "h": "e635da6ecb15bed4",
+  "titulo": "Kirolaraba A3. Ayudas a deportistas promesa",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-deportistas-promesa-2026-9f8b0087.txt",
+  "caracteres": 18683
+ },
+ {
+  "id": "ara-subvenciones-adquisicion-viviendas-entidades-locales-2026",
+  "h": "a2c85712b1684b15",
+  "titulo": "Subvenciones a entidades locales - adquisición vivienda",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-adquisicion-viviendas-entidades-locales-202-fe3f8cd5.txt",
+  "caracteres": 18709
+ },
+ {
+  "id": "ara-subvenciones-rehabilitacion-viviendas-para-emancipacion-juve",
+  "h": "f8ffdea6718f3af4",
+  "titulo": "Subvenciones a entidades locales - rehabilitación de viviendas y/o alojamientos dotacionales para emancipación juvenil",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-rehabilitacion-viviendas-para-emancipacion--f11479c4.txt",
+  "caracteres": 18720
+ },
+ {
+  "id": "ara-subvenciones-rehabilitacion-de-vivienda-entidades-locales-20",
+  "h": "bfc7a348dec1866e",
+  "titulo": "Subvenciones a entidades locales - rehabilitación de vivienda",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-rehabilitacion-de-vivienda-entidades-locale-3554e85c.txt",
+  "caracteres": 18714
+ },
+ {
+  "id": "ara-ayudas-establecimiento-personas-jovenes-agricultoras-2026",
+  "h": "3c142a7fc4b5d4fc",
+  "titulo": "Ayudas destinadas al establecimiento de personas jóvenes agricultoras en el THA",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-establecimiento-personas-jovenes-agricultoras-202-f1cae940.txt",
+  "caracteres": 18709
+ },
+ {
+  "id": "ara-ayudas-apoyo-deporte-femenino-2026",
+  "h": "56919b6ad0570dd8",
+  "titulo": "Subvenciones para el fomento del deporte femenino. Convocatoria",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-apoyo-deporte-femenino-2026-bf5a6668.txt",
+  "caracteres": 18686
+ },
+ {
+  "id": "ara-convocatoria-de-subvenciones-para-la-realizacion-de-activida",
+  "h": "081901ba74da3b8e",
+  "titulo": "Subvenciones para la realización de actividades deportivas de carácter recreativo a través de entidades sin ánimo de lucro y agrupaciones",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-de-subvenciones-para-la-realizacion-de-acti-01b72d89.txt",
+  "caracteres": 19137
+ },
+ {
+  "id": "ara-ayudas-a-las-federaciones-deportivas-alavesas-2026",
+  "h": "64bddc2d82fbe15c",
+  "titulo": "Ayudas a las federaciones deportivas alavesas. Convocatoria",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-a-las-federaciones-deportivas-alavesas-2026-e3e21b64.txt",
+  "caracteres": 18702
+ },
+ {
+  "id": "ara-ayuda-para-el-fomento-de-la-conservacion-y-el-mantenimiento-",
+  "h": "317d777647990ba2",
+  "titulo": "Ayuda para el fomento de la conservación y el mantenimiento de los viñedos históricos y remarcables",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayuda-para-el-fomento-de-la-conservacion-y-el-mantenimie-7ad0c294.txt",
+  "caracteres": 18743
+ },
+ {
+  "id": "ara-programa-innobideak-kudeabide-2026",
+  "h": "09e0011cd4ff7eb3",
+  "titulo": "Ayudas para desarrollar proyectos de Gestión Avanzada - Innobideak-Kudeabide",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-programa-innobideak-kudeabide-2026-bd395d1f.txt",
+  "caracteres": 18686
+ },
+ {
+  "id": "ara-convocatoria-de-ayudas-a-la-creacion-audiovisual-2026",
+  "h": "bff5eb0c91b03e9e",
+  "titulo": "Ayudas a la creación audiovisual",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-a-la-creacion-audiovisual-2026-7e0f9750.txt",
+  "caracteres": 19039
+ },
+ {
+  "id": "ara-ayuda-cosecha-en-verde-2026",
+  "h": "464bd03cef4af3a4",
+  "titulo": "Ayudas para la cosecha en verde. Convocatoria",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayuda-cosecha-en-verde-2026-e05112bd.txt",
+  "caracteres": 18679
+ },
+ {
+  "id": "ara-ayuda-lucha-contra-polilla-vinedo-2026",
+  "h": "45b25050356a8d2b",
+  "titulo": "Ayuda para el fomento de proyectos de desarrollo de la estrategia de lucha contra la polilla del racimo (Lobesia Botrana) mediante la aplicación",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayuda-lucha-contra-polilla-vinedo-2026-cd74dbf4.txt",
+  "caracteres": 18690
+ },
+ {
+  "id": "ara-subvencion-rehabilitacion-viviendas-2026",
+  "h": "0252c7ff2933dcbd",
+  "titulo": "Subvenciones para la financiación de acciones conducentes a la rehabilitación de vivienda para su inclusión posterior en el programa",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvencion-rehabilitacion-viviendas-2026-1e5ee2d1.txt",
+  "caracteres": 18692
+ },
+ {
+  "id": "ara-subvenciones-para-el-desarrollo-de-programas-de-socializacio",
+  "h": "a395703d31661b41",
+  "titulo": "Subvenciones a asociaciones para programas de socialización a través del euskera",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-para-el-desarrollo-de-programas-de-socializ-f3678703.txt",
+  "caracteres": 18772
+ },
+ {
+  "id": "ara-ayudas-a-proyectos-contra-la-soledad-no-deseada-2026",
+  "h": "f572f9614d146feb",
+  "titulo": "Ayudas a proyectos contra la soledad no deseada",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-a-proyectos-contra-la-soledad-no-deseada-2026-cb45cf4a.txt",
+  "caracteres": 18704
+ },
+ {
+  "id": "ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-y-p",
+  "h": "a1e022fe7df88b56",
+  "titulo": "Ayudas para intervenciones arqueológicas y paleontológicas realizadas como consecuencia de obras",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-ccb1fba5.txt",
+  "caracteres": 19135
+ },
+ {
+  "id": "ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-y-p",
+  "h": "a1e022fe7df88b56",
+  "titulo": "Ayudas para intervenciones arqueológicas y paleontológicas realizadas como consecuencia de obras",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-ccb1fba5.txt",
+  "caracteres": 19135
+ },
+ {
+  "id": "ara-subvenciones-estudiantes-de-bachillerato-ciclos-formativos-d",
+  "h": "ec550a68689ab220",
+  "titulo": "Subvenciones a jóvenes estudiantes de bachillerato, ciclos formativos de grado medio o superior",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-estudiantes-de-bachillerato-ciclos-formativ-980e2805.txt",
+  "caracteres": 18741
+ },
+ {
+  "id": "ara-interkoop-empresas-2026",
+  "h": "682918218ea8a1e6",
+  "titulo": "Ayudas Álava Interkoop - Empresas",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-interkoop-empresas-2026-e03ded7b.txt",
+  "caracteres": 18675
+ },
+ {
+  "id": "ara-interkoop-entidades-sin-animo-de-lucro-2026",
+  "h": "8e54bf69ac98033f",
+  "titulo": "Ayudas Álava Interkoop - Entidades sin ánimo de lucro",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-interkoop-entidades-sin-animo-de-lucro-2026-3d2c442d.txt",
+  "caracteres": 18695
+ },
+ {
+  "id": "ara-ayudas-directas-para-el-transporte-terrestre-por-carretera-p",
+  "h": "933f1789afe35c06",
+  "titulo": "Ayudas directas al transporte, aprobadas por el Real Decreto-Ley 7/, de 20 de marzo",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-directas-para-el-transporte-terrestre-por-carrete-0c27891e.txt",
+  "caracteres": 18750
+ },
+ {
+  "id": "ara-subvenciones-participacion-actividades-deporte-escolar-2026",
+  "h": "fd02a647fa8dee39",
+  "titulo": "Subvenciones por la participación en las actividades contenidas en el Programa de Deporte Escolar",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-participacion-actividades-deporte-escolar-2-20465e09.txt",
+  "caracteres": 18711
+ },
+ {
+  "id": "ara-convocatoria-subvenciones-medios-euskera-2026",
+  "h": "72852af388edeb80",
+  "titulo": "Subvenciones destinadas a la consolidación, desarrollo y normalización de proyectos comunicativos locales o comarcales en euskera",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-subvenciones-medios-euskera-2026-d1d2eb59.txt",
+  "caracteres": 19023
+ },
+ {
+  "id": "ara-subvenciones-realizacion-actividades-de-formacion-tecnica-de",
+  "h": "5e238c6291d62258",
+  "titulo": "Subvenciones para la realización de actividades de formación técnica deportiva",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-realizacion-actividades-de-formacion-tecnic-b042dd41.txt",
+  "caracteres": 18724
+ },
+ {
+  "id": "ara-ayudas-transporte-a-piscinas-ampas-2026",
+  "h": "f4f084a194a79e11",
+  "titulo": "Subvenciones de transporte de alumnado a piscinas",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-transporte-a-piscinas-ampas-2026-1e0b04c1.txt",
+  "caracteres": 18691
+ },
+ {
+  "id": "ara-convocatoria-de-subvenciones-para-el-desarrollo-de-programas",
+  "h": "4aaac89ad61f35f6",
+  "titulo": "Subvenciones dirigidas a asociaciones y entidades sin ánimo de lucro para el desarrollo de actividades destinadas a la consecución",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-de-subvenciones-para-el-desarrollo-de-progr-3fd8afe2.txt",
+  "caracteres": 19309
+ },
+ {
+  "id": "ara-acciones-anuales-de-cooperacion-de-caracter-puntual-en-paise",
+  "h": "5a7b499477b4c6d8",
+  "titulo": "Subvenciones dirigidas a asociaciones y entidades sin ánimo de lucro para la financiación de acciones anuales de cooperación, de carácter",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-acciones-anuales-de-cooperacion-de-caracter-puntual-en-p-e38ba256.txt",
+  "caracteres": 18740
+ },
+ {
+  "id": "ara-desarrollo-de-proyectos-de-educacion-para-la-transformacion-",
+  "h": "8764b08be7e65ffd",
+  "titulo": "Subvenciones dirigidas a asociaciones y entidades sin ánimo de lucro para el desarrollo de proyectos de Educación para la Transformación Social",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-desarrollo-de-proyectos-de-educacion-para-la-transformac-7ad60109.txt",
+  "caracteres": 18723
+ },
+ {
+  "id": "ara-subvenciones-espacios-culturales-independientes-que-apoyen-c",
+  "h": "ef7bcfb3fb5bcc5e",
+  "titulo": "Subvenciones a espacios culturales independientes",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-espacios-culturales-independientes-que-apoy-ea94ef7c.txt",
+  "caracteres": 18755
+ },
+ {
+  "id": "ara-ayudas-formativas-artes-escenicas-musicales-2026",
+  "h": "5812ee5853a65051",
+  "titulo": "Ayudas para realizar acciones formativas en artes escénicas, musicales, plásticas y visuales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-formativas-artes-escenicas-musicales-2026-2ab2543a.txt",
+  "caracteres": 18700
+ },
+ {
+  "id": "ara-convocatoria-de-ayudas-a-deportistas-de-alto-nivel-2026",
+  "h": "7ee2db887ef618bc",
+  "titulo": "Kirolaraba A2. Ayudas a deportistas de alto nivel",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-a-deportistas-de-alto-nivel-2026-5cbdd738.txt",
+  "caracteres": 19043
+ },
+ {
+  "id": "ara-ap-1-peaje-social",
+  "h": "85dd85232f8d1022",
+  "titulo": "AP-1 Peaje Social",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ap-1-peaje-social-9137d057.txt",
+  "caracteres": 18669
+ },
+ {
+  "id": "ara-pagos-servicios-ambientales-2026",
+  "h": "7bf03eafd2de01d6",
+  "titulo": "Pagos por Servicios Ambientales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-pagos-servicios-ambientales-2026-cb59a797.txt",
+  "caracteres": 18684
+ },
+ {
+  "id": "ara-subvenciones-para-el-desarrollo-de-programas-de-socializacio",
+  "h": "a395703d31661b41",
+  "titulo": "Subvenciones para programas de socialización a través del euskera promovidos por ayuntamientos y cuadrillas en el Territorio Histórico y enclave",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-para-el-desarrollo-de-programas-de-socializ-f3678703.txt",
+  "caracteres": 18772
+ },
+ {
+  "id": "ara-ayudas-gastos-aulas-desplazadas-curso-2025-2026",
+  "h": "62f188a60e4147f6",
+  "titulo": "Subvenciones en régimen de concurrencia competitiva destinadas a financiar los gastos de las aulas desplazadas en el Territorio Histórico",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-gastos-aulas-desplazadas-curso-2025-2026-660acced.txt",
+  "caracteres": 18702
+ },
+ {
+  "id": "ara-01484",
+  "h": "a08e465b590d88d9",
+  "titulo": "Peaje Social AP-68",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-01484-c398074a.txt",
+  "caracteres": 18657
+ },
+ {
+  "id": "ara-ayudas-extraordinarias-y-temporales-para-el-transporte-por-c",
+  "h": "b42f9e8dfe0a84c6",
+  "titulo": "Ayudas extraordinarias y temporales para el transporte por carretera previstas en los artículos 55 y 58 del Real Decreto-ley 7/",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-extraordinarias-y-temporales-para-el-transporte-p-444e21a1.txt",
+  "caracteres": 18720
+ },
+ {
+  "id": "ara-ayuda-para-sufragar-el-precio-del-gasoleo-consumido-por-prod",
+  "h": "6cc27d340d47180a",
+  "titulo": "Ayuda para sufragar el precio del gasóleo consumido por productores agrarios prevista en el artículo 46 del Real Decreto-ley 7/",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayuda-para-sufragar-el-precio-del-gasoleo-consumido-por--2333bda0.txt",
+  "caracteres": 18728
+ },
+ {
+  "id": "ara-01362003",
+  "h": "14bedfbef9969653",
+  "titulo": "Ayuda para el fomento y puesta en valor del terroir rioja alavesa. fomento del terroir a traves de la viticultura",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-01362003-2cf30e1e.txt",
+  "caracteres": 18660
+ },
+ {
+  "id": "ara-01146002",
+  "h": "2d7d56fb41c1c2b4",
+  "titulo": "Convocatoria para campamentos, colonias, marchas volantes y campos de trabajo",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-01146002-e00ddf13.txt",
+  "caracteres": 18660
+ },
+ {
+  "id": "ara-01362004",
+  "h": "945578668a507dbf",
+  "titulo": "Ayuda para el fomento y puesta en valor del terroir rioja alavesa. fomento del terroir A traves de la viticultura. . medidas 1,3 y 4",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-01362004-80cfa256.txt",
+  "caracteres": 18660
+ },
+ {
+  "id": "ara-01112003",
+  "h": "ce40a26c78ee7327",
+  "titulo": "Ayuda destinada a la contratación de seguros agrarios en viñedo",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-01112003-ae3494d9.txt",
+  "caracteres": 18660
+ },
+ {
+  "id": "ara-01621001",
+  "h": "fdc3bf3c5fc65a84",
+  "titulo": "Subvenciones para la ejecución de proyectos de cooperación al desarrollo",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-01621001-6842068e.txt",
+  "caracteres": 18660
+ },
+ {
+  "id": "ara-ays-monte-plafor",
+  "h": "05518cf7bf98fa39",
+  "titulo": "Ayudas forestales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ays-monte-plafor-615f0fe0.txt",
+  "caracteres": 18668
  },
  {
   "id": "bdns-942099",
@@ -3951,15 +4950,6 @@
   "caracteres": 6456
  },
  {
-  "id": "botha-2026-121-02923-c-pdf",
-  "h": "ce0b07ede07176e5",
-  "titulo": "Decreto Foral 33/, de 29 de septiembre, del Consejo de Gobierno Foral",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/botha-2026-121-02923-c-pdf-d4c191c7.txt",
-  "caracteres": 23842
- },
- {
   "id": "botha-2026-121-02914-c-pdf",
   "h": "72918f70fd7ef39d",
   "titulo": "Ayudas para la celebración de fiestas y festejos",
@@ -3996,15 +4986,6 @@
   "caracteres": 17113
  },
  {
-  "id": "botha-2026-118-02938-c-pdf",
-  "h": "07989de483326366",
-  "titulo": "Acuerdo 658/, de 13 de octubre, del Consejo de Gobierno Foral",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/botha-2026-118-02938-c-pdf-3356626b.txt",
-  "caracteres": 99965
- },
- {
   "id": "botha-2026-113-02776-c-pdf",
   "h": "b2106b6da556ae6d",
   "titulo": "Aprobación de las bases reguladoras y convocatoria para la concesión de subvenciones en materia de cultura",
@@ -4012,15 +4993,6 @@
   "organismoFuente": "Ayuntamiento de Alegría-Dulantzi",
   "archivo": "cache/fuentes/botha-2026-113-02776-c-pdf-b529229f.txt",
   "caracteres": 36508
- },
- {
-  "id": "botha-2026-113-02802-c-pdf",
-  "h": "c3b3998c7eacb1d7",
-  "titulo": "Acuerdo 616/, de 29 de septiembre, del Consejo de Gobierno Foral",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/botha-2026-113-02802-c-pdf-fa232494.txt",
-  "caracteres": 67106
  },
  {
   "id": "botha-2026-113-02755-c-pdf",
