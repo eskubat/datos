@@ -54,8 +54,10 @@
   "fuente": "EVE",
   "quien": "Claude",
   "prioridad": 6,
-  "estado": "pendiente",
-  "seccion": "fuentes"
+  "estado": "hecha",
+  "seccion": "fuentes",
+  "fecha": "2026-11-16",
+  "nota": "Según la web del EVE (fichas y PDF «Programas ayudas EVE 2026») y el BOPV, hay 4 programas abiertos: eficiencia energética en la industria, Eguzki Hotz 2026 (BOPV 4/11/2026, hasta el 29/9/2028), auditorías energéticas en pymes y estudios y auditorías para la administración local (ambos con cierre anticipado al 31/12/2026). Ya teníamos los 4 (llegan por euskadi.eus), con las fechas bien, además de Gauzatu Energía; MOVES III-2025, el Eguzki Hotz 2025 y las ayudas a vehículos de 2025 están cerrados. No hace falta lector ni añadir nada: 0 ayudas nuevas esperadas."
  },
  {
   "id": "bizkaia-sede",
