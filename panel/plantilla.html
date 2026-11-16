@@ -414,7 +414,7 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 .dzh{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:6px} .dzh h3{margin:0}
 .lista-s{margin:0;padding-left:18px;line-height:1.6}
 .lflujo{max-width:1180px}
-.lgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.lgrid{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:1fr;gap:12px}
 .lcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;display:flex;flex-direction:column;gap:12px;cursor:pointer;transition:border-color .15s,box-shadow .15s}
 .lcard:hover{border-color:var(--accent);box-shadow:0 4px 18px rgba(20,33,28,.08)}
 .lcard.atn{border-color:var(--or)} .lcard{min-height:0}
@@ -717,15 +717,15 @@ function renderInicio(){
   const paraTiL=[...ab.map(d=>({t:d.titulo||"(sin título)",s:"Decidir",id:d._id})),...tu.map(x=>({t:x.titulo,s:"Fuera de la app"}))];
   const cM=card("m","mejora","Mejora continua","Correcciones y mejoras, cada hora",
     st(paraTiL.length,"para ti",paraTiL.length?"av":"")+st(cola.length+plan.length,"planificadas")+st(hechas,"hechas","ok"),
-    paraTi(paraTiL.map(x=>({t:x.t,s:x.s,id:x.id}))),
+    "",
     `Correcciones a en punto · mejoras a y 30`, paraTiL.length?"atn":"");
   // Eskubat
   const obj=new Date((P.objetivo||"2027-03-01")+"T00:00:00"), dias=Math.ceil((obj-hoy())/864e5), T=tareasP(), hp=T.filter(x=>estadoTP(x)==="hecha").length;
   const fase=(P.fases||[]).find(f=>f.estado==="en_curso")||{}, prox=T.filter(x=>estadoTP(x)!=="hecha");
   const cE=card("e",null,"Eskubat","La app: plan hasta publicar",
-    st(dias>0?num(dias):"0","días para el "+fmtFecha(P.objetivo))+st(esc(fase.nombre||"—"),"fase actual")+st(`${hp}/${T.length}`,"tareas hechas"),
+    st(dias>0?num(dias):"0","días para el "+fmtFecha(P.objetivo))+st(esc(fase.nombre||"—"),"fase actual")+st(`${hp}/${T.length}`,"tareas hechas")+(prox.some(x=>x.quien==="Tú")?st(prox.filter(x=>x.quien==="Tú").length,"para ti","av"):""),
     `<div class="pbar"><span style="width:${T.length?Math.round(hp*100/T.length):0}%"></span></div>
-     ${paraTi(prox.filter(x=>x.quien==="Tú").map(x=>({t:x.t,s:"Proyecto"})))}`,
+`,
     `Publicación en App Store y Google Play · ${esc(P.equipo||"")}`, prox.some(x=>x.quien==="Tú")?"atn":"");
   $("#detalle").innerHTML=`<div class="flujo lflujo"><div><h2>Eskubat</h2><p class="intro">Fuentes → Datos → Mejora continua → la app. Pulsa un bloque para abrirlo.</p></div>
     <div class="lgrid">${cF}${cD}${cM}${cE}</div></div>`;
