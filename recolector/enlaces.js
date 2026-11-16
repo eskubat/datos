@@ -119,7 +119,8 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
     const partes = [];
     const vistos = new Set();
     const add = (titulo, url, t) => { if (t && !vistos.has(url)) { vistos.add(url); partes.push(`### ${titulo}: ${url}\n${t}`); } };
-    const principal = a.url ? await obtener(a.url) : null;
+    // Ficha ya leída por el lector de la fuente (p. ej. la sede de Álava, que sin cookies solo da la plantilla)
+    const principal = a._ficha ? { texto: a._ficha, enlaces: [] } : a.url ? await obtener(a.url) : null;
     if (principal) add('Ficha oficial', a.url, principal.texto);
     const cola = [
       ...extra(a).map((u) => ({ url: u, texto: 'Documento de la convocatoria' })),

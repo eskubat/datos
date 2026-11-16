@@ -441,7 +441,7 @@ async function main() {
   // Documentos oficiales añadidos a mano o por la tarea de resumen (BOPV, BOTHA, BOB, BOG…): cache/docs_extra.json = {id: [url, …]}
   let docsExtra = {};
   try { docsExtra = JSON.parse(fs.readFileSync(path.join('cache', 'docs_extra.json'), 'utf8')); } catch {}
-  try { docs = await documentacion(ayudas, { log, extra: (a) => [...(docsExtra[a.id] || []), ...(a._docs || []).map(docUrl)] }); } catch (e) { log(`Documentación: ${e.message}`); }
+  try { docs = await documentacion(ayudas, { log, extra: (a) => [...(docsExtra[a.id] || []), ...(a._urls || []), ...(a._docs || []).map(docUrl)] }); } catch (e) { log(`Documentación: ${e.message}`); }
   const fuentes = {};
   const DIR_F = path.join('cache', 'fuentes');
   fs.mkdirSync(DIR_F, { recursive: true });
@@ -449,7 +449,7 @@ async function main() {
   for (const a of ayudas) {
     const t = [docs[a.id] || '', a._texto && !docs[a.id] ? '### Extracto de la fuente\n' + a._texto : ''].join('\n\n').trim();
     if (t) { fuentes[a.id] = t; fs.writeFileSync(path.join(DIR_F, nombreF(a.id)), t); }
-    delete a._texto; delete a._docs;
+    delete a._texto; delete a._docs; delete a._ficha; delete a._urls;
   }
   // Fuera los textos de ayudas que ya no existen
   const vivos = new Set(Object.keys(fuentes).map(nombreF));

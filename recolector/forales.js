@@ -1,5 +1,7 @@
 // Fuentes forales: sedes electrónicas de las Diputaciones de Gipuzkoa y Araba/Álava.
 // (La Diputación de Bizkaia publica sus convocatorias en la BDNS, que ya se recoge.)
+import fs from 'node:fs';
+import path from 'node:path';
 import { pedir, texto, entidades, frase, iso, enParalelo, temasDe, paraDeTexto, norm } from './comun.js';
 
 // ---------- Gipuzkoa ----------
@@ -120,6 +122,86 @@ export function datosSedeAraba(html) {
   return null;
 }
 
+// ---------- Ficha de cada trámite de la sede de Álava ----------
+// La página de la ficha es una plantilla ({{resultado.…}}) que se rellena en el navegador con los
+// datos del trámite. Se piden con las cookies del cortafuegos: primero el objeto «var data» del
+// HTML y, si no viene, el JSON del portlet «lector json». El JSON se pasa a texto (objeto, quién
+// puede pedirla, requisitos, cuantía, plazo…) y se apartan los enlaces a documentos (BOTHA, bases,
+// anexos) para que los descargue la documentación. Caché de 7 días en cache/araba_fichas.json.
+const CACHE_FA = path.join('cache', 'araba_fichas.json');
+const DIAS_FA = 7;
+const BASE_A = 'https://egoitza.araba.eus';
+const CLAVE_NO = /(^|_)(id|ids|cod\w*|friendly\w*|url\w*|href|icono?|imagen\w*|img|css|clase|class|orden|order|tipo[A-Z]?\w*Id|uuid|groupId|companyId|version)$/i;
+const DOC_SI = /\.pdf(\?|$)|botha|\/documents\/|bases|convocatoria|anexo|extracto|orden-?foral|decreto|normativa/i;
+const DOC_NO = /\{\{|%7B%7B|\.(jpe?g|png|gif|svg|ico|css|js)(\?|$)|\/(conoce-la-sede|preguntas-frecuentes|requisitos-tecnicos)/i;
+
+function absoluta(u) {
+  try { return new URL(entidades(String(u)).trim(), BASE_A + '/').href; } catch { return null; }
+}
+// Pasa el JSON de un trámite a texto legible y recoge sus enlaces a documentos
+export function fichaAraba(obj) {
+  const lineas = [], docs = [], vistas = new Set();
+  const doc = (u) => { const a = absoluta(u); if (a && /^https?:/.test(a) && DOC_SI.test(a) && !DOC_NO.test(a) && !docs.includes(a)) docs.push(a); };
+  const humano = (k) => String(k).replace(/([a-z])([A-Z])/g, '$1 $2').replace(/[_-]+/g, ' ').toLowerCase().trim();
+  const recorrer = (v, clave, prof) => {
+    if (v == null || prof > 12) return;
+    if (Array.isArray(v)) { for (const x of v) recorrer(x, clave, prof + 1); return; }
+    if (typeof v === 'object') { for (const [k, x] of Object.entries(v)) recorrer(x, k, prof + 1); return; }
+    if (typeof v !== 'string') return;
+    const s = v.trim();
+    if (!s) return;
+    for (const m of s.matchAll(/href\s*=\s*["']([^"']+)["']/gi)) doc(m[1]);
+    if (/^(https?:\/\/|\/documents\/|\/es\/|\/eu\/)/i.test(s) && !/\s/.test(s)) { doc(s); return; }
+    if (CLAVE_NO.test(clave || '') || /\{\{/.test(s)) return;
+    const t = texto(entidades(s)).replace(/\n{3,}/g, '\n\n').trim();
+    if (!t || t.length < 3 || /^[\d\s.,:/-]+$/.test(t) || /^(true|false|null|S|N)$/i.test(t)) return;
+    const k = t.toLowerCase();
+    if (vistas.has(k)) return;
+    vistas.add(k);
+    lineas.push(t.length < 120 && !t.includes('\n') ? `${humano(clave)}: ${t}` : `${humano(clave)}:\n${t}`);
+  };
+  recorrer(obj, '', 0);
+  return { texto: lineas.join('\n'), docs };
+}
+
+async function fichasSedeAraba(tramites, cab, guardar, log) {
+  let cache = {};
+  try { cache = JSON.parse(fs.readFileSync(CACHE_FA, 'utf8')); } catch {}
+  const limite = new Date(Date.now() - DIAS_FA * 864e5).toISOString().slice(0, 10);
+  const hoy = new Date().toISOString().slice(0, 10);
+  let nuevas = 0, fallos = 0;
+  await enParalelo(tramites, 2, async (f) => {
+    const c = cache[f.url];
+    if (c && c.fecha >= limite && c.texto) { f.ficha = c.texto; f.docs = c.docs || []; return; }
+    let obj = null;
+    try {
+      const r = await fetch(f.url, { headers: cab('text/html,application/xhtml+xml'), redirect: 'follow' });
+      guardar(r);
+      const d = datosSedeAraba(await r.text());
+      if (d) obj = d.resultado || d;
+    } catch {}
+    if (!obj) {
+      try {
+        const r = await fetch(`${f.url}?${PORTLET_A}`, { method: 'POST', headers: { ...cab('application/json, text/javascript, */*'), 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'X-Requested-With': 'XMLHttpRequest' }, body: '' });
+        guardar(r);
+        const d = JSON.parse(await r.text());
+        obj = d.resultado || d;
+      } catch {}
+    }
+    const fa = obj ? fichaAraba(obj) : null;
+    if (fa && fa.texto.length > 200) {
+      f.ficha = fa.texto; f.docs = fa.docs;
+      cache[f.url] = { fecha: hoy, texto: fa.texto.slice(0, 60000), docs: fa.docs.slice(0, 15) };
+      nuevas++;
+    } else fallos++;
+    await new Promise((ok) => setTimeout(ok, 500));
+  });
+  const vivas = new Set(tramites.map((f) => f.url));
+  for (const u of Object.keys(cache)) if (!vivas.has(u)) delete cache[u];
+  try { fs.mkdirSync('cache', { recursive: true }); fs.writeFileSync(CACHE_FA, JSON.stringify(cache)); } catch {}
+  log(`Araba/Álava (sede): ${tramites.filter((f) => f.ficha).length} fichas con contenido (${nuevas} nuevas, ${fallos} sin contenido)`);
+}
+
 async function sedeAraba(log) {
   const jar = {};
   const guardar = (r) => { for (const c of (r.headers.getSetCookie ? r.headers.getSetCookie() : [])) { const kv = c.split(';')[0]; const e = kv.indexOf('='); if (e > 0) jar[kv.slice(0, e).trim()] = kv.slice(e + 1); } };
@@ -148,10 +230,13 @@ async function sedeAraba(log) {
   // Como en la BDNS, fuera las nominativas y las de concesión directa: no se pueden pedir
   const pedibles = res.filter((x) => (!x.plazo || x.plazo.enPlazo !== 'N') && !/nominativ|concesi[oó]n directa/i.test(x.titulo || ''));
   log(`Araba/Álava (sede): ${res.length - pedibles.length} descartadas por nominativas o de concesión directa`);
-  return pedibles.map((x) => {
+  const tramites = pedibles.map((x) => {
     const plazo = texto(entidades((x.plazo && (x.plazo.descripcionPlazoAmpliada || x.plazo.descripcionPlazo)) || ''));
     return { url: SEDE_A + '/fitxa' + x.friendlyUrl, titulo: texto(x.titulo || ''), fin: fechaTexto(plazo), plazo, tema: x.nivel1Tema || '', finalidad: texto(entidades(x.finalidad || '')), cod: x.codProcedimiento };
   });
+  // Contenido de cada ficha (si falla, el trámite sigue entrando con lo del listado)
+  try { await fichasSedeAraba(tramites, cab, guardar, log); } catch (e) { log(`Araba/Álava (sede): no se pudieron leer las fichas (${e.message})`); }
+  return tramites;
 }
 
 export async function araba(log) {
@@ -176,7 +261,7 @@ export async function araba(log) {
   const clave = (u) => norm(decodeURIComponent(u.split('/fitxa/')[1] || u)).replace(/[^a-z0-9]+/g, '-');
   for (const f of sede) {
     const prev = out.find((x) => clave(x.url) === clave(f.url));
-    if (prev) Object.assign(prev, { tema: f.tema, finalidad: f.finalidad, plazo: prev.plazo || f.plazo, fin: prev.fin || f.fin });
+    if (prev) Object.assign(prev, { tema: f.tema, finalidad: f.finalidad, plazo: prev.plazo || f.plazo, fin: prev.fin || f.fin, ficha: f.ficha, docs: f.docs });
     else out.push(f);
   }
   return out.map((f) => ({
@@ -196,5 +281,9 @@ export async function araba(log) {
     temas: temasDe(f.titulo + ' ' + (f.tema || '') + ' ' + (f.finalidad || '')),
     url: f.url,
     fuentes: [{ nombre: 'Sede electrónica de Álava', url: f.url }],
+    // Texto y documentos de la ficha leídos con las cookies de la sede (la documentación los usa
+    // en lugar de descargar la plantilla vacía de la página)
+    ...(f.ficha ? { _ficha: f.ficha } : {}),
+    ...(f.docs && f.docs.length ? { _urls: f.docs } : {}),
   }));
 }

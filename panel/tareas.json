@@ -328,8 +328,9 @@
   "seccion": "fuentes",
   "quien": "Claude",
   "prioridad": 2,
-  "estado": "pendiente",
-  "fecha": "2026-11-16"
+  "estado": "hecha",
+  "fecha": "2026-11-16",
+  "nota": "El lector de la sede de Álava ahora pide la ficha de cada trámite con las cookies del cortafuegos (objeto «var data» del HTML o, si no viene, el JSON del portlet), la pasa a texto y aparta los enlaces a BOTHA, bases y anexos para que se descarguen; la documentación usa ese texto en lugar de la plantilla vacía, con caché de 7 días en cache/araba_fichas.json. La red de la sesión no llega a egoitza.araba.eus y no se pudo ver la página, así que la primera prueba real será el recolector de las 05:41 (el registro dirá cuántas fichas traen contenido); si sale 0, hay que mirar dónde carga la página los datos. Se espera que las ~75-106 ayudas ara-… de cache/pendientes.json puedan redactarse."
  },
  {
   "id": "bdns-nominativas-texto",
