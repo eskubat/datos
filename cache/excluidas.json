@@ -383,5 +383,15 @@
   "parecidaA": "ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-y-p-33821e",
   "motivo": "Misma convocatoria anual de la DFA (una sola orden foral, 50 % del coste de intervenciones arqueológicas o paleontológicas) partida en la sede en dos fichas: empresas y particulares; solo cambia el tipo de solicitante y la fuente (33821e trae el BOTHA de 2024, 1d9427 solo la sede).",
   "fecha": "2026-11-16"
+ },
+ "bdns-938576": {
+  "parecidaA": "bdns-938582",
+  "motivo": "Las dos son ayudas de ICEX para la participación agrupada en la feria Maison&Objet de París (14-18/01/2027) llegadas por la BDNS con títulos casi iguales; 938576 va por ANIEME (fabricantes de mueble, cierre 25/11, cuantía no publicada) y 938582 por ASEFMA (marroquinería, cierre 20/11).",
+  "fecha": "2026-11-16"
+ },
+ "bdns-938582": {
+  "parecidaA": "bdns-938576",
+  "motivo": "Las dos son ayudas de ICEX para la participación agrupada en la feria Maison&Objet de París (14-18/01/2027) llegadas por la BDNS con títulos casi iguales; 938576 va por ANIEME (fabricantes de mueble, cierre 25/11, cuantía no publicada) y 938582 por ASEFMA (marroquinería, cierre 20/11).",
+  "fecha": "2026-11-16"
  }
 }
