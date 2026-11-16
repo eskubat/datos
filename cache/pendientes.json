@@ -1,5 +1,68 @@
 [
  {
+  "id": "eus-ayuda-subvencion-2026-pi2026-f-weblan00-content-es",
+  "h": "7411bb4201f5b198",
+  "titulo": "Ayudas para el desarrollo de proyectos integrales de empleo, formación e inserción laboral",
+  "organismoSugerido": "lanbide",
+  "organismoFuente": "Lanbide - Servicio Público Vasco de Empleo",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-pi2026-f-weblan00-content-es-4e699d49.txt",
+  "caracteres": 9418
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-ojm2026",
+  "h": "c6574fafcc9dc09b",
+  "titulo": "Ayudas destinadas a los ayuntamientos de la Comunidad Autónoma del País Vasco para los gastos de funcionamiento de las Oficinas de Justicia",
+  "organismoSugerido": "gv-justicia",
+  "organismoFuente": "Justicia y Derechos Humanos",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-ojm2026-d5e220da.txt",
+  "caracteres": 6153
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-2026-patrimonio-natural-ayudas-a-entidades-locales",
+  "h": "ef3bd66d65b555f0",
+  "titulo": "Patrimonio Natural - Ayudas a entidades locales",
+  "organismoSugerido": "gv-industria",
+  "organismoFuente": "Industria, Transición Energética y Sostenibilidad",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-2026-patrimonio-natural-ayudas-a-e-8edb1451.txt",
+  "caracteres": 3788
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-ikermugikortasuna-2027",
+  "h": "c7da871a4ff94a40",
+  "titulo": "Programa de movilidad del personal investigador doctor",
+  "organismoSugerido": "gv-ciencia",
+  "organismoFuente": "Ciencia, Universidades e Innovación",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-ikermugikortasuna-2027-5f01f0d7.txt",
+  "caracteres": 8319
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-partz-weblan00-content-es",
+  "h": "df36107393cc7084",
+  "titulo": "Subvenciones destinadas a incentivar la conversión de contratos indefinidos a tiempo parcial en contratos indefinidos a tiempo completo",
+  "organismoSugerido": "lanbide",
+  "organismoFuente": "Lanbide - Servicio Público Vasco de Empleo",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-partz-weblan00-content-es-90157b89.txt",
+  "caracteres": 9166
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-ayudas-emantzipa-de-emancipacion-juvenil-2026",
+  "h": "7d3b39cdc3bcfd96",
+  "titulo": "Ayudas Emantzipa de emancipación juvenil",
+  "organismoSugerido": "gv-bienestar",
+  "organismoFuente": "Bienestar, Juventud y Reto Demográfico",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-ayudas-emantzipa-de-emancipacion-j-dc855245.txt",
+  "caracteres": 6371
+ },
+ {
+  "id": "bdns-934169",
+  "h": "3a81c1e6f478d9d2",
+  "titulo": "Ayudas para la reducción de la parcialidad no deseada",
+  "organismoSugerido": "lanbide",
+  "organismoFuente": "Lanbide-servicio vasco de empleo",
+  "archivo": "cache/fuentes/bdns-934169-0d51df34.txt",
+  "caracteres": 37858
+ },
+ {
   "id": "extra-onati-contratacion-desempleados-2026",
   "h": "1bba4bd550c96d1b",
   "titulo": "Subvenciones para la contratación de personas desempleadas",
@@ -118,12 +181,12 @@
  },
  {
   "id": "eus-ayuda-subvencion-2026-ayuda-victimas-violencia-sexual",
-  "h": "8363e3fa5e93650a",
+  "h": "7c35b3fd9f9ea363",
   "titulo": "Ayuda económica a las mujeres víctimas de violencia sexual",
   "organismoSugerido": "gv-bienestar",
   "organismoFuente": "Bienestar, Juventud y Reto Demográfico",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-ayuda-victimas-violencia-sexual-cbd8ce7a.txt",
-  "caracteres": 161890
+  "caracteres": 6750
  },
  {
   "id": "eus-ayuda-subvencion-2026-ah-pre-2026-webela01-hasiera-es",
@@ -145,12 +208,12 @@
  },
  {
   "id": "eus-ayuda-subvencion-2025-eve-programa-estudios-auditorias-sostenibilidad-energetica-administracion-local",
-  "h": "8938e5c7a0c2bf6d",
+  "h": "6b529b6901038e29",
   "titulo": "EVE - Programa de ayudas a la realización de estudios y auditorías para la mejora de la sostenibilidad energética de la administración pública",
   "organismoSugerido": "eve",
   "organismoFuente": "EVE - Ente Vasco de la Energía",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2025-eve-programa-estudios-auditorias-s-c61956fd.txt",
-  "caracteres": 193013
+  "caracteres": 4701
  },
  {
   "id": "eus-ayuda-subvencion-2026-bono-social-termico-2025",
@@ -163,12 +226,12 @@
  },
  {
   "id": "eus-servicios-1071707",
-  "h": "25748f409194a7cd",
+  "h": "ba9ffdba3508e52d",
   "titulo": "Fomento al alquiler: ayudas a la promoción de viviendas colaborativas tanto de protección pública como",
   "organismoSugerido": "gv-vivienda",
   "organismoFuente": "Vivienda y Agenda Urbana",
   "archivo": "cache/fuentes/eus-servicios-1071707-792e830f.txt",
-  "caracteres": 165396
+  "caracteres": 9170
  },
  {
   "id": "eus-ayuda-subvencion-2026-connecneb26tacocreateneb",
@@ -181,12 +244,12 @@
  },
  {
   "id": "eus-ayuda-subvencion-2026-deskcreativemediadeialdia",
-  "h": "9a027cd4f367585a",
+  "h": "2ab060d3d88fd0bc",
   "titulo": "Programa Europa Creativa",
   "organismoSugerido": "gv-lehendakaritza",
   "organismoFuente": "Lehendakaritza",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-deskcreativemediadeialdia-2e7ceb77.txt",
-  "caracteres": 228007
+  "caracteres": 703
  },
  {
   "id": "eus-ayuda-subvencion-comunicacion-previs-digitalizacion-2027",
@@ -1060,6 +1123,15 @@
   "organismoFuente": "Ayuntamiento de irun",
   "archivo": "cache/fuentes/bdns-940942-0d9d0c3c.txt",
   "caracteres": 126476
+ },
+ {
+  "id": "extra-amaltea-2nd-open-call",
+  "h": "16ccd89bfc317b10",
+  "titulo": "Amaltea 2nd Open Call - Call for SMEs & Start-ups: Innovative Solutions for Sustainable Construction",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/extra-amaltea-2nd-open-call-d469d47d.txt",
+  "caracteres": 447
  },
  {
   "id": "bdns-940373",
