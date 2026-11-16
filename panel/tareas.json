@@ -121,8 +121,10 @@
   "fuente": "Diputación Foral de Álava",
   "quien": "Tú",
   "prioridad": 2,
-  "estado": "pendiente",
-  "seccion": "fuentes"
+  "estado": "hecha",
+  "seccion": "fuentes",
+  "fecha": "2026-11-16",
+  "nota": "Hecho el 16/11: el responsable guardó la página de la sede y con ella se escribió el lector (tarea «Leer la guía de trámites completa de Álava»)."
  },
  {
   "id": "adjuntos-enlazados",
