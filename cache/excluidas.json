@@ -328,5 +328,35 @@
   "parecidaA": "botha-2026-131-03265-c-pdf",
   "motivo": "Trámite permanente de la sede para el peaje de la AP-68; el Decreto Foral 42/2026 (BOTHA 131) aprueba bases nuevas y convoca 2026.",
   "fecha": "2026-11-16"
+ },
+ "ue-horizon-eic-2026-prize-wip": {
+  "parecidaA": "ue-horizon-eit-2026-prize-wip-leadership",
+  "motivo": "Misma convocatoria de la UE (The European Prize for Women Innovators, 2027): tres categorías del mismo premio con las mismas bases y plazo (cierre 01/12/2026); cambia solo la categoría: Women Innovators (EIC), Rising Innovators (EIC, menores de 35) y Women Leadership (EIT, vínculo con la comunidad EIT).",
+  "fecha": "2026-11-16"
+ },
+ "ue-horizon-eit-2026-prize-wip-leadership": {
+  "parecidaA": "ue-horizon-eic-2026-prize-wip",
+  "motivo": "Misma convocatoria de la UE (The European Prize for Women Innovators, 2027): tres categorías del mismo premio con las mismas bases y plazo (cierre 01/12/2026); cambia solo la categoría: Women Innovators (EIC), Rising Innovators (EIC, menores de 35) y Women Leadership (EIT, vínculo con la comunidad EIT).",
+  "fecha": "2026-11-16"
+ },
+ "ue-horizon-eic-2026-prize-wip-risinginnovators": {
+  "parecidaA": "ue-horizon-eic-2026-prize-wip",
+  "motivo": "Misma convocatoria de la UE (The European Prize for Women Innovators, 2027): tres categorías del mismo premio con las mismas bases y plazo (cierre 01/12/2026); cambia solo la categoría: Women Innovators (EIC), Rising Innovators (EIC, menores de 35) y Women Leadership (EIT, vínculo con la comunidad EIT).",
+  "fecha": "2026-11-16"
+ },
+ "ue-crea-media-2027-tvonline-1": {
+  "parecidaA": "ue-crea-media-2027-tvonline-3",
+  "motivo": "Misma convocatoria Europa Creativa MEDIA «TV and online content» (cierre 10/02/2027), partida en tres topics con texto idéntico: animación (TVONLINE-1), documental (TVONLINE-2) y ficción (TVONLINE-3).",
+  "fecha": "2026-11-16"
+ },
+ "ue-crea-media-2027-tvonline-3": {
+  "parecidaA": "ue-crea-media-2027-tvonline-1",
+  "motivo": "Misma convocatoria Europa Creativa MEDIA «TV and online content» (cierre 10/02/2027), partida en tres topics con texto idéntico: animación (TVONLINE-1), documental (TVONLINE-2) y ficción (TVONLINE-3).",
+  "fecha": "2026-11-16"
+ },
+ "ue-crea-media-2027-tvonline-2": {
+  "parecidaA": "ue-crea-media-2027-tvonline-1",
+  "motivo": "Misma convocatoria Europa Creativa MEDIA «TV and online content» (cierre 10/02/2027), partida en tres topics con texto idéntico: animación (TVONLINE-1), documental (TVONLINE-2) y ficción (TVONLINE-3).",
+  "fecha": "2026-11-16"
  }
 }
