@@ -1341,15 +1341,6 @@
   "caracteres": 236584
  },
  {
-  "id": "eus-ayuda-subvencion-2023-bono-social-termico-2022",
-  "h": "c18d2e0cc3dcc54d",
-  "titulo": "Bono Social Térmico",
-  "organismoSugerido": "gv-bienestar",
-  "organismoFuente": "Bienestar, Juventud y Reto Demográfico",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2023-bono-social-termico-2022-688e5395.txt",
-  "caracteres": 300000
- },
- {
   "id": "eus-ayuda-subvencion-2024-reconocimiento-del-derecho-subjetivo-de-acceso-a-la-ocupacion-de-una-vivienda-o-alojamiento-dotacional",
   "h": "b4993f915d1dbf8d",
   "titulo": "Reconocimiento del derecho subjetivo de acceso a la ocupación de una vivienda o alojamiento dotacional",
@@ -1395,15 +1386,6 @@
   "caracteres": 300000
  },
  {
-  "id": "eus-ayuda-subvencion-2025-hezibi-centros-de-formacion-weblan00-content-es",
-  "h": "8316de1d4e5d0a51",
-  "titulo": "HEZIBI-Centros de formación. Programa HEZIBI de formación y trabajo en alternancia para jóvenes",
-  "organismoSugerido": "lanbide",
-  "organismoFuente": "Lanbide - Servicio Vasco de Empleo",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2025-hezibi-centros-de-formacion-weblan-a12ff62d.txt",
-  "caracteres": 300000
- },
- {
   "id": "eus-ayuda-subvencion-2025-hezibi-empresa-weblan00-content-es",
   "h": "57f69799f1256ec7",
   "titulo": "HEZIBI-Empresas. Programa HEZIBI de formación y trabajo en alternancia para jóvenes",
@@ -1420,24 +1402,6 @@
   "organismoFuente": "",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2021-programa-de-anticipos-reintegrable-7b7c5922.txt",
   "caracteres": 16085
- },
- {
-  "id": "eus-ayuda-subvencion-2021-eve-gauzatu-energia-2022-es",
-  "h": "b767252f1e861516",
-  "titulo": "EVE Gauzatu Energía - Programa de anticipos reintegrables destinados a inversiones en eficiencia energética y uso de energías renovables",
-  "organismoSugerido": "gv-industria",
-  "organismoFuente": "Industria",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2021-eve-gauzatu-energia-2022-es-fc4a6eac.txt",
-  "caracteres": 224612
- },
- {
-  "id": "eus-ayuda-subvencion-2024-hezibi-centros-de-formacion-weblan00-content-es",
-  "h": "57da6dfa1c744caa",
-  "titulo": "HEZIBI-Centros de formación. Programa HEZIBI de formación y trabajo en alternancia para jóvenes",
-  "organismoSugerido": "lanbide",
-  "organismoFuente": "Lanbide - Servicio Vasco de Empleo",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2024-hezibi-centros-de-formacion-weblan-df6dc935.txt",
-  "caracteres": 300000
  },
  {
   "id": "eus-ayuda-subvencion-2024-hezibi-empresa-weblan00-content-es",
@@ -1554,15 +1518,6 @@
   "organismoSugerido": "gv-vivienda",
   "organismoFuente": "Vivienda y Agenda Urbana",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-programa-de-ayudas-alokaplus-37169877.txt",
-  "caracteres": 300000
- },
- {
-  "id": "eus-ayuda-subvencion-2024-ayuda-economica-para-hijas-e-hijos-huerfanas-de-victimas-mortales-de-violencia-machista-contra-las-mujeres",
-  "h": "2df53c12e8631a5e",
-  "titulo": "Ayuda económica para hijas e hijos huérfanas de víctimas mortales de violencia machista contra las mujeres",
-  "organismoSugerido": "gv-bienestar",
-  "organismoFuente": "Bienestar, Juventud y Reto Demográfico",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2024-ayuda-economica-para-hijas-e-hijos-e676b215.txt",
   "caracteres": 300000
  },
  {

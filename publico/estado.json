@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generado": "2026-11-16T04:20:31.598Z",
-  "total": 622,
+  "generado": "2026-11-16T04:51:50.565Z",
+  "total": 606,
   "porAmbito": {
-    "territorio": 145,
     "estado": 61,
-    "euskadi": 99,
+    "euskadi": 93,
     "municipio": 313,
+    "territorio": 135,
     "ue": 4
   },
   "porEstado": {
-    "abierta": 375,
+    "abierta": 359,
     "proxima": 16,
     "sinfecha": 231
   },
@@ -19,15 +19,15 @@
     "euskadi": {
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
-      "registros": 136,
+      "registros": 130,
       "segundos": 33,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
-      "registros": 26,
-      "segundos": 19,
+      "registros": 0,
+      "segundos": 2,
       "erroresFicha": 0
     },
     "araba": {
@@ -41,26 +41,26 @@
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
       "registros": 802,
-      "segundos": 141,
+      "segundos": 154,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 150,
-      "segundos": 12,
+      "segundos": 13,
       "erroresFicha": 0
     },
     "prestaciones": {
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 4,
-      "segundos": 7,
+      "segundos": 8,
       "erroresFicha": 0
     }
   },
   "enlaces": {
-    "comprobados": 822,
+    "comprobados": 806,
     "rotos": 4,
     "sustituidos": 0,
     "quitados": 5
