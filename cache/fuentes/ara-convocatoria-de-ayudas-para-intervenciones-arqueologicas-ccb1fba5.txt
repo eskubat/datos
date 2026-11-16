@@ -1,4 +1,4 @@
-### Ficha oficial: https://egoitza.araba.eus/es/inicio/tramites/fitxa/convocatoria-de-ayudas-para-intervenciones-arqueologicas-y-paleontologicas-empresas-convocatoria-2026
+### Ficha oficial: https://egoitza.araba.eus/es/inicio/tramites/fitxa/convocatoria-de-ayudas-para-intervenciones-arqueologicas-y-paleontologicas-particulares-convocatoria-2026
 Trámites - Sede electrónica - Diputación Foral de Álava - egoitza
 GUÍA DE TRÁMITES
 Configuración
@@ -189,7 +189,7 @@ Configuración
 Aceptar todo
 Rechazar todas
 
-### eu: https://egoitza.araba.eus/c/portal/update_language?redirect=/es/inicio/tramites/fitxa/convocatoria-de-ayudas-para-intervenciones-arqueologicas-y-paleontologicas-empresas-convocatoria-2026&p_l_id=4195&languageId=eu_ES
+### eu: https://egoitza.araba.eus/c/portal/update_language?redirect=/es/inicio/tramites/fitxa/convocatoria-de-ayudas-para-intervenciones-arqueologicas-y-paleontologicas-particulares-convocatoria-2026&p_l_id=4195&languageId=eu_ES
 Izapideak - Egoitza elektronikoa - Arabako Foru Aldundia - egoitza
 IZAPIDEEN GIDA
 Pribatutasun-politika kontsultatu
