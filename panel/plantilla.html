@@ -1125,8 +1125,8 @@ function renderFuentes(){
   $("#detalle").innerHTML=`<div class="flujo">
     <div class="cab-ag"><p class="intro">De dónde salen las ayudas de la app. Las fuentes nuevas y las mejoras de lectura están en Mejora continua. Registros del recolector del ${fmtFecha(F.fecha)}.</p>${avatar("fuentes")}</div>
     ${(abiertos.con===undefined&&(abiertos.con=true),"")}${det("con","Fuentes consultadas",
-      `${kpi(canales,"fuentes")}${kpi(num(totalApp),"ayudas en la app")}${kpi(num(totalR),"registros leídos hoy")}${avisos?kpi(avisos,"con aviso","av"):""}${F.enlaces?kpi(num(F.enlaces.sustituidos+F.enlaces.quitados),"enlaces rotos corregidos hoy",F.enlaces.rotos?"av":"ok"):""}<div class="mbar" role="img" aria-label="Registros por fuente">${barra}</div><span class="hint" style="flex-basis:100%;margin-top:-4px">Ayudas de la app según su fuente: pasa el ratón para ver cada una.</span>`,
-      `<div class="tabwrap"><table class="ftabla agrup"><thead><tr><th>Fuente</th><th>Canal</th><th>Ayudas en la app</th><th>Qué aporta</th><th>Cómo se lee</th><th>Leídos hoy</th></tr></thead><tbody>
+      `${kpi(canales,"fuentes")}${kpi(num(totalApp),"ayudas recogidas")}${kpi(num(totalR),"registros leídos hoy")}${avisos?kpi(avisos,"con aviso","av"):""}${F.enlaces?kpi(num(F.enlaces.sustituidos+F.enlaces.quitados),"enlaces rotos corregidos hoy",F.enlaces.rotos?"av":"ok"):""}<div class="mbar" role="img" aria-label="Registros por fuente">${barra}</div><span class="hint" style="flex-basis:100%;margin-top:-4px">Ayudas de la app según su fuente: pasa el ratón para ver cada una.</span>`,
+      `<div class="tabwrap"><table class="ftabla agrup"><thead><tr><th>Fuente</th><th>Canal</th><th>Ayudas recogidas</th><th>Qué aporta</th><th>Cómo se lee</th><th>Leídos hoy</th></tr></thead><tbody>
       ${con.map(g=>{ const F=g.filas||[]; const n=F.length; return F.map((f,i)=>`<tr class="${i===0?"g-ini":"g-sig"}">
         ${i===0?`<td rowspan="${n}" class="gcel"><b>${esc(g.grupo)}</b>${g.ok===false?`<div class="aviso">Falló en la última lectura</div>`:""}</td>`:""}
         <td>${esc(f.nombre)}</td>
@@ -1134,6 +1134,12 @@ function renderFuentes(){
         ${i===0?`<td rowspan="${n}">${esc(g.que)}${g.pendiente?`<div class="aviso" style="margin-top:6px">${esc(g.pendiente)}</div>`:""}</td><td rowspan="${n}">${esc(g.como)}</td><td rowspan="${n}" class="n">${g.registros!=null?num(g.registros):"—"}</td>`:""}
       </tr>`).join(""); }).join("")}
       </tbody></table></div>`)}
+    ${(()=>{ const R=con.flatMap(g=>g.publGrupo!=null?[{g:g.grupo,n:g.grupo,t:g.enAppGrupo,p:g.publGrupo}]:(g.filas||[]).filter(f=>f.enApp!=null).map(f=>({g:g.grupo,n:f.nombre,t:f.enApp,p:f.publ||0}))).filter(r=>r.t);
+      const Pb=F.publicadas!=null?F.publicadas:R.reduce((s,r)=>s+r.p,0), T=D.ayudas.length;
+      return det("pub","Fuentes publicadas",`${kpi(num(Pb),"publicadas en la app","ok")}${kpi(num(T-Pb),"en revisión, sin publicar","av")}${kpi(R.filter(r=>r.p).length+" de "+R.length,"fuentes con ayudas publicadas")}<span class="hint" style="flex-basis:100%">La app solo muestra las ayudas con la ficha revisada por Claude. El resto se publica a medida que el Revisor de datos las revisa.</span>`,
+      `<div class="tabwrap"><table class="ftabla"><thead><tr><th>Fuente</th><th></th><th>Publicadas</th><th>En revisión</th><th>Avance</th></tr></thead><tbody>
+      ${R.sort((a,b)=>b.p-a.p||b.t-a.t).map(r=>`<tr><td><b>${esc(r.g)}</b></td><td>${r.n!==r.g?esc(r.n):""}</td><td class="n">${num(r.p)}</td><td class="n">${num(r.t-r.p)}</td><td style="min-width:140px"><div class="rb"><span style="width:${Math.max(r.p?2:0,r.p/r.t*100)}%"></span></div><span class="hint">${Math.round(r.p*100/r.t)}%</span></td></tr>`).join("")}
+      </tbody></table></div>`); })()}
   </div>`;
   $("#detalle").querySelectorAll("details.acord").forEach(d=>d.addEventListener("toggle",()=>{ abiertos[d.dataset.ac]=d.open; }));
 }

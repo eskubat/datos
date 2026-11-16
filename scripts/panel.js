@@ -63,11 +63,16 @@ const ayudas = pub.ayudas.map((a) => ({
 
 // Fuentes: lo que mide el recolector + descripciones de panel/fuentes.json
 const desc = leer('panel/fuentes.json', { consultadas: [], potenciales: [] });
-const cuentaFila = (fl) => fl.org ? pub.ayudas.filter((a) => a.organismoId === fl.org).length
-  : (fl.fuente && fl.fuente.length ? pub.ayudas.filter((a) => a.fuentes && a.fuentes[0] && fl.fuente.includes(a.fuentes[0].nombre)).length : null);
+// Publicada en la app = ficha revisada por Claude (con versiones por tipo de solicitante); la app solo muestra esas
+const publicada = (a) => !!(a.versiones && Object.keys(a.versiones).length);
+const deFila = (fl) => fl.org ? pub.ayudas.filter((a) => a.organismoId === fl.org)
+  : (fl.fuente && fl.fuente.length ? pub.ayudas.filter((a) => a.fuentes && a.fuentes[0] && fl.fuente.includes(a.fuentes[0].nombre)) : null);
+const cuentaFila = (fl) => { const L = deFila(fl); return L ? L.length : null; };
+const publFila = (fl) => { const L = deFila(fl); return L ? L.filter(publicada).length : null; };
+const publicadasTotal = pub.ayudas.filter(publicada).length;
 const consultadas = desc.consultadas.map((f) => {
   const e = f.clave && f.clave !== 'fundaciones' && est.fuentes ? est.fuentes[f.clave] : null;
-  return { ...f, enAppGrupo: f.fuenteGrupo ? cuentaFila({ fuente: f.fuenteGrupo }) : null, registros: e ? e.registros : null, ok: e ? e.ok : true, filas: (f.filas || [{ nombre: f.grupo }]).map((fl) => ({ ...fl, enApp: cuentaFila(fl) })) };
+  return { ...f, enAppGrupo: f.fuenteGrupo ? cuentaFila({ fuente: f.fuenteGrupo }) : null, publGrupo: f.fuenteGrupo ? publFila({ fuente: f.fuenteGrupo }) : null, registros: e ? e.registros : null, ok: e ? e.ok : true, filas: (f.filas || [{ nombre: f.grupo }]).map((fl) => ({ ...fl, enApp: cuentaFila(fl), publ: publFila(fl) })) };
 });
 
 const instrucciones = {};
@@ -82,7 +87,7 @@ const datos = {
   generado: ahora, commit, cola, hechas,
   noticias: { pendientes: noticias.filter((n) => !decis[n.id]).slice(0, 30).map((n) => ({ id: n.id, titulo: n.titulo || n.title || n.id })), decisiones: Object.entries(decis).slice(-30).reverse().map(([id, d]) => ({ id, titulo: (noticias.find((n) => n.id === id) || {}).titulo || '', accion: d.accion || '', nota: d.nota || '' })) }, historial: hist.slice(-500),
   tarea: { modo: cola.fichas + cola.titulos + cola.noticias === 0 ? 'diaria' : 'cada hora' },
-  fuentes: { fecha: (est.generado || '').slice(0, 10), consultadas, potenciales: desc.potenciales, enlaces: est.enlaces || null },
+  fuentes: { fecha: (est.generado || '').slice(0, 10), consultadas, publicadas: publicadasTotal, potenciales: desc.potenciales, enlaces: est.enlaces || null },
   instrucciones, ayudas, tareas: leer('panel/tareas.json', []), mejora: leer('panel/mejora.json', {}), proyecto: leer('panel/proyecto.json', {}),
 };
 const json = JSON.stringify(datos).replace(/</g, '\\u003c');
