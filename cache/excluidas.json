@@ -88,5 +88,15 @@
   "parecidaA": "bdns-937781",
   "motivo": "Mismo crédito adicional 2026CA24 (BOB 110/2026) de Barakaldo al Ilustre Colegio de la Abogacía de Bizkaia (Q4863001F), registrado dos veces en la BDNS (937781 el 26/10 y 939969 el 05/11) con el mismo documento y título.",
   "fecha": "2026-11-16"
+ },
+ "ara-ayudas-ganaderas-2026": {
+  "parecidaA": "ara-ayudas-ganaderas",
+  "motivo": "Misma ayuda de la Diputación Foral de Álava (programas colectivos de cría de razas ganaderas, sanidad y producción animal) con el mismo título y resumen en dos fichas de la sede: …/fitxa/ayudas-ganaderas-2026 (fin 27/04/2027) y …/fitxa/ayudas-ganaderas (fin 29/07/2027).",
+  "fecha": "2026-11-16"
+ },
+ "ara-ayudas-ganaderas": {
+  "parecidaA": "ara-ayudas-ganaderas-2026",
+  "motivo": "Misma ayuda de la Diputación Foral de Álava (programas colectivos de cría de razas ganaderas, sanidad y producción animal) con el mismo título y resumen en dos fichas de la sede: …/fitxa/ayudas-ganaderas-2026 (fin 27/04/2027) y …/fitxa/ayudas-ganaderas (fin 29/07/2027).",
+  "fecha": "2026-11-16"
  }
 }
