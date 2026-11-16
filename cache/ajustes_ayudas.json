@@ -28,12 +28,14 @@
   "motivo": "Convocatoria de Horizonte Europa (HORIZON-NEB-2026-01) que exige un consorcio de al menos tres entidades de tres países: no se publica según el criterio del 15/11/2026 sobre convocatorias europeas. Decisión del responsable, 16/11/2026."
  },
  "bdns-928634": {
-  "ocultar": true,
-  "motivo": "Temporal: no se publica vacía hasta rehacer la ficha con la ordenanza de Urduliz (ya en docs_extra.json). Decisión del responsable, 16/11/2026."
+  "ocultarHastaFicha": true,
+  "huellaFicha": "f169eb9441eddc7c",
+  "motivo": "Oculta hasta rehacer la ficha con la ordenanza de Urduliz (ya en docs_extra.json). Decisión del responsable, 16/11/2026."
  },
  "bdns-929565": {
-  "ocultar": true,
-  "motivo": "Temporal: no se publica vacía hasta rehacer la ficha con la ordenanza de piscinas de Urduliz (ya en docs_extra.json). Decisión del responsable, 16/11/2026."
+  "ocultarHastaFicha": true,
+  "huellaFicha": "b8de528a64f1fd76",
+  "motivo": "Oculta hasta rehacer la ficha con la ordenanza de piscinas de Urduliz (ya en docs_extra.json). Decisión del responsable, 16/11/2026."
  },
  "bob-bob-2026a196-ii-5229-": {
   "ocultar": true,

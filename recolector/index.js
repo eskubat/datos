@@ -326,21 +326,25 @@ async function main() {
     if (corto !== a.titulo) { a.tituloOficial = a.titulo; a.titulo = corto; }
   }
   // Ajustes decididos a mano por el responsable: cache/ajustes_ayudas.json =
-  // {id: {ocultar: true, unidaA: "<id de la ayuda que ya la recoge>"} | {estado: "proxima", inicio: null, fin: null}}
+  // {id: {ocultar: true, unidaA: "<id de la ayuda que ya la recoge>"} | {estado: "proxima", inicio: null, fin: null}
+  //      | {ocultarHastaFicha: true, huellaFicha: "<h de la ficha que no vale>"}}
   // Las ocultas no se publican ni pasan a pendientes de resumen; en las demás se sustituyen los campos indicados.
+  // ocultarHastaFicha: no se publica, pero sigue pasando a pendientes; se publica sola cuando la tarea incorpora
+  // una ficha con la huella del texto actual (y distinta de huellaFicha, la de la ficha que se quiso rehacer).
   {
     let ajustes = {};
     try { ajustes = JSON.parse(fs.readFileSync(path.join('cache', 'ajustes_ayudas.json'), 'utf8')); } catch {}
-    let ocultadas = 0, cambiadas = 0;
+    let ocultadas = 0, cambiadas = 0, hastaFicha = 0;
     ayudas = ayudas.filter((a) => {
       const aj = ajustes[a.id];
       if (!aj || typeof aj !== 'object') return true;
       if (aj.ocultar) { ocultadas++; return false; }
+      if (aj.ocultarHastaFicha) { a._hastaFicha = { huellaFicha: aj.huellaFicha || '' }; hastaFicha++; return true; }
       for (const [k, v] of Object.entries(aj)) if (k !== 'unidaA' && k !== 'motivo') a[k] = v;
       cambiadas++;
       return true;
     });
-    if (ocultadas || cambiadas) log(`Ajustes a mano: ${ocultadas} ocultas, ${cambiadas} cambiadas`);
+    if (ocultadas || cambiadas || hastaFicha) log(`Ajustes a mano: ${ocultadas} ocultas, ${hastaFicha} ocultas hasta tener ficha nueva, ${cambiadas} cambiadas`);
   }
   // Fuera: cerradas y las que no tienen fechas y llevan más de 90 días registradas
   const limite = new Date(Date.now() - 90 * 864e5).toISOString().slice(0, 10);
@@ -460,6 +464,19 @@ async function main() {
   fs.writeFileSync(path.join('cache', 'organismos.json'), JSON.stringify(CATALOGO.map(({ id, completo, alias }) => ({ id, nombre: completo, alias })), null, 1));
   fs.writeFileSync(path.join('cache', 'pendientes.json'), JSON.stringify(pendientes, null, 1));
   log(`Pendientes de resumen: ${pendientes.length}`);
+  // Ocultas hasta tener ficha nueva: ya están en pendientes; se publican solo si su ficha es la del texto actual
+  {
+    const lista = ayudas.filter((a) => a._hastaFicha);
+    const esperan = lista.filter((a) => {
+      const c = cacheRes[a.id];
+      const tieneFicha = !!(fuentes[a.id] && c && c.h === huella(fuentes[a.id]) && c.h !== a._hastaFicha.huellaFicha);
+      delete a._hastaFicha;
+      return !tieneFicha;
+    });
+    const fuera = new Set(esperan.map((a) => a.id));
+    ayudas = ayudas.filter((a) => !fuera.has(a.id));
+    if (lista.length) log(`Ocultas hasta tener ficha nueva: ${lista.length - fuera.size} ya publicadas, ${fuera.size} esperando ficha${fuera.size ? ' (' + [...fuera].join(', ') + ')' : ''}`);
+  }
 
   // Próximas: ficha prudente de la última convocatoria (docs/PROXIMAS.md). Primero las más cercanas.
   try {
