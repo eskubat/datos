@@ -1,0 +1,65 @@
+{
+ "objetivo": "2027-03-01",
+ "meta": "Publicar Eskubat en App Store y Google Play, en castellano y euskera, con todas las ayudas de Euskadi (Gobierno Vasco, diputaciones, ayuntamientos, Estado, UE y fundaciones).",
+ "equipo": "Tú con Claude",
+ "fases": [
+  {"id":"diseno","nombre":"Diseño","inicio":"2026-11-01","fin":"2026-12-13","estado":"en_curso","tareas":[
+   {"t":"Nombre y logo","quien":"Tú","estado":"hecha","nota":"Eskubat (de «esku bat eman»), logo B; alternativa U guardada."},
+   {"t":"Contenido de cada ayuda: 5 apartados","quien":"Tú","estado":"hecha","nota":"Quién la convoca, En qué consiste, Cuánto puede recibir, Quién puede pedirla, Requisitos."},
+   {"t":"Pantallas: inicio, búsqueda y filtros, ficha, guardadas","quien":"Claude","estado":"en_curso"},
+   {"t":"Colores, tipografía y componentes (sistema de diseño)","quien":"Claude","estado":"pendiente"},
+   {"t":"Revisar y aprobar el diseño","quien":"Tú","estado":"pendiente"}]},
+  {"id":"datos","nombre":"Datos listos","inicio":"2026-11-01","fin":"2026-12-20","estado":"en_curso","tareas":[
+   {"t":"Fichas revisadas de todas las ayudas","quien":"Claude","estado":"en_curso","auto":"fichas"},
+   {"t":"Fuentes: Gobierno Vasco, diputaciones, municipios, Estado, UE y fundaciones","quien":"Claude","estado":"en_curso","nota":"Plan de mejoras en Mejora continua."},
+   {"t":"Textos en euskera revisados","quien":"Claude","estado":"pendiente"}]},
+  {"id":"app","nombre":"App funcional","inicio":"2026-12-14","fin":"2027-01-31","estado":"pendiente","tareas":[
+   {"t":"Lectura de los datos publicados (eskubat/datos)","quien":"Claude","estado":"pendiente"},
+   {"t":"Búsqueda y filtros por tipo de solicitante, tema y lugar","quien":"Claude","estado":"pendiente"},
+   {"t":"Ficha de la ayuda con enlace a la convocatoria oficial","quien":"Claude","estado":"pendiente"},
+   {"t":"Castellano y euskera","quien":"Claude","estado":"pendiente"},
+   {"t":"Guardar ayudas y avisos de cierre","quien":"Claude","estado":"pendiente"},
+   {"t":"Probar cada versión en el iPhone con Expo Go","quien":"Tú","estado":"pendiente"}]},
+  {"id":"pruebas","nombre":"Pruebas","inicio":"2027-01-18","fin":"2027-02-14","estado":"pendiente","tareas":[
+   {"t":"Pagar la cuenta de Google Play y crear la ficha","quien":"Tú","estado":"pendiente","nota":"Hace falta antes de la prueba cerrada."},
+   {"t":"Prueba cerrada en Android: 12 personas durante 14 días","quien":"Tú","estado":"pendiente","nota":"Requisito de Google para cuentas personales antes de publicar."},
+   {"t":"Pruebas con personas reales (particulares, autónomos, asociaciones)","quien":"Tú","estado":"pendiente"},
+   {"t":"Corregir lo que salga de las pruebas","quien":"Claude","estado":"pendiente"}]},
+  {"id":"publicacion","nombre":"Publicación","inicio":"2027-02-01","fin":"2027-03-01","estado":"pendiente","tareas":[
+   {"t":"Pagar la cuenta de Apple Developer","quien":"Tú","estado":"pendiente"},
+   {"t":"Fichas de tienda: textos, capturas e icono (es y eu)","quien":"Claude","estado":"pendiente"},
+   {"t":"Política de privacidad y aviso legal","quien":"Claude","estado":"pendiente"},
+   {"t":"Enviar a revisión de Apple y Google","quien":"Tú","estado":"pendiente"},
+   {"t":"Publicación","quien":"Tú","estado":"pendiente"}]}
+ ],
+ "presupuesto": [
+  {"concepto":"Apple Developer Program","importe":99,"moneda":"USD","periodo":"al año","cuando":"Febrero 2027","estado":"pendiente"},
+  {"concepto":"Google Play Console","importe":25,"moneda":"USD","periodo":"una vez","cuando":"Enero 2027","estado":"pendiente"},
+  {"concepto":"Dominio de la web (eskubat.eus o similar)","importe":null,"moneda":"EUR","periodo":"al año","cuando":"Antes de publicar","estado":"pendiente","nota":"Precio por confirmar."},
+  {"concepto":"Expo (EAS) para compilar","importe":0,"moneda":"USD","periodo":"","cuando":"","estado":"en uso","nota":"Plan gratuito por ahora."},
+  {"concepto":"GitHub (repositorios y Codespaces)","importe":0,"moneda":"USD","periodo":"","cuando":"","estado":"en uso","nota":"Plan gratuito."}
+ ],
+ "marca": {
+  "nombre":"Eskubat","origen":"De «esku bat eman»: echar una mano.","logo":"Logo B: mano que recoge, con ondas.","alternativa":"Logo U: círculo de manos (dos trazos, blanco y naranja).",
+  "colores":[["Verde Eskubat","#0f6b54"],["Naranja","#c2621a"],["Fondo","#f4f5f3"],["Texto","#1c2a24"]],
+  "tipografia":"Sans serif.","tono":"Textos prácticos y objetivos, que no suenen a IA. Ortografía corregida aunque la fuente tenga errores.","idiomas":"Castellano y euskera."
+ },
+ "diseno": {
+  "pantallas":["Inicio: ayudas para ti y que cierran pronto","Búsqueda y filtros","Ficha de la ayuda","Guardadas y avisos","Ajustes: idioma y perfil"],
+  "decisiones":["Cada ayuda tiene 5 apartados: ¿Quién la convoca?, ¿En qué consiste?, ¿Cuánto puede recibir?, ¿Quién puede pedirla? y Requisitos.","«Cuánto puede recibir» es lo que recibe el solicitante, no el presupuesto total.","«Requisitos» solo incluye condiciones que el solicitante debe cumplir: fuera reglas de cómputo de ingresos y compatibilidades.","Una versión de la ficha por tipo de solicitante.","Incluye Gobierno Vasco, diputaciones y ayuntamientos desde la versión 1; también Estado, UE y fundaciones (marcadas como privadas)."]
+ },
+ "desarrollo": {
+  "repos":[["eskubat/app","Código de la app (privado). Expo, se desarrolla en GitHub Codespaces."],["eskubat/datos","Datos de las ayudas (público). Recolector diario y revisión de Claude."]],
+  "herramientas":["Expo Go en el iPhone (cuenta «eskubat»)","GitHub Codespaces desde el navegador","Claude: código y textos"]
+ },
+ "lanzamiento":[
+  {"t":"Ficha de App Store y Google Play (es/eu)","estado":"pendiente"},{"t":"Capturas de pantalla","estado":"pendiente"},{"t":"Política de privacidad","estado":"pendiente"},{"t":"Aviso legal","estado":"pendiente"},{"t":"Web sencilla de la app","estado":"pendiente"},{"t":"Primeros usuarios: asociaciones, ayuntamientos, gestorías","estado":"pendiente"}],
+ "usuarios": {
+  "perfiles":[["Particulares","Familias, jóvenes, mayores, personas desempleadas."],["Autónomos","Ayudas para empezar, invertir o contratar."],["Empresas","Pymes: innovación, digitalización, internacionalización."],["Asociaciones","Cultura, deporte, euskera, cooperación."],["Entidades públicas","Ayuntamientos y otras administraciones."]],
+  "pruebas":"Prueba cerrada en Android (12 personas, 14 días) y pruebas con personas de cada perfil."
+ },
+ "metricas": {
+  "antes":["Ayudas publicadas","Fichas revisadas","Fuentes consultadas"],
+  "despues":["Descargas","Usuarios activos por semana","Búsquedas y filtros más usados","Ayudas más vistas y guardadas","Clics a la convocatoria oficial","Valoración en las tiendas"]
+ }
+}

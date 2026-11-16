@@ -171,9 +171,9 @@ dialog input,dialog select{width:100%;padding:8px 10px;border:1px solid var(--li
 .barra{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding:10px 20px;border-bottom:1px solid var(--line);background:var(--panel)}
 .barra h2{font:800 19px/1.2 var(--display);letter-spacing:-.015em;margin:0}
 body.v-w .barra{display:none}
-body.v-w main, body.v-b main, body.v-f main, body.v-m main{grid-template-columns:1fr}
-body.v-w #lista, body.v-b #lista, body.v-f #lista, body.v-m #lista{display:none!important}
-body.v-b .counts, body.v-f .counts, body.v-m .counts{display:none}
+body.v-w main, body.v-b main, body.v-f main, body.v-m main, body.v-e main{grid-template-columns:1fr}
+body.v-w #lista, body.v-b #lista, body.v-f #lista, body.v-m #lista, body.v-e #lista{display:none!important}
+body.v-b .counts, body.v-f .counts, body.v-m .counts, body.v-e .counts{display:none}
 .st-pend{background:var(--line)}
 .sec{font:700 19px var(--display);margin:10px 0 0}
 .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
@@ -392,6 +392,25 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 .tprog{margin:4px 0 6px;padding-left:18px} .tprog li{margin:2px 0}
 .avatar.grande{border:0;padding:0;cursor:default} .avatar.grande .av-c{width:52px;height:52px} .avatar.grande .av-t b{font-size:17px}
 @media (max-width:700px){.cab-ag{flex-direction:column}}
+.proy{display:grid;grid-template-columns:190px 1fr;gap:20px;align-items:start;max-width:1180px;margin:0 auto}
+.pnav{position:sticky;top:12px;display:flex;flex-direction:column;gap:2px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:8px}
+.pnav button{border:0;background:none;text-align:left;padding:9px 12px;border-radius:8px;font:600 14.5px var(--body);color:var(--ink);cursor:pointer}
+.pnav button:hover{background:var(--bg)} .pnav button.on{background:var(--accent);color:var(--accent-ink)}
+.pcont{max-width:none;margin:0}
+.pbar{height:12px;background:var(--line);border-radius:6px;overflow:hidden;margin:8px 0 6px} .pbar span{display:block;height:100%;background:var(--accent)}
+.gantt{position:relative;padding-top:24px}
+.g-meses{position:relative;height:18px;margin-left:130px;border-bottom:1px solid var(--line)} .g-meses span{position:absolute;font-size:12px;color:var(--muted);transform:translateX(-2px)}
+.g-fila{display:flex;align-items:center;height:34px} .g-n{width:130px;font-weight:600;font-size:14px}
+.g-pista{position:relative;flex:1;height:14px;background:var(--bg);border-radius:7px}
+.g-bar{position:absolute;top:0;height:14px;border-radius:7px;background:#b9c2bd} .g-bar.en_curso{background:var(--or)} .g-bar.hecha{background:var(--accent)} .g-bar.pendiente{background:#7fb3a3}
+.g-hoy{position:absolute;top:18px;bottom:0;border-left:2px dashed var(--or)} .g-hoy span{white-space:nowrap;position:absolute;top:-18px;left:4px;font-size:11px;font-weight:700;color:var(--or-d)}
+.g-hoy.obj{border-left-color:var(--accent)} .g-hoy.obj span{color:var(--accent-d);left:auto;right:4px}
+.dos2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px} .dos2 .vb{margin:0;padding:10px 12px;background:var(--bg);border-radius:8px;font-size:14px}
+.proy .vb .vt{display:block;font:700 11px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.proy > .flujo > section > .vb{padding:10px 12px;background:var(--bg);border-radius:8px;font-size:14px}
+.swatches{display:flex;flex-wrap:wrap;gap:10px} .swatches span{display:flex;align-items:center;gap:6px;font-size:13px} .swatches i{width:20px;height:20px;border-radius:5px;border:1px solid var(--line)} .swatches small{color:var(--muted)}
+.lista-s{margin:0;padding-left:18px;line-height:1.6}
+@media (max-width:760px){.proy{grid-template-columns:1fr}.pnav{position:static;flex-direction:row;overflow:auto}.dos2{grid-template-columns:1fr}}
 @media (max-width:760px){.estado-rev .er-top{grid-template-columns:1fr}}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
 @media (max-width:760px){.eta{grid-template-columns:1fr}}
@@ -460,8 +479,8 @@ const TIPOS = {plazo:"Plazo",organismo:"Organismo",documentacion:"Documentación
 const TIPO_SOL = {particular:"Particulares",autonomo:"Autónomos",empresa:"Empresas",asociacion:"Asociaciones",ayuntamiento:"Entidades públicas",general:"General"};
 const NIVEL = {euskadi:"Gobierno Vasco",territorio:"Diputaciones",municipio:"Ayuntamientos",estado:"Estado",ue:"Unión Europea"};
 const EST_AY = {abierta:"Abierta",proxima:"Próxima",sinfecha:"Sin fecha"};
-const VISTAS = {w:"#inicio",m:"#mejora-continua",b:"#base-de-datos",l:"#lista-de-ayudas",c:"#cuestiones",i:"#instrucciones",f:"#fuentes"};
-const TITULOS = {m:"Mejora continua",b:"Datos",l:"Datos · lista de ayudas",c:"Revisión",i:"Instrucciones",f:"Fuentes"};
+const VISTAS = {w:"#inicio",e:"#proyecto",m:"#mejora-continua",b:"#base-de-datos",l:"#lista-de-ayudas",c:"#cuestiones",i:"#instrucciones",f:"#fuentes"};
+const TITULOS = {e:"Eskubat · proyecto",m:"Mejora continua",b:"Datos",l:"Datos · lista de ayudas",c:"Revisión",i:"Instrucciones",f:"Fuentes"};
 const S = {vista:"w", docs:[], filtro:"abierta", areaF:"", q:"", sel:null, db:null, sample:null, selB:null, verB:null, fl:{}, selec:new Set(), selI:"categorizacion"};
 const $ = (s, el=document) => el.querySelector(s);
 const esc = (t) => String(t ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -702,14 +721,14 @@ function renderInicio(){
       <text class="lbl ret-t" x="${ret+8}" y="${(yC+r)/2}" transform="rotate(90 ${ret+8} ${(yC+r)/2})" text-anchor="middle">corregido y publicado</text>
       ${nodo("fuentes",X(0),Y[0],"","f","Fuentes",[],(D.fuentes.consultadas||[]).reduce((s,g)=>s+(g.filas||[1]).length,0)+" fuentes","Ver")}
       ${nodo("base",X(1),Y[0],"claude","b","Datos",[`${num(hc)} revisadas · ${num(t.fichas||0)} por revisar`,diaria?"Revisión una vez al día":"Próxima pasada "+proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})],num(D.ayudas.length),"Abrir")}
-      ${nodo("app",X(2),Y[0],"","ce","Eskubat",["La app: ayudas en castellano","y euskera, y su diseño"],null,"Para ti")}
+      ${nodo("app",X(2),Y[0],"","ce","Eskubat",["La app: plan hasta publicar","el 1 de marzo de 2027"],(()=>{const d=Math.ceil((new Date((D.proyecto||{}).objetivo||"2027-03-01")-hoy())/864e5);return d>0?`${d}<tspan class="nu"> días</tspan>`:null;})(),"Proyecto")}
       ${nodo("cuestiones",X(0),Y[1],"clave","m","Para ti",[`Fuentes ${ca.fuentes||0} · Datos ${ca.datos||0}`,`Eskubat ${ca.eskubat||0}`],`${c.abierta}<tspan class="nu"> abiertas</tspan>`,"Decidir")}
       ${nodo("mejora",X(1),Y[1],"claude","m","Mejora continua",[`${listas} correcciones en cola`,`${plP} mejoras planificadas`],`${aplic+plH}<tspan class="nu"> hechas</tspan>`,"Ver")}
     </svg></div>
     ${paraTi()}</div>`;
   $("#detalle").querySelectorAll("button[data-pc]").forEach(b=>b.onclick=()=>verCuestion(b.dataset.pc));
   $("#detalle").querySelectorAll(".nodo[data-go]").forEach(n=>{
-    const ir=()=>{ const g=n.dataset.go; if(g==="ce"){ S.mArea="eskubat"; cambiarVista("m"); return; } if(g==="m"){ S.mArea=""; } if(g==="c"){ S.filtro="abierta"; S.areaF=""; } cambiarVista(g); };
+    const ir=()=>{ const g=n.dataset.go; if(g==="ce"){ cambiarVista("e"); return; } if(g==="m"){ S.mArea=""; } if(g==="c"){ S.filtro="abierta"; S.areaF=""; } cambiarVista(g); };
     n.onclick=ir; n.onkeydown=(ev)=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); ir(); } };
   });
 }
@@ -1213,6 +1232,62 @@ function renderMejora(){
   $("#detalle").querySelectorAll("details[data-mab]").forEach(d=>d.addEventListener("toggle",()=>{ S.mAb[d.dataset.mab]=d.open; }));
 }
 
+
+/* ================= PROYECTO ESKUBAT ================= */
+const PTABS=[["plan","Plan"],["plazos","Plazos"],["presupuesto","Presupuesto"],["marca","Marca"],["diseno","Diseño"],["desarrollo","Desarrollo"],["lanzamiento","Lanzamiento"],["usuarios","Usuarios"],["metricas","Métricas"]];
+const EST_P={hecha:"Hecha",en_curso:"En curso",pendiente:"Pendiente",bloqueada:"Bloqueada"};
+function tareasP(){ const P=D.proyecto||{}; return (P.fases||[]).flatMap(f=>f.tareas.map(t=>({...t,fase:f.nombre}))); }
+function estadoTP(t){ if(t.auto==="fichas"){ const n=D.ayudas.length, r=D.ayudas.filter(a=>a.ficha).length; return r>=n&&n?"hecha":"en_curso"; } return t.estado; }
+function renderProyecto(){
+  const P=D.proyecto||{}, k=S.pTab||"plan", obj=new Date((P.objetivo||"2027-03-01")+"T00:00:00");
+  const dias=Math.ceil((obj-hoy())/864e5), T=tareasP(), hechas=T.filter(t=>estadoTP(t)==="hecha").length;
+  const faseAct=(P.fases||[]).find(f=>f.estado==="en_curso")||(P.fases||[])[0]||{};
+  const sig=T.find(t=>estadoTP(t)!=="hecha"&&t.quien==="Tú");
+  const pct=T.length?Math.round(hechas*100/T.length):0;
+  const fila=t=>{ const e=estadoTP(t); return `<li class="plan-i ${e}"><span class="chip ${e==="hecha"?"aplicada":e==="en_curso"?"lista":""}">${EST_P[e]||e}</span><div><span class="tl2"><b>${esc(t.t)}</b><span class="quien ${t.quien==="Tú"?"tu":"cl"}">${esc(t.quien)}</span></span>${t.nota?`<span>${esc(t.nota)}</span>`:""}${t.auto==="fichas"?`<span>${num(D.ayudas.filter(a=>a.ficha).length)} de ${num(D.ayudas.length)} revisadas</span>`:""}</div><span class="cuando"></span></li>`; };
+  const cuerpo={
+    plan:()=>(P.fases||[]).map(f=>{ const n=f.tareas.length, h=f.tareas.filter(t=>estadoTP(t)==="hecha").length;
+      return `<details class="acord" ${f.estado!=="hecha"?"open":""}><summary><div class="acs"><h3>${esc(f.nombre)} <span class="cnt">${h}/${n}</span></h3><div class="acst"><span class="prox">${fmtFecha(f.inicio)} → ${fmtFecha(f.fin)} · ${EST_P[f.estado]||f.estado}</span></div></div><span class="acf">▾</span></summary><div class="acb"><ul class="plan">${f.tareas.map(fila).join("")}</ul></div></details>`; }).join(""),
+    plazos:()=>{ const F=P.fases||[]; if(!F.length) return ""; const t0=new Date(Math.min(...F.map(f=>+new Date(f.inicio)))), t1=obj, tot=t1-t0, x=d=>Math.max(0,Math.min(100,(new Date(d)-t0)/tot*100));
+      const meses=[]; for(let d=new Date(t0.getFullYear(),t0.getMonth(),1); d<=t1; d=new Date(d.getFullYear(),d.getMonth()+1,1)) if(d>=t0) meses.push(d);
+      return `<section class="card"><h3>Calendario hasta el ${fmtFecha(P.objetivo)}</h3><div class="gantt">
+        <div class="g-meses">${meses.filter(m=>x(m)<93).map(m=>`<span style="left:${x(m)}%">${m.toLocaleDateString("es-ES",{month:"short",year:"2-digit"})}</span>`).join("")}</div>
+        ${F.map(f=>`<div class="g-fila"><span class="g-n">${esc(f.nombre)}</span><div class="g-pista"><span class="g-bar ${f.estado}" style="left:${x(f.inicio)}%;width:${Math.max(1.5,x(f.fin)-x(f.inicio))}%" title="${fmtFecha(f.inicio)} → ${fmtFecha(f.fin)}"></span></div></div>`).join("")}
+        <div class="g-hoy" style="left:calc(130px + (100% - 130px) * ${x(hoy())/100})"><span>Hoy</span></div>
+        <div class="g-hoy obj" style="left:calc(130px + (100% - 130px) * 1)"><span>1 mar</span></div></div>
+        <p class="hint" style="margin:12px 0 0">Ojo: Google exige a las cuentas personales una prueba cerrada con 12 personas durante 14 días antes de publicar; por eso las pruebas empiezan a mediados de enero.</p></section>`; },
+    presupuesto:()=>{ const B=P.presupuesto||[], usd=B.filter(b=>b.importe&&b.moneda==="USD").reduce((s,b)=>s+b.importe,0);
+      return `<section class="card"><h3>Costes</h3><div class="acst" style="margin-bottom:10px"><span class="kpi"><b>${usd} $</b>el primer año (cuentas de tienda)</span><span class="kpi"><b>99 $</b>al año después (Apple)</span></div>
+        <div class="tabwrap"><table class="ftabla"><thead><tr><th>Concepto</th><th>Importe</th><th>Cada cuánto</th><th>Cuándo</th><th>Estado</th></tr></thead><tbody>${B.map(b=>`<tr><td><b>${esc(b.concepto)}</b>${b.nota?`<div class="hint">${esc(b.nota)}</div>`:""}</td><td class="n">${b.importe==null?"<span class='hint'>—</span>":b.importe?`${b.importe} ${b.moneda==="USD"?"$":"€"}`:"Gratis"}</td><td>${esc(b.periodo||"")}</td><td>${esc(b.cuando||"")}</td><td><span class="chip ${b.estado==="en uso"?"aplicada":""}">${esc(b.estado)}</span></td></tr>`).join("")}</tbody></table></div>
+        <p class="hint" style="margin:10px 0 0">Precios de Apple y Google comprobados en noviembre de 2026 (impuestos aparte). Has decidido dejar los pagos para cuando haga falta: Google en enero (para la prueba cerrada) y Apple en febrero.</p></section>`; },
+    marca:()=>{ const M=P.marca||{}; return `<section class="card"><h3>${esc(M.nombre||"Eskubat")}</h3><p style="margin:0 0 10px">${esc(M.origen||"")}</p>
+      <div class="dos2"><div class="vb"><span class="vt">Logo</span>${esc(M.logo||"")}<div class="hint" style="margin-top:4px">Alternativa: ${esc(M.alternativa||"")}</div></div>
+      <div class="vb"><span class="vt">Colores</span><div class="swatches">${(M.colores||[]).map(([n,c])=>`<span><i style="background:${c}"></i>${esc(n)}<small>${c}</small></span>`).join("")}</div></div>
+      <div class="vb"><span class="vt">Tipografía</span>${esc(M.tipografia||"")}</div><div class="vb"><span class="vt">Idiomas</span>${esc(M.idiomas||"")}</div></div>
+      <div class="vb"><span class="vt">Tono</span>${esc(M.tono||"")}</div></section>`; },
+    diseno:()=>{ const Dz=P.diseno||{}; const ab=S.docs.filter(d=>areaDe(d)==="eskubat"&&["abierta","lista"].includes(d.estado||"abierta"));
+      return `<section class="card"><h3>Pantallas</h3><ul class="lista-s">${(Dz.pantallas||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul></section>
+      <section class="card"><h3>Decisiones tomadas</h3><ul class="lista-s">${(Dz.decisiones||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul></section>
+      <section class="card"><h3>Cuestiones de la app y su diseño</h3>${ab.length?`<ul class="plan">${ab.map(d=>`<li class="plan-i clic" data-vc="${esc(d._id)}"><span class="chip">${d.estado==="lista"?"Decidida":"Abierta"}</span><div><b>${esc(d.titulo||"")}</b><span>${esc((d.motivo||"").slice(0,200))}</span></div><span class="cuando"></span></li>`).join("")}</ul>`:`<p class="hint" style="margin:0">Ninguna abierta. Cuéntaselas a «Pedir a Claude» y se apuntan aquí.</p>`}</section>`; },
+    desarrollo:()=>{ const Dv=P.desarrollo||{}, F=(P.fases||[]).find(f=>f.id==="app");
+      return `<section class="card"><h3>Repositorios</h3><ul class="lista-s">${(Dv.repos||[]).map(([r,d])=>`<li><b><a href="https://github.com/${r}" target="_blank" rel="noopener">${esc(r)} ↗</a></b> — ${esc(d)}</li>`).join("")}</ul></section>
+      <section class="card"><h3>Herramientas</h3><ul class="lista-s">${(Dv.herramientas||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul></section>
+      ${F?`<section class="card"><h3>Qué falta en la app</h3><ul class="plan">${F.tareas.map(fila).join("")}</ul></section>`:""}`; },
+    lanzamiento:()=>`<section class="card"><h3>Para el lanzamiento</h3><ul class="plan">${(P.lanzamiento||[]).map(x=>fila({t:x.t,estado:x.estado,quien:/Primeros|Web/.test(x.t)?"Tú":"Claude"})).join("")}</ul></section>`,
+    usuarios:()=>{ const U=P.usuarios||{}; return `<section class="card"><h3>A quién va dirigida</h3><div class="tabwrap"><table class="ftabla"><thead><tr><th>Perfil</th><th>Qué busca</th><th>Ayudas en la app</th></tr></thead><tbody>${(U.perfiles||[]).map(([n,d])=>{ const key={Particulares:"particular",Autónomos:"autonomo",Empresas:"empresa",Asociaciones:"asociacion","Entidades públicas":"ayuntamiento"}[n]; const c=D.ayudas.filter(a=>[].concat(a.para||[]).includes(key)).length; return `<tr><td><b>${esc(n)}</b></td><td>${esc(d)}</td><td class="n">${num(c)}</td></tr>`; }).join("")}</tbody></table></div></section>
+      <section class="card"><h3>Pruebas con usuarios</h3><p style="margin:0">${esc(U.pruebas||"")}</p></section>`; },
+    metricas:()=>{ const M=P.metricas||{}; const rev=D.ayudas.filter(a=>a.ficha).length;
+      return `<section class="card"><h3>Ahora (antes de publicar)</h3><div class="acst"><span class="kpi"><b>${num(D.ayudas.length)}</b>ayudas en la base</span><span class="kpi"><b>${num(rev)}</b>fichas revisadas</span><span class="kpi"><b>${num((D.fuentes.consultadas||[]).reduce((s,g)=>s+(g.filas||[1]).length,0))}</b>fuentes</span></div></section>
+      <section class="card"><h3>Después de publicar</h3><p class="hint" style="margin:0 0 8px">Se medirán desde el lanzamiento. Habrá que decidir con qué herramienta (las propias de las tiendas, sin datos personales, es lo más sencillo).</p><ul class="lista-s">${(M.despues||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul></section>`; }
+  };
+  $("#detalle").innerHTML=`<div class="proy"><nav class="pnav">${PTABS.map(([id,n])=>`<button class="${id===k?"on":""}" data-pt="${id}">${n}</button>`).join("")}</nav>
+    <div class="flujo pcont">
+      <section class="card estado-rev"><div class="er-top"><div class="big">${ico("reloj")}<div><div class="tl">Faltan para publicar (${fmtFecha(P.objetivo)})</div><div class="tn">${dias>0?`${num(dias)} días`:"Publicada"}</div>
+        <div class="hint">Fase actual: <b>${esc(faseAct.nombre||"")}</b>${sig?` · Lo siguiente tuyo: <b>${esc(sig.t)}</b>`:""}</div></div></div>
+        <div><div class="tl">Avance del plan</div><div class="pbar"><span style="width:${pct}%"></span></div><div class="hint">${hechas} de ${T.length} tareas hechas · ${esc(P.equipo||"")}</div></div></div></section>
+      ${cuerpo[k]?cuerpo[k]():""}</div></div>`;
+  $("#detalle").querySelectorAll("[data-pt]").forEach(b=>b.onclick=()=>{ S.pTab=b.dataset.pt; renderProyecto(); });
+}
 /* ================= ASISTENTE (Pedir a Claude) ================= */
 const ASIS={msgs:[],log:[],ocupado:false};
 try{ const g=JSON.parse(localStorage.getItem("eskubat-asis")||"null"); if(g&&Array.isArray(g.msgs)) ASIS.msgs=g.msgs.slice(-30); }catch{}
@@ -1259,8 +1334,8 @@ const HERR=[
  {name:"ejecutar_tarea_ahora",description:"Lanza ya una tarea del plan de Claude (por id): empieza en el momento.",inputSchema:{type:"object",properties:{id:{type:"string"}},required:["id"]},
   execute:async(i)=>{ const r=await lanzarAhora("plan",i.id); if(!r.ok) throw new Error(r.msg); return {hecho:true,tarea:r.msg}; }},
  {name:"mostrar",description:"Lleva la página a una pantalla: inicio, datos (resumen), lista (con filtros), cuestiones, fuentes o instrucciones. Útil para enseñar al responsable lo que has encontrado.",
-  inputSchema:{type:"object",properties:{pantalla:{type:"string",enum:["inicio","datos","lista","cuestiones","fuentes","mejora","instrucciones"]},filtros:{type:"object",description:"Para lista: rev, com, estado, cierre, nivel, para, temas, organismo"},ayuda:{type:"string",description:"Id de una ayuda para abrirla en la lista"}},required:["pantalla"]},
-  execute:(i)=>{ const v={inicio:"w",datos:"b",lista:"l",cuestiones:"m",fuentes:"f",mejora:"m",instrucciones:"i"}[i.pantalla]; if(v==="l"){ S.fl=i.filtros||{}; S.selec=new Set(); } cambiarVista(v); if(i.ayuda&&v==="l") seleccionar(i.ayuda); return {hecho:true}; }}
+  inputSchema:{type:"object",properties:{pantalla:{type:"string",enum:["inicio","datos","lista","cuestiones","fuentes","mejora","proyecto","instrucciones"]},filtros:{type:"object",description:"Para lista: rev, com, estado, cierre, nivel, para, temas, organismo"},ayuda:{type:"string",description:"Id de una ayuda para abrirla en la lista"}},required:["pantalla"]},
+  execute:(i)=>{ const v={inicio:"w",datos:"b",lista:"l",cuestiones:"m",proyecto:"e",fuentes:"f",mejora:"m",instrucciones:"i"}[i.pantalla]; if(v==="l"){ S.fl=i.filtros||{}; S.selec=new Set(); } cambiarVista(v); if(i.ayuda&&v==="l") seleccionar(i.ayuda); return {hecho:true}; }}
 ];
 function sistemaAsis(){ return `Eres Claude, el asistente de la página «Eskubat — Revisión de ayudas». Eskubat es una app de ayudas y subvenciones de Euskadi. El sistema: un recolector diario lee las fuentes; el «Revisor de datos» (Claude, cada hora a y 32) redacta las fichas de las ayudas nuevas o cambiadas y manda las dudas a «Para ti»; el «Responsable de mejora continua» (Claude) aplica las correcciones decididas cada hora a en punto y hace una tarea del plan de mejora cada hora a y 30; cada mes repasa el plan. Las cuestiones («Para ti», en la pantalla Mejora continua) son decisiones del responsable o cambios pedidos; las «listas» son correcciones que aplica la pasada de correcciones (las de área eskubat, no); lo que exige código o fuentes va al plan de mejora. Si el responsable dice que ha completado una de sus tareas (las de quien «Tú», p. ej. pedir un acceso), márcala como hecha con marcar_tarea_hecha y una nota breve. Las dos cosas se ven en la pantalla «Mejora continua».
 Tienes herramientas para consultar los datos y para hacer cambios directamente: úsalas. Si te piden un cambio, hazlo con la herramienta adecuada: la página lanza al momento la aplicación de los cambios que dejes en cola, así que di que ya se está aplicando; no pidas permiso para lo que el responsable ya ha pedido claramente, pero pregunta si algo es ambiguo o afecta a muchas ayudas sin que lo haya dicho. Antes de pedir cambios a ayudas concretas, búscalas para tener los ids. No puedes navegar por la web ni cambiar el código desde aquí: lo que exige código o fuentes nuevas va al plan (proponer_tarea_plan). Responde en castellano, breve y claro, sin jerga técnica. Hoy es ${new Date().toISOString().slice(0,10)}; los datos de la página son del ${hora(D.generado)}.`; }
@@ -1290,7 +1365,7 @@ function abrirAsis(texto){ document.body.classList.add("asis-on"); renderAsis();
 
 /* ================= NAVEGACIÓN ================= */
 function renderLista(){ if(S.vista==="l") renderListaB(); else if(S.vista==="c") renderListaC(); else if(S.vista==="i") renderListaI(); }
-function renderDetalle(){ ({w:renderInicio,m:renderMejora,b:renderBase,f:renderFuentes,l:renderDetalleB,c:renderDetalleC,i:renderDetalleI})[S.vista](); }
+function renderDetalle(){ ({w:renderInicio,e:renderProyecto,m:renderMejora,b:renderBase,f:renderFuentes,l:renderDetalleB,c:renderDetalleC,i:renderDetalleI})[S.vista](); }
 function cambiarVista(v){
   if(v==="c") v="m";
   S.vista=v; const _ao=document.body.classList.contains("asis-on"); document.body.className="v-"+v+(_ao?" asis-on":""); S.q=""; $("#q").value="";
