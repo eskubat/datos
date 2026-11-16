@@ -26,5 +26,40 @@
  "eus-ayuda-subvencion-2026-2605nebauzoetarako3lerroe": {
   "ocultar": true,
   "motivo": "Convocatoria de Horizonte Europa (HORIZON-NEB-2026-01) que exige un consorcio de al menos tres entidades de tres países: no se publica según el criterio del 15/11/2026 sobre convocatorias europeas. Decisión del responsable, 16/11/2026."
+ },
+ "bdns-928634": {
+  "ocultar": true,
+  "motivo": "Temporal: no se publica vacía hasta rehacer la ficha con la ordenanza de Urduliz (ya en docs_extra.json). Decisión del responsable, 16/11/2026."
+ },
+ "bdns-929565": {
+  "ocultar": true,
+  "motivo": "Temporal: no se publica vacía hasta rehacer la ficha con la ordenanza de piscinas de Urduliz (ya en docs_extra.json). Decisión del responsable, 16/11/2026."
+ },
+ "bob-bob-2026a196-ii-5229-": {
+  "ocultar": true,
+  "motivo": "No es una ayuda: concurso para cubrir un puesto de trabajo del Ayuntamiento de Sopuerta (BOB 196, 2026). Decisión del responsable, 16/11/2026."
+ },
+ "eus-ayuda-subvencion-2026-260417i3floatpartzuergoa": {
+  "estado": "proxima",
+  "inicio": "2027-04-01",
+  "fin": null,
+  "textoPlazo": "La 1.ª convocatoria cerró el 10/11/2026; la 2.ª está anunciada para abril de 2027, sin fecha de cierre publicada.",
+  "motivo": "Se publica como próxima (2.ª convocatoria anunciada para abril de 2027, fin sin determinar); revisar cuando se publique. Decisión del responsable, 16/11/2026."
+ },
+ "eus-ayuda-subvencion-2026-260603ekintzailetzafuntsa": {
+  "ocultar": true,
+  "motivo": "No es una ayuda (no_es_ayuda): noticia sobre un fondo de inversión de la Comisión, BMZ y KfW para empresas sociales del sur del Mediterráneo; no la puede pedir nadie en Euskadi. Decisión del responsable, 16/11/2026."
+ },
+ "eus-ayuda-subvencion-2026-260616liehiatulgenfertilizante": {
+  "ocultar": true,
+  "motivo": "No es una ayuda (no_es_ayuda): noticia que junta Lehiatu Inversión 2026 (plazo ya cerrado), regímenes de calidad y una propuesta sobre fertilizantes. Decisión del responsable, 16/11/2026."
+ },
+ "eus-ayuda-subvencion-2026-260616luzaroeibinvesteuom": {
+  "ocultar": true,
+  "motivo": "No es una ayuda (no_es_ayuda): noticia sobre el aval del Gobierno Vasco a Luzaro para préstamos del BEI a pymes, sin convocatoria. Decisión del responsable, 16/11/2026."
+ },
+ "bog-c2606753-htm": {
+  "fin": "2026-11-30",
+  "motivo": "El BOG solo publica la modificación del presupuesto; según la página de Socioeconomía de oñati.eus, el plazo de solicitud acaba el 30/11/2026. Corrección de la tarea de correcciones, 16/11/2026."
  }
 }
