@@ -308,36 +308,36 @@
  {
   "id": "gip-laiz02",
   "h": "3d32c2c7bcf2ed6e",
-  "titulo": "Subvenciones para gastos de proyectos de desarrollo integral de las áreas rurales",
+  "titulo": "Subvenciones para proyectos de desarrollo integral de las zonas rurales",
   "organismoSugerido": "dfg",
-  "organismoFuente": "Diputación Foral de Gipuzkoa · Jesus Maria Eizaguirre",
+  "organismoFuente": "Diputación Foral de Gipuzkoa",
   "archivo": "cache/fuentes/gip-laiz02-59b29e55.txt",
   "caracteres": 67956
  },
  {
   "id": "gip-laga02",
   "h": "3b3dc7076726fc80",
-  "titulo": "Ayudas para la contratación de seguros agrarios",
+  "titulo": "Ayudas para contratar seguros agrarios",
   "organismoSugerido": "dfg",
-  "organismoFuente": "Diputación Foral de Gipuzkoa · Maria Jose LASHERAS",
+  "organismoFuente": "Diputación Foral de Gipuzkoa",
   "archivo": "cache/fuentes/gip-laga02-be9521ec.txt",
   "caracteres": 111634
  },
  {
   "id": "gip-laga03",
   "h": "d3a39d30eb4a19d9",
-  "titulo": "Ayudas destinadas a servicios de sustitución en las explotaciones agrarias",
+  "titulo": "Ayudas para servicios de sustitución en explotaciones agrarias",
   "organismoSugerido": "dfg",
-  "organismoFuente": "Diputación Foral de Gipuzkoa · Izaskun Alberdi",
+  "organismoFuente": "Diputación Foral de Gipuzkoa",
   "archivo": "cache/fuentes/gip-laga03-33ae8106.txt",
   "caracteres": 141733
  },
  {
   "id": "gip-laga09",
   "h": "5fe22ae36f2ca1b5",
-  "titulo": "Ayudas para la prestación de servicios de asesoramiento",
+  "titulo": "Ayudas para prestar servicios de asesoramiento agrario",
   "organismoSugerido": "dfg",
-  "organismoFuente": "Diputación Foral de Gipuzkoa · Jesus Mari Eizaguirre Arocena",
+  "organismoFuente": "Diputación Foral de Gipuzkoa",
   "archivo": "cache/fuentes/gip-laga09-e67e9da2.txt",
   "caracteres": 74164
  },
@@ -346,25 +346,25 @@
   "h": "d108a7a340a623cd",
   "titulo": "Ayudas a baserritarras mixtos profesionales",
   "organismoSugerido": "dfg",
-  "organismoFuente": "Diputación Foral de Gipuzkoa · Olatz Estomba",
+  "organismoFuente": "Diputación Foral de Gipuzkoa",
   "archivo": "cache/fuentes/gip-laga11-934e633e.txt",
   "caracteres": 186520
  },
  {
   "id": "gip-inbez1",
   "h": "82032e3e8c681980",
-  "titulo": "Informe de Calificación a Efectos Fiscales: Deducción por actividades de innovación tecnológica",
+  "titulo": "Deducciones fiscales por innovación tecnológica (informe de calificación)",
   "organismoSugerido": "dfg",
-  "organismoFuente": "Diputación Foral de Gipuzkoa · Berrikuntza",
+  "organismoFuente": "Diputación Foral de Gipuzkoa",
   "archivo": "cache/fuentes/gip-inbez1-9f205fc0.txt",
   "caracteres": 300000
  },
  {
   "id": "gip-inbez3",
   "h": "1637d988b6a87169",
-  "titulo": "Informe de Certificación Previa de Entidad Innovadora",
+  "titulo": "Deducciones fiscales para entidades innovadoras (certificación previa)",
   "organismoSugerido": "dfg",
-  "organismoFuente": "Diputación Foral de Gipuzkoa · Berrikuntza",
+  "organismoFuente": "Diputación Foral de Gipuzkoa",
   "archivo": "cache/fuentes/gip-inbez3-adad83dc.txt",
   "caracteres": 300000
  },
@@ -4509,15 +4509,6 @@
   "caracteres": 73053
  },
  {
-  "id": "prest-bizkaia-pnc-jubilacion",
-  "h": "1f02cf4a3f1d4b07",
-  "titulo": "Pensión no contributiva de jubilación (PNC jubilación)",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación Foral de Bizkaia",
-  "archivo": "cache/fuentes/prest-bizkaia-pnc-jubilacion-75b35bd2.txt",
-  "caracteres": 15479
- },
- {
   "id": "prest-bono-social-electrico",
   "h": "457c167225849042",
   "titulo": "Bono social eléctrico para consumidores vulnerables",
@@ -4525,6 +4516,15 @@
   "organismoFuente": "Gobierno de España",
   "archivo": "cache/fuentes/prest-bono-social-electrico-a18ad288.txt",
   "caracteres": 300000
+ },
+ {
+  "id": "prest-bizkaia-pnc-jubilacion",
+  "h": "1f02cf4a3f1d4b07",
+  "titulo": "Pensión no contributiva de jubilación (PNC jubilación)",
+  "organismoSugerido": "dfb",
+  "organismoFuente": "Diputación Foral de Bizkaia",
+  "archivo": "cache/fuentes/prest-bizkaia-pnc-jubilacion-75b35bd2.txt",
+  "caracteres": 15479
  },
  {
   "id": "prest-bizkaia-pnc-incapacidad",
