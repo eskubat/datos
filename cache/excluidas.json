@@ -8,5 +8,75 @@
   "parecidaA": "eus-servicios-0336326",
   "motivo": "Descartada",
   "fecha": "2026-11-16"
+ },
+ "eus-ayuda-subvencion-2026-260706defentsaproiektutaf": {
+  "parecidaA": "eus-ayuda-subvencion-2026-edip26edpciproiektuak",
+  "motivo": "Las dos son la misma información de euskadi.eus sobre el EDIP (proyectos europeos de defensa de interés común), con el mismo título y fin; solo cambian la fecha de inicio (6/07 y 28/09/2026) y el texto (áreas prioritarias / proyectos aprobados).",
+  "fecha": "2026-11-16"
+ },
+ "eus-ayuda-subvencion-2026-edip26edpciproiektuak": {
+  "parecidaA": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
+  "motivo": "Las dos son la misma información de euskadi.eus sobre el EDIP (proyectos europeos de defensa de interés común), con el mismo título y fin; solo cambian la fecha de inicio (6/07 y 28/09/2026) y el texto (áreas prioritarias / proyectos aprobados).",
+  "fecha": "2026-11-16"
+ },
+ "eus-ayuda-subvencion-2026-concm-2026-weblan00-content-es": {
+  "parecidaA": "bdns-923970",
+  "motivo": "Misma convocatoria de Lanbide de contratación para la conciliación llegada por euskadi.eus (con fechas y cuantía) y por la BDNS (sin fechas ni cuantía); misma página oficial.",
+  "fecha": "2026-11-16"
+ },
+ "bdns-923970": {
+  "parecidaA": "eus-ayuda-subvencion-2026-concm-2026-weblan00-content-es",
+  "motivo": "Misma convocatoria de Lanbide de contratación para la conciliación llegada por euskadi.eus (con fechas y cuantía) y por la BDNS (sin fechas ni cuantía); misma página oficial.",
+  "fecha": "2026-11-16"
+ },
+ "eus-ayuda-subvencion-2026-bono-social-termico-2025": {
+  "parecidaA": "eus-ayuda-subvencion-2023-bono-social-termico-2022",
+  "motivo": "Mismo Bono Social Térmico (Decreto 149/2023) en dos ediciones: 2025 (abierta, de 139,64 € a 400,69 €) y 2022 (histórica, de 262,25 € a 797,22 €).",
+  "fecha": "2026-11-16"
+ },
+ "eus-ayuda-subvencion-2023-bono-social-termico-2022": {
+  "parecidaA": "eus-ayuda-subvencion-2026-bono-social-termico-2025",
+  "motivo": "Mismo Bono Social Térmico (Decreto 149/2023) en dos ediciones: 2025 (abierta, de 139,64 € a 400,69 €) y 2022 (histórica, de 262,25 € a 797,22 €).",
+  "fecha": "2026-11-16"
+ },
+ "eus-ayuda-subvencion-2026-hezibi-centros-de-formacion-weblan00-content-es": {
+  "parecidaA": "eus-ayuda-subvencion-2025-hezibi-centros-de-formacion-weblan00-content-es",
+  "motivo": "HEZIBI centros de formación, ediciones 2026 y 2025 (y 2024): mismo título, 400 € por persona y mismos destinatarios; cambian las bases (Resolución de 20/10/2026 frente a la Orden de 2012) y la forma de pago.",
+  "fecha": "2026-11-16"
+ },
+ "eus-ayuda-subvencion-2025-hezibi-centros-de-formacion-weblan00-content-es": {
+  "parecidaA": "eus-ayuda-subvencion-2026-hezibi-centros-de-formacion-weblan00-content-es",
+  "motivo": "HEZIBI centros de formación, ediciones 2026 y 2025 (y 2024): mismo título, 400 € por persona y mismos destinatarios; cambian las bases (Resolución de 20/10/2026 frente a la Orden de 2012) y la forma de pago.",
+  "fecha": "2026-11-16"
+ },
+ "eus-ayuda-subvencion-2024-hezibi-centros-de-formacion-weblan00-content-es": {
+  "parecidaA": "eus-ayuda-subvencion-2026-hezibi-centros-de-formacion-weblan00-content-es",
+  "motivo": "Edición 2024 de HEZIBI centros de formación, igual que las de 2025 y 2026.",
+  "fecha": "2026-11-16"
+ },
+ "eus-ayuda-subvencion-2026-hezibi-empresa-weblan00-content-es": {
+  "parecidaA": "eus-ayuda-subvencion-2025-hezibi-empresa-weblan00-content-es",
+  "motivo": "HEZIBI empresas, ediciones 2026 y 2025 (y 2024): mismo título, 2.000 € por año de contrato y mismos destinatarios; cambian las bases y la fecha de fin (2026 frente a 2030).",
+  "fecha": "2026-11-16"
+ },
+ "eus-ayuda-subvencion-2025-hezibi-empresa-weblan00-content-es": {
+  "parecidaA": "eus-ayuda-subvencion-2026-hezibi-empresa-weblan00-content-es",
+  "motivo": "HEZIBI empresas, ediciones 2026 y 2025 (y 2024): mismo título, 2.000 € por año de contrato y mismos destinatarios; cambian las bases y la fecha de fin (2026 frente a 2030).",
+  "fecha": "2026-11-16"
+ },
+ "eus-ayuda-subvencion-2024-hezibi-empresa-weblan00-content-es": {
+  "parecidaA": "eus-ayuda-subvencion-2026-hezibi-empresa-weblan00-content-es",
+  "motivo": "Edición 2024 de HEZIBI empresas, igual que las de 2025 y 2026.",
+  "fecha": "2026-11-16"
+ },
+ "ara-01630001": {
+  "parecidaA": "ara-01609002",
+  "motivo": "Ayudas al gasóleo de transportistas de la Diputación Foral de Álava con el mismo texto: la nueva (RDL 25/2026, plazo 1/11–31/12/2026) y probablemente la anterior (RDL 7/2026, fin 2027-09-01 dudoso).",
+  "fecha": "2026-11-16"
+ },
+ "ara-01609002": {
+  "parecidaA": "ara-01630001",
+  "motivo": "Ayudas al gasóleo de transportistas de la Diputación Foral de Álava con el mismo texto: la nueva (RDL 25/2026, plazo 1/11–31/12/2026) y probablemente la anterior (RDL 7/2026, fin 2027-09-01 dudoso).",
+  "fecha": "2026-11-16"
  }
 }
