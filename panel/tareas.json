@@ -90,8 +90,10 @@
   "fuente": "Ayuntamientos de las capitales",
   "quien": "Claude",
   "prioridad": 9,
-  "estado": "pendiente",
-  "seccion": "fuentes"
+  "estado": "bloqueada",
+  "seccion": "fuentes",
+  "fecha": "2026-11-16",
+  "nota": "La red de la sesión no llega a bilbao.eus, donostia.eus ni vitoria-gasteiz.org (el proxy rechaza la conexión) y WebFetch de sus catálogos pide un permiso que nadie responde en una pasada programada. Por lo que se ve en datos.gob.es, sus portales de datos abiertos publican subvenciones concedidas, no convocatorias abiertas, así que habría que leer el HTML de sus catálogos de trámites; hoy tenemos 3 ayudas de Bilbao, 2 de Donostia y 9 de Vitoria-Gasteiz (por BDNS y boletines). No he cambiado código."
  },
  {
   "id": "comarcales",
@@ -471,5 +473,15 @@
   "quien": "Claude",
   "estado": "pendiente",
   "fecha": "2026-11-16"
+ },
+ {
+  "id": "red-capitales",
+  "titulo": "Permitir las webs de Bilbao, Donostia y Vitoria-Gasteiz en la red de las tareas programadas",
+  "detalle": "Para leer los catálogos de ayudas de las capitales la tarea tiene que poder leer bilbao.eus, donostia.eus y vitoria-gasteiz.org. En claude.ai: Ajustes > Capacidades, añadir esos dominios a los permitidos. Después, reabrir la tarea «Buscar datos abiertos de Bilbao, Donostia y Vitoria-Gasteiz».",
+  "fuente": "Ayuntamientos de las capitales",
+  "quien": "Tú",
+  "prioridad": 23,
+  "estado": "pendiente",
+  "seccion": "fuentes"
  }
 ]
