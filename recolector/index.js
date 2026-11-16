@@ -323,6 +323,23 @@ async function main() {
     const corto = tituloCorto(a.titulo, a.organismo, a.ambito);
     if (corto !== a.titulo) { a.tituloOficial = a.titulo; a.titulo = corto; }
   }
+  // Ajustes decididos a mano por el responsable: cache/ajustes_ayudas.json =
+  // {id: {ocultar: true, unidaA: "<id de la ayuda que ya la recoge>"} | {estado: "proxima", inicio: null, fin: null}}
+  // Las ocultas no se publican ni pasan a pendientes de resumen; en las demás se sustituyen los campos indicados.
+  {
+    let ajustes = {};
+    try { ajustes = JSON.parse(fs.readFileSync(path.join('cache', 'ajustes_ayudas.json'), 'utf8')); } catch {}
+    let ocultadas = 0, cambiadas = 0;
+    ayudas = ayudas.filter((a) => {
+      const aj = ajustes[a.id];
+      if (!aj || typeof aj !== 'object') return true;
+      if (aj.ocultar) { ocultadas++; return false; }
+      for (const [k, v] of Object.entries(aj)) if (k !== 'unidaA' && k !== 'motivo') a[k] = v;
+      cambiadas++;
+      return true;
+    });
+    if (ocultadas || cambiadas) log(`Ajustes a mano: ${ocultadas} ocultas, ${cambiadas} cambiadas`);
+  }
   // Fuera: cerradas y las que no tienen fechas y llevan más de 90 días registradas
   const limite = new Date(Date.now() - 90 * 864e5).toISOString().slice(0, 10);
   ayudas = ayudas.filter((a) => a.estado !== 'cerrada' && !(a.estado === 'sinfecha' && a.registrada && a.registrada < limite));

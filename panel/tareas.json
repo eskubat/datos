@@ -179,8 +179,8 @@
   "seccion": "base",
   "quien": "Claude",
   "prioridad": 2,
-  "estado": "pendiente",
+  "estado": "hecha",
   "fecha": "2026-11-16",
-  "nota": "Añadida al plan de mejoras"
+  "nota": "Nuevo archivo cache/ajustes_ayudas.json que el recolector aplica antes de filtrar y de preparar los pendientes de resumen: oculta «ara-multiservicios-rurales-gastos-2026» (unida a «ara-subvenciones-para-multiservicios-2026») y deja «bog-c2606598-htm» como próxima sin fechas. Se aplica en el recolector de las 05:41: se espera una ayuda menos publicada y una abierta menos que pasa a próxima. Queda pendiente revisar el plazo de la ayuda principal de multiservicios, que la sede da en plazo aunque la Orden Foral 156/2026 fijaba un mes."
  }
 ]
