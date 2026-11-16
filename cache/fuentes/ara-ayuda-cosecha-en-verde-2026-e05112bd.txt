@@ -846,3 +846,34 @@ Si fuese necesario, la organización que expidió su certificado le asesorará s
 Configuración
 Aceptar todo
 Rechazar todas
+
+### cómo digitalizar documentos: https://www.euskadi.eus/documentacion/guia-para-digitalizar-documentos/web01-sede/es/
+Sede electrónica
+Gobierno Vasco
+Si dispone de un escaner
+Siga las instrucciones de su aplicación de ordenador para realizar el escaneo de documentos.
+Recomendaciones:
+En color original
+En una resolución que permita leer cualquier texto o imagen importante
+Si el documento tiene más de una página, todas ellas en un solo archivo (escanear multiples páginas)
+Guardarlo en un formato habitualmente admitido, por ejemplo, PDF o JPG (mejor PDF por si posteriormente se quiere firmar digitalmente)
+Si no dispone de un escaner, puede utilizar un teléfono móvil
+Con aplicaciones para el móvil que escanean documentos (opción recomendada):
+Existen aplicaciones tanto para dispositivos Android como para dispositivos iOS de Apple que permiten escaner documentos a través de la cámara. Puede buscar en sus respectivos catálogos utilizando, por ejemplo, la palabra clave "scanner":
+Google Play
+Apple Store
+Con la cámara del móvil:
+Puede usar la cámara y realizar una foto del documento.
+Nota: si el documento tiene más de una página, une las imágenes en un solo archivo (en Internet dispones de herramientas gratuitas, como por ejemplo, PDF24 Tools ).
+Hacer la foto en una superficie plana de color blanca
+Evitar que otros elementos interfieran en el espacio del documento (manos, dedos...)
+Luz adecuada y sin sombras sobre el documento
+Enfoque adecuado que permita que se lea el texto
+Posibilidad de firmar digitalmente el documento
+Una vez digitalizado el documento, si dispone de un certificado digital, también podrá firmar digitalmente el documento. ¿Cómo?
+Mediante la aplicación de ordenador Adobe Acrobat Reader (sitio web oficial ):
+Acceda al Menú herramientas
+Escoja la opción Certificados
+Pulse sobre la opción Firmar digitalmente
+Mediante alguna herramienta de firma, como la herramienta de firma de Izenpe
+Nota: si hay varias personas para firmar el documento, todas ellas deberán disponer de certificado digital.

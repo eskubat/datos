@@ -1899,6 +1899,586 @@ de notificaciones, petición en que se
 concreta la solicitud, fecha, firma de la
 persona interesada y nombre del fichero.
 
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1547458
+DIRULAGUNTZAREN XEDE DEN JARDUERAREN EDO PROGRAMAREN DIRU-SARREREN ETA
+GASTUEN AURREKONTUA / PRESUPUESTO DE INGRESOS Y GASTOS DE LA ACTIVIDAD O
+PROGRAMA A SUBVENCIONAR EN EIBAR
+DIRU-SARREREN AURREKONTUA (zehaztu) / PRESUPUESTO DE INGRESOS (especificar)
+Elkartearenak berarenak (bazkideen kuotak, dohaitzak…)
+Propios de la asociación (cuotas socios/as, donativos…)
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+Jardueraren/programaren hartzaile izan diren pertsonenak (sarrerak…)
+De las personas destinatarias de la actividad/programa (entradas…)
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+Jarduerarako/programarako beste erakunde batzuenak (dirulaguntzak…)
+De otros organismos (subvenciones…) para la actividad/programa
+Eibarko udalari eskatutako dirulaguntza / Subvención solicitada al Ayuntamiento de Eibar
+DIRU-SARRERAK GUZTIRA / TOTAL INGRESOS
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+GASTUEN AURREKONTUA (zehaztu) / PRESUPUESTO DE GASTOS / (especificar)
+Eibarko jarduerarekin lotutako gastuak / Gastos relacionados con la actividad en Eibar
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+GASTUAK GUZTIRA / TOTAL GASTOS
+0,00 €
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1547456
+HI5000_D003
+Igogailuak jartzeko edo igogailu zaharrak kendu eta berriak ipintzeko edo/eta fatxadak
+zaharberritzeko obrak egiteko dirulaguntza eskaera izenpetu duen pertsona jabekideen
+erkidegoko edo komunitateko presidentea dela esaten duen dokumentua
+Documento acreditativo de que la persona que suscribe la solicitud de subvención para la
+realización de obras de instalación y sustitución de ascensores y/o restauración de fachadas
+ostenta la condición de presidente/a de la comunidad de propietarios/as
+Jabeen Komunitate edo Erkidegoaren Idazkari edo Idazkari-administratzailea
+Secretario/a o Secretario/a Administrador/a de la Comunidad de Propietarios/as
+Izen-abizenak
+Nombre y apellidos
+NAN…
+DNI…
+Jabeen Komunitate edo Erkidegoa
+Comunidad de Propietarios/as
+Jabeen Erkidegoko edo Komunitateko Presidenteren izendapenaren datuak
+Datos relativos al nombramiento de presidente/a de la comunidad de propietarios/as
+Jabeen Erkidegoko edo
+Komunitateko Presidentea
+Presidente/a de la comunidad
+de propietarios/as
+Jabeen Komunitatearen Batzarreko data
+Fecha de la Junta de Propietarios/as
+Idatzi honen bidez, nik, adierazitako eraikineko
+Jabeen Komunitate edo Erkidegoaren Idazkari edo
+Idazkari-administratzaile naizen honek, hauxe da
+jasota utzi nahi dudana: goian adierazitako datako
+Jabeen
+Komunitatearen
+Batzarrean,
+Jabeen
+Erkidegoko edo Komunitateko Presidentearen
+izendapena adostu zela, beraz, berak du
+komunitatearen edo erkidegoaren ordezkaritza.
+Mediante la presente, en mi condición de
+Secretario/a o Secretario/a Administrador/a de la
+Comunidad de Propietarios arriba indicada,
+hago constar que en la Junta de Propietarios/as
+de fecha de referencia se acordó el
+nombramiento de el/la Presidente/a de dicha
+Comunidad de Propietarios/as, por lo que
+ostenta la representación de la comunidad.
+Jabeen komuniteko idazkariaren edo idazkari/administratzailearen sinadura eta data
+Firma de el/la secretario/a o secretario/a administrador/a de la comunidad de propietarios/as y fecha
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1547457
+HI5000_D004
+Diruz laguntzea eskatu den igogailuak jartzeko edo igogailu zaharrak kendu eta berriak
+ipintzeko edo/eta fatxadak zaharberritzeko obrak egiteko erkidegoak edo komunitateak
+eman duen baietza jasotzen duen dokumentua
+Documento acreditativo del acuerdo de conformidad de la comunidad de propietarios/as con la
+ejecución de las obras de instalación y sustitución de ascensores y/o restauración de fachadas
+para las que se solicita la subvención
+Jabeen Komunitate edo Erkidegoaren Idazkari edo Idazkari-administratzailea
+Secretario/a o Secretario/a Administrador/a de la Comunidad de Propietarios/as
+Izen-abizenak
+Nombre y apellidos
+NAN…
+DNI…
+Jabeen Komunitate edo Erkidegoa
+Comunidad de Propietarios/as
+Jabeen Erkidegoaren edo Komunitatearen akordioa
+Acuerdo de la comunidad de propietarios/as
+Jabeen Komunitatearen Batzarreko data
+Fecha de la Junta de Propietarios/as
+Egin beharreko obrak
+Obras a ejecutar
+Idatzi honen bidez, nik, adierazitako eraikineko
+Jabeen Komunitate edo Erkidegoaren Idazkari edo
+Idazkari-administratzaile naizen honek, hauxe da
+jasota utzi nahi dudana: goian adierazitako datako
+Jabeen Komunitatearen Batzarrean, dokumentu
+honetan jasotako obrak egiteko baimena onartu zela.
+Mediante la presente, en mi condición de
+Secretario/a o Secretario/a Administrador/a de la
+Comunidad de Propietarios arriba indicada, hago
+constar que en la Junta de Propietarios/as de
+fecha de referencia dicha Comunidad de
+Propietarios/as aprobó la ejecución de las obras
+descritas en el presente documento.
+Jabeen komuniteko idazkariaren edo idazkari/administratzailearen sinadura eta data
+Firma de el/la secretario/a o secretario/a administrador/a de la comunidad de propietarios/as y fecha
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1547455
+HI5000_D002
+TITULARRA ETA KONTUA
+TITULAR Y CUENTA
+Kontuaren titularra / Titular de la cuenta
+Izen-abizenak edo izen-soziala
+Nombre y apellidos o razón social
+NAN, IFZ…
+DNI, NIF…
+Helbidea
+Domicilio
+Herria
+Población
+PK
+CP
+Herrialdea
+País
+Telefonoak
+Teléfonos
+Probintzia
+Provincia
+Kontuaren titularraren sinadura eta data / Firma de el/la titular de la cuenta y fecha
+Banku erakundeak bete beharreko datuak / Datos a rellenar por la entidad bancaria
+Bankua
+Banco
+Agentzia
+Agencia
+Herria
+Población
+Goian aipatutako pertsona/entitatea ondoko
+kontu honen titularra dela ziurtatzen dugu:
+PK
+CP
+Certificamos que la persona/entidad arriba
+referenciada es titular de la siguiente cuenta:
+Banku erakundea: sinadura, zigilua eta data / Entidad bancaria: firma, sello y fecha
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1547454
+HI5000_D001
+Igogailuak instalatzeko edo ordezkatzeko, atarietarako irisgarritasuna
+hobetzeko eta fatxadak zaharberritzeko obrak egiteko dirulaguntzak
+Subvenciones para realizar obras de instalación o sustitución
+de ascensores, mejora de la accesibilidad a portales y restauración de
+fachadas
+Eskatzailea: Jabekideen komunitatea, eraikinaren jabea (pertsona fisikoa edo juridikoa)
+Solicitante: Comunidad de propietarios/as, persona física o jurídica propietaria del edificio
+Izena edo izen soziala
+Nombre o razón social
+1go abizena
+Apellido 1
+2. abizena
+Apellido 2
+NAN, IFZ…
+DNI, NIF…
+Kalea
+Calle
+Zenbakia
+Número
+Km
+Km
+Pegora
+Portal
+Blokea
+Bloque
+Solairua
+Piso
+Eskailera
+Escalera
+Atea
+Puerta
+PK
+CP
+Herria
+Población
+Probintzia
+Provincia
+Herrialdea
+País
+Telefonoak
+Teléfonos
+Faxa
+Fax
+e-maila
+email
+Dirulaguntza jasotzeko kontua (IBAN: 24 digitu) / Cuenta para cobro de subvención (IBAN: 24 dígitos)
+Legezko ordezkaria / Representante legal
+Izena edo izen soziala
+Nombre o razón social
+1go abizena
+Apellido 1
+2. abizena
+Apellido 2
+NAN, IFZ…
+DNI, NIF…
+Kalea
+Calle
+Zenbakia
+Número
+Km
+Km
+Pegora
+Portal
+Blokea
+Bloque
+Solairua
+Piso
+Eskailera
+Escalera
+Atea
+Puerta
+PK
+CP
+Herria
+Población
+Probintzia
+Provincia
+Herrialdea
+País
+Telefonoak
+Teléfonos
+Faxa
+Fax
+e-maila
+email
+HI5000_D001
+Igogailuak instalatzeko edo ordezkatzeko, atarietarako irisgarritasuna
+hobetzeko eta fatxadak zaharberritzeko obrak egiteko dirulaguntzak
+Subvenciones para realizar obras de instalación o sustitución
+de ascensores, mejora de la accesibilidad a portales y restauración de
+fachadas
+Obrak egingo diren eraikina / Edificio objeto de las obras
+Kalea
+Calle
+Zenbakia
+Número
+Km
+Km
+Pegora
+Portal
+Blokea
+Bloque
+Solairua
+Piso
+Eskailera
+Escalera
+Atea
+Puerta
+PK
+CP
+Obraren amaiera data
+Fecha finalización de la obra
+Eskaeraren xedea / Objeto de la solicitud
+Fatxada zaharberritzea / Rehabilitación de fachada
+M2
+Birgaikuntza energetikoa / Rehabilitación energética
+M2
+Igogailua jartzea edo aldatzea / Instalación o sustitución de ascensor
+Atarietarako irisgarritasuna hobetzea / Mejora de accesibilidad exterior a portales
+Aitorpenak eta baimenak / Declaraciones y autorizaciones
+Sinatzaileak BERE ARDURAPEAN HAUXE AITORTZEN DU:
+El/la firmante DECLARA BAJO SU RESPONSABILIDAD que:
+Eskatzen den dirulaguntzari dagokionez: / Respecto a la subvención objeto de la solicitud:
+Eskatzaileak deialdian ezartzen diren baldintza guztiak bete eta oinarriak goitik behera onartzen dituela. /
+El/la solicitante reúne todos los requisitos establecidos en la convocatoria y acepta íntegramente las bases.
+Eskatzaileak deialdian ezartzen diren baldintza guztiak EZ dituela betetzen eta/edo oinarriak EZ dituela
+goitik behera onartzen. / El/la solicitante NO reúne todos los requisitos establecidos en la convocatoria y/o que
+NO acepta íntegramente las bases.
+Dirulaguntzen itzulerari dagokionez: / Respecto al reintegro de subvenciones:
+Eskatzaileak EZ duela inongo zorrik dirulaguntzak itzuli behar izateagatik. / El/la solicitante NO tiene pendiente el pago de obligaciones por reintegro de subvenciones.
+Eskatzaileak BAI dituela zorrak dirulaguntzak itzuli behar izateagatik.
+El/la solicitante SI tiene pendiente el pago de obligaciones por reintegro de subvenciones.
+Dirulaguntzen onuradun izateko debekuei dagokionez: / Respecto a las prohibiciones para ser beneficiario/a de subvenciones:
+Eskatzailea Dirulaguntzetarako Lege Orokorraren 13.2. artikuluak onuradun izateko aurreikusitako
+debekuren batean ere ez dagoela sartuta.
+El/la solicitante NO se halla incursa en ninguna de las prohibiciones para ser beneficiario/a previstas en el artículo
+13.2 de la Ley General de Subvenciones.
+Eskatzailea Dirulaguntzetarako Lege Orokorraren 13.2. artikuluak onuradun izateko aurreikusitako
+debekuren batean BAI dagoela sartuta.
+El/la solicitante SI se halla incursa en alguna de las prohibiciones para ser beneficiario/a previstas en el artículo
+13.2 de la Ley General de Subvenciones.
+HI5000_D001
+Igogailuak instalatzeko edo ordezkatzeko, atarietarako irisgarritasuna
+hobetzeko eta fatxadak zaharberritzeko obrak egiteko dirulaguntzak
+Subvenciones para realizar obras de instalación o sustitución
+de ascensores, mejora de la accesibilidad a portales y restauración de
+fachadas
+Prozedura tramitatzeko behar diren datuak/dokumentuak biltzea
+Recabar datos/documentos necesarios para el procedimiento
+Eibarko Udalak datu-bitartekaritzako plataformen eta
+beste sistema elektroniko batzuen bidez, zuzenean
+kontsultatuko edo bilduko ditu sektore publikoko
+edozein erakundetan edo bestelako entitatetan
+deialdian eskatzen diren betekizunak egiaztatzeko
+beharrezkoak diren datuak, Administrazio Publikoen
+esku dauden datuak eta dokumentuak ez aurkezteko
+eskubidean
+oinarrituta
+(Administrazio
+Publikoen
+Administrazio Prozedura Erkidearen 39/2015 Legearen
+28. art.).
+El Ayuntamiento de Eibar consultará o recabará directamente, a través de plataformas de intermediación de
+datos y otros sistemas electrónicos, en cualquier entidad del sector público u otras entidades, los datos y documentos necesarios para acreditar los requisitos exigidos en la convocatoria en base al derecho a no aportar
+datos y documentos que estén en poder de Administraciones Públicas (art. 28 de la Ley 39/2015 del Procedimiento Administrativo Común de las Administraciones
+Públicas).
+Zehazki, Eibarko Udalak honako datu/dokumentu hauek
+kontsultatu edo bilduko ditu, bai eskaera egiteko unean,
+bai hurrengo berrikuspenetan, salbu eta interesdunak
+horren aurka egiten badu, arrazoiak emanda (Europako
+Parlamentuaren eta Kontseiluaren 2016ko apirilaren
+27ko 2016/679 (EB) Erregelamenduaren 21 artikulua).
+Aurka eginez gero, aurka egiteko arrazoiak adierazi
+beharko dira, eta dagokion dokumentazioa aurkeztu.
+Concretamente el Ayuntamiento de Eibar consultará o
+recabará los siguientes datos/documentos tanto en el
+momento de la solicitud como en sucesivas revisiones,
+salvo que la persona interesada se opusiera a ello de
+forma motivada (art. 21 del Reglamento (UE) 2016/679
+del Parlamento Europeo y del Consejo, de 27 de abril
+de 2016). En caso de oposición deberán indicarse las
+razones de la oposición y aportar la documentación correspondiente.
+DATU-BITARTEKARITZAKO PLATAFORMEN ETA BESTE SISTEMA ELEKTRONIKO BATZUEN BIDEZ
+KONTSULTATUKO DIREN DATUAK / DOKUMENTUAK.
+DATOS / DOCUMENTOS QUE SE CONSULTARÁN A TRAVÉS DE PLATAFORMAS DE INTERMEDIACIÓN DE
+DATOS Y OTROS SISTEMAS ELECTRÓNICOS.
+Gipuzkoako Foru Aldundia: legezko ordezkarien erroldaren kontsulta.
+Diputación Foral de Gipuzkoa: consulta del censo de representación legal.
+Gizarte Segurantzarekiko betebeharrak ordainduta izatea.
+Estar al corriente de pago de obligaciones con la Seguridad Social.
+Gipuzkoako, Bizkaiko eta/edo Arabako Foru Ogasunarekiko zerga-betebeharrak egunean izatea.
+Estar al corriente de obligaciones tributarias con Hacienda Foral de Gipuzkoa, Bizkaia y/o Álava.
+Datuak/Dokumentuak biltzeari aurka egitea / Oposición a recabar datos/documentos
+Nik, sinatzaileak, NIRE ARDURAPEAN, HAUXE AITORTZEN DUT: EIBARKO UDALAK ADIERAZITAKO
+PROZEDURA TRAMITATZEKO BEHAR DIREN DATUAK/DOKUMENTUAK BILTZEAREN AURKA NAGOELA,
+eta esandako datu/dokumentu horiek aurkezten ditut. Hauek dira kontra egiteko nire arrazoiak: / Yo, firmante,
+DECLARO BAJO MI RESPONSABILIDAD que me OPONGO A QUE EL AYUNTAMIENTO DE EIBAR RECABE
+LOS DATOS/DOCUMENTOS NECESARIOS PARA LA TRAMITACIÓN DEL PROCEDIMIENTO INDICADO, y apor to dichos datos/documentos. Estos son los motivos de mi oposición:
+HI5000_D001
+Igogailuak instalatzeko edo ordezkatzeko, atarietarako irisgarritasuna
+hobetzeko eta fatxadak zaharberritzeko obrak egiteko dirulaguntzak
+Subvenciones para realizar obras de instalación o sustitución
+de ascensores, mejora de la accesibilidad a portales y restauración de
+fachadas
+Oharrak / Observaciones
+Jakinarazteko modua / Forma de notificación
+Posta bidez (helbidea aukeratu) / Correo ordinario (seleccionar dirección)
+Eskatzailearen helbidea / Domicilio de el/la solicitante
+Legezko ordezkariaren helbidea / Domicilio de el/la representante legal
+Beste bat / Otro:
+Elektronikoki - Herritarraren postontzia (NANe, IZENPE): adierazi jakinarazpen-bidalketaren abisurako e-maila.
+Electrónicamente - Buzón ciudadano/a (DNIe, IZENPE): indicar email para recibir aviso de envío de notificación.
+e-maila:
+Komunikazio-hizkuntza / Idioma de comunicación
+Euskara / Euskera
+Ele bitan (euskara – gaztelera) / Bilingüe (euskera - castellano)
+Eransten dituen dokumentuak / Documentos que adjunta
+HI5000_D001
+Igogailuak instalatzeko edo ordezkatzeko, atarietarako irisgarritasuna
+hobetzeko eta fatxadak zaharberritzeko obrak egiteko dirulaguntzak
+Subvenciones para realizar obras de instalación o sustitución
+de ascensores, mejora de la accesibilidad a portales y restauración de
+fachadas
+LEGE OHARRA: DATU PERTSONALEN BABESA
+ADVERTENCIA LEGAL: PROTECCIÓN DE DATOS
+PERSONALES
+Informazioaren tratamenduak kontuan hartuko du Datu
+Pertsonalak babesteari
+eta
+eskubide
+digitalak
+bermatzeari buruzko abenduaren 5eko 3/2018 Lege
+Organikoan ezarritakoa eta aplikagarri diren gainerako
+xedapenak.
+El tratamiento de la información tendrá en cuenta lo
+establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de
+los Derechos Digitales, y demás disposiciones que resulten de aplicación.
+Datu pertsonalen tratamenduak Udalak pertsona fisikoei,
+elkarteei eta erakundeei emandako laguntzak eta
+dirulaguntzak izapidetzeko behar den informazio
+pertsonala kudeatzea du xede, aintzat hartuta interesatuak
+emandako
+baimena
+eta
+tratamendu-arduradunari
+esleitutako ahalordeak, zeinak jasota dauden hurrenez
+hurren datu pertsonalak eta haien zirkulazio librea dela-eta
+pertsona
+fisikoen
+babesari
+buruzko
+Europako
+Parlamentuaren eta Kontseiluaren 2016/679 (EB)
+Araudiaren 6.1 artikuluaren a) eta e) letretan.
+Los datos personales serán tratados con la finalidad de
+gestionar la información personal necesaria para la tramitación de ayudas y subvenciones concedidas por el Ayuntamiento a personas físicas, asociaciones y entidades, en
+base al consentimiento otorgado por la persona interesada y al ejercicio de poderes públicos conferidos al responsable del tratamiento contemplados, respectivamente, en
+las letras a) y e) del artículo 6.1 del Reglamento (UE)
+2016/679 del Parlamento Europeo y del Consejo, relativo
+a la protección de las personas físicas en lo que respecta
+al tratamiento de sus datos personales y a la libre circulación de estos datos.
+Responsable del tratamiento: Área de Intervención
+(Unidad de Contratación y Subvenciones) del Ayuntamiento de Eibar.
+Teléfono 943- 70 84 09. Email: kontrata@eibar.eus
+Tratamenduaren arduraduna: Eibarko Udaleko Kontuhartzailetza Saila (Kontratazioen eta Dirulaguntzen Unitatea).
+Telefonoa: 943- 70 84 09. Emaila: kontrata@eibar.eus
+Jakinaren gainean nago, legez:
+• Nik
+emandako
+datuak
+goian
+adierazitako
+tratamenduan sartu eta zehaztutako helbururako
+erabiliko direla.
+• Emandako datuetan sartzeko, datuak zuzentzeko,
+datuak ezerezteko, datuak eramateko, datuen aurka
+egiteko edo datuen tratamenduari mugak jartzeko
+eskubideak erabili ahal ditudala posta bidez,
+elektronikoki (www.eibar.eus) edo PEGORA
+Herritarren Zerbitzurako Bulegora (Untzaga plaza 1)
+joanda.
+Me doy por advertido/a legalmente de que:
+• Los datos facilitados se integrarán en el tratamiento
+de referencia y se utilizarán para la finalidad indicada.
+• Puedo ejercer los derechos de acceso, rectificación,
+supresión, portabilidad, oposición o limitación al tratamiento de datos facilitados a través del correo, electrónicamente (www.eibar.eus) o presencialmente en
+PEGORA, Oficina de Servicio a la Ciudadanía (Untzaga plaza 1).
+Eskatzailearen edo legezko ordezkariaren sinadura eta data
+Firma de el/la solicitante o representante legal y fecha
+HI5000_D001
+Igogailuak instalatzeko edo ordezkatzeko, atarietarako irisgarritasuna
+hobetzeko eta fatxadak zaharberritzeko obrak egiteko dirulaguntzak
+Subvenciones para realizar obras de instalación o sustitución
+de ascensores, mejora de la accesibilidad a portales y restauración de
+fachadas
+AURKEZTU BEHARREKO AGIRIAK
+a) Dirulaguntzaren eskaera beste Administrazio Publikoetako erregistroetan aurkeztuz gero, igogailuak instalatzeko edo
+ordezkatzeko, atarietarako irisgarritasuna hobetzeko eta fatxadak zaharberritzeko obrak egiteko dirulaguntzaren eskaera,
+behar bezala beteta eta sinatuta; HI5000_D001 eskabide-eredua, udal-webgunean (www.eibar.eus) eskuratu ahal izango
+da. Eskaera elektronikoki edo PEGORAn eginez gero, eskabide hori elektronikoki beteko da formulario baten bidez.
+b) Eskaera egiten duenaren nortasuna egiaztatzeko dokumentuak:
+• Jabe erkidegoek: Jabe Erkidegoaren Identifikazio Fiskaleko Zenbakia (IFZ).
+• Pertsona fisikoek: Eskatzailearen NANa, AIZ edo balio bereko dokumentua. Eraikinak jabe bat baino gehiago badu,
+jabe guztiena.
+• Pertsona juridikoek: entitatearen eraketa jasotzen duen eskritura edo dokumentua eta Estatutuak, Merkataritza
+Erregistroan edo dagokion erregistroan behar den moduan inskribatuta.
+c) Legezko ordezkapenaren kasuan, legezko ordezkariaren NANa edo horren balio bereko beste dokumenturen bat eta
+ordezkapena dokumentu bidez egiaztatua. Egiaztapen hori, zuzenbidean baliozkotzat har daitekeen edozein bitartekoren
+bidez egin daiteke (notario-ahalordeak, eskriturak…). Ordezkaria erkidegoko Idazkaria edo Idazkari administratzailea bada,
+Idazkariak edo Idazkari administratzaileak egindako dokumentua, dirulaguntzaren eskaera izenpetu duen pertsona Jabe
+Erkidegoko presidentea dela dioen agiria (HI5000_D003 eredua udal webgunean, www.eibar.eus, eskura daiteke). Ez da
+dokumentazio hori aurkeztu beharko, Ordezkaritza Gipuzkoako Foru Aldundiko legezko ordezkaritzaren erroldan
+erregistratuta egonez gero.
+d) Jabekideen erkidegoen kasuan, Erkidegoko Idazkari edo Idazkari-administratzaile den pertsonak egindako ziurtagiria,
+Erkidegoaren eta dirulaguntzaren xede diren obren exekuzioaren arteko adostasuna jasotzen duena (Udalaren webgunean
+—www.eibar.eus— eskuratu daiteke HI5000_D004 eredua) edo Jabeen Batzarraren akta.
+e) Zerga Gipuzkoatik, Bizkaitik edo Arabatik kanpoko lurraldeetan ordaindu behar izanez gero, zerga-betebeharrak
+egunean dituela egiaztatzen duen ziurtagiria.
+f) Eskatzaileak duen bankuko kontuaren titulartasuna egiaztatzeko agiri eguneratua, dirulaguntza hor ordaindu ahal izateko.
+Ondoko agiri hauetako edozein izango da baliokoa: Laburpen bankarioa; aurrezki-libreta; banketxeak egindako ziurtagiria
+edo “Titular-kontua” izeneko orria (HI5000_D002 eredua udal webgunean, www.eibar.eus, eskura daiteke) behar bezala
+beteta banketxeak emandako zigiluarekin.
+g) Dirulaguntzari egotzitako gastuen eta diru-sarreren zerrenda sailkatua, HI5000_D005 ereduaren arabera (udal
+webgunean, www.eibar.eus, eskuragarri) behar bezala beteta eta sinatuta. Gastuen eta diru-sarreren zerrenda hau formatu
+editagarrian ere aurkeztu beharko da. Diru-sarrerek eta gastuek bat etorri behar dute.
+h) Fakturak edo froga-balio baliokidea duten ordezko dokumentuak, trafiko juridikoan balioa dutenak edo eraginkortasun
+administratiboa dutenak, egindako gastua egiaztatzen dutenak, ordainketa-egiaztagiriekin batera, GASTUEN ETA DIRUSARREREN ZERRENDAN (HI5000_D005) emandako ordena-zenbakiaren arabera korrelatiboki ordenatuta. Gastu berari
+dagozkion fakturen artxiboek GASTUEN ETA SARREREN ZERRENDAN (HI5000_D005) adierazitako ordenazenbakiarekin izendatuta egon behar dute.
+• Banku-transferentzia bidez egin beharko dira 400 euro edo hortik gorako ordainketa guztiak.
+• 400 eurotik beherako eskudiruzko ordainketak baino ez dira onartuko. Hornitzailearen ordainagiria aurkeztuz
+egiaztatuko dira, behar bezala sinatuta, ordainketa egiten duen subjektu zorduna eta gastuaren kontzeptua
+identifikatuta. Hornitzaile berari egindako ordainketak ezin izango dira zatikatu murrizketa hori saihesteko.
+i) Eskatutako eta/edo kobratutako beste dirulaguntzei eta laguntzei buruzko erantzukizunpeko adierazpena HI5000_D006
+ereduaren arabera (udal webgunean, www.eibar.eus, eskuragarri) behar bezala beteta eta sinatuta.
+j) Jarduerak garatzeko hornidura, obrak edo zerbitzuak kontratatu badira eta diruz lagun daitekeen gastuaren zenbatekoa
+15.000 €- tik gorakoa (BEZik gabe) bada hornidura- eta zerbitzu kontratuetarako, edo 40.000 €-tik gorakoa (BEZik gabe)
+obra-kontratuetarako, hornitzaile desberdinen hiru eskaintza. Honako kasu hauetan: a) kontratuaren objektuaren ezaugarri
+bereziak direla-eta, merkatuan horiek egiten, ematen edo hornitzen dituen behar besteko erakunderik ez dagoenean, b)
+gastua dirulaguntza eman aurretik egin denean edo/eta c) aurkeztutako eskaintzen artean proposamen ekonomiko
+onuragarriena aukeratu ez denean, salbuespen horiek justifikatzen dituen dokumentua.
+k) Egindako obren amaierako egoeraren argazkiak.
+l) Birgaikuntza energetikoaren dirulaguntza eskatu bada, eraikinaren eraginkortasun energetikoaren ziurtagiria, obrak egin
+baino lehen eta ondoren.
+m) Aurretik Udalean aurkeztu ez bada, EIT dokumentua (Eraikuntzen Ikuskaritza Teknikoa), xml fitxategian eta pdf
+formatuan. Hala badagokio, zuzenketa ziurtagiria ere aurkeztuko da.
+a), b) eta c) dokumentuen kasuan deklarazio bat egin daiteke dirulaguntzaren eskaeran, dokumentu horiek aldaketarik ez
+dutela jasan eta Udalak lehendik badituela adierazten.
+HI5000_D001
+Igogailuak instalatzeko edo ordezkatzeko, atarietarako irisgarritasuna
+hobetzeko eta fatxadak zaharberritzeko obrak egiteko dirulaguntzak
+Subvenciones para realizar obras de instalación o sustitución
+de ascensores, mejora de la accesibilidad a portales y restauración de
+fachadas
+DOCUMENTACIÓN A PRESENTAR
+a) En caso de presentar la solicitud en los registros de otras Administraciones Públicas, solicitud de subvención para para
+realizar obras de instalación o sustitución de ascensores, mejora de la accesibilidad a portales y restauración de fachadas
+debidamente cumplimentada y firmada, según modelo HI5000_D001 que se podrá obtener en la web municipal (www.eibar.eus). En caso de realizar la solicitud electrónicamente o en PEGORA, dicha solicitud se cumplimentará electrónicamente a través de un formulario.
+b) Documentos acreditativos de la personalidad de el/la solicitante:
+• Comunidades de propietarios/as: Número de Identificación Fiscal (NIF) de la Comunidad de Propietarios/as.
+• Personas físicas: DNI, NIE o documento equivalente de el/la solicitante. En caso de que el edificio cuente con más
+de un/a propietario/a, de todos/as los/as propietarios/as.
+• Personas jurídicas: escritura o documento en que conste la constitución de la entidad y los estatutos, debidamente
+inscritos en el Registro Mercantil o en el que corresponda.
+c) En caso de representación legal, DNI o documento equivalente de el/la representante legal y acreditación documental de
+la representación. La acreditación podrá hacerse por cualquier medio válido en derecho (poderes notariales, escrituras…).
+En caso de que el/la representante sea el/la Secretario/a o Secretario/a Administrador/a de la Comunidad, documento expedido por la persona que ostente la condición de Secretario/a o Secretario/a Administrador/a de la Comunidad, en el que
+conste que la persona que suscribe la solicitud ostenta la condición de Presidente/a de la Comunidad de propietarios/as
+(modelo HI5000_D003 disponible en la web municipal, www.eibar.eus). No será necesario presentar esta documentación
+en caso de que la representación esté registrada en el censo de representación legal de la Diputación Foral de Gipuzkoa.
+d) En caso de Comunidades de Propietarios/as, documento expedido por la persona que ostente la condición de
+Secretario/a o Secretario/a Administrador/a de la Comunidad, en el que conste el acuerdo de conformidad de la Comunidad
+con la ejecución de las obras para las que se solicita la subvención (modelo HI5000_D004 disponible en la web municipal,
+www.eibar.eus) o acta de la Junta de propietarios/as.
+e) Certificación acreditativa de encontrarse al corriente en sus obligaciones tributarias en caso de tributar en Territorios
+diferentes a Gipuzkoa, Bizkaia o Álava.
+f) Documento justificativo actualizado de la titularidad de la cuenta bancaria de el/la solicitante donde realizar el pago de la
+subvención. Será válido, cualquiera de los siguientes documentos: extracto bancario; libreta; certificado expedido por la
+entidad bancaria o el impreso “Titular-cuenta” (modelo HI5000_D002 disponible en la web municipal, www.eibar.eus)
+debidamente cumplimentado y sellado por la entidad bancaria.
+g) Una relación clasificada de los gastos e ingresos imputados a la subvención según modelo HI5000_D005 (disponible en
+la web municipal, www.eibar.eus) debidamente cumplimentada y firmada. Esta relación clasificada de gastos e ingresos
+también deberá aportarse en formato editable. Los ingresos y gastos deben coincidir.
+h) Facturas o documentos sustitutivos de valor probatorio equivalente con validez en el tráfico jurídico o con eficacia
+administrativa acreditativos del gasto realizado, junto con los justificantes de pago, ordenados correlativamente según el
+número de orden asignado en la RELACIÓN DE GASTOS E INGRESOS (HI5000_D005). Los archivos relativos a facturas
+pertenecientes a un mismo gasto deben estar nombrados con el número de orden señalado en la RELACIÓN DE GASTOS
+E INGRESOS (HI5000_D005).
+ Será obligatorio realizar por transferencia bancaria todos los pagos por importe igual o superior a 400 euros.
+ Únicamente se admitirán pagos en efectivo por importe inferior a 400 euros. Se justificarán mediante la
+presentación del documento acreditativo del recibo del proveedor, debidamente firmado, con identificación del
+sujeto deudor que efectúa el pago y el concepto del gasto. No podrán fraccionarse los pagos a un mismo proveedor
+para evitar esta restricción.
+i) Declaración responsable de otras subvenciones y ayudas cobradas y/o solicitadas según modelo HI5000_D006
+(disponible en la página web municipal, www.eibar.eus) debidamente cumplimentado y firmado.
+j) En el caso de que se hayan contratado suministros, obras o servicios para el desarrollo de las actividades y el importe del
+gasto subvencionable supere 15.000 € (IVA excluido) para los contratos de suministro y servicios, o 40.000 € (IVA excluido)
+para los contratos de obras, tres ofertas de diferentes proveedores. En los siguientes casos a) que por las especiales
+características del objeto del contrato no exista en el mercado suficiente número de entidades que los realicen, presten o
+suministren, b) que el gasto se hubiere realizado con anterioridad a la concesión de la subvención y c) que la elección entre
+las ofertas presentadas no haya recaído en la propuesta económica más ventajosa, documento en el que se justifiquen
+dichas excepciones.
+k) Fotografías del estado final de las obras realizadas.
+l) En caso de haber solicitado la subvención por rehabilitación energética, certificación de la eficiencia energética del
+edificio antes y después de la ejecución de las obras de rehabilitación de fachada.
+m) Documento de la Inspección Técnica del Edificio (ITE), en archivo xml y formato pdf, si no se ha presentado con
+anterioridad en el Ayuntamiento. En su caso, se presentará el certificado de subsanación.
+En el caso de los documentos a), b) y c) es posible realizar una declaración en la misma solicitud de subvención indicando
+que esos documentos ya se encuentran en poder del Ayuntamiento y que no han sufrido modificaciones.
+
 ### Boletín oficial: https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2026/11/06/c2607198.pdf
 213
 TOKI ADMINISTRAZIOA

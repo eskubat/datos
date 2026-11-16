@@ -2257,6 +2257,535 @@ solicitud, fecha, firma de la persona
 interesada y nombre del fichero.
 21
 
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539486
+KI1400_D002
+TITULARRA ETA KONTUA
+TITULAR Y CUENTA
+Kontuaren titularra / Titular de la cuenta
+Izen soziala
+Razón social
+IFZ…
+NIF…
+Helbidea
+Domicilio
+Herria
+Población
+PK
+CP
+Herrialdea
+País
+Telefonoak
+Teléfonos
+Probintzia
+Provincia
+Kontuaren titularraren edo bere legezko ordezkariaren sinadura eta data
+Firma de el/la titular de la cuenta o su representante legal y fecha
+Banku erakundeak bete beharreko datuak / Datos a rellenar por la entidad bancaria
+Bankua
+Banco
+Agentzia
+Agencia
+Herria
+Población
+Goian aipatutako entitatea ondoko kontu honen
+titularra dela ziurtatzen dugu:
+PK
+CP
+Certificamos que la entidad arriba referenciada es
+titular de la siguiente cuenta:
+Banku erakundea: sinadura, zigilua eta data / Entidad bancaria: firma, sello y fecha
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539490
+KI1400_D003
+DIRUZ LAGUNTZEKO ESKATU DEN
+PROIEKTUAREN EDO JARDUERAREN MEMORIA:
+Eibarko udalerrian kirol-entitateen jarduera arruntak
+finantzatzeko dirulaguntzak
+MEMORIA DEL PROYECTO O ACTIVIDAD
+OBJETO DE SUBVENCIÓN:
+subvención para la financiación de actividades ordinarias de
+entidades deportivas en el municipio de Eibar
+KI1400_D003
+AURKIBIDEA / ÍNDICE
+1. Dirulaguntzaren datuak / Datos de la subvención ............................................................... 3
+2. Erakundearen datuak / Datos de la entidad ......................................................................... 3
+3. Dirulaguntzaren xede diren jardueren datuak / Datos de las actividades objeto de
+subvención .................................................................................................................................... 4
+3.1. Denboraldirako edo urterako jardueren programa edo egitasmoa / Programa de
+actividades para la temporada o año .......................................................................................... 4
+3.2. Txapelketetan jokatzen dauden taldeak eta kopurua / Equipos en competición y
+número .......................................................................................................................................... 5
+3.3. Parte hartzen duten txapelketen zerrenda / Competiciones en las que se participa ..... 5
+3.4. Helburuak eta espero diren emaitzak / Objetivos y resultados esperados .................... 5
+3.5. Aurreikusitako ez ohiko jarduerak edo ekitaldiak / Actividades de carácter
+extraordinario previstas ............................................................................................................... 5
+3.6. Erakunde eskatzaileak behar dituen baliabide materialak eta giza baliabideak
+proiektua-jarduera gauzatzeko / Recursos materiales y humanos de la entidad solicitante
+necesarios para la ejecución del proyecto-actividad ................................................................. 6
+3.7. Euskararen erabilera: euskaraz gauzatuko diren jardueren aurreikuspena, euskarak
+erakundearen irudian eta antolaketan duen lekua… / Uso del euskera: acciones, actividades
+que se prevén realizar en euskera, espacio que tiene el euskera en la imagen y en la
+organización de la entidad…........................................................................................................ 6
+3.8. Sexuaren eta generoaren araberako desberdintasunak saihesteko edo zuzentzeko
+ekintza eta jarduera espezifikoak / Acciones específicas para evitar o corregir las
+desigualdades por sexo y género................................................................................................ 6
+3.9. Kirol-entitatearen talde eta lizentzien kopurua / Cantidad de equipos y licencias de la
+entidad deportiva .......................................................................................................................... 7
+3.10.
+Kirol-entitatearen teknikari eta entrenatzaileen titulazioak / Titulaciones de los/as
+técnicos/as y entrenadores/as de la entidad deportiva .............................................................. 8
+3.11.
+Taldeak eta eskola lizentziak / Equipos y número de licencias escolares.................. 9
+4. Jarduera-proiektua gauzatzeko egutegia (kronograma) / Calendario de ejecución de la
+actividad- proyecto (cronograma) ............................................................................................. 10
+5. Dirulaguntzaren xede den jardueraren edo programaren diru-sarreren eta gastuen
+aurrekontua / Presupuesto de ingresos y gastos de la actividad o programa objeto de
+subvención .................................................................................................................................. 11
+6. Kudeatzeko metodoa eta talde teknikoaren deskribapena / Método de gestión y
+descripción del equipo técnico .................................................................................................. 12
+7. Proiektuaren-jardueraren jarraipenerako eta ebaluaziorako tresnak / Instrumentos para
+el seguimiento y evaluación del proyecto-actividad ................................................................ 12
+8. Proiektuaren-jardueraren adierazleak / Indicadores del proyecto-actividad ................... 13
+9. Proiektuaren-jardueraren komunikazioa eta zabalkundea garatzeko metodologia,
+bitartekoak eta baliabideak / Metodología, medios y recursos para la comunicación y difusión
+del proyecto-actividad ................................................................................................................ 14
+9.1. Komunikazioaren helburuak / Objetivos de la comunicación ....................................... 14
+9.2. Komunikazio bitartekoak eta -ekintzak / Medios y acciones de comunicación ........... 14
+9.3. Komunikazio baliabideak / Recursos de comunicación ................................................ 14
+KI1400_D003
+1. Dirulaguntzaren datuak / Datos de la subvención
+Denboraldia edo urtea
+Año o temporada
+Udalari eskatutako dirulaguntzaren zenbatekoa
+Importe de la subvención solicitada al Ayuntamiento
+Dirulaguntzaren eskatzailea
+eta IFZa
+Solicitante de la subvención y
+NIF
+Izen-abizenak / Nombre y apellidos:
+Proiektuaren edo jardueraren arduraduna
+Responsable del proyecto o
+actividad
+Posta elektronikoa / Correo electrónico:
+Telefonoa / Teléfono:
+2. Erakundearen datuak / Datos de la entidad
+BAZKIDE ETA BOLUNTARIO KOPURUA (guztira
+eta Eibarkoak, sexueta/edo generoaren arabera bereizita)
+PERSONAS ASOCIADAS
+Y VOLUNTARIOS/AS (total
+y los/as de Eibar, desagregados por sexo y/o género)
+EIBARREN LANEAN DARAMATZAN URTEAK
+AÑOS DE FUNCIONAMIENTO EN EIBAR
+UDALAREKIN IZAN DUEN
+ELKARLANA (jarduera,
+data eta arloa adierazi)
+COLABORACIÓN MANTENIDA CON EL AYUNTAMIENTO (indicar actividad, fecha y área)
+KI1400_D003
+ESKOLA-KIROLAREKIN
+ELKARLANAK
+COLABORACIONES CON
+EL DEPORTE ESCOLAR
+3. Dirulaguntzaren xede diren jardueren datuak / Datos de las actividades objeto de subvención
+3.1. Denboraldirako edo urterako jardueren programa edo egitasmoa / Programa de
+actividades para la temporada o año
+KI1400_D003
+3.2. Txapelketetan jokatzen dauden taldeak eta kopurua / Equipos en competición y
+número
+3.3. Parte hartzen duten txapelketen zerrenda / Competiciones en las que se participa
+3.4. Helburuak eta espero diren emaitzak / Objetivos y resultados esperados
+3.5. Aurreikusitako ez ohiko jarduerak edo ekitaldiak / Actividades de carácter extraordinario previstas
+KI1400_D003
+3.6. Erakunde eskatzaileak behar dituen baliabide materialak eta giza baliabideak proiektua-jarduera gauzatzeko / Recursos materiales y humanos de la entidad solicitante necesarios para la ejecución del proyecto-actividad
+3.7. Euskararen erabilera: euskaraz gauzatuko diren jardueren aurreikuspena, euskarak erakundearen irudian eta antolaketan duen lekua… / Uso del euskera: acciones, actividades que se prevén realizar en euskera, espacio que tiene el euskera
+en la imagen y en la organización de la entidad…
+3.8. Sexuaren eta generoaren araberako desberdintasunak saihesteko edo zuzentzeko ekintza eta jarduera espezifikoak / Acciones específicas para evitar o corregir las desigualdades por sexo y género
+KI1400_D003
+3.9. Kirol-entitatearen talde eta lizentzien kopurua / Cantidad de equipos y licencias
+de la entidad deportiva
+Entitatearen izena
+Nombre entidad
+Modalitatea
+Modalidad
+Kategoria
+Categoría
+Taldekoa / De equipo
+Gizon./Emak
+Masc./Femen.
+Lizentzia kop.
+Nº licencias
+Banakakoa / Individual
+Parte hartzen duen lehiaketaren izena
+Nombre de la competición en que participa
+Entitatearen kirol-sail bakoitzeko orri bat bete eta federakuntzaren sinadura eta zigilua jarri.
+Rellenar una hoja por cada sección deportiva de la entidad e incluir sello y firma de la Federación correspondiente.
+DAGOKION FEDERAKUNTZAK BETETZEKO
+A RELLENAR POR LA FEDERACIÓN CORRESPONDIENTE
+FEDERACIÓN GUIPUZCOANA DE ______________________ GIPUZKOAKO FEDERAZIOA
+Behean sinatzen duenak, aipatutako federazioko idazkariak, goian adierazitako datuak egiazkoak direla ziurtatzen du.
+El/la abajo firmante, como Secretario/a de la Federación de referencia, certifica que los datos arriba indicados
+son ciertos.
+Federazioaren zigilua / Sello de la Federación
+Idazkariaren sinadura eta eguna / Firma secretario/a y fecha
+KI1400_D003
+3.10. Kirol-entitatearen teknikari eta entrenatzaileen titulazioak / Titulaciones de los/as
+técnicos/as y entrenadores/as de la entidad deportiva
+Entitatearen izena
+Nombre entidad
+Teknikaria edo entrenatzailea: izen-abizenak
+Técnico/a o entrenador/a: nombre y apellidos
+Lizentzia federatuaren zk.
+Nº licencia federativa
+Titulazioaren izena
+Denominación de la titulación
+Entitatearen kirol-sail bakoitzeko orri bat bete eta federakuntzaren sinadura eta zigilua jarri.
+Rellenar una hoja por cada sección deportiva de la entidad e incluir sello y firma de la Federación correspondiente.
+DAGOKION FEDERAKUNTZAK BETETZEKO
+A RELLENAR POR LA FEDERACIÓN CORRESPONDIENTE
+FEDERACIÓN GUIPUZCOANA DE ______________________ GIPUZKOAKO FEDERAZIOA
+Behean sinatzen duenak, aipatutako federazioko idazkariak, goian adierazitako datuak egiazkoak direla ziurtatzen du.
+El/la abajo firmante, como Secretario/a de la Federación de referencia, certifica que los datos arriba indicados
+son ciertos.
+Federazioaren zigilua / Sello de la Federación
+Idazkariaren sinadura eta eguna / Firma secretario/a y fecha
+KI1400_D003
+3.11. Taldeak eta eskola lizentziak / Equipos y número de licencias escolares
+Entitatearen izena
+Nombre entidad
+Modalitatea
+Modalidad
+Taldekoa / De equipo
+Kirol modalitatea
+Modalidad deportiva
+Taldearen izena
+Nombre equipo
+Banakakoa / Individual
+Lizentzia kop.
+Nº licencias
+Ikastetxea
+Centro escolar
+Oharra: banakako kirol modalitatetan, ikastetxe bereko eskola-ume guztiak talde bakar batean adierazi. / Nota: en caso
+de modalidades deportivas individuales, indicar como un único equipo a todos/as los/as escolares de un centro.
+Gipuzkoako Foru Aldundiaren zigilua
+Sello de la Diputación Foral de Gipuzkoa
+Ordezkariaren sinadura eta eguna / Firma representante y fecha
+KI1400_D003
+4. Jarduera-proiektua gauzatzeko egutegia (kronograma) / Calendario de ejecución de la actividad- proyecto
+(cronograma)
+PROIEKTUAK-JARDUERAK / PROYECTOS-ACTIVIDADES
+1
+2
+3
+4
+5
+URTEA / AÑO
+6
+7
+8
+9
+10
+11
+12
+KI1400_D003
+5. Dirulaguntzaren xede den jardueraren edo programaren diru-sarreren
+eta gastuen aurrekontua / Presupuesto de ingresos y gastos de la actividad o programa objeto de subvención
+Txertatu KI1400_D004 dokumentuaren irudia / Insertar imagen del documento KI1400_D004.
+KI1400_D003
+6. Kudeatzeko metodoa eta talde teknikoaren deskribapena / Método de
+gestión y descripción del equipo técnico
+7. Proiektuaren-jardueraren jarraipenerako eta ebaluaziorako tresnak /
+Instrumentos para el seguimiento y evaluación del proyecto-actividad
+KI1400_D003
+8. Proiektuaren-jardueraren adierazleak / Indicadores del proyecto-actividad
+•
+•
+Emaitzen adierazleak: proiektuaren eraginkortasuna neurtzen dute: ezarritako helburuak lortu diren eta zein neurritan. / Indicadores de resultados: miden la eficacia del proyecto: si se han conseguido los objetivos establecidos y en qué medida.
+Kudeaketa-adierazleak: proiektuaren efizientzia neurtzen dute: erabilitako baliabideak lortutako emaitzekiko proportzionalak izan diren. / Indicadores de gestión: miden la eficiencia del proyecto: si los recursos empleados han sido proporcionales a los resultados obtenidos.
+Mota
+Tipología
+Izena / Nombre
+Adierazleen deskripzioa / Descripción de los indicadores
+•
+Emaitzen
+adierazleak
+Indicadores
+de resultados
+Kudeaketa
+adierazleak
+Indicadores
+de gestión
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+KI1400_D003
+9. Proiektuaren-jardueraren komunikazioa eta zabalkundea garatzeko
+metodologia, bitartekoak eta baliabideak / Metodología, medios y recursos para la comunicación y difusión del proyecto-actividad
+9.1. Komunikazioaren helburuak / Objetivos de la comunicación
+9.2. Komunikazio bitartekoak eta -ekintzak / Medios y acciones de comunicación
+9.3. Komunikazio baliabideak / Recursos de comunicación
+14 | 14
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539491
+DIRULAGUNTZAREN XEDE DEN JARDUERAREN EDO PROGRAMAREN DIRU-SARREREN ETA GASTUEN
+AURREKONTUA / PRESUPUESTO DE INGRESOS Y GASTOS DE LA ACTIVIDAD O PROGRAMA A
+SUBVENCIONAR EN EIBAR
+DIRU-SARREREN AURREKONTUA (zehaztu) / PRESUPUESTO DE INGRESOS (especificar)
+Bazkideen kuotak / Cuotas de socios/as
+Kirolarien kuotak / Cuotas de deportistas
+Jardueretako parte-hartzaileak: ekarpena / Aportación participantes en actividades
+Sarreren salmenta / Venta entradas
+Lankidetza-hitzamenak / Convenios con otros clubes
+Babeslegoa / Patrocinio privado
+Zozketak / Rifas y sorteos
+Merchandising (kamisetak, pinak…) / Merchandising (camisetas, pines…)
+Taberna / Bar
+Eibarko udalari eskatutako dirulaguntza / Subvención solicitada al Ayuntamiento de Eibar
+Foru Aldundiaren dirulaguntzak / Subvenciones Diputación Foral
+Eusko Jaurlaritzaren dirulaguntzak / Subvenciones Gobierno Vasco
+Beste diru sarrerak / Otros ingresos
+DIRU-SARRERAK GUZTIRA / TOTAL INGRESOS
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+GASTUEN AURREKONTUA (zehaztu) / PRESUPUESTO DE GASTOS / (especificar)
+Pertsonal-gastuak / Gastos de personal
+Kirolarien ordainketak / Compensaciones a deportistas
+Entrenatzaileei ordainketak / Compensaciones a entrenadores/as
+0,00 €
+0,00 €
+0,00 €
+Beste laguntza teknikoak (medikua, masajista, gestoria…) / Asistencias técnicas varias (médico, masajista, gestoría….)
+0,00 €
+Jokalarien lizentziak / Licencias jugadores/as
+Lehiaketetan taldeen izen-ematea / Inscripción equipos en competiciones
+Azterketa medikoak / Reconocimientos médicos
+Arbitrajeak… / Arbitrajes…
+Kirol instalazioen alokairua / Alquiler instalaciones deportivas
+Egoitza sozialaren alokairua / Alquiler sede social
+Egoitzaren mantentzea (ura, argindarra, berogailua, telefonoa, Internet, garbiketa…) / Mantenimiento de la sede (agua, luz,
+calefacción, teléfono, Internet, limpieza…)
+Administrazioa (bulegoko materiala…) / Administración (material oficina…)
+Garraio-gastuak / Gastos desplazamiento
+Farmazi-, higiene-gastuak… / Gastos farmacéuticos, higiénicos…
+Kirol material inbentariaezina (kamisetak, baloiak…) / Material deportivo no inventariable (camisetas, balones…)
+Sariak, garaikurrak… / Premios, trofeos…
+Jardueretako parte-hartzaileak: dietak eta ostatua / Dietas y alojamiento a participantes en actividades
+Publitzitate-gastuak (iragarkiak, liburuzkak, kartelak…) / Gastos publicitarios (anuncios, folletos, carteles…)
+Aseguroak / Seguros
+Beste gastuak / Otros gastos
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+GASTUAK GUZTIRA / TOTAL GASTOS
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+0,00 €
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539495
+KI1400_D005
+ESKATUTAKO ETA/EDO KOBRATUTAKO BESTE DIRULAGUNTZEI ETA
+LAGUNTZEI BURUZKO ERANTZUKIZUNPEKO ADIERAZPENA /
+DECLARACIÓN RESPONSABLE DE OTRAS SUBVENCIONES Y AYUDAS
+COBRADAS Y/O SOLICITADAS
+Dirulaguntzaren datuak / Datos de la subvención
+Dirulaguntza
+Subvención
+KIROL-ERAKUNDEEN
+OHIKO
+JARDUERAK
+FINANTZATZEKO
+DIRULAGUNTZAK / SUBVENCIONES PARA LA FINANCIACIÓN DE
+ACTIVIDADES ORDINARIAS DE ENTIDADES DEPORTIVAS
+Deialdiaren urtea
+Año de la convocatoria
+Aitorpen-egilea / Declarante
+Izen abizenak
+Nombre y apellidos
+NAN / DNI
+Nire izenean edo honako
+erakundearen ordezkari gisa
+Por mi mismo/a o en
+representación de la siguiente
+entidad
+IFZ / NIF
+Honako hau naizen aldetik:
+En calidad de
+ERANTZUKIZUNEZ
+AITORTZEN
+DUT,
+dirulaguntzaren onuradunari dagokionez,
+DECLARO BAJO MI RESPONSABILIDAD,
+respecto el/la beneficiario/a de la subvención,
+que
+Dirulaguntzaren xede den jarduera aurrera eramateko EZ dela ez eskatu ez eskuratu
+beste laguntzarik; Eibarko Udalari baino ez zaio eskatu. / Para ejecutar la actividad
+objeto de la subvención NO se han solicitado ni obtenido otras ayudas aparte de la
+correspondiente a la solicitada al Ayuntamiento de Eibar.
+Dirulaguntzaren xede den jarduera aurrera eramateko ondoren adierazten diren
+laguntzak eskatu eta/edo eskuratu direla: / Para ejecutar la actividad objeto de la
+subvención se han solicitado y/u obtenido las siguientes ayudas:
+Eskatutako dirulaguntzen zerrenda / Relación de subvenciones solicitadas
+Erakundea
+Organismo
+Diruz lagundutako programa
+Programa subvencionado
+Halaber, konpromisoa hartzen dut organo instrukzio-egileari berehala
+jakinarazteko (zirkunstantzia horren berri izan bezain laster), baldin
+eta laguntza-programa honen esparruan eskatutako jarduera edo
+helburu bererako beste edozein dirulaguntza edo laguntza jasotzen
+badut, adierazpen hau sinatu ondoren.
+Eskatutako diru-kopurua (€)
+Importe solicitado (€)
+Jasotako diru-kopurua (€)
+Importe concedido (€)
+Así mismo, manifiesto el compromiso de comunicar fehacientemente
+de inmediato al órgano instructor, en cuanto se tenga conocimiento de
+tal circunstancia, la concesión de cualquier otra subvención o ayuda
+para la misma actuación o finalidad que la solicitada en el contexto del
+presente programa de ayudas, que pueda suceder en fecha posterior
+a la de firma de esta declaración.
+Sinadura / Firma
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539505
+KI1400_D010
+BIDAI- ETA OSTATU-GASTUEI BURUZKO ERANTZUKIZUNPEKO
+ADIERAZPENA / DECLARACIÓN RESPONSABLE SOBRE GASTOS DE
+DESPLAZAMIENTOS Y ALOJAMIENTOS
+Dirulaguntzaren datuak / Datos de la subvención
+Diruz lagundu den proiektuarenjardueraren izenburua
+Título del proyecto-actividad
+subvencionado
+Espediente zenbakia
+Número de expediente
+Deialdiaren urtea
+Año de la convocatoria
+Udalak emandako
+dirulaguntzaren zenbatekoa
+Importe de la subvención concedida
+por el Ayuntamiento
+Joan-etorrien eta ostatuen
+gastuak
+Gastos de desplazamientos
+y alojamiento
+Aitorpen-egilea / Declarante
+Izen abizenak
+Nombre y apellidos
+NAN
+DNI
+Nire izenean edo
+honako erakundearen
+ordezkari gisa
+Por mi mismo/a o en
+representación de la
+siguiente entidad
+IFZ
+NIF
+Honako hau naizen
+aldetik:
+En calidad de
+ERANTZUKIZUNEZ
+AITORTZEN
+DUT,
+dirulaguntzaren
+onuradunari
+dagokionez,
+erreferentziako proiektuaren-jardueraren pertsonal
+kostuei aplika dakizkiekeen erakundearen gastuen
+guztizkoa,
+gauzatze-aldiaren
+barruan,
+goian
+adierazitako zenbatekoa dela.
+DECLARO
+BAJO
+MI
+RESPONSABILIDAD,
+respecto a el/la beneficiario/a de la subvención, que
+el gasto total en el que la entidad ha incurrido en
+materia de desplazamiento y/o alojamiento, que
+están directa y estrictamente relacionadas con el
+proyecto-actividad de referencia, dentro de su
+periodo de ejecución, asciende al importe arriba
+indicado.
+Gastu horiek GASTUEN
+ZERRENDA dokumentuan
+frogagiriak erantsi direla.
+Dichos gastos han sido incluidos en el documento
+RELACIÓN DE GASTOS E INGRESOS y se han
+acompañado los documentos probatorios.
+ETA
+sartu
+Gastuak taula honetan xehatzen dira.
+SARREREN
+direla, eta
+Los gastos correspondientes se desglosan en la
+siguiente tabla.
+Izen-abizenak
+Nombre y apellidos
+Datak
+Fechas
+Bidaiaren arrazoia eta herria
+Motivo viaje y localidad
+Garraioa
+Transporte
+Autobidea
+Peaje
+Otorduak
+Manutención
+Ostatua Bestelakoak
+Alojamiento
+Otros
+GUZTIRA
+TOTAL
+Izen-abizenak
+Nombre y apellidos
+Datak
+Fechas
+Bidaiaren arrazoia eta herria
+Motivo viaje y localidad
+Garraioa
+Transporte
+Autobidea
+Peaje
+Otorduak
+Manutención
+Ostatua Bestelakoak
+Alojamiento
+Otros
+GUZTIRA
+TOTAL
+BIDAI- ETA OSTATU-GASTUAK GUZTIRA / TOTAL GASTOS VIAJE Y ALOJAMIENTO
+Sinadura / Firma
+
 ### Boletín oficial: https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2026/10/29/c2606912.pdf
 207
 TOKI ADMINISTRAZIOA

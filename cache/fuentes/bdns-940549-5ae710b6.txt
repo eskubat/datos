@@ -2147,7 +2147,7 @@ Resto de secciones
 cve: BOB-2026a216
 Jaialdiak / Festivales
 
-### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1551446
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1551447
 Sin./Fdo.: LEIXURI ARRIZABALAGA ARRUZA - 2026-10-30
 EUSKARA, KULTURA ETA KIROL SAILA-REN FORU DIPUTATUA
 DIPUTADO/A FORAL DE DEPARTAMENTO DE EUSKERA, CULTURA Y DEPORTE
@@ -5629,272 +5629,1301 @@ con la suma de esos 5 puntos se excediera dicho
 límite, solo se añadirán los puntos necesarios hasta
 alcanzar los 24 puntos.
 40
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+b) Lanbide-esperientzia: gehienez 17 puntu honako
+banaketa honen arabera:
+b) Experiencia profesional: hasta 17 puntos que se
+distribuyen de la siguiente manera:
+-
+Zuzendariarena, gehienez 6 puntu.
+-
+Del director o directora, hasta 6 puntos.
+-
+Gidoilariarena, gehienez 6 puntu.
+-
+De la persona guionista, hasta 6 puntos.
+-
+Produkzio lanetan diharduenarena: gehienez
+5 puntu.
+-
+De la persona que ejerza las funciones de
+producción, hasta 5 puntos.
+Zuzendariaren eta gidoilariaren kasuan, lanbideesperientzia 3 urtetik beherakoa bada, 3 puntu
+emango dira, eta 3 urtetik gorakoa bada, 6 puntu
+emango dira.
+En el caso del apartado de director o directora y la
+persona guionista, cuando la experiencia
+profesional sea inferior a 3 años, se concederán 3
+puntos y cuando sea igual o superior a 3 años, se
+concederán 6 puntos.
+Produkzio eginkizunak betetzen dituen pertsonaren
+kasuan, esperientzia profesionala 4 urtetik beherakoa
+bada, 3 puntu emango da, eta 4 urtetik gorakoa bada, 5
+puntu emango dira.
+En el caso del apartado de la persona que ejerza las
+funciones de producción, cuando la experiencia
+profesional sea inferior a 4 años, se concederán 3
+puntos y cuando sea igual o superior a 4 años, se
+concederán 5 puntos.
+Deialdi
+hau
+argitaratu
+arteko
+konputagarria baino ez da baloratuko.
+esperientzia
+Solamente se valorará la experiencia computable
+hasta la fecha de publicación de la presente
+convocatoria.
+c) Ibilbide profesionala: gehienez 9 puntu honako
+banaketa honen arabera:
+c) Trayectoria profesional: hasta 9 puntos que se
+distribuyen de la siguiente manera:
+-
+Zuzendariarena, gehienez 3 puntu.
+-
+Del director o directora, hasta 3 puntos.
+-
+Gidoilariarena, gehienez 3 puntu.
+-
+De la persona guionista, hasta 3 puntos.
+-
+Produkzio lanetan diharduenarena: gehienez
+3 puntu.
+-
+De la persona que ejerza las funciones de
+producción, hasta 3 puntos.
+Aurreko hiru ataletako bakoitzean, deialdi honetako I.
+eta II. eranskinetan ezarritako jaialdietan eta/edo
+sariak banatzeko zeremonietan gutxienez sari bat lortu
+bada, 3 puntu emango dira.
+En cada uno de los tres apartados anteriores
+cuando se haya obtenido al menos un galardón en
+cualquiera de los festivales y/o ceremonias de
+entrega de premios establecidos en los anexos I y II
+de esta convocatoria, se concederán 3 puntos.
+Zuzendari berria denean, ICAAren definizioaren
+arabera (gehienez ere bi film luze, edo bi lan baino
+gehiago ≥ 60 min, edo 200 minutu baino gehiagoko
+seriea, guztiak kalifikatuak), 3 puntu gehiago gehituko
+zaizkio irizpide horri, betiere ezarritako 9 puntuko
+muga gainditzen ez bada. 3 puntu horiek batuta muga
+hori gainditzen bada, 9 puntura iritsi arte behar diren
+puntuak bakarrik gehituko dira.
+Cuando se trate de un director o directora novel,
+conforme a la definición del ICAA (no más de dos
+largometrajes, o más de dos obras ≥ 60 min, o más
+de 200 minutos de serie; todas ellas calificadas), se
+añadirán 3 puntos adicionales en este criterio,
+siempre que no se supere el límite de 9 puntos
+establecido. Si con la suma de esos 3 puntos se
+excediera dicho límite, solo se añadirán los puntos
+41
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+necesarios hasta alcanzar los 9 puntos.
+d) Proiektuan emakumeak parte hartzea. Gehienez 10
+puntu emango dira, honako modu honen arabera:
+d) Participación de mujeres en el proyecto. Se
+concederán hasta un máximo de 10 puntos
+desglosados del siguiente modo:
+Bi puntu proiektuaren honako jarduera bakoitzean
+emakume arduradun bakoitzeko: gidoia, argazkia,
+produkzioa eta musika. Emakumeek beren-beregi
+jarduera bakoitzean parte hartuz gero puntuatuko da
+bakarrik.
+Dos puntos por cada mujer responsable en las
+siguientes actividades del proyecto: guion,
+fotografía, producción y música. Únicamente
+puntuará en los casos en que la participación de la
+mujer sea exclusiva en cada una de las actividades.
+Ikus-entzunezko lanaren zuzendaritzaz arduratzen
+diren pertsonen % 50 edo gehiago emakumeak
+direnean, 5 puntu emango dira.
+Cuando el 50 % o más de las personas encargadas
+de la dirección de la obra audiovisual sean mujeres,
+se concederán 5 puntos.
+e) Proiektuaren
+finantzaketa-maila,
+hau
+da,
+proiektuaren
+diru-sarrerak
+(diru-sarreren
+aurrekontuko
+kontzeptu
+guztiak,
+erakunde
+eskatzailearen ekarpena eta deialdi honetan
+eskatutako dirulaguntza izan ezik) eta aurrekontuko
+diru-sarreren zenbateko guztia zatitzean ateratzen
+den ratioa: Gehienez 20 puntu emango dira.
+e) Nivel
+de
+financiación
+del
+proyecto,
+entendiéndose por tal la ratio resultante de dividir
+los ingresos del proyecto (todos los conceptos del
+presupuesto de ingresos presentado excepto la
+aportación de la entidad solicitante y la subvención
+solicitada a esta convocatoria) entre el importe
+total de los ingresos del presupuesto: Se concederá
+hasta un máximo de 20 puntos.
+Puntuak honako modu honetan emango dira:
+autofinantzaketa handiena duen proiektuari 20 puntu
+emango zaizkio; hiruko erregelaren bidez gainerako
+puntuak banatuko dira.
+Para calcular la puntuación se procederá de la
+siguiente manera: al proyecto con mayor nivel de
+autofinanciación se le otorgará 20 puntos; por
+medio de una regla de tres se irán repartiendo el
+resto de puntos.
+Lortutako puntuek hamartarrak badituzte, zenbaki oso
+hurbilenera biribilduko da eta tartea parekoa izanez
+gero, handienera.
+En el caso de que la puntuación obtenida tenga
+decimales, se redondeará al número entero más
+cercano, y en caso de equidistancia al superior.
+f) Hizkuntza: gehienez 10 puntu honako banaketa
+honen arabera:
+f) Idioma: hasta 10 puntos que se distribuyen de la
+siguiente manera:
+Filmaren jatorrizko bertsioa euskaraz izatea, 10 puntu.
+Versión original en euskera, 10 puntos.
+Euskarazko itzulpena: 6 puntu.
+Existencia de versión en euskera, 6 puntos.
+g) Bizkaiko Lurralde Historikoarekiko lotura: 10 puntu.
+g) Vinculación con el Territorio Histórico de
+Bizkaia: 10 puntos.
+Puntuak Bizkaian filmatzeko aurreikusitako egun
+kopuruaren proportzioan esleituko dira, aurreikusitako
+filmaketaren
+guztizko
+iraupenari
+dagokionez.
+Animazio-lanen kasuan, filmaketa-eguna animazioestudioko laneguna izango da, eta Bizkaian egiten dela
+Los puntos se asignarán en proporción al número
+de días previstos de rodaje en Bizkaia en relación
+con la duración total del rodaje previsto. En el caso
+de obras de animación, se asimilará día de rodaje a
+día de trabajo en estudio de animación, y se
+42
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+ulertuko da, baldin eta animazio-estudio horrek
+lurralde historiko horretan badu egoitza soziala eta
+fiskala.
+considerará que se realiza en Bizkaia si dicho
+estudio de animación tiene su sede social y fiscal en
+este territorio histórico.
+2. Epaimahai kalifikatzaileak gutxieneko puntuazio bat
+finkatu ahal izango du, eta epaimahai kalifikatzailearen
+iritziz gutxieneko horretara iristen ez diren
+proiektuetarako eskabideak ezetsi egingo dira.”
+2. El tribunal calificador podrá fijar una puntuación
+mínima, y serán desestimadas aquellas solicitudes
+cuyos proyectos no alcancen ese mínimo a juicio del
+tribunal calificador.
+3. Aurkeztutako proiektuaren aurrekontu araztuaren
+% 50erainokoa izango da dirulaguntzen gehieneko
+zenbatekoa, eta zenbateko horrek ezin izango du
+ezelan ere 40.000,00 euroko kopurua gainditu, ez eta
+eskatzaileak eskatutako zenbatekoa ere. Euskara
+hutsean egindako proiektuen kasuan, muga hori
+50.000,00 eurokoa izango da.
+3. El importe máximo de las subvenciones será de
+hasta el 50 % del presupuesto depurado del
+proyecto presentado, y no superará en ningún caso
+los 40.000,00 euros ni el importe solicitado por la
+solicitante. En el caso de proyectos realizados
+íntegramente en euskera, ese límite será de
+50.000,00 euros.
+III. KAPITULUA
+CAPÍTULO III
+SUSTAPEN GASTUAK FINANTZATZEKO
+DIRULAGUNTZAK
+SUBVENCIONES DESTINADAS A FINANCIAR
+LOS GASTOS DE PROMOCIÓN
+26. oinarria. Dirulaguntzaren xedea.
+Base 26. Objeto de la subvención.
+1. Dirulaguntzaren xedea 24.1 oinarrian ezarritako
+ikus-entzunezko proiektuen sustapen gastuen zati bat
+finantzatzea da, jarraian zehazten denaren arabera:
+1. Es objeto de subvención la financiación parcial de
+los gastos de promoción de los proyectos
+audiovisuales establecidos en la base 24.1, según se
+detalla a continuación:
+a) 2026an egiten diren I. eta II. eranskinetan ezarritako
+jaialdietan eta/edo sariak banatzeko zeremonietan
+ikus-entzunezko proiektuek parte hartzeko gastuak.
+a) Gastos para la participación de proyectos
+audiovisuales en los festivales y/o ceremonias de
+entrega de premios establecidos en los anexos I y II,
+que se celebren en 2026.
+b)
+Euskal
+Autonomia
+Erkidegoko
+zinemaemanaldietarako areto komertzialetan 2026an
+programaturiko
+ikus-entzunezko
+proiektuak
+sustatzeko gastuak.
+b) Gastos de promoción de proyectos audiovisuales
+programados en 2026 en salas comerciales de
+exhibición cinematográfica de la Comunidad
+Autónoma Vasca.
+2026an programatutako, eta 2025ean gauzatutako,
+ikus-entzunezko proiektuen sustapen gastuak
+onartuko dira, aipatutako jaialdietan, sari banaketetan
+eta/edo areto komertzialetan, baldin eta gastu horiek
+ez badira aldez aurretik diruz lagundu laguntza horien
+2025eko deialdian.
+Se admitirán los gastos de promoción ejecutados en
+2025 de proyectos audiovisuales programados en
+2026 en los citados festivales, entregas de premios
+y/o, en salas comerciales, siempre y cuando dichos
+gastos no hayan sido previamente subvencionados
+en la convocatoria de 2025 de estas mismas
+ayudas.
+2. Sustapen gastutzat jotzen dira, besteak beste,
+honako hauek:
+2. Se entienden como gastos de promoción, entre
+otros, los siguientes:
+43
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+a) Sustapen materiala diseinatzea eta prestatzea:
+material inprimatua, teaserra, trailerra, programa
+pilotua eta web-orria.
+a) Diseño y elaboración de material promocional:
+material impreso, teaser, tráiler, programa piloto y
+página web.
+b) Publizitate kanpaina prentsan, telebistan, sare
+sozialetan, etab.
+b) Campaña de publicidad en prensa, televisión,
+redes sociales, etc.
+c) Marketin eta hedapen plana prestatzea.
+c) Elaboración del plan de marketing y difusión.
+d) Sektoreko negozio-trukea duten topaketa
+profesionalak sortzen diren koprodukzioko merkatu
+eta foroetara joatea: joan-etorriak, ostatu-hartzea eta
+akreditazio-gastuak.
+d) Asistencia a mercados y foros de coproducción
+que resulten encuentros profesionales con
+intercambio de negocio del sector: gastos de
+traslado, alojamiento y acreditaciones.
+e) Ordezkaritza- eta protokolo-gastuak (jantziak eta
+bestelakoak).
+e) Gastos de representación y protocolo (vestuario
+y otros).
+f) Sustapen ekitaldiak antolatzeko gastuak.
+f) Gastos de organización de eventos de promoción.
+27. oinarria. Baloratzeko irizpideak.
+Base 27. Criterios de valoración
+1. Balorazioa honako irizpide hauen arabera egingo da,
+eta gehienez ere 100 puntu lor daitezke. Hona hemen
+irizpide eta haztapen horiek:
+1. La valoración se efectuará conforme a los
+siguientes criterios y su correspondiente
+ponderación, que, sobre un máximo de 100 puntos,
+se establece como se señala a continuación:
+a) Sustapen Plana, gehienez 40 puntu.
+a) Plan de Promoción, hasta 40 puntos.
+Aurkeztutako sustapen planaren ikus-entzunezko
+proiektuaren ikusgaitasuna eta irismena handitzeko
+estrategiaren koherentzia eta gaitasuna baloratuko
+dira, xede-publikoa lortzeko duen eraginkortasuna
+kontuan hartuta. Ebaluatu beharreko alderdiak honako
+hauek dira:
+Se valorará la coherencia y la capacidad de la
+estrategia para aumentar la visibilidad y el alcance
+del proyecto audiovisual del plan de promoción
+presentado, considerando su efectividad para
+alcanzar al público objetivo. Los aspectos a evaluar
+incluyen:
+-
+Sustapen estrategiak jaialdi, merkatu, sare
+sozial eta komunikabideetan. Gehienez 10
+puntu.
+-
+Estrategias de promoción en festivales,
+mercados, redes sociales y medios de
+comunicación. Hasta 10 puntos.
+-
+Berrikuntza
+publizitate-kanpainetan
+(plataforma berrien erabilera, sormenteknikak, etab.). Gehienez 10 puntu.
+-
+Innovación en las campañas de publicidad
+(uso de nuevas plataformas, técnicas
+creativas, etc.). Hasta 10 puntos.
+-
+Jaialdien nazioarteko edo nazioko garrantzia.
+Gehienez 10 puntu.
+-
+Relevancia internacional o nacional de los
+festivales. Hasta 10 puntos.
+-
+Audientziak leialtzeko estrategiak. Gehienez
+10 puntu.
+-
+Estrategias de fidelización de audiencias.
+Hasta 10 puntos.
+b) Emakumeen parte-hartzea sustapenean. Gehienez
+b) Participación de mujeres en la promoción. Se
+44
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+10 puntu emango dira, honela banakatuta:
+concederán hasta un máximo de 10 puntos
+desglosados del siguiente modo:
+-
+Sustapen plana kudeatzeko eta gauzatzeko
+ardura duen emakume bakoitzeko, 2 puntu.
+-
+2 puntos por cada mujer responsable en la
+gestión y ejecución del plan de promoción.
+-
+2 puntu sustapenaren xede den proiektuaren
+emakume enbaxadore bakoitzeko.
+-
+2 puntos por cada mujer embajadora del
+proyecto objeto de promoción.
+c) Sustapen planaren finantzaketa-maila, hau da,
+proiektuaren diru-sarrerak (aurkeztutako dirusarreren aurrekontuko kontzeptu guztiak, erakunde
+eskatzailearen ekarpena eta deialdi honetarako
+eskatutako dirulaguntza izan ezik) aurrekontuaren
+diru-sarreren zenbateko osoarekin zatituta lortzen
+den ratioa: 20 puntu emango dira gehienez.
+c) Nivel de financiación del plan de promoción,
+entendiéndose por tal la ratio resultante de dividir
+los ingresos del proyecto (todos los conceptos del
+presupuesto de ingresos presentado excepto la
+aportación de la entidad solicitante y la subvención
+solicitada a esta convocatoria) entre el importe
+total de los ingresos del presupuesto: Se concederá
+hasta un máximo de 20 puntos.
+Puntuazioa kalkulatzeko, honela jokatuko da:
+autofinantzaketa-maila handiena duen proiektuari 20
+puntu emango zaizkio; hiruko erregela baten bidez,
+gainerako puntuak banatuko dira.
+Para calcular la puntuación se procederá de la
+siguiente manera: al proyecto con mayor nivel de
+autofinanciación se le otorgará 20 puntos; por
+medio de una regla de tres se irán repartiendo el
+resto de los puntos.
+Lortutako puntuazioak hamartarrak baditu, zenbaki
+oso
+hurbilenera
+biribilduko
+da,
+eta
+distantziakidetasuna badago, gorenera.
+En el caso de que la puntuación obtenida tenga
+decimales, se redondeará al número entero más
+cercano, y en caso de equidistancia al superior.
+d) Hizkuntza, gehienez 20 puntu: Proiektuaren
+sustapen jardueretan euskararen erabilera baloratuko
+da, hau da, "euskararen erabilera eta zabalkundea":
+proiektua euskaraz sustatzen emandako denboraren
+proportzioa, sustapenaren guztizko iraupenari
+dagokionez.
+d) Idioma, hasta 20 puntos: Se valorará el uso del
+euskera en las actividades promocionales del
+proyecto, entendiendo por “utilización y difusión
+del euskera" la proporción de tiempo dedicada a la
+promoción del proyecto en euskera, en relación con
+la duración total de la promoción.
+Atal honi dagokion puntuazioa proportzionalki emango
+da, erreferentziatzat hartuta proiektua euskaraz
+sustatzeko
+erabilitako
+minutu-kopurua
+eta
+proiektuaren sustapen jarduera guztietan erabilitako
+minutu-kopuruaren arteko aldea.
+La puntuación correspondiente a este apartado se
+asignará de forma proporcional, tomando como
+referencia el número total de minutos dedicados a
+la promoción del proyecto en euskera, en relación
+con el número total de minutos empleados en todas
+las actividades promocionales del proyecto.
+e) Bizkaiko Lurralde Historikoarekiko lotura: 10 puntu
+e) Vinculación con el Territorio Histórico de
+Bizkaia: 10 puntos.
+Ikus-entzunezko lanak Bizkaiko Lurralde Historikoaren
+balio kultural eta sozialak, bere historia, lurralde,
+hizkuntza eta ondarea ezagutarazten, sakontzen edo
+zabaltzen eta Bizkaiaren irudia kanpora proiektatzen
+laguntzea baloratuko da.
+Se valorará que la obra audiovisual contribuya a dar
+a conocer, profundizar o difundir los valores
+culturales y sociales del Territorio Histórico de
+Bizkaia, su historia, territorio, lengua, patrimonio y
+a proyectar la imagen de Bizkaia al exterior.
+45
+2. Epaimahai kalifikatzaileak gutxieneko puntuazio bat
+finkatu ahal izango du, eta epaimahai kalifikatzailearen
+iritziz gutxieneko horretara iristen ez diren
+proiektuetarako eskabideak ezetsi egingo dira.
+2. El tribunal calificador podrá fijar una puntuación
+mínima, y serán desestimadas aquellas solicitudes
+cuyos proyectos no alcancen ese mínimo a juicio del
+tribunal calificador.
+28. oinarria. Dirulaguntzaren gehieneko zenbatekoa.
+Base 28. Importe máximo de la subvención.
+Ikus-entzunezko proiektuak sustatzeko gastuak
+finantzatzeko dirulaguntzen kasuan, dirulaguntzaren
+gehieneko zenbatekoa aurkeztutako proiektuaren
+aurrekontu araztuaren % 50 izango da, eta ez da inola
+ere izango eskaturikoa baino gehiago, ez eta honako
+kopuru hauek baino gehiago ere:
+Para subvenciones destinadas a financiar los gastos
+de promoción, el importe máximo de subvención
+será de hasta el 50 % del presupuesto depurado del
+proyecto presentado, y no superará en ningún caso
+el importe solicitado, ni ninguna de las siguientes
+cantidades:
+1) 20.000,00 euro.
+1.º 20.000,00 euros.
+euskara
+hutsez
+egindako
+2.º 25.000,00 euros en el caso de proyectos
+realizados íntegramente en euskera.
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+2) 25.000,00 euro,
+proiektuen kasuan.
+46
+I. ERANSKINA: / ANEXO I
+FILM LUZEAK / LARGOMETRAJES
+Nazioarteko jaialdiak / Festivales internacionales
+Jaialdiak / Festivales
+Internationale Filmfestspiele Berlin.
+Berlinale
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+Stuttgart International Festival of
+Animated Films (ITFS)
+Herrialdea / País
+Alemania
+Alemania
+Atalak / Secciones
+Lehiaketako sail ofiziala / Sección oficial
+a concurso o competición
+Gainerako atalak / Gainerako atalak /
+Resto de secciones
+Lehiaketako sail ofiziala / Sección oficial
+a concurso o competición
+Gainerako atalak / Resto de secciones
+Lehiaketako sail ofiziala / Sección oficial
+a concurso o competición
+Festival Internacional de Cine de Mar del
+Plata
+Argentina
+BAFICI – Buenos Aires Festival
+Internacional de Cine Independiente
+Argentina
+Atal guztiak / Atal guztiak / Todas las
+secciones
+Sydney Film Festival
+Australia
+Atal guztiak / Todas las secciones
+Viennale Festival
+Austria
+Atal guztiak / Todas las secciones
+Anima - Brussels International
+Animation Film Festival
+Belgika / Bélgica
+Atal guztiak / Todas las secciones
+Sofia International Film Festival
+Bulgaria
+Atal guztiak / Todas las secciones
+Toronto International Film Festival
+Kanada / Canadá
+Atal guztiak / Todas las secciones
+Hot Docs Canadian International
+Documentary Festival
+Kanada / Canadá
+Atal guztiak / Todas las secciones
+Ottawa International Animation
+Festival
+Kanada / Canadá
+Atal guztiak / Todas las secciones
+Gainerako atalak / Resto de secciones
+Lehiaketako sail ofiziala / Sección oficial
+a concurso o competición
+Montreal Film Festival (World Film
+Festival)
+Kanada / Canadá
+Txile / Chilemonos
+Txile / Chile
+Atal guztiak / Todas las secciones
+Shanghai International Film Festival
+Txina / China
+Atal guztiak / Todas las secciones
+Festival Internacional de Cine de
+Cartagena de Indias
+Kolonbia / Colombia
+Atal guztiak / Todas las secciones
+Busan International Film Festival
+Hego Korea / Corea de Sur
+Atal guztiak / Todas las secciones
+CPH: DOX
+Danimarka / Dinamarca
+Atal guztiak / Todas las secciones
+Gainerako atalak / Resto de secciones
+Lehiaketako sail ofiziala / Sección oficial
+a concurso o competición
+Sundance Film Festival
+Estatu Batuak / Estados Unidos
+Tribeca Film Festival
+Estatu Batuak / Estados Unidos
+Atal guztiak / Todas las secciones
+SXSW Film Festival Austin
+Estatu Batuak / Estados Unidos
+Atal guztiak / Todas las secciones
+Gainerako atalak / Resto de secciones
+47
+New York Film Festival
+Estatu Batuak / Estados Unidos
+Atal guztiak / Todas las secciones
+Fantastic Fest Austin
+Estatu Batuak / Estados Unidos
+Atal guztiak / Todas las secciones
+Animation is Film Festival
+Estatu Batuak / Estados Unidos
+Atal guztiak / Todas las secciones
+Cairo International Film Festival
+Tallin Black Nights Film Festival
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+Festival de Cannes
+Egipto
+Estonia
+Frantzia / Francia
+Lehiaketako sail ofiziala / Sección oficial
+a concurso o competición
+Gainerako atalak / Resto de secciones
+Lehiaketako sail ofiziala / Sección oficial
+a concurso o competición
+Gainerako atalak / Resto de secciones
+Lehiaketako sail ofiziala / Sección oficial
+a concurso o competición
+Gainerako atalak / Resto de secciones
+Lehiaketako sail ofiziala / Sección oficial
+a concurso o competición
+Festival international du film
+d'animation d'Annecy
+Frantzia / Francia
+Goa IFFI - India International Film
+Festival
+India
+Atal guztiak / Todas las secciones
+JIO Mami - Mumbai Film Festival
+India
+Atal guztiak / Todas las secciones
+Gainerako atalak / Resto de secciones
+Lehiaketako sail ofiziala / Sección oficial
+a concurso o competición
+La Biennale di Venezia / Mostra
+Internazionale d'Arte Cinematografica
+Italia
+Torino Film Festival
+Italia
+Atal guztiak / Todas las secciones
+Cartoons on the Bay, Pulcinella
+Awards
+Italia
+Atal guztiak / Todas las secciones
+Tokyo International Film Festival
+(TIFF)
+Japonia / Japón
+Atal guztiak / Todas las secciones
+Festival Internacional de Cine de
+Guadalajara (FICG)
+Mexiko / México
+Atal guztiak / Todas las secciones
+International Film Festival Rotterdam
+International Documentary Film
+Festival Amsterdam (IDFA)
+Herbehereak / Países Bajos
+Herbehereak / Países Bajos
+Gainerako atalak / Resto de secciones
+Lehiaketako sail ofiziala / Sección oficial
+a concurso o competición
+Gainerako atalak / Resto de secciones
+Lehiaketako sail ofiziala / Sección oficial
+a concurso o competición
+Gainerako atalak / Resto de secciones
+Lehiaketako sail ofiziala / Sección oficial
+a concurso o competición
+Warsaw International Film Festival
+Polonia
+Indie Lisboa Film Festival
+Portugal
+Atal guztiak / Todas las secciones
+DOC Lisboa
+Portugal
+Atal guztiak / Todas las secciones
+Cinanima
+Portugal
+Atal guztiak / Todas las secciones
+London Film Festival (BFI)
+Erresuma Batua / Reino Unido
+Atal guztiak / Todas las secciones
+Gainerako atalak / Resto de secciones
+48
+Karlovy Vary International Film
+Festival
+Txekiako Errepublika / República Checa
+Atal guztiak / Todas las secciones
+Transilvania International Film
+Festival
+Errumania / Rumanía
+Atal guztiak / Todas las secciones
+Moscow International Film Festival
+Errusia / Rusia
+Atal guztiak / Todas las secciones
+Stockholm Film Festival
+Suedia / Suecia
+Atal guztiak / Todas las secciones
+Lehiaketako sail ofiziala / Sección oficial
+a concurso o competición
+Festival del Film Locarno
+Suiza
+Istanbul Film Festival
+Turkia / Turquía
+Atal guztiak / Todas las secciones
+Kyiv International Film Festival,
+Molodist.
+Ukrania / Ucrania
+Atal guztiak / Todas las secciones
+Gainerako atalak / Resto de secciones
+Jaialdiak /Festivales
+Herria / Localidad
+Atalak / Secciones
+D`A Film Festival
+Bartzelona / Barcelona
+Atal guztiak / Todas las secciones
+Festival Internacional de Documentales
+DocsBartzelona / Barcelona
+Bartzelona / Barcelona
+Atal guztiak / Todas las secciones
+Festival Internacional de Cine Documental
+y Cortometraje de Bilbao ZINEBI
+Festival Internacional de Cine de San
+Sebastián / Donostia Zinemaldia
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+Estatu mailako jaialdiak / Festivales estatales
+Lehiaketako sail ofiziala / Sección oficial a
+concurso o competición
+Bilbao
+Gainerako atalak / Resto de secciones
+Lehiaketako sail ofiziala / Sección oficial a
+concurso o competición
+Donostia - San Sebastian
+Gainerako atalak / Resto de secciones
+Lehiaketako sail ofiziala / Sección oficial a
+concurso o competición
+Festival Internacional de Cine de Gijón
+Gijón
+Festival de Huelva de Cine Iberoamericano
+Huelva
+Atal guztiak / Todas las secciones
+Festival Internacional de Documentales
+DocumentaMadril / Madrid
+Madril / Madrid
+Atal guztiak / Todas las secciones
+Gainerako atalak / Resto de secciones
+Lehiaketako sail ofiziala / Sección oficial a
+concurso o competición
+Festival de Málaga
+Málaga
+Festival Internacional de Cine de Las
+Palmas
+Las Palmas
+Atal guztiak / Todas las secciones
+Animayo
+Las Palmas
+Atal guztiak / Todas las secciones
+Festival Punto de Vista
+Iruñea / Pamplona
+Atal guztiak / Todas las secciones
+Weird
+Segovia
+Atal guztiak / Todas las secciones
+Festival de Cine Europeo de Sevilla
+Sevilla
+Lehiaketako sail ofiziala / Sección oficial a
+concurso o competición
+Gainerako atalak / Resto de secciones
+49
+Gainerako atalak / Resto de secciones
+Lehiaketako sail ofiziala / Sección oficial a
+concurso o competición
+Sitges. Festival Internacional de Cinema
+Fantàstic de Catalunya.
+Sitges
+Cinema Jove
+Valentzia / Valencia
+Gainerako atalak / Resto de secciones
+Atal guztiak / Todas las secciones
+Lehiaketako sail ofiziala / Sección oficial a
+concurso o competición
+Semana Internacional de Cine de
+Valladolid (Seminci).
+Valladolid
+Miradasdoc. Festival Internacional de Cine
+Documental.
+Guía de Isora
+Gainerako atalak / Resto de secciones
+Atal guztiak / Todas las secciones
+Sariak eta ohoreak / Premios y honores
+Sariak / Premio
+Herrialdea / País
+Premios Goya (Academia de las Artes y las Ciencias Cinematográficas de Espainia /
+España)
+Espainia / España
+Premios Quirino de la Animación Iberoamericana
+Espainia / España
+Premios Forqué
+Espainia / España
+Premios Oscar (Academia de las Artes y Ciencias Cinematográficas de Hollywood) /
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+The Oscars (Academy of Motion Picture Arts and Sciences).
+Estatu Batuak / Estados Unidos
+Premios Globos de Oro (Asociación de la Prensa Extranjera de Hollywood) / Golden Globe
+Awards (The Hollywood Foreign Press Association).
+Estatu Batuak / Estados Unidos
+Premios ANNIE (Premios de la Asociación Internacional de Cine de Animación)
+Estatu Batuak / Estados Unidos
+Premios de Cine Europeo EFA (Academia de Cine Europeo)/ European Film Awards EFA
+(European Film Academy).
+Europa
+European Animation Awards. Emile Awards
+Frantzia / Francia
+Eurodoc
+Europa
+Premios Platino
+Espainia – Iberoamerika / España –
+Iberoamérica
+Premios de Academias de cine nacionales de Estados Miembros de la UE
+EB / UE
+Premios BAFTA (Premios de Cine de la Academia Británica)
+Erresuma Batua / Reino Unido
+50
+II. ERANSKINA / ANEXO II
+FILM LABURRAK / CORTOMETRAJES
+Nazioarteko jaialdiak / Festivales internacionales
+Jaialdiak / Festivales
+Herrialdea / País
+Atala / Sección
+Internationale Filmfestspiele Berlin.
+Berlinale
+Alemania
+Atal guztiak / Todas las secciones
+International Film Festival Oberhausen
+Alemania
+Atal guztiak / Todas las secciones
+DOK Leipzig
+Alemania
+Atal guztiak / Todas las secciones
+Interfilm Berlin
+Alemania
+Atal guztiak / Todas las secciones
+Stuttgart International Festival of Animated
+Film (ITFS)
+Alemania
+Atal guztiak / Todas las secciones
+FilmFest Dresden
+Alemania
+Atal guztiak / Todas las secciones
+BAFICI – Buenos Aires Festival
+Internacional de Cine Independiente
+Argentina
+Atal guztiak / Todas las secciones
+Sydney Film Festival
+Australia
+Atal guztiak / Todas las secciones
+Viennale Festival
+Austria
+Atal guztiak / Todas las secciones
+Vienna Independent Shorts (VIS)
+Austria
+Atal guztiak / Todas las secciones
+Anima - Brussels International Animation
+Film
+Belgika / Bélgica
+Atal guztiak / Todas las secciones
+Anima Mundi
+Brasil
+Atal guztiak / Todas las secciones
+Belo Horizonte International Short Film
+Festival
+Brasil
+Atal guztiak / Todas las secciones
+Sao Paulo International Short Film Festival
+Brasil
+Atal guztiak / Todas las secciones
+Ottawa International Animation Festival
+Kanada / Canadá
+Atal guztiak / Todas las secciones
+Toronto International Film Festival (TIFF)
+Kanada / Canadá
+Atal guztiak / Todas las secciones
+Hot Docs Canadian International
+Documentary
+Kanada / Canadá
+Atal guztiak / Todas las secciones
+Txile / Chilemonos
+Txile / Chile
+Atal guztiak / Todas las secciones
+Shanghai International Film Festival.
+Txina / China
+Atal guztiak / Todas las secciones
+Bogoshorts Festival de Cortos de Bogotá
+Kolonbia / Colombia
+Atal guztiak / Todas las secciones
+Festival Internacional de cine de Cartagena
+de Indias - FICCI
+Kolonbia / Colombia
+Atal guztiak / Todas las secciones
+Busan International Film Festival
+Hego Korea / Corea del Sur
+Atal guztiak / Todas las secciones
+Animafest Zagreb
+Kroazia / Croacia
+Atal guztiak / Todas las secciones
+Sundance Film Festival
+Estatu Batuak / Estados Unidos
+Atal guztiak / Todas las secciones
+Tribeca Film Festival
+Estatu Batuak / Estados Unidos
+Atal guztiak / Todas las secciones
+SXSW Film Festival Austin
+Estatu Batuak / Estados Unidos
+Atal guztiak / Todas las secciones
+Nashville Film Festival
+Estatu Batuak / Estados Unidos
+Atal guztiak / Todas las secciones
+Austin Film Festival
+Estatu Batuak / Estados Unidos
+Atal guztiak / Todas las secciones
+Slamdance Film Festival
+Estatu Batuak / Estados Unidos
+Atal guztiak / Todas las secciones
+Fantastic Fest Austin
+Estatu Batuak / Estados Unidos
+Atal guztiak / Todas las secciones
+Tallinn Black Nights Film Festival
+Estonia
+Atal guztiak / Todas las secciones
+Tampere Film Festival
+Finlandia
+Atal guztiak / Todas las secciones
+Festival de Cannes
+Frantzia / Francia
+Atal guztiak / Todas las secciones
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+Festival
+Film Festival.
+51
+Festival International du film d’animation
+d’Annecy
+Frantzia / Francia
+Atal guztiak / Todas las secciones
+Frantzia / Francia
+Atal guztiak / Todas las secciones
+Italia
+Atal guztiak / Todas las secciones
+Cartoons on the Bay, Pulcinella Awards
+Italia
+Atal guztiak / Todas las secciones
+Hiroshima International Animation Festival
+Japonia / Japón
+Atal guztiak / Todas las secciones
+Tokyo International Film Festival
+Japonia / Japón
+Atal guztiak / Todas las secciones
+Sapporo International Short Film Festival
+Japonia / Japón
+Atal guztiak / Todas las secciones
+Riga International Film Festival
+Letonia
+Atal guztiak / Todas las secciones
+Festival Internacional de Cine de
+Guadalajara
+Mexiko / México
+Atal guztiak / Todas las secciones
+Pixelatl
+Mexiko / México
+Atal guztiak / Todas las secciones
+International Film Festival Rotterdam
+Herbehereak / Países Bajos
+Atal guztiak / Todas las secciones
+Herbehereak / Países Bajos
+Atal guztiak / Todas las secciones
+Krakow Film Festival
+Polonia
+Atal guztiak / Todas las secciones
+Warsaw International Film Festival
+Polonia
+Atal guztiak / Todas las secciones
+Curtas Vila do Conde
+Portugal
+Atal guztiak / Todas las secciones
+Cinanima
+Portugal
+Atal guztiak / Todas las secciones
+London Film Festival (BFI)
+Erresuma Batua / Reino Unido
+Atal guztiak / Todas las secciones
+Glasgow Short Film Festival
+Erresuma Batua / Reino Unido
+Atal guztiak / Todas las secciones
+Encounters Bristol Film Festival
+Erresuma Batua / Reino Unido
+Atal guztiak / Todas las secciones
+Edinburgh International Film Festival
+Erresuma Batua / Reino Unido
+Atal guztiak / Todas las secciones
+Raindance Film Festival
+Erresuma Batua / Reino Unido
+Atal guztiak / Todas las secciones
+Festival International du Court Métrage de
+Clermont Ferrand
+La Biennale di Venezia / Mostra
+Internazionale
+d’Arte Cinematografica
+International Documentary Film Festival
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+Amsterdam (IDFA)
+Karlovy Vary International Film Festival Txekiako Errepublika / República Checa
+Errumania / Rumanía
+Transilvania International Film Festival
+Atal guztiak / Todas las secciones
+Atal guztiak / Todas las secciones
+Moscow International Film Festival
+Errusia / Rusia
+Atal guztiak / Todas las secciones
+St. Petersburg Message to Man
+International Film Festival
+Errusia / Rusia
+Atal guztiak / Todas las secciones
+Stokholm Film Festival
+Suedia / Suecia
+Atal guztiak / Todas las secciones
+Festival del Film Locarno
+Suiza
+Atal guztiak / Todas las secciones
+Visions du Réel
+Suiza
+Atal guztiak / Todas las secciones
+Internationale Kurzfilmtage Winterthur
+Suiza
+Atal guztiak / Todas las secciones
+Kyiv International Film Festival, Molodist
+Ukrania / Ucrania
+Atal guztiak / Todas las secciones
+52
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+Estatu mailako jaialdiak / Festivales estatales
+Jaialdiak / Festivales
+Herria / Localidad
+Atala / Sección
+Festival de Cortometrajes de Aguilar de
+Campoo
+Aguilar de Campoo
+Atal guztiak / Todas las secciones
+Festival de Cine Independiente de Albacete.
+ABYCINE
+Albacete
+Atal guztiak / Todas las secciones
+Festival de Cine de Alcalá de Henares
+ALCINE
+Alcalá de Henares
+Atal guztiak / Todas las secciones
+Festival Internacional de Cine de Almería
+Almería
+Atal guztiak / Todas las secciones
+Festival Ibérico de Cinema de Badajoz
+Badajoz
+Atal guztiak / Todas las secciones
+Festival Internacional de Documentales
+DocsBartzelona / Barcelona
+Bartzelona / Barcelona
+Atal guztiak / Todas las secciones
+Festival de Cines Independiente
+L’Alternativa
+Bartzelona / Barcelona
+Atal guztiak / Todas las secciones
+Festival Internacional de Cine Documental
+y Cortometraje de Bilbao ZINEBI
+Bilbao
+Atal guztiak / Todas las secciones
+Festival Internacional de Cine de Gijón
+Gijón
+Atal guztiak / Todas las secciones
+Festival Internacional de Cine de Las
+Palmas
+Las Palmas
+Atal guztiak / Todas las secciones
+Animayo
+Las Palmas
+Atal guztiak / Todas las secciones
+Festival de Cine Solidario de Guadalajara.
+FESCIGU
+Guadalajara
+Atal guztiak / Todas las secciones
+Festival Internacional de Cine Huesca
+Huesca
+Atal guztiak / Todas las secciones
+Animac. Mostra Internacional de Cinema
+d’Animació de Catalunya
+Lleida
+Atal guztiak / Todas las secciones
+Festival Internacional de Documentales
+DocumentaMadril / Madrid
+Madril / Madrid
+Atal guztiak / Todas las secciones
+Cortogenia
+Madril / Madrid
+Atal guztiak / Todas las secciones
+Festival de Cine de Madril / Madrid Plataforma Nuevos Realizadores
+Madril / Madrid
+Atal guztiak / Todas las secciones
+Festival de Málaga
+Málaga
+Atal guztiak / Todas las secciones
+Semana del Cine de Medina del Campo
+Medina del Campo
+Atal guztiak / Todas las secciones
+Festival Internacional de Cine Documental
+de Navarra Punto de Vista
+Iruñea / Pamplona
+Atal guztiak / Todas las secciones
+Curtocircuito. Festival Internacional de
+Cine
+Santiago de Compostela
+Atal guztiak / Todas las secciones
+Weird
+Segovia
+Atal guztiak / Todas las secciones
+Sitges. Festival Internacional de Cinema
+Fantàstic de Catalunya
+Sitges
+Atal guztiak / Todas las secciones
+Certamen Internacional de Cortos Ciudad
+de Soria
+Soria
+Atal guztiak / Todas las secciones
+Festival Internacional de Cortometrajes de
+Torrelavega
+Torrelavega
+Atal guztiak / Todas las secciones
+Festival Internacional de Cine de Valentzia
+/ Valencia Cinema Jove
+Valentzia / Valencia
+Atal guztiak / Todas las secciones
+53
+Semana Internacional de Cine de Valladolid
+(Seminci)
+Valladolid
+Atal guztiak / Todas las secciones
+Miradasdoc. Festival Internacional de Cine
+Documental.
+Guía de Isora
+Atal guztiak / Todas las secciones
+Sariak eta ohoreak / Premios y honores
+Sariak eta ohoreak / Premios y honores
+Herrialdea / País
+Premios Goya (Academia de las Artes y las Ciencias
+Cinematográficas de Espainia / España)
+Espainia / España
+Premios Quirino de la Animación Iberoamericana
+Espainia / España
+Premios Oscar (Academia de las Artes y Ciencias
+Cinematográficas de Hollywood) / The
+Estatu Batuak / Estados Unidos
+Oscars (Academy of Motion Picture Arts and Sciences).
+Premios Forqué
+Espainia / España
+Premios ANNIE (Premios de la Asociación Internacional de Cine
+de Animación)
+Estatu Batuak / Estados Unidos
+Premios de Cine Europeo EFA (Academia de Cine Europeo) /
+European Film Awards EFA
+Europa
+European Animation Awards. Emile Awards
+Frantzia / Francia
+Eurodoc
+Europa
+Premios Platino
+Espainia – Iberoamerika / España – Iberoamérica
+Premios de Academias de cine nacionales de Estados Miembros
+de la UE
+UE
+Premios BAFTA (Premios de Cine de la Academia Británica)
+Erresuma Batua / Reino Unido
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+(European Film Academy).
+54
 
-### Bases reguladoras: HTTPS://WWW.BIZKAIA.EUS/ES/BOB
-Boletín Oficial de Bizkaia - Bizkaia.eus
-Boletín Oficial de Bizkaia
-ÍNDICE DE EMISORES
-Cerrar índice de emisores
-Emisores seleccionados
-Añadir
-Búsqueda
-BUSCAR EN EL ÍNDICE
-Mostrar
-a
-b
-c
-d
-e
-f
-g
-h
-i
-j
-k
-l
-m
-n
-ñ
-o
-p
-q
-r
-s
-t
-u
-v
-w
-x
-y
-z
-TODOS
-Último boletín
-viernes 13 de noviembre del 2026
-Número
-219
-CVE
-:
-BOB-2026a219
-Ver Boletín
-PDF
-Ver Sumario
-PDF
-Ver Sumario
-PDF
-Ver Anexo
-PDF
-37 anuncios
-BÚSQUEDA BOB POR FECHA
-Último boletín
-De conformidad con lo dispuesto en el DECRETO FORAL de la Diputación Foral de Bizkaia 97/2009, de 15 de junio, regulador del Boletín Oficial de Bizkaia, el servicio público del Boletín Oficial de Bizkaia no se hace responsable de los datos de carácter personal publicados en el mismo.
-SUSCRÍBETE
-Suscripción al boletín
-Podrás encontrar información de interés sobre oposiciones, normativa...
-Acceder
-Ayuda sobre...
-Ayuda →
-Descripción General
-Tipos de búsqueda
-Operadores de Búsqueda
-Definición y Descripción de los campos
-Canal de noticias RSS
-Atención al público
-Normativa
-Cambiar a:
-EU
-Esta página web, https://www.bizkaia.eus (en adelante la “Página Web”) utiliza herramientas de seguimiento de la navegación a través de la misma y de la dirección IP del destinatario del servicio, con la finalidad de mejorar y garantizar la prestación de servicios o el funcionamiento técnico de la misma, distinguirle de otras personas usuarias y analizar sus hábitos de navegación.
-Nombre
-Objetivo
-Duración
-Propietario
-JSESSIONID
-Identificar la sesión
-Sesión
-Diputación Foral de Bizkaia
-ASPSESSIONID
-Sesión
-TS01
-Sesión
-LFR_SESSION_STATE
-Sesión
-1 año
-pc_tecnicas_bizkaia
-1 año
-pc_analitica_bizkaia
-1 año
-pc_preferencias_bizkaia
-1 año
-pc_terceros_bizkaia
-1 año
-CPLB
-Contiene información utilizada por nuestros servidores de equilibrio de carga
-Sesión
-Kultursistema_session
-Mantener la sesión de la persona usuaria
-1 hora
-Kultursistema
-XSRF-TOKEN
-Para evitar ataques CSRF (Cross Site Request Forgery)
-1 hora
-Kultursistema
-_GRECAPTCHA
-Protege el sitio web del spam y los ataques de fuerza bruta
-6 meses
-Google
-Nombre
-Objetivo
-Duración
-Propietario
-Rastrea una visita a través de múltiples solicitudes
-Sesión
-dtLatC
-Mide la latencia del servidor para la monitorización del rendimiento
-Sesión
-dtPC
-Necesario para identificar los parámetros adecuados para la transmisión de balizas; incluye ID de sesión para correlación
-Sesión
-dtSa
-Almacén intermedio para acciones que abarcan páginas
-Sesión
-rxVisitor
-ID de visitante para correlacionar sesiones
-Permanente
-rxvt
-Tiempo de espera de sesión
-Sesión
-iyrc-user-id
-Distinguir a las personas usuarias
-1 hora
-_ga, _ga_XXXXXXXXXXX
-Distinguir a la persona usuaria
-2 años
-Google Analytics
-_gat, _gat_XXXXXXXXXXX
-Limitar el porcentaje de solicitudes
-1 minuto
-_gid
-1 día
-MUID
-1 año
-Microsoft Clarity
-_clck
-Asignar preferencias a la misma persona usuaria
-1 año
-_clsk
-Conecta múltiples páginas vistas en una sesión
-1 año
-CLID
-Identificar la primera visita de una persona usuaria
-1 año
-ANONCHK
-1 día
-MR
-Indica cuando refrescar MUID
-6 meses
-SM
-Sincronizar MUID en el entorno Microsoft
-1 año
-Nombre
-Objetivo
-Duración
-Propietario
-Idioma
-Seleccionar el idioma preferido por la persona usuaria
-1 año
-Guardar los trámites favoritos en Cita Previa
-1 año
-Nombre
-Objetivo
-Duración
-Propietario
-CLID
-1 año
-APISID
-Almacenar las preferencias del usuario y la información durante la visualización de las páginas con los mapas de Google en ellos
-2 años
-Google
-HSID
-Prevención del fraude
-2 años
-Google
-MUID
-1 año
-NID
-Recordar sus preferencias y otra información
-6 meses
-Google
-SAPISID
-Mostrar anuncios personalizados en los sitios de Google
-2 años
-Google
-SID
-Proporcionar entrega de anuncios o retargeting, proporcionar prevención del fraude
-2 años
-Google
-SIDCC
-Proporcionar la identificación del tráfico web confiable
-1 año
-Google
-SM
-Se utiliza para sincronizar el MUID entre dominios de Microsoft
-Sesión
-SSID
-2 años
-Google
-__Secure-1PAPISID
-Crear un perfil de los intereses del visitante del sitio web con el fin de mostrar publicidad de Google relevante y personalizada
-2 años
-Google
-__Secure-1PSID
-2 años
-Google
-__Secure-1PSIDCC
-Crear un perfil de los intereses de los visitantes del sitio web para mostrar anuncios relevantes y personalizados a través de retargeting
-1 año
-Google
-__Secure-1PSIDTS
-1 año
-Google
-__Secure-3PSID
-2 años
-Google
-__Secure-3PSIDCC
-1 año
-Google
-__Secure-3PSIDTS
-1 año
-Google
-__Secure-ENID
-1 año
-Google
-ar_debug
-Depurar anuncios
-1 año
-Google
-MR
-6 meses
-XSRF-TOKEN
-1 hora
-Kultursistema
-_fbp
-Almacenar y rastrear las visitas en los sitios web
-1 año
-Facebook
-1 hora
-Kultursistema
-AEC
-Detectar spam, fraude y abuso
-6 meses
-Google
-SOCS
-13 meses
-Google
-Locale
-No disponible
-Gobierno Vasco
-_hegoa_coop_session
-Generar un identificador de sesión para las personas usuarias
-Sesión
-Gobierno Vasco
-Siempre activas
-Son necesarias para permitirte navegar por nuestra página web y para las tareas básicas para el correcto funcionamiento de la página.
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1551446
+Sin./Fdo.: LEIXURI ARRIZABALAGA ARRUZA - 2026-10-30
+EUSKARA, KULTURA ETA KIROL SAILA-REN FORU DIPUTATUA
+DIPUTADO/A FORAL DE DEPARTAMENTO DE EUSKERA, CULTURA Y DEPORTE
+Sin./Fdo.: ELIXABETE ETXANOBE LANDAJUELA - 2026-11-05
+AHALDUN NAGUSIA
+DIPUTADO/A GENERAL
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+Akordioa/Acuerdo: DF 00089/2026 - Data/Fecha: 2026-11-05
+Sin./Fdo.: BIZKAIKO FORU ALDUNDIA-DIPUTACION FORAL DE BIZKAIA - 2026-11-05
+GZko 21.gaia onartuta - Aprobado, asunto 21) de OD
+Bizkaiko Foru Aldundiaren FORU DEKRETUA,
+zeinaren bidez onartzen baitira foru dirulaguntzen
+oinarri arautzaileak eta bigarren deialdia, 2026ko
+ekitaldian, ikus-entzunezko proiektuen preprodukzio,
+produkzio eta sustapen gastuak finantzatzeko.
+DECRETO FORAL de la Diputación Foral de Bizkaia
+por el que se aprueban las bases reguladoras y la
+segunda convocatoria de subvenciones destinadas a
+financiar los gastos de preproducción, producción y
+promoción de proyectos audiovisuales, durante el
+año 2026.
+Kultura sustatzea eta herritarren esku jartzea: horra
+administrazio publikoek ezinbestez hartu beharreko
+konpromiso bat. Eta, hura gauzatzeko, baliabide
+egokiak bideratu behar dira, eta, besteak beste,
+sustapen
+eta babes-neurriak hartu, kultur
+jardueraren garapena eta aurrerabidea bermatuko
+badira.
+La promoción de la cultura y el acceso de la
+ciudadanía a la misma conlleva el compromiso
+ineludible de las administraciones públicas de
+establecer los instrumentos para que ello sea posible,
+lo cual debe materializarse, entre otras actuaciones,
+mediante medidas de fomento y protección que
+garanticen la existencia, desarrollo y progreso de la
+actividad cultural.
+2019. urtean, Bizkaiko Foru aldundiak, Kultura
+Zuzendaritza Nagusiaren bitartez, beharrezko jo
+zuen Bizkaiko kultura hedarazten duten ikusentzunezko dokumentalen produkzioa sustatzea,
+gure kultura ezagutzera emateko eta Bizkaiko
+enpresek
+egindako
+produkzioa
+audiobisuala
+sostengatzeko.
+En el año 2019, la Diputación Foral de Bizkaia, a
+través de la Dirección General de Cultura, consideró
+necesario promover la realización de documentales
+audiovisuales que difundieran la cultura de Bizkaia
+con el fin de darla a conocer, además de apoyar a la
+producción audiovisual realizada por empresas de
+Bizkaia.
+Harrezkero, dirulaguntza lerro hori etengabe egon da
+presente foru politika kulturalaren esparruan.
+Desde entonces, esta línea subvencional ha sido una
+constante en el ámbito de la política cultural foral.
+Kontuan izanik XXI. mendeko gizartean ikusentzunezkoek zer-nolako rola betetzen duten
+dibulgaziorako eta sentsibilizazio sozialerako tresna
+gisa, Bizkaiko Foru Aldundiak, balizko beste laguntza
+instituzional batzuen neurri osagarri gisa, sektore
+horri ematen dion babesa handitzeaz gain (urteko
+deialdia funtsean aldatuz), beharrezkotzat jo zuen
+ikus-entzunezko proiektuen preprodukzioa eta
+sustapena bultzatzea.
+Teniendo en cuenta el papel que en la sociedad del
+siglo XXI desempeña el medio audiovisual como
+instrumento de divulgación y sensibilización social, la
+Diputación Foral de Bizkaia, como medida
+complementaria de otras potenciales ayudas
+institucionales, además de ampliar su apoyo a este
+sector modificando de manera sustancial su
+convocatoria de carácter anual, consideró necesario
+promover la preproducción, y la promoción de
+proyectos audiovisuales.
+Horrela definitutako esparru horretan, Bizkaiko Foru
+Aldundiak, Kultura Zuzendaritza Nagusiaren bitartez,
+ikus-entzunezko
+proiektuak
+finantzatzeko
+En este marco así definido, la Diputación Foral de
+Bizkaia, a través de la Dirección General de Cultura,
+ha venido convocando, con carácter anual,
+Egiaztapen helbidea / Dirección de verificación: www.ebizkaia.eus
+Egiaztapen Kode Elektronikoa / Código de Verificación Electrónica: QVNV-766V-J6PI-K16I
+dirulaguntzen deialdia egin du urtero. Lehen,
+laguntza-lerro hori bi dekreturen bidez artikulatzen
+zen, eta iaztik dekretu bakar batean, preprodukzioko,
+produkzioko eta sustapeneko faseak bilduz.
+subvenciones para la financiación de proyectos
+audiovisuales. Anteriormente, esta línea de ayudas se
+articulaba a través de dos decretos y desde el año
+pasado en un único decreto que comprende las fases
+de preproducción, producción y promoción.
+2026ko ekitaldi honetan, maiatzaren 29an, Bizkaiko
+Aldizkari Ofizialean argitaratu zen Bizkaiko Foru
+Aldundiaren maiatzaren 21eko 50/2026 Foru
+Dekretua, 2026an ikus-entzunezko proiektuen
+preprodukzio-, produkzio- eta sustapen-gastuak
+finantzatzeko dirulaguntzen deialdia eta oinarri
+arautzaileak onartzen dituena.
+En este ejercicio 2026, se publicó en el Boletín
+Oficial de Bizkaia con fecha 29 de mayo, el Decreto
+Foral 50/2026, de 21 de mayo, de la Diputación
+Foral de Bizkaia, por el que se aprueban las bases
+reguladoras y la convocatoria de subvenciones
+destinadas a financiar los gastos de preproducción,
+producción y promoción de proyectos audiovisuales,
+durante el año 2026.
+Deialdi honek parte-hartze handia eragin du, eta
+eskabide ugari aurkeztu dira. Horiek baloratu
+ondoren, kalitate tekniko eta interes publiko handia
+eta Bizkaiko Foru Aldundiak lortu nahi dituen
+helburuetara egokitzen direla egiaztatu da. Hala ere,
+deialdi horretarako
+aurreikusitako zuzkidura
+ekonomikoa ez da nahikoa izan laguntza merezi duten
+proposamen guztiei erantzuteko.
+Esta convocatoria ha suscitado una elevada
+participación, habiéndose presentado un número
+significativo de solicitudes que, tras su valoración,
+han acreditado una notable calidad técnica, interés
+público y adecuación a los objetivos perseguidos por
+la Diputación Foral de Bizkaia. No obstante, la
+dotación económica prevista para dicha convocatoria
+ha resultado insuficiente para atender todas las
+propuestas merecedoras de apoyo.
+Egoera horri erantzuteko, jarduketa publikoaren
+irismena handitzeko eta Bizkaiko ikus-entzunezkoen
+sektorea sustatzen nabarmen laguntzen duten
+proiektuak gauzatzen laguntzeko, egokitzat jotzen da
+aurrekoaren helburu bererako dirulaguntzen
+bigarren deialdi bat onartzea, aurrekontu-zuzkidura
+berri baten kargura finantzatua, egiaztatu baita maila
+eta interes handiko eskabide asko daudela, eta lehen
+deialdian ezin izan zirela aintzat hartu, kreditu
+nahikorik ez zegoelako.
+Con el fin de dar respuesta a esta situación, ampliar
+el alcance de la actuación pública y favorecer la
+ejecución de proyectos que contribuyen de manera
+significativa a la promoción del sector audiovisual de
+Bizkaia, se considera oportuno aprobar una segunda
+convocatoria de subvenciones con el mismo objeto
+que la anterior, financiada con cargo a una nueva
+dotación presupuestaria, al haberse constatado la
+existencia de un elevado nú
