@@ -86,14 +86,36 @@ const udala = (n) => {
   return b + (/[nl]$/i.test(b) ? 'go' : /[aeiou]$/i.test(b) ? 'ko' : 'ko') + ' Udala';
 };
 
+// Nombres oficiales en euskera de los departamentos (Decreto 18/2024) y de los organismos vascos
+const DEPTOS_EU = {
+  lehendakaritza: 'Lehendakaritza', gobernanza: 'Gobernantza, Administrazio Digitaleko eta Autogobernuko Saila',
+  economia: 'Ekonomia, Lan eta Enplegu Saila', hacienda: 'Ogasun eta Finantza Saila', educacion: 'Hezkuntza Saila', seguridad: 'Segurtasun Saila',
+  industria: 'Industria, Trantsizio Energetiko eta Jasangarritasun Saila', vivienda: 'Etxebizitza eta Hiri Agendako Saila', salud: 'Osasun Saila',
+  bienestar: 'Ongizate, Gazteria eta Erronka Demografikoko Saila', movilidad: 'Mugikortasun Jasangarriko Saila', cultura: 'Kultura eta Hizkuntza Politika Saila',
+  ciencia: 'Zientzia, Unibertsitate eta Berrikuntza Saila', turismo: 'Turismo, Merkataritza eta Kontsumo Saila',
+  alimentacion: 'Elikadura, Landa Garapen, Nekazaritza eta Arrantza Saila', justicia: 'Justizia eta Giza Eskubideen Saila',
+};
+const PROPIOS_EU = {
+  lanbide: 'Lanbide - Euskal Enplegu Zerbitzua', spri: 'SPRI - Enpresa Garapenerako Euskal Agentzia', eve: 'EEE - Energiaren Euskal Erakundea',
+  emakunde: 'Emakunde - Emakumearen Euskal Erakundea', osalan: 'Osalan - Laneko Segurtasun eta Osasunerako Euskal Erakundea',
+  elankidetza: 'eLankidetza - Garapenerako Lankidetzaren Euskal Agentzia', etxepare: 'Etxepare Euskal Institutua',
+  habe: 'HABE - Helduen Alfabetatze eta Berreuskalduntzerako Erakundea', hazi: 'HAZI Fundazioa', ihobe: 'Ihobe - Ingurumen Jarduketarako Sozietate Publikoa',
+  basquetour: 'Basquetour - Turismoaren Euskal Agentzia', gogora: 'Gogora - Oroimenaren, Bizikidetzaren eta Giza Eskubideen Institutua',
+  bioef: 'BIOEF - Osasun Berrikuntza eta Ikerketarako Euskal Fundazioa', kontsumobide: 'Kontsumobide - Kontsumoko Euskal Institutua',
+  ivap: 'HAEE - Herri Arduralaritzaren Euskal Erakundea', etxebide: 'Etxebide - Etxebizitzaren Euskal Zerbitzua', ikerbasque: 'Ikerbasque - Zientziaren Euskal Fundazioa',
+  osakidetza: 'Osakidetza - Euskal Osasun Zerbitzua', ue: 'Europar Batasuna', 'bilbao-ekintza': 'Bilboko Udala - Bilbao Ekintza', 'bilbao-kirolak': 'Bilboko Udala - Bilbao Kirolak',
+  surbisa: 'Bilboko Udala - Surbisa', 'fomento-ss': 'Donostiako Udala - Donostia Sustapena', 'donostia-kultura': 'Donostiako Udala - Donostia Kultura',
+  inguralde: 'Inguralde - Tokiko Garapen Agentzia', behargintza: 'Behargintza - Tokiko Garapen Agentzia',
+};
+
 export const CATALOGO = [
-  { id: 'gv', corto: GV, completo: GV, eu: 'Eusko Jaurlaritza', alias: ['gobierno vasco', 'eusko jaurlaritza', 'administracion general de la comunidad autonoma'] },
-  ...DEPTOS.map(([id, nombre, alias]) => ({ id: 'gv-' + id, corto: GV, completo: `${GV} - ${nombre}`, eu: 'Eusko Jaurlaritza', alias })),
-  ...FORALES.map(([id, corto, eu, alias]) => ({ id, corto, completo: corto, eu, alias })),
-  ...MUNIS.map(([n]) => ({ id: 'ayto-' + norm(n).replace(/[^a-z0-9]+/g, '-'), corto: `Ayuntamiento de ${n}`, completo: `Ayuntamiento de ${n}`, eu: udala(n), alias: [norm(n)] })),
-  ...PROPIOS.map(([id, corto, completo, eu, alias]) => ({ id, corto, completo, eu, alias })),
-  ...FUNDACIONES.map(([id, corto, completo, eu, alias]) => ({ id, corto, completo, eu, alias, privada: true })),
-  ...ESTATALES.map(([id, completo, alias]) => ({ id, corto: 'Gobierno de España', completo, eu: 'Espainiako Gobernua', alias })),
+  { id: 'gv', corto: GV, completo: GV, eu: 'Eusko Jaurlaritza', completoEu: 'Eusko Jaurlaritza', alias: ['gobierno vasco', 'eusko jaurlaritza', 'administracion general de la comunidad autonoma'] },
+  ...DEPTOS.map(([id, nombre, alias]) => ({ id: 'gv-' + id, corto: GV, completo: `${GV} - ${nombre}`, eu: 'Eusko Jaurlaritza', completoEu: 'Eusko Jaurlaritza - ' + DEPTOS_EU[id], alias })),
+  ...FORALES.map(([id, corto, eu, alias]) => ({ id, corto, completo: corto, eu, completoEu: eu, alias })),
+  ...MUNIS.map(([n]) => ({ id: 'ayto-' + norm(n).replace(/[^a-z0-9]+/g, '-'), corto: `Ayuntamiento de ${n}`, completo: `Ayuntamiento de ${n}`, eu: udala(n), completoEu: udala(n), alias: [norm(n)] })),
+  ...PROPIOS.map(([id, corto, completo, eu, alias]) => ({ id, corto, completo, eu, completoEu: PROPIOS_EU[id] || eu, alias })),
+  ...FUNDACIONES.map(([id, corto, completo, eu, alias]) => ({ id, corto, completo, eu, completoEu: eu, alias, privada: true })),
+  ...ESTATALES.map(([id, completo, alias]) => ({ id, corto: 'Gobierno de España', completo, eu: 'Espainiako Gobernua', completoEu: completo.replace(/^Gobierno de España/, 'Espainiako Gobernua'), alias })),
 ];
 export const POR_ID = Object.fromEntries(CATALOGO.map((o) => [o.id, o]));
 

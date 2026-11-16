@@ -226,5 +226,28 @@
   "quien": "Explorador",
   "prioridad": 1,
   "estado": "pendiente"
+ },
+ {
+  "id": "fichas-proximas",
+  "titulo": "Fichas prudentes de las ayudas próximas",
+  "detalle": "Instrucción para completar las ayudas próximas (aún no abiertas) con los datos de la última convocatoria, sin prometer nada: todo en pasado o con «suele», importes con su año, continuidad probable/dudosa/no. Instrucciones en docs/PROXIMAS.md; la tarea programada hace 10 por pasada (paso 8 ter de docs/RESUMIR.md). La app las muestra en la pestaña «Próximas».",
+  "fuente": "Petición del responsable",
+  "seccion": "base",
+  "quien": "Claude",
+  "prioridad": 4,
+  "estado": "hecha",
+  "fecha": "2026-11-16",
+  "nota": "Instrucción y comprobaciones creadas; las fichas se irán completando en las próximas pasadas."
+ },
+ {
+  "id": "empadronamiento-diputaciones",
+  "titulo": "¿Se pueden pedir ayudas de la diputación de otro territorio?",
+  "detalle": "Revisar si una persona o entidad empadronada (o con domicilio fiscal) en un territorio puede pedir ayudas de la diputación foral de otro (p. ej. alguien de Bizkaia que trabaja en Gipuzkoa). Mirar los requisitos de residencia, domicilio fiscal o centro de trabajo en las bases de las ayudas de las tres diputaciones y ver si hay excepciones (centro de trabajo en el territorio, actividad realizada allí, etc.). Con el resultado, decidir cómo filtra la app por municipio: hoy solo muestra las ayudas forales del territorio del municipio elegido.",
+  "fuente": "Petición del responsable",
+  "seccion": "revision",
+  "quien": "Claude",
+  "prioridad": 5,
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
  }
 ]

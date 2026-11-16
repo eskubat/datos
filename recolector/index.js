@@ -14,6 +14,7 @@ import { resolver, POR_ID, CATALOGO } from './organismos.js';
 import { aplicarTitulos } from './titulos.js';
 import { convocatoriasUE } from './europa.js';
 import { esPosibleNoticia, cotejar, extras, separar } from './noticias.js';
+import { prepararProximas, aplicarProximas } from './proximas.js';
 
 const SALIDA = path.resolve('publico');
 const FUENTES = [
@@ -256,7 +257,7 @@ async function main() {
     // Administración del Estado: «Gobierno de España - Ministerio de …» (el ministerio sale del nivel 2 de la BDNS)
     if (a.ambito && a.ambito.nivel === 'estado') {
       const min = String(a.ministerio || '').toLowerCase().replace(/(^|\s)(\S)/g, (m, e, c) => e + c.toUpperCase()).replace(/\b(De|Del|La|Las|Los|Y|E|Para|El|En|Con|A|Al)\b/g, (w) => w.toLowerCase());
-      Object.assign(a, { organismoFuente: fuente, organismoId: 'estado', organismo: 'Gobierno de España', organismoCompleto: min ? `Gobierno de España - ${min}` : 'Gobierno de España', organismoEu: 'Espainiako Gobernua' });
+      Object.assign(a, { organismoFuente: fuente, organismoId: 'estado', organismo: 'Gobierno de España', organismoCompleto: min ? `Gobierno de España - ${min}` : 'Gobierno de España', organismoEu: 'Espainiako Gobernua', organismoCompletoEu: min ? `Espainiako Gobernua - ${min}` : 'Espainiako Gobernua' });
       delete a.revisarOrganismo; delete a.organismoDetalle; delete a.ministerio;
       return;
     }
@@ -267,6 +268,7 @@ async function main() {
     a.organismo = o.corto;
     a.organismoCompleto = o.completo;
     a.organismoEu = o.eu;
+    a.organismoCompletoEu = o.completoEu || o.eu;
     if (o.privada) a.privada = true; else delete a.privada;
     delete a.organismoDetalle;
     if (revisar || !POR_ID[id]) a.revisarOrganismo = true; else delete a.revisarOrganismo;
@@ -456,6 +458,16 @@ async function main() {
   fs.writeFileSync(path.join('cache', 'organismos.json'), JSON.stringify(CATALOGO.map(({ id, completo, alias }) => ({ id, nombre: completo, alias })), null, 1));
   fs.writeFileSync(path.join('cache', 'pendientes.json'), JSON.stringify(pendientes, null, 1));
   log(`Pendientes de resumen: ${pendientes.length}`);
+
+  // Próximas: ficha prudente de la última convocatoria (docs/PROXIMAS.md). Primero las más cercanas.
+  try {
+    const hoyM = new Date().getFullYear() * 12 + new Date().getMonth();
+    const cerca = previstas.filter((p) => p.añoPrevisto * 12 + p.mesPrevisto - 1 - hoyM <= 3);
+    const { fuentes: fP, cache: cP } = await prepararProximas(cerca, { documentacion, log });
+    const antes = previstas.length;
+    previstas = aplicarProximas(previstas, fP, cP);
+    log(`Próximas con ficha: ${previstas.filter((p) => p.fichaIA).length} · descartadas por no continuar: ${antes - previstas.length}`);
+  } catch (e) { log(`Próximas: ${e.message}`); }
 
   // Títulos en euskera: traducciones de la tarea de resumen (cache/titulos_eu.json, clave = título en castellano)
   // Títulos estandarizados (docs/TITULOS.md) en castellano y euskera, escritos por la tarea programada

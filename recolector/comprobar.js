@@ -26,3 +26,15 @@ for (const [orig, v] of Object.entries(leer('cache/titulos_nuevos.json', {}))) {
   if (e.length) { malT++; console.log(`✗ título «${v && v.es}» (original: «${orig.slice(0, 80)}»)\n  - ${e.join('\n  - ')}`); }
 }
 console.log(malT ? `${malT} títulos con errores` : 'Todos los títulos cumplen las reglas');
+// Próximas (cache/proximas_nuevas.json) — docs/PROXIMAS.md
+import { comprobarProxima } from './proximas.js';
+const pendP = new Map(leer('cache/proximas_pendientes.json', []).map((p) => [p.id, p]));
+let malP = 0;
+for (const r of leer('cache/proximas_nuevas.json', [])) {
+  const p = pendP.get(r.id);
+  let fuente = '';
+  try { fuente = fs.readFileSync(p.archivo, 'utf8'); } catch {}
+  const e = p ? comprobarProxima(r, fuente) : ['id no está en cache/proximas_pendientes.json'];
+  if (e.length) { malP++; console.log(`✗ próxima ${r.id}\n  - ${e.join('\n  - ')}`); }
+}
+console.log(malP ? `${malP} próximas con errores` : 'Todas las próximas cumplen las reglas');

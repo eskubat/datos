@@ -64,3 +64,30 @@ if (titNuevos) {
   }
   console.log(`Títulos incorporados: ${n}. Rechazados: ${mal}. Pendientes: ${leer('cache/titulos_pendientes.json', []).length}`);
 }
+
+// Próximas (cache/proximas_nuevas.json) — docs/PROXIMAS.md
+import { validarProxima, aplicarProximas, huellaP } from './proximas.js';
+const nuevasP = leer('cache/proximas_nuevas.json', null);
+if (nuevasP) {
+  const pendP = leer('cache/proximas_pendientes.json', []);
+  const porIdP = new Map(pendP.map((p) => [p.id, p]));
+  const cacheP = leer('cache/proximas.json', {});
+  let okP = 0;
+  for (const r of nuevasP) {
+    const p = porIdP.get(r.id); if (!p) continue;
+    let fuente = ''; try { fuente = fs.readFileSync(p.archivo, 'utf8'); } catch { continue; }
+    cacheP[r.id] = { h: huellaP(fuente), r: validarProxima(r, fuente), fecha: new Date().toISOString().slice(0, 10) };
+    okP++;
+  }
+  fs.writeFileSync('cache/proximas.json', JSON.stringify(cacheP));
+  fs.writeFileSync('cache/proximas_pendientes.json', JSON.stringify(pendP.filter((p) => !cacheP[p.id] || cacheP[p.id].h !== p.h), null, 1));
+  fs.rmSync('cache/proximas_nuevas.json', { force: true });
+  const pub2 = leer('publico/ayudas.json', null);
+  if (pub2 && pub2.previstas) {
+    const fP = {};
+    for (const p of pub2.previstas) { try { fP[p.id] = fs.readFileSync('cache/fuentes_prox/' + String(p.id).replace(/[^\w.-]/g, '_').slice(0, 60) + '-' + huellaP(p.id).slice(0, 8) + '.txt', 'utf8'); } catch {} }
+    pub2.previstas = aplicarProximas(pub2.previstas, fP, cacheP);
+    fs.writeFileSync('publico/ayudas.json', JSON.stringify(pub2));
+  }
+  console.log(`Próximas incorporadas: ${okP}. Pendientes: ${leer('cache/proximas_pendientes.json', []).length}`);
+}
