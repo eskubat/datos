@@ -98,5 +98,30 @@
   "parecidaA": "ara-ayudas-ganaderas-2026",
   "motivo": "Misma ayuda de la Diputación Foral de Álava (programas colectivos de cría de razas ganaderas, sanidad y producción animal) con el mismo título y resumen en dos fichas de la sede: …/fitxa/ayudas-ganaderas-2026 (fin 27/04/2027) y …/fitxa/ayudas-ganaderas (fin 29/07/2027).",
   "fecha": "2026-11-16"
+ },
+ "bdns-938077": {
+  "parecidaA": "bdns-938086",
+  "motivo": "Línea «España crece - ICO crecimiento y expansión (MRR)» (minimis general): misma convocatoria del ICO con el mismo documento; solo cambia el régimen de ayudas de Estado (minimis general, agrícola o pesquero, o exención por categorías). Llegan las cinco por la BDNS.",
+  "fecha": "2026-11-16"
+ },
+ "bdns-938086": {
+  "parecidaA": "bdns-938077",
+  "motivo": "Línea «España crece - ICO crecimiento y expansión (MRR)» (minimis agrícola): misma convocatoria del ICO con el mismo documento; solo cambia el régimen de ayudas de Estado (minimis general, agrícola o pesquero, o exención por categorías). Llegan las cinco por la BDNS.",
+  "fecha": "2026-11-16"
+ },
+ "bdns-938087": {
+  "parecidaA": "bdns-938077",
+  "motivo": "Línea «España crece - ICO crecimiento y expansión (MRR)» (minimis pesca): misma convocatoria del ICO con el mismo documento; solo cambia el régimen de ayudas de Estado (minimis general, agrícola o pesquero, o exención por categorías). Llegan las cinco por la BDNS.",
+  "fecha": "2026-11-16"
+ },
+ "bdns-941145": {
+  "parecidaA": "bdns-938077",
+  "motivo": "Línea «España crece - ICO crecimiento y expansión (MRR)» (exenciones por categorías): misma convocatoria del ICO con el mismo documento; solo cambia el régimen de ayudas de Estado (minimis general, agrícola o pesquero, o exención por categorías). Llegan las cinco por la BDNS.",
+  "fecha": "2026-11-16"
+ },
+ "bdns-941154": {
+  "parecidaA": "bdns-938077",
+  "motivo": "Línea «España crece - ICO crecimiento y expansión (MRR)» (AGRI, exenciones por categorías agrícola): misma convocatoria del ICO con el mismo documento; solo cambia el régimen de ayudas de Estado (minimis general, agrícola o pesquero, o exención por categorías). Llegan las cinco por la BDNS.",
+  "fecha": "2026-11-16"
  }
 }
