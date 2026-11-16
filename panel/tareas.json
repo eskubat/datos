@@ -152,7 +152,7 @@
  {
   "id": "siglas-comprobador",
   "titulo": "Admitir más siglas y el «presupuesto» del solicitante en el comprobador",
-  "detalle": "recolector/resumen.js rechaza siglas legítimas por ir en mayúsculas (IPREM en bdns-939817; NAFEM, AFEHC, AFYDAD en las ferias ICEX bdns-931664, bdns-931689 y bdns-938573), y la tarea tuvo que escribir «Iprem» o el nombre completo. Añadirlas a SIGLAS. Además, RE.presupuestoTotal rechaza en «¿Cuánto puede recibir?» el presupuesto de la propia entidad («20 % del presupuesto ordinario», bdns-936178), que no es el presupuesto de la convocatoria; limitarlo a «presupuesto total/de la convocatoria».",
+  "detalle": "recolector/resumen.js rechaza siglas legítimas por ir en mayúsculas (IPREM en bdns-939817; NAFEM, AFEHC, AFYDAD en las ferias ICEX bdns-931664, bdns-931689 y bdns-938573), y la tarea tuvo que escribir «Iprem» o el nombre completo. Añadirlas a SIGLAS. Además, RE.presupuestoTotal rechaza en «¿Cuánto puede recibir?» el presupuesto de la propia entidad («20 % del presupuesto ordinario», bdns-936178), que no es el presupuesto de la convocatoria; limitarlo a «presupuesto total/de la convocatoria». Más casos (16/11/2026): SEBIME (bdns-938474), MUFACE, MUGEJU e ISFAS (eus-servicios-0336325), EKINN+ (bdns-941574) y LGTBIQ+ (bog-c2607128-htm).",
   "fuente": "Comprobaciones de fichas",
   "quien": "Claude",
   "prioridad": 14,
@@ -192,5 +192,29 @@
   "quien": "Claude",
   "prioridad": 16,
   "estado": "pendiente"
+ },
+ {
+  "id": "organismos-estado-2",
+  "titulo": "Añadir organismos del Estado que faltan en la tabla maestra",
+  "detalle": "Fichas del 16/11/2026 que han tenido que usar «estado» por falta de entrada propia en recolector/organismos.js: {id: \"estado-mapa\", nombre: \"Gobierno de España - Ministerio de Agricultura, Pesca y Alimentación\", alias: [\"ministerio de agricultura, pesca y alimentacion\", \"direccion general de alimentacion\"]} (bdns-939101); {id: \"estado-miteco\", nombre: \"Gobierno de España - Ministerio para la Transición Ecológica y el Reto Demográfico\", alias: [\"ministerio para la transicion ecologica y el reto demografico\", \"miteco\", \"secretaria de estado de energia\"]} (bdns-940056); {id: \"estado-red-es\", nombre: \"Gobierno de España - Red.es\", alias: [\"red.es\", \"entidad publica empresarial red.es\"]} (bdns-933308). Además, alias «secretaria general de formacion profesional» para estado-educacion (bdns-941501, bdns-941470).",
+  "fuente": "Revisión de ayudas",
+  "seccion": "base",
+  "quien": "Claude",
+  "prioridad": 3,
+  "estado": "pendiente",
+  "fecha": "2026-11-16",
+  "nota": "Añadida al plan de mejoras"
+ },
+ {
+  "id": "fechas-historicas-euskadi",
+  "titulo": "No copiar las fechas de la convocatoria nueva a un procedimiento histórico de euskadi.eus",
+  "detalle": "eus-ayuda-subvencion-2025-ayuda-medicamentos-simplificada (solicitud simplificada de 2025, procedimiento 0336324, marcado «Histórico», plazo cerrado el 10/12/2025) figura en publico/ayudas.json como abierta con las fechas de la convocatoria de 2026 (19/05/2026-10/12/2026). El recolector debería tomar las fechas de cada procedimiento y no publicar como abiertos los marcados «Histórico».",
+  "fuente": "Gobierno Vasco",
+  "seccion": "fuentes",
+  "quien": "Claude",
+  "prioridad": 3,
+  "estado": "pendiente",
+  "fecha": "2026-11-16",
+  "nota": "Añadida al plan de mejoras"
  }
 ]

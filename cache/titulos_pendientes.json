@@ -1,39 +1,9 @@
 [
  {
-  "original": "Ayudas al alquiler de vivienda del Programa Gaztelagun para el ejercicio 2026",
-  "actual": "Ayudas al alquiler de vivienda del Programa Gaztelagun",
-  "organismo": "Gobierno Vasco",
-  "id": "extra-gv-gaztelagun-2026"
- },
- {
   "original": "Anuncio de convocatoria de concurso específico para proveer, con carácter definitivo, un puesto de trabajo.",
   "actual": "Anuncio de convocatoria de concurso específico para proveer, con carácter definitivo",
   "organismo": "Ayuntamiento de Sopuerta",
   "id": "bob-bob-2026a196-ii-5229-"
- },
- {
-  "original": "Pensión no contributiva de jubilación (PNC jubilación)",
-  "actual": "Pensión no contributiva de jubilación (PNC jubilación)",
-  "organismo": "Diputación Foral de Bizkaia",
-  "id": "prest-bizkaia-pnc-jubilacion"
- },
- {
-  "original": "Bono social eléctrico para consumidores vulnerables",
-  "actual": "Bono social eléctrico para consumidores vulnerables",
-  "organismo": "Gobierno de España",
-  "id": "prest-bono-social-electrico"
- },
- {
-  "original": "Pensión no contributiva de incapacidad (PNC incapacidad)",
-  "actual": "Pensión no contributiva de incapacidad (PNC incapacidad)",
-  "organismo": "Diputación Foral de Bizkaia",
-  "id": "prest-bizkaia-pnc-incapacidad"
- },
- {
-  "original": "Pensión no contributiva (PNC): complemento de vivienda",
-  "actual": "Pensión no contributiva (PNC): complemento de vivienda",
-  "organismo": "Diputación Foral de Gipuzkoa",
-  "id": "prest-gipuzkoa-pnc-complemento-vivienda"
  },
  {
   "original": "Subvenciones 2025: puntuales",
@@ -46,11 +16,5 @@
   "actual": "Subvenciones: Jon Tecedor",
   "organismo": "Ayuntamiento de Lasarte-Oria",
   "id": "prev-ayuntamiento-de-lasarte-oria-jon-subvenciones-tecedor"
- },
- {
-  "original": "Subvenciones anuales y puntuales - urteko dirulaguntzak eta unean unekoalk",
-  "actual": "Subvenciones anuales y puntuales - urteko dirulaguntzak eta unean unekoalk",
-  "organismo": "Ayuntamiento de Barakaldo",
-  "id": "prev-ayuntamiento-de-barakaldo-anuales-dirulaguntzak-eta-puntuales-subvenciones-unean"
  }
 ]
