@@ -223,8 +223,7 @@
   "detalle": "Mirar si el Basque Culinary Center (bculinary.com) publica becas, premios, ayudas o convocatorias con bases para Euskadi. Si hay algo, proponerlo como fuente nueva (potenciales en panel/fuentes.json y tarea de lector) o añadir las convocatorias abiertas; si no hay nada, cerrar la tarea con una nota.",
   "fuente": "Basque Culinary Center",
   "seccion": "fuentes",
-  "quien": "Claude",
-  "responsable": "explorador",
+  "quien": "Explorador",
   "prioridad": 1,
   "estado": "pendiente"
  }
