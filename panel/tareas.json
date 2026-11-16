@@ -66,8 +66,10 @@
   "fuente": "Diputación Foral de Bizkaia",
   "quien": "Claude",
   "prioridad": 7,
-  "estado": "pendiente",
-  "seccion": "fuentes"
+  "estado": "hecha",
+  "seccion": "fuentes",
+  "fecha": "2026-11-16",
+  "nota": "La web de la Diputación de Bizkaia no tiene un catálogo de ayudas con plazo: las convocatorias están en páginas por tema que remiten al BOB (ya leído) y el buscador de trámites de ebizkaia.eus no se pudo leer (la red de la sesión tampoco llega a bizkaia.eus), así que no compensa un lector nuevo. Lo que no llega por la BDNS ni el BOB son las prestaciones permanentes de dependencia: he añadido a cache/prestaciones.json la PECEF, la PVS y la PEAP, que ya no tenía ninguna fuente (se esperan 3 ayudas permanentes nuevas en pendientes tras el recolector de las 05:41). Quedan por revisar la PVS de descanso de personas cuidadoras y las prestaciones de inclusión social (nueva tarea)."
  },
  {
   "id": "ue-directas",
@@ -403,5 +405,15 @@
   "quien": "Claude",
   "estado": "pendiente",
   "fecha": "2026-11-16"
+ },
+ {
+  "id": "bizkaia-prestaciones-2",
+  "titulo": "Revisar más prestaciones permanentes de la Diputación de Bizkaia",
+  "detalle": "Leer las páginas de la PVS para el descanso de personas cuidadoras (…/pvs-descanso), la LISMI (…/lismi, comprobar si admite nuevas solicitudes) y las de inclusión social (Fondo de Bienestar Social, ayudas especiales) en bizkaia.eus y añadir a cache/prestaciones.json las que se puedan pedir todo el año.",
+  "fuente": "Diputación Foral de Bizkaia",
+  "quien": "Claude",
+  "prioridad": 21,
+  "estado": "pendiente",
+  "seccion": "fuentes"
  }
 ]
