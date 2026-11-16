@@ -241,27 +241,27 @@
  "marca": {
   "nombre": "Eskubat",
   "origen": "De «esku bat eman»: echar una mano.",
-  "logo": "Logo B: mano que recoge, con ondas.",
+  "logo": "Logo B: una mano que recibe (esku), un punto naranja que es la ayuda (bat) y dos ondas de aviso.",
   "alternativa": "Logo U: círculo de manos (dos trazos, blanco y naranja).",
   "colores": [
    [
     "Verde Eskubat",
-    "#0f6b54"
+    "#0E6B5C"
    ],
    [
     "Naranja",
-    "#c2621a"
+    "#F26B1D"
    ],
    [
     "Fondo",
-    "#f4f5f3"
+    "#F6F7F5"
    ],
    [
     "Texto",
-    "#1c2a24"
+    "#14211C"
    ]
   ],
-  "tipografia": "Sans serif.",
+  "tipografia": "Schibsted Grotesk para títulos y Atkinson Hyperlegible Next para textos.",
   "tono": "Textos prácticos y objetivos, que no suenen a IA. Ortografía corregida aunque la fuente tenga errores.",
   "idiomas": "Castellano y euskera."
  },
@@ -523,6 +523,48 @@
  ],
  "disenos": [
   {
+   "id": "ds-logo",
+   "t": "Logotipo",
+   "url": "https://claude.ai/artifact/NVQJeLBSyGZKtN8FNrfomj",
+   "enlaces": [
+    [
+     "Lienzo",
+     "https://claude.ai/artifact/NVQJeLBSyGZKtN8FNrfomj"
+    ],
+    [
+     "Logo PNG",
+     "https://raw.githubusercontent.com/eskubat/datos/main/marca/logo-1024.png"
+    ],
+    [
+     "Icono de la app PNG",
+     "https://raw.githubusercontent.com/eskubat/datos/main/marca/icono-app-1024.png"
+    ],
+    [
+     "Animación",
+     "https://github.com/eskubat/datos/blob/main/marca/logo-animado.svg"
+    ],
+    [
+     "SVG",
+     "https://github.com/eskubat/datos/blob/main/marca/logo.svg"
+    ]
+   ],
+   "img": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22240%22%20height%3D%22240%22%20viewBox%3D%220%200%20240%20240%22%3E%3Ctitle%3EEskubat%3C/title%3E%3Crect%20width%3D%22240%22%20height%3D%22240%22%20rx%3D%2254%22%20fill%3D%22%230E6B5C%22/%3E%3Cpath%20d%3D%22M58%20128%20A62%2062%200%200%200%20182%20128%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%2222%22%20stroke-linecap%3D%22round%22/%3E%3Ccircle%20class%3D%22dot%22%20cx%3D%22120%22%20cy%3D%22118%22%20r%3D%2217%22%20fill%3D%22%23F26B1D%22/%3E%3Cpath%20class%3D%22w1%22%20d%3D%22M91.7%2089.7%20A40%2040%200%200%201%20148.3%2089.7%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%2211%22%20stroke-linecap%3D%22round%22/%3E%3Cpath%20class%3D%22w2%22%20d%3D%22M71.9%2069.9%20A68%2068%200%200%201%20168.1%2069.9%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%2211%22%20stroke-linecap%3D%22round%22%20stroke-opacity%3D%22.55%22/%3E%3C/svg%3E",
+   "piezas": [
+    [
+     "ds-l-b",
+     "Logo B: mano que recibe, punto naranja y dos ondas (elegido)"
+    ],
+    [
+     "ds-l-anim",
+     "Animaciones: inicio, aviso, presentación, cargando, guardada y sin conexión"
+    ],
+    [
+     "ds-l-u",
+     "Logo U (alternativa)"
+    ]
+   ]
+  },
+  {
    "id": "ds-pantallas",
    "t": "Pantallas de la app",
    "url": "https://claude.ai/artifact/CyebffEBiPjTW4Wko88eSJ",
@@ -546,21 +588,6 @@
     [
      "ds-p-guardadas",
      "Guardadas"
-    ]
-   ]
-  },
-  {
-   "id": "ds-logo",
-   "t": "Ideas de logo",
-   "url": "https://claude.ai/artifact/NVQJeLBSyGZKtN8FNrfomj",
-   "piezas": [
-    [
-     "ds-l-b",
-     "Logo B (elegido)"
-    ],
-    [
-     "ds-l-u",
-     "Logo U (alternativa)"
     ]
    ]
   },

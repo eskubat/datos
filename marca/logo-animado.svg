@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240"><title>Eskubat · animación «La ayuda llega» (inicio de la app)</title><style>*{transform-box:fill-box}
+.dot{animation:dot 3.4s ease-in-out infinite}
+@keyframes dot{0%{transform:translateY(-140px);opacity:0}6%{opacity:1}28%{transform:translateY(0)}35%{transform:translateY(-12px)}42%{transform:translateY(0)}88%{transform:translateY(0);opacity:1}100%{transform:translateY(0);opacity:0}}
+.w1{animation:w1 3.4s ease-out infinite}@keyframes w1{0%,42%{opacity:0}54%,88%{opacity:1}100%{opacity:0}}
+.w2{animation:w2 3.4s ease-out infinite}@keyframes w2{0%,52%{opacity:0}64%,88%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><rect width="240" height="240" rx="54" fill="#0E6B5C"/><g><path d="M58 128 A62 62 0 0 0 182 128" fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round"/><circle class="dot" cx="120" cy="118" r="17" fill="#F26B1D"/><path class="w1" d="M91.7 89.7 A40 40 0 0 1 148.3 89.7" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round"/><path class="w2" d="M71.9 69.9 A68 68 0 0 1 168.1 69.9" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" stroke-opacity=".55"/></g></svg>
