@@ -377,6 +377,8 @@ async function main() {
     try { ocultas = JSON.parse(fs.readFileSync(path.join('cache', 'previstas_ocultas.json'), 'utf8')); } catch {}
     previstas = previstas.filter((p) => !ocultas.includes(p.id));
     previstas.forEach(normalizaOrganismo);
+    // Tipo y temas aproximados por el título hasta que la tarea escriba la ficha (docs/PROXIMAS.md)
+    for (const p of previstas) { const tx = [p.titulo, p.tituloOficial].join(' '); if (!(p.para || []).length) p.para = paraDeTexto(tx); if (!(p.temas || []).length) p.temas = temasDe(tx); }
     previstas.sort((a, b) => (a.añoPrevisto - b.añoPrevisto) || (a.mesPrevisto - b.mesPrevisto));
     log(`Histórico: ${ayudas.filter((a) => a.recurrente).length} ayudas actuales se repiten cada año · ${previstas.length} previstas en los próximos meses`);
   } catch (e) { log(`Histórico no disponible: ${e.message}`); }
