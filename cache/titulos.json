@@ -5306,5 +5306,17 @@
  "Ayudas forestales 2026": {
   "es": "Ayudas para repoblar, cuidar y mejorar los montes",
   "eu": "Mendiak birlandatu, zaindu eta hobetzeko laguntzak"
+ },
+ "Prestación económica para cuidados en el entorno familiar (PECEF)": {
+  "es": "Ayuda para cuidar en familia a una persona dependiente",
+  "eu": "Mendekotasuna duen pertsona familian zaintzeko laguntza"
+ },
+ "Prestación económica vinculada al servicio residencial (PVS)": {
+  "es": "Ayuda para pagar una residencia privada a personas dependientes",
+  "eu": "Mendeko pertsonentzako egoitza pribatua ordaintzeko laguntza"
+ },
+ "Prestación económica de asistencia personal (PEAP)": {
+  "es": "Ayuda para contratar asistencia personal a personas dependientes",
+  "eu": "Mendeko pertsonentzako laguntzaile pertsonala kontratatzeko laguntza"
  }
 }

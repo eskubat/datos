@@ -298,5 +298,35 @@
   "parecidaA": "ara-ayudas-para-la-organizacion-de-ferias-agricolas-y-ganaderas",
   "motivo": "Dos trámites de la DFA con el mismo título, ayudas para organizar ferias agrícolas y ganaderas; uno añade «(Entidades Locales)» y el otro no dice a quién va.",
   "fecha": "2026-11-16"
+ },
+ "bog-c2607197-htm": {
+  "parecidaA": "bdns-938955",
+  "motivo": "Misma convocatoria de Eibar (ayudas al mantenimiento de ascensores comunitarios, BDNS 938955) llegada por el BOG (solo extracto, sin requisitos) y por la BDNS (ficha completa: hasta 6.000 € por ascensor y año).",
+  "fecha": "2026-11-16"
+ },
+ "bdns-938955": {
+  "parecidaA": "bog-c2607197-htm",
+  "motivo": "Misma convocatoria de Eibar (ascensores comunitarios) que el anuncio del BOG c2607197; la BDNS trae las bases completas.",
+  "fecha": "2026-11-16"
+ },
+ "bog-c2606552-htm": {
+  "parecidaA": "bdns-933198",
+  "motivo": "Misma convocatoria de Ibarra (ayudas para estudiar euskera, BDNS 933198) llegada por el BOG (solo objeto) y por la BDNS (ficha completa).",
+  "fecha": "2026-11-16"
+ },
+ "bdns-933198": {
+  "parecidaA": "bog-c2606552-htm",
+  "motivo": "Misma convocatoria de Ibarra (estudiar euskera) que el anuncio del BOG c2606552; la BDNS trae las bases completas.",
+  "fecha": "2026-11-16"
+ },
+ "botha-2026-131-03265-c-pdf": {
+  "parecidaA": "ara-01484",
+  "motivo": "Misma ayuda de la Diputación de Álava (60 % del peaje de la AP-68 para residentes alaveses con 15 o más viajes al mes): el BOTHA trae el Decreto Foral 42/2026 con bases nuevas (AP-1 y AP-68) y convoca la AP-68 del 11/11 al 31/12/2026; ara-01484 es el trámite permanente de la sede.",
+  "fecha": "2026-11-16"
+ },
+ "ara-01484": {
+  "parecidaA": "botha-2026-131-03265-c-pdf",
+  "motivo": "Trámite permanente de la sede para el peaje de la AP-68; el Decreto Foral 42/2026 (BOTHA 131) aprueba bases nuevas y convoca 2026.",
+  "fecha": "2026-11-16"
  }
 }

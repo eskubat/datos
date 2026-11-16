@@ -449,5 +449,27 @@
   "estado": "pendiente",
   "seccion": "fuentes",
   "prioridad": 22
+ },
+ {
+  "id": "bob-anuncios-cortados",
+  "titulo": "Los anuncios del BOB llegan sin su texto (solo el sumario)",
+  "detalle": "Las ayudas bob-… de cache/pendientes.json guardan en cache/fuentes el boletín entero cortado: el sumario y algunos anuncios, pero no el anuncio de la ayuda. Pasa con bob-bob-2026a219-ii-6013- (Santurtzi, emancipación), a219-ii-5936- (Sondika, abonos del polideportivo), a216-ii-5801- (Santurtzi, euskera), a213-ii-5650- (Leioa, urgencia social), a213-ii-5652- (Zalla, Etxekonpon), a204-ii-5423- (Barrika), a203-ii-5394- (Dima), a201-ii-5375- (Sondika, pintadas), a200-ii-5287- (Durango), a200-ii-5331- (Laukiz, euskera), a199-ii-5301- (Arantzazu), a199-ii-5322- (Demuporsa, Portugalete; el organismo sugerido Sondika es erróneo), a196-ii-5239- (Leioa) y a190-ii-5068- (Arrigorriaga). La sesión de la tarea no llega a bizkaia.eus ni a infosubvenciones.es (403 del proxy), así que no puede copiarlo. El lector del BOB debe guardar solo el texto del anuncio concreto (PDF suelto II-xxxx o el tramo del boletín entre su cabecera y la siguiente) y no el boletín recortado.",
+  "seccion": "fuentes",
+  "prioridad": 14,
+  "fuente": "Revisor de datos (16/11)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
+ },
+ {
+  "id": "cola-plazo-cerrado",
+  "titulo": "Sacar de la cola y de «abiertas» las convocatorias con el plazo ya cerrado",
+  "detalle": "La tarea de fichas no redacta las que ya cerraron, pero siguen en cache/pendientes.json y en publico/ayudas.json como abiertas o sin fecha: bdns-931520 y bdns-931492 (Ordizia, clubes, cerraron hacia el 30/10), bdns-920446 y bdns-920445 (Sopela, concursos del 6/9), bdns-927201 (Elorrio, 30/9), bdns-926043 (Amurrio, Artzain Eguna), bdns-927813 (Durango, 30/10), bdns-928525 (Andoain), bdns-930046 (Erandio, 31/10), bdns-930639 (Barakaldo, 19/10), bdns-931087 y bdns-929492 (BOE, 10-15 días hábiles), bog-c2606336-htm, bog-c2606670-htm, bog-c2606320-htm y bog-c2606930-htm (Gipuzkoa, octubre-noviembre), botha-2026-113-02776-c-pdf y botha-2026-116-02840-c-pdf, y las probables bdns-929190, bdns-930617, bdns-927161, bdns-929139 y bdns-925769/925762/925592 (plazo desde el BOB sin fecha conocida). También órdenes forales que solo redistribuyen crédito o resuelven (bob-bob-2026a216-i-1273-, a207-i-1230-, a205-i-1199-, a204-i-1219-, a200-i-1174-). Leer el plazo de las bases o del extracto (fecha de publicación + días) para cerrarlas, y no poner en cola redistribuciones ni modificaciones.",
+  "seccion": "fuentes",
+  "prioridad": 13,
+  "fuente": "Revisor de datos (16/11)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
  }
 ]
