@@ -567,7 +567,7 @@ HTTP 200
 			}
 		};
 
-		Liferay.authToken = 'k961UNR8';
+		Liferay.authToken = '6ZEMWSlN';
 
 		
 
@@ -1550,7 +1550,7 @@ Liferay.on(
 
 
 
-	<nav aria-label="Enlaces rápidos" class="bg-dark cadmin quick-access-nav text-center text-white" id="drnj_quickAccessNav">
+	<nav aria-label="Enlaces rápidos" class="bg-dark cadmin quick-access-nav text-center text-white" id="bfsk_quickAccessNav">
 		
 			
 				<a class="d-block p-2 sr-only sr-only-focusable text-reset" href="#main-content">
@@ -2869,7 +2869,7 @@ Liferay.on(
 
 
 
-<form action="https://egoitza.araba.eus/es/inicio/tramites?p_p_id=ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_javax.portlet.action=SearchMVCActionCommand&amp;p_auth=k961UNR8" class="form  " data-fm-namespace="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_" id="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm" method="post" name="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm" >
+<form action="https://egoitza.araba.eus/es/inicio/tramites?p_p_id=ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_javax.portlet.action=SearchMVCActionCommand&amp;p_auth=6ZEMWSlN" class="form  " data-fm-namespace="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_" id="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm" method="post" name="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm" >
 	
 
 	
@@ -2946,7 +2946,7 @@ Liferay.on(
 		
 			
 				
-					<input  class="field form-control"  id="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_formDate"    name="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_formDate"     type="hidden" value="1794861610374"   />
+					<input  class="field form-control"  id="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_formDate"    name="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_formDate"     type="hidden" value="1794862841085"   />
 				
 			
 		
