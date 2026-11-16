@@ -198,5 +198,15 @@
   "parecidaA": "ara-convocatoria-subvenciones-medios-euskera-2026",
   "motivo": "Subvenciones de la Diputación de Álava a medios de comunicación en euskera: edición 2026 y un trámite sin año con el mismo objeto.",
   "fecha": "2026-11-16"
+ },
+ "eus-ayuda-subvencion-2026-eventos-sociales": {
+  "parecidaA": "extra-gv-eventos-sociales-medio-rural-litoral-2026",
+  "motivo": "Misma convocatoria (Orden de 20/10/2026, eventos sociales en el medio rural y litoral) llegada por la ficha de euskadi.eus y por ayudas_extra (PDF del BOPV); cambia la fecha de cierre (23/11 frente a 13/12) y la fuente.",
+  "fecha": "2026-11-16"
+ },
+ "extra-gv-eventos-sociales-medio-rural-litoral-2026": {
+  "parecidaA": "eus-ayuda-subvencion-2026-eventos-sociales",
+  "motivo": "Misma convocatoria que la ficha de euskadi.eus eus-ayuda-subvencion-2026-eventos-sociales (Orden de 20/10/2026); esta llegó por ayudas_extra con el PDF del BOPV.",
+  "fecha": "2026-11-16"
  }
 }
