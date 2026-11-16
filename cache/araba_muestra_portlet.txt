@@ -1,0 +1,4922 @@
+HTTP 200
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="ltr" dir="ltr" lang="es-ES">
+
+<head>
+	<base href="/">	
+	<title>Trámites - Sede electrónica - Diputación Foral de Álava - egoitza</title>
+
+	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+
+
+
+
+
+
+
+
+
+<meta content="Buscador de trámites. Buscar trámites en la Sede electrónica. Guía de trámites. Otros trámites de interés. Ayudas en vigor." lang="es-ES" name="description" />
+
+
+<script type="importmap">{"imports":{"react-dom":"/o/frontend-js-react-web/__liferay__/exports/react-dom.js","@clayui/breadcrumb":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$breadcrumb.js","@clayui/charts":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$charts.js","@clayui/empty-state":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$empty-state.js","react":"/o/frontend-js-react-web/__liferay__/exports/react.js","react-dom-16":"/o/frontend-js-react-web/__liferay__/exports/react-dom-16.js","@clayui/navigation-bar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$navigation-bar.js","@clayui/icon":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$icon.js","@clayui/table":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$table.js","@clayui/slider":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$slider.js","@clayui/multi-select":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$multi-select.js","@clayui/nav":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$nav.js","@clayui/provider":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$provider.js","@clayui/panel":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$panel.js","@clayui/list":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$list.js","@clayui/date-picker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$date-picker.js","@clayui/label":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$label.js","@liferay/frontend-js-api/data-set":"/o/frontend-js-dependencies-web/__liferay__/exports/@liferay$js-api$data-set.js","@clayui/core":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$core.js","@clayui/pagination-bar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$pagination-bar.js","@clayui/layout":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$layout.js","@clayui/multi-step-nav":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$multi-step-nav.js","@liferay/frontend-js-api":"/o/frontend-js-dependencies-web/__liferay__/exports/@liferay$js-api.js","@clayui/toolbar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$toolbar.js","@clayui/badge":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$badge.js","react-dom-18":"/o/frontend-js-react-web/__liferay__/exports/react-dom-18.js","@clayui/link":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$link.js","@clayui/card":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$card.js","@clayui/tooltip":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$tooltip.js","@clayui/button":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$button.js","@clayui/tabs":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$tabs.js","@clayui/sticker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$sticker.js","@clayui/form":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$form.js","@clayui/popover":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$popover.js","@clayui/shared":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$shared.js","@clayui/localized-input":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$localized-input.js","@clayui/modal":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$modal.js","@clayui/color-picker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$color-picker.js","@clayui/pagination":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$pagination.js","@clayui/autocomplete":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$autocomplete.js","@clayui/management-toolbar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$management-toolbar.js","@clayui/time-picker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$time-picker.js","@clayui/upper-toolbar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$upper-toolbar.js","@clayui/loading-indicator":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$loading-indicator.js","@clayui/drop-down":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$drop-down.js","@clayui/data-provider":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$data-provider.js","@liferay/language/":"/o/js/language/","@clayui/css":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$css.js","@clayui/alert":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$alert.js","@clayui/progress-bar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$progress-bar.js","react-16":"/o/frontend-js-react-web/__liferay__/exports/react-16.js","react-18":"/o/frontend-js-react-web/__liferay__/exports/react-18.js"},"scopes":{}}</script><script data-senna-track="temporary">var Liferay = window.Liferay || {};Liferay.Icons = Liferay.Icons || {};Liferay.Icons.controlPanelSpritemap = 'https://egoitza.araba.eus/o/admin-theme/images/clay/icons.svg'; Liferay.Icons.spritemap = 'https://egoitza.araba.eus/o/portal-publico-araba-theme-v-2-theme/images/clay/icons.svg';</script>
+<script data-senna-track="permanent" type="text/javascript">window.Liferay = window.Liferay || {}; window.Liferay.CSP = {nonce: ''};</script>
+<script data-senna-track="permanent" src="/combo?browserId=chrome&minifierType=js&languageId=es_ES&t=1793860441043&/o/frontend-js-jquery-web/jquery/jquery.min.js&/o/frontend-js-jquery-web/jquery/init.js&/o/frontend-js-jquery-web/jquery/ajax.js&/o/frontend-js-jquery-web/jquery/bootstrap.bundle.min.js&/o/frontend-js-jquery-web/jquery/collapsible_search.js&/o/frontend-js-jquery-web/jquery/fm.js&/o/frontend-js-jquery-web/jquery/form.js&/o/frontend-js-jquery-web/jquery/popper.min.js&/o/frontend-js-jquery-web/jquery/side_navigation.js" type="text/javascript"></script>
+<link data-senna-track="temporary" href="https://egoitza.araba.eus/es/inicio/tramites" rel="canonical" />
+<link data-senna-track="temporary" href="https://egoitza.araba.eus/es/inicio/tramites" hreflang="es-ES" rel="alternate" />
+<link data-senna-track="temporary" href="https://egoitza.araba.eus/eu/hasi/izapideak" hreflang="eu-ES" rel="alternate" />
+<link data-senna-track="temporary" href="https://egoitza.araba.eus/es/inicio/tramites" hreflang="x-default" rel="alternate" />
+<meta property="og:description" content="Buscador de trámites. Buscar trámites en la Sede electrónica. Guía de trámites. Otros trámites de interés. Ayudas en vigor.">
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="eu_ES">
+<meta property="og:site_name" content="egoitza">
+<meta property="og:title" content="Trámites - Sede electrónica - Diputación Foral de Álava - egoitza - instancia WEB">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://egoitza.araba.eus/es/inicio/tramites">
+
+
+<link href="/documents/1525748/1525991/favicon.ico/11d40b26-285b-8c5e-3391-5b907d2394f6" rel="apple-touch-icon" />
+<link href="/documents/1525748/1525991/favicon.ico/11d40b26-285b-8c5e-3391-5b907d2394f6" rel="icon" />
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://egoitza.araba.eus/o/portal-publico-araba-theme-v-2-theme/css/clay.css?browserId=chrome&amp;themeId=portalpublicoarabav2_WAR_portalpublicoarabathemev2theme&amp;minifierType=css&amp;languageId=es_ES&amp;t=1793774948000" id="liferayAUICSS" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+
+	<link href="/combo?browserId=chrome&amp;minifierType=css&amp;themeId=portalpublicoarabav2_WAR_portalpublicoarabathemev2theme&amp;languageId=es_ES&amp;ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle:%2Fo%2FANPWCOMU-buscador-google%2Fcss%2Findex.css&amp;ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet:%2Fo%2FANPWCOMU-lector-json-module%2Fcss%2Findex.css&amp;com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet:%2Fo%2Fcookies-banner-web%2Fcookies_banner%2Fcss%2Fmain.css&amp;com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_footer_address:%2Fo%2Fjournal-content-web%2Fcss%2Fmain.css&amp;com_liferay_portal_search_web_category_facet_portlet_CategoryFacetPortlet_INSTANCE_3sziwuBohWR2:%2Fo%2Fportal-search-web%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet:%2Fo%2Fproduct-navigation-product-menu-web%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet:%2Fo%2Fproduct-navigation-user-personal-bar-web%2Fcss%2Fmain.css&amp;com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet:%2Fo%2Fsite-navigation-menu-web%2Fcss%2Fmain.css&amp;t=1793774948000" rel="stylesheet" type="text/css"
+ data-senna-track="temporary" id="dec46fe7" />
+
+
+
+
+
+
+
+
+<script type="text/javascript" data-senna-track="temporary">
+	// <![CDATA[
+		var Liferay = Liferay || {};
+
+		Liferay.Browser = {
+			acceptsGzip: function () {
+				return false;
+			},
+
+			
+
+			getMajorVersion: function () {
+				return 131.0;
+			},
+
+			getRevision: function () {
+				return '537.36';
+			},
+			getVersion: function () {
+				return '131.0';
+			},
+
+			
+
+			isAir: function () {
+				return false;
+			},
+			isChrome: function () {
+				return true;
+			},
+			isEdge: function () {
+				return false;
+			},
+			isFirefox: function () {
+				return false;
+			},
+			isGecko: function () {
+				return true;
+			},
+			isIe: function () {
+				return false;
+			},
+			isIphone: function () {
+				return false;
+			},
+			isLinux: function () {
+				return false;
+			},
+			isMac: function () {
+				return false;
+			},
+			isMobile: function () {
+				return false;
+			},
+			isMozilla: function () {
+				return false;
+			},
+			isOpera: function () {
+				return false;
+			},
+			isRtf: function () {
+				return true;
+			},
+			isSafari: function () {
+				return true;
+			},
+			isSun: function () {
+				return false;
+			},
+			isWebKit: function () {
+				return true;
+			},
+			isWindows: function () {
+				return true;
+			}
+		};
+
+		Liferay.Data = Liferay.Data || {};
+
+		Liferay.Data.ICONS_INLINE_SVG = true;
+
+		Liferay.Data.NAV_SELECTOR = '#navigation';
+
+		Liferay.Data.NAV_SELECTOR_MOBILE = '#navigationCollapse';
+
+		Liferay.Data.isCustomizationView = function () {
+			return false;
+		};
+
+		Liferay.Data.notices = [
+			
+		];
+
+		(function () {
+			var available = {};
+
+			var direction = {};
+
+			
+
+				available['es_ES'] = 'español\x20\x28España\x29';
+				direction['es_ES'] = 'ltr';
+
+			
+
+				available['eu_ES'] = 'euskera\x20\x28España\x29';
+				direction['eu_ES'] = 'ltr';
+
+			
+
+				available['fr_FR'] = 'francés\x20\x28Francia\x29';
+				direction['fr_FR'] = 'ltr';
+
+			
+
+				available['en_US'] = 'inglés\x20\x28Estados\x20Unidos\x29';
+				direction['en_US'] = 'ltr';
+
+			
+
+			let _cache = {};
+
+			if (Liferay && Liferay.Language && Liferay.Language._cache) {
+				_cache = Liferay.Language._cache;
+			}
+
+			Liferay.Language = {
+				_cache,
+				available,
+				direction,
+				get: function(key) {
+					let value = Liferay.Language._cache[key];
+
+					if (value === undefined) {
+						value = key;
+					}
+
+					return value;
+				}
+			};
+		})();
+
+		var featureFlags = {"LPD-60546":true,"LPD-10964":false,"LPD-57655":false,"LPD-37927":false,"LPS-193884":false,"LPD-11131":false,"LPS-178642":false,"LPS-193005":false,"LPD-31789":false,"LPD-10562":false,"LPD-75525":false,"LPD-39304":false,"LPD-13311":false,"LPD-52006":false,"LRAC-10757":false,"LPD-65399":false,"LPD-40533":false,"LPD-40534":false,"LPD-69877":false,"LPS-184404":false,"LPD-40530":false,"LPD-63416":false,"LPD-20640":false,"LPD-63415":false,"LPD-38869":false,"LPD-7822":false,"LPS-177027":false,"LPD-86384":false,"LPD-37531":false,"LPD-11003":false,"LPD-36446":false,"LPD-74328":false,"LPD-39437":false,"LPD-56718":false,"LPD-62272":false,"LPD-45276":false,"LPD-66359":false,"LPD-82107":false,"LPS-199086":false,"LPD-35128":false,"LPD-13778":false,"LPS-202104":false,"LPD-39967":false,"LPD-11235":false,"LPD-11232":false,"LPS-196935":false,"LPD-43542":false,"LPD-65299":false,"LPS-176691":false,"LPS-197909":false,"LPD-63311":false,"LPD-57283":false,"LPD-83647":false,"LPD-44511":false,"LPD-11228":false,"LPD-82960":false,"COMMERCE-13024":false,"LPS-193551":false,"LPS-197477":false,"LPS-174816":false,"LPS-186360":false,"LPD-35013":false,"LPS-153332":false,"LPS-179669":false,"LPS-174417":false,"LPD-44091":false,"LPD-31212":false,"LRAC-15017":false,"LPD-19870":false,"LPD-71164":false,"LPS-129412":false,"LPD-81914":false,"LPD-10889":false,"LPD-30371":false,"LPD-51356":false,"LPD-11212":false,"LPD-89171":false,"COMMERCE-8087":false,"LPD-35941":false,"LPS-180090":false,"LPS-178052":false,"LPD-44771":true,"LPD-21414":false,"LPS-185892":false,"LPS-186620":false,"LPS-198183":false,"LPD-35678":false,"LPD-82301":true,"LPD-6378":false,"LPS-153714":false,"LPD-11848":false,"LPS-170670":false,"LPS-169981":false,"LPD-90204":false,"LPD-21926":false,"LPS-135430":false,"LPD-20556":false,"LPD-48862":true,"LPS-164563":false,"LPD-44307":true,"LPS-134060":false,"LPD-32050":false,"LPS-122920":false,"LPD-10588":false,"LPD-11313":false,"LPD-6368":false,"LPD-34594":false,"LPD-84497":false,"LPD-19955":false,"LPD-74731":false,"LPD-35443":false,"LPD-74739":true,"LPD-29516":false,"COMMERCE-8949":false,"LPD-85514":false,"LPD-84028":false,"LPD-58677":false,"LPD-17809":false,"LPS-153813":false,"LPD-75671":false,"LPS-165482":false,"LPD-30204":false,"LPD-32867":false,"LPD-83570":false,"LPD-18221":false,"LPS-155284":false,"LPS-200108":false,"LPS-159643":false,"LPD-20131":false,"LPD-70396":false,"LPD-70672":false,"LPD-66611":true,"LPS-169837":false,"LPD-20379":false,"LPD-49855":false,"LPD-47713":true};
+
+		Liferay.FeatureFlags = Object.keys(featureFlags).reduce(
+			(acc, key) => ({
+				...acc, [key]: featureFlags[key] === 'true' || featureFlags[key] === true
+			}), {}
+		);
+
+		Liferay.PortletKeys = {
+			DOCUMENT_LIBRARY: 'com_liferay_document_library_web_portlet_DLPortlet',
+			DYNAMIC_DATA_MAPPING: 'com_liferay_dynamic_data_mapping_web_portlet_DDMPortlet',
+			ITEM_SELECTOR: 'com_liferay_item_selector_web_portlet_ItemSelectorPortlet'
+		};
+
+		Liferay.PropsValues = {
+			JAVASCRIPT_SINGLE_PAGE_APPLICATION_TIMEOUT: 0,
+			UPLOAD_SERVLET_REQUEST_IMPL_MAX_SIZE: 104857600000
+		};
+
+		Liferay.ThemeDisplay = {
+
+			
+
+			
+				getLayoutId: function () {
+					return '6';
+				},
+
+				
+
+				getLayoutRelativeControlPanelURL: function () {
+					return '/es/group/egoitza/~/control_panel/manage?p_p_id=ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet';
+				},
+
+				getLayoutRelativeURL: function () {
+					return '/es/inicio/tramites';
+				},
+				getLayoutURL: function () {
+					return 'https://egoitza.araba.eus/es/inicio/tramites';
+				},
+				getParentLayoutId: function () {
+					return '7';
+				},
+				isControlPanel: function () {
+					return false;
+				},
+				isPrivateLayout: function () {
+					return 'false';
+				},
+				isVirtualLayout: function () {
+					return false;
+				},
+			
+
+			getBCP47LanguageId: function () {
+				return 'es-ES';
+			},
+			getCanonicalURL: function () {
+
+				
+
+				return 'https\x3a\x2f\x2fegoitza\x2earaba\x2eeus\x2fes\x2finicio\x2ftramites';
+			},
+			getCDNBaseURL: function () {
+				return 'https://egoitza.araba.eus';
+			},
+			getCDNDynamicResourcesHost: function () {
+				return '';
+			},
+			getCDNHost: function () {
+				return '';
+			},
+			getCompanyGroupId: function () {
+				return '35867';
+			},
+			getCompanyId: function () {
+				return '76522417197000';
+			},
+			getDefaultLanguageId: function () {
+				return 'es_ES';
+			},
+			getDoAsUserIdEncoded: function () {
+				return '';
+			},
+			getLanguageId: function () {
+				return 'es_ES';
+			},
+			getParentGroupId: function () {
+				return '1525748';
+			},
+			getPathContext: function () {
+				return '';
+			},
+			getPathImage: function () {
+				return '/image';
+			},
+			getPathJavaScript: function () {
+				return '/o/frontend-js-web';
+			},
+			getPathMain: function () {
+				return '/es/c';
+			},
+			getPathThemeImages: function () {
+				return 'https://egoitza.araba.eus/o/portal-publico-araba-theme-v-2-theme/images';
+			},
+			getPathThemeRoot: function () {
+				return '/o/portal-publico-araba-theme-v-2-theme';
+			},
+			getPlid: function () {
+				return '4195';
+			},
+			getPortalURL: function () {
+				return 'https://egoitza.araba.eus';
+			},
+			getRealUserId: function () {
+				return '35841';
+			},
+			getRemoteAddr: function () {
+				return '172.29.1.5';
+			},
+			getRemoteHost: function () {
+				return '172.29.1.5';
+			},
+			getScopeGroupId: function () {
+				return '1525748';
+			},
+			getScopeGroupIdOrLiveGroupId: function () {
+				return '1525748';
+			},
+			getSessionId: function () {
+				return '';
+			},
+			getSiteAdminURL: function () {
+				return 'https://egoitza.araba.eus/group/egoitza/~/control_panel/manage?p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view';
+			},
+			getSiteGroupId: function () {
+				return '1525748';
+			},
+			getTimeZone: function() {
+				return 'UTC';
+			},
+			getURLControlPanel: function() {
+				return '/es/group/control_panel?refererPlid=4195';
+			},
+			getURLHome: function () {
+				return 'https\x3a\x2f\x2fegoitza\x2earaba\x2eeus\x2fweb\x2fguest';
+			},
+			getUserEmailAddress: function () {
+				return '';
+			},
+			getUserId: function () {
+				return '35841';
+			},
+			getUserName: function () {
+				return '';
+			},
+			isAddSessionIdToURL: function () {
+				return false;
+			},
+			isImpersonated: function () {
+				return false;
+			},
+			isSignedIn: function () {
+				return false;
+			},
+
+			isStagedPortlet: function () {
+				
+					
+						return true;
+					
+					
+			},
+
+			isStateExclusive: function () {
+				return false;
+			},
+			isStateMaximized: function () {
+				return false;
+			},
+			isStatePopUp: function () {
+				return false;
+			}
+		};
+
+		var themeDisplay = Liferay.ThemeDisplay;
+
+		Liferay.AUI = {
+
+			
+
+			getCombine: function () {
+				return true;
+			},
+			getComboPath: function () {
+				return '/combo/?browserId=chrome&minifierType=&languageId=es_ES&t=1793774635138&';
+			},
+			getDateFormat: function () {
+				return '%d/%m/%Y';
+			},
+			getEditorCKEditorPath: function () {
+				return '/o/frontend-editor-ckeditor-web';
+			},
+			getFilter: function () {
+				var filter = 'raw';
+
+				
+					
+						filter = 'min';
+					
+					
+
+				return filter;
+			},
+			getFilterConfig: function () {
+				var instance = this;
+
+				var filterConfig = null;
+
+				if (!instance.getCombine()) {
+					filterConfig = {
+						replaceStr: '.js' + instance.getStaticResourceURLParams(),
+						searchExp: '\\.js$'
+					};
+				}
+
+				return filterConfig;
+			},
+			getJavaScriptRootPath: function () {
+				return '/o/frontend-js-web';
+			},
+			getPortletRootPath: function () {
+				return '/html/portlet';
+			},
+			getStaticResourceURLParams: function () {
+				return '?browserId=chrome&minifierType=&languageId=es_ES&t=1793774635138';
+			}
+		};
+
+		Liferay.authToken = 'wsjXldUc';
+
+		
+
+		Liferay.currentURL = '\x2fes\x2finicio\x2ftramites\x2ffitxa\x2fAyudas-PAC-del-SIGC-Pagos-directos-y-desarrollo-rural\x3fp_p_id\x3dANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet\x26p_p_lifecycle\x3d2\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_cacheability\x3dcacheLevelPage';
+		Liferay.currentURLEncoded = '\x252Fes\x252Finicio\x252Ftramites\x252Ffitxa\x252FAyudas-PAC-del-SIGC-Pagos-directos-y-desarrollo-rural\x253Fp_p_id\x253DANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet\x2526p_p_lifecycle\x253D2\x2526p_p_state\x253Dnormal\x2526p_p_mode\x253Dview\x2526p_p_cacheability\x253DcacheLevelPage';
+	// ]]>
+</script>
+
+<script data-senna-track="temporary" type="text/javascript">window.__CONFIG__= {basePath: '',combine: true, defaultURLParams: null, explainResolutions: false, exposeGlobal: false, logLevel: 'warn', moduleType: 'module', namespace:'Liferay', nonce: '', reportMismatchedAnonymousModules: 'warn', resolvePath: '/o/js_resolve_modules', url: '/combo/?browserId=chrome&minifierType=js&languageId=es_ES&t=1793774635138&', waitTimeout: 60000};</script><script data-senna-track="permanent" src="/o/frontend-js-loader-modules-extender/loader.js?&mac=9WaMmhziBCkScHZwrrVcOR7VZF4=&browserId=chrome&languageId=es_ES&minifierType=js" type="text/javascript"></script><script data-senna-track="permanent" src="/combo?browserId=chrome&minifierType=js&languageId=es_ES&t=1793774635138&/o/frontend-js-aui-web/aui/aui/aui-min.js&/o/frontend-js-aui-web/liferay/modules.js&/o/frontend-js-aui-web/liferay/aui_sandbox.js&/o/frontend-js-aui-web/aui/attribute-base/attribute-base-min.js&/o/frontend-js-aui-web/aui/attribute-complex/attribute-complex-min.js&/o/frontend-js-aui-web/aui/attribute-core/attribute-core-min.js&/o/frontend-js-aui-web/aui/attribute-observable/attribute-observable-min.js&/o/frontend-js-aui-web/aui/attribute-extras/attribute-extras-min.js&/o/frontend-js-aui-web/aui/event-custom-base/event-custom-base-min.js&/o/frontend-js-aui-web/aui/event-custom-complex/event-custom-complex-min.js&/o/frontend-js-aui-web/aui/oop/oop-min.js&/o/frontend-js-aui-web/aui/aui-base-lang/aui-base-lang-min.js&/o/frontend-js-aui-web/liferay/dependency.js&/o/frontend-js-aui-web/liferay/util.js&/o/oauth2-provider-web/js/liferay.js&/o/frontend-js-web/liferay/dom_task_runner.js&/o/frontend-js-web/liferay/events.js&/o/frontend-js-web/liferay/lazy_load.js&/o/frontend-js-web/liferay/liferay.js&/o/frontend-js-web/liferay/global.bundle.js&/o/frontend-js-web/liferay/portlet.js&/o/frontend-js-web/liferay/workflow.js" type="text/javascript"></script>
+<script data-senna-track="temporary" type="text/javascript">window.Liferay = Liferay || {}; window.Liferay.OAuth2 = {getAuthorizeURL: function() {return 'https://egoitza.araba.eus/o/oauth2/authorize';}, getBuiltInRedirectURL: function() {return 'https://egoitza.araba.eus/o/oauth2/redirect';}, getIntrospectURL: function() { return 'https://egoitza.araba.eus/o/oauth2/introspect';}, getTokenURL: function() {return 'https://egoitza.araba.eus/o/oauth2/token';}, getUserAgentApplication: function(externalReferenceCode) {return Liferay.OAuth2._userAgentApplications[externalReferenceCode];}, _userAgentApplications: {}}</script><script data-senna-track="temporary" type="text/javascript">try {var MODULE_MAIN='calendar-web@5.0.105/index';var MODULE_PATH='/o/calendar-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			calendar: {
+				base: MODULE_PATH + '/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'liferay-calendar-a11y': {
+						path: 'calendar_a11y.js',
+						requires: ['calendar'],
+					},
+					'liferay-calendar-container': {
+						path: 'calendar_container.js',
+						requires: [
+							'aui-alert',
+							'aui-base',
+							'aui-component',
+							'liferay-portlet-base',
+						],
+					},
+					'liferay-calendar-date-picker-sanitizer': {
+						path: 'date_picker_sanitizer.js',
+						requires: ['aui-base'],
+					},
+					'liferay-calendar-interval-selector': {
+						path: 'interval_selector.js',
+						requires: ['aui-base', 'liferay-portlet-base'],
+					},
+					'liferay-calendar-interval-selector-scheduler-event-link': {
+						path: 'interval_selector_scheduler_event_link.js',
+						requires: ['aui-base', 'liferay-portlet-base'],
+					},
+					'liferay-calendar-list': {
+						path: 'calendar_list.js',
+						requires: [
+							'aui-template-deprecated',
+							'liferay-scheduler',
+						],
+					},
+					'liferay-calendar-message-util': {
+						path: 'message_util.js',
+						requires: ['liferay-util-window'],
+					},
+					'liferay-calendar-recurrence-converter': {
+						path: 'recurrence_converter.js',
+						requires: [],
+					},
+					'liferay-calendar-recurrence-dialog': {
+						path: 'recurrence.js',
+						requires: [
+							'aui-base',
+							'liferay-calendar-recurrence-util',
+						],
+					},
+					'liferay-calendar-recurrence-util': {
+						path: 'recurrence_util.js',
+						requires: ['aui-base', 'liferay-util-window'],
+					},
+					'liferay-calendar-reminders': {
+						path: 'calendar_reminders.js',
+						requires: ['aui-base'],
+					},
+					'liferay-calendar-remote-services': {
+						path: 'remote_services.js',
+						requires: [
+							'aui-base',
+							'aui-component',
+							'liferay-calendar-util',
+							'liferay-portlet-base',
+						],
+					},
+					'liferay-calendar-session-listener': {
+						path: 'session_listener.js',
+						requires: ['aui-base', 'liferay-scheduler'],
+					},
+					'liferay-calendar-simple-color-picker': {
+						path: 'simple_color_picker.js',
+						requires: ['aui-base', 'aui-template-deprecated'],
+					},
+					'liferay-calendar-simple-menu': {
+						path: 'simple_menu.js',
+						requires: [
+							'aui-base',
+							'aui-template-deprecated',
+							'event-outside',
+							'event-touch',
+							'widget-modality',
+							'widget-position',
+							'widget-position-align',
+							'widget-position-constrain',
+							'widget-stack',
+							'widget-stdmod',
+						],
+					},
+					'liferay-calendar-util': {
+						path: 'calendar_util.js',
+						requires: [
+							'aui-datatype',
+							'aui-io',
+							'aui-scheduler',
+							'aui-toolbar',
+							'autocomplete',
+							'autocomplete-highlighters',
+						],
+					},
+					'liferay-scheduler': {
+						path: 'scheduler.js',
+						requires: [
+							'async-queue',
+							'aui-datatype',
+							'aui-scheduler',
+							'dd-plugin',
+							'liferay-calendar-a11y',
+							'liferay-calendar-message-util',
+							'liferay-calendar-recurrence-converter',
+							'liferay-calendar-recurrence-util',
+							'liferay-calendar-util',
+							'liferay-scheduler-event-recorder',
+							'liferay-scheduler-models',
+							'promise',
+							'resize-plugin',
+						],
+					},
+					'liferay-scheduler-event-recorder': {
+						path: 'scheduler_event_recorder.js',
+						requires: [
+							'dd-plugin',
+							'liferay-calendar-util',
+							'resize-plugin',
+						],
+					},
+					'liferay-scheduler-models': {
+						path: 'scheduler_models.js',
+						requires: [
+							'aui-datatype',
+							'dd-plugin',
+							'liferay-calendar-util',
+						],
+					},
+				},
+				root: MODULE_PATH + '/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='contacts-web@5.0.65/index';var MODULE_PATH='/o/contacts-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			contactscenter: {
+				base: MODULE_PATH + '/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'liferay-contacts-center': {
+						path: 'main.js',
+						requires: [
+							'aui-io-plugin-deprecated',
+							'aui-toolbar',
+							'autocomplete-base',
+							'datasource-io',
+							'json-parse',
+							'liferay-portlet-base',
+							'liferay-util-window',
+						],
+					},
+				},
+				root: MODULE_PATH + '/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/document-library-web@6.0.198/index';var MODULE_PATH='/o/document-library-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			dl: {
+				base: MODULE_PATH + '/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'document-library-upload-component': {
+						path: 'DocumentLibraryUpload.js',
+						requires: [
+							'aui-component',
+							'aui-data-set-deprecated',
+							'aui-overlay-manager-deprecated',
+							'aui-overlay-mask-deprecated',
+							'aui-parse-content',
+							'aui-progressbar',
+							'aui-template-deprecated',
+							'liferay-search-container',
+							'querystring-parse-simple',
+							'uploader',
+						],
+					},
+				},
+				root: MODULE_PATH + '/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='dynamic-data-mapping-web@5.0.115/index';var MODULE_PATH='/o/dynamic-data-mapping-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	const LiferayAUI = Liferay.AUI;
+
+	AUI().applyConfig({
+		groups: {
+			ddm: {
+				base: MODULE_PATH + '/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: LiferayAUI.getFilterConfig(),
+				modules: {
+					'liferay-ddm-form': {
+						path: 'ddm_form.js',
+						requires: [
+							'aui-base',
+							'aui-datatable',
+							'aui-datatype',
+							'aui-image-viewer',
+							'aui-parse-content',
+							'aui-set',
+							'aui-sortable-list',
+							'json',
+							'liferay-form',
+							'liferay-map-base',
+							'liferay-translation-manager',
+							'liferay-util-window',
+						],
+					},
+					'liferay-portlet-dynamic-data-mapping': {
+						condition: {
+							trigger: 'liferay-document-library',
+						},
+						path: 'main.js',
+						requires: [
+							'arraysort',
+							'aui-form-builder-deprecated',
+							'aui-form-validator',
+							'aui-map',
+							'aui-text-unicode',
+							'json',
+							'liferay-menu',
+							'liferay-translation-manager',
+							'liferay-util-window',
+							'text',
+						],
+					},
+					'liferay-portlet-dynamic-data-mapping-custom-fields': {
+						condition: {
+							trigger: 'liferay-document-library',
+						},
+						path: 'custom_fields.js',
+						requires: ['liferay-portlet-dynamic-data-mapping'],
+					},
+				},
+				root: MODULE_PATH + '/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='exportimport-web@5.0.100/index';var MODULE_PATH='/o/exportimport-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			exportimportweb: {
+				base: MODULE_PATH + '/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'liferay-export-import-export-import': {
+						path: 'main.js',
+						requires: [
+							'aui-datatype',
+							'aui-dialog-iframe-deprecated',
+							'aui-modal',
+							'aui-parse-content',
+							'aui-toggler',
+							'liferay-portlet-base',
+							'liferay-util-window',
+						],
+					},
+				},
+				root: MODULE_PATH + '/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='frontend-editor-alloyeditor-web@5.0.56/index';var MODULE_PATH='/o/frontend-editor-alloyeditor-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			alloyeditor: {
+				base: MODULE_PATH + '/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'liferay-alloy-editor': {
+						path: 'alloyeditor.js',
+						requires: [
+							'aui-component',
+							'liferay-portlet-base',
+							'timers',
+						],
+					},
+					'liferay-alloy-editor-source': {
+						path: 'alloyeditor_source.js',
+						requires: [
+							'aui-debounce',
+							'liferay-fullscreen-source-editor',
+							'liferay-source-editor',
+							'plugin',
+						],
+					},
+				},
+				root: MODULE_PATH + '/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-js-state-web@1.0.30/index';var MODULE_PATH='/o/frontend-js-state-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			state: {
+
+				// eslint-disable-next-line
+				mainModule: MODULE_MAIN,
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-js-react-web@5.0.54/index';var MODULE_PATH='/o/frontend-js-react-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			react: {
+
+				// eslint-disable-next-line
+				mainModule: MODULE_MAIN,
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='frontend-js-components-web@2.0.80/index';var MODULE_PATH='/o/frontend-js-components-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			components: {
+
+				// eslint-disable-next-line
+				mainModule: MODULE_MAIN,
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='portal-search-web@6.0.148/index';var MODULE_PATH='/o/portal-search-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			search: {
+				base: MODULE_PATH + '/js/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'liferay-search-custom-range-facet': {
+						path: 'custom_range_facet.js',
+						requires: ['aui-form-validator'],
+					},
+				},
+				root: MODULE_PATH + '/js/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='portal-workflow-kaleo-designer-web@5.0.146/index';var MODULE_PATH='/o/portal-workflow-kaleo-designer-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			'kaleo-designer': {
+				base: MODULE_PATH + '/designer/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'liferay-kaleo-designer-autocomplete-util': {
+						path: 'autocomplete_util.js',
+						requires: ['autocomplete', 'autocomplete-highlighters'],
+					},
+					'liferay-kaleo-designer-definition-diagram-controller': {
+						path: 'definition_diagram_controller.js',
+						requires: [
+							'liferay-kaleo-designer-field-normalizer',
+							'liferay-kaleo-designer-utils',
+						],
+					},
+					'liferay-kaleo-designer-dialogs': {
+						path: 'dialogs.js',
+						requires: ['liferay-util-window'],
+					},
+					'liferay-kaleo-designer-editors': {
+						path: 'editors.js',
+						requires: [
+							'aui-ace-editor',
+							'aui-ace-editor-mode-xml',
+							'aui-base',
+							'aui-datatype',
+							'aui-node',
+							'liferay-kaleo-designer-autocomplete-util',
+							'liferay-kaleo-designer-utils',
+						],
+					},
+					'liferay-kaleo-designer-field-normalizer': {
+						path: 'field_normalizer.js',
+						requires: ['liferay-kaleo-designer-remote-services'],
+					},
+					'liferay-kaleo-designer-nodes': {
+						path: 'nodes.js',
+						requires: [
+							'aui-datatable',
+							'aui-datatype',
+							'aui-diagram-builder',
+							'liferay-kaleo-designer-editors',
+							'liferay-kaleo-designer-utils',
+						],
+					},
+					'liferay-kaleo-designer-remote-services': {
+						path: 'remote_services.js',
+						requires: ['aui-io'],
+					},
+					'liferay-kaleo-designer-templates': {
+						path: 'templates.js',
+						requires: ['aui-tpl-snippets-deprecated'],
+					},
+					'liferay-kaleo-designer-utils': {
+						path: 'utils.js',
+						requires: [],
+					},
+					'liferay-kaleo-designer-xml-definition': {
+						path: 'xml_definition.js',
+						requires: [
+							'aui-base',
+							'aui-component',
+							'dataschema-xml',
+							'datatype-xml',
+						],
+					},
+					'liferay-kaleo-designer-xml-definition-serializer': {
+						path: 'xml_definition_serializer.js',
+						requires: ['escape', 'liferay-kaleo-designer-xml-util'],
+					},
+					'liferay-kaleo-designer-xml-util': {
+						path: 'xml_util.js',
+						requires: ['aui-base'],
+					},
+					'liferay-portlet-kaleo-designer': {
+						path: 'main.js',
+						requires: [
+							'aui-ace-editor',
+							'aui-ace-editor-mode-xml',
+							'aui-tpl-snippets-deprecated',
+							'dataschema-xml',
+							'datasource',
+							'datatype-xml',
+							'event-valuechange',
+							'io-form',
+							'liferay-kaleo-designer-autocomplete-util',
+							'liferay-kaleo-designer-editors',
+							'liferay-kaleo-designer-nodes',
+							'liferay-kaleo-designer-remote-services',
+							'liferay-kaleo-designer-utils',
+							'liferay-kaleo-designer-xml-util',
+							'liferay-util-window',
+						],
+					},
+				},
+				root: MODULE_PATH + '/designer/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='staging-processes-web@5.0.65/index';var MODULE_PATH='/o/staging-processes-web';/**
+ * SPDX-FileCopyrightText: (c) 2000 Liferay, Inc. https://liferay.com
+ * SPDX-License-Identifier: LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06
+ */
+
+(function () {
+	AUI().applyConfig({
+		groups: {
+			stagingprocessesweb: {
+				base: MODULE_PATH + '/js/legacy/',
+				combine: Liferay.AUI.getCombine(),
+				filter: Liferay.AUI.getFilterConfig(),
+				modules: {
+					'liferay-staging-processes-export-import': {
+						path: 'main.js',
+						requires: [
+							'aui-datatype',
+							'aui-dialog-iframe-deprecated',
+							'aui-modal',
+							'aui-parse-content',
+							'aui-toggler',
+							'liferay-portlet-base',
+							'liferay-util-window',
+						],
+					},
+				},
+				root: MODULE_PATH + '/js/legacy/',
+			},
+		},
+	});
+})();
+} catch(error) {console.error(error);}</script>
+
+
+
+
+<script type="text/javascript" data-senna-track="temporary">
+	// <![CDATA[
+		
+			
+				
+		
+
+		
+	// ]]>
+</script>
+
+
+
+
+
+	
+		
+
+			
+
+			
+				<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-KBQ32M5"></script>
+
+				
+			
+		
+		
+
+
+
+	
+		
+
+			
+
+			
+		
+		
+
+
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="/combo?browserId=chrome&amp;minifierType=js&amp;themeId=portalpublicoarabav2_WAR_portalpublicoarabathemev2theme&amp;languageId=es_ES&amp;ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle:%2Fo%2FANPWCOMU-buscador-google%2Fjs%2Fhandlebars.js&amp;ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet:%2Fo%2FANPWCOMU-lector-json-module%2Fjs%2Fhandlebars.js&amp;t=1793774948000" type="text/javascript" data-senna-track="temporary"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://egoitza.araba.eus/o/portal-publico-araba-theme-v-2-theme/css/main.css?browserId=chrome&amp;themeId=portalpublicoarabav2_WAR_portalpublicoarabathemev2theme&amp;minifierType=css&amp;languageId=es_ES&amp;t=1793774948000" id="liferayThemeCSS" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+	<style data-senna-track="senna" type="text/css">
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+	</style>
+
+
+<style data-senna-track="temporary" type="text/css">
+</style>
+<link data-senna-track="permanent" href="/o/frontend-js-aui-web/alloy_ui.css?&mac=favIEq7hPo8AEd6k+N5OVADEEls=&browserId=chrome&languageId=es_ES&minifierType=css&themeId=portalpublicoarabav2_WAR_portalpublicoarabathemev2theme" rel="stylesheet"></link>
+<script type="module">
+import {init} from '/o/frontend-js-spa-web/__liferay__/index.js';
+{
+init({"navigationExceptionSelectors":":not([target=\"_blank\"]):not([data-senna-off]):not([data-resource-href]):not([data-cke-saved-href]):not([data-cke-saved-href])","cacheExpirationTime":-1,"clearScreensCache":false,"portletsBlacklist":["com_liferay_login_web_portlet_CreateAccountPortlet","com_liferay_site_navigation_directory_web_portlet_SitesDirectoryPortlet","com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet","com_liferay_questions_web_internal_portlet_QuestionsPortlet","com_liferay_account_admin_web_internal_portlet_AccountUsersRegistrationPortlet","com_liferay_login_web_portlet_ForgotPasswordPortlet","com_liferay_portal_language_override_web_internal_portlet_PLOPortlet","com_liferay_login_web_portlet_LoginPortlet","com_liferay_login_web_portlet_FastLoginPortlet"],"excludedTargetPortlets":["com_liferay_users_admin_web_portlet_UsersAdminPortlet","com_liferay_server_admin_web_portlet_ServerAdminPortlet"],"validStatusCodes":[221,490,494,499,491,496,492,493,495,220],"debugEnabled":false,"loginRedirect":"","excludedPaths":["/c/document_library","/documents","/image","/BISOREA","/GsService","/geoaraba","/documents","/geonetwork","/geobisorea","/wmts","/deskargak","/es/perfil-del-contratante-de-diputacion-foral-de-alava","/eu/arabako-foru-aldundiko-kontratatzailearen-profila","/es/perfil-del-contratante-del-instituto-foral-de-la-juventud","/eu/gazteriaren-foru-erakundeko-kontratatzailearen-profila","/es/perfil-del-contratante-del-instituto-foral-de-bienestar-social","eu/gizarte-ongizaterako-foru-erakundeko-kontratatzailearen-profila","/es/servicios-sociales","/eu/gizarte-zerbitzuak"],"preloadCSS":false,"userNotification":{"message":"Parece que esto está tardando más de lo esperado.","title":"Vaya","timeout":30000},"requestTimeout":0});
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" data-senna-track="temporary">
+	if (window.Analytics) {
+		window._com_liferay_document_library_analytics_isViewFileEntry = false;
+	}
+</script>
+
+<script type="text/javascript">
+Liferay.on(
+	'ddmFieldBlur', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldBlurred',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					focusDuration: event.focusDuration,
+					formId: event.formId,
+					formPageTitle: event.formPageTitle,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFieldFocus', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldFocused',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					formId: event.formId,
+					formPageTitle: event.formPageTitle,
+					page: event.page,
+					title:event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormPageShow', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'pageViewed',
+				'Form',
+				{
+					formId: event.formId,
+					formPageTitle: event.formPageTitle,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormSubmit', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formSubmitted',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormView', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formViewed',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+</script><script>
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body class="chrome controls-visible  yui3-skin-sam signed-out public-page site">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="Enlaces rápidos" class="bg-dark cadmin quick-access-nav text-center text-white" id="nbps_quickAccessNav">
+		
+			
+				<a class="d-block p-2 sr-only sr-only-focusable text-reset" href="#main-content">
+		Saltar al contenido principal
+	</a>
+			
+			
+	</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid" id="wrapper">
+	<header id="banner" role="banner">
+<div class="header-logo">
+	<a class="logo custom-logo" href="https://egoitza.araba.eus/es" title="Ir a egoitza">
+	<img alt="" height="31" src="/image/layout_set_logo?img_id=1579067&amp;t=1794229009966" width="180" />
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-barebone portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_header_logo_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_header_logo"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_header_logo">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+
+	
+
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						
+
+							
+
+							<div class="" data-fragments-editor-item-id="29235-1542804" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="11897389" data-analytics-asset-title="Logo DFA" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="1542804">
+			
+
+			<p><a href="https://web.araba.eus/es/home" target="_blank"><img alt="Araba Foru Aldundia-Diputación Foral de Álava" src="/documents/1525748/1525849/araba-foru-aldundia.jpg" /></a></p>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+							</div>
+						
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+<button type="button" aria-label="Menu" class="hamburger" aria-expanded="false" aria-controls="collapseSubmenu">
+  	<div class="hamburger-box">
+        <div class="hamburger-inner"></div>
+    </div>
+</button></div>
+<div class="bg_gray_theme">
+    <div class="content-top">
+        <section class="header-date">
+            
+        </section>
+        <section class="header-nav-top">
+            <nav class="header-nav-top-list">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-barebone portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_header_navigation_menu_">
+		<span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_header_navigation_menu"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_header_navigation_menu">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<!-- ADT ARABA HEADER NAVIGATION-->
+
+    <ul class="header-nav-top-list__first-level">
+			<li class="header-nav-top-item__first-level">
+			
+					<a href="https://egoitza.araba.eus/nire-karpeta/es" title="Mi Carpeta">
+                        Mi Carpeta
+				</a>
+			</li>
+			<li class="header-nav-top-item__first-level">
+			
+					<a href="https://egoitza.araba.eus/es/sede-electronica/conoce-la-sede/contacto" title="Contacto">
+                        Contacto
+				</a>
+			</li>
+    </ul>    
+
+			
+			
+		
+	
+	
+	
+	
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+            </nav>
+            <section class="nav-language">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_  portlet-static portlet-static-end portlet-barebone portlet-language " id="p_p_id_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_">
+		<span id="p_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="language-selector" class="language-selector pt-2">
+                <div class="d-none">
+                <span>euskara</span>
+                <span>eu</span>
+                <span></span>
+            </div>
+                <a class="text-uppercase" href="/c/portal/update_language?redirect=/es/inicio/tramites/fitxa/Ayudas-PAC-del-SIGC-Pagos-directos-y-desarrollo-rural?p_p_id=ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_l_id=4195&languageId=eu_ES" data-senna-off="true"><span title="Euskara">eu</span></a>
+            <span>|</span>
+            <div class="d-none">
+                <span>español</span>
+                <span>es</span>
+                <span></span>
+            </div>
+                <span><span class="text-uppercase" title="Español"><strong>es</strong></span></span>
+            
+</div>
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+            </section>
+        </section>
+
+        <section class="header-search-content"> 
+	<section class="header-search-input" id="collapseSearch">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_  portlet-static portlet-static-end portlet-barebone  " id="p_p_id_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_">
+		<span id="p_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+
+
+
+
+<div class="buscador-integrado portlet-search-bar">
+    <!-- Formulario de búsqueda SIEMPRE visible -->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="https://egoitza.araba.eus/es/inicio/tramites?p_p_id=ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_javax.portlet.action=SearchMVCActionCommand&amp;p_auth=wsjXldUc" class="form  " data-fm-namespace="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_" id="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm" method="post" name="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm" >
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				
+					<input  class="field form-control"  id="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_formDate"    name="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_formDate"     type="hidden" value="1794825591323"   />
+				
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+		<div class="input-group">
+			<div class="input-group-item">
+				<div class="input-group">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="form-group input-group-inset m-0 input-text-wrapper">
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				
+					<input  class="field form-control input-group-inset input-group-inset-after search-bar-keywords-input w-100 form-control"  id="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_q"    name="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_q"   placeholder="Búsqueda..." title="q" type="text" value=""   />
+				
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+					<div class="input-group-inset-item input-group-inset-item-after">
+	                    <button class="btn btn-unstyled" type="submit" aria-label="Buscar">
+						    <svg
+						        width="20"
+						        height="20"
+						        viewBox="0 0 512 512"
+						        fill="none"
+						        xmlns="http://www.w3.org/2000/svg"
+						        role="presentation"
+						        class="lexicon-icon lexicon-icon-search"
+						    >
+						        <path
+						            d="M505 442.7L405.3 343C429.2 307.8 442 265.1 442 220C442 98.7 343.3 0 222 0S2 98.7 2 220s98.7 220 220 220c45.1 0 87.8-12.8 123-36.7L442.7 505c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.3 9.4-24.5.1-33.9zM222 370c-82.8 0-150-67.2-150-150S139.2 70 222 70s150 67.2 150 150-67.2 150-150 150z"
+						            fill="currentColor"
+						        />
+						    </svg>
+	                    </button>
+	                </div>
+				</div>
+			</div>
+		</div>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+</form>
+
+
+
+<script>
+AUI().use(
+  'liferay-form',
+function(A) {
+(function() {
+var $ = AUI.$;var _ = AUI._;
+	Liferay.Form.register(
+		{
+			id: '_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm'
+
+			
+				, fieldRules: [
+
+					
+
+				]
+			
+
+			
+
+			, validateOnBlur: true
+		}
+	);
+
+	var onDestroyPortlet = function(event) {
+		if (event.portletId === 'ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle') {
+			delete Liferay.Form._INSTANCES['_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm'];
+		}
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	
+
+	Liferay.fire(
+		'_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_formReady',
+		{
+			formName: '_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm'
+		}
+	);
+})();
+});
+
+</script>
+</div>
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+	</section>
+	<section class="header-search-btn">
+        <button type="button"
+                data-toggle="collapse"
+                data-target="#collapseSearch"
+                aria-expanded="false"
+                aria-controls="collapseSearch"
+                class="collapsed btnSearch">
+            <span class="icon-ara-buscador icon-search"></span>
+            <span class="icon-ara-cross-symbol icon-close"></span>
+        </button>
+    </section>
+        </section>
+    </div>
+</div>	</header>
+	<section id="content">
+
+
+		<h1 class="sr-only">Trámites - Sede electrónica - Diputación Foral de Álava - egoitza</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<style type="text/css">
+			.master-layout-fragment .portlet-header {
+				display: none;
+			}
+		</style>
+
+		
+
+		<div class="columns-1" id="main-content" role="main">
+	<div class="portlet-layout row">
+		<div class="col-md-12 portlet-column portlet-column-only" id="column-1">
+			<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-barebone portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_WENYGD3LxJiY_">
+		<span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_WENYGD3LxJiY"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_WENYGD3LxJiY">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<!-- ADT MENU NAVEGACION SECUNDARION VERSION V2 -->
+
+
+	<div id="navbar_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_WENYGD3LxJiY">
+		<section class="submenu-content-v2" id="collapseSubmenu">
+			<div class="sentinal"></div>
+            <nav id="site-navigation" class="site-navigation" aria-label="Páginas del sitio web">
+				<ul class="main-menu submenu-araba no-js">
+
+
+
+
+							
+
+							<li class="" id="layout_1577965" >
+								<a aria-labelledby="layout_1577965" href='https://egoitza.araba.eus/es/home' >
+									 Inicio 
+								</a>
+
+							</li>
+
+
+
+							
+
+							<li class="" id="layout_1577564" >
+								<a aria-labelledby="layout_1577564"  >
+									 Conoce la Sede <span class="material-symbols-outlined ml-1" aria-hidden="true">expand_more</span>
+								</a>
+
+									<ul >
+
+
+											<li class="" id="layout_1577565" >
+													<a aria-labelledby="layout_1577565" class="dropdown-item" href="https://egoitza.araba.eus/es/conoce-la-sede/que-es" >Qué es</a>
+											</li>
+
+
+											<li class="" id="layout_1577616" >
+													<a aria-labelledby="layout_1577616" class="dropdown-item" href="https://egoitza.araba.eus/es/conoce-la-sede/normativa" >Normativa</a>
+											</li>
+
+
+											<li class="" id="layout_1577667" >
+													<a aria-labelledby="layout_1577667" class="dropdown-item" href="https://egoitza.araba.eus/es/conoce-la-sede/avisos" >Avisos</a>
+											</li>
+
+
+											<li class="" id="layout_1577718" >
+													<a aria-labelledby="layout_1577718" class="dropdown-item" href="https://egoitza.araba.eus/es/conoce-la-sede/calendario-de-dias-habiles" >Calendario de días hábiles</a>
+											</li>
+									</ul>
+							</li>
+
+
+
+							
+
+							<li class="" id="layout_1577719" >
+								<a aria-labelledby="layout_1577719"  >
+									 Trámites <span class="material-symbols-outlined ml-1" aria-hidden="true">expand_more</span>
+								</a>
+
+									<ul >
+
+
+											<li class="" id="layout_3424535" >
+													<a aria-labelledby="layout_3424535" class="dropdown-item" href="https://egoitza.araba.eus/es/busqueda-de-tramites" >Búsqueda de trámites</a>
+											</li>
+
+
+											<li class="" id="layout_1577721" >
+													<a aria-labelledby="layout_1577721" class="dropdown-item" href="https://egoitza.araba.eus/es/sede-electronica/notificacion-electronica" >Buzón de notificaciones</a>
+											</li>
+
+
+											<li class="" id="layout_1577744" >
+													<a aria-labelledby="layout_1577744" class="dropdown-item" href="https://egoitza.araba.eus/es/inicio/tramites/fitxa/registro-electronico-comun" >Registro electrónico común</a>
+											</li>
+
+
+											<li class="" id="layout_1578059" >
+													<a aria-labelledby="layout_1578059" class="dropdown-item" href="https://egoitza.araba.eus/es/tramites-tributarios" >Trámites tributarios</a>
+											</li>
+
+
+											<li class="" id="layout_1578012" >
+													<a aria-labelledby="layout_1578012" class="dropdown-item" href="https://egoitza.araba.eus/nire-karpeta/es/mis-pagos" >Pagos online</a>
+											</li>
+
+
+											<li class="" id="layout_1577989" >
+													<a aria-labelledby="layout_1577989" class="dropdown-item" href="https://egoitza.araba.eus/es/autorizaciones" >Autorizaciones</a>
+											</li>
+									</ul>
+							</li>
+
+
+
+							
+
+							<li class="" id="layout_1577766" >
+								<a aria-labelledby="layout_1577766"  >
+									 Servicios <span class="material-symbols-outlined ml-1" aria-hidden="true">expand_more</span>
+								</a>
+
+									<ul >
+
+
+											<li class="" id="layout_1577789" >
+													<a aria-labelledby="layout_1577789" class="dropdown-item" href="https://egoitza.araba.eus/nire-karpeta/es" >Mi Carpeta</a>
+											</li>
+
+
+											<li class="" id="layout_1578151" >
+													<a aria-labelledby="layout_1578151" class="dropdown-item" href="https://egoitza.araba.eus/es/firma-de-documentos-y-validacion-de-firmas" >Servicios de firma</a>
+											</li>
+
+
+											<li class="" id="layout_1578197" >
+													<a aria-labelledby="layout_1578197" class="dropdown-item" href="https://egoitza.araba.eus/es/servicios-de-verificacion" >Servicios de verificación</a>
+											</li>
+
+
+											<li class="" id="layout_1577988" >
+													<a aria-labelledby="layout_1577988" class="dropdown-item" href="https://www.araba.eus/botha/Inicio/SGBO5001.aspx?Idi=es" >BOTHA</a>
+											</li>
+
+
+											<li class="" id="layout_1578105" >
+													<a aria-labelledby="layout_1578105" class="dropdown-item" href="https://egoitza.araba.eus/es/sugerencias-y-quejas" >Sugerencias y quejas</a>
+											</li>
+									</ul>
+							</li>
+
+
+
+							
+
+							<li class="" id="layout_1577790" >
+								<a aria-labelledby="layout_1577790"  >
+									 Ayuda <span class="material-symbols-outlined ml-1" aria-hidden="true">expand_more</span>
+								</a>
+
+									<ul >
+
+
+											<li class="" id="layout_1577791" >
+													<a aria-labelledby="layout_1577791" class="dropdown-item" href="https://egoitza.araba.eus/es/sede-electronica/conoce-la-sede/como-accedo" >Cómo accedo</a>
+											</li>
+
+
+											<li class="" id="layout_1577841" >
+													<a aria-labelledby="layout_1577841" class="dropdown-item" href="https://egoitza.araba.eus/es/que-puedo-hacer" >Qué puedo hacer</a>
+											</li>
+
+
+											<li class="" id="layout_1578058" >
+													<a aria-labelledby="layout_1578058" class="dropdown-item" href="https://egoitza.araba.eus/es/preguntas-frecuentes" >Preguntas frecuentes</a>
+											</li>
+
+
+											<li class="" id="layout_1577890" >
+													<a aria-labelledby="layout_1577890" class="dropdown-item" href="https://egoitza.araba.eus/es/requisitos-tecnicos" >Requisitos técnicos</a>
+											</li>
+
+
+											<li class="" id="layout_1577792" >
+													<a aria-labelledby="layout_1577792" class="dropdown-item" href="https://egoitza.araba.eus/es/sede-electronica/conoce-la-sede/contacto" >Contacto</a>
+											</li>
+									</ul>
+							</li>
+				</ul>
+			</nav>	
+		</section>
+	</div>
+
+
+			
+			
+		
+	
+	
+	
+	
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-barebone portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hmvHFOCtb87w_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hmvHFOCtb87w"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hmvHFOCtb87w">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+
+	
+
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						
+
+							
+
+							<div class="" data-fragments-editor-item-id="29235-1542920" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="15930830" data-analytics-asset-title="CAb guia de tramites" data-analytics-asset-type="web-content" data-analytics-web-content-resource-pk="1542920">
+			
+
+			
+    <div class="container header_link">
+        <div class="row">
+            <div class="col">
+                <h2 class="font-s32">
+                        GUÍA DE TRÁMITES
+                </h2>
+            </div>
+        </div>
+    </div>
+
+
+			
+		</div>
+
+		
+
+	
+
+
+
+							</div>
+						
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_  portlet-static portlet-static-end portlet-barebone  " id="p_p_id_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_">
+		<span id="p_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		<link
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+  rel="stylesheet"
+/>
+<script>
+document.title = 'Ayudas PAC del SIGC. Pagos directos y desarrollo rural - Campaña 2025';
+</script>
+<script data-senna-track="temporary">
+  var languageMap = {
+  "[lector.json.buscador]": "Buscador",
+  "[lector.json.buscar]": "Buscar",
+  "[lector.json.filtros]": "Filtros",
+  "[lector.json.borrar.filtros]": "Borrar filtros",
+  "[lector.json.resultados.busqueda]": "Resultados de la búsqueda",
+  "[lector.json.mostrando]": "Mostrando",
+  "[lector.json.de]": "de",
+  "[lector.json.volver]": "Volver",
+  "[lector.json.tramites]": "trámites",
+  "[lector.json.recurso.de]": "Recurso de",
+  "[lector.json.canales.presentacion]": "Canales de presentación",
+  "[lector.json.bucador.placeholder]": "Buscar tramites",
+  "[lector.json.bucador.sin.resultados]": "No se han encontrado resultados",
+  "[lector.json.que.puedes.hacer]": "¿Qué puedes hacer?",
+  "[lector.json.abierto]": "ABIERTO",
+  "[lector.json.cerrado]": "CERRADO",
+  "[lector.json.mas.informacion]": "Más información",
+  "[lector.json.informacion.contacto]": "Información de contacto",
+  "[lector.json.servicio.responsable]": "Servicio responsable:",
+  "[lector.json.tramite.no.telematicamente]": "Este trámite no puede presentarse telemáticamente",
+  "[lector.json.tramite.no.electronicamente]": "Este trámite sólo puede presentarse electrónicamente",
+  "[lector.json.menos.informacion]": "Ver menos"
+};
+      $(document).ready(function() {
+      var source = document.getElementById("list-template").innerHTML;
+      Handlebars.registerHelper('concat', function(prefix, id) {
+           return (prefix + id);
+      });
+      Handlebars.registerHelper('getLocale', function(model, attributeName) {
+          var currentLang = themeDisplay.getLanguageId();
+          if(currentLang=='es_ES'){
+              attributeName=attributeName+'CAS';
+          }
+          if(currentLang=='eu_ES'){
+              attributeName=attributeName+'EUS';
+          }
+          return model[attributeName];
+      });
+      Handlebars.registerHelper('ifEquals', function(arg1, arg2,
+  					options) {
+  				return (arg1 == arg2) ? options.fn(this) : options
+  						.inverse(this);
+  			});
+      Handlebars.registerHelper('estadoColor', function(estado) {
+    	  if (String(estado).toUpperCase() === 'ABIERTO') {
+    	    return 'color: green;';
+    	  } else if (String(estado).toUpperCase() === 'CERRADO') {
+    	    return 'color: red;';
+    	  } else {
+    	    return '';
+    	  }
+    	});
+
+      Handlebars.registerHelper('pdfCreator', function(pdf, fileName) {
+      	const linkSource = 'data:application/pdf;base64,';
+      	const downloadLink = document.createElement("a");
+      	downloadLink.href = linkSource;
+      	downloadLink.download = fileName;
+      	downloadLink.click();
+    	});
+
+      Handlebars.registerHelper('downloadPdf', function(pdf) {
+      	return 'data:application/pdf;base64,';
+    	});
+
+
+      Handlebars.registerHelper('formatDate', function(dateString) {
+     	 if (dateString === null) {
+     		    return null;
+     		  }
+     	  if (dateString.length === 8) {
+
+     	    const year = dateString.slice(0, 4);
+     	    const month = dateString.slice(4, 6);
+     	    const day = dateString.slice(6, 8);
+			var currentLang = themeDisplay.getLanguageId();
+			if(currentLang=='es_ES'){
+			  return day + '/' + month + '/' + year;
+          	}
+          	if(currentLang=='eu_ES'){
+      		  return year + '/' + month + '/' + day;
+          	}
+     	  } else {
+     	    return dateString;
+     	  }
+     	});
+
+
+
+      Handlebars.registerHelper('checkDateRange', function(startDate, endDate) {
+  	      const today = new Date().toISOString().slice(0, 10).replace(/-/g, '');
+  	      if (startDate === null || endDate === null || startDate.length !== 8 || endDate.length !== 8) {
+  	        return null;
+  	      }
+  	      return startDate <= today && today <= endDate;
+  	    });
+      
+      Handlebars.registerHelper('slugify', function(text) {
+    	    return text
+    	        .toString() /* Convertir a string */
+    	        .toLowerCase() /* Convertir a minï¿½sculas */
+    	        .normalize('NFD') /* Normalizar caracteres con acentos */
+    	        .replace(/[\u0300-\u036f]/g, '') /* Eliminar marcas diacrï¿½ticas */
+    	        .replace(/ï¿½/g, 'n') /* Reemplazar ï¿½ por n */
+    	        .replace(/[^a-z0-9]+/g, '-') /* Reemplazar caracteres especiales por guiones */
+    	        .replace(/^-+|-+$/g, ''); /* Eliminar guiones al inicio y al final */
+    	});
+      
+      Handlebars.registerHelper('eq', function(a, b) {
+    	  return a === b;
+    	});
+      
+      Handlebars.registerHelper('hayDocumentosConUrl', function(documentacion, options) {
+
+    	  if (!documentacion || !documentacion.condicionesDocumentos) {
+    	    return options.inverse(this);
+    	  }
+
+    	  const hay = documentacion.condicionesDocumentos.some(function(cond) {
+    	    return cond.documentosPorCondicion &&
+    	           cond.documentosPorCondicion.some(function(doc) {
+    	             return doc.urlDocumento && doc.urlDocumento.trim() !== '';
+    	           });
+    	  });
+		  
+    	  return hay ? options.fn(this) : options.inverse(this);
+    	});
+
+      source = source.replace("[$IMG_CALENDAR$]", "/o/ANPWCOMU-lector-json-module/img/calendar.svg");
+      var template = Handlebars.compile(source);
+
+      var html = template({"pestanas":{"pestanaProcedimiento":{"tituloPestana":"Sobre el procedimiento","seccionNormativa":{"lista":[{"normativa":{"descripcion":"ORDEN de 5 de mayo de 2026, de la consejera de Alimentación, Desarrollo Rural, Agricultura y Pesca, por la que se convocan, para el ejercicio 2026, las intervenciones en forma de pagos directos financiadas con cargo al Fondo Europeo Agrícola (FEAGA) incluidas en la Política Agrícola Común, y por la que se establecen las normas para la aplicación de la condicionalidad reforzada y de la condicionalidad social que deben cumplir las personas beneficiarias.","url":"https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/05/2601910a.shtml"}},{"normativa":{"descripcion":"Ley 30/2022, de 23 de diciembre, por la que se regulan el sistema de gestión de la Política Agrícola Común y otras materias conexas.","url":"https://www.boe.es/eli/es/l/2022/12/23/30/con"}},{"normativa":{"descripcion":"Real Decreto 1048/2022, de 27 de diciembre, sobre la aplicación, a partir de 2023, de las intervenciones en forma de pagos directos y el establecimiento de requisitos comunes en el marco del Plan Estratégico de la Política Agrícola Común, y la regulación de la solicitud única del sistema integrado de gestión y control.","url":"https://www.boe.es/eli/es/rd/2022/12/27/1048/con"}}],"titulo":"Normativa"},"seccionMasInformacion":{"valor":"<p>Presencial<\/p>","titulo":"Más información"},"seccionVaDirigido":{"valor":"Personas físicas y jurídicas titulares de explotaciones agrarias","titulo":"A quién va dirigido"},"seccionRecursos":{"titulo":"Sobre el procedimiento","recursos":[{"recurso":{"tipoRecurso":"Recurso de Alzada","organismo":{"valor":" Viceconsejero de Agricultura,\nPesca y Política Alimentaria del Gobierno Vasco","titulo":"Organismo:"},"plazo":{"valor":"1 Meses","titulo":"Plazo:"}}}]},"seccionResolucion":{"plazoResolucion":{"valor":"No tiene","titulo":"Plazo de resolución"},"titulo":"Resolución","silencioAministrativoInteresado":{"valor":"No tiene","titulo":"Silencio administrativo de la persona interesada"},"inicioInteresado":{"valor":"Sí","titulo":"Inicio Persona Interesada"}},"seccionOrganosParticipantes":{"lista":[{"valor":"Servicio de Ayudas Directas"}],"titulo":"Organismo competente"}}},"cabecera":{"finalidad":"Ayudas de la Política Agraria Común integradas dentro del Sistema Integrado de Gestión y Control: pagos directos y desarrollo rural","plazo":{"estado":"En plazo","enPlazo":"S","descripcionPlazo":"ABIERTO (01/02/2025 - 31/12/2026)","descripcionPlazoAmpliada":"<p>Anual<\/p>"},"titulo":"Ayudas PAC del SIGC. Pagos directos y desarrollo rural - Campaña 2025"}});
+
+      for (var key in languageMap) {
+          if (languageMap.hasOwnProperty(key)) {
+          	let str = languageMap[key] ;
+              html = html.replaceAll(key, str);
+          }
+      }
+
+
+      $('.detalle').html(html);
+
+      initScript();
+
+  });
+
+      function initScript() {
+          $('.tablinks').on('click' , function (e) {
+              e.preventDefault();
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                  tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks_active");
+              for (i = 0; i < tablinks.length; i++) {
+                  tablinks[i].classList.remove("tablinks_active");
+              }
+              document.getElementById(($(this).attr('data-target'))).style.display = "block";
+              var button = document.getElementById($(this).attr('id'));
+              button.classList.add("tablinks_active");
+          });
+
+      }
+</script>
+<div class="detalle">
+  <script id="list-template" type="text/x-handlebars-template">
+    <div class="tramites tramite-detalle">
+  <section class="procedure-title-content mb-2rem">
+    <section class="container">
+      <section class="procedure-title p-0 border-0">
+        <h1 class="h1">{{cabecera.titulo}}</h1>
+      </section>
+	  <div class="texto-enriquecido">
+		  {{{cabecera.finalidad}}}
+	  </div>
+    </section>
+  </section>
+  
+  <section class="container">
+    <div class="detalles-main">	  
+      <!-- PROCEDIMIENTO -->
+      {{#if pestanas.pestanaProcedimiento.seccionVaDirigido}}
+		  <div id="procedimiento-div">
+			<div class="info-block mb-2rem">
+			  <h3 class="h3">{{pestanas.pestanaProcedimiento.seccionVaDirigido.titulo}}</h3>
+			  <div class="texto-enriquecido">
+				  {{{pestanas.pestanaProcedimiento.seccionVaDirigido.valor}}}
+			  </div>
+			</div>
+		  </div>
+	  {{/if}}
+      <!-- REQUISITOS -->
+	  {{#if pestanas.pestanaProcedimiento.seccionRequisitos.requisitosInteresado.requisitos}}
+		<div id="procedimiento-div">
+			<div class="info-block mb-2rem">
+				<h3 class="h3">{{pestanas.pestanaProcedimiento.seccionRequisitos.titulo}}</h3>
+				<ul class="list-disc">
+					{{#each pestanas.pestanaProcedimiento.seccionRequisitos.requisitosInteresado.requisitos}}
+						<li><p>{{descripcion}} ({{tipo}})</p></li>
+					{{/each}}
+				</ul>
+			</div>
+		</div> 
+	  {{/if}}
+
+      <!-- PESTAÑA PRESENTACIÓN DEL TRÁMITE (ACORDEÓN) -->
+      {{#if pestanas.pestanaPresentacionDelTramite}}
+      <div id="procedimiento-div">
+        <div class="info-block mb-3">
+          <h3 class="h3">[lector.json.que.puedes.hacer]</h3>
+        </div>
+      </div>
+      <div id="presentacion-tramite-div" class="tabcontent m-0">
+        {{#each pestanas.pestanaPresentacionDelTramite.tramites.tramite}}
+        <div class="accordion" id="accordion-tramite-{{@index}}">
+          <div class="card mb-3 w-100 border rounded">
+			<div class="gray-box rounded-0">
+				<h2 class="mb-0">
+				  <button 
+					class="btn btn-collapse-box header-card d-flex collapsed justify-content-between align-items-center w-100 text-left p-0 pr-4"
+					type="button"
+					data-toggle="collapse"
+					data-target="#collapse-tramite-{{@index}}"
+					aria-expanded="false"
+					aria-controls="collapse-tramite-{{@index}}"
+				  >
+					<span class="lead font-weight-bold">{{detalleTramite.denominacionTramite}}</span>
+
+					<div class="texto-col d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
+					  {{#ifEquals plazoPresentacion.plazo.enPlazo "S"}}
+						<span class="label-on-time d-inline-flex mr-sm-3 mb-2 mb-sm-0 px-3 py-2">[lector.json.abierto]</span>
+					  {{/ifEquals}}
+					  {{#ifEquals plazoPresentacion.plazo.enPlazo "N"}}
+						<span class="label-out-of-date d-inline-flex mr-sm-3 mb-2 mb-sm-0 px-3 py-2">[lector.json.cerrado]</span>
+					  {{/ifEquals}}					  
+					  <span class="mas-menos-info font-weight-bold collapsed text-primary" 
+						data-mas="[lector.json.mas.informacion]" 
+						data-menos="[lector.json.menos.informacion]">
+						[lector.json.mas.informacion]
+					  </span>
+					  <div class="custom-arrow text-primary"></div>
+					</div>
+				  </button>
+				</h2>
+			</div>
+            <div
+              id="collapse-tramite-{{@index}}"
+              class="collapse px-4 py-0 border-top"
+              aria-labelledby="heading-tramite-{{@index}}"
+              data-parent="#accordion-tramite-{{@index}}"
+            >
+              <div class="card-body p-0">
+                <!-- AVISO TRÁMITE -->
+                {{#if detalleTramite.avisoTramite}}
+                <div class="alert portlet-msg-warning alert-dismissible fade show space-icons d-flex align-items-center mb-3" role="alert">
+                  <svg class="mr-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				  <path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M12.0001 20.64C16.7718 20.64 20.6401 16.7717 20.6401 12C20.6401 7.22826 16.7718 3.36 12.0001 3.36C7.22837 3.36 3.36011 7.22826 3.36011 12C3.36011 16.7717 7.22837 20.64 12.0001 20.64Z"
+					fill="#C91C1C"
+					fill-opacity="0.01"
+				  />
+				  <path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M12 22.8C6.03511 22.8 1.19995 17.9648 1.19995 12C1.19995 6.03516 6.03511 1.2 12 1.2C17.9648 1.2 22.7999 6.03516 22.7999 12C22.7999 17.9648 17.9648 22.8 12 22.8ZM12 20.64C16.7717 20.64 20.6399 16.7717 20.6399 12C20.6399 7.22826 16.7717 3.36 12 3.36C7.22821 3.36 3.35995 7.22826 3.35995 12C3.35995 16.7717 7.22821 20.64 12 20.64ZM10.92 15.24H13.08V17.4H10.92V15.24ZM10.92 6.6H13.08V13.08H10.92V6.6Z"
+					fill="#FB6418"
+				  />
+				</svg>
+                  <span>{{detalleTramite.avisoTramite}}</span>
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+				  <svg
+					width="14"
+					height="14"
+					viewBox="0 0 14 14"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				  >
+					<path
+					  fill-rule="evenodd"
+					  clip-rule="evenodd"
+					  d="M6.9999 5.75575L11.3557 1.39999L12.5999 2.64424L8.24415 6.99999L12.5999 11.3557L11.3557 12.6L6.9999 8.24424L2.64415 12.6L1.3999 11.3557L5.75565 6.99999L1.3999 2.64424L2.64415 1.39999L6.9999 5.75575Z"
+					  fill="#FB6418"
+					/>
+				  </svg>
+				</button>
+                </div>
+                {{/if}}
+
+                <!-- DESCRIPCIÓN Y PLAZO -->
+                <div class="info-block info-btn-group d-lg-flex justify-content-between mb-4 mt-4">
+					<div class="pr-2 texto-enriquecido">
+						<span class="descripcionTramite">{{{detalleTramite.descripcionTramite}}}</span>
+					</div>
+					{{#ifEquals plazoPresentacion.plazo.enPlazo "S"}}
+					  <div class="btn-group-custom d-block d-md-flex">
+						{{#each detalleTramite.acciones}}
+						  <a 
+							href="{{url}}" 
+							class="btn {{#if (eq accionPrincipal 'S')}}btn-primary{{else}}btn-outline-primary mb-2 mb-md-0{{/if}}"
+							data-senna-off="true"
+						  >
+							{{accion}}
+						  </a>
+						{{/each}}
+					  </div>
+					{{/ifEquals}}
+                </div>
+                <div class="mb-4">
+                    <h3 class="h3">{{plazoPresentacion.titulo}}</h3>
+                      {{#ifEquals plazoPresentacion.plazo.enPlazo "S"}}
+                          <span class="label-on-time d-inline-flex mb-3 px-3 py-2">
+                            {{plazoPresentacion.plazo.descripcionPlazo}}
+                          </span>
+                      {{/ifEquals}}
+                      {{#ifEquals plazoPresentacion.plazo.enPlazo "N"}}
+                          <span class="label-out-of-date d-inline-flex mb-3 px-3 py-2">
+                            {{plazoPresentacion.plazo.descripcionPlazo}}
+                          </span>
+                      {{/ifEquals}}
+                    {{#if plazoPresentacion.plazo.descripcionPlazoAmpliada}}
+                      <div class="plazoPresentacion texto-enriquecido">
+                        <p>{{{plazoPresentacion.plazo.descripcionPlazoAmpliada}}}</p>
+                      </div>
+                    {{/if}}
+                </div>
+                <!-- DOCUMENTACIÓN SIMPLIFICADA - PERFECTA -->
+				 {{#if documentacion}}
+					{{#hayDocumentosConUrl documentacion}}
+						<div class="info-block mb-4">
+							<h3 class="h3">{{documentacion.titulo}}</h3>
+							{{#each documentacion.condicionesDocumentos}}
+								<h4 class="h4">{{condicionDocumento}}</h4>
+								<p>{{descripcion}}</p>
+								<ul class="list-unstyled docs-list ml-4">
+									{{#each documentosPorCondicion}}
+										{{#if urlDocumento}}
+											<li class="mb-3">
+												<a class="d-block mb-1 font-weight-bold" href="{{urlDocumento}}" class="font-weight-bold space-icons d-flex align-items-center" target="_self" data-senna-off="true">
+													{{nombreDocumento}}
+												</a>
+												{{#if descripcionDocumento}}
+													<p>{{{descripcionDocumento}}}</p>
+												{{/if}}
+											</li>
+										{{else}}
+											{{#if nombreDocumento}}
+												<li class="mb-3">
+													<p class="mb-1 font-weight-bold">{{nombreDocumento}}</p>
+													{{#if descripcionDocumento}}
+														<p>{{{descripcionDocumento}}}</p>
+													{{/if}}
+												</li>
+											{{/if}}
+										{{/if}}
+									{{/each}}
+								</ul>
+							{{/each}}
+						</div>
+					{{else}}
+						<div class="info-block mb-4">
+							<h3 class="h3">{{documentacion.titulo}}</h3>
+							{{#each documentacion.condicionesDocumentos}}
+								<h4 class="h4">{{condicionDocumento}}</h4>
+								<p>{{descripcion}}</p>
+								<ul class="list-unstyled docs-list ml-4">
+									{{#each documentosPorCondicion}}
+										{{#if nombreDocumento}}
+											<li class="mb-3">
+												<p class="mb-1 font-weight-bold">{{nombreDocumento}}</p>
+												{{#if descripcionDocumento}}
+													<p>{{{descripcionDocumento}}}</p>
+												{{/if}}
+											</li>
+										{{/if}}
+									{{/each}}
+								</ul>
+							{{/each}}
+						</div>
+					{{/hayDocumentosConUrl}}
+				{{/if}}
+				<!-- INFORMACIÓN DE CONTACTO -->
+				{{#if contacto}}
+					<div id="procedimiento-div">
+						<div class="info-block">
+							<h3 class="h3">[lector.json.informacion.contacto]</h3>
+							<div class="container mb-5">
+							  <ul class="list-disc">
+								<li>
+									<div class="texto-enriquecido">
+										<p class="mb-0"><span class="font-weight-bold">[lector.json.servicio.responsable]</span> {{{contacto.descripcion}}}</p>
+									</div>
+								</li> 
+								{{#if contacto.telefonos}}
+									<li>
+										<p class="mb-0"><span class="font-weight-bold">{{contacto.telefonos.titulo}}:</span> 
+										{{#each contacto.telefonos.lista as | cur |}}
+											<a href="tel:{{cur.valor}}" title="{{contacto.telefonos.titulo}} {{cur.valor}}">{{cur.valor}}</a>
+											{{#unless @last}},{{/unless}}
+										{{/each}}
+										</p>
+									</li>
+								{{/if}}
+								{{#if contacto.correosElectronicos}}
+									<li>
+										<p class="mb-0"><span class="font-weight-bold">{{contacto.correosElectronicos.titulo}}:</span> 
+										{{#each contacto.correosElectronicos.lista as | cur |}}
+											<a href="mailto:{{cur.valor}}" title="{{contacto.correosElectronicos.titulo}} {{cur.valor}}">{{cur.valor}}</a>
+											{{#unless @last}},{{/unless}}
+										{{/each}}
+										</p>
+									</li>
+								{{/if}}
+							  </ul>
+							</div>
+						</div>
+					</div>
+				{{/if}}
+                <!-- CANALES DE PRESENTACIÓN -->
+				<div class="info-block">
+				  <h3 class="h3">[lector.json.canales.presentacion]</h3>
+				  <div class="card-container d-md-flex">
+					
+					<!-- CANAL ELECTRÓNICO -->
+					<div class="card h-auto mr-md-4 mr-0 flex-column" style="height: 100%;">
+					  <div class="space-icons d-flex justify-content-center align-items-center p-3 border-bottom flex-shrink-0">
+						<span class="lead mr-sm-4 mr-2">
+						  {{canalesDePresentacion.canalElectronico.titulo}}
+						</span>
+						<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+						  <path d="M4.16659 16.6667H20.8333V5.20833H4.16659V16.6667ZM13.5416 18.75V20.8333H17.7083V22.9167H7.29159V20.8333H11.4583V18.75H3.11638C2.5458 18.75 2.08325 18.2824 2.08325 17.7005V4.17446C2.08325 3.59486 2.55753 3.125 3.11638 3.125H21.8835C22.4541 3.125 22.9166 3.59263 22.9166 4.17446V17.7005C22.9166 18.2801 22.4423 18.75 21.8835 18.75H13.5416Z" fill="#CC0066"/>
+						</svg>
+						{{#ifEquals canalesDePresentacion.canalElectronico.activo "S"}}
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+						  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0001 20.64C16.7718 20.64 20.6401 16.7717 20.6401 12C20.6401 7.22824 16.7718 3.35999 12.0001 3.35999C7.22837 3.35999 3.36011 7.22824 3.36011 12C3.36011 16.7717 7.22837 20.64 12.0001 20.64Z" fill="#C91C1C" fill-opacity="0.01"/>
+						  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22.7999C6.03511 22.7999 1.19995 17.9648 1.19995 12C1.19995 6.03511 6.03511 1.19995 12 1.19995C17.9648 1.19995 22.7999 6.03511 22.7999 12C22.7999 17.9648 17.9648 22.7999 12 22.7999ZM12 20.6399C16.7717 20.6399 20.6399 16.7717 20.6399 12C20.6399 7.22821 16.7717 3.35995 12 3.35995C7.22821 3.35995 3.35995 7.22821 3.35995 12C3.35995 16.7717 7.22821 20.6399 12 20.6399ZM10.9232 16.32L6.34075 11.7375L7.86787 10.2104L10.9232 13.2657L17.0317 7.15615L18.5599 8.68327L10.9232 16.32Z" fill="#1AAA55"/>
+						</svg>
+						{{else}}
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+						  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22.7999C6.03511 22.7999 1.19995 17.9648 1.19995 12C1.19995 6.03511 6.03511 1.19995 12 1.19995C17.9648 1.19995 22.7999 6.03511 22.7999 12C22.7999 17.9648 17.9648 22.7999 12 22.7999ZM12 20.6399C16.7717 20.6399 20.6399 16.7717 20.6399 12C20.6399 7.22821 16.7717 3.35995 12 3.35995C7.22821 3.35995 3.35995 7.22821 3.35995 12C3.35995 16.7717 7.22821 20.6399 12 20.6399ZM12 10.4728L15.0542 7.41751L16.5824 8.94571L13.5271 12L16.5824 15.0542L15.0542 16.5824L12 13.5271L8.94571 16.5824L7.41751 15.0542L10.4728 12L7.41751 8.94571L8.94571 7.41751L12 10.4728Z" fill="#E4120E"/>
+						</svg>
+						{{/ifEquals}}
+					  </div>
+					  <div class="card-body p-3 flex-grow-1 d-flex flex-column"> 
+						<div class="texto-enriquecido">
+							<p>
+								{{#if canalesDePresentacion.canalElectronico.descripcion}}
+									  {{{canalesDePresentacion.canalElectronico.descripcion}}}
+								{{else}}
+									  [lector.json.tramite.no.telematicamente]
+								{{/if}}
+							</p>
+						</div>
+					  </div>
+					</div>
+
+					<!-- CANAL PRESENCIAL -->
+					<div class="card h-auto flex-column" style="height: 100%;">
+					  <div class="space-icons d-flex justify-content-center align-items-center p-3 border-bottom flex-shrink-0">
+						<span class="lead mr-sm-4 mr-2">
+						  {{canalesDePresentacion.canalPresencial.titulo}}
+						</span>
+						<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+						  <path d="M2.08341 19.7917V8.33333H1.04175V6.25H4.16675V4.16667C4.16675 3.59137 4.63312 3.125 5.20841 3.125H19.7917C20.3671 3.125 20.8334 3.59137 20.8334 4.16667V6.25H23.9584V8.33333H22.9167V19.7917H23.9584V21.875H1.04175V19.7917H2.08341ZM13.5417 19.7917V12.5H11.4584V19.7917H13.5417ZM8.33341 19.7917V12.5H6.25008V19.7917H8.33341ZM18.7501 19.7917V12.5H16.6667V19.7917H18.7501ZM6.25008 5.20833V6.25H18.7501V5.20833H6.25008Z" fill="#CC0066"/>
+						</svg>
+						{{#ifEquals canalesDePresentacion.canalPresencial.activo "S"}}
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+						  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0001 20.64C16.7718 20.64 20.6401 16.7717 20.6401 12C20.6401 7.22824 16.7718 3.35999 12.0001 3.35999C7.22837 3.35999 3.36011 7.22824 3.36011 12C3.36011 16.7717 7.22837 20.64 12.0001 20.64Z" fill="#C91C1C" fill-opacity="0.01"/>
+						  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22.7999C6.03511 22.7999 1.19995 17.9648 1.19995 12C1.19995 6.03511 6.03511 1.19995 12 1.19995C17.9648 1.19995 22.7999 6.03511 22.7999 12C22.7999 17.9648 17.9648 22.7999 12 22.7999ZM12 20.6399C16.7717 20.6399 20.6399 16.7717 20.6399 12C20.6399 7.22821 16.7717 3.35995 12 3.35995C7.22821 3.35995 3.35995 7.22821 3.35995 12C3.35995 16.7717 7.22821 20.6399 12 20.6399ZM10.9232 16.32L6.34075 11.7375L7.86787 10.2104L10.9232 13.2657L17.0317 7.15615L18.5599 8.68327L10.9232 16.32Z" fill="#1AAA55"/>
+						</svg>
+						{{else}}
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+						  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22.7999C6.03511 22.7999 1.19995 17.9648 1.19995 12C1.19995 6.03511 6.03511 1.19995 12 1.19995C17.9648 1.19995 22.7999 6.03511 22.7999 12C22.7999 17.9648 17.9648 22.7999 12 22.7999ZM12 20.6399C16.7717 20.6399 20.6399 16.7717 20.6399 12C20.6399 7.22821 16.7717 3.35995 12 3.35995C7.22821 3.35995 3.35995 7.22821 3.35995 12C3.35995 16.7717 7.22821 20.6399 12 20.6399ZM12 10.4728L15.0542 7.41751L16.5824 8.94571L13.5271 12L16.5824 15.0542L15.0542 16.5824L12 13.5271L8.94571 16.5824L7.41751 15.0542L10.4728 12L7.41751 8.94571L8.94571 7.41751L12 10.4728Z" fill="#E4120E"/>
+						</svg>
+						{{/ifEquals}}
+					  </div>
+					  <div class="card-body p-3 flex-grow-1 d-flex flex-column">
+						<div class="texto-enriquecido">
+							<p >
+							{{#if canalesDePresentacion.canalPresencial.descripcion}}
+							  {{{canalesDePresentacion.canalPresencial.descripcion}}}
+							{{else}}
+							  [lector.json.tramite.no.electronicamente]
+							{{/if}}
+							</p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+      {{/if}}
+      <!-- TRÁMITES DESPUÉS DE LA PRESENTACIÓN (ACORDEÓN) -->
+	  {{#if pestanas.pestanaDespuesPresentacion}}
+		{{#each pestanas.pestanaDespuesPresentacion.tramites.tramite}}
+		  <div class="accordion" id="accordion-despues-{{@index}}">
+			<div class="card mb-3 w-100 border rounded">
+			  <div class="gray-box rounded-0">
+				<h2 class="mb-0">
+				  <button 
+					class="btn btn-collapse-box header-card d-flex collapsed justify-content-between align-items-center w-100 text-left p-0 pr-4"
+					type="button"
+					data-toggle="collapse"
+					data-target="#collapse-despues-{{@index}}"
+					aria-expanded="false"
+					aria-controls="collapse-despues-{{@index}}"
+				  >
+					<span class="lead font-weight-bold">{{detalleTramite.denominacionTramite}}</span>
+
+					<div class="texto-col d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
+					  {{#ifEquals plazoPresentacion.plazo.enPlazo "S"}}
+						<span class="label-on-time d-inline-flex mr-sm-3 mb-2 mb-sm-0 px-3 py-2">[lector.json.abierto]</span>
+					  {{/ifEquals}}
+					  {{#ifEquals plazoPresentacion.plazo.enPlazo "N"}}
+						<span class="label-out-of-date d-inline-flex mr-sm-3 mb-2 mb-sm-0 px-3 py-2">[lector.json.cerrado]</span>
+					  {{/ifEquals}}
+					  <span class="mas-menos-info font-weight-bold collapsed text-primary" 
+						data-mas="[lector.json.mas.informacion]" 
+						data-menos="[lector.json.menos.informacion]">
+					    [lector.json.mas.informacion]
+					  </span>
+					  <div class="custom-arrow text-primary"></div>
+					</div>
+				  </button>
+				</h2>
+			  </div>
+
+			  <div
+				id="collapse-despues-{{@index}}"
+				class="collapse px-4 py-0 border-top"
+				aria-labelledby="heading-despues-{{@index}}"
+				data-parent="#accordion-despues-{{@index}}"
+			  >
+				<div class="card-body p-0">
+				  <!-- DESCRIPCIÓN -->
+				  <div class="info-block info-btn-group d-lg-flex justify-content-between mb-4 mt-4">
+					<div class="pr-2 texto-enriquecido">
+					  <span class="descripcionTramite">{{{detalleTramite.descripcionTramite}}}</span>
+					</div>
+					{{#ifEquals plazoPresentacion.plazo.enPlazo "S"}}
+					  <div class="btn-group-custom d-block d-md-flex">
+						{{#each detalleTramite.acciones}}
+						  <a 
+							href="{{url}}" 
+							class="btn {{#if (eq accionPrincipal 'S')}}btn-primary{{else}}btn-outline-primary mb-2 mb-md-0{{/if}}"
+							data-senna-off="true"
+						  >
+							{{accion}}
+						  </a>
+						{{/each}}
+					  </div>
+					{{/ifEquals}}
+				  </div>
+				  <!-- PLAZO -->
+				  <div class="mb-4">
+					<h3 class="h3">{{plazoPresentacion.titulo}}</h3>
+					{{#ifEquals plazoPresentacion.plazo.enPlazo "S"}}
+					  <span class="label-on-time d-inline-flex mb-3 px-3 py-2">
+						{{plazoPresentacion.plazo.descripcionPlazo}}
+					  </span>
+					{{/ifEquals}}
+					{{#ifEquals plazoPresentacion.plazo.enPlazo "N"}}
+					  <span class="label-out-of-date d-inline-flex mb-3 px-3 py-2">
+						{{plazoPresentacion.plazo.descripcionPlazo}}
+					  </span>
+					{{/ifEquals}}
+					{{#if plazoPresentacion.plazo.descripcionPlazoAmpliada}}
+						<div class="texto-enriquecido">
+							<p class="plazoPresentacion">
+							{{{plazoPresentacion.plazo.descripcionPlazoAmpliada}}}
+							</p>
+						</div>
+					{{/if}}
+				  </div>
+				  <!-- DOCUMENTACIÓN SIMPLIFICADA -->
+				 {{#if documentacion}}
+					{{#hayDocumentosConUrl documentacion}}
+						<div class="info-block mb-4">
+							<h3 class="h3">{{documentacion.titulo}}</h3>
+							{{#each documentacion.condicionesDocumentos}}
+								<h4 class="h4">{{condicionDocumento}}</h4>
+								<p>{{descripcion}}</p>
+								<ul class="list-unstyled docs-list ml-4">
+									{{#each documentosPorCondicion}}
+										{{#if urlDocumento}}
+											<li class="mb-3">
+												<a class="d-block mb-1 font-weight-bold" href="{{urlDocumento}}" class="font-weight-bold space-icons d-flex align-items-center" target="_self" data-senna-off="true">
+													{{nombreDocumento}}
+												</a>
+												{{#if descripcionDocumento}}
+													<div class="texto-enriquecido">
+														<p>{{{descripcionDocumento}}}</p>
+													</div>
+												{{/if}}
+											</li>
+										{{else}}
+											{{#if nombreDocumento}}
+												<li class="mb-3">
+													<p class="mb-1 font-weight-bold">{{nombreDocumento}}</p>
+													{{#if descripcionDocumento}}
+														<div class="texto-enriquecido">
+															<p>{{{descripcionDocumento}}}</p>
+														</div>
+													{{/if}}
+												</li>
+											{{/if}}
+										{{/if}}
+									{{/each}}
+								</ul>
+							{{/each}}
+						</div>
+					{{else}}
+						<div class="info-block mb-4">
+							<h3 class="h3">{{documentacion.titulo}}</h3>
+							{{#each documentacion.condicionesDocumentos}}
+								<h4 class="h4">{{condicionDocumento}}</h4>
+								<p>{{descripcion}}</p>
+								<ul class="list-unstyled docs-list ml-4">
+									{{#each documentosPorCondicion}}
+										{{#if nombreDocumento}}
+											<li class="mb-3">
+												<p class="mb-1 font-weight-bold">{{nombreDocumento}}</p>
+												{{#if descripcionDocumento}}
+													<div class="texto-enriquecido">
+														<p>{{{descripcionDocumento}}}</p>
+													</div>
+												{{/if}}
+											</li>
+										{{/if}}
+									{{/each}}
+								</ul>
+							{{/each}}
+						</div>
+					{{/hayDocumentosConUrl}}
+				  {{/if}}
+				  <!-- CONTACTO -->
+				  {{#if contacto}}
+				  <div class="info-block">
+					<h3 class="h3">[lector.json.informacion.contacto]</h3>
+					<div class="container mb-5">
+					  <ul class="list-disc">
+						<li>
+							<div class="texto-enriquecido">
+								<p class="mb-0"><span class="font-weight-bold">[lector.json.servicio.responsable]</span> {{{contacto.descripcion}}}</p>
+							</div>
+						</li> 
+						{{#if contacto.telefonos}}
+						  <li>
+							<p class="mb-0"><span class="font-weight-bold">{{contacto.telefonos.titulo}}:</span> 
+							{{#each contacto.telefonos.lista as | cur |}}
+								<a href="tel:{{cur.valor}}" title="{{contacto.telefonos.titulo}} {{cur.valor}}">{{cur.valor}}</a>
+							  	{{#unless @last}},{{/unless}}
+							{{/each}}
+							</p>
