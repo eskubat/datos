@@ -238,5 +238,65 @@
   "parecidaA": "ara-convocatoria-de-subvenciones-para-desarrollar-iniciativas-cu-f9af8a",
   "motivo": "Subvenciones de la Diputación de Álava para iniciativas culturales de ayuntamientos, cuadrillas y el enclave de Treviño: mismo título en dos trámites de la sede, uno con la convocatoria de 2026 (15 días hábiles desde su publicación en el BOTHA) y otro genérico «sujeta a convocatoria».",
   "fecha": "2026-11-16"
+ },
+ "ara-alava-innova-2025-empresas-y-autonomos": {
+  "parecidaA": "ara-alava-innova-digitaliza-empresas-2026",
+  "motivo": "Dos trámites de la sede de Álava del mismo programa Álava Innova (DFA) para empresas y autónomos: «Álava Innova 2025» y «Álava Innova Descarboniza 2026»; la ficha oficial de 2026 (Acuerdo 751/2025) reúne innovación, digitalización y descarbonización en una sola convocatoria, con plazo del 1/1 al 16/3/2026.",
+  "fecha": "2026-11-16"
+ },
+ "ara-alava-innova-digitaliza-empresas-2026": {
+  "parecidaA": "ara-alava-innova-2025-empresas-y-autonomos",
+  "motivo": "Dos trámites de la sede de Álava del mismo programa Álava Innova (DFA) para empresas y autónomos: «Álava Innova 2025» y «Álava Innova Descarboniza 2026»; la ficha oficial de 2026 (Acuerdo 751/2025) reúne innovación, digitalización y descarbonización en una sola convocatoria, con plazo del 1/1 al 16/3/2026.",
+  "fecha": "2026-11-16"
+ },
+ "ara-alava-innova-2025-asociaciones": {
+  "parecidaA": "ara-alava-innova-descarboniza-asociaciones-2026",
+  "motivo": "Dos trámites de la sede de Álava del mismo programa Álava Innova (DFA) para asociaciones: «Álava Innova 2025» y «Álava Innova Descarboniza 2026»; la ficha oficial de 2026 (Acuerdo 751/2025) reúne innovación, digitalización y descarbonización en una sola convocatoria, con plazo del 1/1 al 16/3/2026.",
+  "fecha": "2026-11-16"
+ },
+ "ara-alava-innova-descarboniza-asociaciones-2026": {
+  "parecidaA": "ara-alava-innova-2025-asociaciones",
+  "motivo": "Dos trámites de la sede de Álava del mismo programa Álava Innova (DFA) para asociaciones: «Álava Innova 2025» y «Álava Innova Descarboniza 2026»; la ficha oficial de 2026 (Acuerdo 751/2025) reúne innovación, digitalización y descarbonización en una sola convocatoria, con plazo del 1/1 al 16/3/2026.",
+  "fecha": "2026-11-16"
+ },
+ "ara-subvenciones-desarrollo-programas-de-creacion-y-difusion-cul-a763b5": {
+  "parecidaA": "ara-subvenciones-desarrollo-programas-de-creacion-y-difusion-cul-0e100a",
+  "motivo": "Mismo título en la sede de Álava (DFA, programas de creación y difusión cultural en Álava y Treviño); solo cambia el solicitante: una para profesionales y otra para asociaciones.",
+  "fecha": "2026-11-16"
+ },
+ "ara-subvenciones-desarrollo-programas-de-creacion-y-difusion-cul-0e100a": {
+  "parecidaA": "ara-subvenciones-desarrollo-programas-de-creacion-y-difusion-cul-a763b5",
+  "motivo": "Mismo título en la sede de Álava (DFA, programas de creación y difusión cultural en Álava y Treviño); solo cambia el solicitante: una para profesionales y otra para asociaciones.",
+  "fecha": "2026-11-16"
+ },
+ "ara-solicitar-subvenciones-para-intervenciones-de-conservacion-y-1c431c": {
+  "parecidaA": "ara-subvenciones-para-intervenciones-de-conservacion-y-o-restaur-0f0885",
+  "motivo": "Misma convocatoria de la DFA para conservar y restaurar patrimonio cultural de entidades locales, partida en la sede en cuatro trámites casi iguales (elementos menores, ermitas, edificios y bienes histórico-artísticos); esta pareja: elementos menores y ermitas.",
+  "fecha": "2026-11-16"
+ },
+ "ara-subvenciones-para-intervenciones-de-conservacion-y-o-restaur-0f0885": {
+  "parecidaA": "ara-solicitar-subvenciones-para-intervenciones-de-conservacion-y-1c431c",
+  "motivo": "Misma convocatoria de la DFA para conservar y restaurar patrimonio cultural de entidades locales, partida en la sede en cuatro trámites casi iguales (elementos menores, ermitas, edificios y bienes histórico-artísticos); esta pareja: elementos menores y ermitas.",
+  "fecha": "2026-11-16"
+ },
+ "ara-solicitar-subvenciones-para-intervenciones-de-conservacion-y-0d3c16": {
+  "parecidaA": "ara-subvenciones-para-intervenciones-de-conservacion-y-o-restaur-3ee3fb",
+  "motivo": "Misma convocatoria de la DFA para conservar y restaurar patrimonio cultural de entidades locales, partida en la sede en cuatro trámites casi iguales (elementos menores, ermitas, edificios y bienes histórico-artísticos); esta pareja: edificios y bienes histórico-artísticos.",
+  "fecha": "2026-11-16"
+ },
+ "ara-subvenciones-para-intervenciones-de-conservacion-y-o-restaur-3ee3fb": {
+  "parecidaA": "ara-solicitar-subvenciones-para-intervenciones-de-conservacion-y-0d3c16",
+  "motivo": "Misma convocatoria de la DFA para conservar y restaurar patrimonio cultural de entidades locales, partida en la sede en cuatro trámites casi iguales (elementos menores, ermitas, edificios y bienes histórico-artísticos); esta pareja: edificios y bienes histórico-artísticos.",
+  "fecha": "2026-11-16"
+ },
+ "ara-ayudas-para-la-organizacion-de-ferias-agricolas-y-ganaderas": {
+  "parecidaA": "ara-ayudas-para-la-organizacion-de-ferias-agricolas-y-ganaderas-",
+  "motivo": "Dos trámites de la DFA con el mismo título, ayudas para organizar ferias agrícolas y ganaderas; uno añade «(Entidades Locales)» y el otro no dice a quién va.",
+  "fecha": "2026-11-16"
+ },
+ "ara-ayudas-para-la-organizacion-de-ferias-agricolas-y-ganaderas-": {
+  "parecidaA": "ara-ayudas-para-la-organizacion-de-ferias-agricolas-y-ganaderas",
+  "motivo": "Dos trámites de la DFA con el mismo título, ayudas para organizar ferias agrícolas y ganaderas; uno añade «(Entidades Locales)» y el otro no dice a quién va.",
+  "fecha": "2026-11-16"
  }
 }

@@ -415,5 +415,27 @@
   "prioridad": 21,
   "estado": "pendiente",
   "seccion": "fuentes"
+ },
+ {
+  "id": "docs-extra-sin-reabrir",
+  "titulo": "No volver a poner en cola una ficha solo porque se descargó su documento de docs_extra",
+  "detalle": "Cuando la tarea de fichas copia un documento oficial en cache/textos_claude/ y añade su URL a cache/docs_extra.json, el recolector lo descarga en la siguiente pasada, cambia el h del archivo de fuentes y la ayuda vuelve a cache/pendientes.json aunque la ficha ya se hizo con ese mismo texto (pasó el 16/11 con 6 fichas de Álava: medidas preventivas, seguros ganaderos, residencias, acogimiento, asociaciones de servicios sociales; y con hezkuntza-inklusiboa-pree solo por cambiar la URL de la ficha de web01-tramite a web01-s2hhome). Propuesta: calcular h sin las secciones que vienen de docs_extra cuando su texto ya está en textos_claude, y sin las líneas «### …: url».",
+  "seccion": "datos",
+  "prioridad": 15,
+  "fuente": "Revisor de datos (16/11)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
+ },
+ {
+  "id": "convenios-bdns-2",
+  "titulo": "Siguen entrando en la cola convenios y subvenciones directas de la BDNS",
+  "detalle": "En la cola de fichas hay acuerdos que conceden dinero a una entidad concreta, sin convocatoria abierta: bdns-925828 (Amurrio, convenio con Mendiko Lagunak), bdns-924392 (Gobierno Vasco, ayuda directa a la asociación de granjas escuela EHBE), bdns-928320 y bdns-928311 (colaboración del ayuntamiento con las asociaciones Acasgi y Ai Laket) y bdns-925821 (Euskal Fondoa). La tarea de fichas no los redacta. Ampliar el filtro de nominativas para que reconozca «convenio de colaboración», «concede una ayuda directa / subvención directa a» y «colaboración entre el ayuntamiento y la asociación» en el título o el documento.",
+  "seccion": "fuentes",
+  "prioridad": 15,
+  "fuente": "Revisor de datos (16/11)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
  }
 ]
