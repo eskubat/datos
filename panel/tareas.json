@@ -411,7 +411,7 @@
   "quien": "Claude",
   "estado": "hecha",
   "fecha": "2026-11-16",
-  "nota": "fechaTexto (recolector/forales.js) tomaba la primera fecha del plazo y, sin año, la pasaba a 2027: 11 trámites de Álava salían abiertos con fin 2027 y 38 con «ABIERTO (dd/mm/aaaa - dd/mm/aaaa)» se quedaban sin fin. Ahora toma la última fecha del plazo de solicitud con su año (o el que aparece después), ignora la justificación y la resolución, salta las líneas CERRADO/CERRADA si hay otra abierta (si no, la ayuda queda cerrada con la fecha pasada) y no pone fin cuando solo hay «desde». Con los datos de hoy, 6 pasan a cerradas (plazos de 2025 y mayo/octubre de 2026), 3 quedan hasta 30/11/2026 o 31/12/2026, y 2 con plazo ordinario cerrado pero solicitud excepcional admitida hasta el 30/11/2026 salen con ese fin; se verá en el recolector de las 05:41."
+  "nota": "fechaTexto (recolector/forales.js) tomaba la primera fecha del plazo y, sin año, la pasaba a 2027: 11 trámites de Álava salían abiertos con fin 2027 y 38 con «ABIERTO (dd/mm/aaaa - dd/mm/aaaa)» se quedaban sin fin. Ahora toma la última fecha del plazo de solicitud con su año (o el que aparece después), ignora la justificación y la resolución, salta las líneas CERRADO/CERRADA si hay otra abierta (si no, la ayuda queda cerrada con la fecha pasada) y no pone fin cuando solo hay «desde». Con los datos de hoy, 6 pasan a cerradas (plazos de 2025 y mayo/octubre de 2026), 3 quedan hasta 30/11/2026 o 31/12/2026, 1 («desde el 19 de marzo») queda sin fin, y las 2 con plazo ordinario cerrado pero solicitud excepcional admitida hasta el 30/11/2026 salen con ese fin; se verá en el recolector de las 05:41."
  },
  {
   "id": "bizkaia-prestaciones-2",
