@@ -123,5 +123,80 @@
   "parecidaA": "bdns-938077",
   "motivo": "Línea «España crece - ICO crecimiento y expansión (MRR)» (AGRI, exenciones por categorías agrícola): misma convocatoria del ICO con el mismo documento; solo cambia el régimen de ayudas de Estado (minimis general, agrícola o pesquero, o exención por categorías). Llegan las cinco por la BDNS.",
   "fecha": "2026-11-16"
+ },
+ "eus-rehabilitacion-comunidad": {
+  "parecidaA": "eus-ayuda-subvencion-2024-ayudas-a-fondo-perdido-para-obras-comunitarias-de-rehabilitacion-integral-y-eficiente-linea-3-en-el-marco-del-programa-de-medidas-financieras-para-actuaciones-protegibles-en-materia-de-rehabilitacion-en-viviendas-y-edificios-accesibilidad-y-eficiencia-en",
+  "motivo": "Misma Orden de 21/07/2021 de rehabilitación del Gobierno Vasco: la página de obras comunitarias recoge las líneas 2 y 3, y la otra solo la línea 3 (rehabilitación integral y eficiente).",
+  "fecha": "2026-11-16"
+ },
+ "eus-ayuda-subvencion-2024-ayudas-a-fondo-perdido-para-obras-comunitarias-de-rehabilitacion-integral-y-eficiente-linea-3-en-el-marco-del-programa-de-medidas-financieras-para-actuaciones-protegibles-en-materia-de-rehabilitacion-en-viviendas-y-edificios-accesibilidad-y-eficiencia-en": {
+  "parecidaA": "eus-rehabilitacion-comunidad",
+  "motivo": "Misma Orden de 21/07/2021 de rehabilitación del Gobierno Vasco: la página de obras comunitarias recoge las líneas 2 y 3, y la otra solo la línea 3 (rehabilitación integral y eficiente).",
+  "fecha": "2026-11-16"
+ },
+ "eus-servicios-0048214": {
+  "parecidaA": "eus-rehabilitacion-comunidad",
+  "motivo": "Mismo programa de rehabilitación (Orden de 21/07/2021): el trámite 0048214 mezcla los préstamos de la línea 3 para comunidades y la línea especial de accesibilidad, ya recogidos en las fichas de obras comunitarias.",
+  "fecha": "2026-11-16"
+ },
+ "eus-ayuda-subvencion-2026-partz-weblan00-content-es": {
+  "parecidaA": "bdns-934169",
+  "motivo": "La misma convocatoria de Lanbide de 2026 para pasar contratos a tiempo parcial a jornada completa, llegada por euskadi.eus y por la BDNS con la misma página oficial.",
+  "fecha": "2026-11-16"
+ },
+ "bdns-934169": {
+  "parecidaA": "eus-ayuda-subvencion-2026-partz-weblan00-content-es",
+  "motivo": "La misma convocatoria de Lanbide de 2026 para pasar contratos a tiempo parcial a jornada completa, llegada por euskadi.eus y por la BDNS con la misma página oficial.",
+  "fecha": "2026-11-16"
+ },
+ "ara-subvenciones-rehabilitacion-de-vivienda-entidades-locales-20": {
+  "parecidaA": "ara-subvenciones-para-la-financiacion-de-acciones-conducentes-a-",
+  "motivo": "Subvenciones de la Diputación de Álava a entidades locales para rehabilitar viviendas: dos trámites de la sede con el mismo objeto; uno es la edición 2026 y el otro no lleva año.",
+  "fecha": "2026-11-16"
+ },
+ "ara-subvenciones-para-la-financiacion-de-acciones-conducentes-a-": {
+  "parecidaA": "ara-subvenciones-rehabilitacion-de-vivienda-entidades-locales-20",
+  "motivo": "Subvenciones de la Diputación de Álava a entidades locales para rehabilitar viviendas: dos trámites de la sede con el mismo objeto; uno es la edición 2026 y el otro no lleva año.",
+  "fecha": "2026-11-16"
+ },
+ "ara-interkoop-entidades-sin-animo-de-lucro-2026": {
+  "parecidaA": "ara-interkoop-entidades-sin-animo-de-lucro-2025",
+  "motivo": "Ayudas Álava InterKOOP para entidades sin ánimo de lucro: ediciones 2025 y 2026 del mismo programa.",
+  "fecha": "2026-11-16"
+ },
+ "ara-interkoop-entidades-sin-animo-de-lucro-2025": {
+  "parecidaA": "ara-interkoop-entidades-sin-animo-de-lucro-2026",
+  "motivo": "Ayudas Álava InterKOOP para entidades sin ánimo de lucro: ediciones 2025 y 2026 del mismo programa.",
+  "fecha": "2026-11-16"
+ },
+ "ara-convocatoria-de-ayudas-a-la-creacion-audiovisual-2026": {
+  "parecidaA": "ara-convocatoria-de-ayudas-a-la-creacion-audiovisual-2025",
+  "motivo": "Ayudas de la Diputación de Álava a la creación audiovisual: ediciones 2025 y 2026.",
+  "fecha": "2026-11-16"
+ },
+ "ara-convocatoria-de-ayudas-a-la-creacion-audiovisual-2025": {
+  "parecidaA": "ara-convocatoria-de-ayudas-a-la-creacion-audiovisual-2026",
+  "motivo": "Ayudas de la Diputación de Álava a la creación audiovisual: ediciones 2025 y 2026.",
+  "fecha": "2026-11-16"
+ },
+ "ara-programa-innobideak-kudeabide-2026": {
+  "parecidaA": "ara-innobideak-kudeabide-2025",
+  "motivo": "Ayudas Innobideak-Kudeabide de la Diputación de Álava: ediciones 2025 y 2026.",
+  "fecha": "2026-11-16"
+ },
+ "ara-innobideak-kudeabide-2025": {
+  "parecidaA": "ara-programa-innobideak-kudeabide-2026",
+  "motivo": "Ayudas Innobideak-Kudeabide de la Diputación de Álava: ediciones 2025 y 2026.",
+  "fecha": "2026-11-16"
+ },
+ "ara-convocatoria-subvenciones-medios-euskera-2026": {
+  "parecidaA": "ara-convocatoria-subvenciones-medios-euskera",
+  "motivo": "Subvenciones de la Diputación de Álava a medios de comunicación en euskera: edición 2026 y un trámite sin año con el mismo objeto.",
+  "fecha": "2026-11-16"
+ },
+ "ara-convocatoria-subvenciones-medios-euskera": {
+  "parecidaA": "ara-convocatoria-subvenciones-medios-euskera-2026",
+  "motivo": "Subvenciones de la Diputación de Álava a medios de comunicación en euskera: edición 2026 y un trámite sin año con el mismo objeto.",
+  "fecha": "2026-11-16"
  }
 }

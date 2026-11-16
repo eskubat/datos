@@ -337,11 +337,44 @@
  {
   "id": "bdns-nominativas-texto",
   "titulo": "Descartar también las nominativas que solo lo dicen en el documento",
-  "detalle": "El filtro RUIDO de recolector/bdns.js descarta las nominativas por el título, pero se cuelan las que solo lo dicen en el texto del documento, a veces solo en euskera: p. ej. bdns-926766 (convenio de Ordizia con Euskal Fondoa: «EUSKAL FONDOARI EMANDAKO DIRU-LAGUNTZA ARAUTZEN DUEN HITZARMENA», «dirulaguntza izenduna») y probablemente bdns-921923 «Dazz jazz» de Vitoria-Gasteiz, cuyo único documento son las bases generales de 2018. Aplicar el mismo filtro a las primeras líneas del documento de la convocatoria y a títulos que solo son el nombre de una entidad.",
+  "detalle": "El filtro RUIDO de recolector/bdns.js descarta las nominativas por el título, pero se cuelan las que solo lo dicen en el texto del documento, a veces solo en euskera: p. ej. bdns-926766 (convenio de Ordizia con Euskal Fondoa: «EUSKAL FONDOARI EMANDAKO DIRU-LAGUNTZA ARAUTZEN DUEN HITZARMENA», «dirulaguntza izenduna») y probablemente bdns-921923 «Dazz jazz» de Vitoria-Gasteiz, cuyo único documento son las bases generales de 2018. Aplicar el mismo filtro a las primeras líneas del documento de la convocatoria y a títulos que solo son el nombre de una entidad. Nuevos casos (16/11, pasada de las 9:32 UTC): bdns-942092 (convenio de Bilbao con Topagunea, proyecto Entrenatzen, 10.000 €) y bdns-942054 (convenio de la Escuela de Música Luis Aramburu con Araba Ahotsetan, 4.000 €): el documento empieza por «CONVENIO» / «HITZARMENA».",
   "fuente": "Tarea de resúmenes (16/11)",
   "seccion": "fuentes",
   "quien": "Claude",
   "prioridad": 6,
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
+ },
+ {
+  "id": "araba-sede-contenido-2",
+  "titulo": "Las fichas de la sede de Álava siguen llegando vacías",
+  "detalle": "Tras el cambio del lector (tarea araba-sede-contenido), cache/araba_fichas.json sigue vacío ({}) y las 110 ayudas ara-… de cache/pendientes.json (unos 18.700 caracteres) solo traen la plantilla de la página (menús, normativa de la sede, {{resultado.…}}). La pasada de las 9:32 UTC del 16/11 no pudo redactar ninguna. Mirar el registro del recolector («Araba/Álava (sede): N fichas con contenido») y dónde carga la página los datos del trámite. WebFetch tampoco llega: rechaza las URL de la sede por demasiado largas.",
+  "seccion": "fuentes",
+  "prioridad": 1,
+  "fuente": "Tarea de resúmenes (16/11)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
+ },
+ {
+  "id": "ue-acexterior-caducadas",
+  "titulo": "Descartar las convocatorias europeas caducadas del catálogo de Acción Exterior",
+  "detalle": "El catálogo de euskadi.eus (web01-s1leheki, Acción Exterior) trae convocatorias europeas antiguas con «FECHA LÍMITE DE PRESENTACIÓN DE PROPUESTAS» ya pasada (H2020-JTI-FCH-2016-1: 03/05/2016; CEF-TC-2016-1: 15/09/2016; EACEA/22/2016: 02/03/2017) o sin plazo (Clean Aviation 2022, BoostUp! France 2023), y en publico/ayudas.json salen abiertas con un fin de 20 años después del inicio (2036, 2042, 2043). Leer esa fecha límite de la ficha y no dar fin inventado; si no hay plazo, tratarlas como sin fecha. En esta pasada se mandaron a revisión manual con propuesta de ocultarlas.",
+  "seccion": "fuentes",
+  "prioridad": 3,
+  "fuente": "Tarea de resúmenes (16/11)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
+ },
+ {
+  "id": "ids-repetidos-araba",
+  "titulo": "Ids repetidos en las ayudas de la sede de Álava",
+  "detalle": "En publico/ayudas.json hay ayudas distintas con el mismo id porque el id se corta a 64 caracteres: ara-apoyo-a-jovenes-informadores-en-centros-educativos-alaveses- (2 veces), ara-convocatoria-de-subvenciones-para-desarrollar-iniciativas-cu (2) y ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-y-p (2). Una ficha o una exclusión se aplica a las dos sin querer. Hacer el id único (p. ej. añadir el año o un hash del friendlyUrl).",
+  "seccion": "datos",
+  "prioridad": 2,
+  "fuente": "Tarea de resúmenes (16/11)",
+  "quien": "Claude",
   "estado": "pendiente",
   "fecha": "2026-11-16"
  }
