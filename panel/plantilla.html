@@ -410,6 +410,23 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 .proy > .flujo > section > .vb{padding:10px 12px;background:var(--bg);border-radius:8px;font-size:14px}
 .swatches{display:flex;flex-wrap:wrap;gap:10px} .swatches span{display:flex;align-items:center;gap:6px;font-size:13px} .swatches i{width:20px;height:20px;border-radius:5px;border:1px solid var(--line)} .swatches small{color:var(--muted)}
 .lista-s{margin:0;padding-left:18px;line-height:1.6}
+.lflujo{max-width:1180px}
+.lgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.lcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;display:flex;flex-direction:column;gap:12px;cursor:pointer;min-height:330px;transition:border-color .15s,box-shadow .15s}
+.lcard:hover{border-color:var(--accent);box-shadow:0 4px 18px rgba(20,33,28,.08)}
+.lcard.atn{border-color:var(--or)}
+.lcard header{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.lcard h3{font:800 24px var(--display);margin:0;text-transform:none;letter-spacing:0;color:var(--ink)} .lcard header p{margin:2px 0 0;color:var(--muted);font-size:14px}
+.lcard .avatar{padding:4px 12px 4px 4px} .lcard .avatar .av-c{width:32px;height:32px} .lcard .avatar .av-c svg{width:19px;height:19px} .lcard .avatar .av-t b{font-size:12.5px} .lcard .avatar .av-t small{font-size:11px}
+.lstats{display:flex;flex-wrap:wrap;gap:6px 18px}
+.lk{display:flex;flex-direction:column;font-size:12.5px;color:var(--muted)} .lk b{font:800 26px var(--display);color:var(--ink);line-height:1.1}
+.lk.ok b{color:var(--accent-d)} .lk.av b{color:var(--or-d)}
+.lbody{flex:1} .lt{font:700 11px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:4px 0 4px}
+.ll{list-style:none;margin:0 0 8px;padding:0} .ll li{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-top:1px solid var(--line);font-size:14px} .ll li small{color:var(--muted);white-space:nowrap}
+.ll li.clic:hover span{text-decoration:underline}
+.lcard footer{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px}
+.lir{font-weight:700;color:var(--accent-d)}
+@media (max-width:860px){.lgrid{grid-template-columns:1fr}}
 @media (max-width:760px){.proy{grid-template-columns:1fr}.pnav{position:static;flex-direction:row;overflow:auto}.dos2{grid-template-columns:1fr}}
 @media (max-width:760px){.estado-rev .er-top{grid-template-columns:1fr}}
 @media (max-width:760px){.plan-i{grid-template-columns:1fr}}
@@ -663,73 +680,54 @@ function paraTi(){
 
 /* ================= INICIO ================= */
 function renderInicio(){
-  const t=D.cola||{}; const c={abierta:0,lista:0}; S.docs.forEach(d=>{const e=d.estado||"abierta"; if(c[e]!=null) c[e]++;});
-  const ca={}; S.docs.filter(d=>(d.estado||"abierta")==="abierta").forEach(d=>{const a=areaDe(d); ca[a]=(ca[a]||0)+1;});
+  const t=D.cola||{}, A=D.ayudas, F=D.fuentes||{}, P=D.proyecto||{};
   const diaria=D.tarea&&D.tarea.modo==="diaria";
-  const W=200, H=154, X=i=>i*400, Y=[0,262];
-  const IC={
-    fuentes:"M3 21h18M5 21V10M19 21V10M9 21V10M15 21V10M2 10l10-6 10 6",
-    base:"M12 3c4.4 0 8 1.3 8 3s-3.6 3-8 3-8-1.3-8-3 3.6-3 8-3zM4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3",
-    app:"M8 2h8a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM11 18h2",
-    correccion:"M4 20h4L18.5 9.5a2.1 2.1 0 0 0-3-3L5 17v3zM13.5 7.5l3 3",
-    mejora:"M3 17l6-6 4 4 8-8M15 7h6v6",
-    cuestiones:"M21 12a8.5 8.5 0 0 1-12.3 7.6L3 21l1.4-5.4A8.5 8.5 0 1 1 21 12zM9.6 9.4a2.5 2.5 0 1 1 3.4 2.4c-.6.3-1 .8-1 1.5M12 16.5h.01"
-  };
-  const PASO={fuentes:[1,"Recolectar","Cada día a las 05:41 el recolector lee todas las fuentes oficiales. Las ayudas nuevas o cambiadas quedan pendientes de revisar."],
-    base:[2,"Revisar","Cada hora Claude lee entera la documentación de las ayudas pendientes y redacta sus fichas por tipo de solicitante."],
-    app:[3,"Publicar","Las fichas revisadas se publican en la app, en castellano y euskera."],
-    cuestiones:["?","Decidir","Dudas, errores e ideas de cualquier parte: de Fuentes, de Datos o de la app. Tú confirmas, explicas qué cambiar o lo descartas."],mejora:["↻","Aplicar","Claude lo aplica cada hora y se publica."]};
-  const QUIEN={fuentes:[["robot","Recolector · diario","Un programa automático lee todas las fuentes cada día."]],
-    base:[["persona",diaria?"Claude · cada día":"Claude · cada hora","Claude revisa las ayudas nuevas o cambiadas y redacta sus fichas."]],
-    mejora:[["persona","Claude · cada hora","Cada hora Claude aplica las correcciones decididas y hace una mejora del plan; cada mes repasa el plan."]]};
-  const ICQ={persona:"M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21a8 8 0 0 1 16 0",robot:"M5 8h14v11H5zM12 4v4M9 13h.01M15 13h.01M9 16h6M3 12v3M21 12v3"};
-  const nodo=(k,x,y,cls,go,tt,st,n,ir)=>{
-    const p=PASO[k], q=QUIEN[k];
-    return `<g class="nodo ${cls}" ${go?`data-go="${go}" tabindex="0" role="button" aria-label="${esc(tt)}: abrir"`:""}>
-    ${p?`<title>${p[1]}: ${p[2]}</title>`:""}
-    <rect x="${x}" y="${y}" width="${W}" height="${H}" rx="12"/>
-    <path class="ico" d="${IC[k]}" transform="translate(${x+16},${y+20})"/>
-    <text class="tt" x="${x+16}" y="${y+66}">${tt}</text>
-    ${st.map((s,i)=>`<text class="st" x="${x+16}" y="${y+86+i*17}">${s}</text>`).join("")}
-    ${n!=null?`<text class="num" x="${x+16}" y="${y+H-14}">${n}</text>`:""}
-    ${ir?`<text class="ir" x="${x+W-16}" y="${y+H-18}" text-anchor="end">${ir} →</text>`:""}
-    ${(q||[]).map((qq,i)=>{const qw=28+qq[1].length*6.1, qx=x+46, qy=y+15; return `<g class="quien-b"><title>${qq[2]}</title><rect x="${qx}" y="${qy}" width="${qw}" height="22" rx="11"/><path d="${ICQ[qq[0]]}" transform="translate(${qx+8},${qy+4}) scale(.58)"/><text x="${qx+26}" y="${qy+15}">${qq[1]}</text></g>`;}).join("")}
-    ${p?(()=>{const bw=30+p[1].length*7.2, bx=x+W-10-bw; return `<g class="paso-b"><rect x="${bx}" y="${y-13}" width="${bw}" height="24" rx="12"/><circle cx="${bx+12}" cy="${y-1}" r="9"/><text class="pn" x="${bx+12}" y="${y+3.5}" text-anchor="middle">${p[0]}</text><text class="pl" x="${bx+26}" y="${y+3.5}">${p[1]}</text></g>`;})():""}
-    </g>`;};
-  const fl=(d,cls="")=>`<path class="flecha ${cls}" d="${d}" marker-end="url(#pt${cls?"2":""})"/>`;
-  const r=Y[0]+Math.round(H*0.5), hc=D.ayudas.filter(a=>a.ficha).length;
-  const bus=Y[0]+H+48, cx=X(0)+W/2;
-  const listas=S.docs.filter(d=>d.estado==="lista").length, aplic=S.docs.filter(d=>d.estado==="aplicada").length;
-  const PL=(D.tareas||[]).filter(t=>t.quien!=="Tú"), plP=PL.filter(t=>t.estado==="pendiente").length, plH=PL.filter(t=>t.estado==="hecha").length;
-  const ret=X(2)+W+34, yC=Y[1]+H/2;
-  $("#detalle").innerHTML=`<div class="flujo">
-    <div><h2>Cómo se mantienen al día las ayudas de Eskubat</h2>
-    <p class="intro">Arriba, el trabajo de cada día: se leen las fuentes, Claude revisa las ayudas y se publican en Eskubat. Abajo, el bucle de mejora: cualquier duda, error o idea, salga de donde salga, llega a <b>Para ti</b>, donde decides; Claude lo aplica cada hora, sea una corrección de datos o una mejora de fuentes o de la app, y se publica. Pulsa una caja para abrirla.</p></div>
-    <div class="lienzo"><svg viewBox="-12 -24 1090 470" role="img" aria-label="Flujo de trabajo de Eskubat">
-      <defs><marker id="pt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--muted)"/></marker>
-        <marker id="pt2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--or)"/></marker></defs>
-      <rect class="banda" x="-8" y="${bus-22}" width="1080" height="${Y[1]+H-bus+38}" rx="16"/>
-      <text class="banda-t" x="1062" y="${Y[1]+H+8}" text-anchor="end">BUCLE DE MEJORA</text>
-      ${[0,1].map(i=>fl(`M${X(i)+W+2},${r} L${X(i+1)-3},${r}`)).join("")}
-      ${[0,1,2].map(i=>`<path class="flecha bus" d="M${X(i)+W/2},${Y[0]+H+2} L${X(i)+W/2},${bus}"/>`).join("")}
-      <path class="flecha bus" d="M${X(0)+W/2},${bus} L${X(2)+W/2},${bus}"/>
-      <text class="lbl" x="${(X(1)+X(2))/2+W/2}" y="${bus+17}" text-anchor="middle">dudas, errores e ideas de cualquier parte</text>
-      ${fl(`M${cx},${bus} L${cx},${Y[1]-3}`,"bus")}
-      ${fl(`M${X(0)+W+2},${yC} L${X(1)-3},${yC}`)}
-      <text class="lbl" x="${X(0)+W+100}" y="${yC-8}" text-anchor="middle">decidido</text>
-      ${fl(`M${X(1)+W+2},${yC} L${ret},${yC} L${ret},${r} L${X(2)+W+3},${r}`,"ret")}
-      <text class="lbl ret-t" x="${ret+8}" y="${(yC+r)/2}" transform="rotate(90 ${ret+8} ${(yC+r)/2})" text-anchor="middle">corregido y publicado</text>
-      ${nodo("fuentes",X(0),Y[0],"","f","Fuentes",[],(D.fuentes.consultadas||[]).reduce((s,g)=>s+(g.filas||[1]).length,0)+" fuentes","Ver")}
-      ${nodo("base",X(1),Y[0],"claude","b","Datos",[`${num(hc)} revisadas · ${num(t.fichas||0)} por revisar`,diaria?"Revisión una vez al día":"Próxima pasada "+proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})],num(D.ayudas.length),"Abrir")}
-      ${nodo("app",X(2),Y[0],"","ce","Eskubat",["La app: plan hasta publicar","el 1 de marzo de 2027"],(()=>{const d=Math.ceil((new Date((D.proyecto||{}).objetivo||"2027-03-01")-hoy())/864e5);return d>0?`${d}<tspan class="nu"> días</tspan>`:null;})(),"Proyecto")}
-      ${nodo("cuestiones",X(0),Y[1],"clave","m","Para ti",[`Fuentes ${ca.fuentes||0} · Datos ${ca.datos||0}`,`Eskubat ${ca.eskubat||0}`],`${c.abierta}<tspan class="nu"> abiertas</tspan>`,"Decidir")}
-      ${nodo("mejora",X(1),Y[1],"claude","m","Mejora continua",[`${listas} correcciones en cola`,`${plP} mejoras planificadas`],`${aplic+plH}<tspan class="nu"> hechas</tspan>`,"Ver")}
-    </svg></div>
-    ${paraTi()}</div>`;
-  $("#detalle").querySelectorAll("button[data-pc]").forEach(b=>b.onclick=()=>verCuestion(b.dataset.pc));
-  $("#detalle").querySelectorAll(".nodo[data-go]").forEach(n=>{
-    const ir=()=>{ const g=n.dataset.go; if(g==="ce"){ cambiarVista("e"); return; } if(g==="m"){ S.mArea=""; } if(g==="c"){ S.filtro="abierta"; S.areaF=""; } cambiarVista(g); };
-    n.onclick=ir; n.onkeydown=(ev)=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); ir(); } };
+  const hm=d=>d.toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"});
+  const st=(n,l,c="")=>`<span class="lk ${c}"><b>${n}</b>${l}</span>`;
+  const li=(x,sub)=>`<li><span>${esc(x)}</span>${sub?`<small>${esc(sub)}</small>`:""}</li>`;
+  const card=(go,ag,tit,sub,stats,cuerpo,pie,cls="")=>`<article class="lcard ${cls}" data-go="${go}" tabindex="0" role="button" aria-label="${esc(tit)}: abrir">
+    <header><div><h3>${tit}</h3><p>${sub}</p></div>${ag?avatar(ag):""}</header>
+    <div class="lstats">${stats}</div><div class="lbody">${cuerpo}</div><footer>${pie}<span class="lir">Abrir →</span></footer></article>`;
+  // Fuentes
+  const filas=(F.consultadas||[]).flatMap(g=>g.filas||[]), avisos=(F.consultadas||[]).filter(g=>g.ok===false||g.pendiente).length;
+  const leidos=(F.consultadas||[]).reduce((s,g)=>s+(g.registros||0),0);
+  const tF=(D.tareas||[]).filter(x=>x.quien!=="Tú"&&(x.seccion||"fuentes")==="fuentes"&&x.estado!=="hecha").sort((x,y)=>x.prioridad-y.prioridad);
+  const cF=card("f","fuentes","Fuentes","De dónde salen las ayudas",
+    st(filas.length,"fuentes")+st(num(leidos),"leídos hoy")+(avisos?st(avisos,"con aviso","av"):"")+st((F.potenciales||[]).length,"por incorporar"),
+    `<div class="lt">Próximas mejoras de fuentes</div><ul class="ll">${tF.slice(0,4).map(x=>li(x.titulo,EST_T[x.estado]||x.estado)).join("")||"<li><span class='hint'>Ninguna</span></li>"}</ul>`,
+    `Recolector cada día 05:41 · registros del ${fmtFecha(F.fecha)}`);
+  // Datos
+  const rev=A.filter(a=>a.ficha).length, pct=A.length?Math.round(rev*100/A.length):0;
+  const obs=ritmoObservado(), ritmo=obs&&obs>0.5?obs:30, horas=Math.max(Math.ceil((t.fichas||0)/ritmo),Math.ceil((t.titulos||0)/300),Math.ceil((t.noticias||0)/10));
+  const cierran=A.filter(a=>CAMPOS.cierre.v(a)==="7d").length, nuevas=A.filter(a=>CAMPOS.nueva.v(a)==="si").length;
+  const cD=card("b","datos","Datos","Ayudas de la app y su revisión",
+    st(num(A.length),"ayudas")+st(num(rev),"revisadas","ok")+st(num(t.fichas||0),"por revisar","av")+st(horas?`≈${num(horas)} h`:"0 h","para terminar"),
+    `<div class="pbar"><span style="width:${pct}%"></span></div><div class="hint" style="margin:-2px 0 10px">${pct}% de fichas revisadas · títulos pendientes ${num(t.titulos||0)} · noticias ${num(t.noticias||0)}</div>
+     <ul class="ll">${li(`${num(cierran)} ayudas cierran en 7 días`)}${li(`${num(nuevas)} nuevas en los últimos 7 días`)}${li(`${num(A.filter(a=>a.estado==="abierta").length)} con el plazo abierto`)}</ul>`,
+    diaria?"Revisión una vez al día, 17:52":`Próxima pasada ${hm(proximaPasada())}`);
+  // Mejora continua
+  const ab=S.docs.filter(d=>(d.estado||"abierta")==="abierta"), tu=(D.tareas||[]).filter(x=>x.quien==="Tú"&&x.estado!=="hecha");
+  const cola=S.docs.filter(d=>d.estado==="lista"), plan=(D.tareas||[]).filter(x=>x.quien!=="Tú"&&["pendiente","en_curso"].includes(x.estado)).sort((x,y)=>x.prioridad-y.prioridad);
+  const hechas=S.docs.filter(d=>d.estado==="aplicada").length+(D.tareas||[]).filter(x=>x.quien!=="Tú"&&x.estado==="hecha").length;
+  const paraTiL=[...ab.map(d=>({t:d.titulo||"(sin título)",s:"Decidir",id:d._id})),...tu.map(x=>({t:x.titulo,s:"Fuera de la app"}))];
+  const cM=card("m","mejora","Mejora continua","Correcciones y mejoras, cada hora",
+    st(paraTiL.length,"para ti",paraTiL.length?"av":"")+st(cola.length+plan.length,"planificadas")+st(hechas,"hechas","ok"),
+    `<div class="lt">Para ti</div><ul class="ll">${paraTiL.slice(0,3).map(x=>`<li${x.id?` data-vc="${esc(x.id)}" class="clic"`:""}><span>${esc(x.t)}</span><small>${esc(x.s)}</small></li>`).join("")||"<li><span class='hint'>Nada que decidir</span></li>"}</ul>
+     <div class="lt">Siguiente en el plan</div><ul class="ll">${plan.slice(0,2).map(x=>li(x.titulo)).join("")||"<li><span class='hint'>Plan vacío</span></li>"}</ul>`,
+    `Correcciones a en punto · mejoras a y 30`, paraTiL.length?"atn":"");
+  // Eskubat
+  const obj=new Date((P.objetivo||"2027-03-01")+"T00:00:00"), dias=Math.ceil((obj-hoy())/864e5), T=tareasP(), hp=T.filter(x=>estadoTP(x)==="hecha").length;
+  const fase=(P.fases||[]).find(f=>f.estado==="en_curso")||{}, prox=T.filter(x=>estadoTP(x)!=="hecha");
+  const cE=card("e",null,"Eskubat","La app: plan hasta publicar",
+    st(dias>0?num(dias):"0","días para el "+fmtFecha(P.objetivo))+st(esc(fase.nombre||"—"),"fase actual")+st(`${hp}/${T.length}`,"tareas hechas"),
+    `<div class="pbar"><span style="width:${T.length?Math.round(hp*100/T.length):0}%"></span></div>
+     <div class="lt">Próximas tareas</div><ul class="ll">${prox.slice(0,4).map(x=>li(x.t,x.quien)).join("")}</ul>`,
+    `Publicación en App Store y Google Play · ${esc(P.equipo||"")}`);
+  $("#detalle").innerHTML=`<div class="flujo lflujo"><div><h2>Eskubat</h2><p class="intro">Fuentes → Datos → Mejora continua → la app. Pulsa un bloque para abrirlo.</p></div>
+    <div class="lgrid">${cF}${cD}${cM}${cE}</div></div>`;
+  $("#detalle").querySelectorAll(".lcard").forEach(n=>{
+    const ir=(ev)=>{ if(ev.target.closest(".avatar")||ev.target.closest("[data-vc]")) return; cambiarVista(n.dataset.go); };
+    n.addEventListener("click",ir); n.onkeydown=(ev)=>{ if(ev.key==="Enter"){ ev.preventDefault(); cambiarVista(n.dataset.go); } };
   });
 }
 
