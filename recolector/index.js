@@ -442,6 +442,16 @@ async function main() {
   let docsExtra = {};
   try { docsExtra = JSON.parse(fs.readFileSync(path.join('cache', 'docs_extra.json'), 'utf8')); } catch {}
   try { docs = await documentacion(ayudas, { log, extra: (a) => [...(docsExtra[a.id] || []), ...(a._urls || []), ...(a._docs || []).map(docUrl)] }); } catch (e) { log(`Documentación: ${e.message}`); }
+  // Nominativas y convenios que solo lo dicen en el documento subido a la BDNS (no en el título)
+  {
+    const fuera = [];
+    ayudas = ayudas.filter((a) => {
+      const m = String(a.id).startsWith('bdns-') ? bdns.documentoNoSolicitable(docs[a.id]) : '';
+      if (m) fuera.push(`${a.id} («${m}»)`);
+      return !m;
+    });
+    log(`Descartadas por el documento de la convocatoria (convenio o nominativa): ${fuera.length}${fuera.length ? ' · ' + fuera.slice(0, 40).join(', ') : ''}`);
+  }
   const fuentes = {};
   const DIR_F = path.join('cache', 'fuentes');
   fs.mkdirSync(DIR_F, { recursive: true });
@@ -458,6 +468,19 @@ async function main() {
   let cacheRes = {};
   try { cacheRes = JSON.parse(fs.readFileSync(path.join('cache', 'resumenes.json'), 'utf8')); } catch {}
   log(`Resúmenes aplicados: ${aplicar(ayudas, fuentes, cacheRes)}`);
+  // Fuera las que la ficha (escrita a partir de todos los documentos) dice que no se pueden pedir:
+  // nominativas, convenios y ayudas reservadas a una entidad o persona concreta. Solo BDNS y boletines;
+  // las prestaciones permanentes y las de euskadi.eus no pasan por aquí.
+  {
+    const NO_SOLICITABLE = /no es una convocatoria (?:de subvenciones |de ayudas |p[uú]blica )?abierta|(?:^|[.:]\s+)subvenci[oó]n nominativa\b|nadie m[aá]s puede (?:pedirla|solicitarla)/i;
+    const fuera = [];
+    ayudas = ayudas.filter((a) => {
+      const no = a.resumenIA && (String(a.id).startsWith('bdns-') || a.origen === 'boletines') && NO_SOLICITABLE.test(a.resumen || '');
+      if (no) fuera.push(a.id);
+      return !no;
+    });
+    log(`Descartadas porque su ficha dice que no se pueden pedir (nominativas o reservadas): ${fuera.length}${fuera.length ? ' · ' + fuera.slice(0, 40).join(', ') : ''}`);
+  }
   // Lista de pendientes para la tarea de resumen (abiertas primero, por fecha de cierre)
   const pendientes = ayudas.filter((a) => !a.posibleNoticia && fuentes[a.id] && (!cacheRes[a.id] || cacheRes[a.id].h !== huella(fuentes[a.id])))
     .sort((x, y) => (x.fin || '9999').localeCompare(y.fin || '9999'))

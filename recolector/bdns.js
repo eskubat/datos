@@ -44,6 +44,21 @@ export function clasifica(n1, n2, n3) {
 // Subvenciones que no se pueden solicitar: nominativas, directas, convenios con una entidad concreta...
 export const RUIDO = /nominativ|convocatoria instrumental|programa ind[ií]gena|se resuelven?\b|resoluci[oó]n de (la )?concesi|desiert|subvenciones directas|funcionamiento y actividades de la |izendun|a favor d|convenio|hitzarmen|concesi[oó]n directa|subvenci[oó]n (foral )?directa|subv\.? ?directa|foral directa|se concede|de concesi[oó]n de|aprobar (un|el) gasto|aportaci[oó]n (econ[oó]mica )?(a|al|para) |transferencia|adenda|addenda|excepcional|en especie|reintegro|justificaci[oó]n/i;
 
+// Nominativas que solo lo dicen en el documento de la convocatoria (a veces solo en euskera): el documento
+// subido a la BDNS empieza por «CONVENIO» / «HITZARMENA» / «ACUERDO DE COLABORACIÓN», «REUNIDOS» / «BILDURIK»,
+// o habla de una subvención «nominativa» / «izenduna». Solo se mira la cabecera (primeras líneas) de los
+// documentos de la propia BDNS, no las bases ni el boletín, que pueden citar convenios de pasada.
+const CABECERA_NO_SOLICITABLE = /\b(convenio|hitzarmen\w*|acuerdo de colaboraci[oó]n|lankidetza[- ]akordio\w*|reunidos|comparecen|bildurik|elkarturik|nominativ\w*|nomintiv\w*|izendun\w*)\b/i;
+export function documentoNoSolicitable(textoDocs) {
+  for (const b of String(textoDocs || '').split(/\n(?=### )/)) {
+    if (!/^### Documento de la convocatoria: https:\/\/www\.(infosubvenciones\.es|pap\.hacienda\.gob\.es)\//.test(b)) continue;
+    const lineas = b.split('\n').slice(1).map((l) => l.trim()).filter((l) => l && !/^\d+$|^--$/.test(l));
+    const m = lineas.slice(0, 12).join(' ').slice(0, 600).match(CABECERA_NO_SOLICITABLE);
+    if (m) return m[0];
+  }
+  return '';
+}
+
 // "Decreto Foral 73/2026, de 23 de julio, ..., por el que se aprueban las bases reguladoras y la convocatoria de subvenciones para X" -> "Subvenciones para X"
 export function limpiaTitulo(t) {
   let s = String(t || '').replace(/\s+/g, ' ').trim();

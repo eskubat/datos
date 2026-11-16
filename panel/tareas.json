@@ -342,8 +342,9 @@
   "seccion": "fuentes",
   "quien": "Claude",
   "prioridad": 6,
-  "estado": "pendiente",
-  "fecha": "2026-11-16"
+  "estado": "hecha",
+  "fecha": "2026-11-16",
+  "nota": "Dos filtros nuevos en el recolector: (1) lee la cabecera del documento subido a la BDNS y descarta si empieza por convenio/hitzarmena/acuerdo de colaboración/reunidos/bildurik o dice nominativa/izenduna (66 de las publicadas, sin falsos positivos en la caché actual); (2) después de aplicar las fichas, descarta las de BDNS y boletines cuya ficha dice «No es una convocatoria abierta», «Subvención nominativa» o «nadie más puede pedirla» (92; antes ese filtro miraba el resumen de la fuente, no la ficha). En total se esperan unas 122 menos de 617 en el recolector de las 05:41; de los casos de la tarea solo siguen bdns-921923 (Dazz Jazz) y bdns-940217, que no tienen documento propio y cuya ficha no dice que sean nominativas."
  },
  {
   "id": "araba-sede-contenido-2",
