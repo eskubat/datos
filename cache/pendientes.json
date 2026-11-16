@@ -81,33 +81,6 @@
   "caracteres": 132391
  },
  {
-  "id": "bdns-921923",
-  "h": "84c2b7bc9e3101d6",
-  "titulo": "Dazz jazz",
-  "organismoSugerido": "ayto-vitoria-gasteiz",
-  "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
-  "archivo": "cache/fuentes/bdns-921923-2782ed47.txt",
-  "caracteres": 55063
- },
- {
-  "id": "ara-convocatoria-publica-de-ayudas-para-la-organizacion-de-curso",
-  "h": "2df701a8c143295d",
-  "titulo": "Ayudas para organizar cursos, jornadas, congresos y seminarios sobre servicios sociales",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-convocatoria-publica-de-ayudas-para-la-organizacion-de-c-ae5af4af.txt",
-  "caracteres": 19247
- },
- {
-  "id": "bdns-934941",
-  "h": "63126e8c7530af45",
-  "titulo": "Convocatoria para la concesión de la línea de subvención 4.7",
-  "organismoSugerido": "ayto-errenteria",
-  "organismoFuente": "Ayuntamiento de errenteria",
-  "archivo": "cache/fuentes/bdns-934941-8ac11fa6.txt",
-  "caracteres": 29506
- },
- {
   "id": "ara-ayudas-a-asociaciones-y-fundaciones-para-contribuir-a-la-reh",
   "h": "5906249c73776b71",
   "titulo": "Ayudas para rehabilitar y equipar locales de asociaciones y fundaciones",
@@ -207,15 +180,6 @@
   "caracteres": 18750
  },
  {
-  "id": "eus-ayuda-subvencion-2026-eve-programa-de-ayudas-a-actuaciones-en-eficiencia-energetica-en-la-industria",
-  "h": "26de76973367a073",
-  "titulo": "EVE - Programa de ayudas a actuaciones en eficiencia energética en la industria",
-  "organismoSugerido": "eve",
-  "organismoFuente": "EVE - Ente Vasco de la Energía",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-eve-programa-de-ayudas-a-actuacion-8ad30ccb.txt",
-  "caracteres": 254175
- },
- {
   "id": "ara-ayudas-ganaderas",
   "h": "a30ec61b2bf012a8",
   "titulo": "Ayudas destinadas a la gestión de programas colectivos de cría de razas ganaderas",
@@ -250,15 +214,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-apoyo-a-jovenes-informadores-en-centros-educativos-alave-470d0bbd.txt",
   "caracteres": 18742
- },
- {
-  "id": "eus-ayuda-subvencion-2026-morrokotudak-c-weblan00-content-es",
-  "h": "62e78b9990472217",
-  "titulo": "Ayudas para financiar la formación y contratación de mujeres y hombres desempleados en ámbitos masculinizados y feminizados (morrokotudak)",
-  "organismoSugerido": "lanbide",
-  "organismoFuente": "Lanbide - Servicio Público Vasco de Empleo",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-morrokotudak-c-weblan00-content-es-0f660e03.txt",
-  "caracteres": 300000
  },
  {
   "id": "ara-ayudas-y-subvenciones-a-la-elaboracion-del-planeamiento-urba",
