@@ -1283,7 +1283,7 @@ function renderProyecto(){
       <div class="vb"><span class="vt">Tono</span>${esc(M.tono||"")}</div></section>`; },
     diseno:()=>{ const Dz=P.diseno||{}; const ab=S.docs.filter(d=>areaDe(d)==="eskubat"&&["abierta","lista"].includes(d.estado||"abierta"));
       return `${(P.disenos||[]).map(x=>`<section class="card"><div class="dzh">${x.img?`<img src="${esc(x.img)}" alt="" width="56" height="56" style="border-radius:12px">`:""}<h3 style="flex:1">${esc(x.t)}</h3>${(x.enlaces||[["Abrir el lienzo",x.url]]).map(([n,u])=>`<a class="btn" href="${esc(u)}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join("")}</div>
-        <ul class="plan acu">${(x.piezas.length?x.piezas:[[x.id,x.t]]).map(([id,n])=>`<li class="plan-i ${estA(id)}"><div><span>${esc(n)}</span></div><span class="cuando">${ctrlA(id)}</span></li>`).join("")}</ul></section>`).join("")}
+        ${x.piezas.length?"":`<div style="display:flex;justify-content:flex-end">${ctrlA(x.id)}</div>`}<ul class="plan acu">${x.piezas.map(([id,n])=>`<li class="plan-i ${estA(id)}"><div><span>${esc(n)}</span></div><span class="cuando">${ctrlA(id)}</span></li>`).join("")}</ul></section>`).join("")}
       <p class="hint" style="margin:-4px 0 0">Para tener el diseño en PDF: abre el lienzo y usa Exportar → PDF. Si me pasas el PDF, lo adjunto aquí.</p>
       <section class="card"><h3>Pantallas previstas</h3><ul class="lista-s">${(Dz.pantallas||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul></section>
       <section class="card"><h3>Decisiones tomadas</h3><ul class="lista-s">${(Dz.decisiones||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul></section>
