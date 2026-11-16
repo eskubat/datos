@@ -89,13 +89,52 @@ export async function gipuzkoa(log) {
 
 // ---------- Araba/Álava ----------
 const MES = { enero: 1, febrero: 2, marzo: 3, abril: 4, mayo: 5, junio: 6, julio: 7, agosto: 8, septiembre: 9, setiembre: 9, octubre: 10, noviembre: 11, diciembre: 12 };
-function fechaTexto(t) {
-  const m = norm(t).match(/(\d{1,2}) de ([a-z]+)(?: de (\d{4}))?/);
-  if (!m || !MES[m[2]]) return null;
+// Fecha de fin de un texto de plazo de la sede de Álava. Reglas:
+// - solo cuenta el plazo de solicitud: se corta cada línea donde empieza la justificación o la resolución;
+// - las líneas marcadas CERRADO/CERRADA no valen si hay otra línea con fechas (p. ej. el plazo excepcional ABIERTO);
+//   si todas las fechas están en líneas cerradas, se devuelve la última (ya pasada) para que la ayuda salga cerrada;
+// - se toma la ÚLTIMA fecha (dd/mm/aaaa o «d de mes [de] [aaaa]»), con su año o el primero que aparezca después;
+// - «desde el 19 de marzo» sin «hasta/al» es la fecha de inicio: no hay fin;
+// - solo si el texto no trae ningún año, una fecha ya pasada se lleva al año siguiente (plazos anuales).
+function fechasDe(s) {
+  const out = [];
+  const re = /(\d{1,2})\/(\d{1,2})\/(\d{4})|(\d{1,2}) de ([a-z]+)(?:,? (?:de |del )?(\d{4}))?|\b((?:19|20)\d\d)\b/g;
+  let m;
+  while ((m = re.exec(s))) {
+    if (m[1]) out.push({ d: +m[1], mes: +m[2], y: +m[3], i: m.index });
+    else if (m[4] && MES[m[5]]) out.push({ d: +m[4], mes: MES[m[5]], y: m[6] ? +m[6] : null, i: m.index });
+    else if (m[7]) out.push({ anyo: +m[7], i: m.index });
+  }
+  return out;
+}
+export function fechaTexto(t) {
+  const lineas = String(t || '').split(/\n+/).map((l) => norm(l).split(/justificaci|resolucion expresa|plazo maximo de resolucion/)[0]).filter(Boolean);
+  const abiertas = [], cerradas = [];
+  for (let l of lineas) {
+    if (/\bcerrad[oa]\b/.test(l)) {
+      const ab = l.search(/\babiert[oa]\b/);
+      if (ab > l.search(/\bcerrad[oa]\b/)) { cerradas.push(l.slice(0, ab)); l = l.slice(ab); } else { cerradas.push(l); continue; }
+    }
+    abiertas.push(l);
+  }
+  const ultima = (l) => {
+    const fs = fechasDe(l);
+    const dias = fs.filter((f) => f.d);
+    if (!dias.length) return null;
+    const f = dias[dias.length - 1];
+    if (dias.length === 1 && /\b(desde|a partir)\b[^0-9]*$/.test(l.slice(0, f.i)) && !/\b(hasta|al)\b/.test(l)) return null;
+    const sig = fs.find((x) => x.i > f.i && (x.y || x.anyo));
+    const y = f.y || (sig && (sig.y || sig.anyo)) || null;
+    return { ...f, y, conAnyo: fs.some((x) => x.y || x.anyo) };
+  };
+  let f = null;
+  for (const l of abiertas) f = ultima(l) || f;
+  const cerrada = !f;
+  if (!f) for (const l of cerradas) f = ultima(l) || f;
+  if (!f || f.mes < 1 || f.mes > 12 || f.d < 1 || f.d > 31) return null;
   const hoy = new Date();
-  let y = m[3] ? +m[3] : hoy.getFullYear();
-  const d = new Date(Date.UTC(y, MES[m[2]] - 1, +m[1]));
-  if (!m[3] && d < new Date(hoy.getTime() - 60 * 864e5)) d.setUTCFullYear(y + 1);
+  const d = new Date(Date.UTC(f.y || hoy.getUTCFullYear(), f.mes - 1, f.d));
+  if (!f.y && !f.conAnyo && !cerrada && d < new Date(hoy.getTime() - 60 * 864e5)) d.setUTCFullYear(d.getUTCFullYear() + 1);
   return d.toISOString().slice(0, 10);
 }
 
