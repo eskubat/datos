@@ -1,5 +1,190 @@
-### Extracto de la fuente
-Ayudas ALAVA InterKOOP 2025 - Entidades sin ánimo de lucro
-La presente convocatoria se publicará en el BOTHA y producirá efectos a partir del día siguiente de su publicación.
-Desarrollo económico e inversión en Álava
-Promover la internacionalización de las Pymes alavesas a través de proyectos individuales, así como de proyectos en cooperación entre empresas alavesas para su salida conjunta al exterior, mediante la concesión de subvenciones en régimen de concurrencia competitiva.
+### Ficha oficial: https://egoitza.araba.eus/es/inicio/tramites/fitxa/interkoop-entidades-sin-animo-de-lucro-2025
+Trámites - Sede electrónica - Diputación Foral de Álava - egoitza
+GUÍA DE TRÁMITES
+Configuración
+Aceptar todo
+Rechazar todas
+
+### Normativa: https://egoitza.araba.eus/es/conoce-la-sede/normativa
+Normativa - Sede electrónica Diputación Foral de Álava - egoitza
+Normativa de la Sede electrónica
+Decreto Foral 50/2022, del Consejo de Gobierno Foral de 27 de diciembre. Aprobar la modificación del Decreto Foral 26/2011, de Consejo de 5 de abril.
+Decreto Foral 55/2021, del Consejo de Gobierno Foral de 28 de diciembre, que aprueba la modificación del Decreto Foral del Consejo 26/2011, 5 abril, que creó la Sede electrónica de esta Diputación Foral.
+Decreto Foral 4/2020, del Consejo de Gobierno Foral de 21 enero, que aprueba la modificación del Decreto Foral del Consejo 26/2011, 5 abril, que creó la Sede electrónica de esta Diputación Foral en lo que se refiere a la regulación de las notificaciones por medios electrónicos.
+Decreto Foral 5/2020, del Consejo de Gobierno Foral de 21 de enero, que aprueba la regulación de las notificaciones y comunicaciones por medios electrónicos del Departamento de Hacienda, Finanzas y Presupuestos.
+Decreto foral 26/2011, del consejo de Diputados de 5 de abril, que crea la sede electrónica de esta Diputación Foral.
+Decreto Foral 74/2011, del Consejo de Diputados de 29 de noviembre, que modifica el Decreto Foral 26/2011, de 5 de abril, de creación de la sede electrónica de esta Diputación Foral.
+Decreto foral 37/2011, del consejo de Diputados de 3 de mayo, que aprueba el Reglamento de Registros de documentos de la Administración Foral de Álava.
+Acuerdo 66/2012, del Consejo de Diputados de 28 de febrero, que aprueba el horario de apertura de las oficinas y de los registros presenciales propios de esta Diputación Foral.
+Decreto Foral 2087/1988, del Consejo de Diputados de 7 diciembre, por el que se crea la Oficina de Comunicación con la Sociedad.
+Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
+Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.
+Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica.
+Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica.
+Configuración
+Aceptar todo
+Rechazar todas
+
+### Preguntas frecuentes: https://egoitza.araba.eus/es/preguntas-frecuentes
+Preguntas frecuentes - egoitza
+Preguntas frecuentes Mi Carpeta
+¿Qué es Mi Carpeta?
+Mi Carpeta es un espacio digital diseñado por la DFA en el cual puedes, mediante actuaciones electrónicas seguras que garantizan la integridad y confidencialidad de tus datos personales, acceder a tus datos aportados al perfil de comunicaciones y avisos, al seguimiento de los trámites y del estado de tramitación de expedientes que te afecten y de los servicios que hayas solicitado, así como a las notificaciones y comunicaciones relacionadas con procedimientos en que seas persona interesada o constes como representante ante esta Administración foral. También puedes acceder a las solicitudes y modelos de inicio de procedimientos presentados.
+¿Qué dispositivos puedo usar para acceder a Mi Carpeta?
+Se puede acceder a Mi Carpeta desde cualquier dispositivo con navegador web, ya sea un ordenador, una tablet o un teléfono.
+¿De dónde se obtienen los datos y cada cuánto se actualizan?
+La información en Mi Carpeta proviene de diferentes fuentes y departamentos. Cada entidad es responsable de los datos que maneja y tiene sus propias políticas de actualización definidas por sus administradores. Mi Carpeta actúa como un intermediario de esa información.
+¿Puedo acceder a Mi Carpeta en nombre de otra persona o como representante?
+Si deseas acceder a la información de otra persona, empresa o entidad que representas a través de Mi Carpeta, es necesario usar un certificado electrónico que te identifique adecuadamente. En los apartados habilitados para ello en Mi Carpeta, te mostrará los trámites realizados y los documentos electrónicos relacionados con procedimientos en que estés registrado y que definen trámites y actuaciones ante la DFA que pueden efectuarse como representante ante el órgano correspondiente. Estos apartados incluyen: Mis expedientes, Mis presentaciones y Mi buzón.
+¿Qué trámites puedo consultar en Mi Carpeta?
+Podrás consultar los siguientes servicios:
+Mi perfil
+Al acceder a Mi Carpeta, si no estás registrado en este nuevo apartado SIEMPRE te va a sugerir que te registres, pero es posible NO HACERLO y entrar sin registrarte a la página de inicio de Mi Carpeta. Desde esta sección puedes rellenar los datos para registrarse una vez que estás dentro, o también permite modificarlos.
+Mis expedientes
+Desde este apartado puedes acceder al listado de tus expedientes, así como de las personas que te han dado autorización para poder ver los expedientes de procedimientos concretos.
+Desde el listado puedes acceder al detalle del expediente.
+Dentro del detalle de expediente puedes ver los datos básicos del mismo, identificación, documentos presentados (si se comenzó de manera electrónica), así como el historial de tramitación.
+También puedes acceder al servicio para ADJUNTAR DOCUMENTACION a dicho expediente. Esta opción no la tendrás operativa en caso de tratarse de un expediente en estado CERRADO.
+Mis autorizaciones
+Se configura un área común para los apartados de Mis autorizados y Mis autorizaciones de la antigua sede, aunque el modelo de autorización sigue siendo el de ese sistema hasta su evolución. Desde este apartado puedes gestionar las autorizaciones para que puedas realizar trámites en nombre de otra persona o entidad.
+Mis presentaciones
+Desde este apartado puedes acceder al listado de registros que has presentado tanto de manera presencial como electrónica
+Mi buzón
+A través de este servicio puedes consultar las notificaciones y comunicaciones electrónicas puestas a disposición de las personas usuarias por parte de la DFA.
+Mis borradores
+Próximamente en versiones posteriores.
+Mis pagos
+¿Por qué no puedo ver información sobre una solicitud o expediente?
+Es posible que el expediente se esté gestionando con una herramienta de tramitación aún no integrada en Mi Carpeta, o que no estés registrado como persona interesada o representante en ese trámite. En cualquiera de estos casos, te sugerimos contactar con el órgano responsable del trámite, cuya información está disponible en la Sede electrónica, para obtener más detalles.
+Veo mis datos, pero contienen algún error: ¿cómo lo resuelvo?
+Mi Carpeta solo es responsable de tus datos de contacto, los cuales proporcionas al registrarte en la herramienta. Puedes corregir tus datos accediendo a tu perfil. Además, Mi Carpeta muestra el estado de tramitación de tus expedientes.
+Cualquier error que detectes en los datos debes comunicarlo al órgano responsable para su actualización y evitar que se utilice como referencia en actos de la Administración. La información de contacto del órgano responsable está disponible en los detalles del trámite en la Guía de Trámites de la Sede electrónica.
+Si no dispones de un medio para comunicarte con dicho órgano, puedes contactar con el equipo de soporte técnico y nosotros haremos llegar tu comentario. Sin embargo, la corrección o actualización de los datos dependerá de la persona responsable del procedimiento en que sean tratados dichos datos.
+Configuración
+Aceptar todo
+Rechazar todas
+
+### Requisitos técnicos: https://egoitza.araba.eus/es/requisitos-tecnicos
+Requisitos técnicos de la Sede Electrónica de la DFA - egoitza
+Requisitos técnicos
+Para utilizar la Sede electrónica de la Diputación Foral de Álava su equipo deberá disponer de las siguientes características:
+Software:
+Uno de los siguientes navegadores: Internet Explorer (9, 10, 11), Firefox 10 o superior. No obstante, es posible usar otros navegadores, como Chrome o Microsoft Edge, aunque no se podrán efectuar ciertas operaciones, como la firma electrónica o la cumplimentación de ciertos tipos de formularios.
+Adobe Reader 8 o superior.
+Java Runtime Environment (JRE) 1.6 o superior.
+En el caso de que use un lector de tarjetas, sus drivers correspondientes.
+El software correspondiente al certificado electrónico que vaya a utilizar. Normalmente puede ser descargarlo de las páginas web de la organización que lo haya emitido.
+Los certificados de IZENPE necesarios para que el navegador considere de confianza la sede electrónica de la DFA. Podrá instalarlos siguiendo las instrucciones que se aportan aquí.
+Hardware:
+Lector de certificados electrónicos (Excepto si utiliza certificados en software o en token usb).
+Si fuese necesario, la organización que expidió su certificado le asesorará sobre qué lectores de tarjetas son compatibles con él e, incluso, puede facilitarle su adquisición.
+Configuración
+Aceptar todo
+Rechazar todas
+
+### {{cur_normativa.normativa.descripcion}}: https://egoitza.araba.eus/es/inicio/tramites/fitxa/%7B%7Bcur_normativa.normativa.url%7D%7D
+{{#if resultado.nivel1Tema}}
+{{resultado.nivel1Tema}}
+{{/if}}
+{{#if resultado.claseTramite}}
+{{resultado.claseTramite}}
+{{/if}}
+{{resultado.titulo}}
+{{{resultado.finalidad}}}
+{{#ifEquals resultado.plazo.enPlazo "S"}}
+{{resultado.plazo.estado}}
+{{/ifEquals}}
+{{#ifEquals resultado.plazo.enPlazo "N"}}
+{{/ifEquals}}
+
+### Normativa: https://egoitza.araba.eus/es/web/egoitza/conoce-la-sede/normativa
+Normativa - Sede electrónica Diputación Foral de Álava - egoitza
+Normativa de la Sede electrónica
+Decreto Foral 50/2022, del Consejo de Gobierno Foral de 27 de diciembre. Aprobar la modificación del Decreto Foral 26/2011, de Consejo de 5 de abril.
+Decreto Foral 55/2021, del Consejo de Gobierno Foral de 28 de diciembre, que aprueba la modificación del Decreto Foral del Consejo 26/2011, 5 abril, que creó la Sede electrónica de esta Diputación Foral.
+Decreto Foral 4/2020, del Consejo de Gobierno Foral de 21 enero, que aprueba la modificación del Decreto Foral del Consejo 26/2011, 5 abril, que creó la Sede electrónica de esta Diputación Foral en lo que se refiere a la regulación de las notificaciones por medios electrónicos.
+Decreto Foral 5/2020, del Consejo de Gobierno Foral de 21 de enero, que aprueba la regulación de las notificaciones y comunicaciones por medios electrónicos del Departamento de Hacienda, Finanzas y Presupuestos.
+Decreto foral 26/2011, del consejo de Diputados de 5 de abril, que crea la sede electrónica de esta Diputación Foral.
+Decreto Foral 74/2011, del Consejo de Diputados de 29 de noviembre, que modifica el Decreto Foral 26/2011, de 5 de abril, de creación de la sede electrónica de esta Diputación Foral.
+Decreto foral 37/2011, del consejo de Diputados de 3 de mayo, que aprueba el Reglamento de Registros de documentos de la Administración Foral de Álava.
+Acuerdo 66/2012, del Consejo de Diputados de 28 de febrero, que aprueba el horario de apertura de las oficinas y de los registros presenciales propios de esta Diputación Foral.
+Decreto Foral 2087/1988, del Consejo de Diputados de 7 diciembre, por el que se crea la Oficina de Comunicación con la Sociedad.
+Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
+Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.
+Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica.
+Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica.
+Configuración
+Aceptar todo
+Rechazar todas
+
+### Guía de trámites: https://egoitza.araba.eus/es/web/egoitza/inicio/tramites
+{{#if resultado.nivel1Tema}}
+{{resultado.nivel1Tema}}
+{{/if}}
+{{#if resultado.claseTramite}}
+{{resultado.claseTramite}}
+{{/if}}
+{{resultado.titulo}}
+{{{resultado.finalidad}}}
+{{#ifEquals resultado.plazo.enPlazo "S"}}
+{{resultado.plazo.estado}}
+{{/ifEquals}}
+{{#ifEquals resultado.plazo.enPlazo "N"}}
+{{/ifEquals}}
+
+### Preguntas frecuentes: https://egoitza.araba.eus/es/web/egoitza/preguntas-frecuentes
+Preguntas frecuentes - egoitza
+Preguntas frecuentes Mi Carpeta
+¿Qué es Mi Carpeta?
+Mi Carpeta es un espacio digital diseñado por la DFA en el cual puedes, mediante actuaciones electrónicas seguras que garantizan la integridad y confidencialidad de tus datos personales, acceder a tus datos aportados al perfil de comunicaciones y avisos, al seguimiento de los trámites y del estado de tramitación de expedientes que te afecten y de los servicios que hayas solicitado, así como a las notificaciones y comunicaciones relacionadas con procedimientos en que seas persona interesada o constes como representante ante esta Administración foral. También puedes acceder a las solicitudes y modelos de inicio de procedimientos presentados.
+¿Qué dispositivos puedo usar para acceder a Mi Carpeta?
+Se puede acceder a Mi Carpeta desde cualquier dispositivo con navegador web, ya sea un ordenador, una tablet o un teléfono.
+¿De dónde se obtienen los datos y cada cuánto se actualizan?
+La información en Mi Carpeta proviene de diferentes fuentes y departamentos. Cada entidad es responsable de los datos que maneja y tiene sus propias políticas de actualización definidas por sus administradores. Mi Carpeta actúa como un intermediario de esa información.
+¿Puedo acceder a Mi Carpeta en nombre de otra persona o como representante?
+Si deseas acceder a la información de otra persona, empresa o entidad que representas a través de Mi Carpeta, es necesario usar un certificado electrónico que te identifique adecuadamente. En los apartados habilitados para ello en Mi Carpeta, te mostrará los trámites realizados y los documentos electrónicos relacionados con procedimientos en que estés registrado y que definen trámites y actuaciones ante la DFA que pueden efectuarse como representante ante el órgano correspondiente. Estos apartados incluyen: Mis expedientes, Mis presentaciones y Mi buzón.
+¿Qué trámites puedo consultar en Mi Carpeta?
+Podrás consultar los siguientes servicios:
+Mi perfil
+Al acceder a Mi Carpeta, si no estás registrado en este nuevo apartado SIEMPRE te va a sugerir que te registres, pero es posible NO HACERLO y entrar sin registrarte a la página de inicio de Mi Carpeta. Desde esta sección puedes rellenar los datos para registrarse una vez que estás dentro, o también permite modificarlos.
+Mis expedientes
+Desde este apartado puedes acceder al listado de tus expedientes, así como de las personas que te han dado autorización para poder ver los expedientes de procedimientos concretos.
+Desde el listado puedes acceder al detalle del expediente.
+Dentro del detalle de expediente puedes ver los datos básicos del mismo, identificación, documentos presentados (si se comenzó de manera electrónica), así como el historial de tramitación.
+También puedes acceder al servicio para ADJUNTAR DOCUMENTACION a dicho expediente. Esta opción no la tendrás operativa en caso de tratarse de un expediente en estado CERRADO.
+Mis autorizaciones
+Se configura un área común para los apartados de Mis autorizados y Mis autorizaciones de la antigua sede, aunque el modelo de autorización sigue siendo el de ese sistema hasta su evolución. Desde este apartado puedes gestionar las autorizaciones para que puedas realizar trámites en nombre de otra persona o entidad.
+Mis presentaciones
+Desde este apartado puedes acceder al listado de registros que has presentado tanto de manera presencial como electrónica
+Mi buzón
+A través de este servicio puedes consultar las notificaciones y comunicaciones electrónicas puestas a disposición de las personas usuarias por parte de la DFA.
+Mis borradores
+Próximamente en versiones posteriores.
+Mis pagos
+¿Por qué no puedo ver información sobre una solicitud o expediente?
+Es posible que el expediente se esté gestionando con una herramienta de tramitación aún no integrada en Mi Carpeta, o que no estés registrado como persona interesada o representante en ese trámite. En cualquiera de estos casos, te sugerimos contactar con el órgano responsable del trámite, cuya información está disponible en la Sede electrónica, para obtener más detalles.
+Veo mis datos, pero contienen algún error: ¿cómo lo resuelvo?
+Mi Carpeta solo es responsable de tus datos de contacto, los cuales proporcionas al registrarte en la herramienta. Puedes corregir tus datos accediendo a tu perfil. Además, Mi Carpeta muestra el estado de tramitación de tus expedientes.
+Cualquier error que detectes en los datos debes comunicarlo al órgano responsable para su actualización y evitar que se utilice como referencia en actos de la Administración. La información de contacto del órgano responsable está disponible en los detalles del trámite en la Guía de Trámites de la Sede electrónica.
+Si no dispones de un medio para comunicarte con dicho órgano, puedes contactar con el equipo de soporte técnico y nosotros haremos llegar tu comentario. Sin embargo, la corrección o actualización de los datos dependerá de la persona responsable del procedimiento en que sean tratados dichos datos.
+Configuración
+Aceptar todo
+Rechazar todas
+
+### Requisitos técnicos: https://egoitza.araba.eus/es/web/egoitza/requisitos-tecnicos
+Requisitos técnicos de la Sede Electrónica de la DFA - egoitza
+Requisitos técnicos
+Para utilizar la Sede electrónica de la Diputación Foral de Álava su equipo deberá disponer de las siguientes características:
+Software:
+Uno de los siguientes navegadores: Internet Explorer (9, 10, 11), Firefox 10 o superior. No obstante, es posible usar otros navegadores, como Chrome o Microsoft Edge, aunque no se podrán efectuar ciertas operaciones, como la firma electrónica o la cumplimentación de ciertos tipos de formularios.
+Adobe Reader 8 o superior.
+Java Runtime Environment (JRE) 1.6 o superior.
+En el caso de que use un lector de tarjetas, sus drivers correspondientes.
+El software correspondiente al certificado electrónico que vaya a utilizar. Normalmente puede ser descargarlo de las páginas web de la organización que lo haya emitido.
+Los certificados de IZENPE necesarios para que el navegador considere de confianza la sede electrónica de la DFA. Podrá instalarlos siguiendo las instrucciones que se aportan aquí.
+Hardware:
+Lector de certificados electrónicos (Excepto si utiliza certificados en software o en token usb).
+Si fuese necesario, la organización que expidió su certificado le asesorará sobre qué lectores de tarjetas son compatibles con él e, incluso, puede facilitarle su adquisición.
+Configuración
+Aceptar todo
+Rechazar todas
