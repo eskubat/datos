@@ -9,5 +9,22 @@
   "inicio": null,
   "fin": null,
   "motivo": "El plazo publicado (hasta el 01/12/2026) es de información pública de las bases, no de solicitud. Decisión del responsable, 16/11/2026."
+ },
+ "bdns-933308": {
+  "ocultar": true,
+  "motivo": "Ayuda estatal cuyos proyectos solo pueden ejecutarse en diez comunidades autónomas, ninguna Euskadi: no se puede pedir para un proyecto en Euskadi. Decisión del responsable, 16/11/2026."
+ },
+ "botha-2026-126-03072-c-pdf": {
+  "ocultar": true,
+  "motivo": "No es una convocatoria: es la resolución de concesión de la sección PUD; la convocatoria (BOTHA 34, 20/3/2026) admitía solicitudes hasta el 15/11/2026. Decisión del responsable, 16/11/2026."
+ },
+ "botha-2026-127-03114-c-pdf": {
+  "ocultar": true,
+  "unidaA": "botha-2026-126-03072-c-pdf",
+  "motivo": "Duplicada de botha-2026-126-03072-c-pdf (resolución de concesión, no convocatoria; plazo de la convocatoria vencido el 15/11/2026). Decisión del responsable, 16/11/2026."
+ },
+ "eus-ayuda-subvencion-2026-2605nebauzoetarako3lerroe": {
+  "ocultar": true,
+  "motivo": "Convocatoria de Horizonte Europa (HORIZON-NEB-2026-01) que exige un consorcio de al menos tres entidades de tres países: no se publica según el criterio del 15/11/2026 sobre convocatorias europeas. Decisión del responsable, 16/11/2026."
  }
 }

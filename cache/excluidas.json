@@ -1,22 +1,12 @@
 {
- "bdns-937669": {
-  "parecidaA": "eus-ayuda-subvencion-2026-ayudas-al-amparo-de-la-estrategia-de-desarrollo-local-participativo-2026",
-  "motivo": "Misma convocatoria (EDLP 2026 del grupo pesquero, Gobierno Vasco, misma página de euskadi.eus) llegada por BDNS y por euskadi.eus; solo cambia la fecha de cierre (16 frente a 17 de noviembre).",
-  "fecha": "2026-11-16"
- },
  "eus-ayuda-subvencion-2026-ayudas-al-amparo-de-la-estrategia-de-desarrollo-local-participativo-2026": {
   "parecidaA": "bdns-937669",
-  "motivo": "Misma convocatoria (EDLP 2026 del grupo pesquero, Gobierno Vasco, misma página de euskadi.eus) llegada por BDNS y por euskadi.eus; solo cambia la fecha de cierre (16 frente a 17 de noviembre).",
+  "motivo": "Descartada: repetida de bdns-937669",
   "fecha": "2026-11-16"
  },
  "eus-ayuda-subvencion-2025-ayuda-medicamentos-simplificada": {
   "parecidaA": "eus-servicios-0336326",
-  "motivo": "Mismo procedimiento de Salud (solicitud simplificada de las ayudas para medicamentos recetados) en dos convocatorias: la de 2025 (Orden de 8/4/2025, cerrada el 10/12/2025, marcada «Histórico») y la de 2026 (Orden de 29/4/2026); la de 2025 figura abierta con las fechas de 2026.",
-  "fecha": "2026-11-16"
- },
- "eus-servicios-0336326": {
-  "parecidaA": "eus-ayuda-subvencion-2025-ayuda-medicamentos-simplificada",
-  "motivo": "Mismo procedimiento de Salud (solicitud simplificada de las ayudas para medicamentos recetados) en dos convocatorias: la de 2025 (Orden de 8/4/2025, cerrada el 10/12/2025, marcada «Histórico») y la de 2026 (Orden de 29/4/2026); la de 2025 figura abierta con las fechas de 2026.",
+  "motivo": "Descartada",
   "fecha": "2026-11-16"
  }
 }
