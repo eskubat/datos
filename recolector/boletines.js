@@ -52,7 +52,9 @@ function ambitoBopv(entidad) {
   return { nivel: 'euskadi', nombre: 'Toda Euskadi' };
 }
 const limpiaTit = (t) => frase(String(t).replace(/\s+/g, ' ').replace(/\.{3,}.*$/, '').replace(/\s*\d{4}-\d{5}\s*$/, '').trim());
-const util = (t) => ES_AYUDA.test(t) && !NO_AYUDA.test(t) && !RUIDO.test(t);
+// Provisión de puestos de trabajo (concursos de méritos, oposiciones, libre designación…): no son ayudas aunque digan «concurso».
+const EMPLEO_PUBLICO = /\bproveer\b|(cubrir|cobertura de|provisi[oó]n de)[^.]{0,80}\bpuestos?\b|concurso (espec[ií]fico|general|de m[eé]ritos|de traslados)|concurso[- ]oposici[oó]n|\boposici[oó]n(es)? (libre|para)|libre designaci[oó]n|comisi[oó]n de servicios|personal (funcionario|laboral|interino)|funcionari[oa]s? (de carrera|interin)|\binterinidad/i;
+const util = (t) => ES_AYUDA.test(t) && !NO_AYUDA.test(t) && !EMPLEO_PUBLICO.test(t) && !RUIDO.test(t);
 
 // ---------- BOG (Gipuzkoa): sumario HTML diario ----------
 async function bog(dias, vistos, log) {
@@ -173,7 +175,7 @@ const BOPV_SECCION = /^(DISPOSICIONES GENERALES|AUTORIDADES Y PERSONAL|NOMBRAMIE
 const BOPV_RUIDO_LINEA = /^(www\.euskadi|N\.?\s?º\s*\d+|Sumario \d{4}\/\d+|\(?\d+\/\d+\)?$|(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo),? \d)/i;
 const BOPV_NO_GV = /tribunal|juzgado|parlamento|ararteko|junta electoral|\bs\.?\s?coop|\bs\.?\s?[al]\.?$|sociedad (an[oó]nima|limitada)/i;
 const MESES = { enero: 1, febrero: 2, marzo: 3, abril: 4, mayo: 5, junio: 6, julio: 7, agosto: 8, septiembre: 9, octubre: 10, noviembre: 11, diciembre: 12 };
-export const utilBopv = (t) => (ES_AYUDA.test(t) || /\bse convocan?\b[^.]{0,200}(subvenci|ayudas?\b|becas?\b|premios?\b)/i.test(t)) && !NO_AYUDA.test(t) && !RUIDO.test(t);
+export const utilBopv = (t) => (ES_AYUDA.test(t) || /\bse convocan?\b[^.]{0,200}(subvenci|ayudas?\b|becas?\b|premios?\b)/i.test(t)) && !NO_AYUDA.test(t) && !EMPLEO_PUBLICO.test(t) && !RUIDO.test(t);
 const sumarioBopv = (año, mes, num) => bajar(`${BOPV}/${año}/${String(mes).padStart(2, '0')}/s${String(año).slice(2)}_${String(num).padStart(4, '0')}.pdf`, { pdf: true, navegador: true });
 
 export function parseSumarioBopv(txt, año, mes) {

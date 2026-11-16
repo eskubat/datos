@@ -283,9 +283,9 @@
   "seccion": "base",
   "quien": "Claude",
   "prioridad": 11,
-  "estado": "pendiente",
+  "estado": "hecha",
   "fecha": "2026-11-16",
-  "nota": "Añadida al plan de mejoras"
+  "nota": "El filtro de boletines dejaba pasar los anuncios de provisión de puestos porque dicen «concurso». Añadido en recolector/boletines.js un filtro EMPLEO_PUBLICO (proveer/cubrir puestos, concurso específico o de méritos, concurso-oposición, libre designación, comisión de servicios, personal funcionario/interino) para BOB, BOG, BOTHA y BOPV; probado contra los 1545 títulos publicados sin falsos positivos. No se esperan ayudas nuevas: solo deja de entrar este tipo de anuncios."
  },
  {
   "id": "huerfanos-violencia-machista",
