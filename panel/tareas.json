@@ -365,8 +365,9 @@
   "prioridad": 3,
   "fuente": "Tarea de resúmenes (16/11)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-16"
+  "estado": "hecha",
+  "fecha": "2026-11-16",
+  "nota": "El fin de 20 años (2036, 2042, 2043) venía de Open Data Euskadi, no de la ficha. El lector de euskadi.eus ahora lee «FECHA LÍMITE DE PRESENTACIÓN DE PROPUESTAS» de la ficha y la usa como fin; si no la hay y el fin es justo 20 años después del inicio, la deja sin fecha. Probado con las fichas guardadas: H2020-JTI-FCH-2016-1, CEF-TC-2016-1 y EACEA/22/2016 pasan a cerradas y salen del catálogo (3 ayudas menos); Clean Aviation 2022 y BoostUp! 2023 quedan sin fecha. Sin red a euskadi.eus en la sesión: la primera prueba real será el recolector de las 05:41."
  },
  {
   "id": "ids-repetidos-araba",

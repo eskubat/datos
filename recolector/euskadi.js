@@ -62,6 +62,9 @@ export function parseFicha(html) {
     valida: (l) => l.length > 12 && l.length < 220 && util(l),
     validaItem: (l) => l.length > 3 && l.length < 400 && util(l),
   }))];
+  // Convocatorias europeas del catálogo de Acción Exterior (web01-s1leheki): la ficha trae
+  // «FECHA LÍMITE DE PRESENTACIÓN DE PROPUESTAS: dd/mm/aaaa», que es el plazo real
+  const limite = t.match(/FECHA L[IÍ]MITE DE PRESENTACI[OÓ]N(?: DE (?:PROPUESTAS|SOLICITUDES))?\s*:?\s*(\d{1,2}\/\d{1,2}\/\d{4})/i);
   const euros = (dotacion.match(/[\d.]+(?:,\d+)?/) || [])[0];
   // Texto completo de la ficha (para el resumen): desde "Descripción/Objeto" hasta la tramitación
   const fin = cuerpo.search(/\n(Solicitud y aportación de documentación|Información de contacto|Código)\n/);
@@ -74,7 +77,15 @@ export function parseFicha(html) {
     cuantia: prestacion.split('\n').filter((l) => /€|euro|%|por ciento/i.test(l)).slice(0, 4).join('\n'),
     dirigido: dirigido.split('\n').slice(0, 8).join('\n'),
     requisitos,
+    fechaLimite: limite ? iso(limite[1]) : null,
   };
+}
+
+// Open Data pone a algunas fichas (convocatorias europeas de Acción Exterior) un fin de exactamente
+// 20 años después del inicio: no es un plazo real, así que se trata como sin fecha
+export function finFicticio(inicio, fin) {
+  if (!inicio || !fin || !/^\d{4}-\d{2}-\d{2}$/.test(inicio) || !/^\d{4}-\d{2}-\d{2}$/.test(fin)) return false;
+  return fin.slice(4) === inicio.slice(4) && Number(fin.slice(0, 4)) - Number(inicio.slice(0, 4)) >= 20;
 }
 
 const OD = 'https://opendata.euskadi.eus/contenidos/ds_ayudas_subvenciones';
@@ -123,14 +134,18 @@ export async function recoger(log) {
   return lista.map((it, k) => {
     const f = fichas[k] && !fichas[k].error ? fichas[k] : {};
     const todo = [it.titulo, f.objeto, f.dirigido].join(' ');
+    // Plazo: la fecha límite de la ficha manda; si no, se descarta el fin ficticio de 20 años
+    let fin = it.fin || null;
+    if (f.fechaLimite) fin = f.fechaLimite;
+    else if (finFicticio(it.inicio, fin)) fin = null;
     return {
       id: it.id,
       titulo: frase(it.titulo),
       organismo: f.organismo || it.organismo || '',
       ambito: { nivel: 'euskadi', nombre: 'Toda Euskadi' },
       inicio: it.inicio || null,
-      fin: it.fin || null,
-      permanente: !!it.permanente,
+      fin,
+      permanente: !!it.permanente && !f.fechaLimite,
       estadoFuente: it.estadoTexto || '',
       presupuesto: f.presupuesto || null,
       cuantia: f.cuantia || '',
