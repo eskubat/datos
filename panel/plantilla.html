@@ -415,9 +415,10 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 .lista-s{margin:0;padding-left:18px;line-height:1.6}
 .lflujo{max-width:1180px}
 .lgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.lcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;display:flex;flex-direction:column;gap:12px;cursor:pointer;min-height:330px;transition:border-color .15s,box-shadow .15s}
+.lcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;display:flex;flex-direction:column;gap:12px;cursor:pointer;transition:border-color .15s,box-shadow .15s}
 .lcard:hover{border-color:var(--accent);box-shadow:0 4px 18px rgba(20,33,28,.08)}
-.lcard.atn{border-color:var(--or)}
+.lcard.atn{border-color:var(--or)} .lcard{min-height:0}
+.ptbox{background:#fbefe4;border:1px solid #efcfb3;border-radius:10px;padding:8px 12px 2px} .ptbox .lt{color:var(--or-d);margin-top:2px} .ptbox .ll li{border-top-color:#efcfb3} .ptbox .ll li:first-of-type{border-top:0}
 .lcard header{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
 .lcard h3{font:800 24px var(--display);margin:0;text-transform:none;letter-spacing:0;color:var(--ink)} .lcard header p{margin:2px 0 0;color:var(--muted);font-size:14px}
 .lcard .avatar{padding:4px 12px 4px 4px} .lcard .avatar .av-c{width:32px;height:32px} .lcard .avatar .av-c svg{width:19px;height:19px} .lcard .avatar .av-t b{font-size:12.5px} .lcard .avatar .av-t small{font-size:11px}
@@ -687,6 +688,7 @@ function renderInicio(){
   const diaria=D.tarea&&D.tarea.modo==="diaria";
   const hm=d=>d.toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"});
   const st=(n,l,c="")=>`<span class="lk ${c}"><b>${n}</b>${l}</span>`;
+  const paraTi=L=>L.length?`<div class="ptbox"><div class="lt">Para ti · ${L.length}</div><ul class="ll">${L.slice(0,4).map(x=>`<li${x.id?` data-vc="${esc(x.id)}" class="clic"`:""}><span>${esc(x.t)}</span><small>${esc(x.s||"")}</small></li>`).join("")}${L.length>4?`<li><span class="hint">y ${L.length-4} más</span></li>`:""}</ul></div>`:`<div class="hint">Nada pendiente para ti</div>`;
   const li=(x,sub)=>`<li><span>${esc(x)}</span>${sub?`<small>${esc(sub)}</small>`:""}</li>`;
   const card=(go,ag,tit,sub,stats,cuerpo,pie,cls="")=>`<article class="lcard ${cls}" data-go="${go}" tabindex="0" role="button" aria-label="${esc(tit)}: abrir">
     <header><div><h3>${tit}</h3><p>${sub}</p></div>${ag?avatar(ag):""}</header>
@@ -697,7 +699,7 @@ function renderInicio(){
   const tF=(D.tareas||[]).filter(x=>x.quien!=="Tú"&&(x.seccion||"fuentes")==="fuentes"&&x.estado!=="hecha").sort((x,y)=>x.prioridad-y.prioridad);
   const cF=card("f","fuentes","Fuentes","De dónde salen las ayudas",
     st(filas.length,"fuentes")+st(num(leidos),"leídos hoy")+(avisos?st(avisos,"con aviso","av"):"")+st((F.potenciales||[]).length,"por incorporar"),
-    `<div class="lt">Próximas mejoras de fuentes</div><ul class="ll">${tF.slice(0,4).map(x=>li(x.titulo,EST_T[x.estado]||x.estado)).join("")||"<li><span class='hint'>Ninguna</span></li>"}</ul>`,
+    "",
     `Recolector cada día 05:41 · registros del ${fmtFecha(F.fecha)}`);
   // Datos
   const rev=A.filter(a=>a.ficha).length, pct=A.length?Math.round(rev*100/A.length):0;
@@ -706,7 +708,7 @@ function renderInicio(){
   const cD=card("b","datos","Datos","Ayudas de la app y su revisión",
     st(num(A.length),"ayudas")+st(num(rev),"revisadas","ok")+st(num(t.fichas||0),"por revisar","av")+st(horas?`≈${num(horas)} h`:"0 h","para terminar"),
     `<div class="pbar"><span style="width:${pct}%"></span></div><div class="hint" style="margin:-2px 0 10px">${pct}% de fichas revisadas · títulos pendientes ${num(t.titulos||0)} · noticias ${num(t.noticias||0)}</div>
-     <ul class="ll">${li(`${num(cierran)} ayudas cierran en 7 días`)}${li(`${num(nuevas)} nuevas en los últimos 7 días`)}${li(`${num(A.filter(a=>a.estado==="abierta").length)} con el plazo abierto`)}</ul>`,
+`,
     diaria?"Revisión una vez al día, 17:52":`Próxima pasada ${hm(proximaPasada())}`);
   // Mejora continua
   const ab=S.docs.filter(d=>(d.estado||"abierta")==="abierta"), tu=(D.tareas||[]).filter(x=>x.quien==="Tú"&&x.estado!=="hecha");
@@ -715,8 +717,7 @@ function renderInicio(){
   const paraTiL=[...ab.map(d=>({t:d.titulo||"(sin título)",s:"Decidir",id:d._id})),...tu.map(x=>({t:x.titulo,s:"Fuera de la app"}))];
   const cM=card("m","mejora","Mejora continua","Correcciones y mejoras, cada hora",
     st(paraTiL.length,"para ti",paraTiL.length?"av":"")+st(cola.length+plan.length,"planificadas")+st(hechas,"hechas","ok"),
-    `<div class="lt">Para ti</div><ul class="ll">${paraTiL.slice(0,3).map(x=>`<li${x.id?` data-vc="${esc(x.id)}" class="clic"`:""}><span>${esc(x.t)}</span><small>${esc(x.s)}</small></li>`).join("")||"<li><span class='hint'>Nada que decidir</span></li>"}</ul>
-     <div class="lt">Siguiente en el plan</div><ul class="ll">${plan.slice(0,2).map(x=>li(x.titulo)).join("")||"<li><span class='hint'>Plan vacío</span></li>"}</ul>`,
+    paraTi(paraTiL.map(x=>({t:x.t,s:x.s,id:x.id}))),
     `Correcciones a en punto · mejoras a y 30`, paraTiL.length?"atn":"");
   // Eskubat
   const obj=new Date((P.objetivo||"2027-03-01")+"T00:00:00"), dias=Math.ceil((obj-hoy())/864e5), T=tareasP(), hp=T.filter(x=>estadoTP(x)==="hecha").length;
@@ -724,8 +725,8 @@ function renderInicio(){
   const cE=card("e",null,"Eskubat","La app: plan hasta publicar",
     st(dias>0?num(dias):"0","días para el "+fmtFecha(P.objetivo))+st(esc(fase.nombre||"—"),"fase actual")+st(`${hp}/${T.length}`,"tareas hechas"),
     `<div class="pbar"><span style="width:${T.length?Math.round(hp*100/T.length):0}%"></span></div>
-     <div class="lt">Próximas tareas</div><ul class="ll">${prox.slice(0,4).map(x=>li(x.t,x.quien)).join("")}</ul>`,
-    `Publicación en App Store y Google Play · ${esc(P.equipo||"")}`);
+     ${paraTi(prox.filter(x=>x.quien==="Tú").map(x=>({t:x.t,s:"Proyecto"})))}`,
+    `Publicación en App Store y Google Play · ${esc(P.equipo||"")}`, prox.some(x=>x.quien==="Tú")?"atn":"");
   $("#detalle").innerHTML=`<div class="flujo lflujo"><div><h2>Eskubat</h2><p class="intro">Fuentes → Datos → Mejora continua → la app. Pulsa un bloque para abrirlo.</p></div>
     <div class="lgrid">${cF}${cD}${cM}${cE}</div></div>`;
   $("#detalle").querySelectorAll(".lcard").forEach(n=>{
