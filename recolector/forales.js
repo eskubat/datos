@@ -96,21 +96,91 @@ function fechaTexto(t) {
   return d.toISOString().slice(0, 10);
 }
 
-export async function araba(log) {
-  const html = await pedir('https://web.araba.eus/es/ayudas-en-vigor');
-  const out = [];
-  const re = /<a[^>]+href="(https:\/\/egoitza\.araba\.eus[^"]*fitxa[^"]*)"[^>]*>([\s\S]*?)<\/a>/g;
-  let m;
-  while ((m = re.exec(html))) {
-    const url = entidades(m[1]);
-    const titulo = texto(m[2]);
-    const tras = texto(html.slice(m.index + m[0].length, m.index + m[0].length + 800)).split('\n').find((l) => /hasta|abierto/i.test(l)) || '';
-    if (!titulo || out.some((x) => x.url === url)) continue;
-    out.push({ url, titulo, fin: fechaTexto(tras), plazo: tras });
+// La sede electrónica (egoitza.araba.eus) publica la guía completa de trámites de tipo
+// «Ayudas, becas y subvenciones» (izapideMota=90), filtrable «En plazo» (epea=1). La
+// primera página viene dentro del HTML (var data = {...}); las demás se piden por POST
+// al portlet «lector json», con las cookies que pone el cortafuegos en la primera visita.
+const SEDE_A = 'https://egoitza.araba.eus/es/inicio/tramites';
+const FILTRO_A = 'izapideMota=90&epea=1';
+const PORTLET_A = 'p_p_id=ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage';
+const UA_A = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36';
+
+// Extrae el objeto JSON que sigue a «var data =» respetando cadenas y llaves anidadas
+export function datosSedeAraba(html) {
+  const i = html.indexOf('var data = {');
+  if (i < 0) return null;
+  let k = html.indexOf('{', i), prof = 0, enCad = false, esc = false;
+  for (let j = k; j < html.length; j++) {
+    const c = html[j];
+    if (enCad) { if (esc) esc = false; else if (c === '\\') esc = true; else if (c === '"') enCad = false; continue; }
+    if (c === '"') enCad = true;
+    else if (c === '{') prof++;
+    else if (c === '}' && --prof === 0) { try { return JSON.parse(html.slice(k, j + 1)); } catch { return null; } }
   }
-  log(`Araba/Álava: ${out.length} ayudas destacadas en vigor`);
+  return null;
+}
+
+async function sedeAraba(log) {
+  const jar = {};
+  const guardar = (r) => { for (const c of (r.headers.getSetCookie ? r.headers.getSetCookie() : [])) { const kv = c.split(';')[0]; const e = kv.indexOf('='); if (e > 0) jar[kv.slice(0, e).trim()] = kv.slice(e + 1); } };
+  const cab = (accept) => ({ 'User-Agent': UA_A, Accept: accept, 'Accept-Language': 'es-ES,es;q=0.9', ...(Object.keys(jar).length ? { Cookie: Object.entries(jar).map(([k, v]) => k + '=' + v).join('; ') } : {}) });
+  let datos = null;
+  for (let intento = 0; intento < 3 && !datos; intento++) {
+    const r = await fetch(`${SEDE_A}?${FILTRO_A}`, { headers: cab('text/html,application/xhtml+xml'), redirect: 'follow' });
+    guardar(r);
+    datos = datosSedeAraba(await r.text());
+    if (!datos) await new Promise((ok) => setTimeout(ok, 1500));
+  }
+  if (!datos) { log('Araba/Álava (sede): la página llegó sin la lista (cortafuegos); se usan solo las destacadas'); return []; }
+  const res = [...(datos.resultados || [])];
+  const ultima = Math.min(+(datos.informacionAdicional || {}).paginaUltima || 1, 60);
+  for (let p = 2; p <= ultima; p++) {
+    try {
+      const r = await fetch(`${SEDE_A}?${PORTLET_A}&${FILTRO_A}`, { method: 'POST', headers: { ...cab('application/json, text/javascript, */*'), 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'X-Requested-With': 'XMLHttpRequest' }, body: 'selectedPage=' + p });
+      guardar(r);
+      const d = JSON.parse(await r.text());
+      res.push(...(d.resultados || []));
+    } catch (e) { log(`Araba/Álava (sede): falló la página ${p} (${e.message})`); }
+    await new Promise((ok) => setTimeout(ok, 400));
+  }
+  const total = (datos.informacionAdicional || {}).elementosTotalesEncontrados;
+  log(`Araba/Álava (sede): ${res.length} trámites de ayudas en plazo${total ? ` de ${total}` : ''}`);
+  // Como en la BDNS, fuera las nominativas y las de concesión directa: no se pueden pedir
+  const pedibles = res.filter((x) => (!x.plazo || x.plazo.enPlazo !== 'N') && !/nominativ|concesi[oó]n directa/i.test(x.titulo || ''));
+  log(`Araba/Álava (sede): ${res.length - pedibles.length} descartadas por nominativas o de concesión directa`);
+  return pedibles.map((x) => {
+    const plazo = texto(entidades((x.plazo && (x.plazo.descripcionPlazoAmpliada || x.plazo.descripcionPlazo)) || ''));
+    return { url: SEDE_A + '/fitxa' + x.friendlyUrl, titulo: texto(x.titulo || ''), fin: fechaTexto(plazo), plazo, tema: x.nivel1Tema || '', finalidad: texto(entidades(x.finalidad || '')), cod: x.codProcedimiento };
+  });
+}
+
+export async function araba(log) {
+  const out = [];
+  // 1) Destacadas de web.araba.eus
+  try {
+    const html = await pedir('https://web.araba.eus/es/ayudas-en-vigor');
+    const re = /<a[^>]+href="(https:\/\/egoitza\.araba\.eus[^"]*fitxa[^"]*)"[^>]*>([\s\S]*?)<\/a>/g;
+    let m;
+    while ((m = re.exec(html))) {
+      const url = entidades(m[1]);
+      const titulo = texto(m[2]);
+      const tras = texto(html.slice(m.index + m[0].length, m.index + m[0].length + 800)).split('\n').find((l) => /hasta|abierto/i.test(l)) || '';
+      if (!titulo || out.some((x) => x.url === url)) continue;
+      out.push({ url, titulo, fin: fechaTexto(tras), plazo: tras });
+    }
+    log(`Araba/Álava: ${out.length} ayudas destacadas en vigor`);
+  } catch (e) { log(`Araba/Álava: no se pudo leer la página de destacadas (${e.message})`); }
+  // 2) Guía completa de la sede
+  let sede = [];
+  try { sede = await sedeAraba(log); } catch (e) { log(`Araba/Álava (sede): ${e.message}`); }
+  const clave = (u) => norm(decodeURIComponent(u.split('/fitxa/')[1] || u)).replace(/[^a-z0-9]+/g, '-');
+  for (const f of sede) {
+    const prev = out.find((x) => clave(x.url) === clave(f.url));
+    if (prev) Object.assign(prev, { tema: f.tema, finalidad: f.finalidad, plazo: prev.plazo || f.plazo, fin: prev.fin || f.fin });
+    else out.push(f);
+  }
   return out.map((f) => ({
-    id: 'ara-' + norm(f.url.split('/fitxa/')[1] || f.titulo).replace(/[^a-z0-9]+/g, '-').slice(0, 60),
+    id: 'ara-' + norm(decodeURIComponent(f.url.split('/fitxa/')[1] || f.titulo)).replace(/[^a-z0-9]+/g, '-').slice(0, 60),
     titulo: frase(f.titulo),
     organismo: 'Diputación Foral de Álava',
     ambito: { nivel: 'territorio', nombre: 'Araba/Álava', terr: 'Araba/Álava' },
@@ -119,11 +189,11 @@ export async function araba(log) {
     estadoFuente: f.plazo,
     presupuesto: null,
     cuantia: '',
-    resumen: '',
+    resumen: f.finalidad ? f.finalidad.slice(0, 600) : '',
     dirigido: '',
-    para: paraDeTexto(f.titulo),
-    _texto: f.titulo + '\n' + f.plazo,
-    temas: temasDe(f.titulo),
+    para: paraDeTexto(f.titulo + ' ' + (f.finalidad || '')),
+    _texto: [f.titulo, f.plazo, f.tema, f.finalidad].filter(Boolean).join('\n'),
+    temas: temasDe(f.titulo + ' ' + (f.tema || '') + ' ' + (f.finalidad || '')),
     url: f.url,
     fuentes: [{ nombre: 'Sede electrónica de Álava', url: f.url }],
   }));

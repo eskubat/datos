@@ -18,10 +18,10 @@
   "fuente": "Diputación Foral de Álava",
   "quien": "Claude",
   "prioridad": 3,
-  "estado": "bloqueada",
+  "estado": "hecha",
   "seccion": "fuentes",
   "fecha": "2026-11-16",
-  "nota": "La guía de trámites de egoitza.araba.eus (Ayudas, becas y subvenciones: /es/inicio/tramites?izapideMota=90) carga el listado con JavaScript: con WebFetch solo llega la plantilla de la página, sin trámites ni la dirección de los datos, y la red de esta sesión no llega a araba.eus. No he cambiado el código; hace falta la dirección de la petición que trae el listado (ver la tarea «Copiar la petición del listado de la sede de Álava»). Hoy entran 4 ayudas destacadas de la Diputación más las convocatorias del BOTHA."
+  "nota": "Lector de la guía completa de la sede escrito con la página que guardó el responsable: 221 trámites de «Ayudas, becas y subvenciones», 23 páginas; la primera viene en el HTML y las demás por POST al portlet «lector json», con las cookies del cortafuegos. Se quedan las que están en plazo y se descartan nominativas y de concesión directa. Primera prueba real: recolector de las 05:41; comprobación a las 07:30."
  },
  {
   "id": "prestaciones",

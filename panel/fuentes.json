@@ -38,18 +38,24 @@
   },
   {
    "clave": "araba",
-   "que": "Solo las ayudas destacadas que la Diputación pone en esa página.",
-   "como": "Lectura de la web.",
-   "pendiente": "Cobertura muy baja: está en el plan de Claude.",
+   "que": "Ayudas de la Diputación con plazo: las destacadas y, desde el 16/11, la guía completa de la sede (unos 220 trámites de ayudas).",
+   "como": "Web de destacadas + guía de trámites de egoitza.araba.eus (página y peticiones del buscador, con las cookies del cortafuegos).",
    "quien": "Claude (código)",
    "grupo": "Diputación Foral de Álava",
    "filas": [
     {
-     "nombre": "Web «Ayudas en vigor»",
+     "nombre": "Web «Ayudas en vigor» (destacadas)",
      "fuente": [
       "Sede electrónica de Álava"
      ]
+    },
+    {
+     "nombre": "Sede electrónica: guía de trámites de ayudas",
+     "fuente": []
     }
+   ],
+   "fuenteGrupo": [
+    "Sede electrónica de Álava"
    ]
   },
   {
