@@ -249,8 +249,9 @@
   "seccion": "revision",
   "quien": "Claude",
   "prioridad": 5,
-  "estado": "pendiente",
-  "fecha": "2026-11-16"
+  "estado": "hecha",
+  "fecha": "2026-11-16",
+  "nota": "He revisado los requisitos de las 145 ayudas forales publicadas (17 Gipuzkoa, 114 Álava, 14 Bizkaia): para particulares se exige estar empadronado o residir en el territorio (deportistas de Bizkaia, euskera y peajes de Álava), así que una persona de Bizkaia que trabaja en Gipuzkoa no puede pedir las ayudas personales de Gipuzkoa y el filtro actual es correcto para ellas; las deducciones fiscales van por la residencia o el domicilio fiscal (Concierto Económico). Para empresas, autónomos y asociaciones lo habitual es domicilio social o fiscal en el territorio (Txekinberri, audiovisual de Bizkaia, agrario de Álava), pero hay excepciones: algunas de empleo de Bizkaia admiten «al menos un centro productivo o de trabajo en el territorio» y las ligadas a un bien o explotación miran dónde está (explotaciones inscritas en el territorio, obras, instalaciones). No he cambiado código (el filtro está en la app); dejo la decisión en «Para ti» y una tarea para guardar en cada ficha qué vínculo territorial exige; 0 ayudas nuevas."
  },
  {
   "id": "ocultar-hasta-ficha",
@@ -307,5 +308,16 @@
   "prioridad": 18,
   "estado": "pendiente",
   "seccion": "fuentes"
+ },
+ {
+  "id": "vinculo-territorial",
+  "titulo": "Guardar qué vínculo con el territorio exige cada ayuda foral",
+  "detalle": "Al categorizar las ayudas de las diputaciones, apuntar en la ficha qué pide la ayuda para poder solicitarla desde fuera: empadronamiento o residencia, domicilio fiscal, domicilio social, centro de trabajo o productivo en el territorio, o que el bien o la actividad esté allí. Así la app podrá enseñar ayudas forales de otro territorio a empresas, autónomos y asociaciones con centro de trabajo o actividad allí, si el responsable lo aprueba (cuestión manual-empadronamiento-diputaciones).",
+  "fuente": "Tarea empadronamiento-diputaciones",
+  "seccion": "base",
+  "quien": "Claude",
+  "prioridad": 19,
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
  }
 ]
