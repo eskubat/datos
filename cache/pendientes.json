@@ -1,273 +1,12 @@
 [
  {
-  "id": "eus-ayuda-subvencion-2026-pce",
-  "h": "9c05f8bca04bdba8",
-  "titulo": "Programa Complementario de Escolarización",
-  "organismoSugerido": "gv-educacion",
-  "organismoFuente": "Educación",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-pce-83bd9f23.txt",
-  "caracteres": 300000
- },
- {
-  "id": "eus-ayuda-subvencion-2026-hezkuntza-inklusiboa-pree",
-  "h": "f07346910cee8cee",
-  "titulo": "Determinación de las unidades a concertar en la Educación Secundaria Obligatoria",
-  "organismoSugerido": "gv-educacion",
-  "organismoFuente": "Educación",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-hezkuntza-inklusiboa-pree-261849ff.txt",
-  "caracteres": 290943
- },
- {
-  "id": "eus-ayuda-subvencion-2026-2605nebauzoetarako3lerroe",
-  "h": "f5b1113e870db53e",
-  "titulo": "NEB, Nueva Bauhaus Europea: convocatoria para barrios estéticos, inclusivos, sostenibles y con vivienda asequible",
-  "organismoSugerido": "gv-economia",
-  "organismoFuente": "Empleo, Asuntos Sociales e Inclusión",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-2605nebauzoetarako3lerroe-6e757e76.txt",
-  "caracteres": 42647
- },
- {
-  "id": "botha-2026-126-03072-c-pdf",
-  "h": "b78355e917a3bfa3",
-  "titulo": "Resolución de la sección “Protección de personas defensoras de los derechos humanos (PUD)” de la convocatoria de subvenciones para proyectos",
-  "organismoSugerido": "ayto-vitoria-gasteiz",
-  "organismoFuente": "Ayuntamiento de Vitoria-Gasteiz",
-  "archivo": "cache/fuentes/botha-2026-126-03072-c-pdf-ae3516b3.txt",
-  "caracteres": 109556
- },
- {
-  "id": "eus-ayuda-subvencion-2026-bek-2026-webema01-contentemakunde-es",
-  "h": "b11a3f9b06b10ade",
-  "titulo": "Becas de trabajos de investigación en materia de igualdad de mujeres y hombres",
-  "organismoSugerido": "emakunde",
-  "organismoFuente": "Emakunde - Instituto Vasco de la Mujer",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-bek-2026-webema01-contentemakunde--876846f9.txt",
-  "caracteres": 175080
- },
- {
-  "id": "eus-ayuda-subvencion-2026-faros",
-  "h": "364efd06c56ab8a9",
-  "titulo": "Faros de innovación",
-  "organismoSugerido": "gv-ciencia",
-  "organismoFuente": "Ciencia, Universidades e Innovación",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-faros-c620574c.txt",
-  "caracteres": 299999
- },
- {
-  "id": "bdns-939101",
-  "h": "cca903c24c5ccb3d",
-  "titulo": "Premio Alimentos Mejores Aceites de Oliva Virgen Extra, campaña",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Dirección general de alimentación",
-  "archivo": "cache/fuentes/bdns-939101-ffdc5dc1.txt",
-  "caracteres": 94866
- },
- {
-  "id": "bdns-941501",
-  "h": "df4573469dbe0af9",
-  "titulo": "Ayudas destinadas al mantenimiento de la red estatal de centros de excelencia de formación profesional",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Secretaría general de formación profesional",
-  "archivo": "cache/fuentes/bdns-941501-656ff716.txt",
-  "caracteres": 157224
- },
- {
-  "id": "bdns-941470",
-  "h": "e0ddd12662e34c0b",
-  "titulo": "Ayudas destinadas a la incorporación de nuevos centros a la red estatal de centros de excelencia de la formación profesional",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Secretaría general de formación profesional",
-  "archivo": "cache/fuentes/bdns-941470-0dfa7d9e.txt",
-  "caracteres": 164819
- },
- {
-  "id": "bdns-938474",
-  "h": "fc18118c94850b93",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación milano fashion & jewels Milán 20 febrerode al 22 febrero",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
-  "archivo": "cache/fuentes/bdns-938474-52ed0793.txt",
-  "caracteres": 5809
- },
- {
-  "id": "bdns-938418",
-  "h": "bdc06fffe487616b",
-  "titulo": "Bases para la concesión de subvenciones a quienes obtengan el título de \"Monitor/a o Director/a de Actividades de Tiempo Libre Infantil",
-  "organismoSugerido": "ayto-bergara",
-  "organismoFuente": "Ayuntamiento de bergara",
-  "archivo": "cache/fuentes/bdns-938418-d3eab82c.txt",
-  "caracteres": 53869
- },
- {
-  "id": "bdns-931749",
-  "h": "82cae68de4362d76",
-  "titulo": "Concesión de ayudas para la participación en Feria_Asociación EXPO RIVA schuh & garda BAGS I Riva Del Garda del 16 al 19 enero",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
-  "archivo": "cache/fuentes/bdns-931749-64f3d32e.txt",
-  "caracteres": 7389
- },
- {
-  "id": "bdns-928845",
-  "h": "f0aa25fd48adb577",
-  "titulo": "Bases VI campaña descuentos \"Irun. market\"",
-  "organismoSugerido": "ayto-irun",
-  "organismoFuente": "Ayuntamiento de irun",
-  "archivo": "cache/fuentes/bdns-928845-8086b064.txt",
-  "caracteres": 34588
- },
- {
-  "id": "bdns-920799",
-  "h": "0402099316dace19",
-  "titulo": "Ayuda directa para el ingreso en un centro residencial/vivienda comunitaria",
-  "organismoSugerido": "ayto-getxo",
-  "organismoFuente": "Ayuntamiento de getxo",
-  "archivo": "cache/fuentes/bdns-920799-442406c1.txt",
-  "caracteres": 48245
- },
- {
-  "id": "bog-c2607128-htm",
-  "h": "513383096ec790d7",
-  "titulo": "Aprobación definitiva de las bases de la beca \"Hondarribiko Ikerketa Feministarako Beka\"",
-  "organismoSugerido": "ayto-hondarribia",
-  "organismoFuente": "Ayuntamiento de Hondarribia",
-  "archivo": "cache/fuentes/bog-c2607128-htm-3db98f4d.txt",
-  "caracteres": 19951
- },
- {
-  "id": "eus-ayuda-subvencion-2026-subvenciones-para-proyectos-editoriales-y-audiovisuales-en-el-ambito-de-la-diaspora-vasca-2026",
-  "h": "d802413cd2f1115f",
-  "titulo": "Subvenciones para proyectos editoriales y audiovisuales en el ámbito de la Diáspora Vasca",
-  "organismoSugerido": "gv-lehendakaritza",
-  "organismoFuente": "Lehendakaritza",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-subvenciones-para-proyectos-editor-6f964ec9.txt",
-  "caracteres": 300000
- },
- {
-  "id": "eus-ayuda-subvencion-2026-programa-ikertalent",
-  "h": "624adcf785e2d95c",
-  "titulo": "Programa IKERTALENT - Ayudas de formación a personal investigador y personal tecnólogo en el ámbito científico-tecnológico y empresarial",
-  "organismoSugerido": "gv-alimentacion",
-  "organismoFuente": "Alimentación, Desarrollo Rural, Agricultura y Pesca",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-programa-ikertalent-7313b79d.txt",
-  "caracteres": 122641
- },
- {
-  "id": "bdns-940056",
-  "h": "d420bc9dcf57be4f",
-  "titulo": "Ayudas públicas en del Programa Nacional de Exploración Minera",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Dirección general de política energética y minas",
-  "archivo": "cache/fuentes/bdns-940056-de294e89.txt",
-  "caracteres": 102170
- },
- {
   "id": "bdns-938141",
-  "h": "db3950157c7b1325",
+  "h": "8ebc4689ebfe1d6e",
   "titulo": "Ayudas económicas a los vecinos para el estudio del euskera",
   "organismoSugerido": "ayto-elciego",
   "organismoFuente": "Ayuntamiento de elciego",
   "archivo": "cache/fuentes/bdns-938141-54999653.txt",
-  "caracteres": 6633
- },
- {
-  "id": "bdns-933308",
-  "h": "29c14049c5ed9bab",
-  "titulo": "Ayudas para la creación de infraestructuras para la investigación en tecnologías de uso dual",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Entidad pública empresarial red.es",
-  "archivo": "cache/fuentes/bdns-933308-ef7bfbe6.txt",
-  "caracteres": 226166
- },
- {
-  "id": "eus-ayuda-subvencion-2026-programa-onekin",
-  "h": "7bf2547e620210c4",
-  "titulo": "Programa ONEKIN - Ayudas destinadas a apoyar procesos de maduración de ideas y de definición de proyectos de digitalización",
-  "organismoSugerido": "gv-alimentacion",
-  "organismoFuente": "Alimentación, Desarrollo Rural, Agricultura y Pesca",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-programa-onekin-616addbb.txt",
-  "caracteres": 300000
- },
- {
-  "id": "bdns-940263",
-  "h": "4457d0812916d0ef",
-  "titulo": "Bases del concurso de carteles de navidad",
-  "organismoSugerido": "ayto-beasain",
-  "organismoFuente": "Ayuntamiento de beasain",
-  "archivo": "cache/fuentes/bdns-940263-7e7b9c16.txt",
-  "caracteres": 24863
- },
- {
-  "id": "bog-c2607233-htm",
-  "h": "ab06989fa2de01d3",
-  "titulo": "Bases específicas y la convocatoria de de ayudas a la compra de material escolar",
-  "organismoSugerido": "ayto-legazpi",
-  "organismoFuente": "Ayuntamiento de Legazpi",
-  "archivo": "cache/fuentes/bog-c2607233-htm-a08316d5.txt",
-  "caracteres": 7930
- },
- {
-  "id": "extra-fund-kutxa-iniciativas-sociales-culturales-2027",
-  "h": "4e20337da33cc54e",
-  "titulo": "Ayudas a iniciativas sociales y/o culturales",
-  "organismoSugerido": "fund-kutxa",
-  "organismoFuente": "Kutxa Fundazioa",
-  "archivo": "cache/fuentes/extra-fund-kutxa-iniciativas-sociales-culturales-2027-6075f5b0.txt",
-  "caracteres": 60777
- },
- {
-  "id": "eus-ayuda-subvencion-2026-fp-alternancia",
-  "h": "314991370af96b29",
-  "titulo": "Subvenciones para desarrollar programas de Formación Profesional Dual en Régimen Intensivo en centros privados concertados de la CAPV que",
-  "organismoSugerido": "gv-educacion",
-  "organismoFuente": "Educación",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-fp-alternancia-016d940b.txt",
-  "caracteres": 271688
- },
- {
-  "id": "eus-servicios-0336325",
-  "h": "934264cf1d9a5cf9",
-  "titulo": "Ayudas destinadas a facilitar la adherencia a los tratamientos médicos prescritos por personal del sistema sanitario de Euskadi que estén",
-  "organismoSugerido": "gv-salud",
-  "organismoFuente": "Salud",
-  "archivo": "cache/fuentes/eus-servicios-0336325-f3ab9d9b.txt",
-  "caracteres": 300000
- },
- {
-  "id": "eus-ayuda-subvencion-2025-ayuda-medicamentos-simplificada",
-  "h": "61a38dcd0daace6b",
-  "titulo": "Ayudas destinadas a facilitar la adherencia a los tratamientos médicos prescritos por personal del sistema sanitario de Euskadi que estén",
-  "organismoSugerido": "gv-salud",
-  "organismoFuente": "Salud",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2025-ayuda-medicamentos-simplificada-15e2a620.txt",
-  "caracteres": 300000
- },
- {
-  "id": "eus-servicios-0336326",
-  "h": "f5bb90d5ee141c58",
-  "titulo": "Ayudas destinadas a facilitar la adherencia a los tratamientos médicos prescritos por personal del sistema sanitario de Euskadi que estén",
-  "organismoSugerido": "gv-salud",
-  "organismoFuente": "Salud",
-  "archivo": "cache/fuentes/eus-servicios-0336326-a286145d.txt",
-  "caracteres": 300000
- },
- {
-  "id": "bdns-941574",
-  "h": "736181ea2fcadfa1",
-  "titulo": "Programa balidatu, programa de ayudas de apoyo para la validación de tecnologías de proyectos empresariales innovadores en un entorno real",
-  "organismoSugerido": "fomento-ss",
-  "organismoFuente": "Fomento de san sebastián s.a.- donostia sustapena",
-  "archivo": "cache/fuentes/bdns-941574-370a5c44.txt",
-  "caracteres": 48365
- },
- {
-  "id": "bdns-932435",
-  "h": "4e7d5da35f5abd16",
-  "titulo": "Subvenciones por la realización de cursos de formación y estudio del euskera durante el periodo lectivo",
-  "organismoSugerido": "ayto-fruiz",
-  "organismoFuente": "Ayuntamiento de fruiz",
-  "archivo": "cache/fuentes/bdns-932435-20c72fdd.txt",
-  "caracteres": 11274
+  "caracteres": 25666
  },
  {
   "id": "bdns-929565",
@@ -4986,15 +4725,6 @@
   "caracteres": 73053
  },
  {
-  "id": "prest-bono-social-electrico",
-  "h": "457c167225849042",
-  "titulo": "Bono social eléctrico para consumidores vulnerables",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Gobierno de España",
-  "archivo": "cache/fuentes/prest-bono-social-electrico-a18ad288.txt",
-  "caracteres": 300000
- },
- {
   "id": "prest-bizkaia-pnc-jubilacion",
   "h": "1f02cf4a3f1d4b07",
   "titulo": "Pensión no contributiva de jubilación (PNC jubilación)",
@@ -5002,6 +4732,15 @@
   "organismoFuente": "Diputación Foral de Bizkaia",
   "archivo": "cache/fuentes/prest-bizkaia-pnc-jubilacion-75b35bd2.txt",
   "caracteres": 15479
+ },
+ {
+  "id": "prest-bono-social-electrico",
+  "h": "457c167225849042",
+  "titulo": "Bono social eléctrico para consumidores vulnerables",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Gobierno de España",
+  "archivo": "cache/fuentes/prest-bono-social-electrico-a18ad288.txt",
+  "caracteres": 300000
  },
  {
   "id": "prest-bizkaia-pnc-incapacidad",
