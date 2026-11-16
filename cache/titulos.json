@@ -5438,5 +5438,29 @@
  "European Film Distribution (CREA-MEDIA-2027-FILMDIST)": {
   "es": "Ayudas para distribuir películas europeas de otros países",
   "eu": "Beste herrialde batzuetako Europako filmak banatzeko laguntzak"
+ },
+ "Prestación por nacimiento y cuidado de menor": {
+  "es": "Prestación por nacimiento y cuidado de un hijo o hija",
+  "eu": "Seme-alaba baten jaiotza eta zaintzagatiko prestazioa"
+ },
+ "Asignación económica por hijo o menor a cargo con discapacidad": {
+  "es": "Prestación por hijo o menor a cargo con discapacidad",
+  "eu": "Desgaitasuna duen seme-alaba edo adingabe kargudunagatiko prestazioa"
+ },
+ "Prestación económica para cuidados en el entorno familiar (PECE)": {
+  "es": "Prestación para cuidar en casa a una persona dependiente",
+  "eu": "Mendeko pertsona bat etxean zaintzeko prestazioa"
+ },
+ "Prestación económica vinculada al servicio (PEVS)": {
+  "es": "Prestación para pagar un servicio de atención a la dependencia",
+  "eu": "Mendekotasuna artatzeko zerbitzu bat ordaintzeko prestazioa"
+ },
+ "Pensión no contributiva (PNC) de jubilación o invalidez": {
+  "es": "Prestación de pensión no contributiva de jubilación o invalidez",
+  "eu": "Erretiro edo baliaezintasuneko pentsio ez-kontributiboaren prestazioa"
+ },
+ "Pensión no contributiva (PNC) de jubilación o incapacidad": {
+  "es": "Prestación de pensión no contributiva de jubilación o incapacidad",
+  "eu": "Erretiro edo ezintasuneko pentsio ez-kontributiboaren prestazioa"
  }
 }

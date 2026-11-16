@@ -345,18 +345,18 @@
   "fecha": "2026-11-16"
  },
  "ue-crea-media-2027-tvonline-1": {
-  "parecidaA": "ue-crea-media-2027-tvonline-3",
-  "motivo": "Misma convocatoria Europa Creativa MEDIA «TV and online content» (cierre 10/02/2027), partida en tres topics con texto idéntico: animación (TVONLINE-1), documental (TVONLINE-2) y ficción (TVONLINE-3).",
+  "parecidaA": "eus-ayuda-subvencion-2026-deskcreativemediadeialdia",
+  "motivo": "Misma convocatoria Europa Creativa MEDIA 2027 que la ficha paraguas de euskadi.eus (deskcreativemediadeialdia); esta llegó por el Funding & Tenders Portal con su propia línea y fechas.",
   "fecha": "2026-11-16"
  },
  "ue-crea-media-2027-tvonline-3": {
-  "parecidaA": "ue-crea-media-2027-tvonline-1",
-  "motivo": "Misma convocatoria Europa Creativa MEDIA «TV and online content» (cierre 10/02/2027), partida en tres topics con texto idéntico: animación (TVONLINE-1), documental (TVONLINE-2) y ficción (TVONLINE-3).",
+  "parecidaA": "eus-ayuda-subvencion-2026-deskcreativemediadeialdia",
+  "motivo": "Misma convocatoria Europa Creativa MEDIA 2027 que la ficha paraguas de euskadi.eus (deskcreativemediadeialdia); esta llegó por el Funding & Tenders Portal con su propia línea y fechas.",
   "fecha": "2026-11-16"
  },
  "ue-crea-media-2027-tvonline-2": {
-  "parecidaA": "ue-crea-media-2027-tvonline-1",
-  "motivo": "Misma convocatoria Europa Creativa MEDIA «TV and online content» (cierre 10/02/2027), partida en tres topics con texto idéntico: animación (TVONLINE-1), documental (TVONLINE-2) y ficción (TVONLINE-3).",
+  "parecidaA": "eus-ayuda-subvencion-2026-deskcreativemediadeialdia",
+  "motivo": "Misma convocatoria Europa Creativa MEDIA 2027 que la ficha paraguas de euskadi.eus (deskcreativemediadeialdia); esta llegó por el Funding & Tenders Portal con su propia línea y fechas.",
   "fecha": "2026-11-16"
  },
  "ara-ayudas-directas-para-el-transporte-terrestre-por-carretera-p": {
@@ -392,6 +392,21 @@
  "bdns-938582": {
   "parecidaA": "bdns-938576",
   "motivo": "Las dos son ayudas de ICEX para la participación agrupada en la feria Maison&Objet de París (14-18/01/2027) llegadas por la BDNS con títulos casi iguales; 938576 va por ANIEME (fabricantes de mueble, cierre 25/11, cuantía no publicada) y 938582 por ASEFMA (marroquinería, cierre 20/11).",
+  "fecha": "2026-11-16"
+ },
+ "eus-ayuda-subvencion-2026-deskcreativemediadeialdia": {
+  "parecidaA": "ue-crea-media-2027-tvonline-1",
+  "motivo": "Ficha de euskadi.eus que solo anuncia las sesiones informativas de la EACEA sobre las convocatorias Europa Creativa MEDIA 2027 (TV y contenido en línea, distribución, slate, ventas), sin importes ni requisitos propios; coincide con las fichas ue-crea-media-2027-* del Funding & Tenders Portal, que tienen cada línea con sus fechas.",
+  "fecha": "2026-11-16"
+ },
+ "ue-crea-media-2027-devslate": {
+  "parecidaA": "eus-ayuda-subvencion-2026-deskcreativemediadeialdia",
+  "motivo": "Misma convocatoria Europa Creativa MEDIA 2027 que la ficha paraguas de euskadi.eus (deskcreativemediadeialdia); esta llegó por el Funding & Tenders Portal con su propia línea y fechas.",
+  "fecha": "2026-11-16"
+ },
+ "ue-crea-media-2027-filmdist": {
+  "parecidaA": "eus-ayuda-subvencion-2026-deskcreativemediadeialdia",
+  "motivo": "Misma convocatoria Europa Creativa MEDIA 2027 que la ficha paraguas de euskadi.eus (deskcreativemediadeialdia); esta llegó por el Funding & Tenders Portal con su propia línea y fechas.",
   "fecha": "2026-11-16"
  }
 }
