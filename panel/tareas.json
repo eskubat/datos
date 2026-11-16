@@ -216,5 +216,16 @@
   "estado": "pendiente",
   "fecha": "2026-11-16",
   "nota": "Añadida al plan de mejoras"
+ },
+ {
+  "id": "explorar-bculinary",
+  "titulo": "Comprobar el Basque Culinary Center como fuente",
+  "detalle": "Mirar si el Basque Culinary Center (bculinary.com) publica becas, premios, ayudas o convocatorias con bases para Euskadi. Si hay algo, proponerlo como fuente nueva (potenciales en panel/fuentes.json y tarea de lector) o añadir las convocatorias abiertas; si no hay nada, cerrar la tarea con una nota.",
+  "fuente": "Basque Culinary Center",
+  "seccion": "fuentes",
+  "quien": "Claude",
+  "responsable": "explorador",
+  "prioridad": 1,
+  "estado": "pendiente"
  }
 ]
