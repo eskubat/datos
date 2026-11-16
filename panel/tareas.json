@@ -477,8 +477,9 @@
   "prioridad": 13,
   "fuente": "Revisor de datos (16/11)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-16"
+  "estado": "hecha",
+  "fecha": "2026-11-16",
+  "nota": "El recolector deja ahora el cierre leído del plazo para las de la BDNS y los boletines que llegan sin fecha de fin: la fecha de fin que da la BDNS en texto («31 de diciembre de 2026», «15/10/2026»), un «hasta el … de 2026» de las bases o el plazo relativo a la publicación («un (1) mes», «25 días naturales»), siempre posterior a la publicación; y el lector de boletines descarta las órdenes de redistribución de crédito. Probado sobre los datos de hoy: 45 ayudas ganan fecha de fin y 16 salen como cerradas (Ordizia, Elorrio, Durango, Andoain, Erandio, Barakaldo, BOE, Asteasu, Alegría-Dulantzi…); quedan sin cerrar las de la BDNS sin fecha de publicación en el BOB ni fecha expresa (Sopela, Amurrio, Mungia…), que necesitan leer el BOB."
  },
  {
   "id": "red-capitales",
@@ -509,5 +510,16 @@
   "estado": "pendiente",
   "seccion": "fuentes",
   "prioridad": 25
+ },
+ {
+  "id": "bdns-fecha-bob",
+  "titulo": "Tomar la fecha de publicación en el BOB de las convocatorias de la BDNS que no la traen",
+  "detalle": "Varias convocatorias municipales de Bizkaia llegan de la BDNS sin fecha de publicación (publicacion: null) y con plazo relativo a ella (bdns-929190, 930617, 927161, 929139, 925769, 942048…), así que no se puede calcular el cierre. Cruzarlas con los sumarios del BOB que ya lee el lector de boletines (por organismo y título) para obtener la fecha y calcular el fin.",
+  "seccion": "fuentes",
+  "prioridad": 26,
+  "fuente": "Plan de mejora (cola-plazo-cerrado)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
  }
 ]

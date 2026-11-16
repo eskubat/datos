@@ -89,6 +89,45 @@ function unir(eus, bd) {
   return [...eus, ...bd.filter((b) => !usados.has(b.id))];
 }
 
+// Cierre leído del texto de la convocatoria (cache/fuentes/<id>.txt de la pasada anterior) para las de la BDNS
+// y los boletines que llegan sin fecha de fin: «hasta el 30 de septiembre» o «un (1) mes / 25 días naturales /
+// 10 días hábiles desde el día siguiente a la publicación». Así no quedan como abiertas ni en la cola de fichas
+// convocatorias que ya cerraron. Si no se puede leer el plazo, se deja como estaba.
+const MESES = { enero: 1, febrero: 2, marzo: 3, abril: 4, mayo: 5, junio: 6, julio: 7, agosto: 8, septiembre: 9, setiembre: 9, octubre: 10, noviembre: 11, diciembre: 12 };
+const nombreFuente = (id) => String(id).replace(/[^\w.-]/g, '_').slice(0, 60) + '-' + huella(id).slice(0, 8) + '.txt';
+function finDelTexto(a) {
+  if (a.fin || a.permanente) return;
+  if (!(a.origen === 'bdns' || a.origen === 'boletines' || String(a.id).startsWith('bdns-'))) return;
+  let texto = '';
+  try { texto = fs.readFileSync(path.join('cache', 'fuentes', nombreFuente(a.id)), 'utf8'); } catch {}
+  texto = texto.replace(/\s+/g, ' ');
+  // Trozos que hablan del plazo de solicitud (no del de justificación)
+  const trozos = [String(a.textoPlazo || '')];
+  for (const m of texto.matchAll(/plazo (?:de presentaci[oó]n de (?:las )?solicitudes|para (?:presentar|solicitar)|de solicitud)[^]{0,350}/gi)) trozos.push(m[0]);
+  const desde = a.publicacion || a.registrada || '';
+  const vale = (f) => f && f >= desde && f.slice(0, 4) - desde.slice(0, 4) <= 1;
+  const MES = '(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)';
+  const fecha = (t, pre) => {
+    let m = t.match(new RegExp(pre + '(\\d{1,2}) de ' + MES + ' de(?:l)? (20\\d\\d)'));
+    if (m) return `${m[3]}-${String(MESES[m[2]]).padStart(2, '0')}-${m[1].padStart(2, '0')}`;
+    m = t.match(new RegExp(pre + '(\\d{1,2})/(\\d{1,2})/(20\\d\\d)'));
+    return m ? `${m[3]}-${m[2].padStart(2, '0')}-${m[1].padStart(2, '0')}` : null;
+  };
+  // Fin según la BDNS: «31 de diciembre de 2026» o «15/10/2026» en el texto de fin de plazo
+  const finBdns = fecha(norm(String(a.textoPlazo || '').split(' · ').pop()), '');
+  if (vale(finBdns)) { a.fin = finBdns; a.finCalculado = true; return; }
+  for (const t0 of trozos) {
+    const t = norm(t0).replace(/\(\s*\d+\s*\)/g, ' ');
+    if (/justificaci|alegaci|obras/.test(t.slice(0, 40))) continue;
+    // Fecha expresa con año: «hasta el 30 de septiembre de 2026»
+    const f = fecha(t, 'hasta el (?:dia )?');
+    if (vale(f)) { a.fin = f; a.finCalculado = true; return; }
+    // Plazo relativo a la publicación (solo si se conoce la fecha de publicación)
+    const c = bdns.calculaFin(t, a.publicacion);
+    if (c && vale(c.fin)) { a.fin = c.fin; a.inicio = a.inicio || c.inicio; a.finCalculado = true; return; }
+  }
+}
+
 function estado(a) {
   // Procedimiento de euskadi.eus marcado «Histórico»: convocatoria pasada, aunque traiga fechas nuevas
   if (/^\s*hist[oó]rico\s*$/i.test(a.estadoFuente || '')) return 'cerrada';
@@ -332,6 +371,7 @@ async function main() {
     if (a.requisitos) a.requisitos = a.requisitos.map(limpiaTexto).filter(Boolean);
     // Fuera el cómputo de ingresos y la compatibilidad con otras ayudas (no son requisitos), y las listas que han perdido su introducción
     if (a.requisitos) a.requisitos = ajustaListas(a.requisitos.filter((r) => !NO_ES_REQUISITO.test(r)));
+    finDelTexto(a);
     a.estado = estado(a); delete a.errorFicha; delete a.abiertoSegunFuente;
     const corto = tituloCorto(a.titulo, a.organismo, a.ambito);
     if (corto !== a.titulo) { a.tituloOficial = a.titulo; a.titulo = corto; }
