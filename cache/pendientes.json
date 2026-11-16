@@ -1,5 +1,14 @@
 [
  {
+  "id": "eus-ayuda-subvencion-2026-eventos-sociales",
+  "h": "5c7e944c0fc8f56b",
+  "titulo": "Ayudas, acogidas al régimen de mínimis, para la realización de eventos sociales",
+  "organismoSugerido": "gv-alimentacion",
+  "organismoFuente": "Alimentación, Desarrollo Rural, Agricultura y Pesca",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-eventos-sociales-97a480d0.txt",
+  "caracteres": 277885
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
   "h": "b0ecc4da6bcbfe27",
   "titulo": "EDIP, Programa Europeo de la Industria de Defensa",
@@ -1143,274 +1152,22 @@
   "caracteres": 18668
  },
  {
-  "id": "bdns-941981",
-  "h": "153d57c53aa4bdfa",
-  "titulo": "Ayudas para los Planes de Producción y Comercialización, con posibilidad de anticipos a los mismos",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Secretaría general de pesca",
-  "archivo": "cache/fuentes/bdns-941981-fc1516aa.txt",
-  "caracteres": 226020
- },
- {
-  "id": "bdns-941926",
-  "h": "652b9031e0d0a9b0",
-  "titulo": "Primera convocatoria de subvenciones para la realización de proyectos de empleo protegido",
-  "organismoSugerido": "ayto-galdakao",
-  "organismoFuente": "Ayuntamiento de galdakao",
-  "archivo": "cache/fuentes/bdns-941926-430e1f51.txt",
-  "caracteres": 50866
- },
- {
-  "id": "bdns-941900",
-  "h": "67d3a3e9ee554a97",
-  "titulo": "Euskal fondoa",
-  "organismoSugerido": "ayto-vitoria-gasteiz",
-  "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
-  "archivo": "cache/fuentes/bdns-941900-bd79d2c3.txt",
-  "caracteres": 200072
- },
- {
-  "id": "bdns-941791",
-  "h": "4ca8f32f5dfd6931",
-  "titulo": "Premio Nacional de Estadística",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Instituto nacional de estadística",
-  "archivo": "cache/fuentes/bdns-941791-f84df256.txt",
-  "caracteres": 37894
- },
- {
-  "id": "bdns-941759",
-  "h": "b0301a8b7a580350",
-  "titulo": "Subvenciones para la celebración de aniversarios de asociaciones culturales",
-  "organismoSugerido": "ayto-getxo",
-  "organismoFuente": "Ayuntamiento de getxo",
-  "archivo": "cache/fuentes/bdns-941759-12643488.txt",
-  "caracteres": 63444
- },
- {
-  "id": "bdns-941367",
-  "h": "b4827f5368f8a705",
-  "titulo": "Escaparates navideños",
-  "organismoSugerido": "ayto-durango",
-  "organismoFuente": "Ayuntamiento de durango",
-  "archivo": "cache/fuentes/bdns-941367-160f7b92.txt",
-  "caracteres": 26227
- },
- {
-  "id": "bdns-941347",
-  "h": "2c32e22fecc135cc",
-  "titulo": "Subvención a gernikako lagunak futbol kirol taldea",
-  "organismoSugerido": "ayto-gernika-lumo",
-  "organismoFuente": "Kirol patronatua",
-  "archivo": "cache/fuentes/bdns-941347-3808877e.txt",
-  "caracteres": 163354
- },
- {
-  "id": "bdns-941180",
-  "h": "7e12ceb654b86c79",
-  "titulo": "Acompañando desde la proximidad Programa de acompañamiento social dirigido a personas mayores",
-  "organismoSugerido": "ayto-vitoria-gasteiz",
-  "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
-  "archivo": "cache/fuentes/bdns-941180-40facf93.txt",
-  "caracteres": 160939
- },
- {
-  "id": "bdns-941144",
-  "h": "bd4d48473d71e64e",
-  "titulo": "Bases para la concesión, de las ayudas destinadas a financiar el pago de las tasas del suministro de agua y alcantarillado",
-  "organismoSugerido": "ayto-lezo",
-  "organismoFuente": "Ayuntamiento de lezo",
-  "archivo": "cache/fuentes/bdns-941144-cdd3573d.txt",
-  "caracteres": 16450
- },
- {
   "id": "bdns-940549",
-  "h": "ca13e2402a2ee5b2",
+  "h": "09507e3dcf07f14b",
   "titulo": "Y segunda convocatoria de subvenciones para financiar los gastos de preproducción",
   "organismoSugerido": "dfb",
   "organismoFuente": "Diputación foral de Bizkaia",
   "archivo": "cache/fuentes/bdns-940549-5ae710b6.txt",
-  "caracteres": 142793
- },
- {
-  "id": "bdns-940536",
-  "h": "ecd31f7e1d94ae6f",
-  "titulo": "DifusióN patrimonio arquitectóNICO escuelas TOMáS camacho",
-  "organismoSugerido": "ayto-bilbao",
-  "organismoFuente": "Ayuntamiento de bilbao",
-  "archivo": "cache/fuentes/bdns-940536-bd700e20.txt",
-  "caracteres": 22099
- },
- {
-  "id": "bdns-940217",
-  "h": "84c2b7bc9e3101d6",
-  "titulo": "Promoción de la educación musical de personas con diversidad funcional",
-  "organismoSugerido": "ayto-vitoria-gasteiz",
-  "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
-  "archivo": "cache/fuentes/bdns-940217-e87d2471.txt",
-  "caracteres": 55063
- },
- {
-  "id": "bdns-940181",
-  "h": "d5c4e72879659e18",
-  "titulo": "Acuerdo de colaboración que se suscribe entre bilbao ekintza, epel, y asociación de comercio",
-  "organismoSugerido": "bilbao-ekintza",
-  "organismoFuente": "Bilbao ekintza",
-  "archivo": "cache/fuentes/bdns-940181-9f5e3227.txt",
-  "caracteres": 64436
- },
- {
-  "id": "bdns-940045",
-  "h": "96d9e4c1a47dbcde",
-  "titulo": "Cooperación solidaridad con el pueblo saharaui",
-  "organismoSugerido": "ayto-vitoria-gasteiz",
-  "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
-  "archivo": "cache/fuentes/bdns-940045-fd84ebef.txt",
-  "caracteres": 178031
- },
- {
-  "id": "bdns-939915",
-  "h": "00b6f1a01fa3a8ea",
-  "titulo": "Convocatoria pública de subvenciones a la rehabilitación de edificios",
-  "organismoSugerido": "ayto-barakaldo",
-  "organismoFuente": "Ayuntamiento de barakaldo",
-  "archivo": "cache/fuentes/bdns-939915-7eb3154d.txt",
-  "caracteres": 56076
- },
- {
-  "id": "bdns-939560",
-  "h": "2abb3eab9b317d54",
-  "titulo": "Subvenciones para el desarrollo de proyectos de especial interés durante el curso escolar",
-  "organismoSugerido": "ayto-leioa",
-  "organismoFuente": "Ayuntamiento de leioa",
-  "archivo": "cache/fuentes/bdns-939560-52943b54.txt",
-  "caracteres": 56858
- },
- {
-  "id": "bdns-939545",
-  "h": "fb8bc7d0065d6f79",
-  "titulo": "Subvenciones económicas por parte para el desarrollo en materia de actividad física y deporte para las temporadas y/o",
-  "organismoSugerido": "ayto-sestao",
-  "organismoFuente": "Ayuntamiento de sestao",
-  "archivo": "cache/fuentes/bdns-939545-a6e7cf9f.txt",
-  "caracteres": 1076
- },
- {
-  "id": "bdns-939450",
-  "h": "7063f99736bc3214",
-  "titulo": "Convocatoria de la subvención ordinaria anual para a las asociaciones sin ánimo de lucro inscritas en el Registro de Entidades Populares",
-  "organismoSugerido": "ayto-busturia",
-  "organismoFuente": "Ayuntamiento de busturia",
-  "archivo": "cache/fuentes/bdns-939450-b70bb979.txt",
-  "caracteres": 120287
- },
- {
-  "id": "bdns-939400",
-  "h": "0bba379b57c012ac",
-  "titulo": "Decreto de Alcaldía 995/26, de 29 de octubre,",
-  "organismoSugerido": "ayto-iurreta",
-  "organismoFuente": "Ayuntamiento de iurreta",
-  "archivo": "cache/fuentes/bdns-939400-c4d60c87.txt",
-  "caracteres": 37315
- },
- {
-  "id": "bdns-939220",
-  "h": "aa2ce677bb7258e4",
-  "titulo": "Acuerdo de colaboración que se suscribe entre bilbao ekintza, epel",
-  "organismoSugerido": "bilbao-ekintza",
-  "organismoFuente": "Bilbao ekintza",
-  "archivo": "cache/fuentes/bdns-939220-06603e2c.txt",
-  "caracteres": 70205
+  "caracteres": 261043
  },
  {
   "id": "bdns-939186",
-  "h": "d52701427020731a",
+  "h": "13cd5b3ce07e8d7c",
   "titulo": "Subvención para actividades para dinamización del barrio rural de Bedaio",
   "organismoSugerido": "ayto-tolosa",
   "organismoFuente": "Ayuntamiento de tolosa",
   "archivo": "cache/fuentes/bdns-939186-120ce10f.txt",
-  "caracteres": 200435
- },
- {
-  "id": "bdns-939096",
-  "h": "e2409930317cdf07",
-  "titulo": "AnimacióN cultural, deportiva, OCIO tendel",
-  "organismoSugerido": "ayto-bilbao",
-  "organismoFuente": "Ayuntamiento de bilbao",
-  "archivo": "cache/fuentes/bdns-939096-214c4e9c.txt",
-  "caracteres": 85253
- },
- {
-  "id": "bdns-939049",
-  "h": "ecd31f7e1d94ae6f",
-  "titulo": "Premios alejandro echevarríA",
-  "organismoSugerido": "ayto-bilbao",
-  "organismoFuente": "Ayuntamiento de bilbao",
-  "archivo": "cache/fuentes/bdns-939049-b579cd2e.txt",
-  "caracteres": 22099
- },
- {
-  "id": "bdns-939045",
-  "h": "d6baedecede3c2f9",
-  "titulo": "Apoyo A ISF-ingenieríA sin fronteras",
-  "organismoSugerido": "ayto-bilbao",
-  "organismoFuente": "Ayuntamiento de bilbao",
-  "archivo": "cache/fuentes/bdns-939045-dea1c63a.txt",
-  "caracteres": 78264
- },
- {
-  "id": "bdns-939036",
-  "h": "f3cd8aee2f71ca8c",
-  "titulo": "Proyecto comunitario en s. francisco/blv/zabala. ehunka",
-  "organismoSugerido": "ayto-bilbao",
-  "organismoFuente": "Ayuntamiento de bilbao",
-  "archivo": "cache/fuentes/bdns-939036-24b10c59.txt",
-  "caracteres": 77961
- },
- {
-  "id": "bdns-939030",
-  "h": "0082861f51269601",
-  "titulo": "\"programa \"\"bilbao contamos contigo\"\". fundacióN Síndrome DOWN\"",
-  "organismoSugerido": "ayto-bilbao",
-  "organismoFuente": "Ayuntamiento de bilbao",
-  "archivo": "cache/fuentes/bdns-939030-25c41612.txt",
-  "caracteres": 71390
- },
- {
-  "id": "bdns-938475",
-  "h": "2e81ed66fae4f165",
-  "titulo": "Bases reguladoras de la convocatoria de subvenciones para fomentar el alquiler asequible",
-  "organismoSugerido": "ayto-leioa",
-  "organismoFuente": "Ayuntamiento de leioa",
-  "archivo": "cache/fuentes/bdns-938475-f1d26cf1.txt",
-  "caracteres": 58571
- },
- {
-  "id": "bdns-938070",
-  "h": "0ccc71b9d87b619b",
-  "titulo": "Subvenciones para la utilizacion de las huertas ecologicas",
-  "organismoSugerido": "ayto-gorliz",
-  "organismoFuente": "Ayuntamiento de gorliz",
-  "archivo": "cache/fuentes/bdns-938070-3159e27b.txt",
-  "caracteres": 8626
- },
- {
-  "id": "bdns-938065",
-  "h": "1321d79c85bc011a",
-  "titulo": "Convocatoria y bases reguladoras de la concesión de subvenciones para cursos de natación",
-  "organismoSugerido": "ayto-gorliz",
-  "organismoFuente": "Ayuntamiento de gorliz",
-  "archivo": "cache/fuentes/bdns-938065-f917aee7.txt",
-  "caracteres": 9089
- },
- {
-  "id": "bdns-937851",
-  "h": "ee187c93dbcfbd25",
-  "titulo": "ResurreccióN MARíA azkueren heriotzaren 75. urteurrena",
-  "organismoSugerido": "ayto-bilbao",
-  "organismoFuente": "Ayuntamiento de bilbao",
-  "archivo": "cache/fuentes/bdns-937851-85f6c76e.txt",
-  "caracteres": 51045
+  "caracteres": 300000
  },
  {
   "id": "bdns-937761",
