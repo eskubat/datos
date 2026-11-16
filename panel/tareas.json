@@ -522,5 +522,27 @@
   "quien": "Claude",
   "estado": "pendiente",
   "fecha": "2026-11-16"
+ },
+ {
+  "id": "araba-plazo-botha",
+  "titulo": "Tomar del BOTHA el plazo de las ayudas de la sede de Álava",
+  "detalle": "Tras el arreglo de fechaTexto, la sede de Álava sigue dando abiertas (fin 2027-2029 o sin fin) convocatorias de 2026 cuyo plazo de solicitud cerró hace meses: el fin que se lee es el de justificación o pago. En la pasada de fichas del 16/11 (23:30 UTC) se comprobó en el BOTHA de cada una que están cerradas: ara-ayudas-a-las-federaciones-deportivas-alavesas-2026, ara-subvenciones-realizacion-actividades-de-formacion-tecnica-de, ara-convocatoria-de-subvenciones-para-el-desarrollo-de-programas, ara-acciones-anuales-de-cooperacion-de-caracter-puntual-en-paise, ara-desarrollo-de-proyectos-de-educacion-para-la-transformacion-, ara-subvenciones-dirigidas-a-asociaciones-y-entidades-sin-animo-, ara-subvenciones-para-el-desarrollo-de-programas-de-socializacio-b3edd0, ara-subvenciones-para-multiservicios-2026, ara-ayudas-a-la-actividad-del-sector-artesano-alaves-2026, ara-ayudas-promocion-actividad-comercio-alaves-2026, ara-ayudas-para-la-reactivacion-del-comercio-rural-en-ayuntamien, ara-ayudas-inversiones-sector-comercial-alava-2026, ara-ayudas-inversiones-sector-comercial-alaves-2026, ara-solicitar-subvenciones-para-intervenciones-de-conservacion-r, ara-convocatoria-ayudas-dirigidas-a-inventariar-y-registrar-los-, ara-subvenciones-para-el-desarrollo-de-programas-de-socializacio-35e69d, ara-01093001-ayudas-caminos-rurales-2026, ara-subvenciones-adquisicion-viviendas-entidades-locales-2026, ara-subvenciones-rehabilitacion-viviendas-para-emancipacion-juve, ara-emprender-en-alava, ara-ayuda-a-clubes-de-alto-nivel-2026, ara-convocatoria-subvenciones-para-el-desarrollo-del-deporte-ada, ara-subvencion-para-desarrollo-de-proyectos-de-jovenes-2026, ara-ayudas-gestion-recursos-hidricos, ara-ayudas-formacion-empleo-cuadrillas-2026, ara-ayudas-establecimiento-personas-jovenes-agricultoras-2026, ara-subvencion-rehabilitacion-viviendas-2026, ara-interkoop-empresas-2026, ara-convocatoria-de-ayudas-a-deportistas-de-alto-nivel-2026. Otras 33 ara-… de la cola no traen en su archivo la fecha de publicación en el BOTHA y probablemente también estén cerradas. Además, ara-realizacion-inversiones-sector-artesano-alaves-2026 tiene enlazado como «Documento de la convocatoria» un anuncio ajeno (padrón del agua de Arrieta, BOTHA 39/2026, 00898). Propuesta: leer en el documento del BOTHA enlazado la fecha de publicación y el plazo («N días hábiles/naturales desde el día siguiente», «hasta el …») y calcular el cierre como se hace ya con la BDNS y los boletines; si el plazo calculado ya pasó, la ayuda sale como cerrada y no entra en la cola de fichas.",
+  "seccion": "fuentes",
+  "prioridad": 11,
+  "fuente": "Revisor de datos (16/11)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
+ },
+ {
+  "id": "nominativas-bdns-3",
+  "titulo": "Subvenciones extraordinarias y de emergencia a entidades concretas siguen en la cola",
+  "detalle": "Vuelven a la cola de fichas (por cambio de documento) subvenciones ya concedidas a una entidad determinada, que nadie más puede pedir: Errenteria (emergencia: bdns-942081, 942030, 942015, 941998), Azpeitia (extraordinarias: bdns-941191, 941167, 941164, 941163, 941158, 941156, 941151, 941143, 941138, 941124, 941120), bdns-941010 (retablo de Elexalde), bdns-940143 (cuota de adhesión a la Red de Ciudades que Caminan), bdns-939240 (Intxurreta jai batzordea) y bdns-920746 (Galdakao, asociación empresarial del polígono Erletxe: resolución 2026-1659 de concesión directa). La tarea de fichas no las redacta. Ampliar el filtro para «subvención extraordinaria a/al/por», «subvención de emergencia» con el nombre de una entidad en el título, «cuota anual de adhesión» y los títulos que son solo el nombre de una entidad.",
+  "seccion": "fuentes",
+  "prioridad": 16,
+  "fuente": "Revisor de datos (16/11)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
  }
 ]
