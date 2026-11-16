@@ -208,5 +208,15 @@
   "parecidaA": "eus-ayuda-subvencion-2026-eventos-sociales",
   "motivo": "Misma convocatoria que la ficha de euskadi.eus eus-ayuda-subvencion-2026-eventos-sociales (Orden de 20/10/2026); esta llegó por ayudas_extra con el PDF del BOPV.",
   "fecha": "2026-11-16"
+ },
+ "bdns-934108": {
+  "parecidaA": "bdns-935179",
+  "motivo": "Dos subvenciones del Ayuntamiento de Vitoria-Gasteiz para promover los derechos de la Convención sobre los Derechos del Niño (934108 añade «en especial, el derecho a la participación»); de 934108 solo ha llegado la ordenanza general, sin convenio ni entidad, y 935179 ya está publicada como nominativa.",
+  "fecha": "2026-11-16"
+ },
+ "bdns-935179": {
+  "parecidaA": "bdns-934108",
+  "motivo": "Misma finalidad que bdns-934108 (derechos de la Convención sobre los Derechos del Niño, Ayuntamiento de Vitoria-Gasteiz); ambas llegaron por la BDNS.",
+  "fecha": "2026-11-16"
  }
 }
