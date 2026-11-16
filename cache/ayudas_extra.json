@@ -222,5 +222,22 @@
       "empresa"
     ],
     "noticia": "eus-ayuda-subvencion-2026-260622urjauzikopartzuergo"
+  },
+  {
+    "id": "extra-spri-ciberseguridad-industrial-2026",
+    "titulo": "Programa de ayudas Ciberseguridad Industrial 2026",
+    "url": "https://www.spri.eus/es/ayudas/ciberseguridad-industrial/",
+    "fuente": "spri.eus",
+    "organismo": "SPRI",
+    "ambito": {
+      "nivel": "euskadi"
+    },
+    "inicio": "2026-05-19",
+    "fin": "2026-11-23",
+    "resumen": "Subvenciones a fondo perdido de SPRI para que pymes y empresas del tejido industrial vasco refuercen su ciberseguridad, incluida la de sus productos, con ayuda de proveedores especializados. Cubren hasta el 60 % de los gastos elegibles, con un máximo de 100.000 € al año por empresa (presupuesto total de 14 millones). Plazo abierto hasta el 23 de noviembre de 2026 según Irekia (1/9/2026); convocatoria en la BDNS n.º 906384.",
+    "dirigido": "Pymes y empresas industriales vascas y de servicios conexos",
+    "para": [
+      "empresa"
+    ]
   }
 ]

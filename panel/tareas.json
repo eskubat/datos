@@ -42,8 +42,10 @@
   "fuente": "SPRI",
   "quien": "Claude",
   "prioridad": 5,
-  "estado": "pendiente",
-  "seccion": "fuentes"
+  "estado": "bloqueada",
+  "seccion": "fuentes",
+  "fecha": "2026-11-16",
+  "nota": "No he podido leer el catálogo de spri.eus: la red de la sesión no llega a spri.eus ni a la BDNS y WebFetch pide un permiso que nadie responde, así que la medición es parcial. Por búsquedas y noticias oficiales (Irekia) solo teníamos 2 ayudas SPRI abiertas (Gauzatu Internacional); faltaba Ciberseguridad Industrial 2026 (abierta hasta el 23/11), que he añadido a cache/ayudas_extra.json (1 ayuda nueva esperada). Causa probable de los huecos: el lector de la BDNS solo mira 120 días atrás y las convocatorias SPRI de primavera con plazo largo se quedan fuera; lo dejo como tarea nueva."
  },
  {
   "id": "eve",
@@ -285,5 +287,25 @@
   "estado": "pendiente",
   "fecha": "2026-11-16",
   "nota": "Añadida al plan de mejoras"
+ },
+ {
+  "id": "bdns-abiertas-antiguas",
+  "titulo": "Recoger de la BDNS las convocatorias antiguas que siguen abiertas",
+  "detalle": "El lector de la BDNS solo revisa los últimos 120 días (DIAS_ATRAS). Convocatorias como Ciberseguridad Industrial 2026 de SPRI (BDNS 906384, publicada en mayo, abierta hasta el 23/11) se quedan fuera. Ampliar la búsqueda a las de Euskadi publicadas este año cuyo plazo de solicitud siga abierto, sin repetir peticiones.",
+  "fuente": "BDNS",
+  "quien": "Claude",
+  "prioridad": 18,
+  "estado": "pendiente",
+  "seccion": "fuentes"
+ },
+ {
+  "id": "red-spri",
+  "titulo": "Permitir spri.eus e infosubvenciones.es en la red de las tareas programadas",
+  "detalle": "Para medir bien la cobertura de SPRI (y probar el lector de la BDNS) la tarea tiene que poder leer spri.eus e infosubvenciones.es. En claude.ai: Ajustes > Capacidades, añadir esos dominios a los permitidos. Después, reabrir la tarea «Medir la cobertura de SPRI».",
+  "fuente": "SPRI",
+  "quien": "Tú",
+  "prioridad": 18,
+  "estado": "pendiente",
+  "seccion": "fuentes"
  }
 ]
