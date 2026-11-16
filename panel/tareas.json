@@ -319,5 +319,27 @@
   "prioridad": 19,
   "estado": "pendiente",
   "fecha": "2026-11-16"
+ },
+ {
+  "id": "araba-sede-contenido",
+  "titulo": "Guardar el contenido de cada ficha de la sede de Álava",
+  "detalle": "Las ayudas que llegan del nuevo lector de la sede (egoitza.araba.eus/es/inicio/tramites/fitxa/…) entran en cache/fuentes solo con la plantilla de la página: menús, normativa de la sede, preguntas frecuentes y marcadores {{resultado.…}}. Falta el texto de la ficha (objeto, quién puede pedirla, requisitos, cuantía, plazo y enlaces al BOTHA o a las bases). Hay unas 75 en cache/pendientes.json (ids ara-…, unos 18.700 caracteres cada una) y no se pueden redactar. El lector debe pedir el detalle de cada trámite con las mismas cookies del cortafuegos que usa para el listado (o el JSON del portlet) y descargar los PDF enlazados (BOTHA, bases, anexos).",
+  "fuente": "Tarea de resúmenes (16/11)",
+  "seccion": "fuentes",
+  "quien": "Claude",
+  "prioridad": 2,
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
+ },
+ {
+  "id": "bdns-nominativas-texto",
+  "titulo": "Descartar también las nominativas que solo lo dicen en el documento",
+  "detalle": "El filtro RUIDO de recolector/bdns.js descarta las nominativas por el título, pero se cuelan las que solo lo dicen en el texto del documento, a veces solo en euskera: p. ej. bdns-926766 (convenio de Ordizia con Euskal Fondoa: «EUSKAL FONDOARI EMANDAKO DIRU-LAGUNTZA ARAUTZEN DUEN HITZARMENA», «dirulaguntza izenduna») y probablemente bdns-921923 «Dazz jazz» de Vitoria-Gasteiz, cuyo único documento son las bases generales de 2018. Aplicar el mismo filtro a las primeras líneas del documento de la convocatoria y a títulos que solo son el nombre de una entidad.",
+  "fuente": "Tarea de resúmenes (16/11)",
+  "seccion": "fuentes",
+  "quien": "Claude",
+  "prioridad": 6,
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
  }
 ]
