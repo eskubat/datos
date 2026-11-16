@@ -170,5 +170,17 @@
   "estado": "pendiente",
   "seccion": "revision",
   "fecha": "2026-11-16"
+ },
+ {
+  "id": "ajustes-ayudas",
+  "titulo": "Ocultar ayudas unidas a otra y marcar como próximas las que no tienen convocatoria",
+  "detalle": "Decisiones del responsable (16/11/2026) que el recolector no puede aplicar hoy: 1) «ara-multiservicios-rurales-gastos-2026» (justificación de los desplazamientos a domicilio, solo para beneficiarios de la línea b de la Orden Foral 156/2026) no debe publicarse aparte: su contenido ya está en la ficha de «ara-subvenciones-para-multiservicios-2026»; hay que ocultarla (y que no vuelva a pendientes). 2) «bog-c2606598-htm» (Anoeta, euskera) debe salir como próxima y no como abierta: el plazo que se publica (hasta el 01/12/2026) es el de información pública de las bases, no un plazo de solicitud. Propuesta: un archivo cache/ajustes_ayudas.json ({id: {ocultar: true, unidaA: \"…\"} | {estado: \"proxima\", inicio: null, fin: null}}) que el recolector aplique al final, como cache/previstas_ocultas.json para las previstas. Aviso: la ayuda principal de multiservicios figura abierta sin fecha de cierre, pero según la Orden Foral 156/2026 (BOTHA n.º 34, 20/03/2026) su plazo de solicitud era de un mes desde la publicación; conviene revisar por qué la sede la da en plazo.",
+  "fuente": "Revisión de ayudas",
+  "seccion": "base",
+  "quien": "Claude",
+  "prioridad": 2,
+  "estado": "pendiente",
+  "fecha": "2026-11-16",
+  "nota": "Añadida al plan de mejoras"
  }
 ]
