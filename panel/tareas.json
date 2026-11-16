@@ -171,9 +171,10 @@
   "fuente": "Comprobaciones de fichas",
   "quien": "Claude",
   "prioridad": 14,
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "revision",
-  "fecha": "2026-11-16"
+  "fecha": "2026-11-17",
+  "nota": "Añadidas al comprobador (recolector/resumen.js) las siglas IPREM, NAFEM, AFEHC, AFYDAD, SEBIME, MUFACE, MUGEJU, ISFAS, EKINN y LGTBIQ, que ya no se rechazan como palabras en mayúsculas. «¿Cuánto puede recibir?» solo rechaza ahora el presupuesto de la convocatoria (presupuesto total/global/disponible, de la convocatoria o de la línea, «Presupuesto: …») y admite el del solicitante («20 % del presupuesto ordinario», «% del presupuesto subvencionable» o «del presupuesto total del proyecto»). No cambia el número de ayudas; las fichas afectadas pueden escribir ya las siglas tal cual."
  },
  {
   "id": "duplicados-lanbide-bdns",

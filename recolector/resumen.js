@@ -16,7 +16,8 @@ export const huella = (t) => crypto.createHash('sha1').update(VERSION + ':' + St
 export const RE = {
   cifrasEconomicas: /\d[\d.,]*\s*(€|euros?)|\d+([.,]\d+)?\s*%|\bhasta\s+\d|cuant[ií]a|importe/i,
   condiciones: /requisit|empadronad|menores de|mayores de|años de edad|ingresos|\brenta\b|dirigid[ao]s? a|podr[aá]n solicitar|beneficiari/i,
-  presupuestoTotal: /presupuesto|dotaci[oó]n|cr[eé]dito disponible|\bfondos?\b|importe total de la convocatoria/i,
+  // Presupuesto de la convocatoria (no el del proyecto o la entidad solicitante: «20 % del presupuesto ordinario» es válido)
+  presupuestoTotal: /^\s*presupuesto\s*[:(]|(?:^|\b(?:el|un|su)\s+)presupuesto\s+(?:es|asciende|ser[aá]|de\s+\d)|presupuesto\s+(?:total|global|m[aá]ximo|disponible|destinado|asignado|previsto)\b(?!\s+(?:del|de\s+la|de\s+los|de\s+las|de\s+cada|por)\s+(?!convocatoria|l[ií]nea|programa\s+de\s+ayudas))|presupuesto\s+de\s+(?:la|esta)\s+(?:convocatoria|l[ií]nea)|dotaci[oó]n|cr[eé]dito disponible|\bfondos?\b|importe total de la convocatoria/i,
   tipoAyuda: /^(subvenci[oó]n|subvenciones|pr[eé]stamos?|becas?|bonificaci[oó]n|bonificaciones|deducci[oó]n|deducciones|ayudas?|servicios?|premios?|asesoramiento|programa|bonos?|incentivos?|prestaci[oó]n|prestaciones|financiaci[oó]n|aval(es)?|reembolsos?|devoluci[oó]n|exenci[oó]n|descuentos?)\b/i,
   cuantiaValida: /\d[\d.,]*\s*(€|%)|^(importe variable|ayuda no econ[oó]mica|no especificado)/i,
   noRequisito: /documentaci[oó]n|aportar|presentar la solicitud|sede electr[oó]nica|plazo|justificar|mantener (la|el|los|las)|publicidad/i,
@@ -24,7 +25,7 @@ export const RE = {
   mayusculas: /\b[A-ZÁÉÍÓÚÑ]{5,}\b/g,
   cifraMal: /\b\d{4,}\s*€|\d€|\d%/,
 };
-const SIGLAS = new Set(['IKERTALENT', 'ONEKIN', 'HEZIBI', 'GAUZATU', 'MOVES', 'PERTE', 'FEDER', 'FEADER', 'FEMPA', 'LEADER', 'COVID', 'TXEKINBERRI', 'BOTHA', 'LGTBI', 'BERCS', 'IKERBASQUE']);
+const SIGLAS = new Set(['IKERTALENT', 'ONEKIN', 'HEZIBI', 'GAUZATU', 'MOVES', 'PERTE', 'FEDER', 'FEADER', 'FEMPA', 'LEADER', 'COVID', 'TXEKINBERRI', 'BOTHA', 'LGTBI', 'LGTBIQ', 'BERCS', 'IKERBASQUE', 'IPREM', 'NAFEM', 'AFEHC', 'AFYDAD', 'SEBIME', 'MUFACE', 'MUGEJU', 'ISFAS', 'EKINN']);
 
 // Números de un texto, normalizados ("1.500" -> "1500", "25,5" -> "25.5")
 function numeros(t) {
