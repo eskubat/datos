@@ -1,5 +1,23 @@
 [
  {
+  "original": "Prestación económica para cuidados en el entorno familiar (PECEF)",
+  "actual": "Prestación económica para cuidados en el entorno familiar (pecef)",
+  "organismo": "Diputación Foral de Bizkaia",
+  "id": "prest-bizkaia-pecef"
+ },
+ {
+  "original": "Prestación económica vinculada al servicio residencial (PVS)",
+  "actual": "Prestación económica vinculada al servicio residencial (PVS)",
+  "organismo": "Diputación Foral de Bizkaia",
+  "id": "prest-bizkaia-pvs"
+ },
+ {
+  "original": "Prestación económica de asistencia personal (PEAP)",
+  "actual": "Prestación económica de asistencia personal (PEAP)",
+  "organismo": "Diputación Foral de Bizkaia",
+  "id": "prest-bizkaia-peap"
+ },
+ {
   "original": "Subvenciones 2025: Jon Tecedor",
   "actual": "Subvenciones: Jon Tecedor",
   "organismo": "Ayuntamiento de Lasarte-Oria",
