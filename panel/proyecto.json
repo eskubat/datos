@@ -552,6 +552,29 @@
    "piezas": []
   },
   {
+   "id": "ds-direcciones",
+   "t": "Direcciones visuales",
+   "url": "https://claude.ai/artifact/HBiPwsikvKunmWUaWRVMfa",
+   "piezas": [
+    [
+     "ds-iconos",
+     "Iconos propios con el punto del logo"
+    ],
+    [
+     "ds-dir-a",
+     "A · Sobria mejorada"
+    ],
+    [
+     "ds-dir-b",
+     "B · Colorida"
+    ],
+    [
+     "ds-dir-c",
+     "C · Atrevida"
+    ]
+   ]
+  },
+  {
    "id": "ds-pantallas",
    "t": "Pantallas de la app",
    "url": "https://claude.ai/artifact/CyebffEBiPjTW4Wko88eSJ",
