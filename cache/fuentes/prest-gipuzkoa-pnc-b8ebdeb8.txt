@@ -1,4 +1,127 @@
-### Extracto de la fuente
-Pensión no contributiva (PNC) de jubilación o incapacidad
-Pensión mensual (14 pagas) para personas mayores o con discapacidad sin recursos suficientes, en dos modalidades: jubilación e incapacidad. Se pide en los servicios sociales del ayuntamiento, con cita, y la cuantía depende de los ingresos de la persona o de su unidad de convivencia.
-Personas empadronadas en Gipuzkoa sin recursos suficientes: de 65 años o más (jubilación) o de 18 a 65 años con una discapacidad del 65 % o más (incapacidad), con la residencia legal en España exigida
+### Ficha oficial: https://egoitza.gipuzkoa.eus/WAS/CORP/LIAIzapideakWEB/api/v1/tramitePDF/es/864
+Pensión no contributiva -PNCVer ficha online
+INFORMACIÓN GENERAL
+Finalidad
+Pensión de la Seguridad Social destinada a personas mayores o con discapacidad que carezcan de recursos suficientes para hacer frente a
+necesidades básicas de la vida.
+Existen dos modalidades:
+Pensión no contributiva (PNC) de JUBILACIÓN.
+Pensión no contributiva (PNC) de INCAPACIDAD.
+Tramitado por
+• DEPARTAMENTO DE CUIDADOS Y POLÍTICAS SOCIALES
+• Dirección General de Planificación, Inversiones, Inspección y Prestaciones Económicas
+• Servicio de Planificación, Concertación y Prestaciones Económicas
+Dirigido a
+Personas con escasos recursos económicos con un grado de discapacidad igual o superior al 65% o personas mayores de 65 años.
+Requisitos
+Generales:
+• Estar empadronado/a en el Territorio Histórico de Gipuzkoa.
+• Carecer de recursos económicos suficientes. (ver información complementaria)
+Pensión por incapacidad:
+• Ser mayor de 18 años y menor de 65 años, en el momento de la solicitud.
+• Residir legalmente en territorio español y haberlo hecho durante 5 años, de los que 2 deben ser inmediatamente anteriores a la fecha de solicitud
+de la PNC.
+• Estar valorado con una grado de discapacidad igual o superior al 65%.
+• Para optar al complemento de Ayuda de Tercera Persona (ATP) se requiere un 75% de discapacidad como mínimo y estar valorado con al menos
+un grado en el Baremo de Valoración de Dependencia (BVD).
+Pensión por jubilación:
+• Haber cumplido los 65 años.
+• Residir legalmente en territorio español y haberlo hecho durante 10 años, de los que 2 deben ser consecutivos e inmediatamente anteriores a la
+fecha de solicitud de la PNC.
+Cuantía
+14 pagas (12 mensualidades y 2 pagas extraordinarias, junio y noviembre).
+• IMPORTES MÁXIMOS DE PNC: PNC
+MES: 628,80 €
+AÑO: 8.803,20 €
+• IMPORTES MÁXIMOS DE PNC: ATP (Complemento de Ayuda de Tercera Persona)
+MES: 314,40 €
+AÑO: 4.401,60 €
+• IMPORTES MÁXIMOS DE PNC: PNC+ATP
+MES: 943,20 €
+AÑO: 13.204,80 €
+• IMPORTES MÁXIMOS DE PNC: 85% (Si hay 2 beneficiarios/as de PNC en la unidad convivencial)
+MES: 534,48 €
+AÑO: 7.482,72 €
+• IMPORTES MÁXIMOS DE PNC: 80% (Si hay 3 beneficiarios/as de PNC en la unidad convivencial)
+MES: 503,04 €
+AÑO: 7.042,56 €
+El cálculo de la cuantía se realiza en función de la carencia de rentas o ingresos (ver información complementaria)
+https://egoitza.gipuzkoa.eus
+16/11/2026 23:55:48
+Forma de abono
+En la cuenta de la persona beneficiaria designada en la solicitud, a mes vencido.
+INICIO Y SOLICITUD
+Formularios y modelos a presentar
+¡MUY IMPORTANTE! El impreso disponible a continuación está sólo a efectos informativos. La solicitud tiene que realizarse desde los Servicios
+Sociales del Ayuntamiento concertando una cita con el/la trabajador/a social de referencia.
+Impreso de solicitud
+Documentación a aportar
+1.- DNI o NIE de la persona solicitante.
+2.- Certificados de padrón. Se deben acreditar 5/10 años (discapacidad/jubilación) de empadronamiento en el Estado español (no es necesario
+aportar los certificados de padrón de períodos de residencia en Gipuzkoa).
+3.- Ingresos: declaración de la previsión de ingresos para el año en curso: alquileres, intereses de capital, ingresos percibidos del extranjero,…
+4.-Justificante bancario o fotocopia de la libreta de la cuenta donde se desea percibir la pensión. La cuenta debe estar a nombre de la persona
+solicitante.
+5.- Personas nacidas en el extranjero: certificado de períodos de residencia legal en el Estado, expedido por Extranjería. Se deben acreditar
+5/10 años (discapacidad/jubilación) de residencia legal.
+6.- Personas separadas-Divorciadas: fotocopia de la sentencia de separación, y en su caso, convenio regulador.
+7.- Personas incapacidad judicialmente: documento que acredite el nombramiento de quien tiene la tutela.
+8.- Cuando la persona titular resida con familiares (cónyuge, hijos, nietos, padres, abuelos y hermanos), entonces se deberán aportar también:
+8.1.- Copia del DNI o NIE de dichos familiares.
+8.2.- Previsión de ingresos anuales de dichos familiares.
+Modalidades de solicitud
+» Presencial
+Oficinas de atención presencial
+La solicitud se presentará ante los Servicios Sociales del Ayuntamiento de residencia del solicitante.
+RESOLUCIÓN
+Plazo máximo de resolución
+3 meses.
+Efectos del silencio administrativo
+Desestimatorio
+Se informa mediante
+» Correo postal
+NORMATIVA
+Real Decreto 357/1991, que desarrolla la Ley 26/1990 sobre pensiones no contributivas de la Seguridad Social (actualizado)
+Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el Texto Refundido de la Ley General de la Seguridad Social.(art. 363-373)
+Orden PRE/3113/2009, de 13 de noviembre, por la que se dictan normas de aplicación y desarrollo del Real Decreto 357/1991.
+INFORMACIÓN COMPLEMENTARIA
+Observaciones
+-La pensión no contributiva resulta incompatible con las siguientes ayudas:
+1.- Fondo de Bienestar Social.
+https://egoitza.gipuzkoa.eus
+16/11/2026 23:55:48
+2.- Subsidio de Garantía de Ingresos Mínimos y Ayuda de Tercera Persona de la Ley de Integración Social de Minusválidos.
+3.- Si el pensionista de PNC es causante de la asignación económica por hijo a cargo.
+-Las personas beneficiarias adquieren entre otras las siguientes OBLIGACIONES:
+- Comunicar cualquier cambio que pueda afectar al derecho de percibir esta pensión o a la modificación de su importe, en un plazo máximo de 30
+días.
+- Presentar anualmente una declaración de ingresos.
+- Devolver los importes indebidamente percibidos.
+Información adicional
+- Rentas o ingresos computables: bienes o derechos que disponga anualmente la persona perceptora o la unidad económica de convivencia,
+derivados tanto del trabajo como del capital, así como cualesquiera sustitutivos de aquellos, computándose por su importe bruto.
+- Para tener derecho a la pensión, las rentas o ingresos propios de la persona perceptora no pueden superar el importe anual de la pensión (para el
+año 2026, 8.803,20 €). En el caso de que tenga derecho a la pensión, la cuantía de la misma se reduce en un importe igual a los ingresos propios,
+considerados en cómputo anual, para no superar dicho límite, salvo en un 35% del importe máximo de la pensión.
+- Si la persona perceptora se encuentra inserta en una unidad de convivencia con cónyuge y/o familiares de hasta 2º grado de consanguinidad o
+adopción, la suma de las rentas o ingresos de todos los miembros del conjunto no puede superar el límite de acumulación de recursos establecido,
+conforme al siguiente cuadro:
+Límite máximo de ingresos para ser beneficiarios según el número de familiares que conviven:
+• Nº de miembros de la unidad convivencial: 2
+Solicitante vive con algún descendiente, padre o madre: 37.413,60 €
+Solicitante vive con otros familiares: 14.965,44 €
+• Nº de miembros de la unidad convivencial: 3
+Solicitante vive con algún descendiente, padre o madre: 52.819,20 €
+Solicitante vive con otros familiares: 21.127,68 €
+• Nº de miembros de la unidad convivencial: 4
+Solicitante vive con algún descendiente, padre o madre: 68.224,80 €
+Solicitante vive con otros familiares: 27.289,92 €
+• Nº de miembros de la unidad convivencial: 5
+Solicitante vive con algún descendiente, padre o madre: 83.630,40 €
+Solicitante vive con otros familiares: 33.452,16 €
+• Nº de miembros de la unidad convivencial: 6
+Solicitante vive con algún descendiente, padre o madre: 99.036,00 €
+Solicitante vive con otros familiares: 39.614,40 €
+La cuantía de la pensión se reduce en un importe igual a los ingresos del conjunto, considerados en cómputo anual, para no superar dichos límites.
+https://egoitza.gipuzkoa.eus
+16/11/2026 23:55:48
