@@ -106,8 +106,8 @@
  },
  {
   "id": "opendata",
-  "titulo": "Seguir la solicitud de acceso a Open Data Euskadi",
-  "detalle": "Está pedida y sin respuesta. Si en unos días no contestan, conviene reclamarla por su formulario de contacto. Cuando llegue, avísame y quito el modo «navegador».",
+  "titulo": "Pedir acceso a Open Data Euskadi",
+  "detalle": "La solicitud de acceso a Open Data Euskadi todavía no está presentada: falta pedirla. Cuando se presente, esta tarea pasará a «Seguir la solicitud».",
   "fuente": "Gobierno Vasco",
   "quien": "Tú",
   "prioridad": 1,

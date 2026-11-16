@@ -4,8 +4,8 @@
   "nota": "Concurso #EuropaSeSiente 2026 de la Secretaría General de Fondos Europeos (premios de difusión, sin dotación de ayuda); el plazo de candidaturas cerró el 12/06/2026 según la nota de Hacienda https://www.hacienda.gob.es/es-es/prensa/noticias/noticiaspdf/613.pdf"
  },
  "eus-ayuda-subvencion-2026-260528mscaraisedoktoregoa": {
-  "accion": "añadida",
-  "nota": "Anuncia la convocatoria MSCA Doctoral Networks 2026 (incluye las redes RAISE de IA en la ciencia, HORIZON-RAISE-2026-01-03), abierta del 28/05/2026 al 24/11/2026 según REA (https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions/msca-doctoral-networks_en); no estaba en ayudas.json → extra-msca-dn-2026"
+  "accion": "no_es_ayuda",
+  "nota": "Anuncia la convocatoria MSCA Doctoral Networks 2026 (HORIZON-MSCA-2026-DN-01-01), que solo se pide en consorcio internacional de investigación: no_es_ayuda según el criterio del 15/11/2026 sobre convocatorias europeas (decisión del responsable, 16/11/2026; antes se añadió como extra-msca-dn-2026, ya retirada)."
  },
  "eus-ayuda-subvencion-2026-cefmugazgaindikoberriztag": {
   "accion": "no_es_ayuda",
