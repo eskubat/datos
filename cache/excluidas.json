@@ -358,5 +358,20 @@
   "parecidaA": "ue-crea-media-2027-tvonline-1",
   "motivo": "Misma convocatoria Europa Creativa MEDIA «TV and online content» (cierre 10/02/2027), partida en tres topics con texto idéntico: animación (TVONLINE-1), documental (TVONLINE-2) y ficción (TVONLINE-3).",
   "fecha": "2026-11-16"
+ },
+ "ara-ayudas-directas-para-el-transporte-terrestre-por-carretera-p": {
+  "parecidaA": "ara-01609002",
+  "motivo": "Las dos son ayudas al gasóleo de transportistas por carretera de la Diputación Foral de Álava con el mismo texto de la sede; esta es la del RDL 7/2026 (abierta del 1/5 al 31/12/2026) y ara-01609002 / ara-01630001 son las del RDL 18 y RDL 25/2026, ya apartadas.",
+  "fecha": "2026-11-16"
+ },
+ "ara-01122001": {
+  "parecidaA": "ara-ays-monte-plafor",
+  "motivo": "Mismo título («Ayudas forestales») y mismo organismo (Diputación Foral de Álava): dos fichas de la sede (códigos 01122001 y AYS-MONTE-PLAFOR) del mismo plan de ayudas forestales; la ficha oficial de ninguna tiene contenido que las distinga.",
+  "fecha": "2026-11-16"
+ },
+ "ara-ays-monte-plafor": {
+  "parecidaA": "ara-01122001",
+  "motivo": "Mismo título («Ayudas forestales») y mismo organismo (Diputación Foral de Álava): dos fichas de la sede (códigos AYS-MONTE-PLAFOR y 01122001) del mismo plan de ayudas forestales; la ficha oficial de ninguna tiene contenido que las distinga.",
+  "fecha": "2026-11-16"
  }
 }
