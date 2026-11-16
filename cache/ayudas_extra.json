@@ -204,5 +204,23 @@
       "empresa",
       "autonomo"
     ]
+  },
+  {
+    "id": "extra-amaltea-2nd-open-call",
+    "titulo": "AMALTEA 2nd Open Call - Call for SMEs & Start-ups: Innovative Solutions for Sustainable Construction",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/45704318",
+    "fuente": "Funding & Tenders Portal",
+    "organismo": "Unión Europea",
+    "ambito": {
+      "nivel": "ue"
+    },
+    "inicio": "2026-11-04",
+    "fin": "2027-01-27",
+    "resumen": "Segunda convocatoria abierta del proyecto europeo AMALTEA para pymes y start-ups con soluciones innovadoras de software o hardware para fachadas de muro cortina en la construcción sostenible. Se solicita al proyecto AMALTEA (https://opportunities.getonepass.eu/open-opportunities/amaltea/2nd-opencall).",
+    "dirigido": "Pymes y start-ups",
+    "para": [
+      "empresa"
+    ],
+    "noticia": "eus-ayuda-subvencion-2026-260622urjauzikopartzuergo"
   }
 ]
