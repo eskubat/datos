@@ -185,5 +185,24 @@
     "para": [
       "particular"
     ]
+  },
+  {
+    "id": "extra-onati-contratacion-desempleados-2026",
+    "titulo": "Subvenciones para la contratación de personas desempleadas",
+    "url": "https://www.oñati.eus/es/tramites/subvenciones/subvenciones-gestionadas-por-el-departamento-de-socioeconomia?set_language=es",
+    "fuente": "oñati.eus",
+    "organismo": "Ayuntamiento de Oñati",
+    "ambito": {
+      "nivel": "municipio",
+      "nombre": "Oñati"
+    },
+    "inicio": "",
+    "fin": "2026-11-30",
+    "resumen": "Subvenciones del Departamento de Socioeconomía del Ayuntamiento de Oñati para la contratación de personas desempleadas. Se subvencionan contratos iniciados entre el 1 de julio de 2025 y el 30 de junio de 2026; las solicitudes se presentan hasta el 30 de noviembre de 2026.",
+    "dirigido": "Quienes hayan contratado a personas desempleadas en ese periodo (según las bases reguladoras).",
+    "para": [
+      "empresa",
+      "autonomo"
+    ]
   }
 ]
