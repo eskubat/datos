@@ -409,6 +409,9 @@ button.lg{cursor:pointer} button.lg:hover{text-decoration:underline}
 .proy .vb .vt{display:block;font:700 11px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
 .proy > .flujo > section > .vb{padding:10px 12px;background:var(--bg);border-radius:8px;font-size:14px}
 .swatches{display:flex;flex-wrap:wrap;gap:10px} .swatches span{display:flex;align-items:center;gap:6px;font-size:13px} .swatches i{width:20px;height:20px;border-radius:5px;border:1px solid var(--line)} .swatches small{color:var(--muted)}
+.pctrl{display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap} .lnk.mut{color:var(--muted)}
+.plan.acu .plan-i{grid-template-columns:1fr auto} .plan.acu .plan-i.aprobado span:first-child,.plan.acu .plan-i.hecho span:first-child{color:var(--muted)}
+.dzh{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:6px} .dzh h3{margin:0}
 .lista-s{margin:0;padding-left:18px;line-height:1.6}
 .lflujo{max-width:1180px}
 .lgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
@@ -1232,20 +1235,28 @@ function renderMejora(){
 
 
 /* ================= PROYECTO ESKUBAT ================= */
-const PTABS=[["plan","Plan"],["plazos","Plazos"],["presupuesto","Presupuesto"],["marca","Marca"],["diseno","Diseño"],["desarrollo","Desarrollo"],["lanzamiento","Lanzamiento"],["usuarios","Usuarios"],["metricas","Métricas"]];
+const PTABS=[["plan","Plan"],["acuerdos","Acuerdos"],["plazos","Plazos"],["presupuesto","Presupuesto"],["marca","Marca"],["diseno","Diseño"],["desarrollo","Desarrollo"],["lanzamiento","Lanzamiento"],["usuarios","Usuarios"],["metricas","Métricas"]];
 const EST_P={hecha:"Hecha",en_curso:"En curso",pendiente:"Pendiente",bloqueada:"Bloqueada"};
+const EST_A={pendiente:"Por aprobar",aprobado:"Aprobado",hecho:"Hecho"};
+function estA(id){ const o=(S.proy||{})[id]; return o&&o.estado||"pendiente"; }
+async function marcarP(id,estado){ if(!S.db){ setStatus("Sin conexión con la base de datos de la página"); return; } S.proy=S.proy||{}; S.proy[id]={estado,fecha:new Date().toISOString()}; renderDetalle();
+  try{ await S.db.collection("proyecto").doc(id).set({estado,fecha:new Date().toISOString()}); setStatus("Guardado"); }catch(e){ setStatus("No se pudo guardar ("+(e&&e.code||"error")+")"); } }
+function ctrlA(id){ const e=estA(id); return `<span class="pctrl"><span class="chip ${e==="hecho"?"aplicada":e==="aprobado"?"lista":""}">${EST_A[e]}</span>${e!=="aprobado"?`<button class="lnk" data-pm="${id}" data-pe="aprobado">Aprobar</button>`:""}${e!=="hecho"?`<button class="lnk" data-pm="${id}" data-pe="hecho">Hecho</button>`:""}${e!=="pendiente"?`<button class="lnk mut" data-pm="${id}" data-pe="pendiente">Deshacer</button>`:""}</span>`; }
 function tareasP(){ const P=D.proyecto||{}; return (P.fases||[]).flatMap(f=>f.tareas.map(t=>({...t,fase:f.nombre}))); }
-function estadoTP(t){ if(t.auto==="fichas"){ const n=D.ayudas.length, r=D.ayudas.filter(a=>a.ficha).length; return r>=n&&n?"hecha":"en_curso"; } return t.estado; }
+function estadoTP(t){ const o=(S.proy||{})[t.id]; if(o&&o.estado) return o.estado; if(t.auto==="fichas"){ const n=D.ayudas.length, r=D.ayudas.filter(a=>a.ficha).length; return r>=n&&n?"hecha":"en_curso"; } return t.estado; }
 function renderProyecto(){
   const P=D.proyecto||{}, k=S.pTab||"plan", obj=new Date((P.objetivo||"2027-03-01")+"T00:00:00");
-  const dias=Math.ceil((obj-hoy())/864e5), T=tareasP(), hechas=T.filter(t=>estadoTP(t)==="hecha").length;
+  const dias=Math.ceil((obj-hoy())/864e5), T=tareasP(), hechas=T.filter(t=>estadoTP(t)==="hecha").length, AC=P.acuerdos||[], acOk=AC.filter(a=>estA(a.id)!=="pendiente").length;
   const faseAct=(P.fases||[]).find(f=>f.estado==="en_curso")||(P.fases||[])[0]||{};
   const sig=T.find(t=>estadoTP(t)!=="hecha"&&t.quien==="Tú");
   const pct=T.length?Math.round(hechas*100/T.length):0;
-  const fila=t=>{ const e=estadoTP(t); return `<li class="plan-i ${e}"><span class="chip ${e==="hecha"?"aplicada":e==="en_curso"?"lista":""}">${EST_P[e]||e}</span><div><span class="tl2"><b>${esc(t.t)}</b><span class="quien ${t.quien==="Tú"?"tu":"cl"}">${esc(t.quien)}</span></span>${t.nota?`<span>${esc(t.nota)}</span>`:""}${t.auto==="fichas"?`<span>${num(D.ayudas.filter(a=>a.ficha).length)} de ${num(D.ayudas.length)} revisadas</span>`:""}</div><span class="cuando"></span></li>`; };
+  const fila=t=>{ const e=estadoTP(t); return `<li class="plan-i ${e}"><span class="chip ${e==="hecha"?"aplicada":e==="en_curso"?"lista":""}">${EST_P[e]||e}</span><div><span class="tl2"><b>${esc(t.t)}</b><span class="quien ${t.quien==="Tú"?"tu":"cl"}">${esc(t.quien)}</span></span>${t.nota?`<span>${esc(t.nota)}</span>`:""}${t.auto==="fichas"?`<span>${num(D.ayudas.filter(a=>a.ficha).length)} de ${num(D.ayudas.length)} revisadas</span>`:""}</div><span class="cuando">${t.id?(e==="hecha"?`<button class="lnk mut" data-pm="${t.id}" data-pe="pendiente">Reabrir</button>`:`<button class="lnk ej" data-pm="${t.id}" data-pe="hecha">Marcar hecha</button>`):""}</span></li>`; };
   const cuerpo={
     plan:()=>(P.fases||[]).map(f=>{ const n=f.tareas.length, h=f.tareas.filter(t=>estadoTP(t)==="hecha").length;
       return `<details class="acord" ${f.estado!=="hecha"?"open":""}><summary><div class="acs"><h3>${esc(f.nombre)} <span class="cnt">${h}/${n}</span></h3><div class="acst"><span class="prox">${fmtFecha(f.inicio)} → ${fmtFecha(f.fin)} · ${EST_P[f.estado]||f.estado}</span></div></div><span class="acf">▾</span></summary><div class="acb"><ul class="plan">${f.tareas.map(fila).join("")}</ul></div></details>`; }).join(""),
+    acuerdos:()=>{ const G={}; (P.acuerdos||[]).forEach(a=>(G[a.grupo]=G[a.grupo]||[]).push(a)); const n=(P.acuerdos||[]).length, ok=(P.acuerdos||[]).filter(a=>estA(a.id)!=="pendiente").length;
+      return `<section class="card"><h3>Lo acordado hasta ahora</h3><p class="hint" style="margin:0">Todo lo que hemos decidido en las conversaciones. Márcalo como <b>Aprobado</b> si lo das por bueno o <b>Hecho</b> si ya está en marcha. ${ok} de ${n} revisados.</p></section>
+      ${Object.entries(G).map(([g,L])=>`<section class="card"><h3>${esc(g)} <span class="cnt">${L.filter(a=>estA(a.id)!=="pendiente").length}/${L.length}</span></h3><ul class="plan acu">${L.map(a=>`<li class="plan-i ${estA(a.id)}"><div><span>${esc(a.t)}</span></div><span class="cuando">${ctrlA(a.id)}</span></li>`).join("")}</ul></section>`).join("")}`; },
     plazos:()=>{ const F=P.fases||[]; if(!F.length) return ""; const t0=new Date(Math.min(...F.map(f=>+new Date(f.inicio)))), t1=obj, tot=t1-t0, x=d=>Math.max(0,Math.min(100,(new Date(d)-t0)/tot*100));
       const meses=[]; for(let d=new Date(t0.getFullYear(),t0.getMonth(),1); d<=t1; d=new Date(d.getFullYear(),d.getMonth()+1,1)) if(d>=t0) meses.push(d);
       return `<section class="card"><h3>Calendario hasta el ${fmtFecha(P.objetivo)}</h3><div class="gantt">
@@ -1264,7 +1275,10 @@ function renderProyecto(){
       <div class="vb"><span class="vt">Tipografía</span>${esc(M.tipografia||"")}</div><div class="vb"><span class="vt">Idiomas</span>${esc(M.idiomas||"")}</div></div>
       <div class="vb"><span class="vt">Tono</span>${esc(M.tono||"")}</div></section>`; },
     diseno:()=>{ const Dz=P.diseno||{}; const ab=S.docs.filter(d=>areaDe(d)==="eskubat"&&["abierta","lista"].includes(d.estado||"abierta"));
-      return `<section class="card"><h3>Pantallas</h3><ul class="lista-s">${(Dz.pantallas||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul></section>
+      return `${(P.disenos||[]).map(x=>`<section class="card"><div class="dzh"><h3>${esc(x.t)}</h3><a class="btn" href="${esc(x.url)}" target="_blank" rel="noopener">Abrir el lienzo ↗</a></div>
+        <ul class="plan acu">${(x.piezas.length?x.piezas:[[x.id,x.t]]).map(([id,n])=>`<li class="plan-i ${estA(id)}"><div><span>${esc(n)}</span></div><span class="cuando">${ctrlA(id)}</span></li>`).join("")}</ul></section>`).join("")}
+      <p class="hint" style="margin:-4px 0 0">Para tener el diseño en PDF: abre el lienzo y usa Exportar → PDF. Si me pasas el PDF, lo adjunto aquí.</p>
+      <section class="card"><h3>Pantallas previstas</h3><ul class="lista-s">${(Dz.pantallas||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul></section>
       <section class="card"><h3>Decisiones tomadas</h3><ul class="lista-s">${(Dz.decisiones||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul></section>
       <section class="card"><h3>Cuestiones de la app y su diseño</h3>${ab.length?`<ul class="plan">${ab.map(d=>`<li class="plan-i clic" data-vc="${esc(d._id)}"><span class="chip">${d.estado==="lista"?"Decidida":"Abierta"}</span><div><b>${esc(d.titulo||"")}</b><span>${esc((d.motivo||"").slice(0,200))}</span></div><span class="cuando"></span></li>`).join("")}</ul>`:`<p class="hint" style="margin:0">Ninguna abierta. Cuéntaselas a «Pedir a Claude» y se apuntan aquí.</p>`}</section>`; },
     desarrollo:()=>{ const Dv=P.desarrollo||{}, F=(P.fases||[]).find(f=>f.id==="app");
@@ -1282,9 +1296,10 @@ function renderProyecto(){
     <div class="flujo pcont">
       <section class="card estado-rev"><div class="er-top"><div class="big">${ico("reloj")}<div><div class="tl">Faltan para publicar (${fmtFecha(P.objetivo)})</div><div class="tn">${dias>0?`${num(dias)} días`:"Publicada"}</div>
         <div class="hint">Fase actual: <b>${esc(faseAct.nombre||"")}</b>${sig?` · Lo siguiente tuyo: <b>${esc(sig.t)}</b>`:""}</div></div></div>
-        <div><div class="tl">Avance del plan</div><div class="pbar"><span style="width:${pct}%"></span></div><div class="hint">${hechas} de ${T.length} tareas hechas · ${esc(P.equipo||"")}</div></div></div></section>
+        <div><div class="tl">Avance del plan</div><div class="pbar"><span style="width:${pct}%"></span></div><div class="hint">${hechas} de ${T.length} tareas hechas · ${acOk} de ${AC.length} acuerdos aprobados · ${esc(P.equipo||"")}</div></div></div></section>
       ${cuerpo[k]?cuerpo[k]():""}</div></div>`;
   $("#detalle").querySelectorAll("[data-pt]").forEach(b=>b.onclick=()=>{ S.pTab=b.dataset.pt; renderProyecto(); });
+  $("#detalle").querySelectorAll("[data-pm]").forEach(b=>b.onclick=(ev)=>{ ev.stopPropagation(); marcarP(b.dataset.pm,b.dataset.pe); });
 }
 /* ================= ASISTENTE (Pedir a Claude) ================= */
 const ASIS={msgs:[],log:[],ocupado:false};
@@ -1429,6 +1444,7 @@ cambiarVista(vIni||"w"); setStatus(textoDatos());
     S.docs=snap.docs.map(x=>({_id:x.id,...x.data()}));
     renderLista(); if(!editando) renderDetalle();
   },err=>{ clearTimeout(t); setStatus("Conexión perdida ("+err.code+"). Recarga la página."); });
+  db.collection("proyecto").onSnapshot(snap=>{ S.proy=Object.fromEntries(snap.docs.map(x=>[x.id,x.data()])); if(["w","e"].includes(S.vista)) renderDetalle(); },()=>{});
   db.collection("peticiones").onSnapshot(snap=>{ S.peticiones=Object.fromEntries(snap.docs.map(x=>[x.id,x.data()])); if(["w","f","v","b","m"].includes(S.vista)&&!document.activeElement?.matches?.("textarea")) renderDetalle(); },()=>{});
   try{ S.sample=await claude.use("sample"); }catch{ S.sample=null; }
   try{ S.mcp=await claude.use("mcp"); }catch{ S.mcp=null; }

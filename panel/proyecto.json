@@ -3,63 +3,572 @@
  "meta": "Publicar Eskubat en App Store y Google Play, en castellano y euskera, con todas las ayudas de Euskadi (Gobierno Vasco, diputaciones, ayuntamientos, Estado, UE y fundaciones).",
  "equipo": "Tú con Claude",
  "fases": [
-  {"id":"diseno","nombre":"Diseño","inicio":"2026-11-01","fin":"2026-12-13","estado":"en_curso","tareas":[
-   {"t":"Nombre y logo","quien":"Tú","estado":"hecha","nota":"Eskubat (de «esku bat eman»), logo B; alternativa U guardada."},
-   {"t":"Contenido de cada ayuda: 5 apartados","quien":"Tú","estado":"hecha","nota":"Quién la convoca, En qué consiste, Cuánto puede recibir, Quién puede pedirla, Requisitos."},
-   {"t":"Pantallas: inicio, búsqueda y filtros, ficha, guardadas","quien":"Claude","estado":"en_curso"},
-   {"t":"Colores, tipografía y componentes (sistema de diseño)","quien":"Claude","estado":"pendiente"},
-   {"t":"Revisar y aprobar el diseño","quien":"Tú","estado":"pendiente"}]},
-  {"id":"datos","nombre":"Datos listos","inicio":"2026-11-01","fin":"2026-12-20","estado":"en_curso","tareas":[
-   {"t":"Fichas revisadas de todas las ayudas","quien":"Claude","estado":"en_curso","auto":"fichas"},
-   {"t":"Fuentes: Gobierno Vasco, diputaciones, municipios, Estado, UE y fundaciones","quien":"Claude","estado":"en_curso","nota":"Plan de mejoras en Mejora continua."},
-   {"t":"Textos en euskera revisados","quien":"Claude","estado":"pendiente"}]},
-  {"id":"app","nombre":"App funcional","inicio":"2026-12-14","fin":"2027-01-31","estado":"pendiente","tareas":[
-   {"t":"Lectura de los datos publicados (eskubat/datos)","quien":"Claude","estado":"pendiente"},
-   {"t":"Búsqueda y filtros por tipo de solicitante, tema y lugar","quien":"Claude","estado":"pendiente"},
-   {"t":"Ficha de la ayuda con enlace a la convocatoria oficial","quien":"Claude","estado":"pendiente"},
-   {"t":"Castellano y euskera","quien":"Claude","estado":"pendiente"},
-   {"t":"Guardar ayudas y avisos de cierre","quien":"Claude","estado":"pendiente"},
-   {"t":"Probar cada versión en el iPhone con Expo Go","quien":"Tú","estado":"pendiente"}]},
-  {"id":"pruebas","nombre":"Pruebas","inicio":"2027-01-18","fin":"2027-02-14","estado":"pendiente","tareas":[
-   {"t":"Pagar la cuenta de Google Play y crear la ficha","quien":"Tú","estado":"pendiente","nota":"Hace falta antes de la prueba cerrada."},
-   {"t":"Prueba cerrada en Android: 12 personas durante 14 días","quien":"Tú","estado":"pendiente","nota":"Requisito de Google para cuentas personales antes de publicar."},
-   {"t":"Pruebas con personas reales (particulares, autónomos, asociaciones)","quien":"Tú","estado":"pendiente"},
-   {"t":"Corregir lo que salga de las pruebas","quien":"Claude","estado":"pendiente"}]},
-  {"id":"publicacion","nombre":"Publicación","inicio":"2027-02-01","fin":"2027-03-01","estado":"pendiente","tareas":[
-   {"t":"Pagar la cuenta de Apple Developer","quien":"Tú","estado":"pendiente"},
-   {"t":"Fichas de tienda: textos, capturas e icono (es y eu)","quien":"Claude","estado":"pendiente"},
-   {"t":"Política de privacidad y aviso legal","quien":"Claude","estado":"pendiente"},
-   {"t":"Enviar a revisión de Apple y Google","quien":"Tú","estado":"pendiente"},
-   {"t":"Publicación","quien":"Tú","estado":"pendiente"}]}
+  {
+   "id": "diseno",
+   "nombre": "Diseño",
+   "inicio": "2026-11-01",
+   "fin": "2026-12-13",
+   "estado": "en_curso",
+   "tareas": [
+    {
+     "t": "Nombre y logo",
+     "quien": "Tú",
+     "estado": "hecha",
+     "nota": "Eskubat (de «esku bat eman»), logo B; alternativa U guardada.",
+     "id": "diseno-1"
+    },
+    {
+     "t": "Contenido de cada ayuda: 5 apartados",
+     "quien": "Tú",
+     "estado": "hecha",
+     "nota": "Quién la convoca, En qué consiste, Cuánto puede recibir, Quién puede pedirla, Requisitos.",
+     "id": "diseno-2"
+    },
+    {
+     "t": "Pantallas: inicio, búsqueda y filtros, ficha, guardadas",
+     "quien": "Claude",
+     "estado": "en_curso",
+     "id": "diseno-3"
+    },
+    {
+     "t": "Colores, tipografía y componentes (sistema de diseño)",
+     "quien": "Claude",
+     "estado": "pendiente",
+     "id": "diseno-4"
+    },
+    {
+     "t": "Revisar y aprobar el diseño",
+     "quien": "Tú",
+     "estado": "pendiente",
+     "id": "diseno-5"
+    }
+   ]
+  },
+  {
+   "id": "datos",
+   "nombre": "Datos listos",
+   "inicio": "2026-11-01",
+   "fin": "2026-12-20",
+   "estado": "en_curso",
+   "tareas": [
+    {
+     "t": "Fichas revisadas de todas las ayudas",
+     "quien": "Claude",
+     "estado": "en_curso",
+     "auto": "fichas",
+     "id": "datos-1"
+    },
+    {
+     "t": "Fuentes: Gobierno Vasco, diputaciones, municipios, Estado, UE y fundaciones",
+     "quien": "Claude",
+     "estado": "en_curso",
+     "nota": "Plan de mejoras en Mejora continua.",
+     "id": "datos-2"
+    },
+    {
+     "t": "Textos en euskera revisados",
+     "quien": "Claude",
+     "estado": "pendiente",
+     "id": "datos-3"
+    }
+   ]
+  },
+  {
+   "id": "app",
+   "nombre": "App funcional",
+   "inicio": "2026-12-14",
+   "fin": "2027-01-31",
+   "estado": "pendiente",
+   "tareas": [
+    {
+     "t": "Lectura de los datos publicados (eskubat/datos)",
+     "quien": "Claude",
+     "estado": "pendiente",
+     "id": "app-1"
+    },
+    {
+     "t": "Búsqueda y filtros por tipo de solicitante, tema y lugar",
+     "quien": "Claude",
+     "estado": "pendiente",
+     "id": "app-2"
+    },
+    {
+     "t": "Ficha de la ayuda con enlace a la convocatoria oficial",
+     "quien": "Claude",
+     "estado": "pendiente",
+     "id": "app-3"
+    },
+    {
+     "t": "Castellano y euskera",
+     "quien": "Claude",
+     "estado": "pendiente",
+     "id": "app-4"
+    },
+    {
+     "t": "Guardar ayudas y avisos de cierre",
+     "quien": "Claude",
+     "estado": "pendiente",
+     "id": "app-5"
+    },
+    {
+     "t": "Probar cada versión en el iPhone con Expo Go",
+     "quien": "Tú",
+     "estado": "pendiente",
+     "id": "app-6"
+    }
+   ]
+  },
+  {
+   "id": "pruebas",
+   "nombre": "Pruebas",
+   "inicio": "2027-01-18",
+   "fin": "2027-02-14",
+   "estado": "pendiente",
+   "tareas": [
+    {
+     "t": "Pagar la cuenta de Google Play y crear la ficha",
+     "quien": "Tú",
+     "estado": "pendiente",
+     "nota": "Hace falta antes de la prueba cerrada.",
+     "id": "pruebas-1"
+    },
+    {
+     "t": "Prueba cerrada en Android: 12 personas durante 14 días",
+     "quien": "Tú",
+     "estado": "pendiente",
+     "nota": "Requisito de Google para cuentas personales antes de publicar.",
+     "id": "pruebas-2"
+    },
+    {
+     "t": "Pruebas con personas reales (particulares, autónomos, asociaciones)",
+     "quien": "Tú",
+     "estado": "pendiente",
+     "id": "pruebas-3"
+    },
+    {
+     "t": "Corregir lo que salga de las pruebas",
+     "quien": "Claude",
+     "estado": "pendiente",
+     "id": "pruebas-4"
+    }
+   ]
+  },
+  {
+   "id": "publicacion",
+   "nombre": "Publicación",
+   "inicio": "2027-02-01",
+   "fin": "2027-03-01",
+   "estado": "pendiente",
+   "tareas": [
+    {
+     "t": "Pagar la cuenta de Apple Developer",
+     "quien": "Tú",
+     "estado": "pendiente",
+     "id": "publicacion-1"
+    },
+    {
+     "t": "Fichas de tienda: textos, capturas e icono (es y eu)",
+     "quien": "Claude",
+     "estado": "pendiente",
+     "id": "publicacion-2"
+    },
+    {
+     "t": "Política de privacidad y aviso legal",
+     "quien": "Claude",
+     "estado": "pendiente",
+     "id": "publicacion-3"
+    },
+    {
+     "t": "Enviar a revisión de Apple y Google",
+     "quien": "Tú",
+     "estado": "pendiente",
+     "id": "publicacion-4"
+    },
+    {
+     "t": "Publicación",
+     "quien": "Tú",
+     "estado": "pendiente",
+     "id": "publicacion-5"
+    }
+   ]
+  }
  ],
  "presupuesto": [
-  {"concepto":"Apple Developer Program","importe":99,"moneda":"USD","periodo":"al año","cuando":"Febrero 2027","estado":"pendiente"},
-  {"concepto":"Google Play Console","importe":25,"moneda":"USD","periodo":"una vez","cuando":"Enero 2027","estado":"pendiente"},
-  {"concepto":"Dominio de la web (eskubat.eus o similar)","importe":null,"moneda":"EUR","periodo":"al año","cuando":"Antes de publicar","estado":"pendiente","nota":"Precio por confirmar."},
-  {"concepto":"Expo (EAS) para compilar","importe":0,"moneda":"USD","periodo":"","cuando":"","estado":"en uso","nota":"Plan gratuito por ahora."},
-  {"concepto":"GitHub (repositorios y Codespaces)","importe":0,"moneda":"USD","periodo":"","cuando":"","estado":"en uso","nota":"Plan gratuito."}
+  {
+   "concepto": "Apple Developer Program",
+   "importe": 99,
+   "moneda": "USD",
+   "periodo": "al año",
+   "cuando": "Febrero 2027",
+   "estado": "pendiente"
+  },
+  {
+   "concepto": "Google Play Console",
+   "importe": 25,
+   "moneda": "USD",
+   "periodo": "una vez",
+   "cuando": "Enero 2027",
+   "estado": "pendiente"
+  },
+  {
+   "concepto": "Dominio de la web (eskubat.eus o similar)",
+   "importe": null,
+   "moneda": "EUR",
+   "periodo": "al año",
+   "cuando": "Antes de publicar",
+   "estado": "pendiente",
+   "nota": "Precio por confirmar."
+  },
+  {
+   "concepto": "Expo (EAS) para compilar",
+   "importe": 0,
+   "moneda": "USD",
+   "periodo": "",
+   "cuando": "",
+   "estado": "en uso",
+   "nota": "Plan gratuito por ahora."
+  },
+  {
+   "concepto": "GitHub (repositorios y Codespaces)",
+   "importe": 0,
+   "moneda": "USD",
+   "periodo": "",
+   "cuando": "",
+   "estado": "en uso",
+   "nota": "Plan gratuito."
+  }
  ],
  "marca": {
-  "nombre":"Eskubat","origen":"De «esku bat eman»: echar una mano.","logo":"Logo B: mano que recoge, con ondas.","alternativa":"Logo U: círculo de manos (dos trazos, blanco y naranja).",
-  "colores":[["Verde Eskubat","#0f6b54"],["Naranja","#c2621a"],["Fondo","#f4f5f3"],["Texto","#1c2a24"]],
-  "tipografia":"Sans serif.","tono":"Textos prácticos y objetivos, que no suenen a IA. Ortografía corregida aunque la fuente tenga errores.","idiomas":"Castellano y euskera."
+  "nombre": "Eskubat",
+  "origen": "De «esku bat eman»: echar una mano.",
+  "logo": "Logo B: mano que recoge, con ondas.",
+  "alternativa": "Logo U: círculo de manos (dos trazos, blanco y naranja).",
+  "colores": [
+   [
+    "Verde Eskubat",
+    "#0f6b54"
+   ],
+   [
+    "Naranja",
+    "#c2621a"
+   ],
+   [
+    "Fondo",
+    "#f4f5f3"
+   ],
+   [
+    "Texto",
+    "#1c2a24"
+   ]
+  ],
+  "tipografia": "Sans serif.",
+  "tono": "Textos prácticos y objetivos, que no suenen a IA. Ortografía corregida aunque la fuente tenga errores.",
+  "idiomas": "Castellano y euskera."
  },
  "diseno": {
-  "pantallas":["Inicio: ayudas para ti y que cierran pronto","Búsqueda y filtros","Ficha de la ayuda","Guardadas y avisos","Ajustes: idioma y perfil"],
-  "decisiones":["Cada ayuda tiene 5 apartados: ¿Quién la convoca?, ¿En qué consiste?, ¿Cuánto puede recibir?, ¿Quién puede pedirla? y Requisitos.","«Cuánto puede recibir» es lo que recibe el solicitante, no el presupuesto total.","«Requisitos» solo incluye condiciones que el solicitante debe cumplir: fuera reglas de cómputo de ingresos y compatibilidades.","Una versión de la ficha por tipo de solicitante.","Incluye Gobierno Vasco, diputaciones y ayuntamientos desde la versión 1; también Estado, UE y fundaciones (marcadas como privadas)."]
+  "pantallas": [
+   "Inicio: ayudas para ti y que cierran pronto",
+   "Búsqueda y filtros",
+   "Ficha de la ayuda",
+   "Guardadas y avisos",
+   "Ajustes: idioma y perfil"
+  ],
+  "decisiones": [
+   "Cada ayuda tiene 5 apartados: ¿Quién la convoca?, ¿En qué consiste?, ¿Cuánto puede recibir?, ¿Quién puede pedirla? y Requisitos.",
+   "«Cuánto puede recibir» es lo que recibe el solicitante, no el presupuesto total.",
+   "«Requisitos» solo incluye condiciones que el solicitante debe cumplir: fuera reglas de cómputo de ingresos y compatibilidades.",
+   "Una versión de la ficha por tipo de solicitante.",
+   "Incluye Gobierno Vasco, diputaciones y ayuntamientos desde la versión 1; también Estado, UE y fundaciones (marcadas como privadas)."
+  ]
  },
  "desarrollo": {
-  "repos":[["eskubat/app","Código de la app (privado). Expo, se desarrolla en GitHub Codespaces."],["eskubat/datos","Datos de las ayudas (público). Recolector diario y revisión de Claude."]],
-  "herramientas":["Expo Go en el iPhone (cuenta «eskubat»)","GitHub Codespaces desde el navegador","Claude: código y textos"]
+  "repos": [
+   [
+    "eskubat/app",
+    "Código de la app (privado). Expo, se desarrolla en GitHub Codespaces."
+   ],
+   [
+    "eskubat/datos",
+    "Datos de las ayudas (público). Recolector diario y revisión de Claude."
+   ]
+  ],
+  "herramientas": [
+   "Expo Go en el iPhone (cuenta «eskubat»)",
+   "GitHub Codespaces desde el navegador",
+   "Claude: código y textos"
+  ]
  },
- "lanzamiento":[
-  {"t":"Ficha de App Store y Google Play (es/eu)","estado":"pendiente"},{"t":"Capturas de pantalla","estado":"pendiente"},{"t":"Política de privacidad","estado":"pendiente"},{"t":"Aviso legal","estado":"pendiente"},{"t":"Web sencilla de la app","estado":"pendiente"},{"t":"Primeros usuarios: asociaciones, ayuntamientos, gestorías","estado":"pendiente"}],
+ "lanzamiento": [
+  {
+   "t": "Ficha de App Store y Google Play (es/eu)",
+   "estado": "pendiente"
+  },
+  {
+   "t": "Capturas de pantalla",
+   "estado": "pendiente"
+  },
+  {
+   "t": "Política de privacidad",
+   "estado": "pendiente"
+  },
+  {
+   "t": "Aviso legal",
+   "estado": "pendiente"
+  },
+  {
+   "t": "Web sencilla de la app",
+   "estado": "pendiente"
+  },
+  {
+   "t": "Primeros usuarios: asociaciones, ayuntamientos, gestorías",
+   "estado": "pendiente"
+  }
+ ],
  "usuarios": {
-  "perfiles":[["Particulares","Familias, jóvenes, mayores, personas desempleadas."],["Autónomos","Ayudas para empezar, invertir o contratar."],["Empresas","Pymes: innovación, digitalización, internacionalización."],["Asociaciones","Cultura, deporte, euskera, cooperación."],["Entidades públicas","Ayuntamientos y otras administraciones."]],
-  "pruebas":"Prueba cerrada en Android (12 personas, 14 días) y pruebas con personas de cada perfil."
+  "perfiles": [
+   [
+    "Particulares",
+    "Familias, jóvenes, mayores, personas desempleadas."
+   ],
+   [
+    "Autónomos",
+    "Ayudas para empezar, invertir o contratar."
+   ],
+   [
+    "Empresas",
+    "Pymes: innovación, digitalización, internacionalización."
+   ],
+   [
+    "Asociaciones",
+    "Cultura, deporte, euskera, cooperación."
+   ],
+   [
+    "Entidades públicas",
+    "Ayuntamientos y otras administraciones."
+   ]
+  ],
+  "pruebas": "Prueba cerrada en Android (12 personas, 14 días) y pruebas con personas de cada perfil."
  },
  "metricas": {
-  "antes":["Ayudas publicadas","Fichas revisadas","Fuentes consultadas"],
-  "despues":["Descargas","Usuarios activos por semana","Búsquedas y filtros más usados","Ayudas más vistas y guardadas","Clics a la convocatoria oficial","Valoración en las tiendas"]
- }
+  "antes": [
+   "Ayudas publicadas",
+   "Fichas revisadas",
+   "Fuentes consultadas"
+  ],
+  "despues": [
+   "Descargas",
+   "Usuarios activos por semana",
+   "Búsquedas y filtros más usados",
+   "Ayudas más vistas y guardadas",
+   "Clics a la convocatoria oficial",
+   "Valoración en las tiendas"
+  ]
+ },
+ "acuerdos": [
+  {
+   "id": "m-nombre",
+   "grupo": "Marca",
+   "t": "Nombre: Eskubat (de «esku bat eman», echar una mano). «Laguntza Radar» descartado."
+  },
+  {
+   "id": "m-logo",
+   "grupo": "Marca",
+   "t": "Logo B: mano que recoge, con ondas."
+  },
+  {
+   "id": "m-logo-alt",
+   "grupo": "Marca",
+   "t": "Logo U («círculo de manos») guardado como alternativa."
+  },
+  {
+   "id": "m-tipo",
+   "grupo": "Marca",
+   "t": "Tipografía sans serif."
+  },
+  {
+   "id": "m-tono",
+   "grupo": "Marca",
+   "t": "Textos prácticos y objetivos, que no suenen a IA; ortografía corregida aunque la fuente tenga errores."
+  },
+  {
+   "id": "m-idiomas",
+   "grupo": "Marca",
+   "t": "App en castellano y euskera."
+  },
+  {
+   "id": "c-5",
+   "grupo": "Contenido de cada ayuda",
+   "t": "Cada ayuda tiene 5 apartados: ¿Quién la convoca?, ¿En qué consiste?, ¿Cuánto puede recibir?, ¿Quién puede pedirla? y Requisitos."
+  },
+  {
+   "id": "c-convoca",
+   "grupo": "Contenido de cada ayuda",
+   "t": "«¿Quién la convoca?» muy breve (p. ej. el departamento del Gobierno Vasco)."
+  },
+  {
+   "id": "c-cuanto",
+   "grupo": "Contenido de cada ayuda",
+   "t": "«¿Cuánto puede recibir?»: solo lo que recibe el solicitante, nunca el presupuesto total."
+  },
+  {
+   "id": "c-req",
+   "grupo": "Contenido de cada ayuda",
+   "t": "«Requisitos»: solo condiciones que debe cumplir el solicitante; fuera reglas de cómputo de ingresos y compatibilidades con otras ayudas."
+  },
+  {
+   "id": "c-tipo",
+   "grupo": "Contenido de cada ayuda",
+   "t": "Una versión de la ficha por tipo de solicitante (particulares, autónomos, empresas, asociaciones, entidades públicas)."
+  },
+  {
+   "id": "c-faltan",
+   "grupo": "Contenido de cada ayuda",
+   "t": "Si falta un dato, se busca en el boletín oficial (BOPV, BOB, BOG, BOTHA) antes de dejarlo como «No especificado»."
+  },
+  {
+   "id": "a-v1",
+   "grupo": "Qué ayudas entran",
+   "t": "Versión 1: Gobierno Vasco, las tres diputaciones y los ayuntamientos."
+  },
+  {
+   "id": "a-estado",
+   "grupo": "Qué ayudas entran",
+   "t": "También ayudas del Estado y de la Unión Europea."
+  },
+  {
+   "id": "a-ue",
+   "grupo": "Qué ayudas entran",
+   "t": "Europeas: solo las que puede pedir directamente una persona, pyme, asociación o ayuntamiento vasco, sin consorcio internacional."
+  },
+  {
+   "id": "a-fund",
+   "grupo": "Qué ayudas entran",
+   "t": "Fundaciones y obras sociales (BBK, Kutxa, Vital, «la Caixa»), marcadas como privadas."
+  },
+  {
+   "id": "a-perm",
+   "grupo": "Qué ayudas entran",
+   "t": "Prestaciones permanentes (Ingreso Mínimo Vital, RGI…) como «ayudas permanentes», sin fecha de cierre."
+  },
+  {
+   "id": "a-nomin",
+   "grupo": "Qué ayudas entran",
+   "t": "Fuera las nominativas y las de concesión directa: nadie puede solicitarlas."
+  },
+  {
+   "id": "a-plazo",
+   "grupo": "Qué ayudas entran",
+   "t": "Nunca una ayuda sin página oficial o con el plazo cerrado."
+  },
+  {
+   "id": "d-recol",
+   "grupo": "Cómo se mantienen los datos",
+   "t": "Recolector automático cada día a las 05:41."
+  },
+  {
+   "id": "d-revisor",
+   "grupo": "Cómo se mantienen los datos",
+   "t": "Revisor de datos (Claude) cada hora: fichas, títulos y noticias."
+  },
+  {
+   "id": "d-dudas",
+   "grupo": "Cómo se mantienen los datos",
+   "t": "Claude resuelve las dudas leyendo las fuentes oficiales y solo te pasa decisiones de producto o criterio."
+  },
+  {
+   "id": "d-mejora",
+   "grupo": "Cómo se mantienen los datos",
+   "t": "Responsable de mejora continua: correcciones a en punto y mejoras a y 30; revisión mensual del plan."
+  },
+  {
+   "id": "d-explorador",
+   "grupo": "Cómo se mantienen los datos",
+   "t": "Explorador de fuentes: busca fuentes nuevas cada miércoles."
+  },
+  {
+   "id": "d-opendata",
+   "grupo": "Cómo se mantienen los datos",
+   "t": "Leer euskadi.eus como navegador y, a la vez, pedir acceso a Open Data Euskadi."
+  },
+  {
+   "id": "v-expo",
+   "grupo": "Desarrollo",
+   "t": "App con Expo; pruebas en el iPhone con Expo Go (cuenta «eskubat»)."
+  },
+  {
+   "id": "v-repos",
+   "grupo": "Desarrollo",
+   "t": "Código en eskubat/app (privado, GitHub Codespaces); datos en eskubat/datos (público)."
+  },
+  {
+   "id": "v-directo",
+   "grupo": "Desarrollo",
+   "t": "Probar la app con datos en directo desde ya."
+  },
+  {
+   "id": "v-pagos",
+   "grupo": "Desarrollo",
+   "t": "Dejar los pagos (cuentas de Apple y Google) para cuando hagan falta."
+  },
+  {
+   "id": "v-equipo",
+   "grupo": "Desarrollo",
+   "t": "Lo desarrollas tú con Claude."
+  },
+  {
+   "id": "v-fecha",
+   "grupo": "Desarrollo",
+   "t": "Fecha objetivo de publicación: 1 de marzo de 2027."
+  }
+ ],
+ "disenos": [
+  {
+   "id": "ds-pantallas",
+   "t": "Pantallas de la app",
+   "url": "https://claude.ai/artifact/CyebffEBiPjTW4Wko88eSJ",
+   "piezas": [
+    [
+     "ds-p-main",
+     "Principal"
+    ],
+    [
+     "ds-p-inicio",
+     "Inicio"
+    ],
+    [
+     "ds-p-buscar",
+     "Buscar"
+    ],
+    [
+     "ds-p-ficha",
+     "Ficha de la ayuda"
+    ],
+    [
+     "ds-p-guardadas",
+     "Guardadas"
+    ]
+   ]
+  },
+  {
+   "id": "ds-logo",
+   "t": "Ideas de logo",
+   "url": "https://claude.ai/artifact/NVQJeLBSyGZKtN8FNrfomj",
+   "piezas": [
+    [
+     "ds-l-b",
+     "Logo B (elegido)"
+    ],
+    [
+     "ds-l-u",
+     "Logo U (alternativa)"
+    ]
+   ]
+  },
+  {
+   "id": "ds-proto",
+   "t": "Prototipo",
+   "url": "https://claude.ai/artifact/9H7pm9JMm74t7NNmBcYohA",
+   "piezas": []
+  }
+ ]
 }
