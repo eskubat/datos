@@ -78,6 +78,7 @@ export function parseFicha(html) {
 }
 
 const OD = 'https://opendata.euskadi.eus/contenidos/ds_ayudas_subvenciones';
+export const HISTORICO = /^\s*hist[oó]rico\s*$/i;
 
 function idDe(url) {
   return 'eus-' + norm(String(url).replace(/^https?:\/\/[^/]+/, '').replace(/\/web01-[a-z0-9]+\/es\/?$/, '')).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -94,16 +95,19 @@ export async function recoger(log) {
     try {
       const d = await pedir(`${OD}/${f}/opendata/ayudas.json`, { json: true, navegador: true, timeout: 60000 });
       const arr = Array.isArray(d) ? d : Object.values(d).find(Array.isArray) || [];
-      let n = 0;
+      let n = 0, historicos = 0;
       for (const x of arr) {
         const fin = iso(x.procedureEndDate), inicio = iso(x.procedureStartDate);
         const abierto = /abierto/i.test(x.procedureStatus || '');
+        // Un procedimiento marcado «Histórico» es de una convocatoria pasada: aunque Open Data le ponga
+        // las fechas de la convocatoria nueva, no se publica como abierto (la nueva llega con su propio procedimiento)
+        if (HISTORICO.test(x.procedureStatus || '')) { historicos++; continue; }
         if (!(fin ? fin >= hoy : abierto)) continue;
         if (!x.friendlyUrl && !x.physicalUrl) continue;
         add({ url: x.friendlyUrl || x.physicalUrl, titulo: x.documentName || x.procedureDenomination, inicio, fin: fin && !/^(2099|2100)/.test(fin) ? fin : null, permanente: !!(fin && /^(2099|2100)/.test(fin)), organismo: x.manager || x.department || x.institution, departamento: x.department, estadoTexto: x.procedureStatus });
         n++;
       }
-      log(`Open Data Euskadi ${f}: ${arr.length} procedimientos, ${n} vigentes`);
+      log(`Open Data Euskadi ${f}: ${arr.length} procedimientos, ${n} vigentes, ${historicos} históricos descartados`);
     } catch (e) { log(`Open Data Euskadi ${f}: ${e.message}`); }
   }
 

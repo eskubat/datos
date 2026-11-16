@@ -90,6 +90,8 @@ function unir(eus, bd) {
 }
 
 function estado(a) {
+  // Procedimiento de euskadi.eus marcado «Histórico»: convocatoria pasada, aunque traiga fechas nuevas
+  if (/^\s*hist[oó]rico\s*$/i.test(a.estadoFuente || '')) return 'cerrada';
   if (a.inicio && a.inicio > hoy) return 'proxima';
   if (a.fin && a.fin < hoy) return 'cerrada';
   if (a.fin || a.permanente) return 'abierta';

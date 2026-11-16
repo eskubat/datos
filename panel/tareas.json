@@ -213,9 +213,9 @@
   "seccion": "fuentes",
   "quien": "Claude",
   "prioridad": 3,
-  "estado": "pendiente",
+  "estado": "hecha",
   "fecha": "2026-11-16",
-  "nota": "Añadida al plan de mejoras"
+  "nota": "En publico/ayudas.json había 6 procedimientos de euskadi.eus marcados «Histórico» publicados como abiertos (medicamentos 2025, bono social térmico 2022, Hezibi centros 2024 y 2025, Gauzatu Energía 2022 y la ayuda a huérfanos de víctimas de violencia machista 2024); salvo el último, todos tienen ya su procedimiento vigente en la app. El lector de euskadi.eus descarta ahora los registros de Open Data con estado «Histórico» y index.js da por cerrada cualquier ayuda con ese estado, así que en el recolector de las 05:41 se esperan 6 ayudas menos y ninguna nueva. La red de la sesión no llega a Open Data Euskadi, así que la primera prueba real será el recolector."
  },
  {
   "id": "explorar-bculinary",
@@ -270,6 +270,18 @@
   "seccion": "base",
   "quien": "Claude",
   "prioridad": 11,
+  "estado": "pendiente",
+  "fecha": "2026-11-16",
+  "nota": "Añadida al plan de mejoras"
+ },
+ {
+  "id": "huerfanos-violencia-machista",
+  "titulo": "Buscar el procedimiento vigente de la ayuda a huérfanos de víctimas de violencia machista",
+  "detalle": "El procedimiento de 2024 de euskadi.eus (eus-ayuda-subvencion-2024-ayuda-economica-para-hijas-e-hijos-huerfanas-de-victimas-mortales-de-violencia-machista-contra-las-mujeres) está marcado «Histórico» y deja de publicarse. Es una ayuda permanente: buscar su procedimiento vigente en euskadi.eus y, si no llega por Open Data, añadirlo a cache/prestaciones.json con su página oficial.",
+  "fuente": "Gobierno Vasco",
+  "seccion": "fuentes",
+  "quien": "Claude",
+  "prioridad": 17,
   "estado": "pendiente",
   "fecha": "2026-11-16",
   "nota": "Añadida al plan de mejoras"
