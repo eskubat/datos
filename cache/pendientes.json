@@ -1,5 +1,14 @@
 [
  {
+  "id": "extra-spri-ciberseguridad-industrial-2026",
+  "h": "cf9d45fcb2edfcd4",
+  "titulo": "Programa de ayudas Ciberseguridad Industrial",
+  "organismoSugerido": "spri",
+  "organismoFuente": "SPRI",
+  "archivo": "cache/fuentes/extra-spri-ciberseguridad-industrial-2026-befb04f2.txt",
+  "caracteres": 84051
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
   "h": "b0ecc4da6bcbfe27",
   "titulo": "EDIP, Programa Europeo de la Industria de Defensa",
@@ -3681,15 +3690,6 @@
   "caracteres": 73053
  },
  {
-  "id": "prest-bono-social-electrico",
-  "h": "457c167225849042",
-  "titulo": "Bono social eléctrico para consumidores vulnerables",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Gobierno de España",
-  "archivo": "cache/fuentes/prest-bono-social-electrico-a18ad288.txt",
-  "caracteres": 300000
- },
- {
   "id": "prest-bizkaia-pnc-jubilacion",
   "h": "1f02cf4a3f1d4b07",
   "titulo": "Pensión no contributiva de jubilación (PNC jubilación)",
@@ -3697,6 +3697,15 @@
   "organismoFuente": "Diputación Foral de Bizkaia",
   "archivo": "cache/fuentes/prest-bizkaia-pnc-jubilacion-75b35bd2.txt",
   "caracteres": 15479
+ },
+ {
+  "id": "prest-bono-social-electrico",
+  "h": "457c167225849042",
+  "titulo": "Bono social eléctrico para consumidores vulnerables",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Gobierno de España",
+  "archivo": "cache/fuentes/prest-bono-social-electrico-a18ad288.txt",
+  "caracteres": 300000
  },
  {
   "id": "prest-bizkaia-pnc-incapacidad",
