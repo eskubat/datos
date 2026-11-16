@@ -148,5 +148,27 @@
   "estado": "pendiente",
   "seccion": "fuentes",
   "prioridad": 13
+ },
+ {
+  "id": "siglas-comprobador",
+  "titulo": "Admitir más siglas y el «presupuesto» del solicitante en el comprobador",
+  "detalle": "recolector/resumen.js rechaza siglas legítimas por ir en mayúsculas (IPREM en bdns-939817; NAFEM, AFEHC, AFYDAD en las ferias ICEX bdns-931664, bdns-931689 y bdns-938573), y la tarea tuvo que escribir «Iprem» o el nombre completo. Añadirlas a SIGLAS. Además, RE.presupuestoTotal rechaza en «¿Cuánto puede recibir?» el presupuesto de la propia entidad («20 % del presupuesto ordinario», bdns-936178), que no es el presupuesto de la convocatoria; limitarlo a «presupuesto total/de la convocatoria».",
+  "fuente": "Comprobaciones de fichas",
+  "quien": "Claude",
+  "prioridad": 14,
+  "estado": "pendiente",
+  "seccion": "revision",
+  "fecha": "2026-11-16"
+ },
+ {
+  "id": "duplicados-lanbide-bdns",
+  "titulo": "Unir las ayudas duplicadas entre euskadi.eus y la BDNS",
+  "detalle": "La conversión de contratos a tiempo parcial en tiempo completo de Lanbide entra dos veces: eus-ayuda-subvencion-2026-partz-weblan00-content-es y bdns-934169 (misma convocatoria, BOPV 2026004056, misma ficha oficial). El recolector debería detectar que una ayuda de la BDNS enlaza a la misma ficha oficial o al mismo BOPV que una de euskadi.eus y quedarse con una.",
+  "fuente": "Recolector",
+  "quien": "Claude",
+  "prioridad": 15,
+  "estado": "pendiente",
+  "seccion": "revision",
+  "fecha": "2026-11-16"
  }
 ]

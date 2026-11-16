@@ -168,5 +168,22 @@
     "para": [
       "empresa"
     ]
+  },
+  {
+    "id": "extra-gv-gaztelagun-2026",
+    "titulo": "Ayudas al alquiler de vivienda del Programa Gaztelagun para el ejercicio 2026",
+    "url": "https://www.euskadi.eus/gaztelagun_es/web01-s2ing/es/",
+    "fuente": "BOPV",
+    "organismo": "Gobierno Vasco - Departamento de Vivienda y Agenda Urbana",
+    "ambito": {
+      "nivel": "euskadi"
+    },
+    "inicio": "2026-06-16",
+    "fin": "2026-12-31",
+    "resumen": "Ayudas mensuales para pagar el alquiler de una vivienda libre en Euskadi que sea el domicilio habitual de personas jóvenes. Bases y convocatoria 2026: Orden de 5 de junio de 2026 del consejero de Vivienda y Agenda Urbana (BOPV n.º 111, 15/06/2026, https://www.euskadi.eus/bopv2/datos/2026/06/2602608a.pdf); las solicitudes se pueden presentar hasta el 31 de diciembre de 2026 (base 10.2).",
+    "dirigido": "Personas jóvenes de 18 a 35 años con un contrato de alquiler de vivienda libre en Euskadi, dentro de los límites de ingresos de la convocatoria.",
+    "para": [
+      "particular"
+    ]
   }
 ]
