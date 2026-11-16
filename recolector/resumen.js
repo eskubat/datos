@@ -4,6 +4,7 @@
 // - Toda cifra escrita tiene que aparecer en la documentación.
 // - Caché por huella del texto: solo se vuelve a categorizar si la documentación cambia.
 import crypto from 'node:crypto';
+import fs from 'node:fs';
 import { POR_ID } from './organismos.js';
 import { NO_ES_REQUISITO } from './comun.js';
 
@@ -179,9 +180,15 @@ const aCampos = (v, todos) => ({
 
 // Aplica las fichas válidas a las ayudas publicadas.
 // a.versiones = { particular: {resumen, cuantia, dirigido, requisitos}, empresa: {…} }: la app muestra la del perfil.
+// Ayudas muy parecidas a otra: no se publican hasta que el responsable decida (cache/excluidas.json)
+function excluidas() { try { return JSON.parse(fs.readFileSync('cache/excluidas.json', 'utf8')); } catch { return {}; } }
+
 export function aplicar(ayudas, fuentes, cache) {
   let n = 0;
+  const EXC = excluidas();
   for (const a of ayudas) {
+    if (EXC[a.id]) { a.excluida = { parecidaA: EXC[a.id].parecidaA || '', motivo: EXC[a.id].motivo || '' }; delete a.versiones; continue; }
+    delete a.excluida;
     const c = cache[a.id];
     if (!c || !fuentes[a.id] || c.h !== huella(fuentes[a.id])) continue;
     const r = c.r;

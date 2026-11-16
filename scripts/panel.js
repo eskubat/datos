@@ -64,7 +64,7 @@ const ayudas = pub.ayudas.map((a) => ({
 // Fuentes: lo que mide el recolector + descripciones de panel/fuentes.json
 const desc = leer('panel/fuentes.json', { consultadas: [], potenciales: [] });
 // Publicada en la app = ficha revisada por Claude (con versiones por tipo de solicitante); la app solo muestra esas
-const publicada = (a) => !!(a.versiones && Object.keys(a.versiones).length);
+const publicada = (a) => !a.excluida && !!(a.versiones && Object.keys(a.versiones).length);
 const deFila = (fl) => fl.org ? pub.ayudas.filter((a) => a.organismoId === fl.org)
   : (fl.fuente && fl.fuente.length ? pub.ayudas.filter((a) => a.fuentes && a.fuentes[0] && fl.fuente.includes(a.fuentes[0].nombre)) : null);
 const cuentaFila = (fl) => { const L = deFila(fl); return L ? L.length : null; };
