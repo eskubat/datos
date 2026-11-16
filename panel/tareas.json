@@ -353,8 +353,9 @@
   "prioridad": 1,
   "fuente": "Tarea de resúmenes (16/11)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-16"
+  "estado": "bloqueada",
+  "fecha": "2026-11-16",
+  "nota": "El registro del recolector de las 10:06 UTC dice «0 fichas con contenido (142 sin contenido)»: ni la página trae «var data» con el trámite ni el POST al portlet devuelve un JSON útil, y la red de esta sesión no llega a egoitza.araba.eus para ver dónde carga la ficha sus datos ({{resultado.…}} se rellena en el navegador). He añadido un diagnóstico al lector: guarda la página y la respuesta del portlet del primer trámite sin contenido en cache/araba_muestra_pagina.txt y cache/araba_muestra_portlet.txt (con las URL de datos que aparecen en el HTML) y lo resume en el registro; el push lanza el recolector ahora, así que la tarea araba-sede-contenido-3 podrá leer la muestra y arreglar la lectura de las ~110 ayudas ara-… pendientes."
  },
  {
   "id": "ue-acexterior-caducadas",
@@ -374,6 +375,17 @@
   "seccion": "datos",
   "prioridad": 2,
   "fuente": "Tarea de resúmenes (16/11)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-16"
+ },
+ {
+  "id": "araba-sede-contenido-3",
+  "titulo": "Leer la muestra de la ficha de Álava y arreglar la lectura de su contenido",
+  "detalle": "Tras la tarea araba-sede-contenido-2, el recolector guarda en cache/araba_muestra_pagina.txt (HTML y URL de datos) y cache/araba_muestra_portlet.txt (respuesta del portlet) el primer trámite de la sede de Álava sin contenido. Mirar ahí de dónde saca la página los datos de {{resultado.…}} (llamada /o/…, otro portlet, parámetros del POST) y cambiar fichasSedeAraba en recolector/forales.js para pedirlos. Si la muestra es la página del cortafuegos, hay que revisar las cookies.",
+  "seccion": "fuentes",
+  "prioridad": 20,
+  "fuente": "Plan de mejoras (16/11)",
   "quien": "Claude",
   "estado": "pendiente",
   "fecha": "2026-11-16"

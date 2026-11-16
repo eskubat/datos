@@ -169,26 +169,42 @@ async function fichasSedeAraba(tramites, cab, guardar, log) {
   try { cache = JSON.parse(fs.readFileSync(CACHE_FA, 'utf8')); } catch {}
   const limite = new Date(Date.now() - DIAS_FA * 864e5).toISOString().slice(0, 10);
   const hoy = new Date().toISOString().slice(0, 10);
-  let nuevas = 0, fallos = 0;
+  let nuevas = 0, fallos = 0, muestra = false;
+  // Diagnóstico: guarda la página y la respuesta del portlet del primer trámite sin contenido
+  // (cache/araba_muestra_*.txt) para ver dónde carga la página los datos del trámite.
+  const guardarMuestra = (f, html, st1, post, st2) => {
+    if (muestra) return;
+    muestra = true;
+    try {
+      const urls = [...new Set([...String(html || '').matchAll(/(?:src|href|url)\s*[:=]\s*["']([^"']*(?:\/o\/|p_p_id|lector|json|api|resource)[^"']*)["']/gi)].map((m) => m[1]))].slice(0, 40);
+      log(`Araba/Álava (sede): muestra ${f.url} · página HTTP ${st1}, ${String(html || '').length} car., «var data» ${String(html || '').includes('var data') ? 'sí' : 'no'} · portlet HTTP ${st2}, ${String(post || '').length} car. · ${urls.length} URL de datos`);
+      fs.mkdirSync('cache', { recursive: true });
+      fs.writeFileSync(path.join('cache', 'araba_muestra_pagina.txt'), `${f.url}\nHTTP ${st1}\nURL de datos:\n${urls.join('\n')}\n\n${String(html || '').slice(0, 400000)}`);
+      fs.writeFileSync(path.join('cache', 'araba_muestra_portlet.txt'), `HTTP ${st2}\n\n${String(post || '').slice(0, 100000)}`);
+    } catch {}
+  };
   await enParalelo(tramites, 2, async (f) => {
     const c = cache[f.url];
     if (c && c.fecha >= limite && c.texto) { f.ficha = c.texto; f.docs = c.docs || []; return; }
-    let obj = null;
+    let obj = null, html = '', st1 = 0, post = '', st2 = 0;
     try {
       const r = await fetch(f.url, { headers: cab('text/html,application/xhtml+xml'), redirect: 'follow' });
       guardar(r);
-      const d = datosSedeAraba(await r.text());
+      st1 = r.status; html = await r.text();
+      const d = datosSedeAraba(html);
       if (d) obj = d.resultado || d;
     } catch {}
     if (!obj) {
       try {
         const r = await fetch(`${f.url}?${PORTLET_A}`, { method: 'POST', headers: { ...cab('application/json, text/javascript, */*'), 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'X-Requested-With': 'XMLHttpRequest' }, body: '' });
         guardar(r);
-        const d = JSON.parse(await r.text());
+        st2 = r.status; post = await r.text();
+        const d = JSON.parse(post);
         obj = d.resultado || d;
       } catch {}
     }
     const fa = obj ? fichaAraba(obj) : null;
+    if (!(fa && fa.texto.length > 200)) guardarMuestra(f, html, st1, post, st2);
     if (fa && fa.texto.length > 200) {
       f.ficha = fa.texto; f.docs = fa.docs;
       cache[f.url] = { fecha: hoy, texto: fa.texto.slice(0, 60000), docs: fa.docs.slice(0, 15) };
