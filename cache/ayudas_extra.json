@@ -239,5 +239,42 @@
     "para": [
       "empresa"
     ]
+  },
+  {
+    "id": "extra-spri-ekintzaile-2026",
+    "titulo": "Programa de ayudas Ekintzaile 2026",
+    "url": "https://www.spri.eus/es/ayudas/ekintzaile/",
+    "fuente": "spri.eus",
+    "organismo": "SPRI",
+    "ambito": {
+      "nivel": "euskadi"
+    },
+    "inicio": "2026-03-17",
+    "fin": "2026-12-11",
+    "resumen": "Subvenciones de SPRI para madurar y poner en marcha proyectos empresariales innovadores o de base tecnológica (también industriales o de servicios conexos), tutelados por un BIC de la CAE. Línea 1 (emprendimiento) hasta el 100 % de los gastos y línea 2 (intraemprendimiento) hasta el 70 % (100 % si se crea una nueva sociedad), con un máximo de 30.000 € por proyecto; presupuesto de 3,5 millones. Bases en el BOPV n.º 51 de 16/3/2026 (anuncio 1174); plazo hasta el 11 de diciembre de 2026.",
+    "dirigido": "Personas emprendedoras empadronadas en la CAE, empresas creadas desde el 1/1/2024 y empresas vascas que quieran crear una nueva sociedad",
+    "para": [
+      "particular",
+      "autonomo",
+      "empresa"
+    ]
+  },
+  {
+    "id": "extra-spri-esa-bic-euskadi-2026",
+    "titulo": "Programa ESA BIC Euskadi 2026",
+    "url": "https://www.spri.eus/es/ayudas/esa-bic-euskadi/",
+    "fuente": "spri.eus",
+    "organismo": "SPRI",
+    "ambito": {
+      "nivel": "euskadi"
+    },
+    "inicio": "",
+    "fin": "2026-11-27",
+    "resumen": "Subvenciones a fondo perdido de SPRI, cofinanciadas al 50 % por la Agencia Espacial Europea, para startups vinculadas al sector espacial incubadas en el ESA BIC Euskadi. Cubren hasta el 100 % de los gastos subvencionables, con un máximo de 60.000 € por proyecto (presupuesto total de 360.000 €). Bases aprobadas por resolución de 1/10/2026 (BOPV, anuncio 2604492); plazo hasta el 27 de noviembre de 2026.",
+    "dirigido": "Empresas de menos de cinco años con centro en el País Vasco y conexión con el sector espacial, con el visto bueno de un BIC; también personas físicas que constituyan la empresa",
+    "para": [
+      "particular",
+      "empresa"
+    ]
   }
 ]

@@ -102,8 +102,10 @@
   "fuente": "Agencias de desarrollo comarcal",
   "quien": "Claude",
   "prioridad": 10,
-  "estado": "pendiente",
-  "seccion": "fuentes"
+  "estado": "hecha",
+  "seccion": "fuentes",
+  "fecha": "2026-11-16",
+  "nota": "Solo he podido leer el catálogo de Oarsoaldea (dirulaguntzak.oarsoaldea.eus); las webs de Debegesa, Inguralde, Behargintza y demás piden un permiso de WebFetch que nadie responde. Ese catálogo recoge unas 100 ayudas (Gobierno Vasco, SPRI, Lanbide, EVE, préstamos de Elkargi/IVF/Luzaro y algunas municipales): de las abiertas que son subvención ya teníamos todas salvo dos de SPRI, Ekintzaile 2026 (hasta el 11/12) y ESA BIC Euskadi 2026 (hasta el 27/11), que he añadido a cache/ayudas_extra.json con su BOPV (2 ayudas nuevas esperadas); los préstamos y los programas de formación gratuita no son ayudas, y BEINT y Basque Tek Ventures no tienen convocatoria propia publicada. Dejo como tarea nueva un lector del catálogo de Oarsoaldea, que también trae ayudas municipales de Errenteria, Pasaia, Lezo y Oiartzun."
  },
  {
   "id": "euskadi-paginas",
@@ -481,6 +483,16 @@
   "fuente": "Ayuntamientos de las capitales",
   "quien": "Tú",
   "prioridad": 23,
+  "estado": "pendiente",
+  "seccion": "fuentes"
+ },
+ {
+  "id": "oarsoaldea-catalogo",
+  "titulo": "Leer el catálogo de ayudas de Oarsoaldea",
+  "detalle": "dirulaguntzak.oarsoaldea.eus publica una tabla por convocante (erakunde/<n>) con el plazo de cada ayuda, incluidas las de los ayuntamientos de Errenteria, Pasaia, Lezo y Oiartzun que no llegan por la BDNS (p. ej. fomento del euskera en comercios de Pasaia). Lector con caché que recoja solo las municipales y comarcales abiertas, descarte préstamos y enlace la página oficial. Revisar también si Debegesa, Inguralde, Behargintza y otras agencias tienen catálogos parecidos (hace falta que la sesión pueda leer sus webs).",
+  "fuente": "Agencias de desarrollo comarcal",
+  "quien": "Claude",
+  "prioridad": 24,
   "estado": "pendiente",
   "seccion": "fuentes"
  }
