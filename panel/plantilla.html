@@ -544,7 +544,7 @@ function verCuestion(id){
         :`<button class="btn primary" data-vact="enviar">Guardar instrucción</button>`}
         <button class="lnk" data-vact="claude">Hablarlo con Claude</button></div></div>`:""}
     ${d.actualizada?`<p class="hint" style="margin:10px 0 0">Actualizada el ${fmtFecha(d.actualizada.slice(0,10))}</p>`:""}
-    <div class="fila" style="margin-top:12px">${est==="lista"?`${chipPe(pe).replace("<br>","")}<button class="lnk ej" data-ejv="1">Ejecutar ahora</button><span class="hint">·</span>`:""}${est!=="abierta"&&est!=="descartada"||est==="descartada"?`<button class="lnk" data-vact="reabrir">Reabrir</button><span class="hint">·</span>`:""}<button class="lnk" data-irc="${esc(id)}">Abrir en Revisión</button><span class="hint" id="vSt"></span></div>`;
+    <div class="fila" style="margin-top:12px">${est==="lista"?`${chipPe(pe).replace("<br>","")}<button class="lnk ej" data-ejv="1">Ejecutar ahora</button><span class="hint">·</span>`:""}${est!=="abierta"&&est!=="descartada"||est==="descartada"?`<button class="lnk" data-vact="reabrir">Reabrir</button><span class="hint">·</span>`:""}<span class="hint" id="vSt"></span></div>`;
   const C=$("#dlgVc");
   const e=C.querySelector("[data-ejv]"); if(e) e.onclick=async()=>{ e.disabled=true; e.textContent="Lanzando…"; const r=await lanzarAhora("correccion",id); setStatus(r.msg); verCuestion(id); };
   C.querySelectorAll("[data-vact]").forEach(btn=>btn.onclick=async()=>{
@@ -685,7 +685,7 @@ function renderInicio(){
   const ret=X(2)+W+34, yC=Y[1]+H/2;
   $("#detalle").innerHTML=`<div class="flujo">
     <div><h2>Cómo se mantienen al día las ayudas de Eskubat</h2>
-    <p class="intro">Arriba, el trabajo de cada día: se leen las fuentes, Claude revisa las ayudas y se publican en Eskubat. Abajo, el bucle de mejora: cualquier duda, error o idea, salga de donde salga, llega a <b>Revisión</b>, donde decides; Claude lo aplica cada hora, sea una corrección de datos o una mejora de fuentes o de la app, y se publica. Pulsa una caja para abrirla.</p></div>
+    <p class="intro">Arriba, el trabajo de cada día: se leen las fuentes, Claude revisa las ayudas y se publican en Eskubat. Abajo, el bucle de mejora: cualquier duda, error o idea, salga de donde salga, llega a <b>Para ti</b>, donde decides; Claude lo aplica cada hora, sea una corrección de datos o una mejora de fuentes o de la app, y se publica. Pulsa una caja para abrirla.</p></div>
     <div class="lienzo"><svg viewBox="-12 -24 1090 470" role="img" aria-label="Flujo de trabajo de Eskubat">
       <defs><marker id="pt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--muted)"/></marker>
         <marker id="pt2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--or)"/></marker></defs>
@@ -702,14 +702,14 @@ function renderInicio(){
       <text class="lbl ret-t" x="${ret+8}" y="${(yC+r)/2}" transform="rotate(90 ${ret+8} ${(yC+r)/2})" text-anchor="middle">corregido y publicado</text>
       ${nodo("fuentes",X(0),Y[0],"","f","Fuentes",[],(D.fuentes.consultadas||[]).reduce((s,g)=>s+(g.filas||[1]).length,0)+" fuentes","Ver")}
       ${nodo("base",X(1),Y[0],"claude","b","Datos",[`${num(hc)} revisadas · ${num(t.fichas||0)} por revisar`,diaria?"Revisión una vez al día":"Próxima pasada "+proximaPasada().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"})],num(D.ayudas.length),"Abrir")}
-      ${nodo("app",X(2),Y[0],"","ce","Eskubat",["La app: ayudas en castellano","y euskera, y su diseño"],null,"Revisión")}
-      ${nodo("cuestiones",X(0),Y[1],"clave","c","Revisión",[`Fuentes ${ca.fuentes||0} · Datos ${ca.datos||0}`,`Eskubat ${ca.eskubat||0}`],`${c.abierta}<tspan class="nu"> abiertas</tspan>`,"Decidir")}
+      ${nodo("app",X(2),Y[0],"","ce","Eskubat",["La app: ayudas en castellano","y euskera, y su diseño"],null,"Para ti")}
+      ${nodo("cuestiones",X(0),Y[1],"clave","m","Para ti",[`Fuentes ${ca.fuentes||0} · Datos ${ca.datos||0}`,`Eskubat ${ca.eskubat||0}`],`${c.abierta}<tspan class="nu"> abiertas</tspan>`,"Decidir")}
       ${nodo("mejora",X(1),Y[1],"claude","m","Mejora continua",[`${listas} correcciones en cola`,`${plP} mejoras planificadas`],`${aplic+plH}<tspan class="nu"> hechas</tspan>`,"Ver")}
     </svg></div>
     ${paraTi()}</div>`;
-  $("#detalle").querySelectorAll("button[data-pc]").forEach(b=>b.onclick=()=>{ S.filtro="abierta"; cambiarVista("c"); seleccionar(b.dataset.pc); });
+  $("#detalle").querySelectorAll("button[data-pc]").forEach(b=>b.onclick=()=>verCuestion(b.dataset.pc));
   $("#detalle").querySelectorAll(".nodo[data-go]").forEach(n=>{
-    const ir=()=>{ const g=n.dataset.go; if(g==="ce"){ S.filtro="todas"; S.areaF="eskubat"; cambiarVista("c"); return; } if(g==="cl"){ S.filtro="lista"; S.areaF=""; cambiarVista("c"); return; } if(g==="c"){ S.filtro="abierta"; S.areaF=""; } cambiarVista(g); };
+    const ir=()=>{ const g=n.dataset.go; if(g==="ce"){ S.mArea="eskubat"; cambiarVista("m"); return; } if(g==="m"){ S.mArea=""; } if(g==="c"){ S.filtro="abierta"; S.areaF=""; } cambiarVista(g); };
     n.onclick=ir; n.onkeydown=(ev)=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); ir(); } };
   });
 }
@@ -971,7 +971,7 @@ function renderDetalleB(){
     </section></div>`;
   $("#volver").onclick=()=>document.body.classList.remove("ver-detalle");
   $("#detalle").querySelectorAll(".vtabs button[data-v]").forEach(b=>b.onclick=()=>{S.verB=b.dataset.v; renderDetalleB();});
-  const irc=$("#irc"); if(irc) irc.onclick=()=>{ S.filtro="todas"; cambiarVista("c"); seleccionar(cu._id); };
+  const irc=$("#irc"); if(irc) irc.onclick=()=>verCuestion(cu._id);
   $("#penviar").onclick=async()=>{
     const t=$("#pcambio").value.trim(); if(!t){ $("#pcambio").focus(); return; }
     if(!S.db){ $("#pst").textContent="Sin conexión con la base de datos de la página."; return; }
@@ -1176,7 +1176,7 @@ function renderMejora(){
   const kpi=(n,t,c="")=>`<span class="kpi ${c}"><b>${n}</b>${t}</span>`;
   const chip=q=>`<span class="quien ${/^Tú/.test(q)?"tu":"cl"}">${esc(q)}</span>`;
   $("#detalle").innerHTML=`<div class="flujo">
-    <div class="cab-ag"><p class="intro">Lo que decides en Revisión llega aquí y Claude lo aplica cada hora: las <b>correcciones</b> (fichas, datos y reglas) a en punto, y las <b>mejoras</b> (fuentes, recolector, página) de una en una a y 30. También entra lo que Claude encuentra en su revisión mensual.</p>${avatar("mejora")}</div>
+    <div class="cab-ag"><p class="intro">Lo que decides en «Para ti» llega aquí y Claude lo aplica cada hora: las <b>correcciones</b> (fichas, datos y reglas) a en punto, y las <b>mejoras</b> (fuentes, recolector, página) de una en una a y 30. También entra lo que Claude encuentra en su revisión mensual.</p>${avatar("mejora")}</div>
     <section class="card estado-rev" id="mBanner"></section>
     ${(()=>{
       const AR=S.mArea||"", ab=S.mAb||(S.mAb={ti:true,pl:true,he:false});
@@ -1260,9 +1260,9 @@ const HERR=[
   execute:async(i)=>{ const r=await lanzarAhora("plan",i.id); if(!r.ok) throw new Error(r.msg); return {hecho:true,tarea:r.msg}; }},
  {name:"mostrar",description:"Lleva la página a una pantalla: inicio, datos (resumen), lista (con filtros), cuestiones, fuentes o instrucciones. Útil para enseñar al responsable lo que has encontrado.",
   inputSchema:{type:"object",properties:{pantalla:{type:"string",enum:["inicio","datos","lista","cuestiones","fuentes","mejora","instrucciones"]},filtros:{type:"object",description:"Para lista: rev, com, estado, cierre, nivel, para, temas, organismo"},ayuda:{type:"string",description:"Id de una ayuda para abrirla en la lista"}},required:["pantalla"]},
-  execute:(i)=>{ const v={inicio:"w",datos:"b",lista:"l",cuestiones:"c",fuentes:"f",mejora:"m",instrucciones:"i"}[i.pantalla]; if(v==="l"){ S.fl=i.filtros||{}; S.selec=new Set(); } cambiarVista(v); if(i.ayuda&&v==="l") seleccionar(i.ayuda); return {hecho:true}; }}
+  execute:(i)=>{ const v={inicio:"w",datos:"b",lista:"l",cuestiones:"m",fuentes:"f",mejora:"m",instrucciones:"i"}[i.pantalla]; if(v==="l"){ S.fl=i.filtros||{}; S.selec=new Set(); } cambiarVista(v); if(i.ayuda&&v==="l") seleccionar(i.ayuda); return {hecho:true}; }}
 ];
-function sistemaAsis(){ return `Eres Claude, el asistente de la página «Eskubat — Revisión de ayudas». Eskubat es una app de ayudas y subvenciones de Euskadi. El sistema: un recolector diario lee las fuentes; el «Revisor de datos» (Claude, cada hora a y 32) redacta las fichas de las ayudas nuevas o cambiadas y manda las dudas a «Para ti»; el «Responsable de mejora continua» (Claude) aplica las correcciones decididas cada hora a en punto y hace una tarea del plan de mejora cada hora a y 30; cada mes repasa el plan. Las cuestiones (pantalla «Revisión») son decisiones del responsable o cambios pedidos; las «listas» son correcciones que aplica la pasada de correcciones (las de área eskubat, no); lo que exige código o fuentes va al plan de mejora. Si el responsable dice que ha completado una de sus tareas (las de quien «Tú», p. ej. pedir un acceso), márcala como hecha con marcar_tarea_hecha y una nota breve. Las dos cosas se ven en la pantalla «Mejora continua».
+function sistemaAsis(){ return `Eres Claude, el asistente de la página «Eskubat — Revisión de ayudas». Eskubat es una app de ayudas y subvenciones de Euskadi. El sistema: un recolector diario lee las fuentes; el «Revisor de datos» (Claude, cada hora a y 32) redacta las fichas de las ayudas nuevas o cambiadas y manda las dudas a «Para ti»; el «Responsable de mejora continua» (Claude) aplica las correcciones decididas cada hora a en punto y hace una tarea del plan de mejora cada hora a y 30; cada mes repasa el plan. Las cuestiones («Para ti», en la pantalla Mejora continua) son decisiones del responsable o cambios pedidos; las «listas» son correcciones que aplica la pasada de correcciones (las de área eskubat, no); lo que exige código o fuentes va al plan de mejora. Si el responsable dice que ha completado una de sus tareas (las de quien «Tú», p. ej. pedir un acceso), márcala como hecha con marcar_tarea_hecha y una nota breve. Las dos cosas se ven en la pantalla «Mejora continua».
 Tienes herramientas para consultar los datos y para hacer cambios directamente: úsalas. Si te piden un cambio, hazlo con la herramienta adecuada: la página lanza al momento la aplicación de los cambios que dejes en cola, así que di que ya se está aplicando; no pidas permiso para lo que el responsable ya ha pedido claramente, pero pregunta si algo es ambiguo o afecta a muchas ayudas sin que lo haya dicho. Antes de pedir cambios a ayudas concretas, búscalas para tener los ids. No puedes navegar por la web ni cambiar el código desde aquí: lo que exige código o fuentes nuevas va al plan (proponer_tarea_plan). Responde en castellano, breve y claro, sin jerga técnica. Hoy es ${new Date().toISOString().slice(0,10)}; los datos de la página son del ${hora(D.generado)}.`; }
 function renderAsis(){
   const box=$("#asisMsgs"); if(!box) return;
@@ -1292,6 +1292,7 @@ function abrirAsis(texto){ document.body.classList.add("asis-on"); renderAsis();
 function renderLista(){ if(S.vista==="l") renderListaB(); else if(S.vista==="c") renderListaC(); else if(S.vista==="i") renderListaI(); }
 function renderDetalle(){ ({w:renderInicio,m:renderMejora,b:renderBase,f:renderFuentes,l:renderDetalleB,c:renderDetalleC,i:renderDetalleI})[S.vista](); }
 function cambiarVista(v){
+  if(v==="c") v="m";
   S.vista=v; const _ao=document.body.classList.contains("asis-on"); document.body.className="v-"+v+(_ao?" asis-on":""); S.q=""; $("#q").value="";
   $("#vtitulo").textContent=TITULOS[v]||""; $("#nueva").style.display=v==="c"?"":"none";
   if(location.hash!==VISTAS[v]){ try{ history.replaceState(null,"",VISTAS[v]); }catch{} }
@@ -1340,7 +1341,7 @@ $("#fnueva").addEventListener("submit",async ev=>{
   catch(err){ setStatus("No se pudo crear ("+(err&&err.code||"error")+")"); }
 });
 function textoDatos(){ const m=Math.round((Date.now()-Date.parse(D.generado))/60000); return "Datos de "+(m<60?`hace ${Math.max(m,0)} min`:hora(D.generado))+" · se renuevan en cada pasada de Claude"; }
-const DESDE_HASH={...Object.fromEntries(Object.entries(VISTAS).map(([k,v])=>[v,k])),"#revision":"b","#correccion-y-mejora":"m"};
+const DESDE_HASH={...Object.fromEntries(Object.entries(VISTAS).map(([k,v])=>[v,k])),"#revision":"b","#correccion-y-mejora":"m","#cuestiones":"m"};
 window.addEventListener("hashchange",()=>{ const v=DESDE_HASH[location.hash]; if(v&&v!==S.vista) cambiarVista(v); });
 let vIni=DESDE_HASH[location.hash]; try{ if(!vIni){ vIni=sessionStorage.getItem("eskubat-vista")||""; } sessionStorage.removeItem("eskubat-vista"); }catch{}
 cambiarVista(vIni||"w"); setStatus(textoDatos());
