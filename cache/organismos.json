@@ -2204,7 +2204,33 @@
   "alias": [
    "ministerio de educacion, formacion profesional y deportes",
    "secretaria de estado de educacion",
-   "direccion general de evaluacion y cooperacion territorial"
+   "direccion general de evaluacion y cooperacion territorial",
+   "secretaria general de formacion profesional"
+  ]
+ },
+ {
+  "id": "estado-mapa",
+  "nombre": "Gobierno de España - Ministerio de Agricultura, Pesca y Alimentación",
+  "alias": [
+   "ministerio de agricultura, pesca y alimentacion",
+   "direccion general de alimentacion"
+  ]
+ },
+ {
+  "id": "estado-miteco",
+  "nombre": "Gobierno de España - Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "alias": [
+   "ministerio para la transicion ecologica y el reto demografico",
+   "miteco",
+   "secretaria de estado de energia"
+  ]
+ },
+ {
+  "id": "estado-red-es",
+  "nombre": "Gobierno de España - Red.es",
+  "alias": [
+   "red.es",
+   "entidad publica empresarial red.es"
   ]
  },
  {

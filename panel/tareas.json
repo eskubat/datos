@@ -201,9 +201,9 @@
   "seccion": "base",
   "quien": "Claude",
   "prioridad": 3,
-  "estado": "pendiente",
+  "estado": "hecha",
   "fecha": "2026-11-16",
-  "nota": "Añadida al plan de mejoras"
+  "nota": "Añadidas a recolector/organismos.js las entradas estado-mapa, estado-miteco y estado-red-es, y el alias «secretaria general de formacion profesional» en estado-educacion; cache/organismos.json regenerado para que la tarea de resumen pueda usarlas ya. Las fichas ya resumidas (bdns-939101, bdns-940056, bdns-933308) siguen con «estado» hasta que se vuelvan a resumir; no cambia el número de ayudas."
  },
  {
   "id": "fechas-historicas-euskadi",

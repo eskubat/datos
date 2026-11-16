@@ -68,7 +68,10 @@ const ESTATALES = [
   ['estado', 'Gobierno de España', []],
   ['estado-icex', 'Gobierno de España - ICEX', ['icex', 'icex espana exportacion e inversiones']],
   ['estado-idae', 'Gobierno de España - IDAE (Ministerio para la Transición Ecológica)', ['idae', 'instituto para la diversificacion y ahorro de la energia']],
-  ['estado-educacion', 'Gobierno de España - Ministerio de Educación, Formación Profesional y Deportes', ['ministerio de educacion, formacion profesional y deportes', 'secretaria de estado de educacion', 'direccion general de evaluacion y cooperacion territorial']],
+  ['estado-educacion', 'Gobierno de España - Ministerio de Educación, Formación Profesional y Deportes', ['ministerio de educacion, formacion profesional y deportes', 'secretaria de estado de educacion', 'direccion general de evaluacion y cooperacion territorial', 'secretaria general de formacion profesional']],
+  ['estado-mapa', 'Gobierno de España - Ministerio de Agricultura, Pesca y Alimentación', ['ministerio de agricultura, pesca y alimentacion', 'direccion general de alimentacion']],
+  ['estado-miteco', 'Gobierno de España - Ministerio para la Transición Ecológica y el Reto Demográfico', ['ministerio para la transicion ecologica y el reto demografico', 'miteco', 'secretaria de estado de energia']],
+  ['estado-red-es', 'Gobierno de España - Red.es', ['red.es', 'entidad publica empresarial red.es']],
   ['estado-cis', 'Gobierno de España - CIS (Ministerio de la Presidencia)', ['centro de investigaciones sociologicas']],
 ];
 const FORALES = [
