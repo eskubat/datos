@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generado": "2026-11-16T18:24:38.588Z",
-  "total": 505,
+  "generado": "2026-11-16T18:55:03.414Z",
+  "total": 511,
   "porAmbito": {
-    "euskadi": 95,
-    "territorio": 148,
+    "euskadi": 93,
+    "territorio": 154,
     "estado": 61,
     "municipio": 188,
     "ue": 15
   },
   "porEstado": {
-    "abierta": 323,
+    "abierta": 328,
     "proxima": 21,
-    "sinfecha": 161
+    "sinfecha": 162
   },
   "previstas": 675,
   "fuentes": {
@@ -27,48 +27,48 @@
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 26,
-      "segundos": 24,
+      "segundos": 23,
       "erroresFicha": 0
     },
     "araba": {
       "nombre": "Diputación Foral de Álava (ayudas en vigor)",
       "ok": true,
       "registros": 144,
-      "segundos": 483,
+      "segundos": 461,
       "erroresFicha": 0
     },
     "bdns": {
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
       "registros": 806,
-      "segundos": 165,
+      "segundos": 160,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 151,
-      "segundos": 17,
+      "segundos": 13,
       "erroresFicha": 0
     },
     "prestaciones": {
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 7,
-      "segundos": 10,
+      "segundos": 9,
       "erroresFicha": 0
     },
     "europa": {
       "nombre": "Funding & Tenders Portal (Comisión Europea), convocatorias sin consorcio",
       "ok": true,
-      "registros": 12,
+      "registros": 11,
       "erroresFicha": 0
     }
   },
   "enlaces": {
-    "comprobados": 786,
-    "rotos": 4,
+    "comprobados": 792,
+    "rotos": 3,
     "sustituidos": 0,
-    "quitados": 5
+    "quitados": 4
   }
 }
