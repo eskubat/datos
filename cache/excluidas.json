@@ -78,5 +78,15 @@
   "parecidaA": "ara-01630001",
   "motivo": "Ayudas al gasóleo de transportistas de la Diputación Foral de Álava con el mismo texto: la nueva (RDL 25/2026, plazo 1/11–31/12/2026) y probablemente la anterior (RDL 7/2026, fin 2027-09-01 dudoso).",
   "fecha": "2026-11-16"
+ },
+ "bdns-937781": {
+  "parecidaA": "bdns-939969",
+  "motivo": "Mismo crédito adicional 2026CA24 (BOB 110/2026) de Barakaldo al Ilustre Colegio de la Abogacía de Bizkaia (Q4863001F), registrado dos veces en la BDNS (937781 el 26/10 y 939969 el 05/11) con el mismo documento y título.",
+  "fecha": "2026-11-16"
+ },
+ "bdns-939969": {
+  "parecidaA": "bdns-937781",
+  "motivo": "Mismo crédito adicional 2026CA24 (BOB 110/2026) de Barakaldo al Ilustre Colegio de la Abogacía de Bizkaia (Q4863001F), registrado dos veces en la BDNS (937781 el 26/10 y 939969 el 05/11) con el mismo documento y título.",
+  "fecha": "2026-11-16"
  }
 }
