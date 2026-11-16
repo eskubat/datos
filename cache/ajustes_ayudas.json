@@ -310,5 +310,35 @@
   "inicio": "2026-10-28",
   "fin": "2026-11-09",
   "motivo": "Fechas del extracto del BOG de 27/10/2026 (desde el día siguiente a la publicación hasta el 9 de noviembre); la BDNS daba 1/12/2026-5/1/2027. Decisión del responsable, 16/11/2026."
+ },
+ "bdns-926232": {
+  "ocultar": true,
+  "motivo": "Subvención directa del Ayuntamiento de Barakaldo a una sola entidad (Bizitza Lasaia): nadie más puede pedirla. Decisión del responsable, 16/11/2026."
+ },
+ "bdns-926238": {
+  "ocultar": true,
+  "motivo": "Subvención directa del Ayuntamiento de Barakaldo a una sola entidad (La Siebe Lagun): nadie más puede pedirla. Decisión del responsable, 16/11/2026."
+ },
+ "bdns-926655": {
+  "ocultar": true,
+  "motivo": "Subvención directa del Ayuntamiento de Barakaldo a una sola entidad (Comisión de Fiestas del barrio de Burtzeña): nadie más puede pedirla. Decisión del responsable, 16/11/2026."
+ },
+ "bdns-927210": {
+  "ocultar": true,
+  "motivo": "Subvención directa del Ayuntamiento de Barakaldo a una sola entidad (Ondo Bide): nadie más puede pedirla. Decisión del responsable, 16/11/2026."
+ },
+ "bdns-934982": {
+  "ocultar": true,
+  "motivo": "Subvención directa del Ayuntamiento de Barakaldo a una sola entidad (Sumando-Gehituz): nadie más puede pedirla. Decisión del responsable, 16/11/2026."
+ },
+ "bdns-926766": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa de Ordizia a Euskal Fondoa (convenio): nadie más puede pedirla. Decisión del responsable, 16/11/2026."
+ },
+ "ara-ayudas-turismo-actividad-ayuntamientos-2026": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Programa anual: la convocatoria de 2026 cerró el 08/05/2026 según la prensa, aunque la sede la da abierta hasta el 02/04/2027. Se mantiene como próxima sin fechas y se rehará la ficha con la convocatoria oficial de 2027. Decisión del responsable, 16/11/2026."
  }
 }
