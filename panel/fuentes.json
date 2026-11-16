@@ -146,11 +146,11 @@
    ]
   },
   {
-   "clave": "",
+   "clave": "europa",
    "que": "Convocatorias europeas abiertas y próximas.",
-   "como": "Búsqueda pública. Solo se publican las que puede pedir directamente una persona, una pyme, una asociación o un ayuntamiento vasco sin formar un consorcio internacional; hoy entran a través de las noticias.",
-   "pendiente": "Leer el portal entero con ese filtro: está en el plan de Claude.",
-   "quien": "Tú",
+   "como": "Búsqueda pública (API SEDIA). El recolector publica solo las que puede pedir directamente una persona, una pyme, una asociación o un ayuntamiento vasco sin formar un consorcio: becas ERC y MSCA postdoctorales, premios, EIC Accelerator y las líneas de MEDIA para una sola productora. El resto sirve para cotejar las noticias.",
+   "pendiente": "Las convocatorias en cascada (open calls de proyectos europeos para pymes) aún no entran: están en el plan de Claude.",
+   "quien": "Claude",
    "tarea": "ue-directas",
    "grupo": "Unión Europea",
    "filas": [

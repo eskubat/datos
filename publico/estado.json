@@ -57,6 +57,13 @@
       "registros": 7,
       "segundos": 10,
       "erroresFicha": 0
+    },
+    "europa": {
+      "nombre": "Funding & Tenders Portal (Comisión Europea), convocatorias sin consorcio",
+      "ok": true,
+      "registros": 0,
+      "erroresFicha": 0,
+      "nota": "Fuente nueva: la primera lectura será la del recolector de las 05:41"
     }
   },
   "enlaces": {

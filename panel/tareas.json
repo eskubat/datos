@@ -77,9 +77,11 @@
   "detalle": "Decisión del responsable (cuestión «¿Qué convocatorias europeas se publican en la app?»): del Funding & Tenders Portal, publicar solo las que puede pedir directamente una persona, una pyme, una asociación o un ayuntamiento vasco sin formar un consorcio internacional (becas, premios, ayudas a pymes, programas Erasmus+ locales); dejar fuera las de investigación en consorcio. Hoy solo entran las que aparecen en las noticias de euskadi.eus: leer el portal, filtrar con ese criterio y meter en pendientes las que pasen.",
   "fuente": "Funding & Tenders Portal (Comisión Europea)",
   "quien": "Claude",
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "fuentes",
-  "prioridad": 8
+  "prioridad": 8,
+  "fecha": "2026-11-16",
+  "nota": "De las 1.065 convocatorias del portal (721 de Horizonte en consorcio, 144 en cascada), el recolector publica ahora como ayudas de ámbito UE las que se piden sin consorcio: becas ERC y MSCA postdoctorales, premios (Mujeres Innovadoras), EIC Accelerator y las líneas de MEDIA para una sola productora (desarrollo, TV, videojuegos, distribución), con la descripción del portal como texto para la ficha. Con los datos de hoy son 13; 2 ya estaban en ayudas_extra (EIC Accelerator y MSCA PF), así que se esperan 11 nuevas en la cola. La red de la sesión no llega al portal: la primera prueba real será el recolector de las 05:41."
  },
  {
   "id": "capitales",
@@ -437,5 +439,15 @@
   "quien": "Claude",
   "estado": "pendiente",
   "fecha": "2026-11-16"
+ },
+ {
+  "id": "ue-cascada",
+  "titulo": "Filtrar las convocatorias europeas en cascada (open calls para pymes)",
+  "detalle": "El portal trae unas 140 convocatorias en cascada (proyectos europeos que reparten fondos a pymes, startups o personas). Muchas son solo para un país o una universidad y el enlace es el del proyecto. Guardar el texto de cada una desde la API, descartar las restringidas a otros países o centros y publicar las abiertas a solicitantes vascos sin consorcio.",
+  "fuente": "Funding & Tenders Portal (Comisión Europea)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "seccion": "fuentes",
+  "prioridad": 22
  }
 ]

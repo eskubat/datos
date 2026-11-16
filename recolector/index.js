@@ -12,7 +12,7 @@ import { aplicar, huella } from './resumen.js';
 import { documentacion } from './enlaces.js';
 import { resolver, POR_ID, CATALOGO } from './organismos.js';
 import { aplicarTitulos } from './titulos.js';
-import { convocatoriasUE } from './europa.js';
+import { convocatoriasUE, ayudasDirectasUE } from './europa.js';
 import { esPosibleNoticia, cotejar, extras, separar } from './noticias.js';
 import { prepararProximas, aplicarProximas } from './proximas.js';
 
@@ -159,6 +159,15 @@ async function main() {
   let europa = [];
   try { europa = await convocatoriasUE(log); } catch (e) { log(`UE: ${e.message}`); }
   if (!europa.length) { try { europa = JSON.parse(fs.readFileSync(path.join('cache', 'europa.json'), 'utf8')); } catch {} }
+  // Convocatorias europeas que se piden sin consorcio: solo las que no están ya (por noticias o en cache/ayudas_extra.json)
+  try {
+    const urls = ayudas.map((a) => a.url || '');
+    const nuevas = ayudasDirectasUE(europa, log).filter((u) => { const top = u._texto.match(/Identificador: (\S+)/)[1].toLowerCase(); return !urls.some((x) => x === u.url || x.toLowerCase().includes('/' + top)); });
+    for (const u of nuevas) if (esPosibleNoticia(u)) u.posibleNoticia = true;
+    ayudas.push(...nuevas);
+    log(`UE: ${nuevas.length} convocatorias directas nuevas en la lista`);
+    estadoFuentes.europa = { nombre: 'Funding & Tenders Portal (Comisión Europea), convocatorias sin consorcio', ok: europa.length > 0, registros: nuevas.length, erroresFicha: 0 };
+  } catch (e) { log(`UE directas: ${e.message}`); estadoFuentes.europa = { nombre: 'Funding & Tenders Portal (Comisión Europea), convocatorias sin consorcio', ok: false, error: String(e.message || e), registros: 0 }; }
   { // Duplicados exactos (misma ayuda registrada dos veces)
     const vistos = new Set();
     ayudas = ayudas.filter((a) => { const k = norm(a.titulo) + '|' + a.ambito.nombre + '|' + (a.fin || ''); if (vistos.has(k)) return false; vistos.add(k); return true; });
