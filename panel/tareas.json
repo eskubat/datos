@@ -147,9 +147,10 @@
   "fuente": "Ayuntamientos y BDNS",
   "quien": "Claude",
   "prioridad": 12,
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "fuentes",
-  "fecha": "2026-11-16"
+  "fecha": "2026-11-16",
+  "nota": "La página de bases de Oñati se descargaba pero no se seguían sus enlaces, y de la BDNS solo se bajaban los documentos cuya descripción decía «castellano» (máx. 2), así que en Maison&Objet se perdía la convocatoria. Ahora enlaces.js sigue un nivel más los PDF y descargas de las páginas de bases, boletín y documentos añadidos (y acepta «Criterios»), y bdns.js baja hasta 6 documentos por convocatoria (convocatoria y bases primero, formularios al final, sin los que solo están en euskera). No añade ayudas nuevas: completa la documentación de las existentes; la red de la sesión no llega a la BDNS ni a oñati.eus, así que la primera prueba real será el recolector de las 05:41."
  },
  {
   "id": "prestaciones-2",

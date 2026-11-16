@@ -53,7 +53,7 @@ function sinRepetidos(t) {
 }
 
 // Enlaces de información de una página: documentos y páginas que explican la ayuda
-const TEXTO_UTIL = /bases|convocatoria|orden\b|decreto|ordenanza|resoluci[oó]n|normativa|bolet[ií]n|bopv|bob\b|bog\b|botha|boe\b|informaci[oó]n (detallada|adicional|complementaria)|m[aá]s informaci[oó]n|requisitos|gu[ií]a|preguntas frecuentes|anexo|extracto|descargar|pdf/i;
+const TEXTO_UTIL = /bases|convocatoria|orden\b|decreto|ordenanza|resoluci[oó]n|normativa|bolet[ií]n|bopv|bob\b|bog\b|botha|boe\b|informaci[oó]n (detallada|adicional|complementaria)|m[aá]s informaci[oó]n|requisitos|criterios|gu[ií]a|preguntas frecuentes|anexo|extracto|descargar|pdf/i;
 const URL_UTIL = /\.pdf(\?|$)|bopv|\/bob\/|bizkaia\.eus\/.*(boletin|bob)|gipuzkoa\.eus\/.*(bog|boletin)|araba\.eus\/.*botha|boe\.es|infosubvenciones|normativa|bases|convocatoria|ordenanza|\/servicios\/|\/ayuda_subvencion\/|\/r01-|web01-/i;
 const URL_NO = /^(mailto|javascript|tel):|facebook|twitter|x\.com\/|linkedin|instagram|youtube|whatsapp|\/login|\/sso|cookies|accesibilidad|aviso-legal|privacidad|mapa-web|\.(jpe?g|png|gif|svg|zip|docx?|xlsx?|odt|ods)(\?|$)|#$|solicitud-electronica|tramitacion-electronica|mi-carpeta|nire-karpeta/i;
 export function enlacesDe(html, base) {
@@ -131,7 +131,17 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
     for (const l of cola) {
       if (n >= MAX_ENLACES || vistos.has(l.url)) continue;
       const d = await obtener(l.url);
-      if (d) { add(l.texto || 'Enlace', l.url, d.texto); n++; }
+      if (d) {
+        add(l.texto || 'Enlace', l.url, d.texto); n++;
+        // Páginas enlazadas (bases, boletín, documento añadido…) que a su vez enlazan los PDF de la convocatoria,
+        // p. ej. la página de subvenciones de un ayuntamiento con «Bases del concurso» y «Criterios de valoración»:
+        // se siguen un nivel más, solo hacia documentos (PDF o descargas)
+        if (!l.hijo && d.tipo === 'html' && d.enlaces && d.enlaces.length) {
+          for (const h of d.enlaces) {
+            if (/\.pdf(\?|$)|download|descarga|deskarga|documento|fichero|\/file(\/|$)/i.test(h.url) || /\bpdf\b/i.test(h.texto)) cola.push({ ...h, hijo: true });
+          }
+        }
+      }
     }
     if (partes.length) res[a.id] = partes.join('\n\n').slice(0, max);
   });

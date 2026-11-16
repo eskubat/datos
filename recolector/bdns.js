@@ -44,6 +44,19 @@ export function clasifica(n1, n2, n3) {
 // Subvenciones que no se pueden solicitar: nominativas, directas, convenios con una entidad concreta...
 export const RUIDO = /nominativ|convocatoria instrumental|programa ind[ií]gena|se resuelven?\b|resoluci[oó]n de (la )?concesi|desiert|subvenciones directas|funcionamiento y actividades de la |izendun|a favor d|convenio|hitzarmen|concesi[oó]n directa|subvenci[oó]n (foral )?directa|subv\.? ?directa|foral directa|se concede|de concesi[oó]n de|aprobar (un|el) gasto|aportaci[oó]n (econ[oó]mica )?(a|al|para) |transferencia|adenda|addenda|excepcional|en especie|reintegro|justificaci[oó]n/i;
 
+// Documentos de la convocatoria en la BDNS: todos menos los que solo están en euskera (si hay versión en castellano),
+// primero la convocatoria y las bases y al final los formularios (antes solo se bajaban los que decían «castellano»
+// y se perdía la convocatoria cuando su descripción no decía el idioma, p. ej. Maison&Objet París, bdns-938576)
+export function docsBdns(documentos) {
+  const docs = (documentos || []).filter((x) => x && x.id != null);
+  const desc = (x) => `${x.descripcion || ''} ${x.nombreFic || ''}`;
+  const euskera = (x) => /euskera|euskara|euskaraz|\beus\b|_eu\b|-eu\b/i.test(desc(x)) && !/espa[nñ]ol|castellano|bilingüe|elebidun/i.test(desc(x));
+  const hayCastellano = docs.some((x) => !euskera(x));
+  const peso = (x) => /formulario|solicitud|inscripci[oó]n|impreso|modelo|declaraci[oó]n responsable|eskaera/i.test(desc(x)) ? 2
+    : /convocatoria|bases|deialdi|oinarri|extracto|orden|decreto|resoluci[oó]n|acuerdo/i.test(desc(x)) ? 0 : 1;
+  return docs.filter((x) => !hayCastellano || !euskera(x)).sort((a, b) => peso(a) - peso(b)).map((x) => x.id).slice(0, 6);
+}
+
 // Nominativas que solo lo dicen en el documento de la convocatoria (a veces solo en euskera): el documento
 // subido a la BDNS empieza por «CONVENIO» / «HITZARMENA» / «ACUERDO DE COLABORACIÓN», «REUNIDOS» / «BILDURIK»,
 // o habla de una subvención «nominativa» / «izenduna». Solo se mira la cabecera (primeras líneas) de los
@@ -214,7 +227,7 @@ export async function recoger(log) {
       url: /^[^/?#]+\/[^\s/]/.test(String(d.sedeElectronica || '').trim().replace(/^https?:\/\//i, '')) ? String(d.sedeElectronica).trim() : url,
       bases: String(d.urlBasesReguladoras || '').replace(/\s+/g, ''),
       fuentes: [{ nombre: 'BDNS', url }],
-      _docs: (d.documentos || []).filter((x) => /espa[nñ]ol|castellano/i.test(x.descripcion || '') || (d.documentos || []).length === 1).map((x) => x.id).slice(0, 2),
+      _docs: docsBdns(d.documentos),
       _texto: [
         extracto ? 'Extracto publicado en el boletín:\n' + extracto : '',
         'Título: ' + (it.descripcion || ''),
