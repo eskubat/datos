@@ -1,12 +1,12 @@
 [
  {
-  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
-  "h": "40b562d93f954fa5",
-  "titulo": "Rising Innovators category",
+  "id": "ue-horizon-eic-2026-prize-wip",
+  "h": "ed2bdc6e55313d53",
+  "titulo": "The European Prize for Women Innovators",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
-  "caracteres": 12248
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
+  "caracteres": 12244
  },
  {
   "id": "ue-crea-media-2027-devslate",
@@ -27,13 +27,13 @@
   "caracteres": 12241
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip",
-  "h": "ed2bdc6e55313d53",
-  "titulo": "The European Prize for Women Innovators",
+  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
+  "h": "40b562d93f954fa5",
+  "titulo": "Rising Innovators category",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
-  "caracteres": 12244
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
+  "caracteres": 12248
  },
  {
   "id": "bdns-942432",
@@ -43,6 +43,15 @@
   "organismoFuente": "Ayuntamiento de etxebarri",
   "archivo": "cache/fuentes/bdns-942432-188c40f2.txt",
   "caracteres": 37320
+ },
+ {
+  "id": "bdns-940263",
+  "h": "26d8982dad4600b8",
+  "titulo": "Bases del concurso de carteles de navidad",
+  "organismoSugerido": "ayto-beasain",
+  "organismoFuente": "Ayuntamiento de beasain",
+  "archivo": "cache/fuentes/bdns-940263-7e7b9c16.txt",
+  "caracteres": 28198
  },
  {
   "id": "bdns-942328",
@@ -135,6 +144,15 @@
   "caracteres": 12212
  },
  {
+  "id": "bdns-940194",
+  "h": "593364bcbfb5f9b2",
+  "titulo": "X beca de investigación en tándem \"ribera\"",
+  "organismoSugerido": "ayto-irun",
+  "organismoFuente": "Ayuntamiento de irun",
+  "archivo": "cache/fuentes/bdns-940194-42b4812d.txt",
+  "caracteres": 63184
+ },
+ {
   "id": "ue-crea-media-2027-devvgim",
   "h": "4f29265ef9e0993d",
   "titulo": "European video games and immersive content",
@@ -142,15 +160,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-devvgim-64f443cb.txt",
   "caracteres": 4408
- },
- {
-  "id": "ue-crea-media-2027-tvonline-2",
-  "h": "2bb80164abe11ee5",
-  "titulo": "TV and online content Documentary projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
-  "caracteres": 6324
  },
  {
   "id": "ue-crea-media-2027-tvonline-1",
@@ -169,6 +178,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
   "caracteres": 6320
+ },
+ {
+  "id": "ue-crea-media-2027-tvonline-2",
+  "h": "2bb80164abe11ee5",
+  "titulo": "TV and online content Documentary projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
+  "caracteres": 6324
  },
  {
   "id": "bdns-941791",
@@ -441,15 +459,6 @@
   "caracteres": 18696
  },
  {
-  "id": "ara-ayudas-destinadas-a-incentivar-la-euskaldunizacion-de-person",
-  "h": "19e232317c9b340c",
-  "titulo": "Subvención para incentivar la euskaldunización de personas adultas",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-destinadas-a-incentivar-la-euskaldunizacion-de-pe-a5a8b884.txt",
-  "caracteres": 23128
- },
- {
   "id": "ara-convocatoria-subvenciones-medios-euskera",
   "h": "15f7f8509a153aef",
   "titulo": "Subvenciones destinadas a la consolidación, desarrollo y normalización de proyectos comunicativos locales o comarcales en euskera",
@@ -457,15 +466,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-convocatoria-subvenciones-medios-euskera-05498ba6.txt",
   "caracteres": 19013
- },
- {
-  "id": "ara-emprender-en-alava",
-  "h": "100f83b2fe519cf0",
-  "titulo": "Emprender",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-emprender-en-alava-f023dd54.txt",
-  "caracteres": 24261
  },
  {
   "id": "ara-alava-innova-digitaliza-empresas-2026",
@@ -558,15 +558,6 @@
   "caracteres": 18755
  },
  {
-  "id": "ara-ayuda-a-clubes-de-alto-nivel-2026",
-  "h": "a80b806a4dca78e4",
-  "titulo": "Kirolaraba A1. Ayuda a Clubes de Alto Nivel. Convocatoria",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayuda-a-clubes-de-alto-nivel-2026-5fa97bd6.txt",
-  "caracteres": 73371
- },
- {
   "id": "ara-convocatoria-subvenciones-para-el-desarrollo-del-deporte-ada",
   "h": "9f73de89a004d5d0",
   "titulo": "Subvenciones para el desarrollo del deporte adaptado y de la inclusión en el deporte. Convocatoria",
@@ -603,15 +594,6 @@
   "caracteres": 18836
  },
  {
-  "id": "ara-convocatoria-ayudas-dirigidas-a-inventariar-y-registrar-los-",
-  "h": "845e2096fc71bcf6",
-  "titulo": "Ayudas dirigidas a inventariar y registrar los bienes de las Entidades Locales",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-convocatoria-ayudas-dirigidas-a-inventariar-y-registrar--9386d90f.txt",
-  "caracteres": 40860
- },
- {
   "id": "ara-ayudas-para-la-organizacion-de-ferias-agricolas-y-ganaderas",
   "h": "cdab082c2a2be317",
   "titulo": "Ayudas para la organización de ferias agrícolas y ganaderas (Entidades Locales)",
@@ -619,15 +601,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-para-la-organizacion-de-ferias-agricolas-y-ganade-82c717c0.txt",
   "caracteres": 18711
- },
- {
-  "id": "ara-ayudas-transporte-intermunicipal-municipios-menores-20000-ha",
-  "h": "28850ac9e538f9a7",
-  "titulo": "Subvenciones destinadas a financiar el transporte intramunicipal y dirigidas a municipios del THA menores de 20.000 habitantes. Convocatoria",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-transporte-intermunicipal-municipios-menores-2000-ebb16392.txt",
-  "caracteres": 26292
  },
  {
   "id": "ara-ayudas-gestion-recursos-hidricos",
@@ -673,15 +646,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-turismo-actividad-ayuntamientos-2026-81b4af38.txt",
   "caracteres": 18695
- },
- {
-  "id": "ara-01093001-ayudas-caminos-rurales-2026",
-  "h": "af9d501605a45078",
-  "titulo": "Ayudas destinadas al acondicionamiento de caminos rurales y otras inversiones de interés para el fomento de las actividades agrarias. Anualidad",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-01093001-ayudas-caminos-rurales-2026-0be040ce.txt",
-  "caracteres": 31634
  },
  {
   "id": "ara-subvenciones-para-la-financiacion-de-acciones-conducentes-a-",
@@ -738,15 +702,6 @@
   "caracteres": 18697
  },
  {
-  "id": "ara-becas-de-investigacion-fuentes-documentales-de-alava-2026",
-  "h": "8acffcef86139b5e",
-  "titulo": "Becas de investigación “Fuentes Documentales”",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-becas-de-investigacion-fuentes-documentales-de-alava-202-5bdecb5e.txt",
-  "caracteres": 54758
- },
- {
   "id": "ara-ayudas-deportistas-promesa-2026",
   "h": "e635da6ecb15bed4",
   "titulo": "Kirolaraba A3. Ayudas a deportistas promesa",
@@ -754,24 +709,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-deportistas-promesa-2026-9f8b0087.txt",
   "caracteres": 18683
- },
- {
-  "id": "ara-subvenciones-adquisicion-viviendas-entidades-locales-2026",
-  "h": "675bcb1b25f7bc3c",
-  "titulo": "Subvenciones a entidades locales - adquisición vivienda",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-subvenciones-adquisicion-viviendas-entidades-locales-202-fe3f8cd5.txt",
-  "caracteres": 86648
- },
- {
-  "id": "ara-subvenciones-rehabilitacion-viviendas-para-emancipacion-juve",
-  "h": "2794710a49cf1e14",
-  "titulo": "Subvenciones a entidades locales - rehabilitación de viviendas y/o alojamientos dotacionales para emancipación juvenil",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-subvenciones-rehabilitacion-viviendas-para-emancipacion--f11479c4.txt",
-  "caracteres": 86659
  },
  {
   "id": "ara-subvenciones-rehabilitacion-de-vivienda-entidades-locales-20",
@@ -862,15 +799,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayuda-lucha-contra-polilla-vinedo-2026-cd74dbf4.txt",
   "caracteres": 18690
- },
- {
-  "id": "ara-subvencion-rehabilitacion-viviendas-2026",
-  "h": "63423b791a87ef9c",
-  "titulo": "Subvenciones para la financiación de acciones conducentes a la rehabilitación de vivienda para su inclusión posterior en el programa",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-subvencion-rehabilitacion-viviendas-2026-1e5ee2d1.txt",
-  "caracteres": 67246
  },
  {
   "id": "ara-subvenciones-para-el-desarrollo-de-programas-de-socializacio-b3edd0",
@@ -1197,24 +1125,6 @@
   "caracteres": 86404
  },
  {
-  "id": "bdns-933214",
-  "h": "20832d06094e7308",
-  "titulo": "Programa \"mungibonoa\" de fomento del consumo directo en el comercio y el sector servicios",
-  "organismoSugerido": "ayto-mungia",
-  "organismoFuente": "Ayuntamiento de mungia",
-  "archivo": "cache/fuentes/bdns-933214-0d28169c.txt",
-  "caracteres": 89011
- },
- {
-  "id": "bdns-931954",
-  "h": "6435b7b46dbd1fef",
-  "titulo": "Subvenciones de libre concurrencia para el fomento de la contratación de personas jóvenes desempleadas",
-  "organismoSugerido": "ayto-laudio-llodio",
-  "organismoFuente": "Ayuntamiento de laudio/llodio",
-  "archivo": "cache/fuentes/bdns-931954-b1f54f15.txt",
-  "caracteres": 73847
- },
- {
   "id": "bdns-931520",
   "h": "d235719654375088",
   "titulo": "Subvenciones destinadas a financiar las actividades extraordinarias de los clubes deportivos sin ánimo de lucro",
@@ -1233,15 +1143,6 @@
   "caracteres": 243958
  },
  {
-  "id": "bdns-931088",
-  "h": "d8fd7247038eaf9f",
-  "titulo": "Orden por la que se efectúa la convocatoria correspondiente al de la del Programa Auto+",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Dirección general de programas industriales",
-  "archivo": "cache/fuentes/bdns-931088-a69d6730.txt",
-  "caracteres": 219677
- },
- {
   "id": "bdns-931087",
   "h": "e9650925a66cc2c4",
   "titulo": "Programa de ayuda al estudio de la Escuela Diplomática",
@@ -1249,15 +1150,6 @@
   "organismoFuente": "Subsecretaría de asuntos exteriores, unión europea y cooperación",
   "archivo": "cache/fuentes/bdns-931087-6156bb02.txt",
   "caracteres": 59466
- },
- {
-  "id": "bdns-930710",
-  "h": "a3ed7d3fb9e8e940",
-  "titulo": "Segunda convocatoria para la concesión de subvenciones del Área de Euskara correspondientes",
-  "organismoSugerido": "ayto-lezo",
-  "organismoFuente": "Ayuntamiento de lezo",
-  "archivo": "cache/fuentes/bdns-930710-27ebd946.txt",
-  "caracteres": 53764
  },
  {
   "id": "bdns-930639",
@@ -1321,15 +1213,6 @@
   "organismoFuente": "Diputación foral de Bizkaia",
   "archivo": "cache/fuentes/bdns-929139-fce3ad63.txt",
   "caracteres": 104418
- },
- {
-  "id": "bdns-929034",
-  "h": "05b8a7b425a09a31",
-  "titulo": "Subvenciones de para el otorgamiento de ayudas individuales para favorecer la inclusión social de personas con discapacidad",
-  "organismoSugerido": "ayto-idiazabal",
-  "organismoFuente": "Ayuntamiento de idiazabal",
-  "archivo": "cache/fuentes/bdns-929034-74338248.txt",
-  "caracteres": 97497
  },
  {
   "id": "bdns-928525",
@@ -1485,15 +1368,6 @@
   "caracteres": 120442
  },
  {
-  "id": "bog-c2607272-htm",
-  "h": "3423e1965fe13b90",
-  "titulo": "Bases y convocatoria de de subvenciones para la financiación de actividades y eventos deportivos",
-  "organismoSugerido": "ayto-orio",
-  "organismoFuente": "Ayuntamiento de Orio",
-  "archivo": "cache/fuentes/bog-c2607272-htm-c854508a.txt",
-  "caracteres": 25612
- },
- {
   "id": "bog-c2607197-htm",
   "h": "08b5379344116b6b",
   "titulo": "Subvenciones dirigidas a compensar los gastos de mantenimiento y conservación de ascensores comunitarios",
@@ -1510,15 +1384,6 @@
   "organismoFuente": "Ayuntamiento de Lasarte-Oria",
   "archivo": "cache/fuentes/bog-c2606587-htm-fb6f3461.txt",
   "caracteres": 901
- },
- {
-  "id": "bog-c2606564-htm",
-  "h": "451c74725bf2d40b",
-  "titulo": "Convocatoria de de subvenciones a las asociaciones del ámbito de los servicios sociales",
-  "organismoSugerido": "ayto-deba",
-  "organismoFuente": "Ayuntamiento de Deba",
-  "archivo": "cache/fuentes/bog-c2606564-htm-7c627e25.txt",
-  "caracteres": 1741
  },
  {
   "id": "bog-c2606552-htm",
@@ -1656,15 +1521,6 @@
   "caracteres": 103623
  },
  {
-  "id": "bob-bob-2026a210-i-1190-",
-  "h": "d646dfdf1bde42c2",
-  "titulo": "Orden foral 2377/, de 15 de octubre, de la diputada foral de Euskera, Cultura y Deporte,",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación Foral de Bizkaia",
-  "archivo": "cache/fuentes/bob-bob-2026a210-i-1190--7a31f0f5.txt",
-  "caracteres": 108018
- },
- {
   "id": "bob-bob-2026a207-i-1230-",
   "h": "d93fa1a23611efef",
   "titulo": "Orden foral 6279/, de 16 de octubre, de la diputada foral de Empleo, Cohesión Social e Igualdad",
@@ -1798,68 +1654,5 @@
   "organismoFuente": "Ayuntamiento de Arrigorriaga",
   "archivo": "cache/fuentes/bob-bob-2026a190-ii-5068--ee184285.txt",
   "caracteres": 73053
- },
- {
-  "id": "prest-bizkaia-pnc-jubilacion",
-  "h": "1f02cf4a3f1d4b07",
-  "titulo": "Pensión no contributiva de jubilación (PNC jubilación)",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación Foral de Bizkaia",
-  "archivo": "cache/fuentes/prest-bizkaia-pnc-jubilacion-75b35bd2.txt",
-  "caracteres": 15479
- },
- {
-  "id": "prest-bono-social-electrico",
-  "h": "457c167225849042",
-  "titulo": "Bono social eléctrico para consumidores vulnerables",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Gobierno de España",
-  "archivo": "cache/fuentes/prest-bono-social-electrico-a18ad288.txt",
-  "caracteres": 300000
- },
- {
-  "id": "prest-bizkaia-pnc-incapacidad",
-  "h": "6ccbea61fb580e9c",
-  "titulo": "Pensión no contributiva de incapacidad (PNC incapacidad)",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación Foral de Bizkaia",
-  "archivo": "cache/fuentes/prest-bizkaia-pnc-incapacidad-55586f81.txt",
-  "caracteres": 15436
- },
- {
-  "id": "prest-bizkaia-pecef",
-  "h": "7bb42f0908892659",
-  "titulo": "Prestación económica para cuidados en el entorno familiar (pecef)",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación Foral de Bizkaia",
-  "archivo": "cache/fuentes/prest-bizkaia-pecef-4394fb7e.txt",
-  "caracteres": 23272
- },
- {
-  "id": "prest-bizkaia-pvs",
-  "h": "17be6f4ecccd95d2",
-  "titulo": "Prestación económica vinculada al servicio residencial (PVS)",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación Foral de Bizkaia",
-  "archivo": "cache/fuentes/prest-bizkaia-pvs-2750a8d0.txt",
-  "caracteres": 19503
- },
- {
-  "id": "prest-bizkaia-peap",
-  "h": "7e5dada97e53d6f0",
-  "titulo": "Prestación económica de asistencia personal (PEAP)",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación Foral de Bizkaia",
-  "archivo": "cache/fuentes/prest-bizkaia-peap-a9c32ff2.txt",
-  "caracteres": 27269
- },
- {
-  "id": "prest-gipuzkoa-pnc-complemento-vivienda",
-  "h": "ecb7f97d639af3d5",
-  "titulo": "Pensión no contributiva (PNC): complemento de vivienda",
-  "organismoSugerido": "dfg",
-  "organismoFuente": "Diputación Foral de Gipuzkoa",
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-complemento-vivienda-a15baccd.txt",
-  "caracteres": 2802
  }
 ]
