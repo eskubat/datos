@@ -1,0 +1,47 @@
+[
+ {
+  "id": "prest-bono-social-electrico",
+  "titulo": "Bono social eléctrico para consumidores vulnerables",
+  "url": "https://www.miteco.gob.es/es/energia/pobreza-energetica/pe-001/preguntas-frecuentes-bono-social.html",
+  "fuente": "miteco.gob.es",
+  "organismo": "Gobierno de España",
+  "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "ambito": { "nivel": "estado" },
+  "resumen": "Descuento en la factura de la luz de la vivienda habitual para consumidores vulnerables con el precio voluntario para el pequeño consumidor (PVPC). Se solicita a una comercializadora de referencia.",
+  "dirigido": "Personas físicas titulares del contrato de luz de su vivienda habitual (potencia igual o inferior a 10 kW) que cumplan los requisitos de renta, familia numerosa, pensión mínima o ingreso mínimo vital",
+  "para": ["particular"]
+ },
+ {
+  "id": "prest-bizkaia-pnc-jubilacion",
+  "titulo": "Pensión no contributiva de jubilación (PNC jubilación)",
+  "url": "https://www.bizkaia.eus/es/ayudas-y-prestaciones-para-personas-con-dependencia-discapacidad/pnc-jubilacion",
+  "fuente": "bizkaia.eus",
+  "organismo": "Diputación Foral de Bizkaia",
+  "ambito": { "nivel": "territorio", "nombre": "Bizkaia", "terr": "Bizkaia" },
+  "resumen": "Pensión mensual para personas de 65 años o más sin ingresos suficientes que no han cotizado, o no lo bastante, para tener una pensión contributiva. Incluye un complemento anual para quien vive de alquiler.",
+  "dirigido": "Personas de 65 años o más residentes en Bizkaia con ingresos insuficientes",
+  "para": ["particular"]
+ },
+ {
+  "id": "prest-bizkaia-pnc-incapacidad",
+  "titulo": "Pensión no contributiva de incapacidad (PNC incapacidad)",
+  "url": "https://www.bizkaia.eus/es/ayudas-y-prestaciones-para-personas-con-dependencia-discapacidad/pnc-incapacidad",
+  "fuente": "bizkaia.eus",
+  "organismo": "Diputación Foral de Bizkaia",
+  "ambito": { "nivel": "territorio", "nombre": "Bizkaia", "terr": "Bizkaia" },
+  "resumen": "Pensión mensual para personas de 18 a 65 años con una discapacidad del 65 % o más y sin ingresos suficientes que no han cotizado, o no lo bastante, para tener una pensión contributiva.",
+  "dirigido": "Personas de 18 a 65 años residentes en Bizkaia con discapacidad igual o superior al 65 % e ingresos insuficientes",
+  "para": ["particular"]
+ },
+ {
+  "id": "prest-gipuzkoa-pnc-complemento-vivienda",
+  "titulo": "Pensión no contributiva (PNC): complemento de vivienda",
+  "url": "https://egoitza.gipuzkoa.eus/WAS/CORP/LIAIzapideakWEB/api/v1/tramitePDF/es/1390",
+  "fuente": "Sede electrónica de Gipuzkoa",
+  "organismo": "Diputación Foral de Gipuzkoa",
+  "ambito": { "nivel": "territorio", "nombre": "Gipuzkoa", "terr": "Gipuzkoa" },
+  "resumen": "Complemento para las personas que cobran una pensión no contributiva y viven de alquiler. Plazo abierto durante todo el año.",
+  "dirigido": "Personas que perciben una pensión no contributiva y residen en una vivienda de alquiler en Gipuzkoa",
+  "para": ["particular"]
+ }
+]

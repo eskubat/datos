@@ -50,6 +50,13 @@
       "registros": 147,
       "segundos": 14,
       "erroresFicha": 0
+    },
+    "prestaciones": {
+      "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
+      "ok": true,
+      "registros": 0,
+      "segundos": 0,
+      "erroresFicha": 0
     }
   },
   "enlaces": {

@@ -12,6 +12,7 @@ Recolector diario de ayudas y subvenciones de Euskadi para la app Eskubat. Se ej
 | web.araba.eus · Ayudas en vigor | Ayudas destacadas de la Diputación Foral de Álava | HTML |
 | BDNS (infosubvenciones.es) | Diputación Foral de Bizkaia, ayuntamientos y resto de convocatorias de Euskadi | API pública |
 | Boletines oficiales (BOPV, BOB, BOG, BOTHA) | Convocatorias de los últimos 45 días que no llegan por las otras fuentes (BOPV: Gobierno Vasco y su sector público) | Sumarios en PDF/HTML y texto de cada convocatoria |
+| Prestaciones permanentes (`cache/prestaciones.json`) | Bono social eléctrico, pensiones no contributivas y otras prestaciones que se piden todo el año, publicadas sin fecha de cierre | Lista de páginas oficiales; se descarga cada página |
 
 Se descartan las subvenciones que no puede solicitar cualquiera (nominativas, directas, convenios con una entidad concreta).
 

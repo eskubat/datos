@@ -6,6 +6,7 @@ import * as euskadi from './euskadi.js';
 import * as bdns from './bdns.js';
 import * as forales from './forales.js';
 import * as boletines from './boletines.js';
+import * as prestaciones from './prestaciones.js';
 import { claveLinea } from './historico.js';
 import { aplicar, huella } from './resumen.js';
 import { documentacion } from './enlaces.js';
@@ -21,6 +22,7 @@ const FUENTES = [
   { clave: 'araba', nombre: 'Diputación Foral de Álava (ayudas en vigor)', mod: { recoger: forales.araba } },
   { clave: 'bdns', nombre: 'Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)', mod: bdns },
   { clave: 'boletines', nombre: 'Boletines oficiales (BOPV, BOB, BOG, BOTHA)', mod: boletines },
+  { clave: 'prestaciones', nombre: 'Prestaciones permanentes (lista de páginas oficiales)', mod: prestaciones },
 ];
 
 // Completa con la ficha de euskadi.eus las ayudas que enlazan a ella (las fichas sí son accesibles)
@@ -139,6 +141,14 @@ async function main() {
       ayudas.push(b);
     }
     log(`Boletines: ${(resultados.boletines || []).length - dup} ayudas nuevas (${dup} ya estaban por otras fuentes)`);
+  }
+  // Prestaciones permanentes: solo las que no llegan ya por otra fuente (misma página o mismo título en el mismo ámbito)
+  {
+    const urls = new Set(ayudas.map((a) => a.url));
+    const kAy = ayudas.map((a) => ({ k: claves(a.titulo), amb: a.ambito.nombre }));
+    const nuevas = (resultados.prestaciones || []).filter((p) => !urls.has(p.url) && !kAy.some((x) => x.amb === p.ambito.nombre && parecido(claves(p.titulo), x.k) >= 0.8));
+    ayudas.push(...nuevas);
+    log(`Prestaciones permanentes: ${nuevas.length} nuevas`);
   }
   // Ayudas añadidas por la tarea a partir de noticias, y marca de posibles noticias (se cotejan antes de publicar)
   try { ayudas.push(...extras(log)); } catch (e) { log(`Extras: ${e.message}`); }

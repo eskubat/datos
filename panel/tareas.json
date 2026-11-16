@@ -29,9 +29,11 @@
   "detalle": "Decisión del responsable (cuestión «¿Entran en la app las prestaciones permanentes?»): sí, como «ayudas permanentes», sin fecha de cierre y con su ficha como las demás. Empezar por las de Euskadi y las estatales más pedidas: Ingreso Mínimo Vital, Renta de Garantía de Ingresos, prestaciones por hijo, bono social eléctrico y similares. Añadir una fuente (lista de sus páginas oficiales en Lanbide, Seguridad Social, euskadi.eus…) para que el recolector las descargue y entren en pendientes con fin vacío.",
   "fuente": "Prestaciones permanentes (Lanbide, Seguridad Social, Gobierno Vasco)",
   "quien": "Claude",
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "fuentes",
-  "prioridad": 4
+  "prioridad": 4,
+  "fecha": "2026-11-16",
+  "nota": "IMV, RGI, ayudas mensuales por hijas e hijos y bono social térmico ya llegaban desde euskadi.eus. Nueva fuente «prestaciones» (recolector/prestaciones.js) que lee la lista de páginas oficiales de cache/prestaciones.json y las publica como ayudas permanentes (fin vacío), sin repetir las que ya trae otra fuente; empieza con 4: bono social eléctrico (MITECO), PNC de jubilación y de incapacidad de Bizkaia y complemento de vivienda de la PNC de Gipuzkoa. La red de la sesión no llega a esas webs: la primera prueba real será el recolector de las 05:41 (se esperan 4 ayudas nuevas en pendientes)."
  },
  {
   "id": "spri",
@@ -136,5 +138,15 @@
   "estado": "pendiente",
   "seccion": "fuentes",
   "fecha": "2026-11-16"
+ },
+ {
+  "id": "prestaciones-2",
+  "titulo": "Ampliar la lista de prestaciones permanentes",
+  "detalle": "Añadir a cache/prestaciones.json las que faltan con su página oficial: prestaciones de la Seguridad Social (nacimiento y cuidado de menor, asignación por hijo o menor a cargo con discapacidad), PNC de Gipuzkoa y Álava, prestación económica de dependencia de las tres diputaciones y la Prestación Complementaria de Vivienda de Lanbide (la ficha de euskadi.eus es de 2012: comprobar si sigue vigente con la Ley 14/2022 antes de añadirla).",
+  "fuente": "Prestaciones permanentes (Seguridad Social, diputaciones, Lanbide)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "seccion": "fuentes",
+  "prioridad": 13
  }
 ]

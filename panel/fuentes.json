@@ -132,6 +132,20 @@
    ]
   },
   {
+   "clave": "prestaciones",
+   "que": "Prestaciones permanentes (bono social eléctrico, pensiones no contributivas…) que se piden en cualquier momento; se publican sin fecha de cierre. IMV, RGI y ayudas por hijos ya llegan desde euskadi.eus.",
+   "como": "Lista de páginas oficiales en cache/prestaciones.json; el recolector descarga cada una (como navegador solo en euskadi.eus).",
+   "pendiente": "Ampliar la lista (Seguridad Social, PNC de Gipuzkoa y Álava, dependencia): tarea del plan.",
+   "quien": "Claude (código)",
+   "grupo": "Prestaciones permanentes",
+   "filas": [
+    {
+     "nombre": "Lista de páginas oficiales",
+     "fuente": []
+    }
+   ]
+  },
+  {
    "clave": "",
    "que": "Convocatorias europeas abiertas y próximas.",
    "como": "Búsqueda pública. Solo se publican las que puede pedir directamente una persona, una pyme, una asociación o un ayuntamiento vasco sin formar un consorcio internacional; hoy entran a través de las noticias.",
@@ -235,13 +249,6 @@
    "hacer": "Medir qué falta comparando con la BDNS.",
    "quien": "Claude",
    "tarea": "comarcales"
-  },
-  {
-   "nombre": "Prestaciones permanentes (IMV, RGI, prestaciones por hijo, bono social…)",
-   "por": "La gente las busca como ayudas aunque se piden en cualquier momento. Se publican como ayudas permanentes, sin fecha de cierre.",
-   "hacer": "Empezar por las de Euskadi y las estatales más pedidas: está en el plan de Claude.",
-   "quien": "Claude (código)",
-   "tarea": "prestaciones"
   }
  ]
 }
