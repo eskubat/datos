@@ -9,15 +9,6 @@
   "caracteres": 209454
  },
  {
-  "id": "bdns-920153",
-  "h": "d5bd3d420870d02b",
-  "titulo": "Primera convocatoria del programa de incentivos a proyectos singulares innovadores de ahorro y eficiencia energética (innovae)",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Instituto para la diversificación y ahorro de la energía (idae)",
-  "archivo": "cache/fuentes/bdns-920153-0d3796f0.txt",
-  "caracteres": 355651
- },
- {
   "id": "bdns-938955",
   "h": "17c381b7c1a1ed26",
   "titulo": "Subvenciones destinadas a los gastos de mantenimiento de ascensores comunitarios o zonales en régimen de evaluación individualizada",
@@ -45,24 +36,6 @@
   "caracteres": 4021
  },
  {
-  "id": "eus-ayuda-subvencion-2026-pce",
-  "h": "66359d60793c5774",
-  "titulo": "Programa Complementario de Escolarización",
-  "organismoSugerido": "gv-educacion",
-  "organismoFuente": "Educación",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-pce-83bd9f23.txt",
-  "caracteres": 327501
- },
- {
-  "id": "eus-ayuda-subvencion-2026-hezkuntza-inklusiboa-pree",
-  "h": "0c7577c1e95a9320",
-  "titulo": "Determinación de las unidades a concertar en la Educación Secundaria Obligatoria",
-  "organismoSugerido": "gv-educacion",
-  "organismoFuente": "Educación",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-hezkuntza-inklusiboa-pree-261849ff.txt",
-  "caracteres": 300000
- },
- {
   "id": "eus-ayuda-subvencion-2026-partz-weblan00-content-es",
   "h": "26e279a1f12f5c42",
   "titulo": "Subvenciones destinadas a incentivar la conversión de contratos indefinidos a tiempo parcial en contratos indefinidos a tiempo completo",
@@ -72,33 +45,6 @@
   "caracteres": 300000
  },
  {
-  "id": "ara-ayudas-dirigidas-a-asociaciones-o-fundaciones-para-contribui",
-  "h": "e53228f01c7ec09c",
-  "titulo": "Ayudas para el desarrollo de programas y actividades en el ámbito de los servicios sociales",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-dirigidas-a-asociaciones-o-fundaciones-para-contr-bc264301.txt",
-  "caracteres": 167620
- },
- {
-  "id": "ara-ayudas-economicas-para-gastos-extraordinarios-en-acogimiento",
-  "h": "e2bb0dc0f298ed9f",
-  "titulo": "Ayudas económicas para gastos extraordinarios de apoyo al acogimiento familiar y a la convivencia una vez finalizada la medida de acogimiento familiar",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-economicas-para-gastos-extraordinarios-en-acogimi-cb998e96.txt",
-  "caracteres": 93092
- },
- {
-  "id": "bog-c2606753-htm",
-  "h": "41d6c1653fef725f",
-  "titulo": "Convocatoria de de subvenciones para la promoción de nuevas empresas",
-  "organismoSugerido": "ayto-onati",
-  "organismoFuente": "Ayuntamiento de Oñati",
-  "archivo": "cache/fuentes/bog-c2606753-htm-100cd262.txt",
-  "caracteres": 4191
- },
- {
   "id": "bob-bob-2026a215-ii-5802-",
   "h": "ed43e2ba0faec9be",
   "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -106,6 +52,15 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a215-ii-5802--1dac77fc.txt",
   "caracteres": 5593
+ },
+ {
+  "id": "extra-arraia-maeztu-euskera-2026",
+  "h": "2611c32d6d402112",
+  "titulo": "Ayudas para el estudio del euskera",
+  "organismoSugerido": "ayto-arraia-maeztu",
+  "organismoFuente": "Ayuntamiento de Arraia-Maeztu",
+  "archivo": "cache/fuentes/extra-arraia-maeztu-euskera-2026-41ca57dd.txt",
+  "caracteres": 559
  },
  {
   "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
@@ -144,60 +99,6 @@
   "caracteres": 5840
  },
  {
-  "id": "bdns-938141",
-  "h": "e27bc8a0668b62de",
-  "titulo": "Ayudas económicas a los vecinos para el estudio del euskera",
-  "organismoSugerido": "ayto-elciego",
-  "organismoFuente": "Ayuntamiento de elciego",
-  "archivo": "cache/fuentes/bdns-938141-54999653.txt",
-  "caracteres": 28940
- },
- {
-  "id": "ara-subvenciones-acciones-marco-alaves-de-incidencia-y-proteccio",
-  "h": "1a03b947cbe94489",
-  "titulo": "Subvenciones dirigidas a asociaciones y entidades sin ánimo de lucro, en régimen de libre concurrencia",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-subvenciones-acciones-marco-alaves-de-incidencia-y-prote-d1857712.txt",
-  "caracteres": 110782
- },
- {
-  "id": "bdns-937108",
-  "h": "6ad28524e64cbe60",
-  "titulo": "Decreto de Alcaldia nº /1663 del 14/07/, por lo",
-  "organismoSugerido": "ayto-lasarte-oria",
-  "organismoFuente": "Ayuntamiento de lasarte-oria",
-  "archivo": "cache/fuentes/bdns-937108-7f4aaefa.txt",
-  "caracteres": 40799
- },
- {
-  "id": "ara-convocatoria-de-subvenciones-con-destino-a-entidades-locales",
-  "h": "5d33a18a435a7428",
-  "titulo": "Subvención para Entidades locales que lleven a cabo actividades dirigidas a la juventud",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-convocatoria-de-subvenciones-con-destino-a-entidades-loc-bb0adde9.txt",
-  "caracteres": 77538
- },
- {
-  "id": "bdns-934476",
-  "h": "8cee8a097a3c9d7a",
-  "titulo": "Ayudas económicas para el tratamiento de termitas en los inmuebles urbanos, y anteriores",
-  "organismoSugerido": "ayto-elciego",
-  "organismoFuente": "Ayuntamiento de elciego",
-  "archivo": "cache/fuentes/bdns-934476-c1b3bf37.txt",
-  "caracteres": 23355
- },
- {
-  "id": "bdns-942055",
-  "h": "0f19f7a586483a8f",
-  "titulo": "Convocatoria del XL Concurso Literario",
-  "organismoSugerido": "ayto-lasarte-oria",
-  "organismoFuente": "Ayuntamiento de lasarte-oria",
-  "archivo": "cache/fuentes/bdns-942055-9440cb3e.txt",
-  "caracteres": 40756
- },
- {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
   "h": "b0ecc4da6bcbfe27",
   "titulo": "EDIP, Programa Europeo de la Industria de Defensa",
@@ -205,15 +106,6 @@
   "organismoFuente": "Investigación e Innovación",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-260706defentsaproiektutaf-ac784f95.txt",
   "caracteres": 32004
- },
- {
-  "id": "eus-ayuda-subvencion-2026-ah-pre-2026-webela01-hasiera-es",
-  "h": "215a13b32e88f5ae",
-  "titulo": "Ayudas a proyectos de acción humanitaria (PRE)",
-  "organismoSugerido": "elankidetza",
-  "organismoFuente": "Dirección de eLankidetza",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-ah-pre-2026-webela01-hasiera-es-ff1aeb42.txt",
-  "caracteres": 341084
  },
  {
   "id": "eus-ayuda-subvencion-2026-concm-2026-weblan00-content-es",
@@ -234,15 +126,6 @@
   "caracteres": 295242
  },
  {
-  "id": "eus-ayuda-subvencion-2026-connecneb26tacocreateneb",
-  "h": "1bb0df4f4f17e7b7",
-  "titulo": "Connect NEB y Co-create NEB. En favor de la transformación urbana y comunitaria participativa",
-  "organismoSugerido": "gv-economia",
-  "organismoFuente": "Empleo, Asuntos Sociales e Inclusión",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-connecneb26tacocreateneb-0e972148.txt",
-  "caracteres": 45614
- },
- {
   "id": "eus-ayuda-subvencion-2026-deskcreativemediadeialdia",
   "h": "e4236ffdeb22859b",
   "titulo": "Programa Europa Creativa",
@@ -252,15 +135,6 @@
   "caracteres": 300000
  },
  {
-  "id": "eus-ayuda-subvencion-comunicacion-previs-digitalizacion-2027",
-  "h": "5933ef809feebd3d",
-  "titulo": "Comunicación previa - Digitalización",
-  "organismoSugerido": "gv-alimentacion",
-  "organismoFuente": "Alimentación, Desarrollo Rural, Agricultura y Pesca",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-comunicacion-previs-digitalizacion-2027-176c6914.txt",
-  "caracteres": 187110
- },
- {
   "id": "eus-ayuda-subvencion-2026-edip26edpciproiektuak",
   "h": "fb599b1bae713e5c",
   "titulo": "EDIP, Programa de la Industria Europea de la Defensa",
@@ -268,24 +142,6 @@
   "organismoFuente": "Lehendakaritza",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-edip26edpciproiektuak-7b2fc547.txt",
   "caracteres": 273242
- },
- {
-  "id": "eus-ayuda-subvencion-2026-handitu-egurra-2026",
-  "h": "65173c55337e1326",
-  "titulo": "Comunicación previa - Handitu Egurra",
-  "organismoSugerido": "gv-alimentacion",
-  "organismoFuente": "Alimentación, Desarrollo Rural, Agricultura y Pesca",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-handitu-egurra-2026-7ca4f09b.txt",
-  "caracteres": 131216
- },
- {
-  "id": "eus-ayuda-subvencion-2026-herainvesteu4health",
-  "h": "58ededc6478640cf",
-  "titulo": "HERA Invest es una iniciativa de inversiones de HERA",
-  "organismoSugerido": "gv-ciencia",
-  "organismoFuente": "Investigación e Innovación",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-herainvesteu4health-cf2ca5a2.txt",
-  "caracteres": 44050
  },
  {
   "id": "eus-ayuda-subvencion-2026-hezibi-centros-de-formacion-weblan00-content-es",
@@ -307,12 +163,12 @@
  },
  {
   "id": "eus-ayuda-subvencion-2026-isv-inversion-2027-comunicacion-previa",
-  "h": "c18d6fd1d46e596e",
+  "h": "2415481196dcef40",
   "titulo": "ISV Inversión - Ayudas a inversiones materiales e inmateriales en instalaciones de transformación y en infraestructuras vitivinícolas, así como",
   "organismoSugerido": "gv-alimentacion",
   "organismoFuente": "Alimentación, Desarrollo Rural, Agricultura y Pesca",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-isv-inversion-2027-comunicacion-pr-102c6968.txt",
-  "caracteres": 98650
+  "caracteres": 103342
  },
  {
   "id": "ara-01630001",
@@ -333,15 +189,6 @@
   "caracteres": 61691
  },
  {
-  "id": "ara-subvenciones-adquisicion-herramientas-para-veredas-2026",
-  "h": "e30c9c2a5629faeb",
-  "titulo": "Ayudas para financiar la adquisición de herramientas y equipos de protección individual",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-subvenciones-adquisicion-herramientas-para-veredas-2026-923be536.txt",
-  "caracteres": 120109
- },
- {
   "id": "ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-y-p-33821e",
   "h": "a93519ecb869984c",
   "titulo": "Ayudas para intervenciones arqueológicas y paleontológicas realizadas como consecuencia de obras",
@@ -358,15 +205,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-f94e402a.txt",
   "caracteres": 61821
- },
- {
-  "id": "ara-subvenciones-estudiantes-de-bachillerato-ciclos-formativos-d",
-  "h": "5ef5d2d85704c802",
-  "titulo": "Subvenciones a jóvenes estudiantes de bachillerato, ciclos formativos de grado medio o superior",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-subvenciones-estudiantes-de-bachillerato-ciclos-formativ-980e2805.txt",
-  "caracteres": 93337
  },
  {
   "id": "ara-ayudas-directas-para-el-transporte-terrestre-por-carretera-p",
@@ -405,15 +243,6 @@
   "caracteres": 214972
  },
  {
-  "id": "ara-becas-de-investigacion-fuentes-documentales-de-alava-2026",
-  "h": "b0fc0f0a0a9cc4cb",
-  "titulo": "Becas de investigación “Fuentes Documentales”",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-becas-de-investigacion-fuentes-documentales-de-alava-202-5bdecb5e.txt",
-  "caracteres": 103355
- },
- {
   "id": "bdns-925434",
   "h": "94c62f20b562d32f",
   "titulo": "Subvención para la contratación de personas desempleadas por parte de empresas radicadas",
@@ -423,22 +252,13 @@
   "caracteres": 53521
  },
  {
-  "id": "ara-ayudas-transporte-intermunicipal-municipios-menores-20000-ha",
-  "h": "cb3d857edcdc00f5",
-  "titulo": "Subvenciones destinadas a financiar el transporte intramunicipal y dirigidas a municipios del THA menores de 20.000 habitantes. Convocatoria",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-transporte-intermunicipal-municipios-menores-2000-ebb16392.txt",
-  "caracteres": 74889
- },
- {
   "id": "ara-subvenciones-participacion-actividades-deporte-escolar-2026",
-  "h": "7244932b0d9b7ec1",
+  "h": "69eb4d29e0290835",
   "titulo": "Subvenciones por la participación en las actividades contenidas en el Programa de Deporte Escolar",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-subvenciones-participacion-actividades-deporte-escolar-2-20465e09.txt",
-  "caracteres": 77806
+  "caracteres": 114209
  },
  {
   "id": "ue-crea-media-2027-tvonline-2",
@@ -495,15 +315,6 @@
   "caracteres": 67352
  },
  {
-  "id": "ara-ayuda-lucha-contra-polilla-vinedo-2026",
-  "h": "e8d24db82f409a59",
-  "titulo": "Ayuda para el fomento de proyectos de desarrollo de la estrategia de lucha contra la polilla del racimo (Lobesia Botrana) mediante la aplicación",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayuda-lucha-contra-polilla-vinedo-2026-cd74dbf4.txt",
-  "caracteres": 68116
- },
- {
   "id": "ara-convocatoria-subvenciones-medios-euskera-2026",
   "h": "8f1e804b6acc8c87",
   "titulo": "Subvenciones destinadas a la consolidación, desarrollo y normalización de proyectos comunicativos locales o comarcales en euskera",
@@ -540,31 +351,13 @@
   "caracteres": 102454
  },
  {
-  "id": "ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-format",
-  "h": "ffd3215a5357ff48",
-  "titulo": "Ayudas a la inversión en equipamiento formativo",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-fo-e97a71e8.txt",
-  "caracteres": 85256
- },
- {
   "id": "ara-ayudas-y-subvenciones-a-la-elaboracion-del-planeamiento-urba",
-  "h": "ec0016850301e0cc",
+  "h": "9c2b5836663ca2ee",
   "titulo": "Subvenciones dirigidas a la financiación de los honorarios de redacción de los instrumentos de planeamiento urbanístico y de los documentos",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-y-subvenciones-a-la-elaboracion-del-planeamiento--a43f0514.txt",
-  "caracteres": 69484
- },
- {
-  "id": "ara-ayudas-destinadas-a-incentivar-la-euskaldunizacion-de-person",
-  "h": "46ca9bf8a0110767",
-  "titulo": "Subvención para incentivar la euskaldunización de personas adultas",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-destinadas-a-incentivar-la-euskaldunizacion-de-pe-a5a8b884.txt",
-  "caracteres": 71725
+  "caracteres": 72442
  },
  {
   "id": "ara-01122001",
@@ -729,33 +522,6 @@
   "caracteres": 67274
  },
  {
-  "id": "ara-garantias-alquiler-vivienda-adhesion-personas-arrendadoras",
-  "h": "4a31f6444db6ed5b",
-  "titulo": "Programa de garantías al alquiler de viviendas - adhesión arrendadores",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-garantias-alquiler-vivienda-adhesion-personas-arrendador-365c506c.txt",
-  "caracteres": 110817
- },
- {
-  "id": "ara-garantias-alquiler-vivienda-adhesion-personas-arrendatarias",
-  "h": "723a1c2c0b09e1b7",
-  "titulo": "Programa de garantías al alquiler de viviendas - adhesión arrendatarios",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-garantias-alquiler-vivienda-adhesion-personas-arrendatar-294510e7.txt",
-  "caracteres": 152887
- },
- {
-  "id": "ara-ayudas-zonas-limitaciones-naturales-o-especificas",
-  "h": "046fb7f3723fe9ab",
-  "titulo": "Ayudas a zonas con limitaciones naturales u otras zonas con limitaciones específicas en el Territorio Histórico",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-zonas-limitaciones-naturales-o-especificas-aa75601b.txt",
-  "caracteres": 121954
- },
- {
   "id": "ara-ayudas-adopcion-compromisos-medioambientales",
   "h": "e615e746e363156d",
   "titulo": "Ayudas por la adopción de compromisos medioambientales",
@@ -918,6 +684,15 @@
   "caracteres": 81954
  },
  {
+  "id": "ara-pagos-servicios-ambientales-2026",
+  "h": "9a7d74ffad301246",
+  "titulo": "Pagos por Servicios Ambientales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-pagos-servicios-ambientales-2026-cb59a797.txt",
+  "caracteres": 83602
+ },
+ {
   "id": "ara-01484",
   "h": "91af673c75aa8a43",
   "titulo": "Peaje Social AP-68",
@@ -954,15 +729,6 @@
   "caracteres": 293147
  },
  {
-  "id": "bdns-931520",
-  "h": "a674ea9a04809234",
-  "titulo": "Subvenciones destinadas a financiar las actividades extraordinarias de los clubes deportivos sin ánimo de lucro",
-  "organismoSugerido": "ayto-ordizia",
-  "organismoFuente": "Ayuntamiento de ordizia",
-  "archivo": "cache/fuentes/bdns-931520-60c6cdcc.txt",
-  "caracteres": 282323
- },
- {
   "id": "bog-c2606552-htm",
   "h": "52328dc9d36d4506",
   "titulo": "Bases y convocatoria de de ayudas para estudiar euskera",
@@ -972,24 +738,6 @@
   "caracteres": 838
  },
  {
-  "id": "bog-c2606336-htm",
-  "h": "8b71b7628987d334",
-  "titulo": "Bases y convocatoria de subvenciones para el pago de la tasa de suministro de agua y basuras",
-  "organismoSugerido": "ayto-asteasu",
-  "organismoFuente": "Ayuntamiento de Asteasu",
-  "archivo": "cache/fuentes/bog-c2606336-htm-4dd84d90.txt",
-  "caracteres": 300000
- },
- {
-  "id": "bog-c2606670-htm",
-  "h": "36c70b312f64b27b",
-  "titulo": "Bases reguladoras y convocatoria de de las subvenciones del plan de equipamientos deportivos",
-  "organismoSugerido": "dfg",
-  "organismoFuente": "Diputación Foral de Gipuzkoa",
-  "archivo": "cache/fuentes/bog-c2606670-htm-2c6ce16e.txt",
-  "caracteres": 159442
- },
- {
   "id": "botha-2026-131-03265-c-pdf",
   "h": "7725e8c3d882ea39",
   "titulo": "Decreto Foral 42/, de 10 de noviembre, del Consejo de Gobierno Foral",
@@ -997,15 +745,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/botha-2026-131-03265-c-pdf-601695a9.txt",
   "caracteres": 29159
- },
- {
-  "id": "botha-2026-113-02776-c-pdf",
-  "h": "b2106b6da556ae6d",
-  "titulo": "Aprobación de las bases reguladoras y convocatoria para la concesión de subvenciones en materia de cultura",
-  "organismoSugerido": "ayto-alegria-dulantzi",
-  "organismoFuente": "Ayuntamiento de Alegría-Dulantzi",
-  "archivo": "cache/fuentes/botha-2026-113-02776-c-pdf-b529229f.txt",
-  "caracteres": 36508
  },
  {
   "id": "bob-bob-2026a207-i-1230-",
