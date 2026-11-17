@@ -418,5 +418,15 @@
   "parecidaA": "ara-01362004",
   "motivo": "Dos trámites de la sede de Álava del programa de fomento del terroir de Rioja Alavesa (DF 38/2025) con título casi igual («fomento del terroir a través de la viticultura»); 01362004 añade «medidas 1, 3 y 4». Misma fuente y mismos solicitantes; sin convocatoria 2026 localizada.",
   "fecha": "2026-11-17"
+ },
+ "bob-bob-2026a215-ii-5802-": {
+  "parecidaA": "bob-bob-2026a219-ii-6013-",
+  "motivo": "Misma convocatoria 2026 de ayudas a la emancipación juvenil de Santurtzi publicada dos veces en el BOB: el anuncio del 13/11 (BDNS 941207) sustituye al del 09/11 (BDNS 861710); mismo texto, cambia solo la referencia BDNS y la fecha de publicación (y con ella el plazo de 15 días hábiles).",
+  "fecha": "2026-11-17"
+ },
+ "bob-bob-2026a219-ii-6013-": {
+  "parecidaA": "bob-bob-2026a215-ii-5802-",
+  "motivo": "Anuncio del BOB del 13/11/2026 que sustituye al del 09/11/2026 de la misma convocatoria de emancipación juvenil de Santurtzi (BDNS 941207 frente a 861710).",
+  "fecha": "2026-11-17"
  }
 }
