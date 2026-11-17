@@ -567,12 +567,12 @@ HTTP 200
 			}
 		};
 
-		Liferay.authToken = 'iETZagX1';
+		Liferay.authToken = 'dzQQKyTL';
 
 		
 
-		Liferay.currentURL = '\x2fes\x2finicio\x2ftramites\x2ffitxa\x2falava-Innova-2025---Empresas-y-Autonomos\x3fp_p_id\x3dANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet\x26p_p_lifecycle\x3d2\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_cacheability\x3dcacheLevelPage';
-		Liferay.currentURLEncoded = '\x252Fes\x252Finicio\x252Ftramites\x252Ffitxa\x252Falava-Innova-2025---Empresas-y-Autonomos\x253Fp_p_id\x253DANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet\x2526p_p_lifecycle\x253D2\x2526p_p_state\x253Dnormal\x2526p_p_mode\x253Dview\x2526p_p_cacheability\x253DcacheLevelPage';
+		Liferay.currentURL = '\x2fes\x2finicio\x2ftramites\x2ffitxa\x2fAyudas-PAC-del-SIGC-Pagos-directos-y-desarrollo-rural\x3fp_p_id\x3dANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet\x26p_p_lifecycle\x3d2\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_cacheability\x3dcacheLevelPage';
+		Liferay.currentURLEncoded = '\x252Fes\x252Finicio\x252Ftramites\x252Ffitxa\x252FAyudas-PAC-del-SIGC-Pagos-directos-y-desarrollo-rural\x253Fp_p_id\x253DANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet\x2526p_p_lifecycle\x253D2\x2526p_p_state\x253Dnormal\x2526p_p_mode\x253Dview\x2526p_p_cacheability\x253DcacheLevelPage';
 	// ]]>
 </script>
 
@@ -1550,7 +1550,7 @@ Liferay.on(
 
 
 
-	<nav aria-label="Enlaces rápidos" class="bg-dark cadmin quick-access-nav text-center text-white" id="ebpr_quickAccessNav">
+	<nav aria-label="Enlaces rápidos" class="bg-dark cadmin quick-access-nav text-center text-white" id="inyb_quickAccessNav">
 		
 			
 				<a class="d-block p-2 sr-only sr-only-focusable text-reset" href="#main-content">
@@ -2555,7 +2555,7 @@ Liferay.on(
                 <span>eu</span>
                 <span></span>
             </div>
-                <a class="text-uppercase" href="/c/portal/update_language?redirect=/es/inicio/tramites/fitxa/alava-Innova-2025---Empresas-y-Autonomos?p_p_id=ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_l_id=4195&languageId=eu_ES" data-senna-off="true"><span title="Euskara">eu</span></a>
+                <a class="text-uppercase" href="/c/portal/update_language?redirect=/es/inicio/tramites/fitxa/Ayudas-PAC-del-SIGC-Pagos-directos-y-desarrollo-rural?p_p_id=ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_l_id=4195&languageId=eu_ES" data-senna-off="true"><span title="Euskara">eu</span></a>
             <span>|</span>
             <div class="d-none">
                 <span>español</span>
@@ -2869,7 +2869,7 @@ Liferay.on(
 
 
 
-<form action="https://egoitza.araba.eus/es/inicio/tramites?p_p_id=ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_javax.portlet.action=SearchMVCActionCommand&amp;p_auth=iETZagX1" class="form  " data-fm-namespace="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_" id="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm" method="post" name="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm" >
+<form action="https://egoitza.araba.eus/es/inicio/tramites?p_p_id=ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_javax.portlet.action=SearchMVCActionCommand&amp;p_auth=dzQQKyTL" class="form  " data-fm-namespace="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_" id="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm" method="post" name="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm" >
 	
 
 	
@@ -2946,7 +2946,7 @@ Liferay.on(
 		
 			
 				
-					<input  class="field form-control"  id="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_formDate"    name="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_formDate"     type="hidden" value="1794884478700"   />
+					<input  class="field form-control"  id="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_formDate"    name="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_formDate"     type="hidden" value="1794886817107"   />
 				
 			
 		
@@ -4255,7 +4255,7 @@ var $ = AUI.$;var _ = AUI._;
   rel="stylesheet"
 />
 <script>
-document.title = 'Álava Innova 2025 - Empresas y Autónomos';
+document.title = 'Ayudas PAC del SIGC. Pagos directos y desarrollo rural - Campaña 2025';
 </script>
 <script data-senna-track="temporary">
   var languageMap = {
@@ -4390,7 +4390,7 @@ document.title = 'Álava Innova 2025 - Empresas y Autónomos';
       source = source.replace("[$IMG_CALENDAR$]", "/o/ANPWCOMU-lector-json-module/img/calendar.svg");
       var template = Handlebars.compile(source);
 
-      var html = template({"pestanas":{"pestanaProcedimiento":{"tituloPestana":"Sobre el procedimiento","seccionMasInformacion":{"valor":"<p>alavainnova@araba.eus<\/p>","titulo":"Más información"},"seccionVaDirigido":{"valor":"<p>a) Empresas, cualquiera que sea su configuración jurídica, con domicilio social y fiscal en el Territorio Histórico de Álava o que al menos tengan ubicado en el Territorio Histórico de Álava un centro de actividad, con personal contratado adscrito al mismo en el momento de la solicitud y que a la fecha de presentación de la solicitud haya transcurrido, al menos, un año desde su constitución o inicio de la actividad. Si anteriormente desarrollaban la misma actividad bajo otra denominación u otra forma jurídica se considerará la fecha de constitución inicial para el cómputo de su antigüedad. A efectos de la presente convocatoria se entenderá por PYME una empresa que tenga menos de 250 personas asalariadas y presente un volumen de negocios anual no superior a 50 millones de euros o un balance anual no superior a 43 millones de euros, todo ello calculado sobre el último ejercicio contable cerrado y en base anual.<\/p><p><br><\/p><p>b) Autónomos/as con domicilio fiscal en el Territorio Histórico de Álava y que a la fecha de presentación de la solicitud haya transcurrido, al menos, un año desde su alta en el IAE correspondiente a la actividad para la que solicitan la ayuda.<\/p><p><br><\/p>","titulo":"A quién va dirigido"},"seccionResolucion":{"plazoResolucion":{"valor":"6 Meses","titulo":"Plazo de resolución"},"titulo":"Resolución","silencioAministrativoInteresado":{"valor":"Negativo","titulo":"Silencio administrativo de la persona interesada"},"inicioInteresado":{"valor":"Sí","titulo":"Inicio Persona Interesada"}},"seccionOrganosParticipantes":{"lista":[{"valor":"Servicio de Desarrollo Económico e Innovación"}],"titulo":"Organismo competente"}},"pestanaDespuesPresentacion":{"tituloPestana":"Después de la presentación","tramites":{"tramite":[{"contacto":{"descripcion":"<p>Desarrollo Económico e Innovación<\/p>","correosElectronicos":{"lista":[{"valor":"alavainnova@araba.eus"}],"titulo":"Correo electrónico"},"telefonos":{"lista":[{"valor":"945181818"}],"titulo":"Teléfono"}},"detalleTramite":{"acciones":[{"accion":"Tramitar","accionPrincipal":"S","url":"https://egoitza.araba.eus/nire-karpeta/es/mis-expedientes"}],"descripcionTramite":"<p>Presentación justificación<\/p>","denominacionTramite":"Presentación justificación"},"canalesDePresentacion":{"canalPresencial":{"descripcion":"","titulo":"Presencial","activo":"N"},"canalElectronico":{"descripcion":"Necesitarás alguno de estos sistemas de identificación digital:\r\n<ul><li>Certificado electrónico<\/li><\/ul>","titulo":"Electrónico","activo":"S"}},"plazoPresentacion":{"plazo":{"estado":"Fuera de plazo","enPlazo":"N","descripcionPlazo":"CERRADO (01/01/2026 - 23/10/2026)","descripcionPlazoAmpliada":"<p>Para proceder a dar por justificado el pago del anticipo y realizar el abono de la subvención restante se deberá entregar antes del día <strong>23 de octubre de 2026 <\/strong>la documentación que se especifica en el artículo 13 de la convocatoria de ayudas ALAVA INNOVA Digitaliza 2025 y que se resume a continuación:<\/p>"},"titulo":"Plazo de presentación"},"documentacion":{"condicionesDocumentos":[{"descripcion":"Para todos los casos","documentosPorCondicion":[{"descripcionDocumento":"<p>La justificación de la subvención se debe presentar de acuerdo con las siguientes instrucciones.<\/p>","nombreDocumento":"1. Instrucciones (descargable)","urlDocumento":"https://egoitza.araba.eus/es/inicio/tramites?p_p_id=ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet&p_p_lifecycle=2&p_p_cacheability=cacheLevelPage&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_url=https%3A%2F%2Fegoitza.araba.eus%2FAPIEgoitza%2Fsgcpsapi%2Fv1%2Fprocedimientos%2Ftramites%2F0102100102%2Fdocumentos%2F%257B90580821-3D5D-CB3D-86EF-9F4B00700000%257D&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_cmd=getDocumentBinario&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_mvcRenderCommandName=%2Fccasa%2Fregistro&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_id_registro=Ayudas-PAC-del-SIGC-Pagos-directos-y-desarrollo-rural","denominacionDocumento":"1. Instrucciones (descargable)"},{"descripcionDocumento":"<p>Modelo de justificación. PDF EDITABLE. Incluye la Declaración responsable de la coincidencia de las copias con los originales indicando que los ficheros adjuntados son imagen fiel de los originales, que éstos obran en poder de la entidad solicitante y que los pondrá a disposición de la Diputación Foral de Álava cuando así sea requerido.<\/p>","nombreDocumento":"2. Modelo de justificación (descargable)","urlDocumento":"https://egoitza.araba.eus/es/inicio/tramites?p_p_id=ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet&p_p_lifecycle=2&p_p_cacheability=cacheLevelPage&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_url=https%3A%2F%2Fegoitza.araba.eus%2FAPIEgoitza%2Fsgcpsapi%2Fv1%2Fprocedimientos%2Ftramites%2F0102100102%2Fdocumentos%2F%257B56BBD97D-AB8B-C51A-8411-9ADA35900000%257D&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_cmd=getDocumentBinario&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_mvcRenderCommandName=%2Fccasa%2Fregistro&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_id_registro=Ayudas-PAC-del-SIGC-Pagos-directos-y-desarrollo-rural","denominacionDocumento":"2. Modelo de justificación (descargable)"},{"descripcionDocumento":"<p>Memoria final de todas las actuaciones realizadas, especificando el nivel de consecución de los objetivos, el grado de satisfacción, el cumplimiento del calendario de realización de las actuaciones y las desviaciones en los conceptos subvencionables.<\/p>","nombreDocumento":"3. Memoria final de todas las actuaciones realizadas","denominacionDocumento":"3. Memoria final de todas las actuaciones realizadas"},{"descripcionDocumento":"<p>Cuadro de los gastos externos, internos y de las inversiones de inmovilizado ligadas a las actuaciones de innovación subvencionadas y realizadas (Hoja Excel enviada al comunicar la concesión de la subvención). Puede acceder en el siguiente enlace a una hoja Excel sin sus datos&nbsp;<\/p>","nombreDocumento":"4. Cuadro de los gastos externos, gastos internos y de las inversiones de inmovilizado ","urlDocumento":"https://egoitza.araba.eus/es/inicio/tramites?p_p_id=ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet&p_p_lifecycle=2&p_p_cacheability=cacheLevelPage&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_url=https%3A%2F%2Fegoitza.araba.eus%2FAPIEgoitza%2Fsgcpsapi%2Fv1%2Fprocedimientos%2Ftramites%2F0102100102%2Fdocumentos%2F%257B286C38E7-3096-CF63-8441-9F4B07F00000%257D&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_cmd=getDocumentBinario&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_mvcRenderCommandName=%2Fccasa%2Fregistro&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_id_registro=Ayudas-PAC-del-SIGC-Pagos-directos-y-desarrollo-rural","denominacionDocumento":"4. Cuadro de los gastos externos, gastos internos y de las inversiones de inmovilizado "},{"descripcionDocumento":"<p>Facturas y demás documentos de valor probatorio equivalente. Las facturas emitidas por entidades de otros países deberán estar traducidas, excepto las emitidas en inglés. Asimismo, en el caso de aportar facturas electrónicas, el formato de estas se ajustará a los estándares de Factura-e y Ef4ktur.<\/p>","nombreDocumento":"5. Facturas","denominacionDocumento":"5. Facturas"},{"descripcionDocumento":"<p>Triple oferta e informe de justificación si la oferta elegida no es la más ventajosa económicamente (en el caso de que el gasto real externo incurrido iguale o supere el límite de 15.000,00 euros y no se haya presentado en la solicitud).&nbsp;<\/p>","nombreDocumento":"6. Cuadro Triple oferta (descargable)","urlDocumento":"https://egoitza.araba.eus/es/inicio/tramites?p_p_id=ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet&p_p_lifecycle=2&p_p_cacheability=cacheLevelPage&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_url=https%3A%2F%2Fegoitza.araba.eus%2FAPIEgoitza%2Fsgcpsapi%2Fv1%2Fprocedimientos%2Ftramites%2F0102100102%2Fdocumentos%2F%257B7CE917EA-175E-CC1A-886F-9ADA39F00000%257D&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_cmd=getDocumentBinario&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_mvcRenderCommandName=%2Fccasa%2Fregistro&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_id_registro=Ayudas-PAC-del-SIGC-Pagos-directos-y-desarrollo-rural","denominacionDocumento":"6. Cuadro Triple oferta (descargable)"},{"descripcionDocumento":"<p>Solicitudes / Resoluciones de otras ayudas para la ejecución de las actuaciones, que no hayan sido entregadas previamente.<\/p>","nombreDocumento":"7. Solicitudes / Resoluciones de otras ayudas para la ejecución de las actuaciones","denominacionDocumento":"7. Solicitudes / Resoluciones de otras ayudas para la ejecución de las actuaciones"},{"descripcionDocumento":"<p>Justificación del pago de los gastos incurridos mediante transferencia bancaria u otro documento de valor probatorio equivalente en el tráfico jurídico mercantil, siempre que se especifiquen la persona pagadora, la beneficiaria, el importe, la fecha de pago y el concepto.<\/p>","nombreDocumento":"8. La justificación del pago de los gastos incurridos según tipología.","denominacionDocumento":"8. La justificación del pago de los gastos incurridos según tipología."},{"descripcionDocumento":"<p>Requerido si se ha subvencionado gasto interno.<\/p><p>Declaración responsable de la entidad beneficiaria del cumplimiento de los requisitos establecidos en el artículo 5 y de las horas de dedicación de las personas subvencionadas participantes en las actuaciones. <\/p><p><br><\/p>","nombreDocumento":"9. Declaración responsable de la entidad beneficiaria del cumplimiento de los requisitos Artículo 5","denominacionDocumento":"9. Declaración responsable de la entidad beneficiaria del cumplimiento de los requisitos Artículo 5"}],"condicionDocumento":"CON CARÁCTER GENERAL"}],"titulo":"Documentación"}}]}},"pestanaPresentacionDelTramite":{"tituloPestana":"Presentación del trámite","tramites":{"tramite":[{"contacto":{"descripcion":"<p>Servicio de Desarrollo Económico e Innovación<\/p>","correosElectronicos":{"lista":[{"valor":"alavainnova@araba.eus"}],"titulo":"Correo electrónico"},"telefonos":{"lista":[{"valor":"945181818"}],"titulo":"Teléfono"}},"detalleTramite":{"acciones":[{"accion":"Tramitar","accionPrincipal":"S","url":"https://e-s.araba.eus/wps/myportal/iniciarTramite_es?id=1282"}],"descripcionTramite":"<p>Solicitud<\/p>","denominacionTramite":"Solicitud"},"canalesDePresentacion":{"canalPresencial":{"descripcion":"Plaza de la Provincia, 5","titulo":"Presencial","activo":"S"},"canalElectronico":{"descripcion":"Necesitarás alguno de estos sistemas de identificación digital:\r\n<ul><li>BAKQ<\/li><li>Certificado electrónico<\/li><\/ul>","titulo":"Electrónico","activo":"S"}},"plazoPresentacion":{"plazo":{"estado":"Fuera de plazo","enPlazo":"N","descripcionPlazo":"CERRADO (01/01/2025 - 14/03/2025)","descripcionPlazoAmpliada":"<p>De 1 de enero 2025 a 14 de marzo 2025<\/p>"},"titulo":"Plazo de presentación"},"documentacion":{"condicionesDocumentos":[{"descripcion":"Para todos los casos","documentosPorCondicion":[{"nombreDocumento":"Aceptación de la subvención                       ","denominacionDocumento":"Aceptación de la subvención                       "},{"nombreDocumento":"Anexo Excel al formulario de justificación        ","denominacionDocumento":"Anexo Excel al formulario de justificación        "},{"nombreDocumento":"Cert. Obligaciones Fiscales                       ","denominacionDocumento":"Cert. Obligaciones Fiscales                       "},{"nombreDocumento":"Cert. Obligaciones Seguridad Social               ","denominacionDocumento":"Cert. Obligaciones Seguridad Social               "},{"nombreDocumento":"Certificado plantilla media de empleos de alta    ","denominacionDocumento":"Certificado plantilla media de empleos de alta    "},{"nombreDocumento":"Copia de las nóminas y su pago                    ","denominacionDocumento":"Copia de las nóminas y su pago                    "},{"nombreDocumento":"Copia del contrato de trabajo                     ","denominacionDocumento":"Copia del contrato de trabajo                     "},{"nombreDocumento":"Cuadro de triple oferta                           ","denominacionDocumento":"Cuadro de triple oferta                           "},{"nombreDocumento":"Cuentas de resultados                             ","denominacionDocumento":"Cuentas de resultados                             "},{"nombreDocumento":"Declaración Titularidad Real                      ","denominacionDocumento":"Declaración Titularidad Real                      "},{"nombreDocumento":"Declaración jornada anual                         ","denominacionDocumento":"Declaración jornada anual                         "},{"nombreDocumento":"Declaración responsable artículo 5                ","denominacionDocumento":"Declaración responsable artículo 5                "},{"nombreDocumento":"Documentación programa INNOBIDEAK-Kudeabide       ","denominacionDocumento":"Documentación programa INNOBIDEAK-Kudeabide       "},{"nombreDocumento":"Exención de IVA                                   ","denominacionDocumento":"Exención de IVA                                   "},{"nombreDocumento":"Facturas                                          ","denominacionDocumento":"Facturas                                          "},{"nombreDocumento":"Ficha de terceros                                 ","denominacionDocumento":"Ficha de terceros                                 "},{"nombreDocumento":"Justificante de pago RLC                          ","denominacionDocumento":"Justificante de pago RLC                          "},{"nombreDocumento":"Justificantes de pago de facturas                 ","denominacionDocumento":"Justificantes de pago de facturas                 "},{"nombreDocumento":"Memoria final de todas las actuaciones realizadas ","denominacionDocumento":"Memoria final de todas las actuaciones realizadas "},{"nombreDocumento":"Memoria organización y actuaciones presentadas    ","denominacionDocumento":"Memoria organización y actuaciones presentadas    "},{"nombreDocumento":"Modelo de justificación                           ","denominacionDocumento":"Modelo de justificación                           "},{"nombreDocumento":"Oferta aceptada                                   ","denominacionDocumento":"Oferta aceptada                                   "},{"nombreDocumento":"Oferta rechazada                                  ","denominacionDocumento":"Oferta rechazada                                  "},{"nombreDocumento":"Partes horarios                                   ","denominacionDocumento":"Partes horarios                                   "},{"nombreDocumento":"Renuncia de la subvención                         ","denominacionDocumento":"Renuncia de la subvención                         "},{"nombreDocumento":"Seguridad Social RLC                              ","denominacionDocumento":"Seguridad Social RLC                              "},{"nombreDocumento":"Seguridad Social RNT                              ","denominacionDocumento":"Seguridad Social RNT                              "},{"nombreDocumento":"Solicitudes/resoluciones de otras ayudas          ","denominacionDocumento":"Solicitudes/resoluciones de otras ayudas          "}],"condicionDocumento":"CON CARACTER GENERAL"}],"titulo":"Documentación"}}]}}},"cabecera":{"finalidad":"Promover la innovación y la digitalización en Álava mediante la concesión de subvenciones en régimen de concurrencia competitiva a aquellas entidades que realicen actuaciones que coadyuven a la modernización económica y a la mejora de la competitividad del tejido productivo alavés.","plazo":{"estado":"En plazo","enPlazo":"S","descripcionPlazo":"ABIERTO (19/11/2024 - 01/06/2027)","descripcionPlazoAmpliada":"Continua"},"titulo":"Álava Innova 2025 - Empresas y Autónomos"}});
+      var html = template({"pestanas":{"pestanaProcedimiento":{"tituloPestana":"Sobre el procedimiento","seccionNormativa":{"lista":[{"normativa":{"descripcion":"ORDEN de 5 de mayo de 2026, de la consejera de Alimentación, Desarrollo Rural, Agricultura y Pesca, por la que se convocan, para el ejercicio 2026, las intervenciones en forma de pagos directos financiadas con cargo al Fondo Europeo Agrícola (FEAGA) incluidas en la Política Agrícola Común, y por la que se establecen las normas para la aplicación de la condicionalidad reforzada y de la condicionalidad social que deben cumplir las personas beneficiarias.","url":"https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/05/2601910a.shtml"}},{"normativa":{"descripcion":"Ley 30/2022, de 23 de diciembre, por la que se regulan el sistema de gestión de la Política Agrícola Común y otras materias conexas.","url":"https://www.boe.es/eli/es/l/2022/12/23/30/con"}},{"normativa":{"descripcion":"Real Decreto 1048/2022, de 27 de diciembre, sobre la aplicación, a partir de 2023, de las intervenciones en forma de pagos directos y el establecimiento de requisitos comunes en el marco del Plan Estratégico de la Política Agrícola Común, y la regulación de la solicitud única del sistema integrado de gestión y control.","url":"https://www.boe.es/eli/es/rd/2022/12/27/1048/con"}}],"titulo":"Normativa"},"seccionMasInformacion":{"valor":"<p>Presencial<\/p>","titulo":"Más información"},"seccionVaDirigido":{"valor":"Personas físicas y jurídicas titulares de explotaciones agrarias","titulo":"A quién va dirigido"},"seccionRecursos":{"titulo":"Sobre el procedimiento","recursos":[{"recurso":{"tipoRecurso":"Recurso de Alzada","organismo":{"valor":" Viceconsejero de Agricultura,\nPesca y Política Alimentaria del Gobierno Vasco","titulo":"Organismo:"},"plazo":{"valor":"1 Meses","titulo":"Plazo:"}}}]},"seccionResolucion":{"plazoResolucion":{"valor":"No tiene","titulo":"Plazo de resolución"},"titulo":"Resolución","silencioAministrativoInteresado":{"valor":"No tiene","titulo":"Silencio administrativo de la persona interesada"},"inicioInteresado":{"valor":"Sí","titulo":"Inicio Persona Interesada"}},"seccionOrganosParticipantes":{"lista":[{"valor":"Servicio de Ayudas Directas"}],"titulo":"Organismo competente"}}},"cabecera":{"finalidad":"Ayudas de la Política Agraria Común integradas dentro del Sistema Integrado de Gestión y Control: pagos directos y desarrollo rural","plazo":{"estado":"En plazo","enPlazo":"S","descripcionPlazo":"ABIERTO (01/02/2025 - 31/12/2026)","descripcionPlazoAmpliada":"<p>Anual<\/p>"},"titulo":"Ayudas PAC del SIGC. Pagos directos y desarrollo rural - Campaña 2025"}});
 
       for (var key in languageMap) {
           if (languageMap.hasOwnProperty(key)) {
@@ -4655,4 +4655,268 @@ document.title = 'Álava Innova 2025 - Empresas y Autónomos';
 										<p class="mb-0"><span class="font-weight-bold">[lector.json.servicio.responsable]</span> {{{contacto.descripcion}}}</p>
 									</div>
 								</li> 
-								{
+								{{#if contacto.telefonos}}
+									<li>
+										<p class="mb-0"><span class="font-weight-bold">{{contacto.telefonos.titulo}}:</span> 
+										{{#each contacto.telefonos.lista as | cur |}}
+											<a href="tel:{{cur.valor}}" title="{{contacto.telefonos.titulo}} {{cur.valor}}">{{cur.valor}}</a>
+											{{#unless @last}},{{/unless}}
+										{{/each}}
+										</p>
+									</li>
+								{{/if}}
+								{{#if contacto.correosElectronicos}}
+									<li>
+										<p class="mb-0"><span class="font-weight-bold">{{contacto.correosElectronicos.titulo}}:</span> 
+										{{#each contacto.correosElectronicos.lista as | cur |}}
+											<a href="mailto:{{cur.valor}}" title="{{contacto.correosElectronicos.titulo}} {{cur.valor}}">{{cur.valor}}</a>
+											{{#unless @last}},{{/unless}}
+										{{/each}}
+										</p>
+									</li>
+								{{/if}}
+							  </ul>
+							</div>
+						</div>
+					</div>
+				{{/if}}
+                <!-- CANALES DE PRESENTACIÓN -->
+				<div class="info-block">
+				  <h3 class="h3">[lector.json.canales.presentacion]</h3>
+				  <div class="card-container d-md-flex">
+					
+					<!-- CANAL ELECTRÓNICO -->
+					<div class="card h-auto mr-md-4 mr-0 flex-column" style="height: 100%;">
+					  <div class="space-icons d-flex justify-content-center align-items-center p-3 border-bottom flex-shrink-0">
+						<span class="lead mr-sm-4 mr-2">
+						  {{canalesDePresentacion.canalElectronico.titulo}}
+						</span>
+						<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+						  <path d="M4.16659 16.6667H20.8333V5.20833H4.16659V16.6667ZM13.5416 18.75V20.8333H17.7083V22.9167H7.29159V20.8333H11.4583V18.75H3.11638C2.5458 18.75 2.08325 18.2824 2.08325 17.7005V4.17446C2.08325 3.59486 2.55753 3.125 3.11638 3.125H21.8835C22.4541 3.125 22.9166 3.59263 22.9166 4.17446V17.7005C22.9166 18.2801 22.4423 18.75 21.8835 18.75H13.5416Z" fill="#CC0066"/>
+						</svg>
+						{{#ifEquals canalesDePresentacion.canalElectronico.activo "S"}}
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+						  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0001 20.64C16.7718 20.64 20.6401 16.7717 20.6401 12C20.6401 7.22824 16.7718 3.35999 12.0001 3.35999C7.22837 3.35999 3.36011 7.22824 3.36011 12C3.36011 16.7717 7.22837 20.64 12.0001 20.64Z" fill="#C91C1C" fill-opacity="0.01"/>
+						  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22.7999C6.03511 22.7999 1.19995 17.9648 1.19995 12C1.19995 6.03511 6.03511 1.19995 12 1.19995C17.9648 1.19995 22.7999 6.03511 22.7999 12C22.7999 17.9648 17.9648 22.7999 12 22.7999ZM12 20.6399C16.7717 20.6399 20.6399 16.7717 20.6399 12C20.6399 7.22821 16.7717 3.35995 12 3.35995C7.22821 3.35995 3.35995 7.22821 3.35995 12C3.35995 16.7717 7.22821 20.6399 12 20.6399ZM10.9232 16.32L6.34075 11.7375L7.86787 10.2104L10.9232 13.2657L17.0317 7.15615L18.5599 8.68327L10.9232 16.32Z" fill="#1AAA55"/>
+						</svg>
+						{{else}}
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+						  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22.7999C6.03511 22.7999 1.19995 17.9648 1.19995 12C1.19995 6.03511 6.03511 1.19995 12 1.19995C17.9648 1.19995 22.7999 6.03511 22.7999 12C22.7999 17.9648 17.9648 22.7999 12 22.7999ZM12 20.6399C16.7717 20.6399 20.6399 16.7717 20.6399 12C20.6399 7.22821 16.7717 3.35995 12 3.35995C7.22821 3.35995 3.35995 7.22821 3.35995 12C3.35995 16.7717 7.22821 20.6399 12 20.6399ZM12 10.4728L15.0542 7.41751L16.5824 8.94571L13.5271 12L16.5824 15.0542L15.0542 16.5824L12 13.5271L8.94571 16.5824L7.41751 15.0542L10.4728 12L7.41751 8.94571L8.94571 7.41751L12 10.4728Z" fill="#E4120E"/>
+						</svg>
+						{{/ifEquals}}
+					  </div>
+					  <div class="card-body p-3 flex-grow-1 d-flex flex-column"> 
+						<div class="texto-enriquecido">
+							<p>
+								{{#if canalesDePresentacion.canalElectronico.descripcion}}
+									  {{{canalesDePresentacion.canalElectronico.descripcion}}}
+								{{else}}
+									  [lector.json.tramite.no.telematicamente]
+								{{/if}}
+							</p>
+						</div>
+					  </div>
+					</div>
+
+					<!-- CANAL PRESENCIAL -->
+					<div class="card h-auto flex-column" style="height: 100%;">
+					  <div class="space-icons d-flex justify-content-center align-items-center p-3 border-bottom flex-shrink-0">
+						<span class="lead mr-sm-4 mr-2">
+						  {{canalesDePresentacion.canalPresencial.titulo}}
+						</span>
+						<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+						  <path d="M2.08341 19.7917V8.33333H1.04175V6.25H4.16675V4.16667C4.16675 3.59137 4.63312 3.125 5.20841 3.125H19.7917C20.3671 3.125 20.8334 3.59137 20.8334 4.16667V6.25H23.9584V8.33333H22.9167V19.7917H23.9584V21.875H1.04175V19.7917H2.08341ZM13.5417 19.7917V12.5H11.4584V19.7917H13.5417ZM8.33341 19.7917V12.5H6.25008V19.7917H8.33341ZM18.7501 19.7917V12.5H16.6667V19.7917H18.7501ZM6.25008 5.20833V6.25H18.7501V5.20833H6.25008Z" fill="#CC0066"/>
+						</svg>
+						{{#ifEquals canalesDePresentacion.canalPresencial.activo "S"}}
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+						  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0001 20.64C16.7718 20.64 20.6401 16.7717 20.6401 12C20.6401 7.22824 16.7718 3.35999 12.0001 3.35999C7.22837 3.35999 3.36011 7.22824 3.36011 12C3.36011 16.7717 7.22837 20.64 12.0001 20.64Z" fill="#C91C1C" fill-opacity="0.01"/>
+						  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22.7999C6.03511 22.7999 1.19995 17.9648 1.19995 12C1.19995 6.03511 6.03511 1.19995 12 1.19995C17.9648 1.19995 22.7999 6.03511 22.7999 12C22.7999 17.9648 17.9648 22.7999 12 22.7999ZM12 20.6399C16.7717 20.6399 20.6399 16.7717 20.6399 12C20.6399 7.22821 16.7717 3.35995 12 3.35995C7.22821 3.35995 3.35995 7.22821 3.35995 12C3.35995 16.7717 7.22821 20.6399 12 20.6399ZM10.9232 16.32L6.34075 11.7375L7.86787 10.2104L10.9232 13.2657L17.0317 7.15615L18.5599 8.68327L10.9232 16.32Z" fill="#1AAA55"/>
+						</svg>
+						{{else}}
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+						  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22.7999C6.03511 22.7999 1.19995 17.9648 1.19995 12C1.19995 6.03511 6.03511 1.19995 12 1.19995C17.9648 1.19995 22.7999 6.03511 22.7999 12C22.7999 17.9648 17.9648 22.7999 12 22.7999ZM12 20.6399C16.7717 20.6399 20.6399 16.7717 20.6399 12C20.6399 7.22821 16.7717 3.35995 12 3.35995C7.22821 3.35995 3.35995 7.22821 3.35995 12C3.35995 16.7717 7.22821 20.6399 12 20.6399ZM12 10.4728L15.0542 7.41751L16.5824 8.94571L13.5271 12L16.5824 15.0542L15.0542 16.5824L12 13.5271L8.94571 16.5824L7.41751 15.0542L10.4728 12L7.41751 8.94571L8.94571 7.41751L12 10.4728Z" fill="#E4120E"/>
+						</svg>
+						{{/ifEquals}}
+					  </div>
+					  <div class="card-body p-3 flex-grow-1 d-flex flex-column">
+						<div class="texto-enriquecido">
+							<p >
+							{{#if canalesDePresentacion.canalPresencial.descripcion}}
+							  {{{canalesDePresentacion.canalPresencial.descripcion}}}
+							{{else}}
+							  [lector.json.tramite.no.electronicamente]
+							{{/if}}
+							</p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+      {{/if}}
+      <!-- TRÁMITES DESPUÉS DE LA PRESENTACIÓN (ACORDEÓN) -->
+	  {{#if pestanas.pestanaDespuesPresentacion}}
+		{{#each pestanas.pestanaDespuesPresentacion.tramites.tramite}}
+		  <div class="accordion" id="accordion-despues-{{@index}}">
+			<div class="card mb-3 w-100 border rounded">
+			  <div class="gray-box rounded-0">
+				<h2 class="mb-0">
+				  <button 
+					class="btn btn-collapse-box header-card d-flex collapsed justify-content-between align-items-center w-100 text-left p-0 pr-4"
+					type="button"
+					data-toggle="collapse"
+					data-target="#collapse-despues-{{@index}}"
+					aria-expanded="false"
+					aria-controls="collapse-despues-{{@index}}"
+				  >
+					<span class="lead font-weight-bold">{{detalleTramite.denominacionTramite}}</span>
+
+					<div class="texto-col d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
+					  {{#ifEquals plazoPresentacion.plazo.enPlazo "S"}}
+						<span class="label-on-time d-inline-flex mr-sm-3 mb-2 mb-sm-0 px-3 py-2">[lector.json.abierto]</span>
+					  {{/ifEquals}}
+					  {{#ifEquals plazoPresentacion.plazo.enPlazo "N"}}
+						<span class="label-out-of-date d-inline-flex mr-sm-3 mb-2 mb-sm-0 px-3 py-2">[lector.json.cerrado]</span>
+					  {{/ifEquals}}
+					  <span class="mas-menos-info font-weight-bold collapsed text-primary" 
+						data-mas="[lector.json.mas.informacion]" 
+						data-menos="[lector.json.menos.informacion]">
+					    [lector.json.mas.informacion]
+					  </span>
+					  <div class="custom-arrow text-primary"></div>
+					</div>
+				  </button>
+				</h2>
+			  </div>
+
+			  <div
+				id="collapse-despues-{{@index}}"
+				class="collapse px-4 py-0 border-top"
+				aria-labelledby="heading-despues-{{@index}}"
+				data-parent="#accordion-despues-{{@index}}"
+			  >
+				<div class="card-body p-0">
+				  <!-- DESCRIPCIÓN -->
+				  <div class="info-block info-btn-group d-lg-flex justify-content-between mb-4 mt-4">
+					<div class="pr-2 texto-enriquecido">
+					  <span class="descripcionTramite">{{{detalleTramite.descripcionTramite}}}</span>
+					</div>
+					{{#ifEquals plazoPresentacion.plazo.enPlazo "S"}}
+					  <div class="btn-group-custom d-block d-md-flex">
+						{{#each detalleTramite.acciones}}
+						  <a 
+							href="{{url}}" 
+							class="btn {{#if (eq accionPrincipal 'S')}}btn-primary{{else}}btn-outline-primary mb-2 mb-md-0{{/if}}"
+							data-senna-off="true"
+						  >
+							{{accion}}
+						  </a>
+						{{/each}}
+					  </div>
+					{{/ifEquals}}
+				  </div>
+				  <!-- PLAZO -->
+				  <div class="mb-4">
+					<h3 class="h3">{{plazoPresentacion.titulo}}</h3>
+					{{#ifEquals plazoPresentacion.plazo.enPlazo "S"}}
+					  <span class="label-on-time d-inline-flex mb-3 px-3 py-2">
+						{{plazoPresentacion.plazo.descripcionPlazo}}
+					  </span>
+					{{/ifEquals}}
+					{{#ifEquals plazoPresentacion.plazo.enPlazo "N"}}
+					  <span class="label-out-of-date d-inline-flex mb-3 px-3 py-2">
+						{{plazoPresentacion.plazo.descripcionPlazo}}
+					  </span>
+					{{/ifEquals}}
+					{{#if plazoPresentacion.plazo.descripcionPlazoAmpliada}}
+						<div class="texto-enriquecido">
+							<p class="plazoPresentacion">
+							{{{plazoPresentacion.plazo.descripcionPlazoAmpliada}}}
+							</p>
+						</div>
+					{{/if}}
+				  </div>
+				  <!-- DOCUMENTACIÓN SIMPLIFICADA -->
+				 {{#if documentacion}}
+					{{#hayDocumentosConUrl documentacion}}
+						<div class="info-block mb-4">
+							<h3 class="h3">{{documentacion.titulo}}</h3>
+							{{#each documentacion.condicionesDocumentos}}
+								<h4 class="h4">{{condicionDocumento}}</h4>
+								<p>{{descripcion}}</p>
+								<ul class="list-unstyled docs-list ml-4">
+									{{#each documentosPorCondicion}}
+										{{#if urlDocumento}}
+											<li class="mb-3">
+												<a class="d-block mb-1 font-weight-bold" href="{{urlDocumento}}" class="font-weight-bold space-icons d-flex align-items-center" target="_self" data-senna-off="true">
+													{{nombreDocumento}}
+												</a>
+												{{#if descripcionDocumento}}
+													<div class="texto-enriquecido">
+														<p>{{{descripcionDocumento}}}</p>
+													</div>
+												{{/if}}
+											</li>
+										{{else}}
+											{{#if nombreDocumento}}
+												<li class="mb-3">
+													<p class="mb-1 font-weight-bold">{{nombreDocumento}}</p>
+													{{#if descripcionDocumento}}
+														<div class="texto-enriquecido">
+															<p>{{{descripcionDocumento}}}</p>
+														</div>
+													{{/if}}
+												</li>
+											{{/if}}
+										{{/if}}
+									{{/each}}
+								</ul>
+							{{/each}}
+						</div>
+					{{else}}
+						<div class="info-block mb-4">
+							<h3 class="h3">{{documentacion.titulo}}</h3>
+							{{#each documentacion.condicionesDocumentos}}
+								<h4 class="h4">{{condicionDocumento}}</h4>
+								<p>{{descripcion}}</p>
+								<ul class="list-unstyled docs-list ml-4">
+									{{#each documentosPorCondicion}}
+										{{#if nombreDocumento}}
+											<li class="mb-3">
+												<p class="mb-1 font-weight-bold">{{nombreDocumento}}</p>
+												{{#if descripcionDocumento}}
+													<div class="texto-enriquecido">
+														<p>{{{descripcionDocumento}}}</p>
+													</div>
+												{{/if}}
+											</li>
+										{{/if}}
+									{{/each}}
+								</ul>
+							{{/each}}
+						</div>
+					{{/hayDocumentosConUrl}}
+				  {{/if}}
+				  <!-- CONTACTO -->
+				  {{#if contacto}}
+				  <div class="info-block">
+					<h3 class="h3">[lector.json.informacion.contacto]</h3>
+					<div class="container mb-5">
+					  <ul class="list-disc">
+						<li>
+							<div class="texto-enriquecido">
+								<p class="mb-0"><span class="font-weight-bold">[lector.json.servicio.responsable]</span> {{{contacto.descripcion}}}</p>
+							</div>
+						</li> 
+						{{#if contacto.telefonos}}
+						  <li>
+							<p class="mb-0"><span class="font-weight-bold">{{contacto.telefonos.titulo}}:</span> 
+							{{#each contacto.telefonos.lista as | cur |}}
+								<a href="tel:{{cur.valor}}" title="{{contacto.telefonos.titulo}} {{cur.valor}}">{{cur.valor}}</a>
+							  	{{#unless @last}},{{/unless}}
+							{{/each}}
+							</p>

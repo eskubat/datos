@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generado": "2026-11-17T03:19:44.130Z",
-  "total": 462,
+  "generado": "2026-11-17T03:54:34.122Z",
+  "total": 453,
   "porAmbito": {
-    "euskadi": 91,
-    "municipio": 167,
+    "euskadi": 89,
+    "municipio": 162,
     "estado": 61,
-    "territorio": 128,
-    "ue": 15
+    "territorio": 125,
+    "ue": 16
   },
   "porEstado": {
-    "abierta": 333,
-    "proxima": 22,
-    "sinfecha": 107
+    "abierta": 323,
+    "proxima": 29,
+    "sinfecha": 101
   },
   "previstas": 675,
   "fuentes": {
@@ -20,53 +20,53 @@
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
       "registros": 134,
-      "segundos": 38,
+      "segundos": 31,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 25,
-      "segundos": 19,
+      "segundos": 16,
       "erroresFicha": 0
     },
     "araba": {
       "nombre": "Diputación Foral de Álava (ayudas en vigor)",
       "ok": true,
       "registros": 144,
-      "segundos": 529,
+      "segundos": 504,
       "erroresFicha": 0
     },
     "bdns": {
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
       "registros": 806,
-      "segundos": 159,
+      "segundos": 136,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 147,
-      "segundos": 192,
+      "segundos": 9,
       "erroresFicha": 0
     },
     "prestaciones": {
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 17,
-      "segundos": 17,
+      "segundos": 18,
       "erroresFicha": 0
     },
     "europa": {
       "nombre": "Funding & Tenders Portal (Comisión Europea), convocatorias sin consorcio",
       "ok": true,
-      "registros": 11,
+      "registros": 12,
       "erroresFicha": 0
     }
   },
   "enlaces": {
-    "comprobados": 726,
+    "comprobados": 719,
     "rotos": 3,
     "sustituidos": 1,
     "quitados": 3
