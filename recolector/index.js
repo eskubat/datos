@@ -8,8 +8,9 @@ import * as forales from './forales.js';
 import * as boletines from './boletines.js';
 import * as prestaciones from './prestaciones.js';
 import { claveLinea } from './historico.js';
-import { aplicar, huella } from './resumen.js';
+import { aplicar, huella, fichaVigente } from './resumen.js';
 import { documentacion, quitaRepetidas } from './enlaces.js';
+import { docsCopiados } from './textos.js';
 import { resolver, POR_ID, CATALOGO } from './organismos.js';
 import { aplicarTitulos } from './titulos.js';
 import { convocatoriasUE, ayudasDirectasUE } from './europa.js';
@@ -595,7 +596,9 @@ async function main() {
   // Documentos oficiales añadidos a mano o por la tarea de resumen (BOPV, BOTHA, BOB, BOG…): cache/docs_extra.json = {id: [url, …]}
   let docsExtra = {};
   try { docsExtra = JSON.parse(fs.readFileSync(path.join('cache', 'docs_extra.json'), 'utf8')); } catch {}
-  try { docs = await documentacion(ayudas, { log, extra: (a) => [...(docsExtra[a.id] || []), ...(a._urls || []), ...(a._docs || []).map(docUrl)] }); } catch (e) { log(`Documentación: ${e.message}`); }
+  // Los de docs_extra ya copiados en textos_claude van al final del texto (no cambian la huella de la ficha)
+  const copiados = (a) => docsCopiados(a.id, docsExtra);
+  try { docs = await documentacion(ayudas, { log, extra: (a) => [...(docsExtra[a.id] || []).filter((u) => !copiados(a).includes(u)), ...(a._urls || []), ...(a._docs || []).map(docUrl)], alFinal: copiados }); } catch (e) { log(`Documentación: ${e.message}`); }
   // Nominativas y convenios que solo lo dicen en el documento subido a la BDNS (no en el título)
   {
     const fuera = [];
@@ -636,7 +639,7 @@ async function main() {
     log(`Descartadas porque su ficha dice que no se pueden pedir (nominativas o reservadas): ${fuera.length}${fuera.length ? ' · ' + fuera.slice(0, 40).join(', ') : ''}`);
   }
   // Lista de pendientes para la tarea de resumen (abiertas primero, por fecha de cierre)
-  const pendientes = ayudas.filter((a) => !a.posibleNoticia && fuentes[a.id] && (!cacheRes[a.id] || cacheRes[a.id].h !== huella(fuentes[a.id])))
+  const pendientes = ayudas.filter((a) => !a.posibleNoticia && fuentes[a.id] && !fichaVigente(cacheRes[a.id], a.id, fuentes[a.id], a._hastaFicha && a._hastaFicha.huellaFicha))
     .sort((x, y) => (x.fin || '9999').localeCompare(y.fin || '9999'))
     .map((a) => ({ id: a.id, h: huella(fuentes[a.id]), titulo: a.titulo, organismoSugerido: a.organismoId, organismoFuente: a.organismoFuente || '', archivo: path.join(DIR_F, nombreF(a.id)), caracteres: fuentes[a.id].length }));
   // Tabla maestra de organismos para la tarea de categorización
@@ -648,7 +651,7 @@ async function main() {
     const lista = ayudas.filter((a) => a._hastaFicha);
     const esperan = lista.filter((a) => {
       const c = cacheRes[a.id];
-      const tieneFicha = !!(fuentes[a.id] && c && c.h === huella(fuentes[a.id]) && c.h !== a._hastaFicha.huellaFicha);
+      const tieneFicha = fichaVigente(c, a.id, fuentes[a.id], a._hastaFicha.huellaFicha || '-');
       delete a._hastaFicha;
       return !tieneFicha;
     });

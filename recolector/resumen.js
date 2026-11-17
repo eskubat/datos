@@ -7,10 +7,22 @@ import crypto from 'node:crypto';
 import fs from 'node:fs';
 import { POR_ID } from './organismos.js';
 import { NO_ES_REQUISITO } from './comun.js';
+import { sinDocsCopiados, sinCabeceras } from './textos.js';
 
 const VERSION = 'v4';
 const TIPOS = ['particular', 'autonomo', 'empresa', 'asociacion', 'ayuntamiento'];
 export const huella = (t) => crypto.createHash('sha1').update(VERSION + ':' + String(t || '')).digest('hex').slice(0, 16);
+// Huella estable (se guarda como «he» junto a «h»): sin los documentos de docs_extra ya copiados en
+// textos_claude y sin las líneas «### …: url». Solo cambia si cambia el contenido que leyó la ficha.
+export const huellaEstable = (id, t) => huella('estable:' + sinCabeceras(sinDocsCopiados(id, t)));
+// ¿La ficha guardada sigue valiendo para el texto actual? Vale si coincide la huella del texto, la del texto sin
+// los documentos de docs_extra ya copiados (fichas hechas antes de que el recolector los descargara) o la
+// estable. «invalida» es la huella de una ficha que el responsable mandó rehacer (ajustes_ayudas.huellaFicha).
+export function fichaVigente(c, id, t, invalida = '') {
+  if (!c || !t) return false;
+  if (invalida && c.h === invalida) return false;
+  return c.h === huella(t) || c.h === huella(sinDocsCopiados(id, t)) || (!!c.he && c.he === huellaEstable(id, t));
+}
 
 // ---------- Patrones de la sección 11 ----------
 export const RE = {
@@ -191,7 +203,7 @@ export function aplicar(ayudas, fuentes, cache) {
     if (EXC[a.id]) { a.excluida = { parecidaA: EXC[a.id].parecidaA || '', motivo: EXC[a.id].motivo || '' }; delete a.versiones; continue; }
     delete a.excluida;
     const c = cache[a.id];
-    if (!c || !fuentes[a.id] || c.h !== huella(fuentes[a.id])) continue;
+    if (!fichaVigente(c, a.id, fuentes[a.id])) continue;
     const r = c.r;
     const ks = Object.keys(r.versiones || {}).filter((k) => r.versiones[k].en_que_consiste || r.versiones[k].quien_puede_pedirla.length);
     if (!ks.length) continue;

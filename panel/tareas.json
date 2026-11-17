@@ -436,8 +436,9 @@
   "prioridad": 15,
   "fuente": "Revisor de datos (16/11)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-16"
+  "estado": "hecha",
+  "fecha": "2026-11-17",
+  "nota": "Los documentos de docs_extra ya copiados en textos_claude ahora se añaden al final del texto, fuera del límite de enlaces y caracteres (antes se colaban delante y empujaban fuera otros enlaces), y la huella se compara también sin ellos; además cada ficha nueva guarda una huella estable sin las líneas «### …: url», para que un cambio solo de URL (como hezkuntza-inklusiboa-pree) no la reabra. Lógica en fichaVigente (recolector/resumen.js), usada por index.js y aplicar; incorporar.js guarda «he» y se la añade a las fichas cuyo texto no ha cambiado. No trae ayudas nuevas: se espera que dejen de volver a la cola fichas ya hechas (de las 19 reabiertas hoy, las 6 de Álava con documento copiado deberían salir tras el recolector si su texto base no cambió)."
  },
  {
   "id": "convenios-bdns-2",

@@ -87,7 +87,10 @@ async function bajar(url) {
 }
 
 // Devuelve {id: texto completo} con la ficha + enlaces de cada ayuda (máx. `max` caracteres por ayuda)
-export async function documentacion(ayudas, { log = console.log, max = 300000, extra = () => [] } = {}) {
+// `alFinal(a)`: documentos que van detrás del resto, fuera del límite de enlaces y de caracteres (los de
+// cache/docs_extra.json ya copiados por la tarea en cache/textos_claude): así, al descargarlos, el texto de
+// antes queda igual al principio y la huella sin ellos sigue siendo la de la ficha (ver fichaVigente en resumen.js).
+export async function documentacion(ayudas, { log = console.log, max = 300000, extra = () => [], alFinal = () => [] } = {}) {
   fs.mkdirSync(DIR, { recursive: true });
   let indice = {};
   try { indice = JSON.parse(fs.readFileSync(INDICE, 'utf8')); } catch {}
@@ -143,7 +146,14 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
         }
       }
     }
-    if (partes.length) res[a.id] = partes.join('\n\n').slice(0, max);
+    const texto = partes.join('\n\n').slice(0, max);
+    const fin = [];
+    for (const u of alFinal(a)) {
+      if (vistos.has(u)) continue;
+      const d = await obtener(u);
+      if (d) { vistos.add(u); fin.push(`### Documento de la convocatoria: ${u}\n${d.texto}`); }
+    }
+    if (texto || fin.length) res[a.id] = [texto, ...fin].filter(Boolean).join('\n\n');
   });
   fs.writeFileSync(INDICE, JSON.stringify(indice));
   log(`Documentación: ${Object.keys(res).length} ayudas con texto, ${nuevos} documentos nuevos, ${fallos} sin acceso (caché: ${Object.keys(indice).length})`);
