@@ -46,12 +46,12 @@
  },
  {
   "id": "ara-avales-compra-vivienda-2026",
-  "h": "fe7084d7518b3127",
+  "h": "32361c563c0181fe",
   "titulo": "Programa de avales a la compra de viviendas - Procedimiento solicitud avales",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-avales-compra-vivienda-2026-98a01473.txt",
-  "caracteres": 89313
+  "caracteres": 90962
  },
  {
   "id": "bob-bob-2026a215-ii-5802-",
@@ -63,13 +63,13 @@
   "caracteres": 5593
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip",
-  "h": "ed2bdc6e55313d53",
-  "titulo": "The European Prize for Women Innovators",
+  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
+  "h": "40b562d93f954fa5",
+  "titulo": "Rising Innovators category",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
-  "caracteres": 12244
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
+  "caracteres": 12248
  },
  {
   "id": "ue-horizon-eit-2026-prize-wip-leadership",
@@ -81,13 +81,13 @@
   "caracteres": 12241
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
-  "h": "40b562d93f954fa5",
-  "titulo": "Rising Innovators category",
+  "id": "ue-horizon-eic-2026-prize-wip",
+  "h": "ed2bdc6e55313d53",
+  "titulo": "The European Prize for Women Innovators",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
-  "caracteres": 12248
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
+  "caracteres": 12244
  },
  {
   "id": "bob-bob-2026a219-ii-6013-",
@@ -198,6 +198,15 @@
   "caracteres": 214972
  },
  {
+  "id": "ue-crea-media-2027-tvonline-2",
+  "h": "2bb80164abe11ee5",
+  "titulo": "TV and online content Documentary projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
+  "caracteres": 6324
+ },
+ {
   "id": "ue-crea-media-2027-tvonline-1",
   "h": "594ec78e4c088425",
   "titulo": "TV and online content Animation projects",
@@ -214,15 +223,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
   "caracteres": 6320
- },
- {
-  "id": "ue-crea-media-2027-tvonline-2",
-  "h": "2bb80164abe11ee5",
-  "titulo": "TV and online content Documentary projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
-  "caracteres": 6324
  },
  {
   "id": "ara-01362004",
@@ -412,15 +412,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-para-hacer-frente-a-inversiones-turisticas-en-ayu-dab63d35.txt",
   "caracteres": 32163
- },
- {
-  "id": "ara-ayuda-lucha-contra-polilla-vinedo-2026",
-  "h": "c9d75732d5646b37",
-  "titulo": "Ayuda para el fomento de proyectos de desarrollo de la estrategia de lucha contra la polilla del racimo (Lobesia Botrana) mediante la aplicación",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayuda-lucha-contra-polilla-vinedo-2026-cd74dbf4.txt",
-  "caracteres": 43067
  },
  {
   "id": "ara-01484",
