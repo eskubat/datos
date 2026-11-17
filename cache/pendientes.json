@@ -55,12 +55,12 @@
  },
  {
   "id": "extra-arraia-maeztu-euskera-2026",
-  "h": "2611c32d6d402112",
+  "h": "c5073324af6c15c4",
   "titulo": "Ayudas para el estudio del euskera",
   "organismoSugerido": "ayto-arraia-maeztu",
   "organismoFuente": "Ayuntamiento de Arraia-Maeztu",
   "archivo": "cache/fuentes/extra-arraia-maeztu-euskera-2026-41ca57dd.txt",
-  "caracteres": 559
+  "caracteres": 7464
  },
  {
   "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
@@ -162,15 +162,6 @@
   "caracteres": 300000
  },
  {
-  "id": "eus-ayuda-subvencion-2026-isv-inversion-2027-comunicacion-previa",
-  "h": "2415481196dcef40",
-  "titulo": "ISV Inversión - Ayudas a inversiones materiales e inmateriales en instalaciones de transformación y en infraestructuras vitivinícolas, así como",
-  "organismoSugerido": "gv-alimentacion",
-  "organismoFuente": "Alimentación, Desarrollo Rural, Agricultura y Pesca",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-isv-inversion-2027-comunicacion-pr-102c6968.txt",
-  "caracteres": 103342
- },
- {
   "id": "ara-01630001",
   "h": "dc6d6ff3ed9d0212",
   "titulo": "Ayudas directas al transporte",
@@ -253,21 +244,12 @@
  },
  {
   "id": "bdns-925434",
-  "h": "94c62f20b562d32f",
+  "h": "fa4373e2e568fb20",
   "titulo": "Subvención para la contratación de personas desempleadas por parte de empresas radicadas",
   "organismoSugerido": "ayto-eibar",
   "organismoFuente": "Ayuntamiento de eibar",
   "archivo": "cache/fuentes/bdns-925434-acca627d.txt",
-  "caracteres": 53521
- },
- {
-  "id": "ara-subvenciones-participacion-actividades-deporte-escolar-2026",
-  "h": "69eb4d29e0290835",
-  "titulo": "Subvenciones por la participación en las actividades contenidas en el Programa de Deporte Escolar",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-subvenciones-participacion-actividades-deporte-escolar-2-20465e09.txt",
-  "caracteres": 114209
+  "caracteres": 131111
  },
  {
   "id": "ue-crea-media-2027-tvonline-2",
@@ -358,15 +340,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01362003-2cf30e1e.txt",
   "caracteres": 102454
- },
- {
-  "id": "ara-ayudas-y-subvenciones-a-la-elaboracion-del-planeamiento-urba",
-  "h": "9c2b5836663ca2ee",
-  "titulo": "Subvenciones dirigidas a la financiación de los honorarios de redacción de los instrumentos de planeamiento urbanístico y de los documentos",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-y-subvenciones-a-la-elaboracion-del-planeamiento--a43f0514.txt",
-  "caracteres": 72442
  },
  {
   "id": "ara-01122001",
@@ -531,15 +504,6 @@
   "caracteres": 67274
  },
  {
-  "id": "ara-ayudas-adopcion-compromisos-medioambientales",
-  "h": "e615e746e363156d",
-  "titulo": "Ayudas por la adopción de compromisos medioambientales",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-adopcion-compromisos-medioambientales-431a4d61.txt",
-  "caracteres": 165284
- },
- {
   "id": "ara-alava-innova-digitaliza-empresas-2026",
   "h": "c2b0f18d8efe5518",
   "titulo": "Álava Innova - Descarboniza _Empresas y Autónomos",
@@ -603,33 +567,6 @@
   "caracteres": 67308
  },
  {
-  "id": "ara-ayudas-para-el-fomento-de-la-fruticultura-en-el-territorio-h",
-  "h": "ebdf0e3f1d527004",
-  "titulo": "Ayudas para el fomento de la fruticultura en el Territorio Histórico (Asesoramiento)",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-para-el-fomento-de-la-fruticultura-en-el-territor-c6faf330.txt",
-  "caracteres": 96364
- },
- {
-  "id": "ara-ayudas-a-asociaciones-y-fundaciones-para-contribuir-a-la-reh",
-  "h": "925cb0f87d7f88f4",
-  "titulo": "Ayudas para rehabilitar y equipar locales de asociaciones y fundaciones",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-a-asociaciones-y-fundaciones-para-contribuir-a-la-9a3ec4e1.txt",
-  "caracteres": 127054
- },
- {
-  "id": "ara-ayudas-seguros-ganaderos-2026",
-  "h": "b740bcf0429b3df9",
-  "titulo": "Ayudas a seguros ganaderos",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-seguros-ganaderos-2026-c3505cc9.txt",
-  "caracteres": 88649
- },
- {
   "id": "ara-ayudas-para-la-organizacion-de-ferias-agricolas-y-ganaderas-",
   "h": "31423eda7a45fe6f",
   "titulo": "Ayudas para la organización de ferias agrícolas y ganaderas",
@@ -637,15 +574,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-para-la-organizacion-de-ferias-agricolas-y-ganade-5816b22f.txt",
   "caracteres": 67313
- },
- {
-  "id": "ara-ayudas-inversiones-explotaciones-agrarias-2026",
-  "h": "a2c123b4aedb2c25",
-  "titulo": "Ayudas a las inversiones en explotaciones agrarias",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-inversiones-explotaciones-agrarias-2026-7127bfed.txt",
-  "caracteres": 239458
  },
  {
   "id": "ara-subvenciones-para-la-financiacion-de-acciones-conducentes-a-",
@@ -684,15 +612,6 @@
   "caracteres": 67292
  },
  {
-  "id": "ara-ap-1-peaje-social",
-  "h": "2ae25b353b33c8c3",
-  "titulo": "AP-1 Peaje Social",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ap-1-peaje-social-9137d057.txt",
-  "caracteres": 81954
- },
- {
   "id": "ara-01484",
   "h": "91af673c75aa8a43",
   "titulo": "Peaje Social AP-68",
@@ -709,24 +628,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-extraordinarias-y-temporales-para-el-transporte-p-444e21a1.txt",
   "caracteres": 67317
- },
- {
-  "id": "ara-ayuda-para-sufragar-el-precio-del-gasoleo-consumido-por-prod",
-  "h": "ab24341c7dc814a0",
-  "titulo": "Ayuda para sufragar el precio del gasóleo consumido por productores agrarios prevista en el artículo 46 del Real Decreto-ley 7/",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayuda-para-sufragar-el-precio-del-gasoleo-consumido-por--2333bda0.txt",
-  "caracteres": 274558
- },
- {
-  "id": "bdns-940549",
-  "h": "ecdfc07489080b36",
-  "titulo": "Y segunda convocatoria de subvenciones para financiar los gastos de preproducción",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación foral de Bizkaia",
-  "archivo": "cache/fuentes/bdns-940549-5ae710b6.txt",
-  "caracteres": 293147
  },
  {
   "id": "bdns-931520",
@@ -783,75 +684,12 @@
   "caracteres": 36508
  },
  {
-  "id": "bob-bob-2026a207-i-1230-",
-  "h": "00661a9a2f91ddc7",
-  "titulo": "Orden foral 6279/, de 16 de octubre, de la diputada foral de Empleo, Cohesión Social e Igualdad",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación Foral de Bizkaia",
-  "archivo": "cache/fuentes/bob-bob-2026a207-i-1230--8dea9f74.txt",
-  "caracteres": 113006
- },
- {
-  "id": "bob-bob-2026a200-i-1174-",
-  "h": "a8de233dd5c9b466",
-  "titulo": "Decreto foral 87/, de 15 de octubre, por el que se modifica el Decreto Foral 137/, de 29 de diciembre,",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación Foral de Bizkaia",
-  "archivo": "cache/fuentes/bob-bob-2026a200-i-1174--76b789a0.txt",
-  "caracteres": 175095
- },
- {
-  "id": "bob-bob-2026a221-ii-5969-",
-  "h": "30efb37f44ca550c",
-  "titulo": "Aprobación de las bases generales que han de regir en la concesión de los premios y becas educativos, culturales",
-  "organismoSugerido": "ayto-portugalete",
-  "organismoFuente": "Ayuntamiento de Portugalete",
-  "archivo": "cache/fuentes/bob-bob-2026a221-ii-5969--300de18f.txt",
-  "caracteres": 13043
- },
- {
-  "id": "prest-ss-nacimiento-cuidado-menor",
-  "h": "2db8a00ef8f3384f",
-  "titulo": "Prestación por nacimiento y cuidado de menor",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Gobierno de España",
-  "archivo": "cache/fuentes/prest-ss-nacimiento-cuidado-menor-0ca56890.txt",
-  "caracteres": 299999
- },
- {
   "id": "prest-araba-peap",
-  "h": "797b714d8891fd4e",
+  "h": "91a565de1b0a1839",
   "titulo": "Prestación económica de asistencia personal (PEAP)",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/prest-araba-peap-b3e1675d.txt",
-  "caracteres": 67297
- },
- {
-  "id": "prest-araba-pevs",
-  "h": "91a11dc33c640df3",
-  "titulo": "Prestación económica vinculada al servicio (PEVS)",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
-  "caracteres": 67296
- },
- {
-  "id": "extra-dfa-indemnizaciones-ataques-lobo-buitre",
-  "h": "18534363568add08",
-  "titulo": "Indemnizaciones por daños al ganado causados por lobo ibérico",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/extra-dfa-indemnizaciones-ataques-lobo-buitre-e2c713f8.txt",
-  "caracteres": 40801
- },
- {
-  "id": "extra-dfb-pvs-descanso",
-  "h": "a396acc8ca3ad3b9",
-  "titulo": "Prestación económica vinculada al descanso de las personas cuidadoras (PVS descanso)",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación Foral de Bizkaia",
-  "archivo": "cache/fuentes/extra-dfb-pvs-descanso-0b7fb49e.txt",
-  "caracteres": 299280
+  "caracteres": 442492
  }
 ]
