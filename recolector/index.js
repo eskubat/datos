@@ -116,15 +116,91 @@ function finDelTexto(a) {
   // Fin según la BDNS: «31 de diciembre de 2026» o «15/10/2026» en el texto de fin de plazo
   const finBdns = fecha(norm(String(a.textoPlazo || '').split(' · ').pop()), '');
   if (vale(finBdns)) { a.fin = finBdns; a.finCalculado = true; return; }
+  const c = finDeTrozos(trozos, a.publicacion, vale);
+  if (c) { a.fin = c.fin; a.inicio = a.inicio || c.inicio; a.finCalculado = true; }
+}
+const MES_RE = '(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)';
+function fechaEn(t, pre) {
+  let m = t.match(new RegExp(pre + '(\\d{1,2}) de ' + MES_RE + ' de(?:l)? (20\\d\\d)'));
+  if (m) return `${m[3]}-${String(MESES[m[2]]).padStart(2, '0')}-${m[1].padStart(2, '0')}`;
+  m = t.match(new RegExp(pre + '(\\d{1,2})/(\\d{1,2})/(20\\d\\d)'));
+  return m ? `${m[3]}-${m[2].padStart(2, '0')}-${m[1].padStart(2, '0')}` : null;
+}
+// Cierre del plazo de solicitud a partir de los trozos de texto que hablan de él: fecha expresa
+// («hasta el 30 de septiembre de 2026») o plazo relativo a la publicación. Devuelve {inicio, fin} o null.
+// Con finaliza, también vale «el plazo se iniciará el … y finalizará el …», y se toma la fecha que aparezca antes.
+function finDeTrozos(trozos, publicacion, vale, finaliza = false) {
   for (const t0 of trozos) {
     const t = norm(t0).replace(/\(\s*\d+\s*\)/g, ' ');
     if (/justificaci|alegaci|obras/.test(t.slice(0, 40))) continue;
-    // Fecha expresa con año: «hasta el 30 de septiembre de 2026»
-    const f = fecha(t, 'hasta el (?:dia )?');
-    if (vale(f)) { a.fin = f; a.finCalculado = true; return; }
-    // Plazo relativo a la publicación (solo si se conoce la fecha de publicación)
-    const c = bdns.calculaFin(t, a.publicacion);
-    if (c && vale(c.fin)) { a.fin = c.fin; a.inicio = a.inicio || c.inicio; a.finCalculado = true; return; }
+    let f = fechaEn(t, 'hasta el (?:dia )?');
+    if (finaliza) {
+      const g = fechaEn(t, 'finalizara el (?:dia )?');
+      if (g && (!f || t.search(/finalizara el/) < t.search(/hasta el/))) f = g;
+    }
+    if (vale(f)) return { inicio: null, fin: f };
+    const c = bdns.calculaFin(t, publicacion);
+    if (c && vale(c.fin)) return c;
+  }
+  return null;
+}
+
+// Sede de Álava: el plazo que da la sede («ABIERTO (09/06/2026 - 31/01/2027)», «Del 16 de marzo de 2026 a
+// 24 de marzo de 2027») suele llegar hasta el fin de la justificación o del pago, no de la solicitud. Si la
+// documentación de la pasada anterior (cache/fuentes/<id>.txt) trae el anuncio de la convocatoria en el BOTHA,
+// se lee su fecha de publicación (cabecera «lunes, 8 de junio de 2026 • Núm. 65») y su plazo de presentación
+// de solicitudes, y se calcula el cierre como con la BDNS y los boletines. Solo se usa si el anuncio es de esta
+// convocatoria (comparte palabras del título y no es anterior al inicio que da la sede) y si la sede no habla
+// de un plazo excepcional o ampliado.
+export function finBothaAraba(a, textoFuente) {
+  if (!String(a.id).startsWith('ara-')) return null;
+  const ef = norm(a.estadoFuente || '');
+  if (/excepcional|ampliaci|amplia|prorroga/.test(ef)) return null;
+  const secciones = String(textoFuente || '').split(/^### /m).slice(1);
+  const palabras = [...new Set(norm(a.tituloOficial || a.titulo).split(/[^a-z0-9]+/).filter((w) => w.length > 5 && !/^(ayudas?|subvenc\w*|convocatoria|alaves\w*|entidades|desarrollo|realizacion|solicitar)$/.test(w)))];
+  // Inicio según la sede: primera fecha completa del texto de plazo
+  const iniSede = fechaEn(ef, '');
+  const anyoHoy = new Date().getUTCFullYear();
+  const anyoTitulo = +((norm(a.tituloOficial || a.titulo).match(/\b(20\d\d)\b/) || [])[1] || 0);
+  for (const sec of secciones) {
+    const cab = sec.slice(0, sec.indexOf('\n'));
+    const etiqueta = cab.split(': ')[0];
+    const u = (cab.match(/(https?:\/\/\S+)$/) || [])[1];
+    if (!u) continue;
+    const esBotha = /botha\/Boletines\/20\d\d\//i.test(u);
+    // Anuncio del BOTHA (no la normativa general) o ficha resumen de la convocatoria en PDF de la sede
+    if (esBotha ? /decreto|normativa|norma foral/i.test(etiqueta) : !/convocatoria|bases|extracto/i.test(etiqueta)) continue;
+    const cuerpo = sec.slice(cab.length + 1);
+    const inicio = norm(cuerpo.slice(0, 2500));
+    const comunes = palabras.filter((w) => inicio.includes(w)).length;
+    if (comunes < Math.min(2, palabras.length) || !/subvenc|ayuda|convocatoria|beca|premio/.test(inicio)) continue;
+    const pub = esBotha ? fechaEn(norm(cuerpo.slice(0, 300)), '') : null;
+    if (esBotha && !pub) continue;
+    // Anuncio de otra convocatoria (antigua o anterior al inicio que da la sede): no vale
+    if (pub && (+pub.slice(0, 4) < anyoHoy - 1 || (anyoTitulo && +pub.slice(0, 4) < anyoTitulo - 1))) continue;
+    if (pub && iniSede && new Date(pub) < new Date(new Date(iniSede).getTime() - 120 * 864e5)) continue;
+    const plano = cuerpo.replace(/\s+/g, ' ');
+    const trozos = [];
+    for (const m of plano.matchAll(/plazo (?:de presentaci[oó]n de (?:las )?(?:solicitudes|instancias)|para (?:presentar|solicitar|realizar|la presentaci[oó]n de)(?: las)? solicitudes|para (?:presentar|solicitar)|de solicitud)[^]{0,350}/gi)) trozos.push(m[0]);
+    const vale = pub
+      ? (f) => f && f >= pub && (new Date(f) - new Date(pub)) / 864e5 <= 400
+      : (f) => f && +f.slice(0, 4) >= Math.max(anyoHoy - 1, anyoTitulo) && +f.slice(0, 4) <= anyoHoy + 1;
+    const c = finDeTrozos(trozos, pub, vale, true);
+    if (c) return { ...c, publicacion: pub, url: u };
+  }
+  return null;
+}
+function finAraba(a) {
+  if (!String(a.id).startsWith('ara-') || a.permanente) return;
+  let texto = '';
+  try { texto = fs.readFileSync(path.join('cache', 'fuentes', nombreFuente(a.id)), 'utf8'); } catch { return; }
+  const c = finBothaAraba(a, texto);
+  if (!c) return;
+  const generico = /^\s*abierto\s*\(/i.test(a.estadoFuente || '');
+  const anyoConv = (c.publicacion || c.fin).slice(0, 4);
+  if (!a.fin || (c.fin < a.fin && (a.fin.slice(0, 4) > anyoConv || generico))) {
+    a.fin = c.fin; a.finCalculado = true;
+    if (c.publicacion) a.publicacion = a.publicacion || c.publicacion;
   }
 }
 
@@ -372,6 +448,7 @@ async function main() {
     // Fuera el cómputo de ingresos y la compatibilidad con otras ayudas (no son requisitos), y las listas que han perdido su introducción
     if (a.requisitos) a.requisitos = ajustaListas(a.requisitos.filter((r) => !NO_ES_REQUISITO.test(r)));
     finDelTexto(a);
+    finAraba(a);
     a.estado = estado(a); delete a.errorFicha; delete a.abiertoSegunFuente;
     const corto = tituloCorto(a.titulo, a.organismo, a.ambito);
     if (corto !== a.titulo) { a.tituloOficial = a.titulo; a.titulo = corto; }

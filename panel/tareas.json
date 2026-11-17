@@ -531,8 +531,9 @@
   "prioridad": 11,
   "fuente": "Revisor de datos (16/11)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-16"
+  "estado": "hecha",
+  "fecha": "2026-11-17",
+  "nota": "Nuevo cálculo en recolector/index.js (finBothaAraba): para las ayudas ara-… se busca en su documentación el anuncio del BOTHA (fecha de la cabecera «lunes, 8 de junio de 2026 • Núm. 65») o la ficha PDF de la convocatoria, se lee el plazo de presentación de solicitudes («N días hábiles desde el día siguiente», «hasta el …», «finalizará el …») y, si cierra antes que el plazo de la sede (que llega a la justificación), se usa ese; el anuncio tiene que compartir palabras del título (así no vale el padrón del agua de Arrieta), no ser de otro año y la sede no debe hablar de plazo excepcional o ampliado. Con la documentación de hoy da plazo a 24 ayudas y 23 pasan a cerradas en el recolector de las 05:41 (22 de las 29 de la lista, más cosecha en verde y las becas de fuentes documentales); las otras ~95 ara-… no traen anuncio del BOTHA en su documentación y siguen como estaban."
  },
  {
   "id": "nominativas-bdns-3",
@@ -544,5 +545,16 @@
   "quien": "Claude",
   "estado": "pendiente",
   "fecha": "2026-11-16"
+ },
+ {
+  "id": "araba-sin-anuncio-botha",
+  "titulo": "Buscar el anuncio del BOTHA de las ayudas de Álava que no lo traen enlazado",
+  "detalle": "Tras araba-plazo-botha, unas 95 ayudas ara-… siguen sin anuncio del BOTHA ni ficha PDF en su documentación (p. ej. ara-ayudas-turismo-actividad-pymes-2026, ara-subvenciones-realizacion-actividades-de-formacion-tecnica-de, ara-convocatoria-de-ayudas-a-deportistas-de-alto-nivel-2026) y salen abiertas con el plazo de la sede (2027 o sin fin). Propuesta: buscar en el BOTHA el anuncio de cada convocatoria de 2026 y añadir su URL a cache/docs_extra.json para que finBothaAraba calcule el cierre.",
+  "seccion": "fuentes",
+  "prioridad": 27,
+  "fuente": "Plan de mejoras (17/11)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-17"
  }
 ]
