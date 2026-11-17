@@ -1,23 +1,5 @@
 [
  {
-  "id": "eus-ayuda-subvencion-2026-formacion-normativa-delegados-de-prevencion-2026",
-  "h": "7f38a5266081039b",
-  "titulo": "Subvención para la formación básica de Delegados y Delegadas de Prevención en el área Normativa",
-  "organismoSugerido": "osalan",
-  "organismoFuente": "OSALAN - Instituto Vasco de Seguridad y Salud Laborales",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-formacion-normativa-delegados-de-p-b8087b1a.txt",
-  "caracteres": 300000
- },
- {
-  "id": "bdns-938416",
-  "h": "43aaf4d18c79ef2e",
-  "titulo": "Resolución de Convocatoria de 20 de octubre de del XXXV Curso de Posgrado del CIS",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Centro de investigaciones sociológicas",
-  "archivo": "cache/fuentes/bdns-938416-d7c73d55.txt",
-  "caracteres": 54569
- },
- {
   "id": "eus-ayuda-subvencion-2026-ayudas-al-amparo-de-la-estrategia-de-desarrollo-local-participativo-2026",
   "h": "326cf1f5b429808a",
   "titulo": "Ayudas a proyectos al amparo de la estrategia de desarrollo local participativo (EDLP)",
@@ -27,15 +9,6 @@
   "caracteres": 209454
  },
  {
-  "id": "bdns-938969",
-  "h": "1d1aa6788d271ce1",
-  "titulo": "Subvenciones para la realización de obras de instalación y sustitución de ascensores",
-  "organismoSugerido": "ayto-eibar",
-  "organismoFuente": "Ayuntamiento de eibar",
-  "archivo": "cache/fuentes/bdns-938969-466235d7.txt",
-  "caracteres": 86973
- },
- {
   "id": "bdns-938955",
   "h": "17c381b7c1a1ed26",
   "titulo": "Subvenciones destinadas a los gastos de mantenimiento de ascensores comunitarios o zonales en régimen de evaluación individualizada",
@@ -43,15 +16,6 @@
   "organismoFuente": "Ayuntamiento de eibar",
   "archivo": "cache/fuentes/bdns-938955-d173ca4f.txt",
   "caracteres": 40377
- },
- {
-  "id": "bdns-933344",
-  "h": "dfc709cf03b44734",
-  "titulo": "Subvenciones económicas por parte para cursos intensivos o la estancia en internados para el aprendizaje del euskera cursos",
-  "organismoSugerido": "ayto-sestao",
-  "organismoFuente": "Ayuntamiento de sestao",
-  "archivo": "cache/fuentes/bdns-933344-de6a9ceb.txt",
-  "caracteres": 21856
  },
  {
   "id": "bog-c2607197-htm",
@@ -90,13 +54,13 @@
   "caracteres": 5593
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip",
-  "h": "ed2bdc6e55313d53",
-  "titulo": "The European Prize for Women Innovators",
+  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
+  "h": "40b562d93f954fa5",
+  "titulo": "Rising Innovators category",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
-  "caracteres": 12244
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
+  "caracteres": 12248
  },
  {
   "id": "ue-horizon-eit-2026-prize-wip-leadership",
@@ -108,40 +72,13 @@
   "caracteres": 12241
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
-  "h": "40b562d93f954fa5",
-  "titulo": "Rising Innovators category",
+  "id": "ue-horizon-eic-2026-prize-wip",
+  "h": "ed2bdc6e55313d53",
+  "titulo": "The European Prize for Women Innovators",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
-  "caracteres": 12248
- },
- {
-  "id": "bdns-942229",
-  "h": "9f550a1f9ff0df7a",
-  "titulo": "Plazas de asistencia a eventos de formación dentro del marco de la acción eTwinning",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Dirección general de evaluación y cooperación territorial",
-  "archivo": "cache/fuentes/bdns-942229-bd5fa464.txt",
-  "caracteres": 197185
- },
- {
-  "id": "bdns-942473",
-  "h": "ffae4d1c22696ed8",
-  "titulo": "Ayudas para participar en el programa nacional “Centros de Educación Ambiental”",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Dirección general de planificación y gestión educativa",
-  "archivo": "cache/fuentes/bdns-942473-64b5d9c9.txt",
-  "caracteres": 187641
- },
- {
-  "id": "bdns-942475",
-  "h": "47c3cabfbbe9d9b6",
-  "titulo": "Ayudas para participar en el programa nacional “Recuperación y utilización educativa de pueblos abandonados. ”",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Dirección general de planificación y gestión educativa",
-  "archivo": "cache/fuentes/bdns-942475-ab859e62.txt",
-  "caracteres": 193028
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
+  "caracteres": 12244
  },
  {
   "id": "bob-bob-2026a219-ii-6013-",
@@ -151,24 +88,6 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
   "caracteres": 5840
- },
- {
-  "id": "bdns-942269",
-  "h": "b452a90a3bd6dbb8",
-  "titulo": "Por tramitación anticipada las ayudas del programa de movilidad de estudiantes universitarios «Luisa de Medrano»",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Secretaría general de universidades",
-  "archivo": "cache/fuentes/bdns-942269-8cc7df73.txt",
-  "caracteres": 105456
- },
- {
-  "id": "bdns-940878",
-  "h": "3010054444b51424",
-  "titulo": "Subvención a la persona emprendedora que quiera poner en marcha una nueva actividad económica para el alquiler de un local comercial vacío",
-  "organismoSugerido": "ayto-irura",
-  "organismoFuente": "Ayuntamiento de irura",
-  "archivo": "cache/fuentes/bdns-940878-9c7266ed.txt",
-  "caracteres": 53417
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -297,22 +216,13 @@
   "caracteres": 214972
  },
  {
-  "id": "bdns-927909",
-  "h": "8c440eeb3814c07c",
-  "titulo": "Subvenciones para el fomento de la natalidad",
-  "organismoSugerido": "ayto-campezo-kanpezu",
-  "organismoFuente": "Ayuntamiento de campezo/kanpezu",
-  "archivo": "cache/fuentes/bdns-927909-8dd39047.txt",
-  "caracteres": 12622
- },
- {
-  "id": "bdns-940373",
-  "h": "742bade35d06aa4c",
-  "titulo": "Subvenciones: venta de bonos y ayudas a productores/as para captar clientes y promocionar el consumo directo en el mercado municipal",
-  "organismoSugerido": "ayto-beasain",
-  "organismoFuente": "Ayuntamiento de beasain",
-  "archivo": "cache/fuentes/bdns-940373-50dae214.txt",
-  "caracteres": 21528
+  "id": "ue-crea-media-2027-tvonline-2",
+  "h": "2bb80164abe11ee5",
+  "titulo": "TV and online content Documentary projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
+  "caracteres": 6324
  },
  {
   "id": "ue-crea-media-2027-tvonline-1",
@@ -331,15 +241,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
   "caracteres": 6320
- },
- {
-  "id": "ue-crea-media-2027-tvonline-2",
-  "h": "2bb80164abe11ee5",
-  "titulo": "TV and online content Documentary projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
-  "caracteres": 6324
  },
  {
   "id": "ara-solicitar-subvenciones-para-intervenciones-de-conservacion-y-1c431c",
@@ -421,24 +322,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-cs-resist-ii-product-innovation-open-call-385d00a0.txt",
   "caracteres": 4876
- },
- {
-  "id": "bdns-940347",
-  "h": "5375c18276492f3d",
-  "titulo": "Bases reguladoras para la concesión de subvenciones dirigidas a familias en situación de vulnerabilidad económica para fomentar la participación",
-  "organismoSugerido": "ayto-beasain",
-  "organismoFuente": "Ayuntamiento de beasain",
-  "archivo": "cache/fuentes/bdns-940347-a4e3fdbf.txt",
-  "caracteres": 46442
- },
- {
-  "id": "bdns-940330",
-  "h": "5131de0f3232e159",
-  "titulo": "Bases para la concesión de ayudas a las personas que estudian euskara en los euskaltegis",
-  "organismoSugerido": "ayto-beasain",
-  "organismoFuente": "Ayuntamiento de beasain",
-  "archivo": "cache/fuentes/bdns-940330-eb7d81c7.txt",
-  "caracteres": 41117
  },
  {
   "id": "bdns-942548",
@@ -756,24 +639,6 @@
   "caracteres": 16004
  },
  {
-  "id": "bdns-942623",
-  "h": "138f00c02ae5b5d5",
-  "titulo": "Bases reguladoras de la convocatoria de subvenciones a asociaciones culturales y clubs deportivos",
-  "organismoSugerido": "ayto-ribera-baja-erribera-beitia",
-  "organismoFuente": "Ayuntamiento de ribera baja/erribera beitia",
-  "archivo": "cache/fuentes/bdns-942623-856035f8.txt",
-  "caracteres": 111688
- },
- {
-  "id": "bdns-942560",
-  "h": "ea782f3f5f9cf8b4",
-  "titulo": "Programas de ámbito estatal",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Servicio público de empleo estatal",
-  "archivo": "cache/fuentes/bdns-942560-a53aaa11.txt",
-  "caracteres": 200132
- },
- {
   "id": "bdns-940546",
   "h": "16ed25c9ea6aed6e",
   "titulo": "Y segunda convocatoria de subvenciones para financiar los gastos de preproducción",
@@ -781,24 +646,6 @@
   "organismoFuente": "Diputación foral de Bizkaia",
   "archivo": "cache/fuentes/bdns-940546-b5f83570.txt",
   "caracteres": 174897
- },
- {
-  "id": "bdns-940355",
-  "h": "ccb132cd9e157893",
-  "titulo": "Bases de subvención para producción de documentales de recuperación memoria histórica y del patrimonio",
-  "organismoSugerido": "ayto-durango",
-  "organismoFuente": "Ayuntamiento de durango",
-  "archivo": "cache/fuentes/bdns-940355-c732d098.txt",
-  "caracteres": 71211
- },
- {
-  "id": "bdns-927161",
-  "h": "9205225ca15ace2a",
-  "titulo": "Subvenciones municipales destinadas a financiar las dos líneas de subvención del programa ¨sopela garatu¨",
-  "organismoSugerido": "ayto-sopela",
-  "organismoFuente": "Ayuntamiento de sopela",
-  "archivo": "cache/fuentes/bdns-927161-63c28e03.txt",
-  "caracteres": 178288
  },
  {
   "id": "bog-c2606552-htm",
