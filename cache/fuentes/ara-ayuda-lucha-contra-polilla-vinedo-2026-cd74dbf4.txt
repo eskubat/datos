@@ -13,8 +13,8 @@ Plazo de resolución: 6 Meses
 titulo: Resolución
 Silencio administrativo de la persona interesada: Negativo
 Inicio Persona Interesada: Sí
-valor: Servicio de Viticultura y Enología
 valor: Servicio de Secretaría Técnica de Agricultura
+valor: Servicio de Viticultura y Enología
 titulo: Organismo competente
 titulo pestana: Presentación del trámite
 descripcion: SERVICIO DE VITICULTURA Y ENOLOGIA
@@ -50,6 +50,83 @@ estado: En plazo
 descripcion plazo: ABIERTO (18/05/2026 - 00:01 - 31/03/2027)
 titulo:
 Ayuda para el fomento de proyectos de desarrollo en Alava de la estrategia de lucha contra la polilla del racimo (Lobesia Botrana) mediante la aplicación de técnicas de confusión sexual
+
+### Documento de la convocatoria: https://www.araba.eus/botha/Boletines/2026/041/2026_041_00953_C.pdf
+viernes, 10 de abril de 2026 • Núm. 41
+I - JUNTAS GENERALES DE ÁLAVA Y ADMINISTRACIÓN FORAL
+DEL TERRITORIO HISTÓRICO DE ÁLAVA
+Diputación Foral de Álava
+DEPARTAMENTO DE AGRICULTURA
+Orden Foral 83/2026, de 25 de marzo de 2026. Aprobar la convocatoria para 2026 de las ayudas
+para el fomento de proyectos de desarrollo en Álava de la estrategia de lucha contra la polilla
+del racimo (Lobesia Botrana) mediante la aplicación de técnicas de confusión sexual en viñedo
+Por Decreto Foral 26/2025, de 1 de julio, del Consejo de Gobierno Foral se aprobaron las
+bases reguladoras de la ayuda para el fomento de proyectos de desarrollo en Álava de la estrategia de lucha contra la polilla del racimo (Lobesia Botrana) mediante la aplicación de técnicas
+de confusión sexual en viñedo.
+El método de lucha contra la polilla del racimo mediante técnicas de confusión sexual es
+un método cuya efectividad lleva tiempo demostrada, así como la relación causa efecto entre
+el desarrollo de la polilla del racimo en los viñedos y la aparición de botrytis en el periodo de
+maduración de la uva, lo que redunda de forma directa y negativa en la calidad del fruto y por
+tanto de los vinos. Este sistema de control de polilla lleva tiempo implantado en otras zonas
+vitivinícolas, así como en algunas zonas concretas dentro de la denominación de origen Rioja
+con excelentes resultados, aunque no está suficientemente implantada todavía en nuestra
+zona, por lo que la Diputación Foral de Álava tiene gran interés en promover la utilización de
+esta técnica en las comarcas vitícolas de Álava.
+Para ello, en los presupuestos de gastos de la Diputación Foral de Álava para el ejercicio
+2026 existe una partida con crédito suficiente para las ayudas destinadas al fomento de proyectos de desarrollo en Álava de la estrategia de lucha contra la polilla del racimo (Lobesia
+Botrana) mediante la aplicación de técnicas de confusión sexual en viñedo para el año 2026.
+Vistos los informes preceptivos, y de conformidad con lo dispuesto en el Decreto Foral
+78/2024, del Diputado General, de 28 de junio que modifica el Decreto Foral 152/2023, del Diputado General, de 30 de junio, por el que se determinan los departamentos de la Diputación
+Foral de Álava para la legislatura 2023-2027 y haciendo uso de las facultades que me competen,
+DISPONGO
+Primero. Aprobar la convocatoria para 2026 de las ayudas para el fomento de proyectos
+de desarrollo en Álava de la estrategia de lucha contra la polilla del racimo (Lobesia Botrana)
+mediante la aplicación de técnicas de confusión sexual en viñedo, que se regirá por lo dispuesto en el Decreto Foral 26/2025, de 1 de julio, del Consejo de Gobierno Foral con arreglo
+al siguiente detalle:
+— Plazo de presentación de solicitudes: período comprendido entre el 15 de julio al 10 de
+agosto de 2026 ambos inclusive.
+— Lugar de presentación de solicitudes:
+• Registro General de la Diputación Foral de Álava.
+• Registro de las Oficinas de Hacienda de Vitoria-Gasteiz, Laguardia y Llodio.
+• Cualesquiera del resto de registros que recoge el artículo 16.4 de la Ley 39/2015, de 1 de
+octubre, del Procedimiento Administrativo Común de las Administraciones Pública.
+No obstante, en cumplimiento del artículo 14.2 de la Ley 39/2015 del Procedimiento Administrativo Común de las Administraciones Públicas, en todo caso están obligados a presentación
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-00953
+viernes, 10 de abril de 2026 • Núm. 41
+telemática a través de sede electrónica mediante la aplicación del Departamento de Agricultura
+https://www.araba.eus/MahastiAraba/ las personas jurídicas, las entidades sin personalidad
+jurídica, quienes ejerzan una actividad profesional para la que se requiera colegiación obligatoria y para los trámites que realicen en el ejercicio de dicha actividad y quienes representen a
+un interesado obligado a relacionarse electrónicamente con la Administración. En este último
+caso, podrá tramitar la solicitud de ayuda por medios electrónicos como autorizado según se
+detalla en la sede electrónica (https://egoitza.araba.eus/es/sede-electronica/autorizaciones).
+— Reserva de crédito: 40.000,00 euros, con cargo a la partida “40104. G/419401/77000418
+Plan Ayudas Control Biológico Polilla” del presupuesto de gastos de la Diputación Foral de
+Álava para el ejercicio 2026. El pago de las ayudas se realizará inmediatamente después a la
+concesión de éstas a favor de las solicitudes de ayuda que reúnan los requisitos exigidos en
+las bases reguladoras de la misma.
+Dichos créditos podrán ser incrementados con cuantías adicionales por un importe máximo
+igual al reservado inicialmente, así como por el importe de crédito que por cualquier motivo
+pueda producirse en la partida presupuestaria, todo ello de conformidad a lo dispuesto en el
+artículo 21 de la Norma Foral 11/2016, de 19 de octubre, de Subvenciones del Territorio Histórico
+de Álava.
+Segundo. La presente orden foral producirá efectos a partir del día siguiente al de su publicación en el BOTHA.
+Tercero. Contra la presente orden foral, que pone fin a la vía administrativa, se podrá interponer, potestativamente, recurso de reposición ante el mismo órgano en el plazo de un mes a
+partir del día siguiente a aquel en que se produzca la publicación; o, recurso contencioso-administrativo ante la Sala de lo contencioso del Tribunal Superior de Justicia de País Vasco, en
+el plazo de dos meses, contados desde el día siguiente a la publicación de la misma.
+Vitoria-Gasteiz, 31 de marzo de 2026
+Diputada Foral de Agricultura
+NOEMÍ AGUIRRE QUINTANA
+Director de Agricultura
+DAVID FERNÁNDEZ SARABIA
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+Firmante: CN=ARABAKO FORU ALDUNDIA / DIPUTACION FORAL DE ALAVA, SERIALNUMBER=P0100000I, OU=SELLO ELECTRONICO, ORGANIZATIONIDENTIFIER=VATES-P0100000I, O=ARABAKO FORU ALDUNDIA / DIPUTACION FORAL DE ALAVA, C=ES
+Emisor del certificado: CN=EAEko HAetako langileen CA - CA personal de AAPP vascas (2), OU=AZZ Ziurtagiri publikoa - Certificado publico SCA, O=IZENPE S.A., C=ES
+Número de serie: 267116
+Fecha de firma: 2026.04.10 05:32:26 Z
+2026-00953
 
 ### Documento de la convocatoria: https://www.araba.eus/botha/Boletines/2025/077/2025_077_02062_C.pdf
 miércoles, 9 de julio de 2025 • Núm. 77

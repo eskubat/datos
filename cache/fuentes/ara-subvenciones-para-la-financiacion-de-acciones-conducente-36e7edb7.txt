@@ -6,12 +6,12 @@ descripcion:
 Aprobación de las bases reguladoras generales y de la convocatoria de la concesión de subvenciones en régimen de libre concurrencia del Departamento de Equilibrio Territorial, encaminadas a la financiación de acciones conducentes a la rehabilitación de vivienda en entidades locales, tanto para dichas entidades locales como para las personas físicas residentes en ellas
 titulo: Normativa
 A quién va dirigido: Personas físicas residentes en las entidades locales del Territorio Histórico de Álava con núcleos de población inferior a 1.500 habitantes, situados en municipios menores de 20.000 habitantes.
-tipo recurso: Recurso de Reposición
-Organismo: Consejo de Gobierno Foral
-Plazo: 1 Meses
 tipo recurso: Recurso contencioso-Administrativo
 Organismo: Juzgado de lo Contencioso-Administrativo de Vitoria-Gasteiz
 Plazo: 2 Meses
+tipo recurso: Recurso de Reposición
+Organismo: Consejo de Gobierno Foral
+Plazo: 1 Meses
 Plazo de resolución: 6 Meses
 titulo: Resolución
 Silencio administrativo de la persona interesada: Negativo

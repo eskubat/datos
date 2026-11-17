@@ -55,21 +55,21 @@
  },
  {
   "id": "ara-ayudas-dirigidas-a-asociaciones-o-fundaciones-para-contribui",
-  "h": "82838865b96f77d7",
+  "h": "6960a521c60724d8",
   "titulo": "Ayudas para el desarrollo de programas y actividades en el ámbito de los servicios sociales",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-dirigidas-a-asociaciones-o-fundaciones-para-contr-bc264301.txt",
-  "caracteres": 246366
+  "caracteres": 300000
  },
  {
   "id": "ara-ayudas-economicas-para-gastos-extraordinarios-en-acogimiento",
-  "h": "986ac3d6540e2d40",
+  "h": "8128cc046c2eba4d",
   "titulo": "Ayudas económicas para gastos extraordinarios de apoyo al acogimiento familiar y a la convivencia una vez finalizada la medida de acogimiento familiar",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-economicas-para-gastos-extraordinarios-en-acogimi-cb998e96.txt",
-  "caracteres": 52699
+  "caracteres": 187537
  },
  {
   "id": "bob-bob-2026a215-ii-5802-",
@@ -81,13 +81,13 @@
   "caracteres": 5593
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
-  "h": "40b562d93f954fa5",
-  "titulo": "Rising Innovators category",
+  "id": "ue-horizon-eic-2026-prize-wip",
+  "h": "ed2bdc6e55313d53",
+  "titulo": "The European Prize for Women Innovators",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
-  "caracteres": 12248
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
+  "caracteres": 12244
  },
  {
   "id": "ue-horizon-eit-2026-prize-wip-leadership",
@@ -99,13 +99,13 @@
   "caracteres": 12241
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip",
-  "h": "ed2bdc6e55313d53",
-  "titulo": "The European Prize for Women Innovators",
+  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
+  "h": "40b562d93f954fa5",
+  "titulo": "Rising Innovators category",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
-  "caracteres": 12244
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
+  "caracteres": 12248
  },
  {
   "id": "bob-bob-2026a219-ii-6013-",
@@ -118,7 +118,7 @@
  },
  {
   "id": "ara-subvenciones-acciones-marco-alaves-de-incidencia-y-proteccio",
-  "h": "f2ae164e128892c1",
+  "h": "e0dd3df11bba660c",
   "titulo": "Subvenciones dirigidas a asociaciones y entidades sin ánimo de lucro, en régimen de libre concurrencia",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
@@ -127,12 +127,12 @@
  },
  {
   "id": "ara-convocatoria-de-subvenciones-con-destino-a-entidades-locales",
-  "h": "189d034de538c9c4",
+  "h": "610fbfda56fe8218",
   "titulo": "Subvención para Entidades locales que lleven a cabo actividades dirigidas a la juventud",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-convocatoria-de-subvenciones-con-destino-a-entidades-loc-bb0adde9.txt",
-  "caracteres": 18284
+  "caracteres": 72507
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -226,7 +226,7 @@
  },
  {
   "id": "ara-ayudas-destinadas-a-la-implementacion-de-medidas-preventivas",
-  "h": "e8e3dab2e814e7b7",
+  "h": "af06ab166aa6e6ec",
   "titulo": "Ayudas destinadas a la implementación de medidas preventivas destinadas a mejorar la protección de ganado frente a ataques de la fauna silvestre",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
@@ -315,15 +315,6 @@
   "caracteres": 243503
  },
  {
-  "id": "ue-crea-media-2027-tvonline-2",
-  "h": "2bb80164abe11ee5",
-  "titulo": "TV and online content Documentary projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
-  "caracteres": 6324
- },
- {
   "id": "ue-crea-media-2027-tvonline-1",
   "h": "594ec78e4c088425",
   "titulo": "TV and online content Animation projects",
@@ -342,6 +333,15 @@
   "caracteres": 6320
  },
  {
+  "id": "ue-crea-media-2027-tvonline-2",
+  "h": "2bb80164abe11ee5",
+  "titulo": "TV and online content Documentary projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
+  "caracteres": 6324
+ },
+ {
   "id": "ara-realizacion-inversiones-sector-artesano-alaves-2026",
   "h": "bef839ad915630a9",
   "titulo": "Ayudas a la realización de inversiones por parte del sector artesano alavés",
@@ -352,7 +352,7 @@
  },
  {
   "id": "ara-solicitar-subvenciones-para-intervenciones-de-conservacion-y-1c431c",
-  "h": "0fdf174bcce87bc8",
+  "h": "a79e9e8afe062802",
   "titulo": "Subvenciones para intervenciones de conservación y restauración del patrimonio cultural promovidas por entidades locales. elementos menores",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
@@ -361,7 +361,7 @@
  },
  {
   "id": "ara-subvenciones-para-intervenciones-de-conservacion-y-o-restaur-0f0885",
-  "h": "6c1a1b3d5afedf5d",
+  "h": "7d0f3a351ae9c316",
   "titulo": "Subvenciones para intervenciones de conservación y restauración del patrimonio cultural promovidas por entidades locales. ermitas",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
@@ -370,7 +370,7 @@
  },
  {
   "id": "ara-subvenciones-para-intervenciones-de-conservacion-y-o-restaur-3ee3fb",
-  "h": "38f1203135f02720",
+  "h": "d7201bf83b2789ca",
   "titulo": "Subvenciones para intervenciones de conservación y restauración del patrimonio cultural promovidas por entidades locales. bienes histórico-artísticos",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
@@ -379,25 +379,25 @@
  },
  {
   "id": "ara-ayuda-lucha-contra-polilla-vinedo-2026",
-  "h": "3824e09244b68fd0",
+  "h": "7aee016ebfb36cf2",
   "titulo": "Ayuda para el fomento de proyectos de desarrollo de la estrategia de lucha contra la polilla del racimo (Lobesia Botrana) mediante la aplicación",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayuda-lucha-contra-polilla-vinedo-2026-cd74dbf4.txt",
-  "caracteres": 36885
+  "caracteres": 43067
  },
  {
   "id": "ara-convocatoria-subvenciones-medios-euskera-2026",
-  "h": "cceaf77fc837e073",
+  "h": "ff98cda39fb880d7",
   "titulo": "Subvenciones destinadas a la consolidación, desarrollo y normalización de proyectos comunicativos locales o comarcales en euskera",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-convocatoria-subvenciones-medios-euskera-2026-d1d2eb59.txt",
-  "caracteres": 4782
+  "caracteres": 59626
  },
  {
   "id": "ara-01362004",
-  "h": "5788d605cf7d3819",
+  "h": "a2f6dd95e1dcce18",
   "titulo": "Ayuda para el fomento y puesta en valor del terroir rioja alavesa. fomento del terroir A traves de la viticultura. . medidas 1,3 y 4",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
@@ -433,12 +433,12 @@
  },
  {
   "id": "ara-ayudas-gastos-aulas-desplazadas-curso-2025-2026",
-  "h": "5b6fbb08f37e14a8",
+  "h": "1007f8dac1e23e92",
   "titulo": "Subvenciones en régimen de concurrencia competitiva destinadas a financiar los gastos de las aulas desplazadas en el Territorio Histórico",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-gastos-aulas-desplazadas-curso-2025-2026-660acced.txt",
-  "caracteres": 2338
+  "caracteres": 15234
  },
  {
   "id": "ara-01146002",
@@ -460,7 +460,7 @@
  },
  {
   "id": "ara-01362003",
-  "h": "4bbe8f224df22177",
+  "h": "57620d155403cc57",
   "titulo": "Ayuda para el fomento y puesta en valor del terroir rioja alavesa. fomento del terroir a traves de la viticultura",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
@@ -766,12 +766,12 @@
  },
  {
   "id": "ara-subvenciones-desarrollo-programas-de-creacion-y-difusion-cul-a763b5",
-  "h": "69752f93f20000e6",
+  "h": "03e862938fbd104c",
   "titulo": "Subvenciones para el desarrollo de programas de creación y difusión cultural en el Territorio Histórico y enclave de Treviño. - Profesionales",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-subvenciones-desarrollo-programas-de-creacion-y-difusion-55639ac9.txt",
-  "caracteres": 192025
+  "caracteres": 288895
  },
  {
   "id": "ara-subvenciones-desarrollo-programas-de-creacion-y-difusion-cul-0e100a",
@@ -784,7 +784,7 @@
  },
  {
   "id": "ara-solicitar-subvenciones-para-intervenciones-de-conservacion-y-0d3c16",
-  "h": "f12f5f21eb70d4f7",
+  "h": "34eb449ef883b929",
   "titulo": "Subvenciones para intervenciones de conservación y restauración del patrimonio cultural promovidas por entidades locales. edificios",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
@@ -838,7 +838,7 @@
  },
  {
   "id": "ara-ayudas-inversiones-explotaciones-agrarias-2026",
-  "h": "57afd576d831ce38",
+  "h": "6a15ab42c5f06662",
   "titulo": "Ayudas a las inversiones en explotaciones agrarias",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
@@ -856,7 +856,7 @@
  },
  {
   "id": "ara-subvenciones-para-la-financiacion-de-acciones-conducentes-a-",
-  "h": "e5d1ac2d8d4c595b",
+  "h": "b392d3adf2c86e7e",
   "titulo": "Subvenciones para la financiación de acciones conducentes a la rehabilitación de vivienda en Entidades Locales",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
@@ -1000,12 +1000,12 @@
  },
  {
   "id": "ara-ayudas-formativas-artes-escenicas-musicales-2026",
-  "h": "4826894f36207a8b",
+  "h": "2861daec68c56437",
   "titulo": "Ayudas para realizar acciones formativas en artes escénicas, musicales, plásticas y visuales",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-formativas-artes-escenicas-musicales-2026-2ab2543a.txt",
-  "caracteres": 350817
+  "caracteres": 282493
  },
  {
   "id": "ara-ap-1-peaje-social",
@@ -1078,23 +1078,5 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/botha-2026-131-03265-c-pdf-601695a9.txt",
   "caracteres": 29159
- },
- {
-  "id": "extra-spri-beint",
-  "h": "6dbf1cff70ba35e7",
-  "titulo": "Becas de Internacionalización beint",
-  "organismoSugerido": "spri",
-  "organismoFuente": "SPRI - Agencia Vasca de Desarrollo Empresarial",
-  "archivo": "cache/fuentes/extra-spri-beint-4e44e7fe.txt",
-  "caracteres": 300000
- },
- {
-  "id": "extra-spri-basque-global-industry",
-  "h": "51ad7fd3deb894e1",
-  "titulo": "Becas Basque Global Industry (antes Global Training)",
-  "organismoSugerido": "spri",
-  "organismoFuente": "SPRI - Agencia Vasca de Desarrollo Empresarial",
-  "archivo": "cache/fuentes/extra-spri-basque-global-industry-784b8fac.txt",
-  "caracteres": 300000
  }
 ]

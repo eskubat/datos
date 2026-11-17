@@ -8,8 +8,8 @@ Plazo de resolución: 6 Meses
 titulo: Resolución
 Silencio administrativo de la persona interesada: Negativo
 Inicio Persona Interesada: Sí
-valor: Servicio de Montes
 valor: Servicio de Ganadería
+valor: Servicio de Montes
 titulo: Organismo competente
 titulo pestana: Presentación del trámite
 valor: servicioganaderia@araba.eus

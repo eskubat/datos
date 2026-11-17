@@ -4,12 +4,12 @@ descripcion:
 Decreto Foral 38/2025, de 11 de noviembre. Aprobar las bases reguladoras de las ayudas para el fomento y puesta en valor del Terroir vitivinícola de Rioja Alavesa, así como la convocatoria correspondiente al ejercicio 2026 de la línea 1.
 titulo: Normativa
 A quién va dirigido: Personas físicas y jurídicas con explotación agraria del sector vitícola en Rioja Alavesa
-tipo recurso: Recurso contencioso-Administrativo
-Organismo: Tribunal Superior de Justicia del País Vasco
-Plazo: 2 Meses
 tipo recurso: Recurso de Reposición
 Organismo: Diputación foral de Álava
 Plazo: 1 Meses
+tipo recurso: Recurso contencioso-Administrativo
+Organismo: Tribunal Superior de Justicia del País Vasco
+Plazo: 2 Meses
 Plazo de resolución: 6 Meses
 titulo: Resolución
 Silencio administrativo de la persona interesada: Negativo

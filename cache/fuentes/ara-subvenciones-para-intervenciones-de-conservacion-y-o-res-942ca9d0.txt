@@ -25,8 +25,8 @@ Plazo de resolución: 6 Meses
 titulo: Resolución
 Silencio administrativo de la persona interesada: Negativo
 Inicio Persona Interesada: Sí
-valor: Servicio de Patrimonio Histórico-Arquitectónico
 valor: Servicio de Restauración
+valor: Servicio de Patrimonio Histórico-Arquitectónico
 titulo: Organismo competente
 titulo pestana: Después de la presentación
 valor: zaharberrikuntza@araba.eus
@@ -75,6 +75,568 @@ Su finalidad es fomentar este tipo de intervenciones y facilitar a las entidades
 descripcion plazo: ABIERTO (19/02/2026 - 31/03/2027)
 titulo:
 Subvenciones para intervenciones de conservación y restauración del patrimonio cultural del Territorio Histórico de Álava promovidas por ENTIDADES LOCALES. 2026 BIENES HISTÓRICO-ARTÍSTICOS
+
+### Documento de la convocatoria: https://www.araba.eus/botha/Boletines/2026/021/2026_021_00444_C.pdf
+miércoles, 18 de febrero de 2026 • Núm. 21
+I - JUNTAS GENERALES DE ÁLAVA Y ADMINISTRACIÓN FORAL
+DEL TERRITORIO HISTÓRICO DE ÁLAVA
+Diputación Foral de Álava
+DEPARTAMENTO DE CULTURA Y DEPORTE
+Acuerdo 74/2026, de 10 de febrero, del Consejo de Gobierno Foral. Aprobar la convocatoria de
+subvenciones para intervenciones de conservación y restauración del patrimonio cultural del
+Territorio Histórico de Álava promovidas por entidades locales en el año 2026
+Entre las funciones del Departamento de Cultura y Deporte de la Diputación Foral de Álava
+está la de fomentar la conservación y restauración del patrimonio cultural mueble e inmueble
+del Territorio Histórico de Álava, tal y como recoge el Decreto Foral 9/2022, de 22 de febrero, por
+el que se aprueba la estructura orgánica y funcional del Departamento de Cultura y Deporte.
+Las intervenciones se realizarán en el marco de lo dispuesto en la Ley 6/2019 del Patrimonio
+Cultural Vasco.
+A tal fin, en el marco de las bases reguladoras aprobadas mediante Decreto Foral 50/2019,
+de 12 de noviembre, del Consejo de Gobierno Foral, y al objeto de ofrecer la mayor difusión
+posible y dar cumplida cuenta de los principios de publicidad, concurrencia y objetividad e
+igualdad y no discriminación, mediante la presente resolución se establecen las condiciones
+a las que ha de ajustarse esta convocatoria.
+Vistos los informes preceptivos.
+En su virtud, a propuesta de la Diputada Foral del Departamento de Cultura y Deporte, previa
+deliberación del Consejo d
+[…]
+Artículo 1. Objeto y finalidad de la convocatoria
+El objeto de la convocatoria es la financiación de parte del coste de las intervenciones de
+conservación y restauración de bienes culturales que ostenten un valor cultural, promovidas
+por las entidades locales del Territorio Histórico de Álava durante el ejercicio 2026.
+Su finalidad es fomentar este tipo de intervenciones y facilitar a las entidades titulares de
+bienes integrantes del patrimonio cultural vasco el cumplimiento de sus obligaciones de conservación, salvaguarda, puesta en valor y difusión de dichos bienes previstas en la Ley 6/2019,
+de 9 de mayo, de Patrimonio Cultural Vasco. En ningún caso pretende contribuir a la especulación con los bienes que con ellas se conserven, restauren o mejoren.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-00444
+miércoles, 18 de febrero de 2026 • Núm. 21
+Se establecen cuatro modalidades de subvención:
+1. Elementos menores: destinadas a la conservación y restauración de edificios e instalaciones con fines económicos o de trabajo, religiosos y de ocio tales como fuentes, lavaderos,
+caleros, tejeras, molinos, ferrerías, puentes, corrales, abejeras, pozos de nieve, juegos de bolos
+y de pelota, cruces, cruceros, etc.
+2. Edificios: destinadas a la conservación y restauración de inmuebles de mayor envergadura con una relevante importancia debido a sus valores arquitectónicos.
+3. Ermitas: destinadas a la conservación y restauración de ermitas.
+4. Bienes histórico-artísticos: destinadas a la conservación y restauración de bienes muebles
+(retablos, cuadros, tejidos históricos, mobiliario, elementos metálicos…), elementos artísticos
+vinculados a la arquitectura (portadas, capiteles, claves, pinturas murales, revestimientos, elementos en piedra o mortero con motivos decorativos, rejas, campanas…), patrimonio bibliográfico y documental, etc.
+Artículo 2. Procedimiento de concesión
+El procedimiento de concesión de estas subvenciones es el de concurrencia competitiva.
+Artículo 3. Imputación presupuestaria
+El cómputo total de las subvenciones no podrá superar en ningún caso la dotación destinada al efecto, imputándose a las partidas presupuestarias del presupuesto de gastos de la
+Diputación Foral de Álava del ejercicio 2026 que se indican, con la siguiente distribución:
+— 70109. G/336702/76800700 “Conservación y Restauración de elementos menores, edificios
+y ermitas. Entidades Locales”, 270.000,00 euros:
+• Modalidad 1. Elementos menores: por importe de 100.000,00 euros.
+• Modalidad 2. Edificios: por importe de 120.000,00 euros.
+• Modalidad 3. Ermitas: por importe de 50.000,00 euros.
+Según lo previsto en el apartado 7.1. de las bases reguladoras (Decreto Foral 50/2019, del
+Consejo de Gobierno Foral, de 12 de noviembre), los excedentes que puedan surgir en alguna
+de estas líneas de ayuda podrán aumentar las otras líneas, respetando en todo caso el presupuesto total de la convocatoria.
+— 70103. G/336701/76290700 “Subvención restauración bienes muebles entidades locales”,
+90.000,00 euros:
+• Modalidad 4. Bienes histórico-artísticos.
+Asimismo, y sin perjuicio de lo anterior, la dotación global de la convocatoria podrá aumentarse hasta un máximo de 490.000,00 euros siempre que, con anterioridad a su aplicación, se
+acredite la existencia de crédito adecuado. La resolución que disponga la ampliación de las
+cuantías máximas deberá publicarse del mismo modo que la presente convocatoria.
+Artículo 4. Cuantía máxima de la subvención
+1. Las cuantías unitarias de las subvenciones que se concedan resultarán de aplicar al
+presupuesto subvencionable los porcentajes establecidos en el artículo 11. Las subvenciones
+no superarán en ningún caso el importe de 60.000,00 euros por solicitante en el caso de las
+modalidades 1, 2 y 3, y de 40.000,00 euros por solicitud si se trata de la modalidad 4. Tampoco
+podrán superar el 80 por ciento del coste total de las inversiones.
+2. La Diputación Foral de Álava, en aquellos casos en los que por su especial complejidad
+técnica o interés público del valor cultural fuera aconsejable, podrá redactar los correspondientes estudios, proyectos o participar en la dirección o coordinación de las obras, mediante
+sus propios medios y servicios técnicos.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-00444
+miércoles, 18 de febrero de 2026 • Núm. 21
+Artículo 5. Entidades beneficiarias y requisitos
+1. Requisitos de las entidades beneficiarias:
+a) Serán entidades beneficiarias los ayuntamientos, cuadrillas y otras entidades locales del
+Territorio Histórico de Álava, que deberán actuar como promotoras de las actuaciones objeto
+de subvención.
+b) Las entidades solicitantes deberán ser titulares de los bienes culturales para los que
+solicitan la subvención, o bien ostentar el derecho de uso de los mismos (contrato, convenio,
+usufructo, etc.), durante un período de diez años como mínimo, contados a partir de la fecha de
+publicación de esta convocatoria en el BOTHA, a excepción de aquellas cuya cesión se realice
+por parte de la Diputación Foral de Álava.
+c) Quedan excluidas aquellas entidades que se encuentren en las situaciones contempladas en la cláusula tercera del Decreto Foral 50/2019, del Consejo de Gobierno Foral, de 12 de
+noviembre, que aprobó las bases generales reguladoras de concesión de subvenciones en
+régimen de concurrencia del Departamento de Cultura y Deporte.
+2. Todas las entidades solicitantes deben haber previsto ejecutar en el año 2026 la intervención que fundamenta el otorgamiento de la subvención. Para ello, deberán acreditar haber
+solicitado las correspondientes licencias municipales que dicha intervención requiera.
+3. Los bienes culturales para los que se solicita la subvención deberán cumplir alguna de
+estas condiciones:
+a) Haber sido declarados monumento, o bienes de protección especial, media o básica, o
+haberse incoado expediente de declaración de protección sobre los mismos, de conformidad
+con lo previsto en la Ley 6/2019 de Patrimonio Cultural Vasco.
+b) Estar incluidos en alguna propuesta de catalogación, en algún conjunto histórico-arquitectónico relevante o en algún inventario elaborado por las entidades locales, la Diputación
+Foral de Álava o el Gobierno Vasco.
+c) Estar catalogados por el planeamiento municipal o sectorial cultural.
+d) Aparecer en el Catálogo Monumental de la Diócesis de Vitoria.
+Artículo 6. Actuaciones, gastos y período subvencionables
+1. Serán subvencionables las actuaciones siguientes:
+— Las intervenciones de conservación y restauración de los bienes culturales incluidos en
+las modalidades descritas en el artículo 1.
+— Los proyectos, estudios, inventarios, informes, etc., necesarios para la ejecución de las
+intervenciones de conservación y/o restauración y para la documentación de los bienes muebles e inmuebles.
+— Las obras de urbanización del entorno cercano a bienes inmuebles y que respondan tanto
+a la puesta en valor de la escena urbana como a criterios meramente funcionales.
+2. Dentro de cada intervención, se considerarán gastos subvencionables los siguientes:
+— Aquellos que de manera indubitada respondan a la naturaleza de la actividad subvencionada, resulten estrictamente necesarios y no sean superiores al valor de mercado.
+— Aquellos que supongan una transacción económica constatada con facturas a nombre
+de la entidad solicitante de la subvención, no siendo aceptados los que vayan a ser abonados
+directamente por otras entidades.
+— El Impuesto sobre el Valor Añadido (IVA).
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-00444
+miércoles, 18 de febrero de 2026 • Núm. 21
+— Honorarios de los estudios previos, del proyecto, la dirección técnica, la dirección de la
+ejecución material y la coordinación de seguridad y salud.
+— Estudios o trabajos complementarios como: estudios históricos, arqueológicos o de
+patologías, analíticas, radiografías, reflectografía infrarroja, etc.
+3. Período subvencionable:
+— Modalidades 1, 2 y 3: Del 1 de enero de 2026 al 30 de diciembre de 2026.
+— Modalidad 4: la fecha de inicio de las intervenciones deberá ser posterior a la notificación
+de la resolución de concesión de la subvención y deberán estar finalizadas a 30 de diciembre
+de 2026.
+4. No serán subvencionables:
+• Las actuaciones de conservación y restauración que no incluyan un proyecto o memoria
+realizados según las directrices y los criterios de intervención marcados por el Departamento
+de Cultura y Deporte. Estos criterios están recogidos en:
+— Compendio-de-buenas-practicas-en-intervenciones-sobre-el-Patrimonio.pdf.
+— Criterios de intervención - araba.
+También pueden consultarse en los servicios de Patrimonio Histórico-Arquitectónico y de
+Restauración.
+• Las actuaciones de conservación y restauración que no contemplen o sean contrarias a las
+directrices y los criterios de intervención marcados por el Departamento de Cultura y Deporte.
+• Los trabajos realizados por “vereda” o “auzolan”.
+• En general, los gastos que resultan expresamente excluidos conforme al artículo 29.7 de
+la Norma Foral 11/2016, de 19 de octubre, de Subvenciones del Territorio Histórico de Álava.
+• No serán acreedoras de subvención las peticiones que una vez valoradas conforme a lo
+establecido en las presentes bases no alcancen una cuantía mínima de 500,00 euros.
+5. El órgano gestor de las subvenciones, en el estudio de las solicitudes recibidas, podrá
+establecer cuáles son las intervenciones y los gastos que cumplen con el objeto de esta convocatoria, pudiendo eliminar de la propuesta de subvención, en parte o en su totalidad, aquellas
+actividades y gastos que no cumplen lo establecido.
+6. En cumplimiento de lo establecido en al artículo 29.3 de la Norma Foral 11/2016, de 19 de
+octubre, de Subvenciones del Territorio Histórico de Álava, cuando el importe del gasto subvencionable supere las cuantías establecidas para el contrato menor en la normativa reguladora
+de la contratación del sector público (40.000,00 euros sin IVA en el supuesto de contratos de
+obras, o 15.000,00 euros sin IVA cuando se trate de contratos de servicios o de suministros),
+la entidad beneficiaria deberá solicitar como mínimo tres ofertas de diferentes proveedores.
+Estas ofertas serán con carácter previo a la contracción del compromiso para la prestación del
+servicio o la entrega del bien, salvo que por las especiales características de los gastos subvencionables no exista en el mercado suficiente número de entidades que los realicen, presten o
+suministren, o salvo que el gasto se hubiera realizado con anterioridad a la subvención.
+La elección entre las tres ofertas presentadas, que deberán aportarse con la justificación,
+se realizará conforme a criterios de eficiencia y economía, debiendo justificarse expresamente
+en una memoria la elección cuando no recaiga en la propuesta económica más ventajosa.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-00444
+miércoles, 18 de febrero de 2026 • Núm. 21
+Artículo 7. Presentación de solicitudes
+1. Las solicitudes se presentarán por medios electrónicos en la Sede Electrónica de la Diputación Foral de Álava (Sede Electrónica de la Diputación Foral de Álava - egoitza). Las entidades
+solicitantes deberán rellenar un formulario diferente para cada una de las modalidades de
+subvención a las que deseen optar.
+2. En las modalidades 1, 2 y 3 las entidades solicitantes no podrán presentar más de una
+solicitud por modalidad. En la modalidad 4, podrán presentar hasta dos solicitudes. En todas
+las modalidades, en cada solicitud solo podrán incluir actuaciones sobre un único bien cultural.
+En el caso de que incumplan estas condiciones, se les requerirá para que renuncien a las
+solicitudes añadidas o a que la reformulen, según proceda. En caso de que no lo hicieran, se
+les tendrá por desistidas de sus solicitudes, previa la correspondiente resolución.
+Artículo 8. Plazo de presentación de solicitudes
+El plazo de presentación de solicitudes será de 20 días hábiles contados a partir del siguiente
+a la publicación de la presente convocatoria en el BOTHA.
+Artículo 9. Documentación a presentar
+Cada formulario de solicitud deberá ir acompañado de la siguiente documentación:
+a) Certificación del acuerdo del órgano competente de la entidad mediante el que se establezca la decisión de optar a las ayudas programadas, adoptado en fecha anterior a la finalización del plazo de presentación de solicitudes. Se podrán aceptar acuerdos con fecha posterior
+por causas justificadas, dentro del plazo de subsanación o mejora de las solicitudes.
+b) Documento explicativo de la intervención propuesta:
+— En caso de que ya esté redactado, proyecto de obra especificando la fase del mismo para
+la que se solicita la subvención.
+— En caso de que no esté redactado o no sea necesario un proyecto de obra: memoria explicativa de la intervención.
+En la modalidad 4 la propuesta de intervención estará redactada por personal con titulación
+oficial en conservación y restauración de bienes culturales.
+En este documento, tanto en unas modalidades como en otras, se deberán incluir los aspectos que serán tenidos en cuenta en la valoración: descripción del bien y de su entorno; urgencia
+de la intervención; valor, significación e interés cultural; impacto de género; metodología de
+la intervención, gestión de residuos, etc.
+c) Presupuesto desglosado de ingresos (con indicación expresa de la existencia de otras
+subvenciones) y gastos de la intervención, donde se incluyan, en caso necesario, los honorarios
+de gastos de redacción de proyectos e informes y de la dirección facultativa.
+d) Documento acreditativo de la propiedad del bien cultural, o el título acreditativo del derecho de uso. En este último caso se deberá aportar la autorización de la persona propietaria
+para realizar las intervenciones objeto de subvención.
+e) En las modalidades 1, 2 y 3, acreditación de haber solicitado las perceptivas licencias de
+conformidad con la normativa aplicable antes del plazo finalización de solicitudes. Se podrán
+aceptar solicitudes de licencia con fecha posterior por causas justificadas, dentro del plazo de
+subsanación o mejora de las solicitudes.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-00444
+miércoles, 18 de febrero de 2026 • Núm. 21
+Artículo 10. Subsanación o mejora de las solicitudes
+1. Si las solicitudes no se formalizaran completamente o faltara alguno de los documentos
+exigidos por la presente convocatoria, se requerirá a la entidad interesada para que en el plazo
+de diez días hábiles subsane la falta o acompañe los documentos preceptivos, con indicación
+de que, si así no lo hiciera, se le tendrá por desistida de su petición, previa la correspondiente
+resolución.
+2. Cuando el órgano instructor considere que una solicitud presentada para una modalidad
+no corresponde con el objeto de la misma, podrá trasladarla de oficio a otra de las modalidades
+de la misma convocatoria. En este caso se dará oportunidad a la entidad interesada para que
+proceda a la mejora de la misma, si lo considera oportuno, adaptándola a los requisitos de la
+nueva modalidad.
+3. En todo caso, el Departamento Foral de Cultura y Deporte podrá solicitar cuanta información complementaria considere necesaria para la adecuada comprensión y evaluación de
+las solicitudes presentadas.
+Artículo 11. Instrucción del procedimiento y criterios de valoración
+1. Serán órganos competentes para la instrucción del procedimiento:
+a) El Servicio de Patrimonio Histórico-Arquitectónico del Departamento de Cultura y Deporte
+de la Diputación Foral de Álava, en el caso de las ayudas dirigidas a la conservación y restauración de bienes de las modalidades 1, 2 y 3.
+b) El Servicio de Restauración del Departamento de Cultura y Deporte de la Diputación
+Foral de Álava, en el caso de las ayudas dirigidas a la conservación y restauración de bienes
+de la modalidad 4.
+2. Los órganos competentes para la instrucción analizarán y revisarán las solicitudes presentadas, con el fin de otorgar una puntuación a cada una de las propuestas, y de calcular el
+importe del presupuesto subvencionable, según los criterios establecidos en esta convocatoria.
+En los casos en los que sea pertinente, personal adscrito a dichos órganos realizará visitas
+de inspección de los bienes culturales para los que se solicitan las ayudas, con el fin de comprobar la idoneidad de las intervenciones propuestas.
+En función de estos estudios se podrán excluir o, en su caso, modificar conceptos de gasto
+o actuaciones.
+3. La valoración de las intervenciones propuestas se basará en los siguientes criterios:
+3.1. Ayudas para la conservación y restauración de bienes de las modalidades 1, 2 y 3 (elementos menores, ermitas y edificios):
+a) Urgencia de la intervención 25 puntos.
+b) Valor histórico-arquitectónico 20 puntos.
+Se tendrán en cuenta la declaración de monumento de protección especial o media, la
+inclusión en los catálogos de protección en el planeamiento municipal o sectorial, la inclusión en alguna propuesta de catalogación de la Diputación Foral de Álava, Gobierno Vasco,
+la pertenencia a un conjunto arquitectónico relevante y la inclusión de la edificación en algún
+inventario realizado por la Diputación.
+c) Significación e interés cultural y social 16 puntos.
+Se tendrán en consideración el interés etnográfico, el interés turístico, el interés paisajístico,
+el interés social de su utilización para otros usos públicos, así como su inclusión en propuestas
+estratégicas territoriales y globales (recorridos, itinerarios culturales, Agenda 21, proyectos
+estratégicos de cuadrillas, etc.).
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-00444
+miércoles, 18 de febrero de 2026 • Núm. 21
+d) Impacto de género 4 puntos.
+Se tendrán en consideración aquellas actuaciones que visibilicen el patrimonio construido,
+promovido o protagonizado por mujeres, y que impulsen la elaboración y reconstrucción de la
+memoria social, así como los procesos de memorialización, desde la visión de género.
+e) Continuidad en obras planificadas plurianualmente 25 puntos.
+Obras que se basen en estudios previos, anteproyectos o proyectos, con subvenciones
+anteriores, elaborados conforme a los criterios de restauración monumental fijados por el
+Servicio de Patrimonio Histórico-Arquitectónico. 9 puntos.
+Obras de continuidad de fases anteriores subvencionadas, realizadas conforme a los criterios de restauración monumental fijados por el Servicio de Patrimonio Histórico-Arquitectónico.
+9 puntos.
+Proyectos u obras solicitadas en convocatorias anteriores y que no recibieron subvención
+en su momento. 7 puntos.
+Las intervenciones podrán cumplir uno, dos o los tres subcriterios, obteniendo así la suma
+sucesiva para la puntuación total.
+Se considerarán subvenciones anteriores aquellas concedidas por el Servicio de Patrimonio
+Histórico-Arquitectónico o el Servicio de Restauración de la Diputación Foral de Álava.
+f) Calidad del proyecto o memoria técnica presentada 10 puntos.
+Se valorará en este caso la calidad de la documentación técnica presentada, la adecuación
+del proyecto o memoria a la intervención propuesta, la metodología, la utilización de técnicas
+tradicionales de construcción, los materiales relacionados con ellas, el enfoque integral del
+ciclo de los materiales y la gestión de los residuos en la fase de obra, tendentes a adecuar la
+restauración propuesta a la puesta en valor del bien cultural, de acuerdo a los criterios fijados
+por las normativas de aplicación y las directrices y criterios de restauración monumental del
+Servicio de Patrimonio Histórico-Arquitectónico de la Diputación Foral de Álava.
+En el caso de que estuvieran las obras iniciadas antes de la concesión de la subvención, sin
+seguimiento del Servicio de Patrimonio Histórico-Arquitectónico, se valorará si procede la concesión de la subvención, en función del estado de las obras y de las intervenciones realizadas.
+Cada solicitud será valorada en todos los criterios enumerados, y la suma de todas las
+puntuaciones obtenidas proporcionará el porcentaje máximo del presupuesto subvencionable
+que podrá ser subvencionado, según esta escala:
+PUNTUACIÓN
+OBTENIDA
+PORCENTAJE DEL PRESUPUESTO
+SUBVENCIONABLE QUE PODRÁ
+OBTENER AYUDA
+De 81 a 100
+80 por ciento
+De 71 a 80
+72 por ciento
+De 61 a 70
+68 por ciento
+De 51 a 60
+64 por ciento
+Menor o igual a 50
+60 por ciento
+3.2. Ayudas para la restauración y conservación de bienes de la modalidad 4:
+a) Urgencia de la intervención 30 puntos.
+b) Valor histórico-artístico 25 puntos.
+Se tendrán en cuenta la declaración del bien cultural en algún régimen de protección, la
+inclusión en los catálogos de protección en el planeamiento municipal o sectorial, la inclusión
+en alguna propuesta de catalogación de la Diputación Foral de Álava, Gobierno Vasco, la pertenencia a un conjunto arquitectónico relevante y la inclusión del bien en algún inventario y/o
+catálogo realizado por la Diputación o el Obispado de Vitoria-Gasteiz.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-00444
+miércoles, 18 de febrero de 2026 • Núm. 21
+c) Significación e interés cultural 16 puntos.
+Se tendrá en consideración que el bien histórico-artístico objeto de la subvención esté en
+un lugar público y pueda ser visitado.
+d) Impacto de género 4 puntos.
+Se tendrán en consideración aquellas actuaciones que visibilicen el patrimonio creado o
+protagonizado por mujeres, y que impulsen la elaboración y reconstrucción de la memoria
+social, así como los procesos de memorialización, desde la visión de género.
+e) Calidad del proyecto o memoria técnica presentada 25 puntos.
+Se valorará la calidad de la documentación técnica, la adecuación del proyecto o memoria
+a la intervención presentada, la metodología, las características técnicas y materiales apropiados, la mínima generación de residuos peligrosos y la reducción de productos con emisiones
+contaminantes, tendentes a adecuar la restauración propuesta a la puesta en valor del bien
+cultural de acuerdo con los criterios fijados por las normativas de aplicación y las directrices y
+criterios de restauración del Servicio de Restauración de la Diputación Foral de Álava. Criterios
+de intervención - araba.
+Cada solicitud será valorada en todos los criterios enumerados, y la suma de todas las
+puntuaciones obtenidas proporcionará el porcentaje máximo del presupuesto subvencionable
+que podrá ser subvencionado, según esta escala:
+PUNTUACIÓN
+OBTENIDA
+PORCENTAJE DEL PRESUPUESTO
+SUBVENCIONABLE QUE PODRÁ
+OBTENER AYUDA
+De 81 a 100
+80 por ciento
+De 71 a 80
+72 por ciento
+De 61 a 70
+68 por ciento
+De 51 a 60
+64 por ciento
+50
+60 por ciento
+Si la actuación objeto de la subvención no obtuviera una puntuación mínima de 50 puntos,
+la solicitud será desestimada.
+Artículo 12. Resolución y notificación
+1. Las solicitudes serán examinadas por una comisión de valoración, que en su composición tendrá en cuenta el principio de representación equilibrada recogido en el artículo 3.10
+del Decreto Legislativo 1/2023, de 16 de marzo, por el que se aprueba el texto refundido de
+la Ley para la Igualdad de Mujeres y Hombres y Vidas Libres de Violencia Machista contra las
+Mujeres, y que estará compuesta por:
+— Presidencia: la directora de Cultura o persona en quien delegue.
+— Vocalías: jefaturas del Servicio de Patrimonio Histórico-Arquitectónico y del Servicio de
+Restauración, o personas en quienes deleguen, y dos miembros del personal técnico de la
+Dirección de Cultura.
+— Secretaría: jefatura del Servicio de SecretaríaTécnica del Departamento de Cultura y Deporte
+o persona en quien delegue, con voz, pero sin voto.
+2. La comisión de valoración, tras la comparación de las solicitudes presentadas de acuerdo
+con los criterios fijados en la convocatoria, emitirá un acta en la que se concrete el resultado
+de su evaluación y una prelación de las mismas.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-00444
+miércoles, 18 de febrero de 2026 • Núm. 21
+Se subvencionará a aquellas entidades que hayan obtenido mayor valoración, sin sobrepasar, en ningún caso, el importe de la dotación presupuestaria fijada en la convocatoria. En caso
+de empate se otorgará el carácter preferente a la que tenga mayor puntuación en los apartados
+e), a), b), c), f) y d), sucesivamente, en el caso de las modalidades 1, 2 y 3 y a la que tenga mayor
+puntuación en los apartados e), a), b), c) y d), sucesivamente, en el caso de la modalidad 4.
+3. Se prescindirá del trámite de audiencia, por no ser tenidos en cuenta en la resolución
+otros hechos y documentos que los presentados por las entidades solicitantes.
+4. El órgano competente, a propuesta de la comisión de valoración, dictará las resoluciones
+que procedan en el plazo máximo de seis meses desde la publicación de la convocatoria en
+el BOTHA.
+Transcurrido el plazo máximo sin que haya recaído resolución expresa, las entidades interesadas podrán entender desestimada la solicitud.
+5. Las resoluciones de concesión contendrán la relación de las entidades solicitantes a las que
+se conceda la subvención, y la desestimación expresa de las restantes solicitudes. Incluirá una
+relación ordenada de todas las solicitudes que, cumpliendo con las condiciones administrativas
+y técnicas establecidas en esta convocatoria para adquirir la condición de entidad beneficiaria,
+no hayan sido estimadas por rebasarse la cuantía máxima del crédito fijado en la convocatoria, con indicación de la puntuación otorgada a cada una de ellas. Si alguna de las entidades
+beneficiarias renunciara a la subvención, podrá ser subvencionado el siguiente proyecto mejor
+valorado, y así sucesivamente.
+6. En las resoluciones se hará constar la cuantía de la subvención, forma de pago, programa
+o actividad afectada y condiciones en que se otorga. También podrá incluir, con carácter vinculante, condiciones que maticen las características de las actuaciones pretendidas y que la
+entidad beneficiaria se comprometerá a asumir en el momento de la percepción de la ayuda
+correspondiente.
+7. La resolución de concesión o denegación de la ayuda será notificada individualmente de
+manera electrónica a las entidades solicitantes, conforme a lo previsto en el artículo 43 de la
+Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones
+Públicas.
+Artículo 13. Aceptación de la ayuda concedida y reformulación de solicitudes
+1. Si en el plazo de quince días tras la recepción de la notificación de la concesión de la
+ayuda la entidad beneficiaria no renuncia expresamente y por escrito a la misma, se entenderá
+que ésta queda aceptada. Dicha renuncia podrá ser total o parcial pudiéndose aceptar, por
+ejemplo, la subvención del proyecto y renunciar a la ejecución de éste.
+2. Si alguna entidad beneficiaria obtuviera una subvención menor a la que le correspondería
+por la puntuación obtenida, debido al agotamiento del crédito destinado a la convocatoria, se
+podrá instar a esta entidad a la reformulación de su solicitud, para ajustar los compromisos
+y condiciones a la subvención concedida. En cualquier caso, la reformulación de solicitudes
+deberá respetar el objeto y finalidad de la subvención, así como las condiciones que motivaron
+la puntuación obtenida en aplicación de los criterios de valoración establecidos.
+3. Si durante el procedimiento alguna de las entidades beneficiarias renunciase a la subvención o a parte de ella, el órgano concedente podrá acordar, si ello resultara materialmente
+posible y sin necesidad de una nueva convocatoria, la adjudicación de nuevas subvenciones a
+las solicitudes siguientes en orden de puntuación, siempre y cuando con la renuncia se haya
+liberado crédito suficiente para atender al menos una de las solicitudes. Así mismo, también
+será posible atender las incidencias e imprevistos sucedidos en solicitudes ya subvencionadas,
+justificando mediante informe técnico del Servicio de Patrimonio Histórico Arquitectónico o
+del Servicio de Restauración su necesidad.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-00444
+miércoles, 18 de febrero de 2026 • Núm. 21
+Artículo 14. Pago y justificación de las subvenciones concedidas
+1. El abono de la subvención se realizará previa justificación de los gastos realizados.
+2. Cuando concurran especiales circunstancias de urgencia, atendida la naturaleza y recursos de las entidades destinatarias, así como su necesidad de disponibilidad financiera, se podrán realizar, en calidad de anticipos, entregas de fondos con carácter previo a la justificación,
+sin necesidad de garantía, como financiación necesaria para poder llevar a cabo las actuaciones inherentes a la subvención, previa solicitud y justificación de la necesidad por parte de la
+persona beneficiaria. Estos anticipos se podrán abonar siempre que existan disponibilidades
+presupuestarias y que no superen el 40 por ciento del total de la subvención concedida, y
+conforme a lo establecido en la normativa foral.
+El resto se abonará previa justificación de los gastos realizados, aplicando a este último
+pago la deducción del anticipo del párrafo anterior.
+3. Las entidades beneficiarias de las subvenciones, en un plazo que finalizará 30 de diciembre de 2026, deberán presentar, por medios electrónicos en la Sede Electrónica de la Diputación
+Foral de Álava (Sede Electrónica de la Diputación Foral de Álava - egoitza), la documentación
+justificativa de la ayuda:
+a) Memoria económica justificativa del coste de la intervención subvencionada, con indicación detallada de los gastos e ingresos relacionados con el proyecto:
+— Relación clasificada de los gastos e inversiones del programa correspondientes al periodo subvencionable, con identificación de la entidad acreedora y del documento, su importe,
+fecha de emisión y, en su caso, fecha de pago. Se adjuntará preferiblemente en formato excel
+o equivalente. En caso de que se hayan producido desviaciones respecto al presupuesto estimado, se explicarán.
+Únicamente habrán de aportarse facturas o documentos equivalentes, que individualmente
+o de forma conjunta para un mismo concepto de gasto, y relacionado con una misma identificación de la entidad acreedora, superen la cantidad de 2.000,00 euros (IVA no incluido). De
+igual modo, habrán de aportarse los justificantes de pago de esos gastos.
+— Detalle de otros ingresos y subvenciones que hayan financiado la actividad subvencionada con indicación del importe y su procedencia.
+b) Memoria de la actuación de conservación y/o restauración subvencionada. Deberá contener documentación gráfica y escrita suficiente que describa con claridad la intervención realizada y, en su caso, impacto de género de la actuación.
+c) En su caso, los tres presupuestos que haya solicitado la entidad beneficiaria en los casos
+en que el importe del gasto subvencionable para el supuesto de contratos de obra supere la
+cuantía de 40.000,00 euros, o para el supuesto de contratos de suministro o de servicios supere la cuantía de 15.000,00 euros, tal y como se indica en el artículo 6 punto 6 de este anexo.
+d) Certificado indicando que los ficheros que se incorporan al expediente son imagen fiel de
+los originales, que éstos obran en poder de la entidad solicitante y que los pondrá a disposición
+de la Diputación Foral de Álava cuando así sea requerido.
+No se admitirán los pagos en efectivo de las operaciones con un importe igual o superior
+o su contravalor en moneda extranjera, al que se establezca en la normativa vigente para el
+ejercicio 2026.
+A efectos del cálculo de la cuantía que se establezca señalada en el párrafo anterior, se
+sumarán los importes de todas las operaciones o pagos en que se haya podido fraccionar la
+entrega de bienes o la prestación de servicios.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-00444
+miércoles, 18 de febrero de 2026 • Núm. 21
+En el supuesto de no poder acreditar el pago de los gastos, el abono se realizará en concepto de “anticipo a justificar”. Las entidades beneficiarias de las subvenciones, en un plazo
+que finalizará el 27 de marzo de 2027, deberán presentar la documentación acreditativa de
+estos pagos.
+4. Conforme a lo establecido en la Orden EHA/2261/2007, de 17 de julio, por la que se regula el empleo de medios electrónicos, informáticos y telemáticos en la justificación de las
+subvenciones, se admitirá la utilización de facturas electrónicas como medio de justificación
+y su formato se ajustará a los estándares de Factura-e. En el caso de aportar cualquier otro
+documento firmado electrónicamente se admitirán los certificados contenidos en la lista de
+confianza de entidades prestadoras cualificadas de servicios electrónicos de confianza (Sede
+electrónica del Ministerio de Industria y Turismo - Lista de confianza de prestadores cualificados
+de servicios electrónicos de confianza).
+5. Finalizado el plazo señalado sin haber presentado la documentación citada, se procederá
+a la anulación de los créditos de pago, iniciándose el correspondiente expediente para la devolución de aquellas cantidades percibidas en concepto de anticipo.
+En caso de no justificar el presupuesto total de gastos tomado como base para el cálculo
+de la subvención, ésta será recalculada de acuerdo con lo establecido en el artículo 11 de esta
+convocatoria.
+6. La entidad beneficiaria, con anterioridad a la fecha de finalización de presentación de las
+justificaciones, podrá solicitar al Departamento de Cultura y Deporte la ampliación de los plazos establecidos, justificando en su caso las causas que hayan motivado tales circunstancias.
+Artículo 15. Compatibilidad de subvenciones
+1. Las ayudas previstas en la presente convocatoria serán compatibles con otras subvenciones, ayudas, ingresos o recursos para la misma finalidad, procedentes de cualesquiera otras
+administraciones o entes públicos o privados, estatales, de la Unión Europea o de organismos
+internacionales, e incluso de la propia Diputación Foral de Álava. La entidad beneficiaria está
+obligada a comunicar al órgano concedente la obtención o solicitud de otras subvenciones o
+ayudas para la misma finalidad.
+2. El importe de las subvenciones reguladas en esta convocatoria en ningún caso podrá
+ser de tal cuantía que aisladamente, o en concurrencia con subvenciones o ayudas de otras
+administraciones públicas, o de otros entes públicos o privados, supere el coste de los gastos
+originados.
+Artículo 16. Obligaciones complementarias
+1. Los servicios del Departamento de Cultura y Deporte que tengan asignadas las competencias sobre bienes culturales muebles e inmuebles realizarán el seguimiento de las actuaciones
+objeto de estas subvenciones. Estos velarán porque se ajusten a las previsiones contenidas
+en los respectivos proyectos expresamente aprobados, en los negocios jurídicos autorizados
+y subvencionados por la Diputación Foral y en la propia resolución de adjudicación.
+2. La Diputación Foral de Álava podrá utilizar las imágenes, documentación audiovisual y
+escrita de las intervenciones que hayan sido objeto de esta convocatoria con el fin de difundir
+y fomentar las restauraciones y proyectos realizados.
+3. Quien se beneficie de las subvenciones se compromete a establecer de forma clara en los
+carteles anunciadores, fotografías y demás material gráfico, escrito o sonoro que en su caso
+puedan publicar con motivo del proyecto subvencionado, mención expresa de la cofinanciación
+por parte del Departamento de Cultura y Deporte de la Diputación Foral de Álava. Esta documentación contendrá una utilización igualitaria y no sexista del lenguaje y de las imágenes,
+debiéndose emplear además las dos lenguas oficiales de la Comunidad Autónoma Vasca. Asimismo, deberá realizarse un uso adecuado de la imagen corporativa del Departamento de Cultura y Deporte de la Diputación Foral de Álava.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-00444
+miércoles, 18 de febrero de 2026 • Núm. 21
+4. La Diputación Foral de Álava podrá solicitar la cesión temporal de los bienes históricoartísticos subvencionados para su exposición en lugares perfectamente acondicionados y apropiados para ello, disponiendo de las oportunas medidas de custodia, seguridad y conservación,
+y resolverá las solicitudes de préstamo de otros organismos, instituciones y particulares de los
+bienes histórico-artísticos cedidos.
+5. Asimismo, la entidad beneficiaria se obliga al cumplimiento de los siguientes extremos:
+a) Los derivados de la correcta ejecución de las obras, considerándose como la promotora
+de las mismas.
+b) Someter la intervención subvencionada a la revisión de los órganos del Departamento
+de Cultura y Deporte competentes en la defensa y control del patrimonio cultural, con carácter
+previo al inicio de las obras, siguiendo fielmente sus especificaciones en la elaboración de los
+correspondientes proyectos, memorias técnicas o presupuestos definitivos.
+c) Notificar al Departamento de Cultura y Deporte el acuerdo de la adjudicación del proyecto o,
+en su caso, de las obras o trabajos, con el fin de posibilitar su supervisión.
+d) Poner en conocimiento del Departamento de Cultura y Deporte de la Diputación Foral de
+Álava cualquier circunstancia de interés que ocurra en el transcurso de las intervenciones. Si
+ello conllevara la modificación del proyecto inicial, estará obligada también a solicitar autorización expresa del citado Departamento de la Diputación Foral de Álava.
+e) Notificar, igualmente, cualquier hallazgo que pudiera dar ocasión a un estudio arqueológico.
+f) Asumir el compromiso de conservar el bien cultural consolidado o restaurado en las debidas condiciones de seguridad, salubridad y ornato.
+g) Notificar al Departamento de Cultura y Deporte cualquier cambio de ubicación, traslado,
+préstamo o depósito del bien cultural subvencionado a otro organismo y/o institución.
+h) Permitir el acceso a los bienes culturales subvencionados a todos los organismos, entidades o asociaciones públicas que tuvieran relación con la defensa y estudio del patrimonio
+cultural, así como al público en general, cuando así lo determine la Diputación Foral de Álava,
+en los términos que oportunamente se establezcan.
+6. La no ejecución, sin causa debidamente justificada, de la intervención acogida a esta
+convocatoria, o la comisión de cualquier infracción tipificada en la Norma Foral 11/2016, de 19
+de octubre, de Subvenciones del Territorio Histórico de Álava, podrá ser sancionada de conformidad con lo previsto en el Título IV de la citada disposición.
+Artículo 17. Dirección Facultativa de los trabajos
+1. Modalidades 1, 2 y 3:
+El control y seguimiento de la intervención se llevará a cabo, al menos, por un profesional
+técnico competente conforme a la Ley 38/99 de Ordenación de la Edificación, designada al
+efecto por la entidad beneficiaria, quien asumirá, en caso de ser necesaria, la coordinación de
+seguridad y salud.
+El personal técnico asignado a las obras se responsabilizará de la aplicación de los criterios
+de restauración fijados por el Servicio de Patrimonio Histórico-Arquitectónico.
+2. Modalidad 4:
+La dirección facultativa de los trabajos de conservación-restauración en los bienes de la
+modalidad 4 acogidos a la subvención será realizada por el propio personal técnico del Servicio
+de Restauración.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-00444
+miércoles, 18 de febrero de 2026 • Núm. 21
+La dirección facultativa exigirá a la empresa contratada el nombramiento de una persona
+responsable de la ejecución material, quien deberá tener la titulación homologada en Conservación-Restauración de Bienes Culturales.
+El personal técnico de la empresa a la que se le han asignado a los trabajos de conservación
+y restauración del bien histórico-artístico se responsabilizará de la aplicación de los criterios
+de restauración fijados por el Servicio de Restauración.
+La empresa contratada para la realización del proyecto asumirá la coordinación de seguridad y salud.
+Artículo 18. Transmisión de los bienes culturales
+En cumplimiento del artículo 75 de la Ley 6/2019, de 9 de mayo, de Patrimonio Cultural Vasco,
+si la entidad beneficiaria, por cualquier motivo, decidiera poner a la venta el bien cultural objeto
+de la subvención en un plazo inferior a diez años a contar desde la concesión de la ayuda económica a la que se refiere esta convocatoria, deberá en primer lugar ponerlo en conocimiento
+de la Diputación Foral de Álava a efectos de su posible adquisición.
+Si la Diputación Foral de Álava decidiese adquirirlo, se descontará de su precio de adquisición una cantidad equivalente al importe actualizado de la ayuda, que se considerará como
+pago a cuenta.
+En el caso de que la Diputación Foral de Álava no decidiese adquirir el bien, la entidad
+beneficiaria reembolsará el importe actualizado de la ayuda concedida para restaurar el bien
+cultural.
+Artículo 19. Publicidad
+La presente convocatoria será publicada en el BOTHA. Asimismo, se expondrá en la página
+web de la Diputación Foral de Álava: Diputación Foral de Álava - En línea contigo - araba.
+Artículo 20. Legislación aplicable
+Esta convocatoria se regulará por:
+— Norma Foral 11/2016 de 19 de octubre, de Subvenciones del Territorio Histórico de Álava
+y Decreto Foral 50/2019, del Consejo de Gobierno Foral de 12 de noviembre, que aprobó las
+bases generales reguladoras de la concesión de subvenciones en régimen de concurrencia del
+Departamento de Cultura y Deporte, y sus modificaciones posteriores.
+— Ley 6/2019 de Patrimonio Cultural Vasco y Decreto 317/2002, de 30 de diciembre, sobre
+Actuaciones Protegidas de Rehabilitación del Patrimonio Urbanizado y Edificado.
+— Norma Foral 3/2023, de 25 de enero, General Presupuestaria y Norma Foral de Ejecución
+Presupuestaria vigente.
+— Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
+— Ley Orgánica 3/2007 para la Igualdad efectiva de mujeres y hombres y Decreto Legislativo
+1/2023, de 16 de marzo, por el que se aprueba el texto refundido de la Ley para la Igualdad de
+Mujeres y Hombres y Vidas Libres de Violencia Machista contra las Mujeres.
+— Decreto Foral 3/2025, de 4 de febrero, de los criterios sobre el uso de las lenguas oficiales
+en la Diputación Foral de Álava.
+— La demás normativa que le sea de aplicación.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+Firmante: CN=ARABAKO FORU ALDUNDIA / DIPUTACION FORAL DE ALAVA, SERIALNUMBER=P0100000I, OU=SELLO ELECTRONICO, ORGANIZATIONIDENTIFIER=VATES-P0100000I, O=ARABAKO FORU ALDUNDIA / DIPUTACION FORAL DE ALAVA, C=ES
+Emisor del certificado: CN=EAEko HAetako langileen CA - CA personal de AAPP vascas (2), OU=AZZ Ziurtagiri publikoa - Certificado publico SCA, O=IZENPE S.A., C=ES
+Número de serie: 267116
+Fecha de firma: 2026.02.18 06:40:18 Z
+2026-00444
 
 ### Documento de la convocatoria: https://e-s.araba.eus/botha/Boletines/2021/028/2021_028_00805_C.pdf
 miércoles, 10 de marzo de 2021 • Núm. 28
@@ -3382,637 +3944,4 @@ Artículo 78. Consejo de Participación de la Mujer.
 asesoramiento, con el fin esencial de servir de cauce para la participación de las mujeres en
 la consecución efectiva del principio de igualdad de trato y de oportunidades entre mujeres y
 hombres, y la lucha contra la discriminación por razón de sexo.
-2. Reglamentariamente, se establecerán su régimen de funcionamiento, competencias y
-composición, garantizándose, en todo caso, la participación del conjunto de las
-Administraciones públicas y de las asociaciones y organizaciones de mujeres de ámbito
-estatal.
-Disposición adicional primera. Presencia o composición equilibrada.
-A los efectos de esta Ley, se entenderá por composición equilibrada la presencia de
-mujeres y hombres de forma que, en el conjunto a que se refiera, las personas de cada sexo
-no superen el sesenta por ciento ni sean menos del cuarenta por ciento.
-Disposición adicional segunda. Modificación de la Ley Orgánica de Régimen Electoral
-General.
-Se modifica la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General, en
-los siguientes términos:
-Uno. Se añade un nuevo artículo 44 bis, redactado en los siguientes términos:
-«Artículo 44 bis.
-1. Las candidaturas que se presenten para las elecciones de diputados al
-Congreso, municipales y de miembros de los consejos insulares y de los cabildos
-insulares canarios en los términos previstos en esta Ley, diputados al Parlamento
-Europeo y miembros de las Asambleas Legislativas de las Comunidades Autónomas
-deberán tener una composición equilibrada de mujeres y hombres, de forma que en
-el conjunto de la lista los candidatos de cada uno de los sexos supongan como
-mínimo el cuarenta por ciento. Cuando el número de puestos a cubrir sea inferior a
-LEGISLACIÓN CONSOLIDADA
-cinco, la proporción de mujeres y hombres será lo más cercana posible al equilibrio
-numérico.
-En las elecciones de miembros de las Asambleas Legislativas de las
-Comunidades Autónomas, las leyes reguladoras de sus respectivos regímenes
-electorales podrán establecer medidas que favorezcan una mayor presencia de
-mujeres en las candidaturas que se presenten a las Elecciones de las citadas
-Asambleas Legislativas.
-2. También se mantendrá la proporción mínima del cuarenta por ciento en cada
-tramo de cinco puestos. Cuando el último tramo de la lista no alcance los cinco
-puestos, la referida proporción de mujeres y hombres en ese tramo será lo más
-cercana posible al equilibrio numérico, aunque deberá mantenerse en cualquier caso
-la proporción exigible respecto del conjunto de la lista.
-3. A las listas de suplentes se aplicarán las reglas contenidas en los anteriores
-apartados.
-4. Cuando las candidaturas para el Senado se agrupen en listas, de acuerdo con
-lo dispuesto en el artículo 171 de esta Ley, tales listas deberán tener igualmente una
-composición equilibrada de mujeres y hombres, de forma que la proporción de unas
-y otros sea lo más cercana posible al equilibrio numérico.»
-Dos. Se añade un nuevo párrafo al apartado 2 del artículo 187, redactado en los
-siguientes términos:
-«Lo previsto en el artículo 44 bis de esta ley no será exigible en las candidaturas
-que se presenten en los municipios con un número de residentes igual o inferior a
-3.000 habitantes.»
-Tres. Se añade un nuevo párrafo al apartado 3 del artículo 201, redactado en los
-siguientes términos:
-«Lo previsto en el artículo 44 bis de esta ley no será exigible en las candidaturas
-que se presenten en las islas con un número de residentes igual o inferior a 5.000
-habitantes.»
-Cuatro. Se modifica el apartado 2 de la disposición adicional primera, que queda
-redactado en los siguientes términos:
-«2. En aplicación de las competencias que la Constitución reserva al Estado se
-aplican también a las elecciones a Asambleas Legislativas de Comunidades
-Autónomas convocadas por éstas, los siguientes artículos del título primero de esta
-Ley Orgánica:
-1 al 42; 44; 44 bis; 45; 46.1, 2, 4, 5, 6 y 8; 47.4; 49; 51.2 y 3; 52; 53; 54; 58; 59;
-60; 61; 62; 63; 65; 66; 68; 69; 70.1 y 3; 72; 73; 74; 75; 85; 86.1; 90; 91; 92; 93; 94;
-95.3; 96; 103.2; 108.2 y 8; 109 a 119; 125 a 130; 131.2; 132; 135 a 152.»
-Cinco. Se añade una nueva disposición transitoria séptima, redactada en los siguientes
-términos:
-«En las convocatorias a elecciones municipales que se produzcan antes de 2011,
-lo previsto en el artículo 44 bis solo será exigible en los municipios con un número de
-residentes superior a 5.000 habitantes, aplicándose a partir del 1 de enero de ese
-año la cifra de habitantes prevista en el segundo párrafo del apartado 2 del artículo
-187 de la presente Ley.»
-Disposición adicional tercera. Modificaciones de la Ley Orgánica del Poder Judicial.
-Se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, en los siguientes
-términos:
-Uno. Se añade un último inciso en el apartado 1 del artículo 109, que queda en los
-siguientes términos:
-«1. El Consejo General del Poder Judicial elevará anualmente a las Cortes
-Generales una Memoria sobre el estado, funcionamiento y actividades del propio
-Consejo y de los Juzgados y Tribunales de Justicia. Asimismo, incluirá las
-necesidades que, a su juicio, existan en materia de personal, instalaciones y de
-recursos, en general, para el correcto desempeño de las funciones que la
-LEGISLACIÓN CONSOLIDADA
-Constitución y las leyes asignan al Poder Judicial. Incluirá también un capítulo sobre
-el impacto de género en el ámbito judicial.»
-Dos. Se añade un nuevo párrafo, intercalado entre el primero y el segundo, al apartado 3
-del artículo 110, con la siguiente redacción:
-«En todo caso, se elaborará un informe previo de impacto de género.»
-Tres. Se añade, en el artículo 122.1, después de «Comisión de Calificación», la
-expresión «Comisión de Igualdad».
-Cuatro. Se añade un artículo 136 bis que integrará la nueva Sección 7.ª del Capítulo IV,
-Título II, Libro II, rubricada como «De la Comisión de Igualdad», con la siguiente redacción:
-«Artículo 136 bis.
-1. El Pleno del Consejo General del Poder Judicial elegirá anualmente, de entre
-sus Vocales, por mayoría de tres quintos y atendiendo al principio de presencia
-equilibrada entre mujeres y hombres, a los componentes de la Comisión de Igualdad,
-que estará integrada por cinco miembros.
-2. La Comisión de Igualdad deberá actuar con la asistencia de todos sus
-componentes y bajo la presidencia del miembro de la misma que sea elegido por
-mayoría. En caso de transitoria imposibilidad o ausencia justificada de alguno de los
-miembros, se procederá a su sustitución por otro Vocal del Consejo, preferentemente
-del mismo sexo, que será designado por la Comisión Permanente.
-3. Corresponderá a la Comisión de Igualdad asesorar al Pleno sobre las medidas
-necesarias o convenientes para integrar activamente el principio de igualdad entre
-mujeres y hombres en el ejercicio de las atribuciones del Consejo General del Poder
-Judicial y, en particular, le corresponderá elaborar los informes previos sobre impacto
-de género de los reglamentos y mejorar los parámetros de igualdad en la Carrera
-Judicial.»
-Cinco. Se modifica el artículo 310, que tendrá la siguiente redacción:
-«Todas las pruebas selectivas para el ingreso y la promoción en las Carreras
-Judicial y Fiscal contemplarán el estudio del principio de igualdad entre mujeres y
-hombres, incluyendo las medidas contra la violencia de género, y su aplicación con
-carácter transversal en el ámbito de la función jurisdiccional.»
-Seis. Se modifica el primer párrafo del apartado e) del artículo 356, que queda redactado
-como sigue:
-«e) También tendrán derecho a un período de excedencia, de duración no
-superior a tres años, para atender al cuidado de un familiar que se encuentre a su
-cargo, hasta el segundo grado inclusive de consanguinidad o afinidad que, por
-razones de edad, accidente o enfermedad, no pueda valerse por sí mismo y no
-desempeñe actividad retribuida.»
-Siete. Se añade una nueva letra e) en el artículo 348, en los siguientes términos:
-«e) Excedencia por razón de violencia sobre la mujer.»
-Ocho. Se modifica el artículo 357, que pasa a tener la siguiente redacción:
-«Artículo 357.
-Cuando un magistrado del Tribunal Supremo solicitara la excedencia voluntaria y
-le fuere concedida, perderá su condición de tal, salvo en el supuesto previsto en las
-letras d) y e) del artículo anterior y en el artículo 360 bis. En los demás casos
-quedará integrado en situación de excedencia voluntaria, dentro de la categoría de
-Magistrado.»
-Nueve. Se modifica el artículo 358.2 en los siguientes términos:
-«2. Se exceptúan de lo previsto en el apartado anterior las excedencias
-voluntarias para el cuidado de hijos y para atender al cuidado de un familiar a que se
-refieren los apartados d) y e) del artículo 356, en las que el periodo de permanencia
-en dichas situaciones será computable a efectos de trienios y derechos pasivos.
-Durante los dos primeros años se tendrá derecho a la reserva de la plaza en la que
-LEGISLACIÓN CONSOLIDADA
-se ejerciesen sus funciones y al cómputo de la antigüedad. Transcurrido este
-periodo, dicha reserva lo será a un puesto en la misma provincia y de igual categoría,
-debiendo solicitar, en el mes anterior a la finalización del periodo máximo de
-permanencia en la misma, el reingreso al servicio activo; de no hacerlo, será
-declarado de oficio en la situación de excedencia voluntaria por interés particular.»
-Diez. Se añade un nuevo artículo 360 bis con la siguiente redacción:
-«Artículo 360 bis.
-1. Las juezas y magistradas víctimas de violencia de género tendrán derecho a
-solicitar la situación de excedencia por razón de violencia sobre la mujer sin
-necesidad de haber prestado un tiempo mínimo de servicios previos. En esta
-situación administrativa se podrá permanecer un plazo máximo de tres años.
-2. Durante los seis primeros meses tendrán derecho a la reserva del puesto de
-trabajo que desempeñaran, siendo computable dicho periodo a efectos de ascensos,
-trienios y derechos pasivos.
-Esto no obstante, cuando de las actuaciones de tutela judicial resultase que la
-efectividad del derecho de protección de la víctima lo exigiere, se podrá prorrogar por
-periodos de tres meses, con un máximo de dieciocho, el periodo en el que, de
-acuerdo con el párrafo anterior, se tendrá derecho a la reserva del puesto de trabajo,
-con idénticos efectos a los señalados en dicho párrafo.
-3. Las juezas y magistradas en situación de excedencia por razón de violencia
-sobre la mujer percibirán, durante los dos primeros meses de esta excedencia, las
-retribuciones íntegras y, en su caso, las prestaciones familiares por hijo a cargo.
-4. El reingreso en el servicio activo de las juezas y magistradas en situación
-administrativa de excedencia por razón de violencia sobre la mujer de duración no
-superior a seis meses se producirá en el mismo órgano jurisdiccional respecto del
-que tenga reserva del puesto de trabajo que desempeñaran con anterioridad; si el
-periodo de duración de la excedencia es superior a 6 meses el reingreso exigirá que
-las juezas y magistradas participen en todos los concursos que se anuncien para
-cubrir plazas de su categoría hasta obtener destino. De no hacerlo así, se les
-declarará en situación de excedencia voluntaria por interés particular.»
-Once. Se suprime el artículo 370.
-Doce. Se modifica el apartado 5 del artículo 373, con la siguiente redacción:
-«5. Por el fallecimiento, accidente o enfermedad graves del cónyuge, de persona
-a la que estuviese unido por análoga relación de afectividad o de un familiar dentro
-del primer grado de consanguinidad o afinidad, los jueces o magistrados podrán
-disponer de un permiso de tres días hábiles, que podrá ser de hasta cinco días
-hábiles cuando a tal efecto sea preciso un desplazamiento a otra localidad, en cuyo
-caso será de cinco días hábiles.
-Estos permisos quedarán reducidos a dos y cuatro días hábiles,
-respectivamente, cuando el fallecimiento y las otras circunstancias señaladas afecten
-a familiares en segundo grado de afinidad o consanguinidad.»
-Trece. Se añade un nuevo apartado 6 al artículo 373, con la siguiente redacción:
-«6. Por el nacimiento, acogimiento o adopción de un hijo, el juez o magistrado
-tendrá derecho a disfrutar de un permiso de paternidad de quince días, a partir de la
-fecha del nacimiento, de la decisión administrativa o judicial de acogimiento o de la
-resolución judicial por la que se constituya la adopción.»
-Catorce. Se añade un nuevo apartado 7 al artículo 373, con la siguiente redacción:
-«7. Los jueces y magistrados tendrán derecho a permisos y licencias para la
-conciliación de la vida personal, familiar y laboral, y por razón de violencia de género.
-El Consejo General del Poder Judicial, mediante reglamento, adaptará a las
-particularidades de la carrera judicial la normativa de la Administración General del
-Estado vigente en la materia.»
-Quince. Se añade un apartado 5 al artículo 433 bis, con la siguiente redacción:
-LEGISLACIÓN CONSOLIDADA
-«5. El Plan de Formación Continuada de la Carrera Judicial contemplará la
-formación de los Jueces y Magistrados en el principio de igualdad entre mujeres y
-hombres y la perspectiva de género.
-La Escuela Judicial impartirá anualmente cursos de formación sobre la tutela
-jurisdiccional del principio de igualdad entre mujeres y hombres y la violencia de
-género.»
-Dieciséis. Se añade un segundo párrafo al apartado 2 del artículo 434, con la siguiente
-redacción:
-«El Centro de Estudios Jurídicos impartirá anualmente cursos de formación sobre
-el principio de igualdad entre mujeres y hombres y su aplicación con carácter
-transversal por los miembros de la Carrera Fiscal, el Cuerpo de Secretarios y demás
-personal al servicio de la Administración de Justicia, así como sobre la detección y el
-tratamiento de situaciones de violencia de género.»
-Disposición adicional cuarta. Modificación del Estatuto Orgánico del Ministerio Fiscal.
-Se modifica la Ley 50/1981, de 30 de diciembre, por la que se aprueba el Estatuto
-Orgánico del Ministerio Fiscal en los siguientes términos:
-Se añade un último párrafo en el apartado 1 del artículo 14, que tendrá la siguiente
-redacción:
-«Habrá de integrarse en el seno del Consejo Fiscal una Comisión de Igualdad
-para el estudio de la mejora de los parámetros de igualdad en la Carrera Fiscal, cuya
-composición quedará determinada en la normativa que rige la constitución y
-funcionamiento del Consejo Fiscal.»
-Disposición adicional quinta. Modificaciones de la Ley de Enjuiciamiento Civil.
-Uno. Se introduce un nuevo artículo 11 bis a la Ley 1/2000, de 7 de enero, de
-Enjuiciamiento Civil, en los siguientes términos:
-«Artículo 11 bis. Legitimación para la defensa del derecho a la igualdad de trato
-entre mujeres y hombres.
-1. Para la defensa del derecho de igualdad de trato entre mujeres y hombres,
-además de los afectados y siempre con su autorización, estarán también legitimados
-los sindicatos y las asociaciones legalmente constituidas cuyo fin primordial sea la
-defensa de la igualdad de trato entre mujeres y hombres, respecto de sus afiliados y
-asociados, respectivamente.
-2. Cuando los afectados sean una pluralidad de personas indeterminada o de
-difícil determinación, la legitimación para demandar en juicio la defensa de estos
-intereses difusos corresponderá exclusivamente a los organismos públicos con
-competencia en la materia, a los sindicatos más representativos y a las asociaciones
-de ámbito estatal cuyo fin primordial sea la igualdad entre mujeres y hombres, sin
-perjuicio, si los afectados estuvieran determinados, de su propia legitimación
-procesal.
-3. La persona acosada será la única legitimada en los litigios sobre acoso sexual
-y acoso por razón de sexo.»
-Dos. Se modifica el supuesto 5.º del apartado 1 del artículo 188 de la Ley 1/2000, de 7
-de enero, de Enjuiciamiento Civil, que quedará redactado del siguiente modo:
-«5. Por muerte, enfermedad o imposibilidad absoluta o baja por maternidad o
-paternidad del abogado de la parte que pidiere la suspensión, justificadas
-suficientemente, a juicio del Tribunal, siempre que tales hechos se hubiesen
-producido cuando ya no fuera posible solicitar nuevo señalamiento conforme a lo
-dispuesto en el artículo 183, siempre que se garantice el derecho a la tutela judicial
-efectiva y no se cause indefensión.
-Igualmente, serán equiparables a los supuestos anteriores y con los mismos
-requisitos, otras situaciones análogas previstas en otros sistemas de previsión social
-y por el mismo tiempo por el que se otorgue la baja y la prestación de los permisos
-previstos en la legislación de la Seguridad Social.»
-LEGISLACIÓN CONSOLIDADA
-Tres. Se añade un nuevo apartado 5 al artículo 217 de la Ley 1/2000, de 7 de enero, de
-Enjuiciamiento Civil, pasando sus actuales apartados 5 y 6 a ser los números 6 y 7,
-respectivamente, con la siguiente redacción:
-«5. De acuerdo con las leyes procesales, en aquellos procedimientos en los que
-las alegaciones de la parte actora se fundamenten en actuaciones discriminatorias
-por razón del sexo, corresponderá al demandado probar la ausencia de
-discriminación en las medidas adoptadas y de su proporcionalidad.
-A los efectos de lo dispuesto en el párrafo anterior, el órgano judicial, a instancia
-de parte, podrá recabar, si lo estimase útil y pertinente, informe o dictamen de los
-organismos públicos competentes.»
-Disposición adicional sexta.
-Contencioso Administrativa.
-Modificaciones de la Ley reguladora de la Jurisdicción
-Se modifica la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción ContenciosoAdministrativa en los siguientes términos:
-Uno. Se añade una letra i) al apartado 1 del artículo 19, con la siguiente redacción:
-«i) Para la defensa del derecho de igualdad de trato entre mujeres y hombres,
-además de los afectados y siempre con su autorización, estarán también legitimados
-los sindicatos y las asociaciones legalmente constituidas cuyo fin primordial sea la
-defensa de la igualdad de trato entre mujeres y hombres, respecto de sus afiliados y
-asociados, respectivamente.
-Cuando los afectados sean una pluralidad de personas indeterminada o de difícil
-determinación, la legitimación para demandar en juicio la defensa de estos intereses
-difusos corresponderá exclusivamente a los organismos públicos con competencia
-en la materia, a los sindicatos más representativos y a las asociaciones de ámbito
-estatal cuyo fin primordial sea la igualdad entre mujeres y hombres, sin perjuicio, si
-los afectados estuvieran determinados, de su propia legitimación procesal.
-La persona acosada será la única legitimada en los litigios sobre acoso sexual y
-acoso por razón de sexo.»
-Dos. Se añade un nuevo apartado 7 al artículo 60, con la siguiente redacción:
-«7. De acuerdo con las leyes procesales, en aquellos procedimientos en los que
-las alegaciones de la parte actora se fundamenten en actuaciones discriminatorias
-por razón del sexo, corresponderá al demandado probar la ausencia de
-discriminación en las medidas adoptadas y su proporcionalidad.
-A los efectos de lo dispuesto en el párrafo anterior, el órgano judicial, a instancia
-de parte, podrá recabar, si lo estimase útil y pertinente, informe o dictamen de los
-organismos públicos competentes.»
-Disposición adicional séptima. Modificaciones de la Ley por la que se incorpora al
-ordenamiento jurídico español la Directiva 89/552/CEE.
-Se añade una nueva letra e) en el apartado 1 del artículo 16 de la Ley 25/1994, de 12 de
-julio, por la que se incorpora al ordenamiento jurídico español la Directiva 89/552/CEE, sobre
-la coordinación de disposiciones legales, reglamentarias y administrativas de los Estados
-miembros relativas al ejercicio de la radiodifusión televisiva, en los siguientes términos:
-«e) La publicidad o la tele venta dirigidas a menores deberá transmitir una
-imagen igualitaria, plural y no estereotipada de mujeres y hombres.»
-Disposición adicional octava. Modificaciones de la Ley General de Sanidad.
-Uno. Se añade un nuevo apartado 4 al artículo 3 de la Ley 14/1986, de 25 de abril,
-General de Sanidad, que queda redactado en los siguientes términos:
-«4. Las políticas, estrategias y programas de salud integrarán activamente en sus
-objetivos y actuaciones el principio de igualdad entre mujeres y hombres, evitando
-que, por sus diferencias físicas o por los estereotipos sociales asociados, se
-produzcan discriminaciones entre ellos en los objetivos y actuaciones sanitarias.»
-LEGISLACIÓN CONSOLIDADA
-Dos. Se añade un nuevo apartado 2 al artículo 6 de la Ley 14/1986, de 25 de abril,
-General de Sanidad, pasando su actual contenido a ser el apartado 1, en los siguientes
-términos:
-«2. En la ejecución de lo previsto en el apartado anterior, las Administraciones
-públicas sanitarias asegurarán la integración del principio de igualdad entre mujeres
-y hombres, garantizando su igual derecho a la salud.»
-Tres. Se modifican los apartados 1, 4, 9, 14 y 15 del artículo 18 de la Ley 14/1986, de 25
-de abril, General de Sanidad, y se añade un nuevo apartado 17, que quedan redactados
-respectivamente en los siguientes términos:
-«1. Adopción sistemática de acciones para la educación sanitaria como elemento
-primordial para la mejora de la salud individual y comunitaria, comprendiendo la
-educación diferenciada sobre los riesgos, características y necesidades de mujeres y
-hombres, y la formación contra la discriminación de las mujeres.»
-«4. La prestación de los productos terapéuticos precisos, atendiendo a las
-necesidades diferenciadas de mujeres y hombres.»
-«9. La protección, promoción y mejora de la salud laboral, con especial atención
-al acoso sexual y al acoso por razón de sexo.»
-«14. La mejora y adecuación de las necesidades de formación del personal al
-servicio de la organización sanitaria, incluyendo actuaciones formativas dirigidas a
-garantizar su capacidad para detectar, prevenir y tratar la violencia de género.»
-«15. El fomento de la investigación científica en el campo específico de los
-problemas de salud, atendiendo a las diferencias entre mujeres y hombres.»
-«17. El tratamiento de los datos contenidos en registros, encuestas, estadísticas
-u otros sistemas de información médica para permitir el análisis de género,
-incluyendo, siempre que sea posible, su desagregación por sexo.»
-Cuatro. Se da nueva redacción al inciso inicial del apartado 1 del artículo 21 de la Ley
-14/1986, de 25 de abril, General de Sanidad, que queda redactado en los siguientes
-términos:
-«1. La actuación sanitaria en el ámbito de la salud laboral, que integrará en todo
-caso la perspectiva de género, comprenderá los siguientes aspectos.»
-Disposición adicional novena.
-Sistema Nacional de Salud.
-Modificaciones de la Ley de Cohesión y Calidad del
-Uno. Se modifica la letra a) del artículo 2 de la Ley 16/2003, de 28 de mayo, de Cohesión
-y Calidad del Sistema Nacional de Salud, que queda redactada en los siguientes términos:
-«a) La prestación de los servicios a los usuarios del Sistema Nacional de Salud
-en condiciones de igualdad efectiva y calidad, evitando especialmente toda
-discriminación entre mujeres y hombres en las actuaciones sanitarias.»
-Dos. Se modifica la letra g) del apartado 2 del artículo 11, que queda redactada en los
-siguientes términos:
-«g) La promoción y protección de la salud laboral, con especial consideración a
-los riesgos y necesidades específicos de las trabajadoras.»
-Tres. Se modifica la letra f) del apartado 2 del artículo 12, que queda redactada en los
-siguientes términos:
-«f) Las atenciones y servicios específicos relativos a las mujeres, que
-específicamente incluirán la detección y tratamiento de las situaciones de violencia
-de género; la infancia; la adolescencia; los adultos; la tercera edad; los grupos de
-riesgo y los enfermos crónicos.»
-Cuatro. Se incluye un nuevo apartado e) en el artículo 34, con la siguiente redacción:
-«e) La inclusión de la perspectiva de género en las actuaciones formativas.»
-Cinco. Se incluye un nuevo apartado f) en el artículo 44, con la siguiente redacción:
-«f) Promover que la investigación en salud atienda las especificidades de
-mujeres y hombres.»
-LEGISLACIÓN CONSOLIDADA
-Seis. Se modifican los apartados 2 y 3 del artículo 53, que quedan redactados en los
-siguientes términos:
-«2. El sistema de información sanitaria contendrá información sobre las
-prestaciones y la cartera de servicios en atención sanitaria pública y privada, e
-incorporará, como datos básicos, los relativos a población protegida, recursos
-humanos y materiales, actividad desarrollada, farmacia y productos sanitarios,
-financiación y resultados obtenidos, así como las expectativas y opinión de los
-ciudadanos, todo ello desde un enfoque de atención integral a la salud,
-desagregando por sexo todos los datos susceptibles de ello.»
-«3. Con el fin de lograr la máxima fiabilidad de la información que se produzca, el
-Ministerio de Sanidad y Consumo, previo acuerdo del Consejo Interterritorial del
-Sistema Nacional de Salud, establecerá la definición y normalización de datos y
-flujos, la selección de indicadores y los requerimientos técnicos necesarios para la
-integración de la información y para su análisis desde la perspectiva del principio de
-igualdad entre mujeres y hombres.»
-Siete. Se añade, al final del artículo 63, la siguiente frase:
-«Este informe contendrá análisis específicos de la salud de mujeres y hombres.»
-Disposición adicional décima. Fondo en materia de Sociedad de la información.
-A los efectos previstos en el artículo 28 de la presente Ley, se constituirá un fondo
-especial que se dotará con 3 millones de euros en cada uno de los ejercicios
-presupuestarios de 2007, 2008 y 2009.
-Disposición adicional décimo primera. Modificaciones del texto refundido de la Ley del
-Estatuto de los Trabajadores.
-El texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por Real Decreto
-Legislativo 1/1995, de 24 de marzo, queda modificado como sigue:
-Uno. Se modifica el párrafo e) del apartado 2 del artículo 4, que queda redactado en los
-términos siguientes:
-«e) Al respeto de su intimidad y a la consideración debida a su dignidad,
-comprendida la protección frente al acoso por razón de origen racial o étnico, religión
-o convicciones, discapacidad, edad u orientación sexual, y frente al acoso sexual y al
-acoso por razón de sexo.»
-Dos. Se modifica el párrafo segundo del apartado 1 y se añaden dos nuevos apartados 4
-y 5 al artículo 17, en los siguientes términos:
-«Serán igualmente nulas las órdenes de discriminar y las decisiones del
-empresario que supongan un trato desfavorable de los trabajadores como reacción
-ante una reclamación efectuada en la empresa o ante una acción administrativa o
-judicial destinada a exigir el cumplimiento del principio de igualdad de trato y no
-discriminación.»
-«4. Sin perjuicio de lo dispuesto en los apartados anteriores, la negociación
-colectiva podrá establecer medidas de acción positiva para favorecer el acceso de
-las mujeres a todas las profesiones. A tal efecto podrá establecer reservas y
-preferencias en las condiciones de contratación de modo que, en igualdad de
-condiciones de idoneidad, tengan preferencia para ser contratadas las personas del
-sexo menos representado en el grupo o categoría profesional de que se trate.
-Asimismo, la negociación colectiva podrá establecer este tipo de medidas en las
-condiciones de clasificación profesional, promoción y formación, de modo que, en
-igualdad de condiciones de idoneidad, tengan preferencia las personas del sexo
-menos representado para favorecer su acceso en el grupo, categoría profesional o
-puesto de trabajo de que se trate.»
-«5. El establecimiento de planes de igualdad en las empresas se ajustará a lo
-dispuesto en esta ley y en la Ley Orgánica para la igualdad efectiva de mujeres y
-hombres.»
-Tres. Se introduce un apartado 8 en el artículo 34, con la siguiente redacción:
-LEGISLACIÓN CONSOLIDADA
-«8. El trabajador tendrá derecho a adaptar la duración y distribución de la jornada
-de trabajo para hacer efectivo su derecho a la conciliación de la vida personal,
-familiar y laboral en los términos que se establezcan en la negociación colectiva o en
-el acuerdo a que llegue con el empresario respetando, en su caso, lo previsto en
-aquélla.»
-Cuatro. Se modifica la letra b) del apartado 3 del artículo 37, que queda redactado del
-modo siguiente:
-«b) Dos días por el nacimiento de hijo y por el fallecimiento, accidente o
-enfermedad graves, hospitalización o intervención quirúrgica sin hospitalización que
-precise reposo domiciliario, de parientes hasta el segundo grado de consanguinidad
-o afinidad. Cuando con tal motivo el trabajador necesite hacer un desplazamiento al
-efecto, el plazo será de cuatro días.»
-Cinco. Se modifican el apartado 4 y el párrafo primero del apartado 5 del artículo 37,
-quedando redactados en los siguientes términos:
-«4. Las trabajadoras, por lactancia de un hijo menor de nueve meses, tendrán
-derecho a una hora de ausencia del trabajo, que podrán dividir en dos fracciones. La
-duración del permiso se incrementará proporcionalmente en los casos de parto
-múltiple.
-La mujer, por su voluntad, podrá sustituir este derecho por una reducción de su
-jornada en media hora con la misma finalidad o acumularlo en jornadas completas en
-los términos previstos en la negociación colectiva o en el acuerdo a que llegue con el
-empresario respetando, en su caso, lo establecido en aquélla.
-Este permiso podrá ser disfrutado indistintamente por la madre o el padre en
-caso de que ambos trabajen.»
-«5. Quien por razones de guarda legal tenga a su cuidado directo algún menor
-de ocho años o una persona con discapacidad física, psíquica o sensorial, que no
-desempeñe una actividad retribuida, tendrá derecho a una reducción de la jornada de
-trabajo, con la disminución proporcional del salario entre, al menos, un octavo y un
-máximo de la mitad de la duración de aquélla.»
-Seis. Se añade un párrafo segundo al apartado 3 del artículo 38, en los siguientes
-términos:
-«Cuando el período de vacaciones fijado en el calendario de vacaciones de la
-empresa al que se refiere el párrafo anterior coincida en el tiempo con una
-incapacidad temporal derivada del embarazo, el parto o la lactancia natural o con el
-período de suspensión del contrato de trabajo previsto en el artículo 48.4 de esta
-Ley, se tendrá derecho a disfrutar las vacaciones en fecha distinta a la de la
-incapacidad temporal o a la del disfrute del permiso que por aplicación de dicho
-precepto le correspondiera, al finalizar el período de suspensión, aunque haya
-terminado el año natural a que correspondan.»
-Siete. Se modifica la letra d) del apartado 1 del artículo 45, quedando redactada en los
-siguientes términos:
-«d) Maternidad, paternidad, riesgo durante el embarazo, riesgo durante la
-lactancia natural de un menor de nueve meses y adopción o acogimiento, tanto
-preadoptivo como permanente o simple, de conformidad con el Código Civil o las
-leyes civiles de las Comunidades Autónomas que lo regulen, siempre que su
-duración no sea inferior a un año, aunque éstos sean provisionales, de menores de
-seis años o de menores de edad que sean mayores de seis años cuando se trate de
-menores discapacitados o que por sus circunstancias y experiencias personales o
-por provenir del extranjero, tengan especiales dificultades de inserción social y
-familiar debidamente acreditadas por los servicios sociales competentes.»
-Ocho. Se modifica el apartado 2 del artículo 46, que queda redactado del modo
-siguiente:
-«2. El trabajador con al menos una antigüedad en la empresa de un año tiene
-derecho a que se le reconozca la posibilidad de situarse en excedencia voluntaria por
-un plazo no menor a cuatro meses y no mayor a cinco años. Este derecho sólo podrá
-LEGISLACIÓN CONSOLIDADA
-ser ejercitado otra vez por el mismo trabajador si han transcurrido cuatro años desde
-el final de la anterior excedencia.»
-Nueve. Se modifican los párrafos primero, segundo y tercero del apartado 3 del artículo
-46, que quedan redactados del modo siguiente:
-«Los trabajadores tendrán derecho a un período de excedencia de duración no
-superior a tres años para atender al cuidado de cada hijo, tanto cuando lo sea por
-naturaleza, como por adopción, o en los supuestos de acogimiento, tanto
-permanente como preadoptivo, aunque éstos sean provisionales, a contar desde la
-fecha de nacimiento o, en su caso, de la resolución judicial o administrativa.
-También tendrán derecho a un período de excedencia, de duración no superior a
-dos años, salvo que se establezca una duración mayor por negociación colectiva, los
-trabajadores para atender al cuidado de un familiar hasta el segundo grado de
-consanguinidad o afinidad, que por razones de edad, accidente, enfermedad o
-discapacidad no pueda valerse por sí mismo, y no desempeñe actividad retribuida.
-La excedencia contemplada en el presente apartado, cuyo periodo de duración
-podrá disfrutarse de forma fraccionada, constituye un derecho individual de los
-trabajadores, hombres o mujeres. No obstante, si dos o más trabajadores de la
-misma empresa generasen este derecho por el mismo sujeto causante, el
-empresario podrá limitar su ejercicio simultáneo por razones justificadas de
-funcionamiento de la empresa.»
-Diez. Se modifican los apartados 4 y 5 del artículo 48, quedando redactados en los
-siguientes términos:
-«4. En el supuesto de parto, la suspensión tendrá una duración de dieciséis
-semanas ininterrumpidas, ampliables en el supuesto de parto múltiple en dos
-semanas más por cada hijo a partir del segundo. El período de suspensión se
-distribuirá a opción de la interesada siempre que seis semanas sean inmediatamente
-posteriores al parto. En caso de fallecimiento de la madre, con independencia de que
-ésta realizara o no algún trabajo, el otro progenitor podrá hacer uso de la totalidad o,
-en su caso, de la parte que reste del período de suspensión, computado desde la
-fecha del parto, y sin que se descuente del mismo la parte que la madre hubiera
-podido disfrutar con anterioridad al parto. En el supuesto de fallecimiento del hijo, el
-período de suspensión no se verá reducido, salvo que, una vez finalizadas las seis
-semanas de descanso obligatorio, la madre solicitara reincorporarse a su puesto de
-trabajo.
-No obstante lo anterior, y sin perjuicio de las seis semanas inmediatamente
-posteriores al parto de descanso obligatorio para la madre, en el caso de que ambos
-progenitores trabajen, la madre, al iniciarse el período de descanso por maternidad,
-podrá optar por que el otro progenitor disfrute de una parte determinada e
-ininterrumpida del período de descanso posterior al parto bien de forma simultánea o
-sucesiva con el de la madre. El otro progenitor podrá seguir haciendo uso del período
-de suspensión por maternidad inicialmente cedido, aunque en el momento previsto
-para la reincorporación de la madre al trabajo ésta se encuentre en situación de
-incapacidad temporal.
-En el caso de que la madre no tuviese derecho a suspender su actividad
-profesional con derecho a prestaciones de acuerdo con las normas que regulen
-dicha actividad, el otro progenitor tendrá derecho a suspender su contrato de trabajo
-por el periodo que hubiera correspondido a la madre, lo que será compatible con el
-ejercicio del derecho reconocido en el artículo siguiente.
-En los casos de parto prematuro y en aquéllos en que, por cualquier otra causa,
-el neonato deba permanecer hospitalizado a continuación del parto, el período de
-suspensión podrá computarse, a instancia de la madre, o en su defecto, del otro
-progenitor, a partir de la fecha del alta hospitalaria. Se excluyen de dicho cómputo las
-seis semanas posteriores al parto, de suspensión obligatoria del contrato de la
-madre.
-En los casos de partos prematuros con falta de peso y aquellos otros en que el
-neonato precise, por alguna condición clínica, hospitalización a continuación del
-parto, por un período superior a siete días, el período de suspensión se ampliará en
-LEGISLACIÓN CONSOLIDADA
-tantos días como el nacido se encuentre hospitalizado, con un máximo de trece
-semanas adicionales, y en los términos en que reglamentariamente se desarrolle.
-En los supuestos de adopción y de acogimiento, de acuerdo con el artículo
-45.1.d) de esta Ley, la suspensión tendrá una duración de dieciséis semanas
-ininterrumpidas, ampliable en el supuesto de adopción o acogimiento múltiples en
-dos semanas por cada menor a partir del segundo. Dicha suspensión producirá sus
-efectos, a elección del trabajador, bien a partir de la resolución judicial por la que se
-constituye la adopción, bien a partir de la decisión administrativa o judicial de
-acogimiento, provisional o definitivo, sin que en ningún caso un mismo menor pueda
-dar derecho a varios períodos de suspensión.
-En caso de que ambos progenitores trabajen, el período de suspensión se
-distribuirá a opción de los interesados, que podrán disfrutarlo de forma simultánea o
-sucesiva, siempre con períodos ininterrumpidos y con los límites señalados.
-En los casos de disfrute simultáneo de períodos de descanso, la suma de los
-mismos no podrá exceder de las dieciséis semanas previstas en los párrafos
-anteriores o de las que correspondan en caso de parto, adopción o acogimiento
-múltiples.
-En el supuesto de discapacidad del hijo o del menor adoptado o acogido, la
-suspensión del contrato a que se refiere este apartado tendrá una duración adicional
-de dos semanas. En caso de que ambos progenitores trabajen, este período
-adicional se distribuirá a opción de los interesados, que podrán disfrutarlo de forma
-simultánea o sucesiva y siempre de forma ininterrumpida.
-Los períodos a los que se refiere el presente apartado podrán disfrutarse en
-régimen de jornada completa o a tiempo parcial, previo acuerdo entre los
-empresarios y los trabajadores afectados, en los términos que reglamentariamente
-se determinen.
-En los supuestos de adopción internacional, cuando sea necesario el
-desplazamiento previo de los progenitores al país de origen del adoptado, el período
-de suspensión, previsto para cada caso en el presente apartado, podrá iniciarse
-hasta cuatro semanas antes de la resolución por la que se constituye la adopción.
-Los trabajadores se beneficiarán de cualquier mejora en las condiciones de
-trabajo a la que hubieran podido tener derecho durante la suspensión del contrato en
-los supuestos a que se refiere este apartado, así como en los previstos en el
-siguiente apartado y en el artículo 48 bis.»
-«5. En el supuesto de riesgo durante el embarazo o de riesgo durante la
-lactancia natural, en los términos previstos en el artículo 26 de la Ley 31/1995, de 8
-de noviembre, de Prevención de Riesgos Laborales, la suspensión del contrato
-finalizará el día en que se inicie la suspensión del contrato por maternidad biológica o
-el lactante cumpla nueve meses, respectivamente, o, en ambos casos, cuando
-desaparezca la imposibilidad de la trabajadora de reincorporarse a su puesto anterior
-o a otro compatible con su estado.»
-Once. Se incluye un nuevo artículo 48 bis, con la siguiente redacción:
-«Artículo 48 bis. Suspensión del contrato de trabajo por paternidad.
-En los supuestos de nacimiento de hijo, adopción o acogimiento de acuerdo con
-el artículo 45.1.d) de esta Ley, el trabajador tendrá derecho a la suspensión del
-contrato durante trece días ininterrumpidos, ampliables en el supuesto de parto,
-adopción o acogimiento múltiples en dos días más por cada hijo a partir del segundo.
-Esta suspensión es independiente del disfrute compartido de los periodos de
-descanso por maternidad regulados en el artículo 48.4.
-En el supuesto de parto, la suspensión corresponde en exclusiva al otro
-progenitor. En los supuestos de adopción o acogimiento, este derecho corresponderá
-sólo a uno de los progenitores, a elección de los interesados; no obstante, cuando el
-período de descanso regulado en el artículo 48.4 sea disfrutado en su totalidad por
-uno de los progenitores, el derecho a la suspensión por paternidad únicamente podrá
-ser ejercido por el otro.
-LEGISLACIÓN CONSOLIDADA
-El trabajador que ejerza este derecho podrá hacerlo durante el periodo
-comprendido desde la finalización del permiso por nacimiento de hijo, previsto legal o
-convencionalmente, o desde la resolución judicial por la que se constituye la
-adopción o a partir de la decisión administrativa o judicial de acogimiento, hasta que
-finalice la suspensión del contrato regulada en el artículo 48.4 o inmediatamente
-después de la finalización de dicha suspensión.
-La suspensión del contrato a que se refiere este artículo podrá disfrutarse en
-régimen de jornada completa o en régimen de jornada parcial de un mínimo del 50
-por 100, previo acuerdo entre el empresario y el trabajador, y conforme se determine
-reglamentariamente.
-El trabajador deberá comunicar al empresario, con la debida antelación, el
-ejercicio de este derecho en los términos establecidos, en su caso, en los convenios
-colectivos.»
-Doce. Se modifica el apartado 4 del artículo 53 que queda redactado en los siguientes
-términos:
-«4. Cuando el empresario no cumpliese los requisitos establecidos en el
-apartado 1 de este artículo o la decisión extintiva del empresario tuviera como móvil
-algunas de las causas de discriminación prohibidas en la Constitución o en la Ley o
-bien se hubiera producido con violación de derechos fundamentales y libertades
-públicas del trabajador, la decisión extintiva será nula, debiendo la autoridad judicial
-hacer tal declaración de oficio. La no concesión del preaviso no anulará la extinción,
-si bien el empresario, con independencia de los demás efectos que procedan, estará
-obligado a abonar los salarios correspondientes a dicho periodo. La posterior
-observancia por el empresario de los requisitos incumplidos no constituirá, en ningún
-caso, subsanación del primitivo acto extintivo, sino un nuevo acuerdo de extinción
-con efectos desde su fecha.
-Será también nula la decisión extintiva en los siguientes supuestos:
-a) La de los trabajadores durante el período de suspensión del contrato de
-trabajo por maternidad, riesgo durante el embarazo, riesgo durante la lactancia
-natural, enfermedades causadas por embarazo, parto o lactancia natural, adopción o
-acogimiento o paternidad al que se refiere la letra d) del apartado 1 del artículo 45, o
-el notificado en una fecha tal que el plazo de preaviso concedido finalice dentro de
-dicho periodo.
-b) La de las trabajadoras embarazadas, desde la fecha de inicio del embarazo
-hasta el comienzo del periodo de suspensión a que se refiere la letra a), y la de los
-trabajadores que hayan solicitado uno de los permisos a los que se refieren los
-apartados 4, 4 bis y 5 del artículo 37, o estén disfrutando de ellos, o hayan solicitado
-o estén disfrutando la excedencia prevista en el apartado 3 del artículo 46; y la de las
-trabajadoras víctimas de violencia de género por el ejercicio de los derechos de
-reducción o reordenación de su tiempo de trabajo, de movilidad geográfica, de
-cambio de centro de trabajo o de suspensión de la relación laboral en los términos y
-condiciones reconocidos en esta Ley.
-c) La de los trabajadores después de haberse reintegrado al trabajo al finalizar
-los periodos de suspensión del contrato por maternidad, adopción o acogimiento o
-paternidad, siempre que no hubieran transcurrido más de nueve meses desde la
-fecha de nacimiento, adopción o acogimiento del hijo.
-Lo establecido en las letras anteriores será de aplicación, salvo que, en esos
-casos, se declare la procedencia de la decisión extintiva por motivos no relacionados
-con el embarazo o con el ejercicio del derecho a los permisos y excedencia
-señalados.»
-Trece. Se modifica la letra g) del apartado 2 del artículo 54, quedando redactado en los
-siguientes términos:
-«g) El acoso por razón de origen racial o étnico, religión o convicciones,
-discapacidad, edad u orientación sexual y el acoso sexual o por razón de sexo al
-empresario o a las personas que trabajan en la empresa.»
-LEGISLACIÓN CONSOLIDADA
-Catorce. Se modifica el apartado 5 del artículo 55, que queda redactado del siguiente
-modo:
-«Será nulo el despido que tenga por móvil alguna de las causas de
-discriminación prohibidas en la Constitución o en la Ley, o bien se produzca con
-violación de derechos fundamentales y libertades públicas del trabajador.
-Será también nulo el despido en los siguientes supuestos:
-a) El de los trabajadores durante el período de suspensión del contrato de trabajo
-por maternidad, riesgo durante el embarazo, riesgo durante la lactancia natural,
-enfermedades causadas por embarazo, parto o lactancia natural, adopción o
-acogimiento o paternidad al que se refiere la letra d) del apartado 1 del artículo 4
+2. Reglamentariamente, se establecerán su régimen de funcionamiento, competenc
