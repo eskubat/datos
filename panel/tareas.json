@@ -691,14 +691,15 @@
   "nota": "Añadida al plan de mejoras"
  },
  {
-  "id": "lacaixa-boe-2027",
-  "titulo": "Añadir el anuncio del BOE de las becas «la Caixa» 2027 (posgrado e INPhINIT) como documento de la convocatoria",
-  "detalle": "Las webs de la Fundación «la Caixa» bloquean al recolector con un desafío de Cloudflare. Cuando el BOE publique el anuncio de las convocatorias 2027 de Becas de posgrado en el extranjero y de doctorado INPhINIT (Incoming y Retaining) —en años anteriores salía en diciembre—, añadir su URL en cache/docs_extra.json a extra-fund-lacaixa-posgrado-extranjero-2027, extra-fund-lacaixa-inphinit-incoming-2027 y extra-fund-lacaixa-inphinit-retaining-2027 para que las fichas tengan plazo y datos de una fuente oficial que sí se puede leer.",
-  "seccion": "fuentes",
-  "prioridad": 38,
-  "fuente": "Plan de mejoras (17/11)",
+  "id": "araba-botha-asignacion-esal-turismo",
+  "titulo": "Corregir el BOTHA asignado a las inversiones turísticas de entidades sin ánimo de lucro de Álava",
+  "detalle": "cache/botha_araba.json asigna a ara-ayudas-para-hacer-frente-a-inversiones-turisticas-en-entidad el anuncio 2026-01163 del BOTHA 48/2026 (Orden Foral 213/2026), que es solo para pymes y autónomos del sector turístico (su artículo 3 no incluye entidades sin ánimo de lucro y su plazo no coincide con el de la sede). Revisar la búsqueda en los sumarios del BOTHA para que no asigne una orden de otra línea con título parecido, localizar la orden propia de entidades sin ánimo de lucro (probablemente BOTHA 41 o 42 de abril de 2026) y reabrir esa ficha.",
+  "fuente": "BOTHA (sumarios) / sede de Álava",
   "quien": "Claude",
+  "prioridad": 30,
   "estado": "pendiente",
-  "fecha": "2026-11-17"
+  "seccion": "fuentes",
+  "fecha": "2026-11-17",
+  "nota": "Añadida al plan de mejoras"
  }
 ]

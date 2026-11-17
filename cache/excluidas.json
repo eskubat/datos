@@ -473,5 +473,15 @@
   "parecidaA": "bdns-940546",
   "motivo": "Misma convocatoria audiovisual de la DFB que bdns-940546 (mismo decreto foral); esta trae además el BOB 216 con el plazo.",
   "fecha": "2026-11-17"
+ },
+ "ara-ayudas-inversiones-turisticas-en-cuadrillas-2026": {
+  "parecidaA": "ara-ayudas-para-hacer-frente-a-inversiones-turisticas-en-ayuntam",
+  "motivo": "Misma convocatoria de la DFA (Acuerdo 172/2026, BOTHA 39/2026: inversiones turísticas de cuadrillas y ayuntamientos alaveses) llegada por dos trámites de la sede: mismos gastos y 80 % del coste; solo cambian el solicitante y el tope (48.000 € cuadrillas; 28.000 € o 20.000 € ayuntamientos).",
+  "fecha": "2026-11-17"
+ },
+ "ara-ayudas-para-hacer-frente-a-inversiones-turisticas-en-ayuntam": {
+  "parecidaA": "ara-ayudas-inversiones-turisticas-en-cuadrillas-2026",
+  "motivo": "Misma convocatoria de la DFA (Acuerdo 172/2026, BOTHA 39/2026: inversiones turísticas de cuadrillas y ayuntamientos alaveses) llegada por dos trámites de la sede: mismos gastos y 80 % del coste; solo cambian el solicitante y el tope (48.000 € cuadrillas; 28.000 € o 20.000 € ayuntamientos).",
+  "fecha": "2026-11-17"
  }
 }
