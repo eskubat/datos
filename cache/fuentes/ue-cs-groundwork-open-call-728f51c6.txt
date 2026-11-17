@@ -1,0 +1,79 @@
+### Extracto de la fuente
+GroundWork Open Call
+Proyecto europeo que la convoca: Co-creating solutions for soil health in Living Labs
+Convocatoria en cascada (fondos europeos repartidos por un proyecto a terceros)
+Identificador: HORIZON-MISS-2024-SOIL-01-01
+Apertura: 2026-09-01
+Cierre: 2026-11-19
+es_SortDate: 2026-09-01T00:00:00.000+0000
+beneficiaryAdministration: GroundWork Open Call will be selecting Farms to join its Living Labs offering funding up to €27,000 per Farmand a tailored 36-month Experimentation Grazing Programme
+ Submission at : 
+ https://opportunities.getonepass.eu/open-opportunities/groundwork-farms/69fb4c418d7e7af96f68d354 
+ The deadline to submit applications is the 19th of November 2025 at 15:00 (Brussels Time)
+ Before filling in the Application Form, please read the Open Call Terms and Conditions carefully. 
+ Remember that you can edit your application after you submit it, before the deadline.
+ Questions marked with (*) are mandatory. You must answer these questions to submit your application. 
+ All questions must be answered in English. You can see the Application Form questions in any other language modifying your browser settings (translation). You must provide the answers in English, any online translator could be used for this, for example https://translate.google.com/ 
+ Who can apply? 
+ Farmers and individual entities engaged in farming activities (regardless of their legal form) located in the countries where Living Labs (LLs) are located (Portugal, Germany, Belgium, Sweden, Serbia). In special cases individual participants may also be registered in EU Member States and its Overseas Countries and Territories (OCT) and Horizon Europe Associated Countries outside the LLs area. This will need to be justified.
+ ELIGIBILITY CRITERIA 
+ Regardless of the specific Living Lab being applied for, all farming projects must meet the following fundamental requirements (plus the specific criteria of each Living Lab that can be found in the Terms&Conditions ):
+ Commitment Duration: The farmer must be willing to engage their field as an experimental site and adhere to the project's requirements for a continuous duration of three years.
+ Land Tenure and Stability: The applicant must either own the farm or hold a valid lease/rental agreement covering the entire duration of the project, with the assurance that the farm will remain in active agricultural operation throughout this period.
+ Livestock Integration: The farming entity must own and manage livestock (e.g., cattle, sheep, or goats) and incorporate them into their land use, such as through pasture-based husbandry or active grazing systems.
+ Implementation of RLGPs and Experimental Design: The farmer must demonstrate a clear interest and availability to implement Regenerative Livestock Grazing Practices (RLGPs) and follow holistic management principles. This includes adapting to experimental designs, such as dividing test fields into comparable treatment (grazed/regenerative) and control (non-grazed/conventional) areas to allow for accurate scientific assessment.Furthermore, as a core requirement of participation, selected farmers must commit to co-defining a 3-year technical and financial roadmap during the first month of the Programme, known as the Custom Farm Evolution Plan (CFEP). Developed in coordination with the assigned Living Lab Mentor, the CFEP will establish project budget, objectives, activity schedule, and deliverables, which will serve as the baseline for all subsequent performance reviews and grant disbursements.
+ Farm Size and Experimental Plots: The farm must engage in livestock grazing. Indicatively, the experimental plots dedicated to the project should range between 3 hectares (Ha) and 10 hectares (Ha) to ensure practical implementation and scalability.
+ Monitoring and Data Sharing: The farmer must be willing to fully implement the study protocol. This entails allowing soil quality and animal welfare assessments, accommodating the installation of IoT sensors on the farm, sharing historical farm data from prior to the project, and allowing all data generated during the project to be used for scientific publications.
+ Community Engagement and Peer Learning: The farmer must be available to host project events on their farm (such as field days) and actively participate in workshops, in-person events, webinars, and peer-to-peer learning activities to foster knowledge exchange within the LL network.
+ SELECTION PROCESS 
+ The selection of the Open Call proposals will be carried out in a three-step process:
+ Step 1. INITIAL CHECK. Will check the proposals against Eligibility Criteria.
+ Step 2. INDEPENDENT INDIVIDUAL EVALUATION. will involve experts’ evaluation to assess the proposal according to the criteria.
+ Step 3. CONSENSUS MEETING. When the Selection Committee will decide the “provisional list of FSTP recipients”.
+ Find more information in the Terms and Conditions. 
+ SELECTION CRITERIA 
+ (1). EXCELLENCE will evaluate the clarity, ambition, and relevance of the farm’s specific regenerative objectives, and how well they align with GroundWork’s core goal of integrating regenerative livestock grazing practices (RLGPs).
+ (2). IMPACT will analyse third parties' contribution to mission soil objectives, general environmental and climate impact. The applicants must demonstrate a clear understanding of the LL area/ regional area where the project will be developed, for ensuring the impact and capabilities to cover the region’s needs and challenges.
+ (3). IMPLEMENTATION will consider that project objectives are clearly defined and realistic and the project work plan is clear, complete, and effective. The applicants must demonstrate their management and leadership qualities, their ability to implement the GroundWork methodology, their capacity to carry through their ideas and understand the dynamics of the regenerative farming where they are trying to tap into and demonstrate the quality and effectiveness of the resources assigned in order to get the objectives/deliverables proposed.
+ Find more information in the Terms and Conditions.
+description: Our 3-year Regenerative Grazing Programme is designed to help farmers improve their farm's soil and environment by changing how their animals feed on the land (so-called "adaptive livestock management"). By joining this Regenerative Grazing Programme, farmers will become part of a local network of farmers and experts where they can share ideas, compare results, and learn from each other's experiences.
+ The overall objective of the Programme is to encourage Farmers to actively engage in regenerative farming , through simplicity, continuous guidance, access to finance & business consultation and data-driven communication.
+ The main activity expected from the Farming Projects is the implementation of Regenerative Livestock Grazing Practices based on regional farming realities and contexts.
+ Other activities:
+ Soil health assessment.
+ Pervasive soil health monitoring using sensors.
+ Animal welfare assessment.
+ Environmental performance assessment (Environmental Life Cycle Assessment￾ELCA).
+ Social impact assessment.
+ Sharing expertise, ideas exchange, and RLGPs co-design.
+ The Programme is divided into 3 main stages over the 36 months. Farmers will receive their grant in installments upon the successful completion of each stage.
+title: Co-creating solutions for soil health in Living Labs
+esST_checksum: 98449038925CC7AB84A2A10C79B7BC8C0FB55FC8EA09D637FBE5F98F2C1E860C
+duration: 36 MONTHS
+destinationDetails: GroundWork Open Call will be selecting Farms to join its Living Labs offering funding up to €27,000 per Farmand a tailored 36-month Experimentation Grazing Programme
+ Submission at : 
+ https://opportunities.getonepass.eu/open-opportunities/groundwork-farms/69fb4c418d7e7af96f68d354 
+ The deadline to submit applications is the 19th of November 2025 at 15:00 (Brussels Time)
+ Before filling in the Application Form, please read the Open Call Terms and Conditions carefully. 
+ Remember that you can edit your application after you submit it, before the deadline.
+ Questions marked with (*) are mandatory. You must answer these questions to submit your application. 
+ All questions must be answered in English. You can see the Application Form questions in any other language modifying your browser settings (translation). You must provide the answers in English, any online translator could be used for this, for example https://translate.google.com/ 
+ Who can apply? 
+ Farmers and individual entities engaged in farming activities (regardless of their legal form) located in the countries where Living Labs (LLs) are located (Portugal, Germany, Belgium, Sweden, Serbia). In special cases individual participants may also be registered in EU Member States and its Overseas Countries and Territories (OCT) and Horizon Europe Associated Countries outside the LLs area. This will need to be justified.
+ ELIGIBILITY CRITERIA 
+ Regardless of the specific Living Lab being applied for, all farming projects must meet the following fundamental requirements (plus the specific criteria of each Living Lab that can be found in the Terms&Conditions ):
+ Commitment Duration: The farmer must be willing to engage their field as an experimental site and adhere to the project's requirements for a continuous duration of three years.
+ Land Tenure and Stability: The applicant must either own the farm or hold a valid lease/rental agreement covering the entire duration of the project, with the assurance that the farm will remain in active agricultural operation throughout this period.
+ Livestock Integration: The farming entity must own and manage livestock (e.g., cattle, sheep, or goats) and incorporate them into their land use, such as through pasture-based husbandry or active grazing systems.
+ Implementation of RLGPs and Experimental Design: The farmer must demonstrate a clear interest and availability to implement Regenerative Livestock Grazing Practices (RLGPs) and follow holistic management principles. This includes adapting to experimental designs, such as dividing test fields into comparable treatment (grazed/regenerative) and control (non-grazed/conventional) areas to allow for accurate scientific assessment.Furthermore, as a core requirement of participation, selected farmers must commit to co-defining a 3-year technical and financial roadmap during the first month of the Programme, known as the Custom Farm Evolution Plan (CFEP). Developed in coordination with the assigned Living Lab Mentor, the CFEP will establish project budget, objectives, activity schedule, and deliverables, which will serve as the baseline for all subsequent performance reviews and grant disbursements.
+ Farm Size and Experimental Plots: The farm must engage in livestock grazing. Indicatively, the experimental plots dedicated to the project should range between 3 hectares (Ha) and 10 hectares (Ha) to ensure practical implementation and scalability.
+ Monitoring and Data Sharing: The farmer must be willing to fully implement the study protocol. This entails allowing soil quality and animal welfare assessments, accommodating the installation of IoT sensors on the farm, sharing historical farm data from prior to the project, and allowing all data generated during the project to be used for scientific publications.
+ Community Engagement and Peer Learning: The farmer must be available to host project events on their farm (such as field days) and actively participate in workshops, in-person events, webinars, and peer-to-peer learning activities to foster knowledge exchange within the LL network.
+ SELECTION PROCESS 
+ The selection of the Open Call proposals will be carried out in a three-step process:
+ Step 1. INITIAL CHECK. Will check the proposals against Eligibility Criteria.
+ Step 2. INDEPENDENT INDIVIDUAL EVALUATION. will involve experts’ evaluation to assess the proposal according to the criteria.
+ Step 3. CONSENSUS MEETING. When the Selection Committee will decide the “provisional list of FSTP recipients”.
+ Find more information in the Terms and Conditions. 
+ SELECTION CRITERIA 
+ (1). EXCELLENCE will evaluate the clarity, ambition, and relevance of the farm’s specific regenerative objectives, and how well they align with Gro

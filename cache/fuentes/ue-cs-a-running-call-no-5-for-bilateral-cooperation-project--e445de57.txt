@@ -1,0 +1,58 @@
+### Extracto de la fuente
+A running call No. 5 for bilateral cooperation project proposals
+Proyecto europeo que la convoca: Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)
+Convocatoria en cascada (fondos europeos repartidos por un proyecto a terceros)
+Identificador: CERV-2024-CITIZENS-VALUES
+Apertura: 2025-12-17
+Cierre: 2027-02-01
+es_SortDate: 2025-12-17T00:00:00.000+0000
+beneficiaryAdministration: The objective of the call is to establish, develop, and/or improve cooperation between Lithuanian NGOs and advocacy-focused civil society organisations in other EU member states, strengthen organisational capacities, and promote collaboration in the field of advocacy, while upholding EU values. Expected impact includes new and strengthened cross-border partnerships, enhanced advocacy skills, increased mutual learning, and improved public understanding of EU values, including equality and the rights of persons belonging to minorities.
+ Applications can e submitted in a single-stage procedure at any time starting on the date of call publication until January 31, 2027. All proposals first undergo administrative eligibility checks carried out by the Open Lithuania Foundation (OLF). Eligible applications are then assessed by two independent experts according to predefined quality criteria; if their scores differ by more than 30 points, a third expert is appointed. Following expert assessments, the two closest-scoring experts agree on a consolidated evaluation. The Selection Committee reviews the expert conclusions, may propose budgets adjustments, and approves the list of projects recommended for funding. Applications that fail to reach the minimum required scores or are not in compliance with EU values are excluded from further consideration.
+ A total of 20 projects will be awarded grants of up to EUR 5,000 each within the maximum threshold allowed for financial support to third parties. Projects may last up to 6 months and will receive lump-sum funding paid in two instalments: 80% upon signing the grant agreement and 20% after the approval of final project reports. 
+ Eligibility requirements for applicants: 
+ The applicant is a legal entity registered in the Republic of Lithuania for at least one year prior to the announcement of the rolling call, i.e., no later than 16 December 2024.
+ The applicant carries out activities in Lithuania.
+ The applicant is an NGO established and operating in the Republic of Lithuania that meets the following definition “A non-profit voluntary organisation established as a legal entity, having a non-commercial purpose, independent of local, regional, and central government, public entities, political parties, and commercial organisations.” Religious institutions, trade unions, and political parties are not considered NGOs (definition in line with Article 2.3 of the Law on the Development of Non-Governmental Organizations).
+ The applicant’s activities do not conflict with EU values and actively contribute (or seek to contribute) to the promotion of EU values.
+ The applicant has submitted mandatory financial and annual activity reports to the National Center of Registers for the last two years (2023 and 2024), or financial and annual activity reports from the start of its activities if it has been operating for less than three years. Applicants applying after 1 June 2026 must have submitted mandatory financial and annual activity reports for 2024 and 2025.
+ The Open Lithuania Foundation is not a shareholder of the applicant.
+ NGOs already participating in the VERTA! Programme (Phase II, 2025–2027) are eligible only if the total cumulative budget of all their applications under the programme, including the amount requested in this call, does not exceed EUR 60,000.
+ The applicant has not implemented any other bilateral cooperation project under the VERTA! Programme financed from the funds of this call.
+ Eligibility requirements for partners: 
+ The partner must be a non-governmental organization established and operating as a legal entity in one of the European Union Member States, excluding Lithuania;
+ The partner conducts advocacy activities in the field of EU values and has at least two years of advocacy experience;
+ Prior to submitting the application, the applicant and the partner have concluded and signed a letter of intent to cooperate or another type of partnership agreement defining the division of responsibilities.
+ Further information, including a detailed description of the call procedure and the full eligibility criteria can be found here (in Lithuanian): Kvietimas dvišalio bendradarbiavimo projektams finansuoti - ALF
+title: Call for proposals for civil society organisations active on protecting and promoting Union values: call to intermediaries (giving financial support to third parties)
+esST_checksum: 81DB6303D532633429C27E6082665E017BF93BE31D75CB0BAB49D1A98B15DADE
+duration: 6 months
+destinationDetails: The objective of the call is to establish, develop, and/or improve cooperation between Lithuanian NGOs and advocacy-focused civil society organisations in other EU member states, strengthen organisational capacities, and promote collaboration in the field of advocacy, while upholding EU values. Expected impact includes new and strengthened cross-border partnerships, enhanced advocacy skills, increased mutual learning, and improved public understanding of EU values, including equality and the rights of persons belonging to minorities.
+ Applications can e submitted in a single-stage procedure at any time starting on the date of call publication until January 31, 2027. All proposals first undergo administrative eligibility checks carried out by the Open Lithuania Foundation (OLF). Eligible applications are then assessed by two independent experts according to predefined quality criteria; if their scores differ by more than 30 points, a third expert is appointed. Following expert assessments, the two closest-scoring experts agree on a consolidated evaluation. The Selection Committee reviews the expert conclusions, may propose budgets adjustments, and approves the list of projects recommended for funding. Applications that fail to reach the minimum required scores or are not in compliance with EU values are excluded from further consideration.
+ A total of 20 projects will be awarded grants of up to EUR 5,000 each within the maximum threshold allowed for financial support to third parties. Projects may last up to 6 months and will receive lump-sum funding paid in two instalments: 80% upon signing the grant agreement and 20% after the approval of final project reports. 
+ Eligibility requirements for applicants: 
+ The applicant is a legal entity registered in the Republic of Lithuania for at least one year prior to the announcement of the rolling call, i.e., no later than 16 December 2024.
+ The applicant carries out activities in Lithuania.
+ The applicant is an NGO established and operating in the Republic of Lithuania that meets the following definition “A non-profit voluntary organisation established as a legal entity, having a non-commercial purpose, independent of local, regional, and central government, public entities, political parties, and commercial organisations.” Religious institutions, trade unions, and political parties are not considered NGOs (definition in line with Article 2.3 of the Law on the Development of Non-Governmental Organizations).
+ The applicant’s activities do not conflict with EU values and actively contribute (or seek to contribute) to the promotion of EU values.
+ The applicant has submitted mandatory financial and annual activity reports to the National Center of Registers for the last two years (2023 and 2024), or financial and annual activity reports from the start of its activities if it has been operating for less than three years. Applicants applying after 1 June 2026 must have submitted mandatory financial and annual activity reports for 2024 and 2025.
+ The Open Lithuania Foundation is not a shareholder of the applicant.
+ NGOs already participating in the VERTA! Programme (Phase II, 2025–2027) are eligible only if the total cumulative budget of all their applications under the programme, including the amount requested in this call, does not exceed EUR 60,000.
+ The applicant has not implemented any other bilateral cooperation project under the VERTA! Programme financed from the funds of this call.
+ Eligibility requirements for partners: 
+ The partner must be a non-governmental organization established and operating as a legal entity in one of the European Union Member States, excluding Lithuania;
+ The partner conducts advocacy activities in the field of EU values and has at least two years of advocacy experience;
+ Prior to submitting the application, the applicant and the partner have concluded and signed a letter of intent to cooperate or another type of partnership agreement defining the division of responsibilities.
+ Further information, including a detailed description of the call procedure and the full eligibility criteria can be found here (in Lithuanian): Kvietimas dvišalio bendradarbiavimo projektams finansuoti - ALF
+esST_FileName: file.txt
+projectAcronym: CERV 2024
+callTitle: A running call No. 5 for bilateral cooperation project proposals
+furtherInformation: Further information, including a detailed description of the call procedure, can be found here (in Lithuanian): Kvietimas dvišalio bendradarbiavimo projektams finansuoti - ALF 
+ Online information seminars about this call will be held on January 21, 2026 and in September, 2026.
+caName: A running call No. 5 for bilateral cooperation project proposals
+es_ContentType: text/plain
+esDA_FirstIngestDate: 2025-12-19T12:36:16.029+0100
+esDA_IngestDate: 2026-05-19T13:56:09.216+0200
+closingDate: 2026-05-19T00:00:00Z
+esST_URL: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46357639
+esDA_QueueDate: 2026-05-19T13:56:09.200+0200
+projectName: Support for EU values through Civic Participation

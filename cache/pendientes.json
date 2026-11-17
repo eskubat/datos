@@ -9,6 +9,15 @@
   "caracteres": 209454
  },
  {
+  "id": "ue-cs-groundwork-open-call",
+  "h": "ff00ef829a98a228",
+  "titulo": "GroundWork Open Call",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-groundwork-open-call-728f51c6.txt",
+  "caracteres": 12297
+ },
+ {
   "id": "bdns-938955",
   "h": "17c381b7c1a1ed26",
   "titulo": "Subvenciones destinadas a los gastos de mantenimiento de ascensores comunitarios o zonales en régimen de evaluación individualizada",
@@ -25,6 +34,15 @@
   "organismoFuente": "Ayuntamiento de Eibar",
   "archivo": "cache/fuentes/bog-c2607197-htm-2ac5e2bf.txt",
   "caracteres": 2019
+ },
+ {
+  "id": "ue-cs-comprehensive-and-inclusive-support-for-women-and-girls-victims-of-gbv",
+  "h": "bb79a9ddfa105896",
+  "titulo": "Comprehensive and inclusive support for women and girls' victims of GBV",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-comprehensive-and-inclusive-support-for-women-and-girl-05a604a5.txt",
+  "caracteres": 9472
  },
  {
   "id": "bdns-938576",
@@ -54,22 +72,13 @@
   "caracteres": 5593
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
-  "h": "40b562d93f954fa5",
-  "titulo": "Rising Innovators category",
+  "id": "ue-cs-renew-booster-eurocluster-call-n-2-for-financial-support-to-third-parties",
+  "h": "4dcb99ebe7e4f9c3",
+  "titulo": "Renew-booster eurocluster CALL N°2 FOR financial support TO third parties",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
-  "caracteres": 12248
- },
- {
-  "id": "ue-horizon-eit-2026-prize-wip-leadership",
-  "h": "15aa8d5b5b10edef",
-  "titulo": "Women Leadership Category",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eit-2026-prize-wip-leadership-00ee7b4c.txt",
-  "caracteres": 12241
+  "archivo": "cache/fuentes/ue-cs-renew-booster-eurocluster-call-n-2-for-financial-suppo-2de42068.txt",
+  "caracteres": 10751
  },
  {
   "id": "ue-horizon-eic-2026-prize-wip",
@@ -81,6 +90,42 @@
   "caracteres": 12244
  },
  {
+  "id": "ue-horizon-eit-2026-prize-wip-leadership",
+  "h": "15aa8d5b5b10edef",
+  "titulo": "Women Leadership Category",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-horizon-eit-2026-prize-wip-leadership-00ee7b4c.txt",
+  "caracteres": 12241
+ },
+ {
+  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
+  "h": "40b562d93f954fa5",
+  "titulo": "Rising Innovators category",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
+  "caracteres": 12248
+ },
+ {
+  "id": "ue-cs-ai4ci-fee-waivers-for-ulm-university",
+  "h": "c30d72cd65b49ea2",
+  "titulo": "AI4CI - Fee waivers for Ulm University",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-ai4ci-fee-waivers-for-ulm-university-aa6e56a1.txt",
+  "caracteres": 12338
+ },
+ {
+  "id": "ue-cs-european-partnership-on-innovative-smes-innowwide-call-5",
+  "h": "51d6224f640b7f72",
+  "titulo": "European Partnership on Innovative SMEs/Innowwide CALL 5",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-european-partnership-on-innovative-smes-innowwide-call-6ca99624.txt",
+  "caracteres": 12324
+ },
+ {
   "id": "bob-bob-2026a219-ii-6013-",
   "h": "1c3c0ab2ed5fa248",
   "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -88,6 +133,24 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
   "caracteres": 5840
+ },
+ {
+  "id": "ue-cs-woodstock-grants-to-support-climate-smart-wood-construction-solutions",
+  "h": "f1a286ce2bd70c9d",
+  "titulo": "WoodStock Grants to support climate-smart wood construction solutions",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-woodstock-grants-to-support-climate-smart-wood-constru-5db216db.txt",
+  "caracteres": 12383
+ },
+ {
+  "id": "ue-cs-european-city-facility-eighth-call-for-applications-support-local-authorities-in",
+  "h": "73d4a05f85dead80",
+  "titulo": "European City Facility – Eighth Call for Applications",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-european-city-facility-eighth-call-for-applications-su-23eafaed.txt",
+  "caracteres": 2841
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -225,13 +288,40 @@
   "caracteres": 214972
  },
  {
-  "id": "ue-crea-media-2027-tvonline-2",
-  "h": "2bb80164abe11ee5",
-  "titulo": "TV and online content Documentary projects",
+  "id": "ue-cs-d-storm-fstp-call-1-loitering-munitions-ucas-use-cases-scenarios-and-conops",
+  "h": "565f475ebe83b4ce",
+  "titulo": "D-storm FSTP Call 1 - Loitering Munitions & UCAS: Use Cases, Scenarios and conops",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
-  "caracteres": 6324
+  "archivo": "cache/fuentes/ue-cs-d-storm-fstp-call-1-loitering-munitions-ucas-use-cases-05631b90.txt",
+  "caracteres": 2945
+ },
+ {
+  "id": "ue-cs-women-techeu-open-call",
+  "h": "40e5ebcc2a001803",
+  "titulo": "Women TechEU Open Call",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-women-techeu-open-call-3f76f8eb.txt",
+  "caracteres": 12269
+ },
+ {
+  "id": "ue-cs-first-open-call",
+  "h": "7e9593ba1e0de0b3",
+  "titulo": "First Open Call",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-first-open-call-4b88d247.txt",
+  "caracteres": 3071
+ },
+ {
+  "id": "ue-cs-a-running-call-no-5-for-bilateral-cooperation-project-proposals",
+  "h": "066f6edb35b0d0fd",
+  "titulo": "A running call No. 5 for bilateral cooperation project proposals",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-a-running-call-no-5-for-bilateral-cooperation-project--e445de57.txt",
+  "caracteres": 10163
  },
  {
   "id": "ue-crea-media-2027-tvonline-1",
@@ -250,6 +340,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
   "caracteres": 6320
+ },
+ {
+  "id": "ue-crea-media-2027-tvonline-2",
+  "h": "2bb80164abe11ee5",
+  "titulo": "TV and online content Documentary projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
+  "caracteres": 6324
  },
  {
   "id": "ara-solicitar-subvenciones-para-intervenciones-de-conservacion-y-1c431c",
@@ -324,6 +423,33 @@
   "caracteres": 37231
  },
  {
+  "id": "ue-cs-r-i-policy-support-for-enlargement-countries",
+  "h": "5bf0782e40e04bcb",
+  "titulo": "R&I Policy Support for Enlargement Countries",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-r-i-policy-support-for-enlargement-countries-ef98f713.txt",
+  "caracteres": 9652
+ },
+ {
+  "id": "ue-cs-resist-ii-process-innovation-open-call",
+  "h": "b40050bc3e34dc61",
+  "titulo": "Resist II process innovation OPEN CALL",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-resist-ii-process-innovation-open-call-3fffea60.txt",
+  "caracteres": 4954
+ },
+ {
+  "id": "ue-cs-resist-ii-product-innovation-open-call",
+  "h": "f09824129f1f3b5a",
+  "titulo": "Resist II product innovation OPEN CALL",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-resist-ii-product-innovation-open-call-385d00a0.txt",
+  "caracteres": 4876
+ },
+ {
   "id": "ara-01122001",
   "h": "520e997ea5e23a4d",
   "titulo": "Ayudas forestales",
@@ -331,6 +457,24 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01122001-45db4edd.txt",
   "caracteres": 3261
+ },
+ {
+  "id": "ue-cs-emergency-response-microgrants-for-ecosystem-development",
+  "h": "56bdbef1b7f768d7",
+  "titulo": "Emergency Response - Microgrants for Ecosystem Development",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-emergency-response-microgrants-for-ecosystem-developme-d232b3a9.txt",
+  "caracteres": 12323
+ },
+ {
+  "id": "ue-cs-efcsn-permanent-call-for-protection-grants",
+  "h": "f2ac803cd2086355",
+  "titulo": "Efcsn Permanent Call for Protection Grants",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-efcsn-permanent-call-for-protection-grants-8b8862d0.txt",
+  "caracteres": 12307
  },
  {
   "id": "bdns-941154",

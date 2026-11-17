@@ -1,0 +1,69 @@
+### Extracto de la fuente
+R&I Policy Support for Enlargement Countries
+Proyecto europeo que la convoca: Support for R&I policy making in the EU enlargement countries
+Convocatoria en cascada (fondos europeos repartidos por un proyecto a terceros)
+Identificador: HORIZON-WIDERA-2025-04-ACCESS-01
+Apertura: 2026-09-09
+Cierre: 2027-05-05
+es_SortDate: 2026-09-09T00:00:00.000+0000
+beneficiaryAdministration: Submit your proposal via our online form https://opportunities.getonepass.eu/opportunities/policy-enlarge before the relevant Cut-off Date.
+ Your application must be in English, and all mandatory sections must be completed.
+ Proposals cannot be modified after submission.
+ Multiple submissions for the same Funding Instrument and the same Cut-off Date are not permitted. If the same entity submits more than one proposal for the same Funding Instrument and Cut-off Date, only the most recently submitted proposal will be taken into consideration.
+ Each third party may benefit from no more than one POLICY ENLARGE Funding Instrument/Grant throughout the entire Open Call, irrespective of the Funding Instrument or Cut-off Date.
+ If the same third party is included in more than one proposal selected for funding, only the highest-scoring proposal involving that third party will be considered for funding. The other proposal(s) may be replaced by the next-ranked eligible proposal(s), in accordance with the ranking list.
+ If a third party has already received POLICY ENLARGE funding under a previous Cut-off Date, any subsequent proposal involving the same third party as a funded participant shall be considered ineligible for funding.
+ We will support up to 45 Projects in this Open Call: 
+ up to 15 projects under the Small Grants for Joint Regional Innovation Actions, 
+ up to 10 projects under the Small Grants for Collaborative Uptake of Results, and 
+ up to 20 mobility grants under the Small Grants for People-to-People Cooperation Projects. 
+ The total budget available for this Open Call is EUR 300,000. 
+ POLICY ENLARGE expects to select an indicative number of proposals under each Cut-off Date (up to 4 under Funding Instrument #1, up to 3 under Funding Instrument #2, and up to 5 under Funding Instrument #3).
+ The project aims to select at least 1 Project per enlargement country. However, the final number of selected proposals, the distribution across countries, and the Cut-off Dates themselves may be flexibly adjusted based on the quantity and quality of applications and available budget. Any unused budget or places will be transferred to subsequent Cut-off Dates.
+description: All details of the open call can be found in the POLICY ENLARGE Open Call Terms and Conditions (also Terms or Guide) here https://opportunities.getonepass.eu/opportunities/policy-enlarge . This document outlines the rules for participation in the POLICY ENLARGE Open Call, including eligibility criteria, maximum grant amount, timeline, submission rules, and the evaluation process.
+ Please take a moment to read this document carefully to understand the requirements and process. For any questions, please contact us at 
+ policyenlarge.help@fundingbox.com . 
+ Good luck!
+title: Support for R&I policy making in the EU enlargement countries
+esST_checksum: 1294657F32ECE8FD5DB5E34E866B1879FDDFD0365DFE4939C5970860B0C71A6A
+duration: 6 months
+destinationDetails: Submit your proposal via our online form https://opportunities.getonepass.eu/opportunities/policy-enlarge before the relevant Cut-off Date.
+ Your application must be in English, and all mandatory sections must be completed.
+ Proposals cannot be modified after submission.
+ Multiple submissions for the same Funding Instrument and the same Cut-off Date are not permitted. If the same entity submits more than one proposal for the same Funding Instrument and Cut-off Date, only the most recently submitted proposal will be taken into consideration.
+ Each third party may benefit from no more than one POLICY ENLARGE Funding Instrument/Grant throughout the entire Open Call, irrespective of the Funding Instrument or Cut-off Date.
+ If the same third party is included in more than one proposal selected for funding, only the highest-scoring proposal involving that third party will be considered for funding. The other proposal(s) may be replaced by the next-ranked eligible proposal(s), in accordance with the ranking list.
+ If a third party has already received POLICY ENLARGE funding under a previous Cut-off Date, any subsequent proposal involving the same third party as a funded participant shall be considered ineligible for funding.
+ We will support up to 45 Projects in this Open Call: 
+ up to 15 projects under the Small Grants for Joint Regional Innovation Actions, 
+ up to 10 projects under the Small Grants for Collaborative Uptake of Results, and 
+ up to 20 mobility grants under the Small Grants for People-to-People Cooperation Projects. 
+ The total budget available for this Open Call is EUR 300,000. 
+ POLICY ENLARGE expects to select an indicative number of proposals under each Cut-off Date (up to 4 under Funding Instrument #1, up to 3 under Funding Instrument #2, and up to 5 under Funding Instrument #3).
+ The project aims to select at least 1 Project per enlargement country. However, the final number of selected proposals, the distribution across countries, and the Cut-off Dates themselves may be flexibly adjusted based on the quantity and quality of applications and available budget. Any unused budget or places will be transferred to subsequent Cut-off Dates.
+esST_FileName: file.txt
+projectAcronym: POLICY ENLARGE
+callTitle: R&I Policy Support for Enlargement Countries
+furtherInformation: The following types of activities can be funded:
+ Small grants supporting the development of collaborative R&I projects, accessing EU funding opportunities, strengthening R&I management and technology transfer capacities, and contributing to evidence-based policy reforms and digital and green transformation.
+ Small Grants for Collaborative Uptake of Results: small grants aimed at implementing joint activities to support R&I, regulatory, or societal uptake of results.
+ Small Grants for People-to-People Cooperation Projects: small grants aimed at implementing people-to-people cooperation projects with and within enlargement countries.
+ For Funding Instrument #1: Small Grants for Joint Regional Innovation Actions and Funding Instrument #2: Small Grants for Collaborative Uptake of Results : consortia including at least two independent legal entities, each established in a different enlargement country. The participating entities can be Companies, Research Organisations and Academia Research Groups, Non-profit entities, Digital Innovation Hubs /European Digital Innovation Hubs, and other relevant R&I actors.
+ For Funding Instrument #3: Small Grants for People-to-People Cooperation Projects : consortia including participation of Researchers, Artists, or Entrepreneurs - affiliated with independent legal entities, established either in different Enlargement Countries or in an Enlargement Country and an EU Member State.
+ Secondees, i.e. applicants for the mobility programme, must be citizens of an eligible enlargement country or hold a permanent residence permit in an enlargement country.
+ To be eligible, applicants shall be based in the Enlargement Countries, which are Albania, Bosnia and Herzegovina, Georgia, Kosovo*, Moldova, Montenegro, North Macedonia, Serbia, Türkiye, and Ukraine.
+ In the case of Funding Instrument #3: Small Grants for People-to-People Cooperation Projects, the hosting entity can also be from any EU Member State and its Overseas Countries and Territories (OCT) or Horizon Europe Associated Country.
+ POLICY ENLARGE partners and their affiliated entities can NOT be involved in the Financial Support to Third Parties recipients’ projects nor their employees and associates, including persons working under employment contract or contract equal or similar to employment contract and board members. Former employees and associates shall also be excluded if they were involved in the project execution at any stage.
+ Applicants under EU restrictive measures are ineligible:
+ Following the Council Implementing Decision (EU) 2022/2506, as of 16 December 2022, no legal commitments can be signed with Hungarian public interest trusts established under Hungarian Act IX of 2021 or any entity they maintain.
+ Other restrictive measures:
+ Since June 2024, the European Commission has suspended financial bilateral assistance directly benefiting Georgian authorities until further notice. As the EU continues to fund programmes directly benefiting Georgian citizens and has increased support to civil society and independent media, the project will support Georgian researchers. Regulation (EU) 2021/947, in particular Articles 3, 8, 19, 20, and 25 et seq., in conjunction with Financial Regulation (EU, Euratom) 2024/2509 and the relevant Commission implementing decisions establishing or amending assistance programs for Georgia.
+ * This designation is without prejudice to positions on status and is in line with UNSCR 1244/1999 and the ICJ Opinion on the Kosovo declaration of independence
+caName: R&I Policy Support for Enlargement Countries
+es_ContentType: text/plain
+esDA_FirstIngestDate: 2026-08-11T13:33:10.628+0200
+esDA_IngestDate: 2026-08-11T13:33:10.628+0200
+closingDate: 2026-08-11T00:00:00Z
+esST_URL: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48351428
+esDA_QueueDate: 2026-08-11T13:33:10.622+0200
+projectName: R&I POLICY support for ENLARGEment countries

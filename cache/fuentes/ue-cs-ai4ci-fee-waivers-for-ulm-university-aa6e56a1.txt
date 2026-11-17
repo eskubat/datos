@@ -1,0 +1,175 @@
+### Extracto de la fuente
+AI4CI - Fee waivers for Ulm University
+Proyecto europeo que la convoca: Specialised education programmes or modules in key capacity areas
+Convocatoria en cascada (fondos europeos repartidos por un proyecto a terceros)
+Identificador: DIGITAL-2022-SKILLS-03-SPECIALISED-EDU
+Apertura: 2026-10-01
+Cierre: 2026-12-01
+es_SortDate: 2026-10-01T00:00:00.000+0000
+beneficiaryAdministration: 1. Aim, Project, Background and Objective 
+ The AI4CI project, co-funded by the European Union under Grant Agreement No. 101123524, provides financial support to students enrolled in the continuing education master’s programme “Artificial Intelligence for Connected Industries” at Ulm University (UUlm), Germany.
+ The objective of this call is to increase accessibility to advanced digital skills education, support up- and reskilling of professionals, and promote diversity and inclusion in computer science education.
+ Within this call, up to 80 fee waivers (with a total amount of max. 80.000 EUR), for individual modules in winter term 2026-2027 (October 2026-March 2027) will be awarded.
+ A fee waiver covers 80 % of the tuition fee of a module in the AI4CI programme. The module fees range from 585 to 1800 Euros. depending on module size in ECTS and specific characteristics of modules (e.g. inclusion of lab times or high amount of tutoring). Fee waivers therefore range between 468 and 1440 Euros.
+ Fee waivers apply only to modules taken in the semester for which the waiver is granted.
+ Applicants may apply for fee waivers for multiple modules, provided they are enrolled in these modules.
+ 2. Eligibility 
+ Applicants must fulfil all the following criteria:
+ 1. Be a citizen of an EU Member State, an EEA country, or a country associated with the Digital Europe Programme ( https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/digital/guidance/list-3rd-country-participation_digital_en.pdf ),
+ 2. Be admitted and enrolled in the master’s programme Artificial Intelligence for Connected Industries at Ulm University.
+ 3. Be registered as a student of the programme in winter semester 2026/2027.
+ 4. Apply only for modules that
+ a. are part of the AI4CI curriculum and
+ b. can still be credited toward the final grade and degree.
+ 5. A fee waiver may be granted only once per module per student.
+ 3. Scope of the Support 
+ A maximum of 80 module fee waivers will be awarded in this call.
+ Each fee waiver reduces the tuition fee of the respective module by 80 %.
+ Fee waivers apply only to the semester in which the module is taken.
+ Students may receive multiple fee waivers, provided they apply for different modules and ranking positions allow it.
+ 4. Application Procedure 
+ 4.1 Call Announcement 
+ By 1 October, all admitted students will receive information about:
+ the availability of fee waivers,
+ the eligibility requirements,
+ the application procedure,
+ and the application deadline.
+ 4.2 Application Deadline 
+ Applications must be submitted by 1 December 2026.
+ Applicants must submit:
+ a completed application form indicating
+ other modules they will attend in winter semester 2026-2027, and
+ other modules for which a fee waiver is requested.
+ proof of nationality.
+ consent allowing the programme administration to access relevant student data in the HIS student administration system and the App4Master admission system.
+ Applicants may additionally submit supporting documentation relevant to diversity criteria described in Section 7.
+ 5. Evaluation Procedure 
+ Applications will be evaluated by the Study Programme Committee of the AI4CI programme at Ulm University and the corresponding talent scouting team.
+ The evaluation will take place within 10 working days after the application deadline.
+ Each module application is evaluated independently.
+ Applications will be ranked according to the evaluation criteria defined in Section 6 and the tie-breaking and diversity considerations criteria in section 7.
+ The highest-ranked module applications will receive a fee waiver.
+ All remaining eligible applications will be placed on a reserve list.
+ Applicants will be informed about the outcome within five working days after the evaluation.
+ 6. Evaluation Criteria 
+ The fee waiver scheme supports up- and reskilling in advanced AI competencies.
+ Applications are evaluated based on the curriculum category of the module.
+ Points are assigned as follows:
+ Module Area 
+ Points 
+ A2 Mandatory Area – Artificial Intelligence
+ 3
+ B1 Systems and Networks
+ 2
+ B2 Automatics and Robotics
+ 2
+ B3 Processes and Data Management
+ 2
+ B4 Free Elective Module
+ 1
+ All module areas are defined in the Subject-Specific Study and Examination Regulations of the AI4CI programme (10 June 2025) and its additional documents.
+ The maximum score per module application is 3 points.
+ 7. Tie-Breaking and Diversity Considerations 
+ If multiple applications receive the same score, the following criteria will be applied sequentially to determine priority:
+ Women and gender minorities
+ Applicants with disabilities
+ Applicants with family responsibilities or caregiving duties
+ Supporting documentation may be provided during the application process.
+ If applications remain tied after applying the above criteria, the final ranking will be determined by random draw conducted by the study programme committee and the talent scouting team.
+ 8. Award and Implementation of the Fee Waiver 
+ Students selected for a fee waiver will receive an updated tuition fee notice reflecting the 80 % reduction for the respective module.
+ Receiving a fee waiver does not prevent students from applying for other scholarships, unless the conditions of those programmes prohibit it.
+ However, double funding from EU sources for the same purpose is not permitted.
+ If a student receives additional funding, the student must provide a written declaration confirming the absence of EU double funding.
+ If double funding is identified, the fee waiver may be reduced or withdrawn.
+ 9. Appeals 
+ Applicants may submit an appeal only in cases of procedural errors or factual inaccuracies in the evaluation.
+ Appeals must:
+ be submitted in writing within five working days after notification of the results;
+ clearly indicate the alleged procedural error or incorrect data.
+ The study programme committee will review the appeal and provide a decision within 10 working days.
+ 10. Termination of the Fee Waiver 
+ The fee waiver may be withdrawn if the student:
+ withdraws from the programme,
+ takes academic leave,
+ transfers to another study programme,
+ or violates academic integrity or ethical standards.
+ Students may voluntarily withdraw from the fee waiver by submitting a written request.
+ Unused funding may be reallocated in a future fee waiver call within the AI4CI project.
+ 11. Publication of Results 
+ The final list of fee waiver recipients will be published no later than 15 December 2026.
+ Personal data will be processed and published in accordance with applicable data protection regulations.
+title: Specialised education programmes or modules in key capacity areas
+esST_checksum: 507439A309F5FE2B9E731229AC1B02A9BA204EBEB9EECF6CA0F033D057952FD2
+destinationDetails: 1. Aim, Project, Background and Objective 
+ The AI4CI project, co-funded by the European Union under Grant Agreement No. 101123524, provides financial support to students enrolled in the continuing education master’s programme “Artificial Intelligence for Connected Industries” at Ulm University (UUlm), Germany.
+ The objective of this call is to increase accessibility to advanced digital skills education, support up- and reskilling of professionals, and promote diversity and inclusion in computer science education.
+ Within this call, up to 80 fee waivers (with a total amount of max. 80.000 EUR), for individual modules in winter term 2026-2027 (October 2026-March 2027) will be awarded.
+ A fee waiver covers 80 % of the tuition fee of a module in the AI4CI programme. The module fees range from 585 to 1800 Euros. depending on module size in ECTS and specific characteristics of modules (e.g. inclusion of lab times or high amount of tutoring). Fee waivers therefore range between 468 and 1440 Euros.
+ Fee waivers apply only to modules taken in the semester for which the waiver is granted.
+ Applicants may apply for fee waivers for multiple modules, provided they are enrolled in these modules.
+ 2. Eligibility 
+ Applicants must fulfil all the following criteria:
+ 1. Be a citizen of an EU Member State, an EEA country, or a country associated with the Digital Europe Programme ( https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/digital/guidance/list-3rd-country-participation_digital_en.pdf ),
+ 2. Be admitted and enrolled in the master’s programme Artificial Intelligence for Connected Industries at Ulm University.
+ 3. Be registered as a student of the programme in winter semester 2026/2027.
+ 4. Apply only for modules that
+ a. are part of the AI4CI curriculum and
+ b. can still be credited toward the final grade and degree.
+ 5. A fee waiver may be granted only once per module per student.
+ 3. Scope of the Support 
+ A maximum of 80 module fee waivers will be awarded in this call.
+ Each fee waiver reduces the tuition fee of the respective module by 80 %.
+ Fee waivers apply only to the semester in which the module is taken.
+ Students may receive multiple fee waivers, provided they apply for different modules and ranking positions allow it.
+ 4. Application Procedure 
+ 4.1 Call Announcement 
+ By 1 October, all admitted students will receive information about:
+ the availability of fee waivers,
+ the eligibility requirements,
+ the application procedure,
+ and the application deadline.
+ 4.2 Application Deadline 
+ Applications must be submitted by 1 December 2026.
+ Applicants must submit:
+ a completed application form indicating
+ other modules they will attend in winter semester 2026-2027, and
+ other modules for which a fee waiver is requested.
+ proof of nationality.
+ consent allowing the programme administration to access relevant student data in the HIS student administration system and the App4Master admission system.
+ Applicants may additionally submit supporting documentation relevant to diversity criteria described in Section 7.
+ 5. Evaluation Procedure 
+ Applications will be evaluated by the Study Programme Committee of the AI4CI programme at Ulm University and the corresponding talent scouting team.
+ The evaluation will take place within 10 working days after the application deadline.
+ Each module application is evaluated independently.
+ Applications will be ranked according to the evaluation criteria defined in Section 6 and the tie-breaking and diversity considerations criteria in section 7.
+ The highest-ranked module applications will receive a fee waiver.
+ All remaining eligible applications will be placed on a reserve list.
+ Applicants will be informed about the outcome within five working days after the evaluation.
+ 6. Evaluation Criteria 
+ The fee waiver scheme supports up- and reskilling in advanced AI competencies.
+ Applications are evaluated based on the curriculum category of the module.
+ Points are assigned as follows:
+ Module Area 
+ Points 
+ A2 Mandatory Area – Artificial Intelligence
+ 3
+ B1 Systems and Networks
+ 2
+ B2 Automatics and Robotics
+ 2
+ B3 Processes and Data Management
+ 2
+ B4 Free Elective Module
+ 1
+ All module areas are defined in the Subject-Specific Study and Examination Regulations of the AI4CI programme (10 June 2025) and its additional documents.
+ The maximum score per module application is 3 points.
+ 7. Tie-Breaking and Diversity Considerations 
+ If multiple applications receive the same score, the following criteria will be applied sequentially to determine priority:
+ Women and gender minorities
+ Applicants with disabilities
+ Applicants with family responsibilities or caregiving duties
+ Supporting documentation may be provided during the application process.
+ If applications remain tied after applying the above criteria, the final ranking will be determined by random draw conducted by the study programme committee and the talent scouting team.
+ 8. Award and Implementation of the Fee Waiver 
+ Students selected for a fee waiver will receive an updated tuition fee notice reflecting the 80 % reduction for the respective mo
