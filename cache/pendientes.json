@@ -45,13 +45,13 @@
   "caracteres": 300000
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
-  "h": "40b562d93f954fa5",
-  "titulo": "Rising Innovators category",
+  "id": "ue-horizon-eic-2026-prize-wip",
+  "h": "ed2bdc6e55313d53",
+  "titulo": "The European Prize for Women Innovators",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
-  "caracteres": 12248
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
+  "caracteres": 12244
  },
  {
   "id": "ue-horizon-eit-2026-prize-wip-leadership",
@@ -63,13 +63,13 @@
   "caracteres": 12241
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip",
-  "h": "ed2bdc6e55313d53",
-  "titulo": "The European Prize for Women Innovators",
+  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
+  "h": "40b562d93f954fa5",
+  "titulo": "Rising Innovators category",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
-  "caracteres": 12244
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
+  "caracteres": 12248
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -387,15 +387,6 @@
   "caracteres": 42846
  },
  {
-  "id": "ue-crea-media-2027-tvonline-2",
-  "h": "2bb80164abe11ee5",
-  "titulo": "TV and online content Documentary projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
-  "caracteres": 6324
- },
- {
   "id": "ue-crea-media-2027-tvonline-1",
   "h": "594ec78e4c088425",
   "titulo": "TV and online content Animation projects",
@@ -412,6 +403,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
   "caracteres": 6320
+ },
+ {
+  "id": "ue-crea-media-2027-tvonline-2",
+  "h": "2bb80164abe11ee5",
+  "titulo": "TV and online content Documentary projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
+  "caracteres": 6324
  },
  {
   "id": "bob-bob-2026a219-ii-6013-",
@@ -810,15 +810,6 @@
   "caracteres": 67280
  },
  {
-  "id": "ara-ayudas-establecimiento-personas-jovenes-agricultoras-2026",
-  "h": "7326155d84ccbfcf",
-  "titulo": "Ayudas destinadas al establecimiento de personas jóvenes agricultoras en el THA",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-establecimiento-personas-jovenes-agricultoras-202-f1cae940.txt",
-  "caracteres": 111325
- },
- {
   "id": "ara-ayudas-apoyo-deporte-femenino-2026",
   "h": "7e6b69fb614175d1",
   "titulo": "Subvenciones para el fomento del deporte femenino. Convocatoria",
@@ -898,15 +889,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-formativas-artes-escenicas-musicales-2026-2ab2543a.txt",
   "caracteres": 67297
- },
- {
-  "id": "ara-convocatoria-de-ayudas-a-deportistas-de-alto-nivel-2026",
-  "h": "bb5fca825a0b8f50",
-  "titulo": "Kirolaraba A2. Ayudas a deportistas de alto nivel",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-a-deportistas-de-alto-nivel-2026-5cbdd738.txt",
-  "caracteres": 79330
  },
  {
   "id": "ara-ap-1-peaje-social",
