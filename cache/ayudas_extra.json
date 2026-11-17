@@ -311,5 +311,39 @@
     "para": [
       "particular"
     ]
+  },
+  {
+    "id": "extra-fund-lacaixa-inphinit-incoming-2027",
+    "titulo": "Becas de doctorado INPhINIT \"la Caixa\" – Convocatoria Incoming 2027",
+    "url": "https://lacaixafoundation.org/documents/d/la-caixa-foundation/doctoral-inphinit-incoming-2027-rules-participation-pdf",
+    "fuente": "lacaixafoundation.org",
+    "organismo": "Fundación \"la Caixa\"",
+    "ambito": {
+      "nivel": "estado"
+    },
+    "inicio": null,
+    "fin": "2027-01-12",
+    "resumen": "30 becas de doctorado de hasta 4 años en disciplinas STEM en centros de investigación de excelencia de España o Portugal. Abierta a investigadores de cualquier nacionalidad que cumplan la regla de movilidad internacional.",
+    "dirigido": "Personas investigadoras predoctorales de cualquier nacionalidad que cumplan el requisito de movilidad",
+    "para": [
+      "particular"
+    ]
+  },
+  {
+    "id": "extra-fund-lacaixa-inphinit-retaining-2027",
+    "titulo": "Becas de doctorado INPhINIT \"la Caixa\" – Convocatoria Retaining 2027",
+    "url": "https://lacaixafoundation.org/documents/d/la-caixa-foundation/doctoral-inphinit-retaining-2027-rules-participation-pdf",
+    "fuente": "lacaixafoundation.org",
+    "organismo": "Fundación \"la Caixa\"",
+    "ambito": {
+      "nivel": "estado"
+    },
+    "inicio": null,
+    "fin": "2027-03-02",
+    "resumen": "30 becas de doctorado de hasta 4 años en cualquier disciplina en universidades o centros de investigación de España o Portugal, pensadas para retener talento predoctoral.",
+    "dirigido": "Personas que van a empezar el doctorado y cumplen los requisitos de vinculación y movilidad",
+    "para": [
+      "particular"
+    ]
   }
 ]
