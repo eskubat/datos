@@ -405,6 +405,24 @@
   "caracteres": 214972
  },
  {
+  "id": "ara-becas-de-investigacion-fuentes-documentales-de-alava-2026",
+  "h": "b0fc0f0a0a9cc4cb",
+  "titulo": "Becas de investigación “Fuentes Documentales”",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-becas-de-investigacion-fuentes-documentales-de-alava-202-5bdecb5e.txt",
+  "caracteres": 103355
+ },
+ {
+  "id": "bdns-925434",
+  "h": "94c62f20b562d32f",
+  "titulo": "Subvención para la contratación de personas desempleadas por parte de empresas radicadas",
+  "organismoSugerido": "ayto-eibar",
+  "organismoFuente": "Ayuntamiento de eibar",
+  "archivo": "cache/fuentes/bdns-925434-acca627d.txt",
+  "caracteres": 53521
+ },
+ {
   "id": "ara-ayudas-transporte-intermunicipal-municipios-menores-20000-ha",
   "h": "cb3d857edcdc00f5",
   "titulo": "Subvenciones destinadas a financiar el transporte intramunicipal y dirigidas a municipios del THA menores de 20.000 habitantes. Convocatoria",
@@ -502,6 +520,15 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01362004-80cfa256.txt",
   "caracteres": 102454
+ },
+ {
+  "id": "ue-crea-media-2027-filmdist",
+  "h": "93d43372d8be537d",
+  "titulo": "European Film Distribution",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-filmdist-9cdefc48.txt",
+  "caracteres": 3631
  },
  {
   "id": "ara-01362003",
@@ -891,15 +918,6 @@
   "caracteres": 81954
  },
  {
-  "id": "ara-pagos-servicios-ambientales-2026",
-  "h": "9a7d74ffad301246",
-  "titulo": "Pagos por Servicios Ambientales",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-pagos-servicios-ambientales-2026-cb59a797.txt",
-  "caracteres": 83602
- },
- {
   "id": "ara-01484",
   "h": "91af673c75aa8a43",
   "titulo": "Peaje Social AP-68",
@@ -945,6 +963,15 @@
   "caracteres": 87683
  },
  {
+  "id": "bdns-931520",
+  "h": "a674ea9a04809234",
+  "titulo": "Subvenciones destinadas a financiar las actividades extraordinarias de los clubes deportivos sin ánimo de lucro",
+  "organismoSugerido": "ayto-ordizia",
+  "organismoFuente": "Ayuntamiento de ordizia",
+  "archivo": "cache/fuentes/bdns-931520-60c6cdcc.txt",
+  "caracteres": 282323
+ },
+ {
   "id": "bog-c2606552-htm",
   "h": "52328dc9d36d4506",
   "titulo": "Bases y convocatoria de de ayudas para estudiar euskera",
@@ -954,6 +981,24 @@
   "caracteres": 838
  },
  {
+  "id": "bog-c2606336-htm",
+  "h": "8b71b7628987d334",
+  "titulo": "Bases y convocatoria de subvenciones para el pago de la tasa de suministro de agua y basuras",
+  "organismoSugerido": "ayto-asteasu",
+  "organismoFuente": "Ayuntamiento de Asteasu",
+  "archivo": "cache/fuentes/bog-c2606336-htm-4dd84d90.txt",
+  "caracteres": 300000
+ },
+ {
+  "id": "bog-c2606670-htm",
+  "h": "36c70b312f64b27b",
+  "titulo": "Bases reguladoras y convocatoria de de las subvenciones del plan de equipamientos deportivos",
+  "organismoSugerido": "dfg",
+  "organismoFuente": "Diputación Foral de Gipuzkoa",
+  "archivo": "cache/fuentes/bog-c2606670-htm-2c6ce16e.txt",
+  "caracteres": 159442
+ },
+ {
   "id": "botha-2026-131-03265-c-pdf",
   "h": "7725e8c3d882ea39",
   "titulo": "Decreto Foral 42/, de 10 de noviembre, del Consejo de Gobierno Foral",
@@ -961,6 +1006,15 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/botha-2026-131-03265-c-pdf-601695a9.txt",
   "caracteres": 29159
+ },
+ {
+  "id": "botha-2026-113-02776-c-pdf",
+  "h": "b2106b6da556ae6d",
+  "titulo": "Aprobación de las bases reguladoras y convocatoria para la concesión de subvenciones en materia de cultura",
+  "organismoSugerido": "ayto-alegria-dulantzi",
+  "organismoFuente": "Ayuntamiento de Alegría-Dulantzi",
+  "archivo": "cache/fuentes/botha-2026-113-02776-c-pdf-b529229f.txt",
+  "caracteres": 36508
  },
  {
   "id": "bob-bob-2026a207-i-1230-",
