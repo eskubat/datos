@@ -408,5 +408,15 @@
   "parecidaA": "eus-ayuda-subvencion-2026-deskcreativemediadeialdia",
   "motivo": "Misma convocatoria Europa Creativa MEDIA 2027 que la ficha paraguas de euskadi.eus (deskcreativemediadeialdia); esta llegó por el Funding & Tenders Portal con su propia línea y fechas.",
   "fecha": "2026-11-16"
+ },
+ "ara-01362004": {
+  "parecidaA": "ara-01362003",
+  "motivo": "Dos trámites de la sede de Álava del programa de fomento del terroir de Rioja Alavesa (DF 38/2025) con título casi igual («fomento del terroir a través de la viticultura»); 01362004 añade «medidas 1, 3 y 4». Misma fuente y mismos solicitantes; sin convocatoria 2026 localizada.",
+  "fecha": "2026-11-17"
+ },
+ "ara-01362003": {
+  "parecidaA": "ara-01362004",
+  "motivo": "Dos trámites de la sede de Álava del programa de fomento del terroir de Rioja Alavesa (DF 38/2025) con título casi igual («fomento del terroir a través de la viticultura»); 01362004 añade «medidas 1, 3 y 4». Misma fuente y mismos solicitantes; sin convocatoria 2026 localizada.",
+  "fecha": "2026-11-17"
  }
 }

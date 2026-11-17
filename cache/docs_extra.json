@@ -179,7 +179,8 @@
     "https://etxebizitza.araba.eus/es/garantias-alquiler-vivienda/adhesion-arrendadores"
   ],
   "ara-garantias-alquiler-vivienda-adhesion-personas-arrendatarias": [
-    "https://www.araba.eus/botha/Boletines/2025/056/2025_056_01422_C.pdf"
+    "https://www.araba.eus/botha/Boletines/2025/056/2025_056_01422_C.pdf",
+    "http://www.araba.eus/botha/Boletines/2026/057/2026_057_01393_C.pdf"
   ],
   "ara-ayudas-zonas-limitaciones-naturales-o-especificas": [
     "https://www.araba.eus/botha/Boletines/2023/075/2023_075_01916_C.pdf",
@@ -324,5 +325,17 @@
   ],
   "bdns-921964": [
     "https://ejercito.defensa.gob.es/premios-ejercito/2027/convocatoria-2027.pdf"
+  ],
+  "ara-ayudas-a-asociaciones-y-fundaciones-para-contribuir-a-la-reh": [
+    "https://www.araba.eus/botha/Boletines/2025/047/2025_047_01218_C.pdf"
+  ],
+  "bob-bob-2026a203-ii-5394-": [
+    "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/10/BOB-2026a203.pdf"
+  ],
+  "bob-bob-2026a219-ii-6013-": [
+    "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/11/BOB-2026a219.pdf"
+  ],
+  "bob-bob-2026a219-ii-5936-": [
+    "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/11/BOB-2026a219.pdf"
   ]
 }
