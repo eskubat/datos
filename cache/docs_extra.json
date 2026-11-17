@@ -407,5 +407,22 @@
     "https://www.araba.eus/botha/Boletines/2014/098/2014_098_04162_C.pdf",
     "https://www.araba.eus/botha/Boletines/2024/090/2024_090_02583_C.pdf",
     "https://www.araba.eus/botha/Boletines/2026/060/2026_060_01486_C.pdf"
+  ],
+  "prest-araba-peap": [
+    "https://www.boe.es/buscar/pdf/2006/BOE-A-2006-21990-consolidado.pdf",
+    "https://www.araba.eus/botha/Boletines/2014/098/2014_098_04162_C.pdf",
+    "https://www.araba.eus/botha/Boletines/2023/150/2023_150_03773_C.pdf",
+    "https://www.araba.eus/botha/Boletines/2024/090/2024_090_02583_C.pdf",
+    "https://www.araba.eus/botha/Boletines/2026/060/2026_060_01486_C.pdf"
+  ],
+  "prest-araba-pevs": [
+    "https://www.boe.es/buscar/pdf/2006/BOE-A-2006-21990-consolidado.pdf",
+    "https://www.araba.eus/botha/Boletines/2014/098/2014_098_04162_C.pdf",
+    "https://www.araba.eus/botha/Boletines/2023/150/2023_150_03773_C.pdf",
+    "https://www.araba.eus/botha/Boletines/2024/090/2024_090_02583_C.pdf",
+    "https://web.araba.eus/documents/d/araba/mifbs24_cast_web-1-pdf"
+  ],
+  "extra-arraia-maeztu-euskera-2026": [
+    "https://www.araba.eus/botha/Boletines/2026/096/2026_096_02424_C.pdf"
   ]
 }
