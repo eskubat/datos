@@ -565,6 +565,18 @@
   "prioridad": 12,
   "fuente": "Revisor de datos (17/11)",
   "quien": "Claude",
+  "estado": "hecha",
+  "fecha": "2026-11-17",
+  "nota": "En cache/fuentes había 212 textos con secciones repetidas (el mismo documento de la BDNS subido dos veces con otro id, un trozo de otro documento o la misma página genérica de la sede de Álava con otra URL). El recolector ahora quita las secciones cuyo texto ya está en otra anterior (quitaRepetidas en recolector/enlaces.js, aplicada en index.js antes de calcular h), y se migraron las huellas de 92 fichas ya hechas para que no vuelvan a la cola; bdns-935179 sale de pendientes. No se esperan ayudas nuevas; quedan en cola unas 37 fichas de la BDNS cuyo cambio no es una copia exacta (versión en el otro idioma, formularios o la página del ayuntamiento impresa en PDF)."
+ },
+ {
+  "id": "bdns-docs-otro-idioma",
+  "titulo": "No volver a poner en cola las fichas de la BDNS cuando solo llega la versión en el otro idioma o un formulario",
+  "detalle": "Tras quitar las secciones repetidas (tarea bdns-docs-duplicados), siguen en cache/pendientes.json unas 37 fichas de la BDNS ya hechas cuyo texto cambió el 16/11 solo porque se añadió el mismo documento en euskera o castellano con otro idDocumento, un formulario de solicitud o la página del ayuntamiento impresa en PDF (p. ej. bdns-941163, 941143, 938087). Propuesta: al calcular h, no contar el documento de la BDNS que es la traducción de otro ya presente (o los que bdns.js ya ordena como formularios), sin quitarlo del texto que lee la tarea de fichas.",
+  "seccion": "fuentes",
+  "prioridad": 28,
+  "fuente": "Plan de mejoras (17/11)",
+  "quien": "Claude",
   "estado": "pendiente",
   "fecha": "2026-11-17"
  }

@@ -9,7 +9,7 @@ import * as boletines from './boletines.js';
 import * as prestaciones from './prestaciones.js';
 import { claveLinea } from './historico.js';
 import { aplicar, huella } from './resumen.js';
-import { documentacion } from './enlaces.js';
+import { documentacion, quitaRepetidas } from './enlaces.js';
 import { resolver, POR_ID, CATALOGO } from './organismos.js';
 import { aplicarTitulos } from './titulos.js';
 import { convocatoriasUE, ayudasDirectasUE } from './europa.js';
@@ -583,7 +583,7 @@ async function main() {
   fs.mkdirSync(DIR_F, { recursive: true });
   const nombreF = (id) => String(id).replace(/[^\w.-]/g, '_').slice(0, 60) + '-' + huella(id).slice(0, 8) + '.txt';
   for (const a of ayudas) {
-    const t = [docs[a.id] || '', a._texto && !docs[a.id] ? '### Extracto de la fuente\n' + a._texto : ''].join('\n\n').trim();
+    const t = quitaRepetidas([docs[a.id] || '', a._texto && !docs[a.id] ? '### Extracto de la fuente\n' + a._texto : ''].join('\n\n').trim());
     if (t) { fuentes[a.id] = t; fs.writeFileSync(path.join(DIR_F, nombreF(a.id)), t); }
     delete a._texto; delete a._docs; delete a._ficha; delete a._urls;
   }

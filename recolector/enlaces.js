@@ -149,3 +149,24 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
   log(`Documentación: ${Object.keys(res).length} ayudas con texto, ${nuevos} documentos nuevos, ${fallos} sin acceso (caché: ${Object.keys(indice).length})`);
   return res;
 }
+
+// Quita las secciones «### …: url» cuyo texto ya está en una sección anterior (el mismo documento subido dos
+// veces a la BDNS con otro id, un trozo de él, o la misma página genérica de la sede con otra URL). Así una
+// copia repetida no cambia la huella del texto ni devuelve la ficha a la cola sin que cambie el contenido.
+// Se comparan los textos sin mayúsculas ni diferencias de espacios; un texto contenido en otro solo cuenta
+// si es largo (200 caracteres o más), para no quitar fragmentos cortos que coinciden por casualidad.
+export function quitaRepetidas(t) {
+  const partes = String(t || '').split(/\n\n(?=### )/);
+  const norm = (s) => s.replace(/\s+/g, ' ').trim().toLowerCase();
+  const vistos = [];
+  const quedan = [];
+  for (const p of partes) {
+    const m = p.match(/^### [^\n]*\n([\s\S]*)$/);
+    if (!m) { quedan.push(p); continue; }
+    const c = norm(m[1]);
+    if (c && vistos.some((v) => v === c || (c.length >= 200 && v.includes(c)))) continue;
+    vistos.push(c);
+    quedan.push(p);
+  }
+  return quedan.join('\n\n');
+}
