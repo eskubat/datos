@@ -466,9 +466,11 @@
   "detalle": "El portal trae unas 140 convocatorias en cascada (proyectos europeos que reparten fondos a pymes, startups o personas). Muchas son solo para un país o una universidad y el enlace es el del proyecto. Guardar el texto de cada una desde la API, descartar las restringidas a otros países o centros y publicar las abiertas a solicitantes vascos sin consorcio.",
   "fuente": "Funding & Tenders Portal (Comisión Europea)",
   "quien": "Claude",
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "fuentes",
-  "prioridad": 22
+  "prioridad": 22,
+  "fecha": "2026-11-17",
+  "nota": "De las 141 convocatorias en cascada del portal (138 abiertas), muchas son solo para un país, para alumnos de un máster concreto o exigen consorcio. El lector europeo guarda ahora el texto de cada una desde la API y solo publica las abiertas a solicitantes de cualquier Estado miembro (o de España), sin consorcio ni restricción de país o universidad, con su tipo de solicitante; la red de esta sesión no llega a la API, así que la primera prueba real será el recolector de las 05:41 (se esperan unas 10-30)."
  },
  {
   "id": "bob-anuncios-cortados",
@@ -624,5 +626,15 @@
   "quien": "Claude",
   "estado": "pendiente",
   "fecha": "2026-11-17"
+ },
+ {
+  "id": "ue-cascada-revisar",
+  "titulo": "Revisar la primera tanda de convocatorias europeas en cascada publicadas",
+  "detalle": "Tras el recolector, mirar en su salida los campos que trae la API para las convocatorias en cascada («UE cascada: campos de la API») y las que han pasado el filtro (ids ue-cs-…). Ajustar el filtro de recolector/europa.js si se cuela alguna restringida a un país o universidad, o si se queda fuera alguna abierta a solicitantes vascos; usar el enlace propio de la convocatoria si la API lo trae.",
+  "fuente": "Funding & Tenders Portal (Comisión Europea)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "seccion": "fuentes",
+  "prioridad": 33
  }
 ]
