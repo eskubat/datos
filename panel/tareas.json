@@ -586,5 +586,16 @@
   "quien": "Claude",
   "estado": "pendiente",
   "fecha": "2026-11-17"
+ },
+ {
+  "id": "lacaixa-bases-pdf",
+  "titulo": "Descargar las bases de las convocatorias de la Fundación «la Caixa»",
+  "detalle": "Los PDF de bases de lacaixafoundation.org (p. ej. doctoral-inphinit-incoming-2027-rules-participation-pdf, doctoral-inphinit-retaining-2027-rules-participation-pdf y postgraduate-fellowships-abroad-2027-rules-participation-pdf) no se descargan: el recolector solo guarda el extracto de cache/ayudas_extra.json y las fichas quedan sin cuantía ni requisitos completos. Propuesta: revisar en recolector/enlaces.js la descarga de lacaixafoundation.org/documents/d/… (cabeceras de navegador o seguir la redirección al PDF) o usar las páginas en castellano de fundacionlacaixa.org.",
+  "seccion": "fuentes",
+  "prioridad": 30,
+  "fuente": "Plan de mejoras (17/11)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-17"
  }
 ]
