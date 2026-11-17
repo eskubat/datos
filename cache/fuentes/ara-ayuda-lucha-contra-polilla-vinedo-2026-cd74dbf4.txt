@@ -13,8 +13,8 @@ Plazo de resolución: 6 Meses
 titulo: Resolución
 Silencio administrativo de la persona interesada: Negativo
 Inicio Persona Interesada: Sí
-valor: Servicio de Secretaría Técnica de Agricultura
 valor: Servicio de Viticultura y Enología
+valor: Servicio de Secretaría Técnica de Agricultura
 titulo: Organismo competente
 titulo pestana: Presentación del trámite
 descripcion: SERVICIO DE VITICULTURA Y ENOLOGIA

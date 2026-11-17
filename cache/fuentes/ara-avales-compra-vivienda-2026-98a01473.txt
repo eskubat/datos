@@ -1,0 +1,50 @@
+### Ficha oficial: https://egoitza.araba.eus/es/inicio/tramites/fitxa/avales-compra-vivienda-2026
+titulo pestana: Sobre el procedimiento
+descripcion:
+Decreto Foral 4/2025, de 4 de febrero. Aprobar las condiciones de acceso y financieras del programa de avales a la compra de viviendas de la Diputación Foral de Álava, así como la convocatoria para el ejercicio 2025.
+descripcion:
+Acuerdo 8/2026, de 20 de enero. Aprobar la convocatoria de programa de avales destinados para la compra de vivienda en el Territorio Histórico de Álava
+titulo: Normativa
+A quién va dirigido: Podrán acogerse a este programa aquellas personas jóvenes, que aun siendo solventes no dispongan del ahorro necesario para la adquisición de su primera vivienda y que cumplan con los siguientes requisitos:
+a) Ser mayor de edad y no superar los treinta y seis años de edad o umbral que se determine en la convocatoria anual. Este requisito habrá de cumplirse a uno de enero del año en el que se presente la solicitud. En el caso de financiaciones con más de un titular, bastará con que uno de ellos cumpla el requisito.
+b) Residir en el Territorio Histórico de Álava o en el enclave de Treviño de manera continuada e ininterrumpida durante los dos años inmediatamente anteriores a la fecha de presentación de la solicitud de aval.
+c) Debe tratarse de la primera adquisición de vivienda a la que se accede en régimen de propiedad.
+Plazo de resolución: 3 Días
+titulo: Resolución
+Silencio administrativo de la persona interesada: Según Normativa
+Inicio Persona Interesada: Sí
+valor: Servicio de Administración Local y Reto Demográfico
+titulo: Organismo competente
+titulo pestana: Presentación del trámite
+valor: ealday@araba.eus
+valor: loreaibanez@araba.eus
+titulo: Correo electrónico
+titulo: Teléfono
+accion: Tramitar
+descripcion tramite: Solicitudes de avales
+denominacion tramite: Solicitud de aval
+titulo: Presencial
+descripcion:
+Necesitarás alguno de estos sistemas de identificación digital:
+Certificado electrónico
+titulo: Electrónico
+estado: En plazo
+descripcion plazo: ABIERTO (29/01/2026 - 30/11/2026)
+titulo: Plazo de presentación
+descripcion: Para todos los casos
+descripcion documento: Autorización del sistema de riesgos de la entidad solicitante o por la oferta vinculante de condiciones de la operación
+nombre documento: Autorización del sistema de riesgos de la entidad solicitante o por la oferta vinculante
+nombre documento: Consulta de datos de residencia con fecha de la última variación padronal (THA)
+nombre documento: Consulta de datos de residencia con fecha de la última variación padronal (Treviño)
+nombre documento: Contrato de arras o preacuerdo que acredite el compromiso de compraventa del inmueble
+nombre documento: Documento nacional de identidad o número de identidad de extranjero
+nombre documento: Impreso Solicitud
+nombre documento: Nota de localización del Registro de la Propiedad
+nombre documento: Solicitud
+condicion documento: CON CARÁCTER GENERAL
+titulo: Documentación
+finalidad: Solicitud de avales asociados al programa de avales a la compra de viviendas de la Diputación Foral de Álava.
+descripcion plazo: ABIERTO
+descripcion plazo ampliada:
+El plazo de presentación de solicitudes por parte de cada entidad financiera comenzará una vez formalizado el convenio correspondiente, y finalizará el 30 de noviembre de 2025 y, en todo caso, en el momento del agotamiento del importe máximo de avales a conceder en el año 2025.
+titulo: Programa de avales a la compra de viviendas de la Diputación Foral de Álava - Procedimiento solicitud avales
