@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generado": "2026-11-17T20:55:32.947Z",
-  "total": 464,
+  "generado": "2026-11-17T21:46:26.232Z",
+  "total": 479,
   "porAmbito": {
     "euskadi": 94,
-    "territorio": 111,
-    "municipio": 163,
+    "territorio": 129,
+    "municipio": 158,
     "estado": 66,
-    "ue": 30
+    "ue": 32
   },
   "porEstado": {
-    "abierta": 342,
-    "proxima": 42,
-    "sinfecha": 80
+    "abierta": 348,
+    "proxima": 44,
+    "sinfecha": 87
   },
   "previstas": 676,
   "fuentes": {
@@ -20,7 +20,7 @@
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
       "registros": 137,
-      "segundos": 35,
+      "segundos": 33,
       "erroresFicha": 0
     },
     "gipuzkoa": {
@@ -34,14 +34,14 @@
       "nombre": "Diputación Foral de Álava (ayudas en vigor)",
       "ok": true,
       "registros": 143,
-      "segundos": 21,
+      "segundos": 18,
       "erroresFicha": 0
     },
     "bdns": {
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
       "registros": 780,
-      "segundos": 153,
+      "segundos": 154,
       "erroresFicha": 0
     },
     "boletines": {
@@ -61,14 +61,14 @@
     "europa": {
       "nombre": "Funding & Tenders Portal (Comisión Europea), convocatorias sin consorcio",
       "ok": true,
-      "registros": 26,
+      "registros": 28,
       "erroresFicha": 0
     }
   },
   "enlaces": {
-    "comprobados": 705,
-    "rotos": 3,
+    "comprobados": 720,
+    "rotos": 4,
     "sustituidos": 1,
-    "quitados": 3
+    "quitados": 4
   }
 }
