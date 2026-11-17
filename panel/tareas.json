@@ -556,5 +556,16 @@
   "quien": "Claude",
   "estado": "pendiente",
   "fecha": "2026-11-17"
+ },
+ {
+  "id": "bdns-docs-duplicados",
+  "titulo": "No volver a poner en cola las fichas de la BDNS cuando solo se repite un documento",
+  "detalle": "En la actualización del 16/11 (commit a5dee98) el recolector añadió a muchas ayudas de la BDNS una segunda copia idéntica del mismo documento de la convocatoria (o un trozo de él, o formularios y anexos), lo que cambió su h y devolvió a cache/pendientes.json unas 50 fichas ya hechas sin que cambiara el contenido (p. ej. bdns-939560, 938070, 935441, 934155, 933214, 929034, 941144, 941926). En la pasada del 17/11 (00:32 UTC) se volvieron a incorporar 21 de ellas tras comprobar que el texto nuevo era repetido o solo formularios. Propuesta: no repetir secciones con el mismo texto en cache/fuentes y calcular h sin secciones duplicadas.",
+  "seccion": "fuentes",
+  "prioridad": 12,
+  "fuente": "Revisor de datos (17/11)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-17"
  }
 ]
