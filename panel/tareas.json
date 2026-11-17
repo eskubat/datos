@@ -549,8 +549,9 @@
   "prioridad": 16,
   "fuente": "Revisor de datos (16/11)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-16"
+  "estado": "hecha",
+  "fecha": "2026-11-17",
+  "nota": "Las fichas de los 19 casos ya decían «No es una convocatoria abierta» y salían por el filtro de la ficha, pero volvían a la cola si cambiaba el documento. Nuevo filtro por título en el recolector (BDNS y boletines): «subvención extraordinaria a/al/por», «… - subvención de emergencia», «cuota anual (de) adhesión/socio», títulos con el NIF de la entidad y títulos que son solo el nombre de una entidad (18 de los 19 y unas 20 parecidas de Barakaldo en el histórico, sin falsos positivos en 2.116 títulos); y por documento: «nominatiboan», la solicitud ya rellenada y fechada por la entidad (retablo de Elexalde, Erletxe) y la aprobación del presupuesto sin bases enlazadas. Se espera que salgan de la cola y no vuelvan; 1 publicada (bdns-937781, Colegio de la Abogacía) dejará de publicarse."
  },
  {
   "id": "araba-sin-anuncio-botha",

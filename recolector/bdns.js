@@ -44,6 +44,23 @@ export function clasifica(n1, n2, n3) {
 // Subvenciones que no se pueden solicitar: nominativas, directas, convenios con una entidad concreta...
 export const RUIDO = /nominativ|convocatoria instrumental|programa ind[ií]gena|se resuelven?\b|resoluci[oó]n de (la )?concesi|desiert|subvenciones directas|funcionamiento y actividades de la |izendun|a favor d|convenio|hitzarmen|concesi[oó]n directa|subvenci[oó]n (foral )?directa|subv\.? ?directa|foral directa|se concede|de concesi[oó]n de|aprobar (un|el) gasto|aportaci[oó]n (econ[oó]mica )?(a|al|para) |transferencia|adenda|addenda|excepcional|en especie|reintegro|justificaci[oó]n|colaboraci[oó]n entre (el|la) (ayuntamiento|diputaci[oó]n)|(concede|otorga)\\w* una (ayuda|subvenci[oó]n) directa|arteko lankidetza/i;
 
+// Subvenciones ya concedidas a una entidad concreta que el título delata (tarea nominativas-bdns-3, 17/11):
+// «subvención extraordinaria a/al/por …» (Azpeitia, bdns-941120 y siguientes), «<entidad>: <lugar> - subvención de emergencia»
+// (Errenteria, bdns-942081), «cuota anual (de) adhesión» a una red o asociación (bdns-940143), títulos con el NIF de la
+// entidad (bdns-937781) y títulos que son solo el nombre de una entidad («Intxurreta jai batzordea», bdns-939240).
+// En plural («subvenciones extraordinarias», «actividades extraordinarias de los clubes») siguen siendo convocatorias.
+const AYUDA_EN_TITULO = /subvenci|ayuda|aportaci|laguntz|beca|premio|sari|convocatoria|deialdi|bases|programa|plan\b|bono|prestaci|financ|incentiv|bonific|dirulaguntz/i;
+export function tituloDeEntidad(t) {
+  const s = String(t || '').trim();
+  if (/\bsubvenci[oó]n extraordinaria (?:a|al|por)\b/i.test(s)) return true;
+  if (/\s[-–]\s*subvenci[oó]n de emergencia\s*$/i.test(s)) return true;
+  if (/\bcuota anual(?: de)? (?:adhesi[oó]n|socio|asociad[oa])/i.test(s)) return true;
+  if (/(?:^|[\s.,(])[abcdefghjnpqrsuvw]\d{7}[0-9a-j](?=$|[\s.,)])/i.test(s)) return true;
+  if (!AYUDA_EN_TITULO.test(s) && /^[^.,;:]{2,80}\b(?:batzordea|elkartea|kluba|taldea|fundazioa|federazioa|kofradia|elkargoa)$/i.test(s)) return true;
+  if (!AYUDA_EN_TITULO.test(s) && /^(?:ilustre |real )?(?:asociaci[oó]n|club|fundaci[oó]n|cofrad[ií]a|federaci[oó]n|comisi[oó]n de fiestas|colegio (?:oficial|de))\b[^.;:]{2,80}$/i.test(s)) return true;
+  return false;
+}
+
 // Documentos de la convocatoria en la BDNS: todos menos los que solo están en euskera (si hay versión en castellano),
 // primero la convocatoria y las bases y al final los formularios (antes solo se bajaban los que decían «castellano»
 // y se perdía la convocatoria cuando su descripción no decía el idioma, p. ej. Maison&Objet París, bdns-938576)
@@ -69,10 +86,17 @@ export function docsBdns(documentos) {
 // abierto (evaluación individualizada, concurrencia, plazo de solicitudes): p. ej. Eibar concede «zuzenean» por
 // evaluación individualizada a todos los clubes que lo piden (bdns-936268). El art. 22.2 de la Ley 38/2003 no sirve
 // de señal: las ayudas sociales municipales (Portugalete, bdns-942048 y 942070) se conceden por él y las pide cualquiera.
-const CABECERA_NO_SOLICITABLE = /\b(convenio|hitzarmen\w*|acuerdo de colaboraci[oó]n|lankidetza[- ]akordio\w*|reunidos|comparecen|bildurik|elkarturik|nominativ\w*|nomintiv\w*|izendun\w*|colaboraci[oó]n entre (?:el|la) (?:ayuntamiento|diputaci[oó]n|gobierno)[^.]{0,80}?\by (?:el|la|los|las) (?:asociaci[oó]n|club|fundaci[oó]n|federaci[oó]n|cofrad[ií]a|sociedad|entidad|comisi[oó]n)|(?:elkartearen|klubaren|fundazioaren|federazioaren) arteko lankidetza|euskal fondoa\w*)\b/i;
+// Ampliado el 17/11 (tarea nominativas-bdns-3): «nominatiboan» (euskera, bdns-939240), el documento es la aprobación
+// definitiva del presupuesto o de un crédito adicional sin bases enlazadas (bdns-939974), o es la solicitud ya
+// rellenada y fechada por la entidad beneficiaria («Datos de la solicitud … Fecha de la solicitud: 13/02/2026», bdns-941010, 920746).
+const CABECERA_NO_SOLICITABLE = /\b(convenio|hitzarmen\w*|acuerdo de colaboraci[oó]n|lankidetza[- ]akordio\w*|reunidos|comparecen|bildurik|elkarturik|nominativ\w*|nomintiv\w*|nominatib\w*|izendun\w*|datos de la solicitud\b.{0,400}?fecha de la solicitud:\s*\d{1,2}\/\d{1,2}\/\d{4}|colaboraci[oó]n entre (?:el|la) (?:ayuntamiento|diputaci[oó]n|gobierno)[^.]{0,80}?\by (?:el|la|los|las) (?:asociaci[oó]n|club|fundaci[oó]n|federaci[oó]n|cofrad[ií]a|sociedad|entidad|comisi[oó]n)|(?:elkartearen|klubaren|fundazioaren|federazioaren) arteko lankidetza|euskal fondoa\w*)\b/i;
 const CABECERA_DIRECTA = /\b(concesi[oó]n directa|(?:subvenci[oó]n|ayuda|aportaci[oó]n)(?: econ[oó]mica)? directa|zuzeneko (?:diru-?laguntza|laguntza|ekarpen)\w*)\b/i;
+// La aprobación del presupuesto o de un crédito adicional solo cuenta si no hay bases reguladoras enlazadas: Barakaldo sube
+// el presupuesto también a convocatorias abiertas con bases (colonias y campamentos, bdns-929714).
+const CABECERA_PRESUPUESTO = /\baprobaci[oó]n definitiva del (?:presupuesto general|cr[eé]dito adicional)\b/i;
 const CABECERA_ABIERTA = /evaluaci[oó]n individualizada|ebaluazio (?:bakoiztu|indibidualizatu)|concurrencia|norgehiagok|plazo de (?:presentaci[oó]n de )?solicitudes|eskaerak aurkezteko epea/i;
 export function documentoNoSolicitable(textoDocs) {
+  const conBases = /(?:^|\n)### Bases reguladoras/.test(String(textoDocs || ''));
   for (const b of String(textoDocs || '').split(/\n(?=### )/)) {
     if (!/^### Documento de la convocatoria: https:\/\/www\.(infosubvenciones\.es|pap\.hacienda\.gob\.es)\//.test(b)) continue;
     const lineas = b.split('\n').slice(1).map((l) => l.trim()).filter((l) => l && !/^\d+$|^--$/.test(l));
@@ -80,7 +104,7 @@ export function documentoNoSolicitable(textoDocs) {
     // Si habla del convenio colectivo, «convenio» / «hitzarmen» se refieren a él (ayudas a la contratación, bdns-927981)
     if (/convenios? colectiv|hitzarmen\w* kolektib/i.test(cab)) cab = cab.replace(/\b(convenio|hitzarmen)\w*/gi, '');
     cab = cab.slice(0, 1500);
-    const m = cab.match(CABECERA_NO_SOLICITABLE) || (!CABECERA_ABIERTA.test(cab) && cab.match(CABECERA_DIRECTA));
+    const m = cab.match(CABECERA_NO_SOLICITABLE) || (!CABECERA_ABIERTA.test(cab) && (cab.match(CABECERA_DIRECTA) || (!conBases && cab.match(CABECERA_PRESUPUESTO))));
     if (m) return m[0];
   }
   return '';
@@ -172,7 +196,7 @@ export async function recoger(log) {
     vistos += content.length;
     for (const it of content) {
       const amb = clasifica(it.nivel1, it.nivel2, it.nivel3);
-      if (amb && !RUIDO.test(it.descripcion || '')) indice.push({ it, amb });
+      if (amb && !RUIDO.test(it.descripcion || '') && !tituloDeEntidad(limpiaTitulo(it.descripcion || ''))) indice.push({ it, amb });
       else if (amb) descartadas++;
       const txt2 = norm(`${it.nivel2} ${it.nivel3}`);
       if (/vasco|euskadi|eusko|gipuzk|guipuz|bizkai|vizcay|araba|alava|foral|foru/.test(txt2)) {

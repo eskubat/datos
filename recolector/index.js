@@ -320,7 +320,7 @@ async function main() {
   try { await enriquecer(ayudas.filter((a) => a.origen !== 'euskadi')); } catch (e) { log(`Aviso: no se pudieron completar fichas: ${e.message}`); }
   // Fuera las que no puede solicitar cualquiera (nominativas, directas, a una entidad concreta)
   const antes = ayudas.length;
-  ayudas = ayudas.filter((a) => !bdns.RUIDO.test(a.titulo) && !/a efectos de mera noticia|se incluye en secci[oó]n de convocatorias para una mayor visibilidad/i.test(a.resumen || '') && !/no es una convocatoria (de subvenciones )?abierta|s[oó]lo pueden (formalizar|presentar)[^.]{0,60}(presupuestos|nominativ)/i.test(a.resumen || '') && !/^(?:[Ss]ubvenci[oó]n|[Aa]yuda|[Aa]portaci[oó]n) (?:a|al|para) (?:la |el )?[A-ZÑ]{2,}\b/.test(a.titulo));
+  ayudas = ayudas.filter((a) => !bdns.RUIDO.test(a.titulo) && !((String(a.id).startsWith('bdns-') || a.origen === 'boletines') && bdns.tituloDeEntidad(a.titulo)) && !/a efectos de mera noticia|se incluye en secci[oó]n de convocatorias para una mayor visibilidad/i.test(a.resumen || '') && !/no es una convocatoria (de subvenciones )?abierta|s[oó]lo pueden (formalizar|presentar)[^.]{0,60}(presupuestos|nominativ)/i.test(a.resumen || '') && !/^(?:[Ss]ubvenci[oó]n|[Aa]yuda|[Aa]portaci[oó]n) (?:a|al|para) (?:la |el )?[A-ZÑ]{2,}\b/.test(a.titulo));
   log(`Descartadas ${antes - ayudas.length} no solicitables`);
   // Líneas que no informan al solicitante: avisos en mayúsculas, códigos internos, enlaces a otras secciones
   const lineaUtil = (l) => {
