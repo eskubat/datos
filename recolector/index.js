@@ -177,6 +177,14 @@ function finDeTrozos(trozos, publicacion, vale, finaliza = false) {
 
 // Palabras significativas del título de una ayuda de Álava (para reconocer su anuncio en el BOTHA)
 const palabrasTitulo = (a) => [...new Set(norm(a.tituloOficial || a.titulo).split(/[^a-z0-9]+/).filter((w) => w.length > 5 && !/^(ayudas?|subvenc\w*|convocatoria|alaves\w*|entidades|desarrollo|realizacion|solicitar|territorio|historico|fomento|personas|diputacion|consejo|gobierno)$/.test(w)))];
+// Destinatarios que nombra un título (para no confundir líneas paralelas de una misma convocatoria)
+// qué se paga (inversiones frente a gastos de actividad o funcionamiento) y de qué sector
+const GRUPOS_DESTINATARIOS = { pymes: /\bpymes?\b|autonom/, esal: /sin animo de lucro|\besal\b/, locales: /cuadrilla|ayuntamiento|entidades locales|juntas administrativas|concejos?\b/ };
+const CONCEPTOS_GASTO = { inversiones: /inversion/, gastos: /gastos? (de|del) (la )?(actividad|funcionamiento)/ };
+const SECTORES = { turismo: /turistic|turismo/, comercio: /comerci/, industria: /industri/, agrario: /agrari|agricol|ganader|forestal/, cultura: /cultur/, deporte: /deport/ };
+const marcas = (tabla, titulo) => Object.keys(tabla).filter((g) => tabla[g].test(norm(titulo || '')));
+export const gruposDestinatarios = (titulo) => marcas(GRUPOS_DESTINATARIOS, titulo);
+const distintos = (x, y) => x.length && y.length && !x.some((g) => y.includes(g));
 // Anuncio del BOTHA de las ayudas de la sede de Álava que no lo traen enlazado: se busca en los sumarios del año
 // (boletines.sumariosBotha) la convocatoria de la Diputación cuyo título comparte más palabras con el de la ayuda
 // (al menos 2 y el 60 % de las del título), del año del título o posterior; si empatan, la más reciente. La
@@ -187,10 +195,17 @@ export function anuncioBothaAraba(a, sumarios) {
   const necesarias = Math.max(2, Math.ceil(palabras.length * 0.6));
   const anyoHoy = new Date().getUTCFullYear();
   const anyoTitulo = +((norm(a.tituloOficial || a.titulo).match(/\b(20\d\d)\b/) || [])[1] || 0);
+  const tituloAyuda = a.tituloOficial || a.titulo;
   let mejor = null;
   for (const e of sumarios) {
     const anyo = +String(e.publicacion || '').slice(0, 4);
     if (!anyo || anyo < anyoHoy - 1 || (anyoTitulo && anyo < anyoTitulo - 1)) continue;
+    // Otra línea de la misma familia (p. ej. inversiones turísticas de pymes y autónomos frente a las de entidades
+    // sin ánimo de lucro, sus gastos de actividad o las inversiones del comercio): si los dos títulos dicen a quién
+    // se dirigen, qué pagan o de qué sector son y no coinciden, no es su convocatoria
+    if (distintos(gruposDestinatarios(tituloAyuda), gruposDestinatarios(e.titulo))) continue;
+    if (distintos(marcas(CONCEPTOS_GASTO, tituloAyuda), marcas(CONCEPTOS_GASTO, e.titulo))) continue;
+    if (distintos(marcas(SECTORES, tituloAyuda), marcas(SECTORES, e.titulo))) continue;
     const t = norm(e.titulo);
     const n = palabras.filter((w) => t.includes(w)).length;
     if (n < necesarias) continue;

@@ -697,6 +697,18 @@
   "fuente": "BOTHA (sumarios) / sede de Álava",
   "quien": "Claude",
   "prioridad": 30,
+  "estado": "hecha",
+  "seccion": "fuentes",
+  "fecha": "2026-11-17",
+  "nota": "La búsqueda en los sumarios del BOTHA emparejaba por palabras sueltas y daba a las inversiones turísticas de entidades sin ánimo de lucro la orden de pymes y autónomos (213/2026); sin destinatario habría cogido la de gastos de actividad de ESAL (223/2026) o la de inversiones del comercio. Ahora anuncioBothaAraba descarta los anuncios que nombran otros destinatarios (pymes/autónomos, ESAL, cuadrillas y ayuntamientos), otro concepto (inversiones frente a gastos de actividad) u otro sector; en las 68 ayudas de Álava solo cambia esta, y se ha quitado su BOTHA erróneo de cache/botha_araba.json y de su documentación y se ha reabierto la ficha. La orden propia no está en los sumarios guardados (faltan los números 046 y 047, y la red de la sesión no llega a araba.eus); según la sede, la solicitud fue del 13/04 al 15/05/2026, así que no se espera ninguna ayuda nueva."
+ },
+ {
+  "id": "botha-sumarios-046-047",
+  "titulo": "Completar los sumarios del BOTHA que faltan en cache/botha_sumarios.json (2026-046, 2026-047 y 001-012)",
+  "detalle": "Los números 046 y 047 de 2026 (finales de abril) no están en cache/botha_sumarios.json y probablemente contienen la orden de inversiones turísticas de entidades sin ánimo de lucro de Álava. Comprobar en el registro del recolector si sumariosBotha los intenta y por qué falla (número extraordinario, PDF con otro nombre…), y que se reintenten sin gastar el cupo de 60 lecturas en los números 001-012.",
+  "fuente": "BOTHA (sumarios)",
+  "quien": "Claude",
+  "prioridad": 38,
   "estado": "pendiente",
   "seccion": "fuentes",
   "fecha": "2026-11-17",
