@@ -66,15 +66,42 @@ function parecido(a, b) {
   return comun / Math.max(1, Math.min(a.size, b.size));
 }
 
+// Página oficial sin protocolo, idioma ni barra final: lanbide.euskadi.eus/ayuda_subvencion/2026/partz/weblan00-content
+const paginaOficial = (u) => {
+  const s = String(u || '').toLowerCase().replace(/^https?:\/\//, '').replace(/^www\./, '').replace(/[?#].*$/, '').replace(/\/(?:es|eu)\/?$/, '').replace(/\/+$/, '');
+  // Solo páginas concretas (no la portada de un organismo ni el visor de la BDNS)
+  return s.split('/').length >= 3 && !/infosubvenciones\.es|pap\.hacienda\.gob\.es/.test(s) ? s : '';
+};
+// Código del BOPV (AAAANNNNNN) en un enlace al boletín: VerParalelo.do?cd2026004056, /bopv2/datos/2026/09/2604056a.pdf
+const codigoBopv = (u) => {
+  const s = String(u || '');
+  let m = s.match(/[?&]cd(20\d{2})(\d{6})\b/i);
+  if (m) return m[1] + m[2];
+  m = s.match(/bopv2\/datos\/(20\d{2})\/\d{2}\/(\d{2})(\d{5})a\./i);
+  return m ? m[1] + '0' + m[3] : '';
+};
+
 function unir(eus, bd) {
   const usados = new Set();
   const kE = eus.map((x) => claves(x.titulo));
+  // Misma convocatoria por dos fuentes: la de la BDNS enlaza a la misma página oficial o al mismo BOPV que una de
+  // euskadi.eus o de las sedes forales. Solo se unen si el enlace es de una única ayuda en cada lado (si un programa
+  // tiene varias líneas con la misma página, p. ej. pymes y grandes empresas, se dejan aparte).
+  const llaves = (x) => [paginaOficial(x.url) && 'p:' + paginaOficial(x.url), ...[x.boletin, x.bases, x.url].map(codigoBopv).filter(Boolean).map((c) => 'b:' + c)].filter(Boolean);
+  const cuenta = (lista) => { const m = new Map(); lista.forEach((x, i) => new Set(llaves(x)).forEach((k) => m.set(k, m.has(k) ? -1 : i))); return m; };
+  const porLlaveE = cuenta(eus), porLlaveB = cuenta(bd);
+  let porEnlace = 0;
   for (const b of bd) {
-    if (b.ambito.nivel !== 'euskadi') continue;
-    const kb = claves(b.titulo);
     let mejor = -1, score = 0;
-    kE.forEach((k, i) => { const s = parecido(kb, k); if (s > score) { score = s; mejor = i; } });
-    if (mejor >= 0 && score >= 0.7 && kb.size >= 3) {
+    for (const k of llaves(b)) { const i = porLlaveE.get(k); if (i >= 0 && porLlaveB.get(k) >= 0) { mejor = i; score = 1; break; } }
+    if (mejor >= 0) porEnlace++;
+    else {
+      if (b.ambito.nivel !== 'euskadi') continue;
+      const kb = claves(b.titulo);
+      kE.forEach((k, i) => { const s = parecido(kb, k); if (s > score) { score = s; mejor = i; } });
+      if (!(mejor >= 0 && score >= 0.7 && kb.size >= 3)) continue;
+    }
+    {
       const e = eus[mejor];
       e.bdns = e.bdns || b.bdns;
       e.bases = e.bases || b.bases;
@@ -86,6 +113,7 @@ function unir(eus, bd) {
       usados.add(b.id);
     }
   }
+  if (porEnlace) log(`BDNS: ${porEnlace} convocatorias unidas a la de euskadi.eus o la sede foral por la misma página oficial o el mismo BOPV`);
   return [...eus, ...bd.filter((b) => !usados.has(b.id))];
 }
 

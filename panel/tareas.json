@@ -183,9 +183,10 @@
   "fuente": "Recolector",
   "quien": "Claude",
   "prioridad": 15,
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "revision",
-  "fecha": "2026-11-16"
+  "fecha": "2026-11-17",
+  "nota": "El recolector une ahora una convocatoria de la BDNS con la de euskadi.eus o la sede foral cuando enlazan a la misma página oficial o al mismo BOPV (solo si ese enlace es de una única ayuda en cada lado, para no mezclar líneas como Gauzatu pymes y grandes empresas), y se queda con la de euskadi.eus. Con los datos de hoy desaparecen bdns-934169 (parcialidad, BOPV 2026004056) y bdns-923970 (conciliación), que repetían dos de Lanbide; no entran ayudas nuevas. Las fichas de euskadi.eus siguen en cache/excluidas.json hasta que decidas sus cuestiones de «Para ti» (ambas proponen quedarse con la de euskadi.eus); la primera prueba real será el recolector de las 05:41."
  },
  {
   "id": "ajustes-ayudas",
