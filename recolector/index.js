@@ -16,6 +16,7 @@ import { aplicarTitulos } from './titulos.js';
 import { convocatoriasUE, ayudasDirectasUE } from './europa.js';
 import { esPosibleNoticia, cotejar, extras, separar } from './noticias.js';
 import { prepararProximas, aplicarProximas } from './proximas.js';
+import { detectarParecidas } from './parecidas.js';
 
 const SALIDA = path.resolve('publico');
 const FUENTES = [
@@ -691,6 +692,8 @@ async function main() {
     fs.mkdirSync(SALIDA, { recursive: true });
     fs.writeFileSync(path.join(SALIDA, 'revision.json'), JSON.stringify({ generado: new Date().toISOString(), noticias: revision }, null, 1));
   }
+  // Posibles repetidas o muy parecidas: las revisa la tarea de fichas (docs/RESUMIR.md); si falla, no para el resto
+  try { detectarParecidas(ayudas, log); } catch (e) { log(`Parecidas: ${e.message}`); }
   const porAmbito = ayudas.reduce((m, a) => { m[a.ambito.nivel] = (m[a.ambito.nivel] || 0) + 1; return m; }, {});
   const porEstado = ayudas.reduce((m, a) => { m[a.estado] = (m[a.estado] || 0) + 1; return m; }, {});
   const meta = { version: 1, generado: new Date().toISOString(), total: ayudas.length, porAmbito, porEstado, previstas: previstas.length, fuentes: estadoFuentes, enlaces: enlacesInfo };
