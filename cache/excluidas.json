@@ -433,5 +433,15 @@
   "parecidaA": "ara-ayudas-directas-para-el-transporte-terrestre-por-carretera-p",
   "motivo": "Las dos son de la DFA y del RDL 7/2026 (gasóleo de transportistas por carretera, 0,20 €/l, art. 58); esta es la declaración responsable METSAF de los beneficiarios de los arts. 55 y 58, no una solicitud aparte.",
   "fecha": "2026-11-17"
+ },
+ "ara-ayudas-turismo-actividad-cuadrillas-2026": {
+  "parecidaA": "ara-ayudas-turismo-actividad-ayuntamientos-2026",
+  "motivo": "Misma convocatoria de la DFA (gastos de actividad turística 2026) llegada por dos trámites de la sede: mismo servicio, finalidad y plazos; la de cuadrillas incluye también a ayuntamientos con oficina de turismo.",
+  "fecha": "2026-11-17"
+ },
+ "ara-ayudas-turismo-actividad-ayuntamientos-2026": {
+  "parecidaA": "ara-ayudas-turismo-actividad-cuadrillas-2026",
+  "motivo": "Misma convocatoria de la DFA (gastos de actividad turística 2026) que la de cuadrillas, llegada por otro trámite de la sede; solicitantes ayuntamientos frente a cuadrillas y ayuntamientos.",
+  "fecha": "2026-11-17"
  }
 }
