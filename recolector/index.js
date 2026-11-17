@@ -281,14 +281,31 @@ async function main() {
   {
     const ids = new Set(ayudas.map((a) => a.id));
     const kAy = ayudas.map((a) => ({ k: claves(a.titulo), amb: a.ambito.nombre }));
-    let dup = 0;
+    let dup = 0, conFecha = 0;
+    // Convocatorias de la BDNS sin fecha de publicación (muchas municipales de Bizkaia) cuyo plazo cuenta desde
+    // ella: se toma la fecha del anuncio en el boletín (mismo código BDNS o, si es de la BDNS, mismo título en el
+    // mismo ámbito) para que finDelTexto pueda calcular el cierre. Si la BDNS no trae el cierre, vale el del boletín.
+    const fechaDelBoletin = (a, b) => {
+      if (!a || a.publicacion || !b.publicacion || !String(a.id).startsWith('bdns-')) return;
+      a.publicacion = b.publicacion; a.publicacionFuente = (b.fuentes && b.fuentes[0] && b.fuentes[0].nombre) || 'Boletín oficial'; conFecha++;
+      if (!a.fin && b.fin && !a.permanente) { a.fin = b.fin; a.inicio = a.inicio || b.inicio; a.finCalculado = true; }
+    };
+    // Por título solo si es casi igual y único en ese ámbito, y después de los cruces por código (que mandan)
+    const porTitulo = [];
     for (const b of resultados.boletines || []) {
-      if (b.bdnsRef && ids.has('bdns-' + b.bdnsRef)) { dup++; continue; }
+      if (b.bdnsRef && ids.has('bdns-' + b.bdnsRef)) { dup++; fechaDelBoletin(ayudas.find((a) => a.id === 'bdns-' + b.bdnsRef), b); continue; }
       const kb = claves(b.titulo);
-      if (kAy.some((x) => x.amb === b.ambito.nombre && parecido(kb, x.k) >= 0.6)) { dup++; continue; }
+      const i = kAy.findIndex((x) => x.amb === b.ambito.nombre && parecido(kb, x.k) >= 0.6);
+      if (i >= 0) {
+        dup++;
+        const casi = kAy.map((x, j) => (x.amb === b.ambito.nombre && parecido(kb, x.k) >= 0.8 ? j : -1)).filter((j) => j >= 0);
+        if (!b.bdnsRef && casi.length === 1) porTitulo.push([ayudas[casi[0]], b]);
+        continue;
+      }
       ayudas.push(b);
     }
-    log(`Boletines: ${(resultados.boletines || []).length - dup} ayudas nuevas (${dup} ya estaban por otras fuentes)`);
+    for (const [a, b] of porTitulo) fechaDelBoletin(a, b);
+    log(`Boletines: ${(resultados.boletines || []).length - dup} ayudas nuevas (${dup} ya estaban por otras fuentes; ${conFecha} de la BDNS toman la fecha de publicación del boletín)`);
   }
   // Prestaciones permanentes: solo las que no llegan ya por otra fuente (misma página o mismo título en el mismo ámbito)
   {

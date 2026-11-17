@@ -538,8 +538,9 @@
   "prioridad": 26,
   "fuente": "Plan de mejora (cola-plazo-cerrado)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-16"
+  "estado": "hecha",
+  "fecha": "2026-11-17",
+  "nota": "De 187 convocatorias de la BDNS, 121 llegan sin fecha de publicación; 32 tienen su anuncio en los sumarios del BOB guardados (45 días) con el mismo código BDNS. El recolector ahora les pone la fecha del anuncio del BOB (o del boletín con título casi igual en el mismo ámbito si el anuncio no trae código) y, si la BDNS no da cierre, el que calcula el boletín; con los textos actuales se espera el cierre de unas 8 de las 16 que estaban sin fecha (5 de ellas ya cerradas, que dejarán de salir como abiertas). Las del ejemplo (929190, 930617…) son anteriores a los 45 días del BOB y no se cubren."
  },
  {
   "id": "araba-plazo-botha",
@@ -650,6 +651,17 @@
   "estado": "pendiente",
   "seccion": "datos",
   "prioridad": 34,
+  "fecha": "2026-11-17"
+ },
+ {
+  "id": "bdns-fecha-bob-antiguas",
+  "titulo": "Fecha de publicación de las convocatorias de la BDNS anteriores a los 45 días del BOB",
+  "detalle": "Unas 90 convocatorias de la BDNS siguen sin fecha de publicación porque su anuncio es anterior a los sumarios del BOB que se guardan (bdns-929190, 930617, 927161, 929139, 925769…). Buscar su anuncio en el BOB por el código BDNS (una vez por convocatoria, con caché) y guardar la fecha para calcular el cierre.",
+  "seccion": "fuentes",
+  "prioridad": 35,
+  "fuente": "Plan de mejora (bdns-fecha-bob)",
+  "quien": "Claude",
+  "estado": "pendiente",
   "fecha": "2026-11-17"
  }
 ]
