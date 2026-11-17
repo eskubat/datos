@@ -634,8 +634,9 @@
   "prioridad": 32,
   "fuente": "Tarea de resúmenes (17/11)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-17"
+  "estado": "hecha",
+  "fecha": "2026-11-17",
+  "nota": "Las fichas de la sede de Álava traen un plazo por trámite en pestanas.pestanaPresentacionDelTramite.tramites.tramite[].plazoPresentacion.plazo. recolector/forales.js toma ahora el plazo de los trámites de solicitud (Solicitud, «Convocatoria … - Solicitud»; no pago, justificación, anticipo…), prefiriendo uno abierto, y solo si no hay ninguno usa el del procedimiento; las fichas en caché sin ese dato se vuelven a pedir una vez. Se espera que salgan como cerradas unas 6 ayudas de Álava con la solicitud ya vencida (cosecha en verde, becas Fuentes Documentales, inversiones en explotaciones, fruticultura, formación y atención sociosanitaria); la sesión no llega a egoitza.araba.eus, así que la primera prueba real será el recolector de las 05:41."
  },
  {
   "id": "ue-cascada-revisar",

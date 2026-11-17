@@ -215,6 +215,37 @@ export function fichaAraba(obj) {
   return { texto: lineas.join('\n'), docs };
 }
 
+// Plazo del trámite de solicitud de una ficha de la sede de Álava. La ficha trae el plazo del
+// procedimiento (cabecera, el mismo del listado) y uno por trámite en
+// pestanas.pestanaPresentacionDelTramite.tramites.tramite[].plazoPresentacion.plazo: «Solicitud»
+// (o «Convocatoria … - Solicitud») puede estar CERRADO mientras el procedimiento sigue ABIERTO
+// por la justificación o la solicitud de pago. Devuelve {texto, cerrado} con el plazo de los
+// trámites de solicitud (los abiertos si hay alguno) o null si la ficha no trae ninguno.
+const NO_SOLICITUD = /pago|abono|justifica|anticipo|modifica|renuncia|prorroga|subsana|desist|liquida|cambio|alegaci|recurso|aceptaci|reintegro|cesion|baja/;
+export function plazoSolicitudAraba(obj) {
+  const pt = obj && obj.pestanas && obj.pestanas.pestanaPresentacionDelTramite;
+  let ts = pt && pt.tramites && pt.tramites.tramite;
+  if (!ts) return null;
+  if (!Array.isArray(ts)) ts = [ts];
+  const sol = [];
+  for (const t of ts) {
+    const nombre = norm(texto(entidades(String(((t && t.detalleTramite) || {}).denominacionTramite || '')))).trim();
+    if (!/\bsolicitud\b/.test(nombre) || NO_SOLICITUD.test(nombre)) continue;
+    const pl = (t.plazoPresentacion && t.plazoPresentacion.plazo) || null;
+    if (!pl) continue;
+    const desc = texto(entidades(String(pl.descripcionPlazo || ''))).replace(/\s+/g, ' ').trim();
+    const amp = texto(entidades(String(pl.descripcionPlazoAmpliada || ''))).replace(/\s+/g, ' ').trim();
+    const cerrado = pl.enPlazo === 'N' || /fuera de plazo|cerrad/i.test(String(pl.estado || '')) || /^\s*cerrad/i.test(desc);
+    // En un trámite cerrado se marca cada línea como CERRADO para que fechaTexto no la tome por abierta
+    const lineas = [desc, amp].filter(Boolean).map((l) => (cerrado && !/^\s*cerrad/i.test(l) ? 'CERRADO ' + l : l));
+    if (lineas.length || cerrado) sol.push({ lineas, cerrado });
+  }
+  if (!sol.length) return null;
+  const abiertos = sol.filter((x) => !x.cerrado);
+  const usar = abiertos.length ? abiertos : sol;
+  return { texto: usar.flatMap((x) => x.lineas).join('\n') || 'CERRADO', cerrado: !abiertos.length };
+}
+
 async function fichasSedeAraba(tramites, cab, guardar, log) {
   let cache = {};
   try { cache = JSON.parse(fs.readFileSync(CACHE_FA, 'utf8')); } catch {}
@@ -236,7 +267,8 @@ async function fichasSedeAraba(tramites, cab, guardar, log) {
   };
   await enParalelo(tramites, 2, async (f) => {
     const c = cache[f.url];
-    if (c && c.fecha >= limite && c.texto) { f.ficha = c.texto; f.docs = c.docs || []; return; }
+    // Las entradas guardadas antes de leer el plazo de solicitud (sin plazoSol) se vuelven a pedir
+    if (c && c.fecha >= limite && c.texto && 'plazoSol' in c) { f.ficha = c.texto; f.docs = c.docs || []; f.plazoSol = c.plazoSol; return; }
     let obj = null, html = '', st1 = 0, post = '', st2 = 0;
     try {
       const r = await fetch(f.url, { headers: cab('text/html,application/xhtml+xml'), redirect: 'follow' });
@@ -259,8 +291,8 @@ async function fichasSedeAraba(tramites, cab, guardar, log) {
     const fa = obj ? fichaAraba(obj) : null;
     if (!(fa && fa.texto.length > 200)) guardarMuestra(f, html, st1, post, st2);
     if (fa && fa.texto.length > 200) {
-      f.ficha = fa.texto; f.docs = fa.docs;
-      cache[f.url] = { fecha: hoy, texto: fa.texto.slice(0, 60000), docs: fa.docs.slice(0, 15) };
+      f.ficha = fa.texto; f.docs = fa.docs; f.plazoSol = plazoSolicitudAraba(obj);
+      cache[f.url] = { fecha: hoy, texto: fa.texto.slice(0, 60000), docs: fa.docs.slice(0, 15), plazoSol: f.plazoSol };
       nuevas++;
     } else fallos++;
     await new Promise((ok) => setTimeout(ok, 500));
@@ -305,6 +337,17 @@ async function sedeAraba(log) {
   });
   // Contenido de cada ficha (si falla, el trámite sigue entrando con lo del listado)
   try { await fichasSedeAraba(tramites, cab, guardar, log); } catch (e) { log(`Araba/Álava (sede): no se pudieron leer las fichas (${e.message})`); }
+  // Plazo: el del trámite «Solicitud» de la ficha si lo trae; si no, el del procedimiento (listado)
+  let conSol = 0, solCerrada = 0;
+  for (const f of tramites) {
+    if (!f.plazoSol) continue;
+    conSol++;
+    if (f.plazoSol.cerrado) solCerrada++;
+    f.plazoProcedimiento = f.plazo;
+    f.plazo = f.plazoSol.texto;
+    f.fin = fechaTexto(f.plazo);
+  }
+  log(`Araba/Álava (sede): ${conSol} fichas con plazo del trámite de solicitud (${solCerrada} con la solicitud cerrada)`);
   return tramites;
 }
 
@@ -330,7 +373,8 @@ export async function araba(log) {
   const clave = (u) => norm(decodeURIComponent(u.split('/fitxa/')[1] || u)).replace(/[^a-z0-9]+/g, '-');
   for (const f of sede) {
     const prev = out.find((x) => clave(x.url) === clave(f.url));
-    if (prev) Object.assign(prev, { tema: f.tema, finalidad: f.finalidad, plazo: prev.plazo || f.plazo, fin: prev.fin || f.fin, ficha: f.ficha, docs: f.docs });
+    // El plazo del trámite de solicitud de la ficha manda sobre el de la página de destacadas
+    if (prev) Object.assign(prev, { tema: f.tema, finalidad: f.finalidad, plazo: f.plazoSol ? f.plazo : prev.plazo || f.plazo, fin: f.plazoSol ? f.fin : prev.fin || f.fin, plazoProcedimiento: f.plazoProcedimiento, ficha: f.ficha, docs: f.docs });
     else out.push(f);
   }
   // Id: 'ara-' + el friendlyUrl normalizado y cortado a 60 caracteres. Si dos trámites distintos
@@ -355,7 +399,7 @@ export async function araba(log) {
     resumen: f.finalidad ? f.finalidad.slice(0, 600) : '',
     dirigido: '',
     para: paraDeTexto(f.titulo + ' ' + (f.finalidad || '')),
-    _texto: [f.titulo, f.plazo, f.tema, f.finalidad].filter(Boolean).join('\n'),
+    _texto: [f.titulo, f.plazo, f.plazoProcedimiento ? 'Plazo del procedimiento: ' + f.plazoProcedimiento : '', f.tema, f.finalidad].filter(Boolean).join('\n'),
     temas: temasDe(f.titulo + ' ' + (f.tema || '') + ' ' + (f.finalidad || '')),
     url: f.url,
     fuentes: [{ nombre: 'Sede electrónica de Álava', url: f.url }],
