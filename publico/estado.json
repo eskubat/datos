@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generado": "2026-11-17T04:09:49.237Z",
-  "total": 450,
+  "generado": "2026-11-17T04:56:55.636Z",
+  "total": 449,
   "porAmbito": {
     "euskadi": 89,
-    "municipio": 160,
+    "municipio": 166,
     "estado": 61,
-    "territorio": 125,
-    "ue": 15
+    "territorio": 117,
+    "ue": 16
   },
   "porEstado": {
-    "abierta": 321,
-    "proxima": 28,
-    "sinfecha": 101
+    "abierta": 315,
+    "proxima": 29,
+    "sinfecha": 105
   },
   "previstas": 675,
   "fuentes": {
@@ -20,42 +20,42 @@
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
       "registros": 134,
-      "segundos": 33,
+      "segundos": 37,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
-      "registros": 25,
-      "segundos": 17,
+      "registros": 0,
+      "segundos": 2,
       "erroresFicha": 0
     },
     "araba": {
       "nombre": "Diputación Foral de Álava (ayudas en vigor)",
       "ok": true,
       "registros": 144,
-      "segundos": 434,
+      "segundos": 476,
       "erroresFicha": 0
     },
     "bdns": {
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
       "registros": 806,
-      "segundos": 134,
+      "segundos": 182,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
-      "registros": 147,
-      "segundos": 9,
+      "registros": 148,
+      "segundos": 20,
       "erroresFicha": 0
     },
     "prestaciones": {
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 17,
-      "segundos": 16,
+      "segundos": 22,
       "erroresFicha": 0
     },
     "europa": {
@@ -66,9 +66,9 @@
     }
   },
   "enlaces": {
-    "comprobados": 718,
-    "rotos": 3,
+    "comprobados": 717,
+    "rotos": 4,
     "sustituidos": 1,
-    "quitados": 3
+    "quitados": 4
   }
 }
