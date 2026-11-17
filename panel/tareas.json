@@ -313,8 +313,10 @@
   "fuente": "BDNS",
   "quien": "Claude",
   "prioridad": 18,
-  "estado": "pendiente",
-  "seccion": "fuentes"
+  "estado": "hecha",
+  "seccion": "fuentes",
+  "fecha": "2026-11-17",
+  "nota": "La búsqueda diaria de la BDNS solo llega a 120 días y la API no filtra por plazo abierto. Ahora el histórico semanal guarda en cache/bdns_anio.json las convocatorias de Euskadi del último año y el lector diario pide la ficha de las anteriores a 120 días (máx. 250 nuevas al día, con caché en cache/bdns_antiguas.json para no repetir las cerradas) y añade las que siguen abiertas, como Ciberseguridad Industrial 2026 (bdns-906384). Se esperan unas decenas de ayudas más; la primera prueba real es la ejecución del histórico que lanza este push (la red de la sesión no llega a la BDNS; probado con datos simulados)."
  },
  {
   "id": "red-spri",

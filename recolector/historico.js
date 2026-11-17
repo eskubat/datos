@@ -9,6 +9,10 @@ import { clasifica, RUIDO, limpiaTitulo } from './bdns.js';
 const API = 'https://www.infosubvenciones.es/bdnstrans/api';
 const OD = 'https://opendata.euskadi.eus/contenidos/ds_ayudas_subvenciones';
 const AÑOS_ATRAS = 3;
+// Convocatorias de Euskadi del último año que se guardan en cache/bdns_anio.json para que el lector diario
+// de la BDNS (que solo busca los últimos 120 días) recoja las antiguas que siguen abiertas
+const DIAS_ABIERTAS = 365;
+const BDNS_AÑO = [];
 const log = (m) => console.log(new Date().toISOString().slice(11, 19), m);
 
 // Clave estable de una línea de ayuda: título sin años, ediciones ni números
@@ -32,6 +36,7 @@ async function bdnsHistorico() {
   }
   const out = [];
   let revisadas = 0;
+  const desdeAbiertas = new Date(Date.now() - DIAS_ABIERTAS * 864e5).toISOString().slice(0, 10);
   await enParalelo(meses, 2, async ([ini, fin]) => {
     for (let p = 0; p < 200; p++) {
       const r = await pedir(`${API}/convocatorias/busqueda?vpd=GE&page=${p}&pageSize=200&fechaDesde=${encodeURIComponent(ddmmyyyy(ini))}&fechaHasta=${encodeURIComponent(ddmmyyyy(fin))}&order=fechaRecepcion&direccion=desc`, { json: true });
@@ -40,6 +45,10 @@ async function bdnsHistorico() {
       for (const it of c) {
         const amb = clasifica(it.nivel1, it.nivel2, it.nivel3);
         if (!amb || amb.nivel === 'estado' || RUIDO.test(it.descripcion || '')) continue;
+        // Convocatorias del último año: el lector diario de la BDNS mira si alguna sigue abierta (tarea bdns-abiertas-antiguas)
+        if ((iso(it.fechaRecepcion) || '') >= desdeAbiertas) {
+          BDNS_AÑO.push({ numeroConvocatoria: it.numeroConvocatoria, descripcion: it.descripcion, descripcionLeng: it.descripcionLeng || '', nivel1: it.nivel1, nivel2: it.nivel2, nivel3: it.nivel3, fechaRecepcion: it.fechaRecepcion });
+        }
         out.push({ titulo: limpiaTitulo(it.descripcion), organismo: frase(it.nivel3 || it.nivel2 || ''), ambito: amb, fecha: iso(it.fechaRecepcion), bdns: String(it.numeroConvocatoria) });
       }
       if (!c.length || r.last === true || c.length < 200) break;
@@ -111,6 +120,12 @@ async function main() {
   const porAmbito = lineas.reduce((m, l) => { m[l.ambito.nivel] = (m[l.ambito.nivel] || 0) + 1; return m; }, {});
   fs.mkdirSync('publico', { recursive: true });
   fs.writeFileSync(path.join('publico', 'historico.json'), JSON.stringify({ generado: new Date().toISOString(), registros: regs.length, lineas }));
+  if (BDNS_AÑO.length) {
+    fs.mkdirSync('cache', { recursive: true });
+    BDNS_AÑO.sort((a, b) => String(b.fechaRecepcion).localeCompare(String(a.fechaRecepcion)));
+    fs.writeFileSync(path.join('cache', 'bdns_anio.json'), JSON.stringify({ generado: new Date().toISOString(), convocatorias: BDNS_AÑO }));
+    log(`BDNS del último año guardadas para el lector diario: ${BDNS_AÑO.length}`);
+  }
   log(`Líneas que se repiten: ${lineas.length} · ${JSON.stringify(porAmbito)}`);
 }
 

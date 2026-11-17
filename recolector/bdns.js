@@ -1,11 +1,23 @@
 // Fuente: Base de Datos Nacional de Subvenciones (InfoSubvenciones).
 // Recoge convocatorias del Gobierno Vasco, las diputaciones forales y los ayuntamientos de Euskadi.
+import fs from 'node:fs';
+import path from 'node:path';
 import { pedir, norm, frase, iso, enParalelo, temasDe, paraDeTexto, TERRS, MUNI_IDX } from './comun.js';
 
 const BASES = ['https://www.infosubvenciones.es/bdnstrans/api', 'https://www.pap.hacienda.gob.es/bdnstrans/api'];
 const DIAS_ATRAS = 120;
 const PAGE_SIZE = 200;
 const MAX_PAGINAS = 120;
+// Convocatorias antiguas que siguen abiertas (tarea bdns-abiertas-antiguas, 17/11): la búsqueda diaria solo llega a
+// los últimos DIAS_ATRAS días y se perdían convocatorias como Ciberseguridad Industrial 2026 de SPRI (bdns-906384,
+// publicada en mayo y abierta hasta el 23/11). El histórico semanal (historico.js) guarda en cache/bdns_anio.json las
+// convocatorias de Euskadi del último año; aquí se pide la ficha de las anteriores a DIAS_ATRAS y se quedan las que
+// tienen el plazo abierto. cache/bdns_antiguas.json recuerda lo visto para no repetir peticiones: las cerradas con fecha
+// no se vuelven a pedir y las que no traen fecha se repasan cada DIAS_REPASO días. Como mucho MAX_ANTIGUAS fichas nuevas al día.
+const CACHE_AÑO = path.join('cache', 'bdns_anio.json');
+const CACHE_ANTIGUAS = path.join('cache', 'bdns_antiguas.json');
+const MAX_ANTIGUAS = 250;
+const DIAS_REPASO = 30;
 
 async function api(path) {
   let last;
@@ -184,6 +196,46 @@ function paraBDNS(benef) {
   return [...out];
 }
 
+const primeraFicha = (d) => { if (Array.isArray(d)) d = d[0] || {}; if (d && d.content && Array.isArray(d.content)) d = d.content[0] || {}; return d || {}; };
+
+async function antiguasAbiertas(yaEnIndice, desde, log) {
+  let año;
+  try { año = JSON.parse(fs.readFileSync(CACHE_AÑO, 'utf8')); } catch { log('BDNS antiguas abiertas: aún no hay cache/bdns_anio.json (lo crea el histórico semanal)'); return []; }
+  let vistas = {};
+  try { vistas = JSON.parse(fs.readFileSync(CACHE_ANTIGUAS, 'utf8')); } catch {}
+  const hoy = new Date().toISOString().slice(0, 10);
+  const limite = desde.toISOString().slice(0, 10);
+  const repaso = new Date(Date.now() - DIAS_REPASO * 864e5).toISOString().slice(0, 10);
+  const candidatas = [];
+  const sinPedir = [];
+  for (const it of año.convocatorias || []) {
+    const num = String(it.numeroConvocatoria || '');
+    if (!num || yaEnIndice.has(num) || (iso(it.fechaRecepcion) || '') >= limite) continue;
+    const amb = clasifica(it.nivel1, it.nivel2, it.nivel3);
+    if (!amb || amb.nivel === 'estado' || RUIDO.test(it.descripcion || '') || tituloDeEntidad(limpiaTitulo(it.descripcion || ''))) continue;
+    const v = vistas[num];
+    if (v && v.fin && v.fin < hoy) continue; // cerrada: no se vuelve a pedir
+    if (v && !v.fin && !v.abierta && v.visto >= repaso) continue; // sin fecha y no abierta: se repasa más adelante
+    if (v) candidatas.push({ it, amb, num }); else sinPedir.push({ it, amb, num });
+  }
+  // Primero las abiertas conocidas (se piden cada día para tener la ficha al día) y luego las nuevas, las más recientes antes
+  const lote = [...candidatas, ...sinPedir.slice(0, Math.max(0, MAX_ANTIGUAS - candidatas.length))];
+  const det = await enParalelo(lote, 3, ({ num }) => api(`/convocatorias?vpd=GE&numConv=${num}`));
+  const out = [];
+  lote.forEach((c, k) => {
+    if (!det[k] || det[k].error) return;
+    const d = primeraFicha(det[k]);
+    const fin = iso(d.fechaFinSolicitud);
+    const abiertaFuente = d.abierto === true || d.abierto === 'true' || d.abierto === 'S';
+    const abierta = fin ? fin >= hoy : abiertaFuente;
+    vistas[c.num] = { fin: fin || null, abierta, visto: hoy };
+    if (abierta) out.push({ it: c.it, amb: c.amb, d: det[k] });
+  });
+  try { fs.mkdirSync('cache', { recursive: true }); fs.writeFileSync(CACHE_ANTIGUAS, JSON.stringify(vistas)); } catch {}
+  log(`BDNS antiguas abiertas: ${lote.length} fichas pedidas (${sinPedir.length} sin revisar aún), ${out.length} siguen abiertas`);
+  return out;
+}
+
 export async function recoger(log) {
   const desde = new Date(Date.now() - DIAS_ATRAS * 864e5);
   const indice = [];
@@ -210,6 +262,11 @@ export async function recoger(log) {
   for (const [k, n] of Object.entries(diag).sort((a, b) => b[1] - a[1]).slice(0, 40)) log(`  diag ${n} · ${k}`);
 
   const det = await enParalelo(indice, 3, ({ it }) => api(`/convocatorias?vpd=GE&numConv=${it.numeroConvocatoria}`));
+  // Antiguas que siguen abiertas: se añaden al índice con su ficha ya descargada
+  let antiguas = [];
+  try { antiguas = await antiguasAbiertas(new Set(indice.map(({ it }) => String(it.numeroConvocatoria))), desde, log); }
+  catch (e) { log(`BDNS antiguas abiertas: no se han podido revisar (${e.message || e})`); }
+  for (const a of antiguas) { indice.push({ it: a.it, amb: a.amb }); det.push(a.d); }
   const estatalOk = (d) => (d.regiones || []).some((r) => /^ES\s*-|^ES2(1\d?)?\s*-/.test(String(r.descripcion || '').trim()));
   let fueraEstado = 0;
   return indice.map(({ it, amb }, k) => {
