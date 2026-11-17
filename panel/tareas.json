@@ -621,8 +621,10 @@
   "fuente": "Diputación Foral de Bizkaia",
   "quien": "Claude",
   "prioridad": 31,
-  "estado": "pendiente",
-  "seccion": "fuentes"
+  "estado": "hecha",
+  "seccion": "fuentes",
+  "fecha": "2026-11-17",
+  "nota": "La PVPEI (Decreto Foral 58/2023, modificado después) se pide a instancia de parte y sin plazo, pero exige estar ya en un proceso de inclusión en los servicios especializados forales (con reconocimiento de exclusión o derivación desde infancia) y contar con la prescripción técnica del profesional de referencia. No la puede pedir cualquier persona por su cuenta, así que no se añade a cache/prestaciones.json: 0 ayudas nuevas."
  },
  {
   "id": "araba-plazo-tramite-solicitud",
