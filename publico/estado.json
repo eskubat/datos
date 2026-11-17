@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generado": "2026-11-17T18:30:18.708Z",
-  "total": 478,
+  "generado": "2026-11-17T18:54:54.382Z",
+  "total": 464,
   "porAmbito": {
     "euskadi": 93,
-    "territorio": 129,
-    "municipio": 158,
+    "territorio": 111,
+    "municipio": 163,
     "estado": 66,
-    "ue": 32
+    "ue": 31
   },
   "porEstado": {
-    "abierta": 347,
-    "proxima": 44,
-    "sinfecha": 87
+    "abierta": 341,
+    "proxima": 43,
+    "sinfecha": 80
   },
   "previstas": 676,
   "fuentes": {
@@ -20,35 +20,35 @@
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
       "registros": 136,
-      "segundos": 83,
+      "segundos": 32,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 25,
-      "segundos": 21,
+      "segundos": 18,
       "erroresFicha": 0
     },
     "araba": {
       "nombre": "Diputación Foral de Álava (ayudas en vigor)",
       "ok": true,
       "registros": 143,
-      "segundos": 19,
+      "segundos": 18,
       "erroresFicha": 0
     },
     "bdns": {
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
       "registros": 780,
-      "segundos": 159,
+      "segundos": 154,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 148,
-      "segundos": 11,
+      "segundos": 8,
       "erroresFicha": 0
     },
     "prestaciones": {
@@ -61,12 +61,12 @@
     "europa": {
       "nombre": "Funding & Tenders Portal (Comisión Europea), convocatorias sin consorcio",
       "ok": true,
-      "registros": 28,
+      "registros": 27,
       "erroresFicha": 0
     }
   },
   "enlaces": {
-    "comprobados": 719,
+    "comprobados": 705,
     "rotos": 3,
     "sustituidos": 1,
     "quitados": 3
