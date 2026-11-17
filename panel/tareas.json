@@ -513,8 +513,10 @@
   "fuente": "Agencias de desarrollo comarcal",
   "quien": "Claude",
   "prioridad": 24,
-  "estado": "pendiente",
-  "seccion": "fuentes"
+  "estado": "bloqueada",
+  "seccion": "fuentes",
+  "fecha": "2026-11-17",
+  "nota": "No he podido leer dirulaguntzak.oarsoaldea.eus: la red de la sesión rechaza el dominio y la petición de permiso de WebFetch caduca sin respuesta, así que no veo el HTML de las páginas erakunde/<n> y escribir el lector a ciegas sería inventar su estructura. No hay cambios en el código ni ayudas nuevas; queda pendiente de que se permita el dominio (tarea «Permitir dirulaguntzak.oarsoaldea.eus»)."
  },
  {
   "id": "pcv-vigencia",
@@ -636,5 +638,15 @@
   "estado": "pendiente",
   "seccion": "fuentes",
   "prioridad": 33
+ },
+ {
+  "id": "red-oarsoaldea",
+  "titulo": "Permitir dirulaguntzak.oarsoaldea.eus en la red de las tareas programadas",
+  "detalle": "Para escribir y probar el lector del catálogo de Oarsoaldea la tarea tiene que poder leer dirulaguntzak.oarsoaldea.eus (y, si se quiere revisar más agencias, debegesa.eus, inguralde.com y behargintza.eus). En claude.ai: Ajustes > Capacidades, añadir esos dominios a los permitidos. Después, reabrir la tarea «Leer el catálogo de ayudas de Oarsoaldea».",
+  "fuente": "Agencias de desarrollo comarcal",
+  "quien": "Tú",
+  "prioridad": 34,
+  "estado": "pendiente",
+  "seccion": "fuentes"
  }
 ]
