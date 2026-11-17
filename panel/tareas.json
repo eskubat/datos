@@ -610,8 +610,9 @@
   "prioridad": 30,
   "fuente": "Plan de mejoras (17/11)",
   "quien": "Claude",
-  "estado": "en_curso",
-  "fecha": "2026-11-17"
+  "estado": "bloqueada",
+  "fecha": "2026-11-17",
+  "nota": "Un sondeo desde GitHub Actions muestra que lacaixafoundation.org y fundacionlacaixa.org responden 403 con un desafío de Cloudflare (cf-mitigated: challenge) tanto al EskubatBot como a un navegador simulado, en los PDF de bases y en las páginas de la convocatoria; no hay forma legítima de pasarlo sin un navegador real, así que no he cambiado recolector/enlaces.js. El BOE aún no ha publicado el anuncio de las convocatorias 2027 de posgrado e INPhINIT (sí el de Junior Leader 2027, BOE-B-2026-25830), que sería una fuente oficial accesible; dejo la decisión en «Para ti» y una tarea para añadir ese anuncio cuando salga."
  },
  {
   "id": "bizkaia-pvpei",
@@ -688,5 +689,16 @@
   "seccion": "fuentes",
   "fecha": "2026-11-17",
   "nota": "Añadida al plan de mejoras"
+ },
+ {
+  "id": "lacaixa-boe-2027",
+  "titulo": "Añadir el anuncio del BOE de las becas «la Caixa» 2027 (posgrado e INPhINIT) como documento de la convocatoria",
+  "detalle": "Las webs de la Fundación «la Caixa» bloquean al recolector con un desafío de Cloudflare. Cuando el BOE publique el anuncio de las convocatorias 2027 de Becas de posgrado en el extranjero y de doctorado INPhINIT (Incoming y Retaining) —en años anteriores salía en diciembre—, añadir su URL en cache/docs_extra.json a extra-fund-lacaixa-posgrado-extranjero-2027, extra-fund-lacaixa-inphinit-incoming-2027 y extra-fund-lacaixa-inphinit-retaining-2027 para que las fichas tengan plazo y datos de una fuente oficial que sí se puede leer.",
+  "seccion": "fuentes",
+  "prioridad": 38,
+  "fuente": "Plan de mejoras (17/11)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-17"
  }
 ]
