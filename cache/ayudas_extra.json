@@ -256,5 +256,42 @@
     "para": [
       "particular"
     ]
+  },
+  {
+    "id": "extra-dfa-indemnizaciones-ataques-lobo-buitre",
+    "titulo": "Indemnizaciones por daños al ganado causados por lobo ibérico, buitre leonado y otras especies silvestres",
+    "url": "https://www.araba.eus/botha/Boletines/2026/089/2026_089_02338_C.pdf",
+    "fuente": "BOTHA",
+    "organismo": "Diputación Foral de Álava",
+    "ambito": {
+      "nivel": "territorio",
+      "nombre": "Araba/Álava"
+    },
+    "inicio": "",
+    "fin": "",
+    "resumen": "Bases (Decreto Foral 28/2026, de 28 de julio) de las indemnizaciones de la Diputación Foral de Álava por los daños que causan al ganado el lobo ibérico, el buitre leonado y otras especies silvestres no cinegéticas. Es un procedimiento permanente: el ataque se comunica en 24 horas y la indemnización se pide en un máximo de tres meses.",
+    "dirigido": "Titulares de explotaciones ganaderas inscritas en el REGA.",
+    "para": [
+      "autonomo",
+      "empresa"
+    ]
+  },
+  {
+    "id": "extra-dfb-pvs-descanso",
+    "titulo": "Prestación económica vinculada al descanso de las personas cuidadoras (PVS descanso)",
+    "url": "https://www.bizkaia.eus/es/prestaciones/pvs-descanso",
+    "fuente": "bizkaia.eus",
+    "organismo": "Diputación Foral de Bizkaia",
+    "ambito": {
+      "nivel": "territorio",
+      "nombre": "Bizkaia"
+    },
+    "inicio": "",
+    "fin": "",
+    "resumen": "Prestación económica permanente de la Diputación Foral de Bizkaia para pagar estancias temporales en residencia que permitan descansar a la persona que cuida en casa a una persona dependiente.",
+    "dirigido": "Personas dependientes atendidas en su entorno familiar que cobran la prestación para cuidados en el entorno familiar (PECEF).",
+    "para": [
+      "particular"
+    ]
   }
 ]
