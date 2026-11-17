@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generado": "2026-11-17T01:55:38.837Z",
-  "total": 518,
+  "generado": "2026-11-17T02:14:55.512Z",
+  "total": 490,
   "porAmbito": {
     "euskadi": 92,
-    "municipio": 192,
+    "municipio": 187,
     "estado": 61,
-    "territorio": 158,
-    "ue": 15
+    "territorio": 134,
+    "ue": 16
   },
   "porEstado": {
-    "abierta": 370,
-    "proxima": 22,
-    "sinfecha": 126
+    "abierta": 350,
+    "proxima": 23,
+    "sinfecha": 117
   },
   "previstas": 675,
   "fuentes": {
@@ -20,53 +20,53 @@
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
       "registros": 134,
-      "segundos": 34,
+      "segundos": 47,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 25,
-      "segundos": 21,
+      "segundos": 28,
       "erroresFicha": 0
     },
     "araba": {
       "nombre": "Diputación Foral de Álava (ayudas en vigor)",
       "ok": true,
       "registros": 144,
-      "segundos": 449,
+      "segundos": 479,
       "erroresFicha": 0
     },
     "bdns": {
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
       "registros": 806,
-      "segundos": 168,
+      "segundos": 165,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 147,
-      "segundos": 13,
+      "segundos": 16,
       "erroresFicha": 0
     },
     "prestaciones": {
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 17,
-      "segundos": 20,
+      "segundos": 21,
       "erroresFicha": 0
     },
     "europa": {
       "nombre": "Funding & Tenders Portal (Comisión Europea), convocatorias sin consorcio",
       "ok": true,
-      "registros": 11,
+      "registros": 12,
       "erroresFicha": 0
     }
   },
   "enlaces": {
-    "comprobados": 757,
+    "comprobados": 729,
     "rotos": 4,
     "sustituidos": 1,
     "quitados": 4
