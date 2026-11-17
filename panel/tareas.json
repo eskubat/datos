@@ -640,13 +640,14 @@
   "prioridad": 33
  },
  {
-  "id": "red-oarsoaldea",
-  "titulo": "Permitir dirulaguntzak.oarsoaldea.eus en la red de las tareas programadas",
-  "detalle": "Para escribir y probar el lector del catálogo de Oarsoaldea la tarea tiene que poder leer dirulaguntzak.oarsoaldea.eus (y, si se quiere revisar más agencias, debegesa.eus, inguralde.com y behargintza.eus). En claude.ai: Ajustes > Capacidades, añadir esos dominios a los permitidos. Después, reabrir la tarea «Leer el catálogo de ayudas de Oarsoaldea».",
-  "fuente": "Agencias de desarrollo comarcal",
-  "quien": "Tú",
-  "prioridad": 34,
+  "id": "comprobar-miles-coma",
+  "titulo": "Comprobaciones: aceptar cifras con coma de miles (27,000 EUR)",
+  "detalle": "numeros() de recolector/resumen.js lee «27,000» de las fuentes en inglés como 27 con decimales y «27.000 €» de la ficha como 27000, así que las cifras correctas de las convocatorias europeas en cascada se dan por no encontradas. Tratar una coma seguida de exactamente 3 dígitos (y sin más dígitos detrás) como separador de miles en las fuentes. Bloquea 10 fichas ue-cs-… (GroundWork, GBV, Renew-booster, Innowwide, WoodStock, D-Storm, Women TechEU, NASCHA First Open Call, bilateral de Lituania, EFCSN protection grants), que siguen en la cola.",
+  "fuente": "Funding & Tenders Portal (Comisión Europea)",
+  "quien": "Claude",
   "estado": "pendiente",
-  "seccion": "fuentes"
+  "seccion": "datos",
+  "prioridad": 34,
+  "fecha": "2026-11-17"
  }
 ]

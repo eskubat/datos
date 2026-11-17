@@ -443,5 +443,15 @@
   "parecidaA": "ara-ayudas-turismo-actividad-cuadrillas-2026",
   "motivo": "Misma convocatoria de la DFA (gastos de actividad turística 2026) que la de cuadrillas, llegada por otro trámite de la sede; solicitantes ayuntamientos frente a cuadrillas y ayuntamientos.",
   "fecha": "2026-11-17"
+ },
+ "ue-cs-resist-ii-process-innovation-open-call": {
+  "parecidaA": "ue-cs-resist-ii-product-innovation-open-call",
+  "motivo": "Dos líneas de RESIST II (Euroclusters) con la misma página oficial, mismos solicitantes (pymes del ecosistema de movilidad, transporte y automoción), mismos importes (hasta 20.000 € individual, 30.000 € por pyme en colaboración) y mismo plazo; una financia innovación en procesos y la otra en productos o servicios.",
+  "fecha": "2026-11-17"
+ },
+ "ue-cs-resist-ii-product-innovation-open-call": {
+  "parecidaA": "ue-cs-resist-ii-process-innovation-open-call",
+  "motivo": "Dos líneas de RESIST II (Euroclusters) con la misma página oficial, mismos solicitantes (pymes del ecosistema de movilidad, transporte y automoción), mismos importes (hasta 20.000 € individual, 30.000 € por pyme en colaboración) y mismo plazo; una financia innovación en procesos y la otra en productos o servicios.",
+  "fecha": "2026-11-17"
  }
 }
