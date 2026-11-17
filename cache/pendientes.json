@@ -108,42 +108,6 @@
   "caracteres": 5840
  },
  {
-  "id": "bob-bob-2026a190-ii-5068-",
-  "h": "a7cff19c658bc1c2",
-  "titulo": "Subvenciones de ayudas complementarias a las Ayudas de Emergencia Social (AES)",
-  "organismoSugerido": "ayto-arrigorriaga",
-  "organismoFuente": "Ayuntamiento de Arrigorriaga",
-  "archivo": "cache/fuentes/bob-bob-2026a190-ii-5068--ee184285.txt",
-  "caracteres": 9284
- },
- {
-  "id": "bob-bob-2026a216-ii-5801-",
-  "h": "ae3d7c0225330684",
-  "titulo": "Aprobación de la convocatoria y las bases reguladoras de subvenciones para promover la realización de actividades",
-  "organismoSugerido": "ayto-santurtzi",
-  "organismoFuente": "Ayuntamiento de Santurtzi",
-  "archivo": "cache/fuentes/bob-bob-2026a216-ii-5801--16ebb267.txt",
-  "caracteres": 30157
- },
- {
-  "id": "bob-bob-2026a213-ii-5652-",
-  "h": "5e61442a06de3a93",
-  "titulo": "Aprobación definitiva para la creación de las bases reguladoras de la subvención de «ayuda a Etxekonpon»",
-  "organismoSugerido": "ayto-zalla",
-  "organismoFuente": "Ayuntamiento de Zalla",
-  "archivo": "cache/fuentes/bob-bob-2026a213-ii-5652--05810f38.txt",
-  "caracteres": 13895
- },
- {
-  "id": "bob-bob-2026a201-ii-5375-",
-  "h": "d3236e93a8d24611",
-  "titulo": "Subvenciones para la eliminación de pintadas y grafitis en fachadas",
-  "organismoSugerido": "ayto-sondika",
-  "organismoFuente": "Ayuntamiento de Sondika",
-  "archivo": "cache/fuentes/bob-bob-2026a201-ii-5375--f6b8b77a.txt",
-  "caracteres": 9795
- },
- {
   "id": "bdns-940983",
   "h": "8ce27a120ccb902e",
   "titulo": "Convocatoria de de Subvenciones a la ciudadanía para hacer frente al gasto de agua",
@@ -307,12 +271,12 @@
  },
  {
   "id": "ara-realizacion-inversiones-sector-artesano-alaves-2026",
-  "h": "984e920b686fa31a",
+  "h": "c9d7a1d39d80dba9",
   "titulo": "Ayudas a la realización de inversiones por parte del sector artesano alavés",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-realizacion-inversiones-sector-artesano-alaves-2026-ce7aa1fd.txt",
-  "caracteres": 64687
+  "caracteres": 48733
  },
  {
   "id": "ara-solicitar-subvenciones-para-intervenciones-de-conservacion-y-1c431c",
@@ -378,48 +342,12 @@
   "caracteres": 96535
  },
  {
-  "id": "ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-format",
-  "h": "284c801e32e53aa3",
-  "titulo": "Ayudas a la inversión en equipamiento formativo",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-fo-e97a71e8.txt",
-  "caracteres": 61747
- },
- {
-  "id": "ara-ayudas-transporte-a-piscinas-ampas-2026",
-  "h": "c82749bef88158d6",
-  "titulo": "Subvenciones de transporte de alumnado a piscinas",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-transporte-a-piscinas-ampas-2026-1e0b04c1.txt",
-  "caracteres": 67288
- },
- {
-  "id": "bob-bob-2026a219-ii-5936-",
-  "h": "931339841c68ddb3",
-  "titulo": "Aprobar las bases reguladoras de subvenciones para personas entre 16 y 25 años abonadas al polideportivo",
-  "organismoSugerido": "ayto-sondika",
-  "organismoFuente": "Ayuntamiento de Sondika",
-  "archivo": "cache/fuentes/bob-bob-2026a219-ii-5936--ee5923d2.txt",
-  "caracteres": 13764
- },
- {
   "id": "ara-01122001",
   "h": "fa21dd9d37787f4e",
   "titulo": "Ayudas forestales",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01122001-45db4edd.txt",
-  "caracteres": 67257
- },
- {
-  "id": "ara-01621001",
-  "h": "7a4870def3d88726",
-  "titulo": "Subvenciones para la ejecución de proyectos de cooperación al desarrollo",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-01621001-6842068e.txt",
   "caracteres": 67257
  },
  {
@@ -658,21 +586,12 @@
  },
  {
   "id": "ara-ayudas-deportistas-promesa-2026",
-  "h": "230e88fc011a28b1",
+  "h": "9e13d03774a2b85a",
   "titulo": "Kirolaraba A3. Ayudas a deportistas promesa",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-deportistas-promesa-2026-9f8b0087.txt",
-  "caracteres": 67280
- },
- {
-  "id": "ara-ayudas-apoyo-deporte-femenino-2026",
-  "h": "7e6b69fb614175d1",
-  "titulo": "Subvenciones para el fomento del deporte femenino. Convocatoria",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-apoyo-deporte-femenino-2026-bf5a6668.txt",
-  "caracteres": 67283
+  "caracteres": 46770
  },
  {
   "id": "ara-programa-innobideak-kudeabide-2026",
@@ -694,12 +613,12 @@
  },
  {
   "id": "ara-ayudas-a-proyectos-contra-la-soledad-no-deseada-2026",
-  "h": "66191ad2df20a261",
+  "h": "64434f742fd8a9d7",
   "titulo": "Ayudas a proyectos contra la soledad no deseada",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-a-proyectos-contra-la-soledad-no-deseada-2026-cb45cf4a.txt",
-  "caracteres": 67301
+  "caracteres": 91024
  },
  {
   "id": "ara-interkoop-entidades-sin-animo-de-lucro-2026",
@@ -712,30 +631,30 @@
  },
  {
   "id": "ara-subvenciones-espacios-culturales-independientes-que-apoyen-c",
-  "h": "a669e88b349a3bb0",
+  "h": "40ddbe1be92bc450",
   "titulo": "Subvenciones a espacios culturales independientes",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-subvenciones-espacios-culturales-independientes-que-apoy-ea94ef7c.txt",
-  "caracteres": 67352
+  "caracteres": 63690
  },
  {
   "id": "ara-ayudas-formativas-artes-escenicas-musicales-2026",
-  "h": "f7609dd321718735",
+  "h": "af4649cd7a28fb0c",
   "titulo": "Ayudas para realizar acciones formativas en artes escénicas, musicales, plásticas y visuales",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-formativas-artes-escenicas-musicales-2026-2ab2543a.txt",
-  "caracteres": 67297
+  "caracteres": 151564
  },
  {
   "id": "ara-pagos-servicios-ambientales-2026",
-  "h": "76f17862c2e5b3b1",
+  "h": "9a7d74ffad301246",
   "titulo": "Pagos por Servicios Ambientales",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-pagos-servicios-ambientales-2026-cb59a797.txt",
-  "caracteres": 67281
+  "caracteres": 83602
  },
  {
   "id": "ara-01484",
@@ -757,12 +676,12 @@
  },
  {
   "id": "ara-01112003",
-  "h": "195140643d0f1c53",
+  "h": "e792fae96fccb729",
   "titulo": "Ayuda destinada a la contratación de seguros agrarios en viñedo",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01112003-ae3494d9.txt",
-  "caracteres": 67257
+  "caracteres": 62241
  },
  {
   "id": "bdns-934108",
@@ -781,78 +700,6 @@
   "organismoFuente": "Ayuntamiento de sestao",
   "archivo": "cache/fuentes/bdns-933344-de6a9ceb.txt",
   "caracteres": 21856
- },
- {
-  "id": "bdns-927161",
-  "h": "bdb3b185d5dd4322",
-  "titulo": "Subvenciones municipales destinadas a financiar las dos líneas de subvención del programa ¨sopela garatu¨",
-  "organismoSugerido": "ayto-sopela",
-  "organismoFuente": "Ayuntamiento de sopela",
-  "archivo": "cache/fuentes/bdns-927161-63c28e03.txt",
-  "caracteres": 300000
- },
- {
-  "id": "bdns-926043",
-  "h": "b26aed4495be7eae",
-  "titulo": "Ayudas para los concursos del Artzain Eguna",
-  "organismoSugerido": "ayto-amurrio",
-  "organismoFuente": "Ayuntamiento de amurrio",
-  "archivo": "cache/fuentes/bdns-926043-a5b54456.txt",
-  "caracteres": 59434
- },
- {
-  "id": "bdns-925828",
-  "h": "66e5d9695047db7f",
-  "titulo": "Subvención para actividades deportivas con Mendiko Lagunak",
-  "organismoSugerido": "ayto-amurrio",
-  "organismoFuente": "Ayuntamiento de amurrio",
-  "archivo": "cache/fuentes/bdns-925828-2e4aae49.txt",
-  "caracteres": 300000
- },
- {
-  "id": "bdns-925821",
-  "h": "5c5671be23dc1889",
-  "titulo": "Subvención proyectos cooperación de Euskal Fondoa",
-  "organismoSugerido": "ayto-amurrio",
-  "organismoFuente": "Ayuntamiento de amurrio",
-  "archivo": "cache/fuentes/bdns-925821-d2f60caf.txt",
-  "caracteres": 300000
- },
- {
-  "id": "bdns-925592",
-  "h": "5ec84f56aa40cc18",
-  "titulo": "Bases reguladoras de la convocatoria de subvenciones para Asociaciones Benéficas",
-  "organismoSugerido": "ayto-valle-de-trapaga-trapagaran",
-  "organismoFuente": "Ayuntamiento de valle de trápaga-trapagaran",
-  "archivo": "cache/fuentes/bdns-925592-5ab397c3.txt",
-  "caracteres": 120735
- },
- {
-  "id": "bdns-920446",
-  "h": "a95a169516aeb685",
-  "titulo": "Concurso Sukalki",
-  "organismoSugerido": "ayto-sopela",
-  "organismoFuente": "Ayuntamiento de sopela",
-  "archivo": "cache/fuentes/bdns-920446-e5ed091f.txt",
-  "caracteres": 114168
- },
- {
-  "id": "bdns-920445",
-  "h": "ffdeee37292e18b9",
-  "titulo": "Concurso de Pintura al aire libre",
-  "organismoSugerido": "ayto-sopela",
-  "organismoFuente": "Ayuntamiento de sopela",
-  "archivo": "cache/fuentes/bdns-920445-3d853882.txt",
-  "caracteres": 157431
- },
- {
-  "id": "bog-c2606587-htm",
-  "h": "f861a5ef25a56a9a",
-  "titulo": "Convocatoria de de subvenciones para la organización de festejos de carnaval",
-  "organismoSugerido": "ayto-lasarte-oria",
-  "organismoFuente": "Ayuntamiento de Lasarte-Oria",
-  "archivo": "cache/fuentes/bog-c2606587-htm-fb6f3461.txt",
-  "caracteres": 901
  },
  {
   "id": "bog-c2606552-htm",
@@ -925,15 +772,6 @@
   "organismoFuente": "Diputación Foral de Bizkaia",
   "archivo": "cache/fuentes/bob-bob-2026a207-i-1230--8dea9f74.txt",
   "caracteres": 5450
- },
- {
-  "id": "bob-bob-2026a203-ii-5394-",
-  "h": "fc803a2663b47162",
-  "titulo": "Convocatoria para concesión de subvenciones para actividades e iniciativas de interés o carácter público y actividades culturales y deportivas",
-  "organismoSugerido": "ayto-dima",
-  "organismoFuente": "Ayuntamiento de Dima",
-  "archivo": "cache/fuentes/bob-bob-2026a203-ii-5394--4b77daf0.txt",
-  "caracteres": 16539
  },
  {
   "id": "bob-bob-2026a200-i-1174-",
