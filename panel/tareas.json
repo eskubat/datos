@@ -431,8 +431,10 @@
   "fuente": "Diputación Foral de Bizkaia",
   "quien": "Claude",
   "prioridad": 21,
-  "estado": "pendiente",
-  "seccion": "fuentes"
+  "estado": "hecha",
+  "seccion": "fuentes",
+  "fecha": "2026-11-17",
+  "nota": "La PVS de descanso de personas cuidadoras ya estaba publicada (extra-dfb-pvs-descanso). De la LISMI solo admite nuevas solicitudes el subsidio de movilidad y gastos de transporte (85,80 €/mes en 2026): lo he añadido a cache/prestaciones.json; garantía de ingresos mínimos y ayuda por tercera persona están suprimidas y la asistencia sanitaria no es una ayuda económica. En inclusión social, las pensiones del Fondo de Bienestar Social no aparecen ya en la web y la única prestación listada es la PVPEI, cuya ficha de ebizkaia.eus no se pudo leer (nueva tarea); se espera 1 ayuda nueva en pendientes tras el recolector de las 05:41."
  },
  {
   "id": "docs-extra-sin-reabrir",
@@ -601,5 +603,15 @@
   "quien": "Claude",
   "estado": "pendiente",
   "fecha": "2026-11-17"
+ },
+ {
+  "id": "bizkaia-pvpei",
+  "titulo": "Revisar la prestación vinculada a procesos especializados de inclusión (PVPEI) de Bizkaia",
+  "detalle": "La página de inclusión social de bizkaia.eus solo enlaza la PVPEI a la ficha de procedimiento 2316 de ebizkaia.eus, que no se pudo leer. Comprobar si la puede pedir directamente cualquier persona todo el año o solo se concede al entrar en un servicio de inclusión por derivación; en el primer caso, añadirla a cache/prestaciones.json.",
+  "fuente": "Diputación Foral de Bizkaia",
+  "quien": "Claude",
+  "prioridad": 31,
+  "estado": "pendiente",
+  "seccion": "fuentes"
  }
 ]
