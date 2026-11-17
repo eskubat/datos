@@ -483,5 +483,15 @@
   "parecidaA": "ara-ayudas-inversiones-turisticas-en-cuadrillas-2026",
   "motivo": "Misma convocatoria de la DFA (Acuerdo 172/2026, BOTHA 39/2026: inversiones turísticas de cuadrillas y ayuntamientos alaveses) llegada por dos trámites de la sede: mismos gastos y 80 % del coste; solo cambian el solicitante y el tope (48.000 € cuadrillas; 28.000 € o 20.000 € ayuntamientos).",
   "fecha": "2026-11-17"
+ },
+ "eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias-y-forestales-2026": {
+  "parecidaA": "extra-gv-agrupaciones-productoras-agrarias-forestales-2026",
+  "motivo": "Misma convocatoria del Departamento de Alimentación del Gobierno Vasco (Orden de 3/11/2026, BOPV 218 de 13/11/2026: agrupaciones de productores agrarios y forestales del PEPAC, líneas 1 y 2, plazo 14-23/11/2026) llegada por dos fuentes: la ficha de euskadi.eus y la entrada añadida a mano con el PDF del BOPV.",
+  "fecha": "2026-11-17"
+ },
+ "extra-gv-agrupaciones-productoras-agrarias-forestales-2026": {
+  "parecidaA": "eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias-y-forestales-2026",
+  "motivo": "Misma convocatoria del Departamento de Alimentación del Gobierno Vasco (Orden de 3/11/2026, BOPV 218 de 13/11/2026: agrupaciones de productores agrarios y forestales del PEPAC, líneas 1 y 2, plazo 14-23/11/2026) llegada por dos fuentes: la ficha de euskadi.eus y la entrada añadida a mano con el PDF del BOPV.",
+  "fecha": "2026-11-17"
  }
 }
