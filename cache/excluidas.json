@@ -453,5 +453,25 @@
   "parecidaA": "ue-cs-resist-ii-process-innovation-open-call",
   "motivo": "Dos líneas de RESIST II (Euroclusters) con la misma página oficial, mismos solicitantes (pymes del ecosistema de movilidad, transporte y automoción), mismos importes (hasta 20.000 € individual, 30.000 € por pyme en colaboración) y mismo plazo; una financia innovación en procesos y la otra en productos o servicios.",
   "fecha": "2026-11-17"
+ },
+ "bdns-942548": {
+  "parecidaA": "bdns-923213",
+  "motivo": "Auzotaxi de Amorebieta-Etxano, convocatoria 2027 (viajes del 1/1 al 31/12/2027); la de 2026 (bdns-923213) tiene la misma ordenanza, finalidad y solicitantes y sigue abierta hasta el 31/12/2026.",
+  "fecha": "2026-11-17"
+ },
+ "bdns-923213": {
+  "parecidaA": "bdns-942548",
+  "motivo": "Auzotaxi de Amorebieta-Etxano, convocatoria 2026 (abierta hasta el 31/12/2026); la de 2027 (bdns-942548) es igual para los viajes de 2027.",
+  "fecha": "2026-11-17"
+ },
+ "bdns-940546": {
+  "parecidaA": "bdns-940549",
+  "motivo": "Mismo Decreto Foral de la DFB (segunda convocatoria 2026 de preproducción, producción y promoción audiovisual, CVE QVNV-766V-J6PI-K16I) registrado dos veces en la BDNS (940546 y 940549) con el mismo título y la misma página.",
+  "fecha": "2026-11-17"
+ },
+ "bdns-940549": {
+  "parecidaA": "bdns-940546",
+  "motivo": "Misma convocatoria audiovisual de la DFB que bdns-940546 (mismo decreto foral); esta trae además el BOB 216 con el plazo.",
+  "fecha": "2026-11-17"
  }
 }
