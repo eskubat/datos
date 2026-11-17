@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generado": "2026-11-17T11:06:48.586Z",
-  "total": 456,
+  "generado": "2026-11-17T11:59:08.620Z",
+  "total": 446,
   "porAmbito": {
     "euskadi": 92,
-    "municipio": 159,
+    "municipio": 164,
     "estado": 63,
-    "territorio": 126,
+    "territorio": 111,
     "ue": 16
   },
   "porEstado": {
-    "abierta": 325,
+    "abierta": 322,
     "proxima": 31,
-    "sinfecha": 100
+    "sinfecha": 93
   },
   "previstas": 676,
   "fuentes": {
@@ -27,35 +27,35 @@
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 25,
-      "segundos": 23,
+      "segundos": 22,
       "erroresFicha": 0
     },
     "araba": {
       "nombre": "Diputación Foral de Álava (ayudas en vigor)",
       "ok": true,
       "registros": 144,
-      "segundos": 262,
+      "segundos": 21,
       "erroresFicha": 0
     },
     "bdns": {
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
       "registros": 772,
-      "segundos": 159,
+      "segundos": 169,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 148,
-      "segundos": 11,
+      "segundos": 10,
       "erroresFicha": 0
     },
     "prestaciones": {
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
-      "registros": 18,
-      "segundos": 17,
+      "registros": 19,
+      "segundos": 20,
       "erroresFicha": 0
     },
     "europa": {
@@ -66,7 +66,7 @@
     }
   },
   "enlaces": {
-    "comprobados": 696,
+    "comprobados": 686,
     "rotos": 4,
     "sustituidos": 1,
     "quitados": 4
