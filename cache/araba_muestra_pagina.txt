@@ -603,7 +603,7 @@ https://egoitza.araba.eus/o/portal-publico-araba-theme-v-2-theme/js/slick.js
 			}
 		};
 
-		Liferay.authToken = 'Bzs5Ydie';
+		Liferay.authToken = 'JQbIBpE8';
 
 		
 
@@ -1586,7 +1586,7 @@ Liferay.on(
 
 
 
-	<nav aria-label="Enlaces rápidos" class="bg-dark cadmin quick-access-nav text-center text-white" id="epvd_quickAccessNav">
+	<nav aria-label="Enlaces rápidos" class="bg-dark cadmin quick-access-nav text-center text-white" id="bzwg_quickAccessNav">
 		
 			
 				<a class="d-block p-2 sr-only sr-only-focusable text-reset" href="#main-content">
@@ -2905,7 +2905,7 @@ Liferay.on(
 
 
 
-<form action="https://egoitza.araba.eus/es/inicio/tramites?p_p_id=ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_javax.portlet.action=SearchMVCActionCommand&amp;p_auth=Bzs5Ydie" class="form  " data-fm-namespace="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_" id="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm" method="post" name="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm" >
+<form action="https://egoitza.araba.eus/es/inicio/tramites?p_p_id=ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_javax.portlet.action=SearchMVCActionCommand&amp;p_auth=JQbIBpE8" class="form  " data-fm-namespace="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_" id="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm" method="post" name="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_fm" >
 	
 
 	
@@ -2982,7 +2982,7 @@ Liferay.on(
 		
 			
 				
-					<input  class="field form-control"  id="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_formDate"    name="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_formDate"     type="hidden" value="1794876123432"   />
+					<input  class="field form-control"  id="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_formDate"    name="_ANPWCOMU_buscador_google_module_ANPWCOMUGoogleSearchPortlet_INSTANCE_buscadorGoogle_formDate"     type="hidden" value="1794877161432"   />
 				
 			
 		
@@ -8170,7 +8170,7 @@ De lunes a viernes de 8:15 a 14:30 horas, excepto festivos.</p>
 			};
 
 			var manageCollaboratorsURL = Liferay.Util.PortletURL.createPortletURL(
-				'https://egoitza.araba.eus/es/group/egoitza/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_ManageCollaboratorsPortlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_auth=VYnj6T0K',
+				'https://egoitza.araba.eus/es/group/egoitza/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_ManageCollaboratorsPortlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_auth=ihBNtIq8',
 				manageCollaboratorsParameters
 			);
 
@@ -8187,7 +8187,7 @@ De lunes a viernes de 8:15 a 14:30 horas, excepto festivos.</p>
 			};
 
 			var sharingURL = Liferay.Util.PortletURL.createPortletURL(
-				'https://egoitza.araba.eus/es/group/egoitza/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_SharingPortlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_auth=xkRCvUAN',
+				'https://egoitza.araba.eus/es/group/egoitza/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_SharingPortlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_auth=4V9l6esP',
 				sharingParameters
 			);
 
@@ -8790,7 +8790,7 @@ Liferay.CustomDialogs = {enabled: false};
 <script type="module">
 import {CookiesBanner as ComponentModule} from '/o/cookies-banner-web/__liferay__/index.js';
 {
-Liferay.component('CookiesBanner', new ComponentModule({"configurationURL":"https:\/\/egoitza.araba.eus\/es\/inicio\/tramites?p_p_id=com_liferay_cookies_banner_web_portlet_CookiesBannerConfigurationPortlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_mode=view&_com_liferay_cookies_banner_web_portlet_CookiesBannerConfigurationPortlet_mvcPath=%2Fcookies_banner_configuration%2Fview.jsp&p_p_auth=dJzcCdf7","optionalConsentCookieTypeNames":["CONSENT_TYPE_FUNCTIONAL","CONSENT_TYPE_PERFORMANCE","CONSENT_TYPE_PERSONALIZATION"],"spritemap":"https:\/\/egoitza.araba.eus\/o\/portal-publico-araba-theme-v-2-theme\/images\/clay\/icons.svg","configurationNamespace":"com_liferay_cookies_banner_web_portlet_CookiesBannerConfigurationPortlet","namespace":"_com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet_","requiredConsentCookieTypeNames":["CONSENT_TYPE_NECESSARY"],"includeDeclineAllButton":true,"title":"Configuración de cookies"}), { destroyOnNavigate: true, portletId: 'com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet'});
+Liferay.component('CookiesBanner', new ComponentModule({"configurationURL":"https:\/\/egoitza.araba.eus\/es\/inicio\/tramites?p_p_id=com_liferay_cookies_banner_web_portlet_CookiesBannerConfigurationPortlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_mode=view&_com_liferay_cookies_banner_web_portlet_CookiesBannerConfigurationPortlet_mvcPath=%2Fcookies_banner_configuration%2Fview.jsp&p_p_auth=OeC78mc4","optionalConsentCookieTypeNames":["CONSENT_TYPE_FUNCTIONAL","CONSENT_TYPE_PERFORMANCE","CONSENT_TYPE_PERSONALIZATION"],"spritemap":"https:\/\/egoitza.araba.eus\/o\/portal-publico-araba-theme-v-2-theme\/images\/clay\/icons.svg","configurationNamespace":"com_liferay_cookies_banner_web_portlet_CookiesBannerConfigurationPortlet","namespace":"_com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet_","requiredConsentCookieTypeNames":["CONSENT_TYPE_NECESSARY"],"includeDeclineAllButton":true,"title":"Configuración de cookies"}), { destroyOnNavigate: true, portletId: 'com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet'});
 }
 
 </script>

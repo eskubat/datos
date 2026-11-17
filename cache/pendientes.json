@@ -45,13 +45,13 @@
   "caracteres": 300000
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip",
-  "h": "ed2bdc6e55313d53",
-  "titulo": "The European Prize for Women Innovators",
+  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
+  "h": "40b562d93f954fa5",
+  "titulo": "Rising Innovators category",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
-  "caracteres": 12244
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
+  "caracteres": 12248
  },
  {
   "id": "ue-horizon-eit-2026-prize-wip-leadership",
@@ -63,22 +63,13 @@
   "caracteres": 12241
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
-  "h": "40b562d93f954fa5",
-  "titulo": "Rising Innovators category",
+  "id": "ue-horizon-eic-2026-prize-wip",
+  "h": "ed2bdc6e55313d53",
+  "titulo": "The European Prize for Women Innovators",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
-  "caracteres": 12248
- },
- {
-  "id": "eus-ayuda-subvencion-2026-haurpri",
-  "h": "a58c3c9148d503b7",
-  "titulo": "Ayudas a las Escuelas de primer ciclo de Educación Infantil de titularidad privada",
-  "organismoSugerido": "gv-educacion",
-  "organismoFuente": "Educación",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-haurpri-a94bae8e.txt",
-  "caracteres": 300000
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
+  "caracteres": 12244
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -405,6 +396,15 @@
   "caracteres": 105732
  },
  {
+  "id": "ue-crea-media-2027-tvonline-2",
+  "h": "2bb80164abe11ee5",
+  "titulo": "TV and online content Documentary projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
+  "caracteres": 6324
+ },
+ {
   "id": "ue-crea-media-2027-tvonline-1",
   "h": "594ec78e4c088425",
   "titulo": "TV and online content Animation projects",
@@ -421,15 +421,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
   "caracteres": 6320
- },
- {
-  "id": "ue-crea-media-2027-tvonline-2",
-  "h": "2bb80164abe11ee5",
-  "titulo": "TV and online content Documentary projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
-  "caracteres": 6324
  },
  {
   "id": "bob-bob-2026a219-ii-6013-",
@@ -576,15 +567,6 @@
   "caracteres": 76502
  },
  {
-  "id": "ue-crea-media-2027-filmdist",
-  "h": "93d43372d8be537d",
-  "titulo": "European Film Distribution",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-filmdist-9cdefc48.txt",
-  "caracteres": 3631
- },
- {
   "id": "ara-ayudas-gastos-aulas-desplazadas-curso-2025-2026",
   "h": "52e0d4109cd5e35c",
   "titulo": "Subvenciones en régimen de concurrencia competitiva destinadas a financiar los gastos de las aulas desplazadas en el Territorio Histórico",
@@ -601,15 +583,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01146002-e00ddf13.txt",
   "caracteres": 92304
- },
- {
-  "id": "ara-ayuda-para-el-fomento-de-la-conservacion-y-el-mantenimiento-",
-  "h": "dc9420d733a2af0e",
-  "titulo": "Ayuda para el fomento de la conservación y el mantenimiento de los viñedos históricos y remarcables",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayuda-para-el-fomento-de-la-conservacion-y-el-mantenimie-7ad0c294.txt",
-  "caracteres": 95477
  },
  {
   "id": "ara-01362003",
@@ -1251,24 +1224,6 @@
   "caracteres": 296769
  },
  {
-  "id": "bdns-941981",
-  "h": "80869c3cef89c98b",
-  "titulo": "Ayudas para los Planes de Producción y Comercialización, con posibilidad de anticipos a los mismos",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Secretaría general de pesca",
-  "archivo": "cache/fuentes/bdns-941981-fc1516aa.txt",
-  "caracteres": 300000
- },
- {
-  "id": "bdns-941926",
-  "h": "89c518f331b3484d",
-  "titulo": "Primera convocatoria de subvenciones para la realización de proyectos de empleo protegido",
-  "organismoSugerido": "ayto-galdakao",
-  "organismoFuente": "Ayuntamiento de galdakao",
-  "archivo": "cache/fuentes/bdns-941926-430e1f51.txt",
-  "caracteres": 108932
- },
- {
   "id": "bdns-941759",
   "h": "463d40eaa1990137",
   "titulo": "Subvenciones para la celebración de aniversarios de asociaciones culturales",
@@ -1276,60 +1231,6 @@
   "organismoFuente": "Ayuntamiento de getxo",
   "archivo": "cache/fuentes/bdns-941759-12643488.txt",
   "caracteres": 300000
- },
- {
-  "id": "bdns-941144",
-  "h": "c8e3a9f77212ab86",
-  "titulo": "Bases para la concesión, de las ayudas destinadas a financiar el pago de las tasas del suministro de agua y alcantarillado",
-  "organismoSugerido": "ayto-lezo",
-  "organismoFuente": "Ayuntamiento de lezo",
-  "archivo": "cache/fuentes/bdns-941144-cdd3573d.txt",
-  "caracteres": 30788
- },
- {
-  "id": "bdns-940549",
-  "h": "04e9646460644a9e",
-  "titulo": "Y segunda convocatoria de subvenciones para financiar los gastos de preproducción",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación foral de Bizkaia",
-  "archivo": "cache/fuentes/bdns-940549-5ae710b6.txt",
-  "caracteres": 300000
- },
- {
-  "id": "bdns-939560",
-  "h": "7ad6d0b7eb220d9f",
-  "titulo": "Subvenciones para el desarrollo de proyectos de especial interés durante el curso escolar",
-  "organismoSugerido": "ayto-leioa",
-  "organismoFuente": "Ayuntamiento de leioa",
-  "archivo": "cache/fuentes/bdns-939560-52943b54.txt",
-  "caracteres": 113718
- },
- {
-  "id": "bdns-938070",
-  "h": "6220f4c4f13b1055",
-  "titulo": "Subvenciones para la utilizacion de las huertas ecologicas",
-  "organismoSugerido": "ayto-gorliz",
-  "organismoFuente": "Ayuntamiento de gorliz",
-  "archivo": "cache/fuentes/bdns-938070-3159e27b.txt",
-  "caracteres": 17254
- },
- {
-  "id": "bdns-935441",
-  "h": "df587f1891307b58",
-  "titulo": "Subvenciones para el desarrollo de actividades extraescolares en los centros públicos durante el curso escolar",
-  "organismoSugerido": "ayto-leioa",
-  "organismoFuente": "Ayuntamiento de leioa",
-  "archivo": "cache/fuentes/bdns-935441-b9540eda.txt",
-  "caracteres": 106994
- },
- {
-  "id": "bdns-935277",
-  "h": "43fb64ec95b02ddb",
-  "titulo": "Subvenciones para actividades culturales, deportivas y sociales realizadas",
-  "organismoSugerido": "ayto-areatza",
-  "organismoFuente": "Ayuntamiento de areatza",
-  "archivo": "cache/fuentes/bdns-935277-d2c4ea52.txt",
-  "caracteres": 29191
  },
  {
   "id": "bdns-935179",
@@ -1341,15 +1242,6 @@
   "caracteres": 86982
  },
  {
-  "id": "bdns-934418",
-  "h": "11e02954525699cc",
-  "titulo": "Subvenciones a la promoción y desarrollo de prog y activ",
-  "organismoSugerido": "ayto-sestao",
-  "organismoFuente": "Ayuntamiento de sestao",
-  "archivo": "cache/fuentes/bdns-934418-984598b9.txt",
-  "caracteres": 58983
- },
- {
   "id": "bdns-934341",
   "h": "49333f3f98d88ed6",
   "titulo": "Ii convocatoria de subvenciones destinadas a la promoción de la igualdad de mujeres y hombres",
@@ -1357,15 +1249,6 @@
   "organismoFuente": "Ayuntamiento de galdakao",
   "archivo": "cache/fuentes/bdns-934341-703db2ed.txt",
   "caracteres": 134364
- },
- {
-  "id": "bdns-934155",
-  "h": "387e0a84dcbc160e",
-  "titulo": "Convocatoria para concesión de subvenciones a Federaciones de Asociaciones de Madres y Padres del alumnado",
-  "organismoSugerido": "ayto-getxo",
-  "organismoFuente": "Ayuntamiento de getxo",
-  "archivo": "cache/fuentes/bdns-934155-b6699b6b.txt",
-  "caracteres": 53850
  },
  {
   "id": "bdns-934108",
@@ -1377,96 +1260,6 @@
   "caracteres": 87683
  },
  {
-  "id": "bdns-934042",
-  "h": "c041921d71b41d6e",
-  "titulo": "Convocatoria subvenciones destinadas a facilitar la emancipacion de los jóvenes",
-  "organismoSugerido": "ayto-galdakao",
-  "organismoFuente": "Ayuntamiento de galdakao",
-  "archivo": "cache/fuentes/bdns-934042-9622ffce.txt",
-  "caracteres": 69882
- },
- {
-  "id": "bdns-934005",
-  "h": "aa70ffac6a89d29b",
-  "titulo": "Ayudas para actuaciones de limpieza de pintadas en fachadas y elementos visibles de inmuebles en régimen de comunidad de propietarios y convocatoria",
-  "organismoSugerido": "ayto-erandio",
-  "organismoFuente": "Ayuntamiento de erandio",
-  "archivo": "cache/fuentes/bdns-934005-54628746.txt",
-  "caracteres": 83989
- },
- {
-  "id": "bdns-933838",
-  "h": "a2277dfd12d1027a",
-  "titulo": "Subvenciones para actividades de dinamizacion cultural",
-  "organismoSugerido": "ayto-santurtzi",
-  "organismoFuente": "Ayuntamiento de santurtzi",
-  "archivo": "cache/fuentes/bdns-933838-4f6dd29a.txt",
-  "caracteres": 171268
- },
- {
-  "id": "bdns-933705",
-  "h": "2d31a47c6356a6a0",
-  "titulo": "Ayudas para el aprendizaje y habilitacion del euskera dirigido a personas empadronadas",
-  "organismoSugerido": "ayto-gernika-lumo",
-  "organismoFuente": "Ayuntamiento de gernika-lumo",
-  "archivo": "cache/fuentes/bdns-933705-4a205125.txt",
-  "caracteres": 230926
- },
- {
-  "id": "bdns-933344",
-  "h": "dfc709cf03b44734",
-  "titulo": "Subvenciones económicas por parte para cursos intensivos o la estancia en internados para el aprendizaje del euskera cursos",
-  "organismoSugerido": "ayto-sestao",
-  "organismoFuente": "Ayuntamiento de sestao",
-  "archivo": "cache/fuentes/bdns-933344-de6a9ceb.txt",
-  "caracteres": 21856
- },
- {
-  "id": "bdns-933214",
-  "h": "5db94bc7bf91b865",
-  "titulo": "Programa \"mungibonoa\" de fomento del consumo directo en el comercio y el sector servicios",
-  "organismoSugerido": "ayto-mungia",
-  "organismoFuente": "Ayuntamiento de mungia",
-  "archivo": "cache/fuentes/bdns-933214-0d28169c.txt",
-  "caracteres": 111485
- },
- {
-  "id": "bdns-932843",
-  "h": "d4a598bd1eb9f448",
-  "titulo": "Subvenciones al estudio del euskera en el curso 25/26",
-  "organismoSugerido": "ayto-ortuella",
-  "organismoFuente": "Ayuntamiento de ortuella",
-  "archivo": "cache/fuentes/bdns-932843-5d0faeb5.txt",
-  "caracteres": 30566
- },
- {
-  "id": "bdns-930617",
-  "h": "cf5c2553742c8297",
-  "titulo": "Subvenciones municipales dirigidas a entidades y asociaciones sin animo de lucro pertenecientes al tercer sector social con destino a financiar",
-  "organismoSugerido": "ayto-sopela",
-  "organismoFuente": "Ayuntamiento de sopela",
-  "archivo": "cache/fuentes/bdns-930617-2b0d1198.txt",
-  "caracteres": 192162
- },
- {
-  "id": "bdns-930194",
-  "h": "6274f0951a5d2d40",
-  "titulo": "Promocionar el uso del euskara en el municipio",
-  "organismoSugerido": "ayto-legorreta",
-  "organismoFuente": "Ayuntamiento de legorreta",
-  "archivo": "cache/fuentes/bdns-930194-bec80850.txt",
-  "caracteres": 34204
- },
- {
-  "id": "bdns-929190",
-  "h": "ee8d59395f6936cb",
-  "titulo": "Subvenciones por parte destinadas a las actividades de culturales de carácter anual",
-  "organismoSugerido": "ayto-mungia",
-  "organismoFuente": "Ayuntamiento de mungia",
-  "archivo": "cache/fuentes/bdns-929190-d9363cdf.txt",
-  "caracteres": 139057
- },
- {
   "id": "bdns-929139",
   "h": "2f3795ae44a783ec",
   "titulo": "Subvenciones forales para realización de actividades de conservación",
@@ -1474,15 +1267,6 @@
   "organismoFuente": "Diputación foral de Bizkaia",
   "archivo": "cache/fuentes/bdns-929139-fce3ad63.txt",
   "caracteres": 300000
- },
- {
-  "id": "bdns-929034",
-  "h": "ffa8d475c6b1dd38",
-  "titulo": "Subvenciones de para el otorgamiento de ayudas individuales para favorecer la inclusión social de personas con discapacidad",
-  "organismoSugerido": "ayto-idiazabal",
-  "organismoFuente": "Ayuntamiento de idiazabal",
-  "archivo": "cache/fuentes/bdns-929034-74338248.txt",
-  "caracteres": 158027
  },
  {
   "id": "bdns-927923",
@@ -1573,15 +1357,6 @@
   "organismoFuente": "Ayuntamiento de sopela",
   "archivo": "cache/fuentes/bdns-920445-3d853882.txt",
   "caracteres": 157431
- },
- {
-  "id": "bdns-920423",
-  "h": "b94592aae0e97d93",
-  "titulo": "Subvenciones para la promoción del euskera",
-  "organismoSugerido": "ayto-aramaio",
-  "organismoFuente": "Ayuntamiento de aramaio",
-  "archivo": "cache/fuentes/bdns-920423-2b1d72fe.txt",
-  "caracteres": 24286
  },
  {
   "id": "bog-c2606587-htm",
@@ -1836,42 +1611,6 @@
   "caracteres": 300000
  },
  {
-  "id": "prest-ss-hijo-cargo-discapacidad",
-  "h": "dfaa40e3c9adff14",
-  "titulo": "Asignación económica por hijo o menor a cargo con discapacidad",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Gobierno de España",
-  "archivo": "cache/fuentes/prest-ss-hijo-cargo-discapacidad-3a01a189.txt",
-  "caracteres": 5023
- },
- {
-  "id": "prest-gipuzkoa-pece",
-  "h": "3e710f27dd836e5f",
-  "titulo": "Prestación económica para cuidados en el entorno familiar (PECE)",
-  "organismoSugerido": "dfg",
-  "organismoFuente": "Diputación Foral de Gipuzkoa",
-  "archivo": "cache/fuentes/prest-gipuzkoa-pece-cedb76bd.txt",
-  "caracteres": 216948
- },
- {
-  "id": "prest-gipuzkoa-pevs",
-  "h": "1034b059c6404dcb",
-  "titulo": "Prestación económica vinculada al servicio (PEVS)",
-  "organismoSugerido": "dfg",
-  "organismoFuente": "Diputación Foral de Gipuzkoa",
-  "archivo": "cache/fuentes/prest-gipuzkoa-pevs-4f9aa203.txt",
-  "caracteres": 215898
- },
- {
-  "id": "prest-gipuzkoa-peap",
-  "h": "09a41a16153603bb",
-  "titulo": "Prestación económica de asistencia personal (PEAP)",
-  "organismoSugerido": "dfg",
-  "organismoFuente": "Diputación Foral de Gipuzkoa",
-  "archivo": "cache/fuentes/prest-gipuzkoa-peap-5825c94d.txt",
-  "caracteres": 218555
- },
- {
   "id": "prest-araba-pnc",
   "h": "23e340ca35caed3c",
   "titulo": "Pensión no contributiva (PNC) de jubilación o invalidez",
@@ -1879,15 +1618,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/prest-araba-pnc-6fc67e01.txt",
   "caracteres": 520
- },
- {
-  "id": "prest-gipuzkoa-pnc",
-  "h": "2e09ac0b1b96704f",
-  "titulo": "Pensión no contributiva (PNC) de jubilación o incapacidad",
-  "organismoSugerido": "dfg",
-  "organismoFuente": "Diputación Foral de Gipuzkoa",
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
-  "caracteres": 7670
  },
  {
   "id": "prest-araba-pecef",
