@@ -1,12 +1,12 @@
 [
  {
   "id": "bob-bob-2026a203-ii-5394-",
-  "h": "2bbbe4268f5a3d25",
+  "h": "fc803a2663b47162",
   "titulo": "Convocatoria para concesión de subvenciones para actividades e iniciativas de interés o carácter público y actividades culturales y deportivas",
   "organismoSugerido": "ayto-dima",
   "organismoFuente": "Ayuntamiento de Dima",
   "archivo": "cache/fuentes/bob-bob-2026a203-ii-5394--4b77daf0.txt",
-  "caracteres": 84583
+  "caracteres": 16539
  },
  {
   "id": "bdns-938955",
@@ -45,13 +45,22 @@
   "caracteres": 300000
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
-  "h": "40b562d93f954fa5",
-  "titulo": "Rising Innovators category",
+  "id": "bob-bob-2026a215-ii-5802-",
+  "h": "ed43e2ba0faec9be",
+  "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
+  "organismoSugerido": "ayto-santurtzi",
+  "organismoFuente": "Ayuntamiento de Santurtzi",
+  "archivo": "cache/fuentes/bob-bob-2026a215-ii-5802--1dac77fc.txt",
+  "caracteres": 5593
+ },
+ {
+  "id": "ue-horizon-eic-2026-prize-wip",
+  "h": "ed2bdc6e55313d53",
+  "titulo": "The European Prize for Women Innovators",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
-  "caracteres": 12248
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
+  "caracteres": 12244
  },
  {
   "id": "ue-horizon-eit-2026-prize-wip-leadership",
@@ -63,13 +72,58 @@
   "caracteres": 12241
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip",
-  "h": "ed2bdc6e55313d53",
-  "titulo": "The European Prize for Women Innovators",
+  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
+  "h": "40b562d93f954fa5",
+  "titulo": "Rising Innovators category",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
-  "caracteres": 12244
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
+  "caracteres": 12248
+ },
+ {
+  "id": "bob-bob-2026a219-ii-6013-",
+  "h": "1c3c0ab2ed5fa248",
+  "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
+  "organismoSugerido": "ayto-santurtzi",
+  "organismoFuente": "Ayuntamiento de Santurtzi",
+  "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
+  "caracteres": 5840
+ },
+ {
+  "id": "bob-bob-2026a190-ii-5068-",
+  "h": "a7cff19c658bc1c2",
+  "titulo": "Subvenciones de ayudas complementarias a las Ayudas de Emergencia Social (AES)",
+  "organismoSugerido": "ayto-arrigorriaga",
+  "organismoFuente": "Ayuntamiento de Arrigorriaga",
+  "archivo": "cache/fuentes/bob-bob-2026a190-ii-5068--ee184285.txt",
+  "caracteres": 9284
+ },
+ {
+  "id": "bob-bob-2026a216-ii-5801-",
+  "h": "ae3d7c0225330684",
+  "titulo": "Aprobación de la convocatoria y las bases reguladoras de subvenciones para promover la realización de actividades",
+  "organismoSugerido": "ayto-santurtzi",
+  "organismoFuente": "Ayuntamiento de Santurtzi",
+  "archivo": "cache/fuentes/bob-bob-2026a216-ii-5801--16ebb267.txt",
+  "caracteres": 30157
+ },
+ {
+  "id": "bob-bob-2026a213-ii-5652-",
+  "h": "5e61442a06de3a93",
+  "titulo": "Aprobación definitiva para la creación de las bases reguladoras de la subvención de «ayuda a Etxekonpon»",
+  "organismoSugerido": "ayto-zalla",
+  "organismoFuente": "Ayuntamiento de Zalla",
+  "archivo": "cache/fuentes/bob-bob-2026a213-ii-5652--05810f38.txt",
+  "caracteres": 13895
+ },
+ {
+  "id": "bob-bob-2026a201-ii-5375-",
+  "h": "d3236e93a8d24611",
+  "titulo": "Subvenciones para la eliminación de pintadas y grafitis en fachadas",
+  "organismoSugerido": "ayto-sondika",
+  "organismoFuente": "Ayuntamiento de Sondika",
+  "archivo": "cache/fuentes/bob-bob-2026a201-ii-5375--f6b8b77a.txt",
+  "caracteres": 9795
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -216,15 +270,6 @@
   "caracteres": 97436
  },
  {
-  "id": "ue-crea-media-2027-tvonline-2",
-  "h": "2bb80164abe11ee5",
-  "titulo": "TV and online content Documentary projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
-  "caracteres": 6324
- },
- {
   "id": "ue-crea-media-2027-tvonline-1",
   "h": "594ec78e4c088425",
   "titulo": "TV and online content Animation projects",
@@ -243,22 +288,13 @@
   "caracteres": 6320
  },
  {
-  "id": "bob-bob-2026a219-ii-6013-",
-  "h": "29d126ff235b635d",
-  "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
-  "organismoSugerido": "ayto-santurtzi",
-  "organismoFuente": "Ayuntamiento de Santurtzi",
-  "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
-  "caracteres": 74532
- },
- {
-  "id": "bob-bob-2026a219-ii-5936-",
-  "h": "29d126ff235b635d",
-  "titulo": "Aprobar las bases reguladoras de subvenciones para personas entre 16 y 25 años abonadas al polideportivo",
-  "organismoSugerido": "ayto-sondika",
-  "organismoFuente": "Ayuntamiento de Sondika",
-  "archivo": "cache/fuentes/bob-bob-2026a219-ii-5936--ee5923d2.txt",
-  "caracteres": 74532
+  "id": "ue-crea-media-2027-tvonline-2",
+  "h": "2bb80164abe11ee5",
+  "titulo": "TV and online content Documentary projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
+  "caracteres": 6324
  },
  {
   "id": "ara-realizacion-inversiones-sector-artesano-alaves-2026",
@@ -349,6 +385,15 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-transporte-a-piscinas-ampas-2026-1e0b04c1.txt",
   "caracteres": 67288
+ },
+ {
+  "id": "bob-bob-2026a219-ii-5936-",
+  "h": "931339841c68ddb3",
+  "titulo": "Aprobar las bases reguladoras de subvenciones para personas entre 16 y 25 años abonadas al polideportivo",
+  "organismoSugerido": "ayto-sondika",
+  "organismoFuente": "Ayuntamiento de Sondika",
+  "archivo": "cache/fuentes/bob-bob-2026a219-ii-5936--ee5923d2.txt",
+  "caracteres": 13764
  },
  {
   "id": "ara-01122001",
@@ -891,139 +936,85 @@
   "caracteres": 36508
  },
  {
-  "id": "bob-bob-2026a216-ii-5801-",
-  "h": "3a00c50705fc1196",
-  "titulo": "Aprobación de la convocatoria y las bases reguladoras de subvenciones para promover la realización de actividades",
-  "organismoSugerido": "ayto-santurtzi",
-  "organismoFuente": "Ayuntamiento de Santurtzi",
-  "archivo": "cache/fuentes/bob-bob-2026a216-ii-5801--16ebb267.txt",
-  "caracteres": 118233
- },
- {
   "id": "bob-bob-2026a213-ii-5650-",
-  "h": "46648e0806252477",
+  "h": "369c368b028349f5",
   "titulo": "Ayudas municipales de urgencia social",
   "organismoSugerido": "ayto-leioa",
   "organismoFuente": "Ayuntamiento de Leioa",
   "archivo": "cache/fuentes/bob-bob-2026a213-ii-5650--6872c075.txt",
-  "caracteres": 103623
+  "caracteres": 963
  },
  {
-  "id": "bob-bob-2026a213-ii-5652-",
-  "h": "46648e0806252477",
-  "titulo": "Aprobación definitiva para la creación de las bases reguladoras de la subvención de «ayuda a Etxekonpon»",
-  "organismoSugerido": "ayto-zalla",
-  "organismoFuente": "Ayuntamiento de Zalla",
-  "archivo": "cache/fuentes/bob-bob-2026a213-ii-5652--05810f38.txt",
-  "caracteres": 103623
+  "id": "bob-bob-2026a210-i-1190-",
+  "h": "22d3905d88160567",
+  "titulo": "Orden foral 2377/, de 15 de octubre, de la diputada foral de Euskera, Cultura y Deporte,",
+  "organismoSugerido": "dfb",
+  "organismoFuente": "Diputación Foral de Bizkaia",
+  "archivo": "cache/fuentes/bob-bob-2026a210-i-1190--7a31f0f5.txt",
+  "caracteres": 26299
  },
  {
   "id": "bob-bob-2026a207-i-1230-",
-  "h": "d93fa1a23611efef",
+  "h": "73a154eeefb4fcf0",
   "titulo": "Orden foral 6279/, de 16 de octubre, de la diputada foral de Empleo, Cohesión Social e Igualdad",
   "organismoSugerido": "dfb",
   "organismoFuente": "Diputación Foral de Bizkaia",
   "archivo": "cache/fuentes/bob-bob-2026a207-i-1230--8dea9f74.txt",
-  "caracteres": 109078
- },
- {
-  "id": "bob-bob-2026a204-ii-5423-",
-  "h": "d02b1cc960d7d07e",
-  "titulo": "Subvenciones municipales",
-  "organismoSugerido": "ayto-barrika",
-  "organismoFuente": "Ayuntamiento de Barrika",
-  "archivo": "cache/fuentes/bob-bob-2026a204-ii-5423--eec1765a.txt",
-  "caracteres": 93593
- },
- {
-  "id": "bob-bob-2026a201-ii-5375-",
-  "h": "478e037197764a8d",
-  "titulo": "Subvenciones para la eliminación de pintadas y grafitis en fachadas",
-  "organismoSugerido": "ayto-sondika",
-  "organismoFuente": "Ayuntamiento de Sondika",
-  "archivo": "cache/fuentes/bob-bob-2026a201-ii-5375--f6b8b77a.txt",
-  "caracteres": 96978
+  "caracteres": 5450
  },
  {
   "id": "bob-bob-2026a200-i-1174-",
-  "h": "77f7c0f9ad093dc7",
+  "h": "ea49118efd601d17",
   "titulo": "Decreto foral 87/, de 15 de octubre, por el que se modifica el Decreto Foral 137/, de 29 de diciembre,",
   "organismoSugerido": "dfb",
   "organismoFuente": "Diputación Foral de Bizkaia",
   "archivo": "cache/fuentes/bob-bob-2026a200-i-1174--76b789a0.txt",
-  "caracteres": 8063
+  "caracteres": 5881
  },
  {
   "id": "bob-bob-2026a200-ii-5287-",
-  "h": "77f7c0f9ad093dc7",
+  "h": "8983e29ac02fa059",
   "titulo": "Extracto de la Resolución/2841, de 28 de septiembre,",
   "organismoSugerido": "ayto-durango",
   "organismoFuente": "Ayuntamiento de Durango",
   "archivo": "cache/fuentes/bob-bob-2026a200-ii-5287--be3f2bde.txt",
-  "caracteres": 8063
+  "caracteres": 3564
  },
  {
   "id": "bob-bob-2026a200-ii-5331-",
-  "h": "77f7c0f9ad093dc7",
+  "h": "e2d00e1ecf3e9cbf",
   "titulo": "Subvenciones para el aprendizaje del euskera. Decreto de Alcaldía 170/",
   "organismoSugerido": "ayto-laukiz",
   "organismoFuente": "Ayuntamiento de Laukiz",
   "archivo": "cache/fuentes/bob-bob-2026a200-ii-5331--03e0f294.txt",
-  "caracteres": 8063
+  "caracteres": 16335
  },
  {
   "id": "bob-bob-2026a199-ii-5301-",
-  "h": "983b7f1ea1fdf4b4",
+  "h": "235b616e4626186e",
   "titulo": "Subvenciones Cultura, Euskara y deportes",
   "organismoSugerido": "ayto-arantzazu",
   "organismoFuente": "Ayuntamiento de Arantzazu",
   "archivo": "cache/fuentes/bob-bob-2026a199-ii-5301--af14c118.txt",
-  "caracteres": 122268
- },
- {
-  "id": "bob-bob-2026a199-ii-5322-",
-  "h": "983b7f1ea1fdf4b4",
-  "titulo": "Subvenciones para la promoción deportiva a otorgar",
-  "organismoSugerido": "ayto-sondika",
-  "organismoFuente": "Ayuntamiento de Sondika",
-  "archivo": "cache/fuentes/bob-bob-2026a199-ii-5322--7c6f7efc.txt",
-  "caracteres": 122268
+  "caracteres": 1327
  },
  {
   "id": "bob-bob-2026a196-ii-5239-",
-  "h": "07cfd95f72191f9e",
+  "h": "8f6d63c617fec27c",
   "titulo": "Extracto de Resolución 2026001548, de fecha 26 de febrero, de la Alcaldía,",
   "organismoSugerido": "ayto-leioa",
   "organismoFuente": "Ayuntamiento de Leioa",
   "archivo": "cache/fuentes/bob-bob-2026a196-ii-5239--745c2c28.txt",
-  "caracteres": 112988
+  "caracteres": 5013
  },
  {
   "id": "bob-bob-2026a193-ii-5261-",
-  "h": "fb0bdb6485f20f73",
+  "h": "497bb5bc087727cd",
   "titulo": "Bases del concurso - certamen de dibujo y pintura al aire libre - centenario del funicular de Larreineta",
   "organismoSugerido": "ayto-valle-de-trapaga-trapagaran",
   "organismoFuente": "Ayuntamiento de Valle de Trápaga-Trapagaran",
   "archivo": "cache/fuentes/bob-bob-2026a193-ii-5261--926605d8.txt",
-  "caracteres": 57647
- },
- {
-  "id": "bob-bob-2026a197-ii-5282-",
-  "h": "113f80051786b52f",
-  "titulo": "Extracto del Decreto de Alcaldía número 51, de 11 de septiembre de,",
-  "organismoSugerido": "ayto-elantxobe",
-  "organismoFuente": "Ayuntamiento de Elantxobe",
-  "archivo": "cache/fuentes/bob-bob-2026a197-ii-5282--30bef76a.txt",
-  "caracteres": 111812
- },
- {
-  "id": "bob-bob-2026a190-ii-5068-",
-  "h": "d547f8db46e982c0",
-  "titulo": "Subvenciones de ayudas complementarias a las Ayudas de Emergencia Social (AES)",
-  "organismoSugerido": "ayto-arrigorriaga",
-  "organismoFuente": "Ayuntamiento de Arrigorriaga",
-  "archivo": "cache/fuentes/bob-bob-2026a190-ii-5068--ee184285.txt",
-  "caracteres": 73053
+  "caracteres": 17915
  },
  {
   "id": "prest-bizkaia-pecef",
