@@ -285,5 +285,21 @@
   "para": [
    "particular"
   ]
+ },
+ {
+  "id": "prest-euskadi-huerfanas-violencia-machista",
+  "titulo": "Ayuda económica para hijas e hijos huérfanos de víctimas mortales de violencia machista contra las mujeres",
+  "url": "https://www.euskadi.eus/ayuda_subvencion/2024/ayuda-economica-para-hijas-e-hijos-huerfanas-de-victimas-mortales-de-violencia-machista-contra-las-mujeres/web01-tramite/es/",
+  "fuente": "euskadi.eus",
+  "organismo": "Gobierno Vasco",
+  "ambito": {
+   "nivel": "euskadi",
+   "nombre": "Toda Euskadi"
+  },
+  "resumen": "Ayuda anual del Gobierno Vasco (Decreto 48/2024) para hijas e hijos de mujeres asesinadas por violencia machista, equivalente al 80 % del IPREM anual (el doble con discapacidad del 33 % o dependencia reconocidas siendo menor). Se cobra cada año hasta los 18 años, o hasta los 25 si hay discapacidad o dependencia o se cursan estudios reglados. Se puede pedir en cualquier momento y se concede por orden de solicitud completa hasta agotar el crédito anual.",
+  "dirigido": "Hijas, hijos o menores tutelados de víctimas mortales de violencia machista que tenían menos de 18 años al fallecer su madre o tutora, no han cumplido 21 al solicitarla y están empadronados y residen en Euskadi",
+  "para": [
+   "particular"
+  ]
  }
 ]

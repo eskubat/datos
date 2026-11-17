@@ -302,9 +302,9 @@
   "seccion": "fuentes",
   "quien": "Claude",
   "prioridad": 17,
-  "estado": "pendiente",
-  "fecha": "2026-11-16",
-  "nota": "Añadida al plan de mejoras"
+  "estado": "hecha",
+  "fecha": "2026-11-17",
+  "nota": "No hay procedimiento más nuevo: el de 2024 (código 1235701, Decreto 48/2024) sigue siendo el vigente; la ayuda ordinaria no tiene plazo de cierre y la Orden de 13/05/2026 (BOPV 19/05/2026) le asigna 100.000 € para 2026, mientras que el pago único extraordinario cerró en mayo de 2026. La he añadido a cache/prestaciones.json como prestación permanente (prest-euskadi-huerfanas-violencia-machista) con la página oficial del trámite; se espera 1 ayuda más desde el recolector de las 05:41 (la sesión no llega a euskadi.eus, así que esa será la primera prueba real)."
  },
  {
   "id": "bdns-abiertas-antiguas",
