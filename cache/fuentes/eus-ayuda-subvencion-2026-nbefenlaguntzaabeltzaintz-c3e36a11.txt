@@ -1863,42 +1863,6 @@ En Vitoria-Gasteiz, a 27 de junio de 2012.
 La Consejera de Justicia y Administración Pública,
 IDOIA MENDIA CUEVA.
 
-### La Orden de 27 de junio de 2012: https://www.euskadi.eus/bopv2/datos/2012/07/1203474a.pdf
-OTRAS DISPOSICIONES
-DEPARTAMENTO DE JUSTICIA Y ADMINISTRACIÓN PÚBLICA
-3474
-ORDEN de 27 de junio de 2012, de la Consejera de Justicia y Administración Pública, por la que
-se aprueba la política de firma electrónica y de certificados.
-El Decreto 21/2012, de 21 de febrero, de Administración Electrónica, establece, en su artículo
-19, que mediante orden de la persona titular del departamento competente en Administración
-Electrónica se aprobará la política de firma electrónica y de certificados y se publicará un extracto
-de su aprobación en el Boletín Oficial del País Vasco y, de forma íntegra, en la sede electrónica.
-Asimismo, el artículo 19 dispone que esta política concretará los procesos de generación,
-validación y conservación de firmas electrónicas, así como las características y requisitos exigibles
-a los sistemas de firma electrónica, los certificados, los servicios de sellado de tiempo, y otros
-elementos de soporte de las firmas.
-La Norma Técnica de Interoperabilidad de Política de Firma Electrónica y de certificados de la
-Administración, dictada en desarrollo del Real Decreto 4/2010, de 8 de enero, por el que se regula
-el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica, implanta
-el conjunto de criterios para el desarrollo o adopción de políticas de firma electrónica basada en
-certificados, por parte de las Administraciones Públicas. Para ello, define el contenido de una
-política de firma electrónica basada en certificados, especificando las características de las reglas
-comunes, como formatos, uso de algoritmos, creación y validación de firma para documentos
-electrónicos, así como de las reglas de confianza en certificados electrónicos, sellos de tiempo y
-firmas longevas.
-En aplicación de las normas anteriores, mediante la presente Orden,
-RESUELVO:
-Primero.– Aprobar la política de firma electrónica y de certificados de la Administración Pública
-de la Comunidad Autónoma de Euskadi.
-Segundo.– Publicar el documento con el texto íntegro de la política de firma electrónica y de
-certificados en la sede electrónica, https://euskadi.net/.
-DISPOSICIÓN FINAL
-La política de firma electrónica y de certificados surtirá efectos desde el día siguiente al de la
-publicación de esta Orden en el Boletín Oficial del País Vasco.
-En Vitoria-Gasteiz, a 27 de junio de 2012.
-La Consejera de Justicia y Administración Pública,
-IDOIA MENDIA CUEVA.
-
 ### política de firma: https://euskadi.eus/contenidos/informacion/certificados_admitidos/es_cert_ele/adjuntos/Pol%C3%ADtica%20de%20Firma%201.1.pdf
 HERRI ADMINISTRAZIO ETA
 JUSTIZIA SAILA
