@@ -1,14 +1,5 @@
 [
  {
-  "id": "ara-ayudas-para-hacer-frente-a-inversiones-turisticas-en-entidad",
-  "h": "38a7262228dd2dbb",
-  "titulo": "2026 - Ayudas para hacer frente a inversiones en entidades sin ánimo de lucro del sector turístico alavés",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-para-hacer-frente-a-inversiones-turisticas-en-ent-0e8dd92f.txt",
-  "caracteres": 2243
- },
- {
   "id": "eus-ayuda-subvencion-2026-ayudas-al-amparo-de-la-estrategia-de-desarrollo-local-participativo-2026",
   "h": "326cf1f5b429808a",
   "titulo": "Ayudas a proyectos al amparo de la estrategia de desarrollo local participativo (EDLP)",
@@ -54,13 +45,13 @@
   "caracteres": 5593
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
-  "h": "40b562d93f954fa5",
-  "titulo": "Rising Innovators category",
+  "id": "ue-horizon-eic-2026-prize-wip",
+  "h": "ed2bdc6e55313d53",
+  "titulo": "The European Prize for Women Innovators",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
-  "caracteres": 12248
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
+  "caracteres": 12244
  },
  {
   "id": "ue-horizon-eit-2026-prize-wip-leadership",
@@ -72,13 +63,13 @@
   "caracteres": 12241
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip",
-  "h": "ed2bdc6e55313d53",
-  "titulo": "The European Prize for Women Innovators",
+  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
+  "h": "40b562d93f954fa5",
+  "titulo": "Rising Innovators category",
   "organismoSugerido": "ue",
   "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
-  "caracteres": 12244
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
+  "caracteres": 12248
  },
  {
   "id": "bob-bob-2026a219-ii-6013-",
@@ -162,6 +153,15 @@
   "caracteres": 153790
  },
  {
+  "id": "ara-convocatoria-subvenciones-medios-euskera",
+  "h": "1f5c6e300759cdeb",
+  "titulo": "Subvenciones destinadas a la consolidación, desarrollo y normalización de proyectos comunicativos locales o comarcales en euskera",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-subvenciones-medios-euskera-05498ba6.txt",
+  "caracteres": 106215
+ },
+ {
   "id": "ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-y-p-33821e",
   "h": "befca6c7a0c51388",
   "titulo": "Ayudas para intervenciones arqueológicas y paleontológicas realizadas como consecuencia de obras",
@@ -169,6 +169,15 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-93e2681d.txt",
   "caracteres": 51194
+ },
+ {
+  "id": "ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-y-p-1d9427",
+  "h": "a3a67575efef88d0",
+  "titulo": "Ayudas para intervenciones arqueológicas y paleontológicas realizadas como consecuencia de obras",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-para-intervenciones-arqueologicas-f94e402a.txt",
+  "caracteres": 51357
  },
  {
   "id": "ara-ayudas-directas-para-el-transporte-terrestre-por-carretera-p",
@@ -189,13 +198,13 @@
   "caracteres": 1778
  },
  {
-  "id": "ue-crea-media-2027-tvonline-2",
-  "h": "2bb80164abe11ee5",
-  "titulo": "TV and online content Documentary projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
-  "caracteres": 6324
+  "id": "bdns-929714",
+  "h": "350945b2c14700ab",
+  "titulo": "Subvenciones a asociaciones para organizar colonias y campamentos de verano",
+  "organismoSugerido": "ayto-barakaldo",
+  "organismoFuente": "Ayuntamiento de barakaldo",
+  "archivo": "cache/fuentes/bdns-929714-71f80b33.txt",
+  "caracteres": 214972
  },
  {
   "id": "ue-crea-media-2027-tvonline-1",
@@ -216,6 +225,15 @@
   "caracteres": 6320
  },
  {
+  "id": "ue-crea-media-2027-tvonline-2",
+  "h": "2bb80164abe11ee5",
+  "titulo": "TV and online content Documentary projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
+  "caracteres": 6324
+ },
+ {
   "id": "ara-solicitar-subvenciones-para-intervenciones-de-conservacion-y-1c431c",
   "h": "a79e9e8afe062802",
   "titulo": "Subvenciones para intervenciones de conservación y restauración del patrimonio cultural promovidas por entidades locales. elementos menores",
@@ -232,6 +250,24 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-subvenciones-para-intervenciones-de-conservacion-y-o-res-a71d5353.txt",
   "caracteres": 300000
+ },
+ {
+  "id": "ara-subvenciones-para-intervenciones-de-conservacion-y-o-restaur-3ee3fb",
+  "h": "d7201bf83b2789ca",
+  "titulo": "Subvenciones para intervenciones de conservación y restauración del patrimonio cultural promovidas por entidades locales. bienes histórico-artísticos",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-para-intervenciones-de-conservacion-y-o-res-942ca9d0.txt",
+  "caracteres": 300000
+ },
+ {
+  "id": "ara-convocatoria-subvenciones-medios-euskera-2026",
+  "h": "ff98cda39fb880d7",
+  "titulo": "Subvenciones destinadas a la consolidación, desarrollo y normalización de proyectos comunicativos locales o comarcales en euskera",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-subvenciones-medios-euskera-2026-d1d2eb59.txt",
+  "caracteres": 59626
  },
  {
   "id": "ara-01362004",
@@ -259,6 +295,15 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01362003-2cf30e1e.txt",
   "caracteres": 37231
+ },
+ {
+  "id": "ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-format",
+  "h": "254f72837483f873",
+  "titulo": "Ayudas para modernizar el equipamiento de centros de formación",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-fo-e97a71e8.txt",
+  "caracteres": 47471
  },
  {
   "id": "ue-cs-resist-ii-process-innovation-open-call",
@@ -423,6 +468,15 @@
   "caracteres": 1674
  },
  {
+  "id": "ara-interkoop-entidades-sin-animo-de-lucro-2025",
+  "h": "553ac15cda9c8624",
+  "titulo": "Ayudas Álava InterKOOP - Entidades sin ánimo de lucro",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-interkoop-entidades-sin-animo-de-lucro-2025-a87b8405.txt",
+  "caracteres": 39303
+ },
+ {
   "id": "ara-convocatoria-de-ayudas-a-la-creacion-audiovisual-2025",
   "h": "9ac5ec5df01d379d",
   "titulo": "Ayudas a la creación audiovisual",
@@ -441,6 +495,24 @@
   "caracteres": 45710
  },
  {
+  "id": "ara-alava-innova-digitaliza-empresas-2026",
+  "h": "5c6f2e4090e37427",
+  "titulo": "Álava Innova - Descarboniza _Empresas y Autónomos",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-alava-innova-digitaliza-empresas-2026-74bf274c.txt",
+  "caracteres": 223846
+ },
+ {
+  "id": "ara-alava-innova-descarboniza-asociaciones-2026",
+  "h": "9a34b4bbef2d4b5d",
+  "titulo": "Álava Innova - Descarboniza_ Asociaciones",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-alava-innova-descarboniza-asociaciones-2026-94fa74f2.txt",
+  "caracteres": 86758
+ },
+ {
   "id": "ara-convocatoria-de-subvenciones-para-desarrollar-iniciativas-cu-f9af8a",
   "h": "4a17b88329101eee",
   "titulo": "Subvenciones para desarrollar iniciativas culturales promovidas por ayuntamientos y cuadrillas y enclave de Treviño. Convocatoria",
@@ -448,6 +520,24 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-convocatoria-de-subvenciones-para-desarrollar-iniciativa-cdb03a8a.txt",
   "caracteres": 56488
+ },
+ {
+  "id": "ara-subvenciones-desarrollo-programas-de-creacion-y-difusion-cul-a763b5",
+  "h": "305f2fd7fe485ab0",
+  "titulo": "Subvenciones para el desarrollo de programas de creación y difusión cultural en el Territorio Histórico y enclave de Treviño. - Profesionales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-desarrollo-programas-de-creacion-y-difusion-55639ac9.txt",
+  "caracteres": 288895
+ },
+ {
+  "id": "ara-subvenciones-desarrollo-programas-de-creacion-y-difusion-cul-0e100a",
+  "h": "4bc14406e7100c2e",
+  "titulo": "Subvenciones para el desarrollo de programas de creación y difusión cultural en el Territorio Histórico y enclave de Treviño. - Asociaciones",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-desarrollo-programas-de-creacion-y-difusion-d60beadf.txt",
+  "caracteres": 288591
  },
  {
   "id": "ara-solicitar-subvenciones-para-intervenciones-de-conservacion-y-0d3c16",
@@ -478,21 +568,30 @@
  },
  {
   "id": "ara-ayudas-turismo-actividad-ayuntamientos-2026",
-  "h": "aaeda24a87884ea7",
+  "h": "bd13c5857921e44a",
   "titulo": "Ayudas gastos de actividad turística en Ayuntamientos",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-turismo-actividad-ayuntamientos-2026-81b4af38.txt",
-  "caracteres": 2015
+  "caracteres": 34820
+ },
+ {
+  "id": "ara-subvenciones-para-la-financiacion-de-acciones-conducentes-a-",
+  "h": "8fd5340576077678",
+  "titulo": "Subvenciones para la financiación de acciones conducentes a la rehabilitación de vivienda en Entidades Locales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-subvenciones-para-la-financiacion-de-acciones-conducente-36e7edb7.txt",
+  "caracteres": 194741
  },
  {
   "id": "ara-ayudas-turismo-actividad-cuadrillas-2026",
-  "h": "65312ac7a6e17c6b",
+  "h": "158594d0328a3b2d",
   "titulo": "Ayudas gastos de actividad turística en cuadrillas",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-turismo-actividad-cuadrillas-2026-49eef6db.txt",
-  "caracteres": 2542
+  "caracteres": 35347
  },
  {
   "id": "ara-ayudas-inversiones-turisticas-en-cuadrillas-2026",
@@ -513,6 +612,15 @@
   "caracteres": 32163
  },
  {
+  "id": "ara-programa-innobideak-kudeabide-2026",
+  "h": "0a1874e166a54f74",
+  "titulo": "Ayudas para desarrollar proyectos de Gestión Avanzada - Innobideak-Kudeabide",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-programa-innobideak-kudeabide-2026-bd395d1f.txt",
+  "caracteres": 59014
+ },
+ {
   "id": "ara-convocatoria-de-ayudas-a-la-creacion-audiovisual-2026",
   "h": "f059e45c92ccd438",
   "titulo": "Ayudas a la creación audiovisual",
@@ -520,6 +628,15 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-a-la-creacion-audiovisual-2026-7e0f9750.txt",
   "caracteres": 300000
+ },
+ {
+  "id": "ara-ayudas-para-hacer-frente-a-inversiones-turisticas-en-entidad",
+  "h": "a295f51798685efe",
+  "titulo": "Ayudas para hacer frente a inversiones en entidades sin ánimo de lucro del sector turístico alavés",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-ayudas-para-hacer-frente-a-inversiones-turisticas-en-ent-0e8dd92f.txt",
+  "caracteres": 2241
  },
  {
   "id": "ara-interkoop-entidades-sin-animo-de-lucro-2026",
