@@ -42,7 +42,7 @@ export function clasifica(n1, n2, n3) {
 }
 
 // Subvenciones que no se pueden solicitar: nominativas, directas, convenios con una entidad concreta...
-export const RUIDO = /nominativ|convocatoria instrumental|programa ind[ií]gena|se resuelven?\b|resoluci[oó]n de (la )?concesi|desiert|subvenciones directas|funcionamiento y actividades de la |izendun|a favor d|convenio|hitzarmen|concesi[oó]n directa|subvenci[oó]n (foral )?directa|subv\.? ?directa|foral directa|se concede|de concesi[oó]n de|aprobar (un|el) gasto|aportaci[oó]n (econ[oó]mica )?(a|al|para) |transferencia|adenda|addenda|excepcional|en especie|reintegro|justificaci[oó]n/i;
+export const RUIDO = /nominativ|convocatoria instrumental|programa ind[ií]gena|se resuelven?\b|resoluci[oó]n de (la )?concesi|desiert|subvenciones directas|funcionamiento y actividades de la |izendun|a favor d|convenio|hitzarmen|concesi[oó]n directa|subvenci[oó]n (foral )?directa|subv\.? ?directa|foral directa|se concede|de concesi[oó]n de|aprobar (un|el) gasto|aportaci[oó]n (econ[oó]mica )?(a|al|para) |transferencia|adenda|addenda|excepcional|en especie|reintegro|justificaci[oó]n|colaboraci[oó]n entre (el|la) (ayuntamiento|diputaci[oó]n)|(concede|otorga)\\w* una (ayuda|subvenci[oó]n) directa|arteko lankidetza/i;
 
 // Documentos de la convocatoria en la BDNS: todos menos los que solo están en euskera (si hay versión en castellano),
 // primero la convocatoria y las bases y al final los formularios (antes solo se bajaban los que decían «castellano»
@@ -59,14 +59,28 @@ export function docsBdns(documentos) {
 
 // Nominativas que solo lo dicen en el documento de la convocatoria (a veces solo en euskera): el documento
 // subido a la BDNS empieza por «CONVENIO» / «HITZARMENA» / «ACUERDO DE COLABORACIÓN», «REUNIDOS» / «BILDURIK»,
-// o habla de una subvención «nominativa» / «izenduna». Solo se mira la cabecera (primeras líneas) de los
-// documentos de la propia BDNS, no las bases ni el boletín, que pueden citar convenios de pasada.
-const CABECERA_NO_SOLICITABLE = /\b(convenio|hitzarmen\w*|acuerdo de colaboraci[oó]n|lankidetza[- ]akordio\w*|reunidos|comparecen|bildurik|elkarturik|nominativ\w*|nomintiv\w*|izendun\w*)\b/i;
+// o habla de una subvención «nominativa» / «izenduna». Solo se mira la cabecera de los documentos de la propia
+// BDNS, no las bases ni el boletín, que pueden citar convenios de pasada.
+// Ampliado el 17/11 (tarea convenios-bdns-2): las cabeceras bilingües son largas (el castellano llega después del
+// euskera), así que se miran 30 líneas; cuentan también la «colaboración entre el ayuntamiento y la asociación X»
+// («… ELKARTEAREN ARTEKO LANKIDETZA») y las aportaciones a Euskal Fondoa. Si la cabecera cita el «convenio colectivo» /
+// «hitzarmen kolektiboa», «convenio» no cuenta (lo citan las ayudas a la contratación). La concesión directa («concesión directa»,
+// «subvención / ayuda directa», «zuzeneko diru-laguntza») solo cuenta si la cabecera no habla de un procedimiento
+// abierto (evaluación individualizada, concurrencia, plazo de solicitudes): p. ej. Eibar concede «zuzenean» por
+// evaluación individualizada a todos los clubes que lo piden (bdns-936268). El art. 22.2 de la Ley 38/2003 no sirve
+// de señal: las ayudas sociales municipales (Portugalete, bdns-942048 y 942070) se conceden por él y las pide cualquiera.
+const CABECERA_NO_SOLICITABLE = /\b(convenio|hitzarmen\w*|acuerdo de colaboraci[oó]n|lankidetza[- ]akordio\w*|reunidos|comparecen|bildurik|elkarturik|nominativ\w*|nomintiv\w*|izendun\w*|colaboraci[oó]n entre (?:el|la) (?:ayuntamiento|diputaci[oó]n|gobierno)[^.]{0,80}?\by (?:el|la|los|las) (?:asociaci[oó]n|club|fundaci[oó]n|federaci[oó]n|cofrad[ií]a|sociedad|entidad|comisi[oó]n)|(?:elkartearen|klubaren|fundazioaren|federazioaren) arteko lankidetza|euskal fondoa\w*)\b/i;
+const CABECERA_DIRECTA = /\b(concesi[oó]n directa|(?:subvenci[oó]n|ayuda|aportaci[oó]n)(?: econ[oó]mica)? directa|zuzeneko (?:diru-?laguntza|laguntza|ekarpen)\w*)\b/i;
+const CABECERA_ABIERTA = /evaluaci[oó]n individualizada|ebaluazio (?:bakoiztu|indibidualizatu)|concurrencia|norgehiagok|plazo de (?:presentaci[oó]n de )?solicitudes|eskaerak aurkezteko epea/i;
 export function documentoNoSolicitable(textoDocs) {
   for (const b of String(textoDocs || '').split(/\n(?=### )/)) {
     if (!/^### Documento de la convocatoria: https:\/\/www\.(infosubvenciones\.es|pap\.hacienda\.gob\.es)\//.test(b)) continue;
     const lineas = b.split('\n').slice(1).map((l) => l.trim()).filter((l) => l && !/^\d+$|^--$/.test(l));
-    const m = lineas.slice(0, 12).join(' ').slice(0, 600).match(CABECERA_NO_SOLICITABLE);
+    let cab = lineas.slice(0, 30).join(' ').replace(/\s+/g, ' ');
+    // Si habla del convenio colectivo, «convenio» / «hitzarmen» se refieren a él (ayudas a la contratación, bdns-927981)
+    if (/convenios? colectiv|hitzarmen\w* kolektib/i.test(cab)) cab = cab.replace(/\b(convenio|hitzarmen)\w*/gi, '');
+    cab = cab.slice(0, 1500);
+    const m = cab.match(CABECERA_NO_SOLICITABLE) || (!CABECERA_ABIERTA.test(cab) && cab.match(CABECERA_DIRECTA));
     if (m) return m[0];
   }
   return '';

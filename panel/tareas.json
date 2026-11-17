@@ -448,8 +448,9 @@
   "prioridad": 15,
   "fuente": "Revisor de datos (16/11)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-16"
+  "estado": "hecha",
+  "fecha": "2026-11-17",
+  "nota": "Los cinco casos ya no estaban en la cola (sus fichas decían «No es una convocatoria abierta»), pero el filtro del documento no los reconocía: la cabecera bilingüe es larga y el castellano llega tarde. Ahora se miran 30 líneas y cuentan también «colaboración entre el ayuntamiento y la asociación» / «elkartearen arteko lankidetza», Euskal Fondoa y la concesión o ayuda directa (salvo si la cabecera habla de evaluación individualizada, concurrencia o plazo de solicitudes); se ignora «convenio» cuando habla del convenio colectivo, y el título descarta también «colaboración entre el ayuntamiento…» y «concede una ayuda directa». Probado con las 224 fichas de la caché: descarta 8, todas convenios o directas, entre ellas bdns-934108 (convenio nominativo de Vitoria-Gasteiz con Garenok), que estaba publicada; sin falsos positivos (se comprobaron Campezo, Eibar y Portugalete)."
  },
  {
   "id": "ue-cascada",
