@@ -293,5 +293,23 @@
     "para": [
       "particular"
     ]
+  },
+  {
+    "id": "extra-arraia-maeztu-euskera-2026",
+    "titulo": "Ayudas para el estudio del euskera, curso 2025/2026",
+    "url": "https://www.araba.eus/botha/Boletines/2026/096/2026_096_02424_C.pdf",
+    "fuente": "BOTHA",
+    "organismo": "Ayuntamiento de Arraia-Maeztu",
+    "ambito": {
+      "nivel": "municipio",
+      "nombre": "Arraia-Maeztu"
+    },
+    "inicio": "2026-08-24",
+    "fin": "2026-11-30",
+    "resumen": "El Ayuntamiento de Arraia-Maeztu subvenciona parte de la matrícula de cursos de euskera del curso 2025/2026 (de octubre de 2025 a septiembre de 2026, incluidos cursos de verano e internados), según las horas del curso. No cubre viajes, comidas ni alojamiento.",
+    "dirigido": "Personas mayores de 16 años empadronadas en Arraia-Maeztu antes del inicio del curso y durante todo él, matriculadas en un curso reconocido por HABE o público local, con al menos el 80 % de asistencia o el curso aprobado.",
+    "para": [
+      "particular"
+    ]
   }
 ]
