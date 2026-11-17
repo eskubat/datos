@@ -574,8 +574,9 @@
   "prioridad": 27,
   "fuente": "Plan de mejoras (17/11)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-17"
+  "estado": "hecha",
+  "fecha": "2026-11-17",
+  "nota": "En vez de buscar a mano las ~95 convocatorias, el recolector lee ahora los sumarios del BOTHA de todo el año (boletines.sumariosBotha: hasta 60 números por pasada, guardados en cache/botha_sumarios.json con solo las convocatorias de la Diputación) y, para cada ayuda ara-… sin anuncio en su documentación, elige la convocatoria cuyo título comparte más palabras con el suyo (anuncioBothaAraba); la URL se guarda en cache/botha_araba.json y se descarga como «Documento de la convocatoria», así finBothaAraba calcula el cierre al día siguiente. La red de esta sesión no llega a araba.eus: la primera prueba real será el recolector de las 05:41 (el año entero queda leído en 2-3 días) y la probé solo con los anuncios del BOTHA ya guardados, que emparejan bien (p. ej. viñedos históricos con el Decreto Foral 33/2026); se espera que buena parte de esas ~95 ayudas pasen a cerradas o con su plazo real, y que vuelvan a la cola de fichas al llegar el anuncio."
  },
  {
   "id": "bdns-docs-duplicados",
@@ -660,6 +661,17 @@
   "seccion": "fuentes",
   "prioridad": 35,
   "fuente": "Plan de mejora (bdns-fecha-bob)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-17"
+ },
+ {
+  "id": "araba-botha-sumarios-revisar",
+  "titulo": "Revisar los anuncios del BOTHA emparejados con las ayudas de Álava",
+  "detalle": "Tras 2-3 pasadas del recolector, mirar en su salida la línea «Álava sin anuncio del BOTHA» y cache/botha_araba.json: comprobar a mano una muestra de parejas (ayuda ↔ anuncio), quitar las equivocadas y ajustar el umbral de palabras de anuncioBothaAraba si hace falta; contar cuántas ara-… pasan a cerradas.",
+  "seccion": "fuentes",
+  "prioridad": 36,
+  "fuente": "Plan de mejoras (17/11)",
   "quien": "Claude",
   "estado": "pendiente",
   "fecha": "2026-11-17"

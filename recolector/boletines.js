@@ -99,21 +99,74 @@ export async function botha(desde, vistos, log) {
     const pub = f && MES[norm(f[2])] ? `${f[3]}-${String(MES[norm(f[2])]).padStart(2, '0')}-${f[1].padStart(2, '0')}` : null;
     if (pub && pub < isoDia(desde)) break;
     vistos.add(clave);
-    let entidad = '', buf = [];
-    for (const raw of txt.split('\n')) {
-      const l = raw.trim();
-      if (!l || /^www\.araba|^D\.L\.|n[uú]m\. \d+$|^\d+\/\d+$/i.test(l)) continue;
-      if (/^(AYUNTAMIENTO|DIPUTACI[OÓ]N|DEPARTAMENTO|JUNTA ADMINISTRATIVA|CUADRILLA|JUNTAS GENERALES|CONSORCIO)\b/.test(l) && l === l.toUpperCase()) { entidad = l; buf = []; continue; }
-      const ref = l.match(/(\d{4})\s*[-\u2010-\u2013]\s*(\d{5})\s*$/);
-      buf.push(l.replace(/[.\u2026·]{3,}.*$/, '').replace(/\s\d{4}\s*[-\u2010-\u2013]\s*\d{5}\s*$/, ''));
-      if (ref) {
-        const tit = buf.join(' ').replace(/(\w)- (\w)/g, '$1$2').replace(/\s+/g, ' ').trim(); buf = [];
-        if (!util(tit)) continue;
-        out.push({ boletin: 'BOTHA', titulo: tit, entidad, terr: 'Araba/Álava', publicacion: pub, url: `https://www.araba.eus/botha/Boletines/${ref[1]}/${n3}/${ref[1]}_${n3}_${ref[2]}_C.pdf` });
-      }
+    for (const e of entradasSumarioBotha(txt, n3)) {
+      if (!util(e.titulo)) continue;
+      out.push({ boletin: 'BOTHA', titulo: e.titulo, entidad: e.entidad, terr: 'Araba/Álava', publicacion: pub, url: e.url });
     }
   }
   return out;
+}
+
+// Entradas de un sumario del BOTHA (texto del PDF): [{entidad, titulo, url}]
+function entradasSumarioBotha(txt, n3) {
+  const out = [];
+  let entidad = '', buf = [];
+  for (const raw of txt.split('\n')) {
+    const l = raw.trim();
+    if (!l || /^www\.araba|^D\.L\.|n[uú]m\. \d+$|^\d+\/\d+$/i.test(l)) continue;
+    if (/^(AYUNTAMIENTO|DIPUTACI[OÓ]N|DEPARTAMENTO|JUNTA ADMINISTRATIVA|CUADRILLA|JUNTAS GENERALES|CONSORCIO)\b/.test(l) && l === l.toUpperCase()) { entidad = l; buf = []; continue; }
+    const ref = l.match(/(\d{4})\s*[-\u2010-\u2013]\s*(\d{5})\s*$/);
+    buf.push(l.replace(/[.\u2026·]{3,}.*$/, '').replace(/\s\d{4}\s*[-\u2010-\u2013]\s*\d{5}\s*$/, ''));
+    if (ref) {
+      const tit = buf.join(' ').replace(/\u00ad/g, '').replace(/(\w)- (\w)/g, '$1$2').replace(/\s+/g, ' ').trim(); buf = [];
+      out.push({ entidad, titulo: tit, url: `https://www.araba.eus/botha/Boletines/${ref[1]}/${n3}/${ref[1]}_${n3}_${ref[2]}_C.pdf` });
+    }
+  }
+  return out;
+}
+const fechaSumario = (txt) => {
+  const MES = { enero: 1, febrero: 2, marzo: 3, abril: 4, mayo: 5, junio: 6, julio: 7, agosto: 8, septiembre: 9, octubre: 10, noviembre: 11, diciembre: 12 };
+  const f = txt.match(/(\d{1,2}) de (\w+) de (\d{4})/);
+  return f && MES[norm(f[2])] ? `${f[3]}-${String(MES[norm(f[2])]).padStart(2, '0')}-${f[1].padStart(2, '0')}` : null;
+};
+
+// Sumarios del BOTHA de todo el año (no solo los 45 días de botha()) para buscar el anuncio de las ayudas de la
+// sede de Álava que no lo traen enlazado (finBothaAraba en index.js). Cada número leído se guarda en
+// cache/botha_sumarios.json con solo las convocatorias de ayudas de la Diputación, y en cada pasada se leen como
+// mucho `max` números que falten (del más reciente hacia atrás), así que el año entero se completa en pocos días.
+// Devuelve [{entidad, titulo, url, publicacion}].
+// Solo la convocatoria (o su extracto), no el decreto que aprueba las bases: su plazo cuenta desde otra publicación
+const BOTHA_CONV = /(convocatoria|\bconvoca\b|\bconvocar|extracto)/i;
+const BOTHA_AYUDA = /(subvenc|ayudas?\b|becas?\b|premios?\b)/i;
+const BOTHA_NO = /resoluci[oó]n de (la )?convocatoria|por la que se resuelve|resolver la convocatoria|concesi[oó]n de las|correcci[oó]n de errores|justificaci[oó]n|reintegro|desistimiento|adjudicaci|lista (provisional|definitiva)|denegaci/i;
+export async function sumariosBotha(log = console.log, max = 60) {
+  const archivo = path.join('cache', 'botha_sumarios.json');
+  let c = { numeros: {} };
+  try { c = JSON.parse(fs.readFileSync(archivo, 'utf8')); } catch {}
+  const portada = await bajar('https://www.araba.eus/botha/inicio/SGBO5001.aspx');
+  const m = portada && portada.match(/Boletines\/(\d{4})\/(\d{3})\//);
+  if (m) {
+    const año = Number(m[1]);
+    // Solo el año en curso y el anterior
+    for (const k of Object.keys(c.numeros)) if (+k.slice(0, 4) < año - 1) delete c.numeros[k];
+    let leidos = 0, nuevos = 0;
+    for (let num = Number(m[2]); num > 0 && leidos < max; num--) {
+      const n3 = String(num).padStart(3, '0');
+      const clave = `${año}-${n3}`;
+      if (c.numeros[clave]) continue;
+      leidos++;
+      const txt = await bajar(`https://www.araba.eus/botha/Boletines/${año}/${n3}/${año}_${n3}_S_C.pdf`, { pdf: true });
+      if (!txt) continue;
+      const pub = fechaSumario(txt);
+      c.numeros[clave] = entradasSumarioBotha(txt, n3)
+        .filter((e) => /diputaci[oó]n|departamento/i.test(e.entidad) && BOTHA_CONV.test(e.titulo) && BOTHA_AYUDA.test(e.titulo) && !BOTHA_NO.test(e.titulo))
+        .map((e) => ({ ...e, publicacion: pub }));
+      nuevos += c.numeros[clave].length;
+    }
+    log(`BOTHA (sumarios del año): ${leidos} números leídos, ${nuevos} convocatorias de la Diputación nuevas, ${Object.keys(c.numeros).length} números guardados`);
+    fs.writeFileSync(archivo, JSON.stringify(c, null, 1));
+  } else log('BOTHA (sumarios del año): no se encuentra el último boletín');
+  return Object.values(c.numeros).flat();
 }
 
 // ---------- BOB (Bizkaia): sumario PDF por número ----------

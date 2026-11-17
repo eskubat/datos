@@ -175,6 +175,29 @@ function finDeTrozos(trozos, publicacion, vale, finaliza = false) {
   return null;
 }
 
+// Palabras significativas del título de una ayuda de Álava (para reconocer su anuncio en el BOTHA)
+const palabrasTitulo = (a) => [...new Set(norm(a.tituloOficial || a.titulo).split(/[^a-z0-9]+/).filter((w) => w.length > 5 && !/^(ayudas?|subvenc\w*|convocatoria|alaves\w*|entidades|desarrollo|realizacion|solicitar|territorio|historico|fomento|personas|diputacion|consejo|gobierno)$/.test(w)))];
+// Anuncio del BOTHA de las ayudas de la sede de Álava que no lo traen enlazado: se busca en los sumarios del año
+// (boletines.sumariosBotha) la convocatoria de la Diputación cuyo título comparte más palabras con el de la ayuda
+// (al menos 2 y el 60 % de las del título), del año del título o posterior; si empatan, la más reciente. La
+// comprobación fina (palabras en el texto del anuncio, fecha y plazo) la hace después finBothaAraba.
+export function anuncioBothaAraba(a, sumarios) {
+  const palabras = palabrasTitulo(a);
+  if (palabras.length < 2) return null;
+  const necesarias = Math.max(2, Math.ceil(palabras.length * 0.6));
+  const anyoHoy = new Date().getUTCFullYear();
+  const anyoTitulo = +((norm(a.tituloOficial || a.titulo).match(/\b(20\d\d)\b/) || [])[1] || 0);
+  let mejor = null;
+  for (const e of sumarios) {
+    const anyo = +String(e.publicacion || '').slice(0, 4);
+    if (!anyo || anyo < anyoHoy - 1 || (anyoTitulo && anyo < anyoTitulo - 1)) continue;
+    const t = norm(e.titulo);
+    const n = palabras.filter((w) => t.includes(w)).length;
+    if (n < necesarias) continue;
+    if (!mejor || n > mejor.n || (n === mejor.n && e.publicacion > mejor.e.publicacion)) mejor = { n, e };
+  }
+  return mejor ? mejor.e.url : null;
+}
 // Sede de Álava: el plazo que da la sede («ABIERTO (09/06/2026 - 31/01/2027)», «Del 16 de marzo de 2026 a
 // 24 de marzo de 2027») suele llegar hasta el fin de la justificación o del pago, no de la solicitud. Si la
 // documentación de la pasada anterior (cache/fuentes/<id>.txt) trae el anuncio de la convocatoria en el BOTHA,
@@ -187,7 +210,7 @@ export function finBothaAraba(a, textoFuente) {
   const ef = norm(a.estadoFuente || '');
   if (/excepcional|ampliaci|amplia|prorroga/.test(ef)) return null;
   const secciones = String(textoFuente || '').split(/^### /m).slice(1);
-  const palabras = [...new Set(norm(a.tituloOficial || a.titulo).split(/[^a-z0-9]+/).filter((w) => w.length > 5 && !/^(ayudas?|subvenc\w*|convocatoria|alaves\w*|entidades|desarrollo|realizacion|solicitar)$/.test(w)))];
+  const palabras = palabrasTitulo(a);
   // Inicio según la sede: primera fecha completa del texto de plazo
   const iniSede = fechaEn(ef, '');
   const anyoHoy = new Date().getUTCFullYear();
@@ -607,6 +630,28 @@ async function main() {
     muestras.slice(0, 15).forEach((m) => log('  ' + m));
   }
 
+  // Ayudas de la sede de Álava sin anuncio del BOTHA en su documentación: se busca en los sumarios del año y la
+  // URL encontrada se guarda en cache/botha_araba.json ({id: url}) y se descarga con su documentación, para que
+  // finBothaAraba calcule el cierre de la solicitud en la pasada siguiente.
+  let bothaAraba = {};
+  try { bothaAraba = JSON.parse(fs.readFileSync(path.join('cache', 'botha_araba.json'), 'utf8')); } catch {}
+  try {
+    const conBotha = (a) => {
+      if (bothaAraba[a.id]) return true;
+      let t = '';
+      try { t = fs.readFileSync(path.join('cache', 'fuentes', nombreFuente(a.id)), 'utf8'); } catch {}
+      return /^### (?!.*(decreto|normativa|norma foral)).*botha\/Boletines\/20\d\d\//im.test(t);
+    };
+    const sin = ayudas.filter((a) => String(a.id).startsWith('ara-') && !a.permanente && !conBotha(a));
+    if (sin.length) {
+      const sumarios = await boletines.sumariosBotha(log);
+      const halladas = [];
+      for (const a of sin) { const u = anuncioBothaAraba(a, sumarios); if (u) { bothaAraba[a.id] = u; halladas.push(a.id); } }
+      log(`Álava sin anuncio del BOTHA: ${sin.length}; encontrado en los sumarios: ${halladas.length}${halladas.length ? ' · ' + halladas.slice(0, 40).join(', ') : ''}`);
+      fs.writeFileSync(path.join('cache', 'botha_araba.json'), JSON.stringify(bothaAraba, null, 1));
+    }
+  } catch (e) { log(`Álava sin anuncio del BOTHA: ${e.message}`); }
+
   // Documentación completa de cada ayuda (ficha + todos sus enlaces de información) para los resúmenes.
   // No se publica en la app: se guarda en cache/fuentes/<id>.txt y la lee la tarea de resumen.
   const docUrl = (id) => `https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=${id}`;
@@ -616,7 +661,7 @@ async function main() {
   try { docsExtra = JSON.parse(fs.readFileSync(path.join('cache', 'docs_extra.json'), 'utf8')); } catch {}
   // Los de docs_extra ya copiados en textos_claude van al final del texto (no cambian la huella de la ficha)
   const copiados = (a) => docsCopiados(a.id, docsExtra);
-  try { docs = await documentacion(ayudas, { log, extra: (a) => [...(docsExtra[a.id] || []).filter((u) => !copiados(a).includes(u)), ...(a._urls || []), ...(a._docs || []).map(docUrl)], alFinal: copiados }); } catch (e) { log(`Documentación: ${e.message}`); }
+  try { docs = await documentacion(ayudas, { log, extra: (a) => [...(docsExtra[a.id] || []).filter((u) => !copiados(a).includes(u)), ...(bothaAraba[a.id] && !(docsExtra[a.id] || []).includes(bothaAraba[a.id]) ? [bothaAraba[a.id]] : []), ...(a._urls || []), ...(a._docs || []).map(docUrl)], alFinal: copiados }); } catch (e) { log(`Documentación: ${e.message}`); }
   // Nominativas y convenios que solo lo dicen en el documento subido a la BDNS (no en el título)
   {
     const fuera = [];
