@@ -17,7 +17,7 @@ const leer = (f, d) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } 
 const hoyMenos = (n) => { const d = new Date(Date.now() - n * 864e5); return d; };
 const isoDia = (d) => d.toISOString().slice(0, 10);
 
-async function bajar(url, { pdf = false, navegador = false } = {}) {
+async function bajar(url, { pdf = false, navegador = false, layout = true } = {}) {
   const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 60000);
   try {
     // euskadi.eus (BOPV) rechaza a los robots: ahí se entra como navegador estándar, con pocas descargas (ver README)
@@ -28,7 +28,7 @@ async function bajar(url, { pdf = false, navegador = false } = {}) {
       if (buf.slice(0, 4).toString() !== '%PDF') return null;
       const f = path.join(os.tmpdir(), 'bol-' + Math.random().toString(36).slice(2) + '.pdf');
       fs.writeFileSync(f, buf);
-      try { return execFileSync('pdftotext', ['-layout', '-enc', 'UTF-8', f, '-'], { maxBuffer: 80e6, stdio: ['ignore', 'pipe', 'ignore'] }).toString('utf8'); }
+      try { return execFileSync('pdftotext', [...(layout ? ['-layout'] : []), '-enc', 'UTF-8', f, '-'], { maxBuffer: 80e6, stdio: ['ignore', 'pipe', 'ignore'] }).toString('utf8'); }
       catch { return null; } finally { fs.rmSync(f, { force: true }); }
     }
     return decodificar(buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength));
@@ -165,6 +165,38 @@ async function bob(desde, vistos, log) {
   return out;
 }
 
+// ---------- BOB: texto de un anuncio dentro del boletín completo ----------
+// En el PDF completo, la referencia (BOB-AAAAaNNN-(II-xxxx)) solo sale en el sumario: en el cuerpo cada página lleva
+// «cve: BOB-AAAAaNNN» y cada anuncio empieza con «SECCIÓN …» + organismo + título. Se busca el título del sumario
+// en el cuerpo (sin tildes, espacios ni guiones de corte) y se corta hasta la cabecera del anuncio siguiente.
+const V_BOB = 2; // versión del corte del anuncio (x.vTexto)
+const REF_BOB = /BOB-\d{4}a\d{3}-\((?:I|II|III|IV|V)-\d+\)/g;
+const compacto = (t) => { const c = [], idx = [];
+  // índice de cada carácter útil en el texto original (NFD puede alargar: se cuenta sobre el original)
+  for (let i = 0; i < t.length; i++) { const ch = t[i].normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); for (const k of ch) if (/[a-z0-9ñ]/.test(k)) { c.push(k); idx.push(i); } }
+  return { s: c.join(''), idx }; };
+export function anuncioBob(full, ref, titulo) {
+  if (!full || !titulo) return '';
+  // Fin del sumario: última referencia de la cadena seguida (refs separadas por menos de 3000 caracteres)
+  let fin = 0, prev = -1;
+  for (const m of full.matchAll(REF_BOB)) { if (prev >= 0 && m.index - prev > 3000) break; prev = m.index; fin = m.index + m[0].length; }
+  const cuerpo = full.slice(fin);
+  const { s, idx } = compacto(cuerpo);
+  const clave = compacto(titulo.replace(/\s*BDNS\s*\(Identif\.?\).*$/i, '')).s;
+  let pos = -1, largo = 0;
+  // La primera aparición tras el sumario es la cabecera del anuncio (el título suele repetirse luego en su texto)
+  for (const n of [160, 80]) { const k = clave.slice(0, n); if (k.length < 25) break; const a = s.indexOf(k); if (a >= 0) { pos = a; largo = Math.min(clave.length, s.length - a); break; } }
+  if (pos < 0) return '';
+  let ini = idx[pos];
+  // Se incluye el organismo (líneas anteriores hasta la cabecera «SECCIÓN …»), si está cerca
+  const antes = cuerpo.slice(Math.max(0, ini - 400), ini), sc = antes.search(/SECCI[OÓ]N (?:I|II|III|IV|V)\s*\n(?![\s\S]*SECCI[OÓ]N (?:I|II|III|IV|V)\s*\n)/);
+  if (sc >= 0) ini = ini - antes.length + sc;
+  const desde = idx[Math.min(pos + largo, idx.length) - 1] + 1;
+  const sig = cuerpo.slice(desde).search(/\n\s*SECCI[OÓ]N (?:I|II|III|IV|V)\s*\n\s*ADMINISTRACI/);
+  const t = cuerpo.slice(ini, sig >= 0 ? desde + sig : desde + 15000);
+  return t.split('\n').map((l) => l.trim()).filter((l) => l && !/^(cve: BOB-\d{4}a\d{3}\S*|N[uú]m\. \d+|BOB)$/.test(l)).join('\n');
+}
+
 // ---------- BOPV (Gobierno Vasco): sumario PDF por número ----------
 // Sumario: /bopv2/datos/AAAA/MM/sAA_NNNN.pdf; cada disposición: /bopv2/datos/AAAA/MM/AANNNNNa.pdf (NNNNN = número de la
 // disposición, el que sale al final de su título en el sumario). No hay portada legible para robots: se parte del último
@@ -269,21 +301,26 @@ export async function recoger(log = console.log) {
     catch (e) { log(`${nombre}: ${e.message}`); }
   }
   // Texto de cada anuncio nuevo (para el plazo y la ficha). BOB: el anuncio dentro del boletín completo.
+  // Los anuncios del BOB leídos con la versión anterior (que se quedaba con el sumario) se vuelven a sacar una vez.
   const pdfs = {};
-  await enParalelo(nuevos, 3, async (x) => {
+  const rehacer = Object.values(cache.items).filter((x) => x.boletin === 'BOB' && x.vTexto !== V_BOB && x.ref);
+  if (rehacer.length) log(`BOB: se vuelve a sacar el texto de ${rehacer.length} anuncios guardados con el sumario`);
+  await enParalelo([...nuevos, ...rehacer], 3, async (x) => {
     let t = '';
     if (x.boletin === 'BOB') {
-      if (!(x.url in pdfs)) pdfs[x.url] = bajar(x.url, { pdf: true });
-      const full = (await pdfs[x.url]) || '';
-      const i = full.lastIndexOf(x.ref);
-      t = i >= 0 ? full.slice(i, i + 15000).split(/BOB-\d{4}a\d{3}-\((?:I|II|III|IV|V)-\d+\)/).slice(0, 2).join(' ') : '';
+      if (!(x.url in pdfs)) pdfs[x.url] = bajar(x.url, { pdf: true, layout: false }); // sin -layout: el texto corrido, como lo lee anuncioBob
+      const full = await pdfs[x.url];
+      if (!full && rehacer.includes(x)) return; // sin red: se deja como estaba y se reintenta mañana
+      t = anuncioBob(full || '', x.ref, x.titulo);
+      if (!t) log(`BOB: no se encuentra el texto de ${x.ref} en el boletín`);
+      x.vTexto = V_BOB;
     } else if (x.boletin === 'BOPV') {
       t = (await bajar(x.pdf, { pdf: true, navegador: true })) || '';
     } else {
       const raw = await bajar(x.url, { pdf: x.boletin === 'BOTHA' });
       t = raw ? (x.boletin === 'BOG' ? entidades(raw.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, '').replace(/<[^>]+>/g, '\n')) : raw) : '';
     }
-    x.texto = t.replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n').trim().slice(0, 12000);
+    x.texto = t.replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n').trim().slice(0, x.boletin === 'BOB' ? 30000 : 12000);
     const id = (x.boletin + '-' + (x.ref || x.url.split('/').pop().replace(/\.shtml$/, ''))).toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 80);
     cache.items[id] = x;
   });
@@ -315,6 +352,8 @@ export async function recoger(log = console.log) {
       url: x.url, origen: 'boletines',
       fuentes: [{ nombre: { BOPV: 'Boletín Oficial del País Vasco', BOB: 'Boletín Oficial de Bizkaia', BOG: 'Boletín Oficial de Gipuzkoa', BOTHA: 'Boletín Oficial del Territorio Histórico de Álava' }[x.boletin], url: x.url }],
       _texto: ['Anuncio publicado en el ' + x.boletin + ' el ' + x.publicacion, x.titulo, x.texto || ''].join('\n'),
+      // BOB: la URL es el boletín completo; como ficha va solo el texto de este anuncio, para que no se descargue el boletín entero
+      ...(x.boletin === 'BOB' ? { _ficha: ['Anuncio publicado en el BOB el ' + x.publicacion + ' (' + (x.ref || '') + ')', x.texto || x.titulo].join('\n') } : {}),
     });
   }
   return out;

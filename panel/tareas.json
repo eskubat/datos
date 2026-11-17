@@ -467,8 +467,9 @@
   "prioridad": 14,
   "fuente": "Revisor de datos (16/11)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-16"
+  "estado": "hecha",
+  "fecha": "2026-11-17",
+  "nota": "El lector buscaba la referencia del anuncio (BOB-…-(II-xxxx)) en el boletín completo, pero esa referencia solo sale en el sumario: se quedaba con el sumario, y además la ficha descargaba el boletín entero y lo guardaba cortado. Ahora busca el título del anuncio en el cuerpo (sin tildes ni cortes de línea), corta hasta la cabecera del anuncio siguiente y usa solo ese texto como ficha (hasta 30.000 caracteres); los 80 anuncios del BOB ya guardados se vuelven a sacar una vez. Probado con los boletines guardados en cache/fuentes; la red de la sesión no llega a bizkaia.eus, así que la primera prueba real será el recolector de las 05:41: no trae ayudas nuevas, pero las 14 fichas bob-… afectadas volverán a la cola con su texto completo."
  },
  {
   "id": "cola-plazo-cerrado",
