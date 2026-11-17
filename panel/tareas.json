@@ -644,9 +644,11 @@
   "detalle": "Tras el recolector, mirar en su salida los campos que trae la API para las convocatorias en cascada («UE cascada: campos de la API») y las que han pasado el filtro (ids ue-cs-…). Ajustar el filtro de recolector/europa.js si se cuela alguna restringida a un país o universidad, o si se queda fuera alguna abierta a solicitantes vascos; usar el enlace propio de la convocatoria si la API lo trae.",
   "fuente": "Funding & Tenders Portal (Comisión Europea)",
   "quien": "Claude",
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "fuentes",
-  "prioridad": 33
+  "prioridad": 33,
+  "fecha": "2026-11-18",
+  "nota": "De las 16 convocatorias en cascada que pasaban el filtro, 5 no eran para solicitantes vascos (bilateral de ONG lituanas, apoyo a países candidatos, GroundWork solo en los países de sus Living Labs, becas de la Universidad de Ulm y NASCHA solo para regiones concretas): recolector/europa.js ahora descarta las que limitan el lugar de establecimiento a otros países o a regiones concretas, y las de matrícula, tasas o universidad; quedan 11. La API no da un enlace distinto por convocatoria (esST_URL es el mismo portal y se repite entre proyectos), así que el recolector guarda el primer enlace externo que traiga la API y lo añade como segunda fuente; la red de la sesión no llega a la API, la primera prueba real será el recolector de las 05:41. No hay ayudas nuevas: se esperan 5 menos en la app."
  },
  {
   "id": "comprobar-miles-coma",
@@ -728,5 +730,15 @@
   "seccion": "datos",
   "fecha": "2026-11-17",
   "nota": "La comprobación de las próximas (comprobar.js) y su validación al incorporarlas (incorporar.js) solo miraban cache/fuentes_prox/; ahora suman también cache/textos_claude/<id>.txt, como las fichas normales (la huella sigue siendo solo del texto del recolector, así que no vuelven a la cola). Las próximas ya pueden dar las cifras de la convocatoria más reciente copiada del boletín (p. ej. Osalan 2026); no cambia el número de ayudas. Añadida la indicación en docs/PROXIMAS.md."
+ },
+ {
+  "id": "ue-cascada-sin-requisitos",
+  "titulo": "Convocatorias europeas en cascada sin requisitos de país en la API",
+  "detalle": "De las 108 convocatorias en cascada abiertas, 42 se quedan fuera porque el texto de la API no dice qué países pueden pedirlas (muchas solo traen una descripción corta: VALLEYS «Open to EU/Associated Countries», FARM360TECH, PhotonQBoost, AMALTEA…). Leer la página propia de la convocatoria (campo enlace que guarda ahora recolector/europa.js) para esas y dejar pasar las abiertas a cualquier país de la UE sin consorcio.",
+  "fuente": "Funding & Tenders Portal (Comisión Europea)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "seccion": "fuentes",
+  "prioridad": 39
  }
 ]

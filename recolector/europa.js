@@ -46,7 +46,7 @@ export async function convocatoriasUE(log = console.log) {
             cascada: tipo === 8,
           });
           const ult = out[out.length - 1];
-          if (tipo === 8) { if (!camposVistos) { camposVistos = true; log(`UE cascada: campos de la API: ${Object.keys(m).join(', ')}`); } ult.texto = textoCascada(m); }
+          if (tipo === 8) { if (!camposVistos) { camposVistos = true; log(`UE cascada: campos de la API: ${Object.keys(m).join(', ')}`); } ult.texto = textoCascada(m); ult.enlace = enlaceCascada(m); }
           else if (esDirecta(ult)) ult.texto = textoDe(m);
         }
         if (!d.results || d.results.length < 100) break;
@@ -56,7 +56,7 @@ export async function convocatoriasUE(log = console.log) {
   const vistos = new Set();
   const lista = out.filter((x) => x.id && !vistos.has(x.id + x.convocatoria) && vistos.add(x.id + x.convocatoria));
   if (lista.length) fs.writeFileSync(path.join('cache', 'europa.json'), JSON.stringify(lista));
-  log(`UE (Funding & Tenders): ${lista.length} convocatorias abiertas o próximas`);
+  log(`UE (Funding & Tenders): ${lista.length} convocatorias abiertas o próximas (${lista.filter((x) => x.cascada).length} en cascada, ${lista.filter((x) => x.enlace).length} con enlace propio)`);
   return lista;
 }
 
@@ -83,23 +83,45 @@ export const esDirecta = (c) => !!reglaDirecta(c);
 // Convocatorias en cascada (open calls de proyectos europeos que reparten fondos a terceros): se publican solo si
 // su texto dice que pueden pedirlas solicitantes de cualquier Estado miembro (o de España) y no exige consorcio ni
 // estar matriculado en una universidad o máster concreto, ni ser de otro país o región.
-const PAISES_FUERA = /\b(Estonia|Estonian|Latvia|Latvian|Lithuania|Lithuanian|Slovenia|Slovenian|Croatia|Croatian|Poland|Polish|Czech|Slovak|Slovakia|Hungary|Hungarian|Romania|Romanian|Bulgaria|Bulgarian|Greece|Greek|Cyprus|Cypriot|Malta|Maltese|Italy|Italian|Portugal|Portuguese|France|French|Belgium|Belgian|Netherlands|Dutch|Luxembourg|Germany|German|Austria|Austrian|Denmark|Danish|Sweden|Swedish|Finland|Finnish|Ireland|Irish|Ukraine|Ukrainian|Moldova|Moldovan|Western Balkans|Baltic|Nordic|Albania|Serbia|Montenegro|Kosovo|North Macedonia|Bosnia|Georgia|Armenia|Turkey|Türkiye|Africa|African)\b/;
+const PAISES_FUERA = /\b(Estonia|Estonian|Latvia|Latvian|Lithuania|Lithuanian|Slovenia|Slovenian|Croatia|Croatian|Poland|Polish|Czech|Slovak|Slovakia|Hungary|Hungarian|Romania|Romanian|Bulgaria|Bulgarian|Greece|Greek|Cyprus|Cypriot|Malta|Maltese|Italy|Italian|Portugal|Portuguese|France|French|Belgium|Belgian|Netherlands|Dutch|Luxembourg|Germany|German|Austria|Austrian|Denmark|Danish|Sweden|Swedish|Finland|Finnish|Ireland|Irish|Ukraine|Ukrainian|Moldova|Moldovan|Western Balkans|Baltic|Nordic|Albania|Serbia|Montenegro|Kosovo|North Macedonia|Bosnia|Georgia|Armenia|Turkey|Türkiye|Africa|African|[Ee]nlargement countries|Widening countries)\b/;
 const SOLO = /\b(only|exclusively|must be)\b[^.\n]{0,80}\b(registered|established|located|based|resident|enrolled|legal entities)\b[^.\n]{0,30}\bin\b\s+(?!(the\s+)?(EU\b|European|any\b|an?\s+(EU|eligible|Member)|Member|eligible|one of the|Horizon|Spain))/i;
 const CONSORCIO = /\b(consortium|consortia)\b[^.\n]{0,60}\b(required|must|mandatory|composed|of at least)\b|\bat least (two|three|2|3) (partners|entities|organisations|organizations|applicants)\b|\bjoint transnational\b|\btransnational (consortium|project)/i;
-const ESTUDIOS = /\b(scholarships?|master'?s?|MSc|internships?|traineeships?|summer school|degree|thesis|PhD|doctoral|students?|semester|course|mobility grants?)\b/i;
+const ESTUDIOS = /\b(fee waivers?|tuition|universit(y|ies)|scholarships?|master'?s?|MSc|internships?|traineeships?|summer school|degree|thesis|PhD|doctoral|students?|semester|course|mobility grants?)\b/i;
 const ABIERTA_UE = /\b(EU|European Union) Member States?\b|\bMember States? of the (EU|European Union)\b|\bHorizon Europe (associated|eligible) countries\b|\b(established|located|based|registered) in (the )?(EU|European Union|an? (EU|eligible) (country|Member State)|any (EU|European|eligible) (country|Member State))\b|\bSpain\b|\bSpanish\b|\bBasque\b|\bEurope-wide\b|\bEU-27\b|\bEU27\b/i;
+// Frase que limita quién puede pedirla a entidades de otros países («NGO established and operating in the Republic of
+// Lithuania», «located in the countries where Living Labs are located (Portugal, Germany…)») sin abrirla a toda la UE ni a España.
+const DONDE = /\b(established|located|based|registered|resident|operating)\b[^.\n]{0,25}\bin\b/i;
+const PAISES_TXT = new RegExp(PAISES_FUERA.source, 'i');
+const soloOtrosPaises = (t) => t.split(/(?<=[.;])\s+|\n/).some((f) => DONDE.test(f) && PAISES_TXT.test(f) && !ABIERTA_UE.test(f));
+// Solo para unas regiones concretas («SMEs established in the specified regions of…»), salvo que nombre Euskadi
+const REGIONES = /\b(specified|eligible|following|selected|participating|target) regions\b/i;
+const EUSKADI = /\b(Basque|País Vasco|Pais Vasco|Euskadi)\b/i;
 function reglaCascada(c) {
   const t = c.texto || '';
   if (t.length < 200 || c.estado !== 'abierta') return null;
   const cab = `${c.titulo} ${c.convocatoria}`;
   if (PAISES_FUERA.test(cab) || ESTUDIOS.test(cab)) return null;
   if (CONSORCIO.test(t) || SOLO.test(t) || !ABIERTA_UE.test(t)) return null;
+  if (soloOtrosPaises(t) || (REGIONES.test(t) && !EUSKADI.test(t))) return null;
   const para = [];
   if (/\b(SMEs?|start-?ups?|scale-?ups?|companies|enterprises|businesses|micro-?enterprises?)\b/i.test(t)) para.push('empresa');
   if (/\b(researchers?|individuals?|natural persons?|freelancers?|artists?|creators?|innovators?)\b/i.test(t)) para.push('particular');
   if (/\b(NGOs?|non-?profits?|civil society organi[sz]ations?|CSOs?|associations?)\b/i.test(t)) para.push('asociacion');
   if (/\b(municipalit(y|ies)|local authorit(y|ies)|cities|public authorit(y|ies))\b/i.test(t)) para.push('ayuntamiento');
   return para.length ? { para } : null;
+}
+// Enlace propio de una convocatoria en cascada (la web del proyecto o su plataforma de solicitud): el primer enlace
+// que trae la API en sus campos (links, furtherInformation, description…) fuera de los dominios de la Comisión.
+function enlaceCascada(m) {
+  const textos = Object.entries(m).filter(([k]) => !/^(url|esST_URL|es_|esDA_|DATASOURCE|DOCUMENT_)/i.test(k))
+    .flatMap(([, v]) => (Array.isArray(v) ? v : [v])).map((v) => (typeof v === 'string' ? v : JSON.stringify(v || '')));
+  for (const t of textos) {
+    for (const u of t.match(/https?:\/\/[^\s"'<>()\\]+/g) || []) {
+      const l = u.replace(/[.,;:]+$/, '');
+      if (!/^https?:\/\/([a-z0-9-]+\.)*(europa\.eu|w3\.org|schema\.org)(\/|$)/i.test(l)) return l;
+    }
+  }
+  return '';
 }
 // Texto de una convocatoria en cascada: todos los campos de texto de la API (descripción, condiciones, países…)
 const NO_TEXTO = /^(identifier|reference|url|type|status|language|languages|startDate|deadlineDate|deadlineModel|es_|DATASOURCE|DOCUMENT_|cftId|callIdentifier|programmePeriod|frameworkProgramme|sortStatus|keywords|links)$/i;
@@ -137,7 +159,7 @@ export function ayudasDirectasUE(lista, log = console.log) {
         resumen: '', dirigido: '', cuantia: '', presupuesto: null,
         para: r.para, temas: [],
         url: c.url, origen: 'europa',
-        fuentes: [{ nombre: 'Portal de financiación de la Comisión Europea (convocatoria en cascada)', url: c.url }],
+        fuentes: [{ nombre: 'Portal de financiación de la Comisión Europea (convocatoria en cascada)', url: c.url }, ...(c.enlace ? [{ nombre: 'Página de la convocatoria (proyecto ' + c.titulo.trim() + ')', url: c.enlace }] : [])],
         _texto: [c.convocatoria.trim(), 'Proyecto europeo que la convoca: ' + c.titulo, 'Convocatoria en cascada (fondos europeos repartidos por un proyecto a terceros)', 'Identificador: ' + c.id, c.inicio ? 'Apertura: ' + c.inicio : '', 'Cierre: ' + c.fin, c.texto || ''].filter(Boolean).join('\n'),
       });
       continue;
