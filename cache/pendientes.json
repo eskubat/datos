@@ -216,15 +216,6 @@
   "caracteres": 67265
  },
  {
-  "id": "bdns-937781",
-  "h": "8bae29e60a799d25",
-  "titulo": "Ilustre colegio de la abogacía de Bizkaia. q4863001f. (a)",
-  "organismoSugerido": "ayto-barakaldo",
-  "organismoFuente": "Ayuntamiento de barakaldo",
-  "archivo": "cache/fuentes/bdns-937781-0f8ae01f.txt",
-  "caracteres": 132391
- },
- {
   "id": "bdns-929714",
   "h": "350945b2c14700ab",
   "titulo": "Subvenciones a asociaciones para organizar colonias y campamentos de verano",
@@ -232,15 +223,6 @@
   "organismoFuente": "Ayuntamiento de barakaldo",
   "archivo": "cache/fuentes/bdns-929714-71f80b33.txt",
   "caracteres": 214972
- },
- {
-  "id": "ara-becas-de-investigacion-fuentes-documentales-de-alava-2026",
-  "h": "b0fc0f0a0a9cc4cb",
-  "titulo": "Becas de investigación “Fuentes Documentales”",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-becas-de-investigacion-fuentes-documentales-de-alava-202-5bdecb5e.txt",
-  "caracteres": 103355
  },
  {
   "id": "bdns-925434",
@@ -322,15 +304,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01362004-80cfa256.txt",
   "caracteres": 102454
- },
- {
-  "id": "ue-crea-media-2027-filmdist",
-  "h": "93d43372d8be537d",
-  "titulo": "European Film Distribution",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-filmdist-9cdefc48.txt",
-  "caracteres": 3631
  },
  {
   "id": "ara-01362003",
@@ -630,15 +603,6 @@
   "caracteres": 67317
  },
  {
-  "id": "bdns-931520",
-  "h": "a674ea9a04809234",
-  "titulo": "Subvenciones destinadas a financiar las actividades extraordinarias de los clubes deportivos sin ánimo de lucro",
-  "organismoSugerido": "ayto-ordizia",
-  "organismoFuente": "Ayuntamiento de ordizia",
-  "archivo": "cache/fuentes/bdns-931520-60c6cdcc.txt",
-  "caracteres": 282323
- },
- {
   "id": "bog-c2606552-htm",
   "h": "52328dc9d36d4506",
   "titulo": "Bases y convocatoria de de ayudas para estudiar euskera",
@@ -648,24 +612,6 @@
   "caracteres": 838
  },
  {
-  "id": "bog-c2606336-htm",
-  "h": "8b71b7628987d334",
-  "titulo": "Bases y convocatoria de subvenciones para el pago de la tasa de suministro de agua y basuras",
-  "organismoSugerido": "ayto-asteasu",
-  "organismoFuente": "Ayuntamiento de Asteasu",
-  "archivo": "cache/fuentes/bog-c2606336-htm-4dd84d90.txt",
-  "caracteres": 300000
- },
- {
-  "id": "bog-c2606670-htm",
-  "h": "36c70b312f64b27b",
-  "titulo": "Bases reguladoras y convocatoria de de las subvenciones del plan de equipamientos deportivos",
-  "organismoSugerido": "dfg",
-  "organismoFuente": "Diputación Foral de Gipuzkoa",
-  "archivo": "cache/fuentes/bog-c2606670-htm-2c6ce16e.txt",
-  "caracteres": 159442
- },
- {
   "id": "botha-2026-131-03265-c-pdf",
   "h": "7725e8c3d882ea39",
   "titulo": "Decreto Foral 42/, de 10 de noviembre, del Consejo de Gobierno Foral",
@@ -673,15 +619,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/botha-2026-131-03265-c-pdf-601695a9.txt",
   "caracteres": 29159
- },
- {
-  "id": "botha-2026-113-02776-c-pdf",
-  "h": "b2106b6da556ae6d",
-  "titulo": "Aprobación de las bases reguladoras y convocatoria para la concesión de subvenciones en materia de cultura",
-  "organismoSugerido": "ayto-alegria-dulantzi",
-  "organismoFuente": "Ayuntamiento de Alegría-Dulantzi",
-  "archivo": "cache/fuentes/botha-2026-113-02776-c-pdf-b529229f.txt",
-  "caracteres": 36508
  },
  {
   "id": "prest-araba-peap",

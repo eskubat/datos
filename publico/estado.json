@@ -1,54 +1,54 @@
 {
   "version": 1,
-  "generado": "2026-11-17T07:11:59.874Z",
-  "total": 460,
+  "generado": "2026-11-17T07:56:28.546Z",
+  "total": 450,
   "porAmbito": {
     "euskadi": 89,
-    "municipio": 166,
+    "municipio": 159,
     "estado": 61,
-    "territorio": 128,
-    "ue": 16
+    "territorio": 126,
+    "ue": 15
   },
   "porEstado": {
-    "abierta": 327,
-    "proxima": 29,
-    "sinfecha": 104
+    "abierta": 322,
+    "proxima": 28,
+    "sinfecha": 100
   },
-  "previstas": 675,
+  "previstas": 676,
   "fuentes": {
     "euskadi": {
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
       "registros": 134,
-      "segundos": 34,
+      "segundos": 41,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 25,
-      "segundos": 28,
+      "segundos": 40,
       "erroresFicha": 0
     },
     "araba": {
       "nombre": "Diputación Foral de Álava (ayudas en vigor)",
       "ok": true,
       "registros": 144,
-      "segundos": 473,
+      "segundos": 523,
       "erroresFicha": 0
     },
     "bdns": {
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
-      "registros": 804,
-      "segundos": 155,
+      "registros": 772,
+      "segundos": 154,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 148,
-      "segundos": 13,
+      "segundos": 12,
       "erroresFicha": 0
     },
     "prestaciones": {
@@ -61,14 +61,14 @@
     "europa": {
       "nombre": "Funding & Tenders Portal (Comisión Europea), convocatorias sin consorcio",
       "ok": true,
-      "registros": 12,
+      "registros": 11,
       "erroresFicha": 0
     }
   },
   "enlaces": {
-    "comprobados": 727,
-    "rotos": 3,
+    "comprobados": 690,
+    "rotos": 6,
     "sustituidos": 1,
-    "quitados": 3
+    "quitados": 6
   }
 }
