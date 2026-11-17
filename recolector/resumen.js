@@ -7,7 +7,7 @@ import crypto from 'node:crypto';
 import fs from 'node:fs';
 import { POR_ID } from './organismos.js';
 import { NO_ES_REQUISITO } from './comun.js';
-import { sinDocsCopiados, sinCabeceras } from './textos.js';
+import { sinDocsCopiados, sinCabeceras, variantesSinDocsSecundarios } from './textos.js';
 
 const VERSION = 'v4';
 const TIPOS = ['particular', 'autonomo', 'empresa', 'asociacion', 'ayuntamiento'];
@@ -21,7 +21,10 @@ export const huellaEstable = (id, t) => huella('estable:' + sinCabeceras(sinDocs
 export function fichaVigente(c, id, t, invalida = '') {
   if (!c || !t) return false;
   if (invalida && c.h === invalida) return false;
-  return c.h === huella(t) || c.h === huella(sinDocsCopiados(id, t)) || (!!c.he && c.he === huellaEstable(id, t));
+  if (c.h === huella(t) || c.h === huella(sinDocsCopiados(id, t)) || (!!c.he && c.he === huellaEstable(id, t))) return true;
+  // BDNS: la ficha sigue valiendo si el texto solo ha ganado la traducción de un documento o un formulario
+  if (!String(id).startsWith('bdns-')) return false;
+  return variantesSinDocsSecundarios(t).some((v) => c.h === huella(v) || (!!c.he && c.he === huellaEstable(id, v)));
 }
 
 // ---------- Patrones de la sección 11 ----------

@@ -598,8 +598,9 @@
   "prioridad": 28,
   "fuente": "Plan de mejoras (17/11)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-17"
+  "estado": "hecha",
+  "fecha": "2026-11-17",
+  "nota": "De las ~37 fichas de la BDNS señaladas, la tarea de fichas ya había rehecho casi todas; quedaba bdns-938955 (Eibar), que volvió a la cola solo porque llegaron cinco formularios bilingües. Ahora fichaVigente (recolector/resumen.js + textos.js) prueba también el texto sin los documentos de la BDNS que son la traducción al euskera de otro en castellano o un formulario (solicitud, declaración responsable, titular y cuenta…), sin quitarlos del texto que lee la tarea; con los datos de hoy bdns-938955 deja la cola y ninguna otra ficha cambia. No trae ayudas nuevas; ahorra rehacer fichas. Queda sin cubrir el caso de un documento en euskera sustituido por su versión en castellano."
  },
  {
   "id": "lacaixa-bases-pdf",
