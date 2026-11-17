@@ -460,5 +460,41 @@
  "ara-convocatoria-de-subvenciones-para-la-realizacion-de-activida": {
   "ocultar": true,
   "motivo": "Aparcada: la documentación solo trae la cabecera de la ficha de la sede, sin bases, cuantía ni requisitos, y la orden foral no aparece en los BOTHA de 2026 revisados. Se vuelve a publicar cuando se localice la orden foral y se añada a cache/docs_extra.json. Decisión del responsable, 17/11/2026."
+ },
+ "ara-ayudas-a-la-formacion-para-el-empleo-jornadas-entidades-sin-": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Programa anual: la sede no publica la convocatoria de 2026 (ficha vacía) y no se ha encontrado en el BOTHA; la última localizada es la de 2025 (Acuerdo 42/2025, BOTHA 17/2025). Próxima sin fechas con la ficha mínima; se rehará con el texto oficial de 2026. Decisión del responsable, 17/11/2026."
+ },
+ "ara-ayudas-formacion-atencion-sociosanitaria-2026": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Programa anual: la sede no publica la convocatoria de 2026 (ficha vacía) y no se ha encontrado en el BOTHA; la última localizada es la de 2025 (Acuerdo 42/2025, BOTHA 17/2025). Próxima sin fechas con la ficha mínima; se rehará con el texto oficial de 2026. Decisión del responsable, 17/11/2026."
+ },
+ "ara-ayudas-formacion-empleo-cursos-entidades-sin-animo-de-lucro-": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Programa anual: la sede no publica la convocatoria de 2026 (ficha vacía) y no se ha encontrado en el BOTHA; la última localizada es la de 2025 (Acuerdo 42/2025, BOTHA 17/2025). Próxima sin fechas con la ficha mínima; se rehará con el texto oficial de 2026. Decisión del responsable, 17/11/2026."
+ },
+ "ara-ayudas-gastos-actividad-entidades-sin-animo-de-lucro-2026": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Programa anual: la sede la da abierta hasta el 02/04/2027 pero su ficha llega vacía y no se ha encontrado la convocatoria en el BOTHA. Próxima sin fechas, como las otras líneas del programa; se rehará la ficha con la convocatoria oficial. Decisión del responsable, 17/11/2026."
+ },
+ "ara-ayudas-para-hacer-frente-a-inversiones-para-pymes-y-autonomo": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Programa anual: la sede la da abierta hasta el 02/04/2027 pero su ficha llega vacía y no se ha encontrado la convocatoria en el BOTHA. Próxima sin fechas, como las otras líneas del programa; se rehará la ficha con la convocatoria oficial. Decisión del responsable, 17/11/2026."
+ },
+ "ara-ayudas-para-hacer-frente-a-inversiones-turisticas-en-entidad": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Programa anual: la sede la da abierta hasta el 02/04/2027 pero su ficha llega vacía y no se ha encontrado la convocatoria en el BOTHA. Próxima sin fechas, como las otras líneas del programa; se rehará la ficha con la convocatoria oficial. Decisión del responsable, 17/11/2026."
  }
 }
