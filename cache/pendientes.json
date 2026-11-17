@@ -288,15 +288,6 @@
   "caracteres": 12622
  },
  {
-  "id": "ue-cs-women-techeu-open-call",
-  "h": "e06fe6a4f44ac595",
-  "titulo": "Women TechEU Open Call",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-cs-women-techeu-open-call-3f76f8eb.txt",
-  "caracteres": 50051
- },
- {
   "id": "bdns-940373",
   "h": "742bade35d06aa4c",
   "titulo": "Subvenciones: venta de bonos y ayudas a productores/as para captar clientes y promocionar el consumo directo en el mercado municipal",
@@ -367,15 +358,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-turismo-actividad-cuadrillas-2026-49eef6db.txt",
   "caracteres": 2542
- },
- {
-  "id": "ue-crea-media-2027-filmdist",
-  "h": "93d43372d8be537d",
-  "titulo": "European Film Distribution",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-filmdist-9cdefc48.txt",
-  "caracteres": 3631
  },
  {
   "id": "ara-01362003",
