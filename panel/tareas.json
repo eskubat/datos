@@ -723,9 +723,9 @@
   "fuente": "comprobar.js (próximas)",
   "quien": "Claude",
   "prioridad": 30,
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "datos",
   "fecha": "2026-11-17",
-  "nota": "Añadida al plan de mejoras por la tarea de resúmenes"
+  "nota": "La comprobación de las próximas (comprobar.js) y su validación al incorporarlas (incorporar.js) solo miraban cache/fuentes_prox/; ahora suman también cache/textos_claude/<id>.txt, como las fichas normales (la huella sigue siendo solo del texto del recolector, así que no vuelven a la cola). Las próximas ya pueden dar las cifras de la convocatoria más reciente copiada del boletín (p. ej. Osalan 2026); no cambia el número de ayudas. Añadida la indicación en docs/PROXIMAS.md."
  }
 ]

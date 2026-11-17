@@ -11,7 +11,7 @@ La tarea programada escribe su ficha con **mucha cautela**. Las reglas de estilo
 ## Pasos (máx. 10 por pasada)
 
 1. Lee entero el `archivo`. Identifica **de qué año es** la convocatoria que describe.
-2. Si la documentación no es de la última convocatoria (p. ej. solo hay la de 2023 y sabes que hubo una en 2025), busca la última en el boletín oficial o en la web del organismo y copia lo necesario en `cache/textos_claude/<id>.txt`, como en `docs/RESUMIR.md` (paso 5).
+2. Si la documentación no es de la última convocatoria (p. ej. solo hay la de 2023 y sabes que hubo una en 2025), busca la última en el boletín oficial o en la web del organismo y copia lo necesario en `cache/textos_claude/<id>.txt`, como en `docs/RESUMIR.md` (paso 5). Las comprobaciones de las próximas aceptan las cifras de ese archivo igual que las de `archivo`, así que puedes dar los importes de la convocatoria más reciente.
 3. Busca si **ya hay noticia de la próxima** (anuncio del organismo, bases nuevas en información pública, presupuesto aprobado): una línea en `nota`.
 4. Decide `continuidad`:
    - `probable`: se ha convocado de forma regular y nada indica que se haya suprimido.

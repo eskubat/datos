@@ -80,7 +80,8 @@ if (nuevasP) {
   for (const r of nuevasP) {
     const p = porIdP.get(r.id); if (!p) continue;
     let fuente = ''; try { fuente = fs.readFileSync(p.archivo, 'utf8'); } catch { continue; }
-    cacheP[r.id] = { h: huellaP(fuente), r: validarProxima(r, fuente), fecha: new Date().toISOString().slice(0, 10) };
+    // La huella es solo del texto del recolector; las cifras se validan también contra cache/textos_claude
+    cacheP[r.id] = { h: huellaP(fuente), r: validarProxima(r, fuente + textosClaude(r.id)), fecha: new Date().toISOString().slice(0, 10) };
     okP++;
   }
   fs.writeFileSync('cache/proximas.json', JSON.stringify(cacheP));

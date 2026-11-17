@@ -34,6 +34,8 @@ for (const r of leer('cache/proximas_nuevas.json', [])) {
   const p = pendP.get(r.id);
   let fuente = '';
   try { fuente = fs.readFileSync(p.archivo, 'utf8'); } catch {}
+  // Como en las fichas: también valen las cifras de la última convocatoria copiada en cache/textos_claude/<id>.txt
+  fuente += textosClaude(r.id);
   const e = p ? comprobarProxima(r, fuente) : ['id no está en cache/proximas_pendientes.json'];
   if (e.length) { malP++; console.log(`✗ próxima ${r.id}\n  - ${e.join('\n  - ')}`); }
 }
