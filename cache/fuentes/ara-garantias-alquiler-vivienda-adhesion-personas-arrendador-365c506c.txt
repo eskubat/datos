@@ -1,978 +1,614 @@
 ### Ficha oficial: https://egoitza.araba.eus/es/inicio/tramites/fitxa/garantias-alquiler-vivienda-adhesion-personas-arrendadoras
-Trámites - Sede electrónica - Diputación Foral de Álava - egoitza
-GUÍA DE TRÁMITES
-Configuración
-Aceptar todo
-Rechazar todas
+titulo pestana: Sobre el procedimiento
+descripcion:
+Decreto Foral 17/2026, de 12 de mayo. Aprobar la modificación del Decreto Foral 13/2025, de 13 de mayo, que aprueba las condiciones generales y la convocatoria del programa de garantías al alquiler de viviendas de la Diputación Foral de Álava
+descripcion:
+Decreto Foral 13/2025, de 13 de mayo. Aprobar el programa de garantías al alquiler de viviendas de la Diputación Foral de Álava
+titulo: Normativa
+A quién va dirigido: Personas físicas propietarias de viviendas en núcleos de población ubicados en municipios menores de 20.000 habitantes.
+Personas jurídicas privadas cuya actividad principal no sea la venta de bienes y servicios en condiciones de mercado ni la gestión de patrimonios propietarias de viviendas en núcleos de población ubicados en municipios menores de 20.000 habitantes.
+Plazo de resolución: No tiene
+titulo: Resolución
+Silencio administrativo de la persona interesada: Según Normativa
+Inicio Persona Interesada: Sí
+valor: Servicio de Administración Local y Reto Demográfico
+titulo: Organismo competente
+titulo pestana: Presentación del trámite
+valor: loreaibanez@araba.eus
+valor: ealday@araba.eus
+titulo: Correo electrónico
+valor: 945181818 (ext. 52812)
+titulo: Teléfono
+accion: Tramitar
+descripcion tramite: Solicitud adhesión al programa (arrendadores)
+denominacion tramite: Solicitud
+descripcion:
+- En el Registro General de la Diputación Foral de Álava / - En el Registro de las Oficinas de Hacienda de Vitoria-Gasteiz, Laguardia y Llodio / - En cualesquiera del resto de registros que recoge el artículo 16.4 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
+titulo: Presencial
+descripcion:
+Necesitarás alguno de estos sistemas de identificación digital:
+BAKQ
+Certificado electrónico
+titulo: Electrónico
+estado: En plazo
+descripcion plazo: ABIERTO (22/05/2025 - 31/12/2048)
+titulo: Plazo de presentación
+descripcion: Para todos los casos
+descripcion documento:
+Certificado emitido por la Hacienda correspondiente de estar al corriente en la presentación y pago de todos los impuestos.
+nombre documento: Certificado emitido por la Hacienda correspondiente de estar al corriente en la presentación y pago
+descripcion documento:
+Certificado referente a la persona solicitante de estar al corriente en los pagos a la Seguridad Social, en caso de ejercer actividades por cuenta propia.
+nombre documento: Certificado referente a la persona solicitante de estar al corriente en los pagos a la Seguridad Soc
+descripcion documento:
+Nota simple del Registro de la Propiedad correspondiente o fotocopia de escritura pública que demuestre el derecho de propiedad, usufructo o cualquier otro título de disfrute sobre las viviendas a alquilar.
+nombre documento: Nota simple del Registro de la Propiedad correspondiente o fotocopia de escritura pública que demues
+descripcion documento: Solicitud debidamente cumplimentada, bien electrónica o impresa, según el medio de entrada de la misma.
+nombre documento: Solicitud debidamente cumplimentada, bien electrónica o impresa, según el medio de entrada de la mis
+condicion documento: CON CARÁCTER GENERAL
+titulo: Documentación
+finalidad:
+Procedimiento de adhesión de las personas arrendadoras al programa de garantías al alquiler de viviendas de la Diputación Foral de Álava
+descripcion plazo: ABIERTO
+titulo: Programa de garantías al alquiler de viviendas - adhesión arrendadores
 
-### Normativa: https://egoitza.araba.eus/es/conoce-la-sede/normativa
-Normativa - Sede electrónica Diputación Foral de Álava - egoitza
-Normativa de la Sede electrónica
-Decreto Foral 50/2022, del Consejo de Gobierno Foral de 27 de diciembre. Aprobar la modificación del Decreto Foral 26/2011, de Consejo de 5 de abril.
-Decreto Foral 55/2021, del Consejo de Gobierno Foral de 28 de diciembre, que aprueba la modificación del Decreto Foral del Consejo 26/2011, 5 abril, que creó la Sede electrónica de esta Diputación Foral.
-Decreto Foral 4/2020, del Consejo de Gobierno Foral de 21 enero, que aprueba la modificación del Decreto Foral del Consejo 26/2011, 5 abril, que creó la Sede electrónica de esta Diputación Foral en lo que se refiere a la regulación de las notificaciones por medios electrónicos.
-Decreto Foral 5/2020, del Consejo de Gobierno Foral de 21 de enero, que aprueba la regulación de las notificaciones y comunicaciones por medios electrónicos del Departamento de Hacienda, Finanzas y Presupuestos.
-Decreto foral 26/2011, del consejo de Diputados de 5 de abril, que crea la sede electrónica de esta Diputación Foral.
-Decreto Foral 74/2011, del Consejo de Diputados de 29 de noviembre, que modifica el Decreto Foral 26/2011, de 5 de abril, de creación de la sede electrónica de esta Diputación Foral.
-Decreto foral 37/2011, del consejo de Diputados de 3 de mayo, que aprueba el Reglamento de Registros de documentos de la Administración Foral de Álava.
-Acuerdo 66/2012, del Consejo de Diputados de 28 de febrero, que aprueba el horario de apertura de las oficinas y de los registros presenciales propios de esta Diputación Foral.
-Decreto Foral 2087/1988, del Consejo de Diputados de 7 diciembre, por el que se crea la Oficina de Comunicación con la Sociedad.
-Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
-Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.
-Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica.
-Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica.
-Configuración
-Aceptar todo
-Rechazar todas
-
-### Preguntas frecuentes: https://egoitza.araba.eus/es/preguntas-frecuentes
-Preguntas frecuentes - egoitza
-Preguntas frecuentes Mi Carpeta
-¿Qué es Mi Carpeta?
-Mi Carpeta es un espacio digital diseñado por la DFA en el cual puedes, mediante actuaciones electrónicas seguras que garantizan la integridad y confidencialidad de tus datos personales, acceder a tus datos aportados al perfil de comunicaciones y avisos, al seguimiento de los trámites y del estado de tramitación de expedientes que te afecten y de los servicios que hayas solicitado, así como a las notificaciones y comunicaciones relacionadas con procedimientos en que seas persona interesada o constes como representante ante esta Administración foral. También puedes acceder a las solicitudes y modelos de inicio de procedimientos presentados.
-¿Qué dispositivos puedo usar para acceder a Mi Carpeta?
-Se puede acceder a Mi Carpeta desde cualquier dispositivo con navegador web, ya sea un ordenador, una tablet o un teléfono.
-¿De dónde se obtienen los datos y cada cuánto se actualizan?
-La información en Mi Carpeta proviene de diferentes fuentes y departamentos. Cada entidad es responsable de los datos que maneja y tiene sus propias políticas de actualización definidas por sus administradores. Mi Carpeta actúa como un intermediario de esa información.
-¿Puedo acceder a Mi Carpeta en nombre de otra persona o como representante?
-Si deseas acceder a la información de otra persona, empresa o entidad que representas a través de Mi Carpeta, es necesario usar un certificado electrónico que te identifique adecuadamente. En los apartados habilitados para ello en Mi Carpeta, te mostrará los trámites realizados y los documentos electrónicos relacionados con procedimientos en que estés registrado y que definen trámites y actuaciones ante la DFA que pueden efectuarse como representante ante el órgano correspondiente. Estos apartados incluyen: Mis expedientes, Mis presentaciones y Mi buzón.
-¿Qué trámites puedo consultar en Mi Carpeta?
-Podrás consultar los siguientes servicios:
-Mi perfil
-Al acceder a Mi Carpeta, si no estás registrado en este nuevo apartado SIEMPRE te va a sugerir que te registres, pero es posible NO HACERLO y entrar sin registrarte a la página de inicio de Mi Carpeta. Desde esta sección puedes rellenar los datos para registrarse una vez que estás dentro, o también permite modificarlos.
-Mis expedientes
-Desde este apartado puedes acceder al listado de tus expedientes, así como de las personas que te han dado autorización para poder ver los expedientes de procedimientos concretos.
-Desde el listado puedes acceder al detalle del expediente.
-Dentro del detalle de expediente puedes ver los datos básicos del mismo, identificación, documentos presentados (si se comenzó de manera electrónica), así como el historial de tramitación.
-También puedes acceder al servicio para ADJUNTAR DOCUMENTACION a dicho expediente. Esta opción no la tendrás operativa en caso de tratarse de un expediente en estado CERRADO.
-Mis autorizaciones
-Se configura un área común para los apartados de Mis autorizados y Mis autorizaciones de la antigua sede, aunque el modelo de autorización sigue siendo el de ese sistema hasta su evolución. Desde este apartado puedes gestionar las autorizaciones para que puedas realizar trámites en nombre de otra persona o entidad.
-Mis presentaciones
-Desde este apartado puedes acceder al listado de registros que has presentado tanto de manera presencial como electrónica
-Mi buzón
-A través de este servicio puedes consultar las notificaciones y comunicaciones electrónicas puestas a disposición de las personas usuarias por parte de la DFA.
-Mis borradores
-Próximamente en versiones posteriores.
-Mis pagos
-¿Por qué no puedo ver información sobre una solicitud o expediente?
-Es posible que el expediente se esté gestionando con una herramienta de tramitación aún no integrada en Mi Carpeta, o que no estés registrado como persona interesada o representante en ese trámite. En cualquiera de estos casos, te sugerimos contactar con el órgano responsable del trámite, cuya información está disponible en la Sede electrónica, para obtener más detalles.
-Veo mis datos, pero contienen algún error: ¿cómo lo resuelvo?
-Mi Carpeta solo es responsable de tus datos de contacto, los cuales proporcionas al registrarte en la herramienta. Puedes corregir tus datos accediendo a tu perfil. Además, Mi Carpeta muestra el estado de tramitación de tus expedientes.
-Cualquier error que detectes en los datos debes comunicarlo al órgano responsable para su actualización y evitar que se utilice como referencia en actos de la Administración. La información de contacto del órgano responsable está disponible en los detalles del trámite en la Guía de Trámites de la Sede electrónica.
-Si no dispones de un medio para comunicarte con dicho órgano, puedes contactar con el equipo de soporte técnico y nosotros haremos llegar tu comentario. Sin embargo, la corrección o actualización de los datos dependerá de la persona responsable del procedimiento en que sean tratados dichos datos.
-Configuración
-Aceptar todo
-Rechazar todas
-
-### Requisitos técnicos: https://egoitza.araba.eus/es/requisitos-tecnicos
-Requisitos técnicos de la Sede Electrónica de la DFA - egoitza
-Requisitos técnicos
-Para utilizar la Sede electrónica de la Diputación Foral de Álava su equipo deberá disponer de las siguientes características:
-Software:
-Uno de los siguientes navegadores: Internet Explorer (9, 10, 11), Firefox 10 o superior. No obstante, es posible usar otros navegadores, como Chrome o Microsoft Edge, aunque no se podrán efectuar ciertas operaciones, como la firma electrónica o la cumplimentación de ciertos tipos de formularios.
-Adobe Reader 8 o superior.
-Java Runtime Environment (JRE) 1.6 o superior.
-En el caso de que use un lector de tarjetas, sus drivers correspondientes.
-El software correspondiente al certificado electrónico que vaya a utilizar. Normalmente puede ser descargarlo de las páginas web de la organización que lo haya emitido.
-Los certificados de IZENPE necesarios para que el navegador considere de confianza la sede electrónica de la DFA. Podrá instalarlos siguiendo las instrucciones que se aportan aquí.
-Hardware:
-Lector de certificados electrónicos (Excepto si utiliza certificados en software o en token usb).
-Si fuese necesario, la organización que expidió su certificado le asesorará sobre qué lectores de tarjetas son compatibles con él e, incluso, puede facilitarle su adquisición.
-Configuración
-Aceptar todo
-Rechazar todas
-
-### {{cur_normativa.normativa.descripcion}}: https://egoitza.araba.eus/es/inicio/tramites/fitxa/%7B%7Bcur_normativa.normativa.url%7D%7D
-{{#if resultado.nivel1Tema}}
-{{resultado.nivel1Tema}}
-{{/if}}
-{{#if resultado.claseTramite}}
-{{resultado.claseTramite}}
-{{/if}}
-{{resultado.titulo}}
-{{{resultado.finalidad}}}
-{{#ifEquals resultado.plazo.enPlazo "S"}}
-{{resultado.plazo.estado}}
-{{/ifEquals}}
-{{#ifEquals resultado.plazo.enPlazo "N"}}
-{{/ifEquals}}
-
-### Decreto Foral 55/2021: https://e-s.araba.eus/BOTHA/Boletines/2022/002/2022_002_04218_C.pdf
-miércoles, 5 de enero de 2022 • Núm. 2
+### Documento de la convocatoria: https://www.araba.eus/botha/Boletines/2026/057/2026_057_01393_C.pdf
+miércoles, 20 de mayo de 2026 • Núm. 57
 I - JUNTAS GENERALES DE ÁLAVA Y ADMINISTRACIÓN FORAL
 DEL TERRITORIO HISTÓRICO DE ÁLAVA
 Diputación Foral de Álava
-DEPARTAMENTO DE FOMENTO DEL EMPLEO, COMERCIO Y
-TURISMO Y DE ADMINISTRACIÓN FORAL
-Decreto Foral 55/2021, del Consejo de Gobierno Foral de 28 de diciembre. Aprobar la modificación
-del Decreto Foral del Consejo de Gobierno 26/2011, de 5 de abril
-Mediante el Decreto Foral 26/2011, del Consejo de Gobierno de 5 de abril, se creó la sede
-electrónica de la Diputación Foral de Álava.
-La Diputación Foral de Álava estableció mediante Acuerdo 550/2015, del Consejo de Diputados de 6 de octubre, que modifica determinadas normas de organización y funcionamiento
-en la información y los servicios prestados a través de la red Internet por parte de la Administración Foral, que todas sus páginas electrónicas tuvieran el dominio araba.eus,. La puesta en
-funcionamiento del nuevo dominio en Internet araba.eus, como modelo de presencia en Internet de la Diputación Foral de Álava, afectó a la dirección electrónica de referencia de la sede
-electrónica, justificando la aprobación del Decreto Foral 22/2016, del Consejo de Diputados de
-23 de febrero, que modifica el dominio de la sede electrónica de la Diputación Foral de Álava.
-Sin embargo, aún no ha podido quedar remarcado totalmente en la regulación de la sede
-electrónica el aspecto lingüístico de dicho modelo de presencia, donde es preciso insertar el
-término en euskera “egoitza” en la dirección electrónica de la sede, en lugar del actual término
-“e-s” que precede a “.araba.eus”.
-Además de las directrices emanadas sobre el modelo de presencia en Internet de la Diputación Foral de Álava, y sin perjuicio de la voluntad de aprobar una futura nueva regulación de
-la sede electrónica de la Diputación Foral de Álava y del punto de acceso general electrónico,
-en este momento se estima necesario realizar las modificaciones que se exponen a continuación, en coherencia con las normas de organización y funcionamiento en la información y los
-servicios prestados a través de la red Internet por parte de la Administración Foral y referidas
-al texto normativo actualmente en vigor, esto es, en el Decreto Foral 26/2011, del Consejo de
-Diputados de 5 de abril, que crea la sede electrónica de esta Diputación Foral.
-En primer lugar, suprimir en el artículo 1. Objeto el párrafo “La sede electrónica de la Diputación Foral de Álava se corresponderá con la dirección electrónica https://e-s.alava.net, siendo
-accesible tanto directamente como a través del portal de Internet www.alava.net”, al tratarse
-de una de las características de la sede, procediendo a incluir la redacción actualizada de dicha
-característica en el correspondiente Artículo 3. Características de la sede electrónica. Asimismo,
-es también necesaria la modificación de este mismo artículo 1 con el fin de hacer referencia
-al artículo 38 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, en
-lugar del artículo 10 de la derogada Ley 11/2007, de 22 de junio, de acceso electrónico de los
-ciudadanos a los Servicios Públicos.
-En segundo lugar, hacer referencia en el apartado i del artículo 3. Características de la sede
-electrónica al dominio vigente del portal institucional, que se corresponde con https://web.araba.
-eus, modificándose a tal fin su redacción. Asimismo, se incorpora en este mismo artículo 3
-un nuevo apartado k) que recoge la modificación en la dirección electrónica de referencia de la
-sede de la Diputación Foral de Álava, que pasa a corresponderse con https://egoitza.araba.eus,
-como una más de las características de la sede.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2021-04218
-miércoles, 5 de enero de 2022 • Núm. 2
-Por último, incluir una Disposición Transitoria por la que se dispone que, en tanto las disponibilidades técnicas y presupuestarias no permitan incorporar a la dirección electrónica de
-referencia de la sede electrónica de la Diputación Foral de Álava https://egoitza.araba.eus todos
-los trámites y servicios que en la actualidad se ofrecen en https://e-s.araba.eus, dichos trámites y servicios continúen prestándose de acuerdo con las determinaciones previstas hasta la
-aprobación de este Decreto Foral. De esa manera, se garantiza que, en tanto no se complete
-el trasvase tecnológico a la nueva dirección electrónica de referencia de la sede, se siga preservando el derecho de la ciudadanía a disponer de un espacio personalizado de relaciones
-electrónicas con la Diputación Foral de Álava, accesible desde la sede electrónica, y mediante
-el cual pueda continuar accediendo a los expedientes, documentos, comunicaciones y notificaciones de su interés, dando cuenta de la trazabilidad de los documentos y de los datos, en
-los mismos términos y condiciones que hasta este momento se han venido prestando en el
-dominio https://e-s.araba.eus.
-Y todo ello sin perjuicio de la progresiva incorporación que pueda llevarse a cabo de aquellos contenidos y requisitos establecidos por las leyes aplicables y, especialmente, los previstos para las sedes electrónicas en el Capítulo V del Título Preliminar de la Ley 40/2015, de 1 de
-octubre, de Régimen Jurídico del Sector Público.
-El presente Decreto Foral incorpora la perspectiva de género y en su elaboración se han
-tenido en cuenta las disposiciones contenidas en el Decreto Foral 29/2017, del Consejo de Gobierno Foral de 23 de mayo, que aprueba el procedimiento de elaboración de disposiciones
-de carácter general, las guías para la elaboración de los informes de impacto normativo y de
-impacto de género y las directrices de técnica normativa.
-En su virtud, tras la emisión de los preceptivos informes, y a propuesta de la Diputada Foral
-titular del Departamento de Fomento del Empleo, Comercio y Turismo y de Administración
-Foral, previa deliberación del Consejo de Gobierno Foral reunido en el día de hoy,
-DISPONGO
-Primero. Modificar el artículo 1 del Decreto Foral 26/2011, del Consejo de Diputados de 5 de
-abril, que quedará redactado como sigue:
-“Artículo 1. Objeto
-1. Este Decreto tiene por objeto crear la sede electrónica de la Diputación Foral de Álava,
-de conformidad con lo dispuesto en el artículo 38 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público y con las características que se establecen en el artículo 3 del
-presente Decreto”.
-Segundo. Modificar el artículo 3 del Decreto Foral 26/2011, del Consejo de Diputados de 5
-de abril, que quedará redactado como sigue.
-“Artículo 3. Características de la sede electrónica
-La sede electrónica de la Diputación Foral de Álava se crea con las siguientes características:
-a) Su identificación se lleva a cabo mediante un certificado de sede electrónica.
-b) Está disponible para toda la ciudadanía de forma gratuita y permanente.
-c) La Diputación Foral de Álava responde de la integridad, veracidad y actualización de la
-información y de los servicios a los que pueda accederse a través de la misma.
-d) Se rige por los principios de publicidad oficial, responsabilidad, calidad, seguridad, disponibilidad, accesibilidad, neutralidad e interoperabilidad.
-e) Dispone de sistemas que permiten el establecimiento de comunicaciones seguras siempre que sean necesarias.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2021-04218
-miércoles, 5 de enero de 2022 • Núm. 2
-f) Asegura la accesibilidad y usabilidad de acuerdo con las normas establecidas al respecto,
-estándares abiertos y, en su caso, aquellos otros que sean de uso generalizado por la ciudadanía.
-g) Habilita a las personas usuarias de la sede a autorizar a otras para realizar determinados
-trámites telemáticos con los mismos efectos que si los hubieran realizado ellas.
-h) Garantiza el acceso a sus contenidos y servicios en euskera y castellano.
-i) Establece medidas que permiten diferenciar a la persona usuaria si se encuentra en la
-sede electrónica o en el resto del Portal https://web.araba.eus.
-j) Incluirá progresivamente todas las actuaciones, procedimientos y servicios que requieran la autenticación de la ciudadanía ante la Diputación Foral de Álava, relacionarse con ésta
-por medios electrónicos, así como aquellos otros respecto a los que se decida su inclusión
-en la sede por razones de oportunidad, eficacia o calidad en la prestación de servicios a la
-ciudadanía.
-k) La dirección electrónica de referencia de la sede electrónica de la Diputación Foral de
-Álava será https://egoitza.araba.eus, accesible directamente o a través del portal de Internet
-https://web.araba.eus”.
-Tercero. Modificar la Disposición Transitoria del Decreto Foral 26/2011, del Consejo de Diputados de 5 de abril, que quedará redactada como sigue:
-“Disposición transitoria
-Trámites y servicios de la actual dirección electrónica https://e-s.araba.eus de la Diputación
-Foral de Álava.
-Hasta en tanto las disponibilidades técnicas y presupuestarias no permitan incorporar a la
-dirección electrónica de referencia de la sede electrónica de la Diputación Foral de Álava, los trámites y servicios que en la actualidad se ofrecen en la dirección electrónica https://e-s.araba.eus
-continuarán prestándose a través de dicha dirección electrónica, accesible desde la sede electrónica y de acuerdo con las determinaciones previstas hasta ese momento.
-Se fija el uso de certificados electrónicos admitidos en cada momento como método prioritario de alta, identificación y acceso a la sede electrónica, a partir del 1 de enero de 2012 para
-las personas físicas y del 1 de septiembre de 2012 para las jurídicas.
-A partir de dichas fechas, excepcionalmente podrán realizarse operaciones de altas presenciales de nuevos usuarios y emisión de claves operativas provisionales de duración limitada”.
-Disposición final única
-El presente Decreto Foral entrará en vigor el día siguiente al de su publicación en el BOTHA.
-Vitoria-Gasteiz, a 28 de diciembre de 2021
-Diputado General
-RAMIRO GONZÁLEZ VICENTE
-Segunda Teniente Diputado General y Diputada Foral de Fomento del Empleo
-Comercio, Turismo y de Administración Foral
-CRISTINA GONZÁLEZ CALVAR
-Director de Servicios Generales
-JAVIER MARDONES GÓMEZ-MARAÑON
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-Firmante: CN=ZERBITZU OROKORREN ZUZENDARITZA - DIRECCION SERVICIOS GENERALES, SERIALNUMBER=P0100000I, OU=SELLO ELECTRONICO, ORGANIZATIONIDENTIFIER=VATES-P0100000I, O=ARABAKO FORU ALDUNDIA / DIPUTACION FORAL DE ALAVA, C=ES
-Emisor del certificado: CN=EAEko HAetako langileen CA - CA personal de AAPP vascas (2), OU=AZZ Ziurtagiri publikoa - Certificado publico SCA, O=IZENPE S.A., C=ES
-Número de serie: 211865
-Fecha de firma: 2022.01.05 07:00:55 Z
-2021-04218
-
-### Decreto Foral 5/2020: https://www.araba.eus/botha/Boletines/2020/011/2020_011_00168_C.pdf
-miércoles, 29 de enero de 2020 • Núm. 11
-I - JUNTAS GENERALES DE ÁLAVA Y ADMINISTRACIÓN FORAL
-DEL TERRITORIO HISTÓRICO DE ÁLAVA
-Diputación Foral de Álava
-DEPARTAMENTO DE HACIENDA, FINANZAS Y PRESUPUESTOS
-Decreto Foral 5/2020, del Consejo de Gobierno Foral de 21 de enero. Aprobar la regulación de
-las notificaciones y comunicaciones por medios electrónicos del Departamento de Hacienda,
-Finanzas y Presupuestos
-La incorporación de las tecnologías de la información y la comunicación a las relaciones
-tributarias entre las y los obligados tributarios y el Departamento de Hacienda, Finanzas y
-Presupuestos de la Diputación Foral de Álava va a dar un nuevo paso con la implantación de
-las notificaciones electrónicas.
-Hoy en día, las ventajas que aportan las nuevas tecnologías resultan indudables tanto para
-la o el obligado tributario como para la Administración tributaria y estas mejoras deben trasladarse al campo de las notificaciones y comunicaciones tributarias, partiendo del principio de
-que la utilización del medio electrónico en las notificaciones no debe alterar, en ningún caso,
-el propio concepto y finalidad de la notificación.
-Hay que tener en cuenta que las notificaciones constituyen uno de los ejes alrededor de
-los que giran los procedimientos tributarios y suele ser objeto de una cierta conflictividad, que
-puede verse reducida con el nuevo sistema, al mismo tiempo que la incorporación de las notificaciones por medios electrónicos permitirá la aceleración de los procedimiento
+DEPARTAMENTO DE EQUILIBRIO TERRITORIAL
+Y ORDENACIÓN DEL TERRITORIO
+Decreto Foral 17/2026, de 12 de mayo de 2026, del Consejo de Gobierno Foral. Aprobar la modificación del Decreto Foral 13/2025, de 13 de mayo, que aprueba las condiciones generales y la convocatoria del programa de garantías al alquiler de viviendas de la Diputación Foral de Álava
+Mediante Decreto Foral 6/2023, del Consejo de Gobierno Foral de 28 de febrero, publicado
+en el BOTHA el 8 de marzo de 2023, fue aprobado el procedimiento de elaboración de disposiciones de carácter general de la Diputación Foral de Álava.
+En conformidad con lo dispuesto en el artículo 13 de dicho decreto foral, se dictó la Orden
+Foral 34/2025, de 16 de enero, de inicio del procedimiento que aprobaba en su anexo el proyecto de decreto foral que regula las condiciones de acceso de personas arrendadoras y arrendatarias del programa de garantías al alquiler de viviendas de la Diputación Foral de Álava.
+El presente programa surge para mitigar las dificultades en el acceso a la vivienda en el
+medio rural, y trata de aumentar la oferta de vivienda disponible mediante la puesta en el
+mercado de inmuebles en alquiler a través del otorgamiento de una garantía y una serie de
+servicios a las personas propietarias. No obstante, las citadas viviendas han de cumplir una
+serie de requisitos mínimos 
 […]
 Artículo 1. Objeto
-El presente Decreto Foral tiene por objeto regular las notificaciones y comunicaciones por
-medios electrónicos del Departamento de Hacienda, Finanzas y Presupuestos de la Diputación
-Foral de Álava relacionadas con la aplicación de los tributos y los procedimientos tributarios,
-así como establecer las personas y entidades que están obligadas a recibir las comunicaciones
-y notificaciones por dichos medios.
-Artículo 2. Régimen de las notificaciones y comunicaciones electrónicas
-El régimen de notificaciones y comunicaciones a las personas y entidades por medios
-electrónicos será el previsto en las normas administrativas generales con las especialidades
-establecidas en la Norma Foral General Tributaria y en el presente Decreto Foral.
-Artículo 3. Aspectos generales de la notificación y comunicación electrónica
-1. En el marco de lo dispuesto en este Decreto Foral, todas las notificaciones y comunicaciones electrónicas que deba realizar el Departamento de Hacienda, Finanzas y Presupuestos
-se practicarán por medio de la comparecencia en la sede electrónica de la Diputación Foral de
-Álava, sin perjuicio de las excepciones previstas en el artículo 6 de este Decreto Foral.
-2. Las personas y entidades a que se refiere el artículo 7 del presente Decreto Foral estarán
-obligados a recibir las notificaciones y comunicaciones tributarias por medios electrónicos.
-3. El sistema de notificación electrónica permitirá acreditar la fecha y hora en que se produzca la puesta a disposición de la interesada o del interesado, o en su caso de su representante, del acto objeto de notificación.
-También permitirá acreditar la fecha y hora de acceso a su contenido, momento a partir del
-cual la notificación se entenderá practicada a todos los efectos legales. Lo anterior se entiende
-sin perjuicio de lo establecido en el apartado 5 siguiente de este artículo.
-4. Cuando, como consecuencia de la utilización de distintos medios, electrónicos o no electrónicos, se practiquen varias notificaciones de un mismo acto administrativo, se entenderán
-producidos todos los efectos jurídicos derivados de la notificación, incluido el inicio del plazo
-para la interposición de los recursos que procedan, a partir de la primera de las notificaciones
-correctamente practicada.
-5. Cuando, existiendo constancia de la puesta a disposición de la notificación electrónica,
-transcurrieran 10 días naturales sin que se acceda a su contenido, se entenderá que la notificación ha sido rechazada con los efectos previstos en el artículo 107.2 de la Norma Foral General
-Tributaria de Álava, salvo que de oficio o a instancia de la destinataria o del destinatario se
-compruebe la imposibilidad técnica o material del acceso a su contenido.
+El presente programa tiene por objeto prestar una garantía temporal, de carácter personal, para el alquiler de viviendas en el entorno rural por aquellas personas que cumplan los
+requisitos establecidos.
+En primer lugar, se trata de establecer las condiciones para poner en contacto a personas
+arrendadoras y arrendatarias de viviendas en el entorno rural del Territorio Histórico de Álava.
+A estos efectos, se entiende por entorno rural los núcleos de población ubicados en municipios
+menores de 20.000 habitantes.
+En segundo lugar, se establecen los trámites que han de cumplir las personas arrendadoras
+y arrendatarias para participar en el programa, así como regular las reglas de funcionamiento
+del propio programa.
+Artículo 2. Características de las garantías otorgadas
+La garantía prestada consistirá en la suscripción de un seguro de pago del alquiler y de
+un seguro de hogar por parte de la Diputación Foral de Álava, con asistencia jurídica vinculada al contrato de arrendamiento según las condiciones recogidas en las pólizas de seguros
+aplicables temporalmente en el momento de la suscripción del contrato de arrendamiento.
+En ambos casos, la Diputación Foral de Álava actuará como tomadora de los seguros y las
+personas aseguradas serán las arrendadoras de las viviendas.
+Al final del contrato de alquiler, se repondrán los daños producidos en la vivienda durante
+el plazo del contrato, salvo los daños que sean propios del desgaste por el uso habitual de la
+misma, hasta el límite máximo recogido en la póliza de seguro vigente en el momento señalado en el párrafo anterior para este tipo de daños.
+La garantía solo se prestará cuando la operación de arrendamiento cumpla con las condiciones establecidas en el presente decreto foral.
+La garantía de impago de alquiler empezará a desplegar sus efectos en el segundo impago
+consecutivo de la renta mensual por parte de las personas arrendatarias. El resto de las garantías iniciarán su vigencia desde la fecha de formalización del contrato de alquiler.
+La garantía tiene carácter finalista, de manera que se usará exclusivamente para la finalidad
+recogida en el presente decreto foral.
+Artículo 3. Duración de la garantía y otros instrumentos de apoyo
+La duración de la garantía otorgada por la Diputación Foral de Álava coincidirá con la duración del contrato de alquiler suscrito entre las partes y, en todo caso, será de un máximo
+de cinco años desde la firma de cada contrato de arrendamiento, independientemente de la
+duración máxima legal del mismo.
+La Diputación Foral de Álava, por sí misma o a través de terceras personas, prestará un
+servicio de defensa jurídica a las personas propietarias adheridas al programa con respecto a
+las vicisitudes del contrato de arrendamiento durante ese periodo.
+Adicionalmente proporcionará un servicio para redactar y tramitar los contratos de arrendamiento, así como las actualizaciones de precios y depósito de las fianzas.
 www.araba.eus
 D.L.: VI-1/1958 ISSN: 2254-8432
-2020-00168
-miércoles, 29 de enero de 2020 • Núm. 11
-6. Cualquier persona o entidad, excepto las contempladas en el artículo 7 de este Decreto
-Foral que están obligadas a recibir por medios electrónicos las comunicaciones y notificaciones, podrá solicitar a la Diputación Foral, a través del correspondiente apartado dispuesto en
-la sede electrónica, que todas las notificaciones de las que sean destinatarias o destinatarios,
-se realicen únicamente por medios electrónicos.
-En caso de que la persona o entidad solicite ser dada de baja en el sistema de recibir por
-medios electrónicos las notificaciones y comunicaciones, la misma se hará efectiva en un
-plazo máximo de 15 días contados a partir de la presentación de la correspondiente solicitud.
-7. Producirá los efectos propios de la notificación por comparecencia el acceso electrónico
-por las interesadas o los interesados al contenido de las actuaciones administrativas correspondientes, siempre que quede constancia de dicho acceso.
-Artículo 4. Práctica de notificaciones y comunicaciones por medios electrónicos
-1. El Departamento de Hacienda, Finanzas y Presupuestos practicará las notificaciones o
-comunicaciones electrónicas mediante el sistema de comparecencia en sede electrónica regulada en el Decreto Foral 26/2011, de 5 de abril.
-2. La Diputación Foral de Álava certificará la notificación efectuada a través de la sede electrónica. Esta certificación, que podrá generarse de forma automatizada, incluirá, como mínimo,
-la identificación del acto notificado, su destinataria o destinatario, en su caso los datos de la
-o del representante, la fecha en que se produjo la puesta a disposición y la fecha de acceso a
-su contenido o en que la notificación se considerará rechazada por haber transcurrido el plazo
-establecido al efecto, así como la especificación de los errores de tipo técnico producidos y
-sus consecuencias a efectos de la notificación.
-Artículo 5. Notificación o comunicación por el sistema de comparecencia en sede electrónica
-La notificación o comunicación por el sistema de comparecencia en sede electrónica se
-llevará a cabo conforme a lo previsto en la normativa que regula la sede electrónica de la
-Diputación Foral de Álava, teniendo en cuenta las especialidades previstas en el presente
-Decreto Foral.
-Artículo 6. Excepciones a las notificaciones o comunicaciones por medios electrónicos
-1. El Departamento de Hacienda, Finanzas y Presupuestos podrá practicar las notificaciones
-o comunicaciones por los medios no electrónicos y en los lugares y formas previstos en los
-artículos 105 a 108 de la Norma Foral General Tributaria de Álava, en los siguientes supuestos:
-a) Cuando la comunicación o notificación se realice con ocasión de la comparecencia espontánea de la o del obligado, o su representante, en las oficinas de la Diputación Foral de
-Álava y solicite la comunicación o notificación personal en ese momento.
-b) Cuando, para garantizar la eficacia y en su caso celeridad de los procedimientos de
-aplicación de los tributos, la Administración considere más apropiado efectuar la notificación
-o comunicación por otros medios distintos de los electrónicos.
-c) Cuando las comunicaciones y notificaciones hubieran sido puestas a disposición de la
-prestadora o del prestador del servicio de notificaciones para su entrega a las y los obligados
-tributarios con anterioridad a la fecha en que resulte de aplicación la notificación por medios
-electrónicos.
-2. En ningún caso se efectuarán de forma electrónica las siguientes comunicaciones y
-notificaciones:
-a) Aquellas en las que el acto a notificar vaya acompañado de elementos que no sean susceptibles de conversión en formato electrónico.
+2026-01393
+miércoles, 20 de mayo de 2026 • Núm. 57
+Artículo 4. Ejecución de la garantía y recuperación de la ejecución de la misma
+La garantía podrá ser ejecutada en el momento de impago de la segunda mensualidad consecutiva pendiente y correrá a cargo de la entidad aseguradora. No obstante, la entidad aseguradora tendrá acción de recuperación de las cantidades, según el artículo 1838 del código civil.
+En el momento de iniciar la reclamación formal del impago a la entidad aseguradora, deberán iniciarse también los trámites para la reclamación de deuda a través de la cobertura de
+asistencia legal que ofrece el seguro, según lo dispuesto en el artículo 12.3 del presente decreto.
+Artículo 5. Características de las viviendas
+Las viviendas han de estar radicadas en los núcleos de población recogidos en el artículo
+1 del presente decreto foral y han de reunir las condiciones generales de adecuación estructural y constructiva y de habitabilidad que se recogen en el anexo A del presente anexo I de
+condiciones del programa de garantías al alquiler de viviendas de la Diputación Foral de Álava.
+No deberán estar sometidas a régimen alguno de protección pública, por tanto, se tratará
+de viviendas libres. Además, no estarán ya arrendadas, ocupadas, ni sometidas a cualquier
+limitación que impida arrendarlas.
+Previamente a la inclusión en el programa, la Diputación Foral de Álava, por sí misma o a
+través de terceras personas, inspeccionará el estado del inmueble a alquilar para comprobar
+su conformidad con los párrafos anteriores.
+En la inspección inicial del estado del inmueble a alquilar para comprobar su conformidad
+se determinará el número máximo de personas que pueden residir en la vivienda, teniendo
+en cuenta los parámetros recogidos en este artículo.
+La vivienda debe destinarse a vivienda habitual y permanente de las personas arrendatarias
+durante el tiempo de duración del arrendamiento de la misma.
+La convocatoria del programa que se encuentre vigente en cada momento podrá fijar características y condiciones de las viviendas adicionales a las contempladas en el presente artículo.
+Artículo 6. Compatibilidad
+El otorgamiento de la garantía será compatible con las ayudas previstas en los programas
+de ayudas para vivienda gestionados por la Diputación Foral de Álava y por otras administraciones públicas.
+Artículo 7. Obligación de facilitar información
+Las personas físicas o jurídicas que participen en el programa estarán obligadas a facilitar
+cuanta información les sea requerida por el Departamento de Hacienda, Finanzas y Presupuestos, el Tribunal de Cuentas u otros órganos competentes.
+Artículo 8. Normativa aplicable
+En lo no dispuesto en la presente convocatoria y en las condiciones generales del programa,
+se regulará por la Norma Foral 11/2016, de subvenciones y del Territorio Histórico de Álava, e
+igualmente por la Ley 38/2003, de 17 de noviembre, General de Subvenciones y demás normativa que le sea de aplicación.
+Capítulo II. Personas arrendadoras destinatarias del programa
+Artículo 9. Participación en el programa de las personas arrendadoras
+Podrán participar en el programa las personas físicas propietarias de viviendas en los núcleos señalados en el artículo 1 de este decreto foral.
+También las personas jurídicas privadas cuya actividad principal no sea la venta de bienes
+y servicios en condiciones de mercado ni la gestión de patrimonios.
 www.araba.eus
 D.L.: VI-1/1958 ISSN: 2254-8432
-2020-00168
-miércoles, 29 de enero de 2020 • Núm. 11
-b) Las que, con arreglo a su normativa específica, deban practicarse mediante personación
-en el domicilio fiscal de la o del obligado o en otro lugar señalado al efecto por la normativa
-o en cualquier otra forma no electrónica.
-c) Las dirigidas a las entidades de crédito adheridas al procedimiento para efectuar por
-medios electrónicos el embargo de dinero en cuentas abiertas en entidades de crédito.
-d) Las dirigidas a las entidades de crédito que actúen como entidades colaboradoras en la
-gestión recaudatoria del Departamento de Hacienda, Finanzas y Presupuestos, en el desarrollo
-del servicio de colaboración.
-Lo dispuesto en el presente apartado no impedirá que se utilicen medios técnicos para la
-práctica de algunas de las notificaciones o comunicaciones citadas en el mismo, de conformidad con su normativa específica.
-Artículo 7. Personas y entidades obligadas a recibir por medios electrónicos las comunicaciones y notificaciones
-1. Con independencia de su personalidad o forma jurídica, estarán obligadas u obligados
-a recibir por medios electrónicos las comunicaciones y notificaciones administrativas que les
-practique el Departamento de Hacienda, Finanzas y Presupuestos de la Diputación Foral de
-Álava, las y los obligados tributarios siguientes:
-a) Los contribuyentes del Impuesto sobre Sociedades.
-b) Aquellos otros que se determinen por la Diputación Foral de Álava.
-2. Cuando dejaren de concurrir en la obligada o el obligado las circunstancias que determinaron su inclusión obligatoria en el sistema de notificación electrónica se le notificará por
-medios electrónicos la exclusión del mismo, que será efectiva desde el día siguiente a que
-dicha notificación surta efectos.
-No obstante, el interesado o interesada continuará en el sistema de notificación electrónica
-cuando, con carácter previo a su inclusión obligatoria, hubiese señalado el medio electrónico
-como método de recepción de las notificaciones y comunicaciones.
-Artículo 8. Comunicación de la inclusión
-El Departamento de Hacienda, Finanzas y Presupuestos deberá notificar a las y los sujetos
-obligados su inclusión obligatoria en el sistema de notificación electrónica.
-Esta notificación se practicará conforme a lo establecido en el apartado 1 del artículo 3 de
-este Decreto Foral y se efectuará, además, por los medios no electrónicos y en los lugares y
-formas previstos en los artículos 105 a 108 de la Norma Foral General Tributaria de Álava, excepto que la o el obligado tributario ya hubiera señalado el sistema de notificación electrónica
-como medio de notificación, conforme a lo previsto en el presente Decreto Foral.
-En los supuestos de alta en el censo de obligados tributarios, la notificación de la inclusión
-obligatoria en el sistema de la notificación electrónica se podrá realizar junto a la correspondiente a la comunicación del Número de Identificación Fiscal que le corresponda.
-Artículo 9. Firma electrónica de las notificaciones y comunicaciones
-Todas las notificaciones y comunicaciones que el Departamento de Hacienda, Finanzas y
-Presupuestos realice por medios electrónicos conforme a lo dispuesto en el presente Decreto
-Foral lo harán mediante actuación administrativa automatizada pudiendo utilizar los siguientes
-sistemas de firma electrónica:
-a) Sello electrónico de la Diputación Foral de Álava basado en un certificado electrónico
-reconocido.
-b) Código seguro de verificación vinculado a la Diputación Foral de Álava permitiéndose
-en todo caso la comprobación de la integridad del documento mediante el acceso a la sede
-electrónica.
+2026-01393
+miércoles, 20 de mayo de 2026 • Núm. 57
+Artículo 10. Procedimiento de adhesión al programa de las personas arrendadoras
+1. Las personas físicas o jurídicas que, cumpliendo los requisitos establecidos en el artículo
+anterior, deseen adherirse al programa, presentarán una solicitud al efecto.
+2. La convocatoria del programa que se encuentre vigente en cada momento fijará el modo
+de presentación de solicitudes, así como la documentación a presentar con las mismas.
+Artículo 11. Formalización de la adhesión
+1. Una vez comprobado el cumplimiento de los requisitos, se comunicará a las personas
+solicitantes la aprobación de la adhesión, o se dictará resolución de la dirección del Departamento de Equilibrio Territorial rechazando la solicitud.
+2. En el caso de resolución favorable, el inmueble se adherirá al programa, y se seguirá la
+tramitación detallada en el capítulo IV del presente decreto.
+3. La vivienda deberá destinarse en exclusividad al presente programa, sin poder ofrecerse
+en alquiler por otras vías durante al menos dos meses desde la fecha de inspección inicial del
+estado del inmueble.
+4. Podrá renunciarse a la adhesión al programa siempre que la vivienda no esté arrendada,
+presentando una solicitud dirigida a la diputada de Equilibrio Territorial y Ordenación del Territorio, en los términos recogidos en el artículo 10 anterior, con un mínimo de 15 días hábiles
+de antelación.
+Artículo 12. Obligaciones de las personas arrendadoras
+1. Mantener el inmueble en estado de habitabilidad, sin perjuicio de las coberturas que les
+ofrece este programa.
+2. Cumplir con lo establecido en el contrato de alquiler que se formalice.
+3. Estar al corriente de las obligaciones tributarias y de Seguridad Social en el momento de
+formalización del contrato de alquiler.
+4. Una vez solicitada la ejecución de la garantía tras la segunda mensualidad de impago, se
+deberán adoptar las medidas legales oportunas, tanto extrajudiciales como judiciales, para la
+reclamación de la deuda al inquilino sin demora en su tramitación. Para ello, al mismo tiempo
+que se solicita la ejecución de la garantía, debe iniciarse el procedimiento de reclamación de
+deuda a través de la cobertura de asistencia legal que ofrece el seguro.
+5. Personarse en las citas que se organicen para la revisión inicial de la vivienda para verificar su aptitud para su inclusión en el programa, y para la revisión final de la vivienda una
+vez concluido el periodo de alquiler de la misma.
+Capítulo III. Personas arrendatarias destinatarias del programa
+Artículo 13. Participación en el programa de las personas arrendatarias
+Podrán acogerse a este programa como demandantes de vivienda en alquiler aquellas
+personas con la solvencia necesaria y que cumplan con los siguientes requisitos:
+a) Ser mayor de edad a la fecha de solicitud.
+b) Residir en el Territorio Histórico de Álava o en el enclave de Treviño de manera continuada
+e ininterrumpida, durante los dos años inmediatamente anteriores a la fecha de presentación
+de la solicitud de participación en este programa.
+c) Cumplir con las siguientes condiciones de solvencia:
+1. El importe destinado al pago mensual del alquiler no debe superar el 30 por ciento de los
+ingresos mensuales de las personas arrendatarias.
 www.araba.eus
 D.L.: VI-1/1958 ISSN: 2254-8432
-2020-00168
-miércoles, 29 de enero de 2020 • Núm. 11
-CAPÍTULO II
-Días en los no se podrá poner notificaciones a disposición de los obligados tributarios
-Artículo 10. Ámbito subjetivo para realizar el señalamiento de los días en los que no se
-pondrán notificaciones a disposición de los obligados tributarios
-1. Los días en los que no se pondrán a su disposición notificaciones podrán ser señalados
-por las y los obligados tributarios que se encuentren incluidos en el sistema de notificación
-electrónica, ya sea con carácter obligatorio o de forma voluntaria.
-El señalamiento de los días mencionados comprenderá las acciones de selección de los
-mismos, así como su modificación y consulta, de acuerdo con los límites señalados en el
-artículo 12 de este Decreto Foral.
-2. Si la o el obligado tributario actúa o dispone de representante para recibir las notificaciones, el señalamiento de los días a que se refiere este artículo corresponderá a dicho
-representante.
-Artículo 11. Ámbito objetivo del señalamiento de los días en los que no se pondrán notificaciones a disposición de los obligados tributarios
-Para las y los obligados tributarios incluidos en el sistema de notificación electrónica, el
-señalamiento de los días en los que no se pondrán a su disposición notificaciones comprenderá las notificaciones que efectúe el Departamento de Hacienda, Finanzas y Presupuestos en
-sus actuaciones y procedimientos tributarios, así como en la gestión de los recursos de otros
-Entes y Administraciones Públicas que tenga atribuida o encomendada.
-Artículo 12. Límite máximo de días y posibilidad de modificación de los mismos
-1. Los sujetos señalados en el artículo 10 de este Decreto Foral podrán señalar, siguiendo
-el procedimiento a que se refiere el artículo 14 de este Decreto Foral, un máximo de 30 días
-naturales por año natural, siendo estos días de libre elección y sin necesidad de tener que
-agrupar un número mínimo de los mismos.
-2. La o el obligado tributario que, a lo largo del año natural, sea incluido con carácter obligatorio en el sistema de notificación electrónica o proceda a darse de alta voluntariamente para
-ser notificado por medios electrónicos, podrá disfrutar de la totalidad de los 30 días naturales
-del año natural en curso, sin necesidad de prorratear los días por el período del año natural
-restante.
-3. Los días en los que no se pondrán a disposición de la o del obligado tributario notificaciones se deberán solicitar con una antelación mínima de 7 días naturales al primer día en que
-vaya a surtir efecto y, una vez señalados, podrán ser objeto de modificación mediante solicitud
-expresa que dejará sin efecto el período inicialmente elegido, con los mismos límites respecto
-al número máximo de días anuales por obligado tributario y antelación mínima anteriormente
-indicados.
-Artículo 13. Efectos del señalamiento de los días en los que no se pondrán notificaciones
-en la sede electrónica
-1. El retraso en la notificación derivado del señalamiento de los días en los que no se pondrán notificaciones a disposición de los interesados se considerará dilación no imputable a la
-Administración, en los términos y a los efectos establecidos en la normativa tributaria.
-2. El señalamiento de los días en los que no se pondrán a disposición de la o del obligado
-tributario notificaciones afectará exclusivamente a las notificaciones que pudieran haberse
-efectuado en los días señalados. En ningún caso estos días se descontarán del cómputo de los
-plazos que se hayan iniciado por haberse puesto a disposición la notificación con anterioridad
-al primero de los días señalados.
+2026-01393
+miércoles, 20 de mayo de 2026 • Núm. 57
+2. La cuota de esfuerzo total, incluyendo el pago mensual del presente alquiler más el
+pago del importe mensual de las deudas financieras y no financieras de las que las personas
+arrendatarias sea titular, debe ser igual o inferior al 40 por ciento de los ingresos mensuales
+de las personas arrendatarias.
+d) Las personas solicitantes de la vivienda no serán titulares del pleno dominio o de un
+derecho real de uso o disfrute sobre otra vivienda en el Territorio Histórico de Álava o el enclave de Treviño. A estos efectos, no se considerará que se es titular del pleno dominio o de
+un derecho real de uso o disfrute cuando:
+1. El derecho recaiga únicamente sobre una parte alícuota de la vivienda no superior al 50
+por ciento y se haya adquirido por título de herencia.
+2. En los casos de sentencia judicial de separación o divorcio cuando, como consecuencia
+de esta, no se le haya adjudicado el uso de la vivienda que constituía la residencia familiar.
+Artículo 14. Plazo de presentación de solicitudes de arrendamiento y orden de tramitación
+Las personas físicas que, cumpliendo los requisitos establecidos en el artículo anterior,
+deseen adherirse al programa presentarán una única solicitud por unidad convivencial. A los
+efectos del artículo 16 de este decreto foral se tomará como solicitante la persona que suscriba
+el modelo de solicitud.
+La convocatoria del programa que se encuentre vigente en cada momento fijará el modo
+de presentación de solicitudes, así como la documentación a presentar con las mismas, entre
+la que, en su caso, deberá constar un escrito de la persona solicitante que, debido a sus necesitades, desee una vivienda que no presente obstáculos para el libre acceso y circulación
+interna, acompañado de la documentación del reconocimiento de la situación que justifique
+dicha necesidad.
+La Diputación Foral de Álava comprobará, por sí misma o con la colaboración de terceros,
+la idoneidad financiera de la persona, en cumplimiento de los parámetros del artículo 13 del
+presente anexo I.
+Realizados los trámites internos correspondientes, se comunicará a las personas solicitantes la aprobación de la adhesión, o se dictará resolución de la dirección del Departamento de
+Equilibrio Territorial rechazando la solicitud.
+En cualquier caso, serán denegadas aquellas solicitudes que no dispongan de cobertura
+presupuestaria para su tramitación o para la formalización de las garantías en el momento de
+su resolución.
+Artículo 15. Obligaciones de las personas arrendatarias de la vivienda
+1. Dedicar la vivienda alquilada a residencia habitual y permanente, durante el tiempo de
+duración del arrendamiento.
+2. Cumplir con lo establecido en el contrato de alquiler que se formalice y no subarrendar
+la vivienda.
+3. Depositar una fianza equivalente a una mensualidad del precio del arrendamiento como
+legalmente proceda.
+4. Reponer el importe de la garantía inicial en caso de que se haga uso de la misma para el
+pago de mensualidades pendientes, en los casos en los que no llegue a iniciarse el procedimiento de reclamación legal de la deuda.
+5. Aceptar las condiciones de recuperación del alquiler, en caso de hacerse uso del seguro
+de impago.
 www.araba.eus
 D.L.: VI-1/1958 ISSN: 2254-8432
-2020-00168
-miércoles, 29 de enero de 2020 • Núm. 11
-3. A efectos de lo dispuesto en este artículo, la Diputación Foral de Álava deberá certificar el
-citado retraso, acreditando la fecha y la hora en que se pudo poner a disposición del obligado
-tributario el acto objeto de notificación en la sede electrónica.
-4. No obstante, cuando lo dispuesto en el artículo 10 de este Decreto Foral sea incompatible
-con la inmediatez o celeridad que requiera la actuación administrativa para asegurar su eficacia y producción de efectos, será de aplicación lo dispuesto en el artículo 6.1.b) del presente
-Decreto Foral.
-Artículo 14. Procedimiento y condiciones para el señalamiento de los días en los que no se
-pueden poner a disposición notificaciones en la sede electrónica
-1. El señalamiento de los días en los que no se pondrán a disposición de las y los obligados
-tributarios notificaciones en la sede electrónica deberá realizarse obligatoriamente en la sede
-electrónica de la Diputación Foral de Álava.
-Una vez que los días hayan sido señalados correctamente, se generará el correspondiente
-recibo de presentación validado por un código seguro de verificación, además de la fecha y
-hora de la solicitud. Cualquier otra solicitud presentada por cualquier otro medio carecerá de
-efecto alguno, procediéndose a su archivo sin más trámite.
-2. La persona que vaya a señalar los días mencionados deberá estar comprendida en el
-ámbito subjetivo establecido en el artículo 10 de este Decreto Foral, así como disponer de
-Número de Identificación Fiscal.
-CAPÍTULO III
-Deficiencias o anomalías en el funcionamiento
-del sistema de notificaciones electrónicas
-Artículo 15. Deficiencias o anomalías en el funcionamiento del sistema de notificaciones
-electrónicas
-En el supuesto que durante el período de puesta a disposición de las notificaciones se produzca alguna deficiencia, anomalía o interrupción atribuible a la Diputación Foral de Álava o a
-servicios utilizados por ésta para la completa efectividad de las notificaciones, el referido plazo
-se ampliará a razón de un día por cada día en que, dentro de dicho plazo, se haya producido
-dicha deficiencia, anomalía o interrupción.
-DISPOSICIÓN ADICIONAL ÚNICA
-La Diputación Foral de Álava podrá habilitar otros sistemas de notificación y comunicación
-electrónica, siempre que quede constancia de la recepción por la interesada o el interesado en
-el plazo y en las condiciones que se establezcan en su regulación específica.
-DISPOSICIÓN FINAL
-El presente Decreto Foral entrará en vigor el 1 de junio de 2020.
-Vitoria-Gasteiz, a 21 de enero de 2020
-Diputado General
-RAMIRO GONZÁLEZ VICENTE
-Diputada de Hacienda, Finanzas y Presupuestos
-ITZIAR GONZALO DE ZUAZO
-Directora de Hacienda
-MARÍA JOSÉ PEREA URTEAGA
+2026-01393
+miércoles, 20 de mayo de 2026 • Núm. 57
+6. Comunicar a la Diputación Foral de Álava cualquier variación de las condiciones tenidas
+en cuenta durante la tramitación de la solicitud siempre que afecten al contenido del presente
+decreto foral.
+7. Personarse en la cita que se organice para la revisión final de la vivienda una vez concluido el periodo de alquiler de la misma.
+8. Disponer de un correo electrónico operativo, que se detallará en el impreso de solicitud,
+para comunicaciones con la Diputación Foral de Álava durante el proceso de asignación de
+vivienda en alquiler.
+Adicionalmente, y siempre que no se les haya adjudicado vivienda en alquiler durante los
+tres meses siguientes a la aportación de documentación inicial, las personas arrendatarias
+tendrán que remitir a Diputación Foral de Álava los documentos que acreditan su solvencia
+cuando sean candidatos para una adjudicación de vivienda. En concreto, los documentos a
+remitir son los siguientes:
+a) Justificantes de ingresos del año en curso, tales como nóminas, certificados de pensiones, rendimientos de actividades u otros justificantes admitidos en derecho, que no hayan sido
+remitidas en aportaciones de documentación anteriores.
+b) Informe de riesgos emitido por la Central de Información de Riesgos (CIRBE) del Banco
+de España.
+https://sedeelectronica.bde.es/sede/es/menu/tramites/central-de-infor/solicitud-informes-riesgos-cirbe-p58.html.
+c) Tres últimos recibos de las financiaciones de las que se sea titular.
+Capítulo IV. Procedimiento de concesión y cancelación de las garantías
+Artículo 16. Procedimiento de concesión
+Las solicitudes de arrendamiento se calificarán por orden de entrada en la Diputación Foral
+de Álava, estableciéndose las agrupaciones de solicitudes que se indiquen en la convocatoria
+vigente del programa.
+El proceso de agrupación y clasificación de las solicitudes será detallado en la convocatoria
+del programa que se encuentre vigente en cada momento.
+Tras este proceso, se remitirá a los solicitantes de vivienda en alquiler, a través de correo
+electrónico, una comunicación en la que se indique la vivienda que se les ha asignado, siempre que exista alguna. En caso de que haya más de una vivienda a la que puedan optar, se les
+solicitará que indiquen un orden de prelación entre las mismas.
+En el caso de que más de una persona solicitante opte al mismo inmueble, los criterios de
+preferencia serán los siguientes:
+a) Persona solicitante empadronada en el mismo núcleo de población.
+b) Solicitante que trabaje o realice una actividad económica en el mismo núcleo de población.
+c) Persona solicitante empadronada en el mismo municipio.
+d) Solicitante que trabaje o realice una actividad económica en el mismo municipio.
+e) Persona solicitante empadronada en la misma cuadrilla.
+f) Solicitante que trabaje o realice una actividad económica en la misma cuadrilla.
+g) Mayor número de personas de la unidad convivencial.
+h) Sorteo.
 www.araba.eus
 D.L.: VI-1/1958 ISSN: 2254-8432
-Firmante: CN=DIRECCION DE SERVICIOS GENERALES, SERIALNUMBER=P0100000I, OU=sello electrónico, O=ARABAKO FORU ALDUNDIA-DIPUTACION FORAL DE ALAVA, C=ES
+2026-01393
+miércoles, 20 de mayo de 2026 • Núm. 57
+No obstante a lo anterior, si hubiera personas demandantes que hayan solicitado viviendas
+que no presenten obstáculos para el libre acceso y circulación interna, estas personas tendrán
+preferencia total para la adjudicación de dichas viviendas, si existen disponibles, aplicándose
+entre ellas los criterios de preferencia enumerados en las letras a-h anteriores.
+El orden de estos criterios, enumerados en las letras a-h anteriores, podrá ser modificado
+en la convocatoria del programa.
+Los solicitantes, en el plazo de 5 días hábiles desde el siguiente a la recepción de la comunicación de Diputación Foral de Álava, deberán remitir su aceptación o rechazo de la vivienda
+asignada, o manifestar su orden de prelación en caso de optar a más de una vivienda. En
+este último caso, el orden de preferencia podrá excluir alguna o todas las viviendas ofrecidas,
+computando como un rechazo en caso de excluir todas.
+Tras este procedimiento, se dictará orden foral del departamento competente en materia
+de Equilibrio Territorial resolviendo la asignación de viviendas disponibles en cada periodo.
+Una vez tomada la resolución, se comenzará el proceso de formalización del contrato de
+alquiler, tramitación de fianzas asociadas al mismo, y alta de los seguros que conforman la
+garantía del presente programa. La fecha de efecto del contrato de alquiler, así como de los seguros asociados será el primer día del mes siguiente a su firma, y en todo caso deberá ser como
+máximo a los tres meses desde la fecha de inicio de la agrupación en la que se otorgue vivienda.
+Los solicitantes de vivienda podrán rechazar la vivienda asignada una única vez sin penalización, pasando a formar parte de la siguiente agrupación de solicitudes que corresponda. En
+caso de un segundo rechazo el solicitante será dado de baja del programa, y no podrá volver
+a solicitar su adhesión mediante del procedimiento establecido en el presente decreto y en la
+convocatoria que se encuentre vigente en ese momento hasta pasados tres meses desde la
+fecha de la segunda renuncia.
+Artículo 17. Finalización de los contratos de alquiler y de las garantías asociadas
+Finalizados los 5 años se dará por concluido el arrendamiento, así como la adhesión al presente programa, sin perjuicio de que la persona arrendataria pueda realizar una nueva solicitud
+en el marco de la convocatoria que pudiera encontrarse vigente en ese ejercicio.
+Ello conllevará la realización por parte de la Diputación Foral de Álava, por sí misma o a
+través de terceras personas, de una visita final a la vivienda arrendada y la determinación, en
+su caso, de las actuaciones necesarias para la reparación de los daños amparables. En cualquier caso, no se cubrirán aquellos daños que sean propios del desgaste por el uso habitual
+de ésta desde el inicio del alquiler.
+Acudir a esta revisión final de la vivienda constituye una obligación tanto para el arrendador
+como para el arrendatario, y la no asistencia a la misma supondrá la aceptación de lo contenido
+en el informe que se desprenda de dicha verificación.
+En el caso de finalización del contrato por incumplimiento de las condiciones del programa
+por parte del arrendatario, este no podrá realizar otra solicitud de adhesión al presente programa.
+ANEXO A
+Estándares de habitabilidad de las viviendas.
+Condiciones generales que debe reunir una edificación para que se encuentre adecuada
+estructural y constructivamente.
+1.– Relativas a la solidez y la seguridad de los elementos estructurales y constructivos:
+– Disponer de cimentación adecuada.
+– La ausencia de deterioro del material constitutivo de los elementos estructurales, garantizándose que la resistencia de los mismos permanece inalterada.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-01393
+miércoles, 20 de mayo de 2026 • Núm. 57
+– La ausencia de desplomes en elementos portantes.
+– La ausencia de flechas en vigas y forjados.
+– La garantía de seguridad ante el desprendimiento de elementos constitutivos de las partes
+voladas del edificio.
+– Las garantías de sujeción y amarre de los elementos de seguridad ante caídas.
+– Las garantías de seguridad ante el desprendimiento de otros elementos tales como tejas,
+aplacados de fachada, chimeneas, vierteaguas, dinteles y cristales.
+2.– Relativa a la accesibilidad:
+– Acceso independiente desde la vía pública o espacio público.
+3.– Relativas a la estanquidad frente a la lluvia y la humedad:
+– La ausencia de goteras.
+– La integridad de los elementos constitutivos de la cubrición.
+– La ausencia de humedades en el interior de la vivienda.
+4.– Relativas al buen estado de las instalaciones:
+– La estanquidad y funcionalidad de las instalaciones.
+– La instalación general eléctrica empotrada o entubada.
+Condiciones mínimas de habitabilidad de las viviendas.
+1.– Que la vivienda se componga, al menos, de dos espacios habitables diferenciados, que
+alberguen las áreas de cocina, comedor, sala de estar y un dormitorio doble y un aseo.
+No podrán situarse en el mismo espacio las áreas correspondientes a cocina y dormitorio.
+2.– Que las habitaciones sean independientes entre sí, de modo que ninguna utilice como
+paso un dormitorio, ni sirva a su vez de paso al aseo. En el caso de un único dormitorio, el
+aseo podrá estar incorporado a él.
+3.– Que los espacios habitables, exceptuando los aseos, cocinas y despensa, dispongan de
+aberturas acristaladas directas al exterior. En casos extremos en los que la solución arquitectónica no sea viable, se permitirá que un espacio se ilumine a través de otro iluminado o a través
+del hueco de escalera siempre que este se encuentre suficientemente iluminado cenitalmente
+o a través de una galería u otro espacio similar. La superficie de los huecos nunca será inferior
+al 10 por ciento de la superficie total que se ilumine a su través, salvo la iluminación a través
+de la caja de la escalera que podrá reducirse a la mitad de los valores anteriores.
+4.– Que todos los espacios, excepto los destinados a aseos y despensas tengan ventilación
+directa al exterior, con una superficie igual a 1/3 de la superficie de iluminación. Se admiten
+los mismos extremos que en el apartado 3.
+Los aseos que no tengan ventilación directa no podrán ventilarse a través de otra habitación, debiéndolos dotar de un sistema de ventilación forzada que permita la renovación de
+aire y su limpieza.
+5.– Que los patios proporcionen luz y ventilación a los espacios habitables y sean de nueva
+creación o remodelación, tengan una superficie no inferior a siete metros cuadrados y luz recta
+no inferior a dos metros.
+En aquellos casos en los que el patio ya existe y no se efectúe sobre él ninguna remodelación,
+podrán mantenerse las dimensiones actuales.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-01393
+miércoles, 20 de mayo de 2026 • Núm. 57
+6.– Que la vivienda tenga una superficie útil superior a 40 metros cuadrados.
+Los espacios no serán inferiores a las siguientes superficies:
+Cocina 5 m2.
+Cocina-comedor 8 m2.
+Estar 10 m2.
+Dormitorio principal 10 m2.
+Dormitorio doble 8 m2.
+Dormitorio sencillo 6 m2.
+Aseo 1,5 m2.
+Toda vivienda deberá tener, al menos, un dormitorio principal, un estar, una cocina y un aseo.
+Si se opta por hacer en una misma pieza el área correspondiente a cocina, estar, comedor
+su superficie total no será inferior a 18 m2 útiles.
+7.– En toda vivienda situada en un edificio, cuya seguridad estructural sea correcta, se
+podrán mantener las alturas existentes siempre que sean iguales o superiores a 2,20 metros.
+En el caso de espacios abuhardillados no se computarán como metros cuadrados útiles las
+superficies con altura libre inferior a 1,50 metros, y su volumen será superior al correspondiente
+a una habitación de la misma superficie y 2,20 metros de altura.
+8.– En el caso de existir viviendas en planta baja, se deberá asegurar el aislamiento térmico
+e impermeabilización por medio de materiales hidrófugos y aislantes adecuados.
+9.– Que tengan resuelto el vertido de aguas negras, mediante tuberías impermeables y
+ventiladas, a la red general de alcantarillado. En caso de no existir dicha red, se utilizarán fosas
+sépticas adecuadas que permitan el depurado del líquido afluente antes de verterlo a las aguas
+corrientes o entregarlo al terreno.
+10.– Que el aseo contenga como mínimo inodoro, lavabo y ducha.
+11.– La instalación eléctrica de la vivienda cumplirá el reglamento de baja tensión.
+12.– Que la vivienda disponga de instalación de calefacción.
+ANEXO II
+Convocatoria del programa de garantías al alquiler de
+viviendas de la Diputación Foral de Álava
+Capítulo I. Normas generales del programa
+Artículo 1. Objeto
+El presente programa tiene por objeto prestar una garantía temporal, de carácter personal, para el alquiler de viviendas en el entorno rural por aquellas personas que cumplan los
+requisitos establecidos.
+Las condiciones generales del programa están recogidas en el anexo I del presente decreto foral.
+Artículo 2. Características de las viviendas
+Además de cumplir lo recogido en el artículo 5 del anexo I de este decreto, las viviendas
+deben presentar un aspecto pulcro y aseado y tener la cocina amueblada y dotada de placa
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-01393
+miércoles, 20 de mayo de 2026 • Núm. 57
+de cocinar, fregadero, lavadora, frigorífico y campana extractora o elemento que permita la
+evacuación de humos, y un baño provisto de inodoro, lavabo y ducha o bañera, todo ello en
+perfecto funcionamiento.
+El precio del arrendamiento de la vivienda, sin los gastos de comunidad si los hubiera, debe
+ser igual o inferior a la siguiente ratio de euros por metro cuadrado mensuales:
+INTERVALO METROS
+CUADRADOS
+MÁXIMO METRO
+CUADRADO / MES
+MÁXIMO ALQUILER
+MENSUAL
+36 – 60
+9,00
+400,00
+61– 90
+8,00
+550,00
+91 y superiores
+7,00
+700,00
+Capítulo II. Personas arrendadoras destinatarias del programa
+Artículo 3. Participación en el programa de las personas arrendadoras
+Podrán participar en el programa las personas físicas propietarias de viviendas en los núcleos señalados en el artículo 1 del anexo I de este decreto foral.
+También las personas jurídicas privadas cuya actividad principal no sea la venta de bienes
+y servicios en condiciones de mercado ni la gestión de patrimonios.
+Artículo 4. Procedimiento de adhesión al programa de las personas arrendadoras
+1. Las personas físicas o jurídicas que, cumpliendo los requisitos establecidos en el artículo
+anterior, deseen adherirse al programa, presentarán una solicitud al efecto.
+2. Las solicitudes se presentarán:
+— A través del trámite específico accesible a través de la sede electrónica.
+https://egoitza.araba.eus/es/-/garantias-alquiler-vivienda.
+https://egoitza.araba.eus/eu/-/garantias-alquiler-vivienda.
+— En el registro general de la Diputación Foral de Álava.
+— En el registro de las oficinas de hacienda de Vitoria-Gasteiz, Laguardia y Llodio.
+— En cualesquiera del resto de registros que recoge el artículo 16.4 de la Ley 39/2015, de 1
+de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
+No obstante, en cumplimiento del artículo 14.2 de la Ley 39/2015 del Procedimiento Administrativo Común de las Administraciones Públicas, en todo caso están obligados a presentación
+telemática las personas jurídicas, las entidades sin personalidad jurídica, quienes ejerzan una
+actividad profesional para la que se requiera colegiación obligatoria y para los trámites que
+realicen en el ejercicio de dicha actividad y quienes representen a un interesado obligado a
+relacionarse electrónicamente con la administración.
+Con las solicitudes habrá de adjuntarse la siguiente documentación:
+a) Solicitud debidamente cumplimentada, bien electrónica o impresa, según el medio de
+entrada de la misma.
+La solicitud incluirá una declaración de someterse a las condiciones de este programa y
+estar al corriente de las obligaciones tributarias y de Seguridad Social, y la autorización para
+realizar las operaciones de comprobación previas del estado de las viviendas a alquilar.
+b) La acreditación de la propiedad del inmueble.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-01393
+miércoles, 20 de mayo de 2026 • Núm. 57
+Nota simple del registro de la propiedad correspondiente o fotocopia de escritura pública
+que demuestre el derecho de propiedad, usufructo o cualquier otro título de disfrute sobre las
+viviendas a alquilar.
+Para la tramitación de este procedimiento la Diputación Foral de Álava consultará automáticamente los datos incluidos en los siguientes documentos en poder de la Administración
+actuante o elaborados por las administraciones públicas, salvo que las personas interesadas
+se opongan a su consulta:
+a) Para personas solicitantes residentes en la Comunidad Autónoma de Euskadi, certificado
+emitido por la hacienda correspondiente de estar al corriente en la presentación y pago de
+todos los impuestos.
+b) Certificado referente a la persona solicitante de estar al corriente en los pagos a la Seguridad Social, en caso de ejercer actividades por cuenta propia.
+Las personas solicitantes que se opongan a la consulta automática anterior, así como los
+residentes fuera de la Comunidad Autónoma de Euskadi para el caso del certificado emitido por
+hacienda, deberán aportar esta documentación en el momento de formalización del contrato.
+Capítulo III. Personas arrendatarias destinatarias del programa
+Artículo 5. Participación en el programa de las personas arrendatarias
+Podrán acogerse a este programa como demandantes de vivienda en alquiler aquellas
+personas con la solvencia necesaria y que cumplan con los requisitos detallados en el artículo
+13 del anexo I del presente decreto.
+Artículo 6. Plazo de presentación de solicitudes de arrendamiento y orden de tramitación
+1. Las personas físicas que, cumpliendo los requisitos establecidos en el artículo anterior,
+deseen adherirse al programa presentarán una única solicitud por unidad convivencial. A los
+efectos del artículo 16 del anexo I de este decreto foral se tomará como solicitante la persona
+que suscriba el modelo de solicitud.
+2. El plazo de presentación de solicitudes de arrendamiento comenzará el 7 de julio de 2025.
+3. Las solicitudes se presentarán:
+— A través del trámite específico accesible a través de la sede electrónica.
+https://egoitza.araba.eus/es/-/garantias-alquiler-vivienda.
+https://egoitza.araba.eus/eu/-/garantias-alquiler-vivienda.
+— En el registro general de la Diputación Foral de Álava.
+— En el registro de las oficinas de hacienda de Vitoria-Gasteiz, Laguardia y Llodio.
+— En cualesquiera del resto de registros que recoge el artículo 16.4 de la Ley 39/2015, de 1
+de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
+Con las solicitudes habrá de adjuntarse la siguiente documentación:
+a) Solicitud debidamente cumplimentada, bien electrónica o impresa, según el medio de
+entrada de la misma.
+La solicitud incluirá:
+— Una declaración responsable por parte de las personas interesadas en la que se manifieste su compromiso de que la vivienda se va a destinar a domicilio habitual y permanente al
+menos durante el tiempo de duración del arrendamiento.
+— Una declaración del número de personas que van a habitar en la vivienda.
+— Una declaración de preferencias de cuadrilla de ubicación de la vivienda a alquilar, pudiendo
+seleccionar una única cuadrilla, más de una cuadrilla o todo el Territorio Histórico de Álava.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-01393
+miércoles, 20 de mayo de 2026 • Núm. 57
+b) En su caso, escrito de la persona solicitante que, debido a sus necesitades, desee una
+vivienda que no presente obstáculos para el libre acceso y circulación interna, acompañado
+de la documentación del reconocimiento de la situación que justifique dicha necesidad.
+c) Nota de localización del registro de la propiedad de las personas solicitantes de vivienda
+en alquiler por el que quede constancia de que cumplen el requisito de no tener en propiedad
+algún inmueble destinado a vivienda.
+https://sede.registradores.org/site/propiedad?lang=es_ES.
+d) Autorización de acceso a la declaración del IRPF de los dos últimos ejercicios liquidados.
+Para el caso de personas solicitantes residentes en el enclave de Treviño, declaración del
+IRPF de los dos últimos ejercicios liquidados.
+e) Justificantes de ingresos del año en curso, tales como nóminas, certificados de pensiones,
+rendimientos de actividades u otros justificantes admitidos en derecho.
+f) Informe de riesgos emitido por la Central de Información de Riesgos (CIRBE) del Banco
+de España.
+https://sedeelectronica.bde.es/sede/es/menu/tramites/central-de-infor/solicitud-informes-riesgos-cirbe-p58.html.
+g) Tres últimos recibos de las financiaciones de las que se sea titular.
+h) Para el caso de personas solicitantes residentes en el enclave de Treviño, consulta de
+datos de residencia con fecha de la última variación padronal, en el supuesto de que la persona solicitante sea la única que vaya a habitar la vivienda o, de ser varias, que no convivieran
+conjuntamente con anterioridad a la solicitud de alquiler de la vivienda.
+Para la tramitación de este procedimiento la Diputación Foral de Álava consultará automáticamente los datos incluidos en los siguientes documentos en poder de la administración
+actuante o elaborados por las administraciones públicas, salvo que las personas interesadas
+se opongan a su consulta:
+a) Documento nacional de identidad o, de ser el caso, número de identidad de extranjero
+de la persona solicitante o bien, de su persona representante, así como de las demás personas
+convivientes.
+b) Para personas solicitantes residentes en el Territorio Histórico de Álava, consulta de la
+declaración del IRPF de los dos últimos ejercicios liquidados.
+c) Para personas solicitantes residentes en el Territorio Histórico de Álava, consulta de datos de residencia con fecha de la última variación padronal, en el supuesto de que la persona
+solicitante sea la única que vaya a habitar la vivienda o, de ser varias, que no convivieran
+conjuntamente con anterioridad a la solicitud de alquiler de la vivienda.
+Los servicios técnicos de la administración foral comprobarán los requisitos de participación
+en el programa. Para tal fin, se considerará fecha de presentación aquella en que la solicitud
+estuviese válidamente cubierta y se hubiese presentado acompañada de la totalidad de los
+documentos exigidos en esta resolución y en las correspondientes convocatorias.
+La Diputación Foral de Álava comprobará, por sí misma o con la colaboración de terceras
+personas, la idoneidad financiera de la persona.
+Realizados los trámites internos correspondientes, se comunicará a las personas solicitantes la aprobación de la adhesión, o se dictará resolución de la dirección del Departamento de
+Equilibrio Territorial rechazando la solicitud.
+En cualquier caso, serán denegadas aquellas solicitudes que no dispongan de cobertura
+presupuestaria para su tramitación o para la formalización de las garantías en el momento de
+su resolución.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-01393
+miércoles, 20 de mayo de 2026 • Núm. 57
+Capítulo IV. Procedimiento de concesión y cancelación de las garantías
+Artículo 7. Procedimiento de concesión
+Las solicitudes de arrendamiento se calificarán por orden de entrada en la Diputación Foral
+de Álava, estableciéndose agrupaciones mensuales de solicitudes, a último día de cada mes.
+Al inicio de cada mes se agruparán las solicitudes de vivienda que se hayan adherido al
+programa en el mes anterior, así como aquellas que, habiéndose adherido con anterioridad,
+no tengan asignada una vivienda en alquiler. Excepcionalmente, las solicitudes recibidas en
+el mes de julio de cada año se agruparán con las que se reciban en agosto.
+Una vez realizada la agrupación, las solicitudes se clasificarán en función de las preferencias, bien por cuadrillas o el total del Territorio detalladas en el documento de solicitud, y se
+relacionarán con las viviendas disponibles para alquilar. Para ello se tendrá en cuenta la cuadrilla en la que se encuentren dichas viviendas y el número de personas que puedan habitar
+las mismas.
+Tras este proceso, se remitirá a las personas solicitantes de vivienda en alquiler, a través
+de correo electrónico, una comunicación en la que se indique la vivienda que se les ha asignado, siempre que exista alguna. En caso de que haya más de una vivienda a la que puedan
+optar, se les solicitará que indiquen un orden de prelación entre las mismas. En caso de que
+no se pueda asignar ninguna vivienda, se remitirá la comunicación a las personas solicitantes
+indicando este hecho e informando de que pasan a formar parte de la siguiente agrupación
+de solicitudes que se vaya a realizar.
+Las personas solicitantes, en el plazo de 5 días hábiles desde el siguiente a la recepción de
+la comunicación de Diputación Foral de Álava, deberán remitir su aceptación o rechazo de la
+vivienda asignada, o manifestar su orden de prelación en caso de optar a más de una vivienda.
+En este último caso, el orden de preferencia podrá excluir alguna o todas las viviendas ofrecidas, computando como un rechazo en caso de excluir todas.
+Tras este procedimiento, se dictará orden foral del departamento competente en materia
+de Equilibrio Territorial resolviendo la asignación de viviendas disponibles en cada periodo.
+Una vez tomada la resolución, se comenzará el proceso de formalización del contrato de
+alquiler, tramitación de fianzas asociadas al mismo, y alta de los seguros que conforman la
+garantía del presente programa. La fecha de efecto del contrato de alquiler, así como de los
+seguros asociados será el primer día del mes siguiente a su firma, y en todo caso deberá ser
+como máximo a los tres meses desde la fecha de inicio de la agrupación mensual en la que
+se otorgue vivienda.
+Las personas solicitantes de vivienda podrán rechazar la vivienda asignada una única vez
+sin penalización, pasando a formar parte de la siguiente agrupación mensual de solicitudes
+que corresponda. En caso de un segundo rechazo la persona solicitante será dada de baja del
+programa, y no podrá volver a solicitar su adhesión mediante del procedimiento establecido
+en el presente decreto hasta pasados tres meses desde la fecha de la segunda renuncia.
+Artículo 8. Finalización de los contratos de alquiler y de las garantías asociadas
+Finalizados los 5 años se dará por concluido el arrendamiento, así como la adhesión al presente programa, sin perjuicio de que la persona arrendataria pueda realizar una nueva solicitud
+en el marco de la convocatoria que pudiera encontrarse vigente en ese ejercicio.
+Ello conllevará la realización por parte de la Diputación Foral de Álava, por sí misma o a
+través de terceras personas, de una visita final a la vivienda arrendada y la determinación, en
+su caso, de las actuaciones necesarias para la reparación de los daños amparables. En cualquier caso, no se cubrirán aquellos daños que sean propios del desgaste por el uso habitual
+de ésta desde el inicio del alquiler. Acudir a esta revisión final de la vivienda constituye una
+obligación tanto para el arrendador como para el arrendatario, y la no asistencia a la misma
+supondrá la aceptación de lo contenido en el informe que se desprenda de dicha verificación.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-01393
+miércoles, 20 de mayo de 2026 • Núm. 57
+En el caso de finalización del contrato por incumplimiento de las condiciones del programa
+por parte del arrendatario, este no podrá realizar otra solicitud de adhesión al presente programa.
+Disposición final. Convocatoria
+La presente convocatoria complementa lo recogido en el anexo I de este decreto foral,
+que regula las condiciones generales del programa de garantías al alquiler de viviendas de la
+Diputación Foral de Álava.
+La convocatoria permanecerá vigente hasta que expresamente se finalice mediante resolución de la persona titular del Departamento de Equilibrio Territorial y Ordenación del Territorio.
+Así mismo, los aspectos regulados mediante la presente convocatoria podrán ser modificados mediante resolución de la persona titular del Departamento de Equilibrio Territorial y
+Ordenación del Territorio. Dicha resolución se referenciará al presente decreto foral, actualizando
+lo necesario para la correcta tramitación y resolución/gestión de la convocatoria.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+Firmante: CN=ARABAKO FORU ALDUNDIA / DIPUTACION FORAL DE ALAVA, SERIALNUMBER=P0100000I, OU=SELLO ELECTRONICO, ORGANIZATIONIDENTIFIER=VATES-P0100000I, O=ARABAKO FORU ALDUNDIA / DIPUTACION FORAL DE ALAVA, C=ES
 Emisor del certificado: CN=EAEko HAetako langileen CA - CA personal de AAPP vascas (2), OU=AZZ Ziurtagiri publikoa - Certificado publico SCA, O=IZENPE S.A., C=ES
-Número de serie: 153457
-Fecha de firma: 2020.01.29 06:24:23 Z
-2020-00168
-
-### Decreto foral 26/2011: https://www.araba.eus/botha/Boletines/2011/047/2011_047_02402.pdf
-2011ko apirilaren 18a, astelehena
-ALHAO
-LABOREA
-Zalkea hazia
-Soja
-Tabakoa
-Garia
-Garia + garagarra
-Gari gogorra
-Zalkea alea
-Azenarioa
-Lathyrus sativus - Lathyrus cicerra
-47
-BOTHA
-5191
-CULTIVO
-Semilla veza
-Soja
-Tabaco
-Trigo
-Trigo + cebada
-Trigo duro
-Veza grano
-Zanahoria
-Titos titarros
-XEDAPEN IRAGANKORRA
-DISPOSICIÓN TRANSITORIA
-Foru dekretu honetan onetsi diren aldaketak aplikatuko zaizkie
-lehenengo xedapenean onartutako deialdian aurkeztutako laguntza
-eskabideei.
-AZKEN XEDAPENA
-Las modificaciones aprobadas en el presente Decreto Foral
-serán de aplicación a las solicitudes de ayuda que se presenten en
-la convocatoria aprobada en el disponendo primero.
-DISPOSICIÓN FINAL
-Foru dekretu honek onartu eta hurrengo egunetik aurrera izango
-du indarra, ALHAOn argitaratzen den eguna edozein dela ere.
-Gasteiz, 2011ko apirilaren 5a.– Nekazaritza Saileko foru diputatua,
-ESTEFANÍA BELTRÁN DE HEREDIA ARRÓNIZ.– Nekazaritzako zuzendaria, EDUARDO AGUINACO LÓPEZ DE SUSO.
-El presente Decreto Foral entrará en vigor el día de su aprobación sin perjuicio de su publicación en el BOTHA.
-Vitoria-Gasteiz, a 5 de abril de 2011.– La diputada foral de
-Agricultura, ESTEFANÍA BELTRÁN DE HEREDIA ARRÓNIZ.– El director
-de Agricultura, EDUARDO AGUINACO LÓPEZ DE SUSO.
-FORU ADMINISTRAZIOAREN SAILA
-DEPARTAMENTO DE ADMINISTRACIÓN FORAL
-2402
-26/2011 FORU DEKRETUA, apirilaren 5eko Diputatuen Kontseiluarena. Honen bidez, Foru Aldundiaren egoitza elektronikoa
-sortzen da.
-2402
-DECRETO FORAL 26/2011, del Consejo de Diputado
-[…]
-Artículo 1.- Objeto.
-Este Decreto tiene como objeto crear la sede electrónica de la
-Diputación Foral de Álava, diputaciondigital, de conformidad con lo
-dispuesto en el artículo 10 de la Ley 11/2007, de 22 de junio, de
-acceso electrónico de los ciudadanos a los Servicios Públicos.
-2011ko apirilaren 18a, astelehena
-ALHAO
-47
-BOTHA
-5192
-Arabako Foru Aldundiaren egoitza elektronikoa https://e-s.alava.net
-helbide elektronikoan egongo da eta zuzenean sartzeko modua izango
-du, bai eta Interneteko www.alava.net atariaren bitartez ere.
-La sede electrónica de la Diputación Foral de Álava se corresponderá con la dirección electrónica https://e-s.alava.net, siendo
-accesible tanto directamente como a través del portal de Internet
-www.alava.net.
-2. atala.- Aplikazio eremua.
-Foru dekretu hau honako hauei aplikatuko zaie:
-a) Arabako Foru Aldundiari.
-b) Foru erakunde autonomoei, beren administrazio kontseiluek hala
-onartzen baldin badute, partekatutako egoitza erabakitzen duen
-hitzarmen egokia formalizatu eta gero.
-c) Foru sozietate publikoei, beren eskumeneko administrazio
-ahalmenak egikaritzean, baldin eta beren administrazio kontseiluek hala
-onartzen badute, partekatutako egoitza erabakitzen duen hitzarmen
-egokia formalizatu eta gero.
-Artículo 2.- Ámbito de aplicación.
-El presente Decreto Foral, será de aplicación a:
-a) La Diputación Foral de Álava.
-b) Los Organismos Autónomos Forales, cuando así lo aprueben
-sus Consejos de Administración, previa formalización del oportuno
-Convenio por el que se acuerde la sede compartida.
-c) Las Sociedades Públicas Forales, en el ejercicio de potestades
-administrativas de su competencia, cuando así lo aprueben sus
-Consejos de Administración, previa formalización del oportuno Convenio por el que se acuerde la sede compartida.
-3. artikulua.- Egoitza elektronikoaren ezaugarriak.
-Arabako Foru Aldundiaren egoitza elektronikoa ondoko ezaugarri
-hauekin sortzen da:
-a) Haren identifikazioa egoitza elektronikoaren ziurtagiri baten
-bidez egiten da.
-b) Herritar guztientzat eskuragarri dago, dohainik eta etengabe.
-Artículo 3.-Características de la sede electrónica.
-La sede electrónica de la Diputación Foral de Álava se crea con
-las siguientes características:
-a) Su identificación se lleva a cabo mediante un certificado de sede
-electrónica.
-b) Está disponible para toda la ciudadanía de forma gratuita y
-permanente.
-c) La Diputación Foral de Álava responde de la integridad,
-veracidad y actualización de la información y de los servicios a los que
-pueda accederse a través de la misma.
-d) Se rige por los principios de publicidad oficial, responsabilidad, calidad, seguridad, disponibilidad, accesibilidad, neutralidad
-e interoperabilidad.
-e) Dispone de sistemas que permiten el establecimiento de
-comunicaciones seguras siempre que sean necesarias.
-f) Asegura la accesibilidad y usabilidad de acuerdo con las
-normas establecidas al respecto, estándares abiertos y, en su caso,
-aquellos otros que sean de uso generalizado por la ciudadanía.
-g) Habilita a las personas usuarias de la sede a autorizar a otras
-para realizar determinados trámites telemáticos con los mismos
-efectos que si los hubieran realizado ellas.
-h) Garantiza el acceso a sus contenidos y servicios en euskera
-y castellano.
-i) Establece medidas que permiten diferenciar a la persona
-usuaria si se encuentra en la sede electrónica o en el resto del Portal
-www.alava.net.
-j) Incluirá progresivamente todas las actuaciones, procedimientos
-y servicios que requieran la autenticación de la ciudadanía ante la
-Diputación Foral de Álava, relacionarse con ésta por medios electrónicos, así como aquellos otros respecto a los que se decida su
-inclusión en la sede por razones de oportunidad, eficacia o calidad
-en la prestación de servicios a la ciudadanía.
-c) Beraren bitartez eskuratu daitezkeen informazio eta zerbitzuen
-osotasunaz, egiazkotasunaz eta gaurkotasunaz erantzuten du Arabako
-Foru Aldundiak.
-d) Printzipio hauetaz araututa dago: publizitate ofiziala, erantzukizuna, kalitatea, segurtasuna, eskuragarritasuna, irisgarritasuna,
-neutraltasuna eta elkarreragingarritasuna.
-e) Behar den guztietan komunikazio seguruak ezartzeko bide
-ematen duten sistemak dauzka.
-f) Irisgarritasuna eta erabilgarritasuna bermatzen ditu horri buruz
-ezarrita dauden arauei, estandar irekiei eta, hala badagokio, herritarrek eskuarki erabiltzen dituztenei jarraituz.
-g) Egoitzaren erabiltzaileak gaitzen ditu beste batzuk zenbait
-tramite telematiko egiteko baimena emateko, beraiek egin izan balituzte
-bezalako ondorioekin.
-h) Bere edukiak eta zerbitzuak euskaraz eta gaztelaniaz eskuratu
-ahal izatea bermatzen du.
-i) Erabiltzaileari egoitza elektronikoan ala www.alava.net atariaren
-gainerakoan dagoen bereizteko modua ematen dioten neurriak
-finkatzen ditu.
-j) Urratsez urrats, herritarrak Arabako Foru Aldundian kautotzea
-edo haiekin bide elektronikoz harremanak izatea behar duten ekintza,
-jardunbide eta zerbitzu guztiak barne hartuko ditu, baita ere herritarrei zerbitzuak ematerakoan egokitasun, eraginkortasun edo kalitate
-arrazoiengatik egoitzaren barruan sartzea erabakitzen den guztiak.
-4. artikulua.- Egoitza elektronikoaren hasierako edukiak.
-Egoitza elektronikoaren hasierako edukiak ondoko hauek dira:
-a) Egoitzaren eta bere titularraren identifikazioa, baita ere edukien
-kudeaketaz eta kudeaketa teknologikoaz ardura dutenena.
-b) Sinadura elektronikoko sistema onartuen zerrenda, erabilitako
-identifikazio elementuei buruzko informazioa eta horiek jaulkitzen
-dituzten emaileak jasoz.
-c) Erabilitako zigilu elektronikoen zerrenda.
-d) Bitarteko elektroniko bidez jakinarazteko, onartutako jakinarazpen
-plataformen zerrenda.
-e) Jaulkitako eta egiaztatze kode seguru baten bitartez kautotutako
-dokumentuen kautotasuna eta osotasuna egiaztatzeko sistema.
-f) Egoitzan eskuragarri dauden tramite eta zerbitzuen katalogoa.
-g) ALHAOren argitalpen elektronikoa.
-h) Data eta ordu ofiziala, eta ofizialki baliogabetzat jotako egunak.
-i) Iradokizun eta kexen postontzia eta dagokien kudeaketa prozeduraren arautegia.
-Artículo 4.- Contenidos iniciales de la sede electrónica.
-Los contenidos iniciales que contiene la sede electrónica son
-los siguientes:
-a) Identificación de la sede, de su titular, así como de los responsables de la gestión de los contenidos y de la gestión tecnológica.
-b) Relación de sistemas de firma electrónica admitidos, incluyendo
-información sobre los elementos de identificación utilizados así como
-los prestadores que los expiden.
-c) Relación de sellos electrónicos utilizados.
-d) Relación de Platafornas de Notificación admitidas para la
-notificación por medios electrónicos.
-e) Sistema de comprobación de la autenticidad e integridad de
-los documentos emitidos que hayan sido autenticados mediante
-código seguro de verificación.
-f) Catálogo de trámites y servicios disponibles en la sede.
-g) Publicación electrónica del BOTHA.
-h) Fecha y hora oficial y días declarados oficialmente como
-inhábiles.
-i) Buzón general de sugerencias y quejas así como la normativa
-del procedimiento de gestión correspondiente.
-2011ko apirilaren 18a, astelehena
-ALHAO
-47
-j) Egoitza sortu eta arautzen duen xedapena, baita erregistro
-elektronikoa sortzeko araua ere.
-k) Herritarrek egoitzarekin komunikatzeko kasu bakoitzean erabil
-ditzaketen bide elektronikoen zerrenda.
-l) Ekipoek egoitza elektronikorako sarbidea izateko bete behar
-dituzten software eta hardware eskakizun teknikoak. Ahal den neurrian,
-horiek estandar irekiak edo herritarrek eskuarki erabilitakoak izango dira.
-m) Egoitzaren erabilera egokirako beharrezko informazioa, egoitza
-elektronikoaren mapa barne delarik, baita jabetza intelektualaren
-ingurukoa ere.
-n) Egoitzaren erabilera egokirako, aholkularitza teknikoa emateko
-zerbitzuak.
-o) Datu pertsonalen babesarekin loturiko informazioa.
-5. artikulua- Egoitza elektronikoaren erantzukizun mailak.
-Erantzukizun araubideak ondoko printzipio hauei jarraituko die:
-a) Haren titularra Arabako Foru Aldundia izango da, zeina aldioro
-eskuragarri dauden informazio eta zerbitzuen osotasunaz, egiazkotasunaz eta gaurkotasunaz erantzule izango baita.
-b) Arabako Foru Aldundia informatika baliabidez eta zerbitzuz
-hornitzen duen foru sozietate publikoak kudeatuko du teknologia,
-eta sozietate hori atxikita dagoeneko sailaren eskumen izango da.
-BOTHA
-5193
-j) Disposición por la que se crea y regula la sede, así como la norma
-de creación del registro electrónico.
-k) Relación de los medios electrónicos que la ciudadanía puede
-utilizar en cada supuesto para comunicarse con la sede.
-l) Requisitos técnicos de software y hardware de los equipos, necesarios para el acceso a la sede electrónica que, en la medida de lo
-posible, serán estándares abiertos o de uso generalizado por la
-ciudadanía.
-m) Información necesaria para la correcta utilización de la sede
-incluyendo el mapa de la sede electrónica, así como la relacionada
-con la propiedad intelectual.
-n) Servicios de asesoramiento electrónico para la correcta utilización de la sede.
-o) Información relacionada con la protección de datos de carácter
-personal.
-c) Edukien kudeaketa Foru Aldundiaren sail bakoitzaren ardura
-izango da, Aldundiak martxoaren 10eko Diputatuen Kontseiluaren
-22/2009 Foru Dekretuaren bidez onartutako printzipio eta koordinazio
-irizpideen arabera. Dekretu horren bidez, Arabako Foru Aldundiaren
-“ALAVANET” atariaren funtzionamendurako Aldundiaren barne antolaketa arautzen da.
-d) Egoitzaren titularrak ez du erantzukizunik izango Arabako Foru
-Aldundiarenak izan gabe beraren egoitza elektronikoan dauden esteka
-edo loturen bidez eskura daitezkeen eduki edo zerbitzuen osotasunaz,
-egiazkotasunaz edo gaurkotasunaz.
-Partekatutako egoitzen kasuan, eduki komunez titularkideek
-erantzukizun solidarioa izango dute, eta eduki partikularrei buruzko erantzukizuna bakoitzaren titularrarena izango da.
-Artículo 5.- Niveles de responsabilidad de la sede electrónica.
-El régimen de responsabilidad responderá a los siguientes principios:
-a) Su titularidad corresponderá a la Diputación Foral de Álava, que
-responderá de la integridad, veracidad y actualización de la información y los servicios disponibles en cada momento.
-b) La gestión tecnológica se realizará a través de la Sociedad
-Pública Foral encargada de proveer los servicios y recursos informáticos necesarios a la Diputación Foral de Álava, siendo competencia
-del Departamento al que dicha Sociedad esté adscrita.
-c) La gestión de los contenidos corresponderá a cada Departamento Foral, conforme a los principios y criterios de coordinación
-aprobados por la Diputación por el Decreto Foral 22/2009, del Consejo
-de Diputados de 10 de marzo, regulador de la organización interna
-foral para el funcionamiento del portal “ALAVANET” de esta Diputación
-Foral de Álava.
-d) El titular de la sede no será responsable de la integridad,
-veracidad ni actualización de los contenidos o servicios ajenos a la
-Diputación Foral de Álava a los que se pueda acceder mediante enlaces o vínculos contenidos en su sede electrónica.
-En el caso de sedes compartidas, la responsabilidad de los
-contenidos comunes será solidaria de los cotitulares y la relativa a los
-contenidos particulares corresponderá al titular respectivo.
-Lehenengo Xedapen Gehigarria. Erregistro elektronikoa.
-Agiri erregistroaren beharrean diren zerbitzu, izapide eta prozedura
-telematikoetarako, erregistro elektronikoa erabiliko da, Arabako Foru
-Aldundiaren Erregistroak arautzen dituen araudian xedatutakoarekin
-bat etorriz.
-Disposición Adicional Primera. El Registro Electrónico.
-En los casos de los servicios, trámites y procedimientos telemáticos que requieran el registro de documentación, se utilizará el
-Registro Electrónico conforme a lo establecido en la normativa reguladora de los Registros de la Diputación Foral de Álava.
-Bigarren Xedapen Gehigarria. Baliabide elektronikoen bidez
-jakinaraztea.
-a) Jakinarazpena baliabide elektroniko bidez egingo da, interesdunak hura lehenetsi edo baimendu badu, administrazio prozeduretan
-eta bide elektroniko bidez egin daitezkeen izapideetan.
-Disposición Adicional Segunda. La notificación por medios
-electrónicos.
-a) La notificación se practicará empleando medios electrónicos
-cuando la persona interesada haya elegido estos medios como preferentes o consentido su utilización en los procedimientos administrativos y trámites incorporados a la tramitación por vía electrónica.
-b) Las notificaciones por medios electrónicos de la Diputación Foral
-de Álava se realizarán a la persona interesada a través del buzón
-electrónico que ésta comunique para tal fin. Dicho buzón deberá
-estar asociado a alguna de las Plataformas de Notificación aceptadas
-por la Diputación Foral de Álava y de las que se da publicidad en la
-Sede Electrónica, cumpliendo en todo momento con los requisitos establecidos al efecto por la Ley 11/2007, de 22 de junio, de acceso
-electrónico de los ciudadanos a los Servicios Públicos.
-En particular, la notificación por medios electrónicos se realizará
-respecto al procedimiento o familia de procedimientos a los que
-previamente haya suscrito su buzón electrónico en la Plataforma de
-Notificación correspondiente, en los términos y condiciones que se
-especifiquen en cada Plataforma.
-c) La persona interesada podrá revocar su consentimiento para
-que la notificación se practique por medios telemáticos, en cuyo
-caso deberá actualizar, en la Plataforma de Notificación asociada a
-su buzón, los procedimientos respecto a los cuales desea ser notificado telemáticamente.
-b) Interesdunak jakinarazten dion helbide elektronikora bidaliko
-dizkio Arabako Foru Aldundiak baliabide elektroniko bidez egindako
-jakinarazpenak. Postontzi hori Arabako Foru Aldundiak onartutako eta
-egoitza elektronikoak iragarritako jakinarazpen plataformaren bati
-lotuta egongo da eta uneoro beteko ditu Zerbitzu Publikoetarako
-Sarbide Elektronikoa Izateari buruzko ekainaren 22ko 11/2007 Legeak
-xedatutakoak.
-Baliabide elektroniko bidezko jakinarazpena postontzia inskribatu
-duen jakinarazpen plataformaren prozedura edo prozedura multzoaren
-arabera egingo da, plataforma horretan xedatutako baldintza eta jarraibideen arabera, hain zuzen ere.
-c) Interesdunak baimena bertan behera utzi ahal izango du, jakinarazpena baliabide telematiko bidez egin dadin. Horretarako,
-postontziari lotutako jakinarazpen plataforman, eguneratu egin beharko
-ditu prozedurak, hau da, zer prozedura bidez nahi duen telematikoki
-jakinaraz diezaioten adierazi.
-2011ko apirilaren 18a, astelehena
-ALHAO
-Baimena bertan behera uzten duenetik aurrera egingo zaizkio
-jakinarazpenak bide berriaren bidez.
-d) Aurreko idatz zatietan araututakoak ez du indarrik izango,
-legeren batek bide elektronikoak eskatzen dituenean edo arau bidez
-xedatzen denean bide elektroniko bitartez baino ezin dela harremanik
-izan Arabako Foru Aldundiarekin. Horrako hori gaitasun tekniko edo
-ekonomiko handia edo beren zeregin profesionala edo beste arrazoi
-batzuk medio beharrezko baliabide teknologiak dituztela egiaztatuta
-duten pertsona juridikoei eta pertsona fisikoen taldeei eskatzen zaie.
-e) Arazo teknikoak direla-eta baliabide elektroniko bidezko jakinarazpena ezinezkoa bada, posta bidez jakinaraziko du organo jakinarazleak.
-Xedapen Iragankorra.
-Foru dekretu hau indarrean sartu aurretik baliabide telematiko
-bidez eskainitako zerbitzuak, aurrerantzean ere, Arabako Foru Aldundiaren egoitza elektronikoaren bidez eskainiko dira, ordura arte
-indarrean izan diren termino eta baldintza beretan.
-Eragiketa gakoak 2011ko abenduaren 31 arte izango dira
-erabilgarri. Egun horretatik aurrera unean-unean onartutako egiaztagiri elektronikoen bidez baino ezin izango da sartu eta identifikatu
-egoitza elektronikoan.
-Xedapen indargabetzailea.
-Indargabetu egiten da 2/2010 Foru Dekretua, urtarrilaren 26ko
-Diputatuen Kontseiluarena, Arabako Foru Aldundiaren Interneteko
-zerbitzuak erabiltzeko administratuek jarraitu beharreko prozedura
-onartu zuena, bai eta foru dekretu honetan xedatutakoaren aurka
-doan xedapen oro.
-Azken xedapena. Garapena, indarrean jartzea eta egitez aplikatzea.
-1. Foru Administrazioaren Saileko diputatuari ahalmena aitortzen
-zaio foru dekretu hau garatu eta aplikatzeko beharrezkoak diren
-arauak eman ditzan.
-2. Foru dekretu hau 2011ko maiatzaren 11n sartuko da indarrean.
-47
-BOTHA
-5194
-Dicho cambio de medio se hará efectivo para aquellas notificaciones que se realicen a partir de la mencionada revocación.
-d) Lo dispuesto en los apartados anteriores se excepciona cuando
-una Ley exija o infiera medios no electrónicos y cuando reglamentariamente
-se establezca la obligatoriedad de comunicarse con la Diputación Foral
-de Álava utilizando sólo medios electrónicos para personas jurídicas o
-colectivos de personas físicas con gran capacidad técnica o económica,
-dedicación profesional u otros motivos acreditados tengan garantizado
-el acceso y disponibilidad de los medios tecnológicos precisos.
-e) Si la notificación por medios electrónicos no fuera posible por
-problemas técnicos, el órgano actuante practicará la notificación postal.
-Gasteiz, 2011ko apirilaren 5a.– Diputatu nagusia, XABIER AGIRRE
-LÓPEZ.– Foru Administrazioaren Saileko foru diputatua, CLAUDIO
-RODRÍGUEZ GUTIÉRREZ.– Zerbitzu Orokorren zuzendaria, LUIS
-LATORRE MURGA.
-Disposición Transitoria.
-Los servicios prestados de forma telemática antes de la entrada
-en vigor del presente Decreto Foral, seguirán prestándose a través de
-la sede electrónica de la Diputación Foral de Álava en los mismos
-términos y condiciones que hasta ese momento.
-El uso de claves operativas será válido hasta el día 31 de
-diciembre de 2011. A partir de dicha fecha, el acceso y la identificación
-en la sede electrónica se realizará exclusivamente mediante los certificados electrónicos admitidos en cada momento.
-Disposición Derogatoria.
-Queda derogado el Decreto Foral 2/2010, del Consejo de
-Diputados de 26 de enero, que aprueba el procedimiento a seguir para
-el acceso de los administrados a los servicios de Internet de esta
-Diputación Foral y cuantas disposiciones se opongan a lo expresado
-en este Decreto Foral.
-Disposición Final. Desarrollo, entrada en vigor y aplicación
-efectiva.
-1ª. Se faculta al Diputado de Administración Foral para dictar las
-normas necesarias para el desarrollo y aplicación del presente Decreto
-Foral.
-2ª. El presente Decreto Foral entrará en vigor el día 11 de mayo
-de 2011.
-Vitoria-Gasteiz, a 5 de abril de 2011.– El Diputado General, XABIER
-AGIRRE LÓPEZ.– El Diputado de Administración Foral, CLAUDIO
-RODRÍGUEZ GUTIÉRREZ.– El Director de Servicios Generales, LUIS
-LATORRE MURGA.
-Diputatu Nagusiaren Foru Dekretuak
-Decretos Forales del Diputado General
-EUSKARA, KULTURA ETA KIROL SAILA
-DEPARTAMENTO DE EUSKERA, CULTURA Y DEPORTES
-2291
-77/2011 FORU AGINDUA, apirilaren 5ekoa. Honen bidez, onartu
-egiten da udalek eta kuadrillek, euskara normalizatzeko,
-sustatutako programak garatzeko dirulaguntzetarako 2011ko
-deialdi publikoa.
-2291
-DECRETO FORAL 77/2011, del Diputado General de 5 de abril, que
-aprueba la convocatoria pública de subvenciones para el
-desarrollo de programas de normalización del euskera,
-promovidos por Ayuntamientos y Cuadrillas, ejercicio 2011.
-2011ko ekitaldian euskara normalizatzeko programak garatzeko,
-udalei eta kuadrillei dirulaguntzak emateko deialdi publikoa egitea
-proposatu du Arabako Foru Aldundiko Euskara, Kultura eta Kirol
-Sailak.
-Aginduzko txostenak aztertu dira.
-Horregatik, dagozkidan ahalmenez baliatuz, eta Euskara, Kultura
-eta Kirol Saileko foru diputatuak proposatuta, honakoa
-XEDATU DUT
-El Departamento de Euskera, Cultura y Deportes de la Diputación
-Foral de Álava propone la Convocatoria pública de subvenciones a
-Ayuntamientos y Cuadrillas, para el desarrollo de programas de
-normalización del euskera, durante el ejercicio 2011.
-Vistos los informes preceptivos.
-En su virtud, haciendo uso de las facultades que me competen
-y a propuesta de la Diputada Foral titular del Departamento de
-Euskera, Cultura y Deportes,
-DISPONGO
-Lehenengoa.- Udalei eta kuadrillei dirulaguntzak emateko deialdi
-publikoa onartzea, 2011ko ekitaldian euskara normalizatzeko programak edota jarduerak egin ditzaten, eta horretarako 177.000 euro
-izango dituzte, gehienez ere. Hori guztia 2009ko urriaren 19ko ALHAOn
-(119 zenbakia) argitaratutako urriaren 6ko Diputatuen Kontseiluaren
-69/2009 Foru Dekretuan xedatutakoaren arabera arautuko da. Foru
-dekretu honen bidez, Euskara, Kultura eta Kirol Sailaren eskumen
-esparruan lehiaketa bidez emango diren dirulaguntzei aplikatuko
-zaizkien oinarri arautzaile orokorrak onartu ziren.
-Primero.- Aprobar la convocatoria pública de subvenciones a
-Ayuntamientos y Cuadrillas para el desarrollo de programas de normalización del euskera, que regirá en el ejercicio 2011, con una dotación
-máxima de 177.000 euros, que se regulará por lo previsto en el
-Decreto Foral 69/2009 de 6 de octubre, del Consejo de Diputados,
-publicado en el BOTHA nº 119 de 19 de octubre de 2009, que aprobó
-las bases reguladoras generales aplicables a las subvenciones que
-se otorguen en régimen de concurrencia competitiva en el ámbito de
-las competencias del Departamento de Euskera, Cultura y Deportes.
-
-### Decreto Foral 74/2011: https://www.araba.eus/BOTHA/Boletines/2011/146/2011_146_06892.pdf
-2011ko abenduaren 14a, asteazkena
-I
-ALHAO
-146
-ARABAKO FORU ALDUNDIA
-Administrazio Xedapenak
-BOTHA
-11645
-DIPUTACIÓN FORAL DE ÁLAVA
-I
-Disposiciones Administrativas
-Diputatuen Kontseiluaren Foru Dekretuak
-Decretos Forales del Consejo de Diputados
-EKONOMIA SUSTAPENAREN ETA
-FORU ADMINISTRAZIOAREN SAILA
-DEPARTAMENTO DE PROMOCIÓN ECONÓMICA
-Y ADMINISTRACIÓN FORAL
-6892
-6892
-74/2011 FORU DEKRETUA, azaroaren 29ko Diputatuen Kontseiluarena. Honen bidez, aldatu egiten da apirilaren 5eko 26/2011
-Foru Dekretua, Arabako Foru Aldundiaren egoitza elektronikoa sortzen duena.
-DECRETO FORAL 74/2011, del Consejo de Diputados de 29 de noviembre, que modifica el Decreto Foral 26/2011, de 5 de abril,
-de creación de la sede electrónica de esta Diputación Foral.
-Azken urteotan, Arabako Foru Aldundia ahaleginak egiten ari da
-Internet erabilita bere zerbitzuak hiritarrei gerturatzeko. Horrekin
-lotuta, joan den maiatzean egoitza elektronikoa (aldundidigitala) abian
-jarri zuen.
-Egoitza elektronikoa martxan jarri denetik, ordura arte eskaintzen
-ziren izapide telematikoen segurtasuna eta bermeak areagotu dira, bai
-eta hori eusten zuen azpiegitura teknologikoa berritu ere. Horiek
-horrela, azken hilabeteotan telematikoki izapidetu ahal diren zerbitzuak
-ugaritu egin dira, eta etorkizunean ere bide beretik jarraituko da.
-Asociado a los esfuerzos que en los últimos años la Diputación
-Foral de Álava ha realizado para impulsar Internet como un medio para
-acercar sus servicios a la ciudadanía, en mayo de este año puso en
-funcionamiento su sede electrónica (diputaciondigital).
-La puesta en marcha de la sede electrónica ha supuesto un
-incremento en la seguridad y garantías en los trámites telemáticos que
-hasta ese momento se ofrecían, así como una renovación de la
-infraestructura tecnológica que la soportaba, lo que ha permitido
-incrementar en los últimos meses el número de servicios tramitables
-telemáticamente y seguir haciéndolo en el futuro.
-Uno de los aspectos que regula la normativa de creación de la
-sede son los mecanismos de identificación y acceso a la misma que
-pueden utilizarse. A este respecto, su Disposición Transitoria indica
-que el uso de claves operativas será válido hasta el 31 de diciembre
-de 2011 y que, a partir de dicha fecha, el acceso e identificación en
-la sede electrónica se realizarán, exclusivamente, mediante los certificados electrónicos admitidos.
-En este momento, por razones de oportunidad y conveniencia,
-y con el objetivo de facilitar y potenciar la utilización de la sede electrónica, procede modificar los plazos y condiciones de vigencia de
-dichas claves operativas.
-En su virtud, a propuesta del Diputado de Promoción Económica
-y Administración Foral y previa deliberación del Consejo de Diputados
-reunido en el día de la fecha,
-Egoitza sortzeko arautegian, besteak beste, egoitzan sartzeko eta
-identifikatzeko erabil daitezkeen mekanismoak arautu dira. Horren
-harira, arautegi horren xedapen iragankorrean adierazitakoaren arabera,
-eragiketa gakoak 2011ko abenduaren 31 arte izango dira erabilgarri.
-Egun horretatik aurrera onartutako ziurtagiri elektronikoen bidez baino
-ezin izango da sartu eta identifikatu egoitza elektronikoan.
-Orain, eragiketa gakoen epeak eta indarraldiaren baldintzak
-aldatzea komeni da, egoitza elektronikoaren erabilera errazteko eta
-sustatzeko xedez.
-Horregatik, Ekonomia Sustapenaren eta Foru Administrazioaren
-Saileko foru diputatuaren proposamenez, eta Diputatuen Kontseiluak
-gaur egindako bilkuran gaia aztertu ondoren, honako hau
-XEDATU DUT
-DISPONGO
-Lehenengoa.- Apirilaren 5eko Diputatuen Kontseiluaren 26/2011
-Foru Dekretuaren xedapen iragankorra aldatzea. Aurrerantzean honela
-geratuko da idatzita:
-“Foru dekretu hau indarrean sartu aurretik baliabide telematiko
-bidez eskainitako zerbitzuak, aurrerantzean ere, Arabako Foru
-Aldundiaren egoitza elektronikoaren bidez eskainiko dira, ordura arte
-indarrean izan diren termino eta baldintza beretan.
-Egoitza elektronikoan alta emateko, identifikatzeko eta sartzeko,
-lehentasuna emango zaio unean-unean onartutako ziurtagiri elektronikoen erabilerari; pertsona fisikoen kasuan 2012ko urtarrilaren
-1etik aurrera, eta pertsona juridikoen kasuan 2012ko irailaren 1etik
-aurrera.
-Data horietatik aurrera, salbuespen gisa, erabiltzaile berriei bertaratuta altan emateko eragiketak egin ahalko dira, bai eta iraupen
-mugatuko behin-behineko eragiketa gakoak ematekoak ere.”
-Bigarrena.- Foru dekretu hau argitaratzen den egunean jarriko da
-indarrean.
-Vitoria-Gasteiz, 2011ko azaroaren 29a.– Diputatu nagusia, JAVIER
-DE ANDRÉS GUERRA.– Ekonomia Sustapenaren eta Foru Administrazioaren Saileko foru diputatua, LUIS VIANA APRAIZ.– Zerbitzu Orokorren zuzendaria, LUIS MURO GARCÍA.
-Primero.- Modificar la Disposición Transitoria del Decreto Foral
-26/2011, del Consejo de Diputados de 5 de abril, que quedará redactada como sigue:
-“Los servicios prestados de forma telemática antes de la entrada
-en vigor del presente Decreto Foral, seguirán prestándose a través de
-la sede electrónica de la Diputación Foral de Álava en los mismos
-términos y condiciones que hasta ese momento.
-Se fija el uso de certificados electrónicos admitidos en cada
-momento como método prioritario de alta, identificación y acceso a
-la sede electrónica, a partir del 1 de enero de 2012 para las personas
-físicas y del 1 de septiembre de 2012 para las jurídicas.
-A partir de dichas fechas, excepcionalmente podrán realizarse
-operaciones de altas presenciales de nuevos usuarios y emisión de
-claves operativas provisionales de duración limitada”.
-Segundo.- El presente Decreto Foral entrará en vigor el día de su
-publicación.
-Vitoria-Gasteiz, a 29 de noviembre de 2011.– El diputado general,
-JAVIER DE ANDRÉS GUERRA.– El diputado de Promoción Económica
-y Administración Foral, LUIS VIANA APRAIZ.– El director de Servicios
-Generales, LUIS MURO GARCÍA.
+Número de serie: 267116
+Fecha de firma: 2026.05.20 05:13:45 Z
+2026-01393
 
 ### Documento de la convocatoria: https://www.araba.eus/botha/Boletines/2025/056/2025_056_01422_C.pdf
 miércoles, 21 de mayo de 2025 • Núm. 56
@@ -1546,561 +1182,3 @@ Fecha de firma: 2025.05.21 05:03:13 Z
 Garantías de alquiler de vivienda - Adhesión arrendadores - etxebizitza
 Garantías de alquiler de vivienda - Adhesión personas arrendadoras
 Inicio del plazo de presentación de solicitudes de adhesión: 23 de mayo de 2025
-
-### Documento de la convocatoria: http://www.araba.eus/botha/Boletines/2026/057/2026_057_01393_C.pdf
-miércoles, 20 de mayo de 2026 • Núm. 57
-I - JUNTAS GENERALES DE ÁLAVA Y ADMINISTRACIÓN FORAL
-DEL TERRITORIO HISTÓRICO DE ÁLAVA
-Diputación Foral de Álava
-DEPARTAMENTO DE EQUILIBRIO TERRITORIAL
-Y ORDENACIÓN DEL TERRITORIO
-Decreto Foral 17/2026, de 12 de mayo de 2026, del Consejo de Gobierno Foral. Aprobar la modificación del Decreto Foral 13/2025, de 13 de mayo, que aprueba las condiciones generales y la convocatoria del programa de garantías al alquiler de viviendas de la Diputación Foral de Álava
-Mediante Decreto Foral 6/2023, del Consejo de Gobierno Foral de 28 de febrero, publicado
-en el BOTHA el 8 de marzo de 2023, fue aprobado el procedimiento de elaboración de disposiciones de carácter general de la Diputación Foral de Álava.
-En conformidad con lo dispuesto en el artículo 13 de dicho decreto foral, se dictó la Orden
-Foral 34/2025, de 16 de enero, de inicio del procedimiento que aprobaba en su anexo el proyecto de decreto foral que regula las condiciones de acceso de personas arrendadoras y arrendatarias del programa de garantías al alquiler de viviendas de la Diputación Foral de Álava.
-El presente programa surge para mitigar las dificultades en el acceso a la vivienda en el
-medio rural, y trata de aumentar la oferta de vivienda disponible mediante la puesta en el
-mercado de inmuebles en alquiler a través del otorgamiento de una garantía y una serie de
-servicios a las personas propietarias. No obstante, las citadas viviendas han de cumplir una
-serie de requisitos mínimos 
-[…]
-Artículo 1. Objeto
-El presente programa tiene por objeto prestar una garantía temporal, de carácter personal, para el alquiler de viviendas en el entorno rural por aquellas personas que cumplan los
-requisitos establecidos.
-En primer lugar, se trata de establecer las condiciones para poner en contacto a personas
-arrendadoras y arrendatarias de viviendas en el entorno rural del Territorio Histórico de Álava.
-A estos efectos, se entiende por entorno rural los núcleos de población ubicados en municipios
-menores de 20.000 habitantes.
-En segundo lugar, se establecen los trámites que han de cumplir las personas arrendadoras
-y arrendatarias para participar en el programa, así como regular las reglas de funcionamiento
-del propio programa.
-Artículo 2. Características de las garantías otorgadas
-La garantía prestada consistirá en la suscripción de un seguro de pago del alquiler y de
-un seguro de hogar por parte de la Diputación Foral de Álava, con asistencia jurídica vinculada al contrato de arrendamiento según las condiciones recogidas en las pólizas de seguros
-aplicables temporalmente en el momento de la suscripción del contrato de arrendamiento.
-En ambos casos, la Diputación Foral de Álava actuará como tomadora de los seguros y las
-personas aseguradas serán las arrendadoras de las viviendas.
-Al final del contrato de alquiler, se repondrán los daños producidos en la vivienda durante
-el plazo del contrato, salvo los daños que sean propios del desgaste por el uso habitual de la
-misma, hasta el límite máximo recogido en la póliza de seguro vigente en el momento señalado en el párrafo anterior para este tipo de daños.
-La garantía solo se prestará cuando la operación de arrendamiento cumpla con las condiciones establecidas en el presente decreto foral.
-La garantía de impago de alquiler empezará a desplegar sus efectos en el segundo impago
-consecutivo de la renta mensual por parte de las personas arrendatarias. El resto de las garantías iniciarán su vigencia desde la fecha de formalización del contrato de alquiler.
-La garantía tiene carácter finalista, de manera que se usará exclusivamente para la finalidad
-recogida en el presente decreto foral.
-Artículo 3. Duración de la garantía y otros instrumentos de apoyo
-La duración de la garantía otorgada por la Diputación Foral de Álava coincidirá con la duración del contrato de alquiler suscrito entre las partes y, en todo caso, será de un máximo
-de cinco años desde la firma de cada contrato de arrendamiento, independientemente de la
-duración máxima legal del mismo.
-La Diputación Foral de Álava, por sí misma o a través de terceras personas, prestará un
-servicio de defensa jurídica a las personas propietarias adheridas al programa con respecto a
-las vicisitudes del contrato de arrendamiento durante ese periodo.
-Adicionalmente proporcionará un servicio para redactar y tramitar los contratos de arrendamiento, así como las actualizaciones de precios y depósito de las fianzas.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2026-01393
-miércoles, 20 de mayo de 2026 • Núm. 57
-Artículo 4. Ejecución de la garantía y recuperación de la ejecución de la misma
-La garantía podrá ser ejecutada en el momento de impago de la segunda mensualidad consecutiva pendiente y correrá a cargo de la entidad aseguradora. No obstante, la entidad aseguradora tendrá acción de recuperación de las cantidades, según el artículo 1838 del código civil.
-En el momento de iniciar la reclamación formal del impago a la entidad aseguradora, deberán iniciarse también los trámites para la reclamación de deuda a través de la cobertura de
-asistencia legal que ofrece el seguro, según lo dispuesto en el artículo 12.3 del presente decreto.
-Artículo 5. Características de las viviendas
-Las viviendas han de estar radicadas en los núcleos de población recogidos en el artículo
-1 del presente decreto foral y han de reunir las condiciones generales de adecuación estructural y constructiva y de habitabilidad que se recogen en el anexo A del presente anexo I de
-condiciones del programa de garantías al alquiler de viviendas de la Diputación Foral de Álava.
-No deberán estar sometidas a régimen alguno de protección pública, por tanto, se tratará
-de viviendas libres. Además, no estarán ya arrendadas, ocupadas, ni sometidas a cualquier
-limitación que impida arrendarlas.
-Previamente a la inclusión en el programa, la Diputación Foral de Álava, por sí misma o a
-través de terceras personas, inspeccionará el estado del inmueble a alquilar para comprobar
-su conformidad con los párrafos anteriores.
-En la inspección inicial del estado del inmueble a alquilar para comprobar su conformidad
-se determinará el número máximo de personas que pueden residir en la vivienda, teniendo
-en cuenta los parámetros recogidos en este artículo.
-La vivienda debe destinarse a vivienda habitual y permanente de las personas arrendatarias
-durante el tiempo de duración del arrendamiento de la misma.
-La convocatoria del programa que se encuentre vigente en cada momento podrá fijar características y condiciones de las viviendas adicionales a las contempladas en el presente artículo.
-Artículo 6. Compatibilidad
-El otorgamiento de la garantía será compatible con las ayudas previstas en los programas
-de ayudas para vivienda gestionados por la Diputación Foral de Álava y por otras administraciones públicas.
-Artículo 7. Obligación de facilitar información
-Las personas físicas o jurídicas que participen en el programa estarán obligadas a facilitar
-cuanta información les sea requerida por el Departamento de Hacienda, Finanzas y Presupuestos, el Tribunal de Cuentas u otros órganos competentes.
-Artículo 8. Normativa aplicable
-En lo no dispuesto en la presente convocatoria y en las condiciones generales del programa,
-se regulará por la Norma Foral 11/2016, de subvenciones y del Territorio Histórico de Álava, e
-igualmente por la Ley 38/2003, de 17 de noviembre, General de Subvenciones y demás normativa que le sea de aplicación.
-Capítulo II. Personas arrendadoras destinatarias del programa
-Artículo 9. Participación en el programa de las personas arrendadoras
-Podrán participar en el programa las personas físicas propietarias de viviendas en los núcleos señalados en el artículo 1 de este decreto foral.
-También las personas jurídicas privadas cuya actividad principal no sea la venta de bienes
-y servicios en condiciones de mercado ni la gestión de patrimonios.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2026-01393
-miércoles, 20 de mayo de 2026 • Núm. 57
-Artículo 10. Procedimiento de adhesión al programa de las personas arrendadoras
-1. Las personas físicas o jurídicas que, cumpliendo los requisitos establecidos en el artículo
-anterior, deseen adherirse al programa, presentarán una solicitud al efecto.
-2. La convocatoria del programa que se encuentre vigente en cada momento fijará el modo
-de presentación de solicitudes, así como la documentación a presentar con las mismas.
-Artículo 11. Formalización de la adhesión
-1. Una vez comprobado el cumplimiento de los requisitos, se comunicará a las personas
-solicitantes la aprobación de la adhesión, o se dictará resolución de la dirección del Departamento de Equilibrio Territorial rechazando la solicitud.
-2. En el caso de resolución favorable, el inmueble se adherirá al programa, y se seguirá la
-tramitación detallada en el capítulo IV del presente decreto.
-3. La vivienda deberá destinarse en exclusividad al presente programa, sin poder ofrecerse
-en alquiler por otras vías durante al menos dos meses desde la fecha de inspección inicial del
-estado del inmueble.
-4. Podrá renunciarse a la adhesión al programa siempre que la vivienda no esté arrendada,
-presentando una solicitud dirigida a la diputada de Equilibrio Territorial y Ordenación del Territorio, en los términos recogidos en el artículo 10 anterior, con un mínimo de 15 días hábiles
-de antelación.
-Artículo 12. Obligaciones de las personas arrendadoras
-1. Mantener el inmueble en estado de habitabilidad, sin perjuicio de las coberturas que les
-ofrece este programa.
-2. Cumplir con lo establecido en el contrato de alquiler que se formalice.
-3. Estar al corriente de las obligaciones tributarias y de Seguridad Social en el momento de
-formalización del contrato de alquiler.
-4. Una vez solicitada la ejecución de la garantía tras la segunda mensualidad de impago, se
-deberán adoptar las medidas legales oportunas, tanto extrajudiciales como judiciales, para la
-reclamación de la deuda al inquilino sin demora en su tramitación. Para ello, al mismo tiempo
-que se solicita la ejecución de la garantía, debe iniciarse el procedimiento de reclamación de
-deuda a través de la cobertura de asistencia legal que ofrece el seguro.
-5. Personarse en las citas que se organicen para la revisión inicial de la vivienda para verificar su aptitud para su inclusión en el programa, y para la revisión final de la vivienda una
-vez concluido el periodo de alquiler de la misma.
-Capítulo III. Personas arrendatarias destinatarias del programa
-Artículo 13. Participación en el programa de las personas arrendatarias
-Podrán acogerse a este programa como demandantes de vivienda en alquiler aquellas
-personas con la solvencia necesaria y que cumplan con los siguientes requisitos:
-a) Ser mayor de edad a la fecha de solicitud.
-b) Residir en el Territorio Histórico de Álava o en el enclave de Treviño de manera continuada
-e ininterrumpida, durante los dos años inmediatamente anteriores a la fecha de presentación
-de la solicitud de participación en este programa.
-c) Cumplir con las siguientes condiciones de solvencia:
-1. El importe destinado al pago mensual del alquiler no debe superar el 30 por ciento de los
-ingresos mensuales de las personas arrendatarias.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2026-01393
-miércoles, 20 de mayo de 2026 • Núm. 57
-2. La cuota de esfuerzo total, incluyendo el pago mensual del presente alquiler más el
-pago del importe mensual de las deudas financieras y no financieras de las que las personas
-arrendatarias sea titular, debe ser igual o inferior al 40 por ciento de los ingresos mensuales
-de las personas arrendatarias.
-d) Las personas solicitantes de la vivienda no serán titulares del pleno dominio o de un
-derecho real de uso o disfrute sobre otra vivienda en el Territorio Histórico de Álava o el enclave de Treviño. A estos efectos, no se considerará que se es titular del pleno dominio o de
-un derecho real de uso o disfrute cuando:
-1. El derecho recaiga únicamente sobre una parte alícuota de la vivienda no superior al 50
-por ciento y se haya adquirido por título de herencia.
-2. En los casos de sentencia judicial de separación o divorcio cuando, como consecuencia
-de esta, no se le haya adjudicado el uso de la vivienda que constituía la residencia familiar.
-Artículo 14. Plazo de presentación de solicitudes de arrendamiento y orden de tramitación
-Las personas físicas que, cumpliendo los requisitos establecidos en el artículo anterior,
-deseen adherirse al programa presentarán una única solicitud por unidad convivencial. A los
-efectos del artículo 16 de este decreto foral se tomará como solicitante la persona que suscriba
-el modelo de solicitud.
-La convocatoria del programa que se encuentre vigente en cada momento fijará el modo
-de presentación de solicitudes, así como la documentación a presentar con las mismas, entre
-la que, en su caso, deberá constar un escrito de la persona solicitante que, debido a sus necesitades, desee una vivienda que no presente obstáculos para el libre acceso y circulación
-interna, acompañado de la documentación del reconocimiento de la situación que justifique
-dicha necesidad.
-La Diputación Foral de Álava comprobará, por sí misma o con la colaboración de terceros,
-la idoneidad financiera de la persona, en cumplimiento de los parámetros del artículo 13 del
-presente anexo I.
-Realizados los trámites internos correspondientes, se comunicará a las personas solicitantes la aprobación de la adhesión, o se dictará resolución de la dirección del Departamento de
-Equilibrio Territorial rechazando la solicitud.
-En cualquier caso, serán denegadas aquellas solicitudes que no dispongan de cobertura
-presupuestaria para su tramitación o para la formalización de las garantías en el momento de
-su resolución.
-Artículo 15. Obligaciones de las personas arrendatarias de la vivienda
-1. Dedicar la vivienda alquilada a residencia habitual y permanente, durante el tiempo de
-duración del arrendamiento.
-2. Cumplir con lo establecido en el contrato de alquiler que se formalice y no subarrendar
-la vivienda.
-3. Depositar una fianza equivalente a una mensualidad del precio del arrendamiento como
-legalmente proceda.
-4. Reponer el importe de la garantía inicial en caso de que se haga uso de la misma para el
-pago de mensualidades pendientes, en los casos en los que no llegue a iniciarse el procedimiento de reclamación legal de la deuda.
-5. Aceptar las condiciones de recuperación del alquiler, en caso de hacerse uso del seguro
-de impago.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2026-01393
-miércoles, 20 de mayo de 2026 • Núm. 57
-6. Comunicar a la Diputación Foral de Álava cualquier variación de las condiciones tenidas
-en cuenta durante la tramitación de la solicitud siempre que afecten al contenido del presente
-decreto foral.
-7. Personarse en la cita que se organice para la revisión final de la vivienda una vez concluido el periodo de alquiler de la misma.
-8. Disponer de un correo electrónico operativo, que se detallará en el impreso de solicitud,
-para comunicaciones con la Diputación Foral de Álava durante el proceso de asignación de
-vivienda en alquiler.
-Adicionalmente, y siempre que no se les haya adjudicado vivienda en alquiler durante los
-tres meses siguientes a la aportación de documentación inicial, las personas arrendatarias
-tendrán que remitir a Diputación Foral de Álava los documentos que acreditan su solvencia
-cuando sean candidatos para una adjudicación de vivienda. En concreto, los documentos a
-remitir son los siguientes:
-a) Justificantes de ingresos del año en curso, tales como nóminas, certificados de pensiones, rendimientos de actividades u otros justificantes admitidos en derecho, que no hayan sido
-remitidas en aportaciones de documentación anteriores.
-b) Informe de riesgos emitido por la Central de Información de Riesgos (CIRBE) del Banco
-de España.
-https://sedeelectronica.bde.es/sede/es/menu/tramites/central-de-infor/solicitud-informes-riesgos-cirbe-p58.html.
-c) Tres últimos recibos de las financiaciones de las que se sea titular.
-Capítulo IV. Procedimiento de concesión y cancelación de las garantías
-Artículo 16. Procedimiento de concesión
-Las solicitudes de arrendamiento se calificarán por orden de entrada en la Diputación Foral
-de Álava, estableciéndose las agrupaciones de solicitudes que se indiquen en la convocatoria
-vigente del programa.
-El proceso de agrupación y clasificación de las solicitudes será detallado en la convocatoria
-del programa que se encuentre vigente en cada momento.
-Tras este proceso, se remitirá a los solicitantes de vivienda en alquiler, a través de correo
-electrónico, una comunicación en la que se indique la vivienda que se les ha asignado, siempre que exista alguna. En caso de que haya más de una vivienda a la que puedan optar, se les
-solicitará que indiquen un orden de prelación entre las mismas.
-En el caso de que más de una persona solicitante opte al mismo inmueble, los criterios de
-preferencia serán los siguientes:
-a) Persona solicitante empadronada en el mismo núcleo de población.
-b) Solicitante que trabaje o realice una actividad económica en el mismo núcleo de población.
-c) Persona solicitante empadronada en el mismo municipio.
-d) Solicitante que trabaje o realice una actividad económica en el mismo municipio.
-e) Persona solicitante empadronada en la misma cuadrilla.
-f) Solicitante que trabaje o realice una actividad económica en la misma cuadrilla.
-g) Mayor número de personas de la unidad convivencial.
-h) Sorteo.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2026-01393
-miércoles, 20 de mayo de 2026 • Núm. 57
-No obstante a lo anterior, si hubiera personas demandantes que hayan solicitado viviendas
-que no presenten obstáculos para el libre acceso y circulación interna, estas personas tendrán
-preferencia total para la adjudicación de dichas viviendas, si existen disponibles, aplicándose
-entre ellas los criterios de preferencia enumerados en las letras a-h anteriores.
-El orden de estos criterios, enumerados en las letras a-h anteriores, podrá ser modificado
-en la convocatoria del programa.
-Los solicitantes, en el plazo de 5 días hábiles desde el siguiente a la recepción de la comunicación de Diputación Foral de Álava, deberán remitir su aceptación o rechazo de la vivienda
-asignada, o manifestar su orden de prelación en caso de optar a más de una vivienda. En
-este último caso, el orden de preferencia podrá excluir alguna o todas las viviendas ofrecidas,
-computando como un rechazo en caso de excluir todas.
-Tras este procedimiento, se dictará orden foral del departamento competente en materia
-de Equilibrio Territorial resolviendo la asignación de viviendas disponibles en cada periodo.
-Una vez tomada la resolución, se comenzará el proceso de formalización del contrato de
-alquiler, tramitación de fianzas asociadas al mismo, y alta de los seguros que conforman la
-garantía del presente programa. La fecha de efecto del contrato de alquiler, así como de los seguros asociados será el primer día del mes siguiente a su firma, y en todo caso deberá ser como
-máximo a los tres meses desde la fecha de inicio de la agrupación en la que se otorgue vivienda.
-Los solicitantes de vivienda podrán rechazar la vivienda asignada una única vez sin penalización, pasando a formar parte de la siguiente agrupación de solicitudes que corresponda. En
-caso de un segundo rechazo el solicitante será dado de baja del programa, y no podrá volver
-a solicitar su adhesión mediante del procedimiento establecido en el presente decreto y en la
-convocatoria que se encuentre vigente en ese momento hasta pasados tres meses desde la
-fecha de la segunda renuncia.
-Artículo 17. Finalización de los contratos de alquiler y de las garantías asociadas
-Finalizados los 5 años se dará por concluido el arrendamiento, así como la adhesión al presente programa, sin perjuicio de que la persona arrendataria pueda realizar una nueva solicitud
-en el marco de la convocatoria que pudiera encontrarse vigente en ese ejercicio.
-Ello conllevará la realización por parte de la Diputación Foral de Álava, por sí misma o a
-través de terceras personas, de una visita final a la vivienda arrendada y la determinación, en
-su caso, de las actuaciones necesarias para la reparación de los daños amparables. En cualquier caso, no se cubrirán aquellos daños que sean propios del desgaste por el uso habitual
-de ésta desde el inicio del alquiler.
-Acudir a esta revisión final de la vivienda constituye una obligación tanto para el arrendador
-como para el arrendatario, y la no asistencia a la misma supondrá la aceptación de lo contenido
-en el informe que se desprenda de dicha verificación.
-En el caso de finalización del contrato por incumplimiento de las condiciones del programa
-por parte del arrendatario, este no podrá realizar otra solicitud de adhesión al presente programa.
-ANEXO A
-Estándares de habitabilidad de las viviendas.
-Condiciones generales que debe reunir una edificación para que se encuentre adecuada
-estructural y constructivamente.
-1.– Relativas a la solidez y la seguridad de los elementos estructurales y constructivos:
-– Disponer de cimentación adecuada.
-– La ausencia de deterioro del material constitutivo de los elementos estructurales, garantizándose que la resistencia de los mismos permanece inalterada.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2026-01393
-miércoles, 20 de mayo de 2026 • Núm. 57
-– La ausencia de desplomes en elementos portantes.
-– La ausencia de flechas en vigas y forjados.
-– La garantía de seguridad ante el desprendimiento de elementos constitutivos de las partes
-voladas del edificio.
-– Las garantías de sujeción y amarre de los elementos de seguridad ante caídas.
-– Las garantías de seguridad ante el desprendimiento de otros elementos tales como tejas,
-aplacados de fachada, chimeneas, vierteaguas, dinteles y cristales.
-2.– Relativa a la accesibilidad:
-– Acceso independiente desde la vía pública o espacio público.
-3.– Relativas a la estanquidad frente a la lluvia y la humedad:
-– La ausencia de goteras.
-– La integridad de los elementos constitutivos de la cubrición.
-– La ausencia de humedades en el interior de la vivienda.
-4.– Relativas al buen estado de las instalaciones:
-– La estanquidad y funcionalidad de las instalaciones.
-– La instalación general eléctrica empotrada o entubada.
-Condiciones mínimas de habitabilidad de las viviendas.
-1.– Que la vivienda se componga, al menos, de dos espacios habitables diferenciados, que
-alberguen las áreas de cocina, comedor, sala de estar y un dormitorio doble y un aseo.
-No podrán situarse en el mismo espacio las áreas correspondientes a cocina y dormitorio.
-2.– Que las habitaciones sean independientes entre sí, de modo que ninguna utilice como
-paso un dormitorio, ni sirva a su vez de paso al aseo. En el caso de un único dormitorio, el
-aseo podrá estar incorporado a él.
-3.– Que los espacios habitables, exceptuando los aseos, cocinas y despensa, dispongan de
-aberturas acristaladas directas al exterior. En casos extremos en los que la solución arquitectónica no sea viable, se permitirá que un espacio se ilumine a través de otro iluminado o a través
-del hueco de escalera siempre que este se encuentre suficientemente iluminado cenitalmente
-o a través de una galería u otro espacio similar. La superficie de los huecos nunca será inferior
-al 10 por ciento de la superficie total que se ilumine a su través, salvo la iluminación a través
-de la caja de la escalera que podrá reducirse a la mitad de los valores anteriores.
-4.– Que todos los espacios, excepto los destinados a aseos y despensas tengan ventilación
-directa al exterior, con una superficie igual a 1/3 de la superficie de iluminación. Se admiten
-los mismos extremos que en el apartado 3.
-Los aseos que no tengan ventilación directa no podrán ventilarse a través de otra habitación, debiéndolos dotar de un sistema de ventilación forzada que permita la renovación de
-aire y su limpieza.
-5.– Que los patios proporcionen luz y ventilación a los espacios habitables y sean de nueva
-creación o remodelación, tengan una superficie no inferior a siete metros cuadrados y luz recta
-no inferior a dos metros.
-En aquellos casos en los que el patio ya existe y no se efectúe sobre él ninguna remodelación,
-podrán mantenerse las dimensiones actuales.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2026-01393
-miércoles, 20 de mayo de 2026 • Núm. 57
-6.– Que la vivienda tenga una superficie útil superior a 40 metros cuadrados.
-Los espacios no serán inferiores a las siguientes superficies:
-Cocina 5 m2.
-Cocina-comedor 8 m2.
-Estar 10 m2.
-Dormitorio principal 10 m2.
-Dormitorio doble 8 m2.
-Dormitorio sencillo 6 m2.
-Aseo 1,5 m2.
-Toda vivienda deberá tener, al menos, un dormitorio principal, un estar, una cocina y un aseo.
-Si se opta por hacer en una misma pieza el área correspondiente a cocina, estar, comedor
-su superficie total no será inferior a 18 m2 útiles.
-7.– En toda vivienda situada en un edificio, cuya seguridad estructural sea correcta, se
-podrán mantener las alturas existentes siempre que sean iguales o superiores a 2,20 metros.
-En el caso de espacios abuhardillados no se computarán como metros cuadrados útiles las
-superficies con altura libre inferior a 1,50 metros, y su volumen será superior al correspondiente
-a una habitación de la misma superficie y 2,20 metros de altura.
-8.– En el caso de existir viviendas en planta baja, se deberá asegurar el aislamiento térmico
-e impermeabilización por medio de materiales hidrófugos y aislantes adecuados.
-9.– Que tengan resuelto el vertido de aguas negras, mediante tuberías impermeables y
-ventiladas, a la red general de alcantarillado. En caso de no existir dicha red, se utilizarán fosas
-sépticas adecuadas que permitan el depurado del líquido afluente antes de verterlo a las aguas
-corrientes o entregarlo al terreno.
-10.– Que el aseo contenga como mínimo inodoro, lavabo y ducha.
-11.– La instalación eléctrica de la vivienda cumplirá el reglamento de baja tensión.
-12.– Que la vivienda disponga de instalación de calefacción.
-ANEXO II
-Convocatoria del programa de garantías al alquiler de
-viviendas de la Diputación Foral de Álava
-Capítulo I. Normas generales del programa
-Artículo 1. Objeto
-El presente programa tiene por objeto prestar una garantía temporal, de carácter personal, para el alquiler de viviendas en el entorno rural por aquellas personas que cumplan los
-requisitos establecidos.
-Las condiciones generales del programa están recogidas en el anexo I del presente decreto foral.
-Artículo 2. Características de las viviendas
-Además de cumplir lo recogido en el artículo 5 del anexo I de este decreto, las viviendas
-deben presentar un aspecto pulcro y aseado y tener la cocina amueblada y dotada de placa
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2026-01393
-miércoles, 20 de mayo de 2026 • Núm. 57
-de cocinar, fregadero, lavadora, frigorífico y campana extractora o elemento que permita la
-evacuación de humos, y un baño provisto de inodoro, lavabo y ducha o bañera, todo ello en
-perfecto funcionamiento.
-El precio del arrendamiento de la vivienda, sin los gastos de comunidad si los hubiera, debe
-ser igual o inferior a la siguiente ratio de euros por metro cuadrado mensuales:
-INTERVALO METROS
-CUADRADOS
-MÁXIMO METRO
-CUADRADO / MES
-MÁXIMO ALQUILER
-MENSUAL
-36 – 60
-9,00
-400,00
-61– 90
-8,00
-550,00
-91 y superiores
-7,00
-700,00
-Capítulo II. Personas arrendadoras destinatarias del programa
-Artículo 3. Participación en el programa de las personas arrendadoras
-Podrán participar en el programa las personas físicas propietarias de viviendas en los núcleos señalados en el artículo 1 del anexo I de este decreto foral.
-También las personas jurídicas privadas cuya actividad principal no sea la venta de bienes
-y servicios en condiciones de mercado ni la gestión de patrimonios.
-Artículo 4. Procedimiento de adhesión al programa de las personas arrendadoras
-1. Las personas físicas o jurídicas que, cumpliendo los requisitos establecidos en el artículo
-anterior, deseen adherirse al programa, presentarán una solicitud al efecto.
-2. Las solicitudes se presentarán:
-— A través del trámite específico accesible a través de la sede electrónica.
-https://egoitza.araba.eus/es/-/garantias-alquiler-vivienda.
-https://egoitza.araba.eus/eu/-/garantias-alquiler-vivienda.
-— En el registro general de la Diputación Foral de Álava.
-— En el registro de las oficinas de hacienda de Vitoria-Gasteiz, Laguardia y Llodio.
-— En cualesquiera del resto de registros que recoge el artículo 16.4 de la Ley 39/2015, de 1
-de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
-No obstante, en cumplimiento del artículo 14.2 de la Ley 39/2015 del Procedimiento Administrativo Común de las Administraciones Públicas, en todo caso están obligados a presentación
-telemática las personas jurídicas, las entidades sin personalidad jurídica, quienes ejerzan una
-actividad profesional para la que se requiera colegiación obligatoria y para los trámites que
-realicen en el ejercicio de dicha actividad y quienes representen a un interesado obligado a
-relacionarse electrónicamente con la administración.
-Con las solicitudes habrá de adjuntarse la siguiente documentación:
-a) Solicitud debidamente cumplimentada, bien electrónica o impresa, según el medio de
-entrada de la misma.
-La solicitud incluirá una declaración de someterse a las condiciones de este programa y
-estar al corriente de las obligaciones tributarias y de Seguridad Social, y la autorización para
-realizar las operaciones de comprobación previas del estado de las viviendas a alquilar.
-b) La acreditación de la propiedad del inmueble.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2026-01393
-miércoles, 20 de mayo de 2026 • Núm. 57
-Nota simple del registro de la propiedad correspondiente o fotocopia de escritura pública
-que demuestre el derecho de propiedad, usufructo o cualquier otro título de disfrute sobre las
-viviendas a alquilar.
-Para la tramitación de este procedimiento la Diputación Foral de Álava consultará automáticamente los datos incluidos en los siguientes documentos en poder de la Administración
-actuante o elaborados por las administraciones públicas, salvo que las personas interesadas
-se opongan a su consulta:
-a) Para personas solicitantes residentes en la Comunidad Autónoma de Euskadi, certificado
-emitido por la hacienda correspondiente de estar al corriente en la presentación y pago de
-todos los impuestos.
-b) Certificado referente a la persona solicitante de estar al corriente en los pagos a la Seguridad Social, en caso de ejercer actividades por cuenta propia.
-Las personas solicitantes que se opongan a la consulta automática anterior, así como los
-residentes fuera de la Comunidad Autónoma de Euskadi para el caso del certificado emitido por
-hacienda, deberán aportar esta documentación en el momento de formalización del contrato.
-Capítulo III. Personas arrendatarias destinatarias del programa
-Artículo 5. Participación en el programa de las personas arrendatarias
-Podrán acogerse a este programa como demandantes de vivienda en alquiler aquellas
-personas con la solvencia necesaria y que cumplan con los requisitos detallados en el artículo
-13 del anexo I del presente decreto.
-Artículo 6. Plazo de presentación de solicitudes de arrendamiento y orden de tramitación
-1. Las personas físicas que, cumpliendo los requisitos establecidos en el artículo anterior,
-deseen adherirse al programa presentarán una única solicitud por unidad convivencial. A los
-efectos del artículo 16 del anexo I de este decreto foral se tomará como solicitante la persona
-que suscriba el modelo de solicitud.
-2. El plazo de presentación de solicitudes de arrendamiento comenzará el 7 de julio de 2025.
-3. Las solicitudes se presentarán:
-— A través del trámite específico accesible a través de la sede electrónica.
-https://egoitza.araba.eus/es/-/garantias-alquiler-vivienda.
-https://egoitza.araba.eus/eu/-/garantias-alquiler-vivienda.
-— En el registro general de la Diputación Foral de Álava.
-— En el registro de las oficinas de hacienda de Vitoria-Gasteiz, Laguardia y Llodio.
-— En cualesquiera del resto de registros que recoge el artículo 16.4 de la Ley 39/2015, de 1
-de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
-Con las solicitudes habrá de adjuntarse la siguiente documentación:
-a) Solicitud debidamente cumplimentada, bien electrónica o impresa, según el medio de
-entrada de la misma.
-La solicitud incluirá:
-— Una declaración responsable por parte de las personas interesadas en la que se manifieste su compromiso de que la vivienda se va a destinar a domicilio habitual y permanente al
-menos durante el tiempo de duración del arrendamiento.
-— Una declaración del número de personas que van a habitar en la vivienda.
-— Una declaración de preferencias de cuadrilla de ubicación de la vivienda a alquilar, pudiendo
-seleccionar una única cuadrilla, más de una cuadrilla o todo el Territorio Histórico de Álava.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2026-01393
-miércoles, 20 de mayo de 2026 • Núm. 57
-b) En su caso, escrito de la persona solicitante que, debido a sus necesitades, desee una
-vivienda que no presente obstáculos para el libre acceso y circulación interna, acompañado
-de la documentación del reconocimiento de la situación que justifique dicha necesidad.
-c) Nota de localización del registro de la propiedad de las personas solicitantes de vivienda
-en alquiler por el que quede constancia de que cumplen el requisito de no tener en propiedad
-algún inmueble destinado a vivienda.
-https://sede.registradores.org/site/propiedad?lang=es_ES.
-d) Autorización de acceso a la declaración del IRPF de los dos últimos ejercicios liquidados.
-Para el caso de personas solicitantes residentes en el enclave de Treviño, declaración del
-IRPF de los dos últimos ejercicios liquidados.
-e) Justificantes de ingresos del año en curso, tales como nóminas, certificados de pensiones,
-rendimientos de actividades u otros justificantes admitidos en derecho.
-f) Informe de riesgos emitido por la Central de Información de Riesgos (CIRBE) del Banco
-de España.
-https://sedeelectronica.bde.es/sede/es/menu/tramites/central-de-infor/solicitud-informes-riesgos-cirbe-p58.html.
-g) Tres últimos recibos de las financiaciones de las que se sea titular.
-h) Para el caso de personas solicitantes residentes en el enclave de Treviño, consulta de
-datos de residencia con fecha de la última variación padronal, en el supuesto de que la persona solicitante sea la única que vaya a habitar la vivienda o, de ser varias, que no convivieran
-conjuntamente con anterioridad a la solicitud de alquiler de la vivienda.
-Para la tramitación de este procedimiento la Diputación Foral de Álava consultará automáticamente los datos incluidos en los siguientes documentos en poder de la administración
-actuante o elaborados por las administraciones públicas, salvo que las personas interesadas
-se opongan a su consulta:
-a) Documento nacional de identidad o, de ser el caso, número de identidad de extranjero
-de la persona solicitante o bien, de su persona representante, así como de las demás personas
-convivientes.
-b) Para personas solicitantes residentes en el Territorio Histórico de Álava, consulta de la
-declaración del IRPF de los dos últimos ejercicios liquidados.
-c) Para personas solicitantes residentes en el Territorio Histórico de Álava, consulta de datos de residencia con fecha de la última variación padronal, en el supuesto de que la persona
-solicitante sea la única que vaya a habitar la vivienda o, de ser varias, que no convivieran
-conjuntamente con anterioridad a la solicitud de alquiler de la vivienda.
-Los servicios técnicos de la administración foral comprobarán los requisitos de participación
-en el programa. Para tal fin, se considerará fecha de presentación aquella en que la solicitud
-estuviese válidamente cubierta y se hubiese presentado acompañada de la totalidad de los
-documentos exigidos en esta resolución y en las correspondientes convocatorias.
-La Diputación Foral de Álava comprobará, por sí misma o con la colaboración de terceras
-personas, la idoneidad financiera de la persona.
-Realizados los trámites internos correspondientes, se comunicará a las personas solicitantes la aprobación de la adhesión, o se dictará resolución de la dirección del Departamento de
-Equilibrio Territorial rechazando la solicitud.
-En cualquier caso, serán denegadas aquellas solicitudes que no dispongan de cobertura
-presupuestaria para su tramitación o para la formalización de las garantías en el momento de
-su resolución.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2026-01393
-miércoles, 20 de mayo de 2026 • Núm. 57
-Capítulo IV. Procedimiento de concesión y cancelación de las garantías
-Artículo 7. Procedimiento de concesión
-Las solicitudes de arrendamiento se calificarán por orden de entrada en la Diputación Foral
-de Álava, estableciéndose agrupaciones mensuales de solicitudes, a último día de cada mes.
-Al inicio de cada mes se agruparán las solicitudes de vivienda que se hayan adherido al
-programa en el mes anterior, así como aquellas que, habiéndose adherido con anterioridad,
-no tengan asignada una vivienda en alquiler. Excepcionalmente, las solicitudes recibidas en
-el mes de julio de cada año se agruparán con las que se reciban en agosto.
-Una vez realizada la agrupación, las solicitudes se clasificarán en función de las preferencias, bien por cuadrillas o el total del Territorio detalladas en el documento de solicitud, y se
-relacionarán con las viviendas disponibles para alquilar. Para ello se tendrá en cuenta la cuadrilla en la que se encuentren dichas viviendas y el número de personas que puedan habitar
-las mismas.
-Tras este proceso, se remitirá a las personas solicitantes de vivienda en alquiler, a través
-de correo electrónico, una comunicación en la que se indique la vivienda que se les ha asignado, siempre que exista alguna. En caso de que haya más de una vivienda a la que puedan
-optar, se les solicitará que indiquen un orden de prelación entre las mismas. En caso de que
-no se pueda asignar ninguna vivienda, se remitirá la comunicación a las personas solicitantes
-indicando este hecho e informando de que pasan a formar parte de la siguiente agrupación
-de solicitudes que se vaya a realizar.
-Las personas solicitantes, en el plazo de 5 días hábiles desde el siguiente a la recepción de
-la comunicación de Diputación Foral de Álava, deberán remitir su aceptación o rechazo de la
-vivienda asignada, o manifestar su orden de prelación en caso de optar a más de una vivienda.
-En este último caso, el orden de preferencia podrá excluir alguna o todas las viviendas ofrecidas, computando como un rechazo en caso de excluir todas.
-Tras este procedimiento, se dictará orden foral del departamento competente en materia
-de Equilibrio Territorial resolviendo la asignación de viviendas disponibles en cada periodo.
-Una vez tomada la resolución, se comenzará el proceso de formalización del contrato de
-alquiler, tramitación de fianzas asociadas al mismo, y alta de los seguros que conforman la
-garantía del presente programa. La fecha de efecto del contrato de alquiler, así como de los
-seguros asociados será el primer día del mes siguiente a su firma, y en todo caso deberá ser
-como máximo a los tres meses desde la fecha de inicio de la agrupación mensual en la que
-se otorgue vivienda.
-Las personas solicitantes de vivienda podrán rechazar la vivienda asignada una única vez
-sin penalización, pasando a formar parte de la siguiente agrupación mensual de solicitudes
-que corresponda. En caso de un segundo rechazo la persona solicitante será dada de baja del
-programa, y no podrá volver a solicitar su adhesión mediante del procedimiento establecido
-en el presente decreto hasta pasados tres meses desde la fecha de la segunda renuncia.
-Artículo 8. Finalización de los contratos de alquiler y de las garantías asociadas
-Finalizados los 5 años se dará por concluido el arrendamiento, así como la adhesión al presente programa, sin perjuicio de que la persona arrendataria pueda realizar una nueva solicitud
-en el marco de la convocatoria que pudiera encontrarse vigente en ese ejercicio.
-Ello conllevará la realización por parte de la Diputación Foral de Álava, por sí misma o a
-través de terceras personas, de una visita final a la vivienda arrendada y la determinación, en
-su caso, de las actuaciones necesarias para la reparación de los daños amparables. En cualquier caso, no se cubrirán aquellos daños que sean propios del desgaste por el uso habitual
-de ésta desde el inicio del alquiler. Acudir a esta revisión final de la vivienda constituye una
-obligación tanto para el arrendador como para el arrendatario, y la no asistencia a la misma
-supondrá la aceptación de lo contenido en el informe que se desprenda de dicha verificación.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2026-01393
-miércoles, 20 de mayo de 2026 • Núm. 57
-En el caso de finalización del contrato por incumplimiento de las condiciones del programa
-por parte del arrendatario, este no podrá realizar otra solicitud de adhesión al presente programa.
-Disposición final. Convocatoria
-La presente convocatoria complementa lo recogido en el anexo I de este decreto foral,
-que regula las condiciones generales del programa de garantías al alquiler de viviendas de la
-Diputación Foral de Álava.
-La convocatoria permanecerá vigente hasta que expresamente se finalice mediante resolución de la persona titular del Departamento de Equilibrio Territorial y Ordenación del Territorio.
-Así mismo, los aspectos regulados mediante la presente convocatoria podrán ser modificados mediante resolución de la persona titular del Departamento de Equilibrio Territorial y
-Ordenación del Territorio. Dicha resolución se referenciará al presente decreto foral, actualizando
-lo necesario para la correcta tramitación y resolución/gestión de la convocatoria.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-Firmante: CN=ARABAKO FORU ALDUNDIA / DIPUTACION FORAL DE ALAVA, SERIALNUMBER=P0100000I, OU=SELLO ELECTRONICO, ORGANIZATIONIDENTIFIER=VATES-P0100000I, O=ARABAKO FORU ALDUNDIA / DIPUTACION FORAL DE ALAVA, C=ES
-Emisor del certificado: CN=EAEko HAetako langileen CA - CA personal de AAPP vascas (2), OU=AZZ Ziurtagiri publikoa - Certificado publico SCA, O=IZENPE S.A., C=ES
-Número de serie: 267116
-Fecha de firma: 2026.05.20 05:13:45 Z
-2026-01393

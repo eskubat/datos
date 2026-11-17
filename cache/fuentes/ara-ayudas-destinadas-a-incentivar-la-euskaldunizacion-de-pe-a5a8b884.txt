@@ -1,978 +1,1658 @@
 ### Ficha oficial: https://egoitza.araba.eus/es/inicio/tramites/fitxa/ayudas-destinadas-a-incentivar-la-euskaldunizacion-de-personas-adultas
-Trámites - Sede electrónica - Diputación Foral de Álava - egoitza
-GUÍA DE TRÁMITES
-Configuración
-Aceptar todo
-Rechazar todas
+titulo pestana: Sobre el procedimiento
+descripcion:
+Aprobar la convocatoria pública de subvenciones destinadas a incentivar la euskaldunización de personas adultas, curso 2026-2027
+titulo: Normativa
+A quién va dirigido: 1. La persona beneficiaria ha de matricularse en un euskaltegi homologado de Álava o del enclave de Treviño antes del 1 de octubre de 2026. A la hora de la matriculación, el euskaltegi aplicará, si procede, el descuento correspondiente a cada módulo en el caso de cada beneficiaria.
+2. Podrán optar a esta convocatoria todas las personas físicas que reúnan las siguientes características:— Ser mayor de edad o cumplir 18 años en el año 2026.— Estar empadronada en el Territorio Histórico de Álava o en el enclave de Treviño con anterioridad al 1 de octubre de 2026.— Matricularse en cualquiera de los niveles A2A2, B1A2, B1B1, B2B1, B2B2, C1B2, C1C1 y C2C1 en un euskaltegi homologado por HABE en Álava o enclave de Treviño.
+3. Quedan expresamente excluidas del programa las personas peticionarias que presten sus servicios en las administraciones públicas y cuyos cursos de aprendizaje y capacitación lingüística en euskera sean financiados por el IVAP
+tipo recurso: Recurso de Reposición
+Organismo: Diputado/a de Igualdad, Euskera y Gobernanza
+Plazo: 1 Meses
+tipo recurso: Recurso contencioso-Administrativo
+Organismo: Juzgados de lo Contencioso-Administrativo de Vitoria-Gasteiz
+Plazo: 2 Meses
+Plazo de resolución: 6 Meses
+Inicio Oficio: Sí
+Silencio administrativo de oficio: Negativo
+titulo: Resolución
+valor: Servicio Foral de Euskera
+titulo: Organismo competente
+titulo pestana: Presentación del trámite
+descripcion: Servicio Foral de Euskera.
+valor: gazabala@araba.eus
+valor: jarrieta@araba.eus
+titulo: Correo electrónico
+titulo: Teléfono
+accion: Tramitar
+descripcion tramite:
+Los euskaltegis que quieran tomar parte como entidad colaboradora a este programa de ayudas a la matriculación, deberán solicitarlo en el plazo de veinte días hábiles contados a partir del siguiente a la publicación de la presente convocatoria en el BOTHA
+denominacion tramite: Solicitud de incorporación como entidad colaboradora
+titulo: Presencial
+descripcion:
+Necesitarás alguno de estos sistemas de identificación digital:
+Certificado electrónico
+titulo: Electrónico
+estado: Fuera de plazo
+descripcion plazo: CERRADO (31/08/2026 - 25/09/2026)
+titulo: Plazo de presentación
+descripcion: Para todos los casos
+descripcion documento: A rellenar por los euskaltegis que tomen parte en el programa de ayudas como entidades colaboradoras.
+nombre documento: Anexo II - Solicitud de incorporación como entidad colaborativa
+descripcion documento: Anexo III - Modelo de convenio
+condicion documento: CON CARÁCTER GENERAL
+titulo: Documentación
+finalidad:
+Incentivar la euskaldunización de las personas mayores de 18 años empadronadas en Álava y el enclave de Treviño que se matriculen en el curso 2026-2027 en los euskaltegis de Álava o en el enclave de Treviño.
+estado: En plazo
+descripcion plazo: ABIERTO (28/08/2026 - 31/12/2027)
+titulo: Subvención para incentivar la euskaldunización de personas adultas
 
-### Normativa: https://egoitza.araba.eus/es/conoce-la-sede/normativa
-Normativa - Sede electrónica Diputación Foral de Álava - egoitza
-Normativa de la Sede electrónica
-Decreto Foral 50/2022, del Consejo de Gobierno Foral de 27 de diciembre. Aprobar la modificación del Decreto Foral 26/2011, de Consejo de 5 de abril.
-Decreto Foral 55/2021, del Consejo de Gobierno Foral de 28 de diciembre, que aprueba la modificación del Decreto Foral del Consejo 26/2011, 5 abril, que creó la Sede electrónica de esta Diputación Foral.
-Decreto Foral 4/2020, del Consejo de Gobierno Foral de 21 enero, que aprueba la modificación del Decreto Foral del Consejo 26/2011, 5 abril, que creó la Sede electrónica de esta Diputación Foral en lo que se refiere a la regulación de las notificaciones por medios electrónicos.
-Decreto Foral 5/2020, del Consejo de Gobierno Foral de 21 de enero, que aprueba la regulación de las notificaciones y comunicaciones por medios electrónicos del Departamento de Hacienda, Finanzas y Presupuestos.
-Decreto foral 26/2011, del consejo de Diputados de 5 de abril, que crea la sede electrónica de esta Diputación Foral.
-Decreto Foral 74/2011, del Consejo de Diputados de 29 de noviembre, que modifica el Decreto Foral 26/2011, de 5 de abril, de creación de la sede electrónica de esta Diputación Foral.
-Decreto foral 37/2011, del consejo de Diputados de 3 de mayo, que aprueba el Reglamento de Registros de documentos de la Administración Foral de Álava.
-Acuerdo 66/2012, del Consejo de Diputados de 28 de febrero, que aprueba el horario de apertura de las oficinas y de los registros presenciales propios de esta Diputación Foral.
-Decreto Foral 2087/1988, del Consejo de Diputados de 7 diciembre, por el que se crea la Oficina de Comunicación con la Sociedad.
-Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
-Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.
-Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica.
-Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica.
-Configuración
-Aceptar todo
-Rechazar todas
-
-### Preguntas frecuentes: https://egoitza.araba.eus/es/preguntas-frecuentes
-Preguntas frecuentes - egoitza
-Preguntas frecuentes Mi Carpeta
-¿Qué es Mi Carpeta?
-Mi Carpeta es un espacio digital diseñado por la DFA en el cual puedes, mediante actuaciones electrónicas seguras que garantizan la integridad y confidencialidad de tus datos personales, acceder a tus datos aportados al perfil de comunicaciones y avisos, al seguimiento de los trámites y del estado de tramitación de expedientes que te afecten y de los servicios que hayas solicitado, así como a las notificaciones y comunicaciones relacionadas con procedimientos en que seas persona interesada o constes como representante ante esta Administración foral. También puedes acceder a las solicitudes y modelos de inicio de procedimientos presentados.
-¿Qué dispositivos puedo usar para acceder a Mi Carpeta?
-Se puede acceder a Mi Carpeta desde cualquier dispositivo con navegador web, ya sea un ordenador, una tablet o un teléfono.
-¿De dónde se obtienen los datos y cada cuánto se actualizan?
-La información en Mi Carpeta proviene de diferentes fuentes y departamentos. Cada entidad es responsable de los datos que maneja y tiene sus propias políticas de actualización definidas por sus administradores. Mi Carpeta actúa como un intermediario de esa información.
-¿Puedo acceder a Mi Carpeta en nombre de otra persona o como representante?
-Si deseas acceder a la información de otra persona, empresa o entidad que representas a través de Mi Carpeta, es necesario usar un certificado electrónico que te identifique adecuadamente. En los apartados habilitados para ello en Mi Carpeta, te mostrará los trámites realizados y los documentos electrónicos relacionados con procedimientos en que estés registrado y que definen trámites y actuaciones ante la DFA que pueden efectuarse como representante ante el órgano correspondiente. Estos apartados incluyen: Mis expedientes, Mis presentaciones y Mi buzón.
-¿Qué trámites puedo consultar en Mi Carpeta?
-Podrás consultar los siguientes servicios:
-Mi perfil
-Al acceder a Mi Carpeta, si no estás registrado en este nuevo apartado SIEMPRE te va a sugerir que te registres, pero es posible NO HACERLO y entrar sin registrarte a la página de inicio de Mi Carpeta. Desde esta sección puedes rellenar los datos para registrarse una vez que estás dentro, o también permite modificarlos.
-Mis expedientes
-Desde este apartado puedes acceder al listado de tus expedientes, así como de las personas que te han dado autorización para poder ver los expedientes de procedimientos concretos.
-Desde el listado puedes acceder al detalle del expediente.
-Dentro del detalle de expediente puedes ver los datos básicos del mismo, identificación, documentos presentados (si se comenzó de manera electrónica), así como el historial de tramitación.
-También puedes acceder al servicio para ADJUNTAR DOCUMENTACION a dicho expediente. Esta opción no la tendrás operativa en caso de tratarse de un expediente en estado CERRADO.
-Mis autorizaciones
-Se configura un área común para los apartados de Mis autorizados y Mis autorizaciones de la antigua sede, aunque el modelo de autorización sigue siendo el de ese sistema hasta su evolución. Desde este apartado puedes gestionar las autorizaciones para que puedas realizar trámites en nombre de otra persona o entidad.
-Mis presentaciones
-Desde este apartado puedes acceder al listado de registros que has presentado tanto de manera presencial como electrónica
-Mi buzón
-A través de este servicio puedes consultar las notificaciones y comunicaciones electrónicas puestas a disposición de las personas usuarias por parte de la DFA.
-Mis borradores
-Próximamente en versiones posteriores.
-Mis pagos
-¿Por qué no puedo ver información sobre una solicitud o expediente?
-Es posible que el expediente se esté gestionando con una herramienta de tramitación aún no integrada en Mi Carpeta, o que no estés registrado como persona interesada o representante en ese trámite. En cualquiera de estos casos, te sugerimos contactar con el órgano responsable del trámite, cuya información está disponible en la Sede electrónica, para obtener más detalles.
-Veo mis datos, pero contienen algún error: ¿cómo lo resuelvo?
-Mi Carpeta solo es responsable de tus datos de contacto, los cuales proporcionas al registrarte en la herramienta. Puedes corregir tus datos accediendo a tu perfil. Además, Mi Carpeta muestra el estado de tramitación de tus expedientes.
-Cualquier error que detectes en los datos debes comunicarlo al órgano responsable para su actualización y evitar que se utilice como referencia en actos de la Administración. La información de contacto del órgano responsable está disponible en los detalles del trámite en la Guía de Trámites de la Sede electrónica.
-Si no dispones de un medio para comunicarte con dicho órgano, puedes contactar con el equipo de soporte técnico y nosotros haremos llegar tu comentario. Sin embargo, la corrección o actualización de los datos dependerá de la persona responsable del procedimiento en que sean tratados dichos datos.
-Configuración
-Aceptar todo
-Rechazar todas
-
-### Requisitos técnicos: https://egoitza.araba.eus/es/requisitos-tecnicos
-Requisitos técnicos de la Sede Electrónica de la DFA - egoitza
-Requisitos técnicos
-Para utilizar la Sede electrónica de la Diputación Foral de Álava su equipo deberá disponer de las siguientes características:
-Software:
-Uno de los siguientes navegadores: Internet Explorer (9, 10, 11), Firefox 10 o superior. No obstante, es posible usar otros navegadores, como Chrome o Microsoft Edge, aunque no se podrán efectuar ciertas operaciones, como la firma electrónica o la cumplimentación de ciertos tipos de formularios.
-Adobe Reader 8 o superior.
-Java Runtime Environment (JRE) 1.6 o superior.
-En el caso de que use un lector de tarjetas, sus drivers correspondientes.
-El software correspondiente al certificado electrónico que vaya a utilizar. Normalmente puede ser descargarlo de las páginas web de la organización que lo haya emitido.
-Los certificados de IZENPE necesarios para que el navegador considere de confianza la sede electrónica de la DFA. Podrá instalarlos siguiendo las instrucciones que se aportan aquí.
-Hardware:
-Lector de certificados electrónicos (Excepto si utiliza certificados en software o en token usb).
-Si fuese necesario, la organización que expidió su certificado le asesorará sobre qué lectores de tarjetas son compatibles con él e, incluso, puede facilitarle su adquisición.
-Configuración
-Aceptar todo
-Rechazar todas
-
-### {{cur_normativa.normativa.descripcion}}: https://egoitza.araba.eus/es/inicio/tramites/fitxa/%7B%7Bcur_normativa.normativa.url%7D%7D
-{{#if resultado.nivel1Tema}}
-{{resultado.nivel1Tema}}
-{{/if}}
-{{#if resultado.claseTramite}}
-{{resultado.claseTramite}}
-{{/if}}
-{{resultado.titulo}}
-{{{resultado.finalidad}}}
-{{#ifEquals resultado.plazo.enPlazo "S"}}
-{{resultado.plazo.estado}}
-{{/ifEquals}}
-{{#ifEquals resultado.plazo.enPlazo "N"}}
-{{/ifEquals}}
-
-### Decreto Foral 55/2021: https://e-s.araba.eus/BOTHA/Boletines/2022/002/2022_002_04218_C.pdf
-miércoles, 5 de enero de 2022 • Núm. 2
+### Documento de la convocatoria: https://www.araba.eus/botha/Boletines/2026/098/2026_098_02434_C.pdf
+viernes, 28 de agosto de 2026 • Núm. 98
 I - JUNTAS GENERALES DE ÁLAVA Y ADMINISTRACIÓN FORAL
 DEL TERRITORIO HISTÓRICO DE ÁLAVA
 Diputación Foral de Álava
-DEPARTAMENTO DE FOMENTO DEL EMPLEO, COMERCIO Y
-TURISMO Y DE ADMINISTRACIÓN FORAL
-Decreto Foral 55/2021, del Consejo de Gobierno Foral de 28 de diciembre. Aprobar la modificación
-del Decreto Foral del Consejo de Gobierno 26/2011, de 5 de abril
-Mediante el Decreto Foral 26/2011, del Consejo de Gobierno de 5 de abril, se creó la sede
-electrónica de la Diputación Foral de Álava.
-La Diputación Foral de Álava estableció mediante Acuerdo 550/2015, del Consejo de Diputados de 6 de octubre, que modifica determinadas normas de organización y funcionamiento
-en la información y los servicios prestados a través de la red Internet por parte de la Administración Foral, que todas sus páginas electrónicas tuvieran el dominio araba.eus,. La puesta en
-funcionamiento del nuevo dominio en Internet araba.eus, como modelo de presencia en Internet de la Diputación Foral de Álava, afectó a la dirección electrónica de referencia de la sede
-electrónica, justificando la aprobación del Decreto Foral 22/2016, del Consejo de Diputados de
-23 de febrero, que modifica el dominio de la sede electrónica de la Diputación Foral de Álava.
-Sin embargo, aún no ha podido quedar remarcado totalmente en la regulación de la sede
-electrónica el aspecto lingüístico de dicho modelo de presencia, donde es preciso insertar el
-término en euskera “egoitza” en la dirección electrónica de la sede, en lugar del actual término
-“e-s” que precede a “.araba.eus”.
-Además de las directrices emanadas sobre el modelo de presencia en Internet de la Diputación Foral de Álava, y sin perjuicio de la voluntad de aprobar una futura nueva regulación de
-la sede electrónica de la Diputación Foral de Álava y del punto de acceso general electrónico,
-en este momento se estima necesario realizar las modificaciones que se exponen a continuación, en coherencia con las normas de organización y funcionamiento en la información y los
-servicios prestados a través de la red Internet por parte de la Administración Foral y referidas
-al texto normativo actualmente en vigor, esto es, en el Decreto Foral 26/2011, del Consejo de
-Diputados de 5 de abril, que crea la sede electrónica de esta Diputación Foral.
-En primer lugar, suprimir en el artículo 1. Objeto el párrafo “La sede electrónica de la Diputación Foral de Álava se corresponderá con la dirección electrónica https://e-s.alava.net, siendo
-accesible tanto directamente como a través del portal de Internet www.alava.net”, al tratarse
-de una de las características de la sede, procediendo a incluir la redacción actualizada de dicha
-característica en el correspondiente Artículo 3. Características de la sede electrónica. Asimismo,
-es también necesaria la modificación de este mismo artículo 1 con el fin de hacer referencia
-al artículo 38 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, en
-lugar del artículo 10 de la derogada Ley 11/2007, de 22 de junio, de acceso electrónico de los
-ciudadanos a los Servicios Públicos.
-En segundo lugar, hacer referencia en el apartado i del artículo 3. Características de la sede
-electrónica al dominio vigente del portal institucional, que se corresponde con https://web.araba.
-eus, modificándose a tal fin su redacción. Asimismo, se incorpora en este mismo artículo 3
-un nuevo apartado k) que recoge la modificación en la dirección electrónica de referencia de la
-sede de la Diputación Foral de Álava, que pasa a corresponderse con https://egoitza.araba.eus,
-como una más de las características de la sede.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2021-04218
-miércoles, 5 de enero de 2022 • Núm. 2
-Por último, incluir una Disposición Transitoria por la que se dispone que, en tanto las disponibilidades técnicas y presupuestarias no permitan incorporar a la dirección electrónica de
-referencia de la sede electrónica de la Diputación Foral de Álava https://egoitza.araba.eus todos
-los trámites y servicios que en la actualidad se ofrecen en https://e-s.araba.eus, dichos trámites y servicios continúen prestándose de acuerdo con las determinaciones previstas hasta la
-aprobación de este Decreto Foral. De esa manera, se garantiza que, en tanto no se complete
-el trasvase tecnológico a la nueva dirección electrónica de referencia de la sede, se siga preservando el derecho de la ciudadanía a disponer de un espacio personalizado de relaciones
-electrónicas con la Diputación Foral de Álava, accesible desde la sede electrónica, y mediante
-el cual pueda continuar accediendo a los expedientes, documentos, comunicaciones y notificaciones de su interés, dando cuenta de la trazabilidad de los documentos y de los datos, en
-los mismos términos y condiciones que hasta este momento se han venido prestando en el
-dominio https://e-s.araba.eus.
-Y todo ello sin perjuicio de la progresiva incorporación que pueda llevarse a cabo de aquellos contenidos y requisitos establecidos por las leyes aplicables y, especialmente, los previstos para las sedes electrónicas en el Capítulo V del Título Preliminar de la Ley 40/2015, de 1 de
-octubre, de Régimen Jurídico del Sector Público.
-El presente Decreto Foral incorpora la perspectiva de género y en su elaboración se han
-tenido en cuenta las disposiciones contenidas en el Decreto Foral 29/2017, del Consejo de Gobierno Foral de 23 de mayo, que aprueba el procedimiento de elaboración de disposiciones
-de carácter general, las guías para la elaboración de los informes de impacto normativo y de
-impacto de género y las directrices de técnica normativa.
-En su virtud, tras la emisión de los preceptivos informes, y a propuesta de la Diputada Foral
-titular del Departamento de Fomento del Empleo, Comercio y Turismo y de Administración
-Foral, previa deliberación del Consejo de Gobierno Foral reunido en el día de hoy,
+DEPARTAMENTO DE IGUALDAD, EUSKERA Y GOBERNANZA
+Orden Foral 103/2026, de 3 de agosto, que aprueba la convocatoria de subvenciones, en régimen de concurrencia competitiva, destinadas a incentivar la euskaldunización de personas
+adultas, curso 2026-2027
+Aprobar la convocatoria pública de subvenciones, en régimen de concurrencia competitiva,
+destinadas a incentivar la euskaldunización de personas adultas, curso 2026-2027.
+El Servicio Foral de Euskera de la Diputación Foral de Álava, dentro del conjunto de actividades que viene desarrollando, quiere seguir incentivando la euskaldunización de personas
+adultas para el curso 2026-2027.
+Se propone que sea una ayuda económica destinada a minorar el precio de matriculación
+en los niveles, A2A2, B1A2, B1B1, B2B1, B2B2, C1B2, C1C1 y C2C1 para el curso 2026-2027, en
+los euskaltegis de Álava o enclave de Treviño, homologados por HABE, así como los cursos
+de autoaprendizaje de 190 horas o más, siendo las destinatarias de las mismas las personas
+mayores de edad y empadronadas en Álava o enclave de Treviño.
+En el presupuesto de la Diputación Foral de Álava del ejercicio 2026 de la Diputación Foral
+de Álava existe la partida presupuestaria “25201. G/335251/48000251 Ayudas al alumnado para
+euskaldunización” por importe de 100.000,00 euros destinada a financiar la convocatoria de
+referencia.
+Para la gestión y tramitación de las solicitudes de las personas matriculadas que cumplan
+los requisitos establecidos en la convocatoria actuarán como entidad colaboradora aquellos
+euskaltegis que ya tengan un convenio con la Diputación Foral de Álava para este fin y los que
+estén homologados por HABE e inscritos en el registro de euskaltegis que soliciten obtener la
+condición de entidad colaboradora.
+Visto el informe del Servicio Foral de Euskera.
+En su virtud, y haciendo uso de las facultades que me competen
 DISPONGO
-Primero. Modificar el artículo 1 del Decreto Foral 26/2011, del Consejo de Diputados de 5 de
-abril, que quedará redactado como sigue:
-“Artículo 1. Objeto
-1. Este Decreto tiene por objeto crear la sede electrónica de la Diputación Foral de Álava,
-de conformidad con lo dispuesto en el artículo 38 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público y con las características que se establecen en el artículo 3 del
-presente Decreto”.
-Segundo. Modificar el artículo 3 del Decreto Foral 26/2011, del Consejo de Diputados de 5
-de abril, que quedará redactado como sigue.
-“Artículo 3. Características de la sede electrónica
-La sede electrónica de la Diputación Foral de Álava se crea con las siguientes características:
-a) Su identificación se lleva a cabo mediante un certificado de sede electrónica.
-b) Está disponible para toda la ciudadanía de forma gratuita y permanente.
-c) La Diputación Foral de Álava responde de la integridad, veracidad y actualización de la
-información y de los servicios a los que pueda accederse a través de la misma.
-d) Se rige por los principios de publicidad oficial, responsabilidad, calidad, seguridad, disponibilidad, accesibilidad, neutralidad e interoperabilidad.
-e) Dispone de sistemas que permiten el establecimiento de comunicaciones seguras siempre que sean necesarias.
+Primero. Aprobar la convocatoria de subvenciones, en régimen de concurrencia competitiva, destinadas a incentivar la euskaldunización de personas adultas, curso 2026-2027, que
+acompaña a esta orden foral con los correspondientes anexos I, II y III de la convocatoria.
+La convocatoria tiene una dotación de 100.000,00 euros que podrá verse incrementada, en
+función de las disponibilidades presupuestarias, hasta un 15 por ciento adicional.
+Además de la convocatoria, las ayudas se regularán por lo previsto en el Decreto Foral
+23/2020, del Consejo de Gobierno Foral de 21 de julio, que aprobó las bases generales reguladoras de la concesión de subvenciones en régimen de concurrencia del Departamento de
+Diputado General (BOTHA número 84 de 27 de julio de 2020).
+Segundo. La partida presupuestaria que ampara el gasto es la “25201. G/335251/48000251
+Ayudas al alumnado para euskaldunización” del presupuesto de gastos de la Diputación Foral
+de Álava para el ejercicio 2026.
 www.araba.eus
 D.L.: VI-1/1958 ISSN: 2254-8432
-2021-04218
-miércoles, 5 de enero de 2022 • Núm. 2
-f) Asegura la accesibilidad y usabilidad de acuerdo con las normas establecidas al respecto,
-estándares abiertos y, en su caso, aquellos otros que sean de uso generalizado por la ciudadanía.
-g) Habilita a las personas usuarias de la sede a autorizar a otras para realizar determinados
-trámites telemáticos con los mismos efectos que si los hubieran realizado ellas.
-h) Garantiza el acceso a sus contenidos y servicios en euskera y castellano.
-i) Establece medidas que permiten diferenciar a la persona usuaria si se encuentra en la
-sede electrónica o en el resto del Portal https://web.araba.eus.
-j) Incluirá progresivamente todas las actuaciones, procedimientos y servicios que requieran la autenticación de la ciudadanía ante la Diputación Foral de Álava, relacionarse con ésta
-por medios electrónicos, así como aquellos otros respecto a los que se decida su inclusión
-en la sede por razones de oportunidad, eficacia o calidad en la prestación de servicios a la
-ciudadanía.
-k) La dirección electrónica de referencia de la sede electrónica de la Diputación Foral de
-Álava será https://egoitza.araba.eus, accesible directamente o a través del portal de Internet
-https://web.araba.eus”.
-Tercero. Modificar la Disposición Transitoria del Decreto Foral 26/2011, del Consejo de Diputados de 5 de abril, que quedará redactada como sigue:
-“Disposición transitoria
-Trámites y servicios de la actual dirección electrónica https://e-s.araba.eus de la Diputación
-Foral de Álava.
-Hasta en tanto las disponibilidades técnicas y presupuestarias no permitan incorporar a la
-dirección electrónica de referencia de la sede electrónica de la Diputación Foral de Álava, los trámites y servicios que en la actualidad se ofrecen en la dirección electrónica https://e-s.araba.eus
-continuarán prestándose a través de dicha dirección electrónica, accesible desde la sede electrónica y de acuerdo con las determinaciones previstas hasta ese momento.
-Se fija el uso de certificados electrónicos admitidos en cada momento como método prioritario de alta, identificación y acceso a la sede electrónica, a partir del 1 de enero de 2012 para
-las personas físicas y del 1 de septiembre de 2012 para las jurídicas.
-A partir de dichas fechas, excepcionalmente podrán realizarse operaciones de altas presenciales de nuevos usuarios y emisión de claves operativas provisionales de duración limitada”.
-Disposición final única
-El presente Decreto Foral entrará en vigor el día siguiente al de su publicación en el BOTHA.
-Vitoria-Gasteiz, a 28 de diciembre de 2021
-Diputado General
-RAMIRO GONZÁLEZ VICENTE
-Segunda Teniente Diputado General y Diputada Foral de Fomento del Empleo
-Comercio, Turismo y de Administración Foral
-CRISTINA GONZÁLEZ CALVAR
-Director de Servicios Generales
-JAVIER MARDONES GÓMEZ-MARAÑON
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
+Tercero. Aprobar y autorizar gasto por importe de 3.000,00 euros, como compensación económica a favor de las entidades colaboradoras, con cargo a la partida presupuestaria “25201.
+G/335251/22799250 Desarrollo Plan Estratégico”, del presupuesto de la Diputación Foral de
+Álava para 2026.
+La cuantía será abonada una vez resuelta la convocatoria, fijándose como compensación
+económica la cantidad de 3,00 euros por cada matrícula gestionada y aceptada.
+Cuarto. Publicar la convocatoria en el BOTHA.
+Quinto. La resolución de la convocatoria deberá dictarse en el plazo máximo de seis meses
+desde la publicación de la convocatoria en el BOTHA. Transcurrido el plazo máximo sin que
+haya recaído resolución expresa, los/las interesadas podrán entender desestimada la solicitud.
+Sexto. La presente resolución agota la vía administrativa pudiendo interponer, de conformidad con el artículo 123 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo
+Común de las Administraciones Públicas, recurso potestativo de reposición en el plazo de un
+mes, contado desde el día siguiente al de la publicación de esta resolución, ante el órgano
+correspondiente o ser impugnado directamente ante el orden jurisdiccional contencioso-administrativo, en el plazo de dos meses contados desde el día siguiente al de notificación de
+este acto, ante el juzgado de lo contencioso-administrativo que corresponda, conforme a lo
+previsto en el artículo 46.1 de la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-Administrativa.
+Vitoria-Gasteiz, 3 de agosto de 2026
+Diputado Foral de Igualdad, Euskera y Gobernanza
+IÑAKI GURTUBAI ARTETXE
+Director de Euskera y Gobierno Abierto
+JOSEBA KOLDO PÉREZ DE HEREDIA ARBÍGANO
+ANEXO
+Convocatoria de subvenciones, en régimen de concurrencia competitiva, destinadas a
+incentivar la euskaldunización de personas adultas, curso 2026-2027
+Primero. Objeto y finalidad
+Constituye el objeto de la presente convocatoria incentivar la euskaldunización de las personas mayores de 18 años empadronadas en Álava y el enclave de Treviño que se matriculen
+en el curso 2026-2027 en los euskaltegis de Álava o en el enclave de Treviño en el marco de lo
+dispuesto en el Decreto Foral 23/2020, del Consejo de Gobierno Foral de 21 de julio, que aprobó
+las bases generales reguladoras de la concesión de subvenciones en régimen de concurrencia
+del Departamento de Diputado General (BOTHA número 84 de 27 de julio de 2020).
+Es una ayuda económica destinada a minorar el precio de matriculación en los niveles
+A2A2, B1A2, B1B1, B2B1, B2B2, C1B2, C1C1 y C2C1, para el curso 2026-2027, en los euskaltegis
+de Álava o del enclave de Treviño, homologados por HABE.
+Segundo. Imputación presupuestaria
+El cómputo total de las ayudas a conceder asciende a 100.000,00 euros, el cual podrá ser
+incrementado en función del montante final al que ascienda la totalidad de subvenciones a conceder y en función de las disponibilidades presupuestarias, hasta un máximo de un 15 por ciento.
 www.araba.eus
 D.L.: VI-1/1958 ISSN: 2254-8432
-Firmante: CN=ZERBITZU OROKORREN ZUZENDARITZA - DIRECCION SERVICIOS GENERALES, SERIALNUMBER=P0100000I, OU=SELLO ELECTRONICO, ORGANIZATIONIDENTIFIER=VATES-P0100000I, O=ARABAKO FORU ALDUNDIA / DIPUTACION FORAL DE ALAVA, C=ES
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
+La partida presupuestaria que ampara este gasto es la “25201. G/335251/48000251 Euskalduntzeko laguntzak ikasleentzat / Ayudas al alumnado para euskaldunización” del presupuesto
+de gastos de la Diputación Foral de Álava para el ejercicio 2026.
+Tercero. Personas beneficiarias
+1. La persona beneficiaria deberá estar matriculada en un euskaltegi homologado de Álava
+o del enclave de Treviño antes del 1 de octubre de 2026.
+A la hora de la matriculación, el euskaltegi aplicará, si procede, el descuento correspondiente a cada módulo en el caso de cada beneficiaria.
+2. Podrán optar a esta convocatoria todas las personas físicas que reúnan las siguientes
+características:
+— Ser mayor de edad o cumplir 18 años en el año 2026.
+— Estar empadronada en el Territorio Histórico de Álava o en el enclave de Treviño con
+anterioridad al 1 de octubre de 2026.
+— Matricularse en cualquiera de los niveles A2A2, B1A2, B1B1, B2B1, B2B2, C1B2, C1C1 eta
+C2C1 en un euskaltegi homologado por HABE en Álava o enclave de Treviño.
+3. Quedan expresamente excluidas del programa las personas peticionarias que presten
+sus servicios en las administraciones públicas y cuyos cursos de aprendizaje y capacitación
+lingüística en euskera sean financiados por el IVAP.
+Cuarto. Documentación a presentar por el alumnado
+1. La persona beneficiaria habrá de cumplimentar en el momento de la matriculación correspondiente al curso 2026-2027 el impreso de solicitud (anexo I) que se publicará con la aprobación
+de esta convocatoria y que se encontrará a su disposición en los euskaltegis y en la Diputación
+Foral de Álava (https://egoitza.araba.eus/es/web/egoitza/guia-de-tramites/fitxa/ayudas-destinadas-a-incentivar-la-euskaldunizacion-de-personas-adultas).
+2. El número del documento de identidad, así como el empadronamiento será consultado
+de oficio por el Servicio Foral de Euskera. La presentación de solicitud supone la aceptación de
+la consulta de oficio de estos datos, en caso de oponerse la persona solicitante deberá manifestar su oposición de forma expresa rellenando a tales efectos el apartado correspondiente del
+formulario de solicitud. En caso de oposición, deberá presentar junto con la solicitud fotocopia
+del DNI, NIE o pasaporte y volante de estar empadronado en Álava o en el enclave de Treviño
+con anterioridad al 1 de octubre de 2026.
+Quinto. Entidades colaboradoras
+1. Asumirán la condición de entidades colaboradoras aquellos euskaltegis y centros de autoaprendizaje de euskera homologados por HABE e inscritos en el registro de euskaltegis que
+ya tengan un convenio para este fin firmado con la Diputación Foral de Álava o aquellos que
+cumpliendo los requisitos soliciten obtener la condición de entidad colaboradora cumplimentando el anexo II. Los euskaltegis deberán hallarse al corriente de sus obligaciones tributarias
+y con la Seguridad Social.
+2. De conformidad con lo establecido en el artículo 15 de la Norma Foral 11/2016, de 19 de
+octubre, de Subvenciones del Territorio Histórico de Álava, las entidades colaboradoras habrán
+de suscribir un convenio de colaboración o prórroga del mismo si lo hubiera, con la Diputación
+Foral de Álava en el que se regulen las condiciones y obligaciones asumidas por las mismas.
+3. Las entidades colaboradoras realizarán la gestión y tramitación de las solicitudes de
+las personas matriculadas que cumplan los requisitos establecidos en esta disposición. Recabarán la documentación de la base quinta de esta convocatoria y, una vez comprobado el
+cumplimiento de los requisitos previstos en la base tercera, procederán a aplicar el descuento
+correspondiente en la matrícula.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
+Los impresos de la solicitud deberán ser firmados por la persona solicitante, tanto con firma
+manuscrita como con firma electrónica (IZENPE, DNI electrónico, ACA, Camerfirma, Ancert, FNMT).
+Los euskaltegis deberán presentar la documentación a través del procedimiento específico habilitado al efecto. Deberán presentar ante la Diputación Foral de Álava las solicitudes
+tramitadas junto con los documentos de autorización para habilitan a la Diputación Foral de
+Álava al tratamiento de los datos personales y a realizar las consultas de estar al corriente con
+hacienda y la Seguridad. Los euskaltegis deberán aportar la documentación en un plazo que
+finalizará el 30 de octubre de 2026.
+4. En caso de que hayan cambiado el domicilio y/o los datos bancarios de los euskaltegis,
+estos deberán actualizar sus datos a través de la sede electrónica de la Diputación Foral de
+Álava, en concreto, el trámite específico “Alta o modificación de Terceros Diputación Foral de
+Álava” (https://egoitza.araba.eus/es/-/alta-modificacion-terceros-diputacion-foral-de-alava?inheritRedirect=true&redirect=%2Fes%2Finicio%2Ftramites%3Fq%3Dalta%2Bde%2Btercero).
+5. El Servicio Foral de Euskera, antes de dictarse resolución, comprobará de oficio si los
+euskaltegis se hallan al corriente de sus obligaciones tributarias y con la Seguridad Social. En
+caso de oposición expresa a que la administración recabe dicha información, los certificados
+deberán ser presentados por la entidad solicitante.
+Sexto. Plazo de presentación de solicitud para entidad colaboradoras
+Los euskaltegis que todavía no sean entidad colaboradora para esta convocatoria y, cumpliendo los requisitos exigidos, quieran serlo deberán solicitar en el plazo de veinte días hábiles
+contados a partir del siguiente a la publicación de la convocatoria en el BOTHA, ser entidad
+colaboradora para estas ayudas.
+En conformidad con lo previsto en el artículo 14.2 de la Ley 39/2015 del Procedimiento
+Administrativo Común de las Administraciones Públicas, en todo caso están obligadas a la
+presentación telemática: las personas jurídicas, las entidades sin personalidad jurídica, quienes ejerzan una actividad profesional para la que se requiera colegiación obligatoria y para
+los trámites que realicen en el ejercicio de dicha actividad y quienes representen a un/a interesado/a obligado/a a relacionarse electrónicamente con la Administración. Para ello deberán
+cumplimentar el formulario aprobado con esta convocatoria (anexo II) y enviar su solicitud
+dirigida al Servicio Foral de Euskera de la Dirección de Euskera y Gobierno Abierto a través
+del siguiente trámite específico (https://egoitza.araba.eus/es/web/egoitza/guia-de-tramites/fitxa/
+ayudas-destinadas-a-incentivar-la-euskaldunizacion-de-personas-adultas).
+El Servicio Foral de Euskera examinará la solicitud y procederá a comprobar de oficio su
+homologación por HABE e inscripción en el registro correspondiente. Asimismo, la presentación
+de la solicitud por parte del euskaltegi interesado conllevará la autorización al órgano gestor para
+recabar los certificados a emitir por las Administraciones Tributarias y por la Tesorería General
+de la Seguridad Social. En caso de oposición, serán los euskaltegis los que deberán aportar
+los certificados de estar al corriente en el cumplimiento de las obligaciones tributarias y con la
+Seguridad Social.
+El Servicio Foral de Euskera se pondrá en contacto con el euskaltegi interesado y, una vez
+acreditados los requisitos para ser entidad colaboradora, se procederá a la formalización del
+convenio de colaboración que figura como anexo III a esta convocatoria.
+Séptimo. Módulos que abarca la convocatoria y dotación individual de las ayudas
+— Módulos presenciales.
+El importe de la ayuda a conceder se distribuye en tres módulos diferentes, atendiendo a
+la intensidad horaria del curso:
+1. Módulos de 248-300 horas, si el punto de partida es A2A2 para lograr el nivel B1B1, 60,00 euros.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
+2. Módulos de 248-400 horas, 135,00 euros.
+3. Módulos de 401-600 horas, 180,00 euros.
+4. Módulos de más de 601 horas, 330,00 euros.
+— Módulos de autoaprendizaje
+Serán subvencionables los niveles iniciales (A2, B1, B2 y C1):
+Módulos de autoaprendizaje de 190 horas o más, 135,00 euros.
+Octavo. Órgano instructor
+Será órgano competente para la instrucción del procedimiento el Servicio Foral de Euskera
+de la Dirección de Euskera y Gobierno Abierto del Departamento de Igualdad, Euskera y Gobernanza de la Diputación Foral de Álava.
+Noveno. Estudio y resolución de solicitudes
+1. El estudio y la concesión o denegación de ayudas económicas se realizará una vez finalizado el plazo de presentación de las mismas.
+La Dirección de Euskera y Gobierno Abierto del Departamento de Igualdad, Euskera y Gobernanza, en aquellos supuestos que lo estime oportuno, podrá solicitar datos o pedir aclaraciones sobre la documentación presentada.
+2. Si en razón del número de solicitudes y de los importes a percibir, el importe total de la
+concesión de las ayudas superara la dotación económica de la convocatoria, y por lo tanto
+fuera necesario minorar la cuantía de las ayudas, éstas se minorarán en igual proporción para
+todas las personas beneficiarias.
+3. El órgano competente, a propuesta del Servicio Foral de Euskera, dictará la resolución
+en el plazo máximo de seis meses. Transcurrido este plazo sin que haya recaído resolución
+expresa, las entidades interesadas podrán entender desestimada la solicitud.
+4. La resolución de concesión deberá contener las personas solicitantes a las que se conceda subvención, y la desestimación justificada de las restantes solicitudes.
+5. Teniendo en cuenta lo establecido en el artículo 45 de la Ley 39/2015, de 1 de octubre,
+del Procedimiento Administrativo Común de las Administraciones Públicas, la resolución de
+concesión o denegación de la subvención será publicada en el BOTHA, surtiendo ésta los
+efectos de la notificación.
+6. La resolución pondrá fin a la vía administrativa y contra la misma podrá interponerse
+recurso contencioso administrativo ante el juzgado de lo contencioso-administrativo que corresponda, en el plazo de dos meses a contar desde el día siguiente al de su notificación,
+conforme a lo previsto en el artículo 46.1 de la Ley 29/1998 de 13 de julio, reguladora de la
+jurisdicción contencioso-administrativa.
+En el caso de no impugnarla directamente, podrá ser recurrida potestativamente ante el
+mismo órgano que la dictó en el plazo de un mes, contado desde el día siguiente al de su
+notificación, de acuerdo con lo dispuesto en el artículo 123 de la Ley 39/2015, de 1 de octubre,
+del Procedimiento Administrativo Común de las Administraciones Públicas.
+Décimo. Pago de las ayudas
+Al tratarse de un descuento que se va a aplicar al importe de la matrícula, el pago de las
+ayudas se realizará a las entidades colaboradoras, que previamente habrán descontado los
+importes del precio de la matrícula, una vez comprobado el cumplimiento de los requisitos
+para ser beneficiarios/as.
+Se realizará un único pago una vez dictada la resolución de concesión de las ayudas.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
+En caso de que el pago sea compensado como consecuencia de procedimientos ejecutivos
+pendientes del alumnado con la Diputación Foral de Álava, el Servicio Foral de Euskera comunicará tal circunstancia al euskaltegi afectado, detrayéndose la cantidad compensada de la
+cantidad total a ingresar a la entidad colaboradora, debiendo la persona interesada en tal caso
+devolver el descuento aplicado al euskaltegi. La presentación de la solicitud de ayudas supone
+la aceptación de la comunicación de la citada circunstancia al euskaltegi correspondiente.
+Undécimo. Modificación de ayudas
+Toda alteración de las condiciones tenidas en cuenta para la concesión de la ayuda y, en
+todo caso, la obtención concurrente de subvenciones o ayudas concedidas por cualquier entidad pública o privada podrá dar lugar a la modificación de la resolución de concesión, así
+como al reintegro de la ayuda.
+Duodécimo. Pérdida de la ayuda
+Las personas beneficiarias están obligadas a facilitar las actuaciones de comprobación a
+efectuar por el órgano concedente o la entidad colaboradora, en su caso, así como cualesquiera
+otras de comprobación y control financiero que puedan realizar el Departamento de Hacienda,
+Finanzas y Presupuestos y los órganos de control competentes, aportando cuanta información
+les sea requerida en el ejercicio de las actuaciones anteriores.
+El incumplimiento de las obligaciones establecidas por la Administración Foral a las entidades colaboradoras y personas beneficiarias y de los compromisos por éstas asumidos,
+con motivo de la concesión de la subvención, siempre que afecten o se refieran al modo en
+que se han de conseguir los objetivos, realizar la actividad, ejecutar el proyecto o adoptar el
+comportamiento que fundamenta la concesión de la subvención, así como la obtención de la
+subvención falseando las condiciones requeridas para ello u ocultando aquéllas que lo hubieran impedido, supondrá el reintegro de las cantidades percibidas y la exigencia del interés de
+demora correspondiente desde el momento del pago de la subvención hasta la fecha en que
+se acuerde la procedencia del reintegro.
+Asimismo, procederá el reintegro de las cantidades percibidas en los casos establecidos
+en la Norma Foral 11/2016, de 19 de octubre, de Subvenciones del Territorio Histórico de Álava.
+Decimotercero. Desarrollo
+Por el diputado del Departamento de Igualdad, Euskera y Gobernanza se procederá a dictar
+las resoluciones que se estimen procedentes para el desarrollo de la presente convocatoria,
+así como dictar la resolución de ampliación de la cuantía de la subvención, en el caso de ser
+necesario.
+Decimocuarto. Interpretación
+Cualquier duda que pudiera surgir en torno a la interpretación de esta convocatoria será
+resuelta por la Dirección de Euskera y Gobierno Abierto del Departamento de Igualdad, Euskera
+y Gobernanza.
+Decimoquinto. Compatibilidad de subvenciones
+Las ayudas concedidas en esta convocatoria serán compatibles con otras ayudas de organismos e instituciones públicas o privadas, nacionales o internacionales para la misma actividad o programa siempre que el importe de la misma sea de tal cuantía que, aisladamente o
+en concurrencia con otras subvenciones, no supere el coste de la matrícula.
+Decimosexto. Publicidad
+La presente convocatoria será publicada en el BOTHA y en la web de la Dirección de Euskera y
+Gobierno Abierto, procurándose la máxima difusión a través de los medios de comunicación social.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
++HOGXHQHXVNDOGXQW]HDVXVWDW]HNRLNDVWXUWHUDNR
+GLUXODJXQW]DHVNDW]HNRLQSULPDNLD.
+
+6ROLFLWXGGHVXEYHQFLyQGHVWLQDGDDLQFHQWLYDUODHXVNDOGXQL]DFLyQGH
+SHUVRQDVDGXOWDVFXUVR
+
+%HUGLQWDVXQ(XVNDUDHWD*REHUQDQW]D6DLOD
+(XVNDUDHWD*REHUQX,UHNLDUHQ]X]HQGDULW]D
+
+ 
+
+DWD
+)HFKDGH6ROLFLWXG
+ $FXPSOLPHQWDUSRUOD$GPLQLVWUDFLyQ
+ 
+$GPLQLVWUD]LRDNEHWHW]HNR
+
+,GHQWLILND]LRDJLULD
+'RFXPHQWRLGHQWLILFDWLYR
+1$1
+'1,
+$,=
+%HVWHUHQEDW
+1,(
+2WUR
+
+,]HQD
+1RPEUH
+
+ 6H[XD
+6H[R
+ 
+
+ /HKHQDEL]HQD
+3ULPHUDSHOOLGR
+ %LJDUUHQDEL]HQD
+6HJXQGRDSHOOLGR
+ 
+ 
+
++HOELGHD NDOHD 
+'RPLFLOLR FDOOH 
+
+
+
+
+=N
+1~P 
+ 
+
++HUULDOGHD
+3DtV
+
+
+/XUUDOGH+LVWRULNRD
+
+7HUULWRULR+LVWyULFR
+
+ ,GHQWLILND]LR]N
+1LGHQWLILFDWLYR
+
+
+,(5$16.,1$$1(;2,
+
+(VNDHUD]N
+16ROLFLWXG
+
+(6.$7=$,/($
+62/,&,7$17(  
+
+
+'HSDUWDPHQWRGHOJXDOGDG(XVNHUD\*REHUQDQ]D
+'LUHFFLyQGH(XVNHUD\*RELHUQR$ELHUWR
+
+/HWUD
+
++L]NLD
+ 
+
+(PDNXPHD
+0XMHU
+(]
+ELQDULRD
+1RELQDULR
+*L]RQD
++RPEUH
+
+
+
+
+(VNUD
+(VFDO 
+ 
+
+6RODLUXD
+3LVR
+ 
+
+$OGHD
+0DQR
+ 
+
+
+ 8GDOHUULD
+0XQLFLSLR
+ +HUULD
+/RFDOLGDG
+ 3.&3
+ 
+ 
+ 
+ 
+7HOHIRQRD
+7HOpIRQR
+
+ 0XJLNRUUD
+0yYLO
+
+ )D[D
+)D[
+ 3RVWDHOHNWURQLNRD
+&RUUHRHOHFWUyQLFR
+
+ 
+ 
+ 
+0$75,.8/$=,25$.2/$*817=$(.2120,.2$5(1
+(6.$(5$$85.(=7($1(635(68.,21$57=(1',5$
+21'2.2'$78/$*$3(1+$8(.
+
+
+
+1HXUH EDLPHQD HPDWHQ GXW HXVNDOWHJLDN HVNDHUD
+KDX DXUNH] GH]DQ $UDEDNR )RUX $OGXQGLDQ KDUL
+HUDQWVLWDNR DJLULHNLQ EDWHUD HWD $UDEDNR )RUX
+$OGXQGLNR %HUGLQWDVXQD (XVNDUD HWD *REHUQDQW]D
+6DLODN ODQGX GLW]DQ HVNDHUDQ MDVRW]HQ GLUHQ GDWX
+SHUWVRQDODN KHOGXHQ HXVNDOGXQW]HD VXVWDW]HNR
+ODJXQW]D HNRQRPLNRHQ L]DSLGHW]HD NXGHDW]HNR HWD
+KDLHNNRQWURODW]HNR
+
+&21/$35(6(17$&,Ï1'(62/,&,78''($<8'$
+(&21Ï0,&$$/$0$75,&8/$&,Ï16($&(37$1
+(;35(6$0(17(/$66,*8,(17(6&(6,21(6'(
+'$726
+
+
+([SUHVR PL FRQVHQWLPLHQWR SDUD TXH HO HXVNDOWHJL
+SUHVHQWH HVWD VROLFLWXG D OD 'LSXWDFLyQ )RUDO GH
+ÈODYDMXQWRFRQODGRFXPHQWDFLyQDQH[D\SDUDTXH
+HO 'HSDUWDPHQWR GH ,JXDOGDG (XVNHUD \
+*REHUQDQ]DGHOD'LSXWDFLyQ)RUDOGHÈODYDWUDWHORV
+GDWRV SHUVRQDOHV UHFRJLGRV HQ OD VROLFLWXG FRQ OD
+ILQDOLGDGGHJHVWLRQDUODWUDPLWDFLyQ\FRQWUROVREUH
+ODV D\XGDV HFRQyPLFDV GHVWLQDGDV D LQFHQWLYDU OD
+HXVNDOGXQL]DFLyQGHSHUVRQDVDGXOWDV
+
+0DQLILHVWRPLFRQVHQWLPLHQWRH[SUHVRDTXHHQFDVR
+GH TXH HO LPSRUWH GH OD D\XGD FRQFHGLGD VHD
+FRPSHQVDGRFRPRFRQVHFXHQFLDGHSURFHGLPLHQWRV
+HMHFXWLYRV SHQGLHQWHV FRQ OD 'LSXWDFLyQ )RUDO GH
+ÈODYD UHODWLYRV D PL SHUVRQD HO 6HUYLFLR )RUDO GH
+(XVNHUD FRPXQLTXH DO HXVNDOWHJL WDO FLUFXQVWDQFLD
+FRQ LQGLFDFLyQ GHO LPSRUWH UHWHQLGR \ PH
+FRPSURPHWR D OD GHYROXFLyQ GHO LPSRUWH DO
+HXVNDOWHJL
+
+
+1HXUH EDLPHQ HVSUHVXD HPDWHQ GXW HPDQGDNR
+ODJXQW]DUHQ]HQEDWHNRDNRQSHQWVDWX]JHUR$UDEDNR
+)RUX $OGXQGLDN QLUL EXUX] HED]WHNH GDX]NDQ
+EHWHDUD]WH SUR]HGXUHQ RQGRULR] (XVNDUDUHQ )RUX
+=HUELW]XDNHXVNDOWHJLDULKRUUHQEHUULHPDQGLH]DLRQ
+DW[LNLWDNR GLUX NRSXUXD DGLHUD]L] HWD NRSXUX KRUL
+HXVNDOWHJLDULLW]XOW]HNRNRQSURPLVRDKDUW]HQGXW
+
+
+0$75,.8/$=,25$.2/$*817=$(.2120,.2$5(1
+&21/$35(6(17$&,Ï1'(62/,&,78''($<8'$
+(6.$(5$$85.(=7($1(635(68.,21$57=(1'$
+(&21Ï0,&$$/$0$75,&8/$&,Ï16($&(37$
+21'2.2$
+(;35(6$0(17(/26,*8,(17(
+ %HUDULD] DGLHUD]WHQ GXW H] GXGDOD MDVR ,9$3HQ
+ 'HFODUR H[SUHVDPHQWH TXH QR KH UHFLELGR QLQJXQD
+DOGHWLN  LNDVWXUWHDQ HXVNDOGXQW]HUDNR
+D\XGDSRUSDUWHGHO,9$3SDUDHXVNDOGXQL]DFLyQHQ
+ODJXQW]DULN
+HOFXUVR
+
+2UULD◼+RMD
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
++HOGXHQHXVNDOGXQW]HDVXVWDW]HNRLNDVWXUWHUDNR
+GLUXODJXQW]DHVNDW]HNRLQSULPDNLD.
+6ROLFLWXGGHVXEYHQFLyQGHVWLQDGDDLQFHQWLYDUODHXVNDOGXQL]DFLyQGH
+SHUVRQDVDGXOWDVFXUVR
+
+
+%HUGLQWDVXQ(XVNDUDHWD*REHUQDQW]D6DLOD
+(XVNDUDHWD*REHUQX,UHNLDUHQ]X]HQGDULW]D
+
+'HSDUWDPHQWRGHOJXDOGDG(XVNHUD\*REHUQDQ]D
+'LUHFFLyQGH(XVNHUD\*RELHUQR$ELHUWR
+/$*817=$. (6.85$7=(.2 %$/',17=$. %(7(7=(1
+',5(1(7=
+2),=,2=
+(*,$=7$7=($5(1
+$85.$
+$*(57=($ DXUND DJHUWX] JHUR LQWHUHVD GXHQDN
+DXUNH]WX EHKDUNR GLWX GDJR]NLRQ DJLULDN GHLDOGLNR
+EDOGLQW]DNEHWHW]HDHJLD]WDW]HQGXWHQDN 
+,(5$16.,1$$1(;2,
+
+
+2326,&,21 $ /$ &20352%$&,Ï1 '( 2),&,2 '(/
+&803/,0,(172 '( /26 5(48,6,726 '( $&&(62 $
+/$6 $<8'$6 HQ FDVR GH RSRQHUVH OD SHUVRQD
+LQWHUHVDGD
+GHEHUi
+DSRUWDU
+OD
+GRFXPHQWDFLyQ
+FRUUHVSRQGLHQWH TXH DFUHGLWH ORV UHTXLVLWRV HQ OD
+FRQYRFDWRULD 
+(XVNDUDUHQ)RUX=HUELW]XDNQLUHQRUWDVXQGDWXDN
+HJLD]WDW]HDUHQDXUNDQDJR
+0HRSRQJRDTXHHO6HUYLFLR)RUDOGH(XVNHUD
+FRPSUXHEHPLVGDWRVGHLGHQWLGDG
+
+
+
+(XVNDUDUHQ)RUX=HUELW]XDNQLUHHUUROGDW]HD
+HJLD]WDW]HDUHQDXUNDQDJR
+
+0HRSRQJRDTXHHO6HUYLFLR)RUDOGH(XVNHUD
+FRPSUXHEHPLHPSDGURQDPLHQWR
+
+%(67(/$.2%$,0(1$. LQWHUHVDGXHQDNQDKLL]DQH]
+JHUREHWHW]HNR 
+
+%HUDULD]EDLPHQDHPDWHQGXW$UDEDNR)RUX
+$OGXQGLDNHXVNDUDVXVWDW]HNRHJLQLNRNRPXQLND]LRDN
+MDVRW]HNR
+27526&216(17,0,(1726 UHOOHQDUDYROXQWDGGHOD
+SHUVRQDLQWHUHVDGD 
+
+0DQLILHVWRPLFRQVHQWLPLHQWRH[SUHVRSDUDUHFLELU
+FRPXQLFDFLyQGHSURPRFLyQGHOHXVNHUDGHOD
+'LSXWDFLyQ)RUDOGHÈODYD
+
+
+(XVNDOWHJLDUHQL]HQD  
+
+
+$%,$381780$,/$
+38172'(3$57,'$
+$872,.$6.817=$
+$855(=$855(
+$872$35(1',=$-(
+35(6(1&,$/
+$$
+
+
+
+%$
+
+
+
+%%
+
+
+
+%%
+
+
+
+%%
+
+
+
+&%
+
+
+
+&&
+
+
+
+&&
+
+
+
+0$75,.8/$25'8.23858$1+25$60$75,&8/$&,Ï1
+25'8+25$6
+
+25'8+25$6
+
+25'8+25$6
+
+!25'8+25$6
+
+2UULD◼+RMD
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
++HOGXHQHXVNDOGXQW]HDVXVWDW]HNRLNDVWXUWHUDNR
+GLUXODJXQW]DHVNDW]HNRLQSULPDNLD.
+6ROLFLWXGGHVXEYHQFLyQGHVWLQDGDDLQFHQWLYDUODHXVNDOGXQL]DFLyQGH
+SHUVRQDVDGXOWDVFXUVR
+
+
+%HUGLQWDVXQ(XVNDUDHWD*REHUQDQW]D6DLOD
+(XVNDUDHWD*REHUQX,UHNLDUHQ]X]HQGDULW]D
+
+
+
+,(5$16.,1$$1(;2,
+
+
+
+(VNDW]DLOHDUHQVLQDGXUD
+)LUPDGHODSHUVRQDVROLFLWDQWH
+
+
+
+7RNLDHWDGDWD
+/XJDU\IHFKD 
+
+
+'HSDUWDPHQWRGHOJXDOGDG(XVNHUD\*REHUQDQ]D
+'LUHFFLyQGH(XVNHUD\*RELHUQR$ELHUWR
+
+
+2+$55$
+127$ 0DWULNXOD]LRDUHNLQEDWHUDLQSULPDNLRUULDEHWHEHKDUGDHWDHXVNDOWHJLDNGDJRNLRQGHVNRQWXDDSOLNDWXNRGLR
+PDWULNXOD]LRSUH]LRDUL-XQWRFRQODPDWUtFXODHVQHFHVDULRUHOOHQDUHOLPSUHVRGHVROLFLWXG(OHXVNDOWHJLDSOLFDUiHOGHVFXHQWR
+FRUUHVSRQGLHQWHDOSUHFLRGHODPDWUtFXOD
+2KDUUD  
+
+(XURSDNR 3DUODPHQWXDUHQ HWD .RQWVHLOXDUHQ NR 
+DSLULODUHQ NR  (%  (UUHJHODPHQGXDQ '%(2 
+HWD 'DWX 3HUWVRQDODN %DEHVWHDUL HWD HVNXELGH GLJLWDODN
+EHUPDW]HDUL EXUX]NR DEHQGXDUHQ HNR  /HJH
+2UJDQLNRDQH]DUULWDNRDEHWHW]HDOGHUDMDNLQDUD]WHQGL]XJX
+]XN HPDWHQ GL]NLJX]XQ GDWXDN $UDEDNR )RUX $OGXQGLDUHQ
+WLWXODUWDVXQHNR 7 %(5',17$681 (86.$5$ (7$
+*2%(51$17=$
+6$,/$.
+,=$3,'(787$.2
+',58/$*817=$..8'($7=($ILW[DWHJLDQVDUWXNRGLUHOD
+)LW[DWHJLKRUUHQWUDWDPHQGXDN$UDEDNR/XUUDOGH+LVWRULNRDQ
+HXVNDUDUHQ HUDELOHUD VXVWDW]HNR MDUGXHUDN NXGHDW]HNR
+HJLWHQ GLUD =XUH GDWXHQ NRQILGHQW]LDOWDVXQD EHUPDW]HQ
+GXJX HWD H] ]DL]NLH KLUXJDUUHQHL MDNLQDUD]WHQ OHJH]
+JDLWXWDNRNDVXHWDWLNNDQSR
+'DWXDNDW]LW]HNRH]DEDW]HNRDXUNDUDW]HNRHWDPXJDW]HNR
+HVNXELGHDN EDOLDWX DKDO L]DQJR GLWX]X '%(2N DLWRUW]HQ
+GLWXHQ HVNXELGHH] EDOLDW]HNR +RUUHWDUDNR $UDEDNR )RUX
+$OGXQGLNR(UUHJLVWUR%XOHJRUDMREHKDUNRGX]X 3URELQW]LD
+SOD]D3.9LWRULD
+*DVWHL]$UDED ,QIRUPD]LRJHKLDJRQDKLL]DQH]JHUR
+KWWSVZHEDUDEDHXVHXWUDWDPHQGXHQOHJHRKDUKHGDWXD
+
+
+
+
+
+
+
+
+
+
+1RWD  
+&RQ REMHWR GH GDU FXPSOLPLHQWR D OR HVWDEOHFLGR HQ HO
+5HJODPHQWR 8( GHO3DUODPHQWR(XURSHR\GHO
+&RQVHMR GH  GH DEULO GH  5*3'  \ HQ OD /H\
+2UJiQLFDGHGHGLFLHPEUHGH3URWHFFLyQGH'DWRV
+3HUVRQDOHV \ JDUDQWtD GH ORV GHUHFKRV GLJLWDOHV OH
+LQIRUPDPRVTXHORVGDWRVTXHXVWHGQRVIDFLOLWDYDQDVHU
+LQFOXLGRV HQ HO ILFKHUR 7 *(67,Ï1 '(
+68%9(1&,21(6'(/'(3$57$0(172'(,*8$/'$'
+(86.(5$ < *2%(51$1=$  WLWXODULGDG GH 'LSXWDFLyQ
+)RUDO GH ÈODYD FX\RV WUDWDPLHQWRV VH UHDOL]DQ SDUD OD
+JHVWLyQGHODVDFWLYLGDGHVGHSURPRFLyQGHOXVRGHOHXVNHUD
+HQHO7HUULWRULR+LVWyULFRGHÈODYD
+*DUDQWL]DPRVODFRQILGHQFLDOLGDG GH VXVGDWRVQRVLHQGR
+FRPXQLFDGRV D WHUFHUDV SHUVRQDV IXHUD GH ORV VXSXHVWRV
+KDELOLWDGRVOHJDOPHQWH
+8VWHGSRGUiHMHUFLWDUVXVGHUHFKRVGHDFFHVRUHFWLILFDFLyQ
+VXSUHVLyQ RSRVLFLyQ \ OLPLWDFLyQ TXH UHFRQRFH HO 5*3'
+GLULJLpQGRVHDOD2ILFLQDGH5HJLVWURGHOD'LSXWDFLyQ)RUDO
+GH ÈODYD 3OD]D GH OD 3URYLQFLD  &3  9LWRULD 
+*DVWHL]
+ÈODYD 3DUD
+PiV
+LQIRUPDFLyQ
+KWWSZZZDUDEDHXVZHE$YLVR/HJDO$PSOLDGR
+
+
+
+
+
+
+2UULD◼+RMD
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
++HOGXHQ HXVNDOGXQW]HD VXVWDW]HNR GLUXODJXQW]HWDQ HUDNXQGH
+ODJXQW]DLOHJLVDSDUWHKDUW]HNRHVNDHUD
+
+6ROLFLWXGGHLQFRUSRUDFLyQFRPRHQWLGDGFRODERUDGRUDHQOD
+FRQYRFDWRULDGHVXEYHQFLRQHVGHVWLQDGDVDLQFHQWLYDUOD
+HXVNDOGXQL]DFLyQGHSHUVRQDVDGXOWDV
+%HUGLQWDVXQ(XVNDUDHWD*REHUQDQW]D6DLOD
+'HSDUWDPHQWRGH,JXDOGDG(XVNHUD\*REHUQDQ]D
+(XVNDUDHWD*REHUQX,UHNLDUHQ=X]HQGDULW]D
+'LUHFFLyQGH(XVNHUD\*RELHUQR$ELHUWR
+
+ 
+
+
+ 
+
+
+
+
+ 
+(VNDHUD]N
+16ROLFLWXG
+
+
+,,(5$16.,1$$1(;2,,
+(VNDHUDGDWD
+)HFKD
+6ROLFLWXG
+
+ 
+$GPLQLVWUD]LRDNEHWHW]HNR
+$FXPSOLPHQWDUSRUOD
+$GPLQLVWUDFLyQ 
+
+(6.$7=$,/($
+62/,&,7$17(  
+
+(XVNDOWHJLDNEHWHW]HNR
+$UHOOHQDUSRUHOHXVNDOWHJL
+
+,GHQWLILND]LR]N
+1
+LGHQWLILFDWLYR
+
+,]HQDHGRVR]LHWDWHDUHQL]HQD
+1RPEUHRUD]yQVRFLDO
+
+
+
+=N
+1~P
++HOELGHD NDOHD 
+'RPLFLOLR FDOOH 
+
+
+ 
+/HWUD
+
+(VNUD
+6RODLUXD
+
+ 
+
+(VFDO
+3LVR
++L]NLD
+
+ 
+ 
+ 
+ 
+
+$OGHD
+0DQR
++HUULDOGHD
+3DtV
+/XUUDOGH+LVWRULNRD
+
+ 8GDOHUULD
+0XQLFLSLR
+7HUULWRULR+LVWyULFR
+ +HUULD
+/RFDOLGDG
+
+3.
+
+&3
+
+ 
+ 
+ 
+ 
+7HOHIRQRD
+
+7HOpIRQR
+ 0XJLNRUUD
+0yYLO
+ )D[D
+)D[
+
+
+ 
+ 
+ 
+3RVWDHOHNWURQLNRD
+&RUUHR
+HOHFWUyQLFR
+
+/(*(=.225'(=.$5,$
+5(35(6(17$17(/(*$/
+3HUWVRQDMXULGLNRHQW]DWQDKLWDH]NRDGD
+2EOLJDWRULRSDUDODVSHUVRQDVMXUtGLFDV 
+
+
+
+,GHQWLILND]LRDJLULD
+'RFXPHQWR
+,GHQWLILND]LR]N
+1
+
+ 6H[XD
+6H[R 
+LGHQWLILFDWLYR
+LGHQWLILFDWLYR
+
+
+1$1
+$,=
+%HVWHUHQ
+*L]RQD
+ 
+
+(PDNXPHD
+'1,
+1,(
+EDW
++RPEUH
+0XMHU
+/HKHQDEL]HQD
+3ULPHU
+%LJDUUHQDEL]HQD
+6HJXQGR
+2WUR
+,]HQD
+1RPEUH
+
+
+DSHOOLGR
+DSHOOLGR
+
+
+
+
+
+
+ 
+3URWRNROR]N
+1SURWRFROR
+
+ 'DWD
+)HFKD
+ 
+
+ 1RWDULRD
+1RWDULR
+
+ 
+ 
+7HOHIRQRD
+
+7HOpIRQR
+ 0XJLNRUUD
+0yYLO
+ )D[D
+)D[
+
+
+ 
+ 
+ 
+
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+3RVWDHOHNWURQLNRD
+&RUUHR
+HOHFWUyQLFR
+2UULD◼+RMD
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
++HOGXHQ HXVNDOGXQW]HD VXVWDW]HNR GLUXODJXQW]HWDQ HUDNXQGH
+ODJXQW]DLOHJLVDSDUWHKDUW]HNRHVNDHUD
+
+6ROLFLWXGGHLQFRUSRUDFLyQFRPRHQWLGDGFRODERUDGRUDHQOD
+FRQYRFDWRULDGHVXEYHQFLRQHVGHVWLQDGDVDLQFHQWLYDUOD
+HXVNDOGXQL]DFLyQGHSHUVRQDVDGXOWDV
+%HUGLQWDVXQ(XVNDUDHWD*REHUQDQW]D6DLOD
+'HSDUWDPHQWRGH,JXDOGDG(XVNHUD\*REHUQDQ]D
+(XVNDUDHWD*REHUQX,UHNLDUHQ=X]HQGDULW]D
+'LUHFFLyQGH(XVNHUD\*RELHUQR$ELHUWR
+
+,,(5$16.,1$$1(;2,,
+
+-$.,1$5$=3(1$.
+127,),&$&,21(6
+
+$GPLQLVWUD]LR 3XEOLNRHQ $GPLQLVWUD]LR 3UR]HGXUD (UNLGHDUHQ XUULDUHQ HNR  /HJHDUHQ 
+DUWLNXOXDQ DXUUHLNXVLWDNRDUHQ DUDEHUD MDNLQDUD]SHQ HOHNWURQLNRDN $UDEDNR )RUX $OGXQGLDUHQ HJRLW]D
+HOHNWURQLNRDQ DJHUW]HNR VLVWHPDUHQ ELGH] HJLQJR GLUD +DUW]DLOHHN HJRLW]D HOHNWURQLNR KRUUHWDNR QLUH
+MDNLQDUD]SHQDNDWDOHDQHVNXUDWXDKDOL]DQJRGLWX]WH
+
+-DNLQDUD]SHQ HOHNWURQLNRDN HVNXUDWX DKDO L]DQJR GLWX]WH KDUW]DLOHHN HWDHGR KDOD EDGDJRNLR KDLHN
+JDLWXWDNRSHUWVRQHN
+
+(UDNXQGH HVNDW]DLOHDN JDLOX HOHNWURQLNR EDW HWDHGR KHOELGH HOHNWURQLNR EDW LGHQWLILNDWX DKDO L]DQJR GX
+DELVXDNELGDOW]HNREDOLRNRGXHQDHJRLW]DHOHNWURQLNRDQMDNLQDUD]SHQEDWHVNXUDJDUULMDUULGHODMDNLQDUD]L]
++DODHUHRKDUKRULHJLWHQH]EDGDHUHMDNLQDUD]SHQDJX]WL]EDOLR]NRDL]DQJRGD
+
+&RQIRUPH D OR SUHYLVWR HQ HO DUWtFXOR  GH OD /H\  GH  GH RFWXEUH GHO 3URFHGLPLHQWR $GPLQLVWUDWLYR
+&RP~Q GH ODV $GPLQLVWUDFLRQHV 3~EOLFDV  ODV QRWLILFDFLRQHV HOHFWUyQLFDV VH SUDFWLFDUiQ SRU HO VLVWHPD GH
+FRPSDUHFHQFLDHQVHGHHOHFWUyQLFDGHOD'LSXWDFLyQ)RUDOGHÈODYD/DVSHUVRQDVGHVWLQDWDULDVSRGUiQDFFHGHUD
+ellas en el apartado “Mis notificaciones” de dicha sede electrónica.
+
+3RGUiQ DFFHGHU D ODV QRWLILFDFLRQHV HOHFWUyQLFDV ODV SHUVRQDV GHVWLQDWDULDV GH ODV PLVPDV \R HQ VX FDVR ODV
+SHUVRQDVKDELOLWDGDVSRUHOODV
+
+/D HQWLGDG VROLFLWDQWH SRGUi LGHQWLILFDU XQ GLVSRVLWLYR HOHFWUyQLFR \R XQD GLUHFFLyQ GH FRUUHR HOHFWUyQLFR TXH
+VHUYLUiQ SDUD HO HQYtR GH ORV DYLVRV LQIRUPiQGROH GH OD SXHVWD D GLVSRVLFLyQ GH XQD QRWLILFDFLyQ HQ OD VHGH
+HOHFWUyQLFD 1R REVWDQWH OD IDOWD GH SUiFWLFD GH HVWH DYLVR QR LPSHGLUi TXH OD QRWLILFDFLyQ VHD FRQVLGHUDGD
+SOHQDPHQWHYiOLGD
+
+
+3RVWDHOHNWURQLNRD
+&RUUHR(OHFWUyQLFR
+ 7HOHIRQRPXJLNRU]HQEDNLD
+1~PHURGHWHOpIRQRPyYLO
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2UULD◼+RMD
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
++HOGXHQ HXVNDOGXQW]HD VXVWDW]HNR GLUXODJXQW]HWDQ HUDNXQGH
+ODJXQW]DLOHJLVDSDUWHKDUW]HNRHVNDHUD
+
+6ROLFLWXGGHLQFRUSRUDFLyQFRPRHQWLGDGFRODERUDGRUDHQOD
+FRQYRFDWRULDGHVXEYHQFLRQHVGHVWLQDGDVDLQFHQWLYDUOD
+HXVNDOGXQL]DFLyQGHSHUVRQDVDGXOWDV
+%HUGLQWDVXQ(XVNDUDHWD*REHUQDQW]D6DLOD
+'HSDUWDPHQWRGH,JXDOGDG(XVNHUD\*REHUQDQ]D
+(XVNDUDHWD*REHUQX,UHNLDUHQ=X]HQGDULW]D
+'LUHFFLyQGH(XVNHUD\*RELHUQR$ELHUWR
+
+,,(5$16.,1$$1(;2,,
+
+%$1.8(1'$78$. +,58*$55(1(1),7;$    '$726%$1&$5,26 ),&+$'(7(5&(526   
+
+$XUUHWLN$UDEDNR)RUX$OGXQGLDUHQGLUXVDUUHUDULNMDVRH]EDGDHGREDQNXKHOELGHUDW]HDUHQGDWXDNDOGDW]HQ
+EDGLUDVRLOLNEHWHEHKDUNRGD &XPSOLPHQWDU~QLFDPHQWHHQFDVRGHQRKDEHUSHUFLELGRDQWHULRUPHQWHQLQJ~Q
+LQJUHVRGHOD'LSXWDFLyQ)RUDOGHÈODYDRHQFDVRGHPRGLILFDFLyQGHORVGDWRVGHODGRPLFLOLDFLyQEDQFDULD
+
+%$1&2
+,%$1
+
+
+
+6:,)7
+                                            
+
+),1$17=$(17,7$7($.EHWHEHKDUGX 
+
+$UHOOHQDUSRUOD(17,'$'),1$1&,(5$ 
+
+)LQDQW]DHQWLWDWHDUHQDGRVWDVXQD VLQDGXUD
+
+HWD]LJLOXD 
+&RQIRUPHHQWLGDGILQDQFLHUD ILUPD\VHOOR 
+
+
+……………………
+………..(e)ko……………………..aren…………
+… H DQ
+
+
+En…………………………………., a………
+de…………………de………….
+
+
+)LQDQW]D HUDNXQGHDN =,857$7=(1 GX
+OHKHQ
+DGLHUD]LWDNR
+EDQNX
+NRQWXD
+“ESKATZAILEA"
+atalean
+ageri
+den
+SHUWVRQDILVLNRHGRMXULGLNRLQWHUHVGXQDUHQ
+L]HQHDQ HWD ,)=DUHNLQ GDJRHOD LUHNLWD HWD
+SHUWVRQD LQWHUHVGXQ KRUL NRQWXDUHQ WLWXODU
+JLVDDJHULGHOD
+
+
+/D HQWLGDG ILQDQFLHUD &(57,),&$ TXH OD
+FXHQWDEDQFDULDDQWHULRUPHQWHVHxDODGDILJXUD
+DELHUWDDO1,)\QRPEUHGHODSHUVRQDItVLFDR
+MXUtGLFD LQWHUHVDGD TXH ILJXUD HQ HO DSDUWDGR
+“SOLICITANTE”, y que dicha persona
+LQWHUHVDGDILJXUDFRPRWLWXODUGHODFXHQWD
+
+(6.$7=$,/($.EHWHEHKDUGX 
+
+$UHOOHQDUSRUODSHUVRQD62/,&,7$17( 
+
++LUXJDUUHQLQWHUHVGXQDUHQVLQDGXUDHGRWD
+
+HQWLWDWHDUHQ]LJLOXD
+)LUPDGHODSHUVRQDLQWHUHVDGD\RVHOORGHOD
+HQWLGDGLQWHUHVDGD
+
+……………………
+………..(e)ko……………………..aren…………
+… H DQ
+
+
+En…………………………………., a………
+de…………………de………….
+
+
+$',(5$=,%,$8.(5(7$.2%$7
+☐ $OWD HVNDW]HQ GD $UDEDNR )RUX
+$OGXQGLDUHQ
+KLUXJDUUHQ
+PRGXDQ
+(6.$(5$ +21, ,)=5(1 )272.23,$
+(5$176,7$
+☐ %DQNXNR GDWXDN HJXQHUDW]HD HVNDW]HQ
+GD GDJRHQHNR DOWDQ HJRQLN $UDEDNR )RUX
+DOGXQGLDUHQKLUXJDUUHQPRGXDQ
+
+,1',&$581$'(/$6'2623&,21(6
+☐ 6H VROLFLWD HO DOWD FRPR 7HUFHUR GH OD
+'LSXWDFLyQ )RUDO GH ÈODYD SDUD OR FXDO 6(
+$'-817$ )272&23,$ '(/ 1,) $ /$
+35(6(17(62/,&,78'
+
+☐ 6H VROLFLWD OD SXHVWD DO GtD GH ORV GDWRV
+EDQFDULRV FRPR 7HUFHUR GH OD 'LSXWDFLyQ
+)RUDOGHÈODYD\DGDGRGHDOWD
+
+
+
+
+
+2UULD◼+RMD
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
++HOGXHQ HXVNDOGXQW]HD VXVWDW]HNR GLUXODJXQW]HWDQ HUDNXQGH
+ODJXQW]DLOHJLVDSDUWHKDUW]HNRHVNDHUD
+
+6ROLFLWXGGHLQFRUSRUDFLyQFRPRHQWLGDGFRODERUDGRUDHQOD
+FRQYRFDWRULDGHVXEYHQFLRQHVGHVWLQDGDVDLQFHQWLYDUOD
+HXVNDOGXQL]DFLyQGHSHUVRQDVDGXOWDV
+%HUGLQWDVXQ(XVNDUDHWD*REHUQDQW]D6DLOD
+'HSDUWDPHQWRGH,JXDOGDG(XVNHUD\*REHUQDQ]D
+(XVNDUDHWD*REHUQX,UHNLDUHQ=X]HQGDULW]D
+'LUHFFLyQGH(XVNHUD\*RELHUQR$ELHUWR
+
+,,(5$16.,1$$1(;2,,
+
+
+(6.$7=(1'862/,&,7$
+
++HOGXHQHXVNDOGXQW]HDVXVWDW]HNRGLUXODJXQW]HQNXGHDNHWDQHUDNXQGHODJXQW]DLOHJLVDVDUW]HD
+/D LQFRUSRUDFLyQ FRPR HQWLGDG FRODERUDGRUD HQ OD JHVWLyQ GH ODV D\XGDV HFRQyPLFDV GHVWLQDGDV D LQFHQWLYDU OD
+HXVNDOGXQL]DFLyQGHSHUVRQDVDGXOWDV
+
+
+
+
+
+
+7RNLDHWDGDWD
+/XJDU\IHFKD 
+
+
+
+
+
+2UGH]NDULDUHQVLQDGXUD
+)LUPDGHOODUHSUHVHQWDQWH
+
+
+(5$17=8.,=813(.2'(./$5$=,2$
+
+
+$GLHUD]WHQ GXW HUDNXQGH ODJXQW]DLOH L]DWHNR GHLDOGLDQ HVNDW]HQ
+GLUHQ EDOGLQW]DN EHWHW]HQ GLWXGDOD HWD EDLPHQD HPDWHQ GLRW
+(XVNDUDUHQ )RUX =HUELW]XDUL RIL]LR] HJLD]WD GH]DQ KRQDNR
+EDOGLQW]DKDXHNEHWHW]HQGLUHOD
++$%(NKRPRORJDW]HDHWDGDJRNLRQHUUHJLVWURDQLQVNULEDW]HD
+2UGH]NDW]HQGXGDQHUDNXQGHDN]HUJDEHWHEHKDUUDNHWD*L]DUWH
+6HJXUDQW]DUHNLNRDNHJXQHDQL]DWHD
+
+
+
+(UDEHUHDQEHUGLQWDVXQDUHQDUORNRDUDXGLDEHWH]KDXDGLHUD]WHQ
+GXW
+
+ (] RUGH]NDW]HQ GXGDQ HUDNXQGHDN H] RUGH]NDW]HQ GXGDQ
+HUDNXQGHDUHQ JREHUQX HGR DGPLQLVWUD]LRRUJDQRHWDNR NLGH GHQ
+SHUWVRQD MXULGLNR HGR HUDNXQGHUHQ EDWHN RQDUSHQSUR]HVXHWDQ
+HGR IXQW]LRQDPHQGXDQ VH[XDJDWLNR ]X]HQHNR HGRHWD ]HKDUNDNR
+GLVNULPLQD]LRHNLQW]DN HJLWHQ GLWXHQLN '/2UHQ  DUWLNXOXDQ HWD
+(XVNDGLNR %HUGLQWDVXQHUDNR /HJHDUHQ  DUWLNXOXDQ  
+[HGDWXWDNRDUHQDUDEHUD
+
+ (] RUGH]NDW]HQ GXGDQ HONDUWH HGR HUDNXQGHDN H] HWD KDUHQ
+JREHUQX HGR DGPLQLVWUD]LRRUJDQRHWDNR NLGH GHQ LQRUN HUH H]
+GXHOD ]LJRU DGPLQLVWUDWLERULN HGR SHQDOLN MDVR DEX]WXDUHQ NR
+ /HJHJLQW]DNR (UUHJH 'HNUHWXDN RQDUWXWDNR /DQDUORNR
+$UDXKDXVWH HWD =HKDSHQHL EXUX]NR /HJHDUHQ 7HVWX %DWHJLQHWLN
+HUDWRUULWDNR VH[XEHUHL]NHULDJDWLN HWDHGR HPDNXPHHQ HWD
+JL]RQHQEHUGLQWDVXQDUHQDUORNRDUDXKDXVWHHQJDWLN
+2KDUUD  
+(XURSDNR 3DUODPHQWXDUHQ HWD .RQWVHLOXDUHQ
+NR DSLULODUHQ NR  (% 
+(UUHJHODPHQGXDQ
+'%(2 
+HWD
+'DWX
+3HUWVRQDODN%DEHVWHDULHWDHVNXELGHGLJLWDODN
+EHUPDW]HDULEXUX]NRDEHQGXDUHQHNR
+/HJH 2UJDQLNRDQ H]DUULWDNRD EHWHW]H DOGHUD
+MDNLQDUD]WHQ GL]XJX ]XN HPDWHQ GL]NLJX]XQ
+GDWXDN
+$UDEDNR
+)RUX
+$OGXQGLDUHQ
+WLWXODUWDVXQHNR
+7
+%(5',17$681
+(86.$5$ (7$ *2%(51$17=$ 6$,/$.
+,=$3,'(787$.2
+',58/$*817=$.
+.8'($7=($ ILW[DWHJLDQ VDUWXNR GLUHOD
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+'(&/$5$&,Ï15(63216$%/(
+
+'HFODURTXHFXPSORORVUHTXLVLWRVH[LJLGRVHQODFRQYRFDWRULD
+SDUDVHUHQWLGDGFRODERUDGRUD\DXWRUL]RDO6HUYLFLR)RUDOGH
+(XVNHUDDUHDOL]DUGHRILFLRODFRPSUREDFLyQGHOFXPSOLPLHQWRGH
+ORVVLJXLHQWHVUHTXLVLWRV
+
++RPRORJDFLyQSRU+$%(HLQVFULSFLyQHQHO
+FRUUHVSRQGLHQWHUHJLVWUR
+
+(VWDUDOGtDHQHOFXPSOLPLHQWRGHODVREOLJDFLRQHV
+WULEXWDULDV\FRQOD6HJXULGDG6RFLDOGHODHQWLGDGDOD
+TXHUHSUHVHQWR
+
+$VLPLVPRHQFXPSOLPLHQWRGHODQRUPDWLYDHQPDWHULDGH
+LJXDOGDG'(&/$52
+
+4XHQLODRUJDQL]DFLyQDODTXHUHSUHVHQWRQLSHUVRQDMXUtGLFDR
+HQWLGDGDOJXQDGHODVTXHIRUPDQSDUWHGHORVyUJDQRVGH
+JRELHUQRRDGPLQLVWUDFLyQGHODHQWLGDGDODTXHUHSUHVHQWR
+UHDOL]DPRVDFWRVGHGLVFULPLQDFLyQGLUHFWD\RLQGLUHFWDSRUUD]yQ
+GHVH[RHQORVSURFHVRVGHDGPLVLyQRHQHOIXQFLRQDPLHQWRGH
+FRQIRUPLGDGFRQORHVWLSXODGRHQHODUWtFXORGHOD/*6\
+DUWtFXOR  GHOD/H\GH,JXDOGDGGH(XVNDGL
+
+4XHQLODDVRFLDFLyQXRUJDQL]DFLyQDODTXHUHSUHVHQWRQL
+SHUVRQDDOJXQDGHODVTXHIRUPDQSDUWHGHVXVyUJDQRVGH
+JRELHUQRRDGPLQLVWUDFLyQKDQVLGRVDQFLRQDGDVSHQDO\R
+DGPLQLVWUDWLYDPHQWHSRUGLVFULPLQDFLyQSRUUD]yQGHVH[R\RSRU
+LQIUDFFLRQHVHQPDWHULDGHLJXDOGDGHQWUHPXMHUHV\KRPEUHV
+GHULYDGDVGHO7H[WR5HIXQGLGRGHOD/H\GH,QIUDFFLRQHV\
+6DQFLRQHVHQHO2UGHQ6RFLDODSUREDGRSRU5HDO'HFUHWR
+/HJLVODWLYRGHGHDJRVWR
+
+
+1RWD  
+&RQ REMHWR GH GDU FXPSOLPLHQWR D OR
+HVWDEOHFLGR HQ HO 5HJODPHQWR 8(  
+GHO 3DUODPHQWR (XURSHR \ GHO &RQVHMR GH 
+GHDEULOGH 5*3' \HQOD/H\2UJiQLFD
+ GH  GH GLFLHPEUH GH 3URWHFFLyQ GH
+'DWRV 3HUVRQDOHV \ JDUDQWtD GH ORV GHUHFKRV
+GLJLWDOHV OH LQIRUPDPRV TXH ORV GDWRV TXH
+XVWHG QRV IDFLOLWD YDQ D VHU LQFOXLGRV HQ HO
+ILFKHUR 7 *(67,Ï1 '( 68%9(1&,21(6
+'(/ '(3$57$0(172 '( ,*8$/'$'
+(86.(5$ < *2%(51$1=$ WLWXODULGDG GH
+'LSXWDFLyQ )RUDO GH ÈODYD FX\RV WUDWDPLHQWRV
+2UULD◼+RMD
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
++HOGXHQ HXVNDOGXQW]HD VXVWDW]HNR GLUXODJXQW]HWDQ HUDNXQGH
+ODJXQW]DLOHJLVDSDUWHKDUW]HNRHVNDHUD
+
+6ROLFLWXGGHLQFRUSRUDFLyQFRPRHQWLGDGFRODERUDGRUDHQOD
+FRQYRFDWRULDGHVXEYHQFLRQHVGHVWLQDGDVDLQFHQWLYDUOD
+HXVNDOGXQL]DFLyQGHSHUVRQDVDGXOWDV
+%HUGLQWDVXQ(XVNDUDHWD*REHUQDQW]D6DLOD
+'HSDUWDPHQWRGH,JXDOGDG(XVNHUD\*REHUQDQ]D
+(XVNDUDHWD*REHUQX,UHNLDUHQ=X]HQGDULW]D
+'LUHFFLyQGH(XVNHUD\*RELHUQR$ELHUWR
+)LW[DWHJL KRUUHQ WUDWDPHQGXDN $UDEDNR
+/XUUDOGH +LVWRULNRDQ HXVNDUDUHQ HUDELOHUD
+VXVWDW]HNR MDUGXHUDN NXGHDW]HNR HJLWHQ GLUD
+=XUH GDWXHQ NRQILGHQW]LDOWDVXQD EHUPDW]HQ
+GXJXHWDH]]DL]NLHKLUXJDUUHQHLMDNLQDUD]WHQ
+OHJH]JDLWXWDNRNDVXHWDWLNNDQSR
+
+'DWXDN DW]LW]HNR H]DEDW]HNR DXUNDUDW]HNR
+HWDPXJDW]HNRHVNXELGHDNEDOLDWXDKDOL]DQJR
+GLWX]X '%(2N DLWRUW]HQ GLWXHQ HVNXELGHH]
+EDOLDW]HNR +RUUHWDUDNR $UDEDNR )RUX
+$OGXQGLNR (UUHJLVWUR %XOHJRUD MR EHKDUNR
+GX]X 3URELQW]LD SOD]D  3.  9LWRULD
+*DVWHL]  $UDED  ,QIRUPD]LR JHKLDJR QDKL
+L]DQH]JHUR
+KWWSVZHEDUDEDHXVHXWUDWDPHQGXHQOHJH
+RKDUKHGDWXD
+
+2KDUUD  
+=XNHPDQGDNREDQNXGDWXDNKLUXJDUUHQHQHWD
+LQWHUHVGXQHQILW[DWHJLDQHUUHJLVWUDWXNRGLUD
+]HLQD$GPLQLVWUD]LRKRQHQWLWXODULWDWHNRD
+EDLWDDXUUHNRQWXJDX]DW]HDULHWDDXUUHNRQWX]
+NDQSRNRJDX]DW]HDULGDJR]NLRQHUDJLNHWHQ
+L]DSLGHDNHJLWHNR$WDOKRQHWDQHPDQGDNR
+GDWXDNH]GLUDWUDWDWXNRHGRNRPXQLNDWXNR
+EDOGLQHWDOHKHQDJRHJLQGDNRRUGDLQNHWHQ
+RQGRULR]GDJRHQHNRDOWDHPDQED]DLH
+LGHQWLILND]LRHWDEDQNXGDWXHLEHUULURHUH
+NREUDW]HDKDXWDW]HNRHPDQGLUHQHL
+
+
+,,(5$16.,1$$1(;2,,
+VH UHDOL]DQ SDUD OD JHVWLyQ GH ODV DFWLYLGDGHV
+GH SURPRFLyQ GHO XVR GHO HXVNHUD HQ HO
+7HUULWRULR+LVWyULFRGHÈODYD
+*DUDQWL]DPRV OD FRQILGHQFLDOLGDG GH VXV
+GDWRV QR VLHQGR FRPXQLFDGRV D WHUFHUDV
+SHUVRQDV IXHUD GH ORV VXSXHVWRV KDELOLWDGRV
+OHJDOPHQWH
+8VWHGSRGUiHMHUFLWDUVXVGHUHFKRVGHDFFHVR
+UHFWLILFDFLyQ VXSUHVLyQ RSRVLFLyQ \ OLPLWDFLyQ
+TXH UHFRQRFH HO 5*3' GLULJLpQGRVH D OD
+2ILFLQD GH 5HJLVWUR GH OD 'LSXWDFLyQ )RUDO GH
+ÈODYD 3OD]D GH OD 3URYLQFLD  &3 
+9LWRULD  *DVWHL] ÈODYD  3DUD PiV
+LQIRUPDFLyQ
+
+KWWSVZHEDUDEDHXVHVDYLVROHJDODPSOLDGR
+
+1RWD  
+/RVGDWRVEDQFDULRVIDFLOLWDGRVSRUXVWHGVH
+UHJLVWUDUiQHQHO)LFKHURGH7HUFHURVH
+LQWHUHVDGRVWLWXODULGDGGHHVWD$GPLQLVWUDFLyQ
+SDUDUHDOL]DUODWUDPLWDFLyQGHRSHUDFLRQHVGH
+HMHFXFLyQSUHVXSXHVWDULD\
+H[WUDSUHVXSXHVWDULD1RVHWUDWDUiQQL
+FRPXQLFDUiQORVGDWRVFXPSOLPHQWDGRVHQ
+HVWHDSDUWDGRVLFRPRFRQVHFXHQFLDGHSDJRV
+UHDOL]DGRVFRQDQWHULRULGDG\DHVWXYLHUDQ
+GDGRVGHDOWDORVGDWRVLGHQWLILFDWLYRV\
+EDQFDULRVSRUORVTXHGHQXHYRVHRSWDUDSDUD
+HOFREUR
+2UULD◼+RMD
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
+III. ERANSKINA/ ANEXO III
+Euskaltegiekin sinatzeko lan-hitzarmen orokorraren eredua
+Modelo de Convenio de colaboración general para suscribir con Euskaltegis
+BERDINTASUN, EUSKARA ETA
+GOBERNANTZA SAILAREN ETA
+XXXX EUSKALTEGIAREN ARTEKO
+LANKIDETZA HITZARMENA,
+HELDUEN EUSKALDUNTZEA
+SUSTATZEKO BIDERATUTAKO 20262027 IKASTURTEKO
+DIRULAGUNTZAK KUDEATZEKO.
+CONVENIO DE COLABORACIÓN ENTRE
+EL DEPARTAMENTO DE IGUALDAD,
+EUSKERA Y GOBERNANZA Y EL
+EUSKALTEGI XXXX, PARA LA GESTIÓN
+DE LAS AYUDAS DESTINADAS A
+INCENTIVAR LA EUSKALDUNIZACIÓN
+DE PERSONAS ADULTAS, CURSO 20262027
+Gasteiz, xxxx(e)ko xxxxaren xx(a).
+En Vitoria – Gasteiz, a xx de xx de xxxx
+ESKU HARTU DUTE
+INTERVIENEN
+Alde batetik, Iñaki Gurtubai Artetxe,
+Arabako Foru Aldundiko Berdintasun,
+Euskara eta Gobernantzako foru-diputatua,
+Ahaldun Nagusiaren azaroaren 27ko
+172/2024 Foru Dekretuaren bidez izendatua,
+Arabako Foru Aldundiaren Gobernu,
+Antolaketa eta Araubide Juridikoari buruzko
+martxoaren 15eko 10/2023 Foru Arauak
+emandako ahalmenen arabera jarduten
+duena.
+De una parte, Iñaki Gurtubai Artetxe, diputado
+foral de Igualdad, Euskera y Gobernanza de la
+Diputación Foral de Álava, nombrado mediante
+Decreto Foral 172/2024 del Diputado General,
+de 27 de noviembre y que actúa en virtud de las
+facultades conferidas por la Norma Foral
+10/2023, de 15 de marzo, de gobierno,
+organización y régimen jurídico de la
+Diputación Foral de Álava.
+Bestetik, XXXX jauna/andrea, XXXXren De otra parte, D/Dª XXXX, representante legal
+legezko ordezkaria, XXXX(e)k emandako de XXXX, según poder conferido XXXX.
+boterearen arabera.
+Bi ordezkariek gaitasun juridiko nahikoa
+aitortzen diote elkarri, eta adostu dute
+sinatzea dokumentu honetan jasotzen den
+konpromisoa, hitzarmen hau elkarrekin
+izenpetuta.
+Ambos
+representantes
+se
+reconocen
+mutuamente capacidad jurídica suficiente y
+acuerdan suscribir el compromiso que se recoge
+en el presente documento mediante la
+suscripción conjunta del presente convenio.
+ADIERAZTEN DUTE
+EXPONEN
+1.- Arabako Foru Aldundiko Berdintasun,
+Euskara
+eta
+Gobernantzako
+foru
+diputatuaren Sailak euskara sustatzeko
+hainbat ekintza eta programa sustatzen ditu,
+euskara ikasten ahalegintzen diren pertsonei
+laguntzeko neurriak bultzatuz.
+1.- Que el Departamento del diputado foral de
+Igualdad, Euskera y Gobernanza de la
+Diputación Foral de Álava promueve diversas
+acciones y programas de promoción del
+euskera, impulsando medidas que redunden en
+apoyar a aquellas personas que se esfuerzan en
+el aprendizaje del euskera.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
+2.- Berdintasun, Euskara eta Gobernantzako
+foru diputatuaren XXX Foru Aginduaren
+bidez, 2026-2027 ikasturterako helduen
+euskalduntzea sustatzeko diru-laguntzen
+deialdi publikoa onartu da, norgehiagokaaraubidean,
+2026-2027
+ikasturterako.
+Arabako
+euskaltegietan
+2026-2027
+ikasturtean matrikulatzen diren Araban edo
+Trebiñun erroldatutako 18 urtetik gorako
+pertsonen euskalduntzea sustatzea du xede
+deialdi horrek, eta prozeduraren instrukzioorgano izendatu du Euskara eta Gobernu
+Irekiaren Zuzendaritza.
+2.- Que mediante Orden Foral del diputado de
+Igualdad, Euskera y Gobernanza, XXX, se ha
+aprobado la convocatoria de ayudas
+económicas, en régimen de concurrencia
+competitiva, destinadas a incentivar la
+euskaldunización de personas adultas, curso
+2026-2027, cuyo objeto es el de incentivar la
+euskaldunización de las personas mayores de
+18 años empadronadas en Álava o Treviño que
+se matriculen en el curso 2026-2027 en los
+euskaltegis de Álava, nombrando órgano de
+instructor del procedimiento a la dirección de
+Euskera y Gobierno Abierto del Departamento
+de Igualdad, Euskera y Gobernanza.
+3.- Deialdi horretako bosgarren klausulak
+erakunde laguntzaileekin aritzeko aukera
+aurreikusten du, xedapen honetan ezarritako
+baldintzak betetzen dituzten pertsona
+matrikulatuen eskaerak kudeatu eta
+izapidetzeko.
+3.- Que la cláusula quinta de la mencionada
+convocatoria contempla la posibilidad de contar
+con entidades colaboradoras para la gestión y
+tramitación de las solicitudes de las personas
+matriculadas que cumplan los requisitos
+establecidos en esta disposición.
+4.- Ikasleak matrikulatzen diren euskaltegiek 4.- Que teniendo en cuenta que los euskaltegis
+kudeatu eta izapidetu ditzakete eraginkorren en los que se matriculen las y los alumnos son
+eskaerak.
+quienes de forma más eficaz pueden realizar la
+gestión y la tramitación de las solicitudes.
+5.- Horregatik guztiagatik, Arabako Lurralde
+Historikoko Dirulaguntzei buruzko urriaren
+19ko 11/2016 Foru Arauak 15. artikuluan
+xedatutakoarekin bat etorriz adosten dute bi
+aldeek lankidetza hitzarmen hau sinatzea,
+zeina klausula hauen arabera arautuko baita
+KLAUSULAK
+5.- Por todo lo expuesto ambas partes acuerdan
+de conformidad con lo dispuesto en el artículo
+15 de la Norma Foral 11/2016, de 19 de octubre,
+de Subvenciones del Territorio Histórico de
+Álava, suscribir el presente convenio de
+colaboración que se regirá por las siguientes
+CLÁUSULAS
+Lehenengoa. Hitzarmen honen bidez,
+Berdintasun, Euskara eta Gobernantza
+diputatuaren
+sailaren
+eta
+XXXX
+euskaltegiaren arteko lankidetza bidea ezarri
+nahi da, helduen euskalduntzea sustatzeko
+bideratutako
+2026-2027
+ikasturteko
+dirulaguntzak kudeatu eta izapidetzeko.
+Primera. El presente convenio pretende
+establecer el cauce de colaboración entre el
+Departamento del diputado foral de Igualdad,
+Euskera y Gobernanza y el euskaltegi
+XXXXXX, para la gestión y tramitación de las
+ayudas económicas destinadas a incentivar la
+euskaldunización de personas adultas, curso
+2026-2027.
+Lankidetza hori 2026-2027 ikasturteko
+laguntzak kudeatzera zabaltzen da, bai eta
+hitzarmenaren indarraldian egon daitezkeen
+laguntzetara ere.
+La colaboración se extiende a la gestión de las
+ayudas correspondiente al curso 2026-2027, así
+como a las que puedan darse durante el periodo
+de vigencia del convenio.
+Bigarrena.
+Erakunde
+laguntzailearen Segunda. La función de la entidad colaboradora
+eginkizuna izango da Berdintasun, Euskara consistirá en proceder a la gestión y tramitación
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
+eta Gobernantza Saileko foru diputatuaren
+XXX Foru Aginduan ezarritako baldintzak
+betetzen dituzten pertsona matrikulatuen
+eskaerak kudeatu eta izapidetzea.
+de las solicitudes de las personas matriculadas
+que cumplan los requisitos establecidos en la
+Orden Foral del diputado foral de Igualdad,
+Euskera y Gobernanza, XXX.
+Hirugarrena. Euskaltegi bakoitzak 2024ko
+urriaren 25 baino lehen aurkeztu beharko du
+Euskararen Foru Zerbitzuan laguntza honen
+bidez aplikatzen den deskontua aplikatu
+zaien eskaera guztien zerrenda ziurtatua,
+eskaera guztiak euskaltegian beterik
+daudela.
+Tercera. Dentro del plazo comprendido hasta el
+último viernes de octubre cada euskaltegi ha de
+presentar en el Servicio Foral de Euskera la
+relación certificada con todas las solicitudes
+cumplimentadas en su centro a las que se les ha
+aplicado el descuento objeto de esta ayuda.
+Laugarrena. Nola laguntza matrikularen
+zenbatekoari aplikatuko zaion deskontu bat
+den, erakunde laguntzaileei ordainduko
+zaizkie dirulaguntzak, ikastegi bakoitzean
+matrikulatutako onuradunen kopuruaren
+arabera, behin deialdia ebatzi ondoren.
+Cuarta. Al tratarse de un descuento que se va a
+aplicar al importe de la matrícula, el pago de las
+ayudas se realizará a las entidades
+colaboradoras, atendiendo al número de
+personas beneficiarias matriculadas en cada
+centro, una vez resuelta la convocatoria.
+Bosgarrena.
+Erakunde laguntzailearen
+aldeko konpentsazio ekonomikoa 3 eurokoa
+izango da kudeatutako eta onartutako
+matrikula bakoitzeko.
+Quinta. Se fija como compensación económica
+a favor de la entidad colaboradora la cantidad
+de 3 euros por cada matricula gestionada y
+aceptada.
+Seigarrena. Erakunde laguntzaileak honako
+hauetan ezarritakoa bete beharko du:
+Arabako Lurralde Historikoko Dirulaguntzei
+buruzko urriaren 19ko 11/2016 Foru
+Arauaren 11., 12. eta 14. artikuluak, eta Foru
+Gobernu Kontseiluaren uztailaren 21eko
+23/2020 Foru Dekretua (2020ko uztailaren
+27ko ALHAO, 84. zk.), zeinaren bidez
+onespena
+ematen
+baitzaie
+Diputatu
+Nagusiaren Sailak lehiaketa bidez emango
+dituen dirulaguntzak arautuko dituzten
+oinarri orokorrei.
+Sexta. La entidad colaboradora deberá cumplir
+con lo establecido en los artículos 11, 12 y 14
+de la Norma Foral 11/2016, de 19 de octubre,
+de Subvenciones del Territorio Histórico de
+Álava y en el Decreto Foral 23/2020 de 21 de
+julio del Consejo de Gobierno Foral, publicado
+en el BOTHA número 84 de 27 de julio de
+2020, que aprobó las bases reguladoras
+generales aplicables a las subvenciones que se
+otorguen en régimen de concurrencia
+competitiva en el ámbito de las competencias
+del Departamento del Diputado General.
+Zazpigarrena. Aldeek nahitaez bete beharko
+dute datu pertsonalen babesari buruzko
+araudia, azken onuradunei buruz lortutako
+datuei dagokienez, eta datu horien
+erabileraren gainean beharrezkoak izan
+daitezkeen adostasun guztiak eskatuko
+dizkiete.
+Séptima. Las partes se obligan a cumplir la
+normativa sobre protección de datos de carácter
+personal, con respecto a los datos obtenidos de
+los beneficiarios/as finales, recabando de los
+mismos/as cuantos consentimientos relativos a
+su uso, puedan resultar necesarios.
+Zortzigarrena. Hitzarmen honek lau urteko
+iraupena izango du, sinatzen den egunetik
+aurrera, eta bat etorriz Arabako Lurralde
+Historikoko Dirulaguntzei buruzko urriaren
+19ko 11/2016 Foru Arauan ezarritakoarekin,
+automatikoki luzatu ahal izango da, baina
+Octava. El presente convenio tendrá una
+duración de cuatro años, a partir de la fecha de
+su firma y de acuerdo con lo establecido en la
+Norma Foral 11/2016, de 19 de octubre, de
+Subvenciones del Territorio Histórico de Álava,
+podrá ser prorrogado de forma automática sin
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2026-02434
+viernes, 28 de agosto de 2026 • Núm. 98
+hitzarmenaren guztizko iraupena ezingo da
+sei urte baino luzeagoa izan, nahiz eta
+oinarrien xedapenak aldatu eta haiek ekitaldi
+jakin baterako aurreikusten ez badira ere.
+que, en conjunto la duración total del convenio
+pueda exceder de seis años, aunque cambien las
+resoluciones de la convocatoria o incluso en el
+supuesto de no preverse éstas para un
+determinado ejercicio.
+Deialdia ekitaldi jakin batean egiten ez bada, La vigencia se mantendrá en suspensión, en el
+indarraldia etenda egongo da.
+caso de no realizarse la convocatoria en un
+determinado ejercicio.
+Hitzarmen honetako xedapenak osorik edo
+partez aldatu ahal izango dira, bi alderdiak
+ados jarrita. Halaber, alderdietako edozeinek
+hitzarmena salatu ahal izango du hiru
+hilabete lehenago jakinarazita. Kasu
+horretan, bi alderdiek hitzematen dute
+konpromisoei eutsiko dietela onuradunei
+emandako laguntzen aldi osoa amaitu arte.
+Las disposiciones del presente convenio podrán
+ser total o parcialmente modificadas por
+acuerdo de las partes, asimismo, cualquiera de
+ellas podrá denunciar el convenio con un
+preaviso de tres meses, en cuyo caso ambas
+partes se comprometen a mantener los
+compromisos hasta la finalización del periodo
+completo de las ayudas concedidas a los/as
+beneficiarios/as.
+Bederatzigarrena.
+Hitzarmen
+hau
+suntsiarazteko arrazoia izango da bertan
+ezarritako akordioak ez betetzea, baita haren
+izaerari darion eta indarrean dagoen legerian
+jasotzen den beste edozein arrazoi ere.
+Novena. Son causas de resolución del presente
+convenio
+el
+incumplimiento
+de
+las
+estipulaciones contempladas en el mismo y
+cualesquiera otras que derivadas de su
+naturaleza estén recogidas en la legislación
+vigente.
+Eta ados daudela adierazteko, bi alderdiek
+hitzarmen hau sinatu dute bi aletan eta
+ondorio
+bakarrarekin,
+dokumentuaren
+hasieran zehaztutako leku-egunetan.
+Y en prueba de conformidad las partes
+intervinientes firman el presente convenio por
+duplicado y en un solo efecto, en el lugar y
+fecha señalados en el encabezamiento.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+Firmante: CN=ARABAKO FORU ALDUNDIA / DIPUTACION FORAL DE ALAVA, SERIALNUMBER=P0100000I, OU=SELLO ELECTRONICO, ORGANIZATIONIDENTIFIER=VATES-P0100000I, O=ARABAKO FORU ALDUNDIA / DIPUTACION FORAL DE ALAVA, C=ES
 Emisor del certificado: CN=EAEko HAetako langileen CA - CA personal de AAPP vascas (2), OU=AZZ Ziurtagiri publikoa - Certificado publico SCA, O=IZENPE S.A., C=ES
-Número de serie: 211865
-Fecha de firma: 2022.01.05 07:00:55 Z
-2021-04218
-
-### Decreto Foral 5/2020: https://www.araba.eus/botha/Boletines/2020/011/2020_011_00168_C.pdf
-miércoles, 29 de enero de 2020 • Núm. 11
-I - JUNTAS GENERALES DE ÁLAVA Y ADMINISTRACIÓN FORAL
-DEL TERRITORIO HISTÓRICO DE ÁLAVA
-Diputación Foral de Álava
-DEPARTAMENTO DE HACIENDA, FINANZAS Y PRESUPUESTOS
-Decreto Foral 5/2020, del Consejo de Gobierno Foral de 21 de enero. Aprobar la regulación de
-las notificaciones y comunicaciones por medios electrónicos del Departamento de Hacienda,
-Finanzas y Presupuestos
-La incorporación de las tecnologías de la información y la comunicación a las relaciones
-tributarias entre las y los obligados tributarios y el Departamento de Hacienda, Finanzas y
-Presupuestos de la Diputación Foral de Álava va a dar un nuevo paso con la implantación de
-las notificaciones electrónicas.
-Hoy en día, las ventajas que aportan las nuevas tecnologías resultan indudables tanto para
-la o el obligado tributario como para la Administración tributaria y estas mejoras deben trasladarse al campo de las notificaciones y comunicaciones tributarias, partiendo del principio de
-que la utilización del medio electrónico en las notificaciones no debe alterar, en ningún caso,
-el propio concepto y finalidad de la notificación.
-Hay que tener en cuenta que las notificaciones constituyen uno de los ejes alrededor de
-los que giran los procedimientos tributarios y suele ser objeto de una cierta conflictividad, que
-puede verse reducida con el nuevo sistema, al mismo tiempo que la incorporación de las notificaciones por medios electrónicos permitirá la aceleración de los procedimiento
-[…]
-Artículo 1. Objeto
-El presente Decreto Foral tiene por objeto regular las notificaciones y comunicaciones por
-medios electrónicos del Departamento de Hacienda, Finanzas y Presupuestos de la Diputación
-Foral de Álava relacionadas con la aplicación de los tributos y los procedimientos tributarios,
-así como establecer las personas y entidades que están obligadas a recibir las comunicaciones
-y notificaciones por dichos medios.
-Artículo 2. Régimen de las notificaciones y comunicaciones electrónicas
-El régimen de notificaciones y comunicaciones a las personas y entidades por medios
-electrónicos será el previsto en las normas administrativas generales con las especialidades
-establecidas en la Norma Foral General Tributaria y en el presente Decreto Foral.
-Artículo 3. Aspectos generales de la notificación y comunicación electrónica
-1. En el marco de lo dispuesto en este Decreto Foral, todas las notificaciones y comunicaciones electrónicas que deba realizar el Departamento de Hacienda, Finanzas y Presupuestos
-se practicarán por medio de la comparecencia en la sede electrónica de la Diputación Foral de
-Álava, sin perjuicio de las excepciones previstas en el artículo 6 de este Decreto Foral.
-2. Las personas y entidades a que se refiere el artículo 7 del presente Decreto Foral estarán
-obligados a recibir las notificaciones y comunicaciones tributarias por medios electrónicos.
-3. El sistema de notificación electrónica permitirá acreditar la fecha y hora en que se produzca la puesta a disposición de la interesada o del interesado, o en su caso de su representante, del acto objeto de notificación.
-También permitirá acreditar la fecha y hora de acceso a su contenido, momento a partir del
-cual la notificación se entenderá practicada a todos los efectos legales. Lo anterior se entiende
-sin perjuicio de lo establecido en el apartado 5 siguiente de este artículo.
-4. Cuando, como consecuencia de la utilización de distintos medios, electrónicos o no electrónicos, se practiquen varias notificaciones de un mismo acto administrativo, se entenderán
-producidos todos los efectos jurídicos derivados de la notificación, incluido el inicio del plazo
-para la interposición de los recursos que procedan, a partir de la primera de las notificaciones
-correctamente practicada.
-5. Cuando, existiendo constancia de la puesta a disposición de la notificación electrónica,
-transcurrieran 10 días naturales sin que se acceda a su contenido, se entenderá que la notificación ha sido rechazada con los efectos previstos en el artículo 107.2 de la Norma Foral General
-Tributaria de Álava, salvo que de oficio o a instancia de la destinataria o del destinatario se
-compruebe la imposibilidad técnica o material del acceso a su contenido.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2020-00168
-miércoles, 29 de enero de 2020 • Núm. 11
-6. Cualquier persona o entidad, excepto las contempladas en el artículo 7 de este Decreto
-Foral que están obligadas a recibir por medios electrónicos las comunicaciones y notificaciones, podrá solicitar a la Diputación Foral, a través del correspondiente apartado dispuesto en
-la sede electrónica, que todas las notificaciones de las que sean destinatarias o destinatarios,
-se realicen únicamente por medios electrónicos.
-En caso de que la persona o entidad solicite ser dada de baja en el sistema de recibir por
-medios electrónicos las notificaciones y comunicaciones, la misma se hará efectiva en un
-plazo máximo de 15 días contados a partir de la presentación de la correspondiente solicitud.
-7. Producirá los efectos propios de la notificación por comparecencia el acceso electrónico
-por las interesadas o los interesados al contenido de las actuaciones administrativas correspondientes, siempre que quede constancia de dicho acceso.
-Artículo 4. Práctica de notificaciones y comunicaciones por medios electrónicos
-1. El Departamento de Hacienda, Finanzas y Presupuestos practicará las notificaciones o
-comunicaciones electrónicas mediante el sistema de comparecencia en sede electrónica regulada en el Decreto Foral 26/2011, de 5 de abril.
-2. La Diputación Foral de Álava certificará la notificación efectuada a través de la sede electrónica. Esta certificación, que podrá generarse de forma automatizada, incluirá, como mínimo,
-la identificación del acto notificado, su destinataria o destinatario, en su caso los datos de la
-o del representante, la fecha en que se produjo la puesta a disposición y la fecha de acceso a
-su contenido o en que la notificación se considerará rechazada por haber transcurrido el plazo
-establecido al efecto, así como la especificación de los errores de tipo técnico producidos y
-sus consecuencias a efectos de la notificación.
-Artículo 5. Notificación o comunicación por el sistema de comparecencia en sede electrónica
-La notificación o comunicación por el sistema de comparecencia en sede electrónica se
-llevará a cabo conforme a lo previsto en la normativa que regula la sede electrónica de la
-Diputación Foral de Álava, teniendo en cuenta las especialidades previstas en el presente
-Decreto Foral.
-Artículo 6. Excepciones a las notificaciones o comunicaciones por medios electrónicos
-1. El Departamento de Hacienda, Finanzas y Presupuestos podrá practicar las notificaciones
-o comunicaciones por los medios no electrónicos y en los lugares y formas previstos en los
-artículos 105 a 108 de la Norma Foral General Tributaria de Álava, en los siguientes supuestos:
-a) Cuando la comunicación o notificación se realice con ocasión de la comparecencia espontánea de la o del obligado, o su representante, en las oficinas de la Diputación Foral de
-Álava y solicite la comunicación o notificación personal en ese momento.
-b) Cuando, para garantizar la eficacia y en su caso celeridad de los procedimientos de
-aplicación de los tributos, la Administración considere más apropiado efectuar la notificación
-o comunicación por otros medios distintos de los electrónicos.
-c) Cuando las comunicaciones y notificaciones hubieran sido puestas a disposición de la
-prestadora o del prestador del servicio de notificaciones para su entrega a las y los obligados
-tributarios con anterioridad a la fecha en que resulte de aplicación la notificación por medios
-electrónicos.
-2. En ningún caso se efectuarán de forma electrónica las siguientes comunicaciones y
-notificaciones:
-a) Aquellas en las que el acto a notificar vaya acompañado de elementos que no sean susceptibles de conversión en formato electrónico.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2020-00168
-miércoles, 29 de enero de 2020 • Núm. 11
-b) Las que, con arreglo a su normativa específica, deban practicarse mediante personación
-en el domicilio fiscal de la o del obligado o en otro lugar señalado al efecto por la normativa
-o en cualquier otra forma no electrónica.
-c) Las dirigidas a las entidades de crédito adheridas al procedimiento para efectuar por
-medios electrónicos el embargo de dinero en cuentas abiertas en entidades de crédito.
-d) Las dirigidas a las entidades de crédito que actúen como entidades colaboradoras en la
-gestión recaudatoria del Departamento de Hacienda, Finanzas y Presupuestos, en el desarrollo
-del servicio de colaboración.
-Lo dispuesto en el presente apartado no impedirá que se utilicen medios técnicos para la
-práctica de algunas de las notificaciones o comunicaciones citadas en el mismo, de conformidad con su normativa específica.
-Artículo 7. Personas y entidades obligadas a recibir por medios electrónicos las comunicaciones y notificaciones
-1. Con independencia de su personalidad o forma jurídica, estarán obligadas u obligados
-a recibir por medios electrónicos las comunicaciones y notificaciones administrativas que les
-practique el Departamento de Hacienda, Finanzas y Presupuestos de la Diputación Foral de
-Álava, las y los obligados tributarios siguientes:
-a) Los contribuyentes del Impuesto sobre Sociedades.
-b) Aquellos otros que se determinen por la Diputación Foral de Álava.
-2. Cuando dejaren de concurrir en la obligada o el obligado las circunstancias que determinaron su inclusión obligatoria en el sistema de notificación electrónica se le notificará por
-medios electrónicos la exclusión del mismo, que será efectiva desde el día siguiente a que
-dicha notificación surta efectos.
-No obstante, el interesado o interesada continuará en el sistema de notificación electrónica
-cuando, con carácter previo a su inclusión obligatoria, hubiese señalado el medio electrónico
-como método de recepción de las notificaciones y comunicaciones.
-Artículo 8. Comunicación de la inclusión
-El Departamento de Hacienda, Finanzas y Presupuestos deberá notificar a las y los sujetos
-obligados su inclusión obligatoria en el sistema de notificación electrónica.
-Esta notificación se practicará conforme a lo establecido en el apartado 1 del artículo 3 de
-este Decreto Foral y se efectuará, además, por los medios no electrónicos y en los lugares y
-formas previstos en los artículos 105 a 108 de la Norma Foral General Tributaria de Álava, excepto que la o el obligado tributario ya hubiera señalado el sistema de notificación electrónica
-como medio de notificación, conforme a lo previsto en el presente Decreto Foral.
-En los supuestos de alta en el censo de obligados tributarios, la notificación de la inclusión
-obligatoria en el sistema de la notificación electrónica se podrá realizar junto a la correspondiente a la comunicación del Número de Identificación Fiscal que le corresponda.
-Artículo 9. Firma electrónica de las notificaciones y comunicaciones
-Todas las notificaciones y comunicaciones que el Departamento de Hacienda, Finanzas y
-Presupuestos realice por medios electrónicos conforme a lo dispuesto en el presente Decreto
-Foral lo harán mediante actuación administrativa automatizada pudiendo utilizar los siguientes
-sistemas de firma electrónica:
-a) Sello electrónico de la Diputación Foral de Álava basado en un certificado electrónico
-reconocido.
-b) Código seguro de verificación vinculado a la Diputación Foral de Álava permitiéndose
-en todo caso la comprobación de la integridad del documento mediante el acceso a la sede
-electrónica.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2020-00168
-miércoles, 29 de enero de 2020 • Núm. 11
-CAPÍTULO II
-Días en los no se podrá poner notificaciones a disposición de los obligados tributarios
-Artículo 10. Ámbito subjetivo para realizar el señalamiento de los días en los que no se
-pondrán notificaciones a disposición de los obligados tributarios
-1. Los días en los que no se pondrán a su disposición notificaciones podrán ser señalados
-por las y los obligados tributarios que se encuentren incluidos en el sistema de notificación
-electrónica, ya sea con carácter obligatorio o de forma voluntaria.
-El señalamiento de los días mencionados comprenderá las acciones de selección de los
-mismos, así como su modificación y consulta, de acuerdo con los límites señalados en el
-artículo 12 de este Decreto Foral.
-2. Si la o el obligado tributario actúa o dispone de representante para recibir las notificaciones, el señalamiento de los días a que se refiere este artículo corresponderá a dicho
-representante.
-Artículo 11. Ámbito objetivo del señalamiento de los días en los que no se pondrán notificaciones a disposición de los obligados tributarios
-Para las y los obligados tributarios incluidos en el sistema de notificación electrónica, el
-señalamiento de los días en los que no se pondrán a su disposición notificaciones comprenderá las notificaciones que efectúe el Departamento de Hacienda, Finanzas y Presupuestos en
-sus actuaciones y procedimientos tributarios, así como en la gestión de los recursos de otros
-Entes y Administraciones Públicas que tenga atribuida o encomendada.
-Artículo 12. Límite máximo de días y posibilidad de modificación de los mismos
-1. Los sujetos señalados en el artículo 10 de este Decreto Foral podrán señalar, siguiendo
-el procedimiento a que se refiere el artículo 14 de este Decreto Foral, un máximo de 30 días
-naturales por año natural, siendo estos días de libre elección y sin necesidad de tener que
-agrupar un número mínimo de los mismos.
-2. La o el obligado tributario que, a lo largo del año natural, sea incluido con carácter obligatorio en el sistema de notificación electrónica o proceda a darse de alta voluntariamente para
-ser notificado por medios electrónicos, podrá disfrutar de la totalidad de los 30 días naturales
-del año natural en curso, sin necesidad de prorratear los días por el período del año natural
-restante.
-3. Los días en los que no se pondrán a disposición de la o del obligado tributario notificaciones se deberán solicitar con una antelación mínima de 7 días naturales al primer día en que
-vaya a surtir efecto y, una vez señalados, podrán ser objeto de modificación mediante solicitud
-expresa que dejará sin efecto el período inicialmente elegido, con los mismos límites respecto
-al número máximo de días anuales por obligado tributario y antelación mínima anteriormente
-indicados.
-Artículo 13. Efectos del señalamiento de los días en los que no se pondrán notificaciones
-en la sede electrónica
-1. El retraso en la notificación derivado del señalamiento de los días en los que no se pondrán notificaciones a disposición de los interesados se considerará dilación no imputable a la
-Administración, en los términos y a los efectos establecidos en la normativa tributaria.
-2. El señalamiento de los días en los que no se pondrán a disposición de la o del obligado
-tributario notificaciones afectará exclusivamente a las notificaciones que pudieran haberse
-efectuado en los días señalados. En ningún caso estos días se descontarán del cómputo de los
-plazos que se hayan iniciado por haberse puesto a disposición la notificación con anterioridad
-al primero de los días señalados.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2020-00168
-miércoles, 29 de enero de 2020 • Núm. 11
-3. A efectos de lo dispuesto en este artículo, la Diputación Foral de Álava deberá certificar el
-citado retraso, acreditando la fecha y la hora en que se pudo poner a disposición del obligado
-tributario el acto objeto de notificación en la sede electrónica.
-4. No obstante, cuando lo dispuesto en el artículo 10 de este Decreto Foral sea incompatible
-con la inmediatez o celeridad que requiera la actuación administrativa para asegurar su eficacia y producción de efectos, será de aplicación lo dispuesto en el artículo 6.1.b) del presente
-Decreto Foral.
-Artículo 14. Procedimiento y condiciones para el señalamiento de los días en los que no se
-pueden poner a disposición notificaciones en la sede electrónica
-1. El señalamiento de los días en los que no se pondrán a disposición de las y los obligados
-tributarios notificaciones en la sede electrónica deberá realizarse obligatoriamente en la sede
-electrónica de la Diputación Foral de Álava.
-Una vez que los días hayan sido señalados correctamente, se generará el correspondiente
-recibo de presentación validado por un código seguro de verificación, además de la fecha y
-hora de la solicitud. Cualquier otra solicitud presentada por cualquier otro medio carecerá de
-efecto alguno, procediéndose a su archivo sin más trámite.
-2. La persona que vaya a señalar los días mencionados deberá estar comprendida en el
-ámbito subjetivo establecido en el artículo 10 de este Decreto Foral, así como disponer de
-Número de Identificación Fiscal.
-CAPÍTULO III
-Deficiencias o anomalías en el funcionamiento
-del sistema de notificaciones electrónicas
-Artículo 15. Deficiencias o anomalías en el funcionamiento del sistema de notificaciones
-electrónicas
-En el supuesto que durante el período de puesta a disposición de las notificaciones se produzca alguna deficiencia, anomalía o interrupción atribuible a la Diputación Foral de Álava o a
-servicios utilizados por ésta para la completa efectividad de las notificaciones, el referido plazo
-se ampliará a razón de un día por cada día en que, dentro de dicho plazo, se haya producido
-dicha deficiencia, anomalía o interrupción.
-DISPOSICIÓN ADICIONAL ÚNICA
-La Diputación Foral de Álava podrá habilitar otros sistemas de notificación y comunicación
-electrónica, siempre que quede constancia de la recepción por la interesada o el interesado en
-el plazo y en las condiciones que se establezcan en su regulación específica.
-DISPOSICIÓN FINAL
-El presente Decreto Foral entrará en vigor el 1 de junio de 2020.
-Vitoria-Gasteiz, a 21 de enero de 2020
-Diputado General
-RAMIRO GONZÁLEZ VICENTE
-Diputada de Hacienda, Finanzas y Presupuestos
-ITZIAR GONZALO DE ZUAZO
-Directora de Hacienda
-MARÍA JOSÉ PEREA URTEAGA
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-Firmante: CN=DIRECCION DE SERVICIOS GENERALES, SERIALNUMBER=P0100000I, OU=sello electrónico, O=ARABAKO FORU ALDUNDIA-DIPUTACION FORAL DE ALAVA, C=ES
-Emisor del certificado: CN=EAEko HAetako langileen CA - CA personal de AAPP vascas (2), OU=AZZ Ziurtagiri publikoa - Certificado publico SCA, O=IZENPE S.A., C=ES
-Número de serie: 153457
-Fecha de firma: 2020.01.29 06:24:23 Z
-2020-00168
-
-### Decreto foral 26/2011: https://www.araba.eus/botha/Boletines/2011/047/2011_047_02402.pdf
-2011ko apirilaren 18a, astelehena
-ALHAO
-LABOREA
-Zalkea hazia
-Soja
-Tabakoa
-Garia
-Garia + garagarra
-Gari gogorra
-Zalkea alea
-Azenarioa
-Lathyrus sativus - Lathyrus cicerra
-47
-BOTHA
-5191
-CULTIVO
-Semilla veza
-Soja
-Tabaco
-Trigo
-Trigo + cebada
-Trigo duro
-Veza grano
-Zanahoria
-Titos titarros
-XEDAPEN IRAGANKORRA
-DISPOSICIÓN TRANSITORIA
-Foru dekretu honetan onetsi diren aldaketak aplikatuko zaizkie
-lehenengo xedapenean onartutako deialdian aurkeztutako laguntza
-eskabideei.
-AZKEN XEDAPENA
-Las modificaciones aprobadas en el presente Decreto Foral
-serán de aplicación a las solicitudes de ayuda que se presenten en
-la convocatoria aprobada en el disponendo primero.
-DISPOSICIÓN FINAL
-Foru dekretu honek onartu eta hurrengo egunetik aurrera izango
-du indarra, ALHAOn argitaratzen den eguna edozein dela ere.
-Gasteiz, 2011ko apirilaren 5a.– Nekazaritza Saileko foru diputatua,
-ESTEFANÍA BELTRÁN DE HEREDIA ARRÓNIZ.– Nekazaritzako zuzendaria, EDUARDO AGUINACO LÓPEZ DE SUSO.
-El presente Decreto Foral entrará en vigor el día de su aprobación sin perjuicio de su publicación en el BOTHA.
-Vitoria-Gasteiz, a 5 de abril de 2011.– La diputada foral de
-Agricultura, ESTEFANÍA BELTRÁN DE HEREDIA ARRÓNIZ.– El director
-de Agricultura, EDUARDO AGUINACO LÓPEZ DE SUSO.
-FORU ADMINISTRAZIOAREN SAILA
-DEPARTAMENTO DE ADMINISTRACIÓN FORAL
-2402
-26/2011 FORU DEKRETUA, apirilaren 5eko Diputatuen Kontseiluarena. Honen bidez, Foru Aldundiaren egoitza elektronikoa
-sortzen da.
-2402
-DECRETO FORAL 26/2011, del Consejo de Diputado
-[…]
-Artículo 1.- Objeto.
-Este Decreto tiene como objeto crear la sede electrónica de la
-Diputación Foral de Álava, diputaciondigital, de conformidad con lo
-dispuesto en el artículo 10 de la Ley 11/2007, de 22 de junio, de
-acceso electrónico de los ciudadanos a los Servicios Públicos.
-2011ko apirilaren 18a, astelehena
-ALHAO
-47
-BOTHA
-5192
-Arabako Foru Aldundiaren egoitza elektronikoa https://e-s.alava.net
-helbide elektronikoan egongo da eta zuzenean sartzeko modua izango
-du, bai eta Interneteko www.alava.net atariaren bitartez ere.
-La sede electrónica de la Diputación Foral de Álava se corresponderá con la dirección electrónica https://e-s.alava.net, siendo
-accesible tanto directamente como a través del portal de Internet
-www.alava.net.
-2. atala.- Aplikazio eremua.
-Foru dekretu hau honako hauei aplikatuko zaie:
-a) Arabako Foru Aldundiari.
-b) Foru erakunde autonomoei, beren administrazio kontseiluek hala
-onartzen baldin badute, partekatutako egoitza erabakitzen duen
-hitzarmen egokia formalizatu eta gero.
-c) Foru sozietate publikoei, beren eskumeneko administrazio
-ahalmenak egikaritzean, baldin eta beren administrazio kontseiluek hala
-onartzen badute, partekatutako egoitza erabakitzen duen hitzarmen
-egokia formalizatu eta gero.
-Artículo 2.- Ámbito de aplicación.
-El presente Decreto Foral, será de aplicación a:
-a) La Diputación Foral de Álava.
-b) Los Organismos Autónomos Forales, cuando así lo aprueben
-sus Consejos de Administración, previa formalización del oportuno
-Convenio por el que se acuerde la sede compartida.
-c) Las Sociedades Públicas Forales, en el ejercicio de potestades
-administrativas de su competencia, cuando así lo aprueben sus
-Consejos de Administración, previa formalización del oportuno Convenio por el que se acuerde la sede compartida.
-3. artikulua.- Egoitza elektronikoaren ezaugarriak.
-Arabako Foru Aldundiaren egoitza elektronikoa ondoko ezaugarri
-hauekin sortzen da:
-a) Haren identifikazioa egoitza elektronikoaren ziurtagiri baten
-bidez egiten da.
-b) Herritar guztientzat eskuragarri dago, dohainik eta etengabe.
-Artículo 3.-Características de la sede electrónica.
-La sede electrónica de la Diputación Foral de Álava se crea con
-las siguientes características:
-a) Su identificación se lleva a cabo mediante un certificado de sede
-electrónica.
-b) Está disponible para toda la ciudadanía de forma gratuita y
-permanente.
-c) La Diputación Foral de Álava responde de la integridad,
-veracidad y actualización de la información y de los servicios a los que
-pueda accederse a través de la misma.
-d) Se rige por los principios de publicidad oficial, responsabilidad, calidad, seguridad, disponibilidad, accesibilidad, neutralidad
-e interoperabilidad.
-e) Dispone de sistemas que permiten el establecimiento de
-comunicaciones seguras siempre que sean necesarias.
-f) Asegura la accesibilidad y usabilidad de acuerdo con las
-normas establecidas al respecto, estándares abiertos y, en su caso,
-aquellos otros que sean de uso generalizado por la ciudadanía.
-g) Habilita a las personas usuarias de la sede a autorizar a otras
-para realizar determinados trámites telemáticos con los mismos
-efectos que si los hubieran realizado ellas.
-h) Garantiza el acceso a sus contenidos y servicios en euskera
-y castellano.
-i) Establece medidas que permiten diferenciar a la persona
-usuaria si se encuentra en la sede electrónica o en el resto del Portal
-www.alava.net.
-j) Incluirá progresivamente todas las actuaciones, procedimientos
-y servicios que requieran la autenticación de la ciudadanía ante la
-Diputación Foral de Álava, relacionarse con ésta por medios electrónicos, así como aquellos otros respecto a los que se decida su
-inclusión en la sede por razones de oportunidad, eficacia o calidad
-en la prestación de servicios a la ciudadanía.
-c) Beraren bitartez eskuratu daitezkeen informazio eta zerbitzuen
-osotasunaz, egiazkotasunaz eta gaurkotasunaz erantzuten du Arabako
-Foru Aldundiak.
-d) Printzipio hauetaz araututa dago: publizitate ofiziala, erantzukizuna, kalitatea, segurtasuna, eskuragarritasuna, irisgarritasuna,
-neutraltasuna eta elkarreragingarritasuna.
-e) Behar den guztietan komunikazio seguruak ezartzeko bide
-ematen duten sistemak dauzka.
-f) Irisgarritasuna eta erabilgarritasuna bermatzen ditu horri buruz
-ezarrita dauden arauei, estandar irekiei eta, hala badagokio, herritarrek eskuarki erabiltzen dituztenei jarraituz.
-g) Egoitzaren erabiltzaileak gaitzen ditu beste batzuk zenbait
-tramite telematiko egiteko baimena emateko, beraiek egin izan balituzte
-bezalako ondorioekin.
-h) Bere edukiak eta zerbitzuak euskaraz eta gaztelaniaz eskuratu
-ahal izatea bermatzen du.
-i) Erabiltzaileari egoitza elektronikoan ala www.alava.net atariaren
-gainerakoan dagoen bereizteko modua ematen dioten neurriak
-finkatzen ditu.
-j) Urratsez urrats, herritarrak Arabako Foru Aldundian kautotzea
-edo haiekin bide elektronikoz harremanak izatea behar duten ekintza,
-jardunbide eta zerbitzu guztiak barne hartuko ditu, baita ere herritarrei zerbitzuak ematerakoan egokitasun, eraginkortasun edo kalitate
-arrazoiengatik egoitzaren barruan sartzea erabakitzen den guztiak.
-4. artikulua.- Egoitza elektronikoaren hasierako edukiak.
-Egoitza elektronikoaren hasierako edukiak ondoko hauek dira:
-a) Egoitzaren eta bere titularraren identifikazioa, baita ere edukien
-kudeaketaz eta kudeaketa teknologikoaz ardura dutenena.
-b) Sinadura elektronikoko sistema onartuen zerrenda, erabilitako
-identifikazio elementuei buruzko informazioa eta horiek jaulkitzen
-dituzten emaileak jasoz.
-c) Erabilitako zigilu elektronikoen zerrenda.
-d) Bitarteko elektroniko bidez jakinarazteko, onartutako jakinarazpen
-plataformen zerrenda.
-e) Jaulkitako eta egiaztatze kode seguru baten bitartez kautotutako
-dokumentuen kautotasuna eta osotasuna egiaztatzeko sistema.
-f) Egoitzan eskuragarri dauden tramite eta zerbitzuen katalogoa.
-g) ALHAOren argitalpen elektronikoa.
-h) Data eta ordu ofiziala, eta ofizialki baliogabetzat jotako egunak.
-i) Iradokizun eta kexen postontzia eta dagokien kudeaketa prozeduraren arautegia.
-Artículo 4.- Contenidos iniciales de la sede electrónica.
-Los contenidos iniciales que contiene la sede electrónica son
-los siguientes:
-a) Identificación de la sede, de su titular, así como de los responsables de la gestión de los contenidos y de la gestión tecnológica.
-b) Relación de sistemas de firma electrónica admitidos, incluyendo
-información sobre los elementos de identificación utilizados así como
-los prestadores que los expiden.
-c) Relación de sellos electrónicos utilizados.
-d) Relación de Platafornas de Notificación admitidas para la
-notificación por medios electrónicos.
-e) Sistema de comprobación de la autenticidad e integridad de
-los documentos emitidos que hayan sido autenticados mediante
-código seguro de verificación.
-f) Catálogo de trámites y servicios disponibles en la sede.
-g) Publicación electrónica del BOTHA.
-h) Fecha y hora oficial y días declarados oficialmente como
-inhábiles.
-i) Buzón general de sugerencias y quejas así como la normativa
-del procedimiento de gestión correspondiente.
-2011ko apirilaren 18a, astelehena
-ALHAO
-47
-j) Egoitza sortu eta arautzen duen xedapena, baita erregistro
-elektronikoa sortzeko araua ere.
-k) Herritarrek egoitzarekin komunikatzeko kasu bakoitzean erabil
-ditzaketen bide elektronikoen zerrenda.
-l) Ekipoek egoitza elektronikorako sarbidea izateko bete behar
-dituzten software eta hardware eskakizun teknikoak. Ahal den neurrian,
-horiek estandar irekiak edo herritarrek eskuarki erabilitakoak izango dira.
-m) Egoitzaren erabilera egokirako beharrezko informazioa, egoitza
-elektronikoaren mapa barne delarik, baita jabetza intelektualaren
-ingurukoa ere.
-n) Egoitzaren erabilera egokirako, aholkularitza teknikoa emateko
-zerbitzuak.
-o) Datu pertsonalen babesarekin loturiko informazioa.
-5. artikulua- Egoitza elektronikoaren erantzukizun mailak.
-Erantzukizun araubideak ondoko printzipio hauei jarraituko die:
-a) Haren titularra Arabako Foru Aldundia izango da, zeina aldioro
-eskuragarri dauden informazio eta zerbitzuen osotasunaz, egiazkotasunaz eta gaurkotasunaz erantzule izango baita.
-b) Arabako Foru Aldundia informatika baliabidez eta zerbitzuz
-hornitzen duen foru sozietate publikoak kudeatuko du teknologia,
-eta sozietate hori atxikita dagoeneko sailaren eskumen izango da.
-BOTHA
-5193
-j) Disposición por la que se crea y regula la sede, así como la norma
-de creación del registro electrónico.
-k) Relación de los medios electrónicos que la ciudadanía puede
-utilizar en cada supuesto para comunicarse con la sede.
-l) Requisitos técnicos de software y hardware de los equipos, necesarios para el acceso a la sede electrónica que, en la medida de lo
-posible, serán estándares abiertos o de uso generalizado por la
-ciudadanía.
-m) Información necesaria para la correcta utilización de la sede
-incluyendo el mapa de la sede electrónica, así como la relacionada
-con la propiedad intelectual.
-n) Servicios de asesoramiento electrónico para la correcta utilización de la sede.
-o) Información relacionada con la protección de datos de carácter
-personal.
-c) Edukien kudeaketa Foru Aldundiaren sail bakoitzaren ardura
-izango da, Aldundiak martxoaren 10eko Diputatuen Kontseiluaren
-22/2009 Foru Dekretuaren bidez onartutako printzipio eta koordinazio
-irizpideen arabera. Dekretu horren bidez, Arabako Foru Aldundiaren
-“ALAVANET” atariaren funtzionamendurako Aldundiaren barne antolaketa arautzen da.
-d) Egoitzaren titularrak ez du erantzukizunik izango Arabako Foru
-Aldundiarenak izan gabe beraren egoitza elektronikoan dauden esteka
-edo loturen bidez eskura daitezkeen eduki edo zerbitzuen osotasunaz,
-egiazkotasunaz edo gaurkotasunaz.
-Partekatutako egoitzen kasuan, eduki komunez titularkideek
-erantzukizun solidarioa izango dute, eta eduki partikularrei buruzko erantzukizuna bakoitzaren titularrarena izango da.
-Artículo 5.- Niveles de responsabilidad de la sede electrónica.
-El régimen de responsabilidad responderá a los siguientes principios:
-a) Su titularidad corresponderá a la Diputación Foral de Álava, que
-responderá de la integridad, veracidad y actualización de la información y los servicios disponibles en cada momento.
-b) La gestión tecnológica se realizará a través de la Sociedad
-Pública Foral encargada de proveer los servicios y recursos informáticos necesarios a la Diputación Foral de Álava, siendo competencia
-del Departamento al que dicha Sociedad esté adscrita.
-c) La gestión de los contenidos corresponderá a cada Departamento Foral, conforme a los principios y criterios de coordinación
-aprobados por la Diputación por el Decreto Foral 22/2009, del Consejo
-de Diputados de 10 de marzo, regulador de la organización interna
-foral para el funcionamiento del portal “ALAVANET” de esta Diputación
-Foral de Álava.
-d) El titular de la sede no será responsable de la integridad,
-veracidad ni actualización de los contenidos o servicios ajenos a la
-Diputación Foral de Álava a los que se pueda acceder mediante enlaces o vínculos contenidos en su sede electrónica.
-En el caso de sedes compartidas, la responsabilidad de los
-contenidos comunes será solidaria de los cotitulares y la relativa a los
-contenidos particulares corresponderá al titular respectivo.
-Lehenengo Xedapen Gehigarria. Erregistro elektronikoa.
-Agiri erregistroaren beharrean diren zerbitzu, izapide eta prozedura
-telematikoetarako, erregistro elektronikoa erabiliko da, Arabako Foru
-Aldundiaren Erregistroak arautzen dituen araudian xedatutakoarekin
-bat etorriz.
-Disposición Adicional Primera. El Registro Electrónico.
-En los casos de los servicios, trámites y procedimientos telemáticos que requieran el registro de documentación, se utilizará el
-Registro Electrónico conforme a lo establecido en la normativa reguladora de los Registros de la Diputación Foral de Álava.
-Bigarren Xedapen Gehigarria. Baliabide elektronikoen bidez
-jakinaraztea.
-a) Jakinarazpena baliabide elektroniko bidez egingo da, interesdunak hura lehenetsi edo baimendu badu, administrazio prozeduretan
-eta bide elektroniko bidez egin daitezkeen izapideetan.
-Disposición Adicional Segunda. La notificación por medios
-electrónicos.
-a) La notificación se practicará empleando medios electrónicos
-cuando la persona interesada haya elegido estos medios como preferentes o consentido su utilización en los procedimientos administrativos y trámites incorporados a la tramitación por vía electrónica.
-b) Las notificaciones por medios electrónicos de la Diputación Foral
-de Álava se realizarán a la persona interesada a través del buzón
-electrónico que ésta comunique para tal fin. Dicho buzón deberá
-estar asociado a alguna de las Plataformas de Notificación aceptadas
-por la Diputación Foral de Álava y de las que se da publicidad en la
-Sede Electrónica, cumpliendo en todo momento con los requisitos establecidos al efecto por la Ley 11/2007, de 22 de junio, de acceso
-electrónico de los ciudadanos a los Servicios Públicos.
-En particular, la notificación por medios electrónicos se realizará
-respecto al procedimiento o familia de procedimientos a los que
-previamente haya suscrito su buzón electrónico en la Plataforma de
-Notificación correspondiente, en los términos y condiciones que se
-especifiquen en cada Plataforma.
-c) La persona interesada podrá revocar su consentimiento para
-que la notificación se practique por medios telemáticos, en cuyo
-caso deberá actualizar, en la Plataforma de Notificación asociada a
-su buzón, los procedimientos respecto a los cuales desea ser notificado telemáticamente.
-b) Interesdunak jakinarazten dion helbide elektronikora bidaliko
-dizkio Arabako Foru Aldundiak baliabide elektroniko bidez egindako
-jakinarazpenak. Postontzi hori Arabako Foru Aldundiak onartutako eta
-egoitza elektronikoak iragarritako jakinarazpen plataformaren bati
-lotuta egongo da eta uneoro beteko ditu Zerbitzu Publikoetarako
-Sarbide Elektronikoa Izateari buruzko ekainaren 22ko 11/2007 Legeak
-xedatutakoak.
-Baliabide elektroniko bidezko jakinarazpena postontzia inskribatu
-duen jakinarazpen plataformaren prozedura edo prozedura multzoaren
-arabera egingo da, plataforma horretan xedatutako baldintza eta jarraibideen arabera, hain zuzen ere.
-c) Interesdunak baimena bertan behera utzi ahal izango du, jakinarazpena baliabide telematiko bidez egin dadin. Horretarako,
-postontziari lotutako jakinarazpen plataforman, eguneratu egin beharko
-ditu prozedurak, hau da, zer prozedura bidez nahi duen telematikoki
-jakinaraz diezaioten adierazi.
-2011ko apirilaren 18a, astelehena
-ALHAO
-Baimena bertan behera uzten duenetik aurrera egingo zaizkio
-jakinarazpenak bide berriaren bidez.
-d) Aurreko idatz zatietan araututakoak ez du indarrik izango,
-legeren batek bide elektronikoak eskatzen dituenean edo arau bidez
-xedatzen denean bide elektroniko bitartez baino ezin dela harremanik
-izan Arabako Foru Aldundiarekin. Horrako hori gaitasun tekniko edo
-ekonomiko handia edo beren zeregin profesionala edo beste arrazoi
-batzuk medio beharrezko baliabide teknologiak dituztela egiaztatuta
-duten pertsona juridikoei eta pertsona fisikoen taldeei eskatzen zaie.
-e) Arazo teknikoak direla-eta baliabide elektroniko bidezko jakinarazpena ezinezkoa bada, posta bidez jakinaraziko du organo jakinarazleak.
-Xedapen Iragankorra.
-Foru dekretu hau indarrean sartu aurretik baliabide telematiko
-bidez eskainitako zerbitzuak, aurrerantzean ere, Arabako Foru Aldundiaren egoitza elektronikoaren bidez eskainiko dira, ordura arte
-indarrean izan diren termino eta baldintza beretan.
-Eragiketa gakoak 2011ko abenduaren 31 arte izango dira
-erabilgarri. Egun horretatik aurrera unean-unean onartutako egiaztagiri elektronikoen bidez baino ezin izango da sartu eta identifikatu
-egoitza elektronikoan.
-Xedapen indargabetzailea.
-Indargabetu egiten da 2/2010 Foru Dekretua, urtarrilaren 26ko
-Diputatuen Kontseiluarena, Arabako Foru Aldundiaren Interneteko
-zerbitzuak erabiltzeko administratuek jarraitu beharreko prozedura
-onartu zuena, bai eta foru dekretu honetan xedatutakoaren aurka
-doan xedapen oro.
-Azken xedapena. Garapena, indarrean jartzea eta egitez aplikatzea.
-1. Foru Administrazioaren Saileko diputatuari ahalmena aitortzen
-zaio foru dekretu hau garatu eta aplikatzeko beharrezkoak diren
-arauak eman ditzan.
-2. Foru dekretu hau 2011ko maiatzaren 11n sartuko da indarrean.
-47
-BOTHA
-5194
-Dicho cambio de medio se hará efectivo para aquellas notificaciones que se realicen a partir de la mencionada revocación.
-d) Lo dispuesto en los apartados anteriores se excepciona cuando
-una Ley exija o infiera medios no electrónicos y cuando reglamentariamente
-se establezca la obligatoriedad de comunicarse con la Diputación Foral
-de Álava utilizando sólo medios electrónicos para personas jurídicas o
-colectivos de personas físicas con gran capacidad técnica o económica,
-dedicación profesional u otros motivos acreditados tengan garantizado
-el acceso y disponibilidad de los medios tecnológicos precisos.
-e) Si la notificación por medios electrónicos no fuera posible por
-problemas técnicos, el órgano actuante practicará la notificación postal.
-Gasteiz, 2011ko apirilaren 5a.– Diputatu nagusia, XABIER AGIRRE
-LÓPEZ.– Foru Administrazioaren Saileko foru diputatua, CLAUDIO
-RODRÍGUEZ GUTIÉRREZ.– Zerbitzu Orokorren zuzendaria, LUIS
-LATORRE MURGA.
-Disposición Transitoria.
-Los servicios prestados de forma telemática antes de la entrada
-en vigor del presente Decreto Foral, seguirán prestándose a través de
-la sede electrónica de la Diputación Foral de Álava en los mismos
-términos y condiciones que hasta ese momento.
-El uso de claves operativas será válido hasta el día 31 de
-diciembre de 2011. A partir de dicha fecha, el acceso y la identificación
-en la sede electrónica se realizará exclusivamente mediante los certificados electrónicos admitidos en cada momento.
-Disposición Derogatoria.
-Queda derogado el Decreto Foral 2/2010, del Consejo de
-Diputados de 26 de enero, que aprueba el procedimiento a seguir para
-el acceso de los administrados a los servicios de Internet de esta
-Diputación Foral y cuantas disposiciones se opongan a lo expresado
-en este Decreto Foral.
-Disposición Final. Desarrollo, entrada en vigor y aplicación
-efectiva.
-1ª. Se faculta al Diputado de Administración Foral para dictar las
-normas necesarias para el desarrollo y aplicación del presente Decreto
-Foral.
-2ª. El presente Decreto Foral entrará en vigor el día 11 de mayo
-de 2011.
-Vitoria-Gasteiz, a 5 de abril de 2011.– El Diputado General, XABIER
-AGIRRE LÓPEZ.– El Diputado de Administración Foral, CLAUDIO
-RODRÍGUEZ GUTIÉRREZ.– El Director de Servicios Generales, LUIS
-LATORRE MURGA.
-Diputatu Nagusiaren Foru Dekretuak
-Decretos Forales del Diputado General
-EUSKARA, KULTURA ETA KIROL SAILA
-DEPARTAMENTO DE EUSKERA, CULTURA Y DEPORTES
-2291
-77/2011 FORU AGINDUA, apirilaren 5ekoa. Honen bidez, onartu
-egiten da udalek eta kuadrillek, euskara normalizatzeko,
-sustatutako programak garatzeko dirulaguntzetarako 2011ko
-deialdi publikoa.
-2291
-DECRETO FORAL 77/2011, del Diputado General de 5 de abril, que
-aprueba la convocatoria pública de subvenciones para el
-desarrollo de programas de normalización del euskera,
-promovidos por Ayuntamientos y Cuadrillas, ejercicio 2011.
-2011ko ekitaldian euskara normalizatzeko programak garatzeko,
-udalei eta kuadrillei dirulaguntzak emateko deialdi publikoa egitea
-proposatu du Arabako Foru Aldundiko Euskara, Kultura eta Kirol
-Sailak.
-Aginduzko txostenak aztertu dira.
-Horregatik, dagozkidan ahalmenez baliatuz, eta Euskara, Kultura
-eta Kirol Saileko foru diputatuak proposatuta, honakoa
-XEDATU DUT
-El Departamento de Euskera, Cultura y Deportes de la Diputación
-Foral de Álava propone la Convocatoria pública de subvenciones a
-Ayuntamientos y Cuadrillas, para el desarrollo de programas de
-normalización del euskera, durante el ejercicio 2011.
-Vistos los informes preceptivos.
-En su virtud, haciendo uso de las facultades que me competen
-y a propuesta de la Diputada Foral titular del Departamento de
-Euskera, Cultura y Deportes,
-DISPONGO
-Lehenengoa.- Udalei eta kuadrillei dirulaguntzak emateko deialdi
-publikoa onartzea, 2011ko ekitaldian euskara normalizatzeko programak edota jarduerak egin ditzaten, eta horretarako 177.000 euro
-izango dituzte, gehienez ere. Hori guztia 2009ko urriaren 19ko ALHAOn
-(119 zenbakia) argitaratutako urriaren 6ko Diputatuen Kontseiluaren
-69/2009 Foru Dekretuan xedatutakoaren arabera arautuko da. Foru
-dekretu honen bidez, Euskara, Kultura eta Kirol Sailaren eskumen
-esparruan lehiaketa bidez emango diren dirulaguntzei aplikatuko
-zaizkien oinarri arautzaile orokorrak onartu ziren.
-Primero.- Aprobar la convocatoria pública de subvenciones a
-Ayuntamientos y Cuadrillas para el desarrollo de programas de normalización del euskera, que regirá en el ejercicio 2011, con una dotación
-máxima de 177.000 euros, que se regulará por lo previsto en el
-Decreto Foral 69/2009 de 6 de octubre, del Consejo de Diputados,
-publicado en el BOTHA nº 119 de 19 de octubre de 2009, que aprobó
-las bases reguladoras generales aplicables a las subvenciones que
-se otorguen en régimen de concurrencia competitiva en el ámbito de
-las competencias del Departamento de Euskera, Cultura y Deportes.
-
-### Decreto Foral 74/2011: https://www.araba.eus/BOTHA/Boletines/2011/146/2011_146_06892.pdf
-2011ko abenduaren 14a, asteazkena
-I
-ALHAO
-146
-ARABAKO FORU ALDUNDIA
-Administrazio Xedapenak
-BOTHA
-11645
-DIPUTACIÓN FORAL DE ÁLAVA
-I
-Disposiciones Administrativas
-Diputatuen Kontseiluaren Foru Dekretuak
-Decretos Forales del Consejo de Diputados
-EKONOMIA SUSTAPENAREN ETA
-FORU ADMINISTRAZIOAREN SAILA
-DEPARTAMENTO DE PROMOCIÓN ECONÓMICA
-Y ADMINISTRACIÓN FORAL
-6892
-6892
-74/2011 FORU DEKRETUA, azaroaren 29ko Diputatuen Kontseiluarena. Honen bidez, aldatu egiten da apirilaren 5eko 26/2011
-Foru Dekretua, Arabako Foru Aldundiaren egoitza elektronikoa sortzen duena.
-DECRETO FORAL 74/2011, del Consejo de Diputados de 29 de noviembre, que modifica el Decreto Foral 26/2011, de 5 de abril,
-de creación de la sede electrónica de esta Diputación Foral.
-Azken urteotan, Arabako Foru Aldundia ahaleginak egiten ari da
-Internet erabilita bere zerbitzuak hiritarrei gerturatzeko. Horrekin
-lotuta, joan den maiatzean egoitza elektronikoa (aldundidigitala) abian
-jarri zuen.
-Egoitza elektronikoa martxan jarri denetik, ordura arte eskaintzen
-ziren izapide telematikoen segurtasuna eta bermeak areagotu dira, bai
-eta hori eusten zuen azpiegitura teknologikoa berritu ere. Horiek
-horrela, azken hilabeteotan telematikoki izapidetu ahal diren zerbitzuak
-ugaritu egin dira, eta etorkizunean ere bide beretik jarraituko da.
-Asociado a los esfuerzos que en los últimos años la Diputación
-Foral de Álava ha realizado para impulsar Internet como un medio para
-acercar sus servicios a la ciudadanía, en mayo de este año puso en
-funcionamiento su sede electrónica (diputaciondigital).
-La puesta en marcha de la sede electrónica ha supuesto un
-incremento en la seguridad y garantías en los trámites telemáticos que
-hasta ese momento se ofrecían, así como una renovación de la
-infraestructura tecnológica que la soportaba, lo que ha permitido
-incrementar en los últimos meses el número de servicios tramitables
-telemáticamente y seguir haciéndolo en el futuro.
-Uno de los aspectos que regula la normativa de creación de la
-sede son los mecanismos de identificación y acceso a la misma que
-pueden utilizarse. A este respecto, su Disposición Transitoria indica
-que el uso de claves operativas será válido hasta el 31 de diciembre
-de 2011 y que, a partir de dicha fecha, el acceso e identificación en
-la sede electrónica se realizarán, exclusivamente, mediante los certificados electrónicos admitidos.
-En este momento, por razones de oportunidad y conveniencia,
-y con el objetivo de facilitar y potenciar la utilización de la sede electrónica, procede modificar los plazos y condiciones de vigencia de
-dichas claves operativas.
-En su virtud, a propuesta del Diputado de Promoción Económica
-y Administración Foral y previa deliberación del Consejo de Diputados
-reunido en el día de la fecha,
-Egoitza sortzeko arautegian, besteak beste, egoitzan sartzeko eta
-identifikatzeko erabil daitezkeen mekanismoak arautu dira. Horren
-harira, arautegi horren xedapen iragankorrean adierazitakoaren arabera,
-eragiketa gakoak 2011ko abenduaren 31 arte izango dira erabilgarri.
-Egun horretatik aurrera onartutako ziurtagiri elektronikoen bidez baino
-ezin izango da sartu eta identifikatu egoitza elektronikoan.
-Orain, eragiketa gakoen epeak eta indarraldiaren baldintzak
-aldatzea komeni da, egoitza elektronikoaren erabilera errazteko eta
-sustatzeko xedez.
-Horregatik, Ekonomia Sustapenaren eta Foru Administrazioaren
-Saileko foru diputatuaren proposamenez, eta Diputatuen Kontseiluak
-gaur egindako bilkuran gaia aztertu ondoren, honako hau
-XEDATU DUT
-DISPONGO
-Lehenengoa.- Apirilaren 5eko Diputatuen Kontseiluaren 26/2011
-Foru Dekretuaren xedapen iragankorra aldatzea. Aurrerantzean honela
-geratuko da idatzita:
-“Foru dekretu hau indarrean sartu aurretik baliabide telematiko
-bidez eskainitako zerbitzuak, aurrerantzean ere, Arabako Foru
-Aldundiaren egoitza elektronikoaren bidez eskainiko dira, ordura arte
-indarrean izan diren termino eta baldintza beretan.
-Egoitza elektronikoan alta emateko, identifikatzeko eta sartzeko,
-lehentasuna emango zaio unean-unean onartutako ziurtagiri elektronikoen erabilerari; pertsona fisikoen kasuan 2012ko urtarrilaren
-1etik aurrera, eta pertsona juridikoen kasuan 2012ko irailaren 1etik
-aurrera.
-Data horietatik aurrera, salbuespen gisa, erabiltzaile berriei bertaratuta altan emateko eragiketak egin ahalko dira, bai eta iraupen
-mugatuko behin-behineko eragiketa gakoak ematekoak ere.”
-Bigarrena.- Foru dekretu hau argitaratzen den egunean jarriko da
-indarrean.
-Vitoria-Gasteiz, 2011ko azaroaren 29a.– Diputatu nagusia, JAVIER
-DE ANDRÉS GUERRA.– Ekonomia Sustapenaren eta Foru Administrazioaren Saileko foru diputatua, LUIS VIANA APRAIZ.– Zerbitzu Orokorren zuzendaria, LUIS MURO GARCÍA.
-Primero.- Modificar la Disposición Transitoria del Decreto Foral
-26/2011, del Consejo de Diputados de 5 de abril, que quedará redactada como sigue:
-“Los servicios prestados de forma telemática antes de la entrada
-en vigor del presente Decreto Foral, seguirán prestándose a través de
-la sede electrónica de la Diputación Foral de Álava en los mismos
-términos y condiciones que hasta ese momento.
-Se fija el uso de certificados electrónicos admitidos en cada
-momento como método prioritario de alta, identificación y acceso a
-la sede electrónica, a partir del 1 de enero de 2012 para las personas
-físicas y del 1 de septiembre de 2012 para las jurídicas.
-A partir de dichas fechas, excepcionalmente podrán realizarse
-operaciones de altas presenciales de nuevos usuarios y emisión de
-claves operativas provisionales de duración limitada”.
-Segundo.- El presente Decreto Foral entrará en vigor el día de su
-publicación.
-Vitoria-Gasteiz, a 29 de noviembre de 2011.– El diputado general,
-JAVIER DE ANDRÉS GUERRA.– El diputado de Promoción Económica
-y Administración Foral, LUIS VIANA APRAIZ.– El director de Servicios
-Generales, LUIS MURO GARCÍA.
+Número de serie: 267116
+Fecha de firma: 2026.08.28 23:00:02 Z
+2026-02434
 
 ### Documento de la convocatoria: https://web.araba.eus/documents/d/araba/ayudas-aprender-euskera_hoja-de-mano-2025-26_ok-pdf
 2025-2026 IKASTURTEA

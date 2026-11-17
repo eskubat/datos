@@ -1,978 +1,396 @@
 ### Ficha oficial: https://egoitza.araba.eus/es/inicio/tramites/fitxa/ap-1-peaje-social
-Trámites - Sede electrónica - Diputación Foral de Álava - egoitza
-GUÍA DE TRÁMITES
-Configuración
-Aceptar todo
-Rechazar todas
+titulo pestana: Sobre el procedimiento
+descripcion:
+Aprobar las bases reguladoras de subvenciones destinadas a personas físicas, residentes en el Territorio Histórico de Álava, usuarias de infraestructuras viarias por el peaje satisfecho en los tramos subvencionables de las autopistas AP-1 y AP-68 así como la convocatoria de dichas subvenciones por el peaje satisfecho en el tramo Bilbao-Llodio de la AP-68 para los viajes realizados a partir del 1 de septiembre de 2021.
+titulo: Normativa
+A quién va dirigido: Las personas físicas que tengan su residencia habitual en el Territorio Histórico de Álava, sean usuarios de la autopista AP-1 en su tramo Etxabarri-Ibiña hasta Maltzaga, utilicen vehículos ligeros a efectos del cuadro de tarifas establecido por la autopista y dispongan de un dispositivo de telepeaje aceptado y con validez en la autopista a la que se refiere la subvención.
+Quedan expresamente excluidos los titulares de cualquier autorización de transporte público, así como la adscripción de vehículos afectos a una actividad económica.
+Plazo de resolución: 2 Meses
+titulo: Resolución
+Silencio administrativo de la persona interesada: Negativo
+Inicio Persona Interesada: Sí
+valor: Servicio de Carreteras
+titulo: Organismo competente
+titulo pestana: Presentación del trámite
+descripcion: Sede de Arabat Arabako Bideak-Vías de Álava
+valor: subvenciones@arabat.eus
+titulo: Correo electrónico
+titulo: Teléfono
+accion: Tramitar
+descripcion tramite:
+Concesión de subvenciones por VÍAS de Álava S.A. en el peaje satisfecho en el tramo Alavés, por los usuarios de la autopista AP-1 residentes en el Territorio Histórico de Álava
+denominacion tramite: Solicitud
+descripcion:
+Sede de Arabat Arabako Bideak-Vías de Álava C/ Vicente Goikoetxea, 1-1º Oficina 4 01008 Vitoria-Gasteiz. Tel. 945 134690 · Fax: 945 774559
+titulo: Presencial
+descripcion:
+Necesitarás alguno de estos sistemas de identificación digital:
+BAKQ
+Certificado electrónico
+titulo: Electrónico
+estado: En plazo
+descripcion plazo: ABIERTO
+titulo: Plazo de presentación
+finalidad:
+Concesión de subvenciones por VÍAS de Álava S.A. en el peaje satisfecho en el tramo Alavés, por los usuarios de la autopista AP-1 residentes en el Territorio Histórico de Álava.
+descripcion plazo ampliada: Plazo máximo de resolución y notificación: 2 meses para resolver y 10 días para notificar.
+titulo: AP-1 Peaje Social
 
-### Normativa: https://egoitza.araba.eus/es/conoce-la-sede/normativa
-Normativa - Sede electrónica Diputación Foral de Álava - egoitza
-Normativa de la Sede electrónica
-Decreto Foral 50/2022, del Consejo de Gobierno Foral de 27 de diciembre. Aprobar la modificación del Decreto Foral 26/2011, de Consejo de 5 de abril.
-Decreto Foral 55/2021, del Consejo de Gobierno Foral de 28 de diciembre, que aprueba la modificación del Decreto Foral del Consejo 26/2011, 5 abril, que creó la Sede electrónica de esta Diputación Foral.
-Decreto Foral 4/2020, del Consejo de Gobierno Foral de 21 enero, que aprueba la modificación del Decreto Foral del Consejo 26/2011, 5 abril, que creó la Sede electrónica de esta Diputación Foral en lo que se refiere a la regulación de las notificaciones por medios electrónicos.
-Decreto Foral 5/2020, del Consejo de Gobierno Foral de 21 de enero, que aprueba la regulación de las notificaciones y comunicaciones por medios electrónicos del Departamento de Hacienda, Finanzas y Presupuestos.
-Decreto foral 26/2011, del consejo de Diputados de 5 de abril, que crea la sede electrónica de esta Diputación Foral.
-Decreto Foral 74/2011, del Consejo de Diputados de 29 de noviembre, que modifica el Decreto Foral 26/2011, de 5 de abril, de creación de la sede electrónica de esta Diputación Foral.
-Decreto foral 37/2011, del consejo de Diputados de 3 de mayo, que aprueba el Reglamento de Registros de documentos de la Administración Foral de Álava.
-Acuerdo 66/2012, del Consejo de Diputados de 28 de febrero, que aprueba el horario de apertura de las oficinas y de los registros presenciales propios de esta Diputación Foral.
-Decreto Foral 2087/1988, del Consejo de Diputados de 7 diciembre, por el que se crea la Oficina de Comunicación con la Sociedad.
-Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
-Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.
-Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica.
-Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica.
-Configuración
-Aceptar todo
-Rechazar todas
-
-### Preguntas frecuentes: https://egoitza.araba.eus/es/preguntas-frecuentes
-Preguntas frecuentes - egoitza
-Preguntas frecuentes Mi Carpeta
-¿Qué es Mi Carpeta?
-Mi Carpeta es un espacio digital diseñado por la DFA en el cual puedes, mediante actuaciones electrónicas seguras que garantizan la integridad y confidencialidad de tus datos personales, acceder a tus datos aportados al perfil de comunicaciones y avisos, al seguimiento de los trámites y del estado de tramitación de expedientes que te afecten y de los servicios que hayas solicitado, así como a las notificaciones y comunicaciones relacionadas con procedimientos en que seas persona interesada o constes como representante ante esta Administración foral. También puedes acceder a las solicitudes y modelos de inicio de procedimientos presentados.
-¿Qué dispositivos puedo usar para acceder a Mi Carpeta?
-Se puede acceder a Mi Carpeta desde cualquier dispositivo con navegador web, ya sea un ordenador, una tablet o un teléfono.
-¿De dónde se obtienen los datos y cada cuánto se actualizan?
-La información en Mi Carpeta proviene de diferentes fuentes y departamentos. Cada entidad es responsable de los datos que maneja y tiene sus propias políticas de actualización definidas por sus administradores. Mi Carpeta actúa como un intermediario de esa información.
-¿Puedo acceder a Mi Carpeta en nombre de otra persona o como representante?
-Si deseas acceder a la información de otra persona, empresa o entidad que representas a través de Mi Carpeta, es necesario usar un certificado electrónico que te identifique adecuadamente. En los apartados habilitados para ello en Mi Carpeta, te mostrará los trámites realizados y los documentos electrónicos relacionados con procedimientos en que estés registrado y que definen trámites y actuaciones ante la DFA que pueden efectuarse como representante ante el órgano correspondiente. Estos apartados incluyen: Mis expedientes, Mis presentaciones y Mi buzón.
-¿Qué trámites puedo consultar en Mi Carpeta?
-Podrás consultar los siguientes servicios:
-Mi perfil
-Al acceder a Mi Carpeta, si no estás registrado en este nuevo apartado SIEMPRE te va a sugerir que te registres, pero es posible NO HACERLO y entrar sin registrarte a la página de inicio de Mi Carpeta. Desde esta sección puedes rellenar los datos para registrarse una vez que estás dentro, o también permite modificarlos.
-Mis expedientes
-Desde este apartado puedes acceder al listado de tus expedientes, así como de las personas que te han dado autorización para poder ver los expedientes de procedimientos concretos.
-Desde el listado puedes acceder al detalle del expediente.
-Dentro del detalle de expediente puedes ver los datos básicos del mismo, identificación, documentos presentados (si se comenzó de manera electrónica), así como el historial de tramitación.
-También puedes acceder al servicio para ADJUNTAR DOCUMENTACION a dicho expediente. Esta opción no la tendrás operativa en caso de tratarse de un expediente en estado CERRADO.
-Mis autorizaciones
-Se configura un área común para los apartados de Mis autorizados y Mis autorizaciones de la antigua sede, aunque el modelo de autorización sigue siendo el de ese sistema hasta su evolución. Desde este apartado puedes gestionar las autorizaciones para que puedas realizar trámites en nombre de otra persona o entidad.
-Mis presentaciones
-Desde este apartado puedes acceder al listado de registros que has presentado tanto de manera presencial como electrónica
-Mi buzón
-A través de este servicio puedes consultar las notificaciones y comunicaciones electrónicas puestas a disposición de las personas usuarias por parte de la DFA.
-Mis borradores
-Próximamente en versiones posteriores.
-Mis pagos
-¿Por qué no puedo ver información sobre una solicitud o expediente?
-Es posible que el expediente se esté gestionando con una herramienta de tramitación aún no integrada en Mi Carpeta, o que no estés registrado como persona interesada o representante en ese trámite. En cualquiera de estos casos, te sugerimos contactar con el órgano responsable del trámite, cuya información está disponible en la Sede electrónica, para obtener más detalles.
-Veo mis datos, pero contienen algún error: ¿cómo lo resuelvo?
-Mi Carpeta solo es responsable de tus datos de contacto, los cuales proporcionas al registrarte en la herramienta. Puedes corregir tus datos accediendo a tu perfil. Además, Mi Carpeta muestra el estado de tramitación de tus expedientes.
-Cualquier error que detectes en los datos debes comunicarlo al órgano responsable para su actualización y evitar que se utilice como referencia en actos de la Administración. La información de contacto del órgano responsable está disponible en los detalles del trámite en la Guía de Trámites de la Sede electrónica.
-Si no dispones de un medio para comunicarte con dicho órgano, puedes contactar con el equipo de soporte técnico y nosotros haremos llegar tu comentario. Sin embargo, la corrección o actualización de los datos dependerá de la persona responsable del procedimiento en que sean tratados dichos datos.
-Configuración
-Aceptar todo
-Rechazar todas
-
-### Requisitos técnicos: https://egoitza.araba.eus/es/requisitos-tecnicos
-Requisitos técnicos de la Sede Electrónica de la DFA - egoitza
-Requisitos técnicos
-Para utilizar la Sede electrónica de la Diputación Foral de Álava su equipo deberá disponer de las siguientes características:
-Software:
-Uno de los siguientes navegadores: Internet Explorer (9, 10, 11), Firefox 10 o superior. No obstante, es posible usar otros navegadores, como Chrome o Microsoft Edge, aunque no se podrán efectuar ciertas operaciones, como la firma electrónica o la cumplimentación de ciertos tipos de formularios.
-Adobe Reader 8 o superior.
-Java Runtime Environment (JRE) 1.6 o superior.
-En el caso de que use un lector de tarjetas, sus drivers correspondientes.
-El software correspondiente al certificado electrónico que vaya a utilizar. Normalmente puede ser descargarlo de las páginas web de la organización que lo haya emitido.
-Los certificados de IZENPE necesarios para que el navegador considere de confianza la sede electrónica de la DFA. Podrá instalarlos siguiendo las instrucciones que se aportan aquí.
-Hardware:
-Lector de certificados electrónicos (Excepto si utiliza certificados en software o en token usb).
-Si fuese necesario, la organización que expidió su certificado le asesorará sobre qué lectores de tarjetas son compatibles con él e, incluso, puede facilitarle su adquisición.
-Configuración
-Aceptar todo
-Rechazar todas
-
-### {{cur_normativa.normativa.descripcion}}: https://egoitza.araba.eus/es/inicio/tramites/fitxa/%7B%7Bcur_normativa.normativa.url%7D%7D
-{{#if resultado.nivel1Tema}}
-{{resultado.nivel1Tema}}
-{{/if}}
-{{#if resultado.claseTramite}}
-{{resultado.claseTramite}}
-{{/if}}
-{{resultado.titulo}}
-{{{resultado.finalidad}}}
-{{#ifEquals resultado.plazo.enPlazo "S"}}
-{{resultado.plazo.estado}}
-{{/ifEquals}}
-{{#ifEquals resultado.plazo.enPlazo "N"}}
-{{/ifEquals}}
-
-### Decreto Foral 55/2021: https://e-s.araba.eus/BOTHA/Boletines/2022/002/2022_002_04218_C.pdf
-miércoles, 5 de enero de 2022 • Núm. 2
+### Documento de la convocatoria: https://www.araba.eus/botha/Boletines/2021/098/2021_098_02867_C.pdf
+lunes, 30 de agosto de 2021 • Núm. 98
 I - JUNTAS GENERALES DE ÁLAVA Y ADMINISTRACIÓN FORAL
 DEL TERRITORIO HISTÓRICO DE ÁLAVA
 Diputación Foral de Álava
-DEPARTAMENTO DE FOMENTO DEL EMPLEO, COMERCIO Y
-TURISMO Y DE ADMINISTRACIÓN FORAL
-Decreto Foral 55/2021, del Consejo de Gobierno Foral de 28 de diciembre. Aprobar la modificación
-del Decreto Foral del Consejo de Gobierno 26/2011, de 5 de abril
-Mediante el Decreto Foral 26/2011, del Consejo de Gobierno de 5 de abril, se creó la sede
-electrónica de la Diputación Foral de Álava.
-La Diputación Foral de Álava estableció mediante Acuerdo 550/2015, del Consejo de Diputados de 6 de octubre, que modifica determinadas normas de organización y funcionamiento
-en la información y los servicios prestados a través de la red Internet por parte de la Administración Foral, que todas sus páginas electrónicas tuvieran el dominio araba.eus,. La puesta en
-funcionamiento del nuevo dominio en Internet araba.eus, como modelo de presencia en Internet de la Diputación Foral de Álava, afectó a la dirección electrónica de referencia de la sede
-electrónica, justificando la aprobación del Decreto Foral 22/2016, del Consejo de Diputados de
-23 de febrero, que modifica el dominio de la sede electrónica de la Diputación Foral de Álava.
-Sin embargo, aún no ha podido quedar remarcado totalmente en la regulación de la sede
-electrónica el aspecto lingüístico de dicho modelo de presencia, donde es preciso insertar el
-término en euskera “egoitza” en la dirección electrónica de la sede, en lugar del actual término
-“e-s” que precede a “.araba.eus”.
-Además de las directrices emanadas sobre el modelo de presencia en Internet de la Diputación Foral de Álava, y sin perjuicio de la voluntad de aprobar una futura nueva regulación de
-la sede electrónica de la Diputación Foral de Álava y del punto de acceso general electrónico,
-en este momento se estima necesario realizar las modificaciones que se exponen a continuación, en coherencia con las normas de organización y funcionamiento en la información y los
-servicios prestados a través de la red Internet por parte de la Administración Foral y referidas
-al texto normativo actualmente en vigor, esto es, en el Decreto Foral 26/2011, del Consejo de
-Diputados de 5 de abril, que crea la sede electrónica de esta Diputación Foral.
-En primer lugar, suprimir en el artículo 1. Objeto el párrafo “La sede electrónica de la Diputación Foral de Álava se corresponderá con la dirección electrónica https://e-s.alava.net, siendo
-accesible tanto directamente como a través del portal de Internet www.alava.net”, al tratarse
-de una de las características de la sede, procediendo a incluir la redacción actualizada de dicha
-característica en el correspondiente Artículo 3. Características de la sede electrónica. Asimismo,
-es también necesaria la modificación de este mismo artículo 1 con el fin de hacer referencia
-al artículo 38 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, en
-lugar del artículo 10 de la derogada Ley 11/2007, de 22 de junio, de acceso electrónico de los
-ciudadanos a los Servicios Públicos.
-En segundo lugar, hacer referencia en el apartado i del artículo 3. Características de la sede
-electrónica al dominio vigente del portal institucional, que se corresponde con https://web.araba.
-eus, modificándose a tal fin su redacción. Asimismo, se incorpora en este mismo artículo 3
-un nuevo apartado k) que recoge la modificación en la dirección electrónica de referencia de la
-sede de la Diputación Foral de Álava, que pasa a corresponderse con https://egoitza.araba.eus,
-como una más de las características de la sede.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2021-04218
-miércoles, 5 de enero de 2022 • Núm. 2
-Por último, incluir una Disposición Transitoria por la que se dispone que, en tanto las disponibilidades técnicas y presupuestarias no permitan incorporar a la dirección electrónica de
-referencia de la sede electrónica de la Diputación Foral de Álava https://egoitza.araba.eus todos
-los trámites y servicios que en la actualidad se ofrecen en https://e-s.araba.eus, dichos trámites y servicios continúen prestándose de acuerdo con las determinaciones previstas hasta la
-aprobación de este Decreto Foral. De esa manera, se garantiza que, en tanto no se complete
-el trasvase tecnológico a la nueva dirección electrónica de referencia de la sede, se siga preservando el derecho de la ciudadanía a disponer de un espacio personalizado de relaciones
-electrónicas con la Diputación Foral de Álava, accesible desde la sede electrónica, y mediante
-el cual pueda continuar accediendo a los expedientes, documentos, comunicaciones y notificaciones de su interés, dando cuenta de la trazabilidad de los documentos y de los datos, en
-los mismos términos y condiciones que hasta este momento se han venido prestando en el
-dominio https://e-s.araba.eus.
-Y todo ello sin perjuicio de la progresiva incorporación que pueda llevarse a cabo de aquellos contenidos y requisitos establecidos por las leyes aplicables y, especialmente, los previstos para las sedes electrónicas en el Capítulo V del Título Preliminar de la Ley 40/2015, de 1 de
-octubre, de Régimen Jurídico del Sector Público.
-El presente Decreto Foral incorpora la perspectiva de género y en su elaboración se han
-tenido en cuenta las disposiciones contenidas en el Decreto Foral 29/2017, del Consejo de Gobierno Foral de 23 de mayo, que aprueba el procedimiento de elaboración de disposiciones
-de carácter general, las guías para la elaboración de los informes de impacto normativo y de
-impacto de género y las directrices de técnica normativa.
-En su virtud, tras la emisión de los preceptivos informes, y a propuesta de la Diputada Foral
-titular del Departamento de Fomento del Empleo, Comercio y Turismo y de Administración
-Foral, previa deliberación del Consejo de Gobierno Foral reunido en el día de hoy,
+DEPARTAMENTO DE INFRAESTRUCTURAS VIARIAS Y MOVILIDAD
+Decreto Foral 39/2021, del Consejo de Gobierno Foral de 3 de agosto. Aprobar las bases reguladoras de subvenciones destinadas a personas físicas usuarias del peaje satisfecho en los
+tramos subvencionables de las autopistas AP-1 y AP-68 así como la convocatoria de dichas
+subvenciones por el peaje satisfecho en el tramo Bilbao-Llodio de la AP-68 a partir del 1 de
+septiembre de 2021
+El Consejo de Diputados mediante Acuerdo 9/2002 de 5 de febrero, aprobó las bases reguladoras para la concesión de las subvenciones en el peaje satisfecho en el tramo subvencionable por los usuarios de la autopista AP-68 residentes en este Territorio Histórico. Dichas bases
+fueron modificadas por Acuerdo 31/2012, de 22 de mayo.
+El Consejo de Diputados mediante Acuerdo 292/2009 de 5 de febrero, aprobó las bases reguladoras para la concesión de las subvenciones en el peaje satisfecho en el tramo subvencionable por los usuarios de la autopista AP-1 residentes en este Territorio Histórico. Dichas bases
+fueron modificadas por Acuerdo 387/2009, de 16 de junio, y Acuerdo 141/2012 de 27 de marzo.
+El Consejo de Gobierno mediante Acuerdo 317/2018 de 12 de junio aprobó las bases reguladoras para la concesión de subvenciones a los residentes en el Territorio Histórico de Álava
+por el peaje satisfecho, en los tramos subvencionables de la autopista AP-1 y de la AP-68. Dichas
+bases fueron modificadas por Acuerdo 659/2018, de 27 de noviembre.
+Según lo previsto en la Norma Foral 11/2016 de 19 de octubre, de Subvenciones del Territorio
+Histórico de Álava, mediante Acuerdo 318/2018 de 12 de junio se encomendó a Arabako Bideak-Vías de Álava, SA (Arabat) la gestión y el desarrollo de las subvenciones, a los residentes
+en el Territorio Histórico de Álava, por el peaje satisfecho por los usuarios de la autopista AP-1
+y de la AP-68 en los tramos subvencionables, actuando como entidad colaboradora.
+Por el Departamento de Infraestructuras Viarias y Movilidad, se pretende consolidar y mejorar la subvención al peaje, aumentando las ayudas a los usuarios de la AP-68, introduciendo
+como tramo también subvencionable, el que transcurre por la AP-68 entre Llodio y Bilbao. Para
+ello El Departamento de Infraestructuras Viarias y Movilidad de la Diputación Foral de Álava,
+propone aprobar las nuevas bases reguladoras de las condiciones de subvención a los usuarios
+de la autopista AP-68 de manera que se incluya, también, como subvencionable el tramo de
+la AP-68 entre Llodio y Bilbao.
+Mediante Orden Foral 510/2021 de 2 de julio se aprobó iniciar el procedimiento de aprobación de las nuevas bases reguladoras para la concesión de subvenciones a los residentes
+en el Territorio Histórico de Álava por el peaje satisfecho, en los tramos subvencionables de la
+autopista AP-1 y de la AP-68.
+En su virtud, a propuesta de la Diputada de Infraestructuras Viarias y Movilidad, y previa
+deliberación del Consejo de Gobierno Foral en sesión celebrada en el día de hoy,
 DISPONGO
-Primero. Modificar el artículo 1 del Decreto Foral 26/2011, del Consejo de Diputados de 5 de
-abril, que quedará redactado como sigue:
-“Artículo 1. Objeto
-1. Este Decreto tiene por objeto crear la sede electrónica de la Diputación Foral de Álava,
-de conformidad con lo dispuesto en el artículo 38 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público y con las características que se establecen en el artículo 3 del
-presente Decreto”.
-Segundo. Modificar el artículo 3 del Decreto Foral 26/2011, del Consejo de Diputados de 5
-de abril, que quedará redactado como sigue.
-“Artículo 3. Características de la sede electrónica
-La sede electrónica de la Diputación Foral de Álava se crea con las siguientes características:
-a) Su identificación se lleva a cabo mediante un certificado de sede electrónica.
-b) Está disponible para toda la ciudadanía de forma gratuita y permanente.
-c) La Diputación Foral de Álava responde de la integridad, veracidad y actualización de la
-información y de los servicios a los que pueda accederse a través de la misma.
-d) Se rige por los principios de publicidad oficial, responsabilidad, calidad, seguridad, disponibilidad, accesibilidad, neutralidad e interoperabilidad.
-e) Dispone de sistemas que permiten el establecimiento de comunicaciones seguras siempre que sean necesarias.
+Primero. Aprobar las bases reguladoras de subvenciones destinadas a personas físicas,
+residentes en el Territorio Histórico de Álava, usuarias de infraestructuras viarias por el peaje
+satisfecho en los tramos subvencionables de las autopistas AP-1 y AP-68 para las convocatorias
+que se realicen a partir de la entrada en vigor del presente Decreto. Dichas bases se encuentran
+recogidas en el Anexo I del presente Decreto.
 www.araba.eus
 D.L.: VI-1/1958 ISSN: 2254-8432
-2021-04218
-miércoles, 5 de enero de 2022 • Núm. 2
-f) Asegura la accesibilidad y usabilidad de acuerdo con las normas establecidas al respecto,
-estándares abiertos y, en su caso, aquellos otros que sean de uso generalizado por la ciudadanía.
-g) Habilita a las personas usuarias de la sede a autorizar a otras para realizar determinados
-trámites telemáticos con los mismos efectos que si los hubieran realizado ellas.
-h) Garantiza el acceso a sus contenidos y servicios en euskera y castellano.
-i) Establece medidas que permiten diferenciar a la persona usuaria si se encuentra en la
-sede electrónica o en el resto del Portal https://web.araba.eus.
-j) Incluirá progresivamente todas las actuaciones, procedimientos y servicios que requieran la autenticación de la ciudadanía ante la Diputación Foral de Álava, relacionarse con ésta
-por medios electrónicos, así como aquellos otros respecto a los que se decida su inclusión
-en la sede por razones de oportunidad, eficacia o calidad en la prestación de servicios a la
-ciudadanía.
-k) La dirección electrónica de referencia de la sede electrónica de la Diputación Foral de
-Álava será https://egoitza.araba.eus, accesible directamente o a través del portal de Internet
-https://web.araba.eus”.
-Tercero. Modificar la Disposición Transitoria del Decreto Foral 26/2011, del Consejo de Diputados de 5 de abril, que quedará redactada como sigue:
-“Disposición transitoria
-Trámites y servicios de la actual dirección electrónica https://e-s.araba.eus de la Diputación
-Foral de Álava.
-Hasta en tanto las disponibilidades técnicas y presupuestarias no permitan incorporar a la
-dirección electrónica de referencia de la sede electrónica de la Diputación Foral de Álava, los trámites y servicios que en la actualidad se ofrecen en la dirección electrónica https://e-s.araba.eus
-continuarán prestándose a través de dicha dirección electrónica, accesible desde la sede electrónica y de acuerdo con las determinaciones previstas hasta ese momento.
-Se fija el uso de certificados electrónicos admitidos en cada momento como método prioritario de alta, identificación y acceso a la sede electrónica, a partir del 1 de enero de 2012 para
-las personas físicas y del 1 de septiembre de 2012 para las jurídicas.
-A partir de dichas fechas, excepcionalmente podrán realizarse operaciones de altas presenciales de nuevos usuarios y emisión de claves operativas provisionales de duración limitada”.
-Disposición final única
-El presente Decreto Foral entrará en vigor el día siguiente al de su publicación en el BOTHA.
-Vitoria-Gasteiz, a 28 de diciembre de 2021
-Diputado General
+2021-02867
+lunes, 30 de agosto de 2021 • Núm. 98
+Segundo. Aprobar la convocatoria pública para 2021 de subvenciones destinadas a personas físicas, residentes en el Territorio Histórico de Álava, usuarias de infraestructuras viarias por
+el peaje satisfecho en el tramo Bilbao-Llodio de la autopista AP-68 para los viajes realizados a
+partir del día 1 de septiembre de 2021
+Tercero. Consignar el importe de 138.883,00 euros a favor de Arabako Bideak-Vías de Álava,
+en cumplimiento de la encomienda aprobada, para hacer frente a subvenciones en el peaje satisfecho en el tramo subvencionable Bilbao-Llodio de la autopista AP-68 durante el ejercicio 2021,
+con cargo a la aplicación presupuestaria 21.1.21 50201 5401 4800001 subvención peaje AP-68.
+DISPOSICIÓN TRANSITORIA
+Las subvenciones destinadas a personas físicas, residentes en el Territorio Histórico de
+Álava, usuarias de infraestructuras viarias por el peaje satisfecho en los tramos subvencionables de las autopistas AP-1 y AP-68 públicas cuya convocatoria se hubiera aprobado con anterioridad a la entrada en vigor de este Decreto Foral se regirán por lo dispuesto en la normativa
+que reguló su convocatoria.
+DISPOSICIÓN DEROGATORIA
+Queda derogados el Acuerdo 317/2018, del Consejo de Gobierno de 12 de junio, el Acuerdo
+659/2018, del Consejo de Gobierno de 27 de noviembre así como cualquier otra disposición de
+igual o inferior rango en lo que contradigan o se opongan a lo dispuesto en esta ley.
+DISPOSICIÓN FINAL
+El presente Decreto entrará en vigor al día siguiente de su publicación en el BOTHA.
+Vitoria-Gasteiz, 3 de agosto de 2021
+El Diputado General
 RAMIRO GONZÁLEZ VICENTE
-Segunda Teniente Diputado General y Diputada Foral de Fomento del Empleo
-Comercio, Turismo y de Administración Foral
-CRISTINA GONZÁLEZ CALVAR
-Director de Servicios Generales
-JAVIER MARDONES GÓMEZ-MARAÑON
+La Diputada Foral de Infraestructuras Viarias y Movilidad
+BLANCA DE LA PEÑA BERNAL
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-02867
+lunes, 30 de agosto de 2021 • Núm. 98
+ANEXO I
+Bases que han de regular la concesión de subvenciones por
+Arabako Bideak-Vías de Álava, SA (Arabat) en el peaje de
+las autopistas AP-1 y AP-68 en los tramos subvencionables, satisfecho por
+las personas usuarias residentes en el Territorio Histórico de Álava
+1. Objeto de las subvenciones
+El objeto de las presentes bases es regular el establecimiento de unas subvenciones a los
+costes pagados por las personas usuarias alavesas por el tránsito en determinados tramos de
+las autopistas AP-1 y AP-68.
+2. Requisitos de las personas beneficiarias
+Podrán acceder a las subvenciones reguladas en este Decreto Foral las personas físicas
+usuarias de las infraestructuras viarias mencionadas con un vehículo ligero de uso particular,
+no afecto a actividad profesional, empresarial o económica alguna y que cumplan los siguientes requisitos:
+a) Tener su residencia habitual en el Territorio Histórico de Álava, en los términos previstos
+en la Norma Foral reguladora del Impuesto sobre la Renta de las Personas Físicas.
+b) Circular por alguna de las infraestructuras viarias enunciadas sometidas a peaje, en los
+tránsitos, límites y cuantías relacionadas en cada caso.
+c) Disponer de la titularidad de un dispositivo telemático de identificación y pago (OBE) y
+abonar a través de él los trayectos a que se refiere el párrafo anterior.
+d) Encontrarse al corriente de sus obligaciones tributarias con la Hacienda Foral de Alava.
+e) No haber sido sancionadas, administrativa o penalmente por incurrir en discriminación
+por razón de sexo, según lo previsto en la Ley 4/2005 de 18 de febrero, para la Igualdad de
+Mujeres y Hombres. En ningún caso podrán obtener la condición de beneficiaria de la subvención la persona física cuya actuación y/o trayectoria sean contrarios a los principios de
+igualdad y aquellas que hayan sido sancionadas por infracción muy grave o condenadas por
+resolución administrativa o sentencia judicial firmes por incumplimiento de las obligaciones
+sobre igualdad de trato y oportunidades del Estatuto de los Trabajadores o el convenio colectivo
+aplicable; por decisiones discriminatorias por razón de sexo; por acoso sexual en el trabajo
+según lo establecido en la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de
+mujeres y hombres.
+f) Que no se encuentren incursas en ninguna de las circunstancias que establece el artículo
+12 de la Norma Foral de Subvenciones, cuya acreditación se realizará mediante declaración
+responsable contenida en la solicitud.
+g) Utilizar uno de los vehículos adscritos previamente en la solicitud de subvención.
+Estos requisitos deberán acreditarse en el momento de presentar la solicitud y mantenerse
+en el momento de la propuesta de adjudicación y abono de la misma.
+3. Cuantía de las subvenciones
+3.1. En la autopista AP-1.
+Serán subvencionables los trayectos que discurriendo por la AP-1 entre los peajes de Etxabarri-Ibiña y Maltzaga tengan su origen o salida en el Territorio Histórico de Álava, con los
+siguientes límites y cuantías:
+Tramo entre Etxabarri-Ibiña y Eskoriatza: Con el límite de 50 trayectos mensuales, se subvencionará el 100 por ciento del coste total abonado por la persona usuaria a partir de que
+haya incurrido en un gasto mensual superior a 15 euros IVA incluido. Siendo, por lo tanto, por
+cuenta de la persona usuaria los primeros 15 euros de gasto. No corresponderá subvención si
+el gasto mensual abonado fuera inferior a este importe.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-02867
+lunes, 30 de agosto de 2021 • Núm. 98
+Tramo entre Eskoriatza y Maltzaga: Con el límite de 50 trayectos mensuales, se subvencionará el 100 por ciento del coste total abonado por la persona usuaria a partir de que haya
+incurrido en un gasto mensual superior a 60 euros IVA incluido. Siendo, por lo tanto, por cuenta
+de la persona usuaria los primeros 60 euros de gasto. No corresponderá subvención si el gasto
+mensual abonado fuera inferior a este importe.
+Los trayectos se ordenarán cronológicamente y se aplicará el límite que corresponda en
+cada periodo de mes natural.
+Los recorridos que tengan su origen y/o destino en Álava y que comprendan todo o parte
+de los tramos señalados anteriormente, el cálculo de la subvención se hará aplicando de forma
+proporcional a la parte del recorrido en cada tramo.
+Para ello, en aquellos trayectos que discurran entre peajes anteriores y posteriores a Eskoriatza, se computará el trayecto como si se tratarán de dos diferentes, efectuando una salida en
+Eskoriatza y con una entrada consecutiva en el mismo peaje hasta el destino. De este trayecto,
+se computará dentro del primer límite la tarifa del trayecto entre el peaje alavés que corresponda y Eskoriatza. Y dentro del segundo, el importe restante del trayecto.
+En los trayectos que discurran entre un peaje alavés y un peaje de la AP-8, el segundo límite
+se aplicará tomando como origen o destino el entronque de la AP-1 con la AP-8, según proceda.
+3.2. En la autopista AP-68.
+Teniendo en cuenta los requisitos previos que se establecen a las personas beneficiarias de
+la subvención, se determina la cuantía de la subvención de la siguiente forma:
+• Computarán para el cálculo de la subvención aquellos recorridos en los que los pasos por
+peaje del trayecto se realicen por las estaciones de peaje de la autopista AP-68 comprendidas
+entre Bilbao y Zambrana (esta última incluida).
+La cuantía de la subvención vendrá determinada por la aplicación de descuentos en el
+importe total del peaje correspondiente al tramo subvencionable de la AP-68, según se detalla
+a continuación:
+• Se aplicará un descuento del 60 por ciento al importe total IVA incluido de los viajes realizados, siempre que se efectúen 15 o más viajes al mes.
+• Los viajes se computarán según su orden cronológico.
+4. Presentación de solicitudes.
+4.1. Las solicitudes se presentarán:
+• presencialmente. en las las oficinas de la Sociedad Pública Arabako Bideak-Vías de Álava,
+SA (Arabat) (Vicente Goikoetxea número 1, 1º oficina 4) o
+• en cualquiera del resto de formas previstas en el artículo 16.4 de la Ley 39/2015, de 1 de
+octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
+4.2. Dado que el censo de personas beneficiarias es único, sólo se admitirá una solicitud,
+incluso en el caso de personas usuarias de ambas infraestructuras viarias (AP-1 y AP-68).
+4.3. Las solicitudes, según el impreso normalizado que figura como anexo de las presentes
+bases, vendrán acompañadas de la documentación actualizada que se enumera a continuación:
+— Fotocopia del DNI en vigor de la persona solicitante.
+— Certificado de empadronamiento en algún municipio de Álava.
+— Certificado de estar al corriente en el cumplimiento de sus obligaciones tributarias con
+la Hacienda Foral de Álava.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-02867
+lunes, 30 de agosto de 2021 • Núm. 98
+— Documento acreditativo, expedido por la entidad financiera de titularidad de la cuenta
+bancaria de la persona solicitante en donde se vehicularán los peajes telemáticos, y de la
+disponibilidad y titularidad del dispositivo de tele peaje y la numeración completa del mismo.
+— Fotocopia del permiso de circulación, para la correcta identificación (matricula) del o de
+los vehículos adscritos al dispositivo hasta un máximo de dos vehículos.
+— Declaración responsable de que los vehículos adscritos al dispositivo no están afectos
+a una actividad profesional, empresarial o económica. Se incluye en el propio impreso de
+solicitud.
+— Declaración responsable de no estar incurso en ninguno de los procedimientos establecidos en los apartados e) y f) del artículo 2 de las presentes bases. Se incluye en el propio
+impreso de solicitud.
+Para los ejercicios siguientes al de presentación de la solicitud de subvención, si la persona
+beneficiaria no causa baja como tal ni existe resolución en contra de dicha condición por incumplimiento de los requisitos de acceso a las mismas, no será necesaria la nueva presentación
+de esta documentación.
+4.4. Para quienes tuvieran reconocida la condición de persona beneficiaria en convocatorias
+anteriores al presente Decreto Foral, no será necesario que presenten nuevamente la documentación requerida, salvo que se haya producido algún cambio en cualquiera de las condiciones
+determinantes de la concesión de la subvención o haya habido resolución en contra de dicha
+condición por incumplimiento de los requisitos de acceso a las mismas.
+4.5. Se realizará de oficio, en aplicación de lo dispuesto en Decreto Foral 58/2004, de 5 de
+octubre, la comprobación del cumplimiento por parte de las personas beneficiarias del requisito de encontrarse al corriente del cumplimiento de sus obligaciones tributarias. Así mismo
+se realizará respecto de la comprobación de la residencia habitual en el Territorio Histórico de
+Alava, según lo dispuesto en la Norma Foral 33/2013 reguladora del Impuesto sobre la Renta
+de las Personas Físicas.
+4.6. Si las solicitudes formuladas no reunieran los requisitos establecidos, la Sociedad
+Pública Arabako Bideak-Vías de Álava, SA (Arabat) requerirá a los interesados para que, en un
+plazo de diez días, subsanen la falta o acompañen los documentos preceptivos, procediéndose,
+en caso contrario a tenerle por desistido, previa resolución expresa dictada al efecto.
+5. Régimen de concesión
+Las subvenciones reguladas en las presentes bases se otorgarán bajo el régimen de libre
+concurrencia, concediéndose la condición de personas beneficiarias a todas las solicitantes que
+cumplan con los requisitos de las presentes bases reguladoras y resto de la normativa vigente.
+6. Recursos económicos
+Las presentes bases reguladoras permanecerán en vigor en tanto se cuente con crédito
+adecuado y suficiente establecido a tal fin en los correspondientes presupuestos del Territorio
+Histórico de Álava.
+7. Gestión y abono de las subvenciones
+7.1. La gestión de las subvenciones a las personas usuarias alavesas de la AP-1 y AP 68, en
+los términos recogidos en las presentes bases reguladoras y en las condiciones recogidas en
+el convenio, se realizará por la Sociedad Pública Arabako Bideak-Vías de Álava, SA (Arabat).
+7.2. La persona titular del Departamento Infraestructuras Viarias y Movilidad de la Diputación
+Foral de Álava, tras la comprobación de las solicitudes presentadas cada mes de acuerdo con
+los criterios fijados en la convocatoria, dictará la resolución que proceda, incluyendo aquellas
+personas solicitantes que han adquirido la condición de personas beneficiarias, así como las
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-02867
+lunes, 30 de agosto de 2021 • Núm. 98
+solicitudes desestimadas, indicando el motivo de la desestimación. La resolución de concesión
+o denegación será notificada a las personas solicitantes por Arabako Bideak-Vías de Álava, SA
+en el plazo máximo de un mes, según las formas previstas en el artículo 40 de la Ley 39/2015,
+de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
+7.3. Dentro del mes siguiente a la finalización del trimestre natural al que tengan lugar los
+desplazamientos subvencionados, Arabako Bideak-Vías de Álava, SA (Arabat), de acuerdo con
+las bases y convocatoria aprobadas por la Diputación Foral de Álava, una vez se haya comprobado que los solicitantes cumplen en el citado período con los requisitos exigidos en este
+Decreto, ordenará el abono a las personas beneficiarias de las cantidades subvencionables
+del trimestre.
+7.4. No se considera la posibilidad de abonar anticipos de la subvención.
+7.5. La aplicación de descuentos tendrá carácter mensual para cada persona física con dispositivo de telepeaje. Los descuentos se calcularán respecto al dispositivo de telepeaje que la
+persona usuaria haya facilitado al adherirse al peaje subvencionado. En caso de que haya un
+cambio de dispositivo por pérdida, avería o caducidad, la persona usuaria puede notificarlo
+aportando el nuevo PAN (identificador numérico del mismo) y la información justificativa necesaria. De esta forma se le computarán los viajes realizados con el nuevo dispositivo a partir
+de la fecha de notificación.
+Las subvenciones se aplicarán a los tránsitos comprendidos desde la fecha de presentación de la solicitud de la subvención y se abonarán dentro del mes siguiente al que finalice el
+trimestre natural en el que tengan lugar los desplazamientos subvencionados
+8. Aceptación de las bases
+8.1. Las personas beneficiarias de las subvenciones deberán someterse a las actuaciones
+de comprobación de la Sociedad Pública Arabako Bideak-Vías de Álava, SA (Arabat), de la
+Diputación Foral de Álava y a las previstas en la legislación del Tribunal de Cuentas u otros
+órganos competentes.
+8.2. La presentación de solicitudes comportará la aceptación íntegra de las bases que rigen
+la presente convocatoria por parte de las personas solicitantes, así como su autorización a la
+Diputación Foral de Álava y a la Sociedad Pública Arabako Bideak-Vías de Álava, SA (Arabat)
+para el tratamiento de los datos personales necesarios para su gestión.
+9. Modificación
+9.1. La persona beneficiaria tendrá la obligación de comunicar a Arabat las modificaciones
+que en su caso pudieran producirse en relación con cualquier circunstancia tanto objetiva como
+subjetiva, que hubiera sido tenida en cuenta para la concesión de la subvención.
+9.2. El órgano concedente podrá modificar de oficio la resolución de concesión, previa
+audiencia de la parte interesada y antes de la aplicación de los fondos, cuando, habiéndose
+advertido una alteración de las condiciones tenidas en cuenta para la concesión de la subvención, éstas impidan o dificulten la consecución del interés público perseguido.
+10. Reintegro
+Procederá el reintegro de las subvenciones obtenidas por las personas beneficiarias por
+las causas establecidas en el Título II de la Norma Foral 11/2016, de 19 de octubre, por la que
+se regula el régimen jurídico de las subvenciones.
+11. Desarrollo
+Por el Diputado/a Foral titular del Departamento de Infraestructuras Viarias y Movilidad se
+procederá a dictar las resoluciones que se estimen procedentes para el desarrollo de la presente convocatoria, pudiendo ejercer acciones que permitan exigir y comprobar la veracidad
+de los datos y cumplimentación de lo regulado en las presentes bases.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-02867
+lunes, 30 de agosto de 2021 • Núm. 98
+12. Cumplimiento de las bases y régimen sancionador
+Las personas beneficiarias de estas líneas de subvenciones estarán obligados al cumplimiento de las exigencias de la Norma Foral 11/2016 de 19 de octubre de Subvenciones del
+Territorio Histórico de Álava, así como a los requisitos y condiciones de las presentes bases.
+Su incumplimiento dará lugar a lo previsto en el título IV de la citada Norma Foral.
+13. Infracciones y sanciones
+El régimen de infracciones y sanciones aplicable en razón de las subvenciones de este
+programa será el establecido en el Título IV de la Norma Foral 11/2016.
+14. Compatibilidad con otras subvenciones
+La aplicación de estas subvenciones serán compatibles entre sí, tanto con la condición de
+persona beneficiaria de la subvención en la autopista AP-68 como de la AP-1.
+No obstante, se determina la incompatibilidad con otras subvenciones o ayudas para la
+misma finalidad.
+15. Interpretación
+La interpretación de estas bases será resuelta por la persona titular del Departamento de
+Infraestructuras Viarias y Movilidad.
+16. Impugnación
+La presente convocatoria y cuantos actos administrativos se deriven de ella, podrán ser
+impugnados en los casos y en la forma establecidos por la Ley 39/2015, de 1 de octubre, del
+Procedimiento Administrativo Común de las Administraciones Públicas.
+17. Cláusula final
+En lo no dispuesto en las presentes bases se regulará por la Norma Foral 11/2016, de Subvenciones del Territorio Histórico de Álava, Decreto Foral 18/1997, que regula la concordancia
+en la acreditación del cumplimiento de las obligaciones tributarias en materia de subvenciones y contratación administrativa (modificado por Decreto Foral 58/2004 de 5 de octubre),
+Ley 38/2003, de 17 de noviembre, General de Subvenciones, Real Decreto 887/2006, de 21 de
+julio, por el que se aprueba el Reglamento de la Ley 38/2003, de 17 de noviembre, General de
+Subvenciones, Norma Foral 53/1992 de 18 de diciembre de Régimen Económico Presupuestario del Territorio Histórico de Álava, Ordenación Presupuestaria vigente, Ley 39/2015, de 1 de
+octubre, del Procedimiento Administrativo Común de las Administraciones Públicas y demás
+normativa que le sea de aplicación.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-02867
+lunes, 30 de agosto de 2021 • Núm. 98
+SOLICITUD DE SUBVENCIÓN
+PEAJE AP-1/AP-68
+□ AP-1
+DATOS IDENTIFICATIVOS DEL SOLICITANTE:
+DNI
+Nombre
+Apellido 1º
+Domicilio (Calle o Plaza)
+Municipio
+Número
+C. Postal
+□ AP-68
+Apellido 2º:
+Letra
+Provincia
+ARABA / ALAVA
+Escalera.
+Piso
+Mano
+Teléfono
+Nº Dispositivo Telepeaje
+Nº Cuenta Bancaria:
+Matrícula 1:
+Marca 1:
+Modelo 1:
+Color 1:
+Matrícula 2:
+Marca 2:
+Modelo 2:
+Color 2:
+Vehículo 1
+Vehículo 2
+E-posta / E-mail
+DOCUMENTACIÓN A PRESENTAR:
+ Certificado de empadronamiento en algún municipio de Alava
+ Fotocopia del DNI
+ Documento acreditativo, expedido por la entidad financiera, con los veinte dígitos de la cuenta bancaria de la persona
+
+
+solicitante en donde se vehicularán los peajes telemáticos, y de la disponibilidad del dispositivo de telepeaje y su
+numeración completa
+Certificado de estar al corriente en el cumplimiento de sus obligaciones tributarias con la Hacienda Foral de Alava
+Fotocopia del permiso de circulación (a efectos de identificación de los datos del vehículo)
+La persona que firma solicita ser beneficiario/a de las subvenciones previstas en las Bases reguladoras de concesión de
+subvenciones por el peaje satisfecho en el tramo alavés por las personas usuarias de la autopista arriba indicada residentes en
+el Territorio Histórico de Álava.
+NOTA: Le informamos de que el cambio de número de cuenta o dispositivo de telepeaje deberá ser comunicado a Arabat en
+la fecha en la que se realiza, de no ser así sólo se beneficiará de los descuentos que se generen a partir de la fecha de
+comunicación.
+ Autorizo a que se disponga de toda la información de los usos por mí realizados en los trayectos subvencionables a fin
+de calcular el importe de la subvención y su justificación
+ Acepto que ARABAT (Vías de Alava S.A) trate mis datos personales con la finalidad de gestionar y tramitar la
+subvención al peaje de la Autopista AP1 y/o AP68.
+ Declaro que las matriculas facilitadas no corresponden a vehículos vinculados a actividad profesional, empresarial o
+económica.
+ Declaro no estar incurso en ninguno de los procedimientos establecidos en los apartados e) y f) del artículo 2 de las
+bases que rigen esta subvención.
+Firma de la persona solicitante
+En ___________________ a ____ de ___________ de 20___
+ARABAT, ARABAKO BIDEAK-VÍAS DE ÁLAVA, S.A. conforme a la normativa estatal y europea sobre protección de datos personales, le informa en
+su calidad de responsable del tratamiento, que efectúa un tratamiento de sus datos para la gestión de la ayuda, gestión de visitas gestión
+administrativa y contable, mantenimiento del contacto y atención de usuarios de nuestros servicios actuales y/o potenciales, envío mensual de
+tránsitos por la autopista. Se prevén cesiones y transferencias internacionales. Puede consultar la información adicional en nuestra página
+web: http://www.arabat.org o enviándonos un e-mail a dpd@arabat.org .
+ARABAT (Arabako Bideak - Vías de Alava S.A.)
+C/Vicente Goikoetxea nº 1, 1º oficina 4
+01008 Vitoria-Gasteiz
+Tfn.945.13.46.90 - Fax: 945.77.45.59
+subvenciones@arabat.org
 www.araba.eus
 D.L.: VI-1/1958 ISSN: 2254-8432
 Firmante: CN=ZERBITZU OROKORREN ZUZENDARITZA - DIRECCION SERVICIOS GENERALES, SERIALNUMBER=P0100000I, OU=SELLO ELECTRONICO, ORGANIZATIONIDENTIFIER=VATES-P0100000I, O=ARABAKO FORU ALDUNDIA / DIPUTACION FORAL DE ALAVA, C=ES
 Emisor del certificado: CN=EAEko HAetako langileen CA - CA personal de AAPP vascas (2), OU=AZZ Ziurtagiri publikoa - Certificado publico SCA, O=IZENPE S.A., C=ES
 Número de serie: 211865
-Fecha de firma: 2022.01.05 07:00:55 Z
-2021-04218
-
-### Decreto Foral 5/2020: https://www.araba.eus/botha/Boletines/2020/011/2020_011_00168_C.pdf
-miércoles, 29 de enero de 2020 • Núm. 11
-I - JUNTAS GENERALES DE ÁLAVA Y ADMINISTRACIÓN FORAL
-DEL TERRITORIO HISTÓRICO DE ÁLAVA
-Diputación Foral de Álava
-DEPARTAMENTO DE HACIENDA, FINANZAS Y PRESUPUESTOS
-Decreto Foral 5/2020, del Consejo de Gobierno Foral de 21 de enero. Aprobar la regulación de
-las notificaciones y comunicaciones por medios electrónicos del Departamento de Hacienda,
-Finanzas y Presupuestos
-La incorporación de las tecnologías de la información y la comunicación a las relaciones
-tributarias entre las y los obligados tributarios y el Departamento de Hacienda, Finanzas y
-Presupuestos de la Diputación Foral de Álava va a dar un nuevo paso con la implantación de
-las notificaciones electrónicas.
-Hoy en día, las ventajas que aportan las nuevas tecnologías resultan indudables tanto para
-la o el obligado tributario como para la Administración tributaria y estas mejoras deben trasladarse al campo de las notificaciones y comunicaciones tributarias, partiendo del principio de
-que la utilización del medio electrónico en las notificaciones no debe alterar, en ningún caso,
-el propio concepto y finalidad de la notificación.
-Hay que tener en cuenta que las notificaciones constituyen uno de los ejes alrededor de
-los que giran los procedimientos tributarios y suele ser objeto de una cierta conflictividad, que
-puede verse reducida con el nuevo sistema, al mismo tiempo que la incorporación de las notificaciones por medios electrónicos permitirá la aceleración de los procedimiento
-[…]
-Artículo 1. Objeto
-El presente Decreto Foral tiene por objeto regular las notificaciones y comunicaciones por
-medios electrónicos del Departamento de Hacienda, Finanzas y Presupuestos de la Diputación
-Foral de Álava relacionadas con la aplicación de los tributos y los procedimientos tributarios,
-así como establecer las personas y entidades que están obligadas a recibir las comunicaciones
-y notificaciones por dichos medios.
-Artículo 2. Régimen de las notificaciones y comunicaciones electrónicas
-El régimen de notificaciones y comunicaciones a las personas y entidades por medios
-electrónicos será el previsto en las normas administrativas generales con las especialidades
-establecidas en la Norma Foral General Tributaria y en el presente Decreto Foral.
-Artículo 3. Aspectos generales de la notificación y comunicación electrónica
-1. En el marco de lo dispuesto en este Decreto Foral, todas las notificaciones y comunicaciones electrónicas que deba realizar el Departamento de Hacienda, Finanzas y Presupuestos
-se practicarán por medio de la comparecencia en la sede electrónica de la Diputación Foral de
-Álava, sin perjuicio de las excepciones previstas en el artículo 6 de este Decreto Foral.
-2. Las personas y entidades a que se refiere el artículo 7 del presente Decreto Foral estarán
-obligados a recibir las notificaciones y comunicaciones tributarias por medios electrónicos.
-3. El sistema de notificación electrónica permitirá acreditar la fecha y hora en que se produzca la puesta a disposición de la interesada o del interesado, o en su caso de su representante, del acto objeto de notificación.
-También permitirá acreditar la fecha y hora de acceso a su contenido, momento a partir del
-cual la notificación se entenderá practicada a todos los efectos legales. Lo anterior se entiende
-sin perjuicio de lo establecido en el apartado 5 siguiente de este artículo.
-4. Cuando, como consecuencia de la utilización de distintos medios, electrónicos o no electrónicos, se practiquen varias notificaciones de un mismo acto administrativo, se entenderán
-producidos todos los efectos jurídicos derivados de la notificación, incluido el inicio del plazo
-para la interposición de los recursos que procedan, a partir de la primera de las notificaciones
-correctamente practicada.
-5. Cuando, existiendo constancia de la puesta a disposición de la notificación electrónica,
-transcurrieran 10 días naturales sin que se acceda a su contenido, se entenderá que la notificación ha sido rechazada con los efectos previstos en el artículo 107.2 de la Norma Foral General
-Tributaria de Álava, salvo que de oficio o a instancia de la destinataria o del destinatario se
-compruebe la imposibilidad técnica o material del acceso a su contenido.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2020-00168
-miércoles, 29 de enero de 2020 • Núm. 11
-6. Cualquier persona o entidad, excepto las contempladas en el artículo 7 de este Decreto
-Foral que están obligadas a recibir por medios electrónicos las comunicaciones y notificaciones, podrá solicitar a la Diputación Foral, a través del correspondiente apartado dispuesto en
-la sede electrónica, que todas las notificaciones de las que sean destinatarias o destinatarios,
-se realicen únicamente por medios electrónicos.
-En caso de que la persona o entidad solicite ser dada de baja en el sistema de recibir por
-medios electrónicos las notificaciones y comunicaciones, la misma se hará efectiva en un
-plazo máximo de 15 días contados a partir de la presentación de la correspondiente solicitud.
-7. Producirá los efectos propios de la notificación por comparecencia el acceso electrónico
-por las interesadas o los interesados al contenido de las actuaciones administrativas correspondientes, siempre que quede constancia de dicho acceso.
-Artículo 4. Práctica de notificaciones y comunicaciones por medios electrónicos
-1. El Departamento de Hacienda, Finanzas y Presupuestos practicará las notificaciones o
-comunicaciones electrónicas mediante el sistema de comparecencia en sede electrónica regulada en el Decreto Foral 26/2011, de 5 de abril.
-2. La Diputación Foral de Álava certificará la notificación efectuada a través de la sede electrónica. Esta certificación, que podrá generarse de forma automatizada, incluirá, como mínimo,
-la identificación del acto notificado, su destinataria o destinatario, en su caso los datos de la
-o del representante, la fecha en que se produjo la puesta a disposición y la fecha de acceso a
-su contenido o en que la notificación se considerará rechazada por haber transcurrido el plazo
-establecido al efecto, así como la especificación de los errores de tipo técnico producidos y
-sus consecuencias a efectos de la notificación.
-Artículo 5. Notificación o comunicación por el sistema de comparecencia en sede electrónica
-La notificación o comunicación por el sistema de comparecencia en sede electrónica se
-llevará a cabo conforme a lo previsto en la normativa que regula la sede electrónica de la
-Diputación Foral de Álava, teniendo en cuenta las especialidades previstas en el presente
-Decreto Foral.
-Artículo 6. Excepciones a las notificaciones o comunicaciones por medios electrónicos
-1. El Departamento de Hacienda, Finanzas y Presupuestos podrá practicar las notificaciones
-o comunicaciones por los medios no electrónicos y en los lugares y formas previstos en los
-artículos 105 a 108 de la Norma Foral General Tributaria de Álava, en los siguientes supuestos:
-a) Cuando la comunicación o notificación se realice con ocasión de la comparecencia espontánea de la o del obligado, o su representante, en las oficinas de la Diputación Foral de
-Álava y solicite la comunicación o notificación personal en ese momento.
-b) Cuando, para garantizar la eficacia y en su caso celeridad de los procedimientos de
-aplicación de los tributos, la Administración considere más apropiado efectuar la notificación
-o comunicación por otros medios distintos de los electrónicos.
-c) Cuando las comunicaciones y notificaciones hubieran sido puestas a disposición de la
-prestadora o del prestador del servicio de notificaciones para su entrega a las y los obligados
-tributarios con anterioridad a la fecha en que resulte de aplicación la notificación por medios
-electrónicos.
-2. En ningún caso se efectuarán de forma electrónica las siguientes comunicaciones y
-notificaciones:
-a) Aquellas en las que el acto a notificar vaya acompañado de elementos que no sean susceptibles de conversión en formato electrónico.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2020-00168
-miércoles, 29 de enero de 2020 • Núm. 11
-b) Las que, con arreglo a su normativa específica, deban practicarse mediante personación
-en el domicilio fiscal de la o del obligado o en otro lugar señalado al efecto por la normativa
-o en cualquier otra forma no electrónica.
-c) Las dirigidas a las entidades de crédito adheridas al procedimiento para efectuar por
-medios electrónicos el embargo de dinero en cuentas abiertas en entidades de crédito.
-d) Las dirigidas a las entidades de crédito que actúen como entidades colaboradoras en la
-gestión recaudatoria del Departamento de Hacienda, Finanzas y Presupuestos, en el desarrollo
-del servicio de colaboración.
-Lo dispuesto en el presente apartado no impedirá que se utilicen medios técnicos para la
-práctica de algunas de las notificaciones o comunicaciones citadas en el mismo, de conformidad con su normativa específica.
-Artículo 7. Personas y entidades obligadas a recibir por medios electrónicos las comunicaciones y notificaciones
-1. Con independencia de su personalidad o forma jurídica, estarán obligadas u obligados
-a recibir por medios electrónicos las comunicaciones y notificaciones administrativas que les
-practique el Departamento de Hacienda, Finanzas y Presupuestos de la Diputación Foral de
-Álava, las y los obligados tributarios siguientes:
-a) Los contribuyentes del Impuesto sobre Sociedades.
-b) Aquellos otros que se determinen por la Diputación Foral de Álava.
-2. Cuando dejaren de concurrir en la obligada o el obligado las circunstancias que determinaron su inclusión obligatoria en el sistema de notificación electrónica se le notificará por
-medios electrónicos la exclusión del mismo, que será efectiva desde el día siguiente a que
-dicha notificación surta efectos.
-No obstante, el interesado o interesada continuará en el sistema de notificación electrónica
-cuando, con carácter previo a su inclusión obligatoria, hubiese señalado el medio electrónico
-como método de recepción de las notificaciones y comunicaciones.
-Artículo 8. Comunicación de la inclusión
-El Departamento de Hacienda, Finanzas y Presupuestos deberá notificar a las y los sujetos
-obligados su inclusión obligatoria en el sistema de notificación electrónica.
-Esta notificación se practicará conforme a lo establecido en el apartado 1 del artículo 3 de
-este Decreto Foral y se efectuará, además, por los medios no electrónicos y en los lugares y
-formas previstos en los artículos 105 a 108 de la Norma Foral General Tributaria de Álava, excepto que la o el obligado tributario ya hubiera señalado el sistema de notificación electrónica
-como medio de notificación, conforme a lo previsto en el presente Decreto Foral.
-En los supuestos de alta en el censo de obligados tributarios, la notificación de la inclusión
-obligatoria en el sistema de la notificación electrónica se podrá realizar junto a la correspondiente a la comunicación del Número de Identificación Fiscal que le corresponda.
-Artículo 9. Firma electrónica de las notificaciones y comunicaciones
-Todas las notificaciones y comunicaciones que el Departamento de Hacienda, Finanzas y
-Presupuestos realice por medios electrónicos conforme a lo dispuesto en el presente Decreto
-Foral lo harán mediante actuación administrativa automatizada pudiendo utilizar los siguientes
-sistemas de firma electrónica:
-a) Sello electrónico de la Diputación Foral de Álava basado en un certificado electrónico
-reconocido.
-b) Código seguro de verificación vinculado a la Diputación Foral de Álava permitiéndose
-en todo caso la comprobación de la integridad del documento mediante el acceso a la sede
-electrónica.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2020-00168
-miércoles, 29 de enero de 2020 • Núm. 11
-CAPÍTULO II
-Días en los no se podrá poner notificaciones a disposición de los obligados tributarios
-Artículo 10. Ámbito subjetivo para realizar el señalamiento de los días en los que no se
-pondrán notificaciones a disposición de los obligados tributarios
-1. Los días en los que no se pondrán a su disposición notificaciones podrán ser señalados
-por las y los obligados tributarios que se encuentren incluidos en el sistema de notificación
-electrónica, ya sea con carácter obligatorio o de forma voluntaria.
-El señalamiento de los días mencionados comprenderá las acciones de selección de los
-mismos, así como su modificación y consulta, de acuerdo con los límites señalados en el
-artículo 12 de este Decreto Foral.
-2. Si la o el obligado tributario actúa o dispone de representante para recibir las notificaciones, el señalamiento de los días a que se refiere este artículo corresponderá a dicho
-representante.
-Artículo 11. Ámbito objetivo del señalamiento de los días en los que no se pondrán notificaciones a disposición de los obligados tributarios
-Para las y los obligados tributarios incluidos en el sistema de notificación electrónica, el
-señalamiento de los días en los que no se pondrán a su disposición notificaciones comprenderá las notificaciones que efectúe el Departamento de Hacienda, Finanzas y Presupuestos en
-sus actuaciones y procedimientos tributarios, así como en la gestión de los recursos de otros
-Entes y Administraciones Públicas que tenga atribuida o encomendada.
-Artículo 12. Límite máximo de días y posibilidad de modificación de los mismos
-1. Los sujetos señalados en el artículo 10 de este Decreto Foral podrán señalar, siguiendo
-el procedimiento a que se refiere el artículo 14 de este Decreto Foral, un máximo de 30 días
-naturales por año natural, siendo estos días de libre elección y sin necesidad de tener que
-agrupar un número mínimo de los mismos.
-2. La o el obligado tributario que, a lo largo del año natural, sea incluido con carácter obligatorio en el sistema de notificación electrónica o proceda a darse de alta voluntariamente para
-ser notificado por medios electrónicos, podrá disfrutar de la totalidad de los 30 días naturales
-del año natural en curso, sin necesidad de prorratear los días por el período del año natural
-restante.
-3. Los días en los que no se pondrán a disposición de la o del obligado tributario notificaciones se deberán solicitar con una antelación mínima de 7 días naturales al primer día en que
-vaya a surtir efecto y, una vez señalados, podrán ser objeto de modificación mediante solicitud
-expresa que dejará sin efecto el período inicialmente elegido, con los mismos límites respecto
-al número máximo de días anuales por obligado tributario y antelación mínima anteriormente
-indicados.
-Artículo 13. Efectos del señalamiento de los días en los que no se pondrán notificaciones
-en la sede electrónica
-1. El retraso en la notificación derivado del señalamiento de los días en los que no se pondrán notificaciones a disposición de los interesados se considerará dilación no imputable a la
-Administración, en los términos y a los efectos establecidos en la normativa tributaria.
-2. El señalamiento de los días en los que no se pondrán a disposición de la o del obligado
-tributario notificaciones afectará exclusivamente a las notificaciones que pudieran haberse
-efectuado en los días señalados. En ningún caso estos días se descontarán del cómputo de los
-plazos que se hayan iniciado por haberse puesto a disposición la notificación con anterioridad
-al primero de los días señalados.
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-2020-00168
-miércoles, 29 de enero de 2020 • Núm. 11
-3. A efectos de lo dispuesto en este artículo, la Diputación Foral de Álava deberá certificar el
-citado retraso, acreditando la fecha y la hora en que se pudo poner a disposición del obligado
-tributario el acto objeto de notificación en la sede electrónica.
-4. No obstante, cuando lo dispuesto en el artículo 10 de este Decreto Foral sea incompatible
-con la inmediatez o celeridad que requiera la actuación administrativa para asegurar su eficacia y producción de efectos, será de aplicación lo dispuesto en el artículo 6.1.b) del presente
-Decreto Foral.
-Artículo 14. Procedimiento y condiciones para el señalamiento de los días en los que no se
-pueden poner a disposición notificaciones en la sede electrónica
-1. El señalamiento de los días en los que no se pondrán a disposición de las y los obligados
-tributarios notificaciones en la sede electrónica deberá realizarse obligatoriamente en la sede
-electrónica de la Diputación Foral de Álava.
-Una vez que los días hayan sido señalados correctamente, se generará el correspondiente
-recibo de presentación validado por un código seguro de verificación, además de la fecha y
-hora de la solicitud. Cualquier otra solicitud presentada por cualquier otro medio carecerá de
-efecto alguno, procediéndose a su archivo sin más trámite.
-2. La persona que vaya a señalar los días mencionados deberá estar comprendida en el
-ámbito subjetivo establecido en el artículo 10 de este Decreto Foral, así como disponer de
-Número de Identificación Fiscal.
-CAPÍTULO III
-Deficiencias o anomalías en el funcionamiento
-del sistema de notificaciones electrónicas
-Artículo 15. Deficiencias o anomalías en el funcionamiento del sistema de notificaciones
-electrónicas
-En el supuesto que durante el período de puesta a disposición de las notificaciones se produzca alguna deficiencia, anomalía o interrupción atribuible a la Diputación Foral de Álava o a
-servicios utilizados por ésta para la completa efectividad de las notificaciones, el referido plazo
-se ampliará a razón de un día por cada día en que, dentro de dicho plazo, se haya producido
-dicha deficiencia, anomalía o interrupción.
-DISPOSICIÓN ADICIONAL ÚNICA
-La Diputación Foral de Álava podrá habilitar otros sistemas de notificación y comunicación
-electrónica, siempre que quede constancia de la recepción por la interesada o el interesado en
-el plazo y en las condiciones que se establezcan en su regulación específica.
-DISPOSICIÓN FINAL
-El presente Decreto Foral entrará en vigor el 1 de junio de 2020.
-Vitoria-Gasteiz, a 21 de enero de 2020
-Diputado General
-RAMIRO GONZÁLEZ VICENTE
-Diputada de Hacienda, Finanzas y Presupuestos
-ITZIAR GONZALO DE ZUAZO
-Directora de Hacienda
-MARÍA JOSÉ PEREA URTEAGA
-www.araba.eus
-D.L.: VI-1/1958 ISSN: 2254-8432
-Firmante: CN=DIRECCION DE SERVICIOS GENERALES, SERIALNUMBER=P0100000I, OU=sello electrónico, O=ARABAKO FORU ALDUNDIA-DIPUTACION FORAL DE ALAVA, C=ES
-Emisor del certificado: CN=EAEko HAetako langileen CA - CA personal de AAPP vascas (2), OU=AZZ Ziurtagiri publikoa - Certificado publico SCA, O=IZENPE S.A., C=ES
-Número de serie: 153457
-Fecha de firma: 2020.01.29 06:24:23 Z
-2020-00168
-
-### Decreto foral 26/2011: https://www.araba.eus/botha/Boletines/2011/047/2011_047_02402.pdf
-2011ko apirilaren 18a, astelehena
-ALHAO
-LABOREA
-Zalkea hazia
-Soja
-Tabakoa
-Garia
-Garia + garagarra
-Gari gogorra
-Zalkea alea
-Azenarioa
-Lathyrus sativus - Lathyrus cicerra
-47
-BOTHA
-5191
-CULTIVO
-Semilla veza
-Soja
-Tabaco
-Trigo
-Trigo + cebada
-Trigo duro
-Veza grano
-Zanahoria
-Titos titarros
-XEDAPEN IRAGANKORRA
-DISPOSICIÓN TRANSITORIA
-Foru dekretu honetan onetsi diren aldaketak aplikatuko zaizkie
-lehenengo xedapenean onartutako deialdian aurkeztutako laguntza
-eskabideei.
-AZKEN XEDAPENA
-Las modificaciones aprobadas en el presente Decreto Foral
-serán de aplicación a las solicitudes de ayuda que se presenten en
-la convocatoria aprobada en el disponendo primero.
-DISPOSICIÓN FINAL
-Foru dekretu honek onartu eta hurrengo egunetik aurrera izango
-du indarra, ALHAOn argitaratzen den eguna edozein dela ere.
-Gasteiz, 2011ko apirilaren 5a.– Nekazaritza Saileko foru diputatua,
-ESTEFANÍA BELTRÁN DE HEREDIA ARRÓNIZ.– Nekazaritzako zuzendaria, EDUARDO AGUINACO LÓPEZ DE SUSO.
-El presente Decreto Foral entrará en vigor el día de su aprobación sin perjuicio de su publicación en el BOTHA.
-Vitoria-Gasteiz, a 5 de abril de 2011.– La diputada foral de
-Agricultura, ESTEFANÍA BELTRÁN DE HEREDIA ARRÓNIZ.– El director
-de Agricultura, EDUARDO AGUINACO LÓPEZ DE SUSO.
-FORU ADMINISTRAZIOAREN SAILA
-DEPARTAMENTO DE ADMINISTRACIÓN FORAL
-2402
-26/2011 FORU DEKRETUA, apirilaren 5eko Diputatuen Kontseiluarena. Honen bidez, Foru Aldundiaren egoitza elektronikoa
-sortzen da.
-2402
-DECRETO FORAL 26/2011, del Consejo de Diputado
-[…]
-Artículo 1.- Objeto.
-Este Decreto tiene como objeto crear la sede electrónica de la
-Diputación Foral de Álava, diputaciondigital, de conformidad con lo
-dispuesto en el artículo 10 de la Ley 11/2007, de 22 de junio, de
-acceso electrónico de los ciudadanos a los Servicios Públicos.
-2011ko apirilaren 18a, astelehena
-ALHAO
-47
-BOTHA
-5192
-Arabako Foru Aldundiaren egoitza elektronikoa https://e-s.alava.net
-helbide elektronikoan egongo da eta zuzenean sartzeko modua izango
-du, bai eta Interneteko www.alava.net atariaren bitartez ere.
-La sede electrónica de la Diputación Foral de Álava se corresponderá con la dirección electrónica https://e-s.alava.net, siendo
-accesible tanto directamente como a través del portal de Internet
-www.alava.net.
-2. atala.- Aplikazio eremua.
-Foru dekretu hau honako hauei aplikatuko zaie:
-a) Arabako Foru Aldundiari.
-b) Foru erakunde autonomoei, beren administrazio kontseiluek hala
-onartzen baldin badute, partekatutako egoitza erabakitzen duen
-hitzarmen egokia formalizatu eta gero.
-c) Foru sozietate publikoei, beren eskumeneko administrazio
-ahalmenak egikaritzean, baldin eta beren administrazio kontseiluek hala
-onartzen badute, partekatutako egoitza erabakitzen duen hitzarmen
-egokia formalizatu eta gero.
-Artículo 2.- Ámbito de aplicación.
-El presente Decreto Foral, será de aplicación a:
-a) La Diputación Foral de Álava.
-b) Los Organismos Autónomos Forales, cuando así lo aprueben
-sus Consejos de Administración, previa formalización del oportuno
-Convenio por el que se acuerde la sede compartida.
-c) Las Sociedades Públicas Forales, en el ejercicio de potestades
-administrativas de su competencia, cuando así lo aprueben sus
-Consejos de Administración, previa formalización del oportuno Convenio por el que se acuerde la sede compartida.
-3. artikulua.- Egoitza elektronikoaren ezaugarriak.
-Arabako Foru Aldundiaren egoitza elektronikoa ondoko ezaugarri
-hauekin sortzen da:
-a) Haren identifikazioa egoitza elektronikoaren ziurtagiri baten
-bidez egiten da.
-b) Herritar guztientzat eskuragarri dago, dohainik eta etengabe.
-Artículo 3.-Características de la sede electrónica.
-La sede electrónica de la Diputación Foral de Álava se crea con
-las siguientes características:
-a) Su identificación se lleva a cabo mediante un certificado de sede
-electrónica.
-b) Está disponible para toda la ciudadanía de forma gratuita y
-permanente.
-c) La Diputación Foral de Álava responde de la integridad,
-veracidad y actualización de la información y de los servicios a los que
-pueda accederse a través de la misma.
-d) Se rige por los principios de publicidad oficial, responsabilidad, calidad, seguridad, disponibilidad, accesibilidad, neutralidad
-e interoperabilidad.
-e) Dispone de sistemas que permiten el establecimiento de
-comunicaciones seguras siempre que sean necesarias.
-f) Asegura la accesibilidad y usabilidad de acuerdo con las
-normas establecidas al respecto, estándares abiertos y, en su caso,
-aquellos otros que sean de uso generalizado por la ciudadanía.
-g) Habilita a las personas usuarias de la sede a autorizar a otras
-para realizar determinados trámites telemáticos con los mismos
-efectos que si los hubieran realizado ellas.
-h) Garantiza el acceso a sus contenidos y servicios en euskera
-y castellano.
-i) Establece medidas que permiten diferenciar a la persona
-usuaria si se encuentra en la sede electrónica o en el resto del Portal
-www.alava.net.
-j) Incluirá progresivamente todas las actuaciones, procedimientos
-y servicios que requieran la autenticación de la ciudadanía ante la
-Diputación Foral de Álava, relacionarse con ésta por medios electrónicos, así como aquellos otros respecto a los que se decida su
-inclusión en la sede por razones de oportunidad, eficacia o calidad
-en la prestación de servicios a la ciudadanía.
-c) Beraren bitartez eskuratu daitezkeen informazio eta zerbitzuen
-osotasunaz, egiazkotasunaz eta gaurkotasunaz erantzuten du Arabako
-Foru Aldundiak.
-d) Printzipio hauetaz araututa dago: publizitate ofiziala, erantzukizuna, kalitatea, segurtasuna, eskuragarritasuna, irisgarritasuna,
-neutraltasuna eta elkarreragingarritasuna.
-e) Behar den guztietan komunikazio seguruak ezartzeko bide
-ematen duten sistemak dauzka.
-f) Irisgarritasuna eta erabilgarritasuna bermatzen ditu horri buruz
-ezarrita dauden arauei, estandar irekiei eta, hala badagokio, herritarrek eskuarki erabiltzen dituztenei jarraituz.
-g) Egoitzaren erabiltzaileak gaitzen ditu beste batzuk zenbait
-tramite telematiko egiteko baimena emateko, beraiek egin izan balituzte
-bezalako ondorioekin.
-h) Bere edukiak eta zerbitzuak euskaraz eta gaztelaniaz eskuratu
-ahal izatea bermatzen du.
-i) Erabiltzaileari egoitza elektronikoan ala www.alava.net atariaren
-gainerakoan dagoen bereizteko modua ematen dioten neurriak
-finkatzen ditu.
-j) Urratsez urrats, herritarrak Arabako Foru Aldundian kautotzea
-edo haiekin bide elektronikoz harremanak izatea behar duten ekintza,
-jardunbide eta zerbitzu guztiak barne hartuko ditu, baita ere herritarrei zerbitzuak ematerakoan egokitasun, eraginkortasun edo kalitate
-arrazoiengatik egoitzaren barruan sartzea erabakitzen den guztiak.
-4. artikulua.- Egoitza elektronikoaren hasierako edukiak.
-Egoitza elektronikoaren hasierako edukiak ondoko hauek dira:
-a) Egoitzaren eta bere titularraren identifikazioa, baita ere edukien
-kudeaketaz eta kudeaketa teknologikoaz ardura dutenena.
-b) Sinadura elektronikoko sistema onartuen zerrenda, erabilitako
-identifikazio elementuei buruzko informazioa eta horiek jaulkitzen
-dituzten emaileak jasoz.
-c) Erabilitako zigilu elektronikoen zerrenda.
-d) Bitarteko elektroniko bidez jakinarazteko, onartutako jakinarazpen
-plataformen zerrenda.
-e) Jaulkitako eta egiaztatze kode seguru baten bitartez kautotutako
-dokumentuen kautotasuna eta osotasuna egiaztatzeko sistema.
-f) Egoitzan eskuragarri dauden tramite eta zerbitzuen katalogoa.
-g) ALHAOren argitalpen elektronikoa.
-h) Data eta ordu ofiziala, eta ofizialki baliogabetzat jotako egunak.
-i) Iradokizun eta kexen postontzia eta dagokien kudeaketa prozeduraren arautegia.
-Artículo 4.- Contenidos iniciales de la sede electrónica.
-Los contenidos iniciales que contiene la sede electrónica son
-los siguientes:
-a) Identificación de la sede, de su titular, así como de los responsables de la gestión de los contenidos y de la gestión tecnológica.
-b) Relación de sistemas de firma electrónica admitidos, incluyendo
-información sobre los elementos de identificación utilizados así como
-los prestadores que los expiden.
-c) Relación de sellos electrónicos utilizados.
-d) Relación de Platafornas de Notificación admitidas para la
-notificación por medios electrónicos.
-e) Sistema de comprobación de la autenticidad e integridad de
-los documentos emitidos que hayan sido autenticados mediante
-código seguro de verificación.
-f) Catálogo de trámites y servicios disponibles en la sede.
-g) Publicación electrónica del BOTHA.
-h) Fecha y hora oficial y días declarados oficialmente como
-inhábiles.
-i) Buzón general de sugerencias y quejas así como la normativa
-del procedimiento de gestión correspondiente.
-2011ko apirilaren 18a, astelehena
-ALHAO
-47
-j) Egoitza sortu eta arautzen duen xedapena, baita erregistro
-elektronikoa sortzeko araua ere.
-k) Herritarrek egoitzarekin komunikatzeko kasu bakoitzean erabil
-ditzaketen bide elektronikoen zerrenda.
-l) Ekipoek egoitza elektronikorako sarbidea izateko bete behar
-dituzten software eta hardware eskakizun teknikoak. Ahal den neurrian,
-horiek estandar irekiak edo herritarrek eskuarki erabilitakoak izango dira.
-m) Egoitzaren erabilera egokirako beharrezko informazioa, egoitza
-elektronikoaren mapa barne delarik, baita jabetza intelektualaren
-ingurukoa ere.
-n) Egoitzaren erabilera egokirako, aholkularitza teknikoa emateko
-zerbitzuak.
-o) Datu pertsonalen babesarekin loturiko informazioa.
-5. artikulua- Egoitza elektronikoaren erantzukizun mailak.
-Erantzukizun araubideak ondoko printzipio hauei jarraituko die:
-a) Haren titularra Arabako Foru Aldundia izango da, zeina aldioro
-eskuragarri dauden informazio eta zerbitzuen osotasunaz, egiazkotasunaz eta gaurkotasunaz erantzule izango baita.
-b) Arabako Foru Aldundia informatika baliabidez eta zerbitzuz
-hornitzen duen foru sozietate publikoak kudeatuko du teknologia,
-eta sozietate hori atxikita dagoeneko sailaren eskumen izango da.
-BOTHA
-5193
-j) Disposición por la que se crea y regula la sede, así como la norma
-de creación del registro electrónico.
-k) Relación de los medios electrónicos que la ciudadanía puede
-utilizar en cada supuesto para comunicarse con la sede.
-l) Requisitos técnicos de software y hardware de los equipos, necesarios para el acceso a la sede electrónica que, en la medida de lo
-posible, serán estándares abiertos o de uso generalizado por la
-ciudadanía.
-m) Información necesaria para la correcta utilización de la sede
-incluyendo el mapa de la sede electrónica, así como la relacionada
-con la propiedad intelectual.
-n) Servicios de asesoramiento electrónico para la correcta utilización de la sede.
-o) Información relacionada con la protección de datos de carácter
-personal.
-c) Edukien kudeaketa Foru Aldundiaren sail bakoitzaren ardura
-izango da, Aldundiak martxoaren 10eko Diputatuen Kontseiluaren
-22/2009 Foru Dekretuaren bidez onartutako printzipio eta koordinazio
-irizpideen arabera. Dekretu horren bidez, Arabako Foru Aldundiaren
-“ALAVANET” atariaren funtzionamendurako Aldundiaren barne antolaketa arautzen da.
-d) Egoitzaren titularrak ez du erantzukizunik izango Arabako Foru
-Aldundiarenak izan gabe beraren egoitza elektronikoan dauden esteka
-edo loturen bidez eskura daitezkeen eduki edo zerbitzuen osotasunaz,
-egiazkotasunaz edo gaurkotasunaz.
-Partekatutako egoitzen kasuan, eduki komunez titularkideek
-erantzukizun solidarioa izango dute, eta eduki partikularrei buruzko erantzukizuna bakoitzaren titularrarena izango da.
-Artículo 5.- Niveles de responsabilidad de la sede electrónica.
-El régimen de responsabilidad responderá a los siguientes principios:
-a) Su titularidad corresponderá a la Diputación Foral de Álava, que
-responderá de la integridad, veracidad y actualización de la información y los servicios disponibles en cada momento.
-b) La gestión tecnológica se realizará a través de la Sociedad
-Pública Foral encargada de proveer los servicios y recursos informáticos necesarios a la Diputación Foral de Álava, siendo competencia
-del Departamento al que dicha Sociedad esté adscrita.
-c) La gestión de los contenidos corresponderá a cada Departamento Foral, conforme a los principios y criterios de coordinación
-aprobados por la Diputación por el Decreto Foral 22/2009, del Consejo
-de Diputados de 10 de marzo, regulador de la organización interna
-foral para el funcionamiento del portal “ALAVANET” de esta Diputación
-Foral de Álava.
-d) El titular de la sede no será responsable de la integridad,
-veracidad ni actualización de los contenidos o servicios ajenos a la
-Diputación Foral de Álava a los que se pueda acceder mediante enlaces o vínculos contenidos en su sede electrónica.
-En el caso de sedes compartidas, la responsabilidad de los
-contenidos comunes será solidaria de los cotitulares y la relativa a los
-contenidos particulares corresponderá al titular respectivo.
-Lehenengo Xedapen Gehigarria. Erregistro elektronikoa.
-Agiri erregistroaren beharrean diren zerbitzu, izapide eta prozedura
-telematikoetarako, erregistro elektronikoa erabiliko da, Arabako Foru
-Aldundiaren Erregistroak arautzen dituen araudian xedatutakoarekin
-bat etorriz.
-Disposición Adicional Primera. El Registro Electrónico.
-En los casos de los servicios, trámites y procedimientos telemáticos que requieran el registro de documentación, se utilizará el
-Registro Electrónico conforme a lo establecido en la normativa reguladora de los Registros de la Diputación Foral de Álava.
-Bigarren Xedapen Gehigarria. Baliabide elektronikoen bidez
-jakinaraztea.
-a) Jakinarazpena baliabide elektroniko bidez egingo da, interesdunak hura lehenetsi edo baimendu badu, administrazio prozeduretan
-eta bide elektroniko bidez egin daitezkeen izapideetan.
-Disposición Adicional Segunda. La notificación por medios
-electrónicos.
-a) La notificación se practicará empleando medios electrónicos
-cuando la persona interesada haya elegido estos medios como preferentes o consentido su utilización en los procedimientos administrativos y trámites incorporados a la tramitación por vía electrónica.
-b) Las notificaciones por medios electrónicos de la Diputación Foral
-de Álava se realizarán a la persona interesada a través del buzón
-electrónico que ésta comunique para tal fin. Dicho buzón deberá
-estar asociado a alguna de las Plataformas de Notificación aceptadas
-por la Diputación Foral de Álava y de las que se da publicidad en la
-Sede Electrónica, cumpliendo en todo momento con los requisitos establecidos al efecto por la Ley 11/2007, de 22 de junio, de acceso
-electrónico de los ciudadanos a los Servicios Públicos.
-En particular, la notificación por medios electrónicos se realizará
-respecto al procedimiento o familia de procedimientos a los que
-previamente haya suscrito su buzón electrónico en la Plataforma de
-Notificación correspondiente, en los términos y condiciones que se
-especifiquen en cada Plataforma.
-c) La persona interesada podrá revocar su consentimiento para
-que la notificación se practique por medios telemáticos, en cuyo
-caso deberá actualizar, en la Plataforma de Notificación asociada a
-su buzón, los procedimientos respecto a los cuales desea ser notificado telemáticamente.
-b) Interesdunak jakinarazten dion helbide elektronikora bidaliko
-dizkio Arabako Foru Aldundiak baliabide elektroniko bidez egindako
-jakinarazpenak. Postontzi hori Arabako Foru Aldundiak onartutako eta
-egoitza elektronikoak iragarritako jakinarazpen plataformaren bati
-lotuta egongo da eta uneoro beteko ditu Zerbitzu Publikoetarako
-Sarbide Elektronikoa Izateari buruzko ekainaren 22ko 11/2007 Legeak
-xedatutakoak.
-Baliabide elektroniko bidezko jakinarazpena postontzia inskribatu
-duen jakinarazpen plataformaren prozedura edo prozedura multzoaren
-arabera egingo da, plataforma horretan xedatutako baldintza eta jarraibideen arabera, hain zuzen ere.
-c) Interesdunak baimena bertan behera utzi ahal izango du, jakinarazpena baliabide telematiko bidez egin dadin. Horretarako,
-postontziari lotutako jakinarazpen plataforman, eguneratu egin beharko
-ditu prozedurak, hau da, zer prozedura bidez nahi duen telematikoki
-jakinaraz diezaioten adierazi.
-2011ko apirilaren 18a, astelehena
-ALHAO
-Baimena bertan behera uzten duenetik aurrera egingo zaizkio
-jakinarazpenak bide berriaren bidez.
-d) Aurreko idatz zatietan araututakoak ez du indarrik izango,
-legeren batek bide elektronikoak eskatzen dituenean edo arau bidez
-xedatzen denean bide elektroniko bitartez baino ezin dela harremanik
-izan Arabako Foru Aldundiarekin. Horrako hori gaitasun tekniko edo
-ekonomiko handia edo beren zeregin profesionala edo beste arrazoi
-batzuk medio beharrezko baliabide teknologiak dituztela egiaztatuta
-duten pertsona juridikoei eta pertsona fisikoen taldeei eskatzen zaie.
-e) Arazo teknikoak direla-eta baliabide elektroniko bidezko jakinarazpena ezinezkoa bada, posta bidez jakinaraziko du organo jakinarazleak.
-Xedapen Iragankorra.
-Foru dekretu hau indarrean sartu aurretik baliabide telematiko
-bidez eskainitako zerbitzuak, aurrerantzean ere, Arabako Foru Aldundiaren egoitza elektronikoaren bidez eskainiko dira, ordura arte
-indarrean izan diren termino eta baldintza beretan.
-Eragiketa gakoak 2011ko abenduaren 31 arte izango dira
-erabilgarri. Egun horretatik aurrera unean-unean onartutako egiaztagiri elektronikoen bidez baino ezin izango da sartu eta identifikatu
-egoitza elektronikoan.
-Xedapen indargabetzailea.
-Indargabetu egiten da 2/2010 Foru Dekretua, urtarrilaren 26ko
-Diputatuen Kontseiluarena, Arabako Foru Aldundiaren Interneteko
-zerbitzuak erabiltzeko administratuek jarraitu beharreko prozedura
-onartu zuena, bai eta foru dekretu honetan xedatutakoaren aurka
-doan xedapen oro.
-Azken xedapena. Garapena, indarrean jartzea eta egitez aplikatzea.
-1. Foru Administrazioaren Saileko diputatuari ahalmena aitortzen
-zaio foru dekretu hau garatu eta aplikatzeko beharrezkoak diren
-arauak eman ditzan.
-2. Foru dekretu hau 2011ko maiatzaren 11n sartuko da indarrean.
-47
-BOTHA
-5194
-Dicho cambio de medio se hará efectivo para aquellas notificaciones que se realicen a partir de la mencionada revocación.
-d) Lo dispuesto en los apartados anteriores se excepciona cuando
-una Ley exija o infiera medios no electrónicos y cuando reglamentariamente
-se establezca la obligatoriedad de comunicarse con la Diputación Foral
-de Álava utilizando sólo medios electrónicos para personas jurídicas o
-colectivos de personas físicas con gran capacidad técnica o económica,
-dedicación profesional u otros motivos acreditados tengan garantizado
-el acceso y disponibilidad de los medios tecnológicos precisos.
-e) Si la notificación por medios electrónicos no fuera posible por
-problemas técnicos, el órgano actuante practicará la notificación postal.
-Gasteiz, 2011ko apirilaren 5a.– Diputatu nagusia, XABIER AGIRRE
-LÓPEZ.– Foru Administrazioaren Saileko foru diputatua, CLAUDIO
-RODRÍGUEZ GUTIÉRREZ.– Zerbitzu Orokorren zuzendaria, LUIS
-LATORRE MURGA.
-Disposición Transitoria.
-Los servicios prestados de forma telemática antes de la entrada
-en vigor del presente Decreto Foral, seguirán prestándose a través de
-la sede electrónica de la Diputación Foral de Álava en los mismos
-términos y condiciones que hasta ese momento.
-El uso de claves operativas será válido hasta el día 31 de
-diciembre de 2011. A partir de dicha fecha, el acceso y la identificación
-en la sede electrónica se realizará exclusivamente mediante los certificados electrónicos admitidos en cada momento.
-Disposición Derogatoria.
-Queda derogado el Decreto Foral 2/2010, del Consejo de
-Diputados de 26 de enero, que aprueba el procedimiento a seguir para
-el acceso de los administrados a los servicios de Internet de esta
-Diputación Foral y cuantas disposiciones se opongan a lo expresado
-en este Decreto Foral.
-Disposición Final. Desarrollo, entrada en vigor y aplicación
-efectiva.
-1ª. Se faculta al Diputado de Administración Foral para dictar las
-normas necesarias para el desarrollo y aplicación del presente Decreto
-Foral.
-2ª. El presente Decreto Foral entrará en vigor el día 11 de mayo
-de 2011.
-Vitoria-Gasteiz, a 5 de abril de 2011.– El Diputado General, XABIER
-AGIRRE LÓPEZ.– El Diputado de Administración Foral, CLAUDIO
-RODRÍGUEZ GUTIÉRREZ.– El Director de Servicios Generales, LUIS
-LATORRE MURGA.
-Diputatu Nagusiaren Foru Dekretuak
-Decretos Forales del Diputado General
-EUSKARA, KULTURA ETA KIROL SAILA
-DEPARTAMENTO DE EUSKERA, CULTURA Y DEPORTES
-2291
-77/2011 FORU AGINDUA, apirilaren 5ekoa. Honen bidez, onartu
-egiten da udalek eta kuadrillek, euskara normalizatzeko,
-sustatutako programak garatzeko dirulaguntzetarako 2011ko
-deialdi publikoa.
-2291
-DECRETO FORAL 77/2011, del Diputado General de 5 de abril, que
-aprueba la convocatoria pública de subvenciones para el
-desarrollo de programas de normalización del euskera,
-promovidos por Ayuntamientos y Cuadrillas, ejercicio 2011.
-2011ko ekitaldian euskara normalizatzeko programak garatzeko,
-udalei eta kuadrillei dirulaguntzak emateko deialdi publikoa egitea
-proposatu du Arabako Foru Aldundiko Euskara, Kultura eta Kirol
-Sailak.
-Aginduzko txostenak aztertu dira.
-Horregatik, dagozkidan ahalmenez baliatuz, eta Euskara, Kultura
-eta Kirol Saileko foru diputatuak proposatuta, honakoa
-XEDATU DUT
-El Departamento de Euskera, Cultura y Deportes de la Diputación
-Foral de Álava propone la Convocatoria pública de subvenciones a
-Ayuntamientos y Cuadrillas, para el desarrollo de programas de
-normalización del euskera, durante el ejercicio 2011.
-Vistos los informes preceptivos.
-En su virtud, haciendo uso de las facultades que me competen
-y a propuesta de la Diputada Foral titular del Departamento de
-Euskera, Cultura y Deportes,
-DISPONGO
-Lehenengoa.- Udalei eta kuadrillei dirulaguntzak emateko deialdi
-publikoa onartzea, 2011ko ekitaldian euskara normalizatzeko programak edota jarduerak egin ditzaten, eta horretarako 177.000 euro
-izango dituzte, gehienez ere. Hori guztia 2009ko urriaren 19ko ALHAOn
-(119 zenbakia) argitaratutako urriaren 6ko Diputatuen Kontseiluaren
-69/2009 Foru Dekretuan xedatutakoaren arabera arautuko da. Foru
-dekretu honen bidez, Euskara, Kultura eta Kirol Sailaren eskumen
-esparruan lehiaketa bidez emango diren dirulaguntzei aplikatuko
-zaizkien oinarri arautzaile orokorrak onartu ziren.
-Primero.- Aprobar la convocatoria pública de subvenciones a
-Ayuntamientos y Cuadrillas para el desarrollo de programas de normalización del euskera, que regirá en el ejercicio 2011, con una dotación
-máxima de 177.000 euros, que se regulará por lo previsto en el
-Decreto Foral 69/2009 de 6 de octubre, del Consejo de Diputados,
-publicado en el BOTHA nº 119 de 19 de octubre de 2009, que aprobó
-las bases reguladoras generales aplicables a las subvenciones que
-se otorguen en régimen de concurrencia competitiva en el ámbito de
-las competencias del Departamento de Euskera, Cultura y Deportes.
-
-### Decreto Foral 74/2011: https://www.araba.eus/BOTHA/Boletines/2011/146/2011_146_06892.pdf
-2011ko abenduaren 14a, asteazkena
-I
-ALHAO
-146
-ARABAKO FORU ALDUNDIA
-Administrazio Xedapenak
-BOTHA
-11645
-DIPUTACIÓN FORAL DE ÁLAVA
-I
-Disposiciones Administrativas
-Diputatuen Kontseiluaren Foru Dekretuak
-Decretos Forales del Consejo de Diputados
-EKONOMIA SUSTAPENAREN ETA
-FORU ADMINISTRAZIOAREN SAILA
-DEPARTAMENTO DE PROMOCIÓN ECONÓMICA
-Y ADMINISTRACIÓN FORAL
-6892
-6892
-74/2011 FORU DEKRETUA, azaroaren 29ko Diputatuen Kontseiluarena. Honen bidez, aldatu egiten da apirilaren 5eko 26/2011
-Foru Dekretua, Arabako Foru Aldundiaren egoitza elektronikoa sortzen duena.
-DECRETO FORAL 74/2011, del Consejo de Diputados de 29 de noviembre, que modifica el Decreto Foral 26/2011, de 5 de abril,
-de creación de la sede electrónica de esta Diputación Foral.
-Azken urteotan, Arabako Foru Aldundia ahaleginak egiten ari da
-Internet erabilita bere zerbitzuak hiritarrei gerturatzeko. Horrekin
-lotuta, joan den maiatzean egoitza elektronikoa (aldundidigitala) abian
-jarri zuen.
-Egoitza elektronikoa martxan jarri denetik, ordura arte eskaintzen
-ziren izapide telematikoen segurtasuna eta bermeak areagotu dira, bai
-eta hori eusten zuen azpiegitura teknologikoa berritu ere. Horiek
-horrela, azken hilabeteotan telematikoki izapidetu ahal diren zerbitzuak
-ugaritu egin dira, eta etorkizunean ere bide beretik jarraituko da.
-Asociado a los esfuerzos que en los últimos años la Diputación
-Foral de Álava ha realizado para impulsar Internet como un medio para
-acercar sus servicios a la ciudadanía, en mayo de este año puso en
-funcionamiento su sede electrónica (diputaciondigital).
-La puesta en marcha de la sede electrónica ha supuesto un
-incremento en la seguridad y garantías en los trámites telemáticos que
-hasta ese momento se ofrecían, así como una renovación de la
-infraestructura tecnológica que la soportaba, lo que ha permitido
-incrementar en los últimos meses el número de servicios tramitables
-telemáticamente y seguir haciéndolo en el futuro.
-Uno de los aspectos que regula la normativa de creación de la
-sede son los mecanismos de identificación y acceso a la misma que
-pueden utilizarse. A este respecto, su Disposición Transitoria indica
-que el uso de claves operativas será válido hasta el 31 de diciembre
-de 2011 y que, a partir de dicha fecha, el acceso e identificación en
-la sede electrónica se realizarán, exclusivamente, mediante los certificados electrónicos admitidos.
-En este momento, por razones de oportunidad y conveniencia,
-y con el objetivo de facilitar y potenciar la utilización de la sede electrónica, procede modificar los plazos y condiciones de vigencia de
-dichas claves operativas.
-En su virtud, a propuesta del Diputado de Promoción Económica
-y Administración Foral y previa deliberación del Consejo de Diputados
-reunido en el día de la fecha,
-Egoitza sortzeko arautegian, besteak beste, egoitzan sartzeko eta
-identifikatzeko erabil daitezkeen mekanismoak arautu dira. Horren
-harira, arautegi horren xedapen iragankorrean adierazitakoaren arabera,
-eragiketa gakoak 2011ko abenduaren 31 arte izango dira erabilgarri.
-Egun horretatik aurrera onartutako ziurtagiri elektronikoen bidez baino
-ezin izango da sartu eta identifikatu egoitza elektronikoan.
-Orain, eragiketa gakoen epeak eta indarraldiaren baldintzak
-aldatzea komeni da, egoitza elektronikoaren erabilera errazteko eta
-sustatzeko xedez.
-Horregatik, Ekonomia Sustapenaren eta Foru Administrazioaren
-Saileko foru diputatuaren proposamenez, eta Diputatuen Kontseiluak
-gaur egindako bilkuran gaia aztertu ondoren, honako hau
-XEDATU DUT
-DISPONGO
-Lehenengoa.- Apirilaren 5eko Diputatuen Kontseiluaren 26/2011
-Foru Dekretuaren xedapen iragankorra aldatzea. Aurrerantzean honela
-geratuko da idatzita:
-“Foru dekretu hau indarrean sartu aurretik baliabide telematiko
-bidez eskainitako zerbitzuak, aurrerantzean ere, Arabako Foru
-Aldundiaren egoitza elektronikoaren bidez eskainiko dira, ordura arte
-indarrean izan diren termino eta baldintza beretan.
-Egoitza elektronikoan alta emateko, identifikatzeko eta sartzeko,
-lehentasuna emango zaio unean-unean onartutako ziurtagiri elektronikoen erabilerari; pertsona fisikoen kasuan 2012ko urtarrilaren
-1etik aurrera, eta pertsona juridikoen kasuan 2012ko irailaren 1etik
-aurrera.
-Data horietatik aurrera, salbuespen gisa, erabiltzaile berriei bertaratuta altan emateko eragiketak egin ahalko dira, bai eta iraupen
-mugatuko behin-behineko eragiketa gakoak ematekoak ere.”
-Bigarrena.- Foru dekretu hau argitaratzen den egunean jarriko da
-indarrean.
-Vitoria-Gasteiz, 2011ko azaroaren 29a.– Diputatu nagusia, JAVIER
-DE ANDRÉS GUERRA.– Ekonomia Sustapenaren eta Foru Administrazioaren Saileko foru diputatua, LUIS VIANA APRAIZ.– Zerbitzu Orokorren zuzendaria, LUIS MURO GARCÍA.
-Primero.- Modificar la Disposición Transitoria del Decreto Foral
-26/2011, del Consejo de Diputados de 5 de abril, que quedará redactada como sigue:
-“Los servicios prestados de forma telemática antes de la entrada
-en vigor del presente Decreto Foral, seguirán prestándose a través de
-la sede electrónica de la Diputación Foral de Álava en los mismos
-términos y condiciones que hasta ese momento.
-Se fija el uso de certificados electrónicos admitidos en cada
-momento como método prioritario de alta, identificación y acceso a
-la sede electrónica, a partir del 1 de enero de 2012 para las personas
-físicas y del 1 de septiembre de 2012 para las jurídicas.
-A partir de dichas fechas, excepcionalmente podrán realizarse
-operaciones de altas presenciales de nuevos usuarios y emisión de
-claves operativas provisionales de duración limitada”.
-Segundo.- El presente Decreto Foral entrará en vigor el día de su
-publicación.
-Vitoria-Gasteiz, a 29 de noviembre de 2011.– El diputado general,
-JAVIER DE ANDRÉS GUERRA.– El diputado de Promoción Económica
-y Administración Foral, LUIS VIANA APRAIZ.– El director de Servicios
-Generales, LUIS MURO GARCÍA.
+Fecha de firma: 2021.08.30 05:48:29 Z
+2021-02867
 
 ### Documento de la convocatoria: https://www.araba.eus/botha/Boletines/2026/083/2026_083_02155_C.pdf
 miércoles, 22 de julio de 2026 • Núm. 83

@@ -1,3 +1,89 @@
+### Ficha oficial: https://egoitza.araba.eus/es/web/egoitza/guia-de-tramites/fitxa/01629001-solicitud-ayudas-excepcionales-en-apoyo-al-sector-ganadero-y-agricola
+titulo pestana: Sobre el procedimiento
+Más información: Módulos e importes de ayuda
+La ayuda se calculará a partir de las superficies declaradas en la Solicitud Única de la PAC 2026 y, en el caso de las explotaciones ganaderas, del censo de animales registrado en SITRAN a 21 de junio de 2026.
+Importes por hectárea:
+Patata de siembra: 380 €/ha
+Patata de consumo: 225 €/ha
+Alubia: 210 €/ha
+Maíz: 75 €/ha
+Remolacha: 200 €/ha
+Girasol: 50 €/ha
+Puerro: 220 €/ha
+Importes por animal o colmena:
+Vacuno de carne (>24 meses): 60 €/cabeza
+Novillas de recría (24 meses): 36 €/cabeza
+Equino de carne (>12 meses): 30 €/cabeza
+Ovino reproductor: 6 €/cabeza
+Caprino reproductor: 6 €/cabeza
+Colmenas: 9 €/colmena
+Requisitos mínimos
+En cultivos, la superficie mínima subvencionable será de 3 hectáreas en el conjunto de los cultivos objeto de ayuda.
+En ganadería, a 21 de junio de 2026, las explotaciones deberán disponer, al menos, de:
+20 vacas de leche
+30 vacas nodrizas
+30 novillas para producción de leche
+30 yeguas reproductoras
+100 ovejas reproductoras
+75 cabras reproductoras
+80 colmenas
+En las explotaciones de producción ecológica ganadera estos umbrales se reducirán en un 50 %.
+Cuantía de la ayuda
+La ayuda máxima por solicitante será de 15.000 euros. No se efectuarán pagos inferiores a 300 euros.
+A quién va dirigido: Podrán ser beneficiarias de estas ayudas las personas físicas o jurídicas titulares de explotaciones agrarias que cumplan los siguientes requisitos:
+Ser titular de una explotación agraria inscrita en el Registro de Explotaciones Agrarias del Territorio Histórico de Álava.
+Haber presentado la Solicitud Única en Álava correspondiente a la campaña 2026.
+Tener domicilio fiscal en Álava.
+En el caso de las explotaciones ganaderas, ser titular de una explotación inscrita en el Registro General de Explotaciones Ganaderas (REGA) y ubicada en el Territorio Histórico de Álava.
+No tener la condición de empresa pública ni estar participada por capital público.
+Plazo de resolución: 3 Meses
+titulo: Resolución
+Silencio administrativo de la persona interesada: Negativo
+Inicio Persona Interesada: Sí
+valor: Servicio de Desarrollo Agrario
+titulo: Organismo competente
+titulo pestana: Presentación del trámite
+valor: nekazaritzalaguntzak@araba.eus
+titulo: Correo electrónico
+accion: Tramitar
+descripcion tramite:
+Las solicitudes deberán presentarse dentro del plazo establecido y acompañadas de la documentación exigida en la convocatoria, a través de la sede electrónica de la Diputación Foral de Álava o en cualquiera de los registros previstos:
+Registro General de la Diputación Foral de Álava.
+Registro de las Oficinas de Hacienda de Vitoria-Gasteiz, Laguardia y Llodio, y oficinas comarcales agrarias.
+Cualesquiera del resto de registros que recoge el artículo 16.4 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
+Las personas obligadas a relacionarse electrónicamente con las Administraciones Públicas, de conformidad con el artículo 14.2 de la Ley 39/2015, deberán presentar la solicitud exclusivamente por medios electrónicos a través de este trámite.
+denominacion tramite: Solicitud
+descripcion: En los registros públicos del Territorio Histórico de Álava y en las Oficinas Comarcales Agrarias (OCA)
+titulo: Presencial
+descripcion:
+Necesitarás alguno de estos sistemas de identificación digital:
+BAKQ
+Certificado electrónico
+titulo: Electrónico
+estado: En plazo
+descripcion plazo: ABIERTO (07/11/2026 - 20/11/2026)
+descripcion plazo ampliada: 10 días hábiles desde el día siguiente a la publicación de la convocatoria en el BOTHA
+titulo: Plazo de presentación
+descripcion:
+Autorizar a la Diputación Foral de Álava la consulta y comprobación de los datos y documentos necesarios para la tramitación, resolución, seguimiento y control de la ayuda, marcando la casilla correspondiente en el formulario normalizado de solicitud.
+descripcion documento:
+Certificado acreditativo de estar al corriente en el cumplimiento de las obligaciones tributarias.
+Certificado acreditativo de estar al corriente en el cumplimiento de las obligaciones frente a la Seguridad Social.
+Documento acreditativo del domicilio fiscal de la persona solicitante.
+En el caso de personas jurídicas, documentación acreditativa de la representación de la persona firmante, cuando esta no pueda ser verificada de oficio.
+nombre documento: * En caso de no autorizar la consulta de oficio, deberán aportarse los certificados correspondientes
+condicion documento: OBLIGATORIO
+descripcion: Para todos los casos
+nombre documento: Modelo normalizado de solicitud
+condicion documento: CON CARÁCTER GENERAL
+titulo: Documentación
+finalidad:
+Ayudas extraordinarias destinadas a paliar los efectos de la sequía sobre las explotaciones agrarias y ganaderas del Territorio Histórico de Álava, con el fin de contribuir al mantenimiento de su actividad y mejorar su resiliencia frente a las consecuencias derivadas de la falta de precipitaciones.
+Estas ayudas se concederán en régimen de concurrencia competitiva. Sin perjuicio de ello, y atendiendo a la finalidad de la convocatoria, no se aplicarán criterios de valoración entre las solicitudes que reúnan los requisitos establecidos. Si el crédito presupuestario disponible no fuera suficiente para atender el importe máximo resultante de la aplicación de los módulos previstos a todas las solicitudes admitidas, se procederá al prorrateo de dicho crédito entre las personas beneficiarias.
+descripcion plazo: ABIERTO (05/11/2026 - 18/02/2027)
+titulo:
+Ayudas destinadas a reforzar la adaptación, resiliencia y sostenibilidad del sector agrario alavés frente a los efectos del cambio climático. Convocatoria 2026
+
 ### Documento de la convocatoria: https://www.araba.eus/botha/Boletines/2026/128/2026_128_03188_C.pdf
 viernes, 6 de noviembre de 2026 • Núm. 128
 I - JUNTAS GENERALES DE ÁLAVA Y ADMINISTRACIÓN FORAL
