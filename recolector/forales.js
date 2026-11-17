@@ -148,8 +148,8 @@ const PORTLET_A = 'p_p_id=ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePo
 const UA_A = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36';
 
 // Extrae el objeto JSON que sigue a «var data =» respetando cadenas y llaves anidadas
-export function datosSedeAraba(html) {
-  const i = html.indexOf('var data = {');
+export function datosSedeAraba(html, marcador = 'var data = {') {
+  const i = html.indexOf(marcador);
   if (i < 0) return null;
   let k = html.indexOf('{', i), prof = 0, enCad = false, esc = false;
   for (let j = k; j < html.length; j++) {
@@ -172,7 +172,7 @@ const CACHE_FA = path.join('cache', 'araba_fichas.json');
 const DIAS_FA = 7;
 const BASE_A = 'https://egoitza.araba.eus';
 const CLAVE_NO = /(^|_)(id|ids|cod\w*|friendly\w*|url\w*|href|icono?|imagen\w*|img|css|clase|class|orden|order|tipo[A-Z]?\w*Id|uuid|groupId|companyId|version)$/i;
-const DOC_SI = /\.pdf(\?|$)|botha|\/documents\/|bases|convocatoria|anexo|extracto|orden-?foral|decreto|normativa/i;
+const DOC_SI = /\.pdf(\?|$)|botha|bopv2|\/bob\/|\/bog\/|boe\.es\/(diario_boe|buscar\/doc)|\/documents\/|bases|convocatoria|anexo|extracto|orden-?foral|decreto|normativa/i;
 const DOC_NO = /\{\{|%7B%7B|\.(jpe?g|png|gif|svg|ico|css|js)(\?|$)|\/(conoce-la-sede|preguntas-frecuentes|requisitos-tecnicos)/i;
 
 function absoluta(u) {
@@ -186,7 +186,18 @@ export function fichaAraba(obj) {
   const recorrer = (v, clave, prof) => {
     if (v == null || prof > 12) return;
     if (Array.isArray(v)) { for (const x of v) recorrer(x, clave, prof + 1); return; }
-    if (typeof v === 'object') { for (const [k, x] of Object.entries(v)) recorrer(x, k, prof + 1); return; }
+    if (typeof v === 'object') {
+      // Secciones de la ficha {titulo, valor}: «Título: valor» en una sola línea
+      if (typeof v.titulo === 'string' && typeof v.valor === 'string') {
+        const t = texto(entidades(v.valor)).trim(), k = (v.titulo + t).toLowerCase();
+        for (const m of v.valor.matchAll(/href\s*=\s*["']([^"']+)["']/gi)) doc(m[1]);
+        if (t && !vistas.has(k)) { vistas.add(k); lineas.push(`${texto(v.titulo).replace(/:\s*$/, '')}: ${t}`); }
+        for (const [k2, x] of Object.entries(v)) if (k2 !== 'titulo' && k2 !== 'valor') recorrer(x, k2, prof + 1);
+        return;
+      }
+      for (const [k, x] of Object.entries(v)) recorrer(x, k, prof + 1);
+      return;
+    }
     if (typeof v !== 'string') return;
     const s = v.trim();
     if (!s) return;
@@ -231,7 +242,9 @@ async function fichasSedeAraba(tramites, cab, guardar, log) {
       const r = await fetch(f.url, { headers: cab('text/html,application/xhtml+xml'), redirect: 'follow' });
       guardar(r);
       st1 = r.status; html = await r.text();
-      const d = datosSedeAraba(html);
+      // La ficha trae los datos del trámite en la llamada a la plantilla Handlebars del portlet
+      // «lector json» («var html = template({"pestanas": …})»); las versiones antiguas, en «var data».
+      const d = datosSedeAraba(html, 'var html = template({') || datosSedeAraba(html);
       if (d) obj = d.resultado || d;
     } catch {}
     if (!obj) {

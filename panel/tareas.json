@@ -336,8 +336,9 @@
   "seccion": "base",
   "quien": "Claude",
   "prioridad": 19,
-  "estado": "pendiente",
-  "fecha": "2026-11-16"
+  "estado": "bloqueada",
+  "fecha": "2026-11-17",
+  "nota": "Depende de la decisión de producto que sigue abierta en «Para ti» (manual-empadronamiento-diputaciones): si se enseñan ayudas forales de otro territorio a empresas, autónomos y asociaciones. Guardar el vínculo en cada ficha cambia el formato de las fichas y docs/CATEGORIZACION.md, así que no lo hago hasta que respondas; en cuanto la apruebes, reábrela y la hago."
  },
  {
   "id": "araba-sede-contenido",
@@ -407,8 +408,9 @@
   "prioridad": 20,
   "fuente": "Plan de mejoras (16/11)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-16"
+  "estado": "hecha",
+  "fecha": "2026-11-17",
+  "nota": "La muestra de la ficha (cache/araba_muestra_pagina.txt) no es el cortafuegos: la página trae los datos del trámite dentro de la llamada a la plantilla Handlebars del portlet «lector json» («var html = template({pestanas, cabecera})»), no en «var data». fichasSedeAraba ahora lee ese objeto, lo pasa a texto como «Título: valor» (a quién va dirigido, normativa, plazo, organismo, finalidad) y aparta también los enlaces al BOPV, BOB, BOG y anuncios del BOE; con la muestra salen 1.783 caracteres y el enlace a la orden del BOPV. La red de la sesión no llega a egoitza.araba.eus, así que la primera prueba real será el recolector de las 05:41: se espera que las ~110-140 ayudas ara-… pendientes traigan contenido y se puedan redactar."
  },
  {
   "id": "araba-fin-plazo-sede",
