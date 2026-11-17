@@ -32,3 +32,934 @@ Relevant Links:
 Application for Evaluators
 Guidelines for Evaluators
 Annex 1 for Evaluators
+
+### Documento de la convocatoria: https://womentecheurope.eu/wp-content/uploads/2026/08/WomenTechEU_Guidelines_Eligibility-V8.0.pdf
+Guidelines for applicants:
+Eligibility Strand
+Author(s):
+Marta Fernández (Sploro)
+Editor(s):
+Virginia Gómez (Sploro)
+Miguel García (Sploro)
+Maja Horvat (Sploro)
+Angele Giuliano (AcrossLimits)
+Rebecca Zammit (AcrossLimits)
+Clare McGee (AwakenHub)
+Maria McKeever (AwakenHub)
+Responsible Organisation:
+Sploro
+Version-Status:
+V6.0
+Dissemination level:
+Public
+Disclaimer: Funded by the European Union. Views and opinions expressed are however those of the
+author(s) only and do not necessarily reflect those of the European Union or the European Innovation
+Council and SMEs Executive Agency (EISMEA). Neither the European Union nor the granting authority can
+be held responsible for them.
+© Copyright by the Women TechEU 2 EIC Consortium
+Guidelines for applicants: Eligibility Strand
+Author
+Role
+Version
+Date
+Marta Fernández (Sploro)
+Author
+Author - V0
+01/05/2026
+Virginia Gómez (Sploro)
+Reviewer
+Reviewer – V1.0
+05/05/2026
+Angele Giuliano (AcrossLimits)
+Reviewer
+Reviewer – V2.0
+25/05/2026
+Marta Fernández (Sploro)
+Reviewer
+Reviewer – V3.0
+01/06/2026
+Marta Fernández (Sploro)
+Reviewer
+Reviewer – V4.0
+25/06/2026
+Marta Fernández (Sploro)
+Reviewer
+Reviewer – V5.0
+30/06/2026
+Marta Fernández (Sploro)
+Reviewer
+Reviewer – V6.0
+15/07/2026
+Maja Horvat (Sploro)
+Reviewer
+Reviewer – V7.0
+28/07/2026
+Virginia Vasilakou (Sploro)
+Reviewer
+Reviewer – V8.0
+05/08/2026
+OPENING: 1st June 2026
+CUT-OFF: Weekly cut-offs every Tuesday at 17:00 CE(S)T (Brussels time) until 14th June
+2027 at 17:00 CEST*. First cut-off 30 June 2026 at 17:00 CEST.
+* The cut-off deadlines for submission are as stated in this Guidelines document. Please note
+that the platform for submission’s time depends on the user's configured timezone and may
+or may not coincide with the correct time (this depends on the user, not the platform for
+submission). Any discrepancies in system time will not be grounds for deadline extension.
+Relevant Links:
+Application platform: LINK
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+2
+Guidelines for applicants: Eligibility Strand
+Women TechEU 2 EIC website: https://womentecheurope.eu/
+FAQ Document: LINK
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+3
+Guidelines for applicants: Eligibility Strand
+Table of contents
+List of acronyms
+4
+1.
+5
+Introduction
+1.1. About Women TechEU 2 EIC project
+1.2. Objectives and ambition
+2.
+Definitions
+3.
+Eligibility Strand
+9
+3.1. Application period
+9
+5
+6
+7
+3.2.
+Evaluation period 9
+3.3.
+Eligibility Letter reception and next steps
+4.
+Who can apply? The eligibility criteria
+10
+5.
+How to apply? The Application Process
+15
+5.1. Overall process
+6.
+15
+5.2.
+Language 16
+5.3.
+Application preparation 16
+Verification process
+6.1. Eligibility criteria
+18
+18
+7.
+Appeals procedure
+8.
+Helpdesk support channel
+19
+20
+8.1. Questions during submission process
+9.
+20
+8.2.
+Technical issues 21
+8.3.
+Re-submission of submitted applications
+Beneficiaries’ Responsibilities
+23
+9.1. Absence of conflict of interest
+23
+9.2.
+10
+Data protection and confidentiality
+22
+24
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+4
+Guidelines for applicants: Eligibility Strand
+List of acronyms
+Acronym
+Description
+AI
+Artificial Intelligence
+CEO
+Chief Executive Officer
+CE(S)T
+Central European (Summer) Time
+CTO
+Chief Technology Officer
+CSO
+Chief Scientific Officer
+EC
+European Commission
+EIC
+European Innovation Council
+EISMEA
+European Innovation Council and SMEs Executive Agency
+EU
+European Union
+GDPR
+General Data Protection Regulation
+OLAF
+European Anti-Fraud Office
+SME
+Small and medium-sized enterprise
+TRL
+Technology Readiness Level
+Table 1. List of Acronyms
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+5
+Guidelines for applicants: Eligibility Strand
+1. Introduction
+1.1.
+About Women TechEU 2 EIC project
+The Women TechEU 2 EIC project is on a mission to ignite the potential of women-led
+early-stage startups in deep tech. 160 talented women entrepreneurs from across the
+European Union and Horizon Europe associated countries will be receiving direct
+support. With 75k€ grant (non-diluting finance) and a personalised business
+development programme, the project will be paving the way for these innovators to
+shine as leaders in deep tech innovation across Europe.
+This project is a continuation of the Women TechEU scheme that was first managed
+by EISMEA (European Innovation Council and SMEs Executive Agency) from 2021 to
+2023 and by another consortium during 2024 - 2026, and it has now become a fullyfledged cascade funding project that is run by an EU-wide consortium made up of
+different innovation ecosystem players, representatives of women entrepreneurs and
+also investors.
+Over a two-year period, the project will award a total of €12 million in non-dilutive
+funding through an open call with four competitive submission deadlines. For each
+deadline, 40% of the funding will be allocated to startups from widening regions.
+Each selected startup will receive tailored support designed to unlock its full potential,
+including access to a comprehensive menu of business development services and
+one-to-one mentoring from an expert. The six-month support programme will be codesigned by the entrepreneurs and the programme team, with clearly defined,
+individualised development KPIs.
+This structured support will ensure a smooth and sustained scale-up of each business,
+while also preparing participants to successfully apply for further funding
+opportunities such as the EIC Accelerator and Pre-Accelerator programmes.
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+6
+Guidelines for applicants: Eligibility Strand
+1.2.
+Objectives and ambition
+The main objective of the project is:
+To create a targeted programme of support for women founders and entrepreneurs
+leading deep tech startups from Europe. This will enable them to grow into
+tomorrow’s tech leaders and to put women at the forefront of deep tech in Europe.
+Our ambition is to directly contribute to interconnected, inclusive, and more efficient
+innovation ecosystems that draw on the existing strengths of European networks to
+engage new, less well-represented stakeholders and less advanced innovation
+territories. Women TechEU will leverage its experience and the strengths of existing
+startup accelerators, Universities and other multiplier organisations around Europe to
+foster greater long-term inclusivity of women in deep tech.
+Women TechEU will target areas lagging in innovation capacity (widening areas), to
+reduce territorial inequalities in accessing to innovation support.
+The funding, combined with tailored support services and facilitated investor
+connections, will strengthen cross-border networks and interregional collaboration,
+particularly for startups from less-connected ecosystems. This approach will enhance
+the capacity of regional innovation valleys to create, reshore, and renew European
+value chains in line with the green and digital transition.
+In parallel, it will deepen and expand collaboration between innovation ecosystems
+across Europe and globally.
+To engage with these promising early-stage, women-led, deep tech startups, Women
+TechEU will open a competitive call divided into two strands (Eligibility and Full
+Proposal) to select and empower them.
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+7
+Guidelines for applicants: Eligibility Strand
+2. Definitions
+For the purposes of this call, the following definitions shall apply:
+• Autonomous enterprise: An autonomous enterprise means an enterprise that is
+neither a partner enterprise nor a linked enterprise within the meaning of Article
+3 of the Annex to Commission Recommendation 2003/361/EC. The assessment
+of autonomy shall take into account the ownership, control and relationship of
+the applicant with other enterprises, in accordance with the SME definition rules.
+• Deep tech: refers to technology-based innovation grounded in substantial
+scientific or engineering advances, requiring continuous interaction with
+cutting-edge
+research,
+technological
+development
+and/or
+complex
+engineering challenges, and aiming to generate significant impact in its target
+application area. The use, integration or minor adaptation of existing or
+standard technologies, without advancing the underlying technology itself,
+shall not be considered sufficient to qualify as deep tech.
+• Early-stage startup: means a private company that:
+i) has been legally registered for at least six months and not more than five
+years at the relevant eligibility cut-off date;
+ii) qualifies as an SME within the meaning of Commission Recommendation
+2003/361/EC;
+iii) has raised less than EUR 1 million in equity; and
+iv) is developing a technology-based innovation that has not yet reached a
+high-fidelity Minimum Viable Product and is positioned between Technology
+Readiness Level 4 and Technology Readiness Level 6, both included.
+• SME: An SME means a micro, small or medium-sized enterprise within the
+meaning of Commission Recommendation 2003/361/EC of 6 May 2003
+concerning the definition of micro, small and medium-sized enterprises. In
+accordance with Article 2 of the Annex to that Recommendation, the category
+of SMEs comprises enterprises which employ fewer than 250 people, and which
+have an annual turnover not exceeding EUR 50 million or an annual balance
+sheet total not exceeding EUR 43 million. Foundations, associations,
+federations or other types of legal entities different from private company will
+not be eligible.
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+8
+Guidelines for applicants: Eligibility Strand
+• Widening areas: countries and territories covered by Horizon Europe’s “Widening
+participation and spreading excellence”, including Widening EU Member States,
+Associated Countries with equivalent characteristics in terms of R&I
+performance, and the Outermost Regions as defined in Article 349 TFEU. Eligible
+widening countries must be within the 22 Horizon Europe participating countries,
+dated as 12.02.2026.
+For the purposes of this call, widening areas include:
+Widening EU Member States: Bulgaria, Croatia, Cyprus, Czech Republic, Estonia,
+Greece, Hungary, Latvia, Lithuania, Malta, Poland, Portugal, Romania, Slovakia
+and Slovenia.
+Widening Associated Countries: Albania, Armenia, Bosnia and Herzegovina,
+Faroe Islands, Georgia, Kosovo, Moldova, Montenegro, North Macedonia, Serbia,
+Tunisia, Türkiye and Ukraine.
+Outermost Regions: Guadeloupe, French Guiana, Martinique, Réunion, Mayotte
+and Saint-Martin (France); the Azores and Madeira (Portugal); and the Canary
+Islands (Spain).
+• Woman: in line with the inclusive scope of the Women TechEU programme, the
+term “woman” refers to a cis woman or to a transgender woman legally
+recognised as a woman under the applicable national legal framework.
+Verification may be carried out on the basis of the identity document issued by
+the country of nationality or other official documentation accepted under the
+relevant national rules.
+• Woman founder / co-founder: means a woman who is legally recognised as a
+founder or co-founder of the applicant company, either as one of the original
+shareholders at the time of incorporation or as a shareholder whose name was
+added within one year from the official company registration date. The woman
+founder or co-founder must actively participate in the Women TechEU
+programme if the applicant is selected.
+• Women-led company / women leadership: means an applicant company in
+which at least one woman founder or co-founder currently holds a top
+management position, such as Chief Executive Officer, Chief Technology Officer,
+Chief Scientific Officer or an equivalent executive role, and in which women hold
+at least 25% of the company’s shares at the time of submission. This
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+9
+Guidelines for applicants: Eligibility Strand
+requirement will be assessed on the basis of the company registration
+documents, capitalisation table and any other supporting evidence requested
+during the eligibility verification process.
+3. Eligibility Strand
+The application process for Women TechEU is divided in 2 strands. First, applicants
+must verify their eligibility status, and once they are validated, they will be moved (if
+eligible) to the second stage, the Full Proposal stage.
+This guideline covers the first stage: the eligibility check.
+Stage
+Year 1
+Year 2
+may-26 jun-26 jul-26 aug-26 sep-26 oct-26 nov-26 dec-26 jan-26 feb-27 mar-27 apr-26 may-27 jun-27 jul-27
+Eligibility Preparation stage
+strand
+Opening period
+Figure 1: Calendar scheme of Eligibility Strand
+3.1.
+Application period
+• Opening: 1stJune 2026
+• Deadline for submission*: weekly cut-offs every Tuesday at 17:00 CE(S)T
+(Brussels time) until 14th June 2027 at 17:00 CEST. First cut-off is the 30th June 2026
+at 17:00 CEST.
+* The deadlines for cut-off submission are as stated in this Guidelines document. Please note that the
+platform for submission’s time shown depends on the user's configured timezone and may or may not
+coincide with the correct time (this depends on the user, not the platform for submission). Any
+discrepancies in system time will not be grounds for deadline extension.
+3.2.
+Evaluation period
+Eligibility check period: The strand is open for submission between 1st June 2026 and
+14th June 2027 at 17:00 CEST. During this period, Sploro will check the submitted
+proposals and will verify their eligible status based on the eligibility criteria weekly (see
+section Who can apply? ).
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+10
+Guidelines for applicants: Eligibility Strand
+3.3.
+Eligibility Letter reception and next steps
+Results: After the evaluation of the eligibility, Women TechEU will send an Eligibility
+Letter with the results of the eligibility check, through the Sploro Platform. Please pay
+attention to your email inbox for updates and notifications. This Eligibility Letter will be
+sent no later than one week after the cut-off the application has been submitted to.
+Please note that applicants who have submitted their eligibility form and received
+their eligibility letter more than 15 days before the following Full Proposal
+submission deadline closes, must submit their Full Proposal by the nearest
+submission deadline. If you are eligible and receive the eligibility letter 14 days or less
+before the following Full Proposals submission deadline closes, you may submit your
+full proposal at the next submission deadline date.
+4. Who can apply? The eligibility criteria
+Women TechEU targets early-stage women-led deep tech startups. In this section,
+specific criteria and conditions are outlined, establishing eligibility for potential
+beneficiaries.
+Here are the key definitions that guide the selection of beneficiaries:
+1. The founder or co-founder must be the woman and will (if selected) participate
+in the programme. We consider a woman co-founder if she acquired shares
+from the company within one year from the date of registration of the company.
+2. Women leadership: Women legally recognised as founders or co-founders of
+the company (see above). The founder or co-founder of the company must
+also currently hold a top management position (CEO, CTO, CSO or equivalent)
+within the same company. It will be also required that women hold at least 25%
+of the shares in the CAP table (capitalisation table) of the company. When
+completing the CAP table if the founder or investor is a holding company owned
+by a single woman, please enter gender as woman, otherwise, select
+Organisation.
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+11
+Guidelines for applicants: Eligibility Strand
+3. Established country: the applicant must be established in an EU Member State
+and their outermost regions or Horizon Europe Associated Country*.
+*List of Horizon Europe Associated Countries as published by the European
+Commission on the submission date when the applicants submit their eligibility
+application.
+Eligible EU countries: Austria, Belgium, Bulgaria, Croatia, Republic of Cyprus, Czech
+Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy,
+Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia,
+Slovenia, Spain and Sweden.
+Eligible associated countries: Albania, Armenia, Bosnia and Herzegovina, Egypt, Faroe
+Islands, Georgia, Iceland, Israel, Kosovo, Moldova, Montenegro, North Macedonia,
+Norway, Serbia, Switzerland, Tunisia, Türkiye, Ukraine and United Kingdom.
+4. Early-stage startup:
+
+The legal entity must be registered for a minimum of six
+months and a maximum of five years at the time of the
+eligibility cut-off date they are submitting for.
+
+Under Horizon Europe, a 'startup' should be understood as
+an SME in the early stage of its life cycle, including those
+that are created as spin-offs from university research
+activities, which aims to find innovative solutions and
+scalable business models, and which is autonomous within
+the
+meaning
+of
+Article
+3
+of
+the
+Annex
+to
+EU
+recommendation 2003/361:
+o
+An "autonomous enterprise" is any enterprise which is not classified as
+a partner enterprise within the meaning of paragraph 2 or as a linked
+enterprise within the meaning of paragraph 3
+o
+Employs fewer than 250 persons
+o
+Has an annual turnover not exceeding EUR 50 million, or an annual
+balance sheet total not exceeding EUR 43 million
+
+Early-stage refers to the phase of startup development
+generally preceding the rapid growth phase. As an
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+12
+Guidelines for applicants: Eligibility Strand
+indication, the following criteria will be considered,
+amongst other to define an early-stage startup:
+o
+Startups that have been established and operating for not more than 5
+years counting backwards from the eligibility cut-off date they are
+submitting to,
+o
+Startups that have raised limited funding (less than 1M € in equity), and
+o
+Startups are before reaching a high fidelity Minimum Viable Product,
+currently in a development stage between TRL4 and TRL6 (both
+inclusive). Check this Self-assessment tool if you’re unsure of your TRL
+level.
+5.Deep tech: Deep tech innovation aims to provide concrete solutions to our
+societal problems by finding its source in a deep interaction with the most
+recent scientific and technological advances and by seeking to produce a
+profound impact in the targeted application areas.
+Sectors, which are most fertile for deep tech applications are:
+•
+Advanced Computing /Quantum Computing
+•
+Advanced Manufacturing
+•
+Advanced Materials
+•
+Aerospace, Automotive and Remote Sensing
+•
+Artificial Intelligence and Machine Learning, including Big Data
+•
+Biotechnology, Life Sciences and Agritech
+•
+Communications and Networks, including 5G/6G
+•
+Cybersecurity and Data Protection
+•
+Electronics and Photonics
+•
+Internet of Things, W3C, Semantic Web
+•
+Robotics
+•
+Semiconductors (microchips)
+•
+Sustainable Energy, Clean Technologies and Greentech
+•
+Virtual Reality, Augmented Reality, Metaverse
+•
+Web 3.0, including Blockchain, Distributed Ledgers, NFTs
+•
+Climate-Tech and Nature
+Women TechEU welcomes applications from all deep tech fields of activity.
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+13
+Guidelines for applicants: Eligibility Strand
+Using technology and being a deep tech company are very different concepts. A
+startup which is adopting industry standard technologies or modifying content,
+materials, integration of existing components etc, does not meet the definition of a
+deep tech startup.
+For way of example, the following are NOT deep tech:
+o
+eLearning platforms where the content is the innovative part and not the
+technology.
+o
+eCommerce apps where the innovation is the business model/pricing
+and not the technology.
+o
+Gaming apps which use industry standard components.
+o
+Online information portals where the news and articles are the innovative
+component.
+If your deep tech innovation includes AI, please note that the stage of development of
+your AI will be the determining factor of whether you are eligible or not for the Women
+TechEU programme. There are 7 stages identified as follows:
+a. Concept development
+b. Dataset collection
+c. Algorithm development
+d. AI model development
+e. Training of AI model with dataset
+f. Testing / piloting of trained AI model
+g. Refinement of AI model post testing / piloting
+Choosing stages (a), (b) or (c) will make your application ineligible as this would
+mean that you are still too early in the actual AI development.
+Please refer to the following diagram for more information:
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+14
+Guidelines for applicants: Eligibility Strand
+Figure 1: Development stages of AI algorithms
+6.Not previously funded for the same activities by another EU Programme: To
+avoid double funding, neither the full application or any of its parts have
+benefited from previous Women TechEU initiatives or the EIC Accelerator.
+7. Not part of Women TechEU 2 EIC beneficiaries: Women TechEU 2 EIC consortium
+partners, their affiliated entities, employees, and subcontractors are not
+allowed to submit a proposal and therefore to receive any financial support
+through the open call.
+During the eligibility check, our team may reach out to you for clarifications on certain
+information. Please keep in mind the dates of eligibility check to be able to respond
+promptly, should a member from our team reach out.
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+15
+Guidelines for applicants: Eligibility Strand
+5. How to apply? The Application Process
+5.1.
+Overall process
+The submission will be completed through the official online submission platform,
+Sploro’s platform. A direct link can be found in the Women TechEU website and here.
+Only applications received directly through the online submission platform will be
+considered eligible.
+Applicants will be provided with an editable template of the application form (see
+Annex 1) to let them prepare the eligibility application offline before introducing the
+information in the form available in the Sploro platform. Applications can be edited
+and saved on the platform as many times as needed. Applicants do not need to
+complete and submit their application in one go. Sending this form template in any
+other format, via e-mail or any other means will automatically disqualify the
+submission.
+Applicants must strictly adhere to the form provided by Women TechEU consortium
+via the Sploro platform, which defines sections and the overall length. Evaluators will
+be instructed not to consider extra material in the evaluation. Please do not upload
+any document into the documents section of your application prior or after closing
+deadline. They will not be taken into consideration for evaluation. Women TechEU team
+will contact you in case any document is additionally required.
+Applicants are required to ensure that all information provided in their application is
+accurate and truthful. Should any false information be discovered, submitted with the
+intent of passing the eligibility criteria, the applicant will be automatically disqualified
+from the current and all future cut-offs and submission deadlines in the Women
+TechEU 2 EIC project.
+First stage is Eligibility check, designed to verify that applicants meet the participation
+requirements. The application form will immediately advise the applicant on their
+eligibility.
+After a thorough check, within a week after the cut-off date in which they have
+submitted their application, applicants will receive a letter of non-eligibility or
+invitation to submit Full Proposal to the following submission deadline date.
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+16
+Guidelines for applicants: Eligibility Strand
+In case the proposal is marked as non-eligible, the applicant has the right to re-apply
+should their eligibility status change. The maximum number of resubmissions for the
+Eligibility check is three (3) times. Considering that eligibility may vary over time,
+three resubmissions are considered sufficient to ensure fair and transparent
+treatment.
+The non-eligible applicants will have the right to appeal the decision, following the
+Appeals Procedure (see section Appeals procedure ).
+5.2.
+Language
+English is the official language for the entire Women TechEU open calls process.
+Submissions done fully or in part in any language other than English will not be
+considered.
+The same applies for the implementation of the Women TechEU programme. This
+means that any requested submission of documentation and deliverables will be
+completed in English to be eligible, and the programme activities will be only held in
+English.
+5.3.
+Application preparation
+For the successful submission, applicants are strongly advised to follow these steps:
+Figure 2: Decision tree for submission
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+17
+Guidelines for applicants: Eligibility Strand
+1. Check the guidelines for applicants to determine if your organisation is eligible
+for the programme.
+2. Be concrete and concise. Open questions have character limitations.
+3. Please examine all the open call documents and attend at least one of the online
+events promoted by the Women TechEU project to be fully prepared. Please,
+mark your calendars for the upcoming InfoDays:
+a. 1st InfoDay: 25 June 2026 at 10:00h CEST (Brussels time)
+b. 2nd InfoDay: 08 July 2026 at 10:00h CEST (Brussels time)
+c. 3rd InfoDay: 06 August 2026 at 12:00h CEST (Brussels time)
+d. 4th InfoDay: 15 September 2026 at 16:00h CET (Brussels time)
+e. 5th InfoDay: 10 November 2026 at 16:00h CET (Brussels time)
+f.
+6th InfoDay: 12 January 2027 at 10:00h CET (Brussels time)
+g. 7th InfoDay: 16 March 2027 at 16:00h CEST (Brussels time)
+h. 8th InfoDay: 04 May 2027 at 10:00h CEST (Brussels time)
+* Recordings from the InfoDays will be available after the session on the project
+social media and website. Information on how to apply and where to find results will
+be explained during the InfoDays.
+4. Only submissions within the Open Call duration will be accepted. There will not
+be any deadline extensions unless there is a Force Majeure situation i.e., a major
+problem with the platform caused by the Women TechEU 2 EIC consortium and
+not by the applicants, making the system unavailable for a long period. It is
+strongly advised not to wait until the last cut-off to submit.
+5. Submit your proposal at least two days before the cut-off, to avoid any technical
+issues that can occur when there is a very high volume of activity on the online
+platform.
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+18
+Guidelines for applicants: Eligibility Strand
+6. Verification process
+6.1.
+Eligibility criteria
+An automatic filtering to discard non-eligible proposals will follow the shortlist below.
+Eligibility criteria check will verify:
+a) All the required fields in the online application form are properly completed and in
+English.
+b) The existence of a legal entity.
+c) Registration of the organisation at least six months by the time of the eligibility cutoff date they are submitting to.
+d) Registration date of the organisation within 5 years at the time of the eligibility cutoff date they are submitting to.
+e) The organisation is legally registered in one of the eligible countries list.
+f) Organisation classification as an early-stage SME:
+i. A SME will be considered as such if complying with the European Commission
+Recommendation 2003/361/EC and, the SME user guide. In a summary, the
+criteria which define an SME are:
+a. Autonomous enterprise within the meaning of Article 3 of the Annex to
+the Commission Recommendation 2003/361/EC.
+b. Headcount in Annual Work Unit (AWU) less than 250.
+c. Annual turnover less or equal to 50 million € OR annual balance sheet
+total less or equal to 43 million €.
+ii. The organisation has raised less than 1M € in equity.
+iii. The organisation has not reached a high fidelity Minimum Viable Product
+(solution between TRL4 and TRL6, both included).
+g) The organisation is a ‘deep tech’ company which has started development
+a. In the case of AI, it is at an advanced stage of actual AI development.
+h) The startup is founded or co-founded by women
+i) The co-founder is holding a top management position (CEO, CTO, CSO or
+equivalent) in the company at the time of submission
+j) Women own at least 25% of the shares in the company at the moment of
+submission
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+19
+Guidelines for applicants: Eligibility Strand
+k) The uniqueness of the proposal: the proposal is not already funded in the previous
+Women TechEU initiatives or EIC Accelerator.
+l) None of the co-founders or employees of the organisation are currently working for
+any of the Women TechEU 2 EIC project beneficiaries.
+7. Appeals procedure
+The Women TechEU 2 EIC consortium has established a process that allows applicants
+to appeal the decision in the event their proposal is considered not eligible.
+The Women TechEU 2 EIC consortium undertakes to send the eligibility results
+(Eligibility Letter) within one week of the cut-off date. After notification of results, if the
+applicant believes that the results of the eligibility checks are incorrect and have failed
+to comply with the rules of this strand as stated in this document, that may affect the
+final decision on whether to move to the Full Proposal call or not, the following appeal
+procedure is available:
+Complaints, which should include a detailed explanation and clear evidence of the
+alleged error, should be made within seven (calendar) days from the communication
+of results to the applicants via the appeals online form whose link will be made
+available to them at the moment of communicating the results.
+The Women TechEU 2 EIC Team will thoroughly investigate complaints to determine if
+a re-evaluation of the proposal is justified. A decision will be communicated within not
+more than twenty days from the date of receiving the complaint, provided that all
+required information has been submitted by the complainant. If this timeline cannot
+be met, the complainant will be informed by email of the delay and given a new
+decision date.
+In instances where re-evaluation is deemed necessary and the result of this is positive,
+the applicant will be invited to submit their application to the Full Proposal call.
+To maintain the efficiency of the process, each proposal is allowed a single appeal.
+The decision reached at the end of the appeal process is final, concluding any further
+discussion regarding the proposal’s evaluation. No exceptions to any of the rules
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+20
+Guidelines for applicants: Eligibility Strand
+explained in these guidelines can or will be made by the Women TechEU 2 EIC
+consortium. Any inappropriate attempts to influence the process, including but not
+limited to repeated requests for exceptions, unsolicited contact with consortium
+members or associated partners, or officers will be considered unprofessional
+conduct.
+Repeated or deliberate attempts to seek exceptions to the rules, as well as any effort
+to exert undue pressure on the Helpdesk, are strictly prohibited. Such behaviour will be
+formally recorded and may result in the rejection of current or future applications, as
+it constitutes harassment and unprofessional conduct in accordance with section 8.1
+Questions during submission process.
+8. Helpdesk support channel
+8.1.
+Questions during submission process
+Women TechEU 2 EIC offers a dedicated support channel available for applicants at
+helpdesk@womentecheurope.eu. However, the Helpdesk team should not be your first
+resource for information. Applicants are requested to consult these Guidelines, the
+FAQs, and recorded information sessions before resorting to the Helpdesk.
+Note that the Helpdesk team will not pre-evaluate proposals or give an opinion on the
+validity and/or eligibility of individual organisations and their projects. The submitted
+applications are evaluated on a weekly basis and the results will be sent at least one
+week after the cut-off closes.
+The Helpdesk is the only official channel of communication for applicants. Any email
+or communication received outside of the designated support channel will not be
+taken into account. This includes, but is not limited to: emails, calls, and messages to
+individuals within the Women TechEU 2 EIC consortium on their personal or
+professional accounts; messages sent on social media to the Women TechEU pages;
+messages sent to the social media accounts of individuals or organisations within the
+Women TechEU 2 EIC consortium, messages to EISMEA and its staff or messages sent
+via the Sploro platform.
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+21
+Guidelines for applicants: Eligibility Strand
+Harassment and unprofessional conduct when communicating with the Helpdesk will
+not be tolerated. Individuals conducting themselves in such a manner will be warned.
+Should such behaviour continue, any application submitted by that applicant may
+be automatically disqualified. Examples of such conduct include, but are not limited
+to, repeated demands for information that the Helpdesk is not at liberty to provide,
+attempting to sway the Helpdesk team or put pressure in favour of your application,
+asking or demanding for an exception from the rules to be applied to you, using
+profanity, and personally harassing individuals within the Women TechEU 2 EIC
+consortium through their personal contact channels (email, phone, social media etc).
+Requests to the Helpdesk will normally receive a response within 2 working days
+(Monday-Friday 09:00-17:00 CE(S)T). While all possible effort will be made to respond
+in a timely manner, the applicants should plan their submission, accordingly, allowing
+enough time before the deadline (i.e., at least 2 working days) if they expect an answer.
+The Helpdesk reserves the right to extend its period of reply from 2 working days to 4
+working days during times of high communication volume, such as in the days leading
+up to and after a cut-off deadline. In such cases, the Helpdesk team will apply an
+automatic notification system informing people of these circumstances.
+Requests or inquiries received AFTER two days before the cut-off date of the call will
+neither be considered nor answered. Lack of receipt of an answer to an inquiry shall
+not constitute grounds for an extension, appeal or re-evaluation of a proposal.
+8.2.
+Technical issues
+Applicants should be aware that it is best practice to submit at least two days before
+the cut-off deadline to avoid any technical issues that can occur when there is a very
+high volume of activity on the online platform.
+If you do experience technical issues preventing your submission in some way, this
+must be reported to the Helpdesk team BEFORE the official deadline. Anything received
+AFTER the deadline, even if just a minute later, will not be considered nor investigated.
+In the event that you encounter technical issues, please contact the Helpdesk clearly
+explaining what you are experiencing, including any error messages or unexpected
+behaviour. Specify the steps leading up to the problem, so that we can replicate it.
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+22
+Guidelines for applicants: Eligibility Strand
+Include a timestamp screenshot of your entire screen or the specific part where the
+issue is visible. Ensure that the screenshot includes the system clock or another form
+of a timestamp. If applicable, provide any other relevant details such as the device,
+operating system, and browser you are using.
+Even if you have a timestamped screenshot showing the error taking place
+beforehand, if the message with the screenshot does NOT reach the Helpdesk before
+the deadline, it will not be considered nor investigated. The time log of when the initial
+report reaches the Helpdesk email is the only factor that will be considered. If an
+applicant provides a screenshot showing that, at their end, an email was sent before
+the deadline, but this time does not match with the time log at the end of Helpdesk, it
+is always the Helpdesk’s time log that will be considered.
+Do not wait until the last moment to report technical issues to our Helpdesk. We
+recommend that you attempt to submit your work at least 48 hours before the official
+cut-off deadline to avoid any unforeseen problems.
+Any communication stating technical issues received after the cut-off deadline will
+not be considered nor taken into account.
+8.3.
+Re-submission of submitted applications
+The cut-off deadline is final. No exceptions of any kind will be made, regardless of any
+personal circumstances that may have affected you on the day of the deadline. The
+Women TechEU 2 EIC team and the Helpdesk will not re-open or amend your
+application, nor consider any extra information or documentation sent to it after the
+deadline.
+The application form informs you in real-time before submission if your company is
+eligible or not for Women TechEU programme. It is thus advisable to review the input
+data before submitting the form. If an applicant discovers an error in a submitted
+application, the applicant must submit a new application to the next cut-off date.
+Note that each applicant has a maximum of 3 re-submissions in the Eligibility
+Strand.
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+23
+Guidelines for applicants: Eligibility Strand
+Results are sent on a weekly basis. Therefore, it is not permitted to modify the data of
+a proposal that has been already submitted; instead, a new proposal must be
+submitted with the updated data.
+9. Beneficiaries’ Responsibilities
+The applicants are responsible to ensure that they comply with the obligations under
+Horizon Europe’s specific requirements. The obligations that are applicable to the
+recipients of funding include:
+9.1.
+Absence of conflict of interest
+Applicants must not have any actual or potential conflicts of interest during the
+Women TechEU selection process or the entire project duration (2026-2028). Any
+situations that could potentially influence the impartiality of the individuals taking part
+in the selection process, or during the project implementation, are considered conflicts
+of interest. These can include financial interests, personal relationships, or any other
+factors that could affect the applicant's ability to remain impartial. All cases of conflict
+of interest will be assessed on a case-by-case basis by the relevant Women TechEU
+selection committee and consortium partners. If an applicant is found to have a
+conflict of interest, this could result in their application being disqualified.
+It is important to note that Women TechEU 2 EIC consortium partners, their affiliated
+entities, employees, and subcontractors are not allowed to submit a proposal and
+therefore to receive any financial support through the open call, as this would violate
+the European Commission's regulations.
+Beneficiaries must take all measures to prevent any situation where the impartial and
+objective implementation of the sub-grantee project is compromised for reasons
+involving economic interest, political or national affinity, family or emotional ties or any
+other shared interest (‘conflict of interests’). They must formally notify to the Women
+TechEU 2 EIC coordinator without delay of any situation constituting or likely to lead to
+a conflict of interest and immediately take all the necessary steps to rectify this
+situation. The Women TechEU 2 EIC coordinator may verify that the measures taken
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+24
+Guidelines for applicants: Eligibility Strand
+are appropriate and may require additional measures to be taken by a specified
+deadline.
+9.2.
+Data protection and confidentiality
+Women TechEU 2 EIC requires access to Personal and Entity Data in order to process
+and evaluate applications. As the open call coordinator, Sploro will act as the Data
+Controller for all data submitted through the Sploro platform for this purpose. To
+ensure the safety and security of this data, the Sploro platform has been designed and
+operates under strict compliance with The General Data Protection Regulation (EU)
+2016/679 (GDPR). Therefore, all applicants are required to accept the Sploro Platform
+terms to ensure full coverage. For more information regarding the data privacy policy
+and security measures implemented by Sploro, please refer to their website at
+https://sploro.eu.
+Essential data may be shared with consortium partners and project associates,
+ensuring confidentiality and integrity, solely for the purpose of fulfilling the evaluation
+of the proposal and the Women TechEU Programme of Services.
+During implementation of the sub-grantee project and for five years after the end of
+the sub-grantee project, the parties must keep confidential any data, documents or
+other material (in any form) that is identified as confidential at sub-grantee signing
+time (‘confidential information’).
+In Women TechEU 2 EIC, we are committed to protecting your privacy and secure your
+personal data. This article explains how we handle your personal data in accordance
+with the applicable national and European data protection legislation, including
+Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016
+on the protection of natural persons with regards to the processing of personal data
+and on the free movement of such data, and repealing Directive 95/46/EC (GDPR).
+As we determine the purpose and means of processing your personal data in the
+context of the submission of proposals for this Open Call, which is part of the Women
+TechEU 2 EIC activities, Sploro is considered to be the Data Controller with regards to
+the processing of your personal data.
+SPLOROTECH SL, address: PARQUE TOMÁS CABALLERO 2, Sexto, Oficina 1,
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+25
+Guidelines for applicants: Eligibility Strand
+Despacho 6.10, Pamplona, Spain (hereinafter Sploro)
+E-mail: lopd@sploro.eu
+In the context of conducting this Open Call, which is part of the project Women TechEU
+2 EIC, we collect your personal data necessary for evaluating your proposal. These
+data may include but is not limited to:
+• Name, contact information, and professional details (provided via form, CV
+standalone files or any other type of data)
+• Information included in your application forms, supporting documents, or other
+materials.
+This data will be used for purposes such as evaluating submissions, managing
+participation in the programme, and complying with our contractual obligations
+under the grant agreements of the programme that you are applying for.
+Your personal data may be shared with third parties which may, include, but are not
+limited to:
+• Granting Authorities: EISMEA.
+• Consortium Partners: The information provided may also be shared with the
+partners in the consortium. These partners are contractually obligated to
+handle your data in compliance with applicable with national and European
+data
+protection
+legislation,
+including
+GDPR
+standards,
+ensuring
+the
+confidentiality and security of your personal data. More information about the
+project consortium members
+can be found
+at the project website
+www.womentecheurope.eu.
+• Subcontractors
+or
+evaluators
+involved
+in
+assessing
+applications
+or
+implementing actions.
+• Monitoring and oversight bodies, including internal audits, the European Court
+of Auditors, and the European Anti-Fraud Office (OLAF), as required under Union
+or national laws.
+Such sharing will be conducted in compliance with GDPR, the grant agreements, and
+other relevant regulations. In particular:
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+26
+Guidelines for applicants: Eligibility Strand
+• For EC co-funded programmes, personal data included in applications will be
+shared with the EC or its agencies, as required by Articles 15, 19, and 25 of the
+Horizon Europe Grant Agreement.
+• EISMEA may process this data as data controllers to monitor compliance, ensure
+proper implementation, and verify eligibility.
+Accuracy and Completeness of Data
+All data provided must be accurate, precise, and complete, as required by Article 19.1
+of the Horizon Europe Grant Agreement. Failure to provide such data may result in the
+inability to process your application or other actions necessary for programme
+participation.
+Security Measures
+Sploro implements appropriate technical and organisational measures to ensure the
+security of your personal data.
+All data processing activities are carried out in a strictly confidential manner and
+secured according to the current state of the art and using industry’s best practices
+including anonymisation techniques where possible.
+The processing of your personal data is carried out strictly in accordance with the
+principles of data protection as laid down in the GDPR Directive. All data processing
+activities are carried out lawfully by ensuring that the legal grounds for the processing
+thereof is given.
+As the processing of your personal data is based on your consent, you have the right
+to withdraw your consent at any time by contacting us at lopd@sploro.eu. Please note,
+however, that once you have withdrawn your consent, we will no longer be able to
+process your data and will not be able to continue with the evaluation of your proposal.
+We will only process your data for the purposes explained in this article and will only
+retain data for as long as necessary to fulfil the purposes explained. After that, your
+data will be securely deleted or anonymised. We emphasise that we take appropriate
+technical and organisational measures to protect your data from unauthorised
+access, disclosure, or misuse, in accordance with the requirements of relevant
+regulations.
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+27
+Guidelines for applicants: Eligibility Strand
+Under the GDPR Directive, you have the following rights concerning your personal data:
+• Right of Access
+• Right to Rectification
+• Right to Erasure
+• Right to Restrict Processing
+• Right to Data Portability
+• Right to Object
+To exercise data protection rights or if you have any questions regarding your personal
+data, please contact us at lopd@sploro.eu.
+Project 101268687 Women TechEU 2 EIC - HORIZON-EIC-2025-WOMENTECH
+28
