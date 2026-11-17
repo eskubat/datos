@@ -82,3 +82,3439 @@ BOLETÍN OFICIAL DE BIZKAIA
 BOLETÍN OFICIAL DE BIZKAIA
 Lunes, 19 de octubre de 2026
 Pág. 15
+
+### Documento de la convocatoria: https://www.bizkaia.eus/es/tema-detalle/-/edukia/dt/5546
+Fomento de iniciativas emprendedoras - Bizkaia.eus
+Fomento de iniciativas emprendedoras
+Volver a Emprendimiento
+Objetivo
+Fomentar el autoempleo y la creación de empresas y apoyar la continuidad de las empresas adjudicatarias de los Decretos de autoempleo de los dos años anteriores.
+Medidas
+Asesoramiento para la creación y puesta en marcha de proyectos empresariales.
+Ayudas a la puesta en marcha y creación de empresas.
+Ayudas a la transmisión empresarial.
+Personas y entidades beneficiarias
+Medida 1: Centros de Empleo y Desarrollo local de carácter municipal. Fundaciones, Asociaciones, otras entidades sin ánimo de lucro y las universidades de la Comunidad Autónoma del País Vasco.
+Medida 2: Personas desempleadas, personas en mejora de empleo (cuando el contrato de trabajo no supere el 40% de la jornada laboral establecida en convenio) y personas afectadas por un ERTE o un ERE, o que hayan realizado prácticas no laborales, que hayan puesto en marcha empresas como resultado de la medida I de formación y asesoramiento, con domicilio social y fiscal en Bizkaia.
+Medida 3: Será beneficiaria de la ayuda la entidad que adquiera el negocio: entendiendo por tal la empresa, cualquiera que sea su forma jurídica, incluidos los empresarios y empresarias individuales, así como comunidades de bienes y sociedades civiles del Territorio Histórico de Bizkaia.
+Normativa Reguladora
+DECRETO FORAL 137/2025, de 29 de diciembre, de la Diputación Foral de Bizkaia, por el que se establecen las bases reguladoras y se aprueban las convocatorias de la concesión de subvenciones del programa para el fomento de iniciativas emprendedoras, del ejercicio 2026
+DECRETO FORAL 8/2026, de 5 de febrero, de la Diputación Foral de Bizkaia, por el que se rectifica el error del Decreto Foral 137/2025, de 29 de diciembre, de la Diputación Foral de Bizkaia, por el que se establecen las bases reguladoras y se aprueban las convocatorias de subvenciones del programa para el fomento de iniciativas emprendedoras, del ejercicio 2026
+ORDEN FORAL 4248/2026, de 9 de julio, de la diputada foral de Empleo, Cohesión Social e Igualdad por la que se aprueba la segunda convocatoria de la concesión de subvenciones para el fomento de iniciativas emprendedoras del ejercicio 2026 en lo referente al título I capítulo II área 2 ycapítulo III área 3, del Decreto Foral 137/2025, de 29 de diciembre
+Documentos
+Resumen Medida 1: Asesoramiento para la creación y puesta en marcha de proyectos empresariales
+Resumen Medida 2: Ayudas a la puesta en marcha y creación de empresas
+Resumen Medida 3: Ayudas a la transmisión empresarial
+Entidades Asesoras Emprendiemiento
+Ficha de acreedor: Documento de domiciliación bancaria para subvenciones
+Plazo de presentación de solicitudes
+Para las solicitudes del Area 1 «Asesoramiento para la creación y puesta en marcha de proyectos empresariales» se iniciará el 19 de enero de 2026 a las 9:00 y finalizará el 2 de febrero de 2026 a las 13:30 horas.
+Para las solicitudes del Area 2 «Ayudas a la puesta en marcha y creación de empresas», el plazo de presentación de solicitudes de la segunda convocatoria se iniciará el 15 de julio de 2026 a las 8:30 y finalizará el 30 de julio de 2026 a las 23:59 horas.
+Para las solicitudes del Area 3 «Transmisión empresarial», el plazo de presentación de solicitudes de la segunda convocatoria se iniciará el iniciará el 15 de julio de 2026 a las 8:30 y finalizará el 30 de julio de 2026 a las 23:59 horas.
+Oficina Virtual: solicitud, justificación y otras tramitaciones telemáticas
+Para más información:
+CALL-CENTER
+Teléfono: 94 406 80 08
+lanera.enplegua@bizkaia.eus
+Para visualizar estos ficheros necesita el programa gratuito Adobe Reader.
+Cambiar a:
+EU
+Esta página web, https://www.bizkaia.eus (en adelante la “Página Web”) utiliza herramientas de seguimiento de la navegación a través de la misma y de la dirección IP del destinatario del servicio, con la finalidad de mejorar y garantizar la prestación de servicios o el funcionamiento técnico de la misma, distinguirle de otras personas usuarias y analizar sus hábitos de navegación.
+Nombre
+Objetivo
+Duración
+Propietario
+JSESSIONID
+Identificar la sesión
+Sesión
+Diputación Foral de Bizkaia
+ASPSESSIONID
+Sesión
+TS01
+Sesión
+LFR_SESSION_STATE
+Sesión
+1 año
+pc_tecnicas_bizkaia
+1 año
+pc_analitica_bizkaia
+1 año
+pc_preferencias_bizkaia
+1 año
+pc_terceros_bizkaia
+1 año
+CPLB
+Contiene información utilizada por nuestros servidores de equilibrio de carga
+Sesión
+Kultursistema_session
+Mantener la sesión de la persona usuaria
+1 hora
+Kultursistema
+XSRF-TOKEN
+Para evitar ataques CSRF (Cross Site Request Forgery)
+1 hora
+Kultursistema
+_GRECAPTCHA
+Protege el sitio web del spam y los ataques de fuerza bruta
+6 meses
+Google
+Nombre
+Objetivo
+Duración
+Propietario
+Rastrea una visita a través de múltiples solicitudes
+Sesión
+dtLatC
+Mide la latencia del servidor para la monitorización del rendimiento
+Sesión
+dtPC
+Necesario para identificar los parámetros adecuados para la transmisión de balizas; incluye ID de sesión para correlación
+Sesión
+dtSa
+Almacén intermedio para acciones que abarcan páginas
+Sesión
+rxVisitor
+ID de visitante para correlacionar sesiones
+Permanente
+rxvt
+Tiempo de espera de sesión
+Sesión
+iyrc-user-id
+Distinguir a las personas usuarias
+1 hora
+_ga, _ga_XXXXXXXXXXX
+Distinguir a la persona usuaria
+2 años
+Google Analytics
+_gat, _gat_XXXXXXXXXXX
+Limitar el porcentaje de solicitudes
+1 minuto
+_gid
+1 día
+MUID
+1 año
+Microsoft Clarity
+_clck
+Asignar preferencias a la misma persona usuaria
+1 año
+_clsk
+Conecta múltiples páginas vistas en una sesión
+1 año
+CLID
+Identificar la primera visita de una persona usuaria
+1 año
+ANONCHK
+1 día
+MR
+Indica cuando refrescar MUID
+6 meses
+SM
+Sincronizar MUID en el entorno Microsoft
+1 año
+Nombre
+Objetivo
+Duración
+Propietario
+Idioma
+Seleccionar el idioma preferido por la persona usuaria
+1 año
+Guardar los trámites favoritos en Cita Previa
+1 año
+Nombre
+Objetivo
+Duración
+Propietario
+CLID
+1 año
+APISID
+Almacenar las preferencias del usuario y la información durante la visualización de las páginas con los mapas de Google en ellos
+2 años
+Google
+HSID
+Prevención del fraude
+2 años
+Google
+MUID
+1 año
+NID
+Recordar sus preferencias y otra información
+6 meses
+Google
+SAPISID
+Mostrar anuncios personalizados en los sitios de Google
+2 años
+Google
+SID
+Proporcionar entrega de anuncios o retargeting, proporcionar prevención del fraude
+2 años
+Google
+SIDCC
+Proporcionar la identificación del tráfico web confiable
+1 año
+Google
+SM
+Se utiliza para sincronizar el MUID entre dominios de Microsoft
+Sesión
+SSID
+2 años
+Google
+__Secure-1PAPISID
+Crear un perfil de los intereses del visitante del sitio web con el fin de mostrar publicidad de Google relevante y personalizada
+2 años
+Google
+__Secure-1PSID
+2 años
+Google
+__Secure-1PSIDCC
+Crear un perfil de los intereses de los visitantes del sitio web para mostrar anuncios relevantes y personalizados a través de retargeting
+1 año
+Google
+__Secure-1PSIDTS
+1 año
+Google
+__Secure-3PSID
+2 años
+Google
+__Secure-3PSIDCC
+1 año
+Google
+__Secure-3PSIDTS
+1 año
+Google
+__Secure-ENID
+1 año
+Google
+ar_debug
+Depurar anuncios
+1 año
+Google
+MR
+6 meses
+XSRF-TOKEN
+1 hora
+Kultursistema
+_fbp
+Almacenar y rastrear las visitas en los sitios web
+1 año
+Facebook
+1 hora
+Kultursistema
+AEC
+Detectar spam, fraude y abuso
+6 meses
+Google
+SOCS
+13 meses
+Google
+Locale
+No disponible
+Gobierno Vasco
+_hegoa_coop_session
+Generar un identificador de sesión para las personas usuarias
+Sesión
+Gobierno Vasco
+Siempre activas
+Son necesarias para permitirte navegar por nuestra página web y para las tareas básicas para el correcto funcionamiento de la página.
+
+### Documento de la convocatoria: https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/01/09/I-1430_cas.pdf
+SECCIÓN I
+ADMINISTRACIÓN FORAL DEL TERRITORIO HISTÓRICO DE BIZKAIA
+Diputación Foral de Bizkaia
+Departamento de Empleo, Cohesión Social e Igualdad
+DECRETO FORAL 137/2025, de 29 de diciembre, de la Diputación Foral de
+Bizkaia, por el que se establecen las bases reguladoras y se aprueban las
+convocatorias de subvenciones del programa para el fomento de iniciativas
+emprendedoras, del ejercicio 2026.
+I
+El objetivo prioritario del Departamento de Empleo, Cohesión Social e Igualdad en
+materia de empleo, es lograr la inserción laboral de las personas en situación de desempleo, y al mismo tiempo favorecer la incorporación de talento diverso en las empresas
+de Bizkaia y para ello se establecen diferentes líneas de actuación de promoción de la
+ocupabilidad, dirigidas a personas con mayores dificultades para la inserción laboral
+(personas desempleadas de larga duración, personas mayores de 45 años, mujeres,
+personas en situación o riesgo de exclusión y personas jóvenes), a empresas de Bizkaia
+al objeto de que puedan incorporar los perfiles que requieren (incentivos a la contratación) y a favorecer la inserción laboral, en algunos casos más factible y sostenible,
+mediante fórmulas de empresario autónomo o de pequeña empresa colectiva, mediante
+el fomento del autoempleo.
+El mercado laboral en Bizkaia cuenta con un problema que tiene su reflejo, por una
+parte, en la cronificación del desempleo de más del 50% de las personas desempleadas
+y, por otra parte, en el hecho de que más del 50% de las personas que están en el desempleo son mujeres.
+En la actualidad, existen colectivos de personas, cuya inserción es, en algunos casos, más factible y sostenible si se hace mediante fórmulas de empresariado autónomo
+o de pequeña empresa colectiva, que si se pretende recurrir a la inserción por cuenta
+ajena. Potenciar la cultura emprendedora y ayudar a las y los promotores empresariales
+en el desarrollo de su idea de negocio, son actuaciones fundamentales en el desarrollo
+de las políticas de empleo.
+El mercado laboral de Bizkaia se encuentra inmerso en un proceso de transformación profunda, impulsado por factores como la digitalización, el envejecimiento poblacional, la transición ecológica y los cambios en los modelos productivos. A pesar de la
+evolución positiva en los indicadores de empleo, persisten desafíos estructurales que
+afectan especialmente a determinados colectivos, como jóvenes, mujeres, personas migrantes y desempleados de larga duración.
+En este contexto, el autoempleo se configura como una herramienta estratégica para
+fomentar la activación laboral, la innovación y la resiliencia económica. La capacidad
+de generar actividad por cuenta propia permite a las personas adaptarse con mayor
+flexibilidad a las nuevas demandas del mercado, contribuyendo a la diversificación del
+tejido productivo y al desarrollo de iniciativas de proximidad, sostenibles y con arraigo
+territorial.
+La Diputación Foral de Bizkaia, en el marco de sus competencias en materia de
+empleo, considera prioritario reforzar las políticas públicas de apoyo al emprendimiento
+individual mediante la articulación de subvenciones que faciliten la puesta en marcha de
+proyectos de autoempleo. Estas ayudas se orientan a reducir las barreras de entrada,
+mejorar la capacitación de los emprendedores y garantizar la viabilidad de las iniciativas,
+especialmente en sectores emergentes y en zonas con mayores dificultades socioeconómicas.
+El presente decreto foral establece el régimen jurídico aplicable a dichas subvenciones, definiendo sus objetivos, criterios de acceso, cuantías y procedimientos de conce-
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+sión, con el fin de contribuir de manera eficaz a la mejora de la empleabilidad, la inclusión social y el desarrollo económico sostenible de Bizkaia.
+Asimismo se incluye en el Plan Territorial de empleo de la Diputación Foral de Bizkaia
+2024-2029 como reto estratégico 3.
+El conjunto de las actuaciones de apoyo al emprendimiento del Departamento de
+Empleo, Cohesión Social e Igualdad se ve reforzado a través de actuaciones impulsadas desde DEMA, empresa Garapena de Barakaldo. En este sentido se va a iniciar la
+implantación de la «Escuela de emprendimiento Bizkaia», desarrollada desde DEMA
+para dar respuesta a los nuevos retos y motivaciones del emprendimiento del territorio.
+La escuela es un espacio estructurado, práctico y accesible, pensado para acompañar
+los procesos emprendedores diversos desde el conocimiento, la experiencia y la colaboración.
+II
+El decreto contiene tres capítulos referidos a las tres áreas consideradas imprescindibles para fomentar el autoempleo y la transmisión de empresas.
+Las ayudas que se regulan en el área 1 pretenden apoyar la creación y puesta en
+marcha de proyectos empresariales, a través de la formación y el asesoramiento a las
+personas promotoras en áreas necesarias para la constitución de la empresa.
+La finalidad de esta línea es respaldar a aquellas entidades que, teniendo una experiencia contrastada en asesoramiento en gestión empresarial, presenten un proyecto
+orientado a la selección de personas promotoras a fin de asesorarles con el objetivo de
+creación de empresa.
+El área 2 bajo la denominación de «Ayudas a la puesta en marcha y creación de empresas», tiene por objeto apoyar directamente las empresas con personalidad jurídica,
+incluyendo los empresarios y empresarias individuales y profesionales, las comunidades
+de bienes y sociedades civiles, para hacer frente a los gastos de inicio y funcionamiento
+durante el primer año.
+El área 3 bajo la denominación de «Transmisión empresarial», es una línea de ayudas económicas destinadas a facilitar la continuidad de negocios existentes mediante su
+transmisión a personas o entidades.
+Las ayudas, en cada área, se otorgarán en régimen de concurrencia competitiva previsto en el artículo 20 de la Norma Foral 5/2005, de 31 de mayo, por la que se regula el
+régimen jurídico general de las subvenciones otorgadas por la Administración Foral (en
+adelante Norma Foral 5/2005).
+III
+La competencia sobre la materia objeto de este decreto foral corresponde a la Diputación Foral de Bizkaia, de conformidad con el artículo 17.2 de la Norma Foral 3/1987,
+de 13 de febrero, sobre Elección, Organización, Régimen y Funcionamiento de las Instituciones Forales del Territorio Histórico de Bizkaia (en adelante Norma Foral 3/1987).
+Éste último dispone que corresponde a la Diputación Foral aquellos asuntos que son
+competencia de las diputaciones de régimen común y en este sentido, el artículo 36 d)
+de la Ley 7/1985, de 2 de abril, reguladora de las Bases de Régimen Local establece
+que es competencia propia de las diputaciones provinciales, «la cooperación en el fomento del desarrollo económico y social y en la planificación en el territorio provincial, de
+acuerdo con las competencias de las demás administraciones públicas en este ámbito».
+Conforme al Decreto Foral 60/2024, de 6 de junio, de la Diputación Foral de Bizkaia,
+por el que se aprueba el Reglamento de Estructura Orgánica del departamento de Empleo, Cohesión Social e Igualdad, en adelante Decreto Foral 60/2024, este departamento tiene como misión la generación e impulso de políticas públicas favorecedoras
+de la igualdad, la solidaridad, la cohesión social y el empleo en la sociedad de Bizkaia,
+mediante la prestación de servicios a aquellos ciudadanos y ciudadanas que, a causa
+de su situación personal, social o familiar, tengan dificultades para desarrollar una vida
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+digna y plena, centrando el foco de su atención en el colectivo de mujeres víctimas de
+maltrato, en el de las personas en riesgo o situación de exclusión social, el impulso y la
+promoción del empleo y las competencias laborales de la ciudadanía, así como en la
+promoción del desarrollo humano sostenible, diseñando políticas de género, de gestión
+de la diversidad y de cooperación y desarrollo.
+IV
+Este programa de subvenciones está incluido en el segundo Plan Estratégico de
+Subvenciones del Departamento de Empleo, Cohesión Social e Igualdad para el período
+2024-2027, objetivo estratégico 01.05 «Fomentar el autoempleo».
+V
+En la elaboración del decreto se ha incorporado la perspectiva de género, en cumplimiento del Decreto Legislativo 1/2023, de 16 de marzo, por el que se aprueba el Texto
+Refundido de la Ley para la Igualdad de Mujeres y Hombres y Vidas Libres de Violencia
+Machista contra las Mujeres (en adelante Decreto Legislativo 1/2023), de la Norma Foral 4/2018, de 20 de junio, para la Igualdad de Mujeres y Hombres (en adelante Norma
+Foral 4/2018) y del Decreto Foral 112/2024, de 14 de noviembre, por el que se regula la
+evaluación previa del impacto en función del género en la Diputación Foral de Bizkaia.
+En este sentido, en la tramitación de este decreto foral se incorpora el Informe de
+Evaluación Previa del Impacto en función del Género.
+VI
+El decreto se ha elaborado teniendo en cuenta los criterios de uso de las lenguas oficiales en el ámbito de actuación de la Diputación Foral de Bizkaia que regula el Decreto
+foral 63/2019, de 28 de mayo.
+VII
+Este decreto foral responde a los principios de buena regulación previstos en la Ley
+39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, en adelante Ley 39/2015, y recogidos en el artículo 3 del Decreto foral
+de la Diputación Foral de Bizkaia 87/2021, de 15 de junio, por el que se regula el procedimiento de elaboración de disposiciones de carácter general en la Diputación Foral
+de Bizkaia, en adelante Decreto 87/2021, cuyas disposiciones se han observado en su
+elaboración y tramitación, habiéndose emitido los siguientes informes.
+1. Informe de evaluación preliminar del impacto de género.
+2. Informe jurídico del Departamento de Empleo, Cohesión Social e Igualdad.
+3. Informe de evaluación previa del impacto en función del género.
+4. Informe de control económico.
+5. Informe de legalidad
+6. Evaluación del impacto climático.
+Asimismo, de acuerdo con el Decreto Foral 87/2021, quedarán exentas de los trámites de consulta pública previa y audiencia e información pública las disposiciones relativas a cualquier materia, cuyo contenido sea idéntico o no modifique substancialmente el
+contenido de otras con el mismo objeto a las que sustituyan.
+En este sentido este decreto no modifica sustancialmente el contenido del Decreto
+Foral de la Diputación Foral de Bizkaia 1/2025, de 9 de enero, por las que se establecen
+las bases reguladoras y se aprueban las convocatorias de la concesión de subvenciones
+del programa para el fomento de iniciativas emprendedoras, del ejercicio 2025.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+VIII
+El artículo 16.1 de la Norma Foral 5/2005, habilita a la Diputación Foral de Bizkaia
+para aprobar las bases reguladoras de la concesión de subvenciones mediante decreto
+foral, previo informe del Servicio jurídico; y el artículo 41.1 del Decreto Foral 34/2010, de
+23 de marzo, por el que se aprueba el Reglamento de Subvenciones de desarrollo de
+la Norma Foral 5/2005, establece la posibilidad de la tramitación conjunta de las bases
+reguladoras y la convocatoria, residiendo en el Consejo de Gobierno de la Diputación
+Foral de Bizkaia la competencia para su aprobación. Asimismo, el artículo 39 k) de la
+Norma Foral 3/1987, determina que compete a los diputados forales y a las diputadas
+forales proponer a la Diputación Foral de Bizkaia, para su aprobación, los proyectos de
+decreto foral en las materias propias de su departamento.
+En su virtud, a iniciativa de la diputada foral de empleo, cohesión social e igualdad y
+previa deliberación de la Diputación Foral de Bizkaia,
+DISPONGO:
+Artículo Único.—Aprobación de las bases reguladoras y convocatorias de subvenciones
+Se aprueban las bases reguladoras y convocatorias de subvenciones del programa
+para el fomento de iniciativas emprendedoras, del ejercicio 2026, cuyo texto se incluye
+a continuación:
+DISPOSICIONES FINALES
+Disposición Final Primera.—Habilitación para el desarrollo normativo
+Se faculta a la diputada foral de empleo, cohesión social e igualdad para dictar cuantas disposiciones resulten procedentes en orden al desarrollo, ejecución y aplicación de
+lo previsto en el presente decreto foral, incluida la concesión de subvenciones.
+Se faculta a la diputada foral de empleo, cohesión social e igualdad para acordar la
+ampliación o cierre del plazo de presentación de solicitudes, en caso de que se dé el
+supuesto previsto en el artículo 32.4 de la Ley 39/2015, o que se agote o incremente la
+dotación presupuestaria a dictar cuantas disposiciones considere necesarias para completar o desarrollar este decreto foral.
+Asimismo, se faculta a la diputada foral de empleo, cohesión social e igualdad para
+acordar la apertura de nuevas convocatorias de subvenciones para el supuesto de no
+agotarse las disponibilidades presupuestarias.
+Además, se faculta a la diputada foral de empleo, cohesión social e igualdad para
+resolver las solicitudes de subrogación.
+Disposición Final Segunda.—Vigencia
+Tendrá vigencia durante los años 2026 y 2027.
+Disposición Final Tercera.—Entrada en vigor
+Este decreto foral entrará en vigor el día siguiente al de su publicación en el «Boletín
+Oficial de Bizkaia».
+En Bilbao, a 29 de diciembre de 2025.
+La Diputada General
+ELIXABETE ETXANOBE LANDAJUELA
+La diputada foral de Empleo,
+Cohesión Social e Igualdad,
+TERESA LAESPADA MARTÍNEZ
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+BASES REGULADORAS Y CONVOCATORIA DE SUBVENCIONES
+DEL PROGRAMA PARA EL FOMENTO DE INICIATIVAS
+EMPRENDEDORAS, DEL EJERCICIO 2026
+ÍNDICE
+Título I.—Disposiciones generales.
+Base 1.—Objetivo de las subvenciones.
+Base 2.—Definiciones.
+Capítulo I.—Área 1: Asesoramiento para la creación y puesta en marcha de proyectos
+empresariales.
+Base 3.—Hecho subvencionable.
+Base 4.—Entidades beneficiarias.
+Base 5.—Cuantía y límite de la subvención.
+Base 6.—Gastos subvencionables.
+Capítulo II.—Área 2: Ayudas a la puesta en marcha y creación de empresas.
+Base 7.—Hecho subvencionable.
+Base 8.—Entidades beneficiarias.
+Base 9.—Requisitos de las personas promotoras.
+Base 10.—Cálculo y cuantía de la subvención.
+Capítulo III.—Área 3: Transmisión empresarial.
+Base 11.—Hecho subvencionable.
+Base 12.—Entidades beneficiarias.
+Base 13.—Requisitos de las personas socias de las entidades beneficiarias.
+Base 14.—Cálculo y cuantía de la subvención.
+Capítulo IV.—Créditos presupuestarios.
+Base 15.—Dotación presupuestaria.
+Título II.—Régimen Jurídico.
+Base 16.—Régimen Jurídico.
+Base 17.—Órganos competentes.
+Base 18.—Infracciones y Sanciones.
+Base 19.—Incumplimiento y reintegro.
+Base 20.—Devolución de la subvención a iniciativa de la entidad beneficiaria.
+Título III.—Procedimiento de concesión.
+Base 21.—Lugar, forma y plazo en que deben presentarse las solicitudes de ayuda y
+subsiguientes trámites e inscripción en el REPPE.
+Base 22.—Documentación necesaria para la solicitud e interoperabilidad.
+Base 23.—Subsanación o mejora de la solicitud.
+Base 24.—Procedimiento de concesión.
+Base 25.—Criterios de valoración de las solicitudes.
+Base 26.—Resolución.
+Base 27.—Recursos.
+Base 28.—Renuncia a la subvención.
+Base 29.—Modificación de la resolución de concesión.
+Base 30.—Publicidad de las subvenciones concedidas.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+Base 31.—Difusión de la subvención concedida por la persona beneficiaria.
+Base 32.—Notificación electrónica.
+Título IV.—Ejecución, justificación y control.
+Base 33.—Plazo de ejecución.
+Base 34.—Plazo de justificación.
+Base 35.—Condiciones de subcontratación.
+Base 36.—Justificación de las subvenciones.
+Base 37.—Pago de la subvención.
+Base 38.—Compatibilidad de las ayudas.
+Base 39.—Obligaciones de las entidades beneficiarias.
+Base 40.—Tratamiento de datos personales de las personas responsables de las entidades beneficiarias de la subvención.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+Núm. 5
+BOB
+BASES REGULADORAS Y CONVOCATORIA DE SUBVENCIONES
+DEL PROGRAMA PARA EL FOMENTO DE INICIATIVAS
+EMPRENDEDORAS, DEL EJERCICIO 2026
+TÍTULO I
+DISPOSICIONES GENERALES
+Base 1.—Objetivo de las subvenciones
+Mediante este programa de subvenciones se pretende impulsar y apoyar, la creación
+y puesta en marcha de proyectos empresariales.
+El programa se llevará a cabo a través de tres líneas de subvención:
+—Á
+ rea 1. Asesoramiento para la creación y puesta en marcha de proyectos empresariales
+—Á
+ rea 2. Ayudas a la puesta en marcha y creación de empresas
+—Á
+ rea 3. Ayudas a la transmisión empresarial
+A los efectos de las presentes bases y convocatorias se entenderá por:
+1. Personas en riesgo de exclusión:
+a) Personas que se hallan incorporadas a cualesquiera de los servicios, centros y programas de carácter público dependientes de los servicios sociales
+forales para la inclusión de Bizkaia que se definen en el artículo 15.1.a) del
+Decreto Foral 60/2024.
+b) Personas que, a juicio de los servicios sociales de base de algún ayuntamiento del Territorio Histórico de Bizkaia, se considere que están en situación de riesgo de exclusión utilizando los instrumentos técnicos comunes de
+valoración y diagnóstico legalmente aprobados, acreditando tal circunstancia por informe de servicio social de base competente.
+c) Personas que tengan reconocida una minusvalía valorada en grado igual o
+superior al 33%.
+d) El padre o la madre de una familia monoparental/monomarental, que acredite tener a su cargo a uno o varios descendientes que no desempeñen
+actividad retribuida. Dicha situación se acreditará mediante copia del libro
+de familia, certificado de empadronamiento y certificado de partida de nacimiento del descendiente actualizada.
+e) Personas que hayan obtenido la condición de beneficiarias de las prestaciones económicas establecidas en la Ley 14/2022, de 22 de diciembre, del
+Sistema Vasco de Garantía de Ingresos y para la Inclusión, o de las ayudas
+especiales para la inclusión social reguladas, por el Decreto Foral 60/2011,
+de 22 de marzo, en redacción dada por Decreto Foral 207/2011, de 13 de
+diciembre, así como los miembros de su unidad de convivencia, o beneficiarias del ingreso mínimo vital regulado en la Ley 19/2021, de 20 de diciembre,
+por la que se establece el ingreso mínimo vital.
+
+f) 
+Personas extoxicómanas (exalcohólicas y exdrogadictas), considerando
+como tales a los efectos de las ayudas previstas en este decreto foral, a
+aquellas que, habiendo superado a juicio del equipo terapéutico correspondiente las fases de desintoxicación y deshabituación y llevando más de 6
+meses de tratamiento continuado, se considere de interés su adscripción a
+un programa de reinserción social a través del trabajo.
+g) Personas víctimas de violencia de género, acreditado según lo dispuesto
+en la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección
+Integral contra la Violencia de Género o mediante documento acreditativo de
+cve: BOB-2026a005-(I-1430)
+Base 2.—Definiciones
+Núm. 5
+BOB
+la intervención por parte del Servicio de Mujer e Intervención Familiar de la
+Diputación Foral de Bizkaia.
+h) Personas ex- reclusas, personas refugiadas en procesos de integración y
+personas que hayan superado procesos de sinhogarismo.
+i) Mujeres detectadas como víctimas de trata con fines de explotación sexual.
+Para tener en cuenta estas circunstancias habrán de referirse a la fecha de alta
+en actividades económicas o a la de cambio de titularidad en el Impuesto de
+Transmisiones Patrimoniales y Actos Jurídicos Documentados para los supuestos de la base 11.1.a.
+2. Entidad solicitante de subvención área 2 y área 3: se entiende por entidad solicitante a las empresas con personalidad jurídica, comunidades de bienes, o
+sociedades civiles, empresarios empresarias individuales o profesionales a cuyo
+nombre figure la solicitud.
+3. Tendrá la consideración de persona promotora:
+a) El empresario o la empresaria individual o profesional.
+b) La persona socia trabajadora de una comunidad de bienes o sociedad civil.
+c) La persona socia trabajadora de la empresa, entendiendo por tal, aquella persona que siendo socia de la empresa reúna los requisitos especificados en la
+base 9.
+d) Los «autónomos económicamente dependientes» referidos en capítulo III
+del título II de la Ley 20/2007, de 11 de julio, siempre que cumplan las condiciones de la base 9.
+No se consideran personas promotoras, el familiar colaborador de un empresario o empresaria autónoma.
+La persona promotora, es la persona que ha realizado el curso de formación
+a través de la «Escuela de Emprendimiento Bizkaia», y el asesoramiento con
+alguna entidad adjudicataria del área 1.
+Excepcionalmente serán válidas las formaciones realizadas desde el 31 de julio
+hasta el 31 de diciembre de 2025, online o de forma presencial con cualquiera
+de las entidades adjudicatarias del área1.
+La persona promotora ha de ser socia de la empresa o de la comunidad de bienes o sociedad civil, o empresaria individual.
+4. Alta en IAE: las referencias en este decreto foral al Alta en IAE, son las altas en
+la Hacienda Foral de Bizkaia.
+5. Puesta en marcha de un proyecto: consiste en el alta del mismo en una actividad
+económica y a la realización efectiva de la misma, o en el caso de actividades no
+sujetas al Impuesto de Actividades Económicas el alta en el régimen de autónomos u otros regímenes especiales, y realización de la actividad económica que
+se trate.
+6. Situación de desempleo: Se considerará situación de desempleo el tiempo que
+de forma ininterrumpida la persona promotora haya estado inscrita en Lanbide
+como demandante de empleo o en situación análoga en un servicio público de
+empleo y no se encuentre en situación de alta en la Seguridad Social o mutualidad equivalente.
+7. Proyecto de carácter innovador: Se consideran de carácter innovador los proyectos empresariales que justifiquen un planteamiento de generación de producto, servicio o proceso de negocio (o combinación de ambos) que difiera significativamente de los procesos, servicios o procesos que existen en el mercado.
+8. Emprendimiento de impacto: Se consideran emprendimiento de impacto los proyectos empresariales que justifiquen la creación de valor añadido en términos
+económicos, sociales o medio ambientales.
+cve: BOB-2026a005-(I-1430)
+9. Actividad industrial: se refiere al conjunto de procesos y operaciones destinados a
+transformar materias primas en productos elaborados o semielaborados, generalmente a través del uso de maquinaria, tecnología y mano de obra organizada.
+10. Economía de los cuidados: es la parte de la economía que se encarga de todas
+las actividades necesarias para atender y mantener el bienestar de las personas,
+como cuidar personas mayores, enfermos o con discapacidad.
+11. Sostenibilidad medioambiental: conjunto de actividades que fomenten el reciclaje, economía circular y el uso de energías renovables.
+CAPÍTULO I
+ÁREA 1: ASESORAMIENTO PARA LA CREACIÓN Y PUESTA
+EN MARCHA DE PROYECTOS EMPRESARIALES
+Base 3.—Hecho subvencionable
+1. Tendrá la consideración de hecho subvencionable:
+a) El asesoramiento individualizado a las personas en los proyectos empresariales
+que tengan por objeto la realización del plan de negocio para la creación de
+empresa será de un máximo de 40 horas a cada persona promotora para la
+realización del plan de negocio concreto.
+El plan de negocio debe contener, al menos:
+1.º Descripción del modelo de negocio.
+2.º Descripción y localización del negocio.
+3.º Proyecto de inversión y fuentes de financiación.
+4.º Estudio de mercado.
+5.º Organización y recursos humanos.
+6.º Forma jurídica adoptada.
+7.º Estudio económico-financiero.
+8.º Informe sobre la viabilidad del proyecto asesorado.
+9.º Valoración del riesgo.
+10.º Resumen
+Además, contendrá un estudio de viabilidad del negocio y un servicio de asesoramiento individualizado.
+b) El asesoramiento individualizado a las personas en los proyectos empresariales
+que tengan por objeto la transmisión empresarial, será de un máximo de 80 horas por proyecto, y contendrá el estudio de la viabilidad del negocio, así como,
+la valoración del negocio, la valoración del riesgo, el proceso de transmisión, y
+las fuentes de financiación, siempre que aplique la metodología de DEMA en
+transmisión empresarial, en los supuestos previstos en la base 11.
+2. Además, será subvencionable el acompañamiento individualizado a los promotores empresariales a fin de que completen la formación individual online a través de la
+plataforma de la «Escuela de emprendimiento de Bizkaia.»
+Base 4.—Entidades beneficiarias
+1. Podrán acceder a la consideración de entidades beneficiarias:
+a) Los Centros de empleo y desarrollo local de carácter municipal del Territorio
+Histórico de Bizkaia, u organismos autónomos, empresas públicas u otras entidades de ellos dependientes o vinculadas.
+b) Las fundaciones, asociaciones y otras entidades sin ánimo de lucro que tengan
+su domicilio social y fiscal, así como su centro de trabajo en el Territorio Histórico
+de Bizkaia, y cuyos miembros no formen parte de ninguna otra entidad con ánimo de lucro que se dedique al asesoramiento a empresas de nueva creación.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+c) Las universidades de la Comunidad Autónoma del País Vasco.
+2. Las entidades beneficiarias deberán acreditar una experiencia mínima contrastada de tres años en asesoramiento en gestión empresarial.
+3. Para ser beneficiarias, las entidades no pueden verse afectadas por ninguna de
+las prohibiciones del artículo 12 de la Norma Foral 5/2005, así como del artículo 42 de la
+Norma Foral 4/2018.
+4. No se consideran entidades beneficiarias los centros formativos, ni asociaciones
+o fundaciones dependientes de los mismos, a excepción de las universidades de la Comunidad Autónoma del País Vasco.
+5. En ningún caso podrán concurrir ni resultar beneficiarias de ningún tipo de ayudas o subvenciones las personas físicas y jurídicas:
+a) Que hayan sido sancionadas en firme en vía administrativa, laboral o penal por
+vulneración del derecho a la igualdad y a la no discriminación por razón de sexo.
+b) Cuyos fines u objetivos, sistema de admisión o acceso, funcionamiento, trayectoria, actuación, organización o estatutos sean contrarios al principio de igualdad
+de mujeres y hombres.
+c) Que incumplan las obligaciones establecidas en la Ley Orgánica 3/2007, de 22
+de marzo, para la igualdad efectiva de mujeres y hombres (en adelante Ley Orgánica 3/2007).
+Asimismo, no se podrán subvencionar las actividades o acciones que discriminan por
+razón de sexo.
+Base 5.—Cuantía y límite de la subvención
+1. Para el cálculo de la subvención se tendrá en cuenta el número de proyectos
+asesorados y puestos en marcha en Bizkaia, desde el 29 de julio de 2024 a 30 de julio
+de 2025 siempre que estén acreditados en la forma prevista en el apartado 1.c) de la
+base 25.
+2. La cuantía máxima de la ayuda será la suma de:
+a) La cuantía resultante de multiplicar 1.500 euros por la cifra que surja de incrementar el 10% sobre el número total de los proyectos de creación de empresas
+asesorados y puestos en marcha, en los términos de la base 7, entre el 29 de
+julio de 2024 a 30 de julio de 2025.
+b) La cuantía resultante de multiplicar 3.000 euros por la cifra que surja de incrementar el 10% sobre el número total de los proyectos de transmisión empresarial, asesorados y ejecutados, en los términos establecidos en la base 11, entre
+el 29 de julio de 2024 a 30 de julio de 2025.
+De tal suerte que la subvención a otorgar será la cantidad menor que resulte entre la
+cuantía solicitada y la cuantía máxima dispuesta en este apartado.
+3. La subvención máxima alcanzable por entidad solicitante y por el total de las
+acciones subvencionables presentadas ascenderá a 80.000 euros, en dicho importe se
+imputarán los gastos subvencionables soportados por la entidad para prestar el servicio
+de acompañamiento y asesoramiento individualizado.
+En todo caso, un mismo proyecto empresarial no podrá ser presentado ni como proyecto a realizar, ni como proyecto justificado en más de una solicitud.
+Base 6.—Gastos subvencionables
+1. Se consideran gastos subvencionables, aquellos que respondan a los costes
+reales, efectivamente realizados, pagados y soportados mediante facturas o documentos contables de valor probatorio equivalente que estén debidamente justificados y
+acompañados del correspondiente soporte documental.
+2. Los gastos subvencionables serán los relativos a gastos internos de personal
+relativos al asesoramiento y acompañamiento individualizado.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+No obstante, serán subvencionables costes externos de formación únicamente en el
+caso de formaciones realizadas desde el 31 de julio hasta el 31 de diciembre de 2025,
+online o de forma presencial, por cualquiera de los adjudicatarios del área1.
+3. El gasto subvencionable a justificar vendrá determinada por la suma de:
+a) El número de proyectos para la creación de empresas asesorados y puestos en
+marcha en el período comprendido entre el 31 de julio de 2025, y 30 de julio de
+2026 multiplicado por 1.500 euros.
+b) El número de proyectos de transmisión empresarial, asesorados y puestos en
+marcha, de acuerdo a las características establecidas en el área 3ª, en el período comprendido entre el 31 de julio de 2025 y 30 de julio de 2026, multiplicado
+por 3.000 euros.
+CAPÍTULO II
+ÁREA 2: AYUDAS A LA PUESTA EN MARCHA Y CREACIÓN DE EMPRESAS
+Base 7.—Hecho subvencionable
+Tendrá la consideración de hecho subvencionable en el área 2 la creación, la puesta
+en marcha y funcionamiento de una empresa, siempre que cumplan las condiciones
+establecidas en este capítulo II.
+Base 8.—Entidades beneficiarias
+1. Podrán acceder a las subvenciones reguladas en esta área las empresas, cualquiera que sea su forma jurídica, incluidos los empresarios y las empresarias individuales, los profesionales, y las comunidades de bienes y sociedades civiles que cumplan los
+siguientes requisitos:
+a) Que tengan su domicilio social y fiscal, así como su centro de trabajo en el Territorio Histórico de Bizkaia.
+b) Que se hayan dado de alta en actividades económicas en la Hacienda Foral de
+Bizkaia entre el 31 de julio de 2025 y el 30 de julio de 2026, ambos días inclusive; y mantener dicha alta a fecha de solicitud, instrucción, resolución y cierre del
+expediente.
+c) Que la actividad económica en la que se haya causado alta esté directamente
+relacionada con el plan de negocio presentado.
+d) Que se hallen al corriente en el cumplimiento de sus obligaciones tributarias y
+frente a la Seguridad Social impuestas por las disposiciones vigentes.
+e) Que no se vean afectadas por ninguna de las prohibiciones del artículo 12 de la
+Norma Foral 5/2005, así como del artículo 42 de la Norma Foral 4/2018.
+2. Aunque se cumplan los requisitos anteriores, no serán entidades beneficiarias:
+a) Las entidades que con el mismo NIF/DNI en el año 2025 o el año 2026 hayan
+causado baja en IAE en el mismo grupo de actividad económica por la que se
+solicita subvención.
+b) Los empresarios o empresarias individuales o profesionales que hayan formado
+parte como personas socias o comuneras de una empresa con o sin personalidad jurídica, la cual haya causado baja en el año 2025 o en año 2026 en el
+mismo grupo de actividad económica que el empresario o empresaria individual
+que solicita subvención.
+c) Las empresas o entidades sin personalidad jurídica compuesta por socios que
+hayan causado baja como empresarios o empresarias individuales o profesionales en el año 2025 o en el 2026 en el mismo grupo de actividad económica que
+la empresa o entidad sin personalidad jurídica que solicita la subvención.
+d) Los empresarios o empresarias individuales o profesionales y las empresas con
+o sin personalidad jurídica que hubieren resultado adjudicatarias de subvención,
+en los últimos cinco años por el decreto regulador de las ayudas a la puesta en
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+marcha y creación de empresas del Departamento de Empleo, Cohesión Social
+e Igualdad.
+e) Los empresarios o empresarias individuales y profesionales que hayan sido personas socias o comuneras de empresas con o sin personalidad jurídica que
+resultado adjudicatarias de subvención, en los últimos cinco años por el decreto
+regulador de las ayudas a la puesta en marcha y creación de empresas del Departamento de Empleo, Cohesión Social e Igualdad.
+f) Los empresarios o empresarias individuales y profesionales, y las empresas con
+o sin personalidad jurídica en las que ningún socio o comunero compute a efectos de cálculo de subvención en aplicación de la base 9.
+3. En ningún caso podrán concurrir ni resultar beneficiarias de ningún tipo de ayudas o subvenciones las personas físicas y jurídicas:
+a) Que hayan sido sancionadas en firme en vía administrativa, laboral o penal por
+vulneración del derecho a la igualdad y a la no discriminación por razón de sexo.
+b) Cuyos fines u objetivos, sistema de admisión o acceso, funcionamiento, trayectoria, actuación, organización o estatutos sean contrarios al principio de igualdad
+de mujeres y hombres.
+c) Que incumplan las obligaciones establecidas en la Ley Orgánica 3/2007.
+Asimismo, no se podrán subvencionar las actividades o acciones que discriminan por
+razón de sexo.
+4. Si hubiese más de una convocatoria no se podrá presentar solicitud dos veces
+por la misma entidad.
+Base 9.—Requisitos de las personas promotoras
+1. Para obtener la subvención, las personas promotoras de las entidades beneficiarias deben cumplir los siguientes requisitos:
+a) Acreditar la residencia en Bizkaia de forma ininterrumpida al menos durante los
+tres meses inmediatamente anteriores a la fecha de alta de actividades económicas.
+b) Haberse dado de alta en el régimen especial de trabajadores autónomos, o mutualidad equivalente en el período comprendido entre 31 de julio de 2025 y el 30
+de julio de 2026, ambos inclusive.
+Dicho requisito no se exigirá a las personas socias trabajadoras de cooperativas
+de trabajo asociado, y tampoco se exigirá a las personas socias trabajadoras de
+sociedades laborales, en el caso de que hayan optado por darse de alta en el régimen general de Seguridad Social. No obstante, dicha alta habrá de producirse
+en el citado período.
+c) Acreditar, en el momento inmediatamente anterior a la fecha del alta en actividades económicas alguna de las siguientes situaciones:
+Desempleo.
+ Mejora de empleo, siempre y cuando el contrato de trabajo no supere el 40% de
+la jornada laboral establecida en convenio y además la persona promotora figure
+inscrita como demandante de empleo en el servicio vasco de empleo, Lanbide.
+ Afectada por un ERTE o un ERE o
+ Estar realizando prácticas no laborales.
+ De suerte que el alta en actividades económicas ha de ser previa o al mismo
+tiempo que el alta en autónomos o mutualidad correspondiente.
+2. Además, al menos una persona promotora de la entidad beneficiaria ha de haber
+realizado el asesoramiento y acompañamiento individualizado detallado en la base 3, en
+el período comprendido entre el 31 de julio de 2025 y el 30 de julio de 2026.
+Asimismo dicha persona promotora ha de haber realizado el curso de formación a
+través de la «Escuela de Emprendimiento Bizkaia», o haber realizado excepcionalmente
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+la formación online o presencial con cualquiera de los adjudicatarios del área 1 desde el
+31 de julio hasta el 31 de diciembre de 2025, en todo caso, junto con la solicitud, habrán
+de aportar certificado de la formación realizada.
+Además, se habrá de aportar certificado del asesoramiento y acompañamiento con
+alguna entidad adjudicataria del área 1.
+Este requisito tendrá que ser cumplido al menos por una de las personas promotoras
+de la entidad beneficiaria, siempre y cuando ésta persona cumpla con el resto de los
+requisitos del apartado 1.
+Base 10.—Cálculo y cuantía de la subvención
+1. La subvención a obtener por entidad beneficiaria será de 5.000 euros, y la subvención máxima será de 15.000 euros.
+2. La cuantía de 5.000 euros se incrementará en 2.000 euros por cada persona
+socia o promotora distinta de la definida en la base 9.2, que cumpla los requisitos del
+apartado 1 de la base 9, hasta un máximo de cinco personas socias o promotoras.
+3. Por lo tanto, el número máximo de personas promotoras o socias trabajadoras
+que pueden computar a efectos de cálculo de subvención es de 6 personas, en consecuencia, la cantidad total y máxima de subvención a otorgar por entidad beneficiaria será
+de 15.000 euros.
+No obstante, la cuantía podrá variar en el caso de que la fecha de alta en el régimen
+general, régimen especial de autónomos o mutualidad correspondiente, sea posterior a
+la fecha de alta en actividad económica.
+En este caso, la subvención resultante se obtendrá tomando como base la subvención máxima correspondiente a 365 días y calculando la parte proporcional, detrayendo
+los días en que no haya estado de alta en el régimen general, régimen especial de autónomos o mutualidad correspondiente desde la fecha de alta de actividades económicas.
+4. No computarán a los efectos del cálculo de la cuantía de subvención la persona
+socia o promotora:
+a) Que haya tenido baja en el mismo código de actividad económica (código numérico de cuatro dígitos), por contingencias de accidentes de trabajo y enfermedades profesionales del régimen de trabajadores autónomos o en la misma
+actividad en el caso de mutualidades, durante los años 2025 y 2026.
+b) Cada socio o promotor únicamente computará en un único proyecto de los presentados a subvención en el área 2 o en el área 3, que se corresponderá a la
+solicitud de subvención que antes haya registrado la entrada en la oficina virtual
+de empleo, cohesión social e igualdad.
+CAPÍTULO III
+ÁREA 3: TRANSMISIÓN EMPRESARIAL
+Base 11.—Hecho subvencionable
+1. Tendrá la consideración de hecho subvencionable:
+a) La adquisición de, al menos, el 80% de una empresa en funcionamiento por
+parte de otra empresa, cualquiera que sea su forma jurídica, incluidos empresarios y empresarias individuales, así como comunidades de bienes y sociedades
+civiles o por los trabajadores por cuenta ajena de la empresa que se adquiere,
+siempre que se cumplan las condiciones establecidas en esta área.
+b) La continuación de la misma, extinguiendo la titularidad de la actividad de la
+empresa saliente a fecha de solicitud de la subvención, cualquiera que sea su
+forma jurídica, y solicitando alta en el impuesto de actividades económicas la
+adquirente, es decir, traspaso de negocio.
+2. Además tendrán que concurrir los siguientes requisitos:
+a) La transmisión empresarial ha tenido que ser tutorizada por DEMA Enpresa Garapena de Barakaldo, o por entidad adjudicataria del área 1 que haya aplicado
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+la metodología de DEMA en transmisión empresarial, siempre que la persona
+cedente no haya determinado previamente el valor de la empresa que quiere
+transmitir o del negocio que quiere traspasar, y así se acredite en el certificado
+referido en la base 22.
+b) La transmisión empresarial se deberá realizar mediante contrato mercantil, en
+escritura pública, con indicación del valor de fondo de comercio; o, en los casos
+de traspaso de negocio mediante contrato.
+c) Se ha de mantener la identidad económica y de actividad.
+3. Se excluyen los negocios digitales y las transmisiones entre cónyuges o familiares hasta 3er grado de consanguinidad y/o afinidad. Se entiende por negocio digital
+aquellos que obtienen beneficios mediante el uso de tecnologías digitales ya sea en la
+venta, comunicación, la gestión o la prestación del servicio.
+4. Una vez realizada la transmisión empresarial se deberá mantener la misma actividad económica, durante al menos un año.
+Base 12.—Entidades beneficiarias
+1. Será beneficiaria de la ayuda la entidad que adquiera el negocio: entendiendo
+por tal la empresa, cualquiera que sea su forma jurídica, incluidos los empresarios y las
+empresarias individuales, así como comunidades de bienes y sociedades civiles. La
+entidad que adquiera el negocio ha de cumplir las siguientes condiciones:
+a) Que la adquisición se haya realizado entre el 31 de julio de 2025 y el 30 de julio de 2026. El cambio de titularidad ha de quedar reflejado en el Impuesto de
+Transmisiones Patrimoniales y Actos Jurídicos Documentados para las transmisiones previstas en el apartado 1.a) de la base 11; y para los traspasos de
+negocio, en el alta en el IAE, prevista en apartado 1.b) de la base 11.
+b) Que tenga su domicilio social y fiscal, así como su centro de trabajo en el Territorio Histórico de Bizkaia.
+c) Que se halle al corriente en el cumplimiento de sus obligaciones tributarias o
+frente a la Seguridad Social impuestas por las disposiciones vigentes.
+d) Que no se vea afectada por ninguna de las prohibiciones del artículo 12 de la Norma
+Foral 5/2005, así como del artículo 42 de la Norma Foral 4/2018, de 20 de junio.
+e) En ningún caso podrán concurrir ni resultar beneficiarias de ningún tipo de ayudas o subvenciones las personas físicas y jurídicas:
+1.º Que hayan sido sancionadas en firme en vía administrativa, laboral o penal por
+vulneración del derecho a la igualdad y a la no discriminación por razón de sexo.
+2.º Cuyos fines u objetivos, sistema de admisión o acceso, funcionamiento, trayectoria, actuación, organización o estatutos sean contrarios al principio de
+igualdad de mujeres y hombres.
+3.º Que incumplan las obligaciones establecidas en la Ley 3/2007.
+Asimismo, no se podrán subvencionar las actividades o acciones que discriminan por
+razón de sexo.
+Base 13.—Requisitos de las personas socias de las entidades beneficiarias
+1. Se entiende por persona socia trabajadora de la entidad beneficiaria:
+a) La persona autónoma que adquiere otra empresa.
+b) La persona socia trabajadora de una comunidad de bienes o sociedad civil.
+c) La persona socia trabajadora de la empresa, entendiendo por tal, aquella persona que siendo socia de la empresa reúna los requisitos especificados en el
+apartado 2 de esta base.
+d) La persona socia trabajadora de la empresa que haya sido, así mismo, trabajadora por cuenta ajena de la empresa que adquiere, siempre que reúna los
+requisitos especificados en el apartado 2 de esta base.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+Las personas socias trabajadoras de las entidades beneficiarias enumeradas en este
+apartado han de cumplir los siguientes requisitos:
+a) No han podido ser socias o titulares de la entidad que se transmite, en ningún
+momento previo a la realización del contrato mercantil o del contrato de traspaso.
+b) Alguna de ellas ha de computar del modo previsto en esta base, a fin del cálculo
+de subvención.
+c) No han debido causar baja en IAE en el mismo grupo de actividad económica de
+la entidad que solicita subvención en el año 2025 o el año 2026.
+2. A efectos del cómputo de subvención la persona socia trabajadora de la entidad
+beneficiaria en el momento inmediatamente anterior a la fecha de cambio de titularidad
+en el Impuesto de Transmisiones Patrimoniales y Actos Jurídicos Documentados para
+las transmisiones previstas en el apartado 1.a) de la base 11; o a la fecha del alta en el
+IAE para los traspasos de negocio, previstos en apartado 1.b) de la base 11 ha de cumplir los siguientes requisitos:
+a) Acreditar, alguna de las siguientes situaciones:
+ Desempleo.
+ Mejora de empleo, siempre y cuando el contrato de trabajo no supere el 40% de
+la jornada laboral establecida en convenio y además la persona promotora figure
+inscrita como demandante de empleo en el Servicio Vasco de Empleo, Lanbide.
+ Afectada por un ERTE o un ERE o
+ Haber realizado prácticas no laborales.
+ Se exceptúa de este requisito en el caso de que las personas trabajadoras que
+estén en plantilla de la empresa que se vende en el momento inmediatamente
+anterior a la venta sean las personas adquirentes o socias de la empresa que
+compra.
+b) Acreditar la residencia en Bizkaia de forma ininterrumpida al menos durante tres
+meses.
+c) Acreditar haberse dado de alta en el régimen especial de trabajadores autónomos, o mutualidad equivalente en el período comprendido entre 31 de julio de
+2025 y el 30 de julio de 2026 ambos inclusive.
+ Dicho requisito no se exigirá a las personas socias trabajadoras de cooperativas
+de trabajo asociado, y tampoco se exigirá a las personas socias trabajadoras de
+sociedades laborales, en el caso de que hayan optado a darse de alta en el régimen general de Seguridad Social. No obstante, dicha alta habrá de producirse
+en el citado período.
+3. Además, al menos una persona socia de la entidad beneficiaria ha de haber completado la metodología de la transmisión empresarial empleada por DEMA Enpresa Garapena de Barakaldo, o por entidad adjudicataria del área 1 que haya aplicado la metodología de DEMA en transmisión empresarial y así conste en Certificado expedido al efecto.
+Dicha metodología ha debido desarrollarse entre el 31 de julio de 2025 y el 30 de julio
+de 2026 por DEMA o entidad colaboradora de DEMA.
+Este requisito de este apartado 3 debe cumplirlo al menos una de las personas socias de la entidad beneficiaria, siempre y cuando esta persona cumpla con el resto de los
+requisitos de los apartados 1 y 2, y también ha de realizar la formación de la «Escuela
+de emprendimiento Bizkaia».
+Base 14.—Cálculo y cuantía de la subvención
+1. La subvención máxima por entidad beneficiaria será de 20.000 euros.
+2. Para obtener subvención, la entidad beneficiaria además de cumplir los requisitos de la base 12, ha de tener una persona socia promotora que cumpla los requisitos de
+los apartados1, 2 y 3 de la base 13. En tal caso la subvención máxima será de 10.000
+euros, de ellos 5.000 euros computan por la persona socia promotora, y los otros 5.000
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+corresponderán a los gastos de la transmisión empresarial, o del traspaso, así como,
+en su caso, de los gastos de notaría y registro que deberán ser justificados en la forma
+prevista en la base 36.
+3. Dicha cuantía se incrementará en 5.000 euros por cada persona socia distinta
+de la definida en el párrafo anterior, que cumpla los requisitos de los apartados 1 y 2 de
+la base 13, hasta un máximo de dos personas socias.
+4. Por lo tanto, el número máximo de personas adquirentes socias trabajadoras
+que pueden computar a efectos de cálculo de subvención es de 3 personas, en consecuencia, la cantidad total y máxima de subvención a otorgar por cada entidad beneficiaria será de 20.000 euros.
+La subvención máxima alcanzable por cada entidad solicitante será el resultado del
+cálculo de la cuantía conforme lo previsto en esta base.
+5. No obstante, la cuantía podrá variar cuando la fecha de alta en el régimen general, régimen especial de autónomos o mutualidad correspondiente sea posterior a la
+fecha de cambio de titularidad en el Impuesto de Transmisiones Patrimoniales y Actos
+Jurídicos Documentados para las transmisiones previstas en el apartado 1.a) de la base
+11; o a la fecha del alta en el IAE para los traspasos de negocio, previstos en el apartado
+1.b) de la base 11.
+En este caso, la subvención resultante se obtendrá tomando como base la subvención máxima correspondiente a 365 días y calculando la parte proporcional, detrayendo
+los días en que no haya estado de alta en el régimen general, régimen especial de
+autónomos o mutualidad correspondiente desde la fecha de cambio de titularidad en
+el Impuesto de Transmisiones Patrimoniales y Actos Jurídicos Documentados para las
+transmisiones previstas en el apartado 1.a) de la base 11; o a la fecha del alta en el IAE
+para los traspasos de negocio, previstos en el apartado 1.b) de la base 11.
+6. No computará a los efectos del cálculo de la cuantía de subvención la persona socia:
+a) Que haya tenido baja en el mismo código de actividad económica (código numérico de cuatro dígitos), por contingencias de accidentes de trabajo y enfermedades profesionales del régimen de trabajadores autónomos o en la misma
+actividad en el caso de mutualidades, durante el año 2025 o durante el año 2026.
+b) Cada socio o promotor únicamente computará en un único proyecto de los presentados a subvención tanto en el área 2 o en el área 3, de este Título I, que se
+corresponderá a la solicitud de subvención que antes se haya registrado en la
+oficina virtual de Empleo, Cohesión Social e Igualdad.
+CAPÍTULO IV
+CRÉDITOS PRESUPUESTARIOS
+Base 15.—Dotación presupuestaria
+1. Las ayudas y beneficios que puedan otorgarse con arreglo a estas bases, se
+efectuarán con cargo a las siguientes partidas y dotaciones presupuestarias, sin perjuicio de que las mismas puedan ser modificadas de conformidad con la normativa presupuestaria vigente.
+CAPÍTULO I
+ÁREA 1. ASESORAMIENTO PARA LA CREACIÓN Y PUESTA
+EN MARCHA DE PROYECTOS EMPRESARIALES
+— Partida: 0904/G/241116/42300 2008/0075.
+— Gasto plurianual: 40.000,00 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 20.000,00 euros.
+• Año 2027: 20.000,00 euros.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+— Partida: 0904/G/241116/43299 2008/0075.
+— Gasto plurianual: 392.266,00 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 196.133,00 euros.
+• Año 2027: 196.133,00 euros.
+— Partida: 0904/G/241116/44300 2008/0075.
+— Gasto plurianual: 544.782,00 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 272.391,00 euros.
+• Año 2027: 272.391,00 euros.
+— Partida: 0904/G/241116/45100 2008/0075.
+— Gasto plurianual: 122.962,00 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 61.481,00 euros.
+• Año 2027: 61.481,00 euros.
+CAPÍTULO II
+ÁREA 2. AYUDAS A LA PUESTA EN MARCHA Y CREACIÓN DE EMPRESAS
+— Partida: 0904/G/241116/44300 2008/0075.
+— Gasto plurianual: 4.770.090,00 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 3.450.194,00 euros.
+• Año 2027: 1.319.896,00 euros.
+— Partida: 0904/G/241116/44900 2008/0075.
+— Gasto plurianual: 638.900,00 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 527.900,00 euros.
+• Año 2027: 111.000,00 euros.
+CAPÍTULO III
+ÁREA 3. TRANSMISIÓN EMPRESARIAL
+— Partida: 0904/G/241116/44300 2008/0075.
+— Gasto plurianual: 430.000,00 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 330.000,00 euros.
+• Año 2027: 100.000,00 euros.
+— Partida: 0904/G/241116/44900 2008/0075.
+— Gasto plurianual 160.000,00 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 150.000,00 euros.
+• Año 2027: 10.000,00 euros.
+2. Al amparo de lo establecido en el artículo 56 del Decreto Foral Normativo 5/2013,
+de 3 de diciembre, por el que se aprueba el texto refundido de la Norma Foral 5/2006, de
+29 de diciembre, General Presupuestaria (en adelante texto refundido de la Norma Foral
+5/2006), el presente decreto foral se tramita anticipadamente, por lo cual la cuantía total
+máxima que figura en esta convocatoria tiene carácter estimado. En consecuencia, se
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+Núm. 5
+BOB
+hace constar que la concesión de subvenciones queda condicionada a la existencia de
+crédito adecuado y suficiente en el momento de la resolución de concesión en cada una
+de las áreas.
+3. El importe total de las ayudas que se concedan tendrá como límite máximo estimativo la cantidad de 7.099.000,00 euros, y se podrá modificar conforme a lo previsto
+en el artículo 41 del Decreto foral 34/2010, en relación con los límites de las cuantías
+máximas.
+Asimismo, la distribución entre los créditos presupuestarios tiene carácter estimativo,
+por lo que en función de las solicitudes presentadas y dada la distinta naturaleza de las
+posibles personas y entidades beneficiarias, los recursos económicos establecidos en
+este decreto foral podrán redistribuirse mediante orden foral de la diputada foral de Empleo, Cohesión Social e Igualdad entre las distintas Áreas y partidas señaladas en este
+decreto foral, sin superar el importe total establecido en el mismo.
+Si una vez resueltas todas las solicitudes no se alcanzara el límite presupuestario
+máximo, se tramitará la anulación de la autorización de gasto por el importe sobrante sin
+que sea obligatorio modificar este decreto foral.
+4. Los créditos presupuestarios podrán ser modificados antes de que finalice el
+plazo de presentación de solicitudes. La modificación se hará mediante decreto foral
+aprobado en Consejo de Gobierno, tendrá en cuenta la cuantía total de las ayudas solicitadas previstas y, en su caso, deberá ampliarse el plazo de presentación de solicitudes.
+Todo ello conforme al artículo 41.2 del Decreto foral 34/2010.
+5. De acuerdo con lo dispuesto en el artículo 56.3 del texto refundido de la Norma
+Foral 5/2006, de 29 de diciembre, General Presupuestaria, aprobado por Decreto Foral
+Normativo 5/2013, de 3 de diciembre, la validez del otorgamiento de las subvenciones
+concedidas al amparo del presente decreto foral queda sometida a la condición suspensiva de la existencia de crédito adecuado y suficiente para financiar las obligaciones
+derivadas del mismo en el ejercicio correspondiente.
+6. Igualmente, conforme al artículo 43 del Decreto foral 34/2010, la cuantía total de
+las diferentes dotaciones presupuestarias podrá ser ampliada en un importe adicional
+máximo de 1.300.000,00 euros, en los siguientes casos:
+a) Cuando exista cuantía adicional proveniente de convocatorias anteriores resueltas por importe inferior al previsto para las mismas.
+b) Cuando se hayan reconocido o liquidado obligaciones derivadas de convocatorias anteriores por importe inferior a la subvención concedida.
+c) Cuando existan créditos cuya transferencia pueda acordarse conforme al artículo 69.2 del texto refundido de la Norma Foral 5/2006.
+d) Cuando exista un aumento de los créditos disponibles derivado de la aprobación
+de:
+1.º Ampliaciones de crédito.
+2.º Generaciones de crédito.
+3.º Incorporaciones de crédito.
+La efectividad de la cuantía adicional quedará condicionada a la declaración de disponibilidad del crédito, que deberá efectuarse en un momento anterior a la resolución
+de la concesión de la subvención. Dicha ampliación la autorizará el órgano concedente,
+debiéndose publicar la declaración de créditos disponibles, la distribución definitiva, respectivamente, con carácter previo a la resolución de concesión en los mismos medios
+que la convocatoria, sin que tal publicidad implique la apertura de plazo para presentar
+nuevas solicitudes ni el inicio de nuevo cómputo de plazo para resolver.
+cve: BOB-2026a005-(I-1430)
+TÍTULO II
+RÉGIMEN JURÍDICO
+Base 16.—Régimen Jurídico
+1. Las subvenciones a que se refiere el presente Decreto foral se regirán por lo dispuesto en el mismo, y en las órdenes forales de otorgamiento, así como por lo establecido en la Norma Foral 5/2005 y su Reglamento de desarrollo aprobado por Decreto foral
+34/2010, las restantes normas de derecho administrativo y, en su defecto, se aplicarán
+las normas de derecho privado.
+En lo no previsto en el presente decreto foral en cuanto a procedimiento administrativo, será de aplicación la Ley 39/2015, la Ley 40/2015, y cualquier otra disposición que
+por su naturaleza pudiera resultar de aplicación.
+2. Las ayudas previstas en el decreto no constituyen ayudas de estado en los términos establecidos en el apartado 1 del artículo 107 del Tratado de Funcionamiento de
+la Unión Europea, dado que no suponen un beneficio para una empresa ni favorecen a
+determinadas producciones o empresas en detrimento de otras. Por tanto, quedan excluidas del procedimiento de notificación previsto en el artículo 108.3 de dicho tratado.
+3. Las ayudas contempladas en este decreto foral tienen la consideración de ayudas minimis por lo que están sujetas a lo dispuesto en el Reglamento (UE) 2023/2831
+de la Comisión, de 13 de diciembre de 2023, relativo a la aplicación de los artículos 107
+y 108 del Tratado de Funcionamiento de la Unión Europea a las ayudas de minimis y,
+en consecuencia, el incumplimiento de esa normativa podría significar responsabilidad
+penal, civil y administrativa para la entidad infractora
+4. La ayuda total de minimis que puede percibir una misma entidad beneficiaria no
+podrá ser superior a 300.000,00 euros durante cualquier periodo de tres años.
+Base 17.—Órganos competentes
+La ordenación e instrucción de los expedientes se llevará a cabo por el Servicio de
+Empleo bajo la dependencia de la Dirección General de Empleo.
+Base 18.—Infracciones y sanciones
+1. El régimen de infracciones y sanciones será el dispuesto en el título IV de la
+Norma Foral 5/2005 y en el título IV del Decreto Foral 34/2010.
+2. Será de aplicación lo previsto en la Ley 39/2015, en la Ley 40/2015, y en la Ley
+1/2023, de 16 de marzo, de la potestad sancionadora de las Administraciones Públicas
+Vascas, en lo que no se oponga a las anteriores.
+Base 19.—Incumplimiento y reintegro
+1. Procederá el reintegro de la subvención recibida y la exigencia del interés de
+demora correspondiente desde el momento del pago de la subvención hasta la fecha
+en que se acuerde la procedencia del reintegro y, en su caso, la pérdida del derecho al
+cobro de la subvención:
+a) Cuando se incumpla alguna de las obligaciones o condiciones establecidas en
+las presentes bases, en la resolución de la concesión o en la normativa de aplicación.
+b) Cuando se incurra en alguna de las causas previstas en el artículo 33 de la Norma Foral 5/2005, o en el Decreto Foral 34/2010.
+2. Las cantidades a reintegrar tendrán la consideración de ingresos de Derecho
+Público a todos los efectos.
+3. El interés de demora aplicable a los importes a reintegrar será el previsto en el
+artículo 34 de la Norma Foral 5/2005.
+4. El procedimiento de reintegro se tramitará con sujeción a lo dispuesto en el título
+II de la Norma Foral 5/2005, y en el título III del Decreto Foral 34/2010.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+5. Los criterios para la graduación de los incumplimientos de las condiciones impuestas con motivo del otorgamiento de la subvención serán los siguientes:
+a) El cumplimiento parcial de las condiciones o la realización en plazo de solo una
+parte de la actividad, dará lugar al pago parcial de la subvención o, en su caso
+al reintegro también parcial aplicando la proporción en que se encuentre la actividad realizada respecto de la total.
+b) La falta de pago de todos o parte de los gastos realizados, después de cobrada
+la subvención, producirá el reintegro de la subvención en proporción a los gastos
+no pagados respecto al total de gastos subvencionables imputados.
+c) Cuando se concede la subvención tomando como referencia un presupuesto de
+gasto, y sin embargo el gasto imputable justificado es inferior al presupuestado.
+d) La cantidad a reintegrar en caso de incumplimiento parcial en la ejecución o en la
+justificación de las acciones o gastos vendrá determinada, con arreglo al criterio
+de proporcionalidad, atendiendo a la entidad y grado de incumplimiento de las
+condiciones impuestas con motivo de la concesión de la subvención.
+6. En el resultado de la operación del porcentaje sobre un número, se pasará al
+entero siguiente que resulte de la aplicación del porcentaje cuando el primer decimal sea
+igual o superior a 5.
+7. En todo caso, la baja en la actividad económica producirá la pérdida del derecho
+al cobro de las cantidades pendientes de abono a partir de dicha fecha. En este supuesto se deberá presentar la justificación relativa al tiempo en que se hubiere estado de alta.
+8. Si no quedara acreditada la actividad económica o no se hubieran cumplido las obligaciones fiscales y tributarias, se iniciará el procedimiento de incumplimiento y reintegro.
+Base 20.—Devolución de la subvención a iniciativa de la entidad beneficiaria
+1. Se entiende por devolución voluntaria aquella que es realizada por la persona
+beneficiaria sin el previo requerimiento de la Administración.
+2. Cuando se produzca la devolución voluntaria la Administración calculará los intereses de demora, de acuerdo con lo previsto en el artículo 34 de la Norma Foral 5/2005
+y hasta el momento en el que se produjo la devolución definitiva por parte de la persona
+o entidad beneficiaria.
+3. La devolución de la subvención a instancia de la propia entidad beneficiaria se
+deberá realizar mediante la correspondiente carta de pago, que les será remitida según
+modelo oficial de la Diputación Foral de Bizkaia, una vez solicitada la misma a través
+de la oficina virtual de empleo, cohesión social e igualdad. Una vez realizado el abono,
+deberá remitirse el justificante de pago a través de la oficina virtual.
+TÍTULO III
+PROCEDIMIENTO DE CONCESIÓN
+Base 21.—Forma, lugar y plazo de presentación de las solicitudes, inscripción en
+REPPE
+1. Las personas físicas que en nombre propio quieran acceder al presente programa de ayudas y aquellas que las representen se comprometen a formalizar la petición
+de subvención, así como a enviar documentación, realizar las justificaciones, interponer
+los recursos, realizar las alegaciones, presentar las variaciones con respecto a expedientes ya abiertos y cualesquiera trámites a través de la oficina virtual de Empleo, Cohesión Social e Igualdad (http://www.bizkaia.eus/empleo-oficinavirtual), por entenderse
+que tienen garantizado el acceso y disponibilidad de los medios tecnológicos precisos
+por razón de su capacidad económica, técnica y dedicación profesional, de conformidad
+con el artículo 14.3 de la Ley 39/2015. Las personas jurídicas y quienes las representen, se encuentran obligadas a relacionarse electrónicamente con las Administraciones
+Públicas, en virtud del artículo 14.2 de la misma ley, lo que harán, con respecto a las
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+solicitudes de estas ayudas, a través de dicha oficina virtual de empleo, cohesión social
+e igualdad.
+2. Las solicitudes deberán presentarse por internet, en al apartado «oficina virtual
+de empleo, cohesión social e igualdad», en aplicación del artículo 16 de la Ley 39/2015,
+accediendo a la Sede electrónica de la Diputación Foral de Bizkaia www.ebizkaia.eus,
+seleccionando Oficina virtual de Empleo, Cohesión Social e Igualdad.
+Junto con la solicitud, debidamente cumplimentada en todos sus términos, se aportará la documentación detallada en la base 22.
+3. Para utilizar la oficina virtual el sistema le requerirá firma electrónica (Izenpe,
+DNI electrónico, FEA, B@KQ...).
+La tarjeta B@KQ podrá obtenerse en las oficinas de atención ciudadana de la Diputación Foral de Bizkaia (www.bizkaia.eus).
+4. Antes de acceder al formulario de solicitud, el sistema le solicitará los datos necesarios para la inscripción de la entidad en el Registro de Entidades del Departamento
+de Empleo, Cohesión Social e Igualdad.
+Dicha inscripción es previa y obligatoria a la solicitud de la subvención, conforme
+al artículo 6 del Decreto Foral de la Diputación Foral de Bizkaia 109/2016, de 14 de
+junio, sobre establecimiento y regulación del Registro de entidades y personas físicas
+del Departamento de Desarrollo Económico y Territorial y del Departamento de Empleo,
+Cohesión Social e Igualdad.
+Cualquier modificación de los datos incluidos en dicho registro o acreditados mediante la solicitud deberá ser comunicada al Departamento de Empleo, Cohesión Social e
+Igualdad mediante su Oficina Virtual.
+5. El plazo de presentación de solicitudes comenzará:
+a) Para las solicitudes del Capítulo I.- Área 1. Asesoramiento para la creación y
+puesta en marcha de proyectos empresariales se iniciará el 19 de enero de 2026
+a las 9:00 y finalizará el 2 de febrero de 2026 a las 13:30 horas.
+b) Para las solicitudes del Capítulo II.- Área 2. Ayudas a la puesta en marcha y
+creación de empresas, el plazo de presentación de solicitudes de la primera
+convocatoria se iniciará el 16 de marzo de 2026 a las 9:00 y finalizará el 8 de
+abril de 2026 a las 13:30 horas.
+c) Para las solicitudes del Capítulo III.- Área 3. Transmisión empresarial el plazo de
+presentación de solicitudes de la primera convocatoria se iniciará el 16 de marzo
+de 2026 a las 9:00 y finalizará el 8 de abril de 2026 a las 13:30 horas.
+6. Si hubiese más de una convocatoria en cada área no se podrá presentar solicitud dos veces por la misma entidad en cada una de las áreas.
+7. En cada convocatoria, de cada una de las áreas (1 y 2) se podrán presentar las
+entidades que se hayan dado de alta en IAE del siguiente modo:
+a) A la primera convocatoria únicamente se podrán presentar los proyectos empresariales dados de alta en IAE entre el 31 de julio de 2025 y el 16 de marzo de
+2026, ambos inclusive.
+b) en el supuesto de realizarse una segunda convocatoria, por no agotarse las
+disponibilidades presupuestarias en la primera convocatoria, únicamente se podrán presentar los proyectos empresariales dados de alta en IAE desde el 17 de
+marzo hasta la fecha de finalización de plazo de presentación de solicitudes de
+la segunda convocatoria.
+Base 22.—Documentación necesaria para la solicitud e Interoperabilidad
+1. Las solicitudes formalizadas a través de la oficina virtual de empleo, cohesión
+social e igualdad deberán ajustarse a los modelos oficiales disponibles para su cumplimentación y presentación en dicha oficina virtual de acuerdo con lo previsto en el artículo 66.6 de la Ley 39/2015.
+2. En las áreas 2 y 3 sólo se podrá presentar una solicitud de ayuda por entidad.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+Núm. 5
+BOB
+3. Las solicitudes deberán ir acompañadas de la siguiente documentación:
+a) Área 1. Asesoramiento para la creación y puesta en marcha de proyectos empresariales.
+1.º Relación de proyectos asesorados por la entidad solicitante y puestos en
+marcha en el periodo comprendido entre el 29 de julio de 2024 y el 30 de
+julio de 2025, con la siguiente documentación:
+i. Si los proyectos no han solicitado subvención al programa de iniciativas
+emprendedoras 2025, se adjuntará:
+— El plan de negocio,
+— El certificado acreditativo expedido por la entidad y firmado por la persona promotora responsable de cada proyecto asesorado, en el que
+se especifique las horas de asesoramiento recibidas y el contenido de
+las mismas, así como las horas de formación recibidas.
+ii. Si los proyectos han solicitado subvención al programa de iniciativas emprendedoras 2025, o a transmisión empresarial se habrá de detallar la
+razón social y NIF de la empresa y número de expediente administrativo
+asignado en dicho procedimiento.
+  iii En el caso de proyectos de transmisión empresarial que no hubieran solicitado subvención al programa de iniciativas emprendedoras del 2025,
+la entidad solicitante habrá de presentar en formato electrónico:
+— El estudio de la viabilidad del negocio, así como la valoración del negocio, la valoración del riesgo, el proceso de transmisión, las fuentes
+de financiación.
+— El certificado que acredite que en la transmisión se ha aplicado la
+metodología de DEMA.
+— El certificado acreditativo expedido por la entidad y firmado por la persona promotora responsable de cada proyecto asesorado, en el que
+se especifique las horas de acompañamiento y asesoramiento recibidas y el contenido de las mismas.
+— E
+ l plan de negocio.
+— C
+ ertificado de realización de la formación.
+2.º En su caso, certificado emitido por órgano competente que acredite la pertenencia de la persona promotora al colectivo en riesgo de exclusión.
+3.º Memoria que contenga:
+i. Razones por las que se justifica la idoneidad de la acción propuesta.
+  ii. Descripción de la captación, perfil y selección de las personas promotoras.
+  iii. Metodología aplicada para la realización del plan de negocio, por cada
+uno de los contenidos, y duración de los mismos.
+ iv. Coherencia del plan de actuación presentado con los objetivos, Áreas y
+acciones de la entidad solicitante.
+  v. Relación específica de las actuaciones realizadas por la entidad solicitante, y referidas a políticas o actuaciones dirigidas a la igualdad de mujeres y hombres en materia de asesoramiento para la puesta en marcha
+de proyectos empresariales durante los años 2024 y 2025.
+4.º Informe justificativo al que hace referencia el apartado 11 de la base 39.
+5.º En su caso, memoria explicativa de las actividades de asesoramiento en
+gestión empresarial desarrolladas por la entidad solicitante de la subvención
+en los tres años anteriores, conforme al apartado 2 de la base 4.
+b) Área 2. Ayudas a la puesta en marcha y creación de empresas.
+1.º En el caso de empresas con personalidad jurídica, comunidades de bienes,
+o sociedades civiles habrá de presentarse la escritura de constitución de
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+la sociedad debidamente registrada, y en el supuesto de comunidades de
+bienes y sociedades civiles documento de constitución de la entidad.
+ 2.º Plan de negocio, que acredite la fecha de realización de este, debiendo contener el logotipo de la entidad asesora que haya participado en su redacción
+y el logotipo de la Diputación Foral de Bizkaia.
+ 3.º Informe de evaluación sobre la viabilidad del proyecto, realizado por la entidad asesora, y contener fecha de realización y firma de la persona técnica
+asesora.
+ 4.º Documento acreditativo de la realización de los cursos formativos especificados en la base 9.2 por una de las personas promotoras que cumpla los
+requisitos establecidos en la base 9.
+ 5.º «Informe de períodos de inscripción y de situación laboral» expedido por
+Lanbide u otro servicio público de empleo, referido a la fecha de alta en actividades económicas por cada persona promotora que cumpla los requisitos
+de la base 9.
+ 6.º «Informe de vida laboral» expedido por la Seguridad Social referido a la
+fecha de alta en actividades económicas por cada persona promotora que
+cumpla los requisitos de la base 9.
+ 7.º Certificado de empadronamiento referido a la fecha de alta en actividades
+económicas por cada persona promotora que cumpla los requisitos de la
+base 9.
+ 8.º En su caso, documento acreditativo de situación de riesgo de exclusión social en momento inmediatamente anterior a la fecha de alta de la entidad
+en Actividades Económicas, por cada persona promotora que cumpla los
+requisitos de la base 9.
+ 9.º Declaración de Alta en el Régimen Especial de Autónomos o, en su caso,
+Mutualidad de previsión social equivalente, por cada persona promotora que
+cumpla los requisitos de la base 9.
+ 10.º En el caso de personas socias trabajadoras de cooperativas de trabajo asociado o de socias trabajadoras de sociedades laborales, que hayan optado
+por darse de alta en el régimen general de Seguridad Social, copia de dicha
+alta.
+ 11.º Para valorar el criterio del apartado 2. e) de la base 25, referido al tipo de
+Actividad Económica que desarrolle la entidad, se habrá de aportar informe
+justificativo de la actividad que realiza la entidad.
+c) Área 3. Transmisión empresarial.
+1.º Escritura de constitución de la sociedad y en el supuesto de comunidades de
+bienes y sociedades civiles documento de constitución de la entidad.
+ 2.º Contrato mercantil, en escritura pública, de la transmisión empresarial y copia de la presentación del Impuesto de transmisiones patrimoniales y Actos
+Jurídicos Documentados.
+ En el caso de traspaso, el contrato de traspaso.
+ 3.º Informe de evaluación sobre la viabilidad del negocio adquirido, así como, la
+valoración del negocio, la valoración del riesgo, el proceso de transmisión, y
+las fuentes de financiación con la firma de la persona técnica asesora.
+ Dicho informe deberá determinar expresamente la viabilidad o no del proyecto presentado.
+ El informe que no determine la viabilidad del proyecto conllevará la imposibilidad de obtener subvención por dicho proyecto.
+ 4.º Certificado emitido por DEMA o por entidad adjudicataria del área 1 que
+acredite la aplicación de la metodología de DEMA para la transmisión empresarial, así como plan de negocio y certificado de haber realizado la forma-
+cve: BOB-2026a005-(I-1430)
+ción y el asesoramiento individualizado detallado en la base 3 en el período
+comprendido entre el 30 de julio de 2025 y el 30 de julio de 2026.
+ 5.º A fecha de cambio de titularidad en Impuesto de Transmisiones Patrimoniales y Actos Jurídicos Documentados para aquellos casos contemplados en
+base 11.1.a); y para los traspasos de negocio, previstos en la base 11.1.b),
+a fecha de alta en el IAE de la entidad que solicita subvención, por cada persona socia o trabajadora que cumpla los requisitos de la base 13 se habrá
+de acreditar:
+ i. «Informe de períodos de inscripción y de situación laboral» expedido por
+Lanbide u otro servicio público de empleo
+ ii. «Informe de vida laboral» expedido por la Seguridad Social.
+ iii. Certificado de empadronamiento.
+ iv. Declaración de alta en el Régimen Especial de Autónomos o, en su caso,
+mutualidad de previsión de socios correspondiente.
+ 6.º En el caso de persona socia o trabajadora de cooperativas de trabajo asociado o de socias trabajadoras de sociedades laborales, que hayan optado
+por darse de alta en el régimen general de Seguridad Social, copia de dicha
+alta.
+4. Informe justificativo al que hace referencia el apartado 11 de la base 39.
+5. Únicamente habrá de presentarse ficha de domiciliación bancaria cuando la
+cuenta en la que se desee realizar el ingreso de la subvención sea nueva en sus relaciones con la Diputación Foral de Bizkaia. El número de cuenta indicado en la solicitud
+debe ser el mismo que el indicado en la ficha. La ficha de domiciliación bancaria es un
+documento normalizado a cumplimentar y presentar a través de la oficina virtual.
+6. El Servicio de Empleo del Departamento de Empleo, Cohesión Social e Igualdad, a través de los sistemas de interoperabilidad de datos (NODO) y con el fin de gestionar las subvenciones, podrá realizar las comprobaciones y consultas necesarias de
+los datos que obren en poder de la Administración.
+En concreto, se podrá interoperar: el empadronamiento, y el «Informe de vida laboral» expedido por la Seguridad Social.
+Base 23.—Subsanación o mejora de la solicitud
+1. Si las solicitudes no se formalizaran electrónicamente, no cumplieran los estándares y formatos fijados, no se cumplimentaran en todos sus términos o faltara alguno
+de los documentos exigidos por el presente decreto foral, se requerirá a la interesada,
+para que en el plazo de diez (10) días hábiles subsane la falta o acompañe los documentos preceptivos, con indicación de que, si así no lo hiciera, se la tendrá por desistida de
+en su petición, archivándose la misma, previa la correspondiente resolución.
+2. En todo caso, el Departamento de Empleo, Cohesión Social e Igualdad podrá
+requerir a la entidad solicitante cuanta documentación y/o información complementaria
+considere necesaria para la adecuada comprensión, evaluación y seguimiento de la
+solicitud presentada, incluida la realización de visitas por el personal del departamento.
+Base 24.—Procedimiento de concesión
+1. En las áreas 1, 2, y 3 el procedimiento de concesión de las subvenciones se
+tramitará en régimen de concurrencia competitiva.
+2. A estos efectos tendrá la consideración de concurrencia competitiva el procedimiento por el cual la concesión de las subvenciones se realiza mediante la comparación
+de las solicitudes presentadas, a fin de establecer una prelación entre las mismas de
+acuerdo a los criterios de valoración, y adjudicar, con el límite fijado en esta convocatoria
+dentro del crédito disponible, aquellas que hayan obtenido mayor valoración en aplicación de dichos criterios.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+3. No obstante, para las subvenciones relativas al área 1 se aplicará el prorrateo,
+entre las entidades beneficiarias de la subvención, del crédito disponible, del siguiente
+modo:
+Para la obtención del prorrateo se tomará como base la cuantía resultante de la aplicación del apartado 2 de la base 5, cantidad que se denominará «B». Por cada entidad
+beneficiaria se multiplicará «B» por la puntuación obtenida en aplicación de los criterios
+de valoración apartado 1º de la base 25, la cantidad que resulte se denominará «C».
+El prorrateo se aplicará en función del resultado de multiplicar «C» por la cuantía
+máxima de crédito disponible dividido entre la suma del total de las cuantías «C», con el
+límite de «B» y el máximo de 80.000 euros establecido en la base 5.
+4. En el caso del área 2, la primera convocatoria se realizará sobre el máximo de la
+disponibilidad presupuestaria indicada en la base 15. La posterior convocatoria se realizará con el importe disponible, es decir, no adjudicado en la convocatoria precedente.
+En cada convocatoria se adjudicará, con el límite presupuestario que así se determine, en función de la mayor valoración que las solicitudes hayan obtenido en aplicación
+de los criterios de valoración de la base 25.
+Base 25.—Criterios de valoración de las solicitudes
+1. Las solicitudes del área 1 se valorarán en función de los siguientes criterios y
+ponderación:
+a) El grado de definición, calidad, contenido, presentación y eficiencia de la solicitud. Puntuación máxima 5 puntos.
+Para valorar este criterio la entidad solicitante presentará un informe que deberá
+contener al menos los siguientes puntos:
+1.º Razones por las que se justifica la idoneidad de la acción propuesta (2 puntos).
+2.º Descripción de la captación, perfil y selección de las personas promotoras (1
+punto).
+3.º Metodología aplicada para la realización del plan de negocio, por cada uno
+de los contenidos, y duración de los mismos (2 puntos).
+b) La coherencia del plan de actuación presentado con los objetivos, líneas y acciones de la entidad solicitante. Puntuación máxima 5 puntos.
+c) El número de proyectos asesorados por la entidad solicitante y puestos en marcha en el periodo comprendido entre el 29 de julio 2024 y el 30 de julio de 2025.
+Puntuación máxima 15 puntos.
+ Se considerará que un proyecto ha sido asesorado por la entidad solicitante
+cuando se aporte el «Certificado de horas de asesoramiento» acreditativo contemplado en la base 22.3.a), así como el plan de negocio con la fecha de realización del mismo y el logotipo de la entidad solicitante.
+ Para el cálculo de este criterio se otorgará 0,5 puntos por cada proyecto asesorado y puesto en marcha dicho periodo.
+ A los efectos de este decreto se entiende como puesta en marcha de un proyecto el alta del mismo en una actividad económica, o en el caso de actividades no
+sujetas al Impuesto de Actividades Económicas el alta en el régimen de autónomos u otros regímenes especiales.
+d) La pertenencia de las personas promotoras de los proyectos asesorados y puestos en marcha por la entidad solicitante en el periodo comprendido entre el 29
+de julio de 2024 y el 30 de julio de 2025 al colectivo de personas en riesgo de
+exclusión, en la fecha de puesta en marcha del proyecto.
+ Para el cálculo de este criterio de valoración, se otorgará por cada persona promotora que cumpla con los requisitos expuestos anteriormente 0,5 puntos. En
+cualquier caso, la puntuación máxima por entidad beneficiaria no superará los 10
+puntos.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+Núm. 5
+BOB
+ Las personas promotoras, independientemente de que puedan encuadrarse en
+más de un colectivo, únicamente podrán ser valoradas por su inclusión en uno
+de ellos.
+e) La trayectoria de la entidad solicitante en el desarrollo de las políticas o actuaciones dirigidas a la igualdad de mujeres y hombres. Se valorará con 4 puntos el desarrollo de políticas o actuaciones dirigidas a la igualdad de mujeres y
+hombres en materia de asesoramiento para la puesta en marcha de proyectos
+empresariales durante los años 2024 y 2025.
+f) Las entidades solicitantes de subvención que bajo cualquier forma jurídica constituyan «Centro de Empleo y Desarrollo Local Behargintza» / «Behargintza, Enplegu eta tokiko garapenerako zentroa» en las comarcas de Bizkaia y su ámbito
+de actuación abarque municipios con una población inferior a 25.000 habitantes,
+obtendrán una puntuación de 5 puntos.
+g) En caso de empate, el orden se establecerá atendiendo a los siguientes criterios
+de prioridad:
+1.º Quienes hayan obtenido mayor puntuación en el criterio c) del apartado 2 de
+esta base.
+2.º Quienes hayan obtenido mayor puntuación en el criterio d) del apartado 2 de
+esta base.
+3.º Orden prioritario de registro de entrada de la solicitud en la oficina virtual de
+Empleo Cohesión Social e Igualdad.
+2. Las solicitudes del área 2 se valorarán en función de los siguientes criterios, que
+irán referidos a la persona promotora que cumpla los requisitos de los apartados 1 y 2
+de la base 9.
+Se tomará como referencia, a efectos del cumplimiento de los requisitos y criterios
+de valoración, la fecha del alta en actividades económicas de la entidad que solicita
+subvención.
+Criterios de valoración:
+a) Tiempo en situación de desempleo.
+ Para el cálculo de este criterio se puntuará:
+1.º Situación de desempleo inferior a un año: 1 punto.
+2.º Situación de desempleo igual o superior a un año e inferior a dos años: 3
+puntos.
+3.º Situación de desempleo igual o superior a dos años: 5 puntos.
+b) Pertenencia de la persona promotora a colectivos en situación de exclusión,
+entendiendo por tales los detallados en la base 2 apartado 1.
+ Para el cálculo de este criterio se puntuará:
+1.º Pertenencia de la persona promotora al colectivo en situación de exclusión:
+3 puntos.
+2.º No pertenencia de la persona promotora al colectivo en situación de exclusión: 0 puntos.
+c) La edad de la persona promotora, para el cálculo de este criterio se puntuará:
+1.º Persona joven hasta 30 años inclusive a la fecha de alta de actividades económicas: 3 puntos.
+2.º Persona mayor de 45 años, es decir, que haya cumplido 45 años a la fecha
+de alta de la actividad económica: 5 puntos.
+3.º Persona mayor de 50 años, es decir, que haya cumplido 50 años a la fecha
+de alta de la actividad económica: 7 puntos.
+d) Índice de paro registrado en el municipio donde se encuentre el domicilio fiscal
+de la entidad beneficiaria.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+ Para el cálculo de este criterio se tendrá en cuenta el Índice de paro registrado
+por municipios, según anexo I, a septiembre de 2025 (fuente Lanbide, Servicio
+Vasco de Empleo). Y se puntuará:
+1.º Índice de paro igual o inferior al 6%: 1 punto.
+2.º Índice de paro superior al 6% e inferior al 10%: 2 puntos.
+3.º Índice de paro igual o superior al 10%: 3 puntos.
+ A tal fin se proporciona en el anexo I relación de municipios con su índice de
+paro.
+e) Atendiendo al tipo de Actividad Económica que desarrolle la entidad. Se obtendrá la puntuación máxima de 10 puntos en los siguientes casos:
+1.º Si la actividad económica que desarrolla la entidad pertenece, a una de las
+siguientes áreas de actividad: Industria; Economía de los cuidados; Sostenibilidad medioambiental. La pertenencia a dichas áreas otorgará un total de
+5 puntos.
+2.º Las actividades que bien tengan un carácter innovador o bien propongan
+un emprendimiento de impacto en términos económicos, sociales y medio
+ambientales. La pertenencia a dichas áreas otorgará un total de 5 puntos.
+3.º Obtendrán valoración de 0 puntos en este criterio, las entidades cuya actividad no pertenezca a ninguna de las detalladas en los dos apartados anteriores; y, en todo caso, cuando la actividad económica en la que esté dada de
+alta la entidad no está directamente relacionada con el plan de negocio.
+f) Forma jurídica de la empresa beneficiaria de la subvención. Para el cálculo de
+este criterio se puntuará en el caso de empresas de economía social: cooperativas o sociedades laborales, 5 puntos, y en el resto de los supuestos 0 puntos.
+g) Las personas que hayan participado y superado de forma satisfactoria, al amparo de las bases reguladoras correspondientes, el programa Anezka y/o Taldeka,
+y/o programas mixtos de formación empleo liderados por DEMA Enpresa Garapena de Barakaldo, durante los años 2025 y 2026.
+ Dicha circunstancia se acreditará mediante un certificado emitido por DEMA Enpresa Garapena de Barakaldo. Se obtendrá una puntuación por entidad constituida y solicitante de subvención de 3 puntos.
+h) Una vez valoradas todas las solicitudes se elaborará una lista con la relación de
+entidades beneficiarias por orden de puntuación de mayor a menor. Las entidades
+que obtengan igual puntuación tendrán orden de preferencia en la misma en función de la fecha en la que el expediente contenga la documentación completa.
+3. Criterios de valoración de las solicitudes del área 3.
+Para valorar las solicitudes presentadas y determinar la cuantía de la subvención se
+tendrán en cuenta los siguientes criterios de valoración que irán referidos a la persona
+adquirente que cumpla los requisitos de los apartados 1, 2 y 3 de la base 13.
+Se tomará como referencia a efectos del cumplimiento de los requisitos y criterios de
+valoración, la fecha de cambio de titularidad en Impuesto de Transmisiones Patrimoniales y Actos Jurídicos Documentados para aquellos casos contemplados en el apartado
+1.a) de la base 11 y para los traspasos de negocio, previstos en el apartado 1.b) de la
+base 11, la fecha de alta en el IAE de la entidad que solicita subvención.
+Criterios de valoración:
+a) Tiempo en situación de desempleo.
+ Para el cálculo de este criterio se puntuará:
+1.º Situación de desempleo inferior a un año: 1 punto.
+2.º Situación de desempleo igual o superior a un año e inferior a dos años: 3
+puntos.
+3.º Situación de desempleo igual o superior a dos años: 5 puntos.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+b) La edad de la persona socia, para el cálculo de este criterio se puntuará:
+1.º Persona joven hasta 30 años inclusive: 3 puntos.
+2.º Persona mayor de 45 años, es decir, que haya cumplido 45 años: 5 puntos.
+3.º Persona mayor de 50 años, es decir, que haya cumplido 50 años:7 puntos.
+c) Índice de paro registrado en el municipio donde se encuentre el domicilio fiscal
+de la entidad beneficiaria.
+ Para el cálculo de este criterio se tendrá en cuenta el Índice de paro registrado
+por municipio a septiembre de 2025 (fuente Lanbide, Servicio Vasco de Empleo).
+Y se puntuará:
+1.º Índice de paro igual o inferior al 6%: 1 punto.
+2.º Índice de paro superior al 6% e inferior al 10%: 2 puntos.
+3.º Índice de paro igual o superior al 10%: 3 puntos.
+ A tal fin se proporciona en el anexo I relación de municipios con la puntuación
+otorgada a cada uno de ellos en función del índice de paro.
+d) Forma jurídica de la empresa beneficiaria de la subvención, para el cálculo de
+este criterio se puntuará en el caso de empresas de economía social: cooperativas o sociedades laborales, 5 puntos, y en el resto de los supuestos, 0 puntos.
+e) Número de personas trabajadoras en la empresa adquirente, incluidas las personas socias:
+ Hasta 2 personas: 1 punto.
+ Entre 3 y 5 personas: 3 puntos.
+ Más de 5 personas: 5 puntos.
+f) Si el negocio que se transmite o traspasa está ubicado en municipios de Bizkaia
+con menos de 5.000 habitantes, se valorará con 5 puntos.
+g) Si las personas trabajadoras de la empresa que se transmite son las adquirentes
+de la misma en el momento inmediatamente anterior a la transmisión, se valorará con 10 puntos.
+Una vez valoradas todas las solicitudes se elaborará una lista con la relación de
+entidades beneficiarias por orden de puntuación de mayor a menor. Las entidades que
+obtengan igual puntuación tendrán orden de preferencia en la misma en función de la
+fecha en la que el expediente contenga la documentación completa.
+Las solicitudes serán evaluadas por el órgano instructor el cual previa comprobación
+del cumplimiento de las obligaciones fiscales y tributarias elevará a la diputada foral del
+Departamento de Empleo, Cohesión Social e Igualdad las propuestas de resolución de
+las convocatorias.
+1. Las solicitudes se resolverán mediante una única resolución por cada área 1, 2
+y 3, en la que se expresará conforme al artículo 23 de la Norma Foral 5/2005, la relación
+de entidades a las que se concede la subvención, con indicación en su caso de la puntuación otorgada a cada una de ellas en función de los criterios de valoración previstos
+y se hará constar, en su caso, de manera expresa los motivos de la desestimación del
+resto de las solicitudes, así como la no concesión.
+La resolución por la que se proceda a la concesión, desestimación o no concesión de
+la subvención solicitada se notificará a las personas interesadas.
+2. Notificada la orden foral de otorgamiento de la subvención, de acuerdo con los
+artículos 40 y 43 de la Ley 39/2015, se dispondrá de un plazo de diez (10) días para su
+aceptación, transcurrido el cual sin haberse producido manifestación expresa se entenderá tácitamente aceptada.
+3. El plazo máximo para resolver y notificar la resolución del procedimiento será de
+6 meses desde que finalice el plazo para presentar solicitudes. Transcurrido este plazo
+cve: BOB-2026a005-(I-1430)
+Base 26.—Resolución
+Núm. 5
+BOB
+sin haberse notificado la resolución, se entenderá desestimada la solicitud por silencio
+administrativo.
+Base 27.—Recursos
+1. La resolución agota la vía administrativa, y contra la misma se podrá interponer
+recurso potestativo de reposición ante la persona titular del Departamento de Empleo,
+Cohesión Social e Igualdad, en el plazo de un (1) mes, a contar desde el día siguiente a
+aquel en que se reciba la notificación de la misma, en los términos que establece la Ley
+39/2015.
+2. Asimismo, podrá interponerse recurso contencioso administrativo ante la Jurisdicción Contencioso-Administrativa, en el plazo de dos meses contados desde el día siguiente a aquél en que reciba la notificación de la misma, en los términos contemplados en la
+Ley 29/1998, de 13 de julio, reguladora de la jurisdicción contencioso-administrativa.
+3. No será posible simultanear ambos recursos.
+Base 28.—Renuncia a la subvención
+1. De acuerdo con el supuesto regulado en el artículo 48.3 del Decreto Foral
+34/2010, en caso de renuncia a la subvención de alguna de las personas beneficiarias,
+el órgano concedente podrá acordar la concesión de la subvención a las personas solicitantes siguientes en orden de puntuación, siempre y cuando se haya liberado crédito
+suficiente para atender las solicitudes de que se trate.
+2. El órgano concedente comunicará esta opción a las personas interesadas, a fin
+de que acepten la propuesta de subvención en el plazo improrrogable de diez (10) días
+hábiles. Una vez aceptada la propuesta por las personas solicitantes, el órgano administrativo dictará el acto de concesión y procederá a su notificación.
+3. El plazo máximo para poder presentar una renuncia será de diez (10) días hábiles desde la notificación de la propuesta de subvención a la persona interesada.
+Transcurrido ese plazo, cualquier renuncia tendrá la consideración de incumplimiento de las condiciones por las que se ha otorgado la subvención.
+1. La entidad beneficiaria tiene la obligación de comunicar al Servicio de Empleo
+cualquier modificación que afecte a la razón social, a la forma jurídica, o a la variación de
+las personas socias, etc., de la entidad adjudicataria, así como cualquier circunstancia
+o eventualidad relativa a los datos declarados en la solicitud que pueda afectar sustancialmente a la percepción de la subvención, en su caso a la ejecución de la actividad o
+finalidad para la que se concedió.
+Toda alteración de las condiciones tenidas en cuenta para la concesión de la subvención, siempre que se entiendan cumplidos la finalidad y objeto de éstas, podrá dar
+lugar a la modificación de la resolución de concesión, aplicándose los criterios y límites
+establecidos en este decreto foral.
+2. En el área 2 y área 3, una vez adjudicada la subvención a una empresa o profesional autónomo, si antes del transcurso de un año desde que se inició la actividad
+económica la empresa adjudicataria, se transforma en otra forma jurídica se permitirá la
+subrogación de los derechos y deberes que, como consecuencia del otorgamiento de la
+subvención, adquiere la entidad beneficiaria a la nueva empresa que se constituye.
+La solicitud de subrogación deberá ser presentada al órgano concedente mediante
+la oficina virtual de empleo seleccionando la opción «variación de expediente», para que
+éste, una vez analizadas las circunstancias concurrentes, resuelva sobre la autorización
+de la subrogación.
+Aprobada la subrogación, no procederá revisar la prelación de solicitudes que dieron
+lugar al otorgamiento de las subvenciones en concurrencia competitiva
+Para la justificación de la subvención, se presentará el «Informe de bases de cotización y cuotas ingresadas» emitido por la Seguridad Social tanto a nombre de la entidad
+cve: BOB-2026a005-(I-1430)
+Base 29.—Modificación de la resolución de concesión
+beneficiaria como de la subrogada. La empresa subrogada deberá cumplir los requisitos
+establecidos para las personas beneficiarias de la subvención del área 2, y área 3, y
+será la responsable ante la Administración Pública, a todos los efectos.
+Base 30.—Publicidad de las subvenciones concedidas
+Se dará cumplimiento a lo dispuesto en el artículo 20 de la Ley 38/2003, mediante
+la publicación de las subvenciones concedidas en la base de Datos Nacional de Subvenciones, según lo dispuesto en el citado artículo. Asimismo, antes del fin del primer
+trimestre posterior al vencimiento del año natural de concesión de la subvención, el
+Departamento de Empleo, Cohesión Social e Igualdad publicará en el «Boletín Oficial
+de Bizkaia» las subvenciones concedidas a los efectos de esta convocatoria pública con
+expresión de la convocatoria, el programa y crédito presupuestario al que se imputen,
+nombre o razón social de la persona beneficiaria con su número de identificación fiscal,
+cantidad concedida, finalidad o finalidades de la subvención, con expresión, en su caso,
+de los distintos programas o proyectos subvencionados. En caso de subvenciones plurianuales, importe total concedido y distribución de anualidades.
+Todo ello sin perjuicio de las publicaciones que los órganos competentes para ello
+realicen en el portal de transparencia de la Diputación Foral de Bizkaia, Bizkaia Gardena, en aplicación de la Norma Foral 1/2016, de 17 de febrero, de transparencia de
+Bizkaia (en adelante Norma Foral 1/2016).
+Base 31.—Difusión de la subvención concedida por la entidad beneficiaria
+1. En cumplimiento de lo previsto en el artículo 17.3 de la Norma Foral 5/2005,
+las entidades beneficiarias de esta subvención deberán dar la adecuada publicidad del
+carácter público de la financiación de estas actuaciones, por lo que en todos los soportes tanto informáticos como de cualquier otro tipo en los que se publicite la acción
+subvencionada se deberá indicar que la misma ha sido financiada por el Departamento
+de Empleo, Cohesión Social e Igualdad de la Diputación Foral de Bizkaia.
+En todo caso, las entidades beneficiarias han de realizar la difusión de la forma
+prevista en el párrafo anterior a través del Portal de empleo de Bizkaia, portaldeempleodebizkaia.eus
+2. Las entidades adjudicatarias de este programa vienen obligadas al realizar las
+acciones de comunicación, difusión, información y publicidad del mismo en cualquier
+medio de comunicación a solicitar el visado de su contenido por la Dirección General de
+Empleo.
+En concreto, y para las actuaciones subvencionadas en el área 1, se requiere que
+la entidad adjudicataria incluya el logotipo de la Diputación Foral de Bizkaia, y el suyo
+propio, en cada plan de negocio, y certificado que se expida con ocasión de la asistencia
+al curso subvencionado, así como en el informe de viabilidad.
+Asimismo, en la publicidad de la realización de los cursos y servicio de asesoramiento
+habrá de incluirse leyenda que indique la financiación por la Diputación Foral de Bizkaia.
+Dicha leyenda habrá de aparecer, en su caso en materiales impresos, medios electrónicos
+o audiovisuales, o bien en menciones realizadas en medios de comunicación.
+3. De conformidad con lo regulado en la Norma Foral 1/2016, de 17 de febrero, de
+Transparencia de Bizkaia, la entidad beneficiaria estará obligada, en su caso, a cumplir
+las exigencias de publicidad activa contenidas en su título II, siempre y cuando se encuentre en alguno de los supuestos mencionados en el artículo 2:
+Entidades privadas que durante un ejercicio presupuestario perciban de la Diputación
+Foral de Bizkaia ayudas o subvenciones que alcancen al menos una cuantía de 100.000
+euros o cuando el 40 por ciento del total de sus ingresos anuales tengan el carácter de
+ayuda o subvención pública foral, siempre que alcancen como mínimo 5.000 euros.
+4. Si se incumplieran las medidas de difusión previstas en los párrafos precedentes, se requerirá a la persona beneficiaria para que adopte las medidas de difusión establecidas en un plazo no superior a 15 días, con advertencia de que dicho incumplimiento
+producirá el inicio del procedimiento de reintegro previsto en el base 19 y siguientes.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+Base 32.—Notificación electrónica
+1. Las notificaciones realizadas a las entidades interesadas se realizarán por medios electrónicos, de acuerdo con lo previsto en la Ley 39/2015.
+Salvo las notificaciones de las resoluciones de las convocatorias de cada área, que
+se realizarán mediante la publicación en el «Boletín Oficial de Bizkaia».
+2. Las notificaciones por medios electrónicos se practicarán mediante comparecencia en la Sede Electrónica de la Diputación Foral de Bizkaia (https://www.ebizkaia.
+eus), de conformidad con lo establecido en el Decreto Foral de la Diputación Foral de Bizkaia 62/2015, de 5 de mayo, de Administración Electrónica, así como en la Orden Foral
+de la diputada foral de Administración Pública y Relaciones Institucionales 4841/2016,
+de 6 de junio, sobre la práctica de las notificaciones y comunicaciones por medio del
+sistema de comparecencia en la sede electrónica de la Diputación Foral de Bizkaia.
+3. Los avisos de puesta a disposición de las notificaciones electrónicas practicadas
+se remitirán a la dirección de correo electrónico aportada en la solicitud. Para ello, una
+vez cumplimentada la solicitud, por parte del órgano o unidad competente de oficio se
+dará de alta dicha dirección electrónica en el sistema de avisos de la mencionada sede
+electrónica para este procedimiento de subvenciones del catálogo de procedimientos
+de la Diputación Foral de Bizkaia. Estos avisos no tendrán, en ningún caso, efectos de
+notificación practicada y su falta no impedirá que la notificación sea considerada plenamente válida.
+4. Las notificaciones se entenderán practicadas en el momento que se produzca el
+acceso a su contenido. Cuando transcurran diez días naturales desde la puesta a disposición de la notificación sin que se acceda a su contenido, se entenderá rechazada,
+dándose por efectuado el trámite de notificación.
+TÍTULO IV
+EJECUCIÓN, JUSTIFICACIÓN Y CONTROL
+Base 33.—Plazo de ejecución
+Las acciones objeto de subvención deberán ejecutarse en el periodo comprendido
+entre el 31 de julio de 2025 y el 30 de julio de 2026.
+Base 34.—Plazo de justificación
+1. Para las subvenciones del área 1 el plazo de justificación finalizará el 30 de diciembre de 2026.
+2. Para las subvenciones del área 2 se presentará en el plazo de un (1) mes desde el transcurso de un año del alta de actividad económica, debiendo permanecer la
+empresa de alta en la misma actividad económica por la que se le otorgó subvención
+hasta el momento que se realice el abono del importe justificado. La baja en la actividad
+económica previa al abono producirá la pérdida del derecho al cobro.
+3. Para las subvenciones del área 3 se presentará en el plazo de un (1) mes desde
+el transcurso de un año a contar a partir de la fecha de cambio de titularidad en Impuesto
+de Transmisiones Patrimoniales y Actos Jurídicos Documentados o desde la fecha de
+alta en el IAE de la entidad que solicita subvención en el supuesto de traspasos. La baja
+en la actividad económica previa al abono producirá la pérdida del derecho al cobro.
+Transcurridos los plazos establecidos para la justificación de la realización de las
+acciones subvencionadas, sin que se hubiera acreditado y justificado en su totalidad su
+ejecución en la forma prevista, siempre que se entiendan cumplidos la finalidad y objeto
+de las ayudas, se procederá al reajuste de la cuantía de la subvención en función de los
+costes efectivamente justificados, aplicándose el criterio de proporcionalidad, así como
+los criterios y límites establecidos para su otorgamiento.
+En ningún caso podrá concertarse por la persona beneficiaria la ejecución total o
+parcial de las actividades subvencionadas con las personas o entidades relacionadas en
+el artículo 27.7 de la Norma Foral 5/2005.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+Base 35.—Condiciones de la subcontratación
+Únicamente se podrán subcontratar las formaciones realizadas desde el 31 de julio
+hasta el 31 de diciembre de 2025, online o de forma presencial con cualquiera de los
+adjudicatarios del área1, de conformidad con la base 6.
+Cuando exista subcontratación, en todo o en parte, habrá de presentarse los tres
+presupuestos que, en aplicación del artículo 29.3 de la Norma Foral 5/2005, deba haber
+solicitado la persona beneficiaria.
+Las acciones señaladas en el la base 3 no se podrán subcontratar.
+Base 36.—Justificación de las subvenciones
+1. Las justificaciones de las subvenciones se presentarán en la oficina virtual de
+empleo, cohesión social e igualdad.
+2. La justificación por la persona beneficiaria del cumplimiento de las condiciones
+impuestas para la consecución de los objetivos previstos en el acto de la concesión de
+la subvención del área 1 revestirá la modalidad de cuenta justificativa, que contendrá:
+a) Memoria de actuación justificativa con el siguiente contenido:
+1.º Descripción de las acciones realizadas y personas participantes.
+2.º El plan de negocio de cada proyecto asesorado que no haya solicitado subvención al programa de iniciativas emprendedoras 2025. Si se hubiera solicitado subvención al programa citado habrá de identificar el número de
+expediente administrativo asignado, así mismo se habrá de presentar certificado acreditativo, y firmado por la persona promotora responsable de cada
+proyecto asesorado, en el que se especifique las horas de asesoramiento
+recibidas, así como el contenido de las mismas.
+b) Memoria económica justificativa con el siguiente contenido:
+1.º Se cumplimentará el estado de gastos e ingresos imputados a la actividad
+subvencionada, normalizado denominado «Cuenta Justificativa».
+2.º Las facturas y/o documentos contables de valor probatorio equivalente contenidos en el estado de gastos indicado en el punto anterior y copia del
+comprobante de su abono, así como la Relación Nominal de Trabajadores y
+las nóminas correspondientes a los meses en que se hubiere desarrollado
+la acción subvencionable, que se agruparán por persona trabajadora en un
+único documento.
+  En el supuesto de centros de empleo y desarrollo local sin personalidad jurídica propia y diferenciada de la/s entidad/es local/es de la/s que dependen y
+organismos autónomos la presentación de las nóminas y Relación Nominal
+de Trabajadores se podrá sustituir por la presentación de certificado expedido por la persona responsable de la intervención municipal.
+3.º Certificado de las personas que participa en la acción subvencionada, con
+desglose de horas y coste horario.
+4.º En su caso, la carta de pago de reintegro en el supuesto de remanentes no
+aplicados.
+3. Justificación por la entidad beneficiaria de las ayudas del área 2. Ayudas a la
+puesta en marcha y creación de empresas. Según el régimen de alta elegido se habrá
+de presentar:
+a) En el supuesto de régimen especial de autónomos, se debe presentar el Informe
+de bases de cotización y cuotas ingresadas de la Seguridad Social correspondiente a un año natural desde el alta. Se presentarán 12 cuotas si el alta fue el
+día 1 del mes y 13 cuotas en otros casos. Para actividades pesqueras o agrestes
+se presentará un informe de actividad anual.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+b) En el supuesto de régimen general, se requiere la relación nominal de trabajadores, liquidaciones mensuales a la Seguridad Social y justificantes de pago
+durante un año desde el alta.
+c) En el supuesto de mutualidades se requiere informe de la mutualidad correspondiente y justificantes de abono por un año desde el alta.
+4. Justificación por la entidad beneficiaria de las ayudas del área 3 Transmisión
+empresarial se realizará del siguiente modo:
+a) La cuantía de 5.000 euros que corresponda por cada persona socia trabajadora que compute a efectos de subvención, se justificará mediante la aportación
+de la documentación que acredite la cotización durante un año natural, según
+el régimen aplicable: si autónomos (Informe de bases de cotización y cuotas
+ingresadas, 12 o 13 cuotas según fecha de alta), si se trata de régimen general
+(Relación nominal de trabajadores, liquidaciones mensuales y justificantes de
+pago), y en el caso de mutualidades (informe y de la mutualidad y justificante de
+abono).
+b) El resto de la subvención concedida por importe máximo de 5.000 euros, se
+justificará tras la presentación de las facturas, o documentos de valor probatorio
+equivalente en el tráfico jurídico mercantil junto con los justificantes de pago, de
+la transmisión empresarial, o del traspaso, así como, en su caso, de los gastos
+de notaría y registro.
+5. Además, para las ayudas del área 2 y del área 3:
+a) Se comprobará que la entidad beneficiaria cumple con las obligaciones fiscales,
+tributarias y de seguridad social que en función de su forma jurídica y de su actividad correspondan, así como el alta en actividades económicas. En el caso que
+de la comprobación no se acredite la actividad económica, se requerirá aportación de documentación que acredite tal circunstancia. (Modelo 140, Modelo 130,
+IRPF, IVA…).
+b) En el supuesto de que se produzcan situaciones especiales: baja por enfermedad, permisos maternales o paternales, u otras situaciones, habrá de adjuntarse
+el documento correspondiente. En el caso de mutualidad se adjuntará documento acreditativo de tal circunstancia.
+Base 37.—Pago de las subvenciones
+1. Pago de las ayudas del Área 1. Asesoramiento para la creación y puesta en
+marcha de proyectos empresariales. La ayuda otorgada se abonará en los siguientes
+plazos:
+a) En el momento de concesión de la ayuda, se abonará hasta un máximo del 50%
+de la subvención otorgada.
+b) El porcentaje restante, en el año 2027, tras la justificación de la ayuda otorgada
+para el desarrollo de las acciones, según base 36.1.
+2. Pago de las ayudas del Capítulo II.- Área 2. Ayudas a la puesta en marcha y
+creación de empresas.
+La ayuda otorgada se abonará en los siguientes plazos:
+a) En el momento de concesión de la ayuda, se abonará hasta un máximo del 80%
+de la subvención otorgada.
+b) El porcentaje restante, en el año 2027, tras la justificación de la ayuda otorgada
+para el desarrollo de las acciones, según base 36.2.
+3. Pago de las ayudas de Capítulo III- Área 3 Transmisión empresarial.
+La ayuda otorgada se abonará en los siguientes plazos:
+a) En el momento de concesión de la ayuda, se abonará hasta un máximo del 90%
+de la subvención otorgada.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+b) El porcentaje restante, en el año 2027, tras la justificación de la ayuda otorgada
+para el desarrollo de las acciones, según base 36.3.
+Para poder proceder al pago la entidad beneficiaria ha de estar en situación de alta
+en IAE de la Hacienda Foral de Bizkaia, en el momento del cobro de la subvención.
+Base 38.—Compatibilidad de las ayudas
+1. Será compatible la percepción de las ayudas previstas en el área 1 con la percepción de otras subvenciones, ayudas, ingresos o recursos por la misma acción subvencionable definida en la base 3, procedentes de cualesquiera Administraciones o entes
+públicos o privados, nacionales, de la Unión Europea o de organismos internacionales
+a excepción de la percepción de otra subvención por la misma acción en virtud de otro
+programa de la Diputación Foral de Bizkaia, en este último supuesto será incompatible.
+2. Las ayudas previstas en área 2 y área 3 serán incompatibles con cualquier ayuda que puedan recibir por la misma acción subvencionable definida en la base 7 y base
+11 respectivamente, procedentes de cualesquiera Administraciones o entes públicos o
+privados, nacionales, de la Unión Europea o de organismos internacionales.
+3. En ningún caso el importe total de las subvenciones podrá ser de tal cuantía que
+aisladamente, o en concurrencia con otras subvenciones, ayudas, ingresos o recursos,
+supere el coste de la actividad subvencionada.
+4. Será obligación de las entidades beneficiarias comunicar al órgano concedente,
+la obtención de otras subvenciones, ayudas, ingresos o recursos que financien las actividades subvencionadas.
+Esta comunicación deberá efectuarse a través de la oficina virtual de Empleo, Cohesión Social e Igualdad, tan pronto como se conozca y, en todo caso, con anterioridad a
+la justificación de la aplicación dada a los fondos percibidos.
+Base 39.—Obligaciones de las entidades beneficiarias
+Además de las obligaciones previstas en estas bases, son obligaciones de las entidades beneficiarias de las ayudas, las previstas en los artículos 12, 13, 31.5 y 41 de la
+Norma Foral 5/2005, siendo entre otras:
+1. Realizar la actividad o adoptar el comportamiento que fundamenta la concesión
+de la subvención.
+ En consecuencia, si la entidad beneficiaria de la ayuda cesara en la actividad por
+la que hubiera sido subvencionada, por baja en Actividad Económica, perderá la
+condición de beneficiaria de subvención y, en consecuencia, el derecho al cobro
+de la cantidad pendiente de abono desde ese momento, aun habiendo transcurrido un año desde el alta en la actividad económica.
+2. Justificar ante el Departamento de Empleo, Cohesión Social e Igualdad, en su
+caso, la realización de la actividad o la adopción del comportamiento, así como
+el cumplimiento de los requisitos y condiciones que determinen la concesión o
+disfrute de la subvención.
+3. Someterse a las actuaciones de comprobación, a efectuar por el Departamento
+de Empleo, Cohesión Social e Igualdad, en su caso, y a las de control financiero
+que corresponden al Departamento de Hacienda y Finanzas, en relación con
+las subvenciones y ayudas concedidas y a los procedimientos fiscalizadores del
+Tribunal Vasco de Cuentas Públicas.
+4. Comunicar al Departamento de Empleo, Cohesión Social e Igualdad, en su caso,
+la obtención de subvenciones o ayudas para la misma finalidad, procedente de
+cualesquiera Administraciones o entes públicos nacionales o internacionales.
+5. Cuando las actividades hayan sido financiadas además de con la subvención,
+con fondos propios u otras subvenciones o recursos, se habrá de reflejar en la
+justificación el importe, procedencia y aplicación de tales fondos a las actividades subvencionadas.
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+Núm. 5
+BOB
+6. La entidad beneficiaria garantizará la igualdad de mujeres y hombres en el trato,
+y en el acceso de los recursos objeto de la presente subvención.
+ Asimismo, todos los materiales, imágenes y documentación evitarán por completo cualquier imagen discriminatoria de la mujer, y deberán fomentar valores
+de igualdad, pluralidad de roles y corresponsabilidad entre mujeres y hombres.
+7. Disponer de los libros contables, registros diligenciados y demás documentos
+debidamente auditados en los términos exigidos por la legislación mercantil y
+sectorial aplicable a las entidades beneficiarias en cada caso, así como cuantos
+estados contables y registros específicos sean exigidos por las bases reguladoras de las subvenciones, con la finalidad de garantizar el adecuado ejercicio de
+las facultades de comprobación y control.
+8. Conservar los documentos justificativos de la aplicación de los fondos recibidos,
+incluidos los documentos electrónicos, en tanto puedan ser objeto de las actuaciones de comprobación y control por los órganos de control económico y de
+fiscalización correspondientes.
+ 
+Esta documentación deberá conservarse durante 6 años a partir del último
+asiento realizado en los libros de conformidad con el artículo 30 del Código de
+Comercio.
+9. Acreditar que se halla al corriente en el cumplimiento de sus obligaciones tributarias y, en su caso, frente a la Seguridad Social.
+ Dicha acreditación se realizará en el momento de la presentación de la solicitud
+de subvención, de la disposición del gasto subvencionado (previo a la resolución
+del otorgamiento), así como del reconocimiento y pago de la subvención.
+ En todo caso, no habrá de aportarse certificación del organismo correspondiente
+acreditativo de dichas circunstancias, ya que estas situaciones serán verificadas
+por el Departamento de Empleo, Cohesión Social e Igualdad, de acuerdo con
+la Ley Orgánica 3/2018, de 5 de diciembre, así como la Ley 39/2015, de 1 de
+octubre.
+10. Si tras la comprobación efectuada resulta que la entidad beneficiaria no se halla
+al corriente de sus obligaciones tributarias y de Seguridad Social se resolverá el
+procedimiento de incumplimiento definitivo previsto en la base 19.
+11. La entidad beneficiaria, de conformidad con el artículo 46 de la Norma Foral
+4/2018, salvo que razones de interés público justifiquen la exención de estas
+obligaciones, deberá presentar informe justificativo de las siguientes circunstancias:
+ a) Las personas físicas o jurídicas deberán promover la igualdad de mujeres y
+hombres en la definición de los puestos de trabajo, acceso, contratación y
+extinción, clasificación profesional, promoción, formación, seguridad y salud
+laboral, política retributiva, corresponsabilidad y conciliación de la vida personal, laboral y familiar, calidad y estabilidad laboral, duración y ordenación
+de la jornada laboral, y en la acción sindical, representación y negociación
+colectiva, asegurando unas condiciones laborales dignas, decentes y no discriminatorias.
+ b) Las personas físicas o jurídicas deberán velar porque el tratamiento, protagonismo y valoración de mujeres y hombres sea equivalente y el fomento
+de una imagen con valores de igualdad, presencia equilibrada, diversidad,
+corresponsabilidad, y pluralidad de roles e identidades de género, tanto en la
+información escrita, oral, iconográfica, acciones publicitarias, comunicación
+interna y externa, formal e informal como en los materiales generados o
+relacionados con la ejecución del proyecto o actividad.
+ c) Las personas físicas o jurídicas con una plantilla superior a 50 personas deberán acreditar el cumplimiento de la obligación de disponer de un Plan para
+la Igualdad de mujeres y hombres previsto en la Ley 3/2007, de 22 de marzo,
+cve: BOB-2026a005-(I-1430)
+para la Igualdad Efectiva de Mujeres y Hombres, así como de su aplicación
+efectiva.
+ d) Las personas físicas o jurídicas con más de quince personas trabajadoras
+en plantilla deberán garantizar la adopción de medidas para prevenir, actuar,
+dar seguimiento, evaluar y erradicar la violencia machista en el ámbito laboral, y específicamente las relativas al acoso sexual y acoso por razón de
+sexo.
+12. El cumplimiento de lo señalado en el artículo 13.3 y 13.4 del Decreto Foral
+63/2019, de 28 de mayo por el que se establecen los criterios de uso de las
+lenguas oficiales.
+13. A asumir el compromiso de no incurrir en deslocalización empresarial, entendiendo por tal lo prevenido en la Norma Foral 7/2007 de 27 de marzo, de Recuperación de ayudas del Sector Público Foral en el supuesto de Deslocalizaciones
+Empresariales, la cual será de plena aplicabilidad a las subvenciones reguladas
+por este decreto foral.
+Base 40.—Protección de Datos
+Los datos aportados por la persona interesada se utilizarán para la gestión de los
+procedimientos que se deriven de este decreto foral, de acuerdo con lo establecido en el
+Reglamento (UE) 2016/679, de 27 abril de 2016, relativo a la protección de las personas
+físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de
+estos datos y la Ley Orgánica 3/2018 de 5 de diciembre de Protección de Datos Personales y garantía de los derechos digitales.
+El responsable del tratamiento es la Dirección General de Empleo, del Departamento
+de Empleo, Cohesión Social e Igualdad (Alameda Mazarredo 63, 48009 Bilbao) y la
+persona delegada de Protección de Datos es la Sección de Seguridad de la Información
+y Protección de Datos.
+Dicho tratamiento se realizará en el ejercicio de potestades públicas y el cumplimiento de obligaciones legales.
+Los datos recabados serán utilizados para la gestión de subvenciones de fomento
+de actividades encaminadas a promover la ocupabilidad en el Territorio Histórico de
+Bizkaia.
+No se realizarán cesiones de datos personales, salvo por obligación legal o consentimiento de la persona interesada. Tampoco se prevén transferencias a terceros países
+u organizaciones internacionales.
+La persona interesada tiene derecho a acceder a sus datos, solicitar su rectificación,
+supresión o la limitación u oposición al tratamiento. De igual modo, podrá revocar el consentimiento prestado en cualquier momento. También dispone del derecho a presentar
+una reclamación ante la Autoridad de Control de Protección de Datos, pudiendo ampliar
+esta información en el apartado dedicado a la protección de datos de la página web institucional de la Diputación Foral de Bizkaia (https://web.bizkaia.eus/es/proteccion-de-datos).
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+BOB
+Núm. 5
+PK
+CP
+Udalerria
+Municipio
+Langabezia tasa
+Índice de paro (%)
+Puntuazioa
+Puntuación
+48001
+Abadiño
+7,6
+1
+48002
+Abanto y Ciérvana-Abanto Zierbena
+13,0
+3
+48911
+Ajangiz
+3,0
+1
+48912
+Alonsotegi
+13,1
+3
+48003
+Amorebieta-Etxano
+7,9
+1
+48004
+Amoroto
+6,6
+1
+48005
+Arakaldo
+4,9
+1
+48006
+Arantzazu
+3,0
+1
+48008
+Artzentales
+9,9
+1
+48093
+Areatza
+10,2
+2
+48009
+Arrankudiaga
+7,8
+1
+48914
+Arratzu
+4,3
+1
+48010
+Arrieta
+8,0
+1
+48011
+Arrigorriaga
+9,7
+1
+48023
+Artea
+4,8
+1
+48091
+Atxondo
+6,0
+1
+48070
+Aulesti
+7,2
+1
+48012
+Bakio
+6,2
+1
+48090
+Balmaseda
+14,2
+3
+48013
+Barakaldo
+11,3
+2
+48014
+Barrika
+6,7
+1
+48015
+Basauri
+12,3
+2
+48092
+Bedia
+8,4
+1
+48016
+Berango
+6,5
+1
+48017
+Bermeo
+9,8
+1
+48018
+Berriatua
+6,0
+1
+48019
+Berriz
+7,5
+1
+48020
+Bilbao
+12,0
+2
+48915
+Bolivar
+6,6
+1
+48021
+Busturia
+10,8
+2
+48022
+Karrantza Harana/Valle de Carranza
+10,2
+2
+48901
+Derio
+6,7
+1
+48026
+Dima
+5,9
+1
+48027
+Durango
+7,7
+1
+48028
+Ea
+7,6
+1
+48031
+Elantxobe
+6,7
+1
+48032
+Elorrio
+6,8
+1
+48902
+Erandio
+10,3
+2
+48033
+Ereño
+3,0
+1
+48034
+Ermua
+11,0
+2
+cve: BOB-2026a005-(I-1430)
+I. ERANSKINA / ANEXO I
+BOB
+PK
+CP
+Udalerria
+Municipio
+Langabezia tasa
+Índice de paro (%)
+Puntuazioa
+Puntuación
+48079
+Errigoiti
+5,3
+1
+48029
+Etxebarri
+7,8
+1
+48030
+Etxebarria
+7,4
+1
+48906
+Forua
+7,8
+1
+48035
+Fruiz
+6,5
+1
+48036
+Galdakao
+8,2
+1
+48037
+Galdames
+7,6
+1
+48038
+Gamiz-Fika
+6,1
+1
+48039
+Garai
+3,4
+1
+48040
+Gatika
+5,5
+1
+48041
+Gautegiz Arteaga
+4,7
+1
+48046
+Gernika-Lumo
+8,1
+1
+48044
+Getxo
+7,8
+1
+48042
+Gordexola
+8,6
+1
+48043
+Gorliz
+7,9
+1
+48045
+Güeñes
+9,9
+1
+48047
+Gizaburuaga
+2,6
+1
+48048
+Ibarrangelu
+6,6
+1
+48094
+Igorre
+8,7
+1
+48049
+Ispaster
+3,4
+1
+48910
+Iurreta
+9,0
+1
+48050
+Izurtza
+6,6
+1
+48907
+Kortezubi
+6,4
+1
+48051
+Lanestosa
+13,1
+3
+48052
+Larrabetzu
+5,8
+1
+48053
+Laukiz
+6,4
+1
+48054
+Leioa
+8,2
+1
+48057
+Lekeitio
+6,3
+1
+48055
+Lemoa
+9,5
+1
+48056
+Lemoiz
+7,2
+1
+48081
+Lezama
+7,5
+1
+48903
+Loiu
+5,7
+1
+48058
+Mallabia
+7,1
+1
+48059
+Mañaria
+5,6
+1
+48060
+Markina-Xemein
+6,4
+1
+48061
+Maruri/Jatabe
+6,5
+1
+48062
+Mendata
+4,2
+1
+48063
+Mendexa
+3,4
+1
+48064
+Meñaka
+6,4
+1
+48066
+Morga
+5,3
+1
+48068
+Mundaka
+6,9
+1
+cve: BOB-2026a005-(I-1430)
+Núm. 5
+BOB
+Núm. 5
+PK
+CP
+Udalerria
+Municipio
+Langabezia tasa
+Índice de paro (%)
+Puntuazioa
+Puntuación
+Mungia
+8,2
+1
+48007
+Munitibar-Arbatzegi Gerrikaitz
+8,2
+1
+48908
+Murueta
+5,5
+1
+48071
+Muskiz
+11,2
+2
+48067
+Muxika
+6,2
+1
+48909
+Nabarniz
+2,8
+1
+48073
+Ondarroa
+7,5
+1
+48074
+Orduña
+1,5
+1
+48075
+Orozko
+1,2
+1
+48083
+Ortuella
+13,6
+3
+48072
+Otxandio
+6,7
+1
+48077
+Plentzia
+7,9
+1
+48078
+Portugalete
+12,2
+2
+48082
+Santurtzi
+13,3
+3
+48084
+Sestao
+14,2
+3
+48904
+Sondika
+6,9
+1
+48085
+Sopelana
+7,9
+1
+48086
+Sopuerta
+9,5
+1
+48076
+Sukarrieta
+8,1
+1
+48087
+Trucios-Turtzioz
+13,3
+3
+48088
+Ubide
+6,1
+1
+48065
+Ugao-Miraballes
+11,5
+2
+48089
+Urduliz
+7,3
+1
+48080
+Valle de Trápaga-Trapagaran
+10,3
+2
+48095
+Zaldibar
+9,1
+1
+48096
+Zalla
+11,2
+2
+48905
+Zamudio
+9,0
+1
+48097
+Zaratamo
+9,6
+1
+48024
+Zeanuri
+6,3
+1
+48025
+Zeberio
+9,2
+1
+48913
+Zierbena
+7,6
+1
+cve: BOB-2026a005-(I-1430)
+48069
+
+### DECRETO FORAL 8/2026, de 5 de febrero, de la Diputación Foral de Bizkaia, por el que se rectifica el error del Decreto Foral 137/2025, de 29 de diciembre, de la Diputación Foral de Bizkaia, por el que se establecen las bases reguladoras y se aprueban las convocatorias de subvenciones del programa para el fomento de iniciativas emprendedoras, del ejercicio 2026: https://www.bizkaia.eus/home2/archivos/DPTO8/Temas/Empleo%2C%20Inclusi%C3%B3n%20e%20Igualdad/2026/Empleo/Iniciativas%20emprendedoras/I-168_cas.pdf?idioma=CA
+SECCIÓN I
+ADMINISTRACIÓN FORAL DEL TERRITORIO HISTÓRICO DE BIZKAIA
+Diputación Foral de Bizkaia
+Departamento de Empleo, Cohesión Social e Igualdad
+DECRETO FORAL 8/2026, de 5 de febrero, de la Diputación Foral de Bizkaia,
+por el que se rectifica el error del Decreto Foral 137/2025, de 29 de diciembre,
+de la Diputación Foral de Bizkaia, por el que se establecen las bases reguladoras y se aprueban las convocatorias de subvenciones del programa para
+el fomento de iniciativas emprendedoras, del ejercicio 2026.
+La Diputación Foral de Bizkaia aprobó el Decreto foral 137/2025, de 29 de diciembre,
+por el que se establecen las bases reguladoras y se aprueban las convocatorias de
+subvenciones del programa para el fomento de iniciativas emprendedoras, del ejercicio
+2026, dicho Decreto fue publicado en el «Boletín Oficial de Bizkaia» número 5, de 9 de
+enero de 2026.
+Advertido error en la base 9.2, base 21 y Anexo I de dicho Decreto foral, mediante
+este Decreto foral se procede a su corrección.
+El Decreto Foral responde a los principios de buena regulación previstos en la Ley
+39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas y recogidos en el artículo 3 del Decreto foral de la Diputación Foral de
+Bizkaia 87/2021, de 15 de junio, por el que se regula el procedimiento de elaboración de
+disposiciones de carácter general en la Diputación Foral de Bizkaia, cuyas disposiciones
+se han observado en su elaboración y tramitación, habiéndose emitido los siguientes
+informes:
+1. Informe que justifique la exención del presente procedimiento, elaborado por la
+unidad administrativa competente para su emisión.
+2. Los informes de evaluación de impacto de género y de control económico.
+Este decreto queda exento de los trámites de consulta pública previa y audiencia e
+información pública previstos en el citado Decreto Foral 87/2021, de 15 de junio, ya que
+entra dentro de las exenciones contempladas en el artículo 26.2, a) al tratarse de una
+disposición cuyo objeto es la corrección de errores del Decreto Foral 137/2025 relativos
+al plazo de presentación de las solicitudes, en su publicación en euskera, apartado 5,c
+de la base 21, y la corrección del error del apartado 7 de la base 21 en su referencia a
+las áreas 1 y 2, que ha de ser a las área 2 y 3.
+El artículo 39 k) de la Norma Foral 3/1987, de 13 de febrero, sobre Elección, Organización y Funcionamiento de las Instituciones Forales del Territorio Histórico de Bizkaia,
+determina que compete a los diputados forales y a las diputadas forales proponer a la
+Diputación Foral de Bizkaia, para su aprobación, los proyectos de decreto foral en las
+materias propias de su departamento.
+En su virtud, a iniciativa de la diputada foral de empleo, cohesión social e igualdad, y
+previa deliberación de la Diputación Foral de Bizkaia
+DISPONGO:
+Artículo 1—Corrección de error material de la base 9.2. Requisitos de las personas
+promotoras
+Se procede a la corrección de error de la base 9.2 de la redacción en euskera y
+castellano.
+cve: BOB-2026a027-(I-168)
+Núm. 27
+BOB
+Donde dice:
+2. Además, al menos una persona promotora de la entidad beneficiaria ha de haber
+realizado el asesoramiento y acompañamiento individualizado detallado en la base 3, en
+el período comprendido entre el 31 de julio de 2025 y el 30 de julio de 2026.
+Asimismo dicha persona promotora ha de haber realizado el curso de formación a
+través de la «Escuela de Emprendimiento Bizkaia», o haber realizado excepcionalmente
+la formación online o presencial con cualquiera de los adjudicatarios del área 1 desde el
+31 de julio hasta el 31 de diciembre de 2025, en todo caso, junto con la solicitud, habrán
+de aportar certificado de la formación realizada.
+Además, se habrá de aportar certificado del asesoramiento y acompañamiento con
+alguna entidad adjudicataria del área 1.
+Este requisito tendrá que ser cumplido al menos por una de las personas promotoras
+de la entidad beneficiaria, siempre y cuando ésta persona cumpla con el resto de los
+requisitos del apartado 1.
+Debe decir:
+2. Además, al menos una persona promotora de la entidad beneficiaria ha de haber
+realizado el asesoramiento y acompañamiento individualizado detallado en la base 3, en
+el período comprendido entre el 31 de julio de 2025 y el 30 de julio de 2026, con alguna
+entidad adjudicataria del área 1, o con «Dema-Enpresa Garapena de Barakaldo», en
+adelante DEMA.
+Asimismo, dicha persona promotora ha de haber realizado el curso de formación a
+través de la «Escuela de Emprendimiento Bizkaia» entre el 31 de julio de 2025 y el 30 de
+julio de 2026, o haber realizado excepcionalmente la formación online o presencial con
+cualquiera de los adjudicatarios del área 1 desde el 31 de julio hasta el 31 de diciembre
+de 2025, en todo caso, junto con la solicitud, habrán de aportar certificado de la formación realizada.
+Además, se habrá de aportar certificado del asesoramiento y acompañamiento con
+alguna entidad adjudicataria del área 1, o con DEMA.
+Este requisito tendrá que ser cumplido al menos por una de las personas promotoras
+de la entidad beneficiaria, siempre y cuando ésta persona cumpla con el resto de los
+requisitos del apartado 1.
+Artículo 2.—Corrección de error material de la base 21.5.c)
+Se procede a la corrección del error material de la base 21. 5. c) en la redacción en
+euskera.
+Donde dice:
+Base 21. Forma, lugar y plazo de presentación de las solicitudes, inscripción en REPPE.
+5. El plazo de presentación de solicitudes comenzará:
+c) Para las solicitudes del Capítulo III. Área 3. Transmisión empresarial el plazo de
+presentación de solicitudes de la primera convocatoria se iniciará el 16 de marzo
+de 2026 a las 9:00 y finalizará el 8 de abril de 2026 a las 13:30 horas.
+Debe decir:
+Base 21. Forma, lugar y plazo de presentación de las solicitudes, inscripción en REPPE.
+5. El plazo de presentación de solicitudes comenzará:
+c) Para las solicitudes del Capítulo III.- Área 3. Transmisión empresarial el plazo de
+presentación de solicitudes de la primera convocatoria se iniciará el 16 de marzo
+de 2026 a las 9:00 y finalizará el 8 de abril de 2026 a las 13:30 horas.
+cve: BOB-2026a027-(I-168)
+Núm. 27
+BOB
+BOB
+Núm. 27
+Artículo 3.—Corrección de error material de la base 21.7
+La referencia del enunciado del apartado 21.7 a las áreas (1 y 2) es incorrecta, ha de
+ser a las áreas (2 y3).
+Donde dice:
+Base 21. Forma, lugar y plazo de presentación de las solicitudes, inscripción en REPPE.
+7. En cada convocatoria, de cada una de las áreas (1 y 2) se podrán presentar las
+entidades que se hayan dado de alta en IAE del siguiente modo:
+Debe decir:
+Base 21. Forma, lugar y plazo de presentación de las solicitudes, inscripción en REPPE.
+7. En cada convocatoria, de cada una de las áreas (2 y 3) se podrán presentar las
+entidades que se hayan dado de alta en IAE del siguiente modo:
+Artículo 4.—Corrección error material del Anexo I
+Se procede a la corrección de los errores de la puntuación otorgada por municipio en
+el Anexo I, quedando establecida del siguiente modo.
+PK
+CP
+Udalerria
+Municipio
+Langabezia tasa
+Indice de paro (%)
+Puntuazioa
+Puntuación
+48001
+Abadiño
+7,6
+2
+48002
+Abanto y Ciérvana-Abanto Zierbena
+13,0
+3
+48911
+Ajangiz
+3,0
+1
+48912
+Alonsotegi
+13,1
+3
+48003
+Amorebieta-Etxano
+7,9
+2
+48004
+Amoroto
+6,6
+2
+48005
+Arakaldo
+4,9
+1
+48006
+Arantzazu
+3,0
+1
+48008
+Artzentales
+9,9
+2
+48093
+Areatza
+10,2
+3
+48009
+Arrankudiaga
+7,8
+2
+48914
+Arratzu
+4,3
+1
+48010
+Arrieta
+8,0
+2
+48011
+Arrigorriaga
+9,7
+2
+48023
+Artea
+4,8
+1
+48091
+Atxondo
+6,0
+1
+48070
+Aulesti
+7,2
+2
+48012
+Bakio
+6,2
+2
+48090
+Balmaseda
+14,2
+3
+48013
+Barakaldo
+11,3
+3
+48014
+Barrika
+6,7
+2
+48015
+Basauri
+12,3
+3
+48092
+Bedia
+8,4
+2
+48016
+Berango
+6,5
+2
+cve: BOB-2026a027-(I-168)
+I. ERANSKINA / ANEXO I
+BOB
+PK
+CP
+Udalerria
+Municipio
+Langabezia tasa
+Indice de paro (%)
+Puntuazioa
+Puntuación
+48017
+Bermeo
+9,8
+2
+48018
+Berriatua
+6,0
+1
+48019
+Berriz
+7,5
+2
+48020
+Bilbao
+12,0
+3
+48915
+Bolivar
+6,6
+2
+48021
+Busturia
+10,8
+3
+48022
+Karrantza Harana/Valle de Carranza
+10,2
+3
+48901
+Derio
+6,7
+2
+48026
+Dima
+5,9
+1
+48027
+Durango
+7,7
+2
+48028
+Ea
+7,6
+2
+48031
+Elantxobe
+6,7
+2
+48032
+Elorrio
+6,8
+2
+48902
+Erandio
+10,3
+3
+48033
+Ereño
+3,0
+1
+48034
+Ermua
+11,0
+3
+48079
+Errigoiti
+5,3
+1
+48029
+Etxebarri
+7,8
+2
+48030
+Etxebarria
+7,4
+2
+48906
+Forua
+7,8
+2
+48035
+Fruiz
+6,5
+2
+48036
+Galdakao
+8,2
+2
+48037
+Galdames
+7,6
+2
+48038
+Gamiz-Fika
+6,1
+2
+48039
+Garai
+3,4
+1
+48040
+Gatika
+5,5
+1
+48041
+Gautegiz Arteaga
+4,7
+1
+48046
+Gernika-Lumo
+8,1
+2
+48044
+Getxo
+7,8
+2
+48042
+Gordexola
+8,6
+2
+48043
+Gorliz
+7,9
+2
+48045
+Güeñes
+9,9
+2
+48047
+Gizaburuaga
+2,6
+1
+48048
+Ibarrangelu
+6,6
+2
+48094
+Igorre
+8,7
+2
+48049
+Ispaster
+3,4
+1
+48910
+Iurreta
+9,0
+2
+48050
+Izurtza
+6,6
+2
+48907
+Kortezubi
+6,4
+2
+48051
+Lanestosa
+13,1
+3
+48052
+Larrabetzu
+5,8
+1
+cve: BOB-2026a027-(I-168)
+Núm. 27
+BOB
+PK
+CP
+Udalerria
+Municipio
+Langabezia tasa
+Indice de paro (%)
+Puntuazioa
+Puntuación
+48053
+Laukiz
+6,4
+2
+48054
+Leioa
+8,2
+2
+48057
+Lekeitio
+6,3
+2
+48055
+Lemoa
+9,5
+2
+48056
+Lemoiz
+7,2
+2
+48081
+Lezama
+7,5
+2
+48903
+Loiu
+5,7
+1
+48058
+Mallabia
+7,1
+2
+48059
+Mañaria
+5,6
+1
+48060
+Markina-Xemein
+6,4
+2
+48061
+Maruri/Jatabe
+6,5
+2
+48062
+Mendata
+4,2
+1
+48063
+Mendexa
+3,4
+1
+48064
+Meñaka
+6,4
+2
+48066
+Morga
+5,3
+1
+48068
+Mundaka
+6,9
+2
+48069
+Mungia
+8,2
+2
+48007
+Munitibar-Arbatzegi Gerrikaitz
+8,2
+2
+48908
+Murueta
+5,5
+1
+48071
+Muskiz
+11,2
+3
+48067
+Muxika
+6,2
+2
+48909
+Nabarniz
+2,8
+1
+48073
+Ondarroa
+7,5
+2
+48074
+Orduña
+1,5
+1
+48075
+Orozko
+1,2
+1
+48083
+Ortuella
+13,6
+3
+48072
+Otxandio
+6,7
+2
+48077
+Plentzia
+7,9
+2
+48078
+Portugalete
+12,2
+3
+48082
+Santurtzi
+13,3
+3
+48084
+Sestao
+14,2
+3
+48904
+Sondika
+6,9
+2
+48085
+Sopelana
+7,9
+2
+48086
+Sopuerta
+9,5
+2
+48076
+Sukarrieta
+8,1
+2
+48087
+Trucios-Turtzioz
+13,3
+3
+48088
+Ubide
+6,1
+2
+48065
+Ugao-Miraballes
+11,5
+3
+48089
+Urduliz
+7,3
+2
+48080
+Valle de Trápaga-Trapagaran
+10,3
+3
+48095
+Zaldibar
+9,1
+2
+cve: BOB-2026a027-(I-168)
+Núm. 27
+BOB
+Núm. 27
+PK
+CP
+Udalerria
+Municipio
+Langabezia tasa
+Indice de paro (%)
+Puntuazioa
+Puntuación
+48096
+Zalla
+11,2
+3
+48905
+Zamudio
+9,0
+2
+48097
+Zaratamo
+9,6
+2
+48024
+Zeanuri
+6,3
+2
+48025
+Zeberio
+9,2
+2
+48913
+Zierbena
+7,6
+2
+DISPOSICIÓN FINAL
+Disposición Final Única.—Entrada en vigor
+El presente decreto foral entrará en vigor al día siguiente de su publicación en el
+«Boletín Oficial de Bizkaia».
+En Bilbao, a de 5 de febrero de 2026.
+cve: BOB-2026a027-(I-168)
+La Diputada General
+ELIXABETE ETXANOBE LANDAJUELA
+La diputada foral de Empleo,
+Cohesión Social e Igualdad,
+TERESA LAESPADA MARTÍNEZ
+
+### ORDEN FORAL 4248/2026, de 9 de julio, de la diputada foral de Empleo, Cohesión Social e Igualdad por la que se aprueba la segunda convocatoria de la concesión de subvenciones para el fomento de iniciativas emprendedoras del ejercicio 2026 en lo referente al título I capítulo II área 2 ycapítulo III área 3, del Decreto Foral 137/2025, de 29 de diciembre: https://www.bizkaia.eus/home2/archivos/DPTO8/Temas/Empleo%2C%20Inclusi%C3%B3n%20e%20Igualdad/2026/Empleo/Iniciativas%20emprendedoras/Segunda%20convocatoria/I-844_cas.pdf?idioma=CA
+SECCIÓN I
+ADMINISTRACIÓN FORAL DEL TERRITORIO HISTÓRICO DE BIZKAIA
+Diputación Foral de Bizkaia
+Departamento de Empleo, Cohesión Social e Igualdad
+ORDEN FORAL 4248/2026, de 9 de julio, de la diputada foral de Empleo, Cohesión Social e Igualdad por la que se aprueba la segunda convocatoria de
+la concesión de subvenciones para el fomento de iniciativas emprendedoras
+del ejercicio 2026 en lo referente al título I capítulo II área 2 y capítulo III área
+3, del Decreto Foral 137/2025, de 29 de diciembre.
+Mediante Decreto Foral 137/2025, de 29 de diciembre, de la Diputación Foral de
+Bizkaia, se establecieron las bases reguladoras y se aprobaron las convocatorias de la
+concesión de subvenciones para el fomento de iniciativas emprendedoras del ejercicio
+2026. El mismo fue publicado en el «Boletín Oficial de Bizkaia» número 5, del día 9 de
+enero de 2026.
+En la Disposición Final Primera del Decreto Foral 137/2025, se habilita a la diputada
+foral del Departamento de Empleo, Cohesión Social e Igualdad a dictar cuantas disposiciones considere necesarias para completar o desarrollar el decreto foral y a la apertura
+de una segunda convocatoria correspondiente al área 2, en el supuesto de no agotarse
+las disponibilidades presupuestarias.
+Mediante Orden Foral 3560/2026, de 12 de junio de Empleo, Cohesión Social e
+Igualdad se resolvió la primera convocatoria de las subvenciones para el fomento de
+iniciativas emprendedoras del ejercicio 2026 en lo referente al Título I Capítulo III Área 3
+del Decreto Foral 137/2025 de 29 de diciembre, sin haberse agotado la previsión presupuestaria inicialmente aprobada.
+Mediante Orden Foral 4038/2026, de 1 de julio, de Empleo, Cohesión Social e Igualdad se resolvió la primera convocatoria de las subvenciones para el fomento de iniciativas emprendedoras del ejercicio 2026 en lo referente al Título I Capítulo II Área 2 del
+Decreto Foral 137/2025 de 29 de diciembre, sin haberse agotado la previsión presupuestaria inicialmente aprobada.
+De conformidad con la base 21.7.b, en esta convocatoria del área 2 y 3 únicamente
+se podrán presentar los proyectos empresariales dados de alta en IAE desde el 17 de
+marzo hasta el 30 de julio de 2026.
+Tal como antecede, una vez resueltas las primeras convocatorias resulta el siguiente
+presupuesto disponible, distribuido del siguiente modo:
+CAPÍTULO II
+ÁREA 2. AYUDAS A LA PUESTA EN MARCHA Y CREACIÓN DE EMPRESAS
+— Partida: 0904/G/241116/44300 2008/0075.
+— Gasto plurianual: 171.579,16 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 763,46 euros.
+• Año 2027: 170.815,70 euros.
+— Partida: 0904/G/241116/44900 2008/0075.
+— Gasto plurianual: 332.687,67 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 298.240,75 euros.
+• Año 2027: 34.446,92 euros.
+cve: BOB-2026a132-(I-844)
+Núm. 132
+BOB
+CAPÍTULO III
+ÁREA 3. TRANSMISIÓN EMPRESARIAL
+— Partida: 0904/G/241116/44300 2008/0075.
+— Gasto plurianual: 225.000,00 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 145.500,00 euros.
+• Año 2027: 79.500,00 euros.
+— Partida: 0904/G/241116/44900 2008/0075.
+— Gasto plurianual 150.000,00 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 141.000,00 euros.
+• Año 2027: 9.000,00 euros.
+Por todo ello, a propuesta de la diputada foral de Empleo, Cohesión Social e Igualdad
+se realiza la siguiente propuesta de:
+RESOLUCIÓN:
+Primero: Aprobar la segunda convocatoria de las subvenciones para el fomento de
+iniciativas emprendedoras, del ejercicio 2026 en lo referente al Título I Capítulo II Área
+2 y Título I Capítulo III Área 3 del Decreto Foral 137/2025, de 29 de diciembre, de la
+Diputación Foral de Bizkaia.
+Segundo: Sirva de bases de esta convocatoria las previsiones del Decreto Foral
+137/2025, de 29 de diciembre, de la Diputación Foral de Bizkaia, publicado en el Boletín
+Oficial de Bizkaia número 5, de 9 de enero de 2026.
+Tercero: Las ayudas y subvenciones que puedan otorgarse con arreglo al Título I
+Capítulo II Área 2 del Decreto Foral 137/2025 de 29 de diciembre de la Diputación Foral
+de Bizkaia, se efectuarán con cargo a las siguientes partidas y dotaciones presupuestarias, sin perjuicio de que las mismas puedan ser modificadas de conformidad con la
+normativa presupuestaria.
+CAPÍTULO II
+ÁREA 2. AYUDAS A LA PUESTA EN MARCHA Y CREACIÓN DE EMPRESAS
+— Partida: 0904/G/241116/44300 2008/0075.
+— Gasto plurianual: 171.579,16 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 763,46 euros.
+• Año 2027: 170.815,70 euros.
+— Partida: 0904/G/241116/44900 2008/0075.
+— Gasto plurianual: 332.687,67 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 298.240,75 euros.
+• Año 2027: 34.446,92 euros.
+Cuarto: Las ayudas y subvenciones que puedan otorgarse con arreglo al Título I
+Capítulo III Área 3 del Decreto Foral 137/2025 de 29 de diciembre de la Diputación Foral
+de Bizkaia, se efectuarán con cargo a las siguientes partidas y dotaciones presupuestarias, sin perjuicio de que las mismas puedan ser modificadas de conformidad con la
+normativa presupuestaria.
+cve: BOB-2026a132-(I-844)
+Núm. 132
+BOB
+CAPÍTULO III
+ÁREA 3. TRANSMISIÓN EMPRESARIAL
+— Partida: 0904/G/241116/44300 2008/0075.
+— Gasto plurianual: 225.000,00 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 145.500,00 euros.
+• Año 2027: 79.500,00 euros.
+— Partida: 0904/G/241116/44900 2008/0075.
+— Gasto plurianual 150.000,00 euros.
+— Importe y distribución por ejercicios:
+• Año 2026: 141.000,00 euros.
+• Año 2027: 9.000,00 euros.
+Quinto: El plazo de presentación de solicitudes de subvención al Capítulo II, Área
+2, Ayudas a la puesta en marcha y creación de empresas, como al Capítulo III Área 3
+Transmisión Empresarial se iniciará el día 15 de julio de 2026 a las 8:30 horas y finalizará el 30 de julio de 2026 a las 23:59 horas.
+Sexto: La presente Orden Foral entrará en vigor al día siguiente de su publicación en
+el «Boletín Oficial de Bizkaia».
+En Bilbao, a 9 de julio de 2026.
+La diputada foral de Empleo,
+Cohesión Social e Igualdad,
+TERESA LAESPADA MARTÍNEZ
+cve: BOB-2026a132-(I-844)
+Núm. 132
+BOB
+
+### Resumen Medida 1: Asesoramiento para la creación y puesta en marcha de proyectos empresariales: https://www.bizkaia.eus/home2/archivos/DPTO8/Temas/Empleo%2C%20Inclusi%C3%B3n%20e%20Igualdad/2026/Empleo/Iniciativas%20emprendedoras/Asesoramiento_Autoempleo_Area1_CA2026.pdf?idioma=CA
+PROGRAMA: FOMENTO DE INICIATIVAS EMPRENDEDORAS
+2026
+AUTOEMPLEO: Asesoramiento y formación
+Objeto
+Entidades
+beneficiarias
+Hechos
+subvencionables
+Asesoramiento para la creación y puesta en marcha de proyectos empresariales.
+• Centros de empleo y desarrollo local de carácter municipal.
+• Fundaciones, Asociaciones y otras Entidades sin ánimo de lucro.
+• Las universidades de la Comunidad Autónoma del País Vasco.
+Han de acreditar una experiencia mínima de tres años en asesoramiento en gestión empresarial.
+El asesoramiento individualizado a las personas en los proyectos empresariales que tengan por objeto la realización
+del plan de negocio para la creación de empresa será de un máximo de 40 horas a cada persona promotora para la
+realización del plan de negocio concreto y si tengan por objeto la transmisión empresarial será de un máximo de 80
+horas por persona pormotora.
+El acompañamiento individualizado a los promotores empresariales a fin de que completen la formación indicivudal
+online a través de la plataforma de la “Escuela de emprendimiento Bizkaia”..
+Gastos
+subvencionables
+Cuantía de la
+subvención
+Normativa
+Gastos internos del personal relativos al asesoramiento y acompañamiento individualizado.
+•
+Límite por entidad solicitante: 80.000,00 euros.
+•
+a)
+La cuantía máxima de la ayuda será la resultante de la suma de estos dos conceptos:
+Multiplicar 1.500 euros por la cifra que surja de incrementar el 10% sobre el número total de los proyectos
+asesorados y puestos en marcha desde el 29 de julio de 2024 al 30 de julio de 2025.
+Multiplicar 3.000 euros por la cifra que surja de incrementar el 10% sobre el número total de los proyectos
+de transmision empresarial asesorados y ejecutados desde el 29 de julio de 2024 al 30 de julio de
+2025.
+b)
+DECRETO FORAL de la Diputación Foral de Bizkaia 137/2025, de 29 de diciembre. El procedimiento de concesión
+será el de concurrencia competitiva de la forma establecida en el base 24 con prorrateo.
+DECRETO FORAL 8/2026, de 5 de febrero, de la Diputación Foral de Bizkaia, por el que se rectifica el error del
+Decreto Foral 137/2025
+Plazos de realización de acciones
+Para el cálculo de la subvención se tendrá en cuenta el número de proyectos asesorados y puestos en marcha o
+ejecutados, desde el 31 de julio de 2025 al 30 de julio de 2026.
+Plazos
+Plazo y forma de presentación solicitudes
+•
+El plazo de presentación de solicitudes se iniciará el día 19 de enero de 2026 a las 9:00 y finalizará el 2 de
+febrero de 2026 a las 13:30 horas.
+La solicitud y documentación correspondiente deberán ser presentadas en la Oficina Virtual del Departamento de
+Empleo, Cohesión Social e Igualdad, accediendo a la Sede electrónica de la Diputación Foral de Bizkaia
+www.ebizkaia.eus, seleccionando Oficina virtual de Empleo, Cohesión Social e Igualdad.
+DEPARTAMENTO DE EMPLEO, COHESIÓN SOCIAL E IGUALDAD
+SERVICIO DE EMPLEO
+Alameda Mazarredo, 63, Bajo Izquierda.- Bilbao 48009
+Información: Tf.: 94 406 8008 - lanera.enplegua@bizkaia.eus
+
+### Resumen Medida 2: Ayudas a la puesta en marcha y creación de empresas: https://www.bizkaia.eus/home2/archivos/DPTO8/Temas/Empleo%2C%20Inclusi%C3%B3n%20e%20Igualdad/2026/Empleo/Iniciativas%20emprendedoras/Segunda%20convocatoria/PuestaEnMarcha_Autoempleo_AREA%202%202026%202da%20conv%20cas.pdf?idioma=CA
+PROGRAMA: FOMENTO DE LAS INICIATIVAS EMPRENDEDORAS 2026
+Ayudas a la puesta en marcha y creación de empresas
+Objeto
+Ayudas a la puesta en marcha y funcionamiento durante el primer año de una empresa, cualquiera que sea su forma jurídica,
+creada durante el periodo comprendido entre el 31 de julio de 2025 y el 30 de julio de 2026.
+Podrán acceder a los beneficios de esta ayuda las empresas, cualquiera que sea su forma jurídica, incluyendo los empresarios
+y empresarias individuales y profesionales y las comunidades de bienes y sociedades civiles del Territorio Histórico de
+Bizkaia.
+
+Entidades
+beneficiarias
+Que se hayan dado de alta en actividades económicas en la Hacienda Foral de Bizkaia entre el entre el 31 de julio de
+2025 y el 30 de julio de 2026., ambos inclusive; y mantener dicha alta a la fecha de solicitud de subvención.
+
+Que tengan su domicilio social y fiscal en el Territorio Histórico de Bizkaia. Así mismo, el centro de trabajo radicará
+también en este territorio.
+
+Que la actividad económica en la que se haya causado alta esté directamente relacionada con el plan de negocio
+presentado.
+
+Que al menos una de las personas adquirentes de la entidad beneficiaria cumpla los siguientes requisitos :
+- Ser residente en Bizkaia con una antigüedad mínima de 3 meses ininterrumpidos e inmediatamente anteriores
+al alta de la empresa en IAE;
+- Acreditar desempleo, mejora de empleo (siempre que el contrato de trabajo no supere el 40% de la jornada
+laboral establecida en convenio), estar afectada por un ERTE o ERE o haber realizado prácticas no laborales en
+el momento anterior al alta de la empresa en IAE.
+- Haberse dado de alta en el régimen especial de autónomos o mutualidad equivalente en el período comprendido
+entre el 31 de julio de 2025 y el 30 de julio de 2026., ambos inclusive. Dicho requisito no se exigirá a las
+personas socias trabajadoras de cooperativas de trabajo asociado, y tampoco se exigirá a las personas socias
+trabajadoras de sociedades laborales, en el caso de que hayan optado por darse de alta en el régimen general de
+Seguridad Social. No obstante, dicha alta habrá de producirse en el citado período.
+ Además, una de las persona promotoras, que cumpla los requisitos establecidos en el punto anterior, ha de haber
+realizado el asesoramiento individualizado con las entidades beneficiarias del área 1 del Decreto 137/2025 en el
+período comprendido entre el 31 de julio de 2025 y el 30 de julio de 2026. o con DEMA Enpresa Garapena de
+Barakaldo en el mismo período, y la formación a través de la “Escuela de Emprendimiento Bizkaia”
+A los efectos de realizar solicitudes de subvención, en ningún caso, una persona promotora podrá participar en más de un
+proyecto empresarial..
+Justificación de la
+subvención
+Se realizará con la aportación de los correspondientes comprobantes de abono de las cotizaciones a la Seguridad Social en el
+régimen especial de autónomos, o mutualidad equivalente, generados durante un periodo máximo de un año a partir del alta
+en Actividades Economicas.
+Asimismo, se comprobara que la persona beneficiaria cumple con las obligaciones fiscales y tributarias que le corresponda.
+Cuantía de la
+subvención
+La cuantía de la subvención, será de 5.000 euros por entidad beneficiaria, pudiéndose incrementar en 2.000 euros por cada
+persona socia o promotora que no haya realizado el curso de formación y asesoramiento pero que cumpla todos los
+requisitos establecidos en el Decreto, hasta un máximo de cinco personas socias o promotoras.
+La subvención máxima por entidad beneficiaria ascenderá a 15.000 euros.
+Normativa
+DECRETO FORAL de la Diputación Foral de Bizkaia 137/2025, de 29 de diciembre. El procedimiento de concesión será el de
+concurrencia competitiva.
+ORDEN FORAL 4248/2026, de 9 de julio, por la que se aprueba la segunda convocatoria de la concesión de subvenciones
+para el fomento de iniciativas emprendedoras del ejercicio 2026.
+Plazos
+
+Plazos de realización de acciones de la segunda convocatoria: Entre el 17 de marzo de 2026 y el 30 de julio de
+2026. (ambos inclusive).
+
+El plazo de presentación de las solicitudes de la segunda convocatoria; se iniciará el día 15 de julio de 2026 a las
+8:30 horas y finalizará el 30 de julio de 2026 a las 23:59horas.
+La solicitud y documentación correspondiente deberán ser presentadas en la Oficina Virtual del Departamento de
+Empleo, Cohesión Social e Igualdad, accediendo a la Sede electrónica de la Diputación Foral de Bizkaia
+www.ebizkaia.eus, seleccionando Oficina virtual de Empleo, Cohesión Social e Igualdad.
+DEPARTAMENTO DE EMPLEO, COHESIÓN SOCIAL E IGUALDAD
+SERVICIO DE EMPLEO
+Alameda Mazarredo, 63, Bajo Izquierda.- Bilbao 48009
+Información: Tf.: 94 406 8008 - lanera.enplegua@bizkaia.eus
+
+### Resumen Medida 3: Ayudas a la transmisión empresarial: https://www.bizkaia.eus/home2/archivos/DPTO8/Temas/Empleo%2C%20Inclusi%C3%B3n%20e%20Igualdad/2026/Empleo/Iniciativas%20emprendedoras/Segunda%20convocatoria/Transmisi%C3%B3n%20empresarial%202026_CAST%202%C2%AA%20conv.pdf?idioma=CA
+PROGRAMA: FOMENTO DE INICIATIVAS EMPRENDEDORAS
+Ayudas a la transmisión empresarial 2026
+
+Objeto
+
+Entidades
+beneficiarias
+Justificación de la
+subvención
+Cuantía de la
+subvención
+Normativa
+Ayudas a la transmisión empresarial mediante a)La adquisición de al menos el 80% de una empresa en
+funcionamiento, o mediante b)Traspaso de negocio, durante el periodo comprendido entre el 31 de julio de 2025 y
+el 30 de julio de 2026. La transmisión empresarial ha tenido que ser tutorizada por DEMA o por entidad
+adjudicataria del Área I, aplicando metodología DEMA, (será posible cuando la persona cedente no haya
+determinado previamente el valor de la empresa o negocio a traspasar), y se deberá realizar mediante contrato
+mercantil, en escritura pública, con indicación del valor de fondo de comercio; o, en los casos de traspaso de negocio
+mediante contrato. Se deberá mantener la misma actividad económica durante al menos un año.
+Se excluyen los negocios digitales y las transmisiones entre cónyuges o familiares hasta 3er grado de
+consanguinidad y/o afinidad. Las personas socias trabajadoras de las entidades beneficiarias no han podido ser
+socias o titulares de la entidad que se transmite, en ningún momento previo a la realización del contrato mercantil o
+de traspaso.
+Será beneficiaria de la ayuda la entidad que adquiera el negocio: entendiendo por tal la empresa, cualquiera que sea su forma
+jurídica, incluidos los empresarios y empresarias individuales, así como comunidades de bienes y sociedades civiles del
+Territorio Histórico de Bizkaia. Condiciones:
+ Que la adquisición se haya realizado entre el 31 de julio de 2025 y el 30 de julio de 2026.
+ El cambio de titularidad debe quedar reflejado en ITPyAJD en el caso a) y en el alta en IAE en el caso b).
+ Que tengan su domicilio social y fiscal, así como su centro de trabajo en el Territorio Histórico de Bizkaia.
+ Que se halle al corriente de sus obligaciones tributarias o frente a Seguridad Social.
+ La persona socia trabajadora (teniendo como referencia la fecha reflejada en ITPyAJD o en IAE)
+- Debe ser residente en Bizkaia con una antigüedad mínima de 3 meses ininterrumpidos.
+- Ha de acreditar desempleo, mejora de empleo (siempre que el contrato de trabajo no supere el 40% de la
+jornada laboral establecida en convenio), estar afectada por un ERTE o ERE o haber realizado prácticas no
+laborales. Se exceptúa de este requisito en el caso de que las personas trabajadoras que estén en plantilla de la
+empresa que se vende en el momento inmediatamente anterior a la venta sean las personas adquirentes o socias de
+la empresa que compra.
+- Debe darse de alta en el régimen especial de autónomos o mutualidad equivalente en el período comprendido
+entre el 31 de julio de 2025 y el 30 de julio de 2026, ambos inclusive. Este último requisito no es aplicable a las
+cooperativas de trabajadores asociados ni a las sociedades laborales que se acojan al régimen general.
+ Además, una persona socia de la entidad beneficiaria que cumpla los requisitos mencionados en el punto anterior,
+ha de haber realizado la formación y completado la metodología de la transmisión empresarial empleada por DEMA, y
+así debe constar en Certificado.
+La justificación se presentará en plazo de un mes desde el transcurso de un año desde la fecha de cambio de titularidad en
+Impuesto de Transmisiones Patrimoniales y Actos Jurídicos Documentados para aquellos casos de adquisición empresarial y
+desde la fecha de alta en el IAE de la entidad que solicita subvención en los casos de traspaso de negocio,
+Asimismo, se comprobará que la persona beneficiaria cumple con las obligaciones fiscales y tributarias que le correspondan.
+La subvención por cada entidad beneficiaria será de 10.000 euros. Dicha cuantía se incrementará en 5.000 euros por cada
+persona socia trabajadora que cumpla los requisitos, hasta un máximo de dos personas más.
+En consecuencia, la cantidad total y máxima de subvención a otorgar por cada entidad beneficiaria será de 20.000 euros.
+DECRETO FORAL de la Diputación Foral de Bizkaia 137/2025, de 29 de diciembre. El procedimiento de concesión será el
+de concurrencia competitiva.
+ORDEN FORAL 4248/2026, de 9 de julio, por la que se aprueba la segunda convocatoria de la concesión de subvenciones
+para el fomento de iniciativas emprendedoras del ejercicio 2026
+Plazos de realización de acciones: entre el 17 de marzo de 2026 y el 30 de julio de 2026 (ambos inclusive)
+Plazos
+Plazo de presentación solicitudes: Se iniciará el 15 de julio de 2026 a las 8:30 horas y finalizará el 30 de julio de 2026 a las
+23:59 horas.
+La solicitud y documentación correspondiente deberán ser presentadas en la Oficina Virtual del Departamento de Empleo,
+Cohesión Social e Igualdad, accediendo a la Sede electrónica de la Diputación Foral de Bizkaia www.ebizkaia.eus,
+seleccionando Oficina virtual de Empleo, Cohesión Social e Igualdad.
+DEPARTAMENTO DE EMPLEO, COHESIÓN SOCIAL E IGUALDAD
+SERVICIO DE EMPLEO
+Alameda Mazarredo, 63, Bajo Izquierda.- Bilbao 48009
+Información: Tf.: 94 406 8008 - lanera.enplegua@bizkaia.eus
+
+### Entidades Asesoras Emprendiemiento: https://www.bizkaia.eus/home2/archivos/DPTO8/Temas/Empleo%2C%20Inclusi%C3%B3n%20e%20Igualdad/2023/Empleo/Ekintzaileen%20Entitate%20Laguntzaileak%20-%20Entidades%20Asesoras%20Emprendimiento.pdf?idioma=CA
+Entidades Asesoras Emprendimiento / Ekintzaileen Entitate Laguntzaileak
+ABANTO-ZIERBENA ZERBITZUAK SL
+ASOC TURISMO ENCARTACIONES ENKARTUR DE BALMASEDA
+ASOCIACION EMPRESARIAL ASLE
+AYUNTAMIENTO DE ERANDIO-BEHARGINTZA
+AYUNTAMIENTO DE ERMUA-ERMUAKO UDALA
+AYUNTAMIENTO DE GETXO-GETXOKO UDALA
+AYUNTAMIENTO DE LEIOA-BEHARGINTZA
+AYUNTAMIENTO DE PORTUGALETE-PORTUGALETEKO UDALA
+AYUNTAMIENTO DE SESTAO
+BEHARGINTZA BASAURI-ETXEBARRI, S.L.
+BEHARGINTZA DE SANTURTZI
+BEHARGINTZA TXORIERRI SL
+BERMEOKO UDALA-BEHARGINTZA
+CAMARA OFICIAL DE COMERCIO, INDUSTRIA, SERVICIOS Y NAVEGACIÓN DE BILBAO
+CARITAS DIOCESANA DE BILBAO
+CENTRO INICIATIVAS PROFESIONALES DE GERNIKA
+DEMA ENPRESA GARAPENA
+ENTIDAD PUBLICA EMPRESARIAL LOCAL BILBAO EKINTZA
+FORLAN
+GALDAKAOKO UDALA
+INTEGRA SOCIAL OUTSOURCING SCOOP
+LEARTIBAI FUNDAZIOA
+MANCOMUNIDAD MERINDAD DE DURANGO
+MEATZALDEKO BEHARGINTZA SL
+MUNGIALDEKO BEHARGINTZA SL
+ORGANISMO AUTONOMO PARA EL IMPULSO DEL DESARROLLO INTEGRAL LOCAL DE BARAKALDO - INGURALDE
+SOCIEDAD PARA LA PROMOCION DE COOP ELKAR-LAN SCOOP
+URIBE KOSTAKO BEHARGINTZA SL
+
+### Ficha de acreedor: Documento de domiciliación bancaria para subvenciones: https://www.bizkaia.eus/home2/archivos/DPTO8/Temas/Empleo%2C%20Inclusi%C3%B3n%20e%20Igualdad/2023/Empleo/Ficha%20bancaria.pdf?idioma=CA
+Banku-helbideratzearen fitxa / Ficha de domiciliación bancaria
+Banku-kontuaren jabeduna
+Persona titular de la cuenta bancaria
+(derrigorrez betetzekoak)
+(cumplimentación obligatoria)
+Izena eta deitura bi edo Sozietatearen Izena / Nombre y dos apellidos o Razón Social
+Helbidea / Domicilio:
+Herria / Población
+Probintzia / Provincia
+NAN edo IFZ / DNI o NIF
+Telefonoa / Teléfono
+PK / CP
+Faxa / Fax
+e-mail:
+Banku-kontuan ahaldun edo baimenduna
+Persona apoderada o autorizada en la cuenta bancaria
+Izena eta deitura bi / Nombre y dos apellidos
+Helbidea / Domicilio
+Herria / Población
+Probintzia / Provincia
+NAN edo IFZ / DNI o NIF
+Telefonoa / Teléfono
+PK / CP
+Faxa / Fax
+e-mail:
+Helbideratzea egiteko baimena
+Autorización para la domiciliación
+Baimena ematen diot Bizkaiko Foru Aldundiari kontu hau erabil
+dezan ordaintzeko edozein prestazio, diru-laguntza edo dirukopurua, eskatzaile edo hartzekodun bezala jasotzeko eskubidea
+dudana; era berean, ordaindu behar diodan edozein likidazioa
+egiteko, prezio publikoengatik, prestazio zein laguntzekin
+zerikusia izan dezaketen itzulketengatik edo beste
+zergatirengatik.
+Autorizo a la Diputación Foral de Bizkaia a utilizar esta cuenta para
+el abono de cualquier tipo de prestación, ayuda o cantidad que como
+solicitante o parte acreedora tenga yo derecho a percibir, así como
+para el pago de cualquier liquidación que deba abonarle por precios
+públicos, posibles reintegros relacionados con prestaciones y
+ayudas, u otro motivo.
+n, 20
+(e)ko
+k
+En
+,a
+de
+de 20
+Banku-kontuaren jabedunaren, ahaldun edo baimenduaren sinadura / Firma de la persona titular, apoderada o autorizada.
+Banketxeak bete beharreko datuak (*) / Datos a cumplimentar por la entidad bancaria (*)
+Jarraian aipatuko den kontua badagoela ziurtatzen dugu, eta titularra goian adierazitakoa dela.
+Certificamos la existencia de la cuenta a continuación referenciada, cuya persona titular es la arriba indicada.
+Finantza erakundearen izena / Nombre de la entidad financiera
+IBAN / IBAN
+E
+Bankua / Entidad
+Bulegoa / Sucursal
+K.C / D.C Kontu-zenbakia / Número de cuenta
+S
+Herria / Población
+Probintzia / Provincia
+n, 20
+(e)ko
+k
+En
+,a
+PK / CP
+de
+de 20
+Banketxearen sinadura eta zigilua / Firma y sello de la entidad bancaria
+(*) Gizarte Ekintza Sailerako, Bizkaiko Foru Aldundiaren laguntzailea izango da derrigorrez (2017/63 Foru Dekretua).
+Para el Departamento.de Acción Social, será colaboradora de la Diputación Foral de Bizkaia (Decreto Foral 63/2017).
+Garbitu / Limpiar
+DATUAK BABESTEARI BURUZKO INFORMAZIOA
+DATU PERTSONALEN BABESTEARI BURUZKO 2016/679 ERREGELAMENDUA [EB]) / 3/2018 L. O. DATU PERTSONALEN BABESARI ETA ESKUBIDE DIGITALEN BERMEA
+INFORMACIÓN SOBRE PROTECCIÓN DE DATOS
+REGLAMENTO (UE) 2016/679 DE PROTECCIÓN DE DATOS y LOPD Y GARANTÍA DE DERECHOS DIGITALES 3/2018
+Tratamenduaren arduraduna eta kontaktua
+Finantza, Aurrekontu eta Ondarearen Ogasuneko Zuzendaritza Nagusia.
+Basurtuko Kaputxinoen Bidea, 2 - 48013 Bilbao.
+Responsable del tratamiento y contacto
+Dirección General de Finanzas, Presupuestos y Patrimonio.
+Calle Capuchinos de Basurto, 2 - 48013 Bilbao.
+Tratamenduaren helburua
+Kobrantzak eta ordainketak aplikatzea. Halakotzat joko dira Bizkaiko Foru
+Aldundiak kobratzeko eskubideak eta ordaintzeko betebeharrak betetzeko
+egiten dituen jarduera guztiak.
+Finalidad del tratamiento
+La aplicación de los cobros y pagos, entendiendo por tal el conjunto de
+actividades de la Diputación Foral de Bizkaia relacionadas con el cumplimiento
+de sus derechos de cobro y sus obligaciones de pago.
+Interesdunaren eskubideak
+Interesdunak tratamenduaren arduradunaren aurrean balia ditzake bere
+datuetan sartu, datuok zuzendu, aurkaratu, ezabatu edo haien
+tratamendua mugatzeko eskubidea, eta erabaki indibidual automatizatuen
+helburu ez izan; horretarako, idazki bat Lege Aholkularitza, Informazioaren
+Segurtasuna eta Datu Babesa Bideratzeko Atalari bidalita, helbide
+honetara:
+Derechos de la persona interesada
+La persona interesada puede ejercer ante el Responsable de tratamiento sus
+derechos de acceso, rectificación, oposición, supresión, limitación del
+tratamiento y no ser objeto de decisiones individuales automatizadas,
+mediante escrito dirigido a la Sección de Asesoramiento Jurídico, Seguridad de
+la Información y Protección de Datos en:
+•
+BFAren egoitza elektronikoa: https://www.ebizkaia.eus
+•
+Bizkaiko Foru Aldundiaren Erregistro Nagusia. (Erregistroa eta
+Herritarrenganako Laguntza Bideratzeko Bulegoa, Laguntza:
+Diputazio kalea 7- 48008 Bilbo)
+•
+Bizkaiko Foru Aldundiaren herritarrei laguntzeko eskualdebulegoak
+•
+Bizkaiko Foru Aldundiko sailetako erregistro nagusiak
+•
+39/2015 Legean aurreikusitako tokiak
+•
+•
+Sede electrónica de la DFB: https://www.ebizkaia.eus
+•
+Oficinas Comarcales de Atención Ciudadana de la Diputación Foral de
+Bizkaia
+•
+•
+Registros Generales Departamentales de la Diputación Foral de Bizkaia
+Registro Central de la Diputación Foral de Bizkaia (Oficina de Registro y
+Atención Ciudadana Laguntza: C/ Diputación, 7- 48008 Bilbao)
+Lugares previstos en la Ley 39/2015
+Datuak Babesteko ordezkariaren kontaktu datuak
+Lege Aholkularitza, Informazio Segurtasuna eta Datu Babesa Bideratzeko
+Atalaren Burua
+Kale Nagusia, 2-6. – 48001 Bilbo
+Contacto de la persona delegada de Protección de Datos
+Jefatura de la Sección de Asesoramiento Jurídico, Seguridad de la Información
+y Protección de Datos
+Gran Vía, 2-6º – 48001 Bilbao
+Tratamenduaren legitimazioa
+3/1979 Lege Organikoa, abenduaren 18koa, Euskal Herriaren Autonomia
+Estatutuarena. 42. artikulua.
+27/1983 Legea, azaroaren 25ekoa,
+Autonomia Erkidego Osorako Erakundeen eta Lurralde Historikoetako
+Foru Erakundeen arteko Harremanei buruzkoa. 7. artikulua, a) letra, 4.
+zenbakia. 5/2013 Foru Dekretu Arauemailea, abenduaren 3koa,
+Aurrekontuei buruzko abenduaren 29ko 5/2006 Foru Arauaren testu
+bategina onartzen duena. 2/2005 Foru Araua, martxoaren 10ekoa,
+Bizkaiko Lurralde Historikoko Zergei buruzkoa.
+Legitimación del tratamiento
+Art. 42 de la Ley Orgánica 3/1979, de 18 de diciembre, de Estatuto de
+Autonomía para el País Vasco. Art. 7, letra a, punto 4 de la Ley 27/1983, de
+25 de noviembre, de Relaciones entre las Instituciones Comunes de la
+Comunidad Autónoma y los Órganos Forales de sus Territorios Históricos.
+Decreto Foral Normativo 5/2013, de 3 de diciembre, por el que se aprueba el
+texto refundido de la Norma Foral 5/2006, de 29 de diciembre, General
+Presupuestaria. Normal Foral 2/2005, de 10 de marzo, General tributaria del
+Territorio Histórico de Bizkaia.
+Datuen hartzaileak
+Sektore publikoaren barruan eta eskumen publikoak betetzeko, datuak
+foru-aldundiei, Bilboko Merkataritza, Industria, Zerbitzu eta Itsasketa
+Ganberari, Eusko Jaurlaritzako sailei, Gizarte Segurantzaren Diruzaintza
+Nagusiari, udalei eta beste administrazio publiko batzuei lagatzeko aukera
+ezartzen da, Zergei buruzko 2/2005 Foru Arauaren 93. eta 94 bis
+artikuluetan ezarritakoarekin bat etorrita.
+Personas destinatarias de los datos
+Se establece la posibilidad de cesión dentro del sector público en el ejercicio
+de competencias públicas a Diputaciones Forales, Cámara de Comercio,
+Industria, Servicios y Navegación de Bilbao, Departamentos del Gobierno
+Vasco, Tesorería General de la Seguridad Social, Ayuntamientos y otras
+Administraciones Públicas, de conformidad con los art. 93 y 94 bis de la
+Norma Foral General Tributaria 2/2005.
+Datuak gordetzeko epea
+Prozedura izapidetzeko beharrezkoa den denbora eta tratamenduaren
+ondorioz gerta litezkeen erantzukizunen preskripzio-epea amaitzea.
+Plazo de conservación de los datos
+Tiempo necesario para la tramitación del procedimiento y cumplimiento del
+plazo de prescripción de posibles responsabilidades que deriven del
+tratamiento.
+Interesdunen kategorien deskribapena
+Eskatzaileak eta/edo haien ordezkariak.
+Interesduna eta/edo haren ordezkaria.
+Onuradunak eta/edo haren ordezkaria.
+Entitateetako titularrak, kudeatzaileak edo ordezkariak.
+Zergadunak eta/edo behartuta dauden subjektuak.
+Descripción de las categorías de personas interesadas
+Solicitantes y/o sus representantes.
+Persona interesada y/o su representante.
+Personas beneficiarias y/o su representante.
+Personas titulares, gestoras o representantes de las entidades.
+Contribuyentes y/o sujetos obligados.
+Segurtasuneko neurri teknikoen eta antolakuntzakoen deskribapen orokorra
+Informazio-sistemak kategorizatzea eta segurtasuneko neurriak ezartzea,
+Administrazio Elektronikoaren esparruan Segurtasuneko Eskema Nazionala
+arautzen duen 3/2010 Errege Dekretuak xedatutakoari jarraiki.
+Descripción general de las medidas técnicas y organizativas de seguridad
+Categorización de sistemas de información y aplicación de medidas de
+seguridad de acuerdo con el Real Decreto 3/2010, del Esquema Nacional de
+Seguridad en el ámbito de la Administración Electrónica.
+2
