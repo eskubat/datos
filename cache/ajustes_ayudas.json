@@ -530,5 +530,44 @@
   "inicio": null,
   "fin": null,
   "motivo": "Ayudas anuales: la solicitud de 2026 cerró el 14/04/2026 según la sede; el trámite abierto es la justificación y solicitud de abono. Criterio del responsable, 16/11/2026 (tarea de resúmenes, 17/11/2026)."
+ },
+ "ara-ayuda-lucha-contra-polilla-vinedo-2026": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Programa anual: la convocatoria de 2026 se pudo pedir del 15/07 al 10/08/2026 (circular de SEA); la fecha 31/03/2027 no es de solicitud. Próxima sin fechas hasta la convocatoria de 2027. Decisión del responsable, 17/11/2026."
+ },
+ "ara-ayudas-destinadas-a-incentivar-la-euskaldunizacion-de-person": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Programa anual: la solicitud del curso 2025-2026 acabó el 30/09/2025 y no hay convocatoria del curso 2026-2027; el fin 31/12/2027 no aparece en ningún documento. Próxima sin fechas. Decisión del responsable, 17/11/2026."
+ },
+ "ara-ayudas-turismo-actividad-cuadrillas-2026": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Programa anual: la ficha de la sede llega vacía y no se encuentra la convocatoria de 2026 en el BOTHA. Próxima sin fechas hasta poder leer la convocatoria oficial. Decisión del responsable, 17/11/2026."
+ },
+ "ara-ayudas-turismo-actividad-pymes-2026": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Programa anual: la ficha de la sede llega vacía y no se encuentra la convocatoria de 2026 en el BOTHA. Próxima sin fechas hasta poder leer la convocatoria oficial. Decisión del responsable, 17/11/2026."
+ },
+ "ara-convocatoria-de-subvenciones-con-destino-a-entidades-locales": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Programa anual: según la convocatoria (BOTHA nº 75 de 3/07/2026) la solicitud fue del 3 al 31/07/2026; el 18/12/2026 es la fecha límite de justificación. Próxima sin fechas. Decisión del responsable, 17/11/2026."
+ },
+ "bdns-927212": {
+  "ocultar": true,
+  "motivo": "Subvención directa del Ayuntamiento de Barakaldo a una sola entidad (Gure Toki): nadie más puede pedirla. Decisión del responsable, 17/11/2026."
+ },
+ "ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-format": {
+  "ocultarHastaFicha": true,
+  "huellaFicha": "254f72837483f873",
+  "motivo": "Retenida hasta tener las bases de la convocatoria de 2026 y rehacer la ficha; el BOTHA 111/2025 (2025_111_02801) es una relación de subvenciones concedidas en 2024, no las bases. Decisión del responsable, 17/11/2026."
  }
 }

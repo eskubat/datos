@@ -676,5 +676,17 @@
   "quien": "Claude",
   "estado": "pendiente",
   "fecha": "2026-11-17"
+ },
+ {
+  "id": "docx-convocatorias",
+  "titulo": "Leer los documentos Word (.docx) enlazados como convocatoria",
+  "detalle": "El recolector no saca el texto de los documentos Word: la convocatoria de ayudas contra la soledad no deseada de Álava (https://egoitza.araba.eus/documents/d/egoitza/2-convocatoria-ayudas-soledad-docx), ya en cache/docs_extra.json, no aparece en cache/fuentes, y en recolector/enlaces.js los enlaces .docx se descartan. Extraer el texto de los .docx (y de las URL de egoitza.araba.eus terminadas en -docx) para que la ficha de ara-ayudas-a-proyectos-contra-la-soledad-no-deseada-2026 pueda completar el importe por proyecto, el porcentaje y los requisitos; después reabrir esa ficha.",
+  "fuente": "Documentos .docx de la sede de Álava",
+  "quien": "Claude",
+  "prioridad": 37,
+  "estado": "pendiente",
+  "seccion": "fuentes",
+  "fecha": "2026-11-17",
+  "nota": "Añadida al plan de mejoras"
  }
 ]
