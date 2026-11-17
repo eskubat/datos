@@ -613,5 +613,16 @@
   "prioridad": 31,
   "estado": "pendiente",
   "seccion": "fuentes"
+ },
+ {
+  "id": "araba-plazo-tramite-solicitud",
+  "titulo": "Tomar el plazo del trámite «Solicitud» en las fichas de la sede de Álava",
+  "detalle": "Con la nueva lectura de la sede (portlet JSON) cada ficha trae varios plazos: el del procedimiento (p. ej. «ABIERTO (10/04/2026 - 31/12/2026)») y el de cada trámite («Solicitud»: CERRADO, «Presentación justificación» o «Solicitud pago»: ABIERTO). El recolector toma el primero y deja como abiertas ayudas cuya solicitud ya cerró: cosecha en verde (solicitud hasta 29/04/2026), becas Fuentes Documentales (21/04/2026), inversiones en explotaciones agrarias (14/04/2026), fruticultura (16/03/2026), formación para el empleo y atención sociosanitaria (27/04 y 22/05/2026). Propuesta: en recolector/forales.js usar el «descripcion plazo» del bloque cuya «denominacion tramite» sea «Solicitud» (o «Convocatoria … - Solicitud») y, si no hay, el del procedimiento. Mientras tanto, la tarea de resúmenes ha marcado como próximas (cache/ajustes_ayudas.json) las tres que salían abiertas.",
+  "seccion": "fuentes",
+  "prioridad": 32,
+  "fuente": "Tarea de resúmenes (17/11)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "fecha": "2026-11-17"
  }
 ]

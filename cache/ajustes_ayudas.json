@@ -512,5 +512,23 @@
   "permanente": false,
   "textoPlazo": "La convocatoria de 2026 cerró el 21/09/2026; la de 2027 aún no se ha publicado.",
   "motivo": "Programa anual (antes Global Training); la convocatoria de 2026 tuvo plazo del 23/07 al 21/09/2026. Se mantiene como próxima sin fechas hasta la de 2027. Pedido por el responsable, 17/11/2026."
+ },
+ "ara-ayuda-cosecha-en-verde-2026": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Programa anual (convocado también en 2024 y 2025, BOPV 04/04/2025): la solicitud de 2026 cerró el 29/04/2026 y la convocatoria está resuelta (BOPV 06/07/2026); el plazo abierto de la sede es el del procedimiento. Criterio del responsable, 16/11/2026 (tarea de resúmenes, 17/11/2026)."
+ },
+ "ara-becas-de-investigacion-fuentes-documentales-de-alava-2026": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Becas anuales (convocadas también en años anteriores): la solicitud de 2026 cerró el 21/04/2026 según la sede; el plazo abierto hasta 01/01/2027 es el del procedimiento. Criterio del responsable, 16/11/2026 (tarea de resúmenes, 17/11/2026)."
+ },
+ "ara-ayudas-inversiones-explotaciones-agrarias-2026": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Ayudas anuales: la solicitud de 2026 cerró el 14/04/2026 según la sede; el trámite abierto es la justificación y solicitud de abono. Criterio del responsable, 16/11/2026 (tarea de resúmenes, 17/11/2026)."
  }
 }
