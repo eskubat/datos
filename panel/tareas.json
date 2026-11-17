@@ -715,5 +715,17 @@
   "seccion": "fuentes",
   "fecha": "2026-11-17",
   "nota": "Añadida al plan de mejoras"
+ },
+ {
+  "id": "proximas-textos-claude",
+  "titulo": "Que comprobar.js acepte en las próximas las cifras de cache/textos_claude/",
+  "detalle": "En la sección de próximas de recolector/comprobar.js, la comprobación de cifras solo lee el archivo de cache/fuentes_prox/ y no cache/textos_claude/<id>.txt (en las fichas normales sí). Por eso las fichas de próximas no pueden dar las cifras de la convocatoria más reciente cuando la tarea la encuentra en el boletín (p. ej. Osalan 2026: 133,58 €/hora; Morrokotudak 2026: importes por titulación) y se quedan con las del año anterior. Añadir textosClaude(id) a la documentación que se compara en las próximas, como en las fichas.",
+  "fuente": "comprobar.js (próximas)",
+  "quien": "Claude",
+  "prioridad": 30,
+  "estado": "pendiente",
+  "seccion": "datos",
+  "fecha": "2026-11-17",
+  "nota": "Añadida al plan de mejoras por la tarea de resúmenes"
  }
 ]
