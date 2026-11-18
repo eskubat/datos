@@ -670,8 +670,9 @@
   "prioridad": 35,
   "fuente": "Plan de mejora (bdns-fecha-bob)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-17"
+  "estado": "hecha",
+  "fecha": "2026-11-18",
+  "nota": "Quedan 93 convocatorias de la BDNS sin fecha de publicación; 26 tampoco tienen cierre y 18 de ellas son de Bizkaia con el plazo contado desde el anuncio en el BOB (registradas desde el 20/08). Nuevo boletines.sumariosBob: lee los sumarios del BOB del año (hasta 60 números al día, del más reciente hacia atrás, con caché en cache/bob_sumarios.json que guarda solo los códigos BDNS) y el recolector pone a esas convocatorias la fecha del anuncio para que finDelTexto calcule el cierre. Probado con sumarios de prueba; la red de la sesión no llega a bizkaia.eus, así que la primera prueba real será el recolector de las 05:41: se espera fecha para la mayoría de las 18 de Bizkaia en uno o dos días, y muchas pasarán a cerradas (no hay ayudas nuevas)."
  },
  {
   "id": "araba-botha-sumarios-revisar",

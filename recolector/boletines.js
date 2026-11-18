@@ -194,26 +194,79 @@ async function bob(desde, vistos, log) {
     if (pub && pub < isoDia(desde)) break;
     vistos.add(clave);
     const pdfCompleto = `http://www.bizkaia.eus/lehendakaritza/Bao_bob/${año}/${String(mes).padStart(2, '0')}/BOB-${año}a${n3}.pdf`;
-    // En el sumario del BOB la referencia va al final de la PRIMERA línea de cada anuncio
-    let entidad = '', cur = null;
-    const cierra = () => {
-      if (!cur) return;
-      const tit = cur.lineas.join(' ').replace(/(\w)- (\w)/g, '$1$2').replace(/\s+/g, ' ').trim();
-      if (util(tit)) {
-        const bdns = (tit.match(/BDNS\s*\(Identif\.?\)\s*:?\s*(\d+)/i) || [])[1] || null;
-        out.push({ boletin: 'BOB', titulo: tit.replace(/\s*BDNS\s*\(Identif\.?\).*$/i, ''), entidad: cur.entidad, terr: 'Bizkaia', publicacion: pub, url: pdfCompleto, ref: cur.ref, bdnsRef: bdns });
-      }
-      cur = null;
-    };
-    for (const raw of txt.split('\n')) {
-      const l = raw.trim();
-      if (!l || /^(BOLET[IÍ]N OFICIAL|BOB$|N[uú]m\.|cve:|SECCI[OÓ]N|ADMINISTRACI[OÓ]N (FORAL|LOCAL|DEL ESTADO|AUTON))/i.test(l)) continue;
-      const ref = l.match(/(BOB-\d{4}a\d{3}-\((?:I|II|III|IV|V)-\d+\))\s*$/);
-      if (ref) { cierra(); cur = { ref: ref[1], entidad, lineas: [l.replace(ref[1], '').trim()] }; continue; }
-      if (/^(Ayuntamiento|Diputaci[oó]n Foral|Departamento|Mancomunidad|Consorcio|Juntas Generales|DIPUTACI[OÓ]N FORAL)\b/.test(l) && l.length < 100 && !/[.,]$/.test(l)) { cierra(); entidad = l; continue; }
-      if (cur) cur.lineas.push(l);
+    for (const e of entradasSumarioBob(txt)) {
+      if (!util(e.completo)) continue;
+      out.push({ boletin: 'BOB', titulo: e.titulo, entidad: e.entidad, terr: 'Bizkaia', publicacion: pub, url: pdfCompleto, ref: e.ref, bdnsRef: e.bdns });
     }
-    cierra();
+  }
+  return out;
+}
+
+// Anuncios del sumario del BOB: [{ref, entidad, titulo, bdns}]. La referencia va al final de la PRIMERA línea de
+// cada anuncio y el código BDNS («BDNS (Identif.): 929190»), si lo hay, al final del título.
+export function entradasSumarioBob(txt) {
+  const out = [];
+  let entidad = '', cur = null;
+  const cierra = () => {
+    if (!cur) return;
+    const tit = cur.lineas.join(' ').replace(/(\w)- (\w)/g, '$1$2').replace(/\s+/g, ' ').trim();
+    const bdns = (tit.match(/BDNS\s*\(Identif\.?\)\s*:?\s*(\d+)/i) || [])[1] || null;
+    out.push({ ref: cur.ref, entidad: cur.entidad, titulo: tit.replace(/\s*BDNS\s*\(Identif\.?\).*$/i, ''), completo: tit, bdns });
+    cur = null;
+  };
+  for (const raw of String(txt || '').split('\n')) {
+    const l = raw.trim();
+    if (!l || /^(BOLET[IÍ]N OFICIAL|BOB$|N[uú]m\.|cve:|SECCI[OÓ]N|ADMINISTRACI[OÓ]N (FORAL|LOCAL|DEL ESTADO|AUTON))/i.test(l)) continue;
+    const ref = l.match(/(BOB-\d{4}a\d{3}-\((?:I|II|III|IV|V)-\d+\))\s*$/);
+    if (ref) { cierra(); cur = { ref: ref[1], entidad, lineas: [l.replace(ref[1], '').trim()] }; continue; }
+    if (/^(Ayuntamiento|Diputaci[oó]n Foral|Departamento|Mancomunidad|Consorcio|Juntas Generales|DIPUTACI[OÓ]N FORAL)\b/.test(l) && l.length < 100 && !/[.,]$/.test(l)) { cierra(); entidad = l; continue; }
+    if (cur) cur.lineas.push(l);
+  }
+  cierra();
+  return out;
+}
+
+// Sumarios del BOB de todo el año (tarea bdns-fecha-bob-antiguas, 18/11): muchas convocatorias municipales de
+// Bizkaia llegan de la BDNS sin fecha de publicación y su plazo cuenta desde el anuncio en el BOB, que a menudo es
+// anterior a los 45 días que lee bob(). Cada número leído se guarda en cache/bob_sumarios.json con solo los anuncios
+// que traen código BDNS ({numeros: {"AAAA-NNN": {publicacion, url, bdns: {código: ref}}}}), y en cada pasada se leen
+// como mucho `max` números que falten, del más reciente hacia atrás: el año entero se completa en pocos días.
+// Devuelve {código BDNS: {publicacion, ref, url}} (si un código sale dos veces, vale el primer anuncio).
+export async function sumariosBob(log = console.log, max = 60) {
+  const archivo = path.join('cache', 'bob_sumarios.json');
+  const c = leer(archivo, { numeros: {} });
+  const portada = await bajar('https://www.bizkaia.eus/es/bob');
+  const m = portada && portada.match(/Bao_bob\/Sumario\/(\d{4})\/(\d{2})\/BOB-\d{4}a(\d{3})s\.pdf/);
+  if (m) {
+    const año = Number(m[1]);
+    let mes = Number(m[2]);
+    for (const k of Object.keys(c.numeros)) if (+k.slice(0, 4) < año - 1) delete c.numeros[k];
+    let leidos = 0, nuevos = 0, fallos = 0;
+    for (let num = Number(m[3]); num > 0 && leidos < max && fallos < 5; num--) {
+      const n3 = String(num).padStart(3, '0');
+      const clave = `${año}-${n3}`;
+      if (c.numeros[clave]) { const p = c.numeros[clave].publicacion; if (p) mes = Number(p.slice(5, 7)); continue; }
+      leidos++;
+      let txt = null;
+      for (const mm of [mes, mes - 1]) {
+        if (mm < 1) continue;
+        txt = await bajar(`http://www.bizkaia.eus/lehendakaritza/Bao_bob/Sumario/${año}/${String(mm).padStart(2, '0')}/BOB-${año}a${n3}s.pdf`, { pdf: true });
+        if (txt) { mes = mm; break; }
+      }
+      if (!txt) { fallos++; continue; }
+      fallos = 0;
+      const bdns = {};
+      for (const e of entradasSumarioBob(txt)) if (e.bdns && !bdns[e.bdns]) bdns[e.bdns] = e.ref;
+      c.numeros[clave] = { publicacion: fechaSumario(txt), url: `http://www.bizkaia.eus/lehendakaritza/Bao_bob/${año}/${String(mes).padStart(2, '0')}/BOB-${año}a${n3}.pdf`, bdns };
+      nuevos += Object.keys(bdns).length;
+    }
+    log(`BOB (sumarios del año): ${leidos} números leídos, ${nuevos} anuncios con código BDNS nuevos, ${Object.keys(c.numeros).length} números guardados`);
+    fs.writeFileSync(archivo, JSON.stringify(c, null, 1));
+  } else log('BOB (sumarios del año): no se encuentra el último boletín');
+  const out = {};
+  for (const k of Object.keys(c.numeros).sort()) {
+    const n = c.numeros[k];
+    for (const [cod, ref] of Object.entries(n.bdns || {})) if (!out[cod] && n.publicacion) out[cod] = { publicacion: n.publicacion, ref, url: n.url };
   }
   return out;
 }

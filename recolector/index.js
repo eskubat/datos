@@ -345,6 +345,23 @@ async function main() {
     for (const [a, b] of porTitulo) fechaDelBoletin(a, b);
     log(`Boletines: ${(resultados.boletines || []).length - dup} ayudas nuevas (${dup} ya estaban por otras fuentes; ${conFecha} de la BDNS toman la fecha de publicación del boletín)`);
   }
+  // Convocatorias de la BDNS que siguen sin fecha de publicación (su anuncio en el BOB es anterior a los 45 días de
+  // los boletines): se busca su código BDNS en los sumarios del BOB del año (boletines.sumariosBob, con caché) y se
+  // toma la fecha del anuncio para que finDelTexto calcule el cierre (tarea bdns-fecha-bob-antiguas, 18/11).
+  try {
+    const sin = ayudas.filter((a) => String(a.id).startsWith('bdns-') && !a.publicacion && a.bdns);
+    if (sin.length) {
+      const porCodigo = await boletines.sumariosBob(log);
+      const halladas = [];
+      for (const a of sin) {
+        const b = porCodigo[String(a.bdns)];
+        if (!b) continue;
+        a.publicacion = b.publicacion; a.publicacionFuente = 'Boletín Oficial de Bizkaia';
+        halladas.push(a.id);
+      }
+      log(`BDNS sin fecha de publicación: ${sin.length}; encontrada en los sumarios del BOB del año: ${halladas.length}${halladas.length ? ' · ' + halladas.slice(0, 40).join(', ') : ''}`);
+    }
+  } catch (e) { log(`BDNS sin fecha de publicación (sumarios del BOB): ${e.message}`); }
   // Prestaciones permanentes: solo las que no llegan ya por otra fuente (misma página o mismo título en el mismo ámbito)
   {
     const urls = new Set(ayudas.map((a) => a.url));
