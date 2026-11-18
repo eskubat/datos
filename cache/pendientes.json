@@ -81,24 +81,6 @@
   "caracteres": 5840
  },
  {
-  "id": "botha-2026-133-03253-c-pdf",
-  "h": "fc74f872ed567f2b",
-  "titulo": "Ayudas para aprender euskera. Año académico. Listas definitivas. . \b",
-  "organismoSugerido": "ayto-vitoria-gasteiz",
-  "organismoFuente": "Ayuntamiento de Vitoria-Gasteiz",
-  "archivo": "cache/fuentes/botha-2026-133-03253-c-pdf-87da08f9.txt",
-  "caracteres": 21505
- },
- {
-  "id": "ue-cs-valleys-open-call-1",
-  "h": "70f3e171f9088670",
-  "titulo": "Valleys Open Call #1",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-cs-valleys-open-call-1-e57d4050.txt",
-  "caracteres": 1512
- },
- {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
   "h": "b0ecc4da6bcbfe27",
   "titulo": "EDIP, Programa Europeo de la Industria de Defensa",
@@ -187,15 +169,6 @@
   "organismoFuente": "Ayuntamiento de barakaldo",
   "archivo": "cache/fuentes/bdns-929714-71f80b33.txt",
   "caracteres": 214972
- },
- {
-  "id": "botha-2026-133-03269-c-pdf",
-  "h": "55e6328ff809f0f3",
-  "titulo": "Subvenciones en el ámbito cultural, deportivo y social",
-  "organismoSugerido": "ayto-valdegovia-gaubea",
-  "organismoFuente": "Ayuntamiento de Valdegovía/Gaubea",
-  "archivo": "cache/fuentes/botha-2026-133-03269-c-pdf-a72cc71a.txt",
-  "caracteres": 26396
  },
  {
   "id": "ue-cs-restack-open-call-2027-01r",
@@ -295,15 +268,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-cs-resist-ii-product-innovation-open-call-385d00a0.txt",
   "caracteres": 4876
- },
- {
-  "id": "ue-cs-techstars-x-eit-urban-mobility-founder-catalyst-programme",
-  "h": "df6871448cce654f",
-  "titulo": "Techstars x EIT Urban Mobility Founder Catalyst programme",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-cs-techstars-x-eit-urban-mobility-founder-catalyst-progra-2392c8df.txt",
-  "caracteres": 10226
  },
  {
   "id": "bdns-942548",
@@ -502,23 +466,5 @@
   "organismoFuente": "Ayuntamiento de Valdegovía/Gaubea",
   "archivo": "cache/fuentes/botha-2026-133-03268-c-pdf-fd7203f3.txt",
   "caracteres": 19311
- },
- {
-  "id": "botha-2026-133-03267-c-pdf",
-  "h": "08edca0d3e89013f",
-  "titulo": "Decreto Foral 43/, de 10 de noviembre, del Consejo de Gobierno Foral",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/botha-2026-133-03267-c-pdf-ee0c35bd.txt",
-  "caracteres": 28179
- },
- {
-  "id": "botha-2026-133-03270-c-pdf",
-  "h": "05c8cbdb556c1c2d",
-  "titulo": "Subvenciones en el ámbito deportivo para deportistas federados no profesionales",
-  "organismoSugerido": "ayto-valdegovia-gaubea",
-  "organismoFuente": "Ayuntamiento de Valdegovía/Gaubea",
-  "archivo": "cache/fuentes/botha-2026-133-03270-c-pdf-7d3624c8.txt",
-  "caracteres": 12459
  }
 ]
