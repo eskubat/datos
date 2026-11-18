@@ -764,9 +764,11 @@
   "detalle": "Tras el recolector, mirar en su salida la línea «UE cascada: … sin países en la API con página propia» y cache/europa_paginas.json: comprobar que las que pasan el filtro por su página (ids ue-cs-…) están de verdad abiertas a solicitantes vascos sin consorcio, revisar las páginas que fallan o vuelven sin texto y ajustar lineasElegibilidad o NO_PAGINA en recolector/europa.js.",
   "fuente": "Funding & Tenders Portal (Comisión Europea)",
   "quien": "Claude",
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "fuentes",
-  "prioridad": 41
+  "prioridad": 41,
+  "fecha": "2026-11-18",
+  "nota": "De las 18 convocatorias en cascada sin países en la API con página propia, ninguna pasaba el filtro: 9 páginas traen requisitos pero no los países con la forma esperada y 8 vuelven sin texto (portales que se cargan con JavaScript: inova, seedbook, SPLOT, epss, viesiejipirkimai, futurefoods, standict, greengridcluster). recolector/europa.js acepta ahora «Horizon Europe-eligible countries» y «EU/Horizon Europe or HE associated country» como abiertas a toda la UE; probado con la caché de hoy, entran 2 convocatorias NLnet (CodeSupply y Restack, 5.000–50.000 € para personas y organizaciones de cualquier tipo) y no se cuela ninguna restringida. Se esperan 2 ayudas nuevas tras el recolector de mañana; la WebFetch de la sesión no tenía permiso, así que las páginas vacías no se han podido revisar."
  },
  {
   "id": "comprobar-cifras-k-siglas-examenes",
@@ -787,6 +789,16 @@
   "fuente": "BOTHA (sumarios)",
   "quien": "Claude",
   "prioridad": 43,
+  "estado": "pendiente",
+  "seccion": "fuentes"
+ },
+ {
+  "id": "ue-cascada-paginas-vacias",
+  "titulo": "Convocatorias europeas en cascada cuya página propia vuelve sin texto",
+  "detalle": "8 convocatorias en cascada (opencalls.inova.business, seedbook-portal.eitrawmaterials.eu, siecsplot.pl, epss.proposals.ee, viesiejipirkimai.lt, futurefoods.ptj.de, standict.eu/open-call/open-call-4, greengridcluster.eu) guardan texto vacío en cache/europa_paginas.json, seguramente porque la página se carga con JavaScript. Revisar con WebFetch si alguna está abierta a solicitantes vascos sin consorcio (p. ej. StandICT.eu para expertos individuales) y, si es así, añadirla a cache/ayudas_extra.json o buscar una URL con el texto en HTML; si no, añadir su dominio a NO_PAGINA en recolector/europa.js para no descargarla cada semana.",
+  "fuente": "Funding & Tenders Portal (Comisión Europea)",
+  "quien": "Claude",
+  "prioridad": 44,
   "estado": "pendiente",
   "seccion": "fuentes"
  }
