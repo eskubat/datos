@@ -24,6 +24,9 @@ Quien abre una ayuda solo lee la información que le afecta según su perfil. Po
 6. No son colectivos y nunca van en «Quién puede pedirla»: líneas de ayuda («Inversiones productivas», «Creación de empleo»), obligaciones, tratamientos («Tratamientos odontológicos»), sectores de actividad («Industria alimentaria») ni apartados de la convocatoria («Segundo. Objeto», «Cuarto. Cuantía»).
 7. Antes de terminar, comprueba en cada versión que ninguna cifra, colectivo o requisito pertenece a otro tipo y que responde por sí sola a: qué es, cuánto recibo, si puedo pedirla y qué tengo que cumplir.
 
+## Qué no se publica
+**Subvenciones nominativas o directas a una entidad concreta** (criterio del responsable, 18/11/2026): las subvenciones nominativas, los convenios y las concesiones directas o extraordinarias ya concedidas a una entidad con nombre (p. ej. las de emergencia por el art. 22.2.c de la Ley 38/2003, o las que la ficha oficial solo destina a una o varias entidades concretas) no se publican, porque nadie más puede pedirlas. No se redacta su ficha: se ocultan con `{"ocultar": true, "motivo": "…"}` en `cache/ajustes_ayudas.json` (ejemplos: gip-laiz02, gip-laga09, bdns-942081). El recolector ya descarta las que lo dicen en el título o en la cabecera del documento.
+
 ## Qué va en cada campo
 | Dato | Campo |
 |---|---|

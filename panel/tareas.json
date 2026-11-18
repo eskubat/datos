@@ -865,5 +865,17 @@
   "seccion": "base",
   "fecha": "2026-11-18",
   "nota": "El recolector rehacía cache/pendientes.json cada mañana y sacaba de la cola las fichas reabiertas que aún no se habían rehecho. Ahora reabrir.js las apunta en cache/reabiertas.json, el recolector las mantiene en la cola mientras estén ahí (y olvida las que ya no existen) e incorporar.js las quita al rehacerlas; probado con dos reabiertas, de las que solo salió la rehecha. No cambia el número de ayudas."
+ },
+ {
+  "id": "botha-acceso-araba",
+  "titulo": "Encontrar una forma de acceder al BOTHA desde las tareas",
+  "detalle": "Petición del responsable (18/11/2026, cuestión ara-subvenciones-realizacion-actividades-de-formacion-tecnica-de: «Ver de qué forma podemos acceder al BOTHA»). Las tareas no pueden abrir araba.eus ni egoitza.araba.eus (red bloqueada) y la búsqueda web no devuelve los anuncios del BOTHA de 2026 que faltan (p. ej. la convocatoria de formación técnica deportiva de la temporada 2025-2026 y la orden foral de cooperación al desarrollo 2026-2027, BOTHA 58 de 22/05/2026, anuncio 2026_058_01458, que en cache/docs_pedidos.json queda en «fallo: red»). Propuesta: estudiar cómo llegar al BOTHA (permitir araba.eus en la red de las tareas programadas y del recolector, usar el buscador o los sumarios XML/RSS del BOTHA, o un espejo oficial como la BDNS), y que cache/docs_pedidos.json resuelva por esa vía los anuncios pedidos.",
+  "fuente": "BOTHA (araba.eus)",
+  "seccion": "fuentes",
+  "quien": "Claude",
+  "prioridad": 50,
+  "estado": "pendiente",
+  "fecha": "2026-11-18",
+  "nota": "Añadida al plan de mejoras"
  }
 ]
