@@ -1,0 +1,53 @@
+### Extracto de la fuente
+GRAIL Open Call — Genesis (1st Open Call)
+Proyecto europeo que la convoca: Robust and trustworthy GenerativeAI for Robotics and industrial automation (RIA) (AI/Data/Robotics & Made in Europe Partnerships)
+Convocatoria en cascada (fondos europeos repartidos por un proyecto a terceros)
+Identificador: HORIZON-CL4-2025-03-DIGITAL-EMERGING-07
+Apertura: 2026-11-09
+Cierre: 2027-02-10
+es_SortDate: 2026-11-09T00:00:00.000+0000
+beneficiaryAdministration: Submission must be through the official GRAIL Open Call application platform.
+ The selection of Open Call proposals will be carried out in a six-step process:
+ Eligibility Check
+ Pre-scoring (if needed)
+ Independent Evaluation
+ Consensus Meeting & Pitching
+ Formal Check
+ Sub-Grant Agreement (SGA) signature
+description: The exact amount of financial support granted to each selected entity under the GRAIL Genesis Open Call is a fixed lump sum of up to €100,000 per project, distributed across three stages over a maximum of 8 months. The Genesis Open Call will select at least 10 projects. Beneficiaries must be individual entities — SMEs, startups, mid-caps, large companies, or Research and Technology Organisations — acting as data providers and/or data-collection-tool developers.
+title: Robust and trustworthy GenerativeAI for Robotics and industrial automation (RIA) (AI/Data/Robotics & Made in Europe Partnerships)
+esST_checksum: 7F61E38F50A99F911CEFAE9284B2DF6835287326958F85980DAE118B70A82694
+duration: 8-month Support and Mentoring Programme:
+Stage 1. Individual Mentoring Plan (IMP) & Project Design
+Stage 2. Technology Design and Development, and Data Acquisition
+Stage 3. GRAIL Data and Tech Integration
+destinationDetails: Submission must be through the official GRAIL Open Call application platform.
+ The selection of Open Call proposals will be carried out in a six-step process:
+ Eligibility Check
+ Pre-scoring (if needed)
+ Independent Evaluation
+ Consensus Meeting & Pitching
+ Formal Check
+ Sub-Grant Agreement (SGA) signature
+esST_FileName: file.txt
+projectAcronym: GRAIL
+callTitle: GRAIL Open Call — Genesis (1st Open Call)
+furtherInformation: GRAIL aims to deliver the first European general-purpose Foundational Robotics Model (GFRM). The project's results will be validated across five industrial Use Cases — automotive, aerospace, intralogistics, steel and electronics, and scaled through more than 40 third-party projects funded across three sequential Open Calls (Genesis, Ascent, Summit) to accelerate data generation, model fine-tuning and industrial adoption.
+ Open Call Application Platform 
+ GRAIL Project website
+caName: GRAIL Open Call — Genesis (1st Open Call)
+es_ContentType: text/plain
+esDA_FirstIngestDate: 2026-11-04T13:35:49.729+0100
+esDA_IngestDate: 2026-11-13T13:58:36.941+0100
+closingDate: 2026-11-13T00:00:00Z
+esST_URL: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48401116
+esDA_QueueDate: 2026-11-13T13:58:36.934+0100
+projectName: Generative Robotics & AI for EU Industrial Leadership
+Página de la convocatoria (requisitos):
+Target applicants:
+SMEs, startups, mid-caps, large companies, or Research and Technology Organisations (RTOs) — acting as data providers and/or developers of data-collection tools (hardware and/or software), to receive funding and support.
+Applicants must be legal entities established in an EU Member State, Iceland, Norway, or an eligible associated country (Canada, Israel, Republic of Korea, New Zealand, Switzerland, United Kingdom)
+Eligible activities
+Eligible activities must focus on creating or improving the data assets that will feed the GRAIL foundation model. The indicative activities that qualify for financial support are the following:
+Generalist Data Foundations: Creation of broad datasets across robots and tasks, capturing primitive skills (grasping, pushing, insertion, handover) with multimodal sensors. Emphasis on lab-scale but diverse conditions, including rigid, deformable, and cluttered interactions, to serve as transferable baselines for later UCs.
+Successful applicants will also be enrolled in the GRAIL Mentoring Programme and supported by GRAIL's technical coaches.

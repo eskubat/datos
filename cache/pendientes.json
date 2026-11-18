@@ -36,15 +36,6 @@
   "caracteres": 300000
  },
  {
-  "id": "ara-ayudas-a-proyectos-contra-la-soledad-no-deseada-2026",
-  "h": "acae8686538a6601",
-  "titulo": "Ayudas a proyectos contra la soledad no deseada",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-a-proyectos-contra-la-soledad-no-deseada-2026-cb45cf4a.txt",
-  "caracteres": 329642
- },
- {
   "id": "bob-bob-2026a215-ii-5802-",
   "h": "ed43e2ba0faec9be",
   "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -88,6 +79,15 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
   "caracteres": 5840
+ },
+ {
+  "id": "ue-cs-valleys-open-call-1",
+  "h": "b0050e95f1749a0a",
+  "titulo": "Valleys Open Call #1",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-valleys-open-call-1-e57d4050.txt",
+  "caracteres": 3201
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -207,6 +207,24 @@
   "caracteres": 6324
  },
  {
+  "id": "ue-cs-grail-open-call-genesis-1st-open-call",
+  "h": "58ba59bd738ed1d6",
+  "titulo": "Grail Open Call — Genesis (1st Open Call)",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-grail-open-call-genesis-1st-open-call-ff3a1021.txt",
+  "caracteres": 4206
+ },
+ {
+  "id": "ue-cs-digiwind-ntnu-open-call-2-spring-autumn-2027",
+  "h": "afbd428f0042c327",
+  "titulo": "DigiWind NTNU Open Call 2 – Spring & Autumn",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-digiwind-ntnu-open-call-2-spring-autumn-2027-034e9146.txt",
+  "caracteres": 17266
+ },
+ {
   "id": "ara-01362004",
   "h": "a2f6dd95e1dcce18",
   "titulo": "Ayuda para el fomento y puesta en valor del terroir rioja alavesa. fomento del terroir A traves de la viticultura. . medidas 1,3 y 4",
@@ -214,15 +232,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01362004-80cfa256.txt",
   "caracteres": 36508
- },
- {
-  "id": "ue-crea-media-2027-filmdist",
-  "h": "93d43372d8be537d",
-  "titulo": "European Film Distribution",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-filmdist-9cdefc48.txt",
-  "caracteres": 3631
  },
  {
   "id": "ara-01362003",
@@ -259,6 +268,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-cs-resist-ii-product-innovation-open-call-385d00a0.txt",
   "caracteres": 4876
+ },
+ {
+  "id": "ue-cs-techstars-x-eit-urban-mobility-founder-catalyst-programme",
+  "h": "b076c09fa78a0769",
+  "titulo": "Techstars x EIT Urban Mobility Founder Catalyst programme",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-techstars-x-eit-urban-mobility-founder-catalyst-progra-2392c8df.txt",
+  "caracteres": 3882
  },
  {
   "id": "bdns-942548",

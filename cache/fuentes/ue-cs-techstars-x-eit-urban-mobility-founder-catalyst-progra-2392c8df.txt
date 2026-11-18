@@ -1,0 +1,42 @@
+### Extracto de la fuente
+Techstars x EIT Urban Mobility Founder Catalyst programme
+Proyecto europeo que la convoca: EITURBANMOBILITY Business Plan 2026
+Convocatoria en cascada (fondos europeos repartidos por un proyecto a terceros)
+Identificador: HORIZON-EIT-2025-KIC-IBA-UM
+Apertura: 2026-07-02
+Cierre: 2027-08-25
+es_SortDate: 2026-07-02T00:00:00.000+0000
+beneficiaryAdministration: https://www.eiturbanmobility.eu/what-we-offer/support-to-startups/accelerate-startup/
+title: EITURBANMOBILITY Business Plan 2026
+esST_checksum: 109D72AD575F2938EFF95FE136DFF64DC4C720939762C651053FD6D2BD85D3E0
+destinationDetails: https://www.eiturbanmobility.eu/what-we-offer/support-to-startups/accelerate-startup/
+esST_FileName: file.txt
+projectAcronym: EITUM-BP26-28
+callTitle: Techstars x EIT Urban Mobility Founder Catalyst programme
+furtherInformation: The Techstars x EIT Urban Mobility Founder Catalyst is a 10-week hybrid pre-accelerator designed to support early-stage founders building scalable companies in the urban mobility sector.
+caName: Techstars x EIT Urban Mobility Founder Catalyst programme
+es_ContentType: text/plain
+esDA_FirstIngestDate: 2026-07-03T11:01:53.195+0200
+esDA_IngestDate: 2026-07-03T11:02:59.762+0200
+closingDate: 2026-07-03T00:00:00Z
+esST_URL: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48939761
+esDA_QueueDate: 2026-07-03T11:02:59.746+0200
+projectName: EIT Urban Mobility Business Plan 2026-2028
+Página de la convocatoria (requisitos):
+We match and connect key stakeholders – including public administrations, students, research institutes, universities, large enterprises, SMEs, startups and NGOs – to accelerate the transformation of the mobility sector across all our activities and geographies.
+Our Country Representatives
+With a consortium made of international companies and cities with expertise in the field of mobility, aeronautics and developing urban air mobility, the UAM Plazza Accelerator programme is looking for startups in urban air mobility.
+Eligibility criteria
+We are looking for early-stage startups from EU plus EIT participating countries (incl. RIS countries) with a properly validated, clear, scalable and innovative business idea that solves a mobility-related customer problem.
+Applicants have to comply with the following eligibility criteria:​
+The startup must be legally incorporated in an EU Member State or a third country associated with Horizon Europe, as per the official list published by the European Commission.
+Further details about the eligibility criteria can be found at the Call Manual.
+Who is eligible for this programme?
+The startup must be legally incorporated in an EU Member State or a third country associated with Horizon Europe, as per the official list published by the European Commission
+Companies that have previously participated in a Techstars Founder Catalyst programme, Techstars Accelerator and EIT Urban Mobility Accelerators are generally not eligible.
+Yes. The programme is focused on the urban mobility sector. Mobility is a wide spectrum — eligible verticals include, but are not limited to,electrification and alternative fuels, AI-powered and connected mobility, urban logistics and last-mile solutions, shared and autonomous transport, and health and mobility technologies.
+Quality and readiness of the applicant
+Do founders need to be based in Europe?
+The programme is focused on supporting Europe’s urban mobility startup ecosystem. Preference will be given to founders based in Europe or building meaningful connections to the European mobility market.
+To learn more about the programme, the application process, and whether it’s the right fit for your startup, join our live Applicant Information Session & Q&A on July 15. You’ll hear directly from the programme team and have the opportunity to ask questions.
+SMEs or startups
