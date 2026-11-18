@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "generado": "2026-11-18T03:46:09.638Z",
-  "total": 412,
+  "generado": "2026-11-18T03:54:12.033Z",
+  "total": 411,
   "porAmbito": {
     "municipio": 146,
     "estado": 65,
     "euskadi": 91,
     "territorio": 83,
-    "ue": 27
+    "ue": 26
   },
   "porEstado": {
     "abierta": 326,
-    "proxima": 40,
+    "proxima": 39,
     "sinfecha": 46
   },
   "previstas": 676,
@@ -20,14 +20,14 @@
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
       "registros": 133,
-      "segundos": 30,
+      "segundos": 40,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 25,
-      "segundos": 17,
+      "segundos": 24,
       "erroresFicha": 0
     },
     "araba": {
@@ -41,32 +41,32 @@
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
       "registros": 770,
-      "segundos": 137,
+      "segundos": 139,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 148,
-      "segundos": 11,
+      "segundos": 10,
       "erroresFicha": 0
     },
     "prestaciones": {
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 19,
-      "segundos": 17,
+      "segundos": 16,
       "erroresFicha": 0
     },
     "europa": {
       "nombre": "Funding & Tenders Portal (Comisión Europea), convocatorias sin consorcio",
       "ok": true,
-      "registros": 23,
+      "registros": 22,
       "erroresFicha": 0
     }
   },
   "enlaces": {
-    "comprobados": 644,
+    "comprobados": 643,
     "rotos": 3,
     "sustituidos": 1,
     "quitados": 3

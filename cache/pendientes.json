@@ -45,6 +45,15 @@
   "caracteres": 4021
  },
  {
+  "id": "bdns-939389",
+  "h": "2c690de6393e3995",
+  "titulo": "Bases reguladoras y convocatoria del Concurso de Escaparates",
+  "organismoSugerido": "ayto-onati",
+  "organismoFuente": "Ayuntamiento de oñati",
+  "archivo": "cache/fuentes/bdns-939389-c30c30c0.txt",
+  "caracteres": 293131
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-partz-weblan00-content-es",
   "h": "26e279a1f12f5c42",
   "titulo": "Subvenciones destinadas a incentivar la conversión de contratos indefinidos a tiempo parcial en contratos indefinidos a tiempo completo",
@@ -61,6 +70,15 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a215-ii-5802--1dac77fc.txt",
   "caracteres": 5593
+ },
+ {
+  "id": "extra-onati-contratacion-desempleados-2026",
+  "h": "1bba4bd550c96d1b",
+  "titulo": "Subvenciones para la contratación de personas desempleadas",
+  "organismoSugerido": "ayto-onati",
+  "organismoFuente": "Ayuntamiento de Oñati",
+  "archivo": "cache/fuentes/extra-onati-contratacion-desempleados-2026-e77634d6.txt",
+  "caracteres": 300000
  },
  {
   "id": "bdns-938096",
