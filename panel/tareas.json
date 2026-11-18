@@ -7,9 +7,9 @@
   "seccion": "fuentes",
   "quien": "Claude",
   "prioridad": 1,
-  "estado": "pendiente",
+  "estado": "hecha",
   "fecha": "2026-11-18",
-  "nota": "Añadida al plan de mejoras"
+  "nota": "Nuevo recolector/docspedidos.js: antes de bajar la documentación prueba los documentos que la tarea de fichas apunta en cache/docs_pedidos.json (y los anuncios AAAA_NNN_NNNNN citados en revisiones manuales): URL dadas, anuncio del BOTHA (_C/_c), sumarios del número y del año por título; si el texto es de la ayuda lo añade a cache/docs_extra.json y la ficha vuelve sola a la cola, y si no guarda las URL probadas (hasta 5 intentos). En ara-01621001 el anuncio 2026_058_01458 era de ÁLAVA InterKOOP, no de cooperación; la convocatoria buena es el BOTHA 118 de 14/10/2026 (2026_118_02938), que ya está en los candidatos; docs/RESUMIR.md dice ahora que se apunte ahí en vez de preguntar. Probado sin red (la sesión no llega a araba.eus): la primera prueba real será el recolector de las 05:41."
  },
  {
   "id": "bopv",

@@ -17,6 +17,7 @@ import { convocatoriasUE, ayudasDirectasUE } from './europa.js';
 import { esPosibleNoticia, cotejar, extras, separar } from './noticias.js';
 import { prepararProximas, aplicarProximas } from './proximas.js';
 import { detectarParecidas } from './parecidas.js';
+import { resolverPedidos } from './docspedidos.js';
 
 const SALIDA = path.resolve('publico');
 const FUENTES = [
@@ -689,6 +690,10 @@ async function main() {
       fs.writeFileSync(path.join('cache', 'botha_araba.json'), JSON.stringify(bothaAraba, null, 1));
     }
   } catch (e) { log(`Álava sin anuncio del BOTHA: ${e.message}`); }
+
+  // Documentos que la tarea de fichas no pudo abrir (cache/docs_pedidos.json y anuncios del BOTHA citados en las
+  // revisiones manuales): si se consiguen, pasan a cache/docs_extra.json antes de bajar la documentación
+  try { await resolverPedidos({ log }); } catch (e) { log(`Documentos pedidos: ${e.message}`); }
 
   // Documentación completa de cada ayuda (ficha + todos sus enlaces de información) para los resúmenes.
   // No se publica en la app: se guarda en cache/fuentes/<id>.txt y la lee la tarea de resumen.

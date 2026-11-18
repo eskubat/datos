@@ -140,7 +140,7 @@ const BOTHA_CONV = /(convocatoria|\bconvoca\b|\bconvocar|extracto)/i;
 const BOTHA_AYUDA = /(subvenc|ayudas?\b|becas?\b|premios?\b)/i;
 const BOTHA_NO = /resoluci[oó]n de (la )?convocatoria|por la que se resuelve|resolver la convocatoria|concesi[oó]n de las|correcci[oó]n de errores|justificaci[oó]n|reintegro|desistimiento|adjudicaci|lista (provisional|definitiva)|denegaci/i;
 // Como bajar(url, {pdf: true}), pero dice por qué falla: {txt} o {txt: null, motivo}
-async function bajarPdfBotha(url, { primeraPagina = false } = {}) {
+export async function bajarPdfBotha(url, { primeraPagina = false } = {}) {
   const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 60000);
   try {
     const r = await fetch(url, { signal: ctrl.signal, headers: { 'User-Agent': UA_BOT } });
