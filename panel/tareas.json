@@ -874,9 +874,9 @@
   "seccion": "fuentes",
   "quien": "Claude",
   "prioridad": 50,
-  "estado": "pendiente",
+  "estado": "hecha",
   "fecha": "2026-11-18",
-  "nota": "Añadida al plan de mejoras"
+  "nota": "La red de las tareas no llega a araba.eus (el proxy lo rechaza con 403) pero GitHub Actions sí, así que el acceso va por ahí: nuevo flujo «Documentos pedidos» (.github/workflows/documentos.yml) que se lanza solo al hacer push de cache/docs_pedidos.json, o a mano con reintentar, y en 2-3 minutos baja los anuncios pedidos, deja su texto en cache/pedidos/<id>.txt (que la tarea de fichas lee tras un git pull) y la URL en cache/docs_extra.json; docs/RESUMIR.md lo explica. Además bajarPdfBotha reintenta dos veces cuando araba.eus corta la conexión, que es lo que dejó ara-01621001 en «fallo: red» en la pasada de las 21:41 UTC. Lanzado a mano para reintentar los pedidos de hoy; no se esperan ayudas nuevas, solo fichas que dejan de quedarse bloqueadas."
  },
  {
   "id": "vinculo-territorial-revisar",
@@ -889,5 +889,17 @@
   "estado": "pendiente",
   "fecha": "2026-11-18",
   "nota": ""
+ },
+ {
+  "id": "documentos-pedidos-revisar",
+  "titulo": "Comprobar que el flujo «Documentos pedidos» resuelve los anuncios del BOTHA",
+  "detalle": "Tras las primeras ejecuciones de .github/workflows/documentos.yml, mirar su registro y cache/docs_pedidos.json: si ara-01621001 y los demás pedidos pasan a «ok» con su texto en cache/pedidos/, y si siguen saliendo «red: fetch failed» desde Actions (en ese caso, espaciar las peticiones o probar con el agente de navegador).",
+  "fuente": "Tarea botha-acceso-araba",
+  "seccion": "fuentes",
+  "quien": "Claude",
+  "prioridad": 52,
+  "estado": "pendiente",
+  "fecha": "2026-11-18",
+  "nota": "Añadida al plan de mejoras"
  }
 ]

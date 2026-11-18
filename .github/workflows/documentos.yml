@@ -1,0 +1,41 @@
+name: Documentos pedidos
+# Baja los documentos oficiales que las tareas no pueden abrir (araba.eus / egoitza.araba.eus bloquean su red) en
+# cuanto una tarea los apunta en cache/docs_pedidos.json, sin esperar al recolector de las 05:41. Deja el texto en
+# cache/pedidos/<id>.txt y la URL en cache/docs_extra.json. Una tarea también puede lanzarlo a mano
+# (workflow_dispatch; con «reintentar» vuelve a probar los que fallaron hoy).
+on:
+  workflow_dispatch:
+    inputs:
+      reintentar:
+        description: 'Volver a probar los que fallaron hoy'
+        type: boolean
+        default: true
+  push:
+    branches: [main]
+    paths: ['cache/docs_pedidos.json']
+concurrency:
+  group: documentos
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  bajar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: sudo apt-get install -y -qq poppler-utils >/dev/null
+      - run: node recolector/docspedidos.js ${{ (github.event_name == 'workflow_dispatch' && inputs.reintentar) && '--reintentar' || '' }}
+      - name: Publicar si hay cambios
+        run: |
+          git config user.name "eskubat-bot"
+          git config user.email "eskubat.app@gmail.com"
+          git add cache/docs_pedidos.json cache/docs_extra.json
+          if [ -d cache/pedidos ]; then git add cache/pedidos; fi
+          git diff --cached --quiet && echo "Sin cambios" && exit 0
+          git commit -m "Documentos pedidos $(date -u +%Y-%m-%d)"
+          git pull --rebase -q -X theirs
+          git push

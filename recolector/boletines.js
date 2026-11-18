@@ -140,7 +140,17 @@ const BOTHA_CONV = /(convocatoria|\bconvoca\b|\bconvocar|extracto)/i;
 const BOTHA_AYUDA = /(subvenc|ayudas?\b|becas?\b|premios?\b)/i;
 const BOTHA_NO = /resoluci[oó]n de (la )?convocatoria|por la que se resuelve|resolver la convocatoria|concesi[oó]n de las|correcci[oó]n de errores|justificaci[oó]n|reintegro|desistimiento|adjudicaci|lista (provisional|definitiva)|denegaci/i;
 // Como bajar(url, {pdf: true}), pero dice por qué falla: {txt} o {txt: null, motivo}
-export async function bajarPdfBotha(url, { primeraPagina = false } = {}) {
+// araba.eus corta a veces la conexión («fetch failed») o da 5xx: se reintenta hasta 2 veces con espera.
+export async function bajarPdfBotha(url, opts = {}) {
+  let r;
+  for (let i = 0; i < 3; i++) {
+    r = await bajarPdfBotha1(url, opts);
+    if (r.txt || !/^(red:|tiempo agotado|HTTP 5\d\d|HTTP 429)/.test(r.motivo || '')) return r;
+    await new Promise((ok) => setTimeout(ok, 3000 * (i + 1)));
+  }
+  return r;
+}
+async function bajarPdfBotha1(url, { primeraPagina = false } = {}) {
   const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 60000);
   try {
     const r = await fetch(url, { signal: ctrl.signal, headers: { 'User-Agent': UA_BOT } });

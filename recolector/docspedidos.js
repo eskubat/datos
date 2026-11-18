@@ -38,7 +38,11 @@ async function probar(url) {
   try { const r = await pedir(url); return r && String(r).trim() ? { txt: String(r) } : { txt: null, motivo: 'vacío' }; } catch (e) { return { txt: null, motivo: e.message }; }
 }
 
-export async function resolverPedidos({ log = console.log, resumenes = null } = {}) {
+// Texto de cada documento conseguido, en el repositorio, para que la tarea de fichas (que no llega a araba.eus) lo lea
+// en su siguiente pasada sin esperar al recolector: cache/pedidos/<id>.txt
+const DIR_TEXTOS = path.join('cache', 'pedidos');
+
+export async function resolverPedidos({ log = console.log, resumenes = null, reintentar = false } = {}) {
   const pedidos = leer(ARCHIVO, {});
   const docsExtra = leer(path.join('cache', 'docs_extra.json'), {});
   const sumarios = leer(path.join('cache', 'botha_sumarios.json'), {});
@@ -54,7 +58,7 @@ export async function resolverPedidos({ log = console.log, resumenes = null } = 
   const hoy = new Date().toISOString().slice(0, 10);
   let ok = 0, fallo = 0;
   for (const [id, p] of Object.entries(pedidos)) {
-    if (p.estado === 'ok' || (p.estado === 'fallo' && ((p.intentos || 0) >= MAX_INTENTOS || p.fecha === hoy))) continue;
+    if (p.estado === 'ok' || (p.estado === 'fallo' && ((p.intentos || 0) >= MAX_INTENTOS || (p.fecha === hoy && !reintentar)))) continue;
     const candidatas = [...(p.urls || [])];
     const numeros = new Set();
     for (const ref of [].concat(p.botha || [])) {
@@ -74,7 +78,9 @@ export async function resolverPedidos({ log = console.log, resumenes = null } = 
       const r = await probar(u);
       if (!r.txt) { probadas.push({ url: u, motivo: r.motivo }); continue; }
       if (p.titulo && !esDeLaAyuda(r.txt, p.titulo)) { probadas.push({ url: u, motivo: 'es de otra convocatoria' }); continue; }
-      hallada = u; break;
+      hallada = u;
+      try { fs.mkdirSync(DIR_TEXTOS, { recursive: true }); fs.writeFileSync(path.join(DIR_TEXTOS, `${id}.txt`), `URL: ${u}\nDescargado: ${hoy}\n\n${r.txt}`); } catch {}
+      break;
     }
     if (hallada) {
       docsExtra[id] = [...new Set([...(docsExtra[id] || []), hallada])];
@@ -91,4 +97,9 @@ export async function resolverPedidos({ log = console.log, resumenes = null } = 
   }
   log(`Documentos pedidos por la tarea: ${Object.keys(pedidos).length}; conseguidos ahora: ${ok}; sin conseguir: ${fallo}`);
   return { ok, fallo };
+}
+
+// Uso suelto (flujo «Documentos pedidos», .github/workflows/documentos.yml): node recolector/docspedidos.js [--reintentar]
+if (process.argv[1] && import.meta.url.endsWith(path.basename(process.argv[1])) && /docspedidos\.js$/.test(process.argv[1])) {
+  resolverPedidos({ reintentar: process.argv.includes('--reintentar') }).catch((e) => { console.log(`Documentos pedidos: ${e.message}`); });
 }
