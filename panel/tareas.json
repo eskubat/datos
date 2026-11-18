@@ -342,15 +342,15 @@
  },
  {
   "id": "vinculo-territorial",
-  "titulo": "Guardar qué vínculo con el territorio exige cada ayuda foral",
-  "detalle": "Al categorizar las ayudas de las diputaciones, apuntar en la ficha qué pide la ayuda para poder solicitarla desde fuera: empadronamiento o residencia, domicilio fiscal, domicilio social, centro de trabajo o productivo en el territorio, o que el bien o la actividad esté allí. Así la app podrá enseñar ayudas forales de otro territorio a empresas, autónomos y asociaciones con centro de trabajo o actividad allí, si el responsable lo aprueba (cuestión manual-empadronamiento-diputaciones).",
+  "titulo": "Guardar qué vínculo con el territorio o el municipio exige cada ayuda",
+  "detalle": "Decisión del responsable (18/11/2026, cuestiones manual-empadronamiento-diputaciones y asis-mwmmblgq): las ayudas forales que se pueden pedir sin estar empadronado ni tener domicilio en el territorio (p. ej. las ligadas a una explotación, obra, instalación o centro de trabajo, o el empleo de Bizkaia) deben mostrarse en todos los municipios; las que exigen empadronamiento, residencia o domicilio social o fiscal en el territorio siguen filtrándose por la diputación del municipio elegido. Lo mismo para las de ayuntamientos: si no exigen empadronamiento ni residencia en el municipio (p. ej. concursos de carteles de carnaval de Bilbao y Vitoria-Gasteiz, concurso literario de adultos de Lasarte-Oria), se muestran en todos los municipios; si lo exigen, siguen filtrándose por el municipio. Hacer: guardar en cada ficha foral y municipal (y en publico/ayudas.json) si exige vínculo territorial (empadronamiento o residencia, domicilio fiscal o social) o no (centro de trabajo, bien o actividad allí, o ninguno), con su regla en docs/CATEGORIZACION.md y su comprobación en recolector/comprobar.js, y rellenarlo en las fichas ya publicadas. El filtro por municipio de la app está en el otro repositorio y usará ese campo.",
   "fuente": "Tarea empadronamiento-diputaciones",
   "seccion": "base",
   "quien": "Claude",
   "prioridad": 20,
-  "estado": "bloqueada",
-  "fecha": "2026-11-17",
-  "nota": "Depende de la decisión de producto que sigue abierta en «Para ti» (manual-empadronamiento-diputaciones): si se enseñan ayudas forales de otro territorio a empresas, autónomos y asociaciones. Guardar el vínculo en cada ficha cambia el formato de las fichas y docs/CATEGORIZACION.md, así que no lo hago hasta que respondas; en cuanto la apruebes, reábrela y la hago."
+  "estado": "pendiente",
+  "fecha": "2026-11-18",
+  "nota": "Desbloqueada por la decisión del responsable (18/11/2026). Añadida al plan de mejoras."
  },
  {
   "id": "araba-sede-contenido",
