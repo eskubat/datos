@@ -777,10 +777,10 @@
   "fuente": "Funding & Tenders Portal (Comisión Europea)",
   "quien": "Claude",
   "prioridad": 42,
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "datos",
   "fecha": "2026-11-18",
-  "nota": "Añadida al plan de mejoras por la tarea de resúmenes"
+  "nota": "Las comprobaciones de recolector/resumen.js leen ahora en la documentación oficial las cifras abreviadas junto al euro («up to €30k», «30k€», «€1.5M», «2m EUR») como 30.000, 1.500.000 o 2.000.000; sin el símbolo del euro no se leen, para no confundir «5km» o «100 m». IELTS y TOEFL se admiten como siglas. Probado con la fuente de Valleys (30.000 € pasa, 31.000 € sigue fallando) y reabiertas las fichas de Valleys y DigiWind para que la próxima pasada de categorización las rehaga; no cambia el número de ayudas."
  },
  {
   "id": "botha-sumario-404-anuncios",

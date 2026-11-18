@@ -40,7 +40,7 @@ export const RE = {
   mayusculas: /\b[A-ZÁÉÍÓÚÑ]{5,}\b/g,
   cifraMal: /\b\d{4,}\s*€|\d€|\d%/,
 };
-const SIGLAS = new Set(['IKERTALENT', 'ONEKIN', 'HEZIBI', 'GAUZATU', 'MOVES', 'PERTE', 'FEDER', 'FEADER', 'FEMPA', 'LEADER', 'COVID', 'TXEKINBERRI', 'BOTHA', 'LGTBI', 'LGTBIQ', 'BERCS', 'IKERBASQUE', 'IPREM', 'NAFEM', 'AFEHC', 'AFYDAD', 'SEBIME', 'MUFACE', 'MUGEJU', 'ISFAS', 'EKINN']);
+const SIGLAS = new Set(['IKERTALENT', 'ONEKIN', 'HEZIBI', 'GAUZATU', 'MOVES', 'PERTE', 'FEDER', 'FEADER', 'FEMPA', 'LEADER', 'COVID', 'TXEKINBERRI', 'BOTHA', 'LGTBI', 'LGTBIQ', 'BERCS', 'IKERBASQUE', 'IPREM', 'NAFEM', 'AFEHC', 'AFYDAD', 'SEBIME', 'MUFACE', 'MUGEJU', 'ISFAS', 'EKINN', 'IELTS', 'TOEFL']);
 
 // Números de un texto, normalizados ("1.500" -> "1500", "25,5" -> "25.5")
 function numeros(t) {
@@ -55,7 +55,13 @@ function numerosFuente(t) {
   const s = String(t || '');
   const miles = [...s.matchAll(/(?<![\d.,])\d{1,3}(?:,\d{3})+(?:\.\d+)?(?!\d|,\d)/g)]
     .map((m) => m[0].replace(/,/g, '').replace(/\.0+$/, '').replace(/\.$/, ''));
-  return [...numeros(s), ...miles];
+  // «€30k», «up to €40K», «30k€», «€1.5M», «2m EUR»: k = × 1.000 y m = × 1.000.000, solo junto al símbolo o la palabra del euro
+  const multip = (n, u) => String(Math.round(parseFloat(n.replace(',', '.')) * (/k/i.test(u) ? 1e3 : 1e6)));
+  const kM = [
+    ...[...s.matchAll(/(?:€|\bEUR|\beuros?)\s?(\d+(?:[.,]\d+)?)\s?([kKmM])\b/g)].map((m) => multip(m[1], m[2])),
+    ...[...s.matchAll(/(?<![\d.,])(\d+(?:[.,]\d+)?)\s?([kKmM])\s?(?:€|EUR\b|euros?\b)/g)].map((m) => multip(m[1], m[2])),
+  ];
+  return [...numeros(s), ...miles, ...kM];
 }
 const cifrasOk = (frase, nums) => numeros(frase).every((n) => n.length < 2 || nums.has(n));
 const limpia = (x) => String(x || '').replace(/\s+/g, ' ').replace(/\s+([,.;:])/g, '$1').trim();

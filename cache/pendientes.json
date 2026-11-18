@@ -1,5 +1,23 @@
 [
  {
+  "id": "ue-cs-valleys-open-call-1",
+  "h": "70f3e171f9088670",
+  "titulo": "VALLEYS Open Call #1",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-valleys-open-call-1-e57d4050.txt",
+  "caracteres": 1512
+ },
+ {
+  "id": "ue-cs-digiwind-ntnu-open-call-2-spring-autumn-2027",
+  "h": "afbd428f0042c327",
+  "titulo": "DigiWind NTNU Open Call 2 – Spring & Autumn 2027",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-digiwind-ntnu-open-call-2-spring-autumn-2027-034e9146.txt",
+  "caracteres": 17266
+ },
+ {
   "id": "bog-c2607197-htm",
   "h": "08b5379344116b6b",
   "titulo": "Subvenciones dirigidas a compensar los gastos de mantenimiento y conservación de ascensores comunitarios",
