@@ -140,7 +140,7 @@ const BOTHA_CONV = /(convocatoria|\bconvoca\b|\bconvocar|extracto)/i;
 const BOTHA_AYUDA = /(subvenc|ayudas?\b|becas?\b|premios?\b)/i;
 const BOTHA_NO = /resoluci[oó]n de (la )?convocatoria|por la que se resuelve|resolver la convocatoria|concesi[oó]n de las|correcci[oó]n de errores|justificaci[oó]n|reintegro|desistimiento|adjudicaci|lista (provisional|definitiva)|denegaci/i;
 // Como bajar(url, {pdf: true}), pero dice por qué falla: {txt} o {txt: null, motivo}
-async function bajarPdfBotha(url) {
+async function bajarPdfBotha(url, { primeraPagina = false } = {}) {
   const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 60000);
   try {
     const r = await fetch(url, { signal: ctrl.signal, headers: { 'User-Agent': UA_BOT } });
@@ -150,11 +150,51 @@ async function bajarPdfBotha(url) {
     const f = path.join(os.tmpdir(), 'botha-' + Math.random().toString(36).slice(2) + '.pdf');
     fs.writeFileSync(f, buf);
     try {
-      const txt = execFileSync('pdftotext', ['-layout', '-enc', 'UTF-8', f, '-'], { maxBuffer: 80e6, stdio: ['ignore', 'pipe', 'ignore'] }).toString('utf8');
+      const txt = execFileSync('pdftotext', ['-layout', ...(primeraPagina ? ['-l', '1'] : []), '-enc', 'UTF-8', f, '-'], { maxBuffer: 80e6, stdio: ['ignore', 'pipe', 'ignore'] }).toString('utf8');
       return txt.trim() ? { txt } : { txt: null, motivo: `PDF sin texto (${buf.length} bytes)` };
     } catch { return { txt: null, motivo: `pdftotext falla (${buf.length} bytes)` }; } finally { fs.rmSync(f, { force: true }); }
   } catch (e) { return { txt: null, motivo: e.name === 'AbortError' ? 'tiempo agotado (60 s)' : `red: ${e.message}` }; } finally { clearTimeout(t); }
 }
+// Referencias (número de anuncio, 5 cifras) de un sumario: [primera, última] o null
+const rangoSumarioBotha = (txt, n3) => {
+  const refs = entradasSumarioBotha(txt, n3).map((e) => +e.url.match(/_(\d{5})_C\.pdf$/)[1]);
+  return refs.length ? [Math.min(...refs), Math.max(...refs)] : null;
+};
+// Primera página de un anuncio suelto del BOTHA -> {entidad, titulo, publicacion} o null. La cabecera trae la fecha,
+// la sección, el organismo (en mayúsculas: el departamento) y el título, que acaba en su primera línea corta (las
+// del cuerpo ocupan todo el ancho) o en una línea en blanco.
+function anuncioSueltoBotha(txt) {
+  const lineas = txt.split('\n').map((l) => l.trim());
+  const publicacion = fechaSumario(txt);
+  const largos = lineas.filter(Boolean).map((l) => l.length).sort((a, b) => a - b);
+  const ancho = largos[Math.floor(largos.length * 0.75)] || 0;
+  let i = lineas.findIndex((l) => /n[uú]m\. ?\d+/i.test(l));
+  if (i < 0) return null;
+  let entidad = '', diputacion = false;
+  for (i++; i < lineas.length; i++) {
+    const l = lineas[i];
+    if (!l) continue;
+    if (/^[IVX]+\s*-\s|^DEL TERRITORIO HIST/.test(l)) continue;
+    if (/^diputaci[oó]n foral de [aá]lava$/i.test(l)) { diputacion = true; continue; }
+    if (l === l.toUpperCase() && /[A-ZÁÉÍÓÚÑ]{3}/.test(l)) { entidad = entidad && !/,$|\bDE$|\bY$/.test(entidad) && /^(AYUNTAMIENTO|DEPARTAMENTO|JUNTA|CUADRILLA|CONSORCIO|DIPUTACI)/.test(l) ? l : (entidad ? entidad + ' ' + l : l); continue; }
+    break;
+  }
+  const tit = [];
+  for (; i < lineas.length && tit.length < 6; i++) {
+    const l = lineas[i];
+    if (!l) { if (tit.length) break; continue; }
+    tit.push(l);
+    if (l.length < ancho * 0.85) break;
+  }
+  let titulo = tit.join(' ').replace(/\u00ad/g, '').replace(/(\w)- (\w)/g, '$1$2').replace(/\s+/g, ' ').trim();
+  if (!titulo) return null;
+  // Por si el título no acaba en una línea corta (texto sin -layout): como mucho unos 300 caracteres
+  if (titulo.length > 320) titulo = titulo.slice(0, 300).replace(/\s+\S*$/, '') + '…';
+  if (diputacion && !/diputaci[oó]n|departamento/i.test(entidad)) entidad = 'DIPUTACIÓN FORAL DE ÁLAVA';
+  return { entidad: entidad || (diputacion ? 'DIPUTACIÓN FORAL DE ÁLAVA' : ''), titulo, publicacion };
+}
+const esConvocatoriaDiputacion = (e) => /diputaci[oó]n|departamento/i.test(e.entidad) && BOTHA_CONV.test(e.titulo) && BOTHA_AYUDA.test(e.titulo) && !BOTHA_NO.test(e.titulo);
+
 export async function sumariosBotha(log = console.log, max = 60) {
   const archivo = path.join('cache', 'botha_sumarios.json');
   let c = { numeros: {} };
@@ -165,6 +205,11 @@ export async function sumariosBotha(log = console.log, max = 60) {
     const año = Number(m[1]);
     // Solo el año en curso y el anterior
     for (const k of Object.keys(c.numeros)) if (+k.slice(0, 4) < año - 1) delete c.numeros[k];
+    // Primera y última referencia de cada sumario leído (para acotar los anuncios de un número sin sumario)
+    c.rangos = c.rangos || {};
+    for (const k of Object.keys(c.rangos)) if (+k.slice(0, 4) < año - 1) delete c.rangos[k];
+    c.anuncios = c.anuncios || {};
+    for (const k of Object.keys(c.anuncios)) if (+k.slice(0, 4) < año - 1) delete c.anuncios[k];
     // Números cuyo sumario no se pudo leer (tarea botha-sumarios-046-047, 18/11: el 046 y el 047 de 2026 fallaban en
     // cada pasada sin dejar rastro). Se apuntan en c.fallidos = {clave: {intentos, ultimo, motivo}} con el motivo
     // (HTTP, no es PDF, pdftotext, tiempo agotado), se reintentan como mucho una vez al día y solo con el cupo que
@@ -179,7 +224,15 @@ export async function sumariosBotha(log = console.log, max = 60) {
     }
     for (const k of Object.keys(c.fallidos)) if (+k.slice(0, 4) === año && c.fallidos[k].ultimo !== hoy) pendientes.push(+k.slice(5));
     let leidos = 0, nuevos = 0;
-    const fallan = [];
+    const fallan = [], sueltos = [];
+    // Rango de referencias de un número vecino: el guardado o, si no lo hay, leyendo su sumario una vez
+    const rangoDe = async (num) => {
+      const k = `${año}-${String(num).padStart(3, '0')}`;
+      if (c.rangos[k]) return c.rangos[k];
+      if (c.fallidos[k] || num < 1) return null;
+      const r = await bajarPdfBotha(`https://www.araba.eus/botha/Boletines/${año}/${k.slice(5)}/${año}_${k.slice(5)}_S_C.pdf`);
+      return r.txt ? (c.rangos[k] = rangoSumarioBotha(r.txt, k.slice(5))) : null;
+    };
     for (const num of pendientes) {
       if (leidos >= max) break;
       const n3 = String(num).padStart(3, '0');
@@ -196,16 +249,50 @@ export async function sumariosBotha(log = console.log, max = 60) {
         const f = c.fallidos[clave] || { intentos: 0 };
         c.fallidos[clave] = { intentos: f.intentos + 1, ultimo: hoy, motivo };
         fallan.push(`${clave} (${motivo}, ${f.intentos + 1}.º intento)`);
+        // Tarea botha-sumario-404-anuncios: el 046 y el 047 de 2026 no tenían sumario (404) pero sí sus anuncios
+        // (${año}_${n3}_<ref>_C.pdf). Tras dos días con 404 se leen una sola vez los anuncios con referencia entre la
+        // última del número anterior y la primera del siguiente (solo la primera página) y se guardan las
+        // convocatorias de la Diputación igual que con el sumario.
+        if (/^HTTP 404/.test(motivo) && f.intentos + 1 >= 2 && !c.anuncios[clave]) {
+          let antes = null, despues = null;
+          for (let d = 1; d <= 3 && !antes; d++) antes = await rangoDe(num - d);
+          for (let d = 1; d <= 3 && !despues; d++) despues = await rangoDe(num + d);
+          const desde = antes ? antes[1] + 1 : null, hasta = despues ? despues[0] - 1 : null;
+          if (desde == null || hasta == null || hasta < desde || hasta - desde > 120) {
+            sueltos.push(`${clave}: sin rango de anuncios (${desde ?? '?'}-${hasta ?? '?'})`);
+            continue;
+          }
+          const entradas = [];
+          let hay = 0;
+          for (let ref = desde; ref <= hasta; ref++) {
+            const r5 = String(ref).padStart(5, '0');
+            const url = `https://www.araba.eus/botha/Boletines/${año}/${n3}/${año}_${n3}_${r5}_C.pdf`;
+            const r = await bajarPdfBotha(url, { primeraPagina: true });
+            if (!r.txt) continue;
+            hay++;
+            const e = anuncioSueltoBotha(r.txt);
+            if (e && esConvocatoriaDiputacion(e)) entradas.push({ entidad: e.entidad, titulo: e.titulo, url, publicacion: e.publicacion });
+          }
+          c.anuncios[clave] = { fecha: hoy, desde, hasta, anuncios: hay };
+          if (hay) {
+            c.numeros[clave] = entradas;
+            c.rangos[clave] = [desde, hasta];
+            delete c.fallidos[clave];
+            nuevos += entradas.length;
+          }
+          sueltos.push(`${clave}: ${hay} anuncios sueltos leídos (${desde}-${hasta}), ${entradas.length} convocatorias de la Diputación`);
+        }
         continue;
       }
       delete c.fallidos[clave];
       const pub = fechaSumario(txt);
+      c.rangos[clave] = rangoSumarioBotha(txt, n3);
       c.numeros[clave] = entradasSumarioBotha(txt, n3)
-        .filter((e) => /diputaci[oó]n|departamento/i.test(e.entidad) && BOTHA_CONV.test(e.titulo) && BOTHA_AYUDA.test(e.titulo) && !BOTHA_NO.test(e.titulo))
+        .filter(esConvocatoriaDiputacion)
         .map((e) => ({ ...e, publicacion: pub }));
       nuevos += c.numeros[clave].length;
     }
-    log(`BOTHA (sumarios del año): ${leidos} números leídos, ${nuevos} convocatorias de la Diputación nuevas, ${Object.keys(c.numeros).length} números guardados${fallan.length ? ` · sin sumario legible: ${fallan.join(', ')}` : ''}`);
+    log(`BOTHA (sumarios del año): ${leidos} números leídos, ${nuevos} convocatorias de la Diputación nuevas, ${Object.keys(c.numeros).length} números guardados${fallan.length ? ` · sin sumario legible: ${fallan.join(', ')}` : ''}${sueltos.length ? ` · anuncios sueltos: ${sueltos.join('; ')}` : ''}`);
     fs.writeFileSync(archivo, JSON.stringify(c, null, 1));
   } else log('BOTHA (sumarios del año): no se encuentra el último boletín');
   return Object.values(c.numeros).flat();

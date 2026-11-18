@@ -789,8 +789,10 @@
   "fuente": "BOTHA (sumarios)",
   "quien": "Claude",
   "prioridad": 43,
-  "estado": "pendiente",
-  "seccion": "fuentes"
+  "estado": "hecha",
+  "seccion": "fuentes",
+  "fecha": "2026-11-18",
+  "nota": "sumariosBotha guarda ahora la primera y la última referencia de cada sumario (rangos) y, cuando un número lleva dos días con 404, lee una sola vez sus anuncios sueltos entre la última referencia del número anterior y la primera del siguiente (hasta 120, solo la primera página) y guarda las convocatorias de la Diputación como si vinieran del sumario; lo apunta en anuncios y en el registro del recolector. Probado con PDF simulados (la red de la sesión no llega a araba.eus): la primera prueba real será el próximo número sin sumario. No se esperan ayudas nuevas ahora (el 046 y el 047 ya se completaron a mano)."
  },
  {
   "id": "botha-parte-dispositiva",
