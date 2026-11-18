@@ -72,15 +72,6 @@
   "caracteres": 12248
  },
  {
-  "id": "botha-2026-133-03267-c-pdf",
-  "h": "3d5c927977252997",
-  "titulo": "Decreto Foral 43/, de 10 de noviembre, del Consejo de Gobierno Foral",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/botha-2026-133-03267-c-pdf-ee0c35bd.txt",
-  "caracteres": 12395
- },
- {
   "id": "bob-bob-2026a219-ii-6013-",
   "h": "1c3c0ab2ed5fa248",
   "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -439,14 +430,5 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/botha-2026-131-03265-c-pdf-601695a9.txt",
   "caracteres": 29159
- },
- {
-  "id": "botha-2026-133-03267-c-pdf",
-  "h": "3d5c927977252997",
-  "titulo": "Decreto Foral 43/, de 10 de noviembre, del Consejo de Gobierno Foral",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/botha-2026-133-03267-c-pdf-ee0c35bd.txt",
-  "caracteres": 12395
  }
 ]
