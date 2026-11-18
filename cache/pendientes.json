@@ -208,12 +208,12 @@
  },
  {
   "id": "ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-format",
-  "h": "254f72837483f873",
-  "titulo": "Ayudas para modernizar el equipamiento de centros de formación",
+  "h": "c5f7e2cbd037a97a",
+  "titulo": "Ayudas a la inversión en equipamiento formativo",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-fo-e97a71e8.txt",
-  "caracteres": 47471
+  "caracteres": 83189
  },
  {
   "id": "ue-cs-resist-ii-process-innovation-open-call",
@@ -232,6 +232,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-cs-resist-ii-product-innovation-open-call-385d00a0.txt",
   "caracteres": 4876
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-pi2026-c-weblan00-content-es",
+  "h": "6a97eb7ab248a159",
+  "titulo": "Ayudas para el desarrollo de proyectos integrales de empleo, formación e inserción laboral",
+  "organismoSugerido": "lanbide",
+  "organismoFuente": "Lanbide - Servicio Público Vasco de Empleo",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-pi2026-c-weblan00-content-es-051f0233.txt",
+  "caracteres": 300000
  },
  {
   "id": "bdns-942548",
