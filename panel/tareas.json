@@ -829,5 +829,17 @@
   "seccion": "datos",
   "fecha": "2026-11-18",
   "nota": "Añadida al plan de mejoras por la tarea de resúmenes"
+ },
+ {
+  "id": "botha-03267-texto-cortado",
+  "titulo": "Decreto Foral 43/2026 (colonias felinas): el texto guardado se queda sin el anexo",
+  "detalle": "Tras refrescar el PDF (cache/docs_refrescar.json), cache/fuentes/botha-2026-133-03267-c-pdf-ee0c35bd.txt solo trae el bloque «### Extracto de la fuente» (12.395 caracteres) y se corta en la página 4/12, justo en «Ar[tículo 3]»: falta el bloque «### Ficha oficial» con el PDF entero (la versión anterior, de 28.906 caracteres, sí tenía el anexo con beneficiarios, gastos y requisitos). La tarea de fichas ha copiado el anexo literal en cache/textos_claude/botha-2026-133-03267-c-pdf.txt para redactar la ficha. Revisar por qué el extracto del boletín se corta a 4 páginas y por qué no se añade el PDF como ficha oficial al refrescarlo; probablemente afecta a otros PDF refrescados. Además, la ayuda sale «sinfecha»: la convocatoria da «diez días hábiles, contados a partir del día siguiente al de la publicación» (BOTHA 133, 18/11/2026), es decir, del 19/11 al 2/12/2026, pero finDelTexto no lo calcula (¿número en letras?). Hasta que se arregle, conviene fijar inicio 2026-11-19 y fin 2026-12-02 en cache/ajustes_ayudas.json.",
+  "fuente": "BOTHA",
+  "quien": "Claude",
+  "prioridad": 47,
+  "estado": "pendiente",
+  "seccion": "fuentes",
+  "fecha": "2026-11-18",
+  "nota": "Añadida al plan de mejoras por la tarea de resúmenes"
  }
 ]
