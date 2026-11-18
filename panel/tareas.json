@@ -813,10 +813,10 @@
   "fuente": "Funding & Tenders Portal (Comisión Europea)",
   "quien": "Claude",
   "prioridad": 45,
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "fuentes",
   "fecha": "2026-11-18",
-  "nota": "Añadida al plan de mejoras por la tarea de resúmenes"
+  "nota": "El extracto se perdía porque recolector/index.js solo lo añadía si la ayuda no tenía documentos, y al entrar la página propia en docs_extra pasaba a no tenerlo; afectaba a tres convocatorias en cascada (Valleys, WomenTechEU y Techstars x EIT Urban Mobility). Ahora, en las convocatorias europeas (ids ue-…), el «### Extracto de la fuente» del portal va siempre primero y los documentos propios detrás; las demás fuentes no cambian, así que sus huellas siguen igual. No se esperan ayudas nuevas: con el recolector de las 05:41 esas tres fichas volverán una vez a la cola con el texto completo."
  },
  {
   "id": "incorporar-respetar-reabiertas",

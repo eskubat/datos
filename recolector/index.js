@@ -715,7 +715,12 @@ async function main() {
   fs.mkdirSync(DIR_F, { recursive: true });
   const nombreF = (id) => String(id).replace(/[^\w.-]/g, '_').slice(0, 60) + '-' + huella(id).slice(0, 8) + '.txt';
   for (const a of ayudas) {
-    const t = quitaRepetidas([docs[a.id] || '', a._texto && !docs[a.id] ? '### Extracto de la fuente\n' + a._texto : ''].join('\n\n').trim());
+    // Convocatorias europeas (ue-…): el extracto del Funding & Tenders Portal (líneas, importes, duración) se
+    // conserva siempre y los documentos propios (docs_extra, página del proyecto) van detrás. En las demás
+    // fuentes el extracto solo se usa si no hay documentos (no cambia la huella de sus fichas).
+    const extracto = a._texto ? '### Extracto de la fuente\n' + a._texto : '';
+    const partes = String(a.id).startsWith('ue-') ? [extracto, docs[a.id] || ''] : [docs[a.id] || '', !docs[a.id] ? extracto : ''];
+    const t = quitaRepetidas(partes.filter(Boolean).join('\n\n').trim());
     if (t) { fuentes[a.id] = t; fs.writeFileSync(path.join(DIR_F, nombreF(a.id)), t); }
     delete a._texto; delete a._docs; delete a._ficha; delete a._urls;
   }
