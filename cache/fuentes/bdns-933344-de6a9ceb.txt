@@ -263,63 +263,6 @@ igualdad de mujeres y hombre .
 ☐
 Datos bancarios: Ficha de acreedor
 
-### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1533974
-2024-25 ETA 2025-26 EUSKARA IKASTARO, TRIKO ETA BARNETEGI EGONALDI DIRULAGUNTZA
-SUBVENCION DE CURSOS DE EUSKARA, INTENSIVOS E INTERNADOS CURSOS 2024-25 y 2025-26
-III. ERANSKINA/ ANEXO III
-BANKU-ERAKUNDEAK BETE BEHARREKO DATUAK
-DATOS A RELLENAR POR LA ENTIDAD BANCARIA
-Arestian izendatutako pertsona Certificamos que la persona arriba
-hurrengo
-banku-kontuaren referenciada es titular de la siguiente
-titularra dela ziurtatzen dugu:
-cuenta bancaria:
-ERAKUNDEA/ENTIDAD __________ BIC KODEA/CÓDIGO(8-11) _________
-IBAN: ________________________________________________________
-TOKIA ETA DATA / LUGAR Y FECHA ______________________________
-BANKU-ERAKUNDEAREN SINADURA ETA ZIGILUA
-FIRMA Y SELLO DE LA ENTIDAD BANCARIA
-Sestaoko Udala-Ayuntamiento de Sestao | Kasko Plaza, z/g | 48910 Sestao – Bizkaia | Tel.: 944 729 000. www.sestao.eus
-
-### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1533973
-2024-25 ETA 2025-26 EUSKARA IKASTARO, TRIKO ETA BARNETEGI EGONALDI DIRULAGUNTZA
-SUBVENCION DE CURSOS DE EUSKARA, INTENSIVOS E INTERNADOS CURSOS 2024-25 y 2025-26
-II. ERANSKINA/ ANEXO II
-ESKATZAILEAK BETE BEHARREKO DATUAK
-DATOS A RELLENAR POR EL TERCERO
-Diligentzia: Behean sinatu duenak Diligencia: El abajo firmante se
-zehaztutako datuen erantzukizuna – responsabiliza de los datos detallados,
-hala datu orokorrena nola bankukoena tanto generales como bancarios, que
-– hartu du. Datuek ordainketak zein identifican la cuenta y la ENTIDAD
-kontu eta FINANTZA ERAKUNDETAN FINANCIERA a través de las cuales se
-egin behar diren adierazten dute, eta desean recibir los pagos que puedan
-horrenbestez, Sestaoko Udalak ez du corresponder,
-quedando
-el
-inolako erantzukizunik izango haietan Ayuntamiento de Sestao exonerado de
-gertatutako akats nahiz hutsegiteek cualquier responsabilidad derivada de
-eragindako ondorioetan.
-errores u omisiones en los mismos.
-ESKATZAILEAREN IZEN-ABIZENAK /NOMBRE Y APELLIDOS
-DEL/LASOLICITANTE:
-____________________________________________________________
-NAN/DNI: ______________________
-HELBIDEA/DOMICILIO: ____________________________________________
-UDALERRIA/POBLACIÓN:_______________________P.K./C.P:
-_______________
-E-MAILA ____________________
-TEL. _________________________
-KONTU KORRENTEAREN TITUTARRAREN DATUAK (Ikaslea bera ez bada)/
-DATOS DEL TITUTAR DE LA CUENTA BANCARIA (en caso de que no sea el
-alumno/a)
-IZEN-ABIZENAK/ NOMBRE Y APELLIDOS:
-_________________________________________ ___________________
-NAN/DNI: ______________________
-TOKIA ETA DATA / LUGAR Y FECHA ______________________________
-ESKATZAILEAREN SINADURA
-FIRMA DEL TERCERO
-Sestaoko Udala-Ayuntamiento de Sestao | Kasko Plaza, z/g | 48910 Sestao – Bizkaia | Tel.: 944 729 000. www.sestao.eus
-
 ### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1533972
 2024-25 ETA 2025-26 EUSKARA IKASTARO, TRIKO ETA BARNETEGI EGONALDI DIRULAGUNTZA
 SUBVENCION DE CURSOS DE EUSKARA, INTENSIVOS E INTERNADOS CURSOS 2024-25 y 2025-26
@@ -413,3 +356,60 @@ a
 Sestaoko Udala-Ayuntamiento de Sestao | Kasko Plaza, z/g | 48910 Sestao – Bizkaia | Tel.: 944 729 000. www.sestao.eus
 …......
 …........
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1533973
+2024-25 ETA 2025-26 EUSKARA IKASTARO, TRIKO ETA BARNETEGI EGONALDI DIRULAGUNTZA
+SUBVENCION DE CURSOS DE EUSKARA, INTENSIVOS E INTERNADOS CURSOS 2024-25 y 2025-26
+II. ERANSKINA/ ANEXO II
+ESKATZAILEAK BETE BEHARREKO DATUAK
+DATOS A RELLENAR POR EL TERCERO
+Diligentzia: Behean sinatu duenak Diligencia: El abajo firmante se
+zehaztutako datuen erantzukizuna – responsabiliza de los datos detallados,
+hala datu orokorrena nola bankukoena tanto generales como bancarios, que
+– hartu du. Datuek ordainketak zein identifican la cuenta y la ENTIDAD
+kontu eta FINANTZA ERAKUNDETAN FINANCIERA a través de las cuales se
+egin behar diren adierazten dute, eta desean recibir los pagos que puedan
+horrenbestez, Sestaoko Udalak ez du corresponder,
+quedando
+el
+inolako erantzukizunik izango haietan Ayuntamiento de Sestao exonerado de
+gertatutako akats nahiz hutsegiteek cualquier responsabilidad derivada de
+eragindako ondorioetan.
+errores u omisiones en los mismos.
+ESKATZAILEAREN IZEN-ABIZENAK /NOMBRE Y APELLIDOS
+DEL/LASOLICITANTE:
+____________________________________________________________
+NAN/DNI: ______________________
+HELBIDEA/DOMICILIO: ____________________________________________
+UDALERRIA/POBLACIÓN:_______________________P.K./C.P:
+_______________
+E-MAILA ____________________
+TEL. _________________________
+KONTU KORRENTEAREN TITUTARRAREN DATUAK (Ikaslea bera ez bada)/
+DATOS DEL TITUTAR DE LA CUENTA BANCARIA (en caso de que no sea el
+alumno/a)
+IZEN-ABIZENAK/ NOMBRE Y APELLIDOS:
+_________________________________________ ___________________
+NAN/DNI: ______________________
+TOKIA ETA DATA / LUGAR Y FECHA ______________________________
+ESKATZAILEAREN SINADURA
+FIRMA DEL TERCERO
+Sestaoko Udala-Ayuntamiento de Sestao | Kasko Plaza, z/g | 48910 Sestao – Bizkaia | Tel.: 944 729 000. www.sestao.eus
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1533974
+2024-25 ETA 2025-26 EUSKARA IKASTARO, TRIKO ETA BARNETEGI EGONALDI DIRULAGUNTZA
+SUBVENCION DE CURSOS DE EUSKARA, INTENSIVOS E INTERNADOS CURSOS 2024-25 y 2025-26
+III. ERANSKINA/ ANEXO III
+BANKU-ERAKUNDEAK BETE BEHARREKO DATUAK
+DATOS A RELLENAR POR LA ENTIDAD BANCARIA
+Arestian izendatutako pertsona Certificamos que la persona arriba
+hurrengo
+banku-kontuaren referenciada es titular de la siguiente
+titularra dela ziurtatzen dugu:
+cuenta bancaria:
+ERAKUNDEA/ENTIDAD __________ BIC KODEA/CÓDIGO(8-11) _________
+IBAN: ________________________________________________________
+TOKIA ETA DATA / LUGAR Y FECHA ______________________________
+BANKU-ERAKUNDEAREN SINADURA ETA ZIGILUA
+FIRMA Y SELLO DE LA ENTIDAD BANCARIA
+Sestaoko Udala-Ayuntamiento de Sestao | Kasko Plaza, z/g | 48910 Sestao – Bizkaia | Tel.: 944 729 000. www.sestao.eus
