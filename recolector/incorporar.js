@@ -11,6 +11,7 @@ const porId = new Map(pendientes.map((p) => [p.id, p]));
 const nuevos = leer('cache/nuevos.json', []);
 const cache = leer('cache/resumenes.json', {});
 let ok = 0, rechazados = 0, campos = 0;
+const hechos = new Set();
 for (const r of nuevos) {
   const p = porId.get(r.id);
   if (!p) { rechazados++; continue; }
@@ -21,10 +22,14 @@ for (const r of nuevos) {
   const v = validar(r, fuente + textosClaude(r.id));
   campos += v.errores.length;
   cache[r.id] = { h: huella(fuente), he: huellaEstable(r.id, fuente), r: v, modelo: 'claude', fecha: new Date().toISOString().slice(0, 10) };
+  hechos.add(r.id);
   ok++;
 }
 fs.writeFileSync('cache/resumenes.json', JSON.stringify(cache));
-fs.writeFileSync('cache/pendientes.json', JSON.stringify(pendientes.filter((p) => !cache[p.id] || cache[p.id].h !== p.h)));
+// Solo salen de la cola las ayudas cuya ficha se ha incorporado en esta pasada. Las reabiertas (reabrir.js) y las
+// retenidas con ocultarHastaFicha tienen ya una ficha con la misma huella que su entrada en pendientes, así que
+// comparar huellas las sacaría de la cola sin haberlas rehecho.
+fs.writeFileSync('cache/pendientes.json', JSON.stringify(pendientes.filter((p) => !hechos.has(p.id)), null, 1));
 fs.rmSync('cache/nuevos.json', { force: true });
 
 // Aplicar a lo publicado (fuentes = texto de pendientes + huellas ya guardadas)

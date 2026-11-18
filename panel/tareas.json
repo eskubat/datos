@@ -837,10 +837,10 @@
   "fuente": "recolector",
   "quien": "Claude",
   "prioridad": 47,
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "datos",
   "fecha": "2026-11-18",
-  "nota": "Añadida al plan de mejoras por la tarea de resúmenes"
+  "nota": "incorporar.js sacaba de cache/pendientes.json toda ayuda cuya ficha tuviera la misma huella que su entrada, y eso incluía las reabiertas con reabrir.js y las retenidas con ocultarHastaFicha. Ahora solo salen de la cola las ayudas cuya ficha se incorpora en esa misma pasada (probado: una ficha reabierta sigue en la cola tras incorporar sin ella). No cambia el número de ayudas; solo evita que las fichas reabiertas se queden sin rehacer."
  },
  {
   "id": "botha-03267-texto-cortado",
@@ -853,5 +853,17 @@
   "seccion": "fuentes",
   "fecha": "2026-11-18",
   "nota": "Añadida al plan de mejoras por la tarea de resúmenes"
+ },
+ {
+  "id": "reabiertas-tras-recolector",
+  "titulo": "Que las fichas reabiertas sigan en la cola después del recolector",
+  "detalle": "El recolector (recolector/index.js) rehace cache/pendientes.json cada mañana con fichaVigente(), así que una ficha reabierta con recolector/reabrir.js y no rehecha antes de las 05:41 sale de la cola porque su ficha antigua tiene la huella del texto actual. Propuesta: que reabrir.js apunte el id y la huella de la ficha en cache/reabiertas.json, que el recolector las mantenga en pendientes mientras la ficha guardada tenga esa huella, y que incorporar.js las quite de ese archivo al rehacerlas.",
+  "fuente": "recolector",
+  "quien": "Claude",
+  "prioridad": 49,
+  "estado": "pendiente",
+  "seccion": "base",
+  "fecha": "2026-11-18",
+  "nota": "Añadida por la tarea incorporar-respetar-reabiertas"
  }
 ]
