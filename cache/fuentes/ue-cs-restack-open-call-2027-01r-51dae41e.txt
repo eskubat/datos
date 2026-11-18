@@ -1,0 +1,41 @@
+### Extracto de la fuente
+Restack Open Call (2027-01R)
+Proyecto europeo que la convoca: Open Internet Stack: development of technological commons/open-source 3C building blocks (RIA)
+Convocatoria en cascada (fondos europeos repartidos por un proyecto a terceros)
+Identificador: HORIZON-CL4-2025-03-DATA-11
+Apertura: 2026-11-03
+Cierre: 2027-01-03
+es_SortDate: 2026-11-03T00:00:00.000+0000
+beneficiaryAdministration: Projects can be submitted through https://NLnet.nl/propose , please check the guide for applicants and our Generative AI policy before you start writing a proposal - this might save you a lot of work. Anyone can apply, including private individuals and organisations of any type, provided that your proposal has a clear European dimension . All outcomes should become available under a free and open license.
+ There is a two stage evaluation process followed by an external review .
+description: Restack will helps deliver, mature and scale operational internet commons across the technology stack to form Connected Collaborative Computing networks (3C): from libre chips to middleware without vendor lock-in, from productivity tools to 'local-first' infrastructure — and of course including end user applications needed to consume those networked services.
+ We are seeking project proposals between 5.000 and 50.000 euro's that help strengthen the open internet stack through such building blocks.
+title: Open Internet Stack: development of technological commons/open-source 3C building blocks (RIA)
+esST_checksum: DFAD34AE2B53911E343753B76EBFF04A742BF9273B10307A0E253950A795CC9B
+duration: 1-12 months (flexible)
+destinationDetails: Projects can be submitted through https://NLnet.nl/propose , please check the guide for applicants and our Generative AI policy before you start writing a proposal - this might save you a lot of work. Anyone can apply, including private individuals and organisations of any type, provided that your proposal has a clear European dimension . All outcomes should become available under a free and open license.
+ There is a two stage evaluation process followed by an external review .
+esST_FileName: file.txt
+projectAcronym: Restack
+callTitle: Restack Open Call (2027-01R)
+furtherInformation: The complete overview of the call text , eligibility criteria and an FAQ can be found on the main call page: https://nlnet.nl/restack
+caName: Restack Open Call (2027-01R)
+es_ContentType: text/plain
+esDA_FirstIngestDate: 2026-11-03T15:19:43.375+0100
+esDA_IngestDate: 2026-11-03T15:20:54.133+0100
+closingDate: 2026-11-03T00:00:00Z
+esST_URL: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/48400841
+esDA_QueueDate: 2026-11-03T15:20:54.094+0100
+projectName: Delivering a strong, reproducible next generation Open Internet Stack through strategic digital commons
+Página de la convocatoria (requisitos):
+Through this form you can request financial support for your project. NLnet runs several funds with different themes and eligibility requirements, so learn more about our funding and see if any fund matches. Some general requirements:
+Our grants are primarily for technical development.
+Our EU-supported funds require a strong European dimension; usually this means applicants should (mostly) be from Horizon Europe-eligible countries.
+Please do not forget the country code.
+Type of applicant
+Collective (without legal entity)
+SME company (small/medium enterprise)
+Your country of residence, or what comes closest.
+-- Pick country --
+If you apply for an EU-funded programme but you are not from a Horizon Europe-eligible country, please clarify how your project might satisfy the 'European dimension' requirement in the background question above. (e.g. European citizenship).
+Proposals and applicant details are considered confidential information, and only minimal information is shared with NLnet's partners when needed; please read our privacy statement.
