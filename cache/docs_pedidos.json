@@ -190,7 +190,15 @@
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933606"
   ],
-  "fecha": "2026-11-18"
+  "fecha": "2026-11-18",
+  "estado": "fallo",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933606",
+    "motivo": "es de otra convocatoria"
+   }
+  ]
  },
  "ara-apoyo-a-jovenes-informadores-en-centros-educativos-alaveses-f62501": {
   "titulo": "Convocatoria de apoyo a jóvenes informadores/as en centros educativos alaveses de Enseñanzas Medias 2026-2027 (Instituto Foral de la Juventud)",
@@ -198,6 +206,14 @@
   "urls": [
    "https://egoitza.araba.eus/es/inicio/tramites/fitxa/apoyo-a-jovenes-informadores-en-centros-educativos-alaveses-de-ensenanzas-medias-2026-2027"
   ],
-  "fecha": "2026-11-18"
+  "fecha": "2026-11-18",
+  "estado": "fallo",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://egoitza.araba.eus/es/inicio/tramites/fitxa/apoyo-a-jovenes-informadores-en-centros-educativos-alaveses-de-ensenanzas-medias-2026-2027",
+    "motivo": "es de otra convocatoria"
+   }
+  ]
  }
 }
