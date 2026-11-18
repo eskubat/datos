@@ -815,5 +815,17 @@
   "seccion": "fuentes",
   "fecha": "2026-11-18",
   "nota": "Añadida al plan de mejoras por la tarea de resúmenes"
+ },
+ {
+  "id": "incorporar-respetar-reabiertas",
+  "titulo": "incorporar.js: no sacar de la cola las fichas reabiertas que no se han rehecho",
+  "detalle": "recolector/reabrir.js añade la ayuda a cache/pendientes.json con la misma huella que ya tiene su ficha en cache/resumenes.json, y recolector/incorporar.js quita de la cola toda ayuda cuya ficha tenga esa huella (cache[p.id].h === p.h). Así, cualquier pasada que incorpore otras fichas saca de la cola las reabiertas aunque no se hayan rehecho: le pasó el 18/11 a ue-cs-valleys-open-call-1 y ue-cs-digiwind-ntnu-open-call-2-spring-autumn-2027 (reabiertas a las 08:37 y quitadas al incorporar otras 4 fichas; la tarea las volvió a reabrir y las rehizo) y a las retenidas con ocultarHastaFicha (bdns-929714, ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-format), que salen de la cola hasta la siguiente pasada del recolector. Propuesta: que incorporar solo quite de pendientes las ayudas que tengan ficha nueva en cache/nuevos.json (o que reabrir marque la ficha antigua como no vigente).",
+  "fuente": "recolector",
+  "quien": "Claude",
+  "prioridad": 46,
+  "estado": "pendiente",
+  "seccion": "datos",
+  "fecha": "2026-11-18",
+  "nota": "Añadida al plan de mejoras por la tarea de resúmenes"
  }
 ]
