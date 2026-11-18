@@ -26,5 +26,14 @@
     "motivo": "red: fetch failed"
    }
   ]
+ },
+ "bdns-942867": {
+  "titulo": "Bases reguladoras de subvenciones para la financiación de proyectos de cooperación y desarrollo del Ayuntamiento de Balmaseda (Boletín Oficial de Bizkaia, 9 de septiembre de 2024)",
+  "botha": [],
+  "urls": [
+   "https://www.balmaseda.eus"
+  ],
+  "origen": "tarea de fichas: la convocatoria 2026 (BDNS 942867) remite a esas bases y no están en la documentación",
+  "fecha": "2026-11-18"
  }
 }

@@ -45,15 +45,6 @@
   "caracteres": 5593
  },
  {
-  "id": "bdns-938096",
-  "h": "2891d7eca918b350",
-  "titulo": "Subvenciones para el fomento de proyectos del sector primario. Convocatoria",
-  "organismoSugerido": "ayto-oiartzun",
-  "organismoFuente": "Ayuntamiento de oiartzun",
-  "archivo": "cache/fuentes/bdns-938096-0b85829b.txt",
-  "caracteres": 47235
- },
- {
   "id": "ue-horizon-eic-2026-prize-wip",
   "h": "ed2bdc6e55313d53",
   "titulo": "The European Prize for Women Innovators",
@@ -81,33 +72,6 @@
   "caracteres": 12248
  },
  {
-  "id": "botha-2026-133-03267-c-pdf",
-  "h": "46e03a076a98be11",
-  "titulo": "Decreto Foral 43/, de 10 de noviembre, del Consejo de Gobierno Foral",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/botha-2026-133-03267-c-pdf-ee0c35bd.txt",
-  "caracteres": 32075
- },
- {
-  "id": "bdns-942473",
-  "h": "75695f858b08bc17",
-  "titulo": "Ayudas para participar en el programa nacional “Centros de Educación Ambiental”",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Dirección general de planificación y gestión educativa",
-  "archivo": "cache/fuentes/bdns-942473-64b5d9c9.txt",
-  "caracteres": 186266
- },
- {
-  "id": "bdns-942475",
-  "h": "df581c2e44f66839",
-  "titulo": "Ayudas para participar en el programa nacional “Recuperación y utilización educativa de pueblos abandonados. ”",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Dirección general de planificación y gestión educativa",
-  "archivo": "cache/fuentes/bdns-942475-ab859e62.txt",
-  "caracteres": 192228
- },
- {
   "id": "bob-bob-2026a219-ii-6013-",
   "h": "1c3c0ab2ed5fa248",
   "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -115,51 +79,6 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
   "caracteres": 5840
- },
- {
-  "id": "bdns-942971",
-  "h": "142c495c83967978",
-  "titulo": "Bases convocatoria de la campaña “bono sestao” para el estimulo al consumo directo en el comercio y sector servicios",
-  "organismoSugerido": "ayto-sestao",
-  "organismoFuente": "Ayuntamiento de sestao",
-  "archivo": "cache/fuentes/bdns-942971-8abeed9a.txt",
-  "caracteres": 32570
- },
- {
-  "id": "bdns-941574",
-  "h": "59228b932f7ec628",
-  "titulo": "Programa balidatu, programa de ayudas de apoyo para la validación de tecnologías de proyectos empresariales innovadores en un entorno real",
-  "organismoSugerido": "fomento-ss",
-  "organismoFuente": "Fomento de san sebastián s.a.- donostia sustapena",
-  "archivo": "cache/fuentes/bdns-941574-370a5c44.txt",
-  "caracteres": 53387
- },
- {
-  "id": "bdns-942560",
-  "h": "6ef90b846c0a08c3",
-  "titulo": "Programas de ámbito estatal",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Servicio público de empleo estatal",
-  "archivo": "cache/fuentes/bdns-942560-a53aaa11.txt",
-  "caracteres": 204383
- },
- {
-  "id": "bdns-942867",
-  "h": "6d4e2476579324bc",
-  "titulo": "Subvenciones para la financiación de Proyectos de Cooperación y Desarrollo",
-  "organismoSugerido": "ayto-balmaseda",
-  "organismoFuente": "Ayuntamiento de balmaseda",
-  "archivo": "cache/fuentes/bdns-942867-b8c1ff89.txt",
-  "caracteres": 5070
- },
- {
-  "id": "bdns-940983",
-  "h": "cecd92d2c4cd2674",
-  "titulo": "Convocatoria de de Subvenciones a la ciudadanía para hacer frente al gasto de agua",
-  "organismoSugerido": "ayto-irura",
-  "organismoFuente": "Ayuntamiento de irura",
-  "archivo": "cache/fuentes/bdns-940983-26fd9a3c.txt",
-  "caracteres": 65229
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -252,33 +171,6 @@
   "caracteres": 214972
  },
  {
-  "id": "bdns-927909",
-  "h": "8c440eeb3814c07c",
-  "titulo": "Subvenciones para el fomento de la natalidad",
-  "organismoSugerido": "ayto-campezo-kanpezu",
-  "organismoFuente": "Ayuntamiento de campezo/kanpezu",
-  "archivo": "cache/fuentes/bdns-927909-8dd39047.txt",
-  "caracteres": 12622
- },
- {
-  "id": "bdns-940942",
-  "h": "b36b7ef9f2e85a10",
-  "titulo": "Campaña \"Día mundial de los Derechos del Consumidor - 15 de marzo de: Consumir con garantía",
-  "organismoSugerido": "ayto-irun",
-  "organismoFuente": "Ayuntamiento de irun",
-  "archivo": "cache/fuentes/bdns-940942-0d9d0c3c.txt",
-  "caracteres": 134989
- },
- {
-  "id": "bdns-941572",
-  "h": "bf4330c01b3444e4",
-  "titulo": "Ayudas a la contratación indefinida dirigidas a promover la generación de empleo de calidad",
-  "organismoSugerido": "fomento-ss",
-  "organismoFuente": "Fomento de san sebastián s.a.- donostia sustapena",
-  "archivo": "cache/fuentes/bdns-941572-a309f792.txt",
-  "caracteres": 107225
- },
- {
   "id": "ue-crea-media-2027-tvonline-1",
   "h": "594ec78e4c088425",
   "titulo": "TV and online content Animation projects",
@@ -340,15 +232,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-fo-e97a71e8.txt",
   "caracteres": 47471
- },
- {
-  "id": "bdns-942978",
-  "h": "b6e2ae9ee8d6386d",
-  "titulo": "Bases y convocatoria de subvenciones para el desarrollo de los programas festivos",
-  "organismoSugerido": "ayto-hernani",
-  "organismoFuente": "Ayuntamiento de hernani",
-  "archivo": "cache/fuentes/bdns-942978-0ac78f70.txt",
-  "caracteres": 244564
  },
  {
   "id": "ue-cs-resist-ii-process-innovation-open-call",
@@ -520,24 +403,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-extraordinarias-y-temporales-para-el-transporte-p-444e21a1.txt",
   "caracteres": 42502
- },
- {
-  "id": "bdns-942928",
-  "h": "9b7b21ab3b0fe8a5",
-  "titulo": "Resolución de 13 de noviembre de de la Secretaría de Estado de Cultura de convocatoria de subvenciones en régimen de concurrencia competitiva",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Dirección general del libro, del cómic y de la lectura",
-  "archivo": "cache/fuentes/bdns-942928-51a34b8e.txt",
-  "caracteres": 154531
- },
- {
-  "id": "bdns-941144",
-  "h": "7b001455c27790ff",
-  "titulo": "Bases para la concesión, de las ayudas destinadas a financiar el pago de las tasas del suministro de agua y alcantarillado",
-  "organismoSugerido": "ayto-lezo",
-  "organismoFuente": "Ayuntamiento de lezo",
-  "archivo": "cache/fuentes/bdns-941144-cdd3573d.txt",
-  "caracteres": 34860
  },
  {
   "id": "bdns-940546",
