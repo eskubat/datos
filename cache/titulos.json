@@ -5662,5 +5662,13 @@
  "Convocatoria de subvenciones en el ámbito deportivo para deportistas federados no profesionales": {
   "es": "Ayudas para deportistas federados no profesionales",
   "eu": "Kirolari federatu ez-profesionalentzako laguntzak"
+ },
+ "Restack Open Call (2027-01R)": {
+  "es": "Ayudas Restack para desarrollar software libre para una internet abierta",
+  "eu": "Restack laguntzak Internet irekirako software librea garatzeko"
+ },
+ "CodeSupply open call (2027-01Y)": {
+  "es": "Ayudas CodeSupply para software libre sobre seguridad de paquetes de software",
+  "eu": "CodeSupply laguntzak software-paketeen segurtasunerako software librea garatzeko"
  }
 }
