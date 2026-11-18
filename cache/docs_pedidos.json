@@ -43,5 +43,12 @@
     "motivo": "fetch failed"
    }
   ]
+ },
+ "ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-format": {
+  "titulo": "Convocatoria de ayudas a la inversión en equipamiento formativo 2026",
+  "botha": [],
+  "urls": [
+   "https://egoitza.araba.eus/es/inicio/tramites/fitxa/convocatoria-de-ayudas-a-la-inversion-en-equipamiento-formativo-2026"
+  ]
  }
 }
