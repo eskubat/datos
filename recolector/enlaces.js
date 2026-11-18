@@ -56,10 +56,20 @@ const ES_DOCX = /\.docx(\?|$)|-docx(\?|$)/i;
 
 // Texto del PDF sin cabeceras de página de los boletines y, en normas largas, sin la exposición de motivos
 const CABECERA = /^\d+\s*\/\s*\d+$|^p[aá]g(ina)?\.? ?\d+|^BOLET[IÍ]N OFICIAL|^EHAA|^N\.?º\s*\d+$|^\d{4}\/\d+\s*\(\d+\/\d+\)$|^(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo),? \d+ de \w+ de \d{4}$|^\w+ \d{4}ko \w+ \d+/i;
+const DISPOSITIVA = /\n(DISPONGO|DISPONE|ACUERDO|ACUERDA|ACUERDAN|RESUELVO|RESUELVE|HE RESUELTO|SE RESUELVE|SE ACUERDA|DECRETO|DECRETA|ORDENO)\s*:?\s*(?=\n)/;
 const limpiaPdf = (t) => {
   let x = t.replace(/\f/g, '\n').split('\n').map((l) => l.replace(/\s+/g, ' ').trim()).filter((l) => l && !CABECERA.test(l)).join('\n');
   const art = x.search(/\n(Art[ií]culo 1\.?|Artículo primero)[ .–-]/);
-  if (art > 3000 && x.length > 20000) x = x.slice(0, 1500) + '\n[…]\n' + x.slice(art + 1);
+  if (art > 3000 && x.length > 20000) {
+    // En los decretos y órdenes que aprueban bases y convocatoria a la vez, la parte dispositiva (plazo de
+    // solicitudes, presupuesto, créditos…) va entre la exposición de motivos y el artículo 1: se conserva
+    // desde «DISPONGO» / «ACUERDO» / «RESUELVO»… (o desde «Primero.» si no hay esa línea) y solo se corta la exposición
+    const tramo = x.slice(1500, art);
+    let d = tramo.search(DISPOSITIVA);
+    if (d < 0) d = tramo.search(/\n(Primero|PRIMERO)\s*[.:–-]/);
+    const desde = d >= 0 ? 1500 + d + 1 : art + 1;
+    x = x.slice(0, 1500) + '\n[…]\n' + x.slice(desde);
+  }
   return x;
 };
 
@@ -129,9 +139,15 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
   try { indice = JSON.parse(fs.readFileSync(INDICE, 'utf8')); } catch {}
   const limite = new Date(Date.now() - DIAS * 864e5).toISOString().slice(0, 10);
   const leer = (u) => { const e = indice[u]; if (!e || !e.ok) return null; try { return JSON.parse(fs.readFileSync(path.join(DIR, sha(u) + '.json'), 'utf8')); } catch { return null; } };
+  // cache/docs_refrescar.json ({url: "AAAA-MM-DD"}): documentos que se vuelven a bajar aunque estén en caché,
+  // mientras su descarga guardada sea de esa fecha o anterior (p. ej. tras cambiar cómo se limpia un PDF)
+  let refrescar = {};
+  try { refrescar = JSON.parse(fs.readFileSync(path.join('cache', 'docs_refrescar.json'), 'utf8')); } catch {}
+  const refrescados = new Set();
   let nuevos = 0, fallos = 0;
   const obtener = async (u) => {
-    const e = indice[u];
+    let e = indice[u];
+    if (e && refrescar[u] && e.fecha <= refrescar[u] && !refrescados.has(u)) { refrescados.add(u); e = undefined; }
     // Los .docx que fallaron antes de saber leerlos (sin «dx») se vuelven a intentar una vez
     if (e && e.v === V && e.fecha >= limite && (e.ok || (e.intentos >= 3 && (e.dx || !ES_DOCX.test(u))))) {
       const c = leer(u);

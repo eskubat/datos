@@ -801,10 +801,10 @@
   "fuente": "BOTHA",
   "quien": "Claude",
   "prioridad": 44,
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "fuentes",
   "fecha": "2026-11-18",
-  "nota": "Añadida al plan de mejoras por la tarea de resúmenes"
+  "nota": "limpiaPdf (recolector/enlaces.js) ahora, en los PDF largos, solo quita la exposición de motivos: conserva desde la línea «DISPONGO», «ACUERDO», «RESUELVO»… (o desde «Primero.» si no la hay) hasta el artículo 1, donde van el plazo, el presupuesto y los créditos. Como la red de la sesión no llega a araba.eus y cache/docs está en la caché de Actions, reabrir.js habría usado el texto viejo: en su lugar añadí cache/docs_refrescar.json (URL → fecha) para que el recolector vuelva a bajar el Decreto Foral 43/2026 (BOTHA 133); al cambiar su texto, botha-2026-133-03267-c-pdf vuelve sola a la cola de fichas. Los otros ~156 PDF cortados se irán actualizando al refrescarse la caché (30 días) y las fichas cuyo texto gane la parte dispositiva volverán a la cola poco a poco."
  },
  {
   "id": "ue-cascada-conservar-extracto",
