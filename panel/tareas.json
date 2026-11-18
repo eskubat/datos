@@ -753,10 +753,10 @@
   "fuente": "BOTHA (sumarios)",
   "quien": "Claude",
   "prioridad": 40,
-  "estado": "en_curso",
+  "estado": "hecha",
   "seccion": "fuentes",
   "fecha": "2026-11-18",
-  "nota": "Añadida al plan de mejoras"
+  "nota": "El registro dio HTTP 404 en los dos números, y un sondeo desde GitHub Actions confirma que el BOTHA no publicó sumario del 046 (22/04) ni del 047 (24/04) con ningún nombre, aunque sí sus anuncios sueltos. Leyendo los anuncios 01077-01157 he añadido a cache/botha_sumarios.json las tres convocatorias de la Diputación que traen (creación audiovisual, inversiones turísticas de entidades sin ánimo de lucro —la Orden Foral 194/2026 que faltaba— y razas ganaderas) y he quitado los dos fallidos; el recolector de mañana podrá enlazar el BOTHA propio de las inversiones turísticas de ESAL. No se esperan ayudas nuevas: las tres cerraron en primavera."
  },
  {
   "id": "ue-cascada-paginas-revisar",
@@ -779,5 +779,15 @@
   "seccion": "datos",
   "fecha": "2026-11-18",
   "nota": "Añadida al plan de mejoras por la tarea de resúmenes"
+ },
+ {
+  "id": "botha-sumario-404-anuncios",
+  "titulo": "Leer los anuncios sueltos del BOTHA cuando un número no tiene sumario",
+  "detalle": "Los números 046 y 047 de 2026 no tienen sumario (HTTP 404) pero sí anuncios (2026_<n>_<ref>_C.pdf). Si vuelve a pasar, que sumariosBotha, tras dos días con 404, lea una vez los anuncios con referencia entre la última del número anterior y la primera del siguiente (pocas decenas de PDF, solo la primera página) y guarde las convocatorias de la Diputación igual que con el sumario.",
+  "fuente": "BOTHA (sumarios)",
+  "quien": "Claude",
+  "prioridad": 43,
+  "estado": "pendiente",
+  "seccion": "fuentes"
  }
 ]

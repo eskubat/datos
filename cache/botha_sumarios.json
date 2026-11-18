@@ -820,18 +820,29 @@
     "url": "https://www.araba.eus/botha/Boletines/2025/001/2025_001_03937_C.pdf",
     "publicacion": "2026-01-02"
    }
+  ],
+  "2026-046": [
+   {
+    "entidad": "DIPUTACIÓN FORAL DE ÁLAVA",
+    "titulo": "Acuerdo 218/2026, de 14 de abril del Consejo de Gobierno Foral. Aprobar la convocatoria de ayudas a la creación audiovisual para el ejercicio 2026",
+    "url": "https://www.araba.eus/botha/Boletines/2026/046/2026_046_01118_C.pdf",
+    "publicacion": "2026-04-22"
+   },
+   {
+    "entidad": "DIPUTACIÓN FORAL DE ÁLAVA",
+    "titulo": "Orden Foral 194/2026 de 14 de abril. Aprobar la convocatoria de ayudas para hacer frente a inversiones en entidades sin ánimo de lucro del sector turístico alavés",
+    "url": "https://www.araba.eus/botha/Boletines/2026/046/2026_046_01121_C.pdf",
+    "publicacion": "2026-04-22"
+   }
+  ],
+  "2026-047": [
+   {
+    "entidad": "DIPUTACIÓN FORAL DE ÁLAVA",
+    "titulo": "Acuerdo 225/2026, de 14 de abril, del Consejo de Gobierno Foral. Aprobar la convocatoria de ayudas destinadas a la gestión de programas colectivos de razas ganaderas, de sanidad animal y de producción animal en el Territorio Histórico de Álava durante el ejercicio 2026",
+    "url": "https://www.araba.eus/botha/Boletines/2026/047/2026_047_01124_C.pdf",
+    "publicacion": "2026-04-24"
+   }
   ]
  },
- "fallidos": {
-  "2026-047": {
-   "intentos": 1,
-   "ultimo": "2026-11-18",
-   "motivo": "HTTP 404"
-  },
-  "2026-046": {
-   "intentos": 1,
-   "ultimo": "2026-11-18",
-   "motivo": "HTTP 404"
-  }
- }
+ "fallidos": {}
 }
