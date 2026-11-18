@@ -49,6 +49,19 @@
   "botha": [],
   "urls": [
    "https://egoitza.araba.eus/es/inicio/tramites/fitxa/convocatoria-de-ayudas-a-la-inversion-en-equipamiento-formativo-2026"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-18",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://egoitza.araba.eus/es/inicio/tramites/fitxa/convocatoria-de-ayudas-a-la-inversion-en-equipamiento-formativo-2026",
+    "motivo": "es de otra convocatoria"
+   },
+   {
+    "url": "https://www.araba.eus/botha/Boletines/2026/033/2026_033_00730_C.pdf",
+    "motivo": "red: fetch failed"
+   }
   ]
  }
 }
