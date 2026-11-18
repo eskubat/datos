@@ -31,6 +31,14 @@ fs.writeFileSync('cache/resumenes.json', JSON.stringify(cache));
 // comparar huellas las sacaría de la cola sin haberlas rehecho.
 fs.writeFileSync('cache/pendientes.json', JSON.stringify(pendientes.filter((p) => !hechos.has(p.id)), null, 1));
 fs.rmSync('cache/nuevos.json', { force: true });
+// Las reabiertas que se han rehecho dejan de forzarse en la cola del recolector
+{
+  const reab = leer('cache/reabiertas.json', null);
+  if (reab && [...hechos].some((id) => reab[id])) {
+    for (const id of hechos) delete reab[id];
+    fs.writeFileSync('cache/reabiertas.json', JSON.stringify(reab, null, 1));
+  }
+}
 
 // Aplicar a lo publicado (fuentes = texto de pendientes + huellas ya guardadas)
 const pub = leer('publico/ayudas.json', null);

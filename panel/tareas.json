@@ -861,9 +861,9 @@
   "fuente": "recolector",
   "quien": "Claude",
   "prioridad": 49,
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "base",
   "fecha": "2026-11-18",
-  "nota": "Añadida por la tarea incorporar-respetar-reabiertas"
+  "nota": "El recolector rehacía cache/pendientes.json cada mañana y sacaba de la cola las fichas reabiertas que aún no se habían rehecho. Ahora reabrir.js las apunta en cache/reabiertas.json, el recolector las mantiene en la cola mientras estén ahí (y olvida las que ya no existen) e incorporar.js las quita al rehacerlas; probado con dos reabiertas, de las que solo salió la rehecha. No cambia el número de ayudas."
  }
 ]

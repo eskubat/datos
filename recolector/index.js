@@ -753,7 +753,20 @@ async function main() {
     log(`Descartadas porque su ficha dice que no se pueden pedir (nominativas o reservadas): ${fuera.length}${fuera.length ? ' · ' + fuera.slice(0, 40).join(', ') : ''}`);
   }
   // Lista de pendientes para la tarea de resumen (abiertas primero, por fecha de cierre)
-  const pendientes = ayudas.filter((a) => !a.posibleNoticia && fuentes[a.id] && !fichaVigente(cacheRes[a.id], a.id, fuentes[a.id], a._hastaFicha && a._hastaFicha.huellaFicha))
+  // Reabiertas con reabrir.js (cache/reabiertas.json): siguen en la cola aunque su ficha valga para el texto actual,
+  // hasta que incorporar.js las rehaga. Se olvidan las que ya no están entre las ayudas.
+  let reabiertas = {};
+  try { reabiertas = JSON.parse(fs.readFileSync(path.join('cache', 'reabiertas.json'), 'utf8')); } catch {}
+  {
+    const ids = new Set(ayudas.map((a) => a.id));
+    const antes = Object.keys(reabiertas).length;
+    for (const id of Object.keys(reabiertas)) if (!ids.has(id) || !fuentes[id]) delete reabiertas[id];
+    if (antes) {
+      fs.writeFileSync(path.join('cache', 'reabiertas.json'), JSON.stringify(reabiertas, null, 1));
+      log(`Reabiertas que siguen en la cola: ${Object.keys(reabiertas).length}${antes > Object.keys(reabiertas).length ? ` (${antes - Object.keys(reabiertas).length} olvidadas porque ya no están)` : ''}`);
+    }
+  }
+  const pendientes = ayudas.filter((a) => !a.posibleNoticia && fuentes[a.id] && (reabiertas[a.id] || !fichaVigente(cacheRes[a.id], a.id, fuentes[a.id], a._hastaFicha && a._hastaFicha.huellaFicha)))
     .sort((x, y) => (x.fin || '9999').localeCompare(y.fin || '9999'))
     .map((a) => ({ id: a.id, h: huella(fuentes[a.id]), titulo: a.titulo, organismoSugerido: a.organismoId, organismoFuente: a.organismoFuente || '', archivo: path.join(DIR_F, nombreF(a.id)), caracteres: fuentes[a.id].length }));
   // Tabla maestra de organismos para la tarea de categorización

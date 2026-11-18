@@ -47,7 +47,7 @@ Las reglas de qué va en cada campo están en **`docs/CATEGORIZACION.md`** (resu
 
 ## Rehacer una ficha ya incorporada
 
-`node recolector/reabrir.js <id> [<id> …]` vuelve a poner la ayuda en `cache/pendientes.json` (con su `h` y su `archivo`); después redacta la ficha corregida en `cache/nuevos.json` como cualquier otra.
+`node recolector/reabrir.js <id> [<id> …]` vuelve a poner la ayuda en `cache/pendientes.json` (con su `h` y su `archivo`); después redacta la ficha corregida en `cache/nuevos.json` como cualquier otra. La apunta además en `cache/reabiertas.json`, para que el recolector la mantenga en la cola aunque su ficha antigua siga valiendo para el texto actual; `incorporar.js` la quita de ese archivo al rehacerla.
 
 ## Formato de `cache/ayudas_extra.json` (lista; añade, no borres las anteriores)
 
