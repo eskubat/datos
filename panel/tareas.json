@@ -740,9 +740,11 @@
   "detalle": "De las 108 convocatorias en cascada abiertas, 42 se quedan fuera porque el texto de la API no dice qué países pueden pedirlas (muchas solo traen una descripción corta: VALLEYS «Open to EU/Associated Countries», FARM360TECH, PhotonQBoost, AMALTEA…). Leer la página propia de la convocatoria (campo enlace que guarda ahora recolector/europa.js) para esas y dejar pasar las abiertas a cualquier país de la UE sin consorcio.",
   "fuente": "Funding & Tenders Portal (Comisión Europea)",
   "quien": "Claude",
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "fuentes",
-  "prioridad": 39
+  "prioridad": 39,
+  "fecha": "2026-11-18",
+  "nota": "De las convocatorias en cascada abiertas que la API no dice qué países pueden pedirlas, 22 tienen una página propia legible (el resto solo enlaza a formularios, pantallas de acceso o PDF). recolector/europa.js descarga ahora esas páginas como EskubatBot (máx. 40 al día, caché de 7 días en cache/europa_paginas.json), guarda las líneas de requisitos y deja pasar las abiertas a cualquier país de la UE sin consorcio; además acepta «Open to EU/Associated Countries» (entra VALLEYS) y ya no toma «no consortium required» como exigencia de consorcio. La red de la sesión no llega a esas webs, así que la primera prueba real será el recolector de las 05:41; se esperan entre 1 y 10 ayudas nuevas."
  },
  {
   "id": "botha-sumarios-046-047-motivo",
@@ -755,5 +757,15 @@
   "seccion": "fuentes",
   "fecha": "2026-11-18",
   "nota": "Añadida al plan de mejoras"
+ },
+ {
+  "id": "ue-cascada-paginas-revisar",
+  "titulo": "Revisar las convocatorias europeas en cascada que pasan por su página propia",
+  "detalle": "Tras el recolector, mirar en su salida la línea «UE cascada: … sin países en la API con página propia» y cache/europa_paginas.json: comprobar que las que pasan el filtro por su página (ids ue-cs-…) están de verdad abiertas a solicitantes vascos sin consorcio, revisar las páginas que fallan o vuelven sin texto y ajustar lineasElegibilidad o NO_PAGINA en recolector/europa.js.",
+  "fuente": "Funding & Tenders Portal (Comisión Europea)",
+  "quien": "Claude",
+  "estado": "pendiente",
+  "seccion": "fuentes",
+  "prioridad": 41
  }
 ]
