@@ -488,5 +488,170 @@
   "parecidaA": "eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias-y-forestales-2026",
   "motivo": "Misma convocatoria del Departamento de Alimentación del Gobierno Vasco (Orden de 3/11/2026, BOPV 218 de 13/11/2026: agrupaciones de productores agrarios y forestales del PEPAC, líneas 1 y 2, plazo 14-23/11/2026) llegada por dos fuentes: la ficha de euskadi.eus y la entrada añadida a mano con el PDF del BOPV.",
   "fecha": "2026-11-17"
+ },
+ "bdns-933213": {
+  "parecidaA": "bog-c2606563-htm",
+  "motivo": "Misma convocatoria (BDNS 933213, «Subvenciones para deportistas federados») llegada por dos fuentes: la ficha de la BDNS (ya publicada) y el extracto del BOG (bog-c2606563-htm), que remite a la misma BDNS; mismo organismo, objeto, solicitantes y plazo.",
+  "fecha": "2026-11-18"
+ },
+ "bog-c2606563-htm": {
+  "parecidaA": "bdns-933213",
+  "motivo": "Extracto del BOG de la convocatoria BDNS 933213 (bdns-933213, «Subvenciones para deportistas federados»): misma convocatoria, mismo organismo, objeto, solicitantes y plazo; solo cambia la fuente.",
+  "fecha": "2026-11-18"
+ },
+ "bdns-934683": {
+  "parecidaA": "botha-2026-120-02921-c-pdf",
+  "motivo": "Misma convocatoria (BDNS 934683, «Ayudas para pagar la matrícula de cursos de euskera») llegada por dos fuentes: la ficha de la BDNS (ya publicada) y el extracto del BOTHA (botha-2026-120-02921-c-pdf), que remite a la misma BDNS; mismo organismo, objeto, solicitantes y plazo.",
+  "fecha": "2026-11-18"
+ },
+ "botha-2026-120-02921-c-pdf": {
+  "parecidaA": "bdns-934683",
+  "motivo": "Extracto del BOTHA de la convocatoria BDNS 934683 (bdns-934683, «Ayudas para pagar la matrícula de cursos de euskera»): misma convocatoria, mismo organismo, objeto, solicitantes y plazo; solo cambia la fuente.",
+  "fecha": "2026-11-18"
+ },
+ "bdns-934718": {
+  "parecidaA": "botha-2026-120-02922-c-pdf",
+  "motivo": "Misma convocatoria (BDNS 934718, «Ayudas para estudiar euskera») llegada por dos fuentes: la ficha de la BDNS (ya publicada) y el extracto del BOTHA (botha-2026-120-02922-c-pdf), que remite a la misma BDNS; mismo organismo, objeto, solicitantes y plazo.",
+  "fecha": "2026-11-18"
+ },
+ "botha-2026-120-02922-c-pdf": {
+  "parecidaA": "bdns-934718",
+  "motivo": "Extracto del BOTHA de la convocatoria BDNS 934718 (bdns-934718, «Ayudas para estudiar euskera»): misma convocatoria, mismo organismo, objeto, solicitantes y plazo; solo cambia la fuente.",
+  "fecha": "2026-11-18"
+ },
+ "bdns-939167": {
+  "parecidaA": "bog-c2607218-htm",
+  "motivo": "Misma convocatoria (BDNS 939167, «Ayudas para deportistas de alto nivel y menores con discapacidad») llegada por dos fuentes: la ficha de la BDNS (ya publicada) y el extracto del BOG (bog-c2607218-htm), que remite a la misma BDNS; mismo organismo, objeto, solicitantes y plazo.",
+  "fecha": "2026-11-18"
+ },
+ "bog-c2607218-htm": {
+  "parecidaA": "bdns-939167",
+  "motivo": "Extracto del BOG de la convocatoria BDNS 939167 (bdns-939167, «Ayudas para deportistas de alto nivel y menores con discapacidad»): misma convocatoria, mismo organismo, objeto, solicitantes y plazo; solo cambia la fuente.",
+  "fecha": "2026-11-18"
+ },
+ "bdns-936268": {
+  "parecidaA": "bog-c2606919-htm",
+  "motivo": "Misma convocatoria (BDNS 936268, «Subvenciones para desplazamientos de clubes deportivos a campeonatos extraordinarios») llegada por dos fuentes: la ficha de la BDNS (ya publicada) y el extracto del BOG (bog-c2606919-htm), que remite a la misma BDNS; mismo organismo, objeto, solicitantes y plazo.",
+  "fecha": "2026-11-18"
+ },
+ "bog-c2606919-htm": {
+  "parecidaA": "bdns-936268",
+  "motivo": "Extracto del BOG de la convocatoria BDNS 936268 (bdns-936268, «Subvenciones para desplazamientos de clubes deportivos a campeonatos extraordinarios»): misma convocatoria, mismo organismo, objeto, solicitantes y plazo; solo cambia la fuente.",
+  "fecha": "2026-11-18"
+ },
+ "bdns-937192": {
+  "parecidaA": "botha-2026-125-03048-c-pdf",
+  "motivo": "Misma convocatoria (BDNS 937192, «Subvenciones para rotular en euskera comercios, hostelería y empresas de servicios») llegada por dos fuentes: la ficha de la BDNS (ya publicada) y el extracto del BOTHA (botha-2026-125-03048-c-pdf), que remite a la misma BDNS; mismo organismo, objeto, solicitantes y plazo.",
+  "fecha": "2026-11-18"
+ },
+ "botha-2026-125-03048-c-pdf": {
+  "parecidaA": "bdns-937192",
+  "motivo": "Extracto del BOTHA de la convocatoria BDNS 937192 (bdns-937192, «Subvenciones para rotular en euskera comercios, hostelería y empresas de servicios»): misma convocatoria, mismo organismo, objeto, solicitantes y plazo; solo cambia la fuente.",
+  "fecha": "2026-11-18"
+ },
+ "bdns-937839": {
+  "parecidaA": "bog-c2607069-htm",
+  "motivo": "Misma convocatoria (BDNS 937839, «Subvenciones para programas educativos y de conciliación en centros escolares») llegada por dos fuentes: la ficha de la BDNS (ya publicada) y el extracto del BOG (bog-c2607069-htm), que remite a la misma BDNS; mismo organismo, objeto, solicitantes y plazo.",
+  "fecha": "2026-11-18"
+ },
+ "bog-c2607069-htm": {
+  "parecidaA": "bdns-937839",
+  "motivo": "Extracto del BOG de la convocatoria BDNS 937839 (bdns-937839, «Subvenciones para programas educativos y de conciliación en centros escolares»): misma convocatoria, mismo organismo, objeto, solicitantes y plazo; solo cambia la fuente.",
+  "fecha": "2026-11-18"
+ },
+ "bdns-932594": {
+  "parecidaA": "bog-c2606511-htm",
+  "motivo": "Misma convocatoria (BDNS 932594, «Beca Tolosa Sormen Herria para proyectos de creación artística») llegada por dos fuentes: la ficha de la BDNS (ya publicada) y el extracto del BOG (bog-c2606511-htm), que remite a la misma BDNS; mismo organismo, objeto, solicitantes y plazo.",
+  "fecha": "2026-11-18"
+ },
+ "bog-c2606511-htm": {
+  "parecidaA": "bdns-932594",
+  "motivo": "Extracto del BOG de la convocatoria BDNS 932594 (bdns-932594, «Beca Tolosa Sormen Herria para proyectos de creación artística»): misma convocatoria, mismo organismo, objeto, solicitantes y plazo; solo cambia la fuente.",
+  "fecha": "2026-11-18"
+ },
+ "bdns-939989": {
+  "parecidaA": "botha-2026-131-03230-c-pdf",
+  "motivo": "Misma convocatoria (BDNS 939989, «Subvenciones para organizar programas y actividades deportivas y recreativas») llegada por dos fuentes: la ficha de la BDNS (ya publicada) y el extracto del BOTHA (botha-2026-131-03230-c-pdf), que remite a la misma BDNS; mismo organismo, objeto, solicitantes y plazo.",
+  "fecha": "2026-11-18"
+ },
+ "botha-2026-131-03230-c-pdf": {
+  "parecidaA": "bdns-939989",
+  "motivo": "Extracto del BOTHA de la convocatoria BDNS 939989 (bdns-939989, «Subvenciones para organizar programas y actividades deportivas y recreativas»): misma convocatoria, mismo organismo, objeto, solicitantes y plazo; solo cambia la fuente.",
+  "fecha": "2026-11-18"
+ },
+ "bdns-934476": {
+  "parecidaA": "botha-2026-120-02912-c-pdf",
+  "motivo": "Misma convocatoria (BDNS 934476, «Ayudas para tratar las termitas en edificios urbanos») llegada por dos fuentes: la ficha de la BDNS (ya publicada) y el extracto del BOTHA (botha-2026-120-02912-c-pdf), que remite a la misma BDNS; mismo organismo, objeto, solicitantes y plazo.",
+  "fecha": "2026-11-18"
+ },
+ "botha-2026-120-02912-c-pdf": {
+  "parecidaA": "bdns-934476",
+  "motivo": "Extracto del BOTHA de la convocatoria BDNS 934476 (bdns-934476, «Ayudas para tratar las termitas en edificios urbanos»): misma convocatoria, mismo organismo, objeto, solicitantes y plazo; solo cambia la fuente.",
+  "fecha": "2026-11-18"
+ },
+ "bdns-938141": {
+  "parecidaA": "botha-2026-128-03102-c-pdf",
+  "motivo": "Misma convocatoria (BDNS 938141, «Ayudas para pagar la matrícula de cursos de euskera») llegada por dos fuentes: la ficha de la BDNS (ya publicada) y el extracto del BOTHA (botha-2026-128-03102-c-pdf), que remite a la misma BDNS; mismo organismo, objeto, solicitantes y plazo.",
+  "fecha": "2026-11-18"
+ },
+ "botha-2026-128-03102-c-pdf": {
+  "parecidaA": "bdns-938141",
+  "motivo": "Extracto del BOTHA de la convocatoria BDNS 938141 (bdns-938141, «Ayudas para pagar la matrícula de cursos de euskera»): misma convocatoria, mismo organismo, objeto, solicitantes y plazo; solo cambia la fuente.",
+  "fecha": "2026-11-18"
+ },
+ "bdns-938969": {
+  "parecidaA": "bog-c2607198-htm",
+  "motivo": "Misma convocatoria de Eibar (BDNS 938969: ascensores, accesibilidad a portales y fachadas) llegada por dos fuentes: la BDNS (ya publicada) y el extracto del BOG del 6/11/2026 (bog-c2607198-htm), que remite a la misma BDNS.",
+  "fecha": "2026-11-18"
+ },
+ "bog-c2607198-htm": {
+  "parecidaA": "bdns-938969",
+  "motivo": "Extracto del BOG de la convocatoria BDNS 938969 de Eibar (ascensores, accesibilidad y fachadas): misma convocatoria que bdns-938969; solo cambia la fuente.",
+  "fecha": "2026-11-18"
+ },
+ "bdns-932435": {
+  "parecidaA": "bob-bob-2026a193-ii-5168-",
+  "motivo": "Misma convocatoria de Fruiz (cursos de euskera 2025-2026, Decreto 232/2026) llegada por dos fuentes: la BDNS (ya publicada) y el anuncio del BOB 193 de 8/10/2026 (bob-bob-2026a193-ii-5168-) con las bases.",
+  "fecha": "2026-11-18"
+ },
+ "bob-bob-2026a193-ii-5168-": {
+  "parecidaA": "bdns-932435",
+  "motivo": "Anuncio del BOB 193 con las bases de la convocatoria de cursos de euskera 2025-2026 de Fruiz, que ya está publicada desde la BDNS (bdns-932435).",
+  "fecha": "2026-11-18"
+ },
+ "bob-bob-2026a194-ii-5219-": {
+  "parecidaA": "bob-bob-2026a191-ii-5111-",
+  "motivo": "Extracto (BOB 194, BDNS 932961) de la convocatoria de Güeñes de libros de texto, material escolar y equipos informáticos 2026-2027; bob-bob-2026a191-ii-5111- son sus bases (BOB 191), misma Junta de Gobierno de 4/9/2026.",
+  "fecha": "2026-11-18"
+ },
+ "bob-bob-2026a191-ii-5111-": {
+  "parecidaA": "bob-bob-2026a194-ii-5219-",
+  "motivo": "Bases (BOB 191) de la convocatoria de Güeñes de libros de texto 2026-2027 cuyo extracto (BDNS 932961) es bob-bob-2026a194-ii-5219-: misma ayuda por dos anuncios.",
+  "fecha": "2026-11-18"
+ },
+ "bob-bob-2026a192-ii-5234-": {
+  "parecidaA": "bob-bob-2026a192-ii-5235-",
+  "motivo": "Mismo anuncio del BOB 192 (ayudas al alquiler para jóvenes de Elorrio, BDNS 933083, expediente 2026-01194) repetido con dos números (II-5234 y II-5235), probablemente la versión en castellano y en euskera.",
+  "fecha": "2026-11-18"
+ },
+ "bob-bob-2026a192-ii-5235-": {
+  "parecidaA": "bob-bob-2026a192-ii-5234-",
+  "motivo": "Mismo anuncio del BOB 192 que bob-bob-2026a192-ii-5234- (alquiler para jóvenes de Elorrio, BDNS 933083).",
+  "fecha": "2026-11-18"
+ },
+ "botha-2026-125-03043-c-pdf": {
+  "parecidaA": "bdns-937192",
+  "motivo": "Bases (BOTHA 125) de la convocatoria de Ayala de rotulación en euskera de comercios, hostelería y servicios, que ya llega por la BDNS (bdns-937192) y por su extracto (botha-2026-125-03048-c-pdf).",
+  "fecha": "2026-11-18"
+ },
+ "bdns-934941": {
+  "parecidaA": "bog-c2606798-htm",
+  "motivo": "Misma convocatoria de Errenteria (Política Lingüística, línea 4.7 Liburua opari, Decreto 2973 de 13/10/2026, BDNS 934941) llegada por la BDNS y por el extracto del BOG del 27/10/2026 (bog-c2606798-htm).",
+  "fecha": "2026-11-18"
+ },
+ "bog-c2606798-htm": {
+  "parecidaA": "bdns-934941",
+  "motivo": "Extracto del BOG de la convocatoria BDNS 934941 de Errenteria (línea 4.7 Liburua opari): misma convocatoria que bdns-934941; solo cambia la fuente.",
+  "fecha": "2026-11-18"
  }
 }

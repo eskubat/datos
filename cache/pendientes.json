@@ -72,15 +72,6 @@
   "caracteres": 3431
  },
  {
-  "id": "bob-bob-2026a213-ii-5642-",
-  "h": "8e4c4a9def3c61ca",
-  "titulo": "Subvenciones a entidades y personas titulares de edificios privados de vivienda colectiva",
-  "organismoSugerido": "ayto-muskiz",
-  "organismoFuente": "Ayuntamiento de Muskiz",
-  "archivo": "cache/fuentes/bob-bob-2026a213-ii-5642--5ae1cdf8.txt",
-  "caracteres": 1585
- },
- {
   "id": "bdns-939398",
   "h": "569a51b8a54b5159",
   "titulo": "Becas para el curso en línea de formación para la dirección de centros educativos",
@@ -1017,15 +1008,6 @@
   "caracteres": 273957
  },
  {
-  "id": "bob-bob-2026a200-ii-5341-",
-  "h": "c706dc418a6dbb7f",
-  "titulo": "Extracto del Decreto/8201, de 3 de octubre, de la Alcaldía Presidencia,",
-  "organismoSugerido": "ayto-barakaldo",
-  "organismoFuente": "Ayuntamiento de Barakaldo",
-  "archivo": "cache/fuentes/bob-bob-2026a200-ii-5341--3105cf82.txt",
-  "caracteres": 5126
- },
- {
   "id": "ara-01362003",
   "h": "57620d155403cc57",
   "titulo": "Ayuda para el fomento y puesta en valor del terroir rioja alavesa. fomento del terroir a traves de la viticultura",
@@ -1033,15 +1015,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01362003-2cf30e1e.txt",
   "caracteres": 37231
- },
- {
-  "id": "ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-format",
-  "h": "254f72837483f873",
-  "titulo": "Ayudas para modernizar el equipamiento de centros de formación",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-fo-e97a71e8.txt",
-  "caracteres": 47471
  },
  {
   "id": "bdns-934857",
@@ -1114,15 +1087,6 @@
   "organismoFuente": "Ayuntamiento de Tolosa",
   "archivo": "cache/fuentes/bdns-929319-532312fd.txt",
   "caracteres": 210690
- },
- {
-  "id": "eus-ayuda-subvencion-2026-pi2026-c-weblan00-content-es",
-  "h": "22f74773fdd49e81",
-  "titulo": "Ayudas para el desarrollo de proyectos integrales de empleo, formación e inserción laboral",
-  "organismoSugerido": "lanbide",
-  "organismoFuente": "Lanbide - Servicio Público Vasco de Empleo",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-pi2026-c-weblan00-content-es-051f0233.txt",
-  "caracteres": 300000
  },
  {
   "id": "bdns-940330",
@@ -1557,24 +1521,6 @@
   "caracteres": 904
  },
  {
-  "id": "bob-bob-2026a204-ii-5410-",
-  "h": "677bca84320b458f",
-  "titulo": "Extracto de la Resolución/3017, de 9 de octubre de,",
-  "organismoSugerido": "ayto-durango",
-  "organismoFuente": "Ayuntamiento de Durango",
-  "archivo": "cache/fuentes/bob-bob-2026a204-ii-5410--a61b74b6.txt",
-  "caracteres": 4594
- },
- {
-  "id": "bob-bob-2026a200-ii-5312-",
-  "h": "0c1b20e4b26953d7",
-  "titulo": "Extracto del Acuerdo de 7 de octubre de de la Junta de Gobierno,",
-  "organismoSugerido": "ayto-bilbao",
-  "organismoFuente": "Ayuntamiento de Bilbao",
-  "archivo": "cache/fuentes/bob-bob-2026a200-ii-5312--6d4804d0.txt",
-  "caracteres": 2792
- },
- {
   "id": "bob-bob-2026a199-ii-5301-",
   "h": "235b616e4626186e",
   "titulo": "Subvenciones para actividades de cultura, euskera y deporte",
@@ -1663,14 +1609,5 @@
   "organismoFuente": "Ayuntamiento de Güeñes",
   "archivo": "cache/fuentes/bob-bob-2026a191-ii-5111--0b814b2e.txt",
   "caracteres": 10997
- },
- {
-  "id": "bob-bob-2026a188-ii-4942-",
-  "h": "cce0aeb536f9143d",
-  "titulo": "Convocatoria y bases reguladoras de las subvenciones por concurrencia competitiva en materia cultural y educativa para asociaciones, fundaciones",
-  "organismoSugerido": "ayto-valle-de-trapaga-trapagaran",
-  "organismoFuente": "Ayuntamiento de Valle de Trápaga-Trapagaran",
-  "archivo": "cache/fuentes/bob-bob-2026a188-ii-4942--d5b2d734.txt",
-  "caracteres": 1808
  }
 ]

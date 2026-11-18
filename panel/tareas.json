@@ -901,5 +901,29 @@
   "estado": "pendiente",
   "fecha": "2026-11-18",
   "nota": "Añadida al plan de mejoras"
+ },
+ {
+  "id": "bdns-documentos-perdidos",
+  "titulo": "La recolección dejó de descargar los documentos de la BDNS y vació la documentación de muchas fichas",
+  "detalle": "En la recolección del 18/11/2026 a las 21:47 UTC (commit 6997590) desaparecieron de cache/fuentes unas 290 secciones «### Documento de la convocatoria: https://www.infosubvenciones.es/…» (las bases y anexos de la BDNS). Por ese cambio de huella volvieron a la cola 93 fichas que ya estaban hechas (p. ej. bdns-937455 pasó de 72.000 a 888 caracteres, bdns-938969 de 87.000 a 6.300). La tarea de resúmenes no las rehace con la documentación cortada. El recolector debería conservar el texto anterior de un documento cuando su descarga falla (403 o error de red), en vez de quitarlo, y no cambiar la huella por ese motivo.",
+  "fuente": "Tarea de resúmenes",
+  "seccion": "base",
+  "quien": "Claude",
+  "prioridad": 5,
+  "estado": "pendiente",
+  "fecha": "2026-11-18",
+  "nota": ""
+ },
+ {
+  "id": "unir-extractos-boletin-bdns",
+  "titulo": "Unir los extractos del BOB, BOG y BOTHA con su convocatoria de la BDNS",
+  "detalle": "Los extractos de los boletines forales citan el número de la BDNS («BDNS (Identif.): 938969» o la URL …/convocatoria/938969), pero el recolector los trata como ayudas aparte y cache/parecidas.json no los detecta porque el título del extracto es distinto. El 18/11/2026 hubo que apartar 16 parejas o tríos (Astigarraga, Samaniego, Villabuena, Zumaia, Eibar ×2, Ayala, Ordizia, Tolosa, Vitoria-Gasteiz, Elciego ×2, Fruiz, Güeñes, Elorrio, Errenteria). El recolector debería unir el extracto con la ayuda de la BDNS del mismo número (y añadir el extracto como documento de esa ayuda), y unir dos anuncios del mismo boletín con el mismo número de la BDNS.",
+  "fuente": "Tarea de resúmenes",
+  "seccion": "base",
+  "quien": "Claude",
+  "prioridad": 6,
+  "estado": "pendiente",
+  "fecha": "2026-11-18",
+  "nota": ""
  }
 ]
