@@ -682,8 +682,9 @@
   "prioridad": 36,
   "fuente": "Plan de mejoras (17/11)",
   "quien": "Claude",
-  "estado": "pendiente",
-  "fecha": "2026-11-17"
+  "estado": "hecha",
+  "fecha": "2026-11-18",
+  "nota": "Revisadas a mano las 25 parejas ayuda ↔ anuncio de cache/botha_araba.json (el recolector de hoy ya tiene 130 números del BOTHA y dice «Álava sin anuncio del BOTHA: 6; encontrado: 0»): 24 son su convocatoria y 1 estaba mal, las obras menores 2026 (Acuerdo 295/2025) emparejadas con la convocatoria del ejercicio 2027 (Acuerdo 323/2026). anuncioBothaAraba descarta ahora los anuncios cuyo título dice otro año o curso que el de la ayuda, sin tocar las otras 24 parejas ni el umbral de palabras (no hacía falta), y se ha quitado la pareja errónea de la caché. De las 25, 8 ya no se publican porque su solicitud está cerrada (también según el trámite de solicitud de la sede), 10 siguen como próximas por ajustes y 7 están apartadas por parecidas; no se espera ninguna ayuda nueva ni ningún cambio en la app."
  },
  {
   "id": "docx-convocatorias",

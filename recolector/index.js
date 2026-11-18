@@ -185,6 +185,9 @@ const SECTORES = { turismo: /turistic|turismo/, comercio: /comerci/, industria: 
 const marcas = (tabla, titulo) => Object.keys(tabla).filter((g) => tabla[g].test(norm(titulo || '')));
 export const gruposDestinatarios = (titulo) => marcas(GRUPOS_DESTINATARIOS, titulo);
 const distintos = (x, y) => x.length && y.length && !x.some((g) => y.includes(g));
+// Años que nombra un título («2026», «curso 2025-2026», «años 2026-2027»), sin contar los del número de la norma
+// («Decreto Foral 42/2026», «Acuerdo 352/2026, de 9 de junio»)
+const anyosTitulo = (titulo) => [...new Set([...String(titulo || '').replace(/\b\d+\/(?:19|20)\d\d\b/g, ' ').matchAll(/\b(20\d\d)(?:\s*[-/]\s*(20\d\d|\d\d))?\b/g)].flatMap((m) => [m[1], m[2] && (m[2].length === 2 ? '20' + m[2] : m[2])].filter(Boolean)))];
 // Anuncio del BOTHA de las ayudas de la sede de Álava que no lo traen enlazado: se busca en los sumarios del año
 // (boletines.sumariosBotha) la convocatoria de la Diputación cuyo título comparte más palabras con el de la ayuda
 // (al menos 2 y el 60 % de las del título), del año del título o posterior; si empatan, la más reciente. La
@@ -206,6 +209,9 @@ export function anuncioBothaAraba(a, sumarios) {
     if (distintos(gruposDestinatarios(tituloAyuda), gruposDestinatarios(e.titulo))) continue;
     if (distintos(marcas(CONCEPTOS_GASTO, tituloAyuda), marcas(CONCEPTOS_GASTO, e.titulo))) continue;
     if (distintos(marcas(SECTORES, tituloAyuda), marcas(SECTORES, e.titulo))) continue;
+    // Otra edición: si los dos títulos dicen de qué año o curso son y no comparten ninguno (p. ej. las obras
+    // menores de 2026 frente a la convocatoria del ejercicio 2027, publicada en 2026), no es su convocatoria
+    if (distintos(anyosTitulo(tituloAyuda), anyosTitulo(e.titulo))) continue;
     const t = norm(e.titulo);
     const n = palabras.filter((w) => t.includes(w)).length;
     if (n < necesarias) continue;
