@@ -767,5 +767,17 @@
   "estado": "pendiente",
   "seccion": "fuentes",
   "prioridad": 41
+ },
+ {
+  "id": "comprobar-cifras-k-siglas-examenes",
+  "titulo": "Comprobaciones: aceptar cifras «€30k» de las fuentes en inglés y las siglas IELTS y TOEFL",
+  "detalle": "En recolector/resumen.js, numerosFuente no lee «€30k» / «up to €40k» como 30000 / 40000, así que la ficha de Valleys (ue-cs-valleys-open-call-1) tuvo que poner «30 mil €» en vez de «30.000 €». Añadir la lectura de «Nk» (× 1.000) y «Nm» en numerosFuente, y IELTS y TOEFL a SIGLAS (la ficha de DigiWind no pudo citar sus puntuaciones mínimas). Después, reabrir esas dos fichas con node recolector/reabrir.js.",
+  "fuente": "Funding & Tenders Portal (Comisión Europea)",
+  "quien": "Claude",
+  "prioridad": 42,
+  "estado": "pendiente",
+  "seccion": "datos",
+  "fecha": "2026-11-18",
+  "nota": "Añadida al plan de mejoras por la tarea de resúmenes"
  }
 ]
