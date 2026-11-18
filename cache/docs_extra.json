@@ -361,7 +361,8 @@
   "https://noticias.juridicas.com/base_datos/CCAA/977219-df-37-2025-de-28-oct-alava-modificacion-del-df-31-2025-de-1-ago-bases-reguladoras.html"
  ],
  "ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-format": [
-  "https://www.araba.eus/botha/Boletines/2025/111/2025_111_02801_C.pdf"
+  "https://www.araba.eus/botha/Boletines/2025/111/2025_111_02801_C.pdf",
+  "https://www.araba.eus/botha/Boletines/2026/033/2026_033_00730_C.pdf"
  ],
  "ara-ayudas-deportistas-promesa-2026": [
   "https://web.araba.eus/es/deporte/deportistas-promesa",
@@ -459,5 +460,8 @@
  ],
  "botha-2026-133-03267-c-pdf": [
   "https://www.araba.eus/botha/Boletines/2026/133/2026_133_03267_C.pdf"
+ ],
+ "ara-01621001": [
+  "https://www.araba.eus/botha/Boletines/2026/118/2026_118_02938_C.pdf"
  ]
 }

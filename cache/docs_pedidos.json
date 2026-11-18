@@ -5,27 +5,20 @@
    "2026_058_01458"
   ],
   "origen": "cuestión ara-01621001",
-  "estado": "fallo",
+  "estado": "ok",
   "fecha": "2026-11-18",
   "intentos": 1,
   "probadas": [
    {
     "url": "https://www.araba.eus/botha/Boletines/2026/058/2026_058_01458_C.pdf",
-    "motivo": "red: fetch failed"
+    "motivo": "es de otra convocatoria"
    },
    {
     "url": "https://www.araba.eus/botha/Boletines/2026/058/2026_058_01458_c.pdf",
-    "motivo": "red: fetch failed"
-   },
-   {
-    "url": "https://www.araba.eus/botha/Boletines/2026/118/2026_118_02938_C.pdf",
-    "motivo": "red: fetch failed"
-   },
-   {
-    "url": "https://www.araba.eus/botha/Boletines/2026/023/2026_023_00493_C.pdf",
-    "motivo": "red: fetch failed"
+    "motivo": "es de otra convocatoria"
    }
-  ]
+  ],
+  "url": "https://www.araba.eus/botha/Boletines/2026/118/2026_118_02938_C.pdf"
  },
  "bdns-942867": {
   "titulo": "Bases reguladoras de subvenciones para la financiación de proyectos de cooperación y desarrollo del Ayuntamiento de Balmaseda (Boletín Oficial de Bizkaia, 9 de septiembre de 2024)",
@@ -36,7 +29,7 @@
   "origen": "tarea de fichas: la convocatoria 2026 (BDNS 942867) remite a esas bases y no están en la documentación",
   "fecha": "2026-11-18",
   "estado": "fallo",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
    {
     "url": "https://www.balmaseda.eus",
@@ -50,19 +43,16 @@
   "urls": [
    "https://egoitza.araba.eus/es/inicio/tramites/fitxa/convocatoria-de-ayudas-a-la-inversion-en-equipamiento-formativo-2026"
   ],
-  "estado": "fallo",
+  "estado": "ok",
   "fecha": "2026-11-18",
   "intentos": 1,
   "probadas": [
    {
     "url": "https://egoitza.araba.eus/es/inicio/tramites/fitxa/convocatoria-de-ayudas-a-la-inversion-en-equipamiento-formativo-2026",
     "motivo": "es de otra convocatoria"
-   },
-   {
-    "url": "https://www.araba.eus/botha/Boletines/2026/033/2026_033_00730_C.pdf",
-    "motivo": "red: fetch failed"
    }
-  ]
+  ],
+  "url": "https://www.araba.eus/botha/Boletines/2026/033/2026_033_00730_C.pdf"
  },
  "bob-bob-2026a199-ii-5301-": {
   "titulo": "Ordenanza reguladora de las Subvenciones para Actividades Culturales, Educativas, Deportivas, de Tercera Edad y Sociales del Ayuntamiento de Arantzazu",
@@ -73,7 +63,7 @@
   "origen": "cuestión bob-bob-2026a199-ii-5301- (decisión del responsable, 18/11/2026)",
   "fecha": "2026-11-18",
   "estado": "fallo",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
    {
     "url": "https://www.arantzazu.eus",
