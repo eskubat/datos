@@ -140,11 +140,29 @@ function comprobarVersion(r, fuente = '') {
 }
 
 // Comprueba una ficha completa: organismo + una versión por tipo de solicitante. Devuelve la lista de errores.
+// Vínculo con el territorio o el municipio (docs/CATEGORIZACION.md, «Vínculo territorial»), solo en ayudas forales y municipales.
+// empadronamiento (o residencia) y domicilio (fiscal o social) → la app la filtra por la diputación o el municipio;
+// actividad (centro de trabajo, explotación, obra o bien allí) y ninguno → se muestra en todos los municipios.
+export const VINCULOS = ['empadronamiento', 'domicilio', 'actividad', 'ninguno'];
+export const VINCULOS_EXIGEN = ['empadronamiento', 'domicilio'];
+export const esForalOMunicipal = (id) => /^(?:df[abg]$|ayto-|bilbao-|donostia-|fomento-|behargintza|inguralde)/.test(String(id || ''));
+const RE_VINCULO = /empadronad|empadronamiento|\bresid(?:ir|an|en|encia|ente)|vecin[oa]|domicilio|domiciliad|\bsede\b/i;
+const textoVersiones = (vs) => Object.values(vs && typeof vs === 'object' ? vs : {}).flatMap((v) => [
+  ...(Array.isArray(v && v.quien_puede_pedirla) ? v.quien_puede_pedirla.map((q) => (q && q.texto) || '') : []),
+  ...(Array.isArray(v && v.requisitos) ? v.requisitos.flatMap((g) => (Array.isArray(g && g.requisitos) ? g.requisitos : [])) : []),
+]).join('\n');
+
 export function comprobar(r, fuente = '') {
   const e = [];
   const id = r.quien_convoca && r.quien_convoca.organismo_id;
   if (!id) e.push('falta quien_convoca.organismo_id');
   else if (!POR_ID[id]) e.push(`organismo_id «${id}» no existe en la tabla maestra (cache/organismos.json)`);
+  if (esForalOMunicipal(id)) {
+    const vt = r.vinculo_territorial;
+    if (!VINCULOS.includes(vt)) e.push(`falta «vinculo_territorial» (ayuda foral o municipal): ${VINCULOS.join(', ')}`);
+    else if (!VINCULOS_EXIGEN.includes(vt) && /\b(?:estar|figurar|seguir|llevar)\s+empadronad/i.test(Object.values(r.versiones || {}).flatMap((v) => (Array.isArray(v && v.requisitos) ? v.requisitos.flatMap((g) => (g && g.requisitos) || []) : [])).join('\n'))) e.push(`«vinculo_territorial» es «${vt}» pero los requisitos piden empadronamiento: usa «empadronamiento» (o, si algún colectivo puede pedirla sin él, quita el empadronamiento de los requisitos comunes)`);
+    else if (VINCULOS_EXIGEN.includes(vt) && !RE_VINCULO.test(textoVersiones(r.versiones))) e.push(`«vinculo_territorial» es «${vt}» pero ni «Quién puede pedirla» ni los requisitos lo dicen: añade el requisito o corrige el campo`);
+  }
   const vs = r.versiones && typeof r.versiones === 'object' ? r.versiones : {};
   const ks = Object.keys(vs);
   if (!ks.length) e.push('falta «versiones»: una versión completa por cada tipo de solicitante que puede pedir la ayuda');
@@ -187,6 +205,7 @@ export function validar(r, fuente) {
   out.versiones_eu = versiones(r.versiones_eu, true);
   const id = r.quien_convoca && r.quien_convoca.organismo_id;
   out.organismo_id = id && POR_ID[id] ? id : '';
+  if (VINCULOS.includes(r.vinculo_territorial)) out.vinculo_territorial = r.vinculo_territorial;
   out.tipos = Object.keys(out.versiones);
   out.datos = Array.isArray(r.datos) ? r.datos.slice(0, 200) : [];
   const motivos = [];
@@ -238,6 +257,9 @@ export function aplicar(ayudas, fuentes, cache) {
       delete a.revisarOrganismo;
     }
     if (r.revision) a.revisar = r.revision; else delete a.revisar;
+    // Vínculo territorial: la app filtra por municipio solo las que lo exigen (exigeVinculo)
+    if (VINCULOS.includes(r.vinculo_territorial)) { a.vinculoTerritorial = r.vinculo_territorial; a.exigeVinculo = VINCULOS_EXIGEN.includes(r.vinculo_territorial); }
+    else { delete a.vinculoTerritorial; delete a.exigeVinculo; }
     const todo = ks.map((k) => a.versiones[k].cuantia).join('\n');
     const cifras = [...todo.matchAll(/(\d{1,3}(?:\.\d{3})+|\d+)(?:,\d+)?\s*€/g)].map((m) => Number(m[1].replace(/\./g, ''))).filter((x) => x >= 50 && x < 5e6);
     a.importeMax = cifras.length ? Math.max(...cifras) : null;

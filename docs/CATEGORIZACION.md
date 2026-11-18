@@ -27,6 +27,14 @@ Quien abre una ayuda solo lee la información que le afecta según su perfil. Po
 ## Qué no se publica
 **Subvenciones nominativas o directas a una entidad concreta** (criterio del responsable, 18/11/2026): las subvenciones nominativas, los convenios y las concesiones directas o extraordinarias ya concedidas a una entidad con nombre (p. ej. las de emergencia por el art. 22.2.c de la Ley 38/2003, o las que la ficha oficial solo destina a una o varias entidades concretas) no se publican, porque nadie más puede pedirlas. No se redacta su ficha: se ocultan con `{"ocultar": true, "motivo": "…"}` en `cache/ajustes_ayudas.json` (ejemplos: gip-laiz02, gip-laga09, bdns-942081). El recolector ya descarta las que lo dicen en el título o en la cabecera del documento.
 
+## Vínculo territorial (ayudas forales y municipales)
+Decisión del responsable (18/11/2026). Toda ficha de una diputación foral, un ayuntamiento o una agencia municipal lleva `vinculo_territorial`, que dice si para pedirla hay que estar ligado al territorio o al municipio:
+- `empadronamiento`: hay que estar empadronado o residir allí.
+- `domicilio`: hay que tener allí el domicilio fiscal o social (o la sede).
+- `actividad`: basta con que esté allí lo que se subvenciona (centro de trabajo, explotación, obra, instalación, vivienda, bien o actividad).
+- `ninguno`: no se pide ningún vínculo (p. ej. concursos de carteles abiertos a cualquiera).
+Con `empadronamiento` o `domicilio` la app la filtra por la diputación o el municipio elegido; con `actividad` o `ninguno` se muestra en todos los municipios. Si un colectivo puede pedirla sin vínculo y otro no (p. ej. un concurso con una categoría local y otra abierta), vale el colectivo abierto (`ninguno` o `actividad`). El requisito de empadronamiento o domicilio sigue yendo en «¿Quién puede pedirla?» o en los requisitos, como siempre: el campo solo lo resume. En `publico/ayudas.json` sale como `vinculoTerritorial` y `exigeVinculo` (true/false).
+
 ## Qué va en cada campo
 | Dato | Campo |
 |---|---|

@@ -348,9 +348,9 @@
   "seccion": "base",
   "quien": "Claude",
   "prioridad": 20,
-  "estado": "pendiente",
+  "estado": "hecha",
   "fecha": "2026-11-18",
-  "nota": "Desbloqueada por la decisión del responsable (18/11/2026). Añadida al plan de mejoras."
+  "nota": "Nuevo campo vinculo_territorial en las fichas forales y municipales (empadronamiento, domicilio, actividad o ninguno), con su regla en docs/CATEGORIZACION.md y docs/RESUMIR.md, su comprobación en recolector/resumen.js (la usa comprobar.js) y salida en publico/ayudas.json como vinculoTerritorial y exigeVinculo. Rellenado en las 424 fichas ya hechas a partir de su texto (en lo publicado: 113 lo exigen —84 empadronamiento, 29 domicilio— y 100 se mostrarán en todos los municipios —50 actividad, 50 ninguno—; los carteles de carnaval de Bilbao y Vitoria-Gasteiz y el concurso literario de Lasarte-Oria quedan en «ninguno»). Las 25 forales o municipales aún sin ficha lo tendrán al categorizarse; falta que la app use exigeVinculo en el filtro por municipio."
  },
  {
   "id": "araba-sede-contenido",
@@ -877,5 +877,17 @@
   "estado": "pendiente",
   "fecha": "2026-11-18",
   "nota": "Añadida al plan de mejoras"
+ },
+ {
+  "id": "vinculo-territorial-revisar",
+  "titulo": "Revisar el vínculo territorial puesto automáticamente a las fichas ya hechas",
+  "detalle": "El 18/11/2026 se rellenó vinculo_territorial en las fichas existentes con reglas sobre su texto («Quién puede pedirla» y requisitos). Revisar por muestreo las que quedaron en empadronamiento o domicilio con varios colectivos, y las de actividad o ninguno de ayuntamientos, contra su documentación (cache/fuentes), y corregir en cache/resumenes.json o reabriendo la ficha.",
+  "fuente": "Tarea vinculo-territorial",
+  "seccion": "revision",
+  "quien": "Claude",
+  "prioridad": 51,
+  "estado": "pendiente",
+  "fecha": "2026-11-18",
+  "nota": ""
  }
 ]

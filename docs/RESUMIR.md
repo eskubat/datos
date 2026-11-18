@@ -90,6 +90,7 @@ Una versión completa por cada tipo de solicitante que puede pedir la ayuda (ver
     "asociacion": { "en_que_consiste": "…", "cuanto_puede_recibir": "…", "quien_puede_pedirla": [ … ], "requisitos": [ … ] }
   },
   "versiones_eu": { "particular": { … }, "asociacion": { … } },
+  "vinculo_territorial": "empadronamiento",
   "revision_manual": { "necesaria": false, "motivo": "" }
 }
 ```
@@ -98,6 +99,7 @@ Una versión completa por cada tipo de solicitante que puede pedir la ayuda (ver
 - Dentro de una versión: un solo colectivo → `quien_puede_pedirla` con un elemento y `requisitos` con un único grupo `"grupo": ""`. Varios colectivos → un elemento por colectivo y grupos de requisitos con el mismo nombre («Todos» para los comunes).
 - `quien_convoca.organismo_id`: un `id` de `cache/organismos.json` (para las fundaciones: `fund-bbk`, `fund-kutxa`, `fund-vital`, `fund-lacaixa`; el más concreto: el departamento del Gobierno Vasco que convoca, nunca una dirección inferior). Parte de `organismoSugerido` y corrígelo si la documentación dice otra cosa. Si no hay ninguno que coincida, añádelo a `cache/organismos.json` (paso 5) y úsalo.
 - `cuanto_puede_recibir`: una línea por tramo (separadas por `\n`); si cambia por colectivo dentro de la versión, empieza cada línea por su nombre.
+- `vinculo_territorial` (solo ayudas de diputaciones forales, ayuntamientos y agencias municipales): `empadronamiento`, `domicilio`, `actividad` o `ninguno`, según «Vínculo territorial» en `docs/CATEGORIZACION.md`.
 - `titulo` (común a todas las versiones): sigue `docs/TITULOS.md`.
 - No incluir fechas ni plazos: la app los calcula aparte.
 - Si `cache/pendientes.json` y `cache/titulos_pendientes.json` están vacíos, no hagas nada.
