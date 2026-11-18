@@ -656,10 +656,11 @@
   "detalle": "numeros() de recolector/resumen.js lee «27,000» de las fuentes en inglés como 27 con decimales y «27.000 €» de la ficha como 27000, así que las cifras correctas de las convocatorias europeas en cascada se dan por no encontradas. Tratar una coma seguida de exactamente 3 dígitos (y sin más dígitos detrás) como separador de miles en las fuentes. Bloquea 10 fichas ue-cs-… (GroundWork, GBV, Renew-booster, Innowwide, WoodStock, D-Storm, Women TechEU, NASCHA First Open Call, bilateral de Lituania, EFCSN protection grants), que siguen en la cola.",
   "fuente": "Funding & Tenders Portal (Comisión Europea)",
   "quien": "Claude",
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "datos",
   "prioridad": 34,
-  "fecha": "2026-11-17"
+  "fecha": "2026-11-18",
+  "nota": "Las comprobaciones de recolector/resumen.js leían «60,000» de las fuentes en inglés como 60 con decimales, así que «60.000 €» de la ficha se daba por no encontrada. Ahora, en la documentación oficial, una coma seguida de exactamente tres dígitos (y sin más dígitos detrás) cuenta también como separador de miles; solo se añade esa lectura, así que ninguna ficha válida deja de serlo (probado con la fuente de WoodStock: 60.000 € pasa y 61.000 € sigue fallando). Las 10 fichas ue-cs-… bloqueadas pueden pasar en la próxima pasada de categorización."
  },
  {
   "id": "bdns-fecha-bob-antiguas",

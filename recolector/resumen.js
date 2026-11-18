@@ -48,6 +48,15 @@ function numeros(t) {
     .map((m) => m[0].replace(/\.(?=\d{3}(\D|$))/g, '').replace(',', '.').replace(/\.$/, ''))
     .filter((n) => n.replace(/\D/g, '').length >= 1);
 }
+// Números de la documentación oficial: además de los de numeros(), una coma seguida de exactamente 3 dígitos
+// (sin más dígitos detrás) cuenta también como separador de miles, como en las fuentes en inglés
+// («27,000 EUR», «€ 60,000,», «1,250,000.00»): se añade la lectura sin comas para que «27.000 €» de la ficha cuadre.
+function numerosFuente(t) {
+  const s = String(t || '');
+  const miles = [...s.matchAll(/(?<![\d.,])\d{1,3}(?:,\d{3})+(?:\.\d+)?(?!\d|,\d)/g)]
+    .map((m) => m[0].replace(/,/g, '').replace(/\.0+$/, '').replace(/\.$/, ''));
+  return [...numeros(s), ...miles];
+}
 const cifrasOk = (frase, nums) => numeros(frase).every((n) => n.length < 2 || nums.has(n));
 const limpia = (x) => String(x || '').replace(/\s+/g, ' ').replace(/\s+([,.;:])/g, '$1').trim();
 // Formato de cifras: «3.000 €», «50 %»
@@ -63,7 +72,7 @@ const mayus = (t) => (t ? t.charAt(0).toUpperCase() + t.slice(1) : t);
 // Comprueba UNA versión (la de un tipo de solicitante) con las reglas de la sección 11
 function comprobarVersion(r, fuente = '') {
   const e = [];
-  const nums = new Set(numeros(fuente));
+  const nums = new Set(numerosFuente(fuente));
   const consiste = String(r.en_que_consiste || '');
   if (!consiste) e.push('en_que_consiste vacío');
   if (RE.cifrasEconomicas.test(consiste)) e.push('has incluido cifras económicas en en_que_consiste');
@@ -145,7 +154,7 @@ export function comprobar(r, fuente = '') {
 
 // Normaliza y valida una ficha: lo que no cumple se descarta campo a campo
 export function validar(r, fuente) {
-  const nums = new Set(numeros(fuente));
+  const nums = new Set(numerosFuente(fuente));
   const ok = (t) => cifrasOk(t, nums);
   const out = { errores: comprobar(r, fuente) };
   const tit = (x) => { const t = limpia(x); return t && t.length <= 140 && ok(t) && t !== t.toUpperCase() ? mayus(t) : ''; };
