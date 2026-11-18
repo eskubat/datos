@@ -717,10 +717,10 @@
   "fuente": "BOTHA (sumarios)",
   "quien": "Claude",
   "prioridad": 38,
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "fuentes",
-  "fecha": "2026-11-17",
-  "nota": "Añadida al plan de mejoras"
+  "fecha": "2026-11-18",
+  "nota": "Los números 001-012 ya están en la caché (130 de 132); solo faltan 046 (22/04) y 047 (24/04), que existen en el BOTHA pero cuyo sumario falla en cada pasada sin dejar rastro, y desde esta sesión no se llega a araba.eus para ver por qué. sumariosBotha guarda ahora los fallidos en cache/botha_sumarios.json (fallidos: motivo HTTP/no PDF/pdftotext/tiempo), prueba también el nombre en minúsculas, los reintenta una vez al día con el cupo sobrante y escribe el motivo en el registro; el recolector de mañana dirá la causa. No se esperan ayudas nuevas todavía (como mucho la orden de inversiones turísticas si aparece en esos dos números)."
  },
  {
   "id": "proximas-textos-claude",
@@ -743,5 +743,17 @@
   "estado": "pendiente",
   "seccion": "fuentes",
   "prioridad": 39
+ },
+ {
+  "id": "botha-sumarios-046-047-motivo",
+  "titulo": "Leer los números 046 y 047 de 2026 del BOTHA según el motivo que dé el registro",
+  "detalle": "Tras el recolector del 19/11, mirar en el registro la línea «BOTHA (sumarios del año) … sin sumario legible» o cache/botha_sumarios.json (fallidos). Según el motivo (otro nombre de archivo, PDF escaneado, tiempo agotado) ajustar sumariosBotha; si no hay sumario, leer los anuncios de la Diputación de esos números por su referencia (2026-01095 en adelante) y buscar la orden de inversiones turísticas de entidades sin ánimo de lucro.",
+  "fuente": "BOTHA (sumarios)",
+  "quien": "Claude",
+  "prioridad": 40,
+  "estado": "pendiente",
+  "seccion": "fuentes",
+  "fecha": "2026-11-18",
+  "nota": "Añadida al plan de mejoras"
  }
 ]

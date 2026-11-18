@@ -139,6 +139,22 @@ const fechaSumario = (txt) => {
 const BOTHA_CONV = /(convocatoria|\bconvoca\b|\bconvocar|extracto)/i;
 const BOTHA_AYUDA = /(subvenc|ayudas?\b|becas?\b|premios?\b)/i;
 const BOTHA_NO = /resoluci[oó]n de (la )?convocatoria|por la que se resuelve|resolver la convocatoria|concesi[oó]n de las|correcci[oó]n de errores|justificaci[oó]n|reintegro|desistimiento|adjudicaci|lista (provisional|definitiva)|denegaci/i;
+// Como bajar(url, {pdf: true}), pero dice por qué falla: {txt} o {txt: null, motivo}
+async function bajarPdfBotha(url) {
+  const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 60000);
+  try {
+    const r = await fetch(url, { signal: ctrl.signal, headers: { 'User-Agent': UA_BOT } });
+    if (!r.ok) return { txt: null, motivo: `HTTP ${r.status}` };
+    const buf = Buffer.from(await r.arrayBuffer());
+    if (buf.slice(0, 4).toString() !== '%PDF') return { txt: null, motivo: `no es PDF (${r.headers.get('content-type') || '?'}, ${buf.length} bytes)` };
+    const f = path.join(os.tmpdir(), 'botha-' + Math.random().toString(36).slice(2) + '.pdf');
+    fs.writeFileSync(f, buf);
+    try {
+      const txt = execFileSync('pdftotext', ['-layout', '-enc', 'UTF-8', f, '-'], { maxBuffer: 80e6, stdio: ['ignore', 'pipe', 'ignore'] }).toString('utf8');
+      return txt.trim() ? { txt } : { txt: null, motivo: `PDF sin texto (${buf.length} bytes)` };
+    } catch { return { txt: null, motivo: `pdftotext falla (${buf.length} bytes)` }; } finally { fs.rmSync(f, { force: true }); }
+  } catch (e) { return { txt: null, motivo: e.name === 'AbortError' ? 'tiempo agotado (60 s)' : `red: ${e.message}` }; } finally { clearTimeout(t); }
+}
 export async function sumariosBotha(log = console.log, max = 60) {
   const archivo = path.join('cache', 'botha_sumarios.json');
   let c = { numeros: {} };
@@ -149,21 +165,47 @@ export async function sumariosBotha(log = console.log, max = 60) {
     const año = Number(m[1]);
     // Solo el año en curso y el anterior
     for (const k of Object.keys(c.numeros)) if (+k.slice(0, 4) < año - 1) delete c.numeros[k];
+    // Números cuyo sumario no se pudo leer (tarea botha-sumarios-046-047, 18/11: el 046 y el 047 de 2026 fallaban en
+    // cada pasada sin dejar rastro). Se apuntan en c.fallidos = {clave: {intentos, ultimo, motivo}} con el motivo
+    // (HTTP, no es PDF, pdftotext, tiempo agotado), se reintentan como mucho una vez al día y solo con el cupo que
+    // sobre después de los números que faltan por primera vez, para no gastar las `max` lecturas en ellos.
+    c.fallidos = c.fallidos || {};
+    for (const k of Object.keys(c.fallidos)) if (c.numeros[k] || +k.slice(0, 4) < año - 1) delete c.fallidos[k];
+    const hoy = isoDia(new Date());
+    const pendientes = [];
+    for (let num = Number(m[2]); num > 0; num--) {
+      const clave = `${año}-${String(num).padStart(3, '0')}`;
+      if (!c.numeros[clave] && !c.fallidos[clave]) pendientes.push(num);
+    }
+    for (const k of Object.keys(c.fallidos)) if (+k.slice(0, 4) === año && c.fallidos[k].ultimo !== hoy) pendientes.push(+k.slice(5));
     let leidos = 0, nuevos = 0;
-    for (let num = Number(m[2]); num > 0 && leidos < max; num--) {
+    const fallan = [];
+    for (const num of pendientes) {
+      if (leidos >= max) break;
       const n3 = String(num).padStart(3, '0');
       const clave = `${año}-${n3}`;
-      if (c.numeros[clave]) continue;
       leidos++;
-      const txt = await bajar(`https://www.araba.eus/botha/Boletines/${año}/${n3}/${año}_${n3}_S_C.pdf`, { pdf: true });
-      if (!txt) continue;
+      let txt = null, motivo = '';
+      // El nombre habitual y la variante en minúsculas (algunos anuncios del BOTHA se publican como …_c.pdf)
+      for (const nombre of [`${año}_${n3}_S_C.pdf`, `${año}_${n3}_s_c.pdf`]) {
+        const r = await bajarPdfBotha(`https://www.araba.eus/botha/Boletines/${año}/${n3}/${nombre}`);
+        if (r.txt) { txt = r.txt; break; }
+        motivo = motivo || r.motivo;
+      }
+      if (!txt) {
+        const f = c.fallidos[clave] || { intentos: 0 };
+        c.fallidos[clave] = { intentos: f.intentos + 1, ultimo: hoy, motivo };
+        fallan.push(`${clave} (${motivo}, ${f.intentos + 1}.º intento)`);
+        continue;
+      }
+      delete c.fallidos[clave];
       const pub = fechaSumario(txt);
       c.numeros[clave] = entradasSumarioBotha(txt, n3)
         .filter((e) => /diputaci[oó]n|departamento/i.test(e.entidad) && BOTHA_CONV.test(e.titulo) && BOTHA_AYUDA.test(e.titulo) && !BOTHA_NO.test(e.titulo))
         .map((e) => ({ ...e, publicacion: pub }));
       nuevos += c.numeros[clave].length;
     }
-    log(`BOTHA (sumarios del año): ${leidos} números leídos, ${nuevos} convocatorias de la Diputación nuevas, ${Object.keys(c.numeros).length} números guardados`);
+    log(`BOTHA (sumarios del año): ${leidos} números leídos, ${nuevos} convocatorias de la Diputación nuevas, ${Object.keys(c.numeros).length} números guardados${fallan.length ? ` · sin sumario legible: ${fallan.join(', ')}` : ''}`);
     fs.writeFileSync(archivo, JSON.stringify(c, null, 1));
   } else log('BOTHA (sumarios del año): no se encuentra el último boletín');
   return Object.values(c.numeros).flat();
