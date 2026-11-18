@@ -34,6 +34,14 @@
    "https://www.balmaseda.eus"
   ],
   "origen": "tarea de fichas: la convocatoria 2026 (BDNS 942867) remite a esas bases y no están en la documentación",
-  "fecha": "2026-11-18"
+  "fecha": "2026-11-18",
+  "estado": "fallo",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.balmaseda.eus",
+    "motivo": "fetch failed"
+   }
+  ]
  }
 }
