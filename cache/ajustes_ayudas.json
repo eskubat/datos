@@ -729,5 +729,9 @@
   "ocultarHastaFicha": true,
   "huellaFicha": "f861a5ef25a56a9a",
   "motivo": "Retenida hasta que el recolector descargue el texto completo de la BDNS 933606 y se rehaga la ficha. Decisión del responsable, 18/11/2026."
+ },
+ "bdns-920746": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa del Ayuntamiento de Galdakao a la Asociación Empresarial del Polígono Industrial Erletxe (75.000 €, concesión directa): nadie más puede pedirla. Decisión del responsable, 18/11/2026."
  }
 }
