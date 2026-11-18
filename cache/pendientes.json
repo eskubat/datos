@@ -144,15 +144,6 @@
   "caracteres": 1778
  },
  {
-  "id": "bdns-929714",
-  "h": "350945b2c14700ab",
-  "titulo": "Subvenciones a asociaciones para organizar colonias y campamentos de verano",
-  "organismoSugerido": "ayto-barakaldo",
-  "organismoFuente": "Ayuntamiento de barakaldo",
-  "archivo": "cache/fuentes/bdns-929714-71f80b33.txt",
-  "caracteres": 214972
- },
- {
   "id": "ue-crea-media-2027-tvonline-1",
   "h": "594ec78e4c088425",
   "titulo": "TV and online content Animation projects",
@@ -207,15 +198,6 @@
   "caracteres": 37231
  },
  {
-  "id": "ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-format",
-  "h": "c5f7e2cbd037a97a",
-  "titulo": "Ayudas a la inversión en equipamiento formativo",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-fo-e97a71e8.txt",
-  "caracteres": 83189
- },
- {
   "id": "ue-cs-resist-ii-process-innovation-open-call",
   "h": "b40050bc3e34dc61",
   "titulo": "Resist II process innovation OPEN CALL",
@@ -232,15 +214,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-cs-resist-ii-product-innovation-open-call-385d00a0.txt",
   "caracteres": 4876
- },
- {
-  "id": "eus-ayuda-subvencion-2026-pi2026-c-weblan00-content-es",
-  "h": "6a97eb7ab248a159",
-  "titulo": "Ayudas para el desarrollo de proyectos integrales de empleo, formación e inserción laboral",
-  "organismoSugerido": "lanbide",
-  "organismoFuente": "Lanbide - Servicio Público Vasco de Empleo",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-pi2026-c-weblan00-content-es-051f0233.txt",
-  "caracteres": 300000
  },
  {
   "id": "bdns-942548",
@@ -376,15 +349,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-para-hacer-frente-a-inversiones-turisticas-en-ayu-dab63d35.txt",
   "caracteres": 32163
- },
- {
-  "id": "ara-apoyo-a-jovenes-informadores-en-centros-educativos-alaveses-f62501",
-  "h": "6141dc92a96488d1",
-  "titulo": "Apoyo a jóvenes informadores/as en centros educativos alaveses de Enseñanzas Medias",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-apoyo-a-jovenes-informadores-en-centros-educativos-alave-48a4b2a7.txt",
-  "caracteres": 56793
  },
  {
   "id": "ara-01484",
