@@ -171,24 +171,6 @@
   "caracteres": 214972
  },
  {
-  "id": "ue-cs-restack-open-call-2027-01r",
-  "h": "82f010e8b1471468",
-  "titulo": "Restack Open Call",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-cs-restack-open-call-2027-01r-51dae41e.txt",
-  "caracteres": 3952
- },
- {
-  "id": "ue-cs-codesupply-open-call-2027-01y",
-  "h": "e73fb1227e36ccd1",
-  "titulo": "CodeSupply open call",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-cs-codesupply-open-call-2027-01y-e8f2da98.txt",
-  "caracteres": 4023
- },
- {
   "id": "ue-crea-media-2027-tvonline-1",
   "h": "594ec78e4c088425",
   "titulo": "TV and online content Animation projects",
@@ -405,15 +387,6 @@
   "caracteres": 32163
  },
  {
-  "id": "ara-ayudas-para-hacer-frente-a-inversiones-turisticas-en-entidad",
-  "h": "eb9d51c71e56ae0c",
-  "titulo": "Ayudas para hacer frente a inversiones en entidades sin ánimo de lucro del sector turístico alavés",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-para-hacer-frente-a-inversiones-turisticas-en-ent-0e8dd92f.txt",
-  "caracteres": 30807
- },
- {
   "id": "ara-01484",
   "h": "3815f86d0e390e6b",
   "titulo": "Peaje Social AP-68",
@@ -457,14 +430,5 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/botha-2026-131-03265-c-pdf-601695a9.txt",
   "caracteres": 29159
- },
- {
-  "id": "botha-2026-133-03268-c-pdf",
-  "h": "b658c246b2b3522a",
-  "titulo": "Subvenciones a las juntas administrativas para la financiación de los gastos en concepto de alumbrado público",
-  "organismoSugerido": "ayto-valdegovia-gaubea",
-  "organismoFuente": "Ayuntamiento de Valdegovía/Gaubea",
-  "archivo": "cache/fuentes/botha-2026-133-03268-c-pdf-fd7203f3.txt",
-  "caracteres": 19311
  }
 ]
