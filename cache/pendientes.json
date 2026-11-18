@@ -18,6 +18,15 @@
   "caracteres": 277634
  },
  {
+  "id": "gip-cucu25",
+  "h": "70bd81f0698dcbee",
+  "titulo": "Kultura Bonua",
+  "organismoSugerido": "dfg",
+  "organismoFuente": "Diputación Foral de Gipuzkoa · Itxaso Almaraz",
+  "archivo": "cache/fuentes/gip-cucu25-53fd4681.txt",
+  "caracteres": 164040
+ },
+ {
   "id": "bdns-938576",
   "h": "715ecdde12fd2e87",
   "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación maison&objet París del 14 de enero de al 18 de enero",
@@ -430,5 +439,14 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/botha-2026-131-03265-c-pdf-601695a9.txt",
   "caracteres": 29159
+ },
+ {
+  "id": "botha-2026-133-03267-c-pdf",
+  "h": "46e03a076a98be11",
+  "titulo": "Decreto Foral 43/, de 10 de noviembre, del Consejo de Gobierno Foral",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/botha-2026-133-03267-c-pdf-ee0c35bd.txt",
+  "caracteres": 32075
  }
 ]
