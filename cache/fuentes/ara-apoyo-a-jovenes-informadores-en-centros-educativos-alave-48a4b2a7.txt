@@ -1,0 +1,678 @@
+### Ficha oficial: https://egoitza.araba.eus/es/inicio/tramites/fitxa/apoyo-a-jovenes-informadores-en-centros-educativos-alaveses-de-ensenanzas-medias-2026-2027
+titulo pestana: Sobre el procedimiento
+descripcion:
+Aprobar las bases generales reguladoras de la concesión de subvenciones en régimen de concurrencia promovidas por el Instituto Foral de la Juventud.
+titulo: Normativa
+A quién va dirigido: Jóvenes estudiantes alaveses/as y del enclave de Treviño, de entre 15 y 25 años, de Enseñanza Secundaria Obligatoria (4º ESO), Formación Profesional Básica, Bachillerato y Formación Profesional de Grado Medio y Superior, -a excepción de los centros del municipio de Vitoria-Gasteiz- a través de los centros educativos que reciben la ayuda.
+Plazo de resolución: 6 Meses
+titulo: Resolución
+Silencio administrativo de la persona interesada: Negativo
+Inicio Persona Interesada: Sí
+valor: IFJ Servicio
+titulo: Organismo competente
+titulo pestana: Presentación del trámite
+descripcion: Instituto Foral de la Juventud
+valor: Infogaztea@araba.eus
+titulo: Correo electrónico
+titulo: Teléfono
+accion: Tramitar
+descripcion tramite: Solicitud
+descripcion: Instituto Foral de la Juventud - C/Joaquín José Landázuri 3 - bajo
+titulo: Presencial
+descripcion:
+Necesitarás alguno de estos sistemas de identificación digital:
+BAKQ
+Certificado electrónico
+titulo: Electrónico
+estado: Fuera de plazo
+descripcion plazo: CERRADO (17/09/2026 - 31/10/2026)
+descripcion plazo ampliada: Solicitudes: del 17 de setiembre al 31 de octubre de 2026
+titulo: Plazo de presentación
+descripcion: Para todos los casos
+nombre documento: Autorización RRSS
+nombre documento: Conformidad
+nombre documento: Proyecto
+nombre documento: Video
+condicion documento: CON CARÁCTER GENERAL
+titulo: Documentación
+finalidad:
+En la presente convocatoria se regula la concesión de dotaciones económicas para la gestión y dinamización de una red de Jóvenes Informadores/as en los centros educativos de Enseñanza Secundaria del Territorio Histórico de Álava, centros de Enseñanza Secundaria Obligatoria (ESO), Bachillerato, Formación Profesional Básica, Formación Profesional de Grado Medio y Superior. Va dirigida exclusivamente a los centros del Territorio que no pertenezcan al municipio de Vitoria-Gasteiz.
+estado: En plazo
+descripcion plazo: ABIERTO (17/09/2026 - 31/12/2027)
+descripcion plazo ampliada:
+Solicitudes: del 17 de septiembre al 31 de octubre de 2026
+Justificación: hasta el 11 de junio de 2027 inclusive
+titulo: Apoyo a jóvenes informadores/as en centros educativos alaveses de Enseñanzas Medias. 2026-2027
+
+### Documento de la convocatoria: https://www.araba.eus/BOTHA/Boletines/2022/002/2022_002_04215_C.pdf
+miércoles, 5 de enero de 2022 • Núm. 2
+I - JUNTAS GENERALES DE ÁLAVA Y ADMINISTRACIÓN FORAL
+DEL TERRITORIO HISTÓRICO DE ÁLAVA
+Diputación Foral de Álava
+DEPARTAMENTO DE CULTURA Y DEPORTE
+Decreto Foral 57/2021, del Consejo de Gobierno Foral de 28 de diciembre. Aprobar las bases generales
+reguladoras de la concesión de subvenciones en régimen de concurrencia promovidas por el
+Instituto Foral de la Juventud
+El Decreto Foral 26/2010, del Consejo de Diputados de 8 de junio, que modifica el reglamento de estructura y funcionamiento del Organismo Autónomo Instituto Foral de la Juventud
+dispone que este organismo gestiona actividades de competencia foral relacionadas con la
+juventud en el ámbito del Territorio Histórico de Álava, entre las que se encuentra la organización, gestión, prestación y ejecución de toda clase de actividades relacionadas con la formación
+y promoción integral de la juventud.
+En desarrollo de las competencias descritas, mediante acuerdos del Consejo de Administración del Instituto Foral de la Juventud de fecha 16 de mayo de 2014 y 15 de abril de 2016, se
+aprobaron distintas bases reguladoras para la concesión de subvenciones. El desarrollo de nuevas líneas de ayudas, no contempladas en las citadas bases, requiere la elaboración de nuevas
+bases reguladoras, por lo que resulta oportuna la revisión y unificación en unas únicas bases
+reguladoras de todas las líneas de subvención en el ámbito del Instituto Foral de la Juventud.
+Por otro lado, una vez producida la entrada en vigor de las previsiones relativas al registro
+electrónico contenidas en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo
+Común de las Administraciones Públicas, se hace necesario incluir en la regulación legal la
+posibilidad de tramitar la solicitud de forma electrónica, así como el empleo de medios electrónicos en la justificación de las subvenciones.
+Estos motivos hacen necesaria la aprobación de un nuevo decreto foral por el que se
+regulen las bases generales aplicables a las subvenciones que se otorguen en régimen de
+concurrencia en el ámbito de las competencias del Instituto Foral de la Juventud.
+La Norma Foral 11/2016, de 19 de octubre, de Subvenciones del Territorio Histórico de Álava,
+en su artículo 16, atribuye al Consejo de Gobierno la competencia para la aprobación de las bases reguladoras de la concesión de subvenciones en el ámbito de la Diputación Foral de Álava,
+organismos autónomos forales y consorcios forales.
+La elaboración de esta disposición de carácter general se adecúa a los principios de buena
+regulación recogidos en el Decreto Foral 29/2017, del Consejo de Gobierno Foral de 23 de
+mayo, que aprueba el procedimiento de elaboración de disposiciones de carácter general, las
+guías para la elaboración de los informes de impacto normativo y de impacto de género y las
+directrices de técnica normativa.
+Asimismo estas bases reguladoras generales se ajustan tanto a la Ley 4/2005, de 18 de febrero
+del Parlamento Vasco, para la Igualdad de Mujeres y Hombres, como a la Ley Orgánica 3/2007,
+de 22 de marzo, para la Igualdad Efectiva de Mujeres y Hombres, en cuanto al cumplimiento
+del principio de igualdad de mujeres y hombres, así como a la expresa prohibición de cualquier
+tipo de discriminación por razón de sexo.
+Visto los informes preceptivos.
+En su virtud, a propuesta de la diputada de Cultura y Deporte y previa deliberación del
+Consejo de Gobierno Foral en sesión celebrada en el día de hoy,
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-04215
+miércoles, 5 de enero de 2022 • Núm. 2
+DISPONGO
+Único. Aprobar las bases generales reguladoras aplicables a las subvenciones que se concedan en régimen de concurrencia en el ámbito de las competencias del Instituto Foral de la
+Juventud, que figura como anexo a este decreto.
+Disposición derogatoria. A la entrada en vigor de la presente disposición quedan derogadas
+cuantas disposiciones de igual o inferior rango se opongan a la misma y en particular los acuerdos
+del Consejo de Administración del Instituto Foral de la Juventud de fecha 16 de mayo de 2014 y 15
+de abril de 2016, que aprobaron distintas bases reguladoras para la concesión de subvenciones.
+Disposición final. El presente decreto foral entrará en vigor el día siguiente al de su publicación en el BOTHA.
+Vitoria-Gasteiz, 28 de diciembre de 2021
+El Diputado General
+RAMIRO GONZÁLEZ VICENTE
+La Diputada de Cultura y Deporte
+ANA M. DEL VAL SANCHO
+La Directora de Deporte
+ANA ROSA LÓPEZ DE URALDE GÓMEZ
+ANEXO 1
+Bases generales reguladoras de la concesión de subvenciones en régimen
+de concurrencia promovidas por el Instituto Foral de la Juventud
+1. Objeto y ámbito de aplicación
+1.1. Es objeto de estas bases generales regular la concesión de subvenciones en régimen
+de concurrencia competitiva y libre concurrencia que pueda promover mediante las diferentes
+convocatorias de ayudas el Instituto Foral de la Juventud, con cargo a los créditos presupuestarios disponibles y en el marco de las competencias que le son atribuidas. Dichas convocatorias
+se regularán por estas bases generales, las específicas que se aprueben para cada convocatoria
+de ayudas en concreto y el resto de la normativa aplicable.
+1.2. La concesión de subvenciones se aplicará a las siguientes líneas de ayudas:
+— Proyectos creados por y para personas jóvenes de Álava relacionados con las áreas de:
+innovación, arte-creatividad, participación, desarrollo social y rural, emancipación, emprendimiento y/o de carácter medioambiental.
+— Actividades de tiempo libre que se lleven a cabo con carácter continuado.
+— Actividades de verano.
+— Cursos de monitorado de tiempo libre y de dirección de tiempo libre.
+— Programas concretos o extraordinarios.
+— Para material.
+— Gastos de desplazamiento a municipio diferente al de residencia para cursar estudios.
+— Cualesquiera otras líneas subvencionables relativas a programas o actividades relacionados con las funciones atribuidas al Instituto Foral de la Juventud y que no requieran de bases
+reguladoras especiales.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-04215
+miércoles, 5 de enero de 2022 • Núm. 2
+1.3. La convocatoria contendrá:
+a. Indicación de la disposición que establezca, en su caso, las bases reguladoras y BOTHA
+en que está publicada, salvo que en atención a su especificidad éstas se incluyan en la propia
+convocatoria.
+b. Créditos presupuestarios a los que se imputa la subvención y cuantía total máxima de
+las subvenciones convocadas dentro de los créditos disponibles o, en su defecto, cuantía estimada de la subvención.
+c. Objeto, condiciones y finalidad de la concesión de subvención.
+d. Expresión de que la concesión se efectúa mediante régimen de concurrencia competitiva
+o libre concurrencia.
+e. Requisitos para solicitar la subvención y forma de acreditarlos.
+f. Indicación de los órganos competentes para la instrucción y resolución del procedimiento.
+g. Plazo de presentación de solicitudes.
+h. Plazo de resolución y notificación.
+i. Documentos e informaciones que deben acompañarse a la petición.
+j. En su caso, posibilidad de reformulación de solicitudes de conformidad con lo dispuesto
+en el artículo 27 de la Ley General de Subvenciones y 25 de la Norma Foral 11/2016 de subvenciones del Territorio Histórico de Álava.
+k. Indicación de si la resolución pone fin a la vía administrativa y, en caso contrario, órgano
+ante el que se ha de interponer recurso de alzada.
+l. Criterios de valoración de la solicitud. Estos criterios deberán garantizar la objetividad,
+igualdad, transparencia, publicidad y no discriminación en la concesión de las subvenciones,
+y en su ponderación se atenderá a la adecuación de la actividad proyectada al logro de la finalidad de la subvención, teniendo en cuenta aspectos como la calidad del proyecto presentado
+o actividad realizada, la experiencia o trayectoria, la innovación, las condiciones de viabilidad
+o, en general, cualquier extremo establecido en la convocatoria que se considere adecuado al
+objeto de la subvención. Además, como regula el artículo 20 de la Ley 4/2005, de 18 de febrero,
+para la Igualdad de Mujeres y Hombres, en los casos en que corresponda se incluirán entre los
+criterios de adjudicación la integración de la perspectiva de género en el proyecto o actividad
+subvencionada, así como la trayectoria de las personas o entidades solicitantes en el desarrollo
+de políticas o actuaciones dirigidas a la igualdad de mujeres y hombres.
+De conformidad con el artículo 24 de la Ley 4/2005, de 18 de febrero, para la Igualdad de
+Mujeres y Hombres, la administración pública deberá promover que, en los órganos de dirección de las asociaciones y organizaciones profesionales, empresariales, de economía social,
+sindicales, políticas, culturales o de otra índole exista una presencia equilibrada de mujeres y
+hombres. A tal fin, las convocatorias de subvenciones, en los casos en que corresponda, podrán incorporar medidas que posibiliten un incremento de la presencia de mujeres en aquellos
+órganos de dirección en los que estén infrarrepresentadas.
+m. Medio de notificación o publicación, de conformidad, con lo previsto en el artículo 41 y
+siguientes de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las
+Administraciones Públicas.
+2. Principios generales
+Las subvenciones que se concedan se gestionarán con los siguientes principios:
+• Publicidad, transparencia, concurrencia, objetividad, igualdad y no discriminación.
+• Eficacia en el cumplimiento de los objetivos fijados.
+• Eficiencia en la asignación y utilización de los recursos del Instituto Foral de la Juventud.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-04215
+miércoles, 5 de enero de 2022 • Núm. 2
+3. Requisitos generales de las personas o entidades beneficiarias
+3.1. Tendrán la consideración de beneficiarias las personas físicas o jurídicas que se encuentren en la situación que fundamente la concesión de subvención, o en las que concurran las
+circunstancias previstas en estas bases reguladoras y en la convocatoria y que cumplan los
+requisitos establecidos en la Ley 38/2003, de 17 de noviembre, General de Subvenciones y en
+la Norma Foral 11/2016 de Subvenciones del Territorio Histórico de Álava.
+3.2. En el momento previo a la concesión, así como antes del pago, las personas o entidades solicitantes deberán reunir, además de las condiciones previstas en los artículos 11 y 13
+de la Ley 38/2003 de 17 de noviembre, General de Subvenciones y los artículos 10 y 12 de la
+Norma Foral 11/2016 de 19 de octubre de Subvenciones del Territorio Histórico de Álava, los
+siguientes requisitos:
+• Estar al corriente en el cumplimiento de sus obligaciones tributarias con Hacienda y con
+la Seguridad Social, salvo que se encuentren eximidos de su acreditación de conformidad con
+lo dispuesto en el Decreto Foral 58/2004, lo cual deberán acreditar mediante la aportación de
+los certificados justificativos de tales extremos expedidos por los organismos competentes. No
+obstante, y en el caso de que las posibilidades técnicas y autorizaciones así lo permitan, quedará a cargo del Instituto Foral de la Juventud la petición de dichos certificados a la Hacienda
+Foral y a la Seguridad Social. La presentación de la solicitud de las ayudas conllevará la autorización al órgano gestor para recabar los citados certificados, tantas veces como fuera necesario.
+• En caso de tratarse de personas jurídicas, éstas deberán estar legalmente constituidas,
+requiriéndosele además que la realización de la actividad a subvencionar tenga relación directa
+con el objeto o fines sociales de las mismas.
+3.3. No tendrán la condición de beneficiarias aquellas personas o entidades que hayan sido
+sancionados por las infracciones a que se refiere el Título IV de la Ley 38/2003 General de Subvenciones de 17 de noviembre, al igual que las que hayan sido sancionadas administrativa o
+penalmente por incurrir en discriminación por razón de sexo, durante el periodo impuesto en
+la correspondiente sanción, como contempla la Ley 4/2005, de 18 de febrero, del Parlamento
+vasco, para la igualdad de Mujeres y Hombres y en la Ley Orgánica 3/2007, de 22 de marzo,
+para la igualdad Efectiva de Mujeres y Hombres.
+En todo caso, y sin perjuicio de las exclusiones recogidas en la convocatoria correspondiente, quedan también excluidas del campo de aplicación de las subvenciones aquellas personas, entidades o proyectos que:
+• Dependan del Estado o de la comunidad autónoma y las instituciones, asociaciones o
+grupos juveniles cuyo ámbito de actuación u objeto de atención sea competencia de otras
+administraciones.
+• Dispongan de subvenciones nominativas en el presupuesto de la Diputación Foral de
+Álava, cuya finalidad coincida con el objeto de la subvención.
+• No tengan regularizadas las subvenciones aprobadas en el ejercicio anterior.
+• Aquellas actividades que se desarrollen en horario escolar o que sean complementarias
+de programas escolares.
+• Las actividades, o programas que por su carácter cultural, deportivo, etc. sean contemplados por otros departamentos u organismos oficiales.
+• Los proyectos habituales y puntuales correspondientes al funcionamiento normal de las
+entidades (campamentos, colonias, escuelas de verano, etc.), a menos que tengan un componente muy innovador, que los distinga claramente de los habituales.
+• Los proyectos que no tengan un impacto social relevante y que no incidan de manera
+importante y directa en el desarrollo social, cultural o económico de las personas jóvenes.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-04215
+miércoles, 5 de enero de 2022 • Núm. 2
+• Los proyectos que tengan una finalidad lucrativa o una vertiente mercantil.
+• Los proyectos que repercutan de forma casi exclusiva en la entidad o en la persona solicitante.
+• Los proyectos que no tengan una calidad suficiente, o los objetivos y el planteamiento de
+los que no queden bien definidos.
+3.4. Podrán dejar de ser beneficiarias las solicitantes que, habiendo sido adjudicatarias
+de subvención en anteriores convocatorias de ayudas promovidas por el Instituto Foral de la
+Juventud, no hayan realizado los proyectos o actuaciones que en su día fueron objeto de subvención, salvo que a juicio de la dirección se hubieran justificado suficientemente las razones
+de su no ejecución.
+3.5. La convocatoria determinará los requisitos específicos que sean necesarios para la
+obtención de subvención y la forma de acreditarlos.
+4. Tramitación anticipada y subvenciones plurianuales
+4.1. La convocatoria podrá aprobarse en un ejercicio presupuestario anterior a aquél en el
+que vaya a tener lugar la resolución de la misma, siempre que la ejecución del gasto se realice
+en la misma anualidad en que se produce la concesión y se cumpla alguna de las siguientes
+circunstancias:
+a) Exista normalmente crédito adecuado y suficiente para la cobertura presupuestaria del
+gasto derivado de la concesión de la subvención en los presupuestos generales del Territorio
+Histórico de Álava o,
+b) Exista crédito adecuado y suficiente en el proyecto de presupuestos correspondientes
+al ejercicio siguiente en el cual se adquirirá el compromiso de gasto como consecuencia de la
+aprobación de la resolución de concesión.
+En estos casos, la cuantía total máxima que figure en la convocatoria tendrá carácter estimado, por lo que deberá hacerse constar expresamente en la misma que la concesión de
+las subvenciones queda condicionada a la existencia de crédito adecuado y suficiente en el
+momento de la resolución de concesión. En los supuestos en los que el crédito presupuestario
+finalmente aprobado fuera superior a la cuantía inicialmente estimada, el órgano gestor podrá
+decidir su aplicación o no a la convocatoria, previa tramitación del correspondiente expediente
+de gasto antes de la resolución, sin necesidad de nueva convocatoria.
+4.2. Así mismo, podrá autorizarse la convocatoria de subvenciones cuyo gasto sea imputable a ejercicios posteriores a aquél en que recaiga la resolución de concesión. En este caso en
+la convocatoria deberá indicarse la cuantía total máxima a conceder, así como su distribución
+por anualidades atendiendo al momento en que se prevea realizar el gasto derivado de las
+subvenciones que se concedan.
+5. Presentación y plazo de las solicitudes
+5.1. La presentación de solicitudes se realizará tal y como se indique en la convocatoria
+correspondiente, pudiendo ser:
+• De forma electrónica en el registro electrónico accesible a través de la sede electrónica de
+la Diputación Foral de Álava, cuando así se prevea en la convocatoria.
+• De forma presencial en el Registro General del Instituto Foral de la Juventud o en los registros
+generales de los ayuntamientos concertados.
+• Cualesquiera del resto de registros que recoge el artículo 16.4 de la Ley 39/2015, de 1 de octubre,
+del Procedimiento Administrativo Común de las Administraciones Públicas.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-04215
+miércoles, 5 de enero de 2022 • Núm. 2
+• No obstante, en cumplimiento del artículo 14.2 de la Ley 39/2015 del Procedimiento Administrativo Común de las Administraciones Públicas, en todo caso están obligados a presentación telemática a través de sede electrónica de la Diputación Foral de Álava o en registros
+electrónicos de otras administraciones públicas, las personas jurídicas, las entidades sin personalidad jurídica, quienes ejerzan una actividad profesional para la que se requiera colegiación obligatoria y para los trámites que realicen en el ejercicio de dicha actividad y quienes
+representen a un interesado obligado a relacionarse electrónicamente con la administración.
+5.2. Cuando así se indique en la convocatoria específica, las solicitudes deberán realizarse
+en los modelos que se diseñen a tal efecto por el Instituto Foral de la Juventud y se le adjuntará
+la documentación complementaria que le sea requerida.
+5.3. El plazo de presentación de solicitudes será el que se establezca en cada convocatoria,
+no pudiendo ser inferior a quince días naturales a contar desde el siguiente a la publicación
+de las respectivas convocatorias en el BOTHA.
+5.4. Si las solicitudes presentadas no son acompañadas de la documentación requerida
+o si la información facilitada no se considera suficiente, se requerirá a la persona o entidad
+interesada para que en un plazo de 10 días hábiles remita la documentación que corresponda.
+Si la solicitante no enviase la documentación requerida en el plazo señalado anteriormente, se
+tendrá por desistida su petición, procediéndose a la denegación de la ayuda.
+5.5. Se entenderá que una solicitud se encuentra debidamente cumplimentada cuando la
+misma incluya toda la documentación exigida en los impresos de solicitud y la información
+sobre el proyecto sea la suficiente a juicio de la dirección, para poder proceder a su análisis
+y evaluación.
+5.6. A efectos de notificaciones, el Instituto Foral de la Juventud hará uso del domicilio
+que figure en las bases de datos y o registros de terceros del Servicio de Contabilidad de la
+Diputación Foral de Álava. Será cometido de la persona o entidad solicitante informar expresamente a la dirección de cualquier variación de datos que haya podido haber especialmente
+en lo referente a su domicilio y a los datos de su cuenta bancaria.
+5.7. La presentación de solicitudes para optar a las subvenciones comporta la aceptación
+expresa y formal de lo establecido tanto en las presentes bases generales como en las específicas de la correspondiente convocatoria.
+5.8. El Instituto Foral de la Juventud podrá requerir de la persona o entidad solicitante
+cuanta información considere necesaria para la comprobación de los datos aportados en cualquiera de las fases de tramitación de la ayuda, así como cualquier otra documentación complementaria relativa al proyecto o actuación a subvencionar.
+6. Órganos competentes y resolución en el procedimiento de concesión de la subvención
+6.1. Será órgano competente para la instrucción del procedimiento, la Dirección-Gerencia
+del Instituto Foral de la Juventud que se señale en la convocatoria.
+6.2. Las solicitudes serán examinadas por una comisión de valoración presidida por la persona titular de la Dirección-Gerencia del Instituto Foral de la Juventud y de la que formarán parte,
+como vocales, al menos dos técnicos/as de juventud y la técnica de Servicios Generales. Desempeñará la secretaría, con voz pero sin voto, quien ostente la jefatura de la Secretaría Técnica.
+La comisión de valoración procederá a la valoración de las solicitudes y proyectos o actividades presentadas de acuerdo con los criterios que se fijen en cada convocatoria de ayudas y
+establecerá una prelación entre las mismas. En base a dicha prelación, se procederá a proponer
+adjudicaciones por cada proyecto o actividad solicitada a aquellas que hayan obtenido mayor
+valoración en aplicación de los citados criterios, con el límite fijado en la convocatoria dentro
+del crédito disponible. Una vez alcanzado dicho límite se procederá a proponer la denegación
+de los proyectos o actuaciones solicitadas, a pesar de que pudieran adaptarse a los objetivos
+y requisitos generales que se fijen en las convocatorias.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-04215
+miércoles, 5 de enero de 2022 • Núm. 2
+Las adjudicaciones correspondientes al último tramo de puntuación que agoten el presupuesto disponible se realizarán prorrateando el remanente disponible en función del presupuesto subvencionable de cada proyecto o actividad subvencionable.
+Así mismo, las correspondientes convocatorias podrán fijar los porcentajes de subvención
+que se aplicarán a los presupuestos subvencionables para calcular la subvención a adjudicar.
+Excepcionalmente, cuando así se prevea en las convocatorias podrá admitirse la posibilidad
+del prorrateo entre las personas o entidades beneficiarias en el porcentaje que resultare de un
+exceso entre lo solicitado y el importe global máximo destinado a la subvención.
+La comisión de valoración, además de proponer los proyectos o actuaciones solicitantes
+a los que se les conceda la subvención, deberá incluir una relación ordenada de todas las solicitudes que, cumpliendo con las condiciones administrativas y técnicas establecidas en las
+bases reguladoras para adquirir la condición de beneficiarias, no hayan sido estimadas por
+rebasarse la cuantía máxima del crédito fijado.
+En este supuesto, si se renunciase a la subvención por alguna de las personas o entidades
+beneficiarias, el órgano concedente acordará, sin necesidad de una nueva convocatoria, la
+concesión de la subvención a quien estuviera siguiente a aquella en orden de su puntuación,
+siempre y cuando con la renuncia por parte de alguna de las beneficiarias se haya liberado
+crédito suficiente para atender al menos una de las solicitudes denegadas.
+La comisión de valoración trasladará al órgano instructor los resultados de la valoración
+junto con la propuesta de resolución.
+6.3. Cuando la convocatoria lo prevea, se podrá nombrar un Comité Técnico de apoyo a la
+Comisión de Valoración, a los efectos de revisar y analizar las solicitudes. Las personas que
+formen parte de dicho comité deberán presentar declaración responsable de no resultar incursas en las causas de abstención previstas en la Ley 40/2015, de 1 de octubre, de Régimen
+Jurídico del Sector Público, de garantizar su confidencialidad, de no utilizar la documentación
+facilitada para otro fin distinto al de la valoración de los proyectos de acuerdo con los criterios establecidos en la convocatoria, y, una vez emitida la propuesta de resolución, destruir,
+o devolver si se trata de originales, toda la documentación de los expedientes al órgano de
+instrucción del procedimiento. Sus designaciones se aprobarán a través de Resolución de la
+Dirección-Gerencia, la cual se hará pública a fin de que cualquier persona interesada pueda
+ejercer su derecho a recusación en los supuestos y términos legalmente establecidos.
+6.4. Cuando el procedimiento de concesión de la subvención sea el de libre concurrencia,
+se distribuirán los fondos según se reciban las peticiones, siempre que reúnan los requisitos
+establecidos en la convocatoria hasta que las dotaciones presupuestarias lo permitan.
+6.5. El órgano competente dictará la resolución que proceda, con señalamiento de los requisitos o condicionantes a que hubiera lugar.
+6.6. Las resoluciones se notificarán conforme a lo previsto en la Ley 39/2015 de 1 de octubre
+de Procedimiento Administrativo Común.
+6.7. El órgano competente, a propuesta del órgano instructor, dictará la resolución que
+proceda, en el plazo máximo de seis meses desde la publicación de la convocatoria en el
+BOTHA. Transcurrido el plazo máximo sin que haya recaído resolución expresa, las personas
+y entidades interesadas podrán entender desestimada la solicitud.
+6.8. En la resolución, caso de ser positiva, se hará constar la cuantía de la subvención, forma
+de pago, programa o actividad afectada, documentación a presentar y condiciones en que se
+otorga, notificándose a las beneficiarias, conforme a lo previsto en el artículo 41 de la Ley 39/2015,
+de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-04215
+miércoles, 5 de enero de 2022 • Núm. 2
+6.9. La resolución de concesión o denegación de la subvención será notificada a las personas
+o entidades solicitantes según las formas previstas en el artículo 41 y siguientes de la Ley 39/2015,
+de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.
+6.10. La resolución pondrá fin a la vía administrativa y contra la misma podrá interponerse recurso contencioso administrativo ante los juzgados de lo contencioso-administrativo de VitoriaGasteiz, conforme a lo previsto en el artículo 8 de la Ley 29/1998 de 13 de julio, reguladora de
+la Jurisdicción Contencioso-Administrativo en el plazo de dos meses desde su notificación.
+En el caso de no impugnarla directamente, podrá ser recurrida potestativamente en reposición ante el mismo órgano que la dictó en el plazo de un mes, de acuerdo con lo dispuesto
+en los artículos 123 y 124 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo
+Común de las Administraciones Públicas.
+7. Cuantía total máxima e importe individualizado de las subvenciones
+7.1. Las convocatorias, en atención al objeto de la subvención, contendrán la cuantía individualizada de la subvención, la cuantía total máxima y partida presupuestaria. Los excedentes
+que puedan surgir en cada una de las líneas de ayuda de la convocatoria, podrán aumentar
+cualquiera de las otras líneas dentro del mismo ejercicio.
+7.2. Cuando no resultara posible su determinación, la convocatoria establecerá los criterios
+objetivos para su concreción y, en su caso, la ponderación de los mismos adecuándose al
+objeto de la subvención y entre ellos se incluirá necesariamente la consideración de las disponibilidades presupuestarias.
+7.3. El importe de las subvenciones en ningún caso podrá ser de tal cuantía que, aisladamente o en concurrencia con otras subvenciones, ayudas, ingresos o recursos, supere el coste
+de la actividad subvencionada.
+7.4. Para la determinación del importe individualizado de la subvención, se partirá del coste
+estimado para cada proyecto o actividad presentado por la persona o entidad solicitante, del
+cual se eliminarán aquellas partidas que no se ajusten a las condiciones de la convocatoria o que
+no contribuyan con el suficiente grado a los objetivos de la convocatoria, siempre a juicio de la
+comisión de valoración, obteniéndose así el presupuesto subvencionable. Para el cálculo de la
+subvención se le aplicará al presupuesto subvencionable el porcentaje de subvención fijado en la
+convocatoria, así como los límites máximos a los que se hace referencia en los párrafos anteriores.
+7.5. Al objeto de garantizar la eficacia de las ayudas, en cada convocatoria se podrá fijar
+tanto un importe de subvención mínimo que será necesario alcanzar por cada proyecto o actuación subvencionable como de presupuesto subvencionable para que éstos sean acreedores
+de subvención.
+7.6. Así mismo y al objeto de que las ayudas puedan llegar a un mayor número de personas
+y entidades beneficiarias, cada convocatoria podrá establecer límites de presupuesto para
+actuaciones o gastos concretos sin que estos límites afecten a la eficacia de las ayudas.
+7.7. Las bases reguladoras de las subvenciones podrán prever el régimen de concesión y
+justificación a través de módulos en aquellos supuestos en que se cumplan los siguientes
+requisitos:
+a) Que la actividad subvencionable o los recursos necesarios para su realización sean medibles en unidades físicas.
+b) Que exista una evidencia o referencia del valor de mercado de la actividad subvencionable o, en su caso, del de los recursos a emplear.
+c) Que el importe unitario de los módulos, que podrá contener una parte fija y otra variable
+en función del nivel de actividad, se determine sobre la base de un informe técnico motivado,
+en el que se contemplarán las variables técnicas, económicas y financieras que se han tenido
+en cuenta para la determinación del módulo, sobre la base de valores medios de mercado
+estimados para la realización de la actividad o del servicio objeto de la subvención.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-04215
+miércoles, 5 de enero de 2022 • Núm. 2
+Cuando las bases reguladoras prevean el régimen de concesión y justificación a través de
+módulos, la concreción de los mismos y la elaboración del informe técnico, podrá realizarse
+de forma diferenciada para cada convocatoria.
+8. Gastos subvencionables
+8.1. Se consideran gastos subvencionables, aquellos que de manera indubitada respondan
+a la naturaleza de la actividad subvencionada, resulten estrictamente necesarios y se realicen
+en el plazo establecido por las diferentes convocatorias de las subvenciones.
+8.2. Teniendo en cuenta la finalidad de la subvención, cada convocatoria podrá establecer
+un importe de gastos generales de mantenimiento y funcionamiento de las personas o entidades beneficiarias de la subvención, que serán considerados subvencionables, sin necesidad
+de justificar los mismos.
+8.3. El período de realización de los proyectos, actividades, gastos o pagos subvencionables
+se determinará en cada una de las convocatorias.
+8.4. En ningún caso serán gastos subvencionables:
+a) Los intereses deudores de las cuentas bancarias.
+b) Intereses, recargos y sanciones administrativas y penales.
+c) Los gastos de procedimientos judiciales.
+Los tributos son gasto subvencionable cuando la persona o entidad beneficiaria de la subvención los abona efectivamente.
+En ningún caso se consideran gastos subvencionables los impuestos indirectos cuando
+sean susceptibles de recuperación o compensación ni los impuestos personales sobre la renta.
+8.5. Cuando el importe del gasto subvencionable supere las cuantías establecidas en el
+apartado 3 del artículo 31 de la Ley 38/2003 de 17 de noviembre, la persona o entidad beneficiaria deberá solicitar como mínimo tres ofertas de diferentes empresas proveedoras, con
+carácter previo a la contracción del compromiso para la prestación del servicio o la entrega
+del bien, salvo que por las especiales características de los gastos subvencionables no exista
+en el mercado suficiente número de entidades que suministren o presten el servicio, o salvo
+que el gasto se hubiera realizado con anterioridad a la solicitud de subvención.
+La elección entre las ofertas presentadas, que deberán aportarse en la solicitud de la subvención, se realizará conforme a criterios de eficiencia y economía, debiendo justificarse expresamente en una memoria la elección cuando no recaiga en la propuesta económica más
+ventajosa.
+8.6. En las diferentes convocatorias se especificará la posibilidad de subcontratación, así
+como los límites de éstas, respetando los requisitos y prohibiciones establecidos en la ley de
+subvenciones y su reglamento.
+9. Pagos
+9.1. Con carácter general, el pago de la subvención se realizará previa justificación por la
+persona o entidad beneficiaria de la realización del proyecto o actividad para el que se concedió
+en los términos establecidos en cada convocatoria.
+9.2. No obstante, en las convocatorias correspondientes se podrá recoger la posibilidad de
+efectuar pagos anticipados, conforme a lo establecido en la normativa foral de subvenciones
+y transferencias del Territorio Histórico de Álava. Dichos pagos anticipados supondrán entregas de fondos con carácter previo a la justificación, como financiación necesaria para poder
+llevar a cabo las actuaciones inherentes a la subvención y su pago se realizará en concepto de
+anticipo a justificar. No se admitirán pagos de anticipos con cargo a nuevas subvenciones si
+la persona o entidad beneficiaria no ha justificado en el plazo establecido otros anticipos que
+haya podido recibir de cualquier línea de ayudas.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-04215
+miércoles, 5 de enero de 2022 • Núm. 2
+Cuando las bases reguladoras contemplen la posibilidad de realizar pagos a cuenta o anticipados, podrán establecerse un régimen de garantías de los fondos entregados.
+9.3. El reconocimiento de la obligación de pago de la subvención y el pago de la misma se
+realizará en el plazo y forma que se determine en cada convocatoria, aplicando en su caso la
+deducción de los posibles anticipos a los que se hace referencia en el párrafo anterior y dándose por justificados los mismos siempre que se haya documentado debidamente.
+9.4. No podrá realizarse el pago en tanto la persona o entidad beneficiaria no se halle al corriente en el cumplimiento de sus obligaciones tributarias con Hacienda y la Seguridad Social.
+10. Modificación de la subvención
+Toda alteración de las condiciones tenidas en cuenta para la concesión de la subvención y,
+en todo caso, la obtención concurrente de subvenciones o ayudas concedidas por cualquier
+entidad pública o privada, dará lugar a la modificación de la resolución de concesión, así como
+al reintegro parcial de la misma. Una vez aprobada la subvención, cuando las circunstancias
+de hecho que motivaron su concesión puedan dar lugar a una modificación de la misma, a
+propuesta razonada de su beneficiaria, el órgano competente podrá modificar ésta mediante
+la correspondiente resolución.
+11. Plazo y forma de justificación
+11.1. Las beneficiarias de las subvenciones, en el plazo que se señalará en cada convocatoria,
+deberán justificar ante el órgano instructor el cumplimento de las condiciones impuestas y de
+la consecución de los objetivos previstos en el acto de concesión de la subvención.
+11.2. Con carácter general la justificación por la persona o entidad beneficiaria adoptará la
+forma de cuenta justificativa con aportación de justificantes de gastos a los que se refiere el
+artículo 72 del Real Decreto 887/2006, de 21 de julio, por el que se aprueba el Reglamento de la
+Ley 38/2003, de 17 de noviembre, General de Subvenciones (en adelante reglamento general
+de subvenciones).
+Como regla general, de conformidad con lo establecido en el artículo 72 del Reglamento
+de la Ley 38/2003, de 17 de noviembre, deberán aportarse:
+a) Justificación debidamente relacionada de los gastos causados por la realización de la
+actividad o actividades subvencionadas, por una cuantía equivalente al importe total del presupuesto de gastos tomado como base para el cálculo de la subvención, mediante la presentación
+de las correspondientes facturas y demás documentos de valor probatorio equivalente en el
+tráfico jurídico mercantil o con eficacia administrativa, en original o fotocopia compulsada,
+cuando en este último supuesto así se haya establecido en las bases de cada una de las convocatorias. En los supuestos de facturas de gasto superiores a 500,00 euros, se deberá acreditar
+que se ha efectuado el pago de las mismas.
+No se admitirán como justificación de los gastos, aquellas facturas y/o recibos, en los que
+no estén claramente identificados los siguientes datos:
+— Emisor/a, con su nombre o razón social y DNI o NIF.
+— Receptor/a, con su nombre o razón social y DNI o NIF.
+— Objeto del gasto.
+— Fecha.
+— Número de factura.
+Así mismo, no se admitirán como gastos justificativos, aquellas facturas o recibos que no
+cumplan con la normativa fiscal en materia de retenciones a cuenta del IRPF (Impuesto sobre
+la Renta de las Personas Físicas).
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-04215
+miércoles, 5 de enero de 2022 • Núm. 2
+Respecto a la documentación acreditativa del pago de facturas, se aceptarán como justificantes de pago los siguientes, que deberán permitir identificar, de manera inequívoca a la
+persona o entidad beneficiaria, al tercero, que percibe las cantidades pagadas y la fecha de
+pago (fecha valor) o salida efectiva de los fondos:
+— Transferencia o pago en cuenta: Resguardo de la entidad bancaria de la orden de transferencia realizada o extracto (captura de pantalla) de la cuenta corriente de la persona o entidad beneficiaria en el que figure el cargo de la transferencia realizada (con el logo bancario o
+sellado por la entidad bancaria). Esta documentación puede sustituirse por un certificado (u
+otro título similar) emitido por la entidad bancaria en el que se especifique como mínimo el
+importe, la fecha y la persona o entidad beneficiaria del pago y concepto por el que se realiza
+la transferencia o pago (número de factura o bien descripción de la operación).
+— Certificado firmado y/o con sello estampado de quien emita la factura original en el que
+se especifique el número de factura, el importe y la fecha de abono.
+— Extractos bancarios originales recibidos por correo ordinario.
+— Copia compulsada de libretas de cuentas corrientes con los movimientos correspondientes.
+— Tickets de compra originales que impliquen que con la disposición del mismo de los
+mismos se ha abonado el importe (tipo centro comercial, autopista, billetes de viajes, etc.) o
+facturas originales con sello de la empresa emisora de la factura en las que se especifique que
+las mismas han sido abonadas.
+No se admitirán los pagos en efectivo de las operaciones con un importe igual o superior
+al que se establezca en la normativa vigente para cada ejercicio, o su contravalor en moneda
+extranjera.
+A efectos del cálculo de la cuantía señalada en el párrafo anterior, se sumarán los importes
+de todas las operaciones o pagos en que se haya podido fraccionar la entrega de bienes o la
+prestación de servicios.
+En caso de no justificar el presupuesto total de gastos tomado como base para el cálculo
+de la subvención, ésta se minorará en igual proporción al menor gasto ejecutado.
+b) Balance de gastos e ingresos de la actividad o actividades subvencionada/s.
+c) Memoria de la actividad o actividades subvencionadas, justificativa del cumplimiento de
+las condiciones impuestas en la concesión de la subvención, con indicación de las actividades
+realizadas y de los resultados obtenidos, y de las actividades o actuaciones específicas llevadas
+a cabo para el fomento de la igualdad de mujeres y hombres en el ámbito de la intervención, si
+las hubiera. Siempre que en la actividad subvencionada hubiera participación de personas se
+deberá incluir sistemáticamente la variable de sexo en la información aportada en la memoria,
+de manera que se ofrezcan datos desagregados que permitan visibilizar las diferencias en la
+participación de mujeres y hombres, y en la medida que sea posible, se incluirá también un
+análisis e interpretación de esos datos, como regula el artículo 16 de la Ley 4/2005, de 18 de
+febrero, del Parlamento Vasco, para la Igualdad de Mujeres y Hombres, y el artículo 20 de la
+Ley Orgánica 3/2007, de 22 de marzo, para la Igualdad Efectiva de Mujeres y Hombres.
+d) Si la hubiere, documentación gráfica, fotográfica o audiovisual de la actividad subvencionada (programas, carteles anunciadores, folletos, fotografías, vídeos...). Esta documentación
+contendrá una utilización igualitaria y no sexista del lenguaje y de las imágenes, debiéndose
+emplear además las dos lenguas oficiales de la Comunidad Autónoma Vasca. Asimismo, deberá realizarse un uso adecuado de la imagen corporativa del Instituto Foral de la Juventud.
+e) Los tres presupuestos que en aplicación del artículo 31.3 de la Ley General de Subvenciones y 29.3 de la Norma Foral 11/2016 de subvenciones del Territorio Histórico de Álava, deba
+haber solicitado la beneficiaria.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-04215
+miércoles, 5 de enero de 2022 • Núm. 2
+f) Indicación, en su caso, de los criterios de reparto de los costes generales y/o indirectos
+incorporados en la relación de gastos, a que se hace referencia en el apartado a), excepto en
+aquellos casos en que las bases reguladoras de la subvención hayan previsto su compensación
+mediante un tanto alzado sin necesidad de justificación.
+g) En su caso, carta de pago de reintegro en el supuesto de remanentes no aplicados, así
+como de los intereses derivados de los mismos.
+11.3. Para subvenciones por importe inferior a 60.000 euros, la convocatoria podrá establecer que la justificación se realice mediante la presentación de la cuenta justificativa simplificada
+regulada en el artículo 75 del reglamento general de subvenciones.
+La cuenta justificativa simplificada estará formada por:
+a) Una memoria de actuación justificativa del cumplimiento de las condiciones impuestas
+en la concesión de la subvención, con indicación de las actividades realizadas y de los resultados obtenidos, y de las actividades o actuaciones específicas llevadas a cabo para el fomento
+de la igualdad de mujeres y hombres en el ámbito de la intervención, si las hubiera.
+b) Una relación clasificada de la totalidad de los gastos e inversiones de la actividad, con
+indicación de la persona física o jurídica que sea acreedora, del número de documento de
+gastos o factura, importe, fecha de emisión y en su caso de pago. Las bases, de cada una de
+las convocatorias determinarán la cuantía, que individualmente o de forma conjunta para un
+mismo concepto de gastos, a partir de la cual deberán aportarse facturas o documentos equivalentes originales o fotocopias compulsadas y sus correspondientes justificantes de pago.
+c) Un detalle de otros ingresos y subvenciones que hayan financiado la actividad subvencionada con indicación del importe y su procedencia.
+d) En su caso, carta de pago de reintegro en el supuesto de remanentes no aplicados, así
+como de los intereses derivados de los mismos.
+El órgano instructor comprobará, a través de las técnicas de muestreo que se acuerden en
+las convocatorias, los justificantes que estime oportunos y que permitan obtener evidencia
+razonable sobre la adecuada aplicación de la subvención, a cuyo fin podrá requerir a las beneficiarias la remisión de los justificantes de gasto seleccionados.
+11.4. Excepcionalmente, cuando resulte del objeto de la actividad subvencionable la acreditación del cumplimiento de actividades mensurables en número de unidades físicas u otros
+parámetros, podrá establecerse la justificación mediante módulos de manera que se acredite
+fehacientemente la realidad de los hechos que fundamentan la concesión y, en su caso, la
+aplicación de ésta a la finalidad para la que fue otorgada.
+La justificación de la subvención se llevará a cabo mediante la presentación de la memoria
+de actuación y la memoria económica con el contenido previsto en el artículo 78.2 del reglamento general de subvenciones.
+11.5. Conforme a lo establecido en la Orden EHA/2261/2007, de 17 de julio, por la que se
+regula el empleo de medios electrónicos, informáticos y telemáticos en la justificación de las
+subvenciones, se admitirá la utilización de facturas electrónicas como medio de justificación.
+En el caso de aportar facturas electrónicas, el formato de las mismas se ajustará a los estándares de Factura-e. En el caso de aportar cualquier otro documento firmado electrónicamente
+se admitirán los certificados contenidos en la lista de confianza de entidades prestadoras
+cualificadas de servicios electrónicos de confianza http://sede.minetur.gob.es/Prestadores.
+11.6. En el caso de aportar la documentación justificativa de las ayudas de forma electrónica en el Registro Electrónico accesible a través de la sede electrónica de la Diputación
+Foral de Álava, o en cualquiera de los restantes registros electrónicos de cualquiera de los
+sujetos a los que se refiere el artículo 2.1 de la Ley 39/2015, de 1 de octubre, del Procedimiento
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-04215
+miércoles, 5 de enero de 2022 • Núm. 2
+Administrativo Común de las Administraciones Públicas, se deberá presentar una declaración responsable, relativa al depósito de los justificantes originales, en la que conste que la
+documentación aportada como justificación de la ayuda concedida (justificantes de gasto y
+pago) coincide fielmente con la documentación original, que se encuentra depositada en el
+domicilio legal de la persona o entidad. Dicha declaración deberá estar firmada por la persona
+responsable legal de la entidad.
+El órgano instructor comprobará, a través de las técnicas de muestreo que se acuerden
+en las convocatorias, los justificantes que estime oportunos, a cuyo fin podrá requerir a las
+beneficiarias la remisión de los justificantes de gasto y pago originales seleccionados.
+11.7. Finalizado el plazo señalado sin haber presentado la documentación citada, se procederá a la anulación de los créditos de pago, iniciándose el correspondiente expediente para la
+devolución de aquellas cantidades percibidas en concepto de “entrega a cuenta”.
+12. Concurrencia y compatibilidad de subvenciones
+12.1. En las respectivas convocatorias se establecerá el régimen de concurrencia y compatibilidad de subvenciones.
+12.2. La obtención de alguna ayuda concurrente con posterioridad a la entrega de la solicitud
+de las ayudas deberá ser notificada a la mayor brevedad y por escrito al Instituto Foral de la Juventud, el cual podrá proponer la modificación de la cuantía o condiciones de la ayuda concedida.
+12.3. En el caso de que en la convocatoria se especifique la compatibilidad de las subvenciones con otras a conceder por otras entidades, la cuantía de las ayudas recibidas de las
+distintas entidades concedentes de subvención públicas o privadas, no podrá superar el coste
+de la actividad o proyecto subvencionado, estableciéndose en cada convocatoria el desarrollo
+y los límites correspondientes.
+12.4. Cuando la persona o entidad solicitante de una subvención hubiera recibido otra anterior, incompatible para la misma finalidad, se hará constar esta circunstancia en la solicitud.
+En este supuesto la resolución de concesión deberá condicionar sus efectos a la presentación
+por parte de la beneficiaria de la renuncia a las subvenciones previamente obtenidas, así como,
+en su caso, al reintegro de los fondos públicos recibidos.
+12.5. Procederá exigir el reintegro de la subvención junto con los correspondientes intereses
+de demora cuando el Instituto Foral de la Juventud tenga conocimiento de que una persona
+o entidad beneficiaria ha percibido otra u otras subvenciones incompatibles con la otorgada
+sin haber efectuado la correspondiente renuncia.
+13. Patrocinios
+Las beneficiarias de las subvenciones quedan comprometidas a establecer de forma clara
+en los ejemplares de los programas, carteles anunciadores, fotografías y demás material gráfico, escrito o sonoro que en su caso puedan publicar con motivo del programa o actividad
+subvencionada, mención expresa del patrocinio del Instituto Foral de la Juventud, debiéndose
+utilizar las dos lenguas oficiales de la Comunidad Autónoma Vasca.
+La persona o entidad beneficiaria de la subvención garantizará el uso no sexista del lenguaje
+en la totalidad de los documentos emitidos, en cumplimiento de la Ley 4/2005, de 18 de febrero, para la Igualdad de Mujeres y Hombres. Al amparo de la citada ley, en las imágenes que
+pudieran publicarse, no se exhibirá a las personas como inferiores o superiores en dignidad
+humana en función de su sexo, o como meros objetos sexuales, se evitarán los estereotipos
+sexistas y se potenciará la diversificación sexual, de roles y de identidades de género.
+14. Reintegro de la subvención
+14.1. Procederá el reintegro de las cantidades percibidas en los casos establecidos en la Norma
+Foral 11/2016 de 19 de octubre de Subvenciones delTerritorio Histórico de Álava y en la Ley 38/2003,
+de 17 de noviembre, General de Subvenciones y Real Decreto 887/2006, de 21 de julio, por el
+que se aprueba el Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-04215
+miércoles, 5 de enero de 2022 • Núm. 2
+14.2. El reintegro de las cantidades percibidas sobre la subvención aprobada tendrá la consideración de ingresos de derecho público y su cobro se realizará conforme a lo previsto en elTítulo II,
+Capítulo I, de la Norma Foral 53/1992 de 18 de diciembre, de Régimen Económico y Presupuestario.
+15. Comprobación
+Por la presidenta del Consejo de Administración del Instituto Foral de la Juventud se procederá a dictar las resoluciones que se estimen oportunas para el desarrollo de las sucesivas
+convocatorias y en su caso, de las presentes bases, a iniciativa de la Dirección-Gerencia, pudiendo ejercer acciones que permitan exigir y comprobar la veracidad de los datos aportados
+por las personas y entidades beneficiarias y el cumplimiento de lo regulado en las diferentes
+bases. Para ello, quedan comprometidas a facilitar cuantos datos y documentos tengan relación con las actividades desarrolladas y sean solicitados por el Instituto Foral de la Juventud.
+Igualmente deberán facilitar cuanta información pueda ser requerida por el Departamento de
+Hacienda, Finanzas y Presupuestos, Tribunal de Cuentas u otros organismos competentes.
+16. Responsabilidades
+Las personas y entidades beneficiarias asumen las responsabilidades que pudieran derivarse de la realización del programa y/o actividad, y a solicitar las autorizaciones que para su
+desarrollo sean exigidas por la legislación vigente.
+17. Protección de datos personales
+17.1. En cumplimiento de la normativa existente al efecto, los datos de carácter personal
+relativos a las personas físicas beneficiarias de las ayudas o a representantes legales de personas jurídicas serán tratados para la realización de las funciones y tareas propias de gestión
+de estas ayudas en el ámbito de las competencias que tiene atribuidas el Instituto Foral de la
+Juventud. Igualmente se informa que los datos de carácter personal no serán comunicados a
+terceras personas fuera de los supuestos habilitados legalmente.
+17.2. Cualquier consulta o comentario personal relativos al ejercicio de derechos de acceso,
+cancelación, rectificación que reconoce el Reglamento (UE) 2016/679 del Parlamento Europeo
+y del Consejo de 27 de abril de 2016 y la Ley Orgánica 3/2018, de 5 de diciembre de protección
+de datos personales y garantías de los derechos digitales, deberá remitirse al delegado de
+Protección de Datos del Instituto Foral de la Juventud en la dirección de correo electrónico que
+se especifique en la convocatoria.
+17.3. El derecho de oposición a la incorporación de los citados datos en el fichero, dará como
+consecuencia la denegación de las ayudas.
+18. Incumplimiento
+18.1. El incumplimiento por parte de las personas o entidades beneficiarias de las condiciones fijadas en las convocatorias de ayudas y de las presentes bases generales, podrá dar lugar
+a la cancelación de la ayuda y, en el caso que se haya procedido al abono de la subvención,
+quedarán obligadas a reintegrar la subvención en la forma que se determine por este Instituto
+Foral de la Juventud, conforme a la legislación vigente.
+18.2. El Instituto Foral de la Juventud podrá ejercer las acciones legales pertinentes en
+casos de incumplimiento grave de lo estipulado en las resoluciones administrativas de las
+ayudas establecidas en este decreto, así como en los casos de falsedad de certificaciones y
+declaraciones a cumplimentar.
+19. Interpretación
+Cualquier duda que pudiera surgir en torno a la interpretación de estas bases será resuelta
+por el Instituto Foral de la Juventud.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+2021-04215
+miércoles, 5 de enero de 2022 • Núm. 2
+20. Ajustes técnicos
+Podrán ser objeto de subvención en el marco de las diferentes convocatorias aquellos
+proyectos y/o actuaciones que hayan sido presentados en ejercicios anteriores al de la propia
+convocatoria, que, tras una posterior revisión por parte de la Dirección del Instituto Foral de la
+Juventud, se considere necesaria la realización de diferentes ajustes técnicos para su correcto
+y definitivo cierre.
+21. Normativa aplicable
+En lo no dispuesto en las presentes bases se regulará por la Norma Foral 11/2016 de 19 de
+octubre, Ley 38/2003, de 17 de noviembre, General de Subvenciones, Real Decreto 887/2006,
+de 21 de julio, por el que se aprueba el Reglamento de la Ley 38/2003, de 17 de noviembre,
+General de Subvenciones, Norma Foral 53/1992 de 18 de diciembre de Régimen Económico
+Presupuestario del Territorio Histórico de Álava, en la norma foral de ordenación presupuestaria que se encuentre vigente, Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo
+Común y demás normativa que le sea de aplicación.
+22. Recursos
+Las presentes bases y cuantos actos administrativos se deriven de ellas, podrán ser impugnados en los casos y en la forma establecidos por la Ley 39/2015, de 1 de octubre, de
+Procedimiento Administrativo Común.
+23. Entrada en vigor
+Estas bases entrarán en vigor al día siguiente de su publicación en el BOTHA.
+www.araba.eus
+D.L.: VI-1/1958 ISSN: 2254-8432
+Firmante: CN=ZERBITZU OROKORREN ZUZENDARITZA - DIRECCION SERVICIOS GENERALES, SERIALNUMBER=P0100000I, OU=SELLO ELECTRONICO, ORGANIZATIONIDENTIFIER=VATES-P0100000I, O=ARABAKO FORU ALDUNDIA / DIPUTACION FORAL DE ALAVA, C=ES
+Emisor del certificado: CN=EAEko HAetako langileen CA - CA personal de AAPP vascas (2), OU=AZZ Ziurtagiri publikoa - Certificado publico SCA, O=IZENPE S.A., C=ES
+Número de serie: 211865
+Fecha de firma: 2022.01.05 07:00:53 Z
+2021-04215

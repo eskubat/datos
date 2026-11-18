@@ -71,7 +71,15 @@
    "https://www.arantzazu.eus"
   ],
   "origen": "cuestión bob-bob-2026a199-ii-5301- (decisión del responsable, 18/11/2026)",
-  "fecha": "2026-11-18"
+  "fecha": "2026-11-18",
+  "estado": "fallo",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.arantzazu.eus",
+    "motivo": "fetch failed"
+   }
+  ]
  },
  "ara-subvenciones-realizacion-actividades-de-formacion-tecnica-de": {
   "titulo": "Convocatoria de subvenciones para la realización de actividades de formación técnica deportiva, temporada 2025-2026 (Diputación Foral de Álava)",
@@ -80,6 +88,14 @@
    "https://egoitza.araba.eus/es/inicio/tramites/fitxa/subvenciones-realizacion-actividades-de-formacion-tecnica-deportiva-2026"
   ],
   "origen": "cuestión ara-subvenciones-realizacion-actividades-de-formacion-tecnica-de (18/11/2026)",
-  "fecha": "2026-11-18"
+  "fecha": "2026-11-18",
+  "estado": "ok",
+  "url": "https://www.araba.eus/botha/Boletines/2026/121/2026_121_02956_C.pdf",
+  "probadas": [
+   {
+    "url": "https://egoitza.araba.eus/es/inicio/tramites/fitxa/subvenciones-realizacion-actividades-de-formacion-tecnica-deportiva-2026",
+    "motivo": "es de otra convocatoria"
+   }
+  ]
  }
 }
