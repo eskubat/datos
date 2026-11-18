@@ -821,5 +821,17 @@
     "publicacion": "2026-01-02"
    }
   ]
+ },
+ "fallidos": {
+  "2026-047": {
+   "intentos": 1,
+   "ultimo": "2026-11-18",
+   "motivo": "HTTP 404"
+  },
+  "2026-046": {
+   "intentos": 1,
+   "ultimo": "2026-11-18",
+   "motivo": "HTTP 404"
+  }
  }
 }
