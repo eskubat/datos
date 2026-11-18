@@ -693,10 +693,10 @@
   "fuente": "Documentos .docx de la sede de Álava",
   "quien": "Claude",
   "prioridad": 37,
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "fuentes",
-  "fecha": "2026-11-17",
-  "nota": "Añadida al plan de mejoras"
+  "fecha": "2026-11-18",
+  "nota": "El recolector descartaba los enlaces .docx y guardaba los Word como si fueran HTML. Ahora recolector/enlaces.js saca el texto de word/document.xml (lector ZIP propio, sin dependencias), acepta enlaces .docx y las URL de egoitza.araba.eus que acaban en -docx, y reintenta una vez los .docx que habían fallado; probado con un .docx local porque la red de la sesión no llega a egoitza.araba.eus, así que la primera prueba real será el recolector de las 05:41. Al llegar el texto de la convocatoria cambia la huella y la ficha de ara-ayudas-a-proyectos-contra-la-soledad-no-deseada-2026 vuelve sola a la cola (no se reabre ahora para no rehacerla con el texto viejo); no se esperan ayudas nuevas, sí fichas más completas."
  },
  {
   "id": "araba-botha-asignacion-esal-turismo",

@@ -5,6 +5,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import zlib from 'node:zlib';
 import { execFileSync } from 'node:child_process';
 import { enParalelo, texto, entidades, decodificar, UA_BOT, UA_NAVEGADOR } from './comun.js';
 
@@ -23,6 +24,36 @@ function pdfATexto(buf) {
   try { return execFileSync('pdftotext', ['-l', '150', '-enc', 'UTF-8', f, '-'], { maxBuffer: 50e6, stdio: ['ignore', 'pipe', 'ignore'] }).toString('utf8'); }
   catch { return ''; } finally { fs.rmSync(f, { force: true }); }
 }
+// Texto de un documento Word (.docx): es un ZIP con el cuerpo en word/document.xml. Se lee el directorio
+// central del ZIP sin herramientas externas; párrafos y celdas de tabla en líneas separadas.
+export function docxATexto(buf) {
+  try {
+    let fin = -1;
+    for (let i = buf.length - 22; i >= Math.max(0, buf.length - 65557); i--) if (buf.readUInt32LE(i) === 0x06054b50) { fin = i; break; }
+    if (fin < 0) return '';
+    const n = buf.readUInt16LE(fin + 10);
+    let p = buf.readUInt32LE(fin + 16);
+    for (let k = 0; k < n && buf.readUInt32LE(p) === 0x02014b50; k++) {
+      const metodo = buf.readUInt16LE(p + 10), tam = buf.readUInt32LE(p + 20);
+      const ln = buf.readUInt16LE(p + 28), le = buf.readUInt16LE(p + 30), lc = buf.readUInt16LE(p + 32);
+      const local = buf.readUInt32LE(p + 42);
+      const nombre = buf.slice(p + 46, p + 46 + ln).toString('utf8');
+      p += 46 + ln + le + lc;
+      if (nombre !== 'word/document.xml') continue;
+      const ini = local + 30 + buf.readUInt16LE(local + 26) + buf.readUInt16LE(local + 28);
+      const datos = buf.slice(ini, ini + tam);
+      const xml = (metodo === 8 ? zlib.inflateRawSync(datos) : datos).toString('utf8');
+      return entidades(xml
+        .replace(/<w:tab\/>/g, ' ').replace(/<w:br[^>]*\/>/g, '\n')
+        .replace(/<\/w:p>|<\/w:tc>/g, '\n')
+        .replace(/<[^>]+>/g, ''))
+        .split('\n').map((l) => l.replace(/\s+/g, ' ').trim()).filter(Boolean).join('\n');
+    }
+  } catch {}
+  return '';
+}
+const ES_DOCX = /\.docx(\?|$)|-docx(\?|$)/i;
+
 // Texto del PDF sin cabeceras de página de los boletines y, en normas largas, sin la exposición de motivos
 const CABECERA = /^\d+\s*\/\s*\d+$|^p[aá]g(ina)?\.? ?\d+|^BOLET[IÍ]N OFICIAL|^EHAA|^N\.?º\s*\d+$|^\d{4}\/\d+\s*\(\d+\/\d+\)$|^(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo),? \d+ de \w+ de \d{4}$|^\w+ \d{4}ko \w+ \d+/i;
 const limpiaPdf = (t) => {
@@ -54,8 +85,8 @@ function sinRepetidos(t) {
 
 // Enlaces de información de una página: documentos y páginas que explican la ayuda
 const TEXTO_UTIL = /bases|convocatoria|orden\b|decreto|ordenanza|resoluci[oó]n|normativa|bolet[ií]n|bopv|bob\b|bog\b|botha|boe\b|informaci[oó]n (detallada|adicional|complementaria)|m[aá]s informaci[oó]n|requisitos|criterios|gu[ií]a|preguntas frecuentes|anexo|extracto|descargar|pdf/i;
-const URL_UTIL = /\.pdf(\?|$)|bopv|\/bob\/|bizkaia\.eus\/.*(boletin|bob)|gipuzkoa\.eus\/.*(bog|boletin)|araba\.eus\/.*botha|boe\.es|infosubvenciones|normativa|bases|convocatoria|ordenanza|\/servicios\/|\/ayuda_subvencion\/|\/r01-|web01-/i;
-const URL_NO = /^(mailto|javascript|tel):|facebook|twitter|x\.com\/|linkedin|instagram|youtube|whatsapp|\/login|\/sso|cookies|accesibilidad|aviso-legal|privacidad|mapa-web|\.(jpe?g|png|gif|svg|zip|docx?|xlsx?|odt|ods)(\?|$)|#$|solicitud-electronica|tramitacion-electronica|mi-carpeta|nire-karpeta/i;
+const URL_UTIL = /\.pdf(\?|$)|\.docx(\?|$)|-docx(\?|$)|bopv|\/bob\/|bizkaia\.eus\/.*(boletin|bob)|gipuzkoa\.eus\/.*(bog|boletin)|araba\.eus\/.*botha|boe\.es|infosubvenciones|normativa|bases|convocatoria|ordenanza|\/servicios\/|\/ayuda_subvencion\/|\/r01-|web01-/i;
+const URL_NO = /^(mailto|javascript|tel):|facebook|twitter|x\.com\/|linkedin|instagram|youtube|whatsapp|\/login|\/sso|cookies|accesibilidad|aviso-legal|privacidad|mapa-web|\.(jpe?g|png|gif|svg|zip|doc|xlsx?|odt|ods)(\?|$)|#$|solicitud-electronica|tramitacion-electronica|mi-carpeta|nire-karpeta/i;
 export function enlacesDe(html, base) {
   const out = [];
   for (const m of String(html || '').matchAll(/<a\b[^>]*href\s*=\s*["']([^"'#]+)[^"']*["'][^>]*>([\s\S]*?)<\/a>/gi)) {
@@ -77,10 +108,12 @@ async function bajar(url) {
   const navegador = /euskadi\.eus|euskadi\.net/.test(url);
   const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 45000);
   try {
-    const r = await fetch(url, { signal: ctrl.signal, redirect: 'follow', headers: { 'User-Agent': navegador ? UA_NAVEGADOR : UA_BOT, Accept: 'text/html,application/pdf,*/*' } });
+    const r = await fetch(url, { signal: ctrl.signal, redirect: 'follow', headers: { 'User-Agent': navegador ? UA_NAVEGADOR : UA_BOT, Accept: 'text/html,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,*/*' } });
     const buf = Buffer.from(await r.arrayBuffer());
     if (!r.ok) return { estado: r.status };
     if (buf.slice(0, 4).toString() === '%PDF') return { tipo: 'pdf', texto: limpiaPdf(pdfATexto(buf)) };
+    // Word (.docx): ZIP con word/document.xml (las URL de egoitza.araba.eus acaban en «-docx», sin extensión)
+    if (buf.slice(0, 2).toString() === 'PK') { const t = docxATexto(buf); return t ? { tipo: 'docx', texto: limpiaPdf(t) } : { estado: 415 }; }
     const html = decodificar(buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength));
     return { tipo: 'html', html, texto: sinRepetidos(cuerpoHtml(html)) };
   } catch (e) { return { estado: 0 }; } finally { clearTimeout(t); }
@@ -99,7 +132,8 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
   let nuevos = 0, fallos = 0;
   const obtener = async (u) => {
     const e = indice[u];
-    if (e && e.v === V && e.fecha >= limite && (e.ok || e.intentos >= 3)) {
+    // Los .docx que fallaron antes de saber leerlos (sin «dx») se vuelven a intentar una vez
+    if (e && e.v === V && e.fecha >= limite && (e.ok || (e.intentos >= 3 && (e.dx || !ES_DOCX.test(u))))) {
       const c = leer(u);
       // Documentos guardados cortados con un límite menor que el actual: se vuelven a bajar
       const lim = (c && c.max) || 60000;
@@ -113,7 +147,7 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
       nuevos++;
       return guardado;
     }
-    indice[u] = { fecha: hoy(), ok: false, v: V, intentos: ((e && !e.ok && e.v === V && e.intentos) || 0) + 1, estado: r.estado };
+    indice[u] = { fecha: hoy(), ok: false, v: V, dx: 1, intentos: ((e && !e.ok && e.v === V && (e.dx || !ES_DOCX.test(u)) && e.intentos) || 0) + 1, estado: r.estado };
     fallos++;
     return null;
   };
@@ -141,7 +175,7 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
         // se siguen un nivel más, solo hacia documentos (PDF o descargas)
         if (!l.hijo && d.tipo === 'html' && d.enlaces && d.enlaces.length) {
           for (const h of d.enlaces) {
-            if (/\.pdf(\?|$)|download|descarga|deskarga|documento|fichero|\/file(\/|$)/i.test(h.url) || /\bpdf\b/i.test(h.texto)) cola.push({ ...h, hijo: true });
+            if (/\.pdf(\?|$)|\.docx(\?|$)|-docx(\?|$)|download|descarga|deskarga|documento|fichero|\/file(\/|$)/i.test(h.url) || /\bpdf\b/i.test(h.texto)) cola.push({ ...h, hijo: true });
           }
         }
       }
