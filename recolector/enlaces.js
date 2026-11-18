@@ -140,20 +140,25 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
   const limite = new Date(Date.now() - DIAS * 864e5).toISOString().slice(0, 10);
   const leer = (u) => { const e = indice[u]; if (!e || !e.ok) return null; try { return JSON.parse(fs.readFileSync(path.join(DIR, sha(u) + '.json'), 'utf8')); } catch { return null; } };
   // cache/docs_refrescar.json ({url: "AAAA-MM-DD"}): documentos que se vuelven a bajar aunque estén en caché,
-  // mientras su descarga guardada sea de esa fecha o anterior (p. ej. tras cambiar cómo se limpia un PDF)
+  // mientras su descarga guardada sea anterior a esa fecha (p. ej. tras cambiar cómo se limpia un PDF): se baja una
+  // sola vez, no en cada pasada del día
   let refrescar = {};
   try { refrescar = JSON.parse(fs.readFileSync(path.join('cache', 'docs_refrescar.json'), 'utf8')); } catch {}
   const refrescados = new Set();
   let nuevos = 0, fallos = 0;
   const obtener = async (u) => {
     let e = indice[u];
-    if (e && refrescar[u] && e.fecha <= refrescar[u] && !refrescados.has(u)) { refrescados.add(u); e = undefined; }
+    // Copia buena guardada antes de volver a bajarla: si la nueva descarga falla (la web no responde en esa pasada),
+    // se sigue usando, para que el texto de la ayuda no se quede solo con el extracto y su ficha no vuelva a la cola
+    let previa = null;
+    if (e && refrescar[u] && e.fecha < refrescar[u] && !refrescados.has(u)) { refrescados.add(u); previa = leer(u); e = undefined; }
     // Los .docx que fallaron antes de saber leerlos (sin «dx») se vuelven a intentar una vez
     if (e && e.v === V && e.fecha >= limite && (e.ok || (e.intentos >= 3 && (e.dx || !ES_DOCX.test(u))))) {
       const c = leer(u);
       // Documentos guardados cortados con un límite menor que el actual: se vuelven a bajar
       const lim = (c && c.max) || 60000;
       if (!(c && c.texto.length >= lim && lim < MAX_POR_DOC)) return c;
+      previa = c;
     }
     const r = await bajar(u);
     if (r.texto && r.texto.length > 80) {
@@ -163,8 +168,9 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
       nuevos++;
       return guardado;
     }
-    indice[u] = { fecha: hoy(), ok: false, v: V, dx: 1, intentos: ((e && !e.ok && e.v === V && (e.dx || !ES_DOCX.test(u)) && e.intentos) || 0) + 1, estado: r.estado };
     fallos++;
+    if (previa) return previa; // se conserva la entrada del índice: se vuelve a intentar en la próxima pasada
+    indice[u] = { fecha: hoy(), ok: false, v: V, dx: 1, intentos: ((e && !e.ok && e.v === V && (e.dx || !ES_DOCX.test(u)) && e.intentos) || 0) + 1, estado: r.estado };
     return null;
   };
   const res = {};

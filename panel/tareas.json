@@ -849,10 +849,10 @@
   "fuente": "BOTHA",
   "quien": "Claude",
   "prioridad": 48,
-  "estado": "pendiente",
+  "estado": "hecha",
   "seccion": "fuentes",
   "fecha": "2026-11-18",
-  "nota": "Añadida al plan de mejoras por la tarea de resúmenes"
+  "nota": "El texto no se cortaba en limpiaPdf: con docs_refrescar.json el PDF se volvía a bajar en cada pasada del día y, cuando araba.eus no respondía (pasada de las 12:39, «3 sin acceso»), se perdía la copia buena y quedaba solo el extracto del boletín; por eso el texto alternaba entre 12.700 y 32.902 caracteres. enlaces.js ahora refresca una sola vez (fecha guardada anterior a la indicada) y, si una nueva descarga falla, sigue usando la copia anterior; finDelTexto lee también «las solicitudes podrán presentarse en el plazo de diez días hábiles…», así que la ayuda pasará de «sinfecha» a abierta del 19/11 al 02/12/2026 en la próxima pasada del recolector (en las demás fuentes no cambia ninguna fecha)."
  },
  {
   "id": "reabiertas-tras-recolector",

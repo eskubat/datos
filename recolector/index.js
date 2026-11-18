@@ -135,6 +135,9 @@ function finDelTexto(a) {
   // Trozos que hablan del plazo de solicitud (no del de justificación)
   const trozos = [String(a.textoPlazo || '')];
   for (const m of texto.matchAll(/plazo (?:de presentaci[oó]n de (?:las )?solicitudes|para (?:presentar|solicitar)|de solicitud)[^]{0,350}/gi)) trozos.push(m[0]);
+  // «Las solicitudes podrán presentarse en el plazo de diez días hábiles, contados a partir del día siguiente al de
+  // la publicación…» (decretos forales del BOTHA): el plazo va detrás de «solicitudes … presentarse»
+  for (const m of texto.matchAll(/solicitud(?:es)?\b[^.]{0,60}?\bpresentar(?:se|án)?\b[^.]{0,40}?\ben el plazo de[^]{0,300}/gi)) trozos.push(m[0]);
   const desde = a.publicacion || a.registrada || '';
   const vale = (f) => f && f >= desde && f.slice(0, 4) - desde.slice(0, 4) <= 1;
   const MES = '(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)';
