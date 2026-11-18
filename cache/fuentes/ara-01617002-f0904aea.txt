@@ -1,4 +1,49 @@
-### Ficha oficial: https://www.araba.eus/botha/Boletines/2026/133/2026_133_03267_C.pdf
+### Ficha oficial: https://egoitza.araba.eus/es/inicio/tramites/fitxa/01617002
+titulo pestana: Sobre el procedimiento
+A quién va dirigido: Entidades sin ánimo de lucro
+Plazo de resolución: 6 Meses
+titulo: Resolución
+Silencio administrativo de la persona interesada: Negativo
+Inicio Persona Interesada: Sí
+valor: Servicio de Ganadería
+titulo: Organismo competente
+titulo pestana: Presentación del trámite
+valor: servicioganaderia@araba.eus
+titulo: Correo electrónico
+titulo: Teléfono
+accion: Tramitar
+descripcion tramite: Presentación de solicitudes
+denominacion tramite: Solicitud
+descripcion: Registro General
+titulo: Presencial
+descripcion:
+Necesitarás alguno de estos sistemas de identificación digital:
+Certificado Profesional en la nube
+BAKQ
+Certificado electrónico
+titulo: Electrónico
+estado: En plazo
+descripcion plazo: ABIERTO (19/11/2026 - 02/12/2026)
+descripcion plazo ampliada: Del 19 de noviembre al 2 de diciembre de 2026 (ambos inclusive).
+titulo: Plazo de presentación
+descripcion: Para todos los casos
+descripcion documento: Acreditación inscripción en registro
+descripcion documento: Certificado de estar al corriente en Hacienda
+descripcion documento: Certificado de estar al corriente en Seguridad Social
+descripcion documento: Copia de los estatutos o escritura de constitución
+descripcion documento: Declaración responsable miembros por sexo
+descripcion documento: Declaración responsable no estar sancionado
+descripcion documento: Declaración responsable otras subvenciones
+descripcion documento: Declaración responsable reintegro o sancionador
+descripcion documento: Memoria descriptiva de las actuaciones
+condicion documento: CON CARÁCTER GENERAL
+titulo: Documentación
+finalidad:
+Implantación, desarrollo y consolidación de programas de gestión ética de colonias felinas en el Territorio Histórico de Álava mediante el método CER por parte de entidades sin ánimo de lucro.
+titulo:
+Línea 2: Entidades sin ánimo de lucro. Convocatoria 2026: Ayudas destinadas a la implantación, desarrollo y consolidación de programas de gestión ética de colonias felinas en el Territorio Histórico de Álava mediante al aplicación del método CER
+
+### Documento de la convocatoria: https://www.araba.eus/botha/Boletines/2026/133/2026_133_03267_C.pdf
 miércoles, 18 de noviembre de 2026 • Núm. 133
 I - JUNTAS GENERALES DE ÁLAVA Y ADMINISTRACIÓN FORAL
 DEL TERRITORIO HISTÓRICO DE ÁLAVA

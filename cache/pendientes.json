@@ -1,5 +1,23 @@
 [
  {
+  "id": "ara-01617001",
+  "h": "5f9ab0029857c5f5",
+  "titulo": "Entidades Locales: convocatoria: Ayudas destinadas a la implantación",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-01617001-87b519f4.txt",
+  "caracteres": 33988
+ },
+ {
+  "id": "bog-c2607197-htm",
+  "h": "08b5379344116b6b",
+  "titulo": "Subvenciones dirigidas a compensar los gastos de mantenimiento y conservación de ascensores comunitarios",
+  "organismoSugerido": "ayto-eibar",
+  "organismoFuente": "Ayuntamiento de Eibar",
+  "archivo": "cache/fuentes/bog-c2607197-htm-2ac5e2bf.txt",
+  "caracteres": 2019
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias-y-forestales-2026",
   "h": "91adb78e4800f435",
   "titulo": "Ayudas a las agrupaciones de personas productoras agrarias y forestales incluidas en el pepac",
@@ -61,6 +79,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
   "caracteres": 12248
+ },
+ {
+  "id": "ara-01617002",
+  "h": "cb68d83514c4fabf",
+  "titulo": "Entidades sin ánimo de lucro: convocatoria: Ayudas destinadas a la implantación",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-01617002-f0904aea.txt",
+  "caracteres": 34242
  },
  {
   "id": "bob-bob-2026a219-ii-6013-",
@@ -376,15 +403,6 @@
   "organismoFuente": "Diputación foral de Bizkaia",
   "archivo": "cache/fuentes/bdns-940546-b5f83570.txt",
   "caracteres": 174897
- },
- {
-  "id": "bog-c2607197-htm",
-  "h": "08b5379344116b6b",
-  "titulo": "Subvenciones dirigidas a compensar los gastos de mantenimiento y conservación de ascensores comunitarios",
-  "organismoSugerido": "ayto-eibar",
-  "organismoFuente": "Ayuntamiento de Eibar",
-  "archivo": "cache/fuentes/bog-c2607197-htm-2ac5e2bf.txt",
-  "caracteres": 2019
  },
  {
   "id": "bog-c2606587-htm",
