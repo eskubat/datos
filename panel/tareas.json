@@ -910,9 +910,9 @@
   "seccion": "base",
   "quien": "Claude",
   "prioridad": 5,
-  "estado": "pendiente",
-  "fecha": "2026-11-18",
-  "nota": ""
+  "estado": "hecha",
+  "fecha": "2026-11-19",
+  "nota": "La recolección de las 21:47 UTC del 18/11 no pudo bajar ~290 documentos de la BDNS y los quitó del texto (93 fichas a la cola); la de las 22:47 ya los recuperó y la cola volvió a 51, así que no hubo que rehacer nada. Ahora recolector/enlaces.js reutiliza la sección del texto anterior (cache/fuentes/<id>.txt), en el mismo sitio, cuando la descarga de un documento falla y no hay copia en cache/docs; solo un 404/410 lo quita, así la huella no cambia por un fallo pasajero (probado sin red: el texto sale igual). No cambia el número de ayudas; el registro del recolector dirá cuántos documentos se tomaron del texto anterior."
  },
  {
   "id": "unir-extractos-boletin-bdns",

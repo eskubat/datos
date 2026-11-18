@@ -707,7 +707,7 @@ async function main() {
   try { docsExtra = JSON.parse(fs.readFileSync(path.join('cache', 'docs_extra.json'), 'utf8')); } catch {}
   // Los de docs_extra ya copiados en textos_claude van al final del texto (no cambian la huella de la ficha)
   const copiados = (a) => docsCopiados(a.id, docsExtra);
-  try { docs = await documentacion(ayudas, { log, extra: (a) => [...(docsExtra[a.id] || []).filter((u) => !copiados(a).includes(u)), ...(bothaAraba[a.id] && !(docsExtra[a.id] || []).includes(bothaAraba[a.id]) ? [bothaAraba[a.id]] : []), ...(a._urls || []), ...(a._docs || []).map(docUrl)], alFinal: copiados }); } catch (e) { log(`Documentación: ${e.message}`); }
+  try { docs = await documentacion(ayudas, { log, extra: (a) => [...(docsExtra[a.id] || []).filter((u) => !copiados(a).includes(u)), ...(bothaAraba[a.id] && !(docsExtra[a.id] || []).includes(bothaAraba[a.id]) ? [bothaAraba[a.id]] : []), ...(a._urls || []), ...(a._docs || []).map(docUrl)], alFinal: copiados, previo: (a) => { try { return fs.readFileSync(path.join('cache', 'fuentes', nombreFuente(a.id)), 'utf8'); } catch { return ''; } } }); } catch (e) { log(`Documentación: ${e.message}`); }
   // Nominativas y convenios que solo lo dicen en el documento subido a la BDNS (no en el título)
   {
     const fuera = [];

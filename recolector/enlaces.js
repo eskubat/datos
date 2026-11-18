@@ -133,7 +133,12 @@ async function bajar(url) {
 // `alFinal(a)`: documentos que van detrás del resto, fuera del límite de enlaces y de caracteres (los de
 // cache/docs_extra.json ya copiados por la tarea en cache/textos_claude): así, al descargarlos, el texto de
 // antes queda igual al principio y la huella sin ellos sigue siendo la de la ficha (ver fichaVigente en resumen.js).
-export async function documentacion(ayudas, { log = console.log, max = 300000, extra = () => [], alFinal = () => [] } = {}) {
+// `previo(a)`: texto que la ayuda tenía en la pasada anterior (cache/fuentes/<id>.txt). Si la descarga de un
+// documento falla (403, 429, error de red, servidor caído…) y no hay copia en cache/docs, se reutiliza su sección
+// de ese texto, en el mismo sitio: la documentación no se queda cortada y la huella no cambia por un fallo pasajero
+// (tarea bdns-documentos-perdidos: el 18/11 la BDNS no dejó bajar ~290 documentos y 93 fichas volvieron a la cola).
+// Solo un 404 o 410 (el documento ya no existe) lo quita.
+export async function documentacion(ayudas, { log = console.log, max = 300000, extra = () => [], alFinal = () => [], previo = () => '' } = {}) {
   fs.mkdirSync(DIR, { recursive: true });
   let indice = {};
   try { indice = JSON.parse(fs.readFileSync(INDICE, 'utf8')); } catch {}
@@ -145,7 +150,8 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
   let refrescar = {};
   try { refrescar = JSON.parse(fs.readFileSync(path.join('cache', 'docs_refrescar.json'), 'utf8')); } catch {}
   const refrescados = new Set();
-  let nuevos = 0, fallos = 0;
+  let nuevos = 0, fallos = 0, respaldos = 0;
+  const estados = {}; // url → estado HTTP del último fallo (0: sin respuesta)
   const obtener = async (u) => {
     let e = indice[u];
     // Copia buena guardada antes de volver a bajarla: si la nueva descarga falla (la web no responde en esa pasada),
@@ -155,6 +161,7 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
     // Los .docx que fallaron antes de saber leerlos (sin «dx») se vuelven a intentar una vez
     if (e && e.v === V && e.fecha >= limite && (e.ok || (e.intentos >= 3 && (e.dx || !ES_DOCX.test(u))))) {
       const c = leer(u);
+      if (!e.ok) estados[u] = e.estado;
       // Documentos guardados cortados con un límite menor que el actual: se vuelven a bajar
       const lim = (c && c.max) || 60000;
       if (!(c && c.texto.length >= lim && lim < MAX_POR_DOC)) return c;
@@ -169,17 +176,31 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
       return guardado;
     }
     fallos++;
+    estados[u] = r.estado;
     if (previa) return previa; // se conserva la entrada del índice: se vuelve a intentar en la próxima pasada
     indice[u] = { fecha: hoy(), ok: false, v: V, dx: 1, intentos: ((e && !e.ok && e.v === V && (e.dx || !ES_DOCX.test(u)) && e.intentos) || 0) + 1, estado: r.estado };
     return null;
   };
   const res = {};
+  const BORRADO = new Set([404, 410]);
   await enParalelo(ayudas, 4, async (a) => {
+    // Secciones «### Título: url» del texto anterior de la ayuda
+    const anteriores = new Map();
+    for (const p of String(previo(a) || '').split(/\n\n(?=### )/)) {
+      const m = p.match(/^### .*: (\S+)\n([\s\S]+)$/);
+      if (m && m[2].trim().length > 80 && !anteriores.has(m[1])) anteriores.set(m[1], m[2]);
+    }
+    const obtenerOPrevio = async (u) => {
+      const d = await obtener(u);
+      if (d || BORRADO.has(estados[u]) || !anteriores.has(u)) return d;
+      respaldos++;
+      return { tipo: 'previo', texto: anteriores.get(u), enlaces: [] };
+    };
     const partes = [];
     const vistos = new Set();
     const add = (titulo, url, t) => { if (t && !vistos.has(url)) { vistos.add(url); partes.push(`### ${titulo}: ${url}\n${t}`); } };
     // Ficha ya leída por el lector de la fuente (p. ej. la sede de Álava, que sin cookies solo da la plantilla)
-    const principal = a._ficha ? { texto: a._ficha, enlaces: [] } : a.url ? await obtener(a.url) : null;
+    const principal = a._ficha ? { texto: a._ficha, enlaces: [] } : a.url ? await obtenerOPrevio(a.url) : null;
     if (principal) add('Ficha oficial', a.url, principal.texto);
     const cola = [
       ...extra(a).map((u) => ({ url: u, texto: 'Documento de la convocatoria' })),
@@ -189,7 +210,7 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
     let n = 0;
     for (const l of cola) {
       if (n >= MAX_ENLACES || vistos.has(l.url)) continue;
-      const d = await obtener(l.url);
+      const d = await obtenerOPrevio(l.url);
       if (d) {
         add(l.texto || 'Enlace', l.url, d.texto); n++;
         // Páginas enlazadas (bases, boletín, documento añadido…) que a su vez enlazan los PDF de la convocatoria,
@@ -206,13 +227,13 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
     const fin = [];
     for (const u of alFinal(a)) {
       if (vistos.has(u)) continue;
-      const d = await obtener(u);
+      const d = await obtenerOPrevio(u);
       if (d) { vistos.add(u); fin.push(`### Documento de la convocatoria: ${u}\n${d.texto}`); }
     }
     if (texto || fin.length) res[a.id] = [texto, ...fin].filter(Boolean).join('\n\n');
   });
   fs.writeFileSync(INDICE, JSON.stringify(indice));
-  log(`Documentación: ${Object.keys(res).length} ayudas con texto, ${nuevos} documentos nuevos, ${fallos} sin acceso (caché: ${Object.keys(indice).length})`);
+  log(`Documentación: ${Object.keys(res).length} ayudas con texto, ${nuevos} documentos nuevos, ${fallos} sin acceso, ${respaldos} tomados del texto anterior por fallo de descarga (caché: ${Object.keys(indice).length})`);
   return res;
 }
 
