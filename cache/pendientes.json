@@ -1,14 +1,5 @@
 [
  {
-  "id": "ara-01617001",
-  "h": "5f9ab0029857c5f5",
-  "titulo": "Entidades Locales: convocatoria: Ayudas destinadas a la implantación",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-01617001-87b519f4.txt",
-  "caracteres": 33988
- },
- {
   "id": "bog-c2607197-htm",
   "h": "08b5379344116b6b",
   "titulo": "Subvenciones dirigidas a compensar los gastos de mantenimiento y conservación de ascensores comunitarios",
@@ -79,15 +70,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
   "caracteres": 12248
- },
- {
-  "id": "ara-01617002",
-  "h": "cb68d83514c4fabf",
-  "titulo": "Entidades sin ánimo de lucro: convocatoria: Ayudas destinadas a la implantación",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-01617002-f0904aea.txt",
-  "caracteres": 34242
  },
  {
   "id": "bob-bob-2026a219-ii-6013-",
