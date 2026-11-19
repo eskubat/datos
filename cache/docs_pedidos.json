@@ -24,18 +24,19 @@
   "titulo": "Bases reguladoras de subvenciones para la financiación de proyectos de cooperación y desarrollo del Ayuntamiento de Balmaseda (Boletín Oficial de Bizkaia, 9 de septiembre de 2024)",
   "botha": [],
   "urls": [
-   "https://www.balmaseda.eus"
+   "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2024/09/BOB-2024a173.pdf"
   ],
   "origen": "tarea de fichas: la convocatoria 2026 (BDNS 942867) remite a esas bases y no están en la documentación",
   "fecha": "2026-11-19",
   "estado": "fallo",
-  "intentos": 4,
+  "intentos": 0,
   "probadas": [
    {
     "url": "https://www.balmaseda.eus",
     "motivo": "fetch failed"
    }
-  ]
+  ],
+  "nota": "Portada quitada (19/11/2026). URL deducida, sin comprobar: el BOB-2024a180 es del 18/9/2024, así que el del lunes 9/9/2024 sería el 173. El recolector solo la acepta si una página del anuncio encaja con el título."
  },
  "ara-convocatoria-de-ayudas-a-la-inversion-en-equipamiento-format": {
   "titulo": "Convocatoria de ayudas a la inversión en equipamiento formativo 2026",
@@ -57,9 +58,7 @@
  "bob-bob-2026a199-ii-5301-": {
   "titulo": "Ordenanza reguladora de las Subvenciones para Actividades Culturales, Educativas, Deportivas, de Tercera Edad y Sociales del Ayuntamiento de Arantzazu",
   "botha": [],
-  "urls": [
-   "https://www.arantzazu.eus"
-  ],
+  "urls": [],
   "origen": "cuestión bob-bob-2026a199-ii-5301- (decisión del responsable, 18/11/2026)",
   "fecha": "2026-11-19",
   "estado": "fallo",
@@ -69,7 +68,8 @@
     "url": "https://www.arantzazu.eus",
     "motivo": "fetch failed"
    }
-  ]
+  ],
+  "nota": "Portada quitada (19/11/2026): la convocatoria no cita dónde se publicó la ordenanza; la búsqueda web no la encontró."
  },
  "ara-subvenciones-realizacion-actividades-de-formacion-tecnica-de": {
   "titulo": "Convocatoria de subvenciones para la realización de actividades de formación técnica deportiva, temporada 2025-2026 (Diputación Foral de Álava)",

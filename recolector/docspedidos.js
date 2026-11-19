@@ -34,7 +34,40 @@ export function esDeLaAyuda(txt, titulo) {
   return p.filter((w) => ini.includes(w)).length >= Math.min(p.length, Math.max(2, Math.ceil(p.length * 0.5)));
 }
 
-async function probar(url) {
+// La portada de un sitio (https://www.balmaseda.eus, …/es) nunca es el documento: se descarta sin pedirla
+// (tarea documentos-pedidos-portadas, 19/11/2026).
+export const esPortada = (u) => { try { const x = new URL(u); return /^\/?((es|eu)(-es)?\/?)?(index\.\w+)?$/i.test(x.pathname) && !x.search; } catch { return false; } };
+// Referencia de un anuncio del BOB en el título («II-5846», «BOB-2026a217-(II-5846)») para quedarse con sus páginas
+const refBob = (t) => (String(t || '').match(/\b((?:I{1,3}|IV|V)-\d{3,5})\b/) || [])[1] || '';
+// El PDF del BOB es el boletín entero: cada página lleva al pie «cve: BOB-AAAAaNNN-(II-NNNN)»; se guardan solo las
+// páginas de ese anuncio, para que la comprobación del título mire su comienzo y no el del boletín.
+// Sin referencia en el título (p. ej. «BOB del 9 de septiembre de 2024»), se busca la primera página que no sea del
+// sumario y encaje con el título, y se toman las del mismo cve; si ninguna encaja, se devuelve el boletín entero.
+export function paginasBob(txt, titulo) {
+  const todas = String(txt).split('\f');
+  const cve = (p) => (p.match(/cve:\s*BOB-\d{4}a\d{3}-\(([IVX]+-\d+)\)/i) || [])[1] || '';
+  let ref = refBob(titulo);
+  if (!ref) {
+    const i = todas.findIndex((p) => cve(p) && esDeLaAyuda(p, titulo));
+    ref = i >= 0 ? cve(todas[i]) : '';
+  }
+  if (!ref) return txt;
+  const pags = todas.filter((p) => p.includes(`(${ref})`));
+  return pags.length ? pags.join('\f') : txt;
+}
+
+async function probar(url, titulo = '') {
+  if (esPortada(url)) return { txt: null, motivo: 'portada del sitio: no es el documento' };
+  const r = await probar1(url);
+  // bizkaia.eus/…/Bao_bob por http a veces corta la conexión desde Actions («red: fetch failed»): se prueba por https
+  if (!r.txt && /^http:\/\//i.test(url) && /^(red:|fetch failed|tiempo agotado)/.test(r.motivo || '')) {
+    const r2 = await probar1(url.replace(/^http:/i, 'https:'));
+    if (r2.txt) return { txt: /Bao_bob/i.test(url) ? paginasBob(r2.txt, titulo) : r2.txt };
+    return { txt: null, motivo: `${r.motivo}; por https: ${r2.motivo}` };
+  }
+  return r.txt && /Bao_bob/i.test(url) ? { txt: paginasBob(r.txt, titulo) } : r;
+}
+async function probar1(url) {
   if (/araba\.eus\/botha\//i.test(url) || /\.pdf(\?|$)/i.test(url) || /bdnstrans\/api\/convocatorias\/documentos/i.test(url)) return bajarPdfBotha(url);
   try { const r = await pedir(url); return r && String(r).trim() ? { txt: String(r) } : { txt: null, motivo: 'vacío' }; } catch (e) { return { txt: null, motivo: e.message }; }
 }
@@ -96,7 +129,7 @@ export async function resolverPedidos({ log = console.log, resumenes = null, rei
     for (const u of [...new Set(candidatas)]) lista.push(...(await expandirBdns(u, probadas)));
     let hallada = null;
     for (const u of [...new Set(lista)].slice(0, 8)) {
-      const r = await probar(u);
+      const r = await probar(u, p.titulo);
       if (!r.txt) { probadas.push({ url: u, motivo: r.motivo }); continue; }
       if (p.titulo && !esDeLaAyuda(r.txt, p.titulo)) { probadas.push({ url: u, motivo: 'es de otra convocatoria' }); continue; }
       hallada = u;

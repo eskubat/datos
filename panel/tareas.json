@@ -946,6 +946,18 @@
   "seccion": "fuentes",
   "quien": "Claude",
   "prioridad": 54,
+  "estado": "hecha",
+  "fecha": "2026-11-19",
+  "nota": "El recolector descarta ya las portadas y, con el PDF entero del BOB, se queda solo con las páginas del anuncio (por su cve «(II-NNNN)» del título o por la primera página que encaja con él), que antes daba «es de otra convocatoria»; si http://bizkaia.eus corta la conexión, reintenta por https. Balmaseda apunta ahora al BOB-2024a173 (9/9/2024, número deducido, sin comprobar desde la sesión) y Arantzazu queda sin URL porque la convocatoria no dice dónde se publicó la ordenanza; regla nueva en docs/RESUMIR.md. Se espera recuperar 1-2 documentos (Balmaseda y Sestao) en el recolector de mañana."
+ },
+ {
+  "id": "documentos-bob-por-fecha",
+  "titulo": "Encontrar en el BOB un anuncio por su fecha de publicación",
+  "detalle": "Pedidos que citan solo la fecha de un BOB (p. ej. «Boletín Oficial de Bizkaia, 9 de septiembre de 2024») necesitan deducir a mano el número. Ampliar recolector/docspedidos.js para que busque ese día en los sumarios del BOB (Bao_bob/Sumario, con la portada https://www.bizkaia.eus/es/bob para el número actual) y pruebe ese boletín.",
+  "fuente": "Tarea documentos-pedidos-portadas",
+  "seccion": "fuentes",
+  "quien": "Claude",
+  "prioridad": 55,
   "estado": "pendiente",
   "fecha": "2026-11-19",
   "nota": "Añadida al plan de mejoras"
