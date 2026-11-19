@@ -66,3 +66,8 @@ export function variantesSinDocsSecundarios(t) {
   if (sec.length > 4) out.push(partes.filter((_, i) => !sec.includes(i)).join('\n\n'));
   return out;
 }
+
+// Extractos de boletín unidos a una convocatoria de la BDNS por su número (sección «### Extracto del boletín
+// (…): url», al final del texto; tarea unir-extractos-boletin-bdns): repiten lo que ya dice la convocatoria, así
+// que la ficha hecha antes de que llegaran sigue valiendo.
+export const sinExtractosUnidos = (t) => String(t || '').split(/\n\n(?=### )/).filter((p) => !/^### Extracto del bolet[ií]n \(/.test(p)).join('\n\n');

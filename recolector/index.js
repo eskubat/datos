@@ -338,10 +338,27 @@ async function main() {
       a.publicacion = b.publicacion; a.publicacionFuente = (b.fuentes && b.fuentes[0] && b.fuentes[0].nombre) || 'Boletín oficial'; conFecha++;
       if (!a.fin && b.fin && !a.permanente) { a.fin = b.fin; a.inicio = a.inicio || b.inicio; a.finCalculado = true; }
     };
+    // Extractos con el número de la BDNS (BOB, BOG y BOTHA; tarea unir-extractos-boletin-bdns): se unen con la
+    // convocatoria de la BDNS de ese número (o con la ayuda en la que ya se unió) y, si no está, con otro anuncio de
+    // los boletines del mismo número. El anuncio queda como fuente de esa ayuda y su texto como documento al final
+    // («### Extracto del boletín…», que no cambia la huella de la ficha: ver sinExtractosUnidos en textos.js).
+    const porBdns = new Map();
+    for (const a of ayudas) for (const r of [String(a.id).startsWith('bdns-') ? String(a.id).slice(5) : '', a.bdns ? String(a.bdns) : '']) if (r && !porBdns.has(r)) porBdns.set(r, a);
+    let unidos = 0;
+    const adjunta = (a, b) => {
+      unidos++;
+      const f = b.fuentes && b.fuentes[0];
+      a.fuentes = a.fuentes || [];
+      if (f && !a.fuentes.some((x) => x.url === f.url)) a.fuentes.push({ nombre: f.nombre, url: f.url });
+      const t = b._ficha || b._texto;
+      if (t) (a._extractos = a._extractos || []).push({ nombre: (f && f.nombre) || 'Boletín oficial', url: b.url, texto: t });
+    };
     // Por título solo si es casi igual y único en ese ámbito, y después de los cruces por código (que mandan)
     const porTitulo = [];
     for (const b of resultados.boletines || []) {
-      if (b.bdnsRef && ids.has('bdns-' + b.bdnsRef)) { dup++; fechaDelBoletin(ayudas.find((a) => a.id === 'bdns-' + b.bdnsRef), b); continue; }
+      const ya = b.bdnsRef && porBdns.get(String(b.bdnsRef));
+      if (ya) { dup++; fechaDelBoletin(ya, b); adjunta(ya, b); continue; }
+      if (b.bdnsRef) porBdns.set(String(b.bdnsRef), b);
       const kb = claves(b.titulo);
       const i = kAy.findIndex((x) => x.amb === b.ambito.nombre && parecido(kb, x.k) >= 0.6);
       if (i >= 0) {
@@ -353,7 +370,7 @@ async function main() {
       ayudas.push(b);
     }
     for (const [a, b] of porTitulo) fechaDelBoletin(a, b);
-    log(`Boletines: ${(resultados.boletines || []).length - dup} ayudas nuevas (${dup} ya estaban por otras fuentes; ${conFecha} de la BDNS toman la fecha de publicación del boletín)`);
+    log(`Boletines: ${(resultados.boletines || []).length - dup} ayudas nuevas (${dup} ya estaban por otras fuentes, ${unidos} unidas por el número de la BDNS; ${conFecha} de la BDNS toman la fecha de publicación del boletín)`);
   }
   // Convocatorias de la BDNS que siguen sin fecha de publicación (su anuncio en el BOB es anterior a los 45 días de
   // los boletines): se busca su código BDNS en los sumarios del BOB del año (boletines.sumariosBob, con caché) y se
@@ -728,9 +745,11 @@ async function main() {
     // fuentes el extracto solo se usa si no hay documentos (no cambia la huella de sus fichas).
     const extracto = a._texto ? '### Extracto de la fuente\n' + a._texto : '';
     const partes = String(a.id).startsWith('ue-') ? [extracto, docs[a.id] || ''] : [docs[a.id] || '', !docs[a.id] ? extracto : ''];
+    // Extractos de boletín unidos por el número de la BDNS: al final, si su texto no está ya en la documentación
+    for (const e of a._extractos || []) partes.push(`### Extracto del boletín (${e.nombre}): ${e.url}\n${e.texto}`);
     const t = quitaRepetidas(partes.filter(Boolean).join('\n\n').trim());
     if (t) { fuentes[a.id] = t; fs.writeFileSync(path.join(DIR_F, nombreF(a.id)), t); }
-    delete a._texto; delete a._docs; delete a._ficha; delete a._urls;
+    delete a._texto; delete a._docs; delete a._ficha; delete a._urls; delete a._extractos;
   }
   // Fuera los textos de ayudas que ya no existen
   const vivos = new Set(Object.keys(fuentes).map(nombreF));

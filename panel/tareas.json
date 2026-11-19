@@ -922,8 +922,8 @@
   "seccion": "base",
   "quien": "Claude",
   "prioridad": 6,
-  "estado": "pendiente",
-  "fecha": "2026-11-18",
-  "nota": ""
+  "estado": "hecha",
+  "fecha": "2026-11-19",
+  "nota": "Solo el BOB traía el número de la BDNS (del sumario); ahora boletines.js también lo saca del texto de cada anuncio del BOB, BOG y BOTHA (en la caché actual, 47 anuncios más: 31 del BOG, 10 del BOTHA y 6 del BOB). El recolector une el extracto con la convocatoria de la BDNS de ese número (o con la ayuda en la que ya se unió) y, si no está, con otro anuncio de boletín del mismo número; el anuncio queda como fuente y su texto como «### Extracto del boletín…» al final de la documentación, sin cambiar la huella de las fichas hechas. No se esperan ayudas nuevas sino menos repetidas (hoy hay 6 parejas del BOB con el mismo número y unas 26 de BOG/BOTHA que dejarían de entrar en cache/parecidas.json); las 16 parejas ya apartadas en cache/excluidas.json siguen ahí hasta que decidas."
  }
 ]

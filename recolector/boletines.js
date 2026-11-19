@@ -535,6 +535,18 @@ async function bopv(desde, vistos, cache, log) {
   return out;
 }
 
+// Número de la BDNS que cita el anuncio: «BDNS (Identif.): 938969», «BDNS(Identif.):938969» o el enlace
+// …/bdnstrans/GE/es/convocatorias/938969. Sirve para unir el extracto con su convocatoria de la BDNS
+// (tarea unir-extractos-boletin-bdns, 19/11/2026); el BOB ya lo trae en el sumario.
+export function refBdns(t) {
+  t = String(t || '');
+  for (const re of [/BDNS\s*\(?\s*(?:Identif\.?|Identificador|Ident\.)?\s*\)?\s*[:.]?\s*(\d{6,7})\b/i, /bdnstrans\/[A-Z]{2}\/[a-z]{2}\/convocatorias?\/(\d{6,7})/i]) {
+    const m = t.match(re);
+    if (m) return m[1];
+  }
+  return null;
+}
+
 export async function recoger(log = console.log) {
   const cache = leer(CACHE, { vistos: [], items: {} });
   const vistos = new Set(cache.vistos);
@@ -587,7 +599,7 @@ export async function recoger(log = console.log) {
       id, titulo: limpiaTit(x.titulo),
       organismo: ambito.nivel === 'municipio' ? `Ayuntamiento de ${ambito.nombre}` : ambito.nivel === 'euskadi' ? frase(x.entidad) : `Diputación Foral de ${x.terr === 'Araba/Álava' ? 'Álava' : x.terr}`,
       ambito, inicio: plazo ? plazo.inicio : null, fin, finCalculado: !!fin, publicacion: x.publicacion,
-      boletin: x.url, bdnsRef: x.bdnsRef || null,
+      boletin: x.url, bdnsRef: x.bdnsRef || refBdns(x.titulo + '\n' + (x.texto || '')),
       resumen: partes && partes.objeto.length ? partes.objeto.slice(0, 4).join('\n') : '',
       dirigido: partes ? partes.beneficiarios.slice(0, 6).join('\n') : '',
       cuantia: partes ? partes.cuantia.join('\n') : '',
