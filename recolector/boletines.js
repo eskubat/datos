@@ -410,6 +410,47 @@ export async function sumariosBob(log = console.log, max = 60) {
   return out;
 }
 
+// Número del BOB publicado un día (tarea documentos-bob-por-fecha, 19/11/2026): hay pedidos que solo citan la fecha
+// («Boletín Oficial de Bizkaia, 9 de septiembre de 2024»). Primero se mira cache/bob_sumarios.json (año en curso);
+// si no está, se estima el número por los días laborables desde el 1 de enero (el BOB sale de lunes a viernes, menos
+// unos 8 festivos) y se corrige leyendo la fecha del sumario de ese número (…/Sumario/AAAA/MM/BOB-AAAAaNNNs.pdf, MM
+// = mes de publicación) y saltando la diferencia en días laborables. Como mucho `max` sumarios; null si ese día no
+// hubo boletín o no se encuentra. Devuelve {url (boletín completo), numero: "AAAA-NNN", publicacion}.
+const laborables = (a, b) => { // días laborables de a (excluido) a b (incluido); negativo si b < a
+  const s = a <= b ? 1 : -1; let n = 0;
+  for (let d = new Date(a + 'T12:00Z'); s > 0 ? d < new Date(b + 'T12:00Z') : d > new Date(b + 'T12:00Z');) { d = new Date(+d + s * 864e5); const w = d.getUTCDay(); if (w && w < 6) n += s; }
+  return n;
+};
+export async function numeroBobDeFecha(fecha, { max = 8 } = {}) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(fecha || '')) return null;
+  const año = +fecha.slice(0, 4), mes = +fecha.slice(5, 7);
+  const urlPdf = (mm, n3) => `http://www.bizkaia.eus/lehendakaritza/Bao_bob/${año}/${String(mm).padStart(2, '0')}/BOB-${año}a${n3}.pdf`;
+  const c = leer(path.join('cache', 'bob_sumarios.json'), { numeros: {} });
+  for (const [k, v] of Object.entries(c.numeros || {})) if (v?.publicacion === fecha) return { url: v.url, numero: k, publicacion: fecha };
+  const fechaDe = async (n) => {
+    const n3 = String(n).padStart(3, '0');
+    for (const mm of [mes, mes - 1, mes + 1, mes - 2, mes + 2]) {
+      if (mm < 1 || mm > 12) continue;
+      const txt = await bajar(`http://www.bizkaia.eus/lehendakaritza/Bao_bob/Sumario/${año}/${String(mm).padStart(2, '0')}/BOB-${año}a${n3}s.pdf`, { pdf: true });
+      if (txt) return { pub: fechaSumario(txt), mm, n3 };
+    }
+    return null;
+  };
+  const vistos = new Map();
+  let n = Math.max(1, laborables(`${año - 1}-12-31`, fecha) - 8);
+  for (let i = 0; i < max && n > 0 && !vistos.has(n); i++) {
+    const r = await fechaDe(n);
+    vistos.set(n, r?.pub || null);
+    if (!r?.pub) { n--; continue; }
+    if (r.pub === fecha) return { url: urlPdf(r.mm, r.n3), numero: `${año}-${r.n3}`, publicacion: fecha };
+    const d = laborables(r.pub, fecha);
+    n += d || (r.pub < fecha ? 1 : -1);
+    // Ese día no salió boletín si el número anterior es de antes y el siguiente de después
+    if (vistos.has(n) && vistos.get(n) && (vistos.get(n) < fecha) !== (r.pub < fecha)) return null;
+  }
+  return null;
+}
+
 // ---------- BOB: texto de un anuncio dentro del boletín completo ----------
 // En el PDF completo, la referencia (BOB-AAAAaNNN-(II-xxxx)) solo sale en el sumario: en el cuerpo cada página lleva
 // «cve: BOB-AAAAaNNN» y cada anuncio empieza con «SECCIÓN …» + organismo + título. Se busca el título del sumario

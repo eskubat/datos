@@ -14,7 +14,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { norm, pedir } from './comun.js';
-import { bajarPdfBotha } from './boletines.js';
+import { bajarPdfBotha, numeroBobDeFecha } from './boletines.js';
 import { api as apiBdns, docsBdns } from './bdns.js';
 
 const ARCHIVO = path.join('cache', 'docs_pedidos.json');
@@ -43,12 +43,29 @@ const refBob = (t) => (String(t || '').match(/\b((?:I{1,3}|IV|V)-\d{3,5})\b/) ||
 // páginas de ese anuncio, para que la comprobación del título mire su comienzo y no el del boletín.
 // Sin referencia en el título (p. ej. «BOB del 9 de septiembre de 2024»), se busca la primera página que no sea del
 // sumario y encaje con el título, y se toman las del mismo cve; si ninguna encaja, se devuelve el boletín entero.
+// Fechas de BOB citadas en un título («Boletín Oficial de Bizkaia, 9 de septiembre de 2024», «BOB 09/09/2024») →
+// ["2024-09-09"] (tarea documentos-bob-por-fecha, 19/11/2026). Solo si el título nombra el BOB.
+const MESES = { enero: 1, febrero: 2, marzo: 3, abril: 4, mayo: 5, junio: 6, julio: 7, agosto: 8, septiembre: 9, setiembre: 9, octubre: 10, noviembre: 11, diciembre: 12 };
+const CITA_BOB = /\bBOB\b|Bolet[ií]n Oficial de Bizkaia|Bizkaiko Aldizkari Ofiziala/i;
+export function fechasBob(t) {
+  const s = String(t || '');
+  if (!CITA_BOB.test(s)) return [];
+  const iso = (a, m, d) => (m >= 1 && m <= 12 && d >= 1 && d <= 31 ? `${a}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}` : null);
+  const out = [];
+  for (const m of norm(s).matchAll(/\b(\d{1,2}) de ([a-z]+) de (20\d\d)\b/g)) out.push(iso(m[3], MESES[m[2]], +m[1]));
+  for (const m of s.matchAll(/\b(\d{1,2})[/.-](\d{1,2})[/.-](20\d\d)\b/g)) out.push(iso(m[3], +m[2], +m[1]));
+  return [...new Set(out.filter(Boolean))];
+}
+// La cita del boletín («Boletín Oficial de Bizkaia, 9 de septiembre de 2024», «BOB 217/2026») no es parte del título
+// de la ayuda: se quita para comprobar que el texto encaja (si no, «boletin», «oficial», «septiembre»… cuentan).
+export const sinCitaBob = (t) => String(t || '').replace(/Bolet[ií]n Oficial de Bizkaia|Bizkaiko Aldizkari Ofiziala|\bBOB\b[^,;)]*|\b\d{1,2} de [a-záéíóú]+ de 20\d\d\b/gi, ' ');
+
 export function paginasBob(txt, titulo) {
   const todas = String(txt).split('\f');
   const cve = (p) => (p.match(/cve:\s*BOB-\d{4}a\d{3}-\(([IVX]+-\d+)\)/i) || [])[1] || '';
   let ref = refBob(titulo);
   if (!ref) {
-    const i = todas.findIndex((p) => cve(p) && esDeLaAyuda(p, titulo));
+    const i = todas.findIndex((p) => cve(p) && esDeLaAyuda(p, sinCitaBob(titulo)));
     ref = i >= 0 ? cve(todas[i]) : '';
   }
   if (!ref) return txt;
@@ -120,6 +137,10 @@ export async function resolverPedidos({ log = console.log, resumenes = null, rei
       if (m[3]) candidatas.push(urlBotha(m[1], m[2], m[3]), urlBotha(m[1], m[2], m[3], 'c'));
     }
     // Convocatorias de los sumarios: primero las del número pedido, luego las del año cuyo título encaja
+    // BOB citado solo por su fecha: se busca el número de ese día y se prueba el boletín (paginasBob se queda con el anuncio)
+    for (const f of fechasBob(p.titulo)) {
+      try { const b = await numeroBobDeFecha(f); if (b) candidatas.push(b.url); } catch {}
+    }
     const pT = palabras(p.titulo || '');
     const encaja = (e) => pT.length >= 2 && pT.filter((w) => norm(e.titulo).includes(w)).length >= Math.max(2, Math.ceil(pT.length * 0.6));
     for (const e of entradas.filter((e) => numeros.has(e.k) && (!pT.length || encaja(e)))) candidatas.push(e.url);
@@ -131,7 +152,7 @@ export async function resolverPedidos({ log = console.log, resumenes = null, rei
     for (const u of [...new Set(lista)].slice(0, 8)) {
       const r = await probar(u, p.titulo);
       if (!r.txt) { probadas.push({ url: u, motivo: r.motivo }); continue; }
-      if (p.titulo && !esDeLaAyuda(r.txt, p.titulo)) { probadas.push({ url: u, motivo: 'es de otra convocatoria' }); continue; }
+      if (p.titulo && !esDeLaAyuda(r.txt, sinCitaBob(p.titulo))) { probadas.push({ url: u, motivo: 'es de otra convocatoria' }); continue; }
       hallada = u;
       try { fs.mkdirSync(DIR_TEXTOS, { recursive: true }); fs.writeFileSync(path.join(DIR_TEXTOS, `${id}.txt`), `URL: ${u}\nDescargado: ${hoy}\n\n${r.txt}`); } catch {}
       break;
