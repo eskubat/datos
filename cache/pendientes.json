@@ -81,15 +81,6 @@
   "caracteres": 5840
  },
  {
-  "id": "eus-ayuda-subvencion-2026-subvenciones-para-proyectos-editoriales-y-audiovisuales-en-el-ambito-de-la-diaspora-vasca-2026",
-  "h": "fe245c6109b06b4f",
-  "titulo": "Subvenciones para proyectos editoriales y audiovisuales en el ámbito de la Diáspora Vasca",
-  "organismoSugerido": "gv-lehendakaritza",
-  "organismoFuente": "Lehendakaritza",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-subvenciones-para-proyectos-editor-6f964ec9.txt",
-  "caracteres": 299999
- },
- {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
   "h": "b0ecc4da6bcbfe27",
   "titulo": "EDIP, Programa Europeo de la Industria de Defensa",
@@ -169,15 +160,6 @@
   "organismoFuente": "Ayuntamiento de barakaldo",
   "archivo": "cache/fuentes/bdns-929714-71f80b33.txt",
   "caracteres": 214972
- },
- {
-  "id": "bdns-927909",
-  "h": "6735faea7fc40818",
-  "titulo": "Subvenciones para el fomento de la natalidad",
-  "organismoSugerido": "ayto-campezo-kanpezu",
-  "organismoFuente": "Ayuntamiento de campezo/kanpezu",
-  "archivo": "cache/fuentes/bdns-927909-8dd39047.txt",
-  "caracteres": 12622
  },
  {
   "id": "ue-crea-media-2027-tvonline-1",
