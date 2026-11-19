@@ -886,9 +886,9 @@
   "seccion": "revision",
   "quien": "Claude",
   "prioridad": 51,
-  "estado": "pendiente",
-  "fecha": "2026-11-18",
-  "nota": ""
+  "estado": "hecha",
+  "fecha": "2026-11-19",
+  "nota": "Revisadas contra cache/fuentes las 32 fichas con empadronamiento o domicilio y varios colectivos y las 65 municipales con actividad o ninguno. Corregidas 12: 11 pasan a «actividad» porque el empadronamiento era de la persona contratada o del público y quien pide solo necesita centro de trabajo, el edificio o un establecimiento allí (contratación en Eibar, Vitoria-Gasteiz, Llodio, Campezo, Oñati y San Sebastián; Balidatu; accesibilidad de Eibar y Berriz; Día del Consumidor de Irun; formación deportiva de Ordizia), y los cursos de formación de la DFA pasan de «empadronamiento» a «domicilio»; las 65 de actividad o ninguno están bien según su texto. No cambia el número de ayudas: esas 11 se verán en todos los municipios (en lo publicado quedan 93 que exigen vínculo)."
  },
  {
   "id": "documentos-pedidos-revisar",
@@ -925,5 +925,17 @@
   "estado": "hecha",
   "fecha": "2026-11-19",
   "nota": "Solo el BOB traía el número de la BDNS (del sumario); ahora boletines.js también lo saca del texto de cada anuncio del BOB, BOG y BOTHA (en la caché actual, 47 anuncios más: 31 del BOG, 10 del BOTHA y 6 del BOB). El recolector une el extracto con la convocatoria de la BDNS de ese número (o con la ayuda en la que ya se unió) y, si no está, con otro anuncio de boletín del mismo número; el anuncio queda como fuente y su texto como «### Extracto del boletín…» al final de la documentación, sin cambiar la huella de las fichas hechas. No se esperan ayudas nuevas sino menos repetidas (hoy hay 6 parejas del BOB con el mismo número y unas 26 de BOG/BOTHA que dejarían de entrar en cache/parecidas.json); las 16 parejas ya apartadas en cache/excluidas.json siguen ahí hasta que decidas."
+ },
+ {
+  "id": "vinculo-quien-solicita",
+  "titulo": "Aclarar en la regla del vínculo territorial que cuenta quien pide la ayuda",
+  "detalle": "En la revisión del 19/11/2026, 11 de 32 fichas tenían «empadronamiento» porque la persona contratada o el público debía estar empadronado, aunque quien solicita solo necesita centro de trabajo, el bien o un establecimiento en el municipio. Proponer al responsable añadir a «Vínculo territorial» de docs/CATEGORIZACION.md que el vínculo se mide en quien solicita, y que la comprobación de recolector/resumen.js avise cuando el único empadronamiento citado es el de otra persona. Pendiente también: Portugalete (bob-bob-2026a221-ii-5969-) queda en «empadronamiento» aunque las bases solo dicen que cada concurso puede pedirlo.",
+  "fuente": "Tarea vinculo-territorial-revisar",
+  "seccion": "revision",
+  "quien": "Claude",
+  "prioridad": 53,
+  "estado": "pendiente",
+  "fecha": "2026-11-19",
+  "nota": ""
  }
 ]
