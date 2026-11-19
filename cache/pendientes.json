@@ -1,14 +1,5 @@
 [
  {
-  "id": "bog-c2607197-htm",
-  "h": "08b5379344116b6b",
-  "titulo": "Subvenciones dirigidas a compensar los gastos de mantenimiento y conservación de ascensores comunitarios",
-  "organismoSugerido": "ayto-eibar",
-  "organismoFuente": "Ayuntamiento de Eibar",
-  "archivo": "cache/fuentes/bog-c2607197-htm-2ac5e2bf.txt",
-  "caracteres": 2019
- },
- {
   "id": "eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias-y-forestales-2026",
   "h": "91adb78e4800f435",
   "titulo": "Ayudas a las agrupaciones de personas productoras agrarias y forestales incluidas en el pepac",
@@ -72,6 +63,15 @@
   "caracteres": 12248
  },
  {
+  "id": "bdns-938418",
+  "h": "773c71e57235ef8a",
+  "titulo": "Bases para la concesión de subvenciones a quienes obtengan el título de \"Monitor/a o Director/a de Actividades de Tiempo Libre Infantil",
+  "organismoSugerido": "ayto-bergara",
+  "organismoFuente": "Ayuntamiento de bergara",
+  "archivo": "cache/fuentes/bdns-938418-d3eab82c.txt",
+  "caracteres": 312365
+ },
+ {
   "id": "bob-bob-2026a219-ii-6013-",
   "h": "1c3c0ab2ed5fa248",
   "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -79,6 +79,15 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
   "caracteres": 5840
+ },
+ {
+  "id": "bdns-939545",
+  "h": "57cd493c7076fc07",
+  "titulo": "Subvenciones económicas por parte para el desarrollo en materia de actividad física y deporte para las temporadas y/o",
+  "organismoSugerido": "ayto-sestao",
+  "organismoFuente": "Ayuntamiento de sestao",
+  "archivo": "cache/fuentes/bdns-939545-a6e7cf9f.txt",
+  "caracteres": 6673
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -394,24 +403,6 @@
   "organismoFuente": "Diputación foral de Bizkaia",
   "archivo": "cache/fuentes/bdns-940546-b5f83570.txt",
   "caracteres": 174897
- },
- {
-  "id": "bog-c2606587-htm",
-  "h": "f861a5ef25a56a9a",
-  "titulo": "Subvenciones para organizar fiestas de carnaval",
-  "organismoSugerido": "ayto-lasarte-oria",
-  "organismoFuente": "Ayuntamiento de Lasarte-Oria",
-  "archivo": "cache/fuentes/bog-c2606587-htm-fb6f3461.txt",
-  "caracteres": 901
- },
- {
-  "id": "bog-c2606552-htm",
-  "h": "52328dc9d36d4506",
-  "titulo": "Bases y convocatoria de de ayudas para estudiar euskera",
-  "organismoSugerido": "ayto-ibarra",
-  "organismoFuente": "Ayuntamiento de Ibarra",
-  "archivo": "cache/fuentes/bog-c2606552-htm-aba87e60.txt",
-  "caracteres": 838
  },
  {
   "id": "botha-2026-131-03265-c-pdf",
