@@ -61,19 +61,6 @@
   "archivo": "cache/fuentes_prox/prev-consejero-a-de-educacion-viceconsejeria-de-politica-uni-91dc3ff7.txt"
  },
  {
-  "id": "prev-viceconsejeria-de-cultura-consejero-a-de-cultura-y-politica-linguistica-creacion",
-  "h": "3fe2f89cf0185eab",
-  "titulo": "Subvenciones a la creación cultural: textos teatrales",
-  "mes": 1,
-  "años": [
-   2023,
-   2024,
-   2026
-  ],
-  "organismo": "Gobierno Vasco",
-  "archivo": "cache/fuentes_prox/prev-viceconsejeria-de-cultura-consejero-a-de-cultura-y-poli-5bec50d6.txt"
- },
- {
   "id": "prev-viceconsejeria-de-cultura-consejero-a-de-cultura-y-politica-linguistica-cinemato",
   "h": "1f9b4c951c36ec07",
   "titulo": "Subvenciones a la creación cultural: guiones cinematográficos",
@@ -84,32 +71,6 @@
   ],
   "organismo": "Gobierno Vasco",
   "archivo": "cache/fuentes_prox/prev-viceconsejeria-de-cultura-consejero-a-de-cultura-y-poli-a8f76db7.txt"
- },
- {
-  "id": "prev-viceconsejeria-de-cultura-consejero-a-de-cultura-y-politica-linguistica-composic",
-  "h": "0eab3e379676dd14",
-  "titulo": "Subvenciones a la creación cultural: composición musical",
-  "mes": 1,
-  "años": [
-   2023,
-   2024,
-   2026
-  ],
-  "organismo": "Gobierno Vasco",
-  "archivo": "cache/fuentes_prox/prev-viceconsejeria-de-cultura-consejero-a-de-cultura-y-poli-18d2ca4c.txt"
- },
- {
-  "id": "prev-viceconsejeria-de-cultura-consejero-a-de-cultura-y-politica-linguistica-cortas-c",
-  "h": "6f3b97dab1417b9b",
-  "titulo": "Subvenciones a la creación cultural: creación de cuentos y novelas cortas en euskera",
-  "mes": 1,
-  "años": [
-   2023,
-   2024,
-   2026
-  ],
-  "organismo": "Gobierno Vasco",
-  "archivo": "cache/fuentes_prox/prev-viceconsejeria-de-cultura-consejero-a-de-cultura-y-poli-40ba50d4.txt"
  },
  {
   "id": "prev-viceconsejeria-de-derechos-humanos-memoria-y-convivencia-ayuda-terrorismo-victim",
