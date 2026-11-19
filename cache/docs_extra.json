@@ -354,7 +354,8 @@
   "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/11/BOB-2026a219.pdf"
  ],
  "bog-c2606587-htm": [
-  "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933606"
+  "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933606",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1532271"
  ],
  "ara-01112003": [
   "https://www.araba.eus/botha/Boletines/2025/092/2025_092_02462_C.pdf",
@@ -463,5 +464,20 @@
  ],
  "ara-01621001": [
   "https://www.araba.eus/botha/Boletines/2026/118/2026_118_02938_C.pdf"
+ ],
+ "bob-bob-2026a213-ii-5642-": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1545324"
+ ],
+ "bob-bob-2026a204-ii-5410-": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1536822"
+ ],
+ "bog-c2606531-htm": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1530836"
+ ],
+ "bog-c2606989-htm": [
+  "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2018/03/27/c1802096.pdf"
+ ],
+ "bob-bob-2026a199-ii-5306-": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1533387"
  ]
 }

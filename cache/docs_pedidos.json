@@ -29,7 +29,7 @@
   "origen": "tarea de fichas: la convocatoria 2026 (BDNS 942867) remite a esas bases y no están en la documentación",
   "fecha": "2026-11-19",
   "estado": "fallo",
-  "intentos": 3,
+  "intentos": 4,
   "probadas": [
    {
     "url": "https://www.balmaseda.eus",
@@ -63,7 +63,7 @@
   "origen": "cuestión bob-bob-2026a199-ii-5301- (decisión del responsable, 18/11/2026)",
   "fecha": "2026-11-19",
   "estado": "fallo",
-  "intentos": 3,
+  "intentos": 4,
   "probadas": [
    {
     "url": "https://www.arantzazu.eus",
@@ -95,14 +95,10 @@
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/938311"
   ],
   "fecha": "2026-11-19",
-  "estado": "fallo",
+  "estado": "ok",
   "intentos": 2,
-  "probadas": [
-   {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/938311",
-    "motivo": "es de otra convocatoria"
-   }
-  ]
+  "probadas": [],
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1545324"
  },
  "bob-bob-2026a204-ii-5410-": {
   "titulo": "Bases de las ayudas para la rehabilitación de viviendas vacías para su inclusión en Bizigune (Durango, Resolución 2026/3017)",
@@ -111,14 +107,15 @@
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/935296"
   ],
   "fecha": "2026-11-19",
-  "estado": "fallo",
+  "estado": "ok",
   "intentos": 2,
   "probadas": [
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/935296",
-    "motivo": "es de otra convocatoria"
+    "url": "https://www.durango.eus/documents/36953/54700/Reguladora+de+Subvenciones+y+Ayudas.pdf/d27dcff4-b992-d438-1356-7b85d6933263?t=1604496634039",
+    "motivo": "HTTP 403 en https://www.durango.eus/documents/36953/54700/Reguladora+de+Subvenciones+y+Ayudas.pdf/d27dcff4-b992-d438-1356-7b85d6933263?t=1604496634039"
    }
-  ]
+  ],
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1536822"
  },
  "bog-c2606531-htm": {
   "titulo": "Subvenciones de Política Lingüística Municipal de Errenteria 2026, línea 4.3: euskera en el mundo laboral (Decreto 2868 de 1/10/2026)",
@@ -127,14 +124,15 @@
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/932906"
   ],
   "fecha": "2026-11-19",
-  "estado": "fallo",
+  "estado": "ok",
   "intentos": 2,
   "probadas": [
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/932906",
+    "url": "https://uzt.gipuzkoa.eus/WAS/AYTO/USCServicioCiudadanoVer15WEB/home.do?ayto=067&hizkuntza=CA",
     "motivo": "es de otra convocatoria"
    }
-  ]
+  ],
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1530836"
  },
  "bog-c2606989-htm": {
   "titulo": "Bases para la concesión de subvenciones a programas de actividades de Fiestas de San Pedro de Lasarte-Oria",
@@ -143,14 +141,10 @@
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/931594"
   ],
   "fecha": "2026-11-19",
-  "estado": "fallo",
+  "estado": "ok",
   "intentos": 2,
-  "probadas": [
-   {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/931594",
-    "motivo": "es de otra convocatoria"
-   }
-  ]
+  "probadas": [],
+  "url": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2018/03/27/c1802096.pdf"
  },
  "bob-bob-2026a199-ii-5306-": {
   "titulo": "Segunda convocatoria de subvenciones para la compra de recursos materiales inventariables por entidades culturales, deportivas y educativas 2026 (Ortuella)",
@@ -159,14 +153,15 @@
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933978"
   ],
   "fecha": "2026-11-19",
-  "estado": "fallo",
+  "estado": "ok",
   "intentos": 2,
   "probadas": [
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933978",
-    "motivo": "es de otra convocatoria"
+    "url": "https://www.ortuella.eus/es-ES/Ayuntamiento/Subvenciones/subv_recursos_materiales_inventariables/Bases%20subv%20inversion.pdf",
+    "motivo": "red: fetch failed"
    }
-  ]
+  ],
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1533387"
  },
  "bob-bob-2026a188-ii-4942-": {
   "titulo": "Convocatoria y bases reguladoras de las subvenciones en materia cultural y educativa para asociaciones, fundaciones y AMPAs de Valle de Trápaga-Trapagaran 2026",
@@ -176,10 +171,18 @@
   ],
   "fecha": "2026-11-19",
   "estado": "fallo",
-  "intentos": 2,
+  "intentos": 3,
   "probadas": [
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/929610",
+    "url": "https://www.trapagaran.net/es-ES/Paginas/default.aspx",
+    "motivo": "fetch failed"
+   },
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1523924",
+    "motivo": "es de otra convocatoria"
+   },
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1523922",
     "motivo": "es de otra convocatoria"
    }
   ]
@@ -191,14 +194,23 @@
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933606"
   ],
   "fecha": "2026-11-19",
-  "estado": "fallo",
+  "estado": "ok",
   "intentos": 2,
   "probadas": [
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933606",
+    "url": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2018/03/27/c1802097.htm",
+    "motivo": "es de otra convocatoria"
+   },
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1532269",
+    "motivo": "es de otra convocatoria"
+   },
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1532270",
     "motivo": "es de otra convocatoria"
    }
-  ]
+  ],
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1532271"
  },
  "ara-apoyo-a-jovenes-informadores-en-centros-educativos-alaveses-f62501": {
   "titulo": "Convocatoria de apoyo a jóvenes informadores/as en centros educativos alaveses de Enseñanzas Medias 2026-2027 (Instituto Foral de la Juventud)",
@@ -208,7 +220,7 @@
   ],
   "fecha": "2026-11-19",
   "estado": "fallo",
-  "intentos": 2,
+  "intentos": 3,
   "probadas": [
    {
     "url": "https://egoitza.araba.eus/es/inicio/tramites/fitxa/apoyo-a-jovenes-informadores-en-centros-educativos-alaveses-de-ensenanzas-medias-2026-2027",
@@ -225,15 +237,19 @@
   ],
   "fecha": "2026-11-19",
   "estado": "fallo",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
    {
     "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/11/BOB-2026a217.pdf",
     "motivo": "red: fetch failed"
    },
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/939545",
-    "motivo": "es de otra convocatoria"
+    "url": "https://www.sestao.eus/es-ES/Ayuntamiento/servicios/Deporte/Paginas/Subvenciones.aspx",
+    "motivo": "fetch failed"
+   },
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1549047",
+    "motivo": "no es PDF (application/octet-stream, 185982 bytes)"
    }
   ]
  }
