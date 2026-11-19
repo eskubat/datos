@@ -1,4 +1,4 @@
 {
- "fecha": "2026-11-18",
- "nota": "Tras el recolector de hoy (05:56 UTC) las siete fuentes están bien y sin errores de ficha (euskadi 133, Gipuzkoa 25, Álava 143, BDNS 770, boletines 148, prestaciones 19, UE 26); la BDNS baja de 804 a 770 por la unión de duplicados y el filtro de convenios, la UE sube a 26 con las cascadas que pasan por su página propia, y no hay nada que deshacer."
+ "fecha": "2026-11-19",
+ "nota": "Tras el recolector de hoy (05:57 UTC) las siete fuentes están bien y sin errores de ficha (euskadi 134, Gipuzkoa 26, Álava 145, BDNS 772, boletines 153, prestaciones 19, UE 29); las fichas de la BDNS vuelven a traer sus bases (179 de 182 tras bdns-documentos-perdidos), la unión de extractos de boletín con la BDNS no ha dejado fuentes vacías y no hay nada que deshacer."
 }
