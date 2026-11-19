@@ -1,5 +1,14 @@
 [
  {
+  "id": "bdns-938969",
+  "h": "b67ef11bdc7c4dd4",
+  "titulo": "Subvenciones para la realización de obras de instalación y sustitución de ascensores",
+  "organismoSugerido": "ayto-eibar",
+  "organismoFuente": "Ayuntamiento de eibar",
+  "archivo": "cache/fuentes/bdns-938969-466235d7.txt",
+  "caracteres": 90508
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias-y-forestales-2026",
   "h": "91adb78e4800f435",
   "titulo": "Ayudas a las agrupaciones de personas productoras agrarias y forestales incluidas en el pepac",
@@ -70,6 +79,15 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
   "caracteres": 5840
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-subvenciones-para-proyectos-editoriales-y-audiovisuales-en-el-ambito-de-la-diaspora-vasca-2026",
+  "h": "fe245c6109b06b4f",
+  "titulo": "Subvenciones para proyectos editoriales y audiovisuales en el ámbito de la Diáspora Vasca",
+  "organismoSugerido": "gv-lehendakaritza",
+  "organismoFuente": "Lehendakaritza",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-subvenciones-para-proyectos-editor-6f964ec9.txt",
+  "caracteres": 299999
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -151,6 +169,15 @@
   "organismoFuente": "Ayuntamiento de barakaldo",
   "archivo": "cache/fuentes/bdns-929714-71f80b33.txt",
   "caracteres": 214972
+ },
+ {
+  "id": "bdns-927909",
+  "h": "6735faea7fc40818",
+  "titulo": "Subvenciones para el fomento de la natalidad",
+  "organismoSugerido": "ayto-campezo-kanpezu",
+  "organismoFuente": "Ayuntamiento de campezo/kanpezu",
+  "archivo": "cache/fuentes/bdns-927909-8dd39047.txt",
+  "caracteres": 12622
  },
  {
   "id": "ue-crea-media-2027-tvonline-1",
