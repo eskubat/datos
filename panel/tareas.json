@@ -934,9 +934,9 @@
   "seccion": "revision",
   "quien": "Claude",
   "prioridad": 53,
-  "estado": "pendiente",
+  "estado": "hecha",
   "fecha": "2026-11-19",
-  "nota": ""
+  "nota": "Las 11 fichas de la revisión ya estaban corregidas a «actividad»; cambiar la regla de docs/CATEGORIZACION.md y la comprobación de recolector/resumen.js es decisión del responsable, así que la propuesta está en «Para ti» (cuestión manual-vinculo-quien-solicita): texto concreto para la regla, error en la comprobación cuando el único empadronamiento citado es de otra persona y pasar Portugalete (bob-bob-2026a221-ii-5969-) a «ninguno». No cambia el número de ayudas; la tarea de correcciones lo aplicará cuando respondas."
  },
  {
   "id": "documentos-pedidos-portadas",
