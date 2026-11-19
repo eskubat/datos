@@ -898,9 +898,9 @@
   "seccion": "fuentes",
   "quien": "Claude",
   "prioridad": 52,
-  "estado": "pendiente",
-  "fecha": "2026-11-18",
-  "nota": "Añadida al plan de mejoras"
+  "estado": "hecha",
+  "fecha": "2026-11-19",
+  "nota": "El flujo sí resuelve los del BOTHA: ara-01621001 está en «ok» con el anuncio 2026_118_02938 (el 2026_058_01458 citado era de otra convocatoria) y su texto en cache/pedidos/, igual que equipamiento formativo y formación técnica deportiva; de 15 pedidos, 3 ok y 12 en fallo. Los fallos no eran de araba.eus: 9 apuntaban a la ficha web de la BDNS, que es una aplicación JavaScript y salía «es de otra convocatoria», así que ahora docspedidos.js la cambia por las bases reguladoras que enlaza y los documentos subidos a la BDNS (API); los otros 3 son portadas municipales (balmaseda.eus, arantzazu.eus) y un PDF del BOB que dan «fetch failed» desde Actions. Se espera que se completen varias de las 9 fichas de BOB/BOG en el próximo flujo o en el recolector de las 05:41."
  },
  {
   "id": "bdns-documentos-perdidos",
@@ -937,5 +937,17 @@
   "estado": "pendiente",
   "fecha": "2026-11-19",
   "nota": ""
+ },
+ {
+  "id": "documentos-pedidos-portadas",
+  "titulo": "Pedidos de documentos que solo dan la portada municipal o un PDF del BOB",
+  "detalle": "En cache/docs_pedidos.json, bdns-942867 (balmaseda.eus) y bob-bob-2026a199-ii-5301- (arantzazu.eus) solo dan la portada del ayuntamiento, que nunca puede valer, y bdns-939545 da «red: fetch failed» con el PDF del BOB desde Actions. Buscar la URL concreta del documento (BOB del 9/9/2024 para Balmaseda, ordenanza de Arantzazu), apuntarla en el pedido, y mirar si bizkaia.eus/Bao_bob necesita otro agente o la URL https; pedir en docs/RESUMIR.md que la tarea de fichas no apunte portadas.",
+  "fuente": "Tarea documentos-pedidos-revisar",
+  "seccion": "fuentes",
+  "quien": "Claude",
+  "prioridad": 54,
+  "estado": "pendiente",
+  "fecha": "2026-11-19",
+  "nota": "Añadida al plan de mejoras"
  }
 ]

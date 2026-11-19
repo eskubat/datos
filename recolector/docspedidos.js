@@ -15,6 +15,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { norm, pedir } from './comun.js';
 import { bajarPdfBotha } from './boletines.js';
+import { api as apiBdns, docsBdns } from './bdns.js';
 
 const ARCHIVO = path.join('cache', 'docs_pedidos.json');
 const MAX_INTENTOS = 5;
@@ -34,8 +35,26 @@ export function esDeLaAyuda(txt, titulo) {
 }
 
 async function probar(url) {
-  if (/araba\.eus\/botha\//i.test(url) || /\.pdf(\?|$)/i.test(url)) return bajarPdfBotha(url);
+  if (/araba\.eus\/botha\//i.test(url) || /\.pdf(\?|$)/i.test(url) || /bdnstrans\/api\/convocatorias\/documentos/i.test(url)) return bajarPdfBotha(url);
   try { const r = await pedir(url); return r && String(r).trim() ? { txt: String(r) } : { txt: null, motivo: 'vacío' }; } catch (e) { return { txt: null, motivo: e.message }; }
+}
+
+// La ficha web de la BDNS (…/bdnstrans/GE/es/convocatoria/NNN) es una aplicación que se pinta con JavaScript: bajada
+// tal cual solo trae la carcasa y salía «es de otra convocatoria» (tarea documentos-pedidos-revisar, 19/11/2026: 8
+// pedidos de Bizkaia y Gipuzkoa). Se cambia por lo que de verdad lleva: las bases reguladoras que enlaza
+// (urlBasesReguladoras, a menudo el BOB/BOG) y los documentos subidos a la BDNS (API documentos?idDocumento=…).
+const NUM_BDNS = /(?:infosubvenciones\.es|pap\.hacienda\.gob\.es)\/bdnstrans\/(?!api\/)[^?#]*?\/convocatorias?\/(\d{5,7})\b/i;
+const urlDocBdns = (id) => `https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=${id}`;
+async function expandirBdns(url, probadas) {
+  const m = String(url).match(NUM_BDNS);
+  if (!m) return [url];
+  try {
+    const d = await apiBdns(`/convocatorias?vpd=GE&numConv=${m[1]}`);
+    const bases = String(d?.urlBasesReguladoras || '').replace(/\s+/g, '');
+    const urls = [...(/^https?:\/\//i.test(bases) ? [bases] : []), ...docsBdns(d?.documentos).map(urlDocBdns)];
+    if (!urls.length) probadas.push({ url, motivo: 'la BDNS no trae bases ni documentos' });
+    return urls;
+  } catch (e) { probadas.push({ url, motivo: `BDNS: ${e.message}` }); return []; }
 }
 
 // Texto de cada documento conseguido, en el repositorio, para que la tarea de fichas (que no llega a araba.eus) lo lea
@@ -73,8 +92,10 @@ export async function resolverPedidos({ log = console.log, resumenes = null, rei
     for (const e of entradas.filter((e) => numeros.has(e.k) && (!pT.length || encaja(e)))) candidatas.push(e.url);
     for (const e of entradas.filter(encaja).sort((a, b) => String(b.publicacion).localeCompare(String(a.publicacion))).slice(0, 3)) candidatas.push(e.url);
     const probadas = [];
+    const lista = [];
+    for (const u of [...new Set(candidatas)]) lista.push(...(await expandirBdns(u, probadas)));
     let hallada = null;
-    for (const u of [...new Set(candidatas)].slice(0, 8)) {
+    for (const u of [...new Set(lista)].slice(0, 8)) {
       const r = await probar(u);
       if (!r.txt) { probadas.push({ url: u, motivo: r.motivo }); continue; }
       if (p.titulo && !esDeLaAyuda(r.txt, p.titulo)) { probadas.push({ url: u, motivo: 'es de otra convocatoria' }); continue; }

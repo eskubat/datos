@@ -19,7 +19,7 @@ const CACHE_ANTIGUAS = path.join('cache', 'bdns_antiguas.json');
 const MAX_ANTIGUAS = 250;
 const DIAS_REPASO = 30;
 
-async function api(path) {
+export async function api(path) {
   let last;
   for (const base of BASES) {
     try { return await pedir(base + path, { json: true }); } catch (e) { last = e; }
