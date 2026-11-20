@@ -2257,44 +2257,6 @@ solicitud, fecha, firma de la persona
 interesada y nombre del fichero.
 21
 
-### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539486
-KI1400_D002
-TITULARRA ETA KONTUA
-TITULAR Y CUENTA
-Kontuaren titularra / Titular de la cuenta
-Izen soziala
-Razón social
-IFZ…
-NIF…
-Helbidea
-Domicilio
-Herria
-Población
-PK
-CP
-Herrialdea
-País
-Telefonoak
-Teléfonos
-Probintzia
-Provincia
-Kontuaren titularraren edo bere legezko ordezkariaren sinadura eta data
-Firma de el/la titular de la cuenta o su representante legal y fecha
-Banku erakundeak bete beharreko datuak / Datos a rellenar por la entidad bancaria
-Bankua
-Banco
-Agentzia
-Agencia
-Herria
-Población
-Goian aipatutako entitatea ondoko kontu honen
-titularra dela ziurtatzen dugu:
-PK
-CP
-Certificamos que la entidad arriba referenciada es
-titular de la siguiente cuenta:
-Banku erakundea: sinadura, zigilua eta data / Entidad bancaria: firma, sello y fecha
-
 ### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539490
 KI1400_D003
 DIRUZ LAGUNTZEKO ESKATU DEN
@@ -2532,83 +2494,51 @@ metodologia, bitartekoak eta baliabideak / Metodología, medios y recursos para 
 9.3. Komunikazio baliabideak / Recursos de comunicación
 14 | 14
 
-### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539491
-DIRULAGUNTZAREN XEDE DEN JARDUERAREN EDO PROGRAMAREN DIRU-SARREREN ETA GASTUEN
-AURREKONTUA / PRESUPUESTO DE INGRESOS Y GASTOS DE LA ACTIVIDAD O PROGRAMA A
-SUBVENCIONAR EN EIBAR
-DIRU-SARREREN AURREKONTUA (zehaztu) / PRESUPUESTO DE INGRESOS (especificar)
-Bazkideen kuotak / Cuotas de socios/as
-Kirolarien kuotak / Cuotas de deportistas
-Jardueretako parte-hartzaileak: ekarpena / Aportación participantes en actividades
-Sarreren salmenta / Venta entradas
-Lankidetza-hitzamenak / Convenios con otros clubes
-Babeslegoa / Patrocinio privado
-Zozketak / Rifas y sorteos
-Merchandising (kamisetak, pinak…) / Merchandising (camisetas, pines…)
-Taberna / Bar
-Eibarko udalari eskatutako dirulaguntza / Subvención solicitada al Ayuntamiento de Eibar
-Foru Aldundiaren dirulaguntzak / Subvenciones Diputación Foral
-Eusko Jaurlaritzaren dirulaguntzak / Subvenciones Gobierno Vasco
-Beste diru sarrerak / Otros ingresos
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539486
+KI1400_D002
+TITULARRA ETA KONTUA
+TITULAR Y CUENTA
+Kontuaren titularra / Titular de la cuenta
+Izen soziala
+Razón social
+IFZ…
+NIF…
+Helbidea
+Domicilio
+Herria
+Población
+PK
+CP
+Herrialdea
+País
+Telefonoak
+Teléfonos
+Probintzia
+Provincia
+Kontuaren titularraren edo bere legezko ordezkariaren sinadura eta data
+Firma de el/la titular de la cuenta o su representante legal y fecha
+Banku erakundeak bete beharreko datuak / Datos a rellenar por la entidad bancaria
+Bankua
+Banco
+Agentzia
+Agencia
+Herria
+Población
+Goian aipatutako entitatea ondoko kontu honen
+titularra dela ziurtatzen dugu:
+PK
+CP
+Certificamos que la entidad arriba referenciada es
+titular de la siguiente cuenta:
+Banku erakundea: sinadura, zigilua eta data / Entidad bancaria: firma, sello y fecha
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539500
+2. DIRUZ LAGUNDUTAKO PROIEKTUA/JARDUERA EGITEKO ESKURATUTAKO DIRU-SARRERAK / INGRESOS OBTENIDOS PARA EL
+PROYECTO/ACTIVIDAD SUBVENCIONADO/A
+KONTZEPTUA (sarreren salmenta, beste dirulaguntzak…) / CONCEPTO (venta de entradas, otras subvenciones...)
 DIRU-SARRERAK GUZTIRA / TOTAL INGRESOS
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-GASTUEN AURREKONTUA (zehaztu) / PRESUPUESTO DE GASTOS / (especificar)
-Pertsonal-gastuak / Gastos de personal
-Kirolarien ordainketak / Compensaciones a deportistas
-Entrenatzaileei ordainketak / Compensaciones a entrenadores/as
-0,00 €
-0,00 €
-0,00 €
-Beste laguntza teknikoak (medikua, masajista, gestoria…) / Asistencias técnicas varias (médico, masajista, gestoría….)
-0,00 €
-Jokalarien lizentziak / Licencias jugadores/as
-Lehiaketetan taldeen izen-ematea / Inscripción equipos en competiciones
-Azterketa medikoak / Reconocimientos médicos
-Arbitrajeak… / Arbitrajes…
-Kirol instalazioen alokairua / Alquiler instalaciones deportivas
-Egoitza sozialaren alokairua / Alquiler sede social
-Egoitzaren mantentzea (ura, argindarra, berogailua, telefonoa, Internet, garbiketa…) / Mantenimiento de la sede (agua, luz,
-calefacción, teléfono, Internet, limpieza…)
-Administrazioa (bulegoko materiala…) / Administración (material oficina…)
-Garraio-gastuak / Gastos desplazamiento
-Farmazi-, higiene-gastuak… / Gastos farmacéuticos, higiénicos…
-Kirol material inbentariaezina (kamisetak, baloiak…) / Material deportivo no inventariable (camisetas, balones…)
-Sariak, garaikurrak… / Premios, trofeos…
-Jardueretako parte-hartzaileak: dietak eta ostatua / Dietas y alojamiento a participantes en actividades
-Publitzitate-gastuak (iragarkiak, liburuzkak, kartelak…) / Gastos publicitarios (anuncios, folletos, carteles…)
-Aseguroak / Seguros
-Beste gastuak / Otros gastos
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-GASTUAK GUZTIRA / TOTAL GASTOS
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
-0,00 €
+ZENBATEKOA / IMPORTE
+0,00
 
 ### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539495
 KI1400_D005
@@ -2675,116 +2605,390 @@ presente programa de ayudas, que pueda suceder en fecha posterior
 a la de firma de esta declaración.
 Sinadura / Firma
 
-### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539505
-KI1400_D010
-BIDAI- ETA OSTATU-GASTUEI BURUZKO ERANTZUKIZUNPEKO
-ADIERAZPENA / DECLARACIÓN RESPONSABLE SOBRE GASTOS DE
-DESPLAZAMIENTOS Y ALOJAMIENTOS
-Dirulaguntzaren datuak / Datos de la subvención
-Diruz lagundu den proiektuarenjardueraren izenburua
-Título del proyecto-actividad
-subvencionado
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539499
+KI1400_D006
+JARDUKETA TXOSTENA: DIRUZ LAGUNDUTAKO
+PROIEKTUAREN EDO JARDUERAREN EBALUAZIOA:
+Eibarko udalerrian kirol-entitateen jarduera arruntak
+finantzatzeko dirulaguntzak
+MEMORIA DE ACTUACIÓN: EVALUACIÓN DEL PROYECTO O ACTIVIDAD SUBVENCIONADO:
+subvención para la financiación de actividades ordinarias de
+entidades deportivas en el municipio de Eibar
+KI1400_D006
+AURKIBIDEA / ÍNDICE
+1. Dirulaguntzaren datuak / Datos de la subvención .................................................................... 3
+2. Aitorpenak / Declaraciones ...................................................................................................... 3
+3. Proiektuaren-jardueraren memoria / Memoria del proyecto-actuación ..................................... 4
+3.1. Gauzatutako proiektuaren-jardueraren deskribapen laburra / Breve descripción del proyectoactividad ejecutado ......................................................................................................................... 4
+3.2. Proiektua-jarduera gauzatu den tokia eta data(k) / Lugar y fecha(s) de realización del
+proyecto-actividad ........................................................................................................................... 4
+3.3. Erakunde onuradunak proiektua/jarduera gauzatzeko erabilitako baliabide materialak eta giza
+baliabideak (sexua bereizita) / Recursos materiales y humanos (desagregados por sexo) de la
+entidad beneficiaria utilizados en la ejecución del proyecto-actividad ............................................. 5
+3.4. Jarduera-proiektua gauzatzeko egutegia (erreala) / Calendario de ejecución de la actividadproyecto (real) ................................................................................................................................. 7
+3.5. Jarduera bakoitzaren amaierako egoera eta lortutako emaitzak / Estado final de cada una de
+las actividades y resultados obtenidos ............................................................................................ 8
+3.6. Euskararen erabilera eta berdintasuna: egindako jarduerak (deskribatu) / Uso del euskera e
+igualdad: actividades realizadas (describirlas) ................................................................................ 9
+3.7. Dirulaguntzari ezarri zaizkion beste baldintza batzuk, (hala balitz kasua) / Otras condiciones
+que en su caso se hubieran impuesto en la subvención ............................................................... 10
+3.8. Jardueren desbideratzeak hasierako aurreikuspenarekiko proiektua/jarduera gauzatu
+bitartean / Desviaciones de las actividades respecto a la previsión inicial durante la ejecución del
+proyecto-actividad ......................................................................................................................... 11
+4. MEMORIA EKONOMIKOA / MEMORIA ECONÓMICA .......................................................... 12
+4.1. Proiektuaren-jardueraren gastuen eta diru-sarreren zerrenda sailkatua (txertatu
+GI3002_D007 ereduaren irudia) / Relación clasificada de los gastos e ingresos del
+proyecto/actividad (insertar imagen del modelo GI3002_D007): ................................................... 12
+5. PROIEKTUAREN-JARDUERAREN
+KOSTU
+OSOA
+ETA
+JASOTAKO
+BESTE
+DIRULAGUNTZAK ETA LAGUNTZA BATZUK / COSTE TOTAL DEL PROYECTO-ACTIVIDAD Y
+OTRAS SUBVENCIONES Y AYUDAS RECIBIDAS ..................................................................... 13
+6. BALIO ERANTSIAREN GAINEKO ZERGARI (BEZ) BURUZKO ERANTZUKIZUNPEKO
+ADIERAZPENA / DECLARACIÓN RESPONSABLE SOBRE EL IMPUESTO DEL VALOR AÑADIDO
+(IVA) ............................................................................................................................................. 15
+7. HARTUTAKO INFORMAZIO- ETA PUBLIZITATE-NEURRIAK / MEDIDAS DE INFORMACIÓN
+Y PUBLICIDAD ADOPTADAS ...................................................................................................... 16
+8. ARGAZKI-ERREPORTAJEA / REPORTAJE FOTOGRÁFICO .............................................. 16
+KI1400_D006
+1. Dirulaguntzaren datuak / Datos de la subvención
+Dirulaguntzaren onuraduna
+eta IFZa
+Beneficiario/a de la subvención y NIF
+Dirulaguntzaren xedea
+Objeto de la subvención
 Espediente zenbakia
 Número de expediente
-Deialdiaren urtea
-Año de la convocatoria
-Udalak emandako
-dirulaguntzaren zenbatekoa
-Importe de la subvención concedida
-por el Ayuntamiento
-Joan-etorrien eta ostatuen
-gastuak
-Gastos de desplazamientos
-y alojamiento
-Aitorpen-egilea / Declarante
-Izen abizenak
-Nombre y apellidos
-NAN
-DNI
-Nire izenean edo
-honako erakundearen
-ordezkari gisa
-Por mi mismo/a o en
-representación de la
-siguiente entidad
-IFZ
-NIF
-Honako hau naizen
-aldetik:
-En calidad de
-ERANTZUKIZUNEZ
-AITORTZEN
-DUT,
-dirulaguntzaren
-onuradunari
-dagokionez,
-erreferentziako proiektuaren-jardueraren pertsonal
-kostuei aplika dakizkiekeen erakundearen gastuen
-guztizkoa,
-gauzatze-aldiaren
-barruan,
-goian
-adierazitako zenbatekoa dela.
-DECLARO
-BAJO
-MI
-RESPONSABILIDAD,
-respecto a el/la beneficiario/a de la subvención, que
-el gasto total en el que la entidad ha incurrido en
-materia de desplazamiento y/o alojamiento, que
-están directa y estrictamente relacionadas con el
-proyecto-actividad de referencia, dentro de su
-periodo de ejecución, asciende al importe arriba
-indicado.
-Gastu horiek GASTUEN
-ZERRENDA dokumentuan
-frogagiriak erantsi direla.
-Dichos gastos han sido incluidos en el documento
-RELACIÓN DE GASTOS E INGRESOS y se han
-acompañado los documentos probatorios.
-ETA
-sartu
-Gastuak taula honetan xehatzen dira.
-SARREREN
-direla, eta
-Los gastos correspondientes se desglosan en la
-siguiente tabla.
-Izen-abizenak
-Nombre y apellidos
-Datak
-Fechas
-Bidaiaren arrazoia eta herria
-Motivo viaje y localidad
-Garraioa
-Transporte
-Autobidea
-Peaje
-Otorduak
-Manutención
-Ostatua Bestelakoak
-Alojamiento
-Otros
-GUZTIRA
-TOTAL
-Izen-abizenak
-Nombre y apellidos
-Datak
-Fechas
-Bidaiaren arrazoia eta herria
-Motivo viaje y localidad
-Garraioa
-Transporte
-Autobidea
-Peaje
-Otorduak
-Manutención
-Ostatua Bestelakoak
-Alojamiento
-Otros
-GUZTIRA
-TOTAL
-BIDAI- ETA OSTATU-GASTUAK GUZTIRA / TOTAL GASTOS VIAJE Y ALOJAMIENTO
-Sinadura / Firma
+Denboraldia edo urtea
+Temporada o año
+Diruz lagundu den proiektuaren-jardueraren izenburua / Título del proyecto-actividad subvencionado
+Udalak emandako dirulaguntzaren zenbatekoa
+Importe de la subvención
+concedida por el Ayuntamiento
+2. Aitorpenak / Declaraciones
+Nik, sinatzaileak, nire izenean edo adierazitako
+dirulaguntzaren erakunde onuradunaren ordezkari gisa jarduteko gaitasun nahikoa dudalarik,
+kontuan hartuta Dirulaguntzei buruzko azaroaren 17ko 38/2003 Lege Orokorraren 13. artikuluaren 2. eta 3. apartatuak eta lege horren Erregelamendua onartzen duen uztailaren 21eko
+887/2006 Errege Dekretuaren 27. artikulua, honako honen bidez,
+Yo, el/la firmante, con capacidad suficiente para
+actuar en nombre propio o en representación de
+la entidad beneficiaria de la subvención indicada, considerando los apartados 2 y 3 del artículo 13 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, y el artículo 27
+del Real Decreto 887/2006, de 21 de julio, por
+el que se aprueba el Reglamento de dicha Ley,
+mediante la presente,
+Eibarko Udalaren aurrean, ERANTZUKIZUNEZ
+AITORTZEN DUT, goian jasotako dirulaguntzaren onuradunak:
+DECLARO RESPONSABLEMENTE ante el
+Ayuntamiento de Eibar, que el/la beneficiario/a
+de la subvención de referencia:
+• Ez duela zigorrik epai irmo bidez dirulaguntzak edo laguntza publikoak lortzeko aukera
+galtzeko.
+• Ez duela eragin, kausaren batean errudun
+deklaratua izateagatik, Administrazioarekin
+egindako kontraturen baten suntsiarazpen irmorik.
+• Egunean dituela indarrean dauden xedapenek zergen eta gizarte-segurantzaren arloan
+ezartzen dituzten betebeharrak.
+• No ha sido condenado/a mediante sentencia
+firme a la pena de pérdida de la posibilidad
+de obtener subvenciones o ayudas públicas.
+• No ha dado lugar, por causa de la que hubiese sido declarado/a culpable, a la resolución firme de cualquier contrato celebrado
+con la Administración.
+• Está al corriente en el cumplimiento de las
+obligaciones tributarias y frente a la Seguridad Social impuestas por las disposiciones
+vigentes.
+KI1400_D006
+• Ez duela jaso zehapenik ebazpen irmo bidez, Dirulaguntzei buruzko Lege Orokorraren arabera dirulaguntzak lortzeko aukera
+galtzeko.
+• Ez dagoela zigortuta zigor- eta/edo administrazio-arloan sexu-diskriminazioagatik edo
+emakumeen eta gizonen arteko berdintasunaren arloko arau-hausteengatik, honako
+hauetan oinarrituta: Emakumeen eta Gizonen Berdintasunerako otsailaren 18ko
+4/2005 Legea; Lan-arloko arau-hausteei eta
+zehapenei buruzko Legearen testu bategina
+onartzen duen abuztuaren 4ko 5/2000 Legegintzako Errege Dekretua, eta Emakumeen
+eta Gizonen Berdintasun Eragingarrirako
+martxoaren 22ko 3/2007 Lege Organikoaren
+hamalaugarren xedapen gehigarria (besteak
+beste, izaera mugatzailerik gabe).
+• No ha sido sancionado/a mediante resolución firme con la pérdida de la posibilidad de
+obtener subvenciones según la Ley General
+de Subvenciones.
+• No se encuentra sancionado/a penal y/o administrativamente por discriminación por razón de sexo y/o por infracciones en materia
+de igualdad entre mujeres y hombres derivadas de la Ley 4/2005, de 18 de febrero, para
+la Igualdad de Mujeres y Hombres, por el
+Real Decreto Legislativo 5/2000, de 4 de
+agosto, por el que se aprueba el texto refundido de la Ley sobre Infracciones y Sanciones en el Orden Social y la Disposición Adicional Decimocuarta de la Ley Orgánica
+3/2007, para la igualdad efectiva de mujeres
+y hombres de 22 de marzo (entre otras, a título no limitativo).
+3. Proiektuaren-jardueraren memoria / Memoria del proyecto-actuación
+3.1. Denboraldian edo urtean egindako jarduerak / Actividades realizadas en la temporada o año
+3.2. Parte hartu duten txapelketen zerrenda eta txapelketa bakoitzean jokatu duten
+talde kopurua / Competiciones en las que se ha participado y número de equipos
+que han participado en las mismas
+KI1400_D006
+3.3. Erakunde onuradunak proiektua/jarduera gauzatzeko erabilitako baliabide materialak eta giza baliabideak (sexua bereizita) / Recursos materiales y humanos
+(desagregados por sexo) de la entidad beneficiaria utilizados en la ejecución del
+proyecto-actividad
+3.4. Eibarko udalarekin elkarlanak / Colaboraciones con el Ayuntamiento de Eibar
+KI1400_D006
+3.5. Eskola kirolarekin elkarlanak / Colaboraciones con el Deporte escolar
+3.6. Burututako ez ohiko jarduerak edo ekitaldiak / Actividades de carácter extraordinario realizadas
+KI1400_D006
+3.7. Jarduera-proiektua gauzatzeko egutegia (erreala) / Calendario de ejecución de la actividad- proyecto (real)
+PROIEKTUAK-JARDUERAK / PROYECTOS-ACTIVIDADES
+1
+2
+3
+4
+5
+URTEA / AÑO
+6
+7
+8
+9
+10
+11
+12
+KI1400_D006
+3.8. Jarduera bakoitzaren amaierako egoera eta lortutako emaitzak / Estado final de cada una de las actividades y resultados
+obtenidos
+JARDUERAREN IZENA
+DENOMINACIÓN DE LA ACTIVIDAD
+HASIERA DATA AMAIERA DATA
+(hilabetea-urtea) (hilabetea-urtea)
+FECHA DE
+FECHA DE
+INICIO
+FINALIZACIÓN
+(mes-año)
+(mes-año)
+AMAIERAKO
+EGOERA
+ESTADO FINAL
+LORTUTAKO EMAITZAK
+(gauzatze maila eta adierazleak)
+RESULTADOS OBTENIDOS (grado de
+ejecución e indicadores)
+KI1400_D006
+3.9. Euskararen erabilera eta berdintasuna: egindako jarduerak (deskribatu) / Uso del euskera e igualdad: actividades realizadas
+(describirlas)
+Jarduera: izena eta mota
+Actividad: nombre y tipo
+Data
+Fecha
+Hartzaileak
+Destinatarios/as
+Haurrak / Niños/as
+Gazteak / Jóvenes
+Orokorra / General
+Haurrak / Niños/as
+Gazteak / Jóvenes
+Orokorra / General
+Haurrak / Niños/as
+Gazteak / Jóvenes
+Orokorra / General
+Haurrak / Niños/as
+Gazteak / Jóvenes
+Orokorra / General
+Haurrak / Niños/as
+Gazteak / Jóvenes
+Orokorra / General
+Haurrak / Niños/as
+Gazteak / Jóvenes
+Orokorra / General
+Hartzaile kopurua
+Cantidad destinatarios/as
+Emakumeak / Mujeres: ________
+Gizonezkoak / Hombres: _______
+Ez-bitarrak / No binarios: _______
+Emakumeak / Mujeres: ________
+Gizonezkoak / Hombres: _______
+Ez-bitarrak / No binarios: _______
+Emakumeak / Mujeres: ________
+Gizonezkoak / Hombres: _______
+Ez-bitarrak / No binarios: _______
+Emakumeak / Mujeres: ________
+Gizonezkoak / Hombres: _______
+Ez-bitarrak / No binarios: _______
+Emakumeak / Mujeres: ________
+Gizonezkoak / Hombres: _______
+Ez-bitarrak / No binarios: _______
+Emakumeak / Mujeres: ________
+Gizonezkoak / Hombres: _______
+Ez-bitarrak / No binarios: _______
+Jardueraren hizkuntza
+Idioma actividad
+Euskaraz / En euskera
+Gaztelaniaz / En castellano
+Ele bietan / Bilingüe
+Euskaraz / En euskera
+Gaztelaniaz / En castellano
+Ele bietan / Bilingüe
+Euskaraz / En euskera
+Gaztelaniaz / En castellano
+Ele bietan / Bilingüe
+Euskaraz / En euskera
+Gaztelaniaz / En castellano
+Ele bietan / Bilingüe
+Euskaraz / En euskera
+Gaztelaniaz / En castellano
+Ele bietan / Bilingüe
+Euskaraz / En euskera
+Gaztelaniaz / En castellano
+Ele bietan / Bilingüe
+KI1400_D006
+3.10. Dirulaguntzari ezarri zaizkion beste baldintza batzuk, (hala balitz kasua) / Otras condiciones que en su caso se hubieran
+impuesto en la subvención
+Euskaraz
+En euskera
+Euskaraz eta
+gaztelaniaz
+En euskera y
+castellano
+Berdintasun
+irizpideak
+Criterios
+igualdad
+Ingurumen
+irizpideak
+Criterios
+mediambiente
+Oharrak
+Observaciones
+Errotuluak, panelak,
+etiketak, oharrak…
+Rótulos, paneles, etiquetas,
+notas…
+Iragarkiak, abisuak, komunikazioak, testuak…
+Anuncios, avisos, comunicaciones, textos…
+Idatzizko eta ahozko publizitatea eta propaganda.
+Publicidad y propaganda
+escrita y oral.
+Jendaurrekoetan ahozko
+aurkezpenak, sarrerak,
+agurrak, oharrak.
+Presentaciones orales en
+público, entradas, saludos,
+notas.
+Sloganen sortze hizkuntza.
+Idioma creación de eslóganes.
+Online plataformak, formularioak, web orriak,
+sare sozialak… (edukiak)
+Plataformas online, formularios, páginas web, redes sociales… (contenido)
+KI1400_D006
+3.11. Jardueren desbideratzeak hasierako aurreikuspenarekiko proiektua/jarduera gauzatu bitartean / Desviaciones de las actividades respecto a la previsión inicial durante la ejecución del proyecto-actividad
+KI1400_D006
+4. MEMORIA EKONOMIKOA / MEMORIA ECONÓMICA
+4.1. Proiektuaren-jardueraren gastuen eta diru-sarreren zerrenda sailkatua (txertatu KI1400_D007 ereduaren irudia) / Relación clasificada de los gastos e ingresos del proyecto/actividad (insertar imagen del modelo KI1400_D007):
+KI1400_D006
+5. PROIEKTUAREN-JARDUERAREN KOSTU OSOA ETA JASOTAKO
+BESTE DIRULAGUNTZAK ETA LAGUNTZA BATZUK / COSTE TOTAL
+DEL PROYECTO-ACTIVIDAD Y OTRAS SUBVENCIONES Y AYUDAS
+RECIBIDAS
+Proiektuaren-jardueraren guztizko kostua
+Coste total del proyecto-actividad
+Zerga-oinarria / Base imponible
+BEZa / IVA
+Nik, sinatzaileak, nire izenean edo adierazitako
+dirulaguntzaren erakunde onuradunaren ordezkari gisa jarduteko gaitasun nahikoa dudalarik,
+honako honen bidez,
+Yo, el/la firmante, con capacidad suficiente
+para actuar en nombre propio o en representación de la entidad beneficiaria de la subvención
+indicada,
+Eibarko Udalaren aurrean, ERANTZUKIZUNEZ
+AITORTZEN DUT:
+DECLARO RESPONSABLEMENTE ante el
+Ayuntamiento de Eibar:
+• Eibarko Udalak emandako dirulaguntzari egotzitako gastuak justifikatzeko aurkeztutako
+dokumentazioa ez dela erabili eta ez dela erabiliko erakunde publiko edo pribatuek emandako beste dirulaguntza batzuk justifikatzeko.
+• Que la documentación presentada para justificar los gastos imputados a la subvención
+concedida por el Ayuntamiento de Eibar no
+ha sido utilizada y no será utilizada en el futuro para justificar otras subvenciones concedidas por Instituciones públicas o privadas.
+• Jasotako dirulaguntzen zenbatekoak ez duela
+gainditzen proiektuaren/jardueraren guztizko
+kostua.
+• Que la cantidad de las subvenciones recibidas no excede el coste total del proyecto/actividad, indicado.
+• Dirulaguntzaren xede den jarduera aurrera
+eramateko
+• Que para ejecutar la actividad objeto de la
+subvención:
+EZ dela eskatu ez eskuratu beste laguntzarik; Eibarko Udalari baino ez zaio eskatu. / NO
+se han solicitado ni obtenido otras ayudas aparte de la correspondiente a la solicitada al Ayuntamiento de Eibar.
+Ondoren adierazten diren laguntzak eskatu eta/edo eskuratu direla: / SI se han solicitado
+y/u obtenido las siguientes ayudas:
+13 | 16
+KI1400_D006
+Eskatutako dirulaguntzen zerrenda / Relación de subvenciones solicitadas
+Erakundea
+Organismo
+Diruz lagundutako
+programa
+Programa subvencionado
+• Badakidala erantzukizunpeko adierazpen honekin batera doan edozein datu edo dokumentu zehaztugabea edo faltsua bada, egindako jarduketa deuseza izango dela, eta, beraz, ezin izango dela dagokion eskubideaz
+edo jardueraz baliatu. Nolanahi ere, egoera
+juridikoa itzuli egin beharko da eskubidea aitortu aurreko unera, eta zuzenbidean dagozkion erantzukizun penalak edo bestelakoak
+izango ditu.
+Eskatutako
+diru-kopurua (€)
+Importe solicitado (€)
+Jasotako
+diru-kopurua (€)
+Importe concedido (€)
+• Que conozco que la inexactitud o falsedad en
+cualquier dato o documento que acompaña a
+esta declaración responsable implicará la nulidad de lo actuado, impidiendo el ejercicio del
+derecho o actividad afectada, sin perjuicio de
+la obligación de restituir la situación jurídica al
+momento previo al reconocimiento del derecho y de las responsabilidades penales o de
+otro orden que en Derecho pudieran proceder.
+KI1400_D006
+6. BALIO ERANTSIAREN GAINEKO ZERGARI (BEZ) BURUZKO ERANTZUKIZUNPEKO ADIERAZPENA / DECLARACIÓN RESPONSABLE SOBRE EL IMPUESTO DEL VALOR AÑADIDO (IVA)
+Nik, sinatzaileak, nire izenean edo adierazitako
+dirulaguntzaren erakunde onuradunaren ordezkari gisa jarduteko gaitasun nahikoa dudalarik,
+kontuan hartuta Dirulaguntzei buruzko azaroaren
+17ko 38/2003 Lege Orokorraren 13. artikuluaren
+2. eta 3. apartatuak eta lege horren Erregelamendua onartzen duen uztailaren 21eko 887/2006
+Errege Dekretuaren 27. artikulua, honako honen
+bidez,
+Yo, el/la firmante, con capacidad suficiente
+para actuar en nombre propio o en representación de la entidad beneficiaria de la subvención
+indicada, considerando los apartados 2 y 3 del
+artículo 13 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, y el artículo 27
+del Real Decreto 887/2006, de 21 de julio, por
+el que se aprueba el Reglamento de dicha Ley,
+mediante la presente,
+ERANTZUKIZUNEZ AITORTZEN DUT, goian
+adierazitako proiektua/jarduera lortzeko beharrezkoak diren jarduketak garatzean:
+DECLARO BAJO MI RESPONSABILIDAD,
+que en el desarrollo de las actuaciones necesarias para la consecución del proyecto-actividad arriba indicado:
+Dirulaguntzaren onuraduna Balio Erantsiaren gaineko Zergaren (BEZ) mende dago, eta diruz lagundu daitezkeen gastuak berreskuratu edo konpentsatu egin daitezke, Dirulaguntzei buruzko
+azaroaren 17ko 38/2003 Lege Orokorraren 31.8 artikuluaren arabera. / El/la beneficiario/a de la
+subvención está sujeto/a al Impuesto sobre el Valor Añadido (IVA) y que los gastos subvencionables son susceptibles de recuperación o compensación, de acuerdo al artículo 31.8 de la Ley
+38/2003, de 17 de noviembre, general de subvenciones.
+Dirulaguntzaren onuradunak Balio Erantsiaren gaineko Zergaren (BEZ) hainbanaketa-araua bete
+behar du, eta diruz lagundu daitezkeen gastuen zati bat berreskuratu edo konpentsatu ahal izango
+da, Dirulaguntzei buruzko azaroaren 17ko 38/2003 Lege Orokorraren 31.8 artikuluaren arabera.
+Honako hau da berreskuratu ezin daitekeen ehunekoa: / El/la beneficiario/a de la subvención está
+sujeto/a a la regla de prorrata del Impuesto sobre el Valor Añadido (IVA) y que parte de los gastos
+subvencionables son susceptibles de recuperación o compensación, de acuerdo al artículo 31.8
+de la Ley 38/2003, de 17 de noviembre, general de subvenciones. Este es el porcentaje no susceptible de recuperación:
+Berreskuratu ezin daitekeen ehunekoa
+Porcentaje no susceptible de recuperación:
+Dirulaguntzaren onuraduna EZ dago Balio Erantsiaren gaineko Zergaren (BEZ) mende, eta diruz
+lagundu daitezkeen gastuak ezin dira inola ere berreskuratu edo konpentsatu, Dirulaguntzei buruzko azaroaren 17ko 38/2003 Lege Orokorraren 31.8 artikuluaren arabera. / El/la beneficiario/a
+de la subvención NO está sujeto/a al Impuesto sobre el Valor Añadido (IVA) y que en ningún caso
+los gastos subvencionables son susceptibles de recuperación o compensación, de acuerdo al
+artículo 31.8 de la Ley 38/2003, de 17 de noviembre, general de subvenciones.
+KI1400_D006
+7. HARTUTAKO INFORMAZIO- ETA PUBLIZITATE-NEURRIAK / MEDIDAS
+DE INFORMACIÓN Y PUBLICIDAD ADOPTADAS
+8. ARGAZKI-ERREPORTAJEA / REPORTAJE FOTOGRÁFICO
+Dirulaguntzaren xedeari buruzko argazki-erreportajea, erositako produktuekin edo garatutako jarduerekin (eskuko programak, kartelak, argitalpenak, prentsa-txostena, etab.); Eibarko
+Udalaren lankidetza jasoko da. / Reportaje fotográfico sobre el objeto de la subvención, con los
+productos adquiridos o las actuaciones desarrolladas (programas de mano, carteles, publicaciones,
+dossier de prensa, etc.) donde conste la colaboración del Ayuntamiento de Eibar.
 
 ### Boletín oficial: https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2026/10/29/c2606912.pdf
 207
