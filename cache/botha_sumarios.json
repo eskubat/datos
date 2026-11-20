@@ -850,9 +850,15 @@
     "url": "https://www.araba.eus/botha/Boletines/2026/133/2026_133_03267_C.pdf",
     "publicacion": "2026-11-18"
    }
-  ]
+  ],
+  "2026-134": []
  },
  "fallidos": {},
- "rangos": {},
+ "rangos": {
+  "2026-134": [
+   3276,
+   3295
+  ]
+ },
  "anuncios": {}
 }

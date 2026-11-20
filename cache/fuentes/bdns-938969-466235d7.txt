@@ -1899,6 +1899,81 @@ de notificaciones, petición en que se
 concreta la solicitud, fecha, firma de la
 persona interesada y nombre del fichero.
 
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1547455
+HI5000_D002
+TITULARRA ETA KONTUA
+TITULAR Y CUENTA
+Kontuaren titularra / Titular de la cuenta
+Izen-abizenak edo izen-soziala
+Nombre y apellidos o razón social
+NAN, IFZ…
+DNI, NIF…
+Helbidea
+Domicilio
+Herria
+Población
+PK
+CP
+Herrialdea
+País
+Telefonoak
+Teléfonos
+Probintzia
+Provincia
+Kontuaren titularraren sinadura eta data / Firma de el/la titular de la cuenta y fecha
+Banku erakundeak bete beharreko datuak / Datos a rellenar por la entidad bancaria
+Bankua
+Banco
+Agentzia
+Agencia
+Herria
+Población
+Goian aipatutako pertsona/entitatea ondoko
+kontu honen titularra dela ziurtatzen dugu:
+PK
+CP
+Certificamos que la persona/entidad arriba
+referenciada es titular de la siguiente cuenta:
+Banku erakundea: sinadura, zigilua eta data / Entidad bancaria: firma, sello y fecha
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1547457
+HI5000_D004
+Diruz laguntzea eskatu den igogailuak jartzeko edo igogailu zaharrak kendu eta berriak
+ipintzeko edo/eta fatxadak zaharberritzeko obrak egiteko erkidegoak edo komunitateak
+eman duen baietza jasotzen duen dokumentua
+Documento acreditativo del acuerdo de conformidad de la comunidad de propietarios/as con la
+ejecución de las obras de instalación y sustitución de ascensores y/o restauración de fachadas
+para las que se solicita la subvención
+Jabeen Komunitate edo Erkidegoaren Idazkari edo Idazkari-administratzailea
+Secretario/a o Secretario/a Administrador/a de la Comunidad de Propietarios/as
+Izen-abizenak
+Nombre y apellidos
+NAN…
+DNI…
+Jabeen Komunitate edo Erkidegoa
+Comunidad de Propietarios/as
+Jabeen Erkidegoaren edo Komunitatearen akordioa
+Acuerdo de la comunidad de propietarios/as
+Jabeen Komunitatearen Batzarreko data
+Fecha de la Junta de Propietarios/as
+Egin beharreko obrak
+Obras a ejecutar
+Idatzi honen bidez, nik, adierazitako eraikineko
+Jabeen Komunitate edo Erkidegoaren Idazkari edo
+Idazkari-administratzaile naizen honek, hauxe da
+jasota utzi nahi dudana: goian adierazitako datako
+Jabeen Komunitatearen Batzarrean, dokumentu
+honetan jasotako obrak egiteko baimena onartu zela.
+Mediante la presente, en mi condición de
+Secretario/a o Secretario/a Administrador/a de la
+Comunidad de Propietarios arriba indicada, hago
+constar que en la Junta de Propietarios/as de
+fecha de referencia dicha Comunidad de
+Propietarios/as aprobó la ejecución de las obras
+descritas en el presente documento.
+Jabeen komuniteko idazkariaren edo idazkari/administratzailearen sinadura eta data
+Firma de el/la secretario/a o secretario/a administrador/a de la comunidad de propietarios/as y fecha
+
 ### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1547458
 DIRULAGUNTZAREN XEDE DEN JARDUERAREN EDO PROGRAMAREN DIRU-SARREREN ETA
 GASTUEN AURREKONTUA / PRESUPUESTO DE INGRESOS Y GASTOS DE LA ACTIVIDAD O
@@ -1992,81 +2067,6 @@ Comunidad de Propietarios/as, por lo que
 ostenta la representación de la comunidad.
 Jabeen komuniteko idazkariaren edo idazkari/administratzailearen sinadura eta data
 Firma de el/la secretario/a o secretario/a administrador/a de la comunidad de propietarios/as y fecha
-
-### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1547457
-HI5000_D004
-Diruz laguntzea eskatu den igogailuak jartzeko edo igogailu zaharrak kendu eta berriak
-ipintzeko edo/eta fatxadak zaharberritzeko obrak egiteko erkidegoak edo komunitateak
-eman duen baietza jasotzen duen dokumentua
-Documento acreditativo del acuerdo de conformidad de la comunidad de propietarios/as con la
-ejecución de las obras de instalación y sustitución de ascensores y/o restauración de fachadas
-para las que se solicita la subvención
-Jabeen Komunitate edo Erkidegoaren Idazkari edo Idazkari-administratzailea
-Secretario/a o Secretario/a Administrador/a de la Comunidad de Propietarios/as
-Izen-abizenak
-Nombre y apellidos
-NAN…
-DNI…
-Jabeen Komunitate edo Erkidegoa
-Comunidad de Propietarios/as
-Jabeen Erkidegoaren edo Komunitatearen akordioa
-Acuerdo de la comunidad de propietarios/as
-Jabeen Komunitatearen Batzarreko data
-Fecha de la Junta de Propietarios/as
-Egin beharreko obrak
-Obras a ejecutar
-Idatzi honen bidez, nik, adierazitako eraikineko
-Jabeen Komunitate edo Erkidegoaren Idazkari edo
-Idazkari-administratzaile naizen honek, hauxe da
-jasota utzi nahi dudana: goian adierazitako datako
-Jabeen Komunitatearen Batzarrean, dokumentu
-honetan jasotako obrak egiteko baimena onartu zela.
-Mediante la presente, en mi condición de
-Secretario/a o Secretario/a Administrador/a de la
-Comunidad de Propietarios arriba indicada, hago
-constar que en la Junta de Propietarios/as de
-fecha de referencia dicha Comunidad de
-Propietarios/as aprobó la ejecución de las obras
-descritas en el presente documento.
-Jabeen komuniteko idazkariaren edo idazkari/administratzailearen sinadura eta data
-Firma de el/la secretario/a o secretario/a administrador/a de la comunidad de propietarios/as y fecha
-
-### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1547455
-HI5000_D002
-TITULARRA ETA KONTUA
-TITULAR Y CUENTA
-Kontuaren titularra / Titular de la cuenta
-Izen-abizenak edo izen-soziala
-Nombre y apellidos o razón social
-NAN, IFZ…
-DNI, NIF…
-Helbidea
-Domicilio
-Herria
-Población
-PK
-CP
-Herrialdea
-País
-Telefonoak
-Teléfonos
-Probintzia
-Provincia
-Kontuaren titularraren sinadura eta data / Firma de el/la titular de la cuenta y fecha
-Banku erakundeak bete beharreko datuak / Datos a rellenar por la entidad bancaria
-Bankua
-Banco
-Agentzia
-Agencia
-Herria
-Población
-Goian aipatutako pertsona/entitatea ondoko
-kontu honen titularra dela ziurtatzen dugu:
-PK
-CP
-Certificamos que la persona/entidad arriba
-referenciada es titular de la siguiente cuenta:
-Banku erakundea: sinadura, zigilua eta data / Entidad bancaria: firma, sello y fecha
 
 ### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1547454
 HI5000_D001
