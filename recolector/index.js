@@ -16,6 +16,7 @@ import { aplicarTitulos } from './titulos.js';
 import { convocatoriasUE, ayudasDirectasUE } from './europa.js';
 import { esPosibleNoticia, cotejar, extras, separar } from './noticias.js';
 import { prepararProximas, aplicarProximas } from './proximas.js';
+import { aplicarCriterios, pendientesCriterios } from './criterios.js';
 import { detectarParecidas } from './parecidas.js';
 import { resolverPedidos } from './docspedidos.js';
 
@@ -758,6 +759,11 @@ async function main() {
   let cacheRes = {};
   try { cacheRes = JSON.parse(fs.readFileSync(path.join('cache', 'resumenes.json'), 'utf8')); } catch {}
   log(`Resúmenes aplicados: ${aplicar(ayudas, fuentes, cacheRes)}`);
+  // Criterios de filtro (docs/CRITERIOS.md): hijos, familia, vivienda, sector, ingresos
+  try {
+    const { pend, cache: cacheCrit } = pendientesCriterios(ayudas, fuentes, (id) => path.join(DIR_F, nombreF(id)));
+    log(`Criterios aplicados: ${aplicarCriterios(ayudas, cacheCrit)} · pendientes: ${pend.length}`);
+  } catch (e) { log(`Criterios: ${e.message}`); }
   // Fuera las que la ficha (escrita a partir de todos los documentos) dice que no se pueden pedir:
   // nominativas, convenios y ayudas reservadas a una entidad o persona concreta. Solo BDNS y boletines;
   // las prestaciones permanentes y las de euskadi.eus no pasan por aquí.

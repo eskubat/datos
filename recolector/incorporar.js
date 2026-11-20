@@ -109,3 +109,20 @@ if (nuevasP) {
   }
   console.log(`Próximas incorporadas: ${okP}. Pendientes: ${leer('cache/proximas_pendientes.json', []).length}`);
 }
+
+// Criterios de filtro (cache/criterios_nuevos.json) — docs/CRITERIOS.md
+import { validarCriterios, aplicarCriterios } from './criterios.js';
+const nuevosC = leer('cache/criterios_nuevos.json', null);
+if (nuevosC) {
+  const pendC = leer('cache/criterios_pendientes.json', []);
+  const porIdC = new Map(pendC.map((p) => [p.id, p]));
+  const cacheC = leer('cache/criterios.json', {});
+  let okC = 0;
+  for (const r of nuevosC) { const p = porIdC.get(r.id); if (!p) continue; cacheC[r.id] = { h: p.h, r: validarCriterios(r), fecha: new Date().toISOString().slice(0, 10) }; okC++; }
+  fs.writeFileSync('cache/criterios.json', JSON.stringify(cacheC));
+  fs.writeFileSync('cache/criterios_pendientes.json', JSON.stringify(pendC.filter((p) => !cacheC[p.id] || cacheC[p.id].h !== p.h), null, 1));
+  fs.rmSync('cache/criterios_nuevos.json', { force: true });
+  const pubC = leer('publico/ayudas.json', null);
+  if (pubC) { aplicarCriterios(pubC.ayudas, cacheC); fs.writeFileSync('publico/ayudas.json', JSON.stringify(pubC)); }
+  console.log(`Criterios incorporados: ${okC}. Pendientes: ${leer('cache/criterios_pendientes.json', []).length}`);
+}

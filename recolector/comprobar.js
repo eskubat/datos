@@ -40,3 +40,12 @@ for (const r of leer('cache/proximas_nuevas.json', [])) {
   if (e.length) { malP++; console.log(`✗ próxima ${r.id}\n  - ${e.join('\n  - ')}`); }
 }
 console.log(malP ? `${malP} próximas con errores` : 'Todas las próximas cumplen las reglas');
+// Criterios de filtro (cache/criterios_nuevos.json) — docs/CRITERIOS.md
+import { comprobarCriterios } from './criterios.js';
+const pendC = new Set(leer('cache/criterios_pendientes.json', []).map((p) => p.id));
+let malC = 0;
+for (const r of leer('cache/criterios_nuevos.json', [])) {
+  const e = pendC.has(r.id) ? comprobarCriterios(r) : ['id no está en cache/criterios_pendientes.json'];
+  if (e.length) { malC++; console.log(`✗ criterios ${r.id}\n  - ${e.join('\n  - ')}`); }
+}
+console.log(malC ? `${malC} criterios con errores` : 'Todos los criterios cumplen las reglas');
