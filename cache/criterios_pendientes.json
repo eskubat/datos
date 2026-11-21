@@ -1,218 +1,5 @@
 [
  {
-  "id": "eus-ayuda-subvencion-2026-pi2026-f-weblan00-content-es",
-  "h": "fac65e267d0f4dc0",
-  "titulo": "Subvenciones para proyectos de orientación, formación e inserción laboral",
-  "para": [
-   "empresa",
-   "asociacion",
-   "ayuntamiento"
-  ],
-  "temas": [
-   "empleo",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-pi2026-f-weblan00-content-es-4e699d49.txt",
-  "revisar": false
- },
- {
-  "id": "eus-ayuda-subvencion-2026-pi2026-al-weblan00-content-es",
-  "h": "a742fff3ebbfa230",
-  "titulo": "Ayudas para proyectos de activación intensiva en la búsqueda de empleo",
-  "para": [
-   "empresa",
-   "asociacion",
-   "ayuntamiento"
-  ],
-  "temas": [
-   "empleo"
-  ],
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-pi2026-al-weblan00-content-es-81f92149.txt",
-  "revisar": false
- },
- {
-  "id": "ara-01629001-solicitud-ayudas-excepcionales-en-apoyo-al-sector-g",
-  "h": "5c47689030754486",
-  "titulo": "Ayudas a explotaciones agrícolas y ganaderas afectadas por la sequía",
-  "para": [
-   "autonomo",
-   "empresa"
-  ],
-  "temas": [
-   "rural"
-  ],
-  "archivo": "cache/fuentes/ara-01629001-solicitud-ayudas-excepcionales-en-apoyo-al-sect-585fc393.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-939398",
-  "h": "9dbbb76518f02750",
-  "titulo": "Becas para el curso en línea de formación para la dirección de centros educativos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "estudios",
-   "educacion"
-  ],
-  "archivo": "cache/fuentes/bdns-939398-cdb6d104.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-938582",
-  "h": "3869227db19a8b92",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria Asociación FA maison&objet I Paris del 14 de enero de al 18 de enero de 202",
-  "para": [
-   "autonomo",
-   "empresa"
-  ],
-  "temas": [
-   "comercio",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/bdns-938582-10b34a6e.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-938491",
-  "h": "e1bf4ecb53421794",
-  "titulo": "Ayudas para exponer en la feria Lineapelle de Nueva York",
-  "para": [
-   "empresa"
-  ],
-  "temas": [
-   "comercio",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/bdns-938491-bbb5cc49.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-938488",
-  "h": "5fe285ff306e07b2",
-  "titulo": "Ayudas para exponer en la feria Lineapelle de Londres",
-  "para": [
-   "empresa"
-  ],
-  "temas": [
-   "comercio",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/bdns-938488-b5248891.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-938468",
-  "h": "e8ed27c9c825df80",
-  "titulo": "Ayudas para exponer en la feria de bisutería Bijorhca de París",
-  "para": [
-   "empresa"
-  ],
-  "temas": [
-   "comercio",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/bdns-938468-bcf0555e.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-936308",
-  "h": "45b0f2b41aa04b86",
-  "titulo": "Ayudas Gauzatu Internacional para implantar grandes empresas en el extranjero",
-  "para": [
-   "empresa"
-  ],
-  "temas": [
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/bdns-936308-bb25c139.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-935277",
-  "h": "567b3aebfce3f4ea",
-  "titulo": "Subvenciones para actividades culturales, deportivas y sociales",
-  "para": [
-   "particular",
-   "asociacion"
-  ],
-  "temas": [
-   "cultura",
-   "deporte"
-  ],
-  "archivo": "cache/fuentes/bdns-935277-d2c4ea52.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-934689",
-  "h": "29cd1d514011c06d",
-  "titulo": "Subvenciones para cursos de monitor de tiempo libre y formación deportiva en euskera",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "estudios",
-   "educacion",
-   "deporte"
-  ],
-  "archivo": "cache/fuentes/bdns-934689-2bfc4c26.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-933344",
-  "h": "0d5ec3fd33bab3b7",
-  "titulo": "Subvenciones para aprender euskera en cursos, intensivos e internados",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "estudios",
-   "educacion"
-  ],
-  "archivo": "cache/fuentes/bdns-933344-de6a9ceb.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-931709",
-  "h": "5119a2ad39f97641",
-  "titulo": "Ayudas para exponer en la feria textil Heimtextil de Frankfurt",
-  "para": [
-   "empresa"
-  ],
-  "temas": [
-   "comercio",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/bdns-931709-935776f0.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-921443",
-  "h": "4e4676e8c3d95982",
-  "titulo": "Premios a proyectos de periodismo con datos abiertos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "educacion"
-  ],
-  "archivo": "cache/fuentes/bdns-921443-493c4665.txt",
-  "revisar": false
- },
- {
-  "id": "extra-gauzatu-internacional-pymes-2026",
-  "h": "09cd38d060daaa04",
-  "titulo": "Ayudas Gauzatu Internacional para implantar pymes en el extranjero",
-  "para": [
-   "empresa"
-  ],
-  "temas": [
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/extra-gauzatu-internacional-pymes-2026-e7bdae85.txt",
-  "revisar": false
- },
- {
   "id": "bdns-938459",
   "h": "928909e2c8ac1775",
   "titulo": "Ayudas para exponer en la feria de iluminación Light Middle East de Dubái",
@@ -425,6 +212,20 @@
    "emprendimiento"
   ],
   "archivo": "cache/fuentes/bdns-937284-dfd8942a.txt",
+  "revisar": false
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-hezkuntza-inklusiboa-pree",
+  "h": "2ca7892ecdbae5c4",
+  "titulo": "Determinación de las unidades a concertar en la Educación Secundaria Obligatoria",
+  "para": [
+   "autonomo"
+  ],
+  "temas": [
+   "estudios",
+   "educacion"
+  ],
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-hezkuntza-inklusiboa-pree-261849ff.txt",
   "revisar": false
  },
  {
@@ -806,6 +607,22 @@
   ],
   "temas": [],
   "archivo": "cache/fuentes/ue-cs-european-partnership-on-innovative-smes-innowwide-call-6ca99624.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-943839",
+  "h": "e0d74203abb7d405",
+  "titulo": "Cursos de euskera en centros vascos (26/27)",
+  "para": [
+   "asociacion",
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "cultura",
+   "estudios"
+  ],
+  "archivo": "cache/fuentes/bdns-943839-f4132ebb.txt",
   "revisar": false
  },
  {
@@ -1576,7 +1393,7 @@
  },
  {
   "id": "bdns-934005",
-  "h": "60e4f03b290c7d2e",
+  "h": "572f55c47ec9d03f",
   "titulo": "Ayudas para limpiar pintadas en fachadas de comunidades de propietarios",
   "para": [
    "particular",
@@ -1910,7 +1727,7 @@
  },
  {
   "id": "eus-ayuda-subvencion-2026-ikerketagauaunibertsitate",
-  "h": "1433a609b4b27a95",
+  "h": "25ae170a63a56d31",
   "titulo": "La Noche Europea de los Investigadores y la iniciativa Investigadores en las escuelas son proyectos financiados por las Acciones Marie",
   "para": [
    "particular"
@@ -3960,17 +3777,19 @@
   "revisar": false
  },
  {
-  "id": "bdns-934718",
-  "h": "d131309e76218707",
-  "titulo": "Decreto de Alcaldía 65/, de 9 de octubre de/Eskuernaga,",
+  "id": "bdns-934168",
+  "h": "c1c5a751a7df89ab",
+  "titulo": "Subvenciones para rótulos, imagen corporativa y webs en euskera para comercios",
   "para": [
-   "particular"
+   "autonomo",
+   "empresa",
+   "asociacion"
   ],
   "temas": [
-   "estudios",
+   "emprendimiento",
    "educacion"
   ],
-  "archivo": "cache/fuentes/bdns-934718-3f646122.txt",
+  "archivo": "cache/fuentes/bdns-934168-495b7844.txt",
   "revisar": false
  },
  {
@@ -4103,6 +3922,17 @@
   "revisar": false
  },
  {
+  "id": "bog-c2606336-htm",
+  "h": "9f6d5b87a2052dab",
+  "titulo": "Ayudas para pagar las tasas de agua y basuras",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bog-c2606336-htm-4dd84d90.txt",
+  "revisar": false
+ },
+ {
   "id": "bog-c2606930-htm",
   "h": "0dece8c9181cb48d",
   "titulo": "Ayudas extraordinarias a explotaciones agrarias afectadas por la sequía",
@@ -4139,6 +3969,21 @@
    "estudios"
   ],
   "archivo": "cache/fuentes/botha-2026-116-02827-c-pdf-9972668f.txt",
+  "revisar": false
+ },
+ {
+  "id": "botha-2026-113-02776-c-pdf",
+  "h": "4b1f163281b48b30",
+  "titulo": "Subvenciones para cultura, deporte y acción social",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "cultura",
+   "deporte"
+  ],
+  "archivo": "cache/fuentes/botha-2026-113-02776-c-pdf-b529229f.txt",
   "revisar": false
  },
  {

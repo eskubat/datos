@@ -18,6 +18,15 @@
   "caracteres": 4021
  },
  {
+  "id": "eus-ayuda-subvencion-2026-hezkuntza-inklusiboa-pree",
+  "h": "669b0c505b6d7c43",
+  "titulo": "Determinación de las unidades a concertar en la Educación Secundaria Obligatoria",
+  "organismoSugerido": "gv-educacion",
+  "organismoFuente": "Educación",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-hezkuntza-inklusiboa-pree-261849ff.txt",
+  "caracteres": 300000
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-partz-weblan00-content-es",
   "h": "26e279a1f12f5c42",
   "titulo": "Subvenciones destinadas a incentivar la conversión de contratos indefinidos a tiempo parcial en contratos indefinidos a tiempo completo",
@@ -72,6 +81,15 @@
   "caracteres": 12248
  },
  {
+  "id": "bdns-943839",
+  "h": "e17080d6cfa66a5f",
+  "titulo": "Cursos de euskera en centros vascos (26/27)",
+  "organismoSugerido": "etxepare",
+  "organismoFuente": "Instituto vasco etxepare euskal institutua / basque institute",
+  "archivo": "cache/fuentes/bdns-943839-f4132ebb.txt",
+  "caracteres": 175696
+ },
+ {
   "id": "bob-bob-2026a219-ii-6013-",
   "h": "1c3c0ab2ed5fa248",
   "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -79,15 +97,6 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
   "caracteres": 5840
- },
- {
-  "id": "bdns-942867",
-  "h": "1b0c4d9cee26b157",
-  "titulo": "Subvenciones para la financiación de Proyectos de Cooperación y Desarrollo",
-  "organismoSugerido": "ayto-balmaseda",
-  "organismoFuente": "Ayuntamiento de balmaseda",
-  "archivo": "cache/fuentes/bdns-942867-b8c1ff89.txt",
-  "caracteres": 5070
  },
  {
   "id": "bdns-942055",
@@ -198,6 +207,15 @@
   "caracteres": 12622
  },
  {
+  "id": "ue-crea-media-2027-tvonline-1",
+  "h": "594ec78e4c088425",
+  "titulo": "TV and online content Animation projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
+  "caracteres": 6321
+ },
+ {
   "id": "ue-crea-media-2027-tvonline-2",
   "h": "2bb80164abe11ee5",
   "titulo": "TV and online content Documentary projects",
@@ -214,15 +232,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
   "caracteres": 6320
- },
- {
-  "id": "ue-crea-media-2027-tvonline-1",
-  "h": "594ec78e4c088425",
-  "titulo": "TV and online content Animation projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
-  "caracteres": 6321
  },
  {
   "id": "ara-01362004",
