@@ -729,7 +729,9 @@
  "bdns-891842": {
   "titulo": "Bases reguladoras de las ayudas económicas para tratamiento de diferentes tipos de adicciones del Ayuntamiento de Oñati (BOG nº 48, 8 de marzo de 2018; el anuncio de 2026 dice 3 de marzo de 2018)",
   "botha": [],
-  "urls": [],
+  "urls": [
+   "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2018/03/08/c1801496.pdf"
+  ],
   "estado": "fallo",
   "fecha": "2026-11-22",
   "intentos": 1,
@@ -756,5 +758,18 @@
   "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1418192",
   "fecha": "2026-11-22",
   "probadas": []
+ },
+ "bdns-890216": {
+  "titulo": "Convocatoria 2026 de subvenciones para la contratación de personas provenientes de procesos de inserción socio-laboral del Ayuntamiento de Oñati (BOG nº 54, 23 de marzo de 2026)",
+  "botha": [],
+  "urls": [
+   "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2026/03/23/c2601409.pdf",
+   "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1409784"
+  ]
+ },
+ "bdns-895653": {
+  "titulo": "Bases reguladoras y convocatoria de las subvenciones en materia de carácter social, cultura y deporte del Ayuntamiento de Lantarón, ejercicio 2026 (BOTHA, marzo de 2026)",
+  "botha": [],
+  "urls": []
  }
 }

@@ -27,24 +27,6 @@
   "caracteres": 4021
  },
  {
-  "id": "bdns-895774",
-  "h": "f8fb4b9dcdd3853d",
-  "titulo": "Subvenciones para actos y eventos culturales, deportivos o dirigidos a la igualdad de género o a la conciliación corresponsable o a la inclusión",
-  "organismoSugerido": "ayto-beasain",
-  "organismoFuente": "Ayuntamiento de beasain",
-  "archivo": "cache/fuentes/bdns-895774-884e0630.txt",
-  "caracteres": 69421
- },
- {
-  "id": "bdns-896479",
-  "h": "1db2813433182e34",
-  "titulo": "Bases para la concesión de subvenciones para subvencionar los gastos de matriculación en cursos de euskera",
-  "organismoSugerido": "ayto-eskoriatza",
-  "organismoFuente": "Ayuntamiento de eskoriatza",
-  "archivo": "cache/fuentes/bdns-896479-d1ca32e6.txt",
-  "caracteres": 79403
- },
- {
   "id": "eus-ayuda-subvencion-2026-partz-weblan00-content-es",
   "h": "26e279a1f12f5c42",
   "titulo": "Subvenciones destinadas a incentivar la conversión de contratos indefinidos a tiempo parcial en contratos indefinidos a tiempo completo",
@@ -52,51 +34,6 @@
   "organismoFuente": "Lanbide - Servicio Público Vasco de Empleo",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-partz-weblan00-content-es-90157b89.txt",
   "caracteres": 300000
- },
- {
-  "id": "bdns-891842",
-  "h": "a24a36ff64742feb",
-  "titulo": "Subvenciones. Ayudas económicas para tratamiento de diferentes tipos de adicciones",
-  "organismoSugerido": "ayto-onati",
-  "organismoFuente": "Ayuntamiento de oñati",
-  "archivo": "cache/fuentes/bdns-891842-fc54f19c.txt",
-  "caracteres": 38537
- },
- {
-  "id": "bdns-890639",
-  "h": "78e3c3ab86a70b68",
-  "titulo": "Ayudas económicas para actuaciones de mejora energética en edificios y viviendas en el término municipal",
-  "organismoSugerido": "ayto-beasain",
-  "organismoFuente": "Ayuntamiento de beasain",
-  "archivo": "cache/fuentes/bdns-890639-af66b343.txt",
-  "caracteres": 40340
- },
- {
-  "id": "bdns-890633",
-  "h": "5b6a0aea999a0d67",
-  "titulo": "Bases para fomentar el euso del euskera en rotulaciones",
-  "organismoSugerido": "ayto-beasain",
-  "organismoFuente": "Ayuntamiento de beasain",
-  "archivo": "cache/fuentes/bdns-890633-5ce754ff.txt",
-  "caracteres": 35962
- },
- {
-  "id": "bdns-890629",
-  "h": "95e9aff31be4e479",
-  "titulo": "Bases para la concesión de ayudas para revitalizar el sector comercial",
-  "organismoSugerido": "ayto-beasain",
-  "organismoFuente": "Ayuntamiento de beasain",
-  "archivo": "cache/fuentes/bdns-890629-56040c7b.txt",
-  "caracteres": 41132
- },
- {
-  "id": "bdns-890216",
-  "h": "fc33029c91e8c95a",
-  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la contratación de personas provenientes de procesos de inserción socio-laboral",
-  "organismoSugerido": "ayto-onati",
-  "organismoFuente": "Ayuntamiento de oñati",
-  "archivo": "cache/fuentes/bdns-890216-da0728e4.txt",
-  "caracteres": 250811
  },
  {
   "id": "bdns-890165",
@@ -108,15 +45,6 @@
   "caracteres": 257834
  },
  {
-  "id": "bdns-890111",
-  "h": "952e3e00afdcd4e5",
-  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la promoción de nuevas empresas",
-  "organismoSugerido": "ayto-onati",
-  "organismoFuente": "Ayuntamiento de oñati",
-  "archivo": "cache/fuentes/bdns-890111-55bde52b.txt",
-  "caracteres": 222923
- },
- {
   "id": "bob-bob-2026a215-ii-5802-",
   "h": "ed43e2ba0faec9be",
   "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -124,15 +52,6 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a215-ii-5802--1dac77fc.txt",
   "caracteres": 5593
- },
- {
-  "id": "bdns-895708",
-  "h": "8a368e87fddd84dd",
-  "titulo": "Subvenciones al alquiler para la recuperación de locales comerciales",
-  "organismoSugerido": "ayto-azkoitia",
-  "organismoFuente": "Ayuntamiento de azkoitia",
-  "archivo": "cache/fuentes/bdns-895708-d76f7a65.txt",
-  "caracteres": 79873
  },
  {
   "id": "ue-horizon-eic-2026-prize-wip",
@@ -169,42 +88,6 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
   "caracteres": 5840
- },
- {
-  "id": "bdns-890627",
-  "h": "2c3295229b6ceee7",
-  "titulo": "Bases reguladoras para la concesión de subvenciones a beasaindarras",
-  "organismoSugerido": "ayto-beasain",
-  "organismoFuente": "Ayuntamiento de beasain",
-  "archivo": "cache/fuentes/bdns-890627-ce3b31bc.txt",
-  "caracteres": 43402
- },
- {
-  "id": "bdns-890271",
-  "h": "29ff82aae72e2deb",
-  "titulo": "Bases específicas para Ayudas económicas destinadas a atender las necesidades derivadas de la salud",
-  "organismoSugerido": "ayto-astigarraga",
-  "organismoFuente": "Ayuntamiento de astigarraga",
-  "archivo": "cache/fuentes/bdns-890271-10af014a.txt",
-  "caracteres": 39905
- },
- {
-  "id": "bdns-887711",
-  "h": "e96bc739af453e3b",
-  "titulo": "Criterios de Emergencia Social (AES) y cuantías por conceptos",
-  "organismoSugerido": "ayto-donostia-san-sebastian",
-  "organismoFuente": "Ayuntamiento de donostia/san sebastián",
-  "archivo": "cache/fuentes/bdns-887711-4258dacc.txt",
-  "caracteres": 132214
- },
- {
-  "id": "bdns-889154",
-  "h": "df0035443c0824ef",
-  "titulo": "Convocatoria del servicio de alojamiento de personas mayores en sistuación de dependencia grado i",
-  "organismoSugerido": "ayto-amorebieta-etxano",
-  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
-  "archivo": "cache/fuentes/bdns-889154-2e875905.txt",
-  "caracteres": 39678
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -288,123 +171,6 @@
   "caracteres": 214972
  },
  {
-  "id": "bdns-901867",
-  "h": "388baf24188485ac",
-  "titulo": "Subvenciones para las actividades y proyectos realizados por centros docentes sin animo de lucro",
-  "organismoSugerido": "ayto-arrasate-mondragon",
-  "organismoFuente": "Ayuntamiento de arrasate/mondragón",
-  "archivo": "cache/fuentes/bdns-901867-6ba22b67.txt",
-  "caracteres": 50344
- },
- {
-  "id": "bdns-901523",
-  "h": "ac23bb7611970329",
-  "titulo": "Subvenciones para asociaciones que desarrollan su actividad en el ámbito de la igualdad de oportunidades entre mujeres y hombres",
-  "organismoSugerido": "ayto-arrasate-mondragon",
-  "organismoFuente": "Ayuntamiento de arrasate/mondragón",
-  "archivo": "cache/fuentes/bdns-901523-866bf548.txt",
-  "caracteres": 26154
- },
- {
-  "id": "bdns-901477",
-  "h": "23f62b09735918ba",
-  "titulo": "Subvenciones para promover el comercio local dirigidas al sector comercial y de servicios",
-  "organismoSugerido": "ayto-arrasate-mondragon",
-  "organismoFuente": "Ayuntamiento de arrasate/mondragón",
-  "archivo": "cache/fuentes/bdns-901477-ba6da2df.txt",
-  "caracteres": 33812
- },
- {
-  "id": "bdns-901470",
-  "h": "366088c0be6981dd",
-  "titulo": "Subvenciones para garantizar las transmisiones en negocios de los sectores de comercio",
-  "organismoSugerido": "ayto-arrasate-mondragon",
-  "organismoFuente": "Ayuntamiento de arrasate/mondragón",
-  "archivo": "cache/fuentes/bdns-901470-af46e62a.txt",
-  "caracteres": 56187
- },
- {
-  "id": "bdns-901463",
-  "h": "0aa609cbb751deb0",
-  "titulo": "Subvenciones a grupos, asociaciones y entidades para el desarrollo de actividades de caracter medio ambiental",
-  "organismoSugerido": "ayto-arrasate-mondragon",
-  "organismoFuente": "Ayuntamiento de arrasate/mondragón",
-  "archivo": "cache/fuentes/bdns-901463-3710ace3.txt",
-  "caracteres": 16342
- },
- {
-  "id": "bdns-901431",
-  "h": "85bfe721ceea6c8f",
-  "titulo": "Subvenciones A entidades que ponen en euskera el sistema de facturacion “TicketBAI”",
-  "organismoSugerido": "ayto-arrasate-mondragon",
-  "organismoFuente": "Ayuntamiento de arrasate/mondragón",
-  "archivo": "cache/fuentes/bdns-901431-cb87fc3a.txt",
-  "caracteres": 17148
- },
- {
-  "id": "bdns-901395",
-  "h": "406857ff6da77f6a",
-  "titulo": "Subvenciones a las personas que participan en cursos de la universidad vasca de verano",
-  "organismoSugerido": "ayto-arrasate-mondragon",
-  "organismoFuente": "Ayuntamiento de arrasate/mondragón",
-  "archivo": "cache/fuentes/bdns-901395-86ae65d2.txt",
-  "caracteres": 14228
- },
- {
-  "id": "bdns-901390",
-  "h": "88a4c43910d499a9",
-  "titulo": "Subvenciones a las asociaciones y entidades que fomentan el uso del euskera",
-  "organismoSugerido": "ayto-arrasate-mondragon",
-  "organismoFuente": "Ayuntamiento de arrasate/mondragón",
-  "archivo": "cache/fuentes/bdns-901390-72d9fe12.txt",
-  "caracteres": 26012
- },
- {
-  "id": "bdns-901387",
-  "h": "e32a9289f54751b3",
-  "titulo": "Subvenciones a los euskaltegis del sector de la euskaldunización y alfabetización de adultos",
-  "organismoSugerido": "ayto-arrasate-mondragon",
-  "organismoFuente": "Ayuntamiento de arrasate/mondragón",
-  "archivo": "cache/fuentes/bdns-901387-f3cf8805.txt",
-  "caracteres": 21536
- },
- {
-  "id": "bdns-901385",
-  "h": "52a4746717c04def",
-  "titulo": "2.2. subvenciones a entidades que ponen en euskera sus rótulos, imagen corporativa y sitio web",
-  "organismoSugerido": "ayto-arrasate-mondragon",
-  "organismoFuente": "Ayuntamiento de arrasate/mondragón",
-  "archivo": "cache/fuentes/bdns-901385-a8f8914d.txt",
-  "caracteres": 25531
- },
- {
-  "id": "bdns-901381",
-  "h": "26a3105c10e47fd7",
-  "titulo": "2.1. subvenciones para el aprendizaje de euskera en los euskaltegis",
-  "organismoSugerido": "ayto-arrasate-mondragon",
-  "organismoFuente": "Ayuntamiento de arrasate/mondragón",
-  "archivo": "cache/fuentes/bdns-901381-e08089ae.txt",
-  "caracteres": 26914
- },
- {
-  "id": "bdns-899684",
-  "h": "3ebbba334666cd49",
-  "titulo": "Subvenciones con cargo a los programas gestionados por el Departamento de Desarrollo Rural y convocatoria",
-  "organismoSugerido": "ayto-onati",
-  "organismoFuente": "Ayuntamiento de oñati",
-  "archivo": "cache/fuentes/bdns-899684-01c9f540.txt",
-  "caracteres": 300000
- },
- {
-  "id": "bdns-898929",
-  "h": "cb77235fd2b84755",
-  "titulo": "Ayudas económicas individuales y familiares municipales para paliar situaciones de exclusión social y/o extrema necesidad",
-  "organismoSugerido": "ayto-urretxu",
-  "organismoFuente": "Ayuntamiento de urretxu",
-  "archivo": "cache/fuentes/bdns-898929-896e8c82.txt",
-  "caracteres": 84529
- },
- {
   "id": "bdns-897355",
   "h": "a764866bceaab05b",
   "titulo": "Programa de ayudas digitalización cadena alim. y madera",
@@ -421,15 +187,6 @@
   "organismoFuente": "Ayuntamiento de barakaldo",
   "archivo": "cache/fuentes/bdns-896661-0f6a992f.txt",
   "caracteres": 26246
- },
- {
-  "id": "bdns-895653",
-  "h": "38ab83ad885ff1b7",
-  "titulo": "Subvenciones en materia de carácter social, cultura y deporte",
-  "organismoSugerido": "ayto-lantaron",
-  "organismoFuente": "Ayuntamiento de lantarón",
-  "archivo": "cache/fuentes/bdns-895653-f3fe89b8.txt",
-  "caracteres": 7848
  },
  {
   "id": "bdns-895646",

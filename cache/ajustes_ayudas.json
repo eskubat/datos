@@ -953,5 +953,9 @@
   "estado": "cerrada",
   "fin": "2026-09-29",
   "motivo": "Extracto del BOG de 16/09/2026 (VI campaña Irun.Market): los códigos se solicitan hasta el 29 de septiembre de 2026; la campaña de canje sigue hasta el 4 de diciembre, pero ya no se pueden pedir. Tarea de resúmenes, 22/11/2026."
+ },
+ "bdns-896661": {
+  "ocultar": true,
+  "motivo": "Concesión directa a una persona en ejecución de la Sentencia 231/2025 (convocatoria de emancipación juvenil 2024 del Ayuntamiento de Barakaldo): nadie más puede pedirla. Tarea de fichas, 22/11/2026."
  }
 }
