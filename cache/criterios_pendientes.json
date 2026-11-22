@@ -733,8 +733,8 @@
  },
  {
   "id": "bdns-890111",
-  "h": "1c993f0214306aac",
-  "titulo": "Ayudas para crear o traspasar un negocio y alquilar el local",
+  "h": "87c75fb1e113ae9b",
+  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la promoción de nuevas empresas",
   "para": [
    "autonomo",
    "empresa"
@@ -906,8 +906,8 @@
  },
  {
   "id": "bdns-895708",
-  "h": "17d19cc2f243bc4a",
-  "titulo": "Subvenciones para alquilar locales comerciales vacíos",
+  "h": "ce4cc1c39ac2c053",
+  "titulo": "Subvenciones al alquiler para la recuperación de locales comerciales",
   "para": [
    "autonomo",
    "empresa"
@@ -3014,10 +3014,9 @@
  {
   "id": "bdns-893232",
   "h": "9634db419cf530d4",
-  "titulo": "Convocatoria pública de las subvenciones del programa de auzo-taxi",
+  "titulo": "Subvenciones auzo-taxi para desplazarse en taxi desde barrios rurales",
   "para": [
-   "autonomo",
-   "empresa"
+   "particular"
   ],
   "temas": [],
   "archivo": "cache/fuentes/bdns-893232-73532198.txt",
@@ -5299,7 +5298,7 @@
  {
   "id": "bdns-878070",
   "h": "34be2b8a744e6825",
-  "titulo": "Decreto del Alcalde 1232/25, de 18 de diciembre",
+  "titulo": "Subvenciones para usar el taxi Auzunea entre los barrios y el centro",
   "para": [
    "particular"
   ],
@@ -5682,6 +5681,20 @@
   "revisar": false
  },
  {
+  "id": "prest-gipuzkoa-pnc",
+  "h": "bc3fff81ddb4a496",
+  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-araba-pnc",
   "h": "89f930ea395d5a97",
   "titulo": "Pensión no contributiva de jubilación o invalidez para personas sin recursos",
@@ -5694,20 +5707,6 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-araba-pnc-6fc67e01.txt",
-  "revisar": false
- },
- {
-  "id": "prest-gipuzkoa-pnc",
-  "h": "bc3fff81ddb4a496",
-  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "familia",
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
   "revisar": false
  },
  {
@@ -5739,17 +5738,6 @@
   "revisar": false
  },
  {
-  "id": "prest-araba-pevs",
-  "h": "47b578c0f318894c",
-  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
-  "para": [
-   "particular"
-  ],
-  "temas": [],
-  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
-  "revisar": false
- },
- {
   "id": "prest-bizkaia-lismi-movilidad",
   "h": "f9fcbdd7c3c5db41",
   "titulo": "Ayudas para gastos de transporte de personas con discapacidad",
@@ -5760,6 +5748,17 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-bizkaia-lismi-movilidad-e5897cf6.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-araba-pevs",
+  "h": "47b578c0f318894c",
+  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
   "revisar": false
  },
  {
