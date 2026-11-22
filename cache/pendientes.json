@@ -144,15 +144,6 @@
   "caracteres": 1778
  },
  {
-  "id": "bdns-943627",
-  "h": "7183600217ba21d5",
-  "titulo": "Subvención caritas",
-  "organismoSugerido": "ayto-barakaldo",
-  "organismoFuente": "Ayuntamiento de barakaldo",
-  "archivo": "cache/fuentes/bdns-943627-591d69fc.txt",
-  "caracteres": 132391
- },
- {
   "id": "bdns-929714",
   "h": "350945b2c14700ab",
   "titulo": "Subvenciones a asociaciones para organizar colonias y campamentos de verano",
@@ -387,15 +378,6 @@
   "caracteres": 42502
  },
  {
-  "id": "bdns-943674",
-  "h": "75ba76c06dceafb1",
-  "titulo": "Subvención concedida a la asociación danda asanblada JAI elkartea para la organización de actividades durante las fiestas de San Pelaio",
-  "organismoSugerido": "ayto-zarautz",
-  "organismoFuente": "Ayuntamiento de zarautz",
-  "archivo": "cache/fuentes/bdns-943674-3d544a01.txt",
-  "caracteres": 3999
- },
- {
   "id": "bdns-940546",
   "h": "16ed25c9ea6aed6e",
   "titulo": "Y segunda convocatoria de subvenciones para financiar los gastos de preproducción",
@@ -403,6 +385,15 @@
   "organismoFuente": "Diputación foral de Bizkaia",
   "archivo": "cache/fuentes/bdns-940546-b5f83570.txt",
   "caracteres": 174897
+ },
+ {
+  "id": "bdns-931520",
+  "h": "5ca2f325417b7ca2",
+  "titulo": "Subvenciones destinadas a financiar las actividades extraordinarias de los clubes deportivos sin ánimo de lucro",
+  "organismoSugerido": "ayto-ordizia",
+  "organismoFuente": "Ayuntamiento de ordizia",
+  "archivo": "cache/fuentes/bdns-931520-60c6cdcc.txt",
+  "caracteres": 292002
  },
  {
   "id": "botha-2026-131-03265-c-pdf",

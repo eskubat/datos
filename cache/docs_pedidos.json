@@ -27,13 +27,13 @@
    "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2024/09/BOB-2024a173.pdf"
   ],
   "origen": "tarea de fichas: la convocatoria 2026 (BDNS 942867) remite a esas bases y no están en la documentación",
-  "fecha": "2026-11-21",
+  "fecha": "2026-11-22",
   "estado": "fallo",
-  "intentos": 2,
+  "intentos": 3,
   "probadas": [
    {
     "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2024/09/BOB-2024a173.pdf",
-    "motivo": "no es PDF (text/html, 44370 bytes)"
+    "motivo": "no es PDF (text/html, 43758 bytes)"
    }
   ],
   "nota": "Portada quitada (19/11/2026). URL deducida, sin comprobar: el BOB-2024a180 es del 18/9/2024, así que el del lunes 9/9/2024 sería el 173. El recolector solo la acepta si una página del anuncio encaja con el título."
@@ -230,13 +230,13 @@
    "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/11/BOB-2026a217.pdf",
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/939545"
   ],
-  "fecha": "2026-11-21",
+  "fecha": "2026-11-22",
   "estado": "fallo",
-  "intentos": 4,
+  "intentos": 5,
   "probadas": [
    {
     "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/11/BOB-2026a217.pdf",
-    "motivo": "no es PDF (text/html, 46230 bytes)"
+    "motivo": "no es PDF (text/html, 47262 bytes)"
    },
    {
     "url": "https://www.sestao.eus/es-ES/Ayuntamiento/servicios/Deporte/Paginas/Subvenciones.aspx",

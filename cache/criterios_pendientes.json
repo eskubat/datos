@@ -215,20 +215,6 @@
   "revisar": false
  },
  {
-  "id": "eus-ayuda-subvencion-2026-hezkuntza-inklusiboa-pree",
-  "h": "2ca7892ecdbae5c4",
-  "titulo": "Determinación de las unidades a concertar en la Educación Secundaria Obligatoria",
-  "para": [
-   "autonomo"
-  ],
-  "temas": [
-   "estudios",
-   "educacion"
-  ],
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-hezkuntza-inklusiboa-pree-261849ff.txt",
-  "revisar": false
- },
- {
   "id": "eus-ayuda-subvencion-2026-ikermugikortasuna-2027",
   "h": "491f70d0931203a3",
   "titulo": "Ayudas Ikermugikortasuna para estancias de investigadores doctores fuera de Euskadi",
@@ -441,7 +427,7 @@
  },
  {
   "id": "bdns-929124",
-  "h": "29040d67990a2b51",
+  "h": "4f98bc29d92ba5f0",
   "titulo": "Ayudas de emergencia social y ayudas municipales para gastos básicos",
   "para": [
    "particular"
@@ -607,22 +593,6 @@
   ],
   "temas": [],
   "archivo": "cache/fuentes/ue-cs-european-partnership-on-innovative-smes-innowwide-call-6ca99624.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-943839",
-  "h": "e0d74203abb7d405",
-  "titulo": "Cursos de euskera en centros vascos (26/27)",
-  "para": [
-   "asociacion",
-   "autonomo",
-   "empresa"
-  ],
-  "temas": [
-   "cultura",
-   "estudios"
-  ],
-  "archivo": "cache/fuentes/bdns-943839-f4132ebb.txt",
   "revisar": false
  },
  {
@@ -1381,7 +1351,7 @@
  {
   "id": "bdns-942055",
   "h": "c53eac4906fcec7e",
-  "titulo": "Convocatoria del XL Concurso Literario",
+  "titulo": "Concurso literario de cuento, poesía y microrrelato",
   "para": [
    "particular"
   ],
@@ -1393,7 +1363,7 @@
  },
  {
   "id": "bdns-934005",
-  "h": "572f55c47ec9d03f",
+  "h": "60e4f03b290c7d2e",
   "titulo": "Ayudas para limpiar pintadas en fachadas de comunidades de propietarios",
   "para": [
    "particular",
@@ -1999,11 +1969,9 @@
  {
   "id": "bdns-927909",
   "h": "e6fdfb0c52bbc4ca",
-  "titulo": "Subvenciones para el fomento de la natalidad",
+  "titulo": "Subvenciones para fomentar la natalidad",
   "para": [
-   "particular",
-   "autonomo",
-   "empresa"
+   "particular"
   ],
   "temas": [
    "familia",
@@ -2859,19 +2827,6 @@
   "revisar": false
  },
  {
-  "id": "bdns-921473",
-  "h": "bc716ebe3efb98b2",
-  "titulo": "Concurso de fotografía para el calendario municipal",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "cultura"
-  ],
-  "archivo": "cache/fuentes/bdns-921473-3b2c356e.txt",
-  "revisar": false
- },
- {
   "id": "bdns-938389",
   "h": "08c68a249407b03b",
   "titulo": "Ayudas para exponer en la feria Blech Expo de chapa metálica",
@@ -3638,7 +3593,7 @@
  {
   "id": "bdns-943626",
   "h": "d255ff5e644ed5a3",
-  "titulo": "Concesión de subvenciones para el estudio del euskera",
+  "titulo": "Subvenciones para pagar la matrícula de cursos de euskera",
   "para": [
    "particular"
   ],
@@ -3766,7 +3721,7 @@
  {
   "id": "bdns-940185",
   "h": "874e7544659d2413",
-  "titulo": "Decreto de alcaldía-0676 de 4/11/ por el que se aprueba la convocatoria para la concesión por concurrencia competitiva de ayudas",
+  "titulo": "Ayudas a deportistas para viajes y dietas en competiciones fuera de Euskadi",
   "para": [
    "particular"
   ],
@@ -3777,19 +3732,32 @@
   "revisar": false
  },
  {
-  "id": "bdns-934168",
-  "h": "c1c5a751a7df89ab",
-  "titulo": "Subvenciones para rótulos, imagen corporativa y webs en euskera para comercios",
+  "id": "bdns-934718",
+  "h": "d131309e76218707",
+  "titulo": "Decreto de Alcaldía 65/, de 9 de octubre de/Eskuernaga,",
   "para": [
-   "autonomo",
-   "empresa",
-   "asociacion"
+   "particular"
   ],
   "temas": [
-   "emprendimiento",
+   "estudios",
    "educacion"
   ],
-  "archivo": "cache/fuentes/bdns-934168-495b7844.txt",
+  "archivo": "cache/fuentes/bdns-934718-3f646122.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-934689",
+  "h": "29cd1d514011c06d",
+  "titulo": "Subvenciones para cursos de monitor de tiempo libre y formación deportiva en euskera",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "estudios",
+   "educacion",
+   "deporte"
+  ],
+  "archivo": "cache/fuentes/bdns-934689-2bfc4c26.txt",
   "revisar": false
  },
  {
@@ -3818,21 +3786,6 @@
    "educacion"
   ],
   "archivo": "cache/fuentes/bdns-932843-5d0faeb5.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-932822",
-  "h": "09e826bc201a17e6",
-  "titulo": "Suvenciones destinadas a fomentar la constitución y gestión de comunidades energéticas",
-  "para": [
-   "particular",
-   "asociacion"
-  ],
-  "temas": [
-   "energia",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/bdns-932822-336be751.txt",
   "revisar": false
  },
  {
@@ -3922,17 +3875,6 @@
   "revisar": false
  },
  {
-  "id": "bog-c2606336-htm",
-  "h": "9f6d5b87a2052dab",
-  "titulo": "Ayudas para pagar las tasas de agua y basuras",
-  "para": [
-   "particular"
-  ],
-  "temas": [],
-  "archivo": "cache/fuentes/bog-c2606336-htm-4dd84d90.txt",
-  "revisar": false
- },
- {
   "id": "bog-c2606930-htm",
   "h": "0dece8c9181cb48d",
   "titulo": "Ayudas extraordinarias a explotaciones agrarias afectadas por la sequía",
@@ -3969,21 +3911,6 @@
    "estudios"
   ],
   "archivo": "cache/fuentes/botha-2026-116-02827-c-pdf-9972668f.txt",
-  "revisar": false
- },
- {
-  "id": "botha-2026-113-02776-c-pdf",
-  "h": "4b1f163281b48b30",
-  "titulo": "Subvenciones para cultura, deporte y acción social",
-  "para": [
-   "particular",
-   "asociacion"
-  ],
-  "temas": [
-   "cultura",
-   "deporte"
-  ],
-  "archivo": "cache/fuentes/botha-2026-113-02776-c-pdf-b529229f.txt",
   "revisar": false
  },
  {
