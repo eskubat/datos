@@ -748,8 +748,8 @@
  },
  {
   "id": "bdns-890111",
-  "h": "1c993f0214306aac",
-  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la promoción de nuevas empresas",
+  "h": "87c75fb1e113ae9b",
+  "titulo": "Ayudas para crear o traspasar un negocio y alquilar el local",
   "para": [
    "autonomo",
    "empresa"
@@ -5739,20 +5739,6 @@
   "revisar": false
  },
  {
-  "id": "prest-araba-pecef",
-  "h": "d1882d94b3e5c137",
-  "titulo": "Ayuda para cuidar en familia a una persona en situación de dependencia",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "vivienda",
-   "familia"
-  ],
-  "archivo": "cache/fuentes/prest-araba-pecef-b232c1b3.txt",
-  "revisar": false
- },
- {
   "id": "prest-araba-peap",
   "h": "b7167957c542832d",
   "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
@@ -5767,14 +5753,17 @@
   "revisar": false
  },
  {
-  "id": "prest-araba-pevs",
-  "h": "47b578c0f318894c",
-  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
+  "id": "prest-araba-pecef",
+  "h": "d1882d94b3e5c137",
+  "titulo": "Ayuda para cuidar en familia a una persona en situación de dependencia",
   "para": [
    "particular"
   ],
-  "temas": [],
-  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
+  "temas": [
+   "vivienda",
+   "familia"
+  ],
+  "archivo": "cache/fuentes/prest-araba-pecef-b232c1b3.txt",
   "revisar": false
  },
  {
@@ -5788,6 +5777,17 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-bizkaia-lismi-movilidad-e5897cf6.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-araba-pevs",
+  "h": "47b578c0f318894c",
+  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
   "revisar": false
  },
  {
