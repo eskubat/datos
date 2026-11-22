@@ -28,12 +28,12 @@
  },
  {
   "id": "bdns-918883",
-  "h": "5341a7b44749a3cf",
+  "h": "1c468e05e50d4fb4",
   "titulo": "Criterios para la concesión de Ayudas de Emergencia Social (AES) en el Ayuntamiento",
   "organismoSugerido": "ayto-basauri",
   "organismoFuente": "Ayuntamiento de basauri",
   "archivo": "cache/fuentes/bdns-918883-1ce652b3.txt",
-  "caracteres": 52903
+  "caracteres": 52892
  },
  {
   "id": "bdns-906408",
@@ -190,12 +190,12 @@
  },
  {
   "id": "bdns-918305",
-  "h": "ae0fd2ab3cef8366",
+  "h": "2be4e350d7c91de3",
   "titulo": "Ayudas económicas destinadas para las obras de mejora de la accesibilidad y eficiencia energética",
   "organismoSugerido": "ayto-urretxu",
   "organismoFuente": "Ayuntamiento de urretxu",
   "archivo": "cache/fuentes/bdns-918305-c1cfea68.txt",
-  "caracteres": 89904
+  "caracteres": 89866
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -270,6 +270,15 @@
   "caracteres": 1778
  },
  {
+  "id": "bdns-931088",
+  "h": "9a0db81506b537e2",
+  "titulo": "Orden por la que se efectúa la convocatoria correspondiente al de la del Programa Auto+",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de programas industriales",
+  "archivo": "cache/fuentes/bdns-931088-a69d6730.txt",
+  "caracteres": 120186
+ },
+ {
   "id": "bdns-929714",
   "h": "350945b2c14700ab",
   "titulo": "Subvenciones a asociaciones para organizar colonias y campamentos de verano",
@@ -277,6 +286,15 @@
   "organismoFuente": "Ayuntamiento de barakaldo",
   "archivo": "cache/fuentes/bdns-929714-71f80b33.txt",
   "caracteres": 214972
+ },
+ {
+  "id": "bdns-922783",
+  "h": "533795d8aa3074a3",
+  "titulo": "Orden por la que se efectúa la convocatoria correspondiente al de la del Programa Auto+",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de programas industriales",
+  "archivo": "cache/fuentes/bdns-922783-f5986355.txt",
+  "caracteres": 110059
  },
  {
   "id": "bdns-920008",
@@ -487,12 +505,12 @@
  },
  {
   "id": "bdns-918616",
-  "h": "ae1cb78e5ac8befe",
+  "h": "384a457012091112",
   "titulo": "Ordenanza municipal para promoción de la accesibilidad a las viviendas",
   "organismoSugerido": "ayto-basauri",
   "organismoFuente": "Ayuntamiento de basauri",
   "archivo": "cache/fuentes/bdns-918616-6b9428d6.txt",
-  "caracteres": 41786
+  "caracteres": 41775
  },
  {
   "id": "bdns-918273",
@@ -549,15 +567,6 @@
   "caracteres": 208989
  },
  {
-  "id": "ue-crea-media-2027-tvonline-1",
-  "h": "594ec78e4c088425",
-  "titulo": "TV and online content Animation projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
-  "caracteres": 6321
- },
- {
   "id": "ue-crea-media-2027-tvonline-2",
   "h": "2bb80164abe11ee5",
   "titulo": "TV and online content Documentary projects",
@@ -574,6 +583,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
   "caracteres": 6320
+ },
+ {
+  "id": "ue-crea-media-2027-tvonline-1",
+  "h": "594ec78e4c088425",
+  "titulo": "TV and online content Animation projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
+  "caracteres": 6321
  },
  {
   "id": "ara-01362004",

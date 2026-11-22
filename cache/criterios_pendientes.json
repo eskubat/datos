@@ -173,7 +173,7 @@
  },
  {
   "id": "bdns-918883",
-  "h": "da7d241d64a68fdb",
+  "h": "2114f7d2a6174512",
   "titulo": "Criterios para la concesión de Ayudas de Emergencia Social (AES) en el Ayuntamiento",
   "para": [
    "particular"
@@ -1345,7 +1345,7 @@
  },
  {
   "id": "bdns-918305",
-  "h": "d58739e85839c568",
+  "h": "8c14945e9299f6e8",
   "titulo": "Ayudas económicas destinadas para las obras de mejora de la accesibilidad y eficiencia energética",
   "para": [
    "particular"
@@ -2123,8 +2123,8 @@
  },
  {
   "id": "bdns-931088",
-  "h": "874c7f4d06e82ec1",
-  "titulo": "Ayudas Auto+ para que empresas y autónomos compren vehículos eléctricos",
+  "h": "511b104430232527",
+  "titulo": "Orden por la que se efectúa la convocatoria correspondiente al de la del Programa Auto+",
   "para": [
    "autonomo",
    "empresa"
@@ -2218,8 +2218,8 @@
  },
  {
   "id": "bdns-922783",
-  "h": "859ad0984e5285a9",
-  "titulo": "Ayudas Auto+ para que particulares compren vehículos eléctricos",
+  "h": "70648c7384ca598a",
+  "titulo": "Orden por la que se efectúa la convocatoria correspondiente al de la del Programa Auto+",
   "para": [
    "particular"
   ],
@@ -4633,6 +4633,17 @@
   "revisar": false
  },
  {
+  "id": "prest-araba-pevs",
+  "h": "47b578c0f318894c",
+  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-bizkaia-lismi-movilidad",
   "h": "f9fcbdd7c3c5db41",
   "titulo": "Ayudas para gastos de transporte de personas con discapacidad",
@@ -4643,17 +4654,6 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-bizkaia-lismi-movilidad-e5897cf6.txt",
-  "revisar": false
- },
- {
-  "id": "prest-araba-pevs",
-  "h": "47b578c0f318894c",
-  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
-  "para": [
-   "particular"
-  ],
-  "temas": [],
-  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
   "revisar": false
  },
  {

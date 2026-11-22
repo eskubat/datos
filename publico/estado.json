@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generado": "2026-11-22T04:55:04.083Z",
+  "generado": "2026-11-22T05:05:14.320Z",
   "total": 452,
   "porAmbito": {
     "estado": 59,
@@ -27,7 +27,7 @@
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 27,
-      "segundos": 16,
+      "segundos": 20,
       "erroresFicha": 0
     },
     "araba": {
@@ -41,21 +41,21 @@
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
       "registros": 848,
-      "segundos": 159,
+      "segundos": 164,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 154,
-      "segundos": 4,
+      "segundos": 6,
       "erroresFicha": 0
     },
     "prestaciones": {
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 19,
-      "segundos": 15,
+      "segundos": 17,
       "erroresFicha": 0
     },
     "europa": {
@@ -67,8 +67,8 @@
   },
   "enlaces": {
     "comprobados": 731,
-    "rotos": 2,
+    "rotos": 3,
     "sustituidos": 1,
-    "quitados": 2
+    "quitados": 4
   }
 }
