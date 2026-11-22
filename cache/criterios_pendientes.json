@@ -427,7 +427,7 @@
  },
  {
   "id": "bdns-929124",
-  "h": "4f98bc29d92ba5f0",
+  "h": "29040d67990a2b51",
   "titulo": "Ayudas de emergencia social y ayudas municipales para gastos básicos",
   "para": [
    "particular"
@@ -3732,32 +3732,19 @@
   "revisar": false
  },
  {
-  "id": "bdns-934718",
-  "h": "d131309e76218707",
-  "titulo": "Decreto de Alcaldía 65/, de 9 de octubre de/Eskuernaga,",
+  "id": "bdns-934168",
+  "h": "c1c5a751a7df89ab",
+  "titulo": "Subvenciones para rótulos, imagen corporativa y webs en euskera para comercios",
   "para": [
-   "particular"
+   "autonomo",
+   "empresa",
+   "asociacion"
   ],
   "temas": [
-   "estudios",
+   "emprendimiento",
    "educacion"
   ],
-  "archivo": "cache/fuentes/bdns-934718-3f646122.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-934689",
-  "h": "29cd1d514011c06d",
-  "titulo": "Subvenciones para cursos de monitor de tiempo libre y formación deportiva en euskera",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "estudios",
-   "educacion",
-   "deporte"
-  ],
-  "archivo": "cache/fuentes/bdns-934689-2bfc4c26.txt",
+  "archivo": "cache/fuentes/bdns-934168-495b7844.txt",
   "revisar": false
  },
  {
@@ -3875,6 +3862,17 @@
   "revisar": false
  },
  {
+  "id": "bog-c2606336-htm",
+  "h": "9f6d5b87a2052dab",
+  "titulo": "Ayudas para pagar las tasas de agua y basuras",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bog-c2606336-htm-4dd84d90.txt",
+  "revisar": false
+ },
+ {
   "id": "bog-c2606930-htm",
   "h": "0dece8c9181cb48d",
   "titulo": "Ayudas extraordinarias a explotaciones agrarias afectadas por la sequía",
@@ -3911,6 +3909,21 @@
    "estudios"
   ],
   "archivo": "cache/fuentes/botha-2026-116-02827-c-pdf-9972668f.txt",
+  "revisar": false
+ },
+ {
+  "id": "botha-2026-113-02776-c-pdf",
+  "h": "4b1f163281b48b30",
+  "titulo": "Subvenciones para cultura, deporte y acción social",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "cultura",
+   "deporte"
+  ],
+  "archivo": "cache/fuentes/botha-2026-113-02776-c-pdf-b529229f.txt",
   "revisar": false
  },
  {
@@ -4215,6 +4228,20 @@
   "revisar": false
  },
  {
+  "id": "prest-gipuzkoa-pnc",
+  "h": "bc3fff81ddb4a496",
+  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-araba-pnc",
   "h": "89f930ea395d5a97",
   "titulo": "Pensión no contributiva de jubilación o invalidez para personas sin recursos",
@@ -4230,17 +4257,17 @@
   "revisar": false
  },
  {
-  "id": "prest-gipuzkoa-pnc",
-  "h": "bc3fff81ddb4a496",
-  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
+  "id": "prest-araba-peap",
+  "h": "b7167957c542832d",
+  "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
   "para": [
    "particular"
   ],
   "temas": [
-   "familia",
-   "social"
+   "empleo",
+   "educacion"
   ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
+  "archivo": "cache/fuentes/prest-araba-peap-b3e1675d.txt",
   "revisar": false
  },
  {
@@ -4255,20 +4282,6 @@
    "familia"
   ],
   "archivo": "cache/fuentes/prest-araba-pecef-b232c1b3.txt",
-  "revisar": false
- },
- {
-  "id": "prest-araba-peap",
-  "h": "b7167957c542832d",
-  "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "empleo",
-   "educacion"
-  ],
-  "archivo": "cache/fuentes/prest-araba-peap-b3e1675d.txt",
   "revisar": false
  },
  {
