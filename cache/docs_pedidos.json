@@ -455,6 +455,15 @@
   "botha": [],
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/920799"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/920799",
+    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+   }
   ]
  },
  "bdns-900270": {
@@ -462,6 +471,15 @@
   "botha": [],
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/900270"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/900270",
+    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+   }
   ]
  },
  "bdns-938070": {
@@ -469,6 +487,19 @@
   "botha": [],
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/938070"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/938070",
+    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+   },
+   {
+    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/11/BOB-2026a212.pdf",
+    "motivo": "no es PDF (text/html, 45126 bytes)"
+   }
   ]
  }
 }
