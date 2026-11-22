@@ -733,7 +733,7 @@
  },
  {
   "id": "bdns-890111",
-  "h": "87c75fb1e113ae9b",
+  "h": "1c993f0214306aac",
   "titulo": "Bases reguladoras y convocatoria de las subvenciones para la promoción de nuevas empresas",
   "para": [
    "autonomo",
@@ -748,8 +748,8 @@
  },
  {
   "id": "bdns-885466",
-  "h": "da1e2c15fd8540d4",
-  "titulo": "Ayudas para personas y familias en extrema necesidad o exclusión social",
+  "h": "c13861ee8315d1c7",
+  "titulo": "Ayudas a particulares y familias para paliar situaciones de extrema necesidad y/o exclusión social",
   "para": [
    "particular"
   ],
@@ -907,7 +907,7 @@
  {
   "id": "bdns-895708",
   "h": "ce4cc1c39ac2c053",
-  "titulo": "Subvenciones al alquiler para la recuperación de locales comerciales",
+  "titulo": "Subvenciones para alquilar locales comerciales vacíos",
   "para": [
    "autonomo",
    "empresa"
@@ -1614,7 +1614,7 @@
  {
   "id": "bdns-881434",
   "h": "e986b581fd19f281",
-  "titulo": "Ayudas sociales individuales",
+  "titulo": "Ayudas sociales individuales para personas con pocos recursos",
   "para": [
    "particular"
   ],
@@ -5681,20 +5681,6 @@
   "revisar": false
  },
  {
-  "id": "prest-gipuzkoa-pnc",
-  "h": "bc3fff81ddb4a496",
-  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "familia",
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
-  "revisar": false
- },
- {
   "id": "prest-araba-pnc",
   "h": "89f930ea395d5a97",
   "titulo": "Pensión no contributiva de jubilación o invalidez para personas sin recursos",
@@ -5707,6 +5693,20 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-araba-pnc-6fc67e01.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-gipuzkoa-pnc",
+  "h": "bc3fff81ddb4a496",
+  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
   "revisar": false
  },
  {

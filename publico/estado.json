@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generado": "2026-11-22T20:55:58.444Z",
+  "generado": "2026-11-22T21:46:07.008Z",
   "total": 518,
   "porAmbito": {
     "estado": 59,
@@ -41,21 +41,21 @@
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
       "registros": 984,
-      "segundos": 179,
+      "segundos": 173,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 154,
-      "segundos": 5,
+      "segundos": 4,
       "erroresFicha": 0
     },
     "prestaciones": {
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 19,
-      "segundos": 18,
+      "segundos": 15,
       "erroresFicha": 0
     },
     "europa": {
