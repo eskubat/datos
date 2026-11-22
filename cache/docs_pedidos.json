@@ -725,5 +725,24 @@
     "motivo": "no es PDF (text/html, 42622 bytes)"
    }
   ]
+ },
+ "bdns-891842": {
+  "titulo": "Bases reguladoras de las ayudas económicas para tratamiento de diferentes tipos de adicciones del Ayuntamiento de Oñati (BOG nº 48, 8 de marzo de 2018; el anuncio de 2026 dice 3 de marzo de 2018)",
+  "botha": [],
+  "urls": []
+ },
+ "bdns-891839": {
+  "titulo": "Ordenanza de ayudas municipales para la instalación de detectores de fuego en domicilios particulares de Oñati (BOG nº 144, 30 de julio de 2010; modificación BOG nº 67, 10 de abril de 2012)",
+  "botha": [],
+  "urls": []
+ },
+ "bdns-893245": {
+  "titulo": "Bases para financiar iniciativas de carácter socio-cultural, deportivas y de promoción del medio natural de Barrundia 2026 (BOTHA nº 39, 1 de abril de 2026)",
+  "botha": [
+   "2026_039_00883"
+  ],
+  "urls": [
+   "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1418192"
+  ]
  }
 }
