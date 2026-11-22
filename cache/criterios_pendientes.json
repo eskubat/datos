@@ -879,20 +879,6 @@
   "revisar": false
  },
  {
-  "id": "bdns-910439",
-  "h": "8f58fba9c385ec1d",
-  "titulo": "Subvenciones para proyectos sociales, de cooperación y de ayuda humanitaria",
-  "para": [
-   "asociacion",
-   "particular"
-  ],
-  "temas": [
-   "social"
-  ],
-  "archivo": "cache/fuentes/bdns-910439-0ff30eb0.txt",
-  "revisar": false
- },
- {
   "id": "bdns-910362",
   "h": "27005c4b03d2da17",
   "titulo": "Ayudas económicas para personas y familias en exclusión social o extrema necesidad",
@@ -3256,7 +3242,8 @@
   "titulo": "Bases específicas de subvenciones para la Emancipación de los jóvenes",
   "para": [
    "particular",
-   "autonomo"
+   "ayuntamiento",
+   "empresa"
   ],
   "temas": [
    "vivienda",
@@ -3338,6 +3325,48 @@
    "cultura"
   ],
   "archivo": "cache/fuentes/bdns-880996-f7cd884b.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-879133",
+  "h": "5949f8fed804a472",
+  "titulo": "Bases subvenciones contratación apoyo en el hogar",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-879133-521909ad.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-879132",
+  "h": "5a24828282b8bada",
+  "titulo": "Bases prestación vinculada alojamiento personas mayores",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-879132-ebf1a81e.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-879086",
+  "h": "a52b0d2e2366b430",
+  "titulo": "Convocatoria y bases reguladoras de ayudas económicas para el acceso de personas sin hogar a centros hosteleros y selección de dichos centros",
+  "para": [
+   "particular",
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-879086-6d9c89e9.txt",
   "revisar": false
  },
  {
@@ -4915,6 +4944,20 @@
   "revisar": false
  },
  {
+  "id": "ara-subvenciones-estudiantes-de-bachillerato-ciclos-formativos-d",
+  "h": "6ebe06aeb5df4b2f",
+  "titulo": "Subvenciones para el transporte de estudiantes de bachillerato y formación profesional",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "estudios",
+   "social"
+  ],
+  "archivo": "cache/fuentes/ara-subvenciones-estudiantes-de-bachillerato-ciclos-formativ-980e2805.txt",
+  "revisar": false
+ },
+ {
   "id": "ara-ap-1-peaje-social",
   "h": "585538d61d706874",
   "titulo": "Ayudas para pagar el peaje de la AP-1 a residentes en Álava",
@@ -5264,6 +5307,22 @@
   "revisar": false
  },
  {
+  "id": "bdns-880363",
+  "h": "9466d2bb7edeff9c",
+  "titulo": "Acuerdo de 06.11. del Presidente de surbisa",
+  "para": [
+   "particular",
+   "asociacion",
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "vivienda"
+  ],
+  "archivo": "cache/fuentes/bdns-880363-3c3d5f77.txt",
+  "revisar": false
+ },
+ {
   "id": "bog-c2607316-htm",
   "h": "5377f180fa7fe747",
   "titulo": "Ayudas para el transporte a tratamientos de adicciones",
@@ -5598,20 +5657,6 @@
   "revisar": false
  },
  {
-  "id": "prest-gipuzkoa-pnc",
-  "h": "bc3fff81ddb4a496",
-  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "familia",
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
-  "revisar": false
- },
- {
   "id": "prest-gipuzkoa-pece",
   "h": "8c8ebab370c29e63",
   "titulo": "Prestación para cuidar en casa a una persona dependiente",
@@ -5730,20 +5775,6 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-bizkaia-lismi-movilidad-e5897cf6.txt",
-  "revisar": false
- },
- {
-  "id": "prest-gipuzkoa-peap",
-  "h": "d3a77d3658b32296",
-  "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "empleo",
-   "familia"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-peap-5825c94d.txt",
   "revisar": false
  },
  {

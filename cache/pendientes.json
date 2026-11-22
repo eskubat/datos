@@ -297,15 +297,6 @@
   "caracteres": 1778
  },
  {
-  "id": "bdns-929714",
-  "h": "350945b2c14700ab",
-  "titulo": "Subvenciones a asociaciones para organizar colonias y campamentos de verano",
-  "organismoSugerido": "ayto-barakaldo",
-  "organismoFuente": "Ayuntamiento de barakaldo",
-  "archivo": "cache/fuentes/bdns-929714-71f80b33.txt",
-  "caracteres": 214972
- },
- {
   "id": "bdns-897355",
   "h": "a764866bceaab05b",
   "titulo": "Programa de ayudas digitalización cadena alim. y madera",
@@ -358,6 +349,33 @@
   "organismoFuente": "Ayuntamiento de hernani",
   "archivo": "cache/fuentes/bdns-880996-f7cd884b.txt",
   "caracteres": 245289
+ },
+ {
+  "id": "bdns-879133",
+  "h": "eddb40ef9c67cd43",
+  "titulo": "Bases subvenciones contratación apoyo en el hogar",
+  "organismoSugerido": "ayto-leioa",
+  "organismoFuente": "Ayuntamiento de leioa",
+  "archivo": "cache/fuentes/bdns-879133-521909ad.txt",
+  "caracteres": 54168
+ },
+ {
+  "id": "bdns-879132",
+  "h": "8b69b20c90af639a",
+  "titulo": "Bases prestación vinculada alojamiento personas mayores",
+  "organismoSugerido": "ayto-leioa",
+  "organismoFuente": "Ayuntamiento de leioa",
+  "archivo": "cache/fuentes/bdns-879132-ebf1a81e.txt",
+  "caracteres": 73360
+ },
+ {
+  "id": "bdns-879086",
+  "h": "e1539c7f1fc14a15",
+  "titulo": "Convocatoria y bases reguladoras de ayudas económicas para el acceso de personas sin hogar a centros hosteleros y selección de dichos centros",
+  "organismoSugerido": "ayto-donostia-san-sebastian",
+  "organismoFuente": "Ayuntamiento de donostia/san sebastián",
+  "archivo": "cache/fuentes/bdns-879086-6d9c89e9.txt",
+  "caracteres": 128507
  },
  {
   "id": "ue-crea-media-2027-tvonline-2",
@@ -610,6 +628,24 @@
   "organismoFuente": "Ayuntamiento de amurrio",
   "archivo": "cache/fuentes/bdns-882027-883f5e47.txt",
   "caracteres": 5966
+ },
+ {
+  "id": "bdns-880363",
+  "h": "f4ec2ea2c4dd3f80",
+  "titulo": "Acuerdo de 06.11. del Presidente de surbisa",
+  "organismoSugerido": "surbisa",
+  "organismoFuente": "Sociedad urbanística de rehabilitación de bilbao, sa (surbisa)",
+  "archivo": "cache/fuentes/bdns-880363-3c3d5f77.txt",
+  "caracteres": 7396
+ },
+ {
+  "id": "bdns-879982",
+  "h": "a9e7e23258f28cbd",
+  "titulo": "Hazi eta hezi",
+  "organismoSugerido": "ayto-ibarra",
+  "organismoFuente": "Ayuntamiento de ibarra",
+  "archivo": "cache/fuentes/bdns-879982-9b9f7ea8.txt",
+  "caracteres": 52845
  },
  {
   "id": "botha-2026-131-03265-c-pdf",
