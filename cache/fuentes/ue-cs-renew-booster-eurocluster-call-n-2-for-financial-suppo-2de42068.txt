@@ -1,0 +1,78 @@
+### Extracto de la fuente
+RENEW-BOOSTER EUROCLUSTER CALL N°2 FOR FINANCIAL SUPPORT TO THIRD PARTIES
+Proyecto europeo que la convoca: Joint Cluster Initiatives (EUROCLUSTERS) for Europe’s recovery
+Convocatoria en cascada (fondos europeos repartidos por un proyecto a terceros)
+Identificador: SMP-COSME-2024-CLUSTER-01
+Apertura: 2026-09-28
+Cierre: 2026-11-30
+es_SortDate: 2026-09-28T00:00:00.000+0000
+beneficiaryAdministration: More detailed information about the call may be found here 
+ To apply, please complete the submission form on EU SURVEY 
+ Applications may be modified as long as the deadline is respected: you will be able to save and come back later on EU Survey. The platform will be automatically closed at the date and time announced, that is November 30th, 2026, at 5:00 pm CET. Applicants will receive an e-mail confirming that their application has been well uploaded on the platform. Shall you not receive the confirmation e-mail, please contact Benjamin Schmidt at bes@energycluster.dk and copy your local contact point. SMEs applying as a consortium should fill in one proposal. One of the involved SMEs will act as a “coordinator” and will be responsible for the submission of the application.
+ RENEW BOOSTER Eurocluster innovation mechanism will support projects in the "challenges" call and projects in the "open" call, at least 3 SMEs and up to €60,000 euros per SME.
+ Evaluation Process and Criteria 
+ All eligible applications will be evaluated by evaluators against the criteria defined in the RENEW-BOOSTER Call Text: Excellence, Impact and Quality and efficiency of implementation. Each criterion is scored from 0 to 10, with a minimum threshold of 6/10 per criterion.
+ Indicative timeline:
+ Call deadline: 30 November 2026 (17:00 CET)
+ Evaluation: December 2026
+ Results communication: Mid-January 2027
+ Contract signature: End-January 2027
+ For full details on the evaluation methodology, scoring, thresholds, and tie-breaking rules, please see the call text 
+ Proposals will be eligible only if all the following conditions are met: 
+ Applicants must be established in one of the following eligible countries: EU-27 + countries participating in the SMP/COSME strand. 
+ Applicants must be SMEs according to the European Union definition of SMEs: the formal definition is available here and the SME self-assessment questionnaire is available here .
+ Applications must address either the Challenge Call or the Open Call, as described in the Call Text. For applications submitted under the Challenge Call, detailed descriptions of the challenges can be found here or in the EUSurvey submission form.
+ Applications must be written in English (applications partially written in another language are not eligible) and must not exceed the maximum number of characters stated in each text box of the pre-defined template available on the submission platform;
+ Applications must be submitted through EU Survey 
+ SMEs may apply individually to the Challenge Call (Strand A). For the Open Call (Strand B), SMEs may apply either individually or as part of a consortium of up to 3 SMEs.
+ Each SME may submit a maximum of one application under Strand A and one application under Strand B, whether applying individually or as part of a consortium. Applications submitted under both strands must address different activities and must not result in double funding. Any SME submitting more than one application to the same strand will be automatically disqualified.
+ No annexes can be submitted other than the ones demanded on the EU Survey platform.
+ Every applicant organisation needs to be registered on the EU F&T Portal and have a 9-digit Participant Identification Code (PIC). Please find all information PIC number. 
+ This call requires private co-funding. Further information can be found here on page 5-7.
+ At least 10% of funded SMEs should come from countries or regions other than those represented in the consortium; Denmark, Norway, Poland, France, Bulgaria and Spain.
+description: The two calls will be structured through two distinct funding strands. It is reminded that the cumulative maximum FSTP support per SME under the whole set of RENEW-BOOSTER calls is EUR 60,000. An SME may submit a maximum of one application per strand, whether applying individually or as part of a consortium. Consequently, an SME may submit one application under Strand A and one application under Strand B, provided that the proposed activities are distinct and no double funding occurs.
+ Strand A (Challenge-driven) follows a two-step process linked to predefined industrial challenges. In Step 1, up to three SMEs per challenge receive €10,000 (with minimum 20% private co-funding) to develop and validate a proof of concept (TRL 6-7). After evaluation and a final pitch, one SME per challenge advances to Step 2 and receives €50,000 (with minimum 40% co-funding) to further develop and scale the solution (TRL 8–9).
+ Strand B (Open Call) follows a single-stage selection process. SMEs apply bottom-up and can request up to €10,000, €30,000, or €60,000 depending on project maturity, with increasing private co-funding requirements. Projects run up to six months.
+ Find more here: call text
+title: Joint Cluster Initiatives (EUROCLUSTERS) for Europe’s recovery
+esST_checksum: 07EE96F2C00F931C334EAA17F43A862BFF6B5ACE79EE92145B0AFF2D8B2F49D0
+duration: 3 - 6 months
+destinationDetails: More detailed information about the call may be found here 
+ To apply, please complete the submission form on EU SURVEY 
+ Applications may be modified as long as the deadline is respected: you will be able to save and come back later on EU Survey. The platform will be automatically closed at the date and time announced, that is November 30th, 2026, at 5:00 pm CET. Applicants will receive an e-mail confirming that their application has been well uploaded on the platform. Shall you not receive the confirmation e-mail, please contact Benjamin Schmidt at bes@energycluster.dk and copy your local contact point. SMEs applying as a consortium should fill in one proposal. One of the involved SMEs will act as a “coordinator” and will be responsible for the submission of the application.
+ RENEW BOOSTER Eurocluster innovation mechanism will support projects in the "challenges" call and projects in the "open" call, at least 3 SMEs and up to €60,000 euros per SME.
+ Evaluation Process and Criteria 
+ All eligible applications will be evaluated by evaluators against the criteria defined in the RENEW-BOOSTER Call Text: Excellence, Impact and Quality and efficiency of implementation. Each criterion is scored from 0 to 10, with a minimum threshold of 6/10 per criterion.
+ Indicative timeline:
+ Call deadline: 30 November 2026 (17:00 CET)
+ Evaluation: December 2026
+ Results communication: Mid-January 2027
+ Contract signature: End-January 2027
+ For full details on the evaluation methodology, scoring, thresholds, and tie-breaking rules, please see the call text 
+ Proposals will be eligible only if all the following conditions are met: 
+ Applicants must be established in one of the following eligible countries: EU-27 + countries participating in the SMP/COSME strand. 
+ Applicants must be SMEs according to the European Union definition of SMEs: the formal definition is available here and the SME self-assessment questionnaire is available here .
+ Applications must address either the Challenge Call or the Open Call, as described in the Call Text. For applications submitted under the Challenge Call, detailed descriptions of the challenges can be found here or in the EUSurvey submission form.
+ Applications must be written in English (applications partially written in another language are not eligible) and must not exceed the maximum number of characters stated in each text box of the pre-defined template available on the submission platform;
+ Applications must be submitted through EU Survey 
+ SMEs may apply individually to the Challenge Call (Strand A). For the Open Call (Strand B), SMEs may apply either individually or as part of a consortium of up to 3 SMEs.
+ Each SME may submit a maximum of one application under Strand A and one application under Strand B, whether applying individually or as part of a consortium. Applications submitted under both strands must address different activities and must not result in double funding. Any SME submitting more than one application to the same strand will be automatically disqualified.
+ No annexes can be submitted other than the ones demanded on the EU Survey platform.
+ Every applicant organisation needs to be registered on the EU F&T Portal and have a 9-digit Participant Identification Code (PIC). Please find all information PIC number. 
+ This call requires private co-funding. Further information can be found here on page 5-7.
+ At least 10% of funded SMEs should come from countries or regions other than those represented in the consortium; Denmark, Norway, Poland, France, Bulgaria and Spain.
+esST_FileName: file.txt
+projectAcronym: RENEW-BOOSTER
+callTitle: RENEW-BOOSTER EUROCLUSTER CALL N°2 FOR FINANCIAL SUPPORT TO THIRD PARTIES
+furtherInformation: The RENEW-BOOSTER project aims at driving innovation and industrialization in three critical sectors that are vital for Europe’s green transition and energy security: Photovoltaics (PV), Offshore Wind Energy, and the associated Energy Networks. At the core of RENEW-BOOSTER is the Accelerator, providing tailored support for SMEs to identify opportunities and develop solutions, strengthening their role in the renewable energy value chain and enhancing resilience.
+ The project aligns with Europe’s strategic priorities, including reducing critical raw material dependency (Critical Raw Materials Act), advancing climate goals (Green Deal), and supporting re-industrialization (Net Zero Industry Act). RENEW-BOOSTER aims to empower SMEs and accelerate Europe’s twin green and digital transitions.
+ We reserve the right not to award all available funds or to redistribute them between the different calls, depending on the proposals received and the results of the evaluation.
+ For answers to frequently asked questions, please visit our FAQ.
+caName: RENEW-BOOSTER EUROCLUSTER CALL N°2 FOR FINANCIAL SUPPORT TO THIRD PARTIES
+es_ContentType: text/plain
+esDA_FirstIngestDate: 2026-09-23T09:50:19.695+0200
+esDA_IngestDate: 2026-09-23T09:51:09.348+0200
+closingDate: 2026-09-23T00:00:00Z
+esST_URL: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47108154
+esDA_QueueDate: 2026-09-23T09:51:09.342+0200
+projectName: Reinforcing European reNEWable value chains in offshore wind, photovoltaics, and energy grids to BOOST greEn and digital transition for industRial competitiveness

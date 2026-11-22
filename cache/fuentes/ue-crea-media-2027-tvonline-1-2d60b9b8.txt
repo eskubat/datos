@@ -1,0 +1,81 @@
+### Extracto de la fuente
+TV and online content Animation projects
+Convocatoria: TV and online content
+Tipo de acción: CREA Lump Sum Grants
+Identificador: CREA-MEDIA-2027-TVONLINE-1
+Apertura: 2026-09-30
+Cierre: 2027-02-10
+Descripción:
+Scope:
+ The objective of the support to TV and online content is to increase the capacity of audiovisual producers to develop and produce strong projects with significant potential to circulate throughout Europe and beyond, and to facilitate European and international co-productions within the television and online sector.
+ The action aims to strengthen the independence of producers in relation to broadcasters and digital platforms, to enhance collaboration between operators, including independent producers, broadcasters, digital platforms and sales agents, from different countries participating in the MEDIA strand, including from low capacity countries, in order to produce high quality programming aimed at wide international distribution and promoted to a wide audience including commercial exploitation in the multi-platform environment. Particular attention will be given to projects presenting innovative aspects in the content and in the financing that show a clear link with the envisaged distribution strategies. Supported projects can also have associated partners from countries not participating in the MEDIA Strand, though these cannot be beneficiaries. These partners can come from non-European countries to foster wider international cooperation and market access: a case in point is Korea pursuant to the audiovisual entitlement appended to the Protocol on Cultural Cooperation between the EU and Korea.
+ Expected results 
+ Increased production of high quality European works for linear and non-linear broadcasting including on digital platforms, as well as an increase in the number of co-productions.
+ Enhanced cooperation between operators from different countries participating in the MEDIA Strand, including between broadcasters.
+ Increased audience for European works through linear and non-linear broadcasting including on digital platforms.
+ Increased international cooperation, including collaborations between European and Korean professionals, in line with the audiovisual entitlement appended to the Protocol on Cultural Cooperation between the EU and Korea. 
+ Description of the activities to be funded 
+ The TV and online content action supports works (drama films, animation and documentary) intended for linear and non-linear broadcasting, presenting:
+ strong cooperation between operators from different countries participating in the MEDIA Strand, including between broadcasters;
+ high creative/artistic value and wide cross-border exploitation potential able to reach audiences at European and international level;
+ innovative aspects in terms of the content and the financing that show a clear link with the envisaged distribution strategies.
+ Applicants should present adequate strategies to ensure a more sustainable and more environmentally-respectful industry (in particular through the use of greening consultants allowing to reduce the environmental impact of productions and shootings) and to ensure gender balance, inclusion, diversity and representativeness.
+
+Condiciones:
+"> Conditions
+ 1. Admissibility conditions: Proposal page limit and layout
+ described in the call document .
+ Proposal page limits and layout: described in Part B of the Application Form available in the Submission System.
+ 2. Eligible countries
+ described in the call document .
+ 3. Other eligibility conditions
+ described in the call document .
+ 4. Financial and operational capacity and exclusion
+ described in the call document .
+ 5a. Evaluation and award: Submission and evaluation processes
+ described in the call document .
+ 5b. Evaluation and award: Award criteria, scoring and thresholds
+ Evaluation criteria, scoring, threshold and process are described in the call document .
+ 5c. Evaluation and award: Indicative timeline for evaluation and grant agreement
+ described in the call document .
+ 1 st cut-off date 
+ 2 nd cut-off date 
+ Publication of the call
+ 30 September 2026
+ Deadline for submitting applications
+ 10 February 2027, 17:00 (Brussels time)
+ 15 September 2027, 17:00 (Brussels time)
+ Evaluation period
+ February - June 2027
+ September 2027 - January 2028
+ Information to applicants
+ August 2027
+ March 2028
+ Signature of grant agreement
+ November 2027
+ June 2028
+ 6. Legal and financial set-up of the grants
+ described in the call document .
+ Call document and annexes:
+ call document .
+ Application form templates 
+ Standard application form (CREA MEDIA) — the application form specific to this call is available in the Submission System
+ Calculator (CREA MEDIA LS TVONLINE) 
+ Financing structure (CREA MEDIA TVONLINE) 
+ Information on independence and ownership control (CREA MEDIA) 
+ Information on language of submission documents (CREA MEDIA) 
+ Model Grant Agreements (MGA) 
+ CREA MGA 
+ Lump Sum MGA 
+ Additional documents:
+ CREA Annual Work Programmes 
+ CREA Regulation 2021/818 
+ EU Financial Regulation 2024/2509 
+ Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment &#xa0;
+ EU Grants AGA — Annotated Model Grant Agreement &#xa0;
+ Funding & Tenders Portal Online Manual &#xa0;
+ Funding & Tenders Portal Terms and Conditions &#xa0;
+ Funding & Tenders Portal Privacy Statement
+
+Presupuesto:
+{"budgetYearsColumns":["2027"],"budgetTopicActionMap":{"115584":[{"action":"CREA-MEDIA-2027-TVONLINE-1 - CREA-LS CREA Lump Sum Grants","expectedGrants":0,"minContribution":0,"maxContribution":0,"budgetYearMap":{"2027":"23300000"},"plannedOpeningDate":"2026-09-30","deadlineModel":"multiple cut-off","deadlineDates":["2027-02-10","2027-09-15"]},{"action":"CREA-MEDIA-2027-TVONLINE-2 - CREA-LS CREA Lump Sum Grants","expectedGrants":0,"minContribution":0,"maxContribution":0,"budgetYearMap":{"2027":"23300000"},"plannedOpeningDate":"2026-09-30","deadlineModel":"multiple cut-off","deadlineDates":["2027-02-10","2027-09-15"]},{"action":"CREA-MEDIA-2027-TVONLINE-3 - CREA-LS CREA Lump Sum Grants","expectedGrants":0,"minContribution":0,"maxContribution":0,"budgetYearMap":{"2027":"23300000"},"plannedOpeningDate":"2026-09-30","deadlineModel":"multiple cut-off","deadlineDates":["2027-02-10","2027-09-15"]}]}}

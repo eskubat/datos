@@ -1,0 +1,67 @@
+### Extracto de la fuente
+European slate development
+Convocatoria: European slate development
+Tipo de acción: CREA Lump Sum Grants
+Identificador: CREA-MEDIA-2027-DEVSLATE
+Apertura: 2026-09-30
+Cierre: 2026-12-01
+Descripción:
+Scope:
+ The objective of the European slate development support is to foster the competitiveness of European independent production companies and to increase their economic weight on the market. The aim is also to increase the capacity of audiovisual producers to develop projects with the potential to circulate throughout Europe and beyond, and to facilitate European and international coproduction.
+ The support will also provide an entry point for emerging talent, giving them the opportunity to direct a short film supported by the strong foundation provided by experienced companies.
+ Expected results 
+ A stronger position on European and international markets for companies selected under European slate development.
+ Increased quality, feasibility, cross-border potential and market value of European works supported.
+ Description of the activities to be funded 
+ Support will be given to independent European production companies able to develop a slate of 3 to 5 audiovisual works (fiction, animation, creative documentary). This should allow production companies to reduce risks and increase their capacity to attract and retain talents.
+ The European slate development shall provide support to the development of minimum 3 and maximum 5 works for commercial exploitation intended for cinema release, television broadcasting or commercial exploitation on digital platforms or a multi-platform environment in the following categories: animation, creative documentary or fiction. Applicants may add a short film by emerging talent to their slate (optional).
+ The aim is to provide funds to audiovisual production companies to develop work with high creative value and cultural diversity and wide cross-border exploitation potential. Companies are encouraged to develop strategies for marketing and distribution from the outset of the development phase thus improving the potential to reach audiences at a European and international level.
+ Greater cooperation, including co-development, between operators from different countries participating in the MEDIA Strand is also pursued as well as strengthening the competitiveness of European audiovisual production companies by consolidating their capacity for investment in the development phase and expanding companies’ activities and their innovation capacity to explore new fields and markets.
+ Special attention will be given to applications presenting adequate strategies to ensure a more sustainable and more environmentally-respectful industry and to ensure gender balance, inclusion, diversity and representativeness.
+
+Condiciones:
+"> Conditions
+ 1. Admissibility conditions: Proposal page limit and layout
+ described in the call document .
+ Proposal page limits and layout: described in Part B of the Application Form available in the Submission System.
+ 2. Eligible countries
+ described in the call document .
+ 3. Other eligibility conditions
+ described in the call document .
+ 4. Financial and operational capacity and exclusion
+ described in the call document .
+ 5a. Evaluation and award: Submission and evaluation processes
+ described in the call document .
+ 5b. Evaluation and award: Award criteria, scoring and thresholds
+ Evaluation criteria, scoring, threshold and process are described in the call document .
+ 5c. Evaluation and award: Indicative timeline for evaluation and grant agreement
+ described in the call document .
+ Publication of the call: 30 September 2026.
+ Deadline for submitting applications: 1 December 2026, 17:00 (Brussels time).
+ Evaluation period: December 2026 - April 2027.
+ Information to applicants: May 2027.
+ Signature of grant agreement: August 2027.
+ 6. Legal and financial set-up of the grants
+ described in the call document .
+ Call document and annexes:
+ call document .
+ Application form templates 
+ Standard application form (CREA MEDIA) — the application form specific to this call is available in the Submission System
+ Creative dossier (CREA MEDIA CODEV, DEVSLATE and DEVMINISLATE) 
+ Information on independence and ownership control (CREA MEDIA) 
+ Information on language of submission documents (CREA MEDIA) 
+ Model Grant Agreements (MGA) 
+ CREA MGA 
+ Lump Sum MGA 
+ Additional documents:
+ CREA Annual Work Programmes 
+ CREA Regulation 2021/818 
+ EU Financial Regulation 2024/2509 
+ Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment &#xa0;
+ EU Grants AGA — Annotated Model Grant Agreement &#xa0;
+ Funding & Tenders Portal Online Manual &#xa0;
+ Funding & Tenders Portal Terms and Conditions &#xa0;
+ Funding & Tenders Portal Privacy Statement
+
+Presupuesto:
+{"budgetYearsColumns":["2027"],"budgetTopicActionMap":{"115581":[{"action":"CREA-MEDIA-2027-DEVSLATE - CREA-LS CREA Lump Sum Grants","expectedGrants":0,"minContribution":0,"maxContribution":0,"budgetYearMap":{"2027":"22374320"},"plannedOpeningDate":"2026-09-30","deadlineModel":"single-stage","deadlineDates":["2026-12-01"]}]}}

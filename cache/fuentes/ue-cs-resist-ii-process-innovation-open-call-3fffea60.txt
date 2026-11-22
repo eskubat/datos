@@ -1,0 +1,47 @@
+### Extracto de la fuente
+RESIST II PROCESS INNOVATION OPEN CALL
+Proyecto europeo que la convoca: Joint Cluster Initiatives (EUROCLUSTERS) for Europe’s recovery
+Convocatoria en cascada (fondos europeos repartidos por un proyecto a terceros)
+Identificador: SMP-COSME-2024-CLUSTER-01
+Apertura: 2026-05-13
+Cierre: 2027-07-13
+es_SortDate: 2026-05-13T00:00:00.000+0000
+beneficiaryAdministration: This open call aims to support European SMEs operating in the Mobility, Transport and Automotive ecosystem to redefine their manufacturing or industrial processes, carrying out improvements in current operations and/or incorporating new methods or systems which allow them to be more digital, green and resilient. The call is split into two cut-offs or application periods: the 1st one, launched on the 13th May 2026, will be opened for 2 months, while the 2nd one is expected to be launched in May 2027
+ Eligible candidates 
+ The Open call is addressed to SMEs working in the MTA ecosystem and located in EU Member States or SMP associated countries. SMEs can apply individually or in consortium (2-3 SMEs from different NUTS2 regions)
+ Submission process 
+ Applications to the RESIST II process innovation open call must be submitted electronically vía the following online platform . Eligible candidates must fill in the corresponding application form and upload the required annexes (resilience check + declaration of honour)
+ Evaluation process in three stages 
+ Verification of the admissibility and eligibility of applications
+ Analysis of eligible proposals by at least 3 independent experts and scoring according to the 4 evaluation criteria specified in the Guide for applicants. Applications will then be ranked in descending order based on the scores obtained and the established tie-breaking rules
+ The resulting ranking list must be reviewed by the consortium partners for its validation
+description: Project cost categories may include:
+ • External services and procurement (e.g. testing, certification, consulting, specialised technical services)
+ • Equipment, components and consumables
+ • Personnel costs of staff directly involved in the project
+ • Prototype development, pilot testing and validation activities
+title: Joint Cluster Initiatives (EUROCLUSTERS) for Europe’s recovery
+esST_checksum: 9CD1DDA8F6631ED00B1C52971BAEAD44CFFB4DFF7D325CC352DB1A43391EFD63
+duration: 9 months
+destinationDetails: This open call aims to support European SMEs operating in the Mobility, Transport and Automotive ecosystem to redefine their manufacturing or industrial processes, carrying out improvements in current operations and/or incorporating new methods or systems which allow them to be more digital, green and resilient. The call is split into two cut-offs or application periods: the 1st one, launched on the 13th May 2026, will be opened for 2 months, while the 2nd one is expected to be launched in May 2027
+ Eligible candidates 
+ The Open call is addressed to SMEs working in the MTA ecosystem and located in EU Member States or SMP associated countries. SMEs can apply individually or in consortium (2-3 SMEs from different NUTS2 regions)
+ Submission process 
+ Applications to the RESIST II process innovation open call must be submitted electronically vía the following online platform . Eligible candidates must fill in the corresponding application form and upload the required annexes (resilience check + declaration of honour)
+ Evaluation process in three stages 
+ Verification of the admissibility and eligibility of applications
+ Analysis of eligible proposals by at least 3 independent experts and scoring according to the 4 evaluation criteria specified in the Guide for applicants. Applications will then be ranked in descending order based on the scores obtained and the established tie-breaking rules
+ The resulting ranking list must be reviewed by the consortium partners for its validation
+esST_FileName: file.txt
+projectAcronym: RESIST II
+callTitle: RESIST II PROCESS INNOVATION OPEN CALL
+furtherInformation: Applicants could receive up to 20,000€ in the case of individual projects and up to 30,000€/SME in the case of collaborative projects , with 90% of co-financing rate 
+ Apart from the funding, selected SMEs will benefit from a complementary package of services provided during their projects implementation, including technical support, access to the pool of experts, training courses and internationalisation opportunities in third countries
+caName: RESIST II PROCESS INNOVATION OPEN CALL
+es_ContentType: text/plain
+esDA_FirstIngestDate: 2026-05-13T10:29:43.412+0200
+esDA_IngestDate: 2026-05-19T14:00:14.706+0200
+closingDate: 2026-05-19T00:00:00Z
+esST_URL: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/47108154
+esDA_QueueDate: 2026-05-19T14:00:14.689+0200
+projectName: Resilience through Sustainable processes and production for the European automotive InduSTry

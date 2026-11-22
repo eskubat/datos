@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "generado": "2026-11-22T09:46:18.768Z",
-  "total": 442,
+  "generado": "2026-11-22T10:43:46.924Z",
+  "total": 467,
   "porAmbito": {
     "estado": 59,
     "euskadi": 84,
     "municipio": 207,
-    "territorio": 84,
-    "ue": 8
+    "ue": 33,
+    "territorio": 84
   },
   "porEstado": {
-    "abierta": 337,
-    "proxima": 45,
+    "abierta": 361,
+    "proxima": 46,
     "sinfecha": 60
   },
   "previstas": 651,
@@ -55,18 +55,18 @@
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 19,
-      "segundos": 14,
+      "segundos": 15,
       "erroresFicha": 0
     },
     "europa": {
       "nombre": "Funding & Tenders Portal (Comisión Europea), convocatorias sin consorcio",
       "ok": true,
-      "registros": 4,
+      "registros": 29,
       "erroresFicha": 0
     }
   },
   "enlaces": {
-    "comprobados": 660,
+    "comprobados": 682,
     "rotos": 0,
     "sustituidos": 0,
     "quitados": 0

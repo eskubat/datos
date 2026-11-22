@@ -252,6 +252,42 @@
   "caracteres": 289509
  },
  {
+  "id": "ue-crea-media-2027-tvonline-1",
+  "h": "594ec78e4c088425",
+  "titulo": "TV and online content Animation projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
+  "caracteres": 6321
+ },
+ {
+  "id": "ue-crea-media-2027-tvonline-2",
+  "h": "2bb80164abe11ee5",
+  "titulo": "TV and online content Documentary projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
+  "caracteres": 6324
+ },
+ {
+  "id": "ue-crea-media-2027-tvonline-3",
+  "h": "edb329094bf69b46",
+  "titulo": "TV and online content Fiction projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
+  "caracteres": 6320
+ },
+ {
+  "id": "bdns-936041",
+  "h": "ccfcf355ebb1e41b",
+  "titulo": "Concurso infantil de relatos Txiki Baskardo",
+  "organismoSugerido": "ayto-getxo",
+  "organismoFuente": "Ayuntamiento de Getxo",
+  "archivo": "cache/fuentes/bdns-936041-28515870.txt",
+  "caracteres": 323480
+ },
+ {
   "id": "ara-01362004",
   "h": "a2f6dd95e1dcce18",
   "titulo": "Ayuda para el fomento y puesta en valor del terroir rioja alavesa. fomento del terroir A traves de la viticultura. . medidas 1,3 y 4",
@@ -261,6 +297,15 @@
   "caracteres": 36508
  },
  {
+  "id": "ue-crea-media-2027-filmdist",
+  "h": "93d43372d8be537d",
+  "titulo": "European Film Distribution",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-filmdist-9cdefc48.txt",
+  "caracteres": 3631
+ },
+ {
   "id": "ara-01362003",
   "h": "57620d155403cc57",
   "titulo": "Ayuda para el fomento y puesta en valor del terroir rioja alavesa. fomento del terroir a traves de la viticultura",
@@ -268,6 +313,24 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01362003-2cf30e1e.txt",
   "caracteres": 37231
+ },
+ {
+  "id": "ue-cs-resist-ii-process-innovation-open-call",
+  "h": "b40050bc3e34dc61",
+  "titulo": "Resist II process innovation OPEN CALL",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-resist-ii-process-innovation-open-call-3fffea60.txt",
+  "caracteres": 4954
+ },
+ {
+  "id": "ue-cs-resist-ii-product-innovation-open-call",
+  "h": "f09824129f1f3b5a",
+  "titulo": "Resist II product innovation OPEN CALL",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-resist-ii-product-innovation-open-call-385d00a0.txt",
+  "caracteres": 4876
  },
  {
   "id": "bdns-942548",
@@ -421,6 +484,15 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-extraordinarias-y-temporales-para-el-transporte-p-444e21a1.txt",
   "caracteres": 42502
+ },
+ {
+  "id": "bdns-941759",
+  "h": "50216b2413c0e6fc",
+  "titulo": "Subvenciones para celebrar aniversarios de asociaciones culturales",
+  "organismoSugerido": "ayto-getxo",
+  "organismoFuente": "Ayuntamiento de Getxo",
+  "archivo": "cache/fuentes/bdns-941759-12643488.txt",
+  "caracteres": 348005
  },
  {
   "id": "bdns-941144",
