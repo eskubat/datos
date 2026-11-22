@@ -354,6 +354,23 @@
   "urls": [
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/06/12/II-3143_cas.pdf",
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2020/06/24/II-1853_cas.pdf"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/06/12/II-3143_cas.pdf",
+    "motivo": "no es PDF (text/html, 44111 bytes)"
+   },
+   {
+    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2020/06/24/II-1853_cas.pdf",
+    "motivo": "no es PDF (text/html, 43034 bytes)"
+   },
+   {
+    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/06/BOB-2026a110.pdf",
+    "motivo": "no es PDF (text/html, 46031 bytes)"
+   }
   ]
  },
  "bdns-910362": {
@@ -362,13 +379,30 @@
   "urls": [
    "https://www.azpeitia.eus/tramiteak/dirulaguntza-programak/tramitean/gizarte-bazterkeriako-eta-behar-larriko-egoerei-aurre-egiteko-norbanako-eta-familientzako-udal-laguntza/1-oinarriak_fudal_gao.pdf",
    "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2022/03/30/c2201679.pdf"
-  ]
+  ],
+  "estado": "ok",
+  "url": "https://www.azpeitia.eus/tramiteak/dirulaguntza-programak/tramitean/gizarte-bazterkeriako-eta-behar-larriko-egoerei-aurre-egiteko-norbanako-eta-familientzako-udal-laguntza/1-oinarriak_fudal_gao.pdf",
+  "fecha": "2026-11-22",
+  "probadas": []
  },
  "bdns-929714": {
   "titulo": "Subvención a asociaciones para la organización de colonias y campamentos de verano 2026, Ayuntamiento de Barakaldo (BDNS 929714, recibida el 16/09/2026)",
   "botha": [],
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/929714"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2014/02/20140221a036.pdf#page=73",
+    "motivo": "es de otra convocatoria"
+   },
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1522205",
+    "motivo": "es de otra convocatoria"
+   }
   ]
  },
  "bdns-910373": {
@@ -379,6 +413,19 @@
   "urls": [
    "http://www.araba.eus/botha/Boletines/2026/067/2026_067_01687_E.pdf",
    "https://www.vitoria-gasteiz.org/docs/wb021/contenidosEstaticos/adjuntos/es/34/28/103428.pdf"
+  ],
+  "estado": "ok",
+  "url": "https://www.araba.eus/botha/Boletines/2026/067/2026_067_01687_C.pdf",
+  "fecha": "2026-11-22",
+  "probadas": [
+   {
+    "url": "http://www.araba.eus/botha/Boletines/2026/067/2026_067_01687_E.pdf",
+    "motivo": "es de otra convocatoria"
+   },
+   {
+    "url": "https://www.vitoria-gasteiz.org/docs/wb021/contenidosEstaticos/adjuntos/es/34/28/103428.pdf",
+    "motivo": "es de otra convocatoria"
+   }
   ]
  },
  "bdns-910375": {
@@ -388,6 +435,15 @@
   ],
   "urls": [
    "http://www.araba.eus/botha/Boletines/2026/067/2026_067_01689_E.pdf"
+  ],
+  "estado": "ok",
+  "url": "https://www.araba.eus/botha/Boletines/2026/067/2026_067_01689_C.pdf",
+  "fecha": "2026-11-22",
+  "probadas": [
+   {
+    "url": "http://www.araba.eus/botha/Boletines/2026/067/2026_067_01689_E.pdf",
+    "motivo": "es de otra convocatoria"
+   }
   ]
  }
 }
