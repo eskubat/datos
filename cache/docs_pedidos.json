@@ -906,16 +906,20 @@
   "probadas": []
  },
  "bdns-881434": {
-  "titulo": "Ordenanza reguladora de ayudas sociales individuales del Ayuntamiento de Galdakao (Boletín Oficial de Bizkaia, 28 de octubre de 2008)",
+  "titulo": "Ordenanza reguladora de las ayudas sociales individuales del Ayuntamiento de Galdakao (Boletín Oficial de Bizkaia, 28 de octubre de 2008, n.º 207, pág. 48)",
   "botha": [],
   "urls": [
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2008/10/20081028a207.pdf"
   ],
-  "origen": "tarea de fichas: la convocatoria 2026 (BDNS 881434) remite a la ordenanza y las páginas de requisitos y cuantías de la resolución son imágenes sin texto",
+  "origen": "tarea de fichas: la convocatoria 2026 (BDNS 881434) remite a esa ordenanza y no dice qué cubre, cuánto ni quién puede pedirla",
   "fecha": "2026-11-22",
   "estado": "fallo",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
+   {
+    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2008/10/20081028a207.pdf",
+    "motivo": "no es PDF (text/html, 40826 bytes)"
+   },
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2008/10/20081028a207.pdf",
     "motivo": "no es PDF (text/html, 45458 bytes)"
