@@ -985,5 +985,16 @@
   "estado": "hecha",
   "fecha": "2026-11-22",
   "nota": "Causa: en la recolección de las 06:45 UTC la API de la BDNS devolvió HTML en vez de JSON, la fuente falló entera y se conservaron sus ayudas de la publicación anterior, que no guarda la lista de documentos (_docs); por eso esos documentos ni se pidieron y la reutilización del texto anterior no llegó a actuar. Ahora, cuando una fuente falla, cada ayuda conservada recupera de cache/fuentes/<id>.txt sus secciones «### Título: url» (sin ficha ni extractos) y el texto se rehace en el mismo orden y con los mismos títulos (probado sin red con bdns-937455, 939817 y 939560: texto idéntico salvo el extracto del boletín, que se añade después como siempre); además un 404 de la API de documentos de la BDNS ya no borra la sección si hay texto anterior. No trae ayudas nuevas: se espera que un fallo de la BDNS deje de devolver fichas hechas a la cola; las ~108 que quedan se resuelven con la tarea de resúmenes (sus textos ya están en cache/textos_claude) o al volver la BDNS en la próxima recolección."
+ },
+ {
+  "id": "docs-pedidos-boletin-equivocado-onati",
+  "titulo": "«Documentos pedidos» marcó como bueno un BOTHA que no era el documento pedido",
+  "detalle": "Problema: para bdns-893232 (auzo-taxi de Oñati, bases en el BOG del 19/04/2023 y corrección del 16/11/2023) el flujo «Documentos pedidos» dejó estado \"ok\" con https://www.araba.eus/botha/Boletines/2026/133/2026_133_03267_C.pdf, que es el Decreto Foral 43/2026 de la Diputación Foral de Álava sobre colonias felinas. Ese texto quedó en cache/pedidos/bdns-893232.txt, en cache/docs_extra.json[\"bdns-893232\"] y al principio de cache/fuentes/bdns-893232-73532198.txt, así que la ficha de Oñati se mezcla con un documento ajeno. Parece que recolector/docspedidos.js busca en los sumarios del BOTHA aunque la ayuda sea de Gipuzkoa y da por bueno un anuncio sin comprobar que trata de la ayuda. Qué hacer: (1) buscar en el BOTHA solo para organismos de Álava; para Gipuzkoa, en el BOG (egoitza.gipuzkoa.eus/gao-bog), y para Bizkaia, en el BOB; (2) antes de marcar \"ok\", comprobar que el texto descargado contiene palabras del título pedido; (3) quitar la URL del Decreto Foral 43/2026 de docs_extra de bdns-893232. La tarea de resúmenes ya volvió a pedir los dos PDF del BOG en cache/docs_pedidos.json. Comprobación: cache/fuentes/bdns-893232-*.txt deja de contener «colonias felinas» y la base tercera del auzo-taxi aparece en cache/pedidos/bdns-893232.txt.",
+  "fuente": "Tarea de resúmenes",
+  "seccion": "datos",
+  "quien": "Claude",
+  "prioridad": 30,
+  "estado": "pendiente",
+  "fecha": "2026-11-22"
  }
 ]
