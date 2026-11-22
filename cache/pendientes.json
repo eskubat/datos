@@ -1,14 +1,5 @@
 [
  {
-  "id": "eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias-y-forestales-2026",
-  "h": "91adb78e4800f435",
-  "titulo": "Ayudas a las agrupaciones de personas productoras agrarias y forestales incluidas en el pepac",
-  "organismoSugerido": "gv-alimentacion",
-  "organismoFuente": "Alimentación, Desarrollo Rural, Agricultura y Pesca",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias--db315c56.txt",
-  "caracteres": 277634
- },
- {
   "id": "bdns-906384",
   "h": "7d8ce37b5695018d",
   "titulo": "Ciberseguridad Industrial",
@@ -25,6 +16,15 @@
   "organismoFuente": "Icex españa exportación e inversiones, ep e.",
   "archivo": "cache/fuentes/bdns-938576-f3296b40.txt",
   "caracteres": 4021
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias-y-forestales-2026",
+  "h": "91adb78e4800f435",
+  "titulo": "Ayudas a las agrupaciones de personas productoras agrarias y forestales incluidas en el pepac",
+  "organismoSugerido": "gv-alimentacion",
+  "organismoFuente": "Alimentación, Desarrollo Rural, Agricultura y Pesca",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias--db315c56.txt",
+  "caracteres": 277634
  },
  {
   "id": "eus-ayuda-subvencion-2026-partz-weblan00-content-es",
@@ -63,6 +63,15 @@
   "caracteres": 71718
  },
  {
+  "id": "bdns-883715",
+  "h": "6822bcae48457f4a",
+  "titulo": "Ayudas no periódicas municipales (ANPM)",
+  "organismoSugerido": "ayto-basauri",
+  "organismoFuente": "Ayuntamiento de basauri",
+  "archivo": "cache/fuentes/bdns-883715-325e89ed.txt",
+  "caracteres": 55139
+ },
+ {
   "id": "ue-horizon-eic-2026-prize-wip",
   "h": "ed2bdc6e55313d53",
   "titulo": "The European Prize for Women Innovators",
@@ -97,6 +106,15 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
   "caracteres": 5840
+ },
+ {
+  "id": "bdns-882340",
+  "h": "a7c21414677abcd7",
+  "titulo": "Convocatoria de subvenciones al nacimiento o adopción de hijos e hijas en el municipio",
+  "organismoSugerido": "ayto-amorebieta-etxano",
+  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
+  "archivo": "cache/fuentes/bdns-882340-790bcd26.txt",
+  "caracteres": 22224
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -189,13 +207,49 @@
   "caracteres": 300000
  },
  {
-  "id": "ue-crea-media-2027-tvonline-1",
-  "h": "594ec78e4c088425",
-  "titulo": "TV and online content Animation projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
-  "caracteres": 6321
+  "id": "bdns-893232",
+  "h": "00d790346a2c2673",
+  "titulo": "Convocatoria pública de las subvenciones del programa de auzo-taxi",
+  "organismoSugerido": "ayto-onati",
+  "organismoFuente": "Ayuntamiento de oñati",
+  "archivo": "cache/fuentes/bdns-893232-73532198.txt",
+  "caracteres": 300000
+ },
+ {
+  "id": "bdns-883989",
+  "h": "18aa3fcf17c94138",
+  "titulo": "Bases específicas de subvenciones para la Emancipación de los jóvenes",
+  "organismoSugerido": "ayto-zumarraga",
+  "organismoFuente": "Ayuntamiento de zumarraga",
+  "archivo": "cache/fuentes/bdns-883989-7fee53f1.txt",
+  "caracteres": 25714
+ },
+ {
+  "id": "bdns-883490",
+  "h": "ff1e9b5de9e5f116",
+  "titulo": "Programa Municipal de Ayudas a Mujeres Víctimas de Violencia Machista",
+  "organismoSugerido": "ayto-laudio-llodio",
+  "organismoFuente": "Ayuntamiento de laudio/llodio",
+  "archivo": "cache/fuentes/bdns-883490-bac769bd.txt",
+  "caracteres": 283901
+ },
+ {
+  "id": "bdns-882139",
+  "h": "b91e2ca8587b19b6",
+  "titulo": "Bases subvenciones tratamiento psicopedagogico",
+  "organismoSugerido": "ayto-leioa",
+  "organismoFuente": "Ayuntamiento de leioa",
+  "archivo": "cache/fuentes/bdns-882139-81424771.txt",
+  "caracteres": 39377
+ },
+ {
+  "id": "bdns-921964",
+  "h": "66f97dd5d665bc8a",
+  "titulo": "Premios Ejército",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Ejército de tierra",
+  "archivo": "cache/fuentes/bdns-921964-7dd71bd1.txt",
+  "caracteres": 53677
  },
  {
   "id": "ue-crea-media-2027-tvonline-2",
@@ -214,6 +268,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
   "caracteres": 6320
+ },
+ {
+  "id": "ue-crea-media-2027-tvonline-1",
+  "h": "594ec78e4c088425",
+  "titulo": "TV and online content Animation projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
+  "caracteres": 6321
  },
  {
   "id": "ara-01362004",
@@ -259,6 +322,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-cs-resist-ii-product-innovation-open-call-385d00a0.txt",
   "caracteres": 4876
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-pi2026-c-weblan00-content-es",
+  "h": "3af4db7ff862b34e",
+  "titulo": "Ayudas para el desarrollo de proyectos integrales de empleo, formación e inserción laboral",
+  "organismoSugerido": "lanbide",
+  "organismoFuente": "Lanbide - Servicio Público Vasco de Empleo",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-pi2026-c-weblan00-content-es-051f0233.txt",
+  "caracteres": 300000
  },
  {
   "id": "bdns-942548",
@@ -502,6 +574,24 @@
   "organismoFuente": "Ayuntamiento de amurrio",
   "archivo": "cache/fuentes/bdns-895036-5dbfaee7.txt",
   "caracteres": 7333
+ },
+ {
+  "id": "bdns-882401",
+  "h": "600219506089fa8b",
+  "titulo": "Desarrollo de un programa de sensibilización sobre el consumo alimentario consciente",
+  "organismoSugerido": "ayto-vitoria-gasteiz",
+  "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
+  "archivo": "cache/fuentes/bdns-882401-0973bc8a.txt",
+  "caracteres": 103827
+ },
+ {
+  "id": "bdns-882392",
+  "h": "8808dedcc922ac35",
+  "titulo": "Desarrollo de un programa de activación ciudadana en el marco del programa de conservación de aves urbanas",
+  "organismoSugerido": "ayto-vitoria-gasteiz",
+  "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
+  "archivo": "cache/fuentes/bdns-882392-1e077c01.txt",
+  "caracteres": 86790
  },
  {
   "id": "botha-2026-131-03265-c-pdf",

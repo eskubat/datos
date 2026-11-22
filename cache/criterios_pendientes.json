@@ -14,20 +14,6 @@
   "revisar": false
  },
  {
-  "id": "eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias-y-forestales-2026",
-  "h": "012dcc20a88fa3bc",
-  "titulo": "Ayudas a las agrupaciones de personas productoras agrarias y forestales incluidas en el pepac",
-  "para": [
-   "autonomo",
-   "asociacion"
-  ],
-  "temas": [
-   "rural"
-  ],
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias--db315c56.txt",
-  "revisar": false
- },
- {
   "id": "bdns-938213",
   "h": "724f8e04c90581fe",
   "titulo": "Concurso Gilda Eguna para promocionar la hostelería de barra",
@@ -286,6 +272,20 @@
   "revisar": false
  },
  {
+  "id": "eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias-y-forestales-2026",
+  "h": "012dcc20a88fa3bc",
+  "titulo": "Ayudas a las agrupaciones de personas productoras agrarias y forestales incluidas en el pepac",
+  "para": [
+   "autonomo",
+   "asociacion"
+  ],
+  "temas": [
+   "rural"
+  ],
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias--db315c56.txt",
+  "revisar": false
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-ikermugikortasuna-2027",
   "h": "491f70d0931203a3",
   "titulo": "Ayudas Ikermugikortasuna para estancias de investigadores doctores fuera de Euskadi",
@@ -525,8 +525,9 @@
  {
   "id": "bdns-918655",
   "h": "c605b745ad7e1b70",
-  "titulo": "Viii campaña reparto bonos para reforzar el canal de venta de proximidad",
+  "titulo": "Bonos de descuento para comprar en el comercio local",
   "para": [
+   "particular",
    "autonomo",
    "empresa"
   ],
@@ -705,7 +706,7 @@
  {
   "id": "bdns-890216",
   "h": "ce9229fd3ca10db1",
-  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la contratación de personas provenientes de procesos de inserción socio-laboral",
+  "titulo": "Subvenciones para contratar a personas que vienen de empresas de inserción",
   "para": [
    "autonomo",
    "empresa"
@@ -733,7 +734,7 @@
  {
   "id": "bdns-890111",
   "h": "87c75fb1e113ae9b",
-  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la promoción de nuevas empresas",
+  "titulo": "Ayudas para crear o traspasar un negocio y alquilar el local",
   "para": [
    "autonomo",
    "empresa"
@@ -743,6 +744,20 @@
    "emprendimiento"
   ],
   "archivo": "cache/fuentes/bdns-890111-55bde52b.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-885466",
+  "h": "da1e2c15fd8540d4",
+  "titulo": "Ayudas para personas y familias en extrema necesidad o exclusión social",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-885466-55a03557.txt",
   "revisar": false
  },
  {
@@ -808,20 +823,6 @@
   ],
   "temas": [],
   "archivo": "cache/fuentes/ue-cs-renew-booster-eurocluster-call-n-2-for-financial-suppo-2de42068.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-885466",
-  "h": "da1e2c15fd8540d4",
-  "titulo": "Ayudas a particulares y familias para paliar situaciones de extrema necesidad y/o exclusión social",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "familia",
-   "social"
-  ],
-  "archivo": "cache/fuentes/bdns-885466-55a03557.txt",
   "revisar": false
  },
  {
@@ -907,7 +908,7 @@
  {
   "id": "bdns-910085",
   "h": "23087b8f90ed88ca",
-  "titulo": "Ayudas sociales puntuales para gastos extraordinarios",
+  "titulo": "Ayudas municipales de carácter social no periódicas",
   "para": [
    "particular"
   ],
@@ -944,6 +945,19 @@
    "social"
   ],
   "archivo": "cache/fuentes/bdns-885396-4ee923fe.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-883715",
+  "h": "047aa918d8ed01a8",
+  "titulo": "Ayudas no periódicas municipales (ANPM)",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-883715-325e89ed.txt",
   "revisar": false
  },
  {
@@ -1261,15 +1275,29 @@
  {
   "id": "bdns-886687",
   "h": "977f06227c38f201",
-  "titulo": "Convocatoria para la concesión de ayudas dirigidas a promover la generación de empleo en el municipio",
+  "titulo": "Ayudas para contratar a personas desempleadas y emprender un negocio",
   "para": [
+   "empresa",
    "autonomo",
-   "empresa"
+   "asociacion"
   ],
   "temas": [
    "empleo"
   ],
   "archivo": "cache/fuentes/bdns-886687-7df0ea90.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-882340",
+  "h": "89aea4ab9acea873",
+  "titulo": "Convocatoria de subvenciones al nacimiento o adopción de hijos e hijas en el municipio",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia"
+  ],
+  "archivo": "cache/fuentes/bdns-882340-790bcd26.txt",
   "revisar": false
  },
  {
@@ -2960,9 +2988,10 @@
  {
   "id": "bdns-894356",
   "h": "21cb49fc064bb5e3",
-  "titulo": "Subvenciones para el fomento de las explotaciones agropecuarias del municipio",
+  "titulo": "Subvenciones para obras en explotaciones agrícolas y ganaderas",
   "para": [
-   "particular"
+   "autonomo",
+   "empresa"
   ],
   "temas": [
    "rural"
@@ -2973,7 +3002,7 @@
  {
   "id": "bdns-893428",
   "h": "3a0735521c9658c5",
-  "titulo": "Subvenciones obras rehabilitación de viviendas",
+  "titulo": "Subvenciones para rehabilitar viviendas y arreglar fachadas",
   "para": [
    "particular"
   ],
@@ -2985,7 +3014,7 @@
  },
  {
   "id": "bdns-893232",
-  "h": "eef3023bab40148f",
+  "h": "051adcad968cf8e0",
   "titulo": "Convocatoria pública de las subvenciones del programa de auzo-taxi",
   "para": [
    "autonomo",
@@ -2998,7 +3027,7 @@
  {
   "id": "bdns-891115",
   "h": "c636e2c3fa681302",
-  "titulo": "Convocatoria de ayudas económicas individualizadas destinadas a prevenir",
+  "titulo": "Ayudas económicas para prevenir situaciones de exclusión social",
   "para": [
    "particular"
   ],
@@ -3010,8 +3039,8 @@
  },
  {
   "id": "bdns-890382",
-  "h": "aac62584d76cf9c5",
-  "titulo": "Subvenciones para los rótulos en euskara o en euskara y castellano en establecimientos comerciales",
+  "h": "74662d3020f83dda",
+  "titulo": "Subvenciones para poner en euskera los rótulos de comercios y negocios",
   "para": [
    "autonomo",
    "empresa"
@@ -3025,10 +3054,12 @@
  },
  {
   "id": "bdns-890370",
-  "h": "888b5962c459ee9c",
-  "titulo": "Subvenciones para realizar actividades que tengan como objetivo la normalización del euskera",
+  "h": "3c15f32c567ee6df",
+  "titulo": "Subvenciones para jornadas y actos puntuales que promuevan el euskera",
   "para": [
    "particular",
+   "autonomo",
+   "empresa",
    "asociacion"
   ],
   "temas": [
@@ -3040,7 +3071,7 @@
  {
   "id": "bdns-890270",
   "h": "69dd66f24519761f",
-  "titulo": "Bases específicas de las ayudas en materia social",
+  "titulo": "Ayudas extraordinarias para cubrir necesidades básicas",
   "para": [
    "particular"
   ],
@@ -3053,9 +3084,10 @@
  {
   "id": "bdns-890221",
   "h": "5af20181f6a51cf7",
-  "titulo": "Subvenciones del Área de Euskara correspondientes",
+  "titulo": "Subvenciones para traducir páginas web al euskera",
   "para": [
-   "particular"
+   "empresa",
+   "asociacion"
   ],
   "temas": [
    "educacion"
@@ -3066,9 +3098,11 @@
  {
   "id": "bdns-890177",
   "h": "ffef81a5d031506c",
-  "titulo": "Subvenciones del Área de Euskara correspondientes",
+  "titulo": "Subvenciones para contratar un dominio.eus para la página web",
   "para": [
-   "particular"
+   "autonomo",
+   "empresa",
+   "asociacion"
   ],
   "temas": [
    "empleo",
@@ -3080,9 +3114,11 @@
  {
   "id": "bdns-889972",
   "h": "d76e75e98fe18e34",
-  "titulo": "Subvenciones del Área de Euskara correspondientes",
+  "titulo": "Ayudas para poner rótulos en euskera en comercios y locales",
   "para": [
-   "particular"
+   "autonomo",
+   "empresa",
+   "asociacion"
   ],
   "temas": [
    "emprendimiento",
@@ -3094,7 +3130,7 @@
  {
   "id": "bdns-889920",
   "h": "6a1793e7ca81eba8",
-  "titulo": "Subvenciones del Área de Euskara correspondientes",
+  "titulo": "Ayudas para cursos de monitor y director de tiempo libre en euskera",
   "para": [
    "particular"
   ],
@@ -3107,7 +3143,7 @@
  {
   "id": "bdns-889856",
   "h": "4d11af67380a4089",
-  "titulo": "Subvenciones del Área de Euskara correspondientes",
+  "titulo": "Ayudas para cursos de verano universitarios en euskera",
   "para": [
    "particular"
   ],
@@ -3119,9 +3155,24 @@
   "revisar": false
  },
  {
+  "id": "bdns-889615",
+  "h": "d14d72ef88a9c456",
+  "titulo": "Subvenciones para proyectos culturales, eventos y festivales",
+  "para": [
+   "autonomo",
+   "empresa",
+   "asociacion"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-889615-f25da2dc.txt",
+  "revisar": false
+ },
+ {
   "id": "bdns-884762",
   "h": "26f91fd3c5fde244",
-  "titulo": "Programa municipal de ayudas de sostenimiento",
+  "titulo": "Ayudas de sostenimiento para personas y familias sin acceso a la RGI",
   "para": [
    "particular"
   ],
@@ -3129,6 +3180,46 @@
    "social"
   ],
   "archivo": "cache/fuentes/bdns-884762-191176e2.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-883989",
+  "h": "db5976fec1f5146a",
+  "titulo": "Bases específicas de subvenciones para la Emancipación de los jóvenes",
+  "para": [
+   "particular",
+   "ayuntamiento",
+   "empresa"
+  ],
+  "temas": [
+   "vivienda",
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-883989-7fee53f1.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-883490",
+  "h": "02b502bea0ad2413",
+  "titulo": "Programa Municipal de Ayudas a Mujeres Víctimas de Violencia Machista",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-883490-bac769bd.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-882139",
+  "h": "6d06db39775bc79e",
+  "titulo": "Bases subvenciones tratamiento psicopedagogico",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bdns-882139-81424771.txt",
   "revisar": false
  },
  {
@@ -3434,7 +3525,7 @@
  },
  {
   "id": "bdns-921964",
-  "h": "0cdf0ff264817c62",
+  "h": "6b855c127712c52b",
   "titulo": "Premios Ejército",
   "para": [
    "particular",
@@ -3562,7 +3653,7 @@
  {
   "id": "bdns-936041",
   "h": "163f61d1fb793556",
-  "titulo": "10ª edición del Concurso Infantil de Relatos ‘Txiki Baskardo’",
+  "titulo": "Concurso de relatos Txiki Baskardo para estudiantes de primero de ESO",
   "para": [
    "particular"
   ],
@@ -3570,6 +3661,19 @@
    "cultura"
   ],
   "archivo": "cache/fuentes/bdns-936041-28515870.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-936011",
+  "h": "4234462b7363de16",
+  "titulo": "Concurso de novela corta Ramiro Pinilla",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-936011-f75e9b72.txt",
   "revisar": false
  },
  {
@@ -3679,9 +3783,8 @@
  {
   "id": "bdns-941955",
   "h": "9b5ad47f391afe88",
-  "titulo": "Ayudas a la producción de cortometrajes realizados",
+  "titulo": "Ayudas para la producción de cortometrajes ya terminados",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -3974,7 +4077,7 @@
  },
  {
   "id": "eus-ayuda-subvencion-2026-pi2026-c-weblan00-content-es",
-  "h": "f32ddde20955a35b",
+  "h": "1d5b5b86b37c7040",
   "titulo": "Ayudas para el desarrollo de proyectos integrales de empleo, formación e inserción laboral",
   "para": [
    "empresa"
@@ -4778,7 +4881,7 @@
  {
   "id": "bdns-942070",
   "h": "915cc3d8dc9a7b8d",
-  "titulo": "Convocatoria de ayudas económicas a vecinas y vecinos que constituyan una familia numerosa",
+  "titulo": "Ayudas económicas para familias numerosas",
   "para": [
    "particular"
   ],
@@ -5399,6 +5502,20 @@
   "revisar": false
  },
  {
+  "id": "prest-gipuzkoa-pnc",
+  "h": "bc3fff81ddb4a496",
+  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-araba-pnc",
   "h": "89f930ea395d5a97",
   "titulo": "Pensión no contributiva de jubilación o invalidez para personas sin recursos",
@@ -5411,20 +5528,6 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-araba-pnc-6fc67e01.txt",
-  "revisar": false
- },
- {
-  "id": "prest-gipuzkoa-pnc",
-  "h": "bc3fff81ddb4a496",
-  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "familia",
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
   "revisar": false
  },
  {
