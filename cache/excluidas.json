@@ -653,5 +653,15 @@
   "parecidaA": "bdns-934941",
   "motivo": "Extracto del BOG de la convocatoria BDNS 934941 de Errenteria (línea 4.7 Liburua opari): misma convocatoria que bdns-934941; solo cambia la fuente.",
   "fecha": "2026-11-18"
+ },
+ "bdns-913556": {
+  "parecidaA": "bdns-913552",
+  "motivo": "Las dos fichas de la BDNS del Ayuntamiento de Vitoria-Gasteiz son el mismo programa de activación ciudadana para conservar rapaces nocturnas, aves palustres, biodiversidad urbana y odonatos (red de ciencia ciudadana); una dice «colaborar en la financiación de los gastos» y la otra «desarrollo de un programa»; ninguna trae convocatoria, solo la ordenanza general.",
+  "fecha": "2026-11-22"
+ },
+ "bdns-913552": {
+  "parecidaA": "bdns-913556",
+  "motivo": "Las dos fichas de la BDNS del Ayuntamiento de Vitoria-Gasteiz son el mismo programa de activación ciudadana para conservar rapaces nocturnas, aves palustres, biodiversidad urbana y odonatos (red de ciencia ciudadana); una dice «colaborar en la financiación de los gastos» y la otra «desarrollo de un programa»; ninguna trae convocatoria, solo la ordenanza general.",
+  "fecha": "2026-11-22"
  }
 }
