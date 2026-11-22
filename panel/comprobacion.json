@@ -1,4 +1,4 @@
 {
- "fecha": "2026-11-20",
- "nota": "Tras el recolector de hoy (05:51 UTC) las siete fuentes están bien y sin errores de ficha (euskadi 133, Gipuzkoa 27, Álava 145, BDNS 763, boletines 154, prestaciones 19, UE 29); los cambios de ayer en «Documentos pedidos», el vínculo territorial y la unión con la BDNS no han dejado fuentes vacías y no hay nada que deshacer."
+ "fecha": "2026-11-22",
+ "nota": "Tras el recolector de hoy (05:55 UTC) las siete fuentes están bien y sin errores de ficha (euskadi 129, Gipuzkoa 27, Álava 145, BDNS 888, boletines 154, prestaciones 19, UE 29); el cambio de bdns-plazo-segun-bases funcionó (bdns-931520, 931492, 934718 y 934689 ya no salen abiertas) y no hay nada que deshacer."
 }
