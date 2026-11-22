@@ -15,15 +15,20 @@ export const huella = (t) => crypto.createHash('sha1').update(VERSION + ':' + St
 // Huella estable (se guarda como «he» junto a «h»): sin los documentos de docs_extra ya copiados en
 // textos_claude y sin las líneas «### …: url». Solo cambia si cambia el contenido que leyó la ficha.
 export const huellaEstable = (id, t) => huella('estable:' + sinCabeceras(sinDocsCopiados(id, t)));
+// Huella sin orden (se guarda como «ho»; tarea fuentes-orden-documentos-estable, 23/11): la de la estable con las
+// secciones «### …» ordenadas. La API de la BDNS devuelve a veces los documentos de una convocatoria en otro orden
+// (bdns-890111: idDocumento 1409780 y 1409779 se intercambiaban en cada recolección) y la ficha volvía a la cola
+// sin que cambiara nada. Así, que dos documentos solo cambien de sitio no invalida la ficha.
+export const huellaOrden = (id, t) => huella('orden:' + sinDocsCopiados(id, t).split(/\n\n(?=### )/).map((p) => sinCabeceras(p).trim()).sort().join('\n\n'));
 // ¿La ficha guardada sigue valiendo para el texto actual? Vale si coincide la huella del texto, la del texto sin
 // los documentos de docs_extra ya copiados (fichas hechas antes de que el recolector los descargara) o la
 // estable. «invalida» es la huella de una ficha que el responsable mandó rehacer (ajustes_ayudas.huellaFicha).
 export function fichaVigente(c, id, t, invalida = '') {
   if (!c || !t) return false;
   if (invalida && c.h === invalida) return false;
-  if (c.h === huella(t) || c.h === huella(sinDocsCopiados(id, t)) || (!!c.he && c.he === huellaEstable(id, t))) return true;
+  if (c.h === huella(t) || c.h === huella(sinDocsCopiados(id, t)) || (!!c.he && c.he === huellaEstable(id, t)) || (!!c.ho && c.ho === huellaOrden(id, t))) return true;
   const sx = sinExtractosUnidos(t);
-  if (sx !== t && (c.h === huella(sx) || c.h === huella(sinDocsCopiados(id, sx)) || (!!c.he && c.he === huellaEstable(id, sx)))) return true;
+  if (sx !== t && (c.h === huella(sx) || c.h === huella(sinDocsCopiados(id, sx)) || (!!c.he && c.he === huellaEstable(id, sx)) || (!!c.ho && c.ho === huellaOrden(id, sx)))) return true;
   // BDNS: la ficha sigue valiendo si el texto solo ha ganado la traducción de un documento o un formulario
   if (!String(id).startsWith('bdns-')) return false;
   return [...new Set([t, sx])].some((tt) => variantesSinDocsSecundarios(tt).some((v) => c.h === huella(v) || (!!c.he && c.he === huellaEstable(id, v))));

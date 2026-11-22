@@ -8,7 +8,7 @@ import * as forales from './forales.js';
 import * as boletines from './boletines.js';
 import * as prestaciones from './prestaciones.js';
 import { claveLinea } from './historico.js';
-import { aplicar, huella, fichaVigente } from './resumen.js';
+import { aplicar, huella, huellaOrden, fichaVigente } from './resumen.js';
 import { documentacion, quitaRepetidas } from './enlaces.js';
 import { docsCopiados } from './textos.js';
 import { resolver, POR_ID, CATALOGO } from './organismos.js';
@@ -839,6 +839,19 @@ async function main() {
   fs.writeFileSync(path.join('cache', 'organismos.json'), JSON.stringify(CATALOGO.map(({ id, completo, alias }) => ({ id, nombre: completo, alias })), null, 1));
   fs.writeFileSync(path.join('cache', 'pendientes.json'), JSON.stringify(pendientes, null, 1));
   log(`Pendientes de resumen: ${pendientes.length}`);
+  // Huella sin orden («ho», tarea fuentes-orden-documentos-estable) para las fichas que valen para su texto actual:
+  // si en la próxima recolección la BDNS devuelve sus documentos en otro orden, la ficha sigue valiendo
+  try {
+    let conHo = 0;
+    const enCola = new Set(pendientes.map((p) => p.id));
+    for (const a of ayudas) {
+      const c = cacheRes[a.id];
+      if (!c || c.ho || !fuentes[a.id] || enCola.has(a.id)) continue;
+      if (fichaVigente(c, a.id, fuentes[a.id], a._hastaFicha && a._hastaFicha.huellaFicha)) { c.ho = huellaOrden(a.id, fuentes[a.id]); conHo++; }
+    }
+    if (conHo) fs.writeFileSync(path.join('cache', 'resumenes.json'), JSON.stringify(cacheRes));
+    log(`Fichas con huella sin orden añadida: ${conHo}`);
+  } catch (e) { log(`Huella sin orden: ${e.message}`); }
   // Ocultas hasta tener ficha nueva: ya están en pendientes; se publican solo si su ficha es la del texto actual
   {
     const lista = ayudas.filter((a) => a._hastaFicha);

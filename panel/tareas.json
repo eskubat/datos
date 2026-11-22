@@ -1018,7 +1018,8 @@
   "seccion": "datos",
   "quien": "Claude",
   "prioridad": 56,
-  "estado": "pendiente",
-  "fecha": "2026-11-23"
+  "estado": "hecha",
+  "fecha": "2026-11-23",
+  "nota": "La API de la BDNS devuelve a veces los documentos de una convocatoria en otro orden (bdns-890111) y eso cambiaba h y he. Ahora cada ficha guarda también una huella sin orden («ho», huellaOrden en recolector/resumen.js: las secciones ordenadas antes de calcularla) y fichaVigente la acepta; incorporar.js la guarda en las fichas nuevas y el recolector la añade a las que siguen valiendo, y ya se ha añadido a 474 de las 482 fichas actuales. Probado: bdns-890111 con sus dos documentos intercambiados sigue vigente y con un cambio real vuelve a la cola; no cambia ninguna ayuda publicada."
  }
 ]
