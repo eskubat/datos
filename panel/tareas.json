@@ -973,5 +973,16 @@
   "estado": "hecha",
   "fecha": "2026-11-22",
   "nota": "El cálculo del cierre a partir del texto (finDelTexto) ya leía bien «Las solicitudes se deberán realizar… en el plazo de 20 días… publicación» de Ordizia, pero solo con la documentación de la pasada anterior, y la de bdns-931520 se bajó de nuevo hoy, así que salió abierta. Ahora recolector/index.js repite el cálculo con la documentación recién descargada y retira las que resultan cerradas; también acepta «realizar/formular/cursar» además de «presentar». Con los textos de hoy se cierran 4 que salían abiertas sin fecha: bdns-931520 (fin 2026-11-02), bdns-931492, bdns-934718 y bdns-934689; no se esperan ayudas nuevas."
+ },
+ {
+  "id": "bdns-documentos-perdidos-22nov",
+  "titulo": "La recolección volvió a quitar los documentos de la BDNS de 138 fichas ya hechas",
+  "detalle": "En la actualización «Datos actualizados 2026-11-22» (commit 5b86933, 06:54 UTC) desaparecieron otra vez de cache/fuentes las secciones «### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?…» de unas 138 ayudas ya categorizadas (p. ej. bdns-937455 de 72.069 a 888 caracteres, bdns-939817 de 53.185 a 3.162, bdns-939560 de 60.026 a 3.166), aunque la tarea bdns-documentos-perdidos se dio por hecha el 19/11: la reutilización del texto anterior no actuó en esta pasada (¿la descarga devolvió 404/410, o el texto anterior ya no estaba disponible al regenerar el archivo?). Por el cambio de huella las 138 volvieron a cache/pendientes.json. La tarea de resúmenes (22/11, 07:32 UTC) restauró en cache/textos_claude/<id>.txt el texto de esos documentos sacado del commit anterior (5b86933^) y reincorporó 30 fichas sin cambios; quedan unas 108. Propuesta: (1) revisar por qué no se conservó el texto anterior; (2) no tratar como 404 definitivo un fallo de la API de documentos de la BDNS mientras la convocatoria siga publicada; (3) si el documento desaparece de verdad, conservar la ficha hecha mientras exista copia en cache/textos_claude. Comprobación: tras la próxima recolección, ninguna ficha vuelve a la cola solo por perder una sección «Documento de la convocatoria».",
+  "fuente": "Tarea de resúmenes",
+  "seccion": "base",
+  "quien": "Claude",
+  "prioridad": 5,
+  "estado": "pendiente",
+  "fecha": "2026-11-22"
  }
 ]

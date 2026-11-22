@@ -487,7 +487,8 @@
   "https://www.basauri.eus/sites/basauri/files/2023-04/ordenanza_municipal_de_promocion_de_la_accesibilidad.pdf"
  ],
  "bdns-918883": [
-  "https://www.euskadi.eus/bopv2/datos/2026/04/2601627a.pdf"
+  "https://www.euskadi.eus/bopv2/datos/2026/04/2601627a.pdf",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1492737"
  ],
  "bdns-919621": [
   "https://eskoriatza.eus/es/tramites/subvenciones/ayudas-economicas-para-tratamiento-de-adicciones-2026/"
@@ -496,12 +497,118 @@
   "https://www.astigarraga.eus/es/-/garapenerako-lankidetza-progamaren-dirulaguntzak-2026"
  ],
  "bdns-910362": [
-  "https://www.azpeitia.eus/tramiteak/dirulaguntza-programak/tramitean/gizarte-bazterkeriako-eta-behar-larriko-egoerei-aurre-egiteko-norbanako-eta-familientzako-udal-laguntza/1-oinarriak_fudal_gao.pdf"
+  "https://www.azpeitia.eus/tramiteak/dirulaguntza-programak/tramitean/gizarte-bazterkeriako-eta-behar-larriko-egoerei-aurre-egiteko-norbanako-eta-familientzako-udal-laguntza/1-oinarriak_fudal_gao.pdf",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1468814"
  ],
  "bdns-910373": [
   "https://www.araba.eus/botha/Boletines/2026/067/2026_067_01687_C.pdf"
  ],
  "bdns-910375": [
   "https://www.araba.eus/botha/Boletines/2026/067/2026_067_01689_C.pdf"
+ ],
+ "bdns-938213": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1545093",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1545092"
+ ],
+ "bdns-937455": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1543121"
+ ],
+ "bdns-939560": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1549057"
+ ],
+ "bdns-941594": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1554183"
+ ],
+ "bdns-939389": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1548608",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1548611"
+ ],
+ "bdns-937284": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1542665",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1542675"
+ ],
+ "bdns-939817": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1549725"
+ ],
+ "bdns-939691": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1549434"
+ ],
+ "bdns-938472": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1545984"
+ ],
+ "bdns-937599": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1543457",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1543459"
+ ],
+ "bdns-931954": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1528033"
+ ],
+ "bdns-929124": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1520623"
+ ],
+ "bdns-927115": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1514800",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1514801",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1514806",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1514804",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1514805",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1514802"
+ ],
+ "bdns-924864": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1509114"
+ ],
+ "bdns-918655": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1492487",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1492488"
+ ],
+ "bdns-901445": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1442315"
+ ],
+ "bdns-901439": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1442305"
+ ],
+ "bdns-938096": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1544838",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1544837"
+ ],
+ "bdns-936178": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539512",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539486",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539490",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539491",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539495",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539505"
+ ],
+ "bdns-934418": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1534571",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1534577"
+ ],
+ "bdns-923685": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1505800",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1505799",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1505797"
+ ],
+ "bdns-910439": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1469020"
+ ],
+ "bdns-943839": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1560731",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1560730"
+ ],
+ "bdns-942229": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1556075"
+ ],
+ "bdns-938475": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1548225"
+ ],
+ "bdns-935443": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1537270",
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1537272"
+ ],
+ "bdns-942473": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1556754"
+ ],
+ "bdns-939101": [
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1547856"
  ]
 }
