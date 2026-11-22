@@ -18,6 +18,15 @@
   "caracteres": 4021
  },
  {
+  "id": "bdns-918883",
+  "h": "52148e3e12337bd1",
+  "titulo": "Criterios para la concesión de Ayudas de Emergencia Social (AES) en el Ayuntamiento",
+  "organismoSugerido": "ayto-basauri",
+  "organismoFuente": "Ayuntamiento de basauri",
+  "archivo": "cache/fuentes/bdns-918883-1ce652b3.txt",
+  "caracteres": 571
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-partz-weblan00-content-es",
   "h": "26e279a1f12f5c42",
   "titulo": "Subvenciones destinadas a incentivar la conversión de contratos indefinidos a tiempo parcial en contratos indefinidos a tiempo completo",
@@ -25,6 +34,24 @@
   "organismoFuente": "Lanbide - Servicio Público Vasco de Empleo",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-partz-weblan00-content-es-90157b89.txt",
   "caracteres": 300000
+ },
+ {
+  "id": "bdns-918655",
+  "h": "7aaf046311135036",
+  "titulo": "Viii campaña reparto bonos para reforzar el canal de venta de proximidad",
+  "organismoSugerido": "ayto-errenteria",
+  "organismoFuente": "Ayuntamiento de errenteria",
+  "archivo": "cache/fuentes/bdns-918655-c5a1a785.txt",
+  "caracteres": 98896
+ },
+ {
+  "id": "bdns-911631",
+  "h": "3a49aa697083474d",
+  "titulo": "Ayudas para programas de cooperación al desarrollo",
+  "organismoSugerido": "ayto-astigarraga",
+  "organismoFuente": "Ayuntamiento de astigarraga",
+  "archivo": "cache/fuentes/bdns-911631-0f2d9ddc.txt",
+  "caracteres": 2717
  },
  {
   "id": "bob-bob-2026a215-ii-5802-",
@@ -72,6 +99,33 @@
   "caracteres": 5840
  },
  {
+  "id": "bdns-918474",
+  "h": "c34689dd85379f20",
+  "titulo": "Subvenciones para la colocación de rótulos en Euskera en establecimientos comerciales",
+  "organismoSugerido": "ayto-bermeo",
+  "organismoFuente": "Ayuntamiento de bermeo",
+  "archivo": "cache/fuentes/bdns-918474-dbc779ae.txt",
+  "caracteres": 2130
+ },
+ {
+  "id": "bdns-918305",
+  "h": "5183f955f502f032",
+  "titulo": "Ayudas económicas destinadas para las obras de mejora de la accesibilidad y eficiencia energética",
+  "organismoSugerido": "ayto-urretxu",
+  "organismoFuente": "Ayuntamiento de urretxu",
+  "archivo": "cache/fuentes/bdns-918305-c1cfea68.txt",
+  "caracteres": 1617
+ },
+ {
+  "id": "bdns-912000",
+  "h": "d8c866ae2e9155fb",
+  "titulo": "Ayudar al fomento del deporte y la vida saludable",
+  "organismoSugerido": "ayto-eskoriatza",
+  "organismoFuente": "Ayuntamiento de eskoriatza",
+  "archivo": "cache/fuentes/bdns-912000-315c9755.txt",
+  "caracteres": 667
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
   "h": "b0ecc4da6bcbfe27",
   "titulo": "EDIP, Programa Europeo de la Industria de Defensa",
@@ -97,6 +151,15 @@
   "organismoFuente": "Bienestar, Juventud y Reto Demográfico",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-bono-social-termico-2025-98bd4264.txt",
   "caracteres": 295242
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-discp-2026-weblan00-content-es",
+  "h": "db28cd9b86b439f7",
+  "titulo": "Ayudas al fomento del empleo de personas con discapacidad en el mercado ordinario de trabajo",
+  "organismoSugerido": "lanbide",
+  "organismoFuente": "Lanbide - Servicio Público Vasco de Empleo",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-discp-2026-weblan00-content-es-3b88d665.txt",
+  "caracteres": 300000
  },
  {
   "id": "eus-ayuda-subvencion-2026-edip26edpciproiektuak",
@@ -153,6 +216,393 @@
   "caracteres": 214972
  },
  {
+  "id": "bdns-920013",
+  "h": "bc436532a594b9cb",
+  "titulo": "Subvención para el deporte del futbol iraultza",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-920013-9b7ad083.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-920008",
+  "h": "02b8cf39b9e5787d",
+  "titulo": "Subvención para el fomento de las fiestas de Santimami",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-920008-30a887cd.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919993",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento del arte fotografico",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919993-6959e639.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919982",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento de las fiestas populares",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919982-c521f3b4.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919978",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento del comercio",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919978-a0f72000.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919974",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento de la micología",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919974-cc8611b0.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919967",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento del baloncesto",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919967-6805c13e.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919957",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento de la musical coral",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919957-6e2ba295.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919953",
+  "h": "3d8a7ccf9e76dfff",
+  "titulo": "VI Edición del Festival de cortometrajes mu-sicales Amua Hondarribia",
+  "organismoSugerido": "ayto-hondarribia",
+  "organismoFuente": "Ayuntamiento de hondarribia",
+  "archivo": "cache/fuentes/bdns-919953-d21c6edc.txt",
+  "caracteres": 533
+ },
+ {
+  "id": "bdns-919952",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento del euskera",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919952-57508071.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919949",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento de las actividades de la escuela",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919949-3895034c.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919946",
+  "h": "620addabd1291730",
+  "titulo": "Fomento de la acción vecinal en el barrio de mendelu",
+  "organismoSugerido": "ayto-hondarribia",
+  "organismoFuente": "Ayuntamiento de hondarribia",
+  "archivo": "cache/fuentes/bdns-919946-476add95.txt",
+  "caracteres": 490
+ },
+ {
+  "id": "bdns-919945",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento del deporte de montaña",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919945-20b9f034.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919943",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento del deporte de la pelota",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919943-7c8c9275.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919939",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento de la música vasca",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919939-dc745c8f.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919936",
+  "h": "d178955b7b9a1882",
+  "titulo": "Subvenciones del área de cultura",
+  "organismoSugerido": "ayto-hondarribia",
+  "organismoFuente": "Ayuntamiento de hondarribia",
+  "archivo": "cache/fuentes/bdns-919936-df1265df.txt",
+  "caracteres": 551
+ },
+ {
+  "id": "bdns-919849",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento de las actividades de las mujeres",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919849-4bd28fe4.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919848",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento del deporte de tiro con arco",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919848-e178434b.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919846",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento de las danzas vascas",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919846-5b9961f5.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919845",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento del deporte motor",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919845-c8687954.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919687",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento del deporte del boxeo",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919687-147e5453.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919659",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento de las actividades de igualdad",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919659-b433decd.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919643",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento del deporte de tiro",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919643-6a8232ab.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919621",
+  "h": "76ccc6cdb6881868",
+  "titulo": "Bases para regular las subvenciones para el tratamiento de adicciones",
+  "organismoSugerido": "ayto-eskoriatza",
+  "organismoFuente": "Ayuntamiento de eskoriatza",
+  "archivo": "cache/fuentes/bdns-919621-45dd7bb4.txt",
+  "caracteres": 3459
+ },
+ {
+  "id": "bdns-919619",
+  "h": "7b112840e2bc498e",
+  "titulo": "Suvbencion para el fomento del futbol",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919619-f7b23969.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-919510",
+  "h": "c10200c7de850509",
+  "titulo": "Gureak inklusio fundazioa (2 plazas ocupacionales - programa pauso berriak)",
+  "organismoSugerido": "ayto-errenteria",
+  "organismoFuente": "Ayuntamiento de errenteria",
+  "archivo": "cache/fuentes/bdns-919510-7d08d8ac.txt",
+  "caracteres": 573
+ },
+ {
+  "id": "bdns-919021",
+  "h": "7b112840e2bc498e",
+  "titulo": "Subvención para el fomento de las actividades de las personas jubiladas",
+  "organismoSugerido": "ayto-zamudio",
+  "organismoFuente": "Ayuntamiento de zamudio",
+  "archivo": "cache/fuentes/bdns-919021-2edee2e5.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-918616",
+  "h": "9931bea3a801ee07",
+  "titulo": "Ordenanza municipal para promoción de la accesibilidad a las viviendas",
+  "organismoSugerido": "ayto-basauri",
+  "organismoFuente": "Ayuntamiento de basauri",
+  "archivo": "cache/fuentes/bdns-918616-6b9428d6.txt",
+  "caracteres": 389
+ },
+ {
+  "id": "bdns-918513",
+  "h": "3dd9c544624c49e7",
+  "titulo": "Comisión organizadora de las fiestas de arteagabeitia zuazo - arteagabeitia zuazoko jai batzordea",
+  "organismoSugerido": "ayto-barakaldo",
+  "organismoFuente": "Ayuntamiento de barakaldo",
+  "archivo": "cache/fuentes/bdns-918513-ec58816a.txt",
+  "caracteres": 188843
+ },
+ {
+  "id": "bdns-918408",
+  "h": "9ec05e9a3465674d",
+  "titulo": "Cuotas asociación tek barakaldo",
+  "organismoSugerido": "inguralde",
+  "organismoFuente": "Inguralde",
+  "archivo": "cache/fuentes/bdns-918408-14db6ce3.txt",
+  "caracteres": 482
+ },
+ {
+  "id": "bdns-918273",
+  "h": "37dee45c4b6b2430",
+  "titulo": "Convocatoria abierta de los programas de subvenciones establecidos para la mejora de la calidad de vida de las personas residentes en el ámbito",
+  "organismoSugerido": "ayto-bergara",
+  "organismoFuente": "Ayuntamiento de bergara",
+  "archivo": "cache/fuentes/bdns-918273-2d01261b.txt",
+  "caracteres": 300000
+ },
+ {
+  "id": "bdns-917828",
+  "h": "5db894c8bf283c92",
+  "titulo": "Subvención extraordinaria Ekidazu Abesbatza 25 aniversario",
+  "organismoSugerido": "ayto-lezama",
+  "organismoFuente": "Ayuntamiento de lezama",
+  "archivo": "cache/fuentes/bdns-917828-f727dc95.txt",
+  "caracteres": 486
+ },
+ {
+  "id": "bdns-917610",
+  "h": "e1b04a6e9578d083",
+  "titulo": "Olarreta pilota elkartea",
+  "organismoSugerido": "ayto-larrabetzu",
+  "organismoFuente": "Ayuntamiento de larrabetzu",
+  "archivo": "cache/fuentes/bdns-917610-ffcab9f9.txt",
+  "caracteres": 420
+ },
+ {
+  "id": "bdns-917200",
+  "h": "425014c273a67d6f",
+  "titulo": "Subvención asociación padres y madres de la escuela",
+  "organismoSugerido": "ayto-lezama",
+  "organismoFuente": "Ayuntamiento de lezama",
+  "archivo": "cache/fuentes/bdns-917200-b0da1be4.txt",
+  "caracteres": 437
+ },
+ {
+  "id": "bdns-917008",
+  "h": "94df8d6dfc2cb38e",
+  "titulo": "Subvención a la delegacion",
+  "organismoSugerido": "ayto-azkoitia",
+  "organismoFuente": "Ayuntamiento de azkoitia",
+  "archivo": "cache/fuentes/bdns-917008-a82d3fb6.txt",
+  "caracteres": 505
+ },
+ {
+  "id": "bdns-916883",
+  "h": "056da3369d64e218",
+  "titulo": "Convencio entre el Ayuntamiento y la Fundación Izan",
+  "organismoSugerido": "ayto-azkoitia",
+  "organismoFuente": "Ayuntamiento de azkoitia",
+  "archivo": "cache/fuentes/bdns-916883-37b4f82f.txt",
+  "caracteres": 524
+ },
+ {
+  "id": "bdns-916616",
+  "h": "5b0d46eab5b18a6a",
+  "titulo": "Bases por las que se regula la concesión de ayudas a jóvenes para acceder a, y continuar",
+  "organismoSugerido": "ayto-zumarraga",
+  "organismoFuente": "Ayuntamiento de zumarraga",
+  "archivo": "cache/fuentes/bdns-916616-f61520c7.txt",
+  "caracteres": 29472
+ },
+ {
+  "id": "bdns-916416",
+  "h": "26c00c589439ab09",
+  "titulo": "Concurso Elez- y - AEK",
+  "organismoSugerido": "ayto-valle-de-trapaga-trapagaran",
+  "organismoFuente": "Ayuntamiento de valle de trápaga-trapagaran",
+  "archivo": "cache/fuentes/bdns-916416-4365d26b.txt",
+  "caracteres": 376
+ },
+ {
+  "id": "bdns-916328",
+  "h": "ee6e2a45c3b63286",
+  "titulo": "Subvención hala dzipo",
+  "organismoSugerido": "ayto-barakaldo",
+  "organismoFuente": "Ayuntamiento de barakaldo",
+  "archivo": "cache/fuentes/bdns-916328-dbe333e4.txt",
+  "caracteres": 1740
+ },
+ {
+  "id": "bdns-914348",
+  "h": "2c32e22fecc135cc",
+  "titulo": "Subvención caritas Bizkaia",
+  "organismoSugerido": "ayto-gernika-lumo",
+  "organismoFuente": "Ayuntamiento de gernika-lumo",
+  "archivo": "cache/fuentes/bdns-914348-956a2a52.txt",
+  "caracteres": 163354
+ },
+ {
+  "id": "bdns-912187",
+  "h": "e9dcbc3d57320363",
+  "titulo": "Zutunik ! talde feminista",
+  "organismoSugerido": "ayto-larrabetzu",
+  "organismoFuente": "Ayuntamiento de larrabetzu",
+  "archivo": "cache/fuentes/bdns-912187-b297fbe5.txt",
+  "caracteres": 409
+ },
+ {
+  "id": "bdns-911981",
+  "h": "d7b9bca71564fe18",
+  "titulo": "Ayudar a Eskoriatzako Olazar Jubilatuen Elkartea en la financiación de los gastos ocasionados tanto con motivo del funcionamiento ordinario como",
+  "organismoSugerido": "ayto-eskoriatza",
+  "organismoFuente": "Ayuntamiento de eskoriatza",
+  "archivo": "cache/fuentes/bdns-911981-68fdd643.txt",
+  "caracteres": 772
+ },
+ {
+  "id": "ue-crea-media-2027-tvonline-1",
+  "h": "594ec78e4c088425",
+  "titulo": "TV and online content Animation projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
+  "caracteres": 6321
+ },
+ {
   "id": "ue-crea-media-2027-tvonline-2",
   "h": "2bb80164abe11ee5",
   "titulo": "TV and online content Documentary projects",
@@ -169,15 +619,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
   "caracteres": 6320
- },
- {
-  "id": "ue-crea-media-2027-tvonline-1",
-  "h": "594ec78e4c088425",
-  "titulo": "TV and online content Animation projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
-  "caracteres": 6321
  },
  {
   "id": "ara-01362004",
@@ -205,6 +646,15 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01362003-2cf30e1e.txt",
   "caracteres": 37231
+ },
+ {
+  "id": "bdns-911829",
+  "h": "279facb83a7649c9",
+  "titulo": "Ayudas para el transporte a los centros educativos",
+  "organismoSugerido": "ayto-vitoria-gasteiz",
+  "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
+  "archivo": "cache/fuentes/bdns-911829-7bbfe813.txt",
+  "caracteres": 86404
  },
  {
   "id": "ue-cs-resist-ii-process-innovation-open-call",
@@ -385,6 +835,60 @@
   "organismoFuente": "Diputación foral de Bizkaia",
   "archivo": "cache/fuentes/bdns-940546-b5f83570.txt",
   "caracteres": 174897
+ },
+ {
+  "id": "bdns-919556",
+  "h": "a57864aae9817286",
+  "titulo": "Subvención a asociación comision fiestas donijoseba eskulangile para fiestas de san josé",
+  "organismoSugerido": "ayto-amurrio",
+  "organismoFuente": "Ayuntamiento de amurrio",
+  "archivo": "cache/fuentes/bdns-919556-99bd2e39.txt",
+  "caracteres": 299999
+ },
+ {
+  "id": "bdns-916083",
+  "h": "92cbce249e7b5706",
+  "titulo": "Subvenciones del departamento de Euskera",
+  "organismoSugerido": "ayto-onati",
+  "organismoFuente": "Ayuntamiento de oñati",
+  "archivo": "cache/fuentes/bdns-916083-5cd43e1e.txt",
+  "caracteres": 6404
+ },
+ {
+  "id": "bdns-913719",
+  "h": "afe29f6f20243683",
+  "titulo": "Ayudas de emergencia social",
+  "organismoSugerido": "ayto-amurrio",
+  "organismoFuente": "Ayuntamiento de amurrio",
+  "archivo": "cache/fuentes/bdns-913719-8ee4c7fa.txt",
+  "caracteres": 163870
+ },
+ {
+  "id": "bdns-913556",
+  "h": "279facb83a7649c9",
+  "titulo": "Colaborar en la financiación de los gastos derivados del desarrollo de un programa de activación ciudadana",
+  "organismoSugerido": "ayto-vitoria-gasteiz",
+  "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
+  "archivo": "cache/fuentes/bdns-913556-5a7d630a.txt",
+  "caracteres": 86404
+ },
+ {
+  "id": "bdns-913552",
+  "h": "279facb83a7649c9",
+  "titulo": "Desarrollo de un programa de activación ciudadana en el marco de los programas de conservación de rapaces nocturnas",
+  "organismoSugerido": "ayto-vitoria-gasteiz",
+  "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
+  "archivo": "cache/fuentes/bdns-913552-9ac606f4.txt",
+  "caracteres": 86404
+ },
+ {
+  "id": "bdns-911322",
+  "h": "25c0097d4887db3a",
+  "titulo": "Subvenciones al alquiler",
+  "organismoSugerido": "ayto-gorliz",
+  "organismoFuente": "Ayuntamiento de gorliz",
+  "archivo": "cache/fuentes/bdns-911322-b01ed179.txt",
+  "caracteres": 472
  },
  {
   "id": "botha-2026-131-03265-c-pdf",

@@ -157,6 +157,19 @@
   "revisar": false
  },
  {
+  "id": "bdns-918883",
+  "h": "2a628db5d8e370e1",
+  "titulo": "Criterios para la concesión de Ayudas de Emergencia Social (AES) en el Ayuntamiento",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-918883-1ce652b3.txt",
+  "revisar": false
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-egonlabur-2027",
   "h": "b9a51a67712ded72",
   "titulo": "Ayudas Egonlabur para estancias de investigación predoctoral en el extranjero",
@@ -452,6 +465,35 @@
   "revisar": false
  },
  {
+  "id": "bdns-918655",
+  "h": "66390560a3cb6aa2",
+  "titulo": "Viii campaña reparto bonos para reforzar el canal de venta de proximidad",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "comercio",
+   "emprendimiento"
+  ],
+  "archivo": "cache/fuentes/bdns-918655-c5a1a785.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-911631",
+  "h": "619a30c201648bf8",
+  "titulo": "Ayudas para programas de cooperación al desarrollo",
+  "para": [
+   "asociacion",
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-911631-0f2d9ddc.txt",
+  "revisar": false
+ },
+ {
   "id": "bog-c2606753-htm",
   "h": "47bce3adf4f52509",
   "titulo": "Subvenciones para poner en marcha nuevas empresas",
@@ -739,6 +781,20 @@
    "emprendimiento"
   ],
   "archivo": "cache/fuentes/bdns-928845-8086b064.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-920799",
+  "h": "bfc33ba83445fb6f",
+  "titulo": "Ayudas para ingresar en una residencia o vivienda comunitaria",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "vivienda",
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-920799-442406c1.txt",
   "revisar": false
  },
  {
@@ -1143,6 +1199,35 @@
    "educacion"
   ],
   "archivo": "cache/fuentes/bdns-937839-41669fc9.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-918474",
+  "h": "7a3bc63458d5e278",
+  "titulo": "Subvenciones para la colocación de rótulos en Euskera en establecimientos comerciales",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "cultura",
+   "comercio"
+  ],
+  "archivo": "cache/fuentes/bdns-918474-dbc779ae.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-918305",
+  "h": "b88a96593a496db4",
+  "titulo": "Ayudas económicas destinadas para las obras de mejora de la accesibilidad y eficiencia energética",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "vivienda",
+   "energia"
+  ],
+  "archivo": "cache/fuentes/bdns-918305-c1cfea68.txt",
   "revisar": false
  },
  {
@@ -1561,12 +1646,10 @@
  },
  {
   "id": "eus-ayuda-subvencion-2026-discp-2026-weblan00-content-es",
-  "h": "97b0c1b93c93b3fc",
-  "titulo": "Subvenciones para contratar a personas con discapacidad y adaptar su puesto",
+  "h": "0802f1e3419951f8",
+  "titulo": "Ayudas al fomento del empleo de personas con discapacidad en el mercado ordinario de trabajo",
   "para": [
-   "empresa",
-   "autonomo",
-   "asociacion"
+   "empresa"
   ],
   "temas": [
    "empleo",
@@ -2027,6 +2110,92 @@
   ],
   "temas": [],
   "archivo": "cache/fuentes/bdns-922776-7e36e615.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-919936",
+  "h": "24090d7aded04b66",
+  "titulo": "Subvenciones del área de cultura",
+  "para": [
+   "asociacion",
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-919936-df1265df.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-919621",
+  "h": "2b6a9cc270489d9d",
+  "titulo": "Bases para regular las subvenciones para el tratamiento de adicciones",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-919621-45dd7bb4.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-918408",
+  "h": "2d4a35ad7884d604",
+  "titulo": "Cuotas asociación tek barakaldo",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "energia",
+   "emprendimiento"
+  ],
+  "archivo": "cache/fuentes/bdns-918408-14db6ce3.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-918273",
+  "h": "d40065f2acb2671e",
+  "titulo": "Convocatoria abierta de los programas de subvenciones establecidos para la mejora de la calidad de vida de las personas residentes en el ámbito",
+  "para": [
+   "particular",
+   "asociacion",
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "energia",
+   "rural"
+  ],
+  "archivo": "cache/fuentes/bdns-918273-2d01261b.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-917610",
+  "h": "06bfed4dc57de755",
+  "titulo": "Olarreta pilota elkartea",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bdns-917610-ffcab9f9.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-916616",
+  "h": "52977a0098d461b2",
+  "titulo": "Bases por las que se regula la concesión de ayudas a jóvenes para acceder a, y continuar",
+  "para": [
+   "particular",
+   "ayuntamiento"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-916616-f61520c7.txt",
   "revisar": false
  },
  {
@@ -2824,6 +2993,19 @@
    "social"
   ],
   "archivo": "cache/fuentes/bdns-940347-a4e3fdbf.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-921473",
+  "h": "bc716ebe3efb98b2",
+  "titulo": "Concurso de fotografía para el calendario municipal",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-921473-3b2c356e.txt",
   "revisar": false
  },
  {
@@ -3732,22 +3914,6 @@
   "revisar": false
  },
  {
-  "id": "bdns-934168",
-  "h": "c1c5a751a7df89ab",
-  "titulo": "Subvenciones para rótulos, imagen corporativa y webs en euskera para comercios",
-  "para": [
-   "autonomo",
-   "empresa",
-   "asociacion"
-  ],
-  "temas": [
-   "emprendimiento",
-   "educacion"
-  ],
-  "archivo": "cache/fuentes/bdns-934168-495b7844.txt",
-  "revisar": false
- },
- {
   "id": "bdns-933705",
   "h": "e65816caba46ea01",
   "titulo": "Ayudas para aprender euskera, cursos universitarios y carné de conducir en euskera",
@@ -3815,6 +3981,86 @@
   "revisar": false
  },
  {
+  "id": "bdns-920446",
+  "h": "f57ee21d388dea47",
+  "titulo": "Concurso de cocina Sukalki",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-920446-e5ed091f.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-920445",
+  "h": "5b54531ff2313db0",
+  "titulo": "Concurso de pintura al aire libre",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-920445-3d853882.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-920423",
+  "h": "ee4294afb9e8e20f",
+  "titulo": "Ayudas para cursos de euskera y rótulos y webs en euskera",
+  "para": [
+   "particular",
+   "autonomo",
+   "empresa",
+   "asociacion"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bdns-920423-2b1d72fe.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-916083",
+  "h": "6a8abc74ca775dcd",
+  "titulo": "Subvenciones del departamento de Euskera",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-916083-5cd43e1e.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-913719",
+  "h": "9ecde98ad9a90978",
+  "titulo": "Ayudas de emergencia social",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-913719-8ee4c7fa.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-911322",
+  "h": "7175f3ec0fe1dae6",
+  "titulo": "Subvenciones al alquiler",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "vivienda"
+  ],
+  "archivo": "cache/fuentes/bdns-911322-b01ed179.txt",
+  "revisar": false
+ },
+ {
   "id": "bog-c2607316-htm",
   "h": "5377f180fa7fe747",
   "titulo": "Ayudas para el transporte a tratamientos de adicciones",
@@ -3862,17 +4108,6 @@
   "revisar": false
  },
  {
-  "id": "bog-c2606336-htm",
-  "h": "9f6d5b87a2052dab",
-  "titulo": "Ayudas para pagar las tasas de agua y basuras",
-  "para": [
-   "particular"
-  ],
-  "temas": [],
-  "archivo": "cache/fuentes/bog-c2606336-htm-4dd84d90.txt",
-  "revisar": false
- },
- {
   "id": "bog-c2606930-htm",
   "h": "0dece8c9181cb48d",
   "titulo": "Ayudas extraordinarias a explotaciones agrarias afectadas por la sequía",
@@ -3909,21 +4144,6 @@
    "estudios"
   ],
   "archivo": "cache/fuentes/botha-2026-116-02827-c-pdf-9972668f.txt",
-  "revisar": false
- },
- {
-  "id": "botha-2026-113-02776-c-pdf",
-  "h": "4b1f163281b48b30",
-  "titulo": "Subvenciones para cultura, deporte y acción social",
-  "para": [
-   "particular",
-   "asociacion"
-  ],
-  "temas": [
-   "cultura",
-   "deporte"
-  ],
-  "archivo": "cache/fuentes/botha-2026-113-02776-c-pdf-b529229f.txt",
   "revisar": false
  },
  {
@@ -4257,20 +4477,6 @@
   "revisar": false
  },
  {
-  "id": "prest-araba-peap",
-  "h": "b7167957c542832d",
-  "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "empleo",
-   "educacion"
-  ],
-  "archivo": "cache/fuentes/prest-araba-peap-b3e1675d.txt",
-  "revisar": false
- },
- {
   "id": "prest-araba-pecef",
   "h": "d1882d94b3e5c137",
   "titulo": "Ayuda para cuidar en familia a una persona en situación de dependencia",
@@ -4282,6 +4488,20 @@
    "familia"
   ],
   "archivo": "cache/fuentes/prest-araba-pecef-b232c1b3.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-araba-peap",
+  "h": "b7167957c542832d",
+  "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "empleo",
+   "educacion"
+  ],
+  "archivo": "cache/fuentes/prest-araba-peap-b3e1675d.txt",
   "revisar": false
  },
  {
