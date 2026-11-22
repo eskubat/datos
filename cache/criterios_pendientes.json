@@ -314,7 +314,9 @@
   "h": "abfe442aa845a56e",
   "titulo": "Subvenciones para contratar a jóvenes desempleados",
   "para": [
-   "particular"
+   "autonomo",
+   "empresa",
+   "asociacion"
   ],
   "temas": [
    "empleo",
@@ -475,6 +477,17 @@
   "revisar": false
  },
  {
+  "id": "ue-cs-renew-booster-eurocluster-call-n-2-for-financial-support-to-third-parties",
+  "h": "fefac8cbf3027904",
+  "titulo": "Ayudas para pymes que innoven en energía solar, eólica marina y redes",
+  "para": [
+   "empresa"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-cs-renew-booster-eurocluster-call-n-2-for-financial-suppo-2de42068.txt",
+  "revisar": false
+ },
+ {
   "id": "bdns-938096",
   "h": "66db72487aa1f1a7",
   "titulo": "Subvenciones para proyectos del sector primario",
@@ -538,6 +551,17 @@
    "social"
   ],
   "archivo": "cache/fuentes/bdns-910362-56d94db1.txt",
+  "revisar": false
+ },
+ {
+  "id": "ue-cs-european-partnership-on-innovative-smes-innowwide-call-5",
+  "h": "e95d5e26b23f362b",
+  "titulo": "Ayudas Innowwide para estudiar la viabilidad de vender innovaciones fuera de Europa",
+  "para": [
+   "empresa"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-cs-european-partnership-on-innovative-smes-innowwide-call-6ca99624.txt",
   "revisar": false
  },
  {
@@ -623,19 +647,6 @@
   "revisar": false
  },
  {
-  "id": "bdns-942475",
-  "h": "4e29eb9df7dd19a1",
-  "titulo": "Ayudas para estancias escolares en pueblos abandonados recuperados",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "educacion"
-  ],
-  "archivo": "cache/fuentes/bdns-942475-ab859e62.txt",
-  "revisar": false
- },
- {
   "id": "bdns-938418",
   "h": "c02e559a9923814f",
   "titulo": "Subvenciones para obtener en euskera el título de monitor o director de tiempo libre",
@@ -648,7 +659,7 @@
  },
  {
   "id": "bdns-938070",
-  "h": "91a8db7212faef03",
+  "h": "0a2738bddfcfb760",
   "titulo": "Subvenciones para usar las huertas ecológicas municipales",
   "para": [
    "particular"
@@ -658,26 +669,11 @@
   "revisar": false
  },
  {
-  "id": "bdns-928845",
-  "h": "d6f54702207ae99f",
-  "titulo": "Bonos de descuento para comprar en el comercio local por internet",
-  "para": [
-   "empresa"
-  ],
-  "temas": [
-   "comercio",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/bdns-928845-8086b064.txt",
-  "revisar": false
- },
- {
   "id": "bdns-920799",
-  "h": "8f8f476c5384ee60",
+  "h": "3c7e5c5b83cf599a",
   "titulo": "Ayudas para ingresar en una residencia o vivienda comunitaria",
   "para": [
-   "particular",
-   "autonomo"
+   "particular"
   ],
   "temas": [
    "vivienda",
@@ -688,7 +684,7 @@
  },
  {
   "id": "bdns-900270",
-  "h": "8f8f476c5384ee60",
+  "h": "5a005abb78239c7d",
   "titulo": "Ayudas sociales para personas en riesgo de exclusión",
   "para": [
    "particular"
@@ -729,8 +725,10 @@
  {
   "id": "eus-ayuda-subvencion-2026-subvenciones-para-proyectos-editoriales-y-audiovisuales-en-el-ambito-de-la-diaspora-vasca-2026",
   "h": "11bde6c8646188a9",
-  "titulo": "Subvenciones para proyectos editoriales y audiovisuales en el ámbito de la Diáspora Vasca",
+  "titulo": "Subvenciones para proyectos editoriales y audiovisuales sobre la Diáspora Vasca",
   "para": [
+   "particular",
+   "autonomo",
    "empresa",
    "asociacion"
   ],
@@ -754,6 +752,20 @@
    "rural"
   ],
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-programa-ikertalent-7313b79d.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-940056",
+  "h": "aa5d2c96ac13597b",
+  "titulo": "Ayudas para la exploración minera de materias primas fundamentales",
+  "para": [
+   "empresa"
+  ],
+  "temas": [
+   "energia",
+   "emprendimiento"
+  ],
+  "archivo": "cache/fuentes/bdns-940056-de294e89.txt",
   "revisar": false
  },
  {
@@ -874,6 +886,22 @@
   "revisar": false
  },
  {
+  "id": "bdns-941574",
+  "h": "ebbf7e77e469dc7c",
+  "titulo": "Ayudas Balidatu para que startups prueben su tecnología en un entorno real",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "estudios",
+   "digitalizacion",
+   "emprendimiento"
+  ],
+  "archivo": "cache/fuentes/bdns-941574-370a5c44.txt",
+  "revisar": false
+ },
+ {
   "id": "bdns-932435",
   "h": "da6223a32120be8f",
   "titulo": "Subvenciones para cursos de euskera",
@@ -899,18 +927,19 @@
   "revisar": false
  },
  {
-  "id": "bdns-942928",
-  "h": "bd0a4a3be6b92018",
-  "titulo": "Subvenciones a entidades sin ánimo de lucro para fortalecer la industria editorial",
+  "id": "bdns-939545",
+  "h": "b5a8ed6a699a4947",
+  "titulo": "Subvenciones para promover la actividad física y el deporte",
   "para": [
-   "empresa",
-   "asociacion"
+   "autonomo",
+   "asociacion",
+   "ayuntamiento"
   ],
   "temas": [
    "cultura",
-   "emprendimiento"
+   "deporte"
   ],
-  "archivo": "cache/fuentes/bdns-942928-51a34b8e.txt",
+  "archivo": "cache/fuentes/bdns-939545-a6e7cf9f.txt",
   "revisar": false
  },
  {
@@ -941,9 +970,10 @@
  },
  {
   "id": "bdns-904761",
-  "h": "a52750e1d7103d80",
+  "h": "f51f3466a3257155",
   "titulo": "Subvenciones para poner en euskera rótulos y webs de comercios",
   "para": [
+   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -955,7 +985,7 @@
  },
  {
   "id": "bdns-904617",
-  "h": "ba3dbc1899e03dfc",
+  "h": "c2ae0dc58028d59a",
   "titulo": "Becas para estudiar euskera en euskaltegis e internados",
   "para": [
    "particular"
@@ -968,8 +998,21 @@
   "revisar": false
  },
  {
+  "id": "bdns-911292",
+  "h": "03a20bfe7c2a5980",
+  "titulo": "Ayudas para actividades de tiempo libre en euskera para niños y niñas",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-911292-972ae4ae.txt",
+  "revisar": false
+ },
+ {
   "id": "bdns-938065",
-  "h": "94b20d383c107bd6",
+  "h": "ef6f388a1f653360",
   "titulo": "Subvenciones para cursos de natación",
   "para": [
    "particular"
@@ -978,19 +1021,6 @@
    "estudios"
   ],
   "archivo": "cache/fuentes/bdns-938065-f917aee7.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-937108",
-  "h": "7a950d427b6bd08a",
-  "titulo": "Subvenciones para actividades de promoción y difusión cultural",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "cultura"
-  ],
-  "archivo": "cache/fuentes/bdns-937108-7f4aaefa.txt",
   "revisar": false
  },
  {
@@ -1020,6 +1050,19 @@
    "estudios"
   ],
   "archivo": "cache/fuentes/bdns-932594-7d5f8c6a.txt",
+  "revisar": false
+ },
+ {
+  "id": "ue-cs-valleys-open-call-1",
+  "h": "9abed7023ca3b166",
+  "titulo": "Ayudas Valleys para proyectos piloto de valorización del conocimiento",
+  "para": [
+   "empresa",
+   "asociacion",
+   "ayuntamiento"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-cs-valleys-open-call-1-e57d4050.txt",
   "revisar": false
  },
  {
@@ -1071,7 +1114,8 @@
   "h": "1289fcd4a698a8d3",
   "titulo": "Ayudas para mejorar la accesibilidad y la eficiencia energética de viviendas",
   "para": [
-   "particular"
+   "particular",
+   "asociacion"
   ],
   "temas": [
    "vivienda",
@@ -1092,6 +1136,18 @@
    "emprendimiento"
   ],
   "archivo": "cache/fuentes/extra-fund-bbk-ekin-2027-920bf427.txt",
+  "revisar": false
+ },
+ {
+  "id": "ue-cs-woodstock-grants-to-support-climate-smart-wood-construction-solutions",
+  "h": "217917e913bf6d88",
+  "titulo": "Ayudas WoodStock para construir con madera poco aprovechada",
+  "para": [
+   "empresa",
+   "asociacion"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-cs-woodstock-grants-to-support-climate-smart-wood-constru-5db216db.txt",
   "revisar": false
  },
  {
@@ -1156,7 +1212,9 @@
   "h": "b47648ac93cf07e5",
   "titulo": "Subvenciones para impartir formación estatal a personas trabajadoras ocupadas",
   "para": [
-   "autonomo"
+   "empresa",
+   "asociacion",
+   "ayuntamiento"
   ],
   "temas": [
    "empleo"
@@ -1169,8 +1227,7 @@
   "h": "959f633d1e7b8d34",
   "titulo": "Becas Luisa de Medrano para estudiar en otra universidad española",
   "para": [
-   "particular",
-   "ayuntamiento"
+   "particular"
   ],
   "temas": [
    "estudios",
@@ -1216,6 +1273,19 @@
   "revisar": false
  },
  {
+  "id": "bdns-937800",
+  "h": "93c9a7a39adf64c6",
+  "titulo": "Concurso de pintura navideña para niñas y niños",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-937800-c4c86d33.txt",
+  "revisar": false
+ },
+ {
   "id": "bdns-934476",
   "h": "a107c25f49600cd9",
   "titulo": "Ayudas para tratar las termitas en edificios urbanos",
@@ -1257,10 +1327,11 @@
  },
  {
   "id": "bdns-934005",
-  "h": "c4524b1db324704f",
+  "h": "60e4f03b290c7d2e",
   "titulo": "Ayudas para limpiar pintadas en fachadas de comunidades de propietarios",
   "para": [
-   "particular"
+   "particular",
+   "asociacion"
   ],
   "temas": [
    "vivienda"
@@ -1279,6 +1350,22 @@
    "social"
   ],
   "archivo": "cache/fuentes/bdns-940983-26fd9a3c.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-940878",
+  "h": "5f3517ebf141ab0d",
+  "titulo": "Ayudas para alquilar un local vacío al emprender un negocio",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "vivienda",
+   "comercio",
+   "emprendimiento"
+  ],
+  "archivo": "cache/fuentes/bdns-940878-9c7266ed.txt",
   "revisar": false
  },
  {
@@ -2051,6 +2138,32 @@
   "revisar": false
  },
  {
+  "id": "ue-cs-restack-open-call-2027-01r",
+  "h": "e14aecf5b4f66ddb",
+  "titulo": "Ayudas Restack para desarrollar software libre para una internet abierta",
+  "para": [
+   "particular",
+   "autonomo",
+   "empresa",
+   "asociacion",
+   "ayuntamiento"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-cs-restack-open-call-2027-01r-51dae41e.txt",
+  "revisar": false
+ },
+ {
+  "id": "ue-cs-d-storm-fstp-call-1-loitering-munitions-ucas-use-cases-scenarios-and-conops",
+  "h": "daff438e1cc5a35b",
+  "titulo": "Ayudas para pymes expertas en municiones merodeadoras y drones de combate",
+  "para": [
+   "empresa"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-cs-d-storm-fstp-call-1-loitering-munitions-ucas-use-cases-05631b90.txt",
+  "revisar": false
+ },
+ {
   "id": "extra-fund-lacaixa-inphinit-incoming-2027",
   "h": "629aba3083cb9d8d",
   "titulo": "Becas INPhINIT Incoming para doctorados científicos en España o Portugal",
@@ -2072,6 +2185,17 @@
   ],
   "temas": [],
   "archivo": "cache/fuentes/ue-erc-2027-cog-ec4a4bd6.txt",
+  "revisar": false
+ },
+ {
+  "id": "ue-cs-women-techeu-open-call",
+  "h": "1e3dc00aceae704c",
+  "titulo": "Ayudas Women TechEU para empresas emergentes tecnológicas lideradas por mujeres",
+  "para": [
+   "empresa"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-cs-women-techeu-open-call-3f76f8eb.txt",
   "revisar": false
  },
  {
@@ -2207,6 +2331,21 @@
   "revisar": false
  },
  {
+  "id": "ue-cs-codesupply-open-call-2027-01y",
+  "h": "9fb0eead7cae9b41",
+  "titulo": "Ayudas CodeSupply para software libre sobre seguridad de paquetes de software",
+  "para": [
+   "particular",
+   "autonomo",
+   "empresa",
+   "asociacion",
+   "ayuntamiento"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-cs-codesupply-open-call-2027-01y-e8f2da98.txt",
+  "revisar": false
+ },
+ {
   "id": "bdns-940546",
   "h": "d0fe2df77f1c2c74",
   "titulo": "Subvenciones para preproducción, producción y promoción de proyectos audiovisuales",
@@ -2218,6 +2357,18 @@
    "cultura"
   ],
   "archivo": "cache/fuentes/bdns-940546-b5f83570.txt",
+  "revisar": false
+ },
+ {
+  "id": "ue-cs-grail-open-call-genesis-1st-open-call",
+  "h": "44b779359662d577",
+  "titulo": "Ayudas Grail para crear datos para la inteligencia artificial de robots industriales",
+  "para": [
+   "empresa",
+   "ayuntamiento"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-cs-grail-open-call-genesis-1st-open-call-ff3a1021.txt",
   "revisar": false
  },
  {
@@ -2265,6 +2416,17 @@
   "revisar": false
  },
  {
+  "id": "ue-cs-digiwind-ntnu-open-call-2-spring-autumn-2027",
+  "h": "bf06a2a8710aead0",
+  "titulo": "Becas DigiWind para estudiar un semestre de máster en Noruega",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-cs-digiwind-ntnu-open-call-2-spring-autumn-2027-034e9146.txt",
+  "revisar": false
+ },
+ {
   "id": "extra-fund-lacaixa-inphinit-retaining-2027",
   "h": "85515348bce80b71",
   "titulo": "Becas INPhINIT Retaining para hacer el doctorado en España o Portugal",
@@ -2275,6 +2437,17 @@
    "estudios"
   ],
   "archivo": "cache/fuentes/extra-fund-lacaixa-inphinit-retaining-2027-49d0a853.txt",
+  "revisar": false
+ },
+ {
+  "id": "ue-erc-2027-poc",
+  "h": "cc3b2e545e5ea2f6",
+  "titulo": "Ayudas ERC Proof of Concept para llevar la investigación al mercado",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-erc-2027-poc-2a851c0f.txt",
   "revisar": false
  },
  {
@@ -2425,6 +2598,17 @@
   "revisar": false
  },
  {
+  "id": "ue-cs-techstars-x-eit-urban-mobility-founder-catalyst-programme",
+  "h": "10c891e57bfc7c2b",
+  "titulo": "Programa Techstars x EIT Urban Mobility para empresas emergentes de movilidad urbana",
+  "para": [
+   "empresa"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-cs-techstars-x-eit-urban-mobility-founder-catalyst-progra-2392c8df.txt",
+  "revisar": false
+ },
+ {
   "id": "extra-msca-pf-2027",
   "h": "e52585d2f8151936",
   "titulo": "Becas Marie Skłodowska-Curie para investigadores posdoctorales",
@@ -2436,6 +2620,17 @@
    "emprendimiento"
   ],
   "archivo": "cache/fuentes/extra-msca-pf-2027-194cb28b.txt",
+  "revisar": false
+ },
+ {
+  "id": "ue-horizon-widera-2027-03-widening-01",
+  "h": "a655c1a0ff8ea9f5",
+  "titulo": "Becas ERA Fellowships para investigar en países europeos que refuerzan su ciencia",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-horizon-widera-2027-03-widening-01-a38cdad2.txt",
   "revisar": false
  },
  {
@@ -2583,6 +2778,30 @@
    "vivienda"
   ],
   "archivo": "cache/fuentes/bdns-910373-b4212bf9.txt",
+  "revisar": false
+ },
+ {
+  "id": "ue-cs-emergency-response-microgrants-for-ecosystem-development",
+  "h": "f6f38139c5f4a6b0",
+  "titulo": "Ayudas para que verificadores de datos analicen crisis de desinformación",
+  "para": [
+   "empresa",
+   "asociacion"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-cs-emergency-response-microgrants-for-ecosystem-developme-d232b3a9.txt",
+  "revisar": false
+ },
+ {
+  "id": "ue-cs-efcsn-permanent-call-for-protection-grants",
+  "h": "83c2f1515f216e3e",
+  "titulo": "Ayudas para proteger a verificadores de datos frente a acoso y amenazas",
+  "para": [
+   "empresa",
+   "asociacion"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-cs-efcsn-permanent-call-for-protection-grants-8b8862d0.txt",
   "revisar": false
  },
  {
@@ -3773,6 +3992,17 @@
   "revisar": false
  },
  {
+  "id": "prest-araba-pevs",
+  "h": "47b578c0f318894c",
+  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-araba-peap",
   "h": "b7167957c542832d",
   "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
@@ -3784,17 +4014,6 @@
    "educacion"
   ],
   "archivo": "cache/fuentes/prest-araba-peap-b3e1675d.txt",
-  "revisar": false
- },
- {
-  "id": "prest-araba-pevs",
-  "h": "47b578c0f318894c",
-  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
-  "para": [
-   "particular"
-  ],
-  "temas": [],
-  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
   "revisar": false
  },
  {

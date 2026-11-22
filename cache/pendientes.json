@@ -72,6 +72,33 @@
   "caracteres": 8800
  },
  {
+  "id": "ue-horizon-eic-2026-prize-wip",
+  "h": "ed2bdc6e55313d53",
+  "titulo": "The European Prize for Women Innovators",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
+  "caracteres": 12244
+ },
+ {
+  "id": "ue-horizon-eit-2026-prize-wip-leadership",
+  "h": "15aa8d5b5b10edef",
+  "titulo": "Women Leadership Category",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-horizon-eit-2026-prize-wip-leadership-00ee7b4c.txt",
+  "caracteres": 12241
+ },
+ {
+  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
+  "h": "40b562d93f954fa5",
+  "titulo": "Rising Innovators category",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
+  "caracteres": 12248
+ },
+ {
   "id": "bob-bob-2026a219-ii-6013-",
   "h": "1c3c0ab2ed5fa248",
   "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -684,6 +711,15 @@
   "caracteres": 36508
  },
  {
+  "id": "ue-crea-media-2027-filmdist",
+  "h": "93d43372d8be537d",
+  "titulo": "European Film Distribution",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-filmdist-9cdefc48.txt",
+  "caracteres": 3631
+ },
+ {
   "id": "bdns-941955",
   "h": "f7cd80abc9f1528b",
   "titulo": "Ayudas a la producción de cortometrajes ya realizados",
@@ -736,6 +772,24 @@
   "organismoFuente": "Ayuntamiento de Hernani",
   "archivo": "cache/fuentes/bdns-942978-0ac78f70.txt",
   "caracteres": 200105
+ },
+ {
+  "id": "ue-cs-resist-ii-process-innovation-open-call",
+  "h": "b40050bc3e34dc61",
+  "titulo": "Resist II process innovation OPEN CALL",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-resist-ii-process-innovation-open-call-3fffea60.txt",
+  "caracteres": 4954
+ },
+ {
+  "id": "ue-cs-resist-ii-product-innovation-open-call",
+  "h": "f09824129f1f3b5a",
+  "titulo": "Resist II product innovation OPEN CALL",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-resist-ii-product-innovation-open-call-385d00a0.txt",
+  "caracteres": 4876
  },
  {
   "id": "bdns-940347",
