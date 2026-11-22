@@ -20,7 +20,12 @@ import { api as apiBdns, docsBdns } from './bdns.js';
 const ARCHIVO = path.join('cache', 'docs_pedidos.json');
 const MAX_INTENTOS = 5;
 const leer = (f, def) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return def; } };
-const palabras = (t) => [...new Set(norm(t).split(/[^a-z0-9]+/).filter((w) => w.length > 5 && !/^(ayudas?|subvenc\w*|convocatoria|alaves\w*|entidades|territorio|historico|diputacion|consejo|gobierno|aprobar|acuerdo)$/.test(w)))];
+// Palabras que distinguen la ayuda. Antes solo contaban las de más de 5 letras y bastaban 2 genéricas («reguladoras»,
+// «programa») para dar por bueno el anuncio de otra convocatoria: el Decreto Foral 43/2026 de Álava (colonias felinas)
+// pasó por las bases del auzo-taxi de Oñati (tarea docs-pedidos-boletin-equivocado-onati, 22/11/2026). Ahora cuentan
+// también las de 4-5 letras («taxi», «onati») y se quitan las palabras de trámite que sale en cualquier anuncio.
+const GENERICAS = /^(ayudas?|subvenc\w*|convocatorias?|alaves\w*|entidades|territorio|historico|diputacion|consejo|gobierno|aprobar|aprobacion|acuerdo|para|como|sobre|entre|desde|hasta|este|esta|estos|estas|otras?|otros?|cada|todos?|todas?|bases?|reguladoras?|programas?|correccion|correcciones|errores?|precios?|publica\w*|anuncios?|extractos?|municipal\w*|ayuntamiento|udala|boletin|oficial|gipuzkoa|bizkaia|araba|alava|euskadi|decreto|foral|orden|resolucion|modifica\w*|linea|lineas|enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)$/;
+const palabras = (t) => [...new Set(norm(t).split(/[^a-z0-9]+/).filter((w) => w.length > 3 && !/^\d+$/.test(w) && !GENERICAS.test(w)))];
 const urlBotha = (año, n3, r5, c = 'C') => `https://www.araba.eus/botha/Boletines/${año}/${n3}/${año}_${n3}_${r5}_${c}.pdf`;
 
 // Referencias de anuncio en un texto: ["2026_058_01458", …]
@@ -59,6 +64,40 @@ export function fechasBob(t) {
 // La cita del boletín («Boletín Oficial de Bizkaia, 9 de septiembre de 2024», «BOB 217/2026») no es parte del título
 // de la ayuda: se quita para comprobar que el texto encaja (si no, «boletin», «oficial», «septiembre»… cuentan).
 export const sinCitaBob = (t) => String(t || '').replace(/Bolet[ií]n Oficial de Bizkaia|Bizkaiko Aldizkari Ofiziala|\bBOB\b[^,;)]*|\b\d{1,2} de [a-záéíóú]+ de 20\d\d\b/gi, ' ');
+
+// BOG citado por su fecha («BOG, 19 de abril de 2023»): se lee el sumario de ese día (bcAAMMDD.htm, el mismo que usa
+// boletines.js) y se toman los anuncios cuyo organismo o título encaja con el título pedido. El PDF del boletín entero
+// (bo230419.pdf) que a veces se apunta en urls no existe (HTTP 404).
+const CITA_BOG = /\bBOG\b|Bolet[ií]n Oficial de Gipuzkoa|Gipuzkoako Aldizkari Ofiziala/i;
+export const fechasBog = (t) => (CITA_BOG.test(String(t || '')) ? fechasBob(String(t).replace(CITA_BOG, 'BOB')) : []);
+const entidadesHtml = (t) => String(t).replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n)).replace(/&([a-z])(acute|tilde|uml);/gi, (_, l) => l);
+export async function anunciosBogDeFecha(fecha, titulo) {
+  const [y, m, d] = fecha.split('-');
+  const url = `https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/${y}/${m}/${d}/bc${y.slice(2)}${m}${d}.htm`;
+  let html = '';
+  try { html = String((await pedir(url)) || ''); } catch { return []; }
+  const pT = palabras(sinCitaBob(titulo));
+  const out = [];
+  let entidad = '';
+  const re = /(?:<a[^>]*>\s*((?:AYUNTAMIENTO|DEPARTAMENTO|DIPUTACI|MANCOMUNIDAD|CONSORCIO|ADMINISTRACI|UDAL|JUNTAS)[^<]{2,120})<\/a>)|<div class="titulo_anuncio">([\s\S]*?)<\/div>([\s\S]*?)<\/li>/gi;
+  for (const mm of html.matchAll(re)) {
+    if (mm[1]) { entidad = entidadesHtml(mm[1]); continue; }
+    const t = norm(`${entidad} ${entidadesHtml(mm[2].replace(/<[^>]+>/g, ' '))}`);
+    const href = (mm[3].match(/href="([^"]+\.(?:htm|pdf))"/i) || [])[1];
+    if (href && pT.filter((w) => t.includes(w)).length >= Math.min(2, pT.length)) out.push(new URL(href, url).href);
+  }
+  return out;
+}
+
+// Territorio de la ayuda (publico/ayudas.json): el BOTHA solo se mira para ayudas de Álava o sin territorio conocido.
+let TERR = null;
+const territorioDe = (id) => {
+  if (!TERR) {
+    const a = leer(path.join('publico', 'ayudas.json'), []);
+    TERR = new Map((Array.isArray(a) ? a : a.ayudas || []).map((x) => [x.id, x.ambito?.terr || (x.ambito?.nivel === 'territorio' ? x.ambito?.nombre : '') || '']));
+  }
+  return norm(TERR.get(id) || '');
+};
 
 export function paginasBob(txt, titulo) {
   const todas = String(txt).split('\f');
@@ -141,9 +180,17 @@ export async function resolverPedidos({ log = console.log, resumenes = null, rei
     for (const f of fechasBob(p.titulo)) {
       try { const b = await numeroBobDeFecha(f); if (b) candidatas.push(b.url); } catch {}
     }
-    const pT = palabras(p.titulo || '');
+    // BOG citado por fecha: anuncios de ese día que encajan con el título
+    for (const f of fechasBog(p.titulo)) {
+      try { candidatas.push(...(await anunciosBogDeFecha(f, p.titulo))); } catch {}
+    }
+    // Los sumarios del BOTHA solo para ayudas de Álava: una de Gipuzkoa o Bizkaia, o que cita el BOG o el BOB, no
+    // está ahí y lo único que se puede encontrar es el anuncio de otra convocatoria.
+    const terr = territorioDe(id);
+    const enBotha = !(/gipuzkoa|bizkaia/.test(terr) || ((CITA_BOG.test(p.titulo || '') || CITA_BOB.test(p.titulo || '')) && !/botha|araba|alava/i.test(norm(p.titulo || ''))));
+    const pT = enBotha ? palabras(sinCitaBob(p.titulo || '')) : [];
     const encaja = (e) => pT.length >= 2 && pT.filter((w) => norm(e.titulo).includes(w)).length >= Math.max(2, Math.ceil(pT.length * 0.6));
-    for (const e of entradas.filter((e) => numeros.has(e.k) && (!pT.length || encaja(e)))) candidatas.push(e.url);
+    if (enBotha) for (const e of entradas.filter((e) => numeros.has(e.k) && (!pT.length || encaja(e)))) candidatas.push(e.url);
     for (const e of entradas.filter(encaja).sort((a, b) => String(b.publicacion).localeCompare(String(a.publicacion))).slice(0, 3)) candidatas.push(e.url);
     const probadas = [];
     const lista = [];

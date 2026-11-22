@@ -994,8 +994,9 @@
   "seccion": "datos",
   "quien": "Claude",
   "prioridad": 30,
-  "estado": "pendiente",
-  "fecha": "2026-11-22"
+  "estado": "hecha",
+  "fecha": "2026-11-22",
+  "nota": "El BOTHA de colonias felinas pasó porque la comprobación solo contaba palabras de más de 5 letras y bastaban dos genéricas («reguladoras», «programa»), y los sumarios del BOTHA se miraban también para ayudas de Gipuzkoa. Ahora recolector/docspedidos.js solo busca en el BOTHA ayudas de Álava (territorio de publico/ayudas.json o boletín citado), lee el sumario del BOG del día citado en el título y exige palabras distintivas (auzo, taxi, onati); los 24 pedidos ya conseguidos seguirían valiendo. Quitada la URL de docs_extra, borrado cache/pedidos/bdns-893232.txt y el texto ajeno de cache/fuentes, y el pedido vuelve a la cola: la primera prueba real con el BOG será el próximo flujo «Documentos pedidos» o el recolector de las 05:41 (desde la sesión no se llega a egoitza.gipuzkoa.eus)."
  },
  {
   "id": "vinculo-registro-municipal",
