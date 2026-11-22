@@ -522,6 +522,34 @@
   "revisar": false
  },
  {
+  "id": "bdns-901445",
+  "h": "67c04288d4ded9ea",
+  "titulo": "Subvenciones a jóvenes para el pago de alquiler de vivienda",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "vivienda",
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-901445-562859e6.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-901439",
+  "h": "d44bf0f285a3e1fe",
+  "titulo": "Subvenciones destinadas a grupos musicales o solistas locales para la realización de grabaciones",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-901439-e65022be.txt",
+  "revisar": false
+ },
+ {
   "id": "bog-c2606753-htm",
   "h": "47bce3adf4f52509",
   "titulo": "Subvenciones para poner en marcha nuevas empresas",
@@ -1171,6 +1199,61 @@
    "social"
   ],
   "archivo": "cache/fuentes/bdns-906893-c53ab59b.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-905086",
+  "h": "13d002fa6bf9f161",
+  "titulo": "Convocatoria del de las ayudas municipales de garantia de ingresos e inclusión social",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-905086-bb114440.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-905058",
+  "h": "1d5320bec33eb3f7",
+  "titulo": "Convocatoria y cuantías máximas para las Ayudas de Emergencia Social",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-905058-418d475b.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-904761",
+  "h": "f9532875e308a286",
+  "titulo": "Subvenciones para la instalación de rótulos exteriores y páginas web en euskera en el ámbito del comercio",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "comercio",
+   "emprendimiento"
+  ],
+  "archivo": "cache/fuentes/bdns-904761-89e061e9.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-904617",
+  "h": "70fe8a5a2746c092",
+  "titulo": "Becas por la realización de cursos en euskera durante el curso escolar",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "estudios",
+   "educacion"
+  ],
+  "archivo": "cache/fuentes/bdns-904617-4d01bb58.txt",
   "revisar": false
  },
  {
@@ -2123,8 +2206,8 @@
  },
  {
   "id": "bdns-931088",
-  "h": "511b104430232527",
-  "titulo": "Orden por la que se efectúa la convocatoria correspondiente al de la del Programa Auto+",
+  "h": "874c7f4d06e82ec1",
+  "titulo": "Ayudas Auto+ para que empresas y autónomos compren vehículos eléctricos",
   "para": [
    "autonomo",
    "empresa"
@@ -2218,8 +2301,8 @@
  },
  {
   "id": "bdns-922783",
-  "h": "70648c7384ca598a",
-  "titulo": "Orden por la que se efectúa la convocatoria correspondiente al de la del Programa Auto+",
+  "h": "859ad0984e5285a9",
+  "titulo": "Ayudas Auto+ para que particulares compren vehículos eléctricos",
   "para": [
    "particular"
   ],
@@ -2311,6 +2394,213 @@
    "social"
   ],
   "archivo": "cache/fuentes/bdns-910742-9413dce9.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-904935",
+  "h": "5bec095235a30c49",
+  "titulo": "Bases reguladores y convocatoria para la concesión de subvenciones para realizar cursos en euskera para la obtención del título oficial",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "cultura",
+   "estudios",
+   "educacion"
+  ],
+  "archivo": "cache/fuentes/bdns-904935-c41279df.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-902403",
+  "h": "d7ea332ff5cfa20c",
+  "titulo": "Convocatoria que regula las ayudas económicas para tratamiento de drogodependencias y otras adicciones",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-902403-462408ca.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-901943",
+  "h": "b1cefaf0285520ff",
+  "titulo": "Subvenciones para las actividades y proyectos relacionados con la educación",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "educacion"
+  ],
+  "archivo": "cache/fuentes/bdns-901943-bf8721bf.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-901940",
+  "h": "5be9d4955e4d7b3c",
+  "titulo": "Subvenciones para las actividades y proyectos realizados por asociaciones de madres y padres del alumnado de los centros docentes sin animo",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "educacion"
+  ],
+  "archivo": "cache/fuentes/bdns-901940-47fc9b8c.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-901523",
+  "h": "7ca8e58d7b942645",
+  "titulo": "Subvenciones para asociaciones que desarrollan su actividad en el ámbito de la igualdad de oportunidades entre mujeres y hombres",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-901523-866bf548.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-901477",
+  "h": "2bb1e457d8d32afa",
+  "titulo": "Subvenciones para promover el comercio local dirigidas al sector comercial y de servicios",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "comercio",
+   "emprendimiento"
+  ],
+  "archivo": "cache/fuentes/bdns-901477-ba6da2df.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-901470",
+  "h": "cea36affad3c036d",
+  "titulo": "Subvenciones para garantizar las transmisiones en negocios de los sectores de comercio",
+  "para": [
+   "autonomo",
+   "empresa",
+   "ayuntamiento",
+   "particular"
+  ],
+  "temas": [
+   "comercio",
+   "emprendimiento"
+  ],
+  "archivo": "cache/fuentes/bdns-901470-af46e62a.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-901463",
+  "h": "1149e4cab7712354",
+  "titulo": "Subvenciones a grupos, asociaciones y entidades para el desarrollo de actividades de caracter medio ambiental",
+  "para": [
+   "particular",
+   "asociacion",
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "energia",
+   "rural"
+  ],
+  "archivo": "cache/fuentes/bdns-901463-3710ace3.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-901431",
+  "h": "ee44f5e93f2568f4",
+  "titulo": "Subvenciones A entidades que ponen en euskera el sistema de facturacion “TicketBAI”",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "comercio",
+   "emprendimiento"
+  ],
+  "archivo": "cache/fuentes/bdns-901431-cb87fc3a.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-901395",
+  "h": "df3c7ed3b1e6b4c6",
+  "titulo": "Subvenciones a las personas que participan en cursos de la universidad vasca de verano",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "estudios",
+   "educacion"
+  ],
+  "archivo": "cache/fuentes/bdns-901395-86ae65d2.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-901390",
+  "h": "81b4d23181950e6f",
+  "titulo": "Subvenciones a las asociaciones y entidades que fomentan el uso del euskera",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "educacion"
+  ],
+  "archivo": "cache/fuentes/bdns-901390-72d9fe12.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-901387",
+  "h": "170ea535f0073310",
+  "titulo": "Subvenciones a los euskaltegis del sector de la euskaldunización y alfabetización de adultos",
+  "para": [
+   "particular",
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "educacion"
+  ],
+  "archivo": "cache/fuentes/bdns-901387-f3cf8805.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-901385",
+  "h": "13a312032369df2e",
+  "titulo": "2.2. subvenciones a entidades que ponen en euskera sus rótulos, imagen corporativa y sitio web",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "comercio",
+   "emprendimiento"
+  ],
+  "archivo": "cache/fuentes/bdns-901385-a8f8914d.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-901381",
+  "h": "51c09a75c00c6a94",
+  "titulo": "2.1. subvenciones para el aprendizaje de euskera en los euskaltegis",
+  "para": [
+   "particular",
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "educacion"
+  ],
+  "archivo": "cache/fuentes/bdns-901381-e08089ae.txt",
   "revisar": false
  },
  {
@@ -2767,6 +3057,20 @@
    "cultura"
   ],
   "archivo": "cache/fuentes/bdns-936011-f75e9b72.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-901394",
+  "h": "a47afd0a6a1a9f7d",
+  "titulo": "Conceder subvenciones a clubes deportivos y asociaciones sin ánimo de lucro para la participación en competiciones extraordinarias fuera de la CAPV",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "cultura",
+   "deporte"
+  ],
+  "archivo": "cache/fuentes/bdns-901394-bf4628f5.txt",
   "revisar": false
  },
  {
@@ -3246,7 +3550,7 @@
  },
  {
   "id": "bdns-910375",
-  "h": "31f6d3f135047322",
+  "h": "91cf0ffd3314b725",
   "titulo": "Ayudas a la rehabilitación de viviendas y edificios residenciales en el casco medieval para los ejercicios",
   "para": [
    "particular"
@@ -4189,6 +4493,19 @@
   "revisar": false
  },
  {
+  "id": "bdns-903706",
+  "h": "c2eff70e67672722",
+  "titulo": "Concesion de subvención de maxima necesidad",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-903706-8aa56183.txt",
+  "revisar": false
+ },
+ {
   "id": "bog-c2607316-htm",
   "h": "5377f180fa7fe747",
   "titulo": "Ayudas para el transporte a tratamientos de adicciones",
@@ -4426,19 +4743,6 @@
   "revisar": false
  },
  {
-  "id": "prest-bizkaia-pnc-incapacidad",
-  "h": "ba1a61d381ec383f",
-  "titulo": "Pensión no contributiva de incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-bizkaia-pnc-incapacidad-55586f81.txt",
-  "revisar": false
- },
- {
   "id": "prest-bono-social-electrico",
   "h": "17d0c1c6d10433f4",
   "titulo": "Bono social para pagar menos en la factura de la luz",
@@ -4451,6 +4755,19 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-bono-social-electrico-a18ad288.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-bizkaia-pnc-incapacidad",
+  "h": "ba1a61d381ec383f",
+  "titulo": "Pensión no contributiva de incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-bizkaia-pnc-incapacidad-55586f81.txt",
   "revisar": false
  },
  {
@@ -4576,20 +4893,6 @@
   "revisar": false
  },
  {
-  "id": "prest-gipuzkoa-pnc",
-  "h": "bc3fff81ddb4a496",
-  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "familia",
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
-  "revisar": false
- },
- {
   "id": "prest-araba-pnc",
   "h": "89f930ea395d5a97",
   "titulo": "Pensión no contributiva de jubilación o invalidez para personas sin recursos",
@@ -4602,6 +4905,20 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-araba-pnc-6fc67e01.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-gipuzkoa-pnc",
+  "h": "bc3fff81ddb4a496",
+  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
   "revisar": false
  },
  {
