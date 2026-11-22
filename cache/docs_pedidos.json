@@ -377,15 +377,11 @@
   "titulo": "Bases reguladoras de las ayudas económicas individuales y familiares municipales para paliar situaciones de exclusión social y/o extrema necesidad, Ayuntamiento de Azpeitia (BOG nº 61, 30 de marzo de 2022)",
   "botha": [],
   "urls": [
-   "https://www.azpeitia.eus/tramiteak/dirulaguntza-programak/tramitean/gizarte-bazterkeriako-eta-behar-larriko-egoerei-aurre-egiteko-norbanako-eta-familientzako-udal-laguntza/1-oinarriak_fudal_gao.pdf",
-   "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2022/03/30/c2201679.pdf",
-   "https://www.azpeitia.eus/tramiteak/dirulaguntza-programak/gizarte-bazterkeriako-eta-behar-larriko-egoerei-aurre-egiteko-norbanakoei-eta-familiei-emango-zaizkien-udal-laguntzetarako-2023ko-deialdia-eta-hura-arautuko-duten-oinarriak-2023/1-c2201679.pdf"
+   "https://www.azpeitia.eus/tramiteak/dirulaguntza-programak/gizarte-bazterkeriako-eta-behar-larriko-egoerei-aurre-egiteko-norbanakoei-eta-familiei-emango-zaizkien-udal-laguntzetarako-2023ko-deialdia-eta-hura-arautuko-duten-oinarriak-2023/1-c2201679.pdf",
+   "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2022/03/30/c2201679.pdf"
   ],
-  "url": "https://www.azpeitia.eus/tramiteak/dirulaguntza-programak/tramitean/gizarte-bazterkeriako-eta-behar-larriko-egoerei-aurre-egiteko-norbanako-eta-familientzako-udal-laguntza/1-oinarriak_fudal_gao.pdf",
-  "fecha": "2026-11-22",
-  "probadas": [],
-  "nota": "Lo descargado era la convocatoria 2025, no las bases de 2022 (BOG nº 61, 30/03/2022).",
-  "estado": "ok"
+  "nota": "Reintento: cache/pedidos/bdns-910362.txt contiene otra vez la convocatoria 2025 (primera URL antigua), no las bases de 2022; se quita esa URL. La tarea copió en textos_claude los artículos 2, 3 y 4.2 de las bases.",
+  "fecha": "2026-11-22"
  },
  "bdns-929714": {
   "titulo": "Subvención a asociaciones para la organización de colonias y campamentos de verano 2026, Ayuntamiento de Barakaldo (BDNS 929714, recibida el 16/09/2026)",
@@ -701,5 +697,19 @@
     "motivo": "no es PDF (text/html, 47606 bytes)"
    }
   ]
+ },
+ "bdns-895708": {
+  "titulo": "Bases específicas de las subvenciones al alquiler para la recuperación de locales comerciales en suelo urbano de Azkoitia (BOG n.º 120, 26 de junio de 2025)",
+  "botha": [],
+  "urls": [],
+  "fecha": "2026-11-22"
+ },
+ "bdns-939450": {
+  "titulo": "Ordenanza reguladora de la concesión de subvenciones del Ayuntamiento de Busturia (BOB n.º 64, 2 de abril de 2014)",
+  "botha": [],
+  "urls": [
+   "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2014/04/20140402a064.pdf"
+  ],
+  "fecha": "2026-11-22"
  }
 }
