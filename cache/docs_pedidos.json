@@ -342,6 +342,10 @@
  "bdns-911829": {
   "titulo": "Ayudas para el transporte a los centros educativos que participan en los programas educativos del Servicio de Educación y/o del Centro de Estudios Ambientales del Ayuntamiento de Vitoria-Gasteiz, curso 2026-2027 (BOTHA 2026)",
   "botha": [],
-  "urls": []
+  "urls": [],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": []
  }
 }
