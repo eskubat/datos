@@ -824,7 +824,7 @@
  },
  {
   "id": "bdns-910721",
-  "h": "6f26879d8d8cc428",
+  "h": "95ca2400a2e0ee7f",
   "titulo": "Ayudas extraordinarias para negocios del Casco Histórico",
   "para": [
    "autonomo",
@@ -1915,13 +1915,11 @@
  },
  {
   "id": "bdns-927981",
-  "h": "7eb8102d5e539c81",
+  "h": "73c179517bfeddf3",
   "titulo": "Subvenciones para contratar a personas desempleadas y establecerse como autónomo",
   "para": [
-   "autonomo",
-   "empresa",
-   "asociacion",
-   "ayuntamiento"
+   "particular",
+   "autonomo"
   ],
   "temas": [
    "empleo"
@@ -3838,6 +3836,19 @@
   "revisar": false
  },
  {
+  "id": "bdns-926043",
+  "h": "63be40cd9ef45a72",
+  "titulo": "Premios de los concursos de ganado latxo y queso del Artzain Eguna",
+  "para": [
+   "autonomo"
+  ],
+  "temas": [
+   "rural"
+  ],
+  "archivo": "cache/fuentes/bdns-926043-a5b54456.txt",
+  "revisar": false
+ },
+ {
   "id": "bog-c2607316-htm",
   "h": "5377f180fa7fe747",
   "titulo": "Ayudas para el transporte a tratamientos de adicciones",
@@ -3860,6 +3871,21 @@
    "social"
   ],
   "archivo": "cache/fuentes/bog-c2607317-htm-63fa436c.txt",
+  "revisar": false
+ },
+ {
+  "id": "bog-c2606989-htm",
+  "h": "7c0b54a47f27ea63",
+  "titulo": "Subvenciones para actividades de las fiestas de San Pedro",
+  "para": [
+   "particular",
+   "autonomo",
+   "empresa",
+   "asociacion",
+   "ayuntamiento"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bog-c2606989-htm-95aef769.txt",
   "revisar": false
  },
  {
@@ -3962,6 +3988,34 @@
   "revisar": false
  },
  {
+  "id": "bob-bob-2026a204-ii-5409-",
+  "h": "7b75897a680e4ec0",
+  "titulo": "Subvenciones para actividades culturales, deportivas y sociales",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "cultura",
+   "deporte"
+  ],
+  "archivo": "cache/fuentes/bob-bob-2026a204-ii-5409--8660df32.txt",
+  "revisar": false
+ },
+ {
+  "id": "bob-bob-2026a204-ii-5410-",
+  "h": "8633436cf61b7421",
+  "titulo": "Ayudas para rehabilitar viviendas vacías y ponerlas en alquiler con Bizigune",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "vivienda"
+  ],
+  "archivo": "cache/fuentes/bob-bob-2026a204-ii-5410--a61b74b6.txt",
+  "revisar": false
+ },
+ {
   "id": "bob-bob-2026a203-ii-5394-",
   "h": "ab0392403bef8c5b",
   "titulo": "Subvenciones para actividades de interés público, culturales y deportivas",
@@ -4017,6 +4071,30 @@
   ],
   "temas": [],
   "archivo": "cache/fuentes/bob-bob-2026a200-ii-5331--03e0f294.txt",
+  "revisar": false
+ },
+ {
+  "id": "bob-bob-2026a198-ii-5294-",
+  "h": "447dedddd4f25926",
+  "titulo": "Concurso de pintura al aire libre Getxoarte",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bob-bob-2026a198-ii-5294--2d1397e4.txt",
+  "revisar": false
+ },
+ {
+  "id": "bob-bob-2026a198-ii-5293-",
+  "h": "2d1e5b7df083e24a",
+  "titulo": "Concurso de pintura al aire libre en familia Getxoarte",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia"
+  ],
+  "archivo": "cache/fuentes/bob-bob-2026a198-ii-5293--d8b7806d.txt",
   "revisar": false
  },
  {

@@ -118,12 +118,12 @@
  },
  {
   "id": "bdns-910721",
-  "h": "88b3a6418699d821",
+  "h": "03c8143112d96e1e",
   "titulo": "Ayudas extraordinarias para negocios del Casco Histórico",
   "organismoSugerido": "ayto-portugalete",
   "organismoFuente": "Ayuntamiento de Portugalete",
   "archivo": "cache/fuentes/bdns-910721-fe7018b6.txt",
-  "caracteres": 814
+  "caracteres": 4662
  },
  {
   "id": "bdns-932435",
@@ -234,6 +234,15 @@
   "caracteres": 1778
  },
  {
+  "id": "bdns-927981",
+  "h": "1cde7c8834c7e769",
+  "titulo": "Subvenciones para contratar a personas desempleadas y establecerse como autónomo",
+  "organismoSugerido": "ayto-campezo-kanpezu",
+  "organismoFuente": "Ayuntamiento de Campezo/Kanpezu",
+  "archivo": "cache/fuentes/bdns-927981-1226b3c9.txt",
+  "caracteres": 10799
+ },
+ {
   "id": "bdns-923213",
   "h": "c751cc214fd7ee0a",
   "titulo": "Subvenciones para usar el servicio Auzotaxi",
@@ -252,15 +261,6 @@
   "caracteres": 289509
  },
  {
-  "id": "ue-crea-media-2027-tvonline-1",
-  "h": "594ec78e4c088425",
-  "titulo": "TV and online content Animation projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
-  "caracteres": 6321
- },
- {
   "id": "ue-crea-media-2027-tvonline-2",
   "h": "2bb80164abe11ee5",
   "titulo": "TV and online content Documentary projects",
@@ -277,6 +277,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
   "caracteres": 6320
+ },
+ {
+  "id": "ue-crea-media-2027-tvonline-1",
+  "h": "594ec78e4c088425",
+  "titulo": "TV and online content Animation projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
+  "caracteres": 6321
  },
  {
   "id": "ara-01362004",
@@ -532,12 +541,12 @@
  },
  {
   "id": "bog-c2606531-htm",
-  "h": "1f80e64ac8b89b73",
+  "h": "e40d379b79774e3a",
   "titulo": "Convocatoria de de subvenciones del Área de Política Lingüística Municipal",
   "organismoSugerido": "ayto-errenteria",
   "organismoFuente": "Ayuntamiento de Errenteria",
   "archivo": "cache/fuentes/bog-c2606531-htm-54fb1a1a.txt",
-  "caracteres": 2348
+  "caracteres": 17029
  },
  {
   "id": "botha-2026-131-03265-c-pdf",

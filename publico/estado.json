@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generado": "2026-11-22T10:43:46.924Z",
+  "generado": "2026-11-22T12:00:36.379Z",
   "total": 467,
   "porAmbito": {
     "estado": 59,
@@ -20,21 +20,21 @@
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
       "registros": 129,
-      "segundos": 28,
+      "segundos": 33,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 27,
-      "segundos": 16,
+      "segundos": 20,
       "erroresFicha": 0
     },
     "araba": {
       "nombre": "Diputación Foral de Álava (ayudas en vigor)",
       "ok": true,
       "registros": 145,
-      "segundos": 18,
+      "segundos": 19,
       "erroresFicha": 0
     },
     "bdns": {
@@ -48,14 +48,14 @@
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 154,
-      "segundos": 5,
+      "segundos": 7,
       "erroresFicha": 0
     },
     "prestaciones": {
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 19,
-      "segundos": 15,
+      "segundos": 21,
       "erroresFicha": 0
     },
     "europa": {
