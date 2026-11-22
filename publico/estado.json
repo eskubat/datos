@@ -1,61 +1,61 @@
 {
   "version": 1,
-  "generado": "2026-11-22T12:00:36.379Z",
-  "total": 467,
+  "generado": "2026-11-22T12:57:50.517Z",
+  "total": 464,
   "porAmbito": {
     "estado": 59,
-    "euskadi": 84,
-    "municipio": 207,
+    "euskadi": 85,
+    "municipio": 203,
     "ue": 33,
     "territorio": 84
   },
   "porEstado": {
-    "abierta": 361,
+    "abierta": 376,
     "proxima": 46,
-    "sinfecha": 60
+    "sinfecha": 42
   },
-  "previstas": 651,
+  "previstas": 641,
   "fuentes": {
     "euskadi": {
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
       "registros": 129,
-      "segundos": 33,
+      "segundos": 29,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 27,
-      "segundos": 20,
+      "segundos": 17,
       "erroresFicha": 0
     },
     "araba": {
       "nombre": "Diputación Foral de Álava (ayudas en vigor)",
       "ok": true,
       "registros": 145,
-      "segundos": 19,
+      "segundos": 18,
       "erroresFicha": 0
     },
     "bdns": {
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
-      "ok": false,
-      "error": "Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON",
-      "registros": 210,
-      "conservados": true
+      "ok": true,
+      "registros": 904,
+      "segundos": 162,
+      "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 154,
-      "segundos": 7,
+      "segundos": 4,
       "erroresFicha": 0
     },
     "prestaciones": {
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 19,
-      "segundos": 21,
+      "segundos": 18,
       "erroresFicha": 0
     },
     "europa": {
@@ -66,9 +66,9 @@
     }
   },
   "enlaces": {
-    "comprobados": 682,
-    "rotos": 0,
-    "sustituidos": 0,
-    "quitados": 0
+    "comprobados": 787,
+    "rotos": 5,
+    "sustituidos": 1,
+    "quitados": 4
   }
 }

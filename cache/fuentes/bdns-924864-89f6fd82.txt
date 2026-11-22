@@ -1,284 +1,3 @@
-### Bases reguladoras: https://www.bizkaia.eus
-Hasiera - Bizkaia.eus
-Bizkaiko Foru Aldundia
-Zerbitzuei eta izapideei buruzko gaurkotasun eta informazio guztia
-Nabarmenduak
-2027ko aurrekontuen proiektua
-GUre ITUNA
-Trafikoa
-Bizkaibus
-Lan Publikoaren eskaintza
-Sexu-indarkeriako arreta
-Izapide guztiak egoitza elektronikoan
-Izapideak ikusi
-Informazioa eta zerbitzuak gaien arabera
-Bizkaiko Ogasuna
-Zergei, katastroari, Batuzi, zerga-araudiari, zerga-egutegiari, zergen ordainketari, enkanteei eta abarri buruzko informazioa
-Gizarte zerbitzuak
-Haurtzaroari, harrerari, mendekotasunari buruzko informazioa, ezintasuna, egoitzak...
-Enpresen eta enpleguaren sustapena
-Ekintzailetza, nazioartekotzea, nazioartekotzea, industria, berrikuntza...
-Mugikortasuna, garraioa eta errepideak
-Garraioari buruzko informazioa, Bizkaibus, trafikoa, bizikletak, GPZ, baimenak, IEA...
-Ingurumen jasangarritasuna eta ingurune naturala
-Informazioa jasangarritasunari, ingurumenari, biodibertsitateari, nekazaritzari, abeltzaintzari, landa garapenari, suhiltzaileei eta salbamenduari buruz
-Euskara eta kultura
-Euskarari buruzko informazioa, Bizkaiko kultur txartela, Foru Liburutegia, tailerrak, museoak...
-Kirola
-Eskola kirolari buruzko informazioa, kirol federatua, Kirolbide, Udalekuak...
-Turismoa eta tokiko kontsumoa
-Bizkaiko turismoari buruzko informazioa, aisialdirako guneak, hondartzak, bizikleta bideak...
-Hirigintza eta Harremana beste administrazio batzuekin
-Informazioa beste administrazioei ematen zaizkien zerbitzuen inguruan (Udalnet, Biscaytik, ...)
-Erakutsi gai guztiak
-Erakutsi gai gutxiago
-Berriak
-Nabarmendutako berriak
-Elixabete Etxanobek Bizkaiko Forua herritarren eguneroko bizitzan presente jarraitzen duen «sistema bizia» dela aldarrikatzen du
-azaroaren 12(a), 2026
-Albiste guztiak
-Bizkaiko Foru Aldundiak barne-ekintzailetzako gida praktiko bat argitaratu du, enpresei negozio berriak garatzen laguntzeko
-Azaroaren 24an, La Encartada Modak Euskal Museora eramango du La Encartada Fabrika-Museoaren unibertsoa
-Albiste guztiak
-Ekimenak, programak eta kanpainak
-Ekimena Aurrekoa
-Ekimena Hurrengoa
-Enpresentzako laguntzak
-Horia da / Ez da horia
-Familia harrera
-Bizkaia koloretan
-Laguntza-tresnak emakume baserritarrentzat
-2025eko jardueren egitaraua
-On egiteko errezetak
-Europako fondoen kudeaketa
-Bizkaiko Indarkeriaren Matxistaren Behatokia
-Bizkaia Gazteak
-Adiskidetza digitala
-Aktibatu + iraunkortasun programa
-Emakume eta Gizonen arteko Berdintasuna
-Aplikazioak
-Aplikazioa Aurrekoa
-Aplikazioa Hurrengoa
-Errenta
-Errenta-aitorpena aurkezteko aplikazio mugikorra
-App Store
-Google Play
-Bizkaibus
-Bizkaiko autobusen ordutegia.
-App Store
-Google Play
-Bizkaimove
-Trafikoko alertei buruzko informazioa.
-App Store
-Google Play
-Eskola Kirola
-Eskola Kiroleko familientzako komunikazio-kanal berria
-App Store
-Google Play
-Bizkaia enplegu ataria
-Lana aurkitzen lagunduko dizun tresnarik onena
-App Store
-Google Play
-Aldatu hona:
-ES
-Web-orri honek, https://www.bizkaia.eus (aurrerantzean, "Webgunea"), nabigazioaren bidez eta zerbitzuaren hartzailearen IP helbidearen bidez nabigazioaren beraren jarraipena egiteko tresnak erabiltzen ditu; honela, zerbitzuak edo haren funtzionamendu teknikoa hobetzeko eta bermatzeko, beste erabiltzaile batzuengandik bereizteko eta nabigazio-ohiturak aztertzeko.
-Izena
-Mota
-Helburua
-Iraupena
-JSESSIONID
-Saioa identifikatzea
-Saioa
-ASPSESSIONID
-Saioa
-TS01
-Saioa
-LFR_SESSION_STATE
-Saioa
-Urtebete
-pc_tecnicas_bizkaia
-Urtebete
-pc_analitica_bizkaia
-Urtebete
-pc_preferencias_bizkaia
-Urtebete
-pc_terceros_bizkaia
-Urtebete
-CPLB
-Karga orekatzeko gure zerbitzariek erabilitako informazioa jasotzen du
-Saioa
-Kultursistema_session
-Erabiltzailearen saioa mantendu
-Ordu 1
-Kultursistema
-XSRF-TOKEN
-CSRF (Cross Site Request Forgery) erasoak saihesteko
-Ordu 1
-Kultursistema
-_GRECAPTCHA
-Babestu webgunea spametik eta indar handiko erasoetatik
-6 hilabete
-Google
-Izena
-Mota
-Helburua
-Iraupena
-Bisita bat arakatzen du hainbat eskaeraren bidez
-Saioa
-dtLatC
-Zerbitzariaren sortasuna neurtzen du errendimenduaren monitorizaziorako
-Saioa
-dtPC
-Beharrezkoa balizen transmisiorako parametro egokiak identifikatzeko; korrelaziorako saioaren IDa barne hartzen du
-Saioa
-dtSa
-Erdi mailako biltegia orrialdeak hartzen dituzten ekintzetarako
-Saioa
-rxVisitor
-Bisitariaren ID saioak korrelazioan jartzeko
-Etengabe
-rxvt
-Saioaren itxarote-denbora
-Saioa
-iyrc-user-id
-Erabiltzaileak bereiztea
-Ordu 1
-_ga, _ga_XXXXXXXXXXX
-Erabiltzailea bereiztea
-2 urte
-Google Analytics
-_gat, _gat_XXXXXXXXXXX
-Eskaeren ehunekoa mugatzea
-Minutu 1
-_gid
-Egun 1
-MUID
-Urtebete
-Microsoft Clarity
-_clck
-Lehentasunak esleitzea erabiltzaile berdinari
-Urtebete
-_clsk
-Konektatu saio batean ikusitako hainbat orri
-Urtebete
-CLID
-Identifikatu erabiltzaile baten lehenengo bisita
-Urtebete
-ANONCHK
-Egun 1
-MR
-Adierazi noiz freskatu MUID
-6 hilabete
-SM
-Sinkronizatu MUID Microsoft inguruan
-Urtebete
-Izena
-Mota
-Helburua
-Iraupena
-Idioma
-Erabiltzailearen hizkuntzarik gustukoena aukeratzea
-Urtebete
-Gorde gogoko izapideak Aurretiazko Hitzorduan
-Urtebete
-Izena
-Mota
-Helburua
-Iraupena
-CLID
-Urtebete
-APISID
-Gorde erabiltzailearen lehentasunak eta informazioa orriak bistaratzean, Google mapak bertan daudela.
-2 urte
-Google
-HSID
-Iruzurra prebenitzea
-2 urte
-Google
-MUID
-Bereizi erabiltzailea
-Urtebete
-NID
-Gogoratu bere lehentasunak eta beste edozein informazio
-6 hilabete
-Google
-SAPISID
-Erakutsi iragarki pertsonalizatuak Googleko webguneetan
-2 urte
-Google
-SID
-Eskaini iragarkiak edo retargeting entregatzea, eskaini iruzurra prebenitzea.
-2 urte
-Google
-SIDCC
-Eskaini web-trafiko fidagarriaren identifikazioa.
-Urtebete
-Google
-SM
-Microsoften domeinuen arteko MUIDa sinkronizatzeko erabiltzen da
-Saioa
-SSID
-2 urte
-Google
-__Secure-1PAPISID
-Sortu webgunearen bisitariaren interesen profil bat, Googleren publizitate garrantzitsua eta pertsonalizatua erakusteko.
-2 urte
-Google
-__Secure-1PSID
-2 urte
-Google
-__Secure-1PSIDCC
-Sortu webgunearen bisitarien interesen profil bat, retargeting bidez erakusteko iragazki garrantzitsu eta pertsonalizatuak.
-Urtebete
-Google
-__Secure-1PSIDTS
-Urtebete
-Google
-__Secure-3PSID
-2 urte
-Google
-__Secure-3PSIDCC
-Urtebete
-Google
-__Secure-3PSIDTS
-Urtebete
-Google
-__Secure-ENID
-Urtebete
-Google
-ar_debug
-Araztu iragarkiak.
-Urtebete
-Google
-MR
-6 hilabete
-XSRF-TOKEN
-1 ordu
-Kultursistema
-_fbp
-Gorde eta arakatu webguneetan bisitak
-Urtebete
-Facebook
-Mantendu erabiltzailearen saioa
-1 ordu
-Kultursistema
-AEC
-Detektatu spam, iruzurra eta gehiegikeria
-6 hilabete
-Google
-SOCS
-13 hilabete
-Google
-Locale
-Ez dago eskuragarri
-Gobierno Vasco
-_hegoa_coop_session
-Sortu erabiltzaileentzat saio-identifikatzaile bat
-Saioa
-Gobierno Vasco
-Beti aktibo
-Beharrezkoak dira gure webgunean nabigatzeko eta oinarrizko zereginetarako, webguneak behar bezala funtziona dezan.
-
 ### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1509114
 LEIRE BILBAO FUENTE (1, guztira 1)
 Kontratazio, Ondare eta Etxebizitza Ard./Resp. de Contratación,
@@ -2322,3 +2041,284 @@ DNI
 TGB ERABAKI ACUERDO JGL
 Izen-abizenak
 Nombre y apellidos
+
+### Bases reguladoras: https://www.bizkaia.eus
+Hasiera - Bizkaia.eus
+Bizkaiko Foru Aldundia
+Zerbitzuei eta izapideei buruzko gaurkotasun eta informazio guztia
+Nabarmenduak
+2027ko aurrekontuen proiektua
+GUre ITUNA
+Trafikoa
+Bizkaibus
+Lan Publikoaren eskaintza
+Sexu-indarkeriako arreta
+Izapide guztiak egoitza elektronikoan
+Izapideak ikusi
+Informazioa eta zerbitzuak gaien arabera
+Bizkaiko Ogasuna
+Zergei, katastroari, Batuzi, zerga-araudiari, zerga-egutegiari, zergen ordainketari, enkanteei eta abarri buruzko informazioa
+Gizarte zerbitzuak
+Haurtzaroari, harrerari, mendekotasunari buruzko informazioa, ezintasuna, egoitzak...
+Enpresen eta enpleguaren sustapena
+Ekintzailetza, nazioartekotzea, nazioartekotzea, industria, berrikuntza...
+Mugikortasuna, garraioa eta errepideak
+Garraioari buruzko informazioa, Bizkaibus, trafikoa, bizikletak, GPZ, baimenak, IEA...
+Ingurumen jasangarritasuna eta ingurune naturala
+Informazioa jasangarritasunari, ingurumenari, biodibertsitateari, nekazaritzari, abeltzaintzari, landa garapenari, suhiltzaileei eta salbamenduari buruz
+Euskara eta kultura
+Euskarari buruzko informazioa, Bizkaiko kultur txartela, Foru Liburutegia, tailerrak, museoak...
+Kirola
+Eskola kirolari buruzko informazioa, kirol federatua, Kirolbide, Udalekuak...
+Turismoa eta tokiko kontsumoa
+Bizkaiko turismoari buruzko informazioa, aisialdirako guneak, hondartzak, bizikleta bideak...
+Hirigintza eta Harremana beste administrazio batzuekin
+Informazioa beste administrazioei ematen zaizkien zerbitzuen inguruan (Udalnet, Biscaytik, ...)
+Erakutsi gai guztiak
+Erakutsi gai gutxiago
+Berriak
+Nabarmendutako berriak
+Elixabete Etxanobek Bizkaiko Forua herritarren eguneroko bizitzan presente jarraitzen duen «sistema bizia» dela aldarrikatzen du
+azaroaren 12(a), 2026
+Albiste guztiak
+Bizkaiko Foru Aldundiak barne-ekintzailetzako gida praktiko bat argitaratu du, enpresei negozio berriak garatzen laguntzeko
+Azaroaren 24an, La Encartada Modak Euskal Museora eramango du La Encartada Fabrika-Museoaren unibertsoa
+Albiste guztiak
+Ekimenak, programak eta kanpainak
+Ekimena Aurrekoa
+Ekimena Hurrengoa
+Enpresentzako laguntzak
+Horia da / Ez da horia
+Familia harrera
+Bizkaia koloretan
+Laguntza-tresnak emakume baserritarrentzat
+2025eko jardueren egitaraua
+On egiteko errezetak
+Europako fondoen kudeaketa
+Bizkaiko Indarkeriaren Matxistaren Behatokia
+Bizkaia Gazteak
+Adiskidetza digitala
+Aktibatu + iraunkortasun programa
+Emakume eta Gizonen arteko Berdintasuna
+Aplikazioak
+Aplikazioa Aurrekoa
+Aplikazioa Hurrengoa
+Errenta
+Errenta-aitorpena aurkezteko aplikazio mugikorra
+App Store
+Google Play
+Bizkaibus
+Bizkaiko autobusen ordutegia.
+App Store
+Google Play
+Bizkaimove
+Trafikoko alertei buruzko informazioa.
+App Store
+Google Play
+Eskola Kirola
+Eskola Kiroleko familientzako komunikazio-kanal berria
+App Store
+Google Play
+Bizkaia enplegu ataria
+Lana aurkitzen lagunduko dizun tresnarik onena
+App Store
+Google Play
+Aldatu hona:
+ES
+Web-orri honek, https://www.bizkaia.eus (aurrerantzean, "Webgunea"), nabigazioaren bidez eta zerbitzuaren hartzailearen IP helbidearen bidez nabigazioaren beraren jarraipena egiteko tresnak erabiltzen ditu; honela, zerbitzuak edo haren funtzionamendu teknikoa hobetzeko eta bermatzeko, beste erabiltzaile batzuengandik bereizteko eta nabigazio-ohiturak aztertzeko.
+Izena
+Mota
+Helburua
+Iraupena
+JSESSIONID
+Saioa identifikatzea
+Saioa
+ASPSESSIONID
+Saioa
+TS01
+Saioa
+LFR_SESSION_STATE
+Saioa
+Urtebete
+pc_tecnicas_bizkaia
+Urtebete
+pc_analitica_bizkaia
+Urtebete
+pc_preferencias_bizkaia
+Urtebete
+pc_terceros_bizkaia
+Urtebete
+CPLB
+Karga orekatzeko gure zerbitzariek erabilitako informazioa jasotzen du
+Saioa
+Kultursistema_session
+Erabiltzailearen saioa mantendu
+Ordu 1
+Kultursistema
+XSRF-TOKEN
+CSRF (Cross Site Request Forgery) erasoak saihesteko
+Ordu 1
+Kultursistema
+_GRECAPTCHA
+Babestu webgunea spametik eta indar handiko erasoetatik
+6 hilabete
+Google
+Izena
+Mota
+Helburua
+Iraupena
+Bisita bat arakatzen du hainbat eskaeraren bidez
+Saioa
+dtLatC
+Zerbitzariaren sortasuna neurtzen du errendimenduaren monitorizaziorako
+Saioa
+dtPC
+Beharrezkoa balizen transmisiorako parametro egokiak identifikatzeko; korrelaziorako saioaren IDa barne hartzen du
+Saioa
+dtSa
+Erdi mailako biltegia orrialdeak hartzen dituzten ekintzetarako
+Saioa
+rxVisitor
+Bisitariaren ID saioak korrelazioan jartzeko
+Etengabe
+rxvt
+Saioaren itxarote-denbora
+Saioa
+iyrc-user-id
+Erabiltzaileak bereiztea
+Ordu 1
+_ga, _ga_XXXXXXXXXXX
+Erabiltzailea bereiztea
+2 urte
+Google Analytics
+_gat, _gat_XXXXXXXXXXX
+Eskaeren ehunekoa mugatzea
+Minutu 1
+_gid
+Egun 1
+MUID
+Urtebete
+Microsoft Clarity
+_clck
+Lehentasunak esleitzea erabiltzaile berdinari
+Urtebete
+_clsk
+Konektatu saio batean ikusitako hainbat orri
+Urtebete
+CLID
+Identifikatu erabiltzaile baten lehenengo bisita
+Urtebete
+ANONCHK
+Egun 1
+MR
+Adierazi noiz freskatu MUID
+6 hilabete
+SM
+Sinkronizatu MUID Microsoft inguruan
+Urtebete
+Izena
+Mota
+Helburua
+Iraupena
+Idioma
+Erabiltzailearen hizkuntzarik gustukoena aukeratzea
+Urtebete
+Gorde gogoko izapideak Aurretiazko Hitzorduan
+Urtebete
+Izena
+Mota
+Helburua
+Iraupena
+CLID
+Urtebete
+APISID
+Gorde erabiltzailearen lehentasunak eta informazioa orriak bistaratzean, Google mapak bertan daudela.
+2 urte
+Google
+HSID
+Iruzurra prebenitzea
+2 urte
+Google
+MUID
+Bereizi erabiltzailea
+Urtebete
+NID
+Gogoratu bere lehentasunak eta beste edozein informazio
+6 hilabete
+Google
+SAPISID
+Erakutsi iragarki pertsonalizatuak Googleko webguneetan
+2 urte
+Google
+SID
+Eskaini iragarkiak edo retargeting entregatzea, eskaini iruzurra prebenitzea.
+2 urte
+Google
+SIDCC
+Eskaini web-trafiko fidagarriaren identifikazioa.
+Urtebete
+Google
+SM
+Microsoften domeinuen arteko MUIDa sinkronizatzeko erabiltzen da
+Saioa
+SSID
+2 urte
+Google
+__Secure-1PAPISID
+Sortu webgunearen bisitariaren interesen profil bat, Googleren publizitate garrantzitsua eta pertsonalizatua erakusteko.
+2 urte
+Google
+__Secure-1PSID
+2 urte
+Google
+__Secure-1PSIDCC
+Sortu webgunearen bisitarien interesen profil bat, retargeting bidez erakusteko iragazki garrantzitsu eta pertsonalizatuak.
+Urtebete
+Google
+__Secure-1PSIDTS
+Urtebete
+Google
+__Secure-3PSID
+2 urte
+Google
+__Secure-3PSIDCC
+Urtebete
+Google
+__Secure-3PSIDTS
+Urtebete
+Google
+__Secure-ENID
+Urtebete
+Google
+ar_debug
+Araztu iragarkiak.
+Urtebete
+Google
+MR
+6 hilabete
+XSRF-TOKEN
+1 ordu
+Kultursistema
+_fbp
+Gorde eta arakatu webguneetan bisitak
+Urtebete
+Facebook
+Mantendu erabiltzailearen saioa
+1 ordu
+Kultursistema
+AEC
+Detektatu spam, iruzurra eta gehiegikeria
+6 hilabete
+Google
+SOCS
+13 hilabete
+Google
+Locale
+Ez dago eskuragarri
+Gobierno Vasco
+_hegoa_coop_session
+Sortu erabiltzaileentzat saio-identifikatzaile bat
+Saioa
+Gobierno Vasco
+Beti aktibo
+Beharrezkoak dira gure webgunean nabigatzeko eta oinarrizko zereginetarako, webguneak behar bezala funtziona dezan.
