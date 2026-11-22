@@ -961,5 +961,16 @@
   "estado": "hecha",
   "fecha": "2026-11-19",
   "nota": "Nueva numeroBobDeFecha en recolector/boletines.js: busca el día en cache/bob_sumarios.json (año en curso) o estima el número por días laborables y lo corrige leyendo la fecha de los sumarios (Bao_bob/Sumario), con 7 descargas como mucho; en una simulación de todo 2024 acierta los 365 días (y devuelve null los días sin boletín). recolector/docspedidos.js saca las fechas de BOB del título del pedido («Boletín Oficial de Bizkaia, 9 de septiembre de 2024», «BOB 09/09/2024»), prueba ese boletín y quita la cita del boletín al comprobar que el texto encaja. La sesión no llega a bizkaia.eus: la primera prueba real será el pedido de Balmaseda (bdns-942867) en el próximo flujo «Documentos pedidos» o el recolector de las 05:41; no añade ayudas nuevas, solo documentos."
+ },
+ {
+  "id": "bdns-plazo-segun-bases",
+  "titulo": "Sacar el plazo del documento de la convocatoria cuando la BDNS remite a las bases",
+  "detalle": "Problema: cuando la BDNS da el plazo como «según las bases» o en euskera («GAOn argitaratu eta hurrengo eguna · Dirulaguntzen oinarrietan zehaztutakoa»), calculaFin (recolector/bdns.js) no encuentra «N días» y la ayuda queda abierta sin fecha de fin aunque el plazo ya terminó. Ejemplo: bdns-931520 (Ordizia, clubes deportivos): la convocatoria dice «en el plazo de 20 días contados a partir del día siguiente a la fecha de la publicación de la convocatoria en el BOLETIN OFICIAL de Gipuzkoa» (BOG 2/10/2026) → cerró el 2/11/2026, y sale «abierta». Qué hacer: si textoPlazo no da fecha, buscar en el texto de los documentos de la convocatoria (cache/fuentes/<id>.txt) la frase «plazo de N días … publicación» y aplicar calculaFin con la fecha de publicación del boletín. Comprobación: bdns-931520 sale cerrada con fin 2026-11-02.",
+  "fuente": "BDNS",
+  "seccion": "datos",
+  "quien": "Claude",
+  "prioridad": 20,
+  "estado": "pendiente",
+  "fecha": "2026-11-22"
  }
 ]
