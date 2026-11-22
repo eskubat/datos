@@ -63,15 +63,6 @@
   "caracteres": 71718
  },
  {
-  "id": "bdns-883715",
-  "h": "6822bcae48457f4a",
-  "titulo": "Ayudas no periódicas municipales (ANPM)",
-  "organismoSugerido": "ayto-basauri",
-  "organismoFuente": "Ayuntamiento de basauri",
-  "archivo": "cache/fuentes/bdns-883715-325e89ed.txt",
-  "caracteres": 55139
- },
- {
   "id": "ue-horizon-eic-2026-prize-wip",
   "h": "ed2bdc6e55313d53",
   "titulo": "The European Prize for Women Innovators",
@@ -106,15 +97,6 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
   "caracteres": 5840
- },
- {
-  "id": "bdns-882340",
-  "h": "a7c21414677abcd7",
-  "titulo": "Convocatoria de subvenciones al nacimiento o adopción de hijos e hijas en el municipio",
-  "organismoSugerido": "ayto-amorebieta-etxano",
-  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
-  "archivo": "cache/fuentes/bdns-882340-790bcd26.txt",
-  "caracteres": 22224
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -207,51 +189,6 @@
   "caracteres": 300000
  },
  {
-  "id": "bdns-893232",
-  "h": "00d790346a2c2673",
-  "titulo": "Convocatoria pública de las subvenciones del programa de auzo-taxi",
-  "organismoSugerido": "ayto-onati",
-  "organismoFuente": "Ayuntamiento de oñati",
-  "archivo": "cache/fuentes/bdns-893232-73532198.txt",
-  "caracteres": 300000
- },
- {
-  "id": "bdns-883989",
-  "h": "18aa3fcf17c94138",
-  "titulo": "Bases específicas de subvenciones para la Emancipación de los jóvenes",
-  "organismoSugerido": "ayto-zumarraga",
-  "organismoFuente": "Ayuntamiento de zumarraga",
-  "archivo": "cache/fuentes/bdns-883989-7fee53f1.txt",
-  "caracteres": 25714
- },
- {
-  "id": "bdns-883490",
-  "h": "ff1e9b5de9e5f116",
-  "titulo": "Programa Municipal de Ayudas a Mujeres Víctimas de Violencia Machista",
-  "organismoSugerido": "ayto-laudio-llodio",
-  "organismoFuente": "Ayuntamiento de laudio/llodio",
-  "archivo": "cache/fuentes/bdns-883490-bac769bd.txt",
-  "caracteres": 283901
- },
- {
-  "id": "bdns-882139",
-  "h": "b91e2ca8587b19b6",
-  "titulo": "Bases subvenciones tratamiento psicopedagogico",
-  "organismoSugerido": "ayto-leioa",
-  "organismoFuente": "Ayuntamiento de leioa",
-  "archivo": "cache/fuentes/bdns-882139-81424771.txt",
-  "caracteres": 39377
- },
- {
-  "id": "bdns-921964",
-  "h": "66f97dd5d665bc8a",
-  "titulo": "Premios Ejército",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Ejército de tierra",
-  "archivo": "cache/fuentes/bdns-921964-7dd71bd1.txt",
-  "caracteres": 53677
- },
- {
   "id": "ue-crea-media-2027-tvonline-2",
   "h": "2bb80164abe11ee5",
   "titulo": "TV and online content Documentary projects",
@@ -322,15 +259,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-cs-resist-ii-product-innovation-open-call-385d00a0.txt",
   "caracteres": 4876
- },
- {
-  "id": "eus-ayuda-subvencion-2026-pi2026-c-weblan00-content-es",
-  "h": "3af4db7ff862b34e",
-  "titulo": "Ayudas para el desarrollo de proyectos integrales de empleo, formación e inserción laboral",
-  "organismoSugerido": "lanbide",
-  "organismoFuente": "Lanbide - Servicio Público Vasco de Empleo",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-pi2026-c-weblan00-content-es-051f0233.txt",
-  "caracteres": 300000
  },
  {
   "id": "bdns-942548",
@@ -486,33 +414,6 @@
   "caracteres": 42502
  },
  {
-  "id": "bdns-942048",
-  "h": "fd24d300e4e1353f",
-  "titulo": "Convocatoria de ayudas económicas a vecinas y vecinos que cuenten con escasos recursos",
-  "organismoSugerido": "ayto-portugalete",
-  "organismoFuente": "Ayuntamiento de portugalete",
-  "archivo": "cache/fuentes/bdns-942048-b393ac34.txt",
-  "caracteres": 296769
- },
- {
-  "id": "bdns-941759",
-  "h": "44ddc34ea469e8dd",
-  "titulo": "Subvenciones para la celebración de aniversarios de asociaciones culturales",
-  "organismoSugerido": "ayto-getxo",
-  "organismoFuente": "Ayuntamiento de getxo",
-  "archivo": "cache/fuentes/bdns-941759-12643488.txt",
-  "caracteres": 241505
- },
- {
-  "id": "bdns-941144",
-  "h": "7b001455c27790ff",
-  "titulo": "Bases para la concesión, de las ayudas destinadas a financiar el pago de las tasas del suministro de agua y alcantarillado",
-  "organismoSugerido": "ayto-lezo",
-  "organismoFuente": "Ayuntamiento de lezo",
-  "archivo": "cache/fuentes/bdns-941144-cdd3573d.txt",
-  "caracteres": 34860
- },
- {
   "id": "bdns-940546",
   "h": "16ed25c9ea6aed6e",
   "titulo": "Y segunda convocatoria de subvenciones para financiar los gastos de preproducción",
@@ -522,24 +423,6 @@
   "caracteres": 174897
  },
  {
-  "id": "bdns-929034",
-  "h": "05b8a7b425a09a31",
-  "titulo": "Subvenciones de para el otorgamiento de ayudas individuales para favorecer la inclusión social de personas con discapacidad",
-  "organismoSugerido": "ayto-idiazabal",
-  "organismoFuente": "Ayuntamiento de idiazabal",
-  "archivo": "cache/fuentes/bdns-929034-74338248.txt",
-  "caracteres": 97497
- },
- {
-  "id": "bdns-926043",
-  "h": "b26aed4495be7eae",
-  "titulo": "Ayudas para los concursos del Artzain Eguna",
-  "organismoSugerido": "ayto-amurrio",
-  "organismoFuente": "Ayuntamiento de amurrio",
-  "archivo": "cache/fuentes/bdns-926043-a5b54456.txt",
-  "caracteres": 59434
- },
- {
   "id": "bdns-913552",
   "h": "279facb83a7649c9",
   "titulo": "Desarrollo de un programa de activación ciudadana en el marco de los programas de conservación de rapaces nocturnas",
@@ -547,15 +430,6 @@
   "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
   "archivo": "cache/fuentes/bdns-913552-9ac606f4.txt",
   "caracteres": 86404
- },
- {
-  "id": "bdns-897779",
-  "h": "6acfc309f2688997",
-  "titulo": "Bono Denda Durango oinarriak - bases",
-  "organismoSugerido": "ayto-durango",
-  "organismoFuente": "Ayuntamiento de durango",
-  "archivo": "cache/fuentes/bdns-897779-156cdfd6.txt",
-  "caracteres": 53005
  },
  {
   "id": "bdns-895045",

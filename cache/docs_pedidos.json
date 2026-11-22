@@ -819,10 +819,31 @@
  "bdns-893232": {
   "titulo": "Bases reguladoras del programa auzo-taxi de Oñati (BOG, 19 de abril de 2023; corrección de precios en el BOG del 16 de noviembre de 2023)",
   "botha": [],
-  "urls": [],
-  "estado": "ok",
-  "url": "https://www.araba.eus/botha/Boletines/2026/133/2026_133_03267_C.pdf",
-  "fecha": "2026-11-22",
-  "probadas": []
+  "urls": [
+   "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2023/04/19/bo230419.pdf",
+   "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2023/11/16/bo231116.pdf"
+  ],
+  "probadas": [
+   "https://www.araba.eus/botha/Boletines/2026/133/2026_133_03267_C.pdf"
+  ],
+  "nota": "El 22/11/2026 el flujo dio estado ok con un documento equivocado (BOTHA 133/2026, colonias felinas de Álava); se vuelve a pedir."
+ },
+ "bdns-895045": {
+  "titulo": "Ayudas económicas a situaciones de necesidad en el municipio de Amurrio 2026 (bases en BOTHA 2025/044)",
+  "botha": [
+   "2025_044_01146"
+  ],
+  "urls": [
+   "https://www.araba.eus/botha/Boletines/2025/044/2025_044_01146_C.pdf"
+  ],
+  "origen": "tarea de fichas: el documento de la BDNS 895045 es solo el decreto de prórroga del presupuesto 2026; faltan bases y convocatoria",
+  "fecha": "2026-11-22"
+ },
+ "bdns-942048": {
+  "titulo": "Convocatoria 2026 de ayudas económicas a vecinas y vecinos del municipio de Portugalete que cuenten con escasos recursos (BDNS 942048, registrada el 13 de noviembre de 2026; extracto en el Boletín Oficial de Bizkaia)",
+  "botha": [],
+  "urls": [
+   "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/942048"
+  ]
  }
 }

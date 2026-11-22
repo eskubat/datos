@@ -957,5 +957,17 @@
  "bdns-896661": {
   "ocultar": true,
   "motivo": "Concesión directa a una persona en ejecución de la Sentencia 231/2025 (convocatoria de emancipación juvenil 2024 del Ayuntamiento de Barakaldo): nadie más puede pedirla. Tarea de fichas, 22/11/2026."
+ },
+ "bdns-895036": {
+  "ocultar": true,
+  "motivo": "Asignaciones económicas del Pleno a los grupos políticos municipales de Amurrio (600 € al mes por grupo y 185 € por concejal): solo pueden recibirlas esos grupos, nadie más puede pedirlas."
+ },
+ "bdns-882401": {
+  "ocultar": true,
+  "motivo": "Concesión directa del Ayuntamiento de Vitoria-Gasteiz a una entidad concreta: el único documento de la BDNS es la solicitud registrada (29/07/2025) por la Asociación Slow Food Convivium (G01385053); no hay convocatoria abierta, plazo ni importe, solo la ordenanza general de subvenciones (BOTHA 88/2023). Nadie más puede pedirla."
+ },
+ "bdns-882392": {
+  "ocultar": true,
+  "motivo": "Concesión directa del Ayuntamiento de Vitoria-Gasteiz (Centro de Estudios Ambientales) a una entidad concreta: el único documento de la BDNS es el proyecto firmado (08/07/2025) por la representante de SEO/BirdLife (G28795961); no hay convocatoria abierta, plazo ni importe, solo la ordenanza general de subvenciones (BOTHA 88/2023). Nadie más puede pedirla."
  }
 }
