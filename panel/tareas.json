@@ -1009,5 +1009,16 @@
   "estado": "hecha",
   "fecha": "2026-11-22",
   "nota": "RE_VINCULO de recolector/resumen.js acepta ahora «registro municipal…» y «registro de entidades/asociaciones…» como prueba de «domicilio», salvo los registros autonómicos o estatales (País Vasco, Euskadi, nacional…). Rehecha la ficha de bdns-939450 (Busturia) con vinculo_territorial «domicilio»: pasa la comprobación y en publico/ayudas.json sale con exigeVinculo true y sin aviso de revisión. No cambia el número de ayudas."
+ },
+ {
+  "id": "fuentes-orden-documentos-estable",
+  "titulo": "Guardar los documentos de cada ayuda siempre en el mismo orden",
+  "detalle": "Problema: bdns-890111 (promoción de nuevas empresas de Oñati) vuelve a cache/pendientes.json después de cada «Datos actualizados» aunque su documentación no cambia: en cache/fuentes/bdns-890111-55bde52b.txt las secciones «### Documento de la convocatoria: …idDocumento=1409780» y «…idDocumento=1409779» se intercambian de orden en cada recolección (commits c369e67 y 75835f8: mismo contenido, 137 líneas movidas), con lo que cambian h y he y la ficha se rehace cada hora (22/11: 21:36, 22:35 y 23:32 UTC) sin ningún cambio. Qué hacer: ordenar de forma estable las secciones de documentos al escribir cache/fuentes (p. ej. por orden de la ficha oficial o por URL) o que huellaEstable de recolector/resumen.js no dependa del orden de las secciones. Comprobación: tras dos recolecciones seguidas, bdns-890111 no vuelve a cache/pendientes.json.",
+  "fuente": "Tarea de resúmenes",
+  "seccion": "datos",
+  "quien": "Claude",
+  "prioridad": 56,
+  "estado": "pendiente",
+  "fecha": "2026-11-23"
  }
 ]
