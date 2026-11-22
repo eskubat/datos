@@ -193,9 +193,8 @@
   "motivo": "Concurso familiar de pintura Getxoarte (otra modalidad del mismo certamen que bdns-933722): se celebró el 8/11/2026 (inscripción hasta el 6/11), ya no se puede pedir; se oculta junto con la de adultos para que no quede repetido. Decisión del responsable, 16/11/2026."
  },
  "bdns-929714": {
-  "ocultarHastaFicha": true,
-  "huellaFicha": "350945b2c14700ab",
-  "motivo": "Barakaldo: sin bases propias (solo el presupuesto 2026 y unas bases de 2014 que no corresponden); no se sabe si es nominativa. Oculta hasta que se publiquen las bases y se rehaga la ficha. Decisión del responsable, 16/11/2026."
+  "ocultar": true,
+  "motivo": "Barakaldo: sin bases propias (el registro BDNS solo enlaza el presupuesto 2026 y unas bases forales de 2014 que no corresponden); por la fecha y el enlace al presupuesto parece una subvención directa a grupos ya determinados. Oculta como las nominativas. Decisión del responsable, 22/11/2026."
  },
  "bdns-934967": {
   "ocultar": true,
@@ -969,5 +968,17 @@
  "bdns-882392": {
   "ocultar": true,
   "motivo": "Concesión directa del Ayuntamiento de Vitoria-Gasteiz (Centro de Estudios Ambientales) a una entidad concreta: el único documento de la BDNS es el proyecto firmado (08/07/2025) por la representante de SEO/BirdLife (G28795961); no hay convocatoria abierta, plazo ni importe, solo la ordenanza general de subvenciones (BOTHA 88/2023). Nadie más puede pedirla."
+ },
+ "ara-ayudas-zonas-limitaciones-naturales-o-especificas": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Programa anual: se pide con la solicitud única de la PAC 2026, que terminó el 15/05/2026 (31/05/2026 con penalización) según la Orden de 5/05/2026 (BOPV nº 85). Próxima sin fechas hasta la convocatoria siguiente. Decisión del responsable, 22/11/2026."
+ },
+ "ara-subvenciones-estudiantes-de-bachillerato-ciclos-formativos-d": {
+  "estado": "proxima",
+  "inicio": null,
+  "fin": null,
+  "motivo": "Programa anual: la convocatoria 2026 (BOTHA nº 70/2026) daba del 20/06 al 6/07/2026; la fecha del 31/12/2026 es la del trámite, no la del plazo. Próxima sin fechas hasta la convocatoria siguiente. Decisión del responsable, 22/11/2026."
  }
 }

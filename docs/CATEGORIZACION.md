@@ -33,6 +33,7 @@ Decisión del responsable (18/11/2026). Toda ficha de una diputación foral, un 
 - `domicilio`: hay que tener allí el domicilio fiscal o social (o la sede).
 - `actividad`: basta con que esté allí lo que se subvenciona (centro de trabajo, explotación, obra, instalación, vivienda, bien o actividad).
 - `ninguno`: no se pide ningún vínculo (p. ej. concursos de carteles abiertos a cualquiera).
+Inscripción obligatoria en un registro municipal (criterio del responsable, 22/11/2026): si para pedirla hay que estar inscrita en un registro municipal de entidades o asociaciones (p. ej. el Registro de Entidades Populares de Busturia), cuenta como `domicilio`, aunque la convocatoria no hable de sede ni de domicilio; el requisito de la inscripción va en los requisitos como siempre.
 Con `empadronamiento` o `domicilio` la app la filtra por la diputación o el municipio elegido; con `actividad` o `ninguno` se muestra en todos los municipios. Si un colectivo puede pedirla sin vínculo y otro no (p. ej. un concurso con una categoría local y otra abierta), vale el colectivo abierto (`ninguno` o `actividad`). El requisito de empadronamiento o domicilio sigue yendo en «¿Quién puede pedirla?» o en los requisitos, como siempre: el campo solo lo resume. En `publico/ayudas.json` sale como `vinculoTerritorial` y `exigeVinculo` (true/false).
 
 ## Qué va en cada campo

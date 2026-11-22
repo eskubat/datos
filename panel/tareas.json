@@ -996,5 +996,17 @@
   "prioridad": 30,
   "estado": "pendiente",
   "fecha": "2026-11-22"
+ },
+ {
+  "id": "vinculo-registro-municipal",
+  "titulo": "Aceptar la inscripción en un registro municipal de entidades como vínculo «domicilio»",
+  "detalle": "Criterio del responsable (22/11/2026, cuestión bdns-939450, Busturia): cuando la convocatoria exige estar inscrita en un registro municipal de entidades o asociaciones (p. ej. «Registro de Entidades Populares de Busturia»), el vínculo territorial es «domicilio». La regla ya está en docs/CATEGORIZACION.md, pero la comprobación de recolector/resumen.js (RE_VINCULO) solo acepta empadronamiento, residencia, vecindad, domicilio o sede, así que una ficha con «domicilio» y solo el registro como prueba da error. Qué hacer: que RE_VINCULO (o una comprobación aparte) acepte «registro … de <municipio>» / «registro municipal de entidades/asociaciones» como prueba de «domicilio». Después, `node recolector/reabrir.js bdns-939450` y rehacer su ficha con vinculo_territorial «domicilio». Comprobación: la ficha de bdns-939450 pasa la comprobación con «domicilio» y en publico/ayudas.json sale con exigeVinculo true.",
+  "fuente": "Comprobación de fichas",
+  "seccion": "revision",
+  "quien": "Claude",
+  "prioridad": 3,
+  "estado": "pendiente",
+  "fecha": "2026-11-22",
+  "nota": "Añadida al plan de mejoras"
  }
 ]
