@@ -925,5 +925,18 @@
   "estado": "cerrada",
   "fin": "2026-10-31",
   "motivo": "Extracto del BOG de 10/07/2026: plazo de solicitud hasta el 31/10/2026. Tarea de resúmenes, 22/11/2026."
+ },
+ "bdns-901394": {
+  "estado": "cerrada",
+  "fin": "2026-10-31",
+  "motivo": "La convocatoria (decreto de Alcaldía de 16/04/2026, línea 2026PUNT0003) fija el plazo de solicitud hasta el 31 de octubre de 2026. Tarea de resúmenes, 22/11/2026."
+ },
+ "bdns-903706": {
+  "ocultar": true,
+  "motivo": "Concesión directa ya resuelta de una ayuda de máxima necesidad a una persona concreta (informe de Servicios Sociales de Ortuella de 21/04/2026, según el Reglamento de 26/04/2012); no es una convocatoria que otros puedan pedir. Criterio del responsable (18/11/2026) sobre subvenciones directas."
+ },
+ "bdns-901214": {
+  "ocultar": true,
+  "motivo": "Subvención directa del Ayuntamiento de Amurrio a Aiara Antrexatak Dantza Taldea para sus actividades culturales de 2025, ya liquidada (Junta de Gobierno Local 26/03/2026); nadie más puede pedirla. Criterio del responsable (18/11/2026) sobre subvenciones nominativas o directas."
  }
 }
