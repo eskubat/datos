@@ -45,6 +45,15 @@
   "caracteres": 257834
  },
  {
+  "id": "bdns-890111",
+  "h": "f874fba1d03a47e1",
+  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la promoción de nuevas empresas",
+  "organismoSugerido": "ayto-onati",
+  "organismoFuente": "Ayuntamiento de oñati",
+  "archivo": "cache/fuentes/bdns-890111-55bde52b.txt",
+  "caracteres": 222923
+ },
+ {
   "id": "bob-bob-2026a215-ii-5802-",
   "h": "ed43e2ba0faec9be",
   "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -106,114 +115,6 @@
   "organismoFuente": "Ayuntamiento de galdakao",
   "archivo": "cache/fuentes/bdns-881434-24d33a93.txt",
   "caracteres": 18287
- },
- {
-  "id": "bdns-881062",
-  "h": "7dc51e6ae729651b",
-  "titulo": "Deportes",
-  "organismoSugerido": "ayto-amorebieta-etxano",
-  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
-  "archivo": "cache/fuentes/bdns-881062-550a17ae.txt",
-  "caracteres": 50085
- },
- {
-  "id": "bdns-881055",
-  "h": "dada80a76f1dc73d",
-  "titulo": "Fiestas",
-  "organismoSugerido": "ayto-amorebieta-etxano",
-  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
-  "archivo": "cache/fuentes/bdns-881055-8bac3abb.txt",
-  "caracteres": 50085
- },
- {
-  "id": "bdns-881053",
-  "h": "97d1ac17638e5ae8",
-  "titulo": "Cultura",
-  "organismoSugerido": "ayto-amorebieta-etxano",
-  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
-  "archivo": "cache/fuentes/bdns-881053-d225314f.txt",
-  "caracteres": 50085
- },
- {
-  "id": "bdns-881052",
-  "h": "9d0c8b14a274b10a",
-  "titulo": "Sector agrícola",
-  "organismoSugerido": "ayto-amorebieta-etxano",
-  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
-  "archivo": "cache/fuentes/bdns-881052-a8acf4c4.txt",
-  "caracteres": 50085
- },
- {
-  "id": "bdns-881048",
-  "h": "db666b13fc8cbd12",
-  "titulo": "Comunicación en euskera",
-  "organismoSugerido": "ayto-amorebieta-etxano",
-  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
-  "archivo": "cache/fuentes/bdns-881048-5c6cd74c.txt",
-  "caracteres": 50085
- },
- {
-  "id": "bdns-880932",
-  "h": "0f638ed18b7d406b",
-  "titulo": "Promoción de la cultura 20026",
-  "organismoSugerido": "ayto-amorebieta-etxano",
-  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
-  "archivo": "cache/fuentes/bdns-880932-4ea075e5.txt",
-  "caracteres": 50085
- },
- {
-  "id": "bdns-880927",
-  "h": "1f5bb377057a608a",
-  "titulo": "Comercio y hosteleria",
-  "organismoSugerido": "ayto-amorebieta-etxano",
-  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
-  "archivo": "cache/fuentes/bdns-880927-f29d1ad3.txt",
-  "caracteres": 50085
- },
- {
-  "id": "bdns-880920",
-  "h": "a5756f2c2fe1fd60",
-  "titulo": "Servicio de igualdad",
-  "organismoSugerido": "ayto-amorebieta-etxano",
-  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
-  "archivo": "cache/fuentes/bdns-880920-e309e861.txt",
-  "caracteres": 50085
- },
- {
-  "id": "bdns-880917",
-  "h": "4603bcca28d77e83",
-  "titulo": "Personas mayores, asociaciones",
-  "organismoSugerido": "ayto-amorebieta-etxano",
-  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
-  "archivo": "cache/fuentes/bdns-880917-6340ab69.txt",
-  "caracteres": 50085
- },
- {
-  "id": "bdns-880914",
-  "h": "dc6b5c7f40225d34",
-  "titulo": "Personas con diversidad funcional",
-  "organismoSugerido": "ayto-amorebieta-etxano",
-  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
-  "archivo": "cache/fuentes/bdns-880914-ae55d385.txt",
-  "caracteres": 50085
- },
- {
-  "id": "bdns-880911",
-  "h": "9c9a3b23b1bd1cef",
-  "titulo": "Subvenciones educación",
-  "organismoSugerido": "ayto-amorebieta-etxano",
-  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
-  "archivo": "cache/fuentes/bdns-880911-0c58715d.txt",
-  "caracteres": 50085
- },
- {
-  "id": "bdns-880907",
-  "h": "4e3439a23431f1c1",
-  "titulo": "Cooperación al desarrollo",
-  "organismoSugerido": "ayto-amorebieta-etxano",
-  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
-  "archivo": "cache/fuentes/bdns-880907-d3954b83.txt",
-  "caracteres": 50085
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -297,6 +198,24 @@
   "caracteres": 300000
  },
  {
+  "id": "bdns-878248",
+  "h": "b26299dc30fef35f",
+  "titulo": "Subvenciones. : Subvenciones para la inversión digital de los comercios participantes en la plataforma OTT y/o de venta online irun. market",
+  "organismoSugerido": "ayto-irun",
+  "organismoFuente": "Ayuntamiento de irun",
+  "archivo": "cache/fuentes/bdns-878248-958ed039.txt",
+  "caracteres": 78927
+ },
+ {
+  "id": "ue-crea-media-2027-tvonline-1",
+  "h": "594ec78e4c088425",
+  "titulo": "TV and online content Animation projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
+  "caracteres": 6321
+ },
+ {
   "id": "ue-crea-media-2027-tvonline-2",
   "h": "2bb80164abe11ee5",
   "titulo": "TV and online content Documentary projects",
@@ -313,15 +232,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
   "caracteres": 6320
- },
- {
-  "id": "ue-crea-media-2027-tvonline-1",
-  "h": "594ec78e4c088425",
-  "titulo": "TV and online content Animation projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
-  "caracteres": 6321
  },
  {
   "id": "ara-01362004",
@@ -538,24 +448,6 @@
   "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
   "archivo": "cache/fuentes/bdns-913552-9ac606f4.txt",
   "caracteres": 86404
- },
- {
-  "id": "bdns-882027",
-  "h": "bc3088e0313f25f0",
-  "titulo": "Subvención extraordinaria para gala solidaria a Kuskua",
-  "organismoSugerido": "ayto-amurrio",
-  "organismoFuente": "Ayuntamiento de amurrio",
-  "archivo": "cache/fuentes/bdns-882027-883f5e47.txt",
-  "caracteres": 5966
- },
- {
-  "id": "bdns-879982",
-  "h": "a9e7e23258f28cbd",
-  "titulo": "Hazi eta hezi",
-  "organismoSugerido": "ayto-ibarra",
-  "organismoFuente": "Ayuntamiento de ibarra",
-  "archivo": "cache/fuentes/bdns-879982-9b9f7ea8.txt",
-  "caracteres": 52845
  },
  {
   "id": "botha-2026-131-03265-c-pdf",
