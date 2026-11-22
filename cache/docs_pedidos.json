@@ -116,10 +116,12 @@
   "titulo": "Subvenciones de Política Lingüística Municipal de Errenteria 2026, línea 4.3: euskera en el mundo laboral (Decreto 2868 de 1/10/2026)",
   "botha": [],
   "urls": [
-   "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/932906"
+   "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/932906",
+   "http://static.errenteria.eus/zerbikat/araudia/era6dlhpenpr_ele.pdf",
+   "http://static.errenteria.eus/zerbikat/araudia/Oinarriorokorrak2026.pdf"
   ],
   "fecha": "2026-11-19",
-  "estado": "ok",
+  "estado": "pendiente",
   "intentos": 2,
   "probadas": [
    {
@@ -573,5 +575,49 @@
   "url": "https://www.araba.eus/botha/Boletines/2026/105/2026_105_02587_C.pdf",
   "fecha": "2026-11-22",
   "probadas": []
+ },
+ "bdns-933705": {
+  "titulo": "Ayudas del Ayuntamiento de Gernika-Lumo para aprender euskera, cursos universitarios y carné de conducir en euskera (BDNS 933705)",
+  "botha": [],
+  "urls": [
+   "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933705"
+  ]
+ },
+ "bdns-932843": {
+  "titulo": "Becas para el estudio de euskera curso 25-26, Ayuntamiento de Ortuella (BOB, 16 de noviembre de 2026, II-5955; BDNS 932843)",
+  "botha": [],
+  "urls": [
+   "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/932843"
+  ]
+ },
+ "bob-bob-2026a206-ii-5490-": {
+  "titulo": "Becas para estudios musicales curso 2025-2026, Ayuntamiento de Ortuella (BOB, 27 de octubre de 2026, II-5490; BDNS 932776)",
+  "botha": [],
+  "urls": [
+   "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/932776"
+  ]
+ },
+ "bdns-940185": {
+  "titulo": "Ayudas del Ayuntamiento de Derio a deportistas para viajes y dietas en competiciones fuera de Euskadi (bases BOB, 9 de octubre de 2018, II-4151; BDNS 940185)",
+  "botha": [],
+  "urls": [
+   "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/940185",
+   "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2018/10/09/II-4151_cas.pdf"
+  ]
+ },
+ "bob-bob-2026a198-ii-5281-": {
+  "titulo": "Normas del concurso agrícola de la feria Gangas Eguna 2026, Ayuntamiento de Zalla (BOB, 15 de octubre de 2026, II-5281; BDNS 933635)",
+  "botha": [],
+  "urls": [
+   "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933635"
+  ]
+ },
+ "bob-bob-2026a189-ii-5118-": {
+  "titulo": "Bases específicas de subvenciones para el uso social del euskera, Ayuntamiento de Galdakao (BOB, 9 de julio de 2026, n.º 129; definitivas BOB 21 de septiembre de 2026; BDNS 931991)",
+  "botha": [],
+  "urls": [
+   "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/931991",
+   "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/09/21/II-4856_cas.pdf"
+  ]
  }
 }
