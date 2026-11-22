@@ -18,15 +18,6 @@
   "caracteres": 4021
  },
  {
-  "id": "eus-ayuda-subvencion-2026-hezkuntza-inklusiboa-pree",
-  "h": "669b0c505b6d7c43",
-  "titulo": "Determinación de las unidades a concertar en la Educación Secundaria Obligatoria",
-  "organismoSugerido": "gv-educacion",
-  "organismoFuente": "Educación",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-hezkuntza-inklusiboa-pree-261849ff.txt",
-  "caracteres": 300000
- },
- {
   "id": "eus-ayuda-subvencion-2026-partz-weblan00-content-es",
   "h": "26e279a1f12f5c42",
   "titulo": "Subvenciones destinadas a incentivar la conversión de contratos indefinidos a tiempo parcial en contratos indefinidos a tiempo completo",
@@ -43,15 +34,6 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a215-ii-5802--1dac77fc.txt",
   "caracteres": 5593
- },
- {
-  "id": "bdns-936178",
-  "h": "4e5bfd4329226f45",
-  "titulo": "Convocatoria para la concesión por parte de subvenciones para la financiación de actividades ordinarias de entidades deportivas mediante",
-  "organismoSugerido": "ayto-eibar",
-  "organismoFuente": "Ayuntamiento de eibar",
-  "archivo": "cache/fuentes/bdns-936178-f3fd959d.txt",
-  "caracteres": 94266
  },
  {
   "id": "ue-horizon-eic-2026-prize-wip",
@@ -81,15 +63,6 @@
   "caracteres": 12248
  },
  {
-  "id": "bdns-943839",
-  "h": "e17080d6cfa66a5f",
-  "titulo": "Cursos de euskera en centros vascos (26/27)",
-  "organismoSugerido": "etxepare",
-  "organismoFuente": "Instituto vasco etxepare euskal institutua / basque institute",
-  "archivo": "cache/fuentes/bdns-943839-f4132ebb.txt",
-  "caracteres": 175696
- },
- {
   "id": "bob-bob-2026a219-ii-6013-",
   "h": "1c3c0ab2ed5fa248",
   "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -97,15 +70,6 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
   "caracteres": 5840
- },
- {
-  "id": "bdns-942055",
-  "h": "f3f86f02f83de69d",
-  "titulo": "Convocatoria del XL Concurso Literario",
-  "organismoSugerido": "ayto-lasarte-oria",
-  "organismoFuente": "Ayuntamiento de lasarte-oria",
-  "archivo": "cache/fuentes/bdns-942055-9440cb3e.txt",
-  "caracteres": 47732
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -196,15 +160,6 @@
   "organismoFuente": "Ayuntamiento de barakaldo",
   "archivo": "cache/fuentes/bdns-929714-71f80b33.txt",
   "caracteres": 214972
- },
- {
-  "id": "bdns-927909",
-  "h": "8c440eeb3814c07c",
-  "titulo": "Subvenciones para el fomento de la natalidad",
-  "organismoSugerido": "ayto-campezo-kanpezu",
-  "organismoFuente": "Ayuntamiento de campezo/kanpezu",
-  "archivo": "cache/fuentes/bdns-927909-8dd39047.txt",
-  "caracteres": 12622
  },
  {
   "id": "ue-crea-media-2027-tvonline-1",
@@ -441,24 +396,6 @@
   "caracteres": 3999
  },
  {
-  "id": "bdns-943626",
-  "h": "e96f76cfdf1262fb",
-  "titulo": "Concesión de subvenciones para el estudio del euskera",
-  "organismoSugerido": "ayto-urduna-orduna",
-  "organismoFuente": "Ayuntamiento de urduña/orduña",
-  "archivo": "cache/fuentes/bdns-943626-eedd8058.txt",
-  "caracteres": 59357
- },
- {
-  "id": "bdns-943266",
-  "h": "7694a5e00ec444e5",
-  "titulo": "Convocatoria diálogo social y negociación colectiva",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Servicio público de empleo estatal",
-  "archivo": "cache/fuentes/bdns-943266-00c6900f.txt",
-  "caracteres": 149007
- },
- {
   "id": "bdns-940546",
   "h": "16ed25c9ea6aed6e",
   "titulo": "Y segunda convocatoria de subvenciones para financiar los gastos de preproducción",
@@ -466,24 +403,6 @@
   "organismoFuente": "Diputación foral de Bizkaia",
   "archivo": "cache/fuentes/bdns-940546-b5f83570.txt",
   "caracteres": 174897
- },
- {
-  "id": "bdns-940185",
-  "h": "0d00aa8b26005d92",
-  "titulo": "Decreto de alcaldía-0676 de 4/11/ por el que se aprueba la convocatoria para la concesión por concurrencia competitiva de ayudas",
-  "organismoSugerido": "ayto-derio",
-  "organismoFuente": "Ayuntamiento de derio",
-  "archivo": "cache/fuentes/bdns-940185-0d8ad55d.txt",
-  "caracteres": 2997
- },
- {
-  "id": "bdns-932822",
-  "h": "dc651d8c208338f1",
-  "titulo": "Suvenciones destinadas a fomentar la constitución y gestión de comunidades energéticas",
-  "organismoSugerido": "ayto-durango",
-  "organismoFuente": "Ayuntamiento de durango",
-  "archivo": "cache/fuentes/bdns-932822-336be751.txt",
-  "caracteres": 90213
  },
  {
   "id": "botha-2026-131-03265-c-pdf",

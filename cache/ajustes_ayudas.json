@@ -739,5 +739,13 @@
   "inicio": null,
   "fin": null,
   "motivo": "Programa anual: la solicitud de 2026 fue del 17/09 al 31/10/2026; la fecha de 2027 que lee el recolector no es de solicitud. Próxima sin fechas hasta la convocatoria de 2027. Se queda esta edición y se descarta la de 2025 (3e6787). Decisión del responsable, 18/11/2026."
+ },
+ "bdns-943627": {
+  "ocultar": true,
+  "motivo": "Subvención del Ayuntamiento de Barakaldo a Cáritas (entidad concreta): la documentación solo es la modificación de crédito del presupuesto; nadie más puede pedirla. Criterio del responsable de 18/11/2026 sobre subvenciones nominativas o directas."
+ },
+ "bdns-943674": {
+  "ocultar": true,
+  "motivo": "Subvención directa de 12.000 € del Ayuntamiento de Zarautz a Danda Asanblada Jai Elkartea (Decreto 2026/448) para las fiestas de San Pelaio y la Semana Vasca: ya concedida a una entidad concreta. Criterio del responsable de 18/11/2026."
  }
 }
