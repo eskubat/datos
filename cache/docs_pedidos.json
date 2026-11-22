@@ -29,11 +29,11 @@
   "origen": "tarea de fichas: la convocatoria 2026 (BDNS 942867) remite a esas bases y no están en la documentación",
   "fecha": "2026-11-22",
   "estado": "fallo",
-  "intentos": 4,
+  "intentos": 5,
   "probadas": [
    {
     "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2024/09/BOB-2024a173.pdf",
-    "motivo": "no es PDF (text/html, 46706 bytes)"
+    "motivo": "no es PDF (text/html, 48090 bytes)"
    }
   ],
   "nota": "Portada quitada (19/11/2026). URL deducida, sin comprobar: el BOB-2024a180 es del 18/9/2024, así que el del lunes 9/9/2024 sería el 173. El recolector solo la acepta si una página del anuncio encaja con el título."
@@ -302,7 +302,7 @@
   ],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 2,
+  "intentos": 3,
   "probadas": [
    {
     "url": "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cd2026001161",
@@ -318,14 +318,10 @@
   ],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 2,
+  "intentos": 3,
   "probadas": [
    {
     "url": "https://egoitza.gipuzkoa.eus/gaobog/castell/bog/2020/07/29/c2003558.pdf",
-    "motivo": "HTTP 404"
-   },
-   {
-    "url": "https://www.araba.eus/botha/Boletines/2025/006/2025_006_03587_C.pdf",
     "motivo": "HTTP 404"
    }
   ]
@@ -347,7 +343,7 @@
   "urls": [],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 2,
+  "intentos": 3,
   "probadas": []
  },
  "bdns-910721": {
@@ -395,15 +391,15 @@
   ],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 2,
+  "intentos": 3,
   "probadas": [
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/929714",
-    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2014/02/20140221a036.pdf#page=73",
+    "motivo": "es de otra convocatoria"
    },
    {
-    "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/929714",
-    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+    "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1522205",
+    "motivo": "es de otra convocatoria"
    }
   ]
  },
@@ -454,15 +450,11 @@
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/920799"
   ],
-  "estado": "fallo",
+  "estado": "ok",
   "fecha": "2026-11-22",
   "intentos": 2,
-  "probadas": [
-   {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/920799",
-    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
-   }
-  ]
+  "probadas": [],
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1498180"
  },
  "bdns-900270": {
   "titulo": "Ayudas sociales del Ayuntamiento de Getxo para personas en riesgo de exclusión (BDNS 900270)",
@@ -470,15 +462,11 @@
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/900270"
   ],
-  "estado": "fallo",
+  "estado": "ok",
   "fecha": "2026-11-22",
   "intentos": 2,
-  "probadas": [
-   {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/900270",
-    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
-   }
-  ]
+  "probadas": [],
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1439414"
  },
  "bdns-938070": {
   "titulo": "Subvenciones para la utilización de las huertas ecológicas 2026, Ayuntamiento de Gorliz (BDNS 938070; extracto BOB 4 de noviembre de 2026, II-5627)",
@@ -486,19 +474,11 @@
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/938070"
   ],
-  "estado": "fallo",
+  "estado": "ok",
   "fecha": "2026-11-22",
   "intentos": 2,
-  "probadas": [
-   {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/938070",
-    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
-   },
-   {
-    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/11/BOB-2026a212.pdf",
-    "motivo": "no es PDF (text/html, 43926 bytes)"
-   }
-  ]
+  "probadas": [],
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1544806"
  },
  "bdns-904761": {
   "titulo": "Subvenciones para euskaldunizar rótulos y webs de comercios, Ayuntamiento de Berriz (BDNS 904761; bases BOB 30 de agosto de 2022, II-3854)",
@@ -509,15 +489,19 @@
   ],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 2,
+  "intentos": 3,
   "probadas": [
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/904761",
-    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2022/08/30/II-3854_cas.pdf",
+    "motivo": "no es PDF (text/html, 47922 bytes)"
    },
    {
-    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2022/08/30/II-3854_cas.pdf",
-    "motivo": "no es PDF (text/html, 45794 bytes)"
+    "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1452019",
+    "motivo": "es de otra convocatoria"
+   },
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1452018",
+    "motivo": "es de otra convocatoria"
    }
   ]
  },
@@ -528,19 +512,20 @@
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2022/08/30/II-3855_cas.pdf",
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/904617"
   ],
-  "estado": "fallo",
+  "estado": "ok",
   "fecha": "2026-11-22",
   "intentos": 2,
   "probadas": [
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/904617",
-    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2022/08/30/II-3855_cas.pdf",
+    "motivo": "no es PDF (text/html, 48770 bytes)"
    },
    {
-    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2022/08/30/II-3855_cas.pdf",
-    "motivo": "no es PDF (text/html, 49002 bytes)"
+    "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1451679",
+    "motivo": "es de otra convocatoria"
    }
-  ]
+  ],
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1451678"
  },
  "bdns-938065": {
   "titulo": "Convocatoria y bases de subvenciones para cursos de natación 2026, Ayuntamiento de Gorliz (BDNS 938065; BOB 4 de noviembre de 2026, II-5604)",
@@ -548,19 +533,11 @@
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/938065"
   ],
-  "estado": "fallo",
+  "estado": "ok",
   "fecha": "2026-11-22",
   "intentos": 2,
-  "probadas": [
-   {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/938065",
-    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
-   },
-   {
-    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/11/BOB-2026a212.pdf",
-    "motivo": "no es PDF (text/html, 48098 bytes)"
-   }
-  ]
+  "probadas": [],
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1544789"
  },
  "bdns-927981": {
   "titulo": "Convocatoria de ayudas para fomentar el empleo en Campezo/Kanpezu 2026 (BOTHA n.º 105, 14 de septiembre de 2026)",
@@ -581,15 +558,16 @@
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933705"
   ],
-  "estado": "fallo",
+  "estado": "ok",
   "fecha": "2026-11-22",
   "intentos": 1,
   "probadas": [
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933705",
-    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2012/12/20121219a242.pdf?hash=0182fbb1795636249a60124af57a2745#page=12",
+    "motivo": "no es PDF (text/html, 49502 bytes)"
    }
-  ]
+  ],
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1532600"
  },
  "bdns-932843": {
   "titulo": "Becas para el estudio de euskera curso 25-26, Ayuntamiento de Ortuella (BOB, 16 de noviembre de 2026, II-5955; BDNS 932843)",
@@ -597,19 +575,16 @@
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/932843"
   ],
-  "estado": "fallo",
+  "estado": "ok",
   "fecha": "2026-11-22",
   "intentos": 1,
   "probadas": [
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/932843",
-    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
-   },
-   {
-    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/11/BOB-2026a220.pdf",
-    "motivo": "no es PDF (text/html, 44650 bytes)"
+    "url": "https://www.ortuella.eus/eu-ES/Albisteak/Documents/20260706-euskara-ikasteko-oinarrien-egokitzapena.pdf",
+    "motivo": "red: fetch failed"
    }
-  ]
+  ],
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1530383"
  },
  "bob-bob-2026a206-ii-5490-": {
   "titulo": "Becas para estudios musicales curso 2025-2026, Ayuntamiento de Ortuella (BOB, 27 de octubre de 2026, II-5490; BDNS 932776)",
@@ -617,19 +592,16 @@
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/932776"
   ],
-  "estado": "fallo",
+  "estado": "ok",
   "fecha": "2026-11-22",
   "intentos": 1,
   "probadas": [
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/932776",
-    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
-   },
-   {
-    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/10/BOB-2026a206.pdf",
-    "motivo": "no es PDF (text/html, 47402 bytes)"
+    "url": "https://www.ortuella.eus/es-ES/Ayuntamiento/Subvenciones/Subv_Musica/01_Ordenanza_becas_mussica.pdf",
+    "motivo": "red: fetch failed"
    }
-  ]
+  ],
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1530230"
  },
  "bdns-940185": {
   "titulo": "Ayudas del Ayuntamiento de Derio a deportistas para viajes y dietas en competiciones fuera de Euskadi (bases BOB, 9 de octubre de 2018, II-4151; BDNS 940185)",
@@ -640,15 +612,19 @@
   ],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/940185",
-    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2018/10/09/II-4151_cas.pdf?hash=64d3e918e53d17ce977dd0d89137c1fa",
+    "motivo": "no es PDF (text/html, 42822 bytes)"
+   },
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1550652",
+    "motivo": "no es PDF (application/octet-stream, 33228 bytes)"
    },
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2018/10/09/II-4151_cas.pdf",
-    "motivo": "no es PDF (text/html, 46230 bytes)"
+    "motivo": "no es PDF (text/html, 41450 bytes)"
    }
   ]
  },
@@ -658,19 +634,16 @@
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933635"
   ],
-  "estado": "fallo",
+  "estado": "ok",
   "fecha": "2026-11-22",
   "intentos": 1,
   "probadas": [
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933635",
-    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
-   },
-   {
-    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/10/BOB-2026a198.pdf",
-    "motivo": "no es PDF (text/html, 44558 bytes)"
+    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2017/09/14/II-4194_cas.pdf?hash=e1fef403ff9d02302dbabb3fbc3e8e1e",
+    "motivo": "no es PDF (text/html, 46510 bytes)"
    }
-  ]
+  ],
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1532405"
  },
  "bob-bob-2026a189-ii-5118-": {
   "titulo": "Bases específicas de subvenciones para el uso social del euskera, Ayuntamiento de Galdakao (BOB, 9 de julio de 2026, n.º 129; definitivas BOB 21 de septiembre de 2026; BDNS 931991)",
@@ -679,36 +652,26 @@
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/931991",
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/09/21/II-4856_cas.pdf"
   ],
-  "estado": "fallo",
+  "estado": "ok",
   "fecha": "2026-11-22",
   "intentos": 1,
   "probadas": [
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/931991",
-    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
-   },
-   {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/09/21/II-4856_cas.pdf",
-    "motivo": "no es PDF (text/html, 47022 bytes)"
-   },
-   {
-    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/07/BOB-2026a129.pdf",
-    "motivo": "no es PDF (text/html, 51942 bytes)"
-   },
-   {
-    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/09/BOB-2026a180.pdf",
-    "motivo": "no es PDF (text/html, 47606 bytes)"
+    "motivo": "no es PDF (text/html, 44634 bytes)"
    }
-  ]
+  ],
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1528123"
  },
  "bdns-895708": {
   "titulo": "Bases específicas de las subvenciones al alquiler para la recuperación de locales comerciales en suelo urbano de Azkoitia (BOG n.º 120, 26 de junio de 2025)",
   "botha": [],
   "urls": [],
   "fecha": "2026-11-22",
-  "estado": "fallo",
+  "estado": "ok",
   "intentos": 1,
-  "probadas": []
+  "probadas": [],
+  "url": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2025/06/26/c2504656.htm"
  },
  "bdns-939450": {
   "titulo": "Ordenanza reguladora de la concesión de subvenciones del Ayuntamiento de Busturia (BOB n.º 64, 2 de abril de 2014)",
@@ -718,11 +681,11 @@
   ],
   "fecha": "2026-11-22",
   "estado": "fallo",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2014/04/20140402a064.pdf",
-    "motivo": "no es PDF (text/html, 42622 bytes)"
+    "motivo": "no es PDF (text/html, 44438 bytes)"
    }
   ]
  },
@@ -732,10 +695,11 @@
   "urls": [
    "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2018/03/08/c1801496.pdf"
   ],
-  "estado": "fallo",
+  "estado": "ok",
   "fecha": "2026-11-22",
   "intentos": 1,
-  "probadas": []
+  "probadas": [],
+  "url": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2018/03/08/c1801496.pdf"
  },
  "bdns-891839": {
   "titulo": "Ordenanza de ayudas municipales para la instalación de detectores de fuego en domicilios particulares de Oñati (BOG nº 144, 30 de julio de 2010; modificación BOG nº 67, 10 de abril de 2012)",
@@ -743,7 +707,7 @@
   "urls": [],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": []
  },
  "bdns-893245": {
@@ -777,7 +741,7 @@
   "urls": [],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": []
  },
  "bdns-894356": {
@@ -786,7 +750,7 @@
   "urls": [],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": []
  },
  "bdns-893428": {
@@ -795,7 +759,7 @@
   "urls": [],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": []
  },
  "bdns-895646": {
@@ -804,17 +768,18 @@
   "urls": [],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": []
  },
  "bdns-885466": {
   "titulo": "Ordenanza de Getaria de ayudas a particulares y familias para paliar situaciones de extrema necesidad y/o exclusión social (BOG, 13 de julio de 2023)",
   "botha": [],
   "urls": [],
-  "estado": "fallo",
+  "estado": "ok",
   "fecha": "2026-11-22",
   "intentos": 1,
-  "probadas": []
+  "probadas": [],
+  "url": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2023/07/13/c2305195.htm"
  },
  "bdns-893232": {
   "titulo": "Bases reguladoras del programa auzo-taxi de Oñati (BOG, 19 de abril de 2023; corrección de precios en el BOG del 16 de noviembre de 2023)",
@@ -914,15 +879,11 @@
   "origen": "tarea de fichas: la convocatoria 2026 (BDNS 881434) remite a esa ordenanza y no dice qué cubre, cuánto ni quién puede pedirla",
   "fecha": "2026-11-22",
   "estado": "fallo",
-  "intentos": 2,
+  "intentos": 3,
   "probadas": [
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2008/10/20081028a207.pdf",
-    "motivo": "no es PDF (text/html, 40826 bytes)"
-   },
-   {
-    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2008/10/20081028a207.pdf",
-    "motivo": "no es PDF (text/html, 45458 bytes)"
+    "motivo": "no es PDF (text/html, 45410 bytes)"
    }
   ]
  },
@@ -935,11 +896,11 @@
   "origen": "tarea de fichas: faltan las cuantías (Base Séptima) y los requisitos de la convocatoria 2026 de Surbisa (BDNS 880363)",
   "fecha": "2026-11-22",
   "estado": "fallo",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2025/11/26/II-6827_cas.pdf",
-    "motivo": "no es PDF (text/html, 42802 bytes)"
+    "motivo": "no es PDF (text/html, 41370 bytes)"
    }
   ]
  }
