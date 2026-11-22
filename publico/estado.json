@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "generado": "2026-11-22T07:42:16.220Z",
-  "total": 441,
+  "generado": "2026-11-22T07:48:15.080Z",
+  "total": 449,
   "porAmbito": {
     "estado": 59,
     "euskadi": 84,
     "municipio": 208,
     "territorio": 84,
-    "ue": 6
+    "ue": 14
   },
   "porEstado": {
-    "abierta": 335,
-    "proxima": 46,
+    "abierta": 345,
+    "proxima": 44,
     "sinfecha": 60
   },
   "previstas": 651,
@@ -20,14 +20,14 @@
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
       "registros": 129,
-      "segundos": 33,
+      "segundos": 32,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 27,
-      "segundos": 24,
+      "segundos": 26,
       "erroresFicha": 0
     },
     "araba": {
@@ -61,12 +61,12 @@
     "europa": {
       "nombre": "Funding & Tenders Portal (Comisión Europea), convocatorias sin consorcio",
       "ok": true,
-      "registros": 2,
+      "registros": 10,
       "erroresFicha": 0
     }
   },
   "enlaces": {
-    "comprobados": 660,
+    "comprobados": 668,
     "rotos": 0,
     "sustituidos": 0,
     "quitados": 0

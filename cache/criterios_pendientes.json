@@ -2064,6 +2064,17 @@
   "revisar": false
  },
  {
+  "id": "ue-erc-2027-cog",
+  "h": "12f3e3253cdb93ab",
+  "titulo": "Becas ERC Consolidator para consolidar un equipo de investigación",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-erc-2027-cog-ec4a4bd6.txt",
+  "revisar": false
+ },
+ {
   "id": "bdns-925434",
   "h": "7dcfda3509453f12",
   "titulo": "Subvenciones a empresas para contratar a personas desempleadas",
@@ -2182,6 +2193,17 @@
    "vivienda"
   ],
   "archivo": "cache/fuentes/bdns-924812-90651188.txt",
+  "revisar": false
+ },
+ {
+  "id": "ue-crea-media-2027-devvgim",
+  "h": "f54b604aade3006d",
+  "titulo": "Ayudas para desarrollar videojuegos y contenido inmersivo",
+  "para": [
+   "empresa"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-crea-media-2027-devvgim-64f443cb.txt",
   "revisar": false
  },
  {
@@ -2414,17 +2436,6 @@
    "emprendimiento"
   ],
   "archivo": "cache/fuentes/extra-msca-pf-2027-194cb28b.txt",
-  "revisar": false
- },
- {
-  "id": "ue-horizon-widera-2027-03-widening-01",
-  "h": "a655c1a0ff8ea9f5",
-  "titulo": "Becas ERA Fellowships para investigar en países europeos que refuerzan su ciencia",
-  "para": [
-   "particular"
-  ],
-  "temas": [],
-  "archivo": "cache/fuentes/ue-horizon-widera-2027-03-widening-01-a38cdad2.txt",
   "revisar": false
  },
  {
