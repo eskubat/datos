@@ -45,13 +45,13 @@
   "caracteres": 28494
  },
  {
-  "id": "bob-bob-2026a215-ii-5802-",
-  "h": "ed43e2ba0faec9be",
-  "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
-  "organismoSugerido": "ayto-santurtzi",
-  "organismoFuente": "Ayuntamiento de Santurtzi",
-  "archivo": "cache/fuentes/bob-bob-2026a215-ii-5802--1dac77fc.txt",
-  "caracteres": 5593
+  "id": "bdns-931954",
+  "h": "0bbdb0c6eeb567aa",
+  "titulo": "Subvenciones para contratar a jóvenes desempleados",
+  "organismoSugerido": "ayto-laudio-llodio",
+  "organismoFuente": "Ayuntamiento de Laudio/Llodio",
+  "archivo": "cache/fuentes/bdns-931954-b1f54f15.txt",
+  "caracteres": 339442
  },
  {
   "id": "botha-2026-125-03043-c-pdf",
@@ -63,6 +63,15 @@
   "caracteres": 31341
  },
  {
+  "id": "bob-bob-2026a215-ii-5802-",
+  "h": "ed43e2ba0faec9be",
+  "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
+  "organismoSugerido": "ayto-santurtzi",
+  "organismoFuente": "Ayuntamiento de Santurtzi",
+  "archivo": "cache/fuentes/bob-bob-2026a215-ii-5802--1dac77fc.txt",
+  "caracteres": 5593
+ },
+ {
   "id": "bdns-936268",
   "h": "43dfbea157396e78",
   "titulo": "Subvenciones para asistir a campeonatos y competiciones extraordinarias",
@@ -70,33 +79,6 @@
   "organismoFuente": "Ayuntamiento de Eibar",
   "archivo": "cache/fuentes/bdns-936268-6fda695d.txt",
   "caracteres": 8800
- },
- {
-  "id": "ue-horizon-eic-2026-prize-wip",
-  "h": "ed2bdc6e55313d53",
-  "titulo": "The European Prize for Women Innovators",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
-  "caracteres": 12244
- },
- {
-  "id": "ue-horizon-eit-2026-prize-wip-leadership",
-  "h": "15aa8d5b5b10edef",
-  "titulo": "Women Leadership Category",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eit-2026-prize-wip-leadership-00ee7b4c.txt",
-  "caracteres": 12241
- },
- {
-  "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
-  "h": "40b562d93f954fa5",
-  "titulo": "Rising Innovators category",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
-  "caracteres": 12248
  },
  {
   "id": "bdns-942475",
@@ -927,33 +909,6 @@
   "caracteres": 27630
  },
  {
-  "id": "ue-crea-media-2027-tvonline-1",
-  "h": "594ec78e4c088425",
-  "titulo": "TV and online content Animation projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
-  "caracteres": 6321
- },
- {
-  "id": "ue-crea-media-2027-tvonline-2",
-  "h": "2bb80164abe11ee5",
-  "titulo": "TV and online content Documentary projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
-  "caracteres": 6324
- },
- {
-  "id": "ue-crea-media-2027-tvonline-3",
-  "h": "edb329094bf69b46",
-  "titulo": "TV and online content Fiction projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
-  "caracteres": 6320
- },
- {
   "id": "bdns-940546",
   "h": "30666646779985ed",
   "titulo": "Subvenciones para preproducción, producción y promoción de proyectos audiovisuales",
@@ -1087,24 +1042,6 @@
   "organismoFuente": "Ayuntamiento de Hernani",
   "archivo": "cache/fuentes/bdns-942978-0ac78f70.txt",
   "caracteres": 200105
- },
- {
-  "id": "ue-cs-resist-ii-process-innovation-open-call",
-  "h": "b40050bc3e34dc61",
-  "titulo": "Resist II process innovation OPEN CALL",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-cs-resist-ii-process-innovation-open-call-3fffea60.txt",
-  "caracteres": 4954
- },
- {
-  "id": "ue-cs-resist-ii-product-innovation-open-call",
-  "h": "f09824129f1f3b5a",
-  "titulo": "Resist II product innovation OPEN CALL",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-cs-resist-ii-product-innovation-open-call-385d00a0.txt",
-  "caracteres": 4876
  },
  {
   "id": "bdns-940347",
