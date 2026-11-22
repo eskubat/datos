@@ -823,7 +823,20 @@
    "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2023/04/19/bo230419.pdf",
    "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2023/11/16/bo231116.pdf"
   ],
-  "nota": "El 22/11/2026 el flujo dio dos veces por bueno un documento equivocado (BOTHA 133/2026, colonias felinas de Álava); corregido docspedidos.js (no mira el BOTHA para Gipuzkoa, lee el sumario del BOG del día citado y exige palabras distintivas del título) y se vuelve a pedir."
+  "nota": "El 22/11/2026 el flujo dio dos veces por bueno un documento equivocado (BOTHA 133/2026, colonias felinas de Álava); corregido docspedidos.js (no mira el BOTHA para Gipuzkoa, lee el sumario del BOG del día citado y exige palabras distintivas del título) y se vuelve a pedir.",
+  "estado": "ok",
+  "url": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2023/04/19/c2302565.htm",
+  "fecha": "2026-11-22",
+  "probadas": [
+   {
+    "url": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2023/04/19/bo230419.pdf",
+    "motivo": "HTTP 404"
+   },
+   {
+    "url": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2023/11/16/bo231116.pdf",
+    "motivo": "HTTP 404"
+   }
+  ]
  },
  "bdns-895045": {
   "titulo": "Ayudas económicas a situaciones de necesidad en el municipio de Amurrio 2026 (bases en BOTHA 2025/044)",
