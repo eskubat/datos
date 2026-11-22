@@ -247,5 +247,54 @@
     "motivo": "no es PDF (application/octet-stream, 185982 bytes)"
    }
   ]
+ },
+ "bdns-918305": {
+  "titulo": "Ayudas para obras de mejora de la accesibilidad y la eficiencia energética de viviendas y edificios residenciales de Urretxu 2026 (bases DL27)",
+  "botha": [],
+  "urls": [
+   "https://www.urretxu.eus/eu/component/rsfiles/download-file/files?path=i_subvenciones/2026-DirulaguntzenOinarriak/DL27-Oinarriak2026.pdf"
+  ]
+ },
+ "bdns-918616": {
+  "titulo": "Ordenanza municipal para la promoción de la accesibilidad a las viviendas (Ayuntamiento de Basauri)",
+  "botha": [],
+  "urls": [
+   "https://www.basauri.eus/sites/basauri/files/2023-04/ordenanza_municipal_de_promocion_de_la_accesibilidad.pdf"
+  ]
+ },
+ "bdns-918883": {
+  "titulo": "Criterios para la concesión de Ayudas de Emergencia Social (AES) durante el año 2026 en el Ayuntamiento de Basauri",
+  "botha": [],
+  "urls": [
+   "https://www.euskadi.eus/bopv2/datos/2026/04/2601627a.pdf"
+  ]
+ },
+ "bdns-919621": {
+  "titulo": "Ayudas económicas para el tratamiento de adicciones 2026 (Ayuntamiento de Eskoriatza)",
+  "botha": [],
+  "urls": [
+   "https://eskoriatza.eus/es/tramites/subvenciones/ayudas-economicas-para-tratamiento-de-adicciones-2026/"
+  ]
+ },
+ "bdns-913719": {
+  "titulo": "Ayudas de emergencia social 2026 (Ayuntamiento de Amurrio)",
+  "botha": [],
+  "urls": [
+   "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cd2026001161"
+  ]
+ },
+ "bdns-919936": {
+  "titulo": "Convocatoria de subvenciones del área de cultura 2026 (Ayuntamiento de Hondarribia); bases en BOG 29/07/2020",
+  "botha": [],
+  "urls": [
+   "https://egoitza.gipuzkoa.eus/gaobog/castell/bog/2020/07/29/c2003558.pdf"
+  ]
+ },
+ "bdns-911631": {
+  "titulo": "Ayudas para programas de cooperación al desarrollo 2026 (Ayuntamiento de Astigarraga)",
+  "botha": [],
+  "urls": [
+   "https://www.astigarraga.eus/es/-/garapenerako-lankidetza-progamaren-dirulaguntzak-2026"
+  ]
  }
 }
