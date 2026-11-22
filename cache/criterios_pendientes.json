@@ -733,8 +733,8 @@
  },
  {
   "id": "bdns-890111",
-  "h": "87c75fb1e113ae9b",
-  "titulo": "Ayudas para crear o traspasar un negocio y alquilar el local",
+  "h": "1c993f0214306aac",
+  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la promoción de nuevas empresas",
   "para": [
    "autonomo",
    "empresa"
@@ -950,7 +950,7 @@
  {
   "id": "bdns-883715",
   "h": "047aa918d8ed01a8",
-  "titulo": "Ayudas no periódicas municipales (ANPM)",
+  "titulo": "Ayudas para gastos puntuales de personas en riesgo de exclusión social",
   "para": [
    "particular"
   ],
@@ -1290,7 +1290,7 @@
  {
   "id": "bdns-882340",
   "h": "89aea4ab9acea873",
-  "titulo": "Convocatoria de subvenciones al nacimiento o adopción de hijos e hijas en el municipio",
+  "titulo": "Ayudas por nacimiento o adopción de hijos e hijas",
   "para": [
    "particular"
   ],
@@ -1623,6 +1623,19 @@
    "estudios"
   ],
   "archivo": "cache/fuentes/bdns-932594-7d5f8c6a.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-881434",
+  "h": "e986b581fd19f281",
+  "titulo": "Ayudas sociales individuales",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-881434-24d33a93.txt",
   "revisar": false
  },
  {
@@ -2068,6 +2081,62 @@
    "social"
   ],
   "archivo": "cache/fuentes/bdns-889154-2e875905.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-881055",
+  "h": "9b0d6ce7cc80955f",
+  "titulo": "Fiestas",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-881055-8bac3abb.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-881053",
+  "h": "797a033e59e895ca",
+  "titulo": "Cultura",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-881053-d225314f.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-881048",
+  "h": "bfe233d04739f449",
+  "titulo": "Comunicación en euskera",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-881048-5c6cd74c.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-880932",
+  "h": "139e9302b37aee1c",
+  "titulo": "Promoción de la cultura 20026",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-880932-4ea075e5.txt",
   "revisar": false
  },
  {
@@ -3015,10 +3084,9 @@
  {
   "id": "bdns-893232",
   "h": "051adcad968cf8e0",
-  "titulo": "Convocatoria pública de las subvenciones del programa de auzo-taxi",
+  "titulo": "Subvenciones auzo-taxi para desplazarse en taxi desde barrios rurales",
   "para": [
-   "autonomo",
-   "empresa"
+   "particular"
   ],
   "temas": [],
   "archivo": "cache/fuentes/bdns-893232-73532198.txt",
@@ -3185,11 +3253,10 @@
  {
   "id": "bdns-883989",
   "h": "db5976fec1f5146a",
-  "titulo": "Bases específicas de subvenciones para la Emancipación de los jóvenes",
+  "titulo": "Subvenciones para jóvenes que alquilan vivienda o se autoemplean",
   "para": [
    "particular",
-   "ayuntamiento",
-   "empresa"
+   "autonomo"
   ],
   "temas": [
    "vivienda",
@@ -3201,7 +3268,7 @@
  {
   "id": "bdns-883490",
   "h": "02b502bea0ad2413",
-  "titulo": "Programa Municipal de Ayudas a Mujeres Víctimas de Violencia Machista",
+  "titulo": "Ayudas económicas para mujeres víctimas de violencia machista",
   "para": [
    "particular"
   ],
@@ -3214,12 +3281,63 @@
  {
   "id": "bdns-882139",
   "h": "6d06db39775bc79e",
-  "titulo": "Bases subvenciones tratamiento psicopedagogico",
+  "titulo": "Subvenciones para tratamientos psicopedagógicos de menores",
   "para": [
    "particular"
   ],
   "temas": [],
   "archivo": "cache/fuentes/bdns-882139-81424771.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-881454",
+  "h": "2c83e7830c4bbce2",
+  "titulo": "Ayudas auzo-taxi",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bdns-881454-e5890434.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-881342",
+  "h": "b6a1699a95e93ad8",
+  "titulo": "Convocatoria y bases reguladoras de ayudas de apoyo al Plan de Trabajo Compartido",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-881342-b7cc3f68.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-881317",
+  "h": "48e99b5bd7c0e27f",
+  "titulo": "Convocatoria y bases reguladoras de becas mensuales de formación a participantes en el servicio de intervención socioeducativa y psicosocial",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "estudios",
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-881317-071824c2.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-880996",
+  "h": "652155cb7d3f9370",
+  "titulo": "Bases y convocatoria para la concesión de subvenciones del área de Euskera",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-880996-f7cd884b.txt",
   "revisar": false
  },
  {
@@ -3526,10 +3644,12 @@
  {
   "id": "bdns-921964",
   "h": "6b855c127712c52b",
-  "titulo": "Premios Ejército",
+  "titulo": "Premios Ejército de arte, periodismo, investigación y enseñanza escolar",
   "para": [
    "particular",
-   "asociacion"
+   "empresa",
+   "asociacion",
+   "ayuntamiento"
   ],
   "temas": [
    "cultura"
@@ -4078,8 +4198,9 @@
  {
   "id": "eus-ayuda-subvencion-2026-pi2026-c-weblan00-content-es",
   "h": "1d5b5b86b37c7040",
-  "titulo": "Ayudas para el desarrollo de proyectos integrales de empleo, formación e inserción laboral",
+  "titulo": "Subvenciones para contratar a participantes de proyectos integrales de empleo",
   "para": [
+   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -4895,7 +5016,7 @@
  {
   "id": "bdns-942048",
   "h": "2069e78935f21189",
-  "titulo": "Convocatoria de ayudas económicas a vecinas y vecinos que cuenten con escasos recursos",
+  "titulo": "Ayudas para pagar el agua y el seguro de la vivienda",
   "para": [
    "particular"
   ],
@@ -4918,6 +5039,20 @@
    "emprendimiento"
   ],
   "archivo": "cache/fuentes/bdns-941367-160f7b92.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-941144",
+  "h": "476dbdfbf8316f7e",
+  "titulo": "Ayudas para pagar las tasas de agua y basuras a inquilinos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "vivienda",
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-941144-cdd3573d.txt",
   "revisar": false
  },
  {
@@ -5022,7 +5157,7 @@
  {
   "id": "bdns-929034",
   "h": "c53fbb44960125de",
-  "titulo": "Subvenciones de para el otorgamiento de ayudas individuales para favorecer la inclusión social de personas con discapacidad",
+  "titulo": "Ayudas individuales para la inclusión social de personas con discapacidad",
   "para": [
    "particular"
   ],
@@ -5035,10 +5170,9 @@
  {
   "id": "bdns-926043",
   "h": "b04543f99628ee17",
-  "titulo": "Ayudas para los concursos del Artzain Eguna",
+  "titulo": "Premios de los concursos de ganado latxo y queso del Artzain Eguna",
   "para": [
-   "autonomo",
-   "empresa"
+   "autonomo"
   ],
   "temas": [
    "rural"
@@ -5103,9 +5237,11 @@
  {
   "id": "bdns-897779",
   "h": "fa84ed45acec3564",
-  "titulo": "Bono Denda Durango oinarriak - bases",
+  "titulo": "Bonos de descuento para comprar en el comercio y la hostelería locales",
   "para": [
-   "particular"
+   "particular",
+   "autonomo",
+   "empresa"
   ],
   "temas": [
    "comercio",
@@ -5116,7 +5252,7 @@
  },
  {
   "id": "bdns-895045",
-  "h": "44d5e8593258d161",
+  "h": "b712f31818dddfc9",
   "titulo": "Ayudas económicas a situaciones de necesidad en el municipio",
   "para": [
    "particular"
@@ -5462,6 +5598,20 @@
   "revisar": false
  },
  {
+  "id": "prest-gipuzkoa-pnc",
+  "h": "bc3fff81ddb4a496",
+  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-gipuzkoa-pece",
   "h": "8c8ebab370c29e63",
   "titulo": "Prestación para cuidar en casa a una persona dependiente",
@@ -5485,34 +5635,6 @@
    "familia"
   ],
   "archivo": "cache/fuentes/prest-gipuzkoa-pevs-4f9aa203.txt",
-  "revisar": false
- },
- {
-  "id": "prest-gipuzkoa-peap",
-  "h": "d3a77d3658b32296",
-  "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "empleo",
-   "familia"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-peap-5825c94d.txt",
-  "revisar": false
- },
- {
-  "id": "prest-gipuzkoa-pnc",
-  "h": "bc3fff81ddb4a496",
-  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "familia",
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
   "revisar": false
  },
  {
@@ -5559,6 +5681,17 @@
   "revisar": false
  },
  {
+  "id": "prest-araba-pevs",
+  "h": "47b578c0f318894c",
+  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-bizkaia-lismi-movilidad",
   "h": "f9fcbdd7c3c5db41",
   "titulo": "Ayudas para gastos de transporte de personas con discapacidad",
@@ -5572,14 +5705,17 @@
   "revisar": false
  },
  {
-  "id": "prest-araba-pevs",
-  "h": "47b578c0f318894c",
-  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
+  "id": "prest-gipuzkoa-peap",
+  "h": "d3a77d3658b32296",
+  "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
   "para": [
    "particular"
   ],
-  "temas": [],
-  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
+  "temas": [
+   "empleo",
+   "familia"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-peap-5825c94d.txt",
   "revisar": false
  },
  {
