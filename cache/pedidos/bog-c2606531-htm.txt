@@ -1,106 +1,273 @@
-URL: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1530836
-Descargado: 2026-11-19
+URL: http://static.errenteria.eus/zerbikat/araudia/era6dlhpenpr_ele.pdf
+Descargado: 2026-11-22
 
-                                                   E RRE NT E RIAK O UDAL A                                AYUNT AMIE NT O DE E RRE NT E RIA
-                                                       Udal Hizkuntza Politika.                                     Política Lingüística Municipal.
-
-
-
-
-                                           Espediente zk./Nº expediente: 2026SDBD0015
-                                           Erreg. data/Fecha reg: 2026/05/25 Erreg. zk ./ Nº registro: 014107
-                                           Gaia/Asunto: 4.3.: DIRULAGUNTZA LERROA: LAN MUNDUAN EUSKARAREN ERABILERA, EZAGUTZA ETA
-                                           IKUSGARRITASUNA SUSTATZEA - 4.3.: FOMENTAR EL USO, CONOCIMIENTO Y VISIBILIDAD DEL
-                                           EUSKERA EN EL MUNDO LABORAL
-                                           Eskatzailea/Solicitante: ERRENTERIAKO UDALA                   NAN(IFK)/DNI(NIF): P2007200E
-                                           Kokalekua/Emplazamiento: ERRENTERIA
-
-
-
-                                                                 DEIALDIA                                            CONVOCATORIA
-
-                                           2026. urtean emango diren Udal Hizkuntza Politika.       Convocatoria para la concesión de subvenciones del
-                                           saileko dirulaguntzen deialdia. Diru-laguntza lerroa:    área    de     Política   Lingüística    Municipal.
-                                           4.3.: DIRULAGUNTZA LERROA: LAN MUNDUAN                   correspondientes al año 2026. Línea de subvención:
-                                           EUSKARAREN ERABILERA, EZAGUTZA ETA                       4.3.: DIRULAGUNTZA LERROA: LAN MUNDUAN
-                                           IKUSGARRITASUNA       SUSTATZEA - 4.3.:                  EUSKARAREN ERABILERA, EZAGUTZA ETA
-                                           FOMENTAR EL USO, CONOCIMIENTO Y                          IKUSGARRITASUNA       SUSTATZEA  - 4.3.:
-                                           VISIBILIDAD DEL EUSKERA EN EL MUNDO                      FOMENTAR EL USO, CONOCIMIENTO Y
-                                           LABORAL. BDNS identif.: 932906.                          VISIBILIDAD DEL EUSKERA EN EL MUNDO
-                                                                                                    LABORAL BDNS identif: 932906.
-
-                                           Azaroaren 17ko Diru-laguntzen 38/2003 Lege               De conformidad con lo previsto en los artículos
-                                           Orokorraren    17.3.b    eta    20.8.a   artikuluetan    17.3.b y 20.8.a de la Ley 38/2003, de 17 de
-                                           xedatutakoaren arabera, deialdiaren laburpena            noviembre, General de Subvenciones, se publica el
-                                           argitaratzen da. Horren testu osoa Diru-laguntzen        extracto de la convocatoria cuyo texto completo
-                                           Datu-Base Nazionalean kontsulta daiteke, goiburuan       puede consultarse en la Base de Datos Nacional de
-                                           zehazten      den     erreferentzia    zenbakiarekin     Subvenciones, con la referencia indicada en el
-                                           (http://www.pap.minhafp.gob.es/bdnstrans/GE/es/ind       encabezamiento
-                                           ex).                                                     (http://www.pap.minhafp.gob.es/bdnstrans/GE/es/ind
-                                                                                                    ex).
+  ER RE NT ERIA KO UD AL A                                                        AYU NTA MIE NT O D E E RRE NT E RIA
+      Udal Hizkuntza Politika                                                           Política Lingüística Municipal
 
 
 
 
-ESKU2735be7b-3829-4fbb-bfde-9b3df6342760
-                                           Udal Hizkuntza Politika. saileko zinegotzi delegatuak,   La concejala delegada de Política Lingüística
-                                           2026ko urriaren 1ean, 2868 dekretu zka.,                 Municipal., con fecha 1 de octubre de 2026 , n.º
-                                           ebazpenean jasotzen diren dirulaguntzak ematea           decreto 2868, ha resuelto aprobar las bases
-                                           arautzen duten oinarri orokorrak eta deialdia onartzea   generales y la convocatoria para la concesión de las
-                                           erabaki du. Horien artean:                               subvenciones que se contemplan en dicha
-                                                                                                    resolución. Entre ellas, la siguiente:
+ 4.3. DIRULAGUNTZA LERROA: LAN MUNDUAN                                           LÍNEA DE SUBVENCIÓN 4.3.: FOMENTAR EL
+    EUSKAREN ERABILERA, EZAGUTZA ETA                                              USO, CONOCIMIENTO Y VISIBILIDAD DEL
+     IKUSGARRITASUNA SUSTATZEA – 2026                                            EUSKERA EN EL MUNDO LABORAL – 2026
+           OINARRI ESPEZIFIKOAK.                                                           BASES ESPECÍFICAS.
+1. Dirulaguntzaren xedea                                                     1.- Objeto de la subvención
 
-                                           II. Eranskina: 4.3.: DIRULAGUNTZA LERROA: LAN            Anexo II: 4.3.: DIRULAGUNTZA LERROA: LAN
-                                           MUNDUAN EUSKARAREN ERABILERA,
-                                           EZAGUTZA ETA IKUSGARRITASUNA SUSTATZEA                   MUNDUAN         EUSKARAREN     ERABILERA,
-                                           - 4.3.: FOMENTAR EL USO, CONOCIMIENTO Y                  EZAGUTZA ETA IKUSGARRITASUNA SUSTATZEA
-                                           VISIBILIDAD DEL EUSKERA EN EL MUNDO                      - 4.3.: FOMENTAR EL USO, CONOCIMIENTO Y
-                                           LABORAL.
-                                                                                                    VISIBILIDAD DEL EUSKERA EN EL MUNDO
-                                                                                                    LABORAL.
+Lerro honen xedea da dirulaguntzak ematea, hain                               El objeto de esta línea es la concesión de
+zuzen ere, saltoki eta enpresetan euskararen                                  subvenciones por las actuaciones que se lleven a
+erabilera, ezagutza eta ikusgarritasuna sustatzeko                            cabo en las empresas para impulsar el uso,
+egitasmoak burutzeagatik; hala nola errotulazioa,                             conocimiento y visibilización del euskera así como
+eta bestelako euskarri gaineko idatziak (txantilloiak,                        para la rotulación y textos escritos sobre otros
+informazio orriak... ), web orriak eta teknologia                             soportes (plantillas, soportes informativos…) de
+berriekin zerikusia duten jarduerak, esate baterako                           establecimientos comerciales y empresas, creación
+.eus domeinua ezartzea. Lehiarik gabeko edo                                   de páginas web y actividades relacionadas con las
+elkarren      segidako    konkurrentziaren      bidez                         nuevas tecnologías, como puede ser la
+(eskatutako baldintzak betetzen dituzten eskabide                             incorporación al dominio .eus. Se concederán
+guztiak aintzat hartuz, aurrekontu-partida agortu                             mediante concurrencia no competitiva o sucesiva
+arte) esleituko dira.                                                         (estimando todas las solicitudes que cumplan los
+                                                                              requisitos exigidos, hasta el agotamiento de la
+                                                                              partida presupuestaria).
 
-                                           Lerro   horretarako   baimendutako     gastua   4.500    El gasto autorizado para dicha línea de subvención
-                   E RRE NT E RI AK O UDAL A                                     AYUNT AMI E NT O DE E RRE NT E RI A
-                        Udal Hizkuntza Politika.                                          Política Lingüística Municipal.
+2.- Dirulaguntzak zein partidaren kargura egingo                              2.- Créditos presupuestarios a los que se
+diren eta emango diren dirulaguntzen gehieneko                                imputa la subvención y cuantía total máxima de
+zenbatekoa                                                                    las subvenciones
 
+Euskara ikasteagatik emango diren dirulaguntzen                               El importe de las subvenciones para el aprendizaje
+zenbatekoa 2026ko aurrekontuko partidaren kontura                             de euskera será con cargo a la partida del
+izango da.                                                                    presupuesto del año 2026.
 
+1030.471.01.335.10 – Dirulaguntzak: Lan munduan                               1030.471.01.335.10 – Subvenciones: Fomentar el
+euskararen erabilera, ezagutza eta ikusgarritasuna                            uso, conocimiento y visibilidad del euskera en el
+sustatzea 4.500 €.                                                            mundo laboral. 4.500 €.
 
+Dagokion kreditu aldaketaren bitartez kopurua                                 Si posteriormente fuesen ampliadas en base a la
+handituko balitz, deialdi honi egozgarria izango den                          correspondiente modificación presupuestaria, podrá
+gastuaren baimentze berria egin liteke.                                       autorizarse nuevo gasto imputable a la presente
+                                                                              convocatoria.
 
-          eurotakoa da. Egoki den kreditu aldaketaren bitartez          es de 4.500 euros. Si posteriormente fuesen
-          kopurua handituko balitz, deialdi honi egozgarria             ampliadas en base a la correspondiente modificación
-          izango den gastuaren baimentze berria egin liteke.            presupuestaria, podrá autorizarse nuevo gasto
-                                                                        imputable a la presente convocatoria.
-
-           Dirulaguntza eskatzeko epea Gipuzkoako Foru                  El plazo de presentación de solicitudes será desde
-           Aldundiko iragarkiaren hurrengo egunetik hasita              el día siguiente a la publicación en el Boletín Oficial
-           urriaren 31era arte.                                         de Gipuzkoa hasta el 31 de octubre.
-
-          Pertsona edo kolektibo interesdunek Udalaren web              La información detallada se encuentra a disposición
-          orrian         https://uzt.gipuzkoa.eus/home.do?              de las personas o colectivos interesados en la página
-          De=EU06712333 eta Udal Hizkuntza Politika.                    web                 del                 ayuntamiento
-          sailean (tfnoa 943449613 posta elektronikoa                   https://uzt.gipuzkoa.eus/home.do?
-          euskara@errenteria.eus) aurkituko dute informazio             De=CA06712333 y en el área de Política Lingüística
-          xehatua.                                                      Municipal. (tfno 943449613 dirección electrónica
-                                                                        euskara@errenteria.eus).
-
-                Errenterian, sinaduran agertzen den datan                          Errenteria, en la fecha de la firma
-
-                                          Antolaketako ordezkaria / El delegado de Organización
-
-                                                           Eñaut Gracia Ibarra
+Oro har, dirulaguntzaren zenbateko osoa inoiz ez da                           Con carácter general, se establece que el importe
+izango onuradunak bideratu beharreko jardueraren                              de la subvención en ningún caso podrá ser de tal
+kostua baino handiagoa, bera bakarrik edo beste                               cuantía que, aisladamente o en concurrencia con
+administrazio publiko batzuen edo beste erakunde                              otras subvenciones, ayudas, ingresos o recursos,
+publiko nahiz pribatu batzuen dirulaguntzak edo                               supere el coste de la actividad subvencionada.
 
 
 
-
-                                           EKS | CSV:   ESKU2735be7b-3829-4fbb-bfde-9b3df6342760
-Egiaztatu dokumentu honen osotasuna eta sinadura hurrengo URL edo QR kodean sartuz: https://udal.egoitza.gipuzkoa.eus?De=06710
-Compruebe la integridad y firma de este documento, accediendo a la siguiente URL o código QR: https://udal.egoitza.gipuzkoa.eus?De=06710
-Sinaduren laburpena / Resumen de firmas
-
-Titulua / Título:      2026SDBD0015-DEIALDIA/CONVOCATORIA (ERRENTERIAKO UDALA)
+                                                                                                                                   1
+    C.I.F. P-2007200-E Herriko Plaza z/g. Tfnoa: 943 449613 - Fax 943 449650  20100 ERRENTERIA (Gipuzkoa)  www.errenteria.net
+ ER RE NT ERIA KO UD AL A                                                        AYU NTA MIE NT O D E E RRE NT E RIA
+     Udal Hizkuntza Politika                                                           Política Lingüística Municipal
 
 
 
 
-                    2026/10/01 15:10:21
+laguntzak batuta.
+
+3.- Pertsona onuradunak, dirulaguntza eskatzeko                              3.- Personas beneficiarias, requisitos para
+baldintzak eta horiek egiaztatzeko era                                       solicitar la subvención y forma de acreditarlos
+
+Oro har, dirulaguntzak jaso ahal izango dituzte                              Con carácter general podrá optar a estas
+Errenterian errotutako (egoitza fisikoa edo soziala                          subvenciones cualquier persona física o entidad
+Errenterian izatea edo lana udalerrian egitea)                               jurídica privada radicada (en Errenteria (que tengan
+edozein pertsona fisiko edo erakunde juridiko                                su sede física o social en Errentería o desarrolle su
+pribatuek.                                                                   trabajo en el municipio).
+
+3.1.- Enpresa eta saltokietako errotulazioari eta                            3.1.- Para la rotulación y demás textos escritos
+bestelako euskarri gaineko idatziei (txantilloiak,                           sobre     otros  soportes   (plantillas, soportes
+informazio orriak...) dagokionean, honako baldintzak                         informativos…) en establecimientos comerciales y
+bete beharko dira:                                                           empresas, deberán cumplirse los siguientes
+                                                                             requisitos:
+
+a) Testua zuzen idatzita egotea.                                             a) El texto deberá estar correctamente redactado.
+
+b) Jarduera euskaraz izendatzea, nahiz eta saltoki                           b) Que la actividad esté en euskera, aunque el
+edo enpresaren izena gaztelaniaz egon.                                       nombre del establecimiento esté en castellano.
+
+c)   Jarduera   idatzita   ez   agertzea                       baina         c) Que no aparezca escrita la actividad, pero el
+establezimenduaren izena euskaraz egotea.                                    nombre del establecimiento esté en euskera.
+
+Errotuluan izena, abizena edo izen-abizena besterik                          En el caso de que en el rótulo se representen
+agertzen ez badira, eskaera hori ez da diruz                                 simplemente el nombre, apellido, o ambos, esa
+lagunduko.                                                                   solicitud no se subvencionará
+
+3.2.-  Web orriak sortu eta teknologia berriei                               3.2.- Para la creación de páginas web y actividades
+dagokienean, honako baldintzak bete beharko dira:                            relacionadas con las nuevas tecnologías deberán
+                                                                             cumplirse los siguientes requisitos:
+
+a) Orriaren eduki guztiak euskaraz egotea.                                   a) El contenido estará en euskera. Esto no
+Horretaz gain, orria beste hizkuntza batean ere egon                         condiciona que también esté en otro idioma
+daiteke.
+                                                                             En todos los contenidos de la página, tanto de
+Orriaren eduki guztietan, hitzezkoetan zein irudi                            palabra como visuales, y en euskera como en
+bidezkotan, euskarazkoetan zein gaztelaniazkoetan,                           castellano, se realizará un uso unificador de la
+hizkuntzaren erabilera bateratzailea egitea, hizkera                         lengua, dejando de lado todo uso sexista,
+sexista, homofoboa eta xenofoboa baztertuz.                                  homófobo y xenófobo.
+
+b) Testua zuzena eta kalitatezkoa izan behar da.                             b) El texto tiene que ser correcto y de calidad.
+
+
+
+                                                                                                                                  2
+   C.I.F. P-2007200-E Herriko Plaza z/g. Tfnoa: 943 449613 - Fax 943 449650  20100 ERRENTERIA (Gipuzkoa)  www.errenteria.net
+ ER RE NT ERIA KO UD AL A                                                          AYU NTA MIE NT O D E E RRE NT E RIA
+     Udal Hizkuntza Politika                                                             Política Lingüística Municipal
+
+
+
+
+c) Edukien artean legeak babestutakorik agertzen                               c) Si dentro de los contenidos aparecen temas
+bada, eskatzaileak dagokion baimena edukitzea.                                 legalmente protegidos, la persona solicitante
+                                                                               deberá tener el permiso correspondiente
+
+d) Web orria erabat osatuta egotea eskaria egiten                              d) En el momento en que se presente la solicitud
+den unean.                                                                     deberá estar elaborado el texto de la página Web
+
+3.3.- .eus domeinua ezartzeari dagokionez,                                     3.3.- En caso de la incorporación al dominio .eus
+azkeneko kuota ordainduko da eta ordainketa                                    se bonificará la última cuota, y será un único pago.
+bakarra izango da.
+
+3.4.-        Euskararen        ikusgarritasun eta                              3.4.- Implementar proyectos relacionados con la
+sentsibilizazioarekin zerikusia duten egitasmoak                               visibilidad y sensibilización del euskera de una
+inplementatzea. Hauen egokitasuna Udal Hizkuntza                               forma integral que valorará el departamento de
+Politika sailak baloratuko du.                                                 Política Lingüística.
+
+Ezin izango dute dirulaguntzaren onuradun izan                                No podrán ser beneficiarias de las subvenciones
+Errenteriako Udalak 2026 urtean eta 2026-2027                                 aquellas personas que, de conformidad con lo
+ikasturtean dirulaguntzak emateko oinarri orokorren                           establecido en la base cuarta de las bases generales
+laugarren oinarrian jasotakoari jarraiki, dirulaguntzen                       para la concesión de subvenciones en el año 2026 y
+onuradun izateko baldintzak betetzen ez dituzten                              en el curso 2026/2027, el Ayuntamiento de
+pertsonak.                                                                    Errenteria no reúna los requisitos para ser persona
+                                                                              beneficiaria de estas ayudas.
+
+4.-   Eskaerarekin                    aurkeztu             beharreko           4.- Documentación a presentar con la solicitud
+dokumentazioa
+
+Eskatzaileek   Udalak    emandako     inprimaki                                Los y las solicitantes deberán presentar el impreso
+normalizatua (Eranskin honetan agertzen dena)                                  de solicitud normalizado facilitado por el
+aurkeztu beharko dute, ondorengo dokumentuekin                                 Ayuntamiento, y que se adjunta al presente Anexo,
+batera:                                                                        junto con los siguientes:
+
+a)    Eskaria egiten duen erakundeak kontu korronte                            a) Documento expedido por una entidad bancaria
+bat ireki duela egiaztatzeko banketxe edo aurrezki                             o de ahorro, que certifique la titularidad de una
+kutxa batek emandako egiaztagiria.                                             cuenta corriente abierta por la entidad solicitante.
+
+b)    Faktura. Eskabideak aurkezteko epea amaitzen                             b) Factura. Para cuando acabe el plazo de
+denerako, lanak amaituta eta fakturatuta egon behar                            presentación de solicitudes, los trabajos tienen que
+dira. Ez da aurrekonturik onartuko, ezta proforma                              estar terminados y facturados. No se admitirán
+fakturarik ere.                                                                presupuestos ni facturas pro-forma
+
+c)     Fakturen ordainagiria.                                                  c) Justificante del abono de las facturas.
+
+
+
+
+                                                                                                                                    3
+     C.I.F. P-2007200-E Herriko Plaza z/g. Tfnoa: 943 449613 - Fax 943 449650  20100 ERRENTERIA (Gipuzkoa)  www.errenteria.net
+ ER RE NT ERIA KO UD AL A                                                        AYU NTA MIE NT O D E E RRE NT E RIA
+     Udal Hizkuntza Politika                                                           Política Lingüística Municipal
+
+
+
+
+d)    Errotuluan edo web orrian azaltzen den testua                          d) Texto que aparece en el rótulo o en la página
+(errotulazio eta web orriaren kasuan)                                        web (en el caso de rotulación y páginas web)
+
+e)    Errotuluaren   argazkia                establezimenduan.               e) Fotografía del rótulo en el establecimiento (en el
+(Errotulazioaren kasuan)                                                     caso de rotulación)
+
+f) Egitasmoaren memoria eta aurrekontua (enpresa                             f) Presupuesto y memoria del proyecto (en casos
+barruan euskara ikusgarri egiteko      jardueren                             de actuaciones de visibilización del euskera dentro
+kasuan)                                                                      de la empresa)
+
+Errenteriako Udalak , NISAE datuen bitartekaritza                            El Ayuntamiento de Errenteria verificará, a través
+plataforma bidez, deialdian parte hartzeko ondoko                            de la plataforma de intermediación NISAE, los
+datuak egiaztatuko ditu. Aurka eginez gero, deialdian                        siguientes datos para tomar parte en la
+eskatutako ziurtagiriak edo tituluak aurkeztu beharko                        convocatoria. En caso de oposición se deberá
+ditu:                                                                        aportar las certificaciones o títulos exigidos en la
+                                                                             convocatoria:
+- Poliziaren Zuzendaritza Nagusia – Nortasun-datuak
+kontsultatzea eta egiaztatzea.                                               -     Dirección General de la Policía – Consulta y
+                                                                             verificación de datos de identidad.
+- Gizarte Segurantzaren Diruzaintza Orokorra -
+Gizarte Segurantzarekiko betebeharren ordainketa                             - Tesorería General de la Seguridad Social -
+egunean izatearen kontsulta                                                  Consulta de estar al corriente de pago de las
+                                                                             obligaciones con la Seguridad Social
+- Foru-ogasunak - Zerga-betebeharren ordainketa
+egunean izatearen kontsulta                                                  - Hacienda Foral: Consulta de estar al corriente de
+                                                                             pago de las obligaciones obligaciones tributarias.
+
+5.- Eskabideak aurkezteko epea                                               5.- Plazo de presentación de solicitudes
+
+Eskabideak aurkezteko epea 2026ko maiatzaren                                 El plazo de presentación de solicitudes será del 1
+1etik abuztuaren 31era izango da, biak barne.                                de mayo al 31 de agosto de 2026, ambos inclusive.
+
+6.- Eskabideak baloratzeko irizpideak.                                       6.- Criterios de valoración de las solicitudes.
+
+6.1.- Establezimendu komertzialen errotulaziorako                            6.1.- Para la rotulación y demás textos escritos
+eta     bestelako   euskarrien  gaineko   idatziak                           sobre    otros   soportes   (plantillas, soportes
+(txantilloiak, informazio orriak... ), eta web                               informativos…) en establecimientos comerciales y
+orrientzako, gehieneko zenbatekoak hauek izango                              para creación de páginas web, se establecen los
+dira:                                                                        siguientes importes máximos:
+
+Establezimenduaren errotulua/web orria euskaraz                              Si el rótulo/web del establecimiento está en
+badago, kostuaren % 50, eta gehienez ere 500,00                              euskera, hasta el 50 % del coste, hasta un máximo
+euro.                                                                        de 500,00 euros.
+
+
+
+
+                                                                                                                                  4
+   C.I.F. P-2007200-E Herriko Plaza z/g. Tfnoa: 943 449613 - Fax 943 449650  20100 ERRENTERIA (Gipuzkoa)  www.errenteria.net
+ ER RE NT ERIA KO UD AL A                                                        AYU NTA MIE NT O D E E RRE NT E RIA
+     Udal Hizkuntza Politika                                                           Política Lingüística Municipal
+
+
+
+
+Establezimenduaren errotulua/web orria ele-bietara                           Si el rótulo/web del establecimiento es bilingüe,
+badago, % 25, eta gehienez ere 250,00 euro.                                  hasta el 25 % del coste, hasta un máximo de
+                                                                             250,00 euros.
+
+Ez da diruz lagunduko web orriaren mantentze lanik.                          No se subvencionará el mantenimiento de la página
+                                                                             Web.
+
+6.2. Diruz lagunduko dira herritarrei zerbitzua                              6.2. Se subvencionarán las inversiones en
+euskaraz ematearren egiten diren inbertsioak, bai                            programas informáticos, nuevas tecnologías,
+informatika mailan baita aplikazio eta teknologia                            aplicaciones, etc. que ofrezcan un servicio en
+berrietan ere. Dirulaguntza kostuaren % 50 izango                            euskera a la ciudadanía hasta el 50% del coste,
+da, eta 500,00 euro gehienez ere.                                            hasta un máximo de 500,00 euros.
+
+6.3. .eus domeinua ezartzeari dagokionez, 2 urteko                           6.3. En caso de la incorporación al dominio .eus se
+kuota ordainduko da.                                                         bonificará la cuota de 2 años de permanencia.
+
+6.4. Enpresa barruan euskara ikusgarri egiteko                               6.4. A la empresa que realice una actuación de
+jarduera integralak aurrera eramaten dituen enpresa                          visibilización del euskera integral dentro de la
+bakoitzari egitasmoaren kostuaren % 25eko                                    empresa se le concederá una subvención del 25%
+dirulaguntza emango zaio, 2.000,00 euroko                                    del coste de dicho proyecto, con un importe
+mugarekin.                                                                   máximo de 2.000,00 €.
+
+7.- Dirulaguntza ordaintzea                                                  7.- Abono de la subvención
+
+Dirulaguntzaren     ordainketa  Udal     Hizkuntza                           El abono de la subvención se realizará una vez
+Politikako zinegotzi delegatuak dirulaguntzak                                aprobado el acuerdo definitivo de reparto de
+banatzeko behin betiko ebazpena hartu ondoren                                subvención por la concejala delegada de Política
+egingo da. Ordainketa, dirulaguntza hori lortzeko                            Lingüística Municipal, previa justificación del
+adierazi den xedea bete dela egiaztatu ondoren                               cumplimiento de la finalidad para la que se
+egingo da aldi bakar batean, eskabidean                                      concedió, y se realizará         en un único pago,
+adierazitako kontuan egingo den diru-sarrera bidez.                          mediante ingreso realizado en la cuenta indicada
+Eskaera guztiak aurkezteko epearen azken egunetik                            en la solicitud. Todas las solicitudes se resolverán a
+aurrera ebatziko dira.                                                       partir del último día del plazo de presentación.
+
+Ohar garrantzitsua: deialdi hau egin da                                      Nota importante: esta convocatoria deviene de las
+ERRENTERIAKO         UDALAK        2026      URTEAN                          BASES GENERALES PARA LA CONCESIÓN DE
+DIRULAGUNTZAK           EMATEA          ARAUTZEKO                            SUBVENCIONES          POR      PARTE        DEL
+OINARRI OROKORREI jarraiki. Hemen zehaztu                                    AYUNTAMIENTO DE ERRENTERIA DURANTE EL
+gabeko gai orotarako oinarri horietara jo beharko da.                        AÑO 2026. En todo lo no especificado aquí, debe
+                                                                             acudirse a aquellas.
+
+
+
+
+                                                                                                                                  5
+   C.I.F. P-2007200-E Herriko Plaza z/g. Tfnoa: 943 449613 - Fax 943 449650  20100 ERRENTERIA (Gipuzkoa)  www.errenteria.net
 

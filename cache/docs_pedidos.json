@@ -120,16 +120,16 @@
    "http://static.errenteria.eus/zerbikat/araudia/era6dlhpenpr_ele.pdf",
    "http://static.errenteria.eus/zerbikat/araudia/Oinarriorokorrak2026.pdf"
   ],
-  "fecha": "2026-11-19",
-  "estado": "pendiente",
+  "fecha": "2026-11-22",
+  "estado": "ok",
   "intentos": 2,
   "probadas": [
    {
-    "url": "https://uzt.gipuzkoa.eus/WAS/AYTO/USCServicioCiudadanoVer15WEB/home.do?ayto=067&hizkuntza=CA",
-    "motivo": "es de otra convocatoria"
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/932906",
+    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
    }
   ],
-  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1530836"
+  "url": "http://static.errenteria.eus/zerbikat/araudia/era6dlhpenpr_ele.pdf"
  },
  "bog-c2606989-htm": {
   "titulo": "Bases para la concesión de subvenciones a programas de actividades de Fiestas de San Pedro de Lasarte-Oria",
@@ -581,6 +581,15 @@
   "botha": [],
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933705"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933705",
+    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+   }
   ]
  },
  "bdns-932843": {
@@ -588,6 +597,19 @@
   "botha": [],
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/932843"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/932843",
+    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+   },
+   {
+    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/11/BOB-2026a220.pdf",
+    "motivo": "no es PDF (text/html, 46867 bytes)"
+   }
   ]
  },
  "bob-bob-2026a206-ii-5490-": {
@@ -595,6 +617,19 @@
   "botha": [],
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/932776"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/932776",
+    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+   },
+   {
+    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/10/BOB-2026a206.pdf",
+    "motivo": "no es PDF (text/html, 50879 bytes)"
+   }
   ]
  },
  "bdns-940185": {
@@ -603,6 +638,19 @@
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/940185",
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2018/10/09/II-4151_cas.pdf"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/940185",
+    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+   },
+   {
+    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2018/10/09/II-4151_cas.pdf",
+    "motivo": "no es PDF (text/html, 47171 bytes)"
+   }
   ]
  },
  "bob-bob-2026a198-ii-5281-": {
@@ -610,6 +658,19 @@
   "botha": [],
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933635"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/933635",
+    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+   },
+   {
+    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/10/BOB-2026a198.pdf",
+    "motivo": "no es PDF (text/html, 47975 bytes)"
+   }
   ]
  },
  "bob-bob-2026a189-ii-5118-": {
@@ -618,6 +679,27 @@
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/931991",
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/09/21/II-4856_cas.pdf"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/931991",
+    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+   },
+   {
+    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/09/21/II-4856_cas.pdf",
+    "motivo": "no es PDF (text/html, 46151 bytes)"
+   },
+   {
+    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/07/BOB-2026a129.pdf",
+    "motivo": "no es PDF (text/html, 48599 bytes)"
+   },
+   {
+    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/09/BOB-2026a180.pdf",
+    "motivo": "no es PDF (text/html, 45055 bytes)"
+   }
   ]
  }
 }
