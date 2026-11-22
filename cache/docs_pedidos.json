@@ -881,7 +881,10 @@
    "https://www.araba.eus/botha/Boletines/2026/039/2026_039_00897_C.pdf"
   ],
   "origen": "cuestión ara-realizacion-inversiones-sector-artesano-alaves-2026 (el enlace de la sede, 2026_039_00898, es de la Junta Administrativa de Arrieta)",
-  "fecha": "2026-11-22"
+  "fecha": "2026-11-22",
+  "estado": "ok",
+  "url": "https://www.araba.eus/botha/Boletines/2026/039/2026_039_00897_C.pdf",
+  "probadas": []
  },
  "ara-ayudas-apoyo-deporte-femenino-2026": {
   "titulo": "Orden Foral 60/2026, de 25 de marzo. Convocatoria de subvenciones para el fomento del deporte femenino del año 2026",
@@ -892,6 +895,9 @@
    "https://www.araba.eus/botha/Boletines/2026/040/2026_040_00908_C.pdf"
   ],
   "origen": "cuestión ara-ayudas-apoyo-deporte-femenino-2026",
-  "fecha": "2026-11-22"
+  "fecha": "2026-11-22",
+  "estado": "ok",
+  "url": "https://www.araba.eus/botha/Boletines/2026/040/2026_040_00908_C.pdf",
+  "probadas": []
  }
 }
