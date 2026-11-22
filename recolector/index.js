@@ -138,7 +138,10 @@ function finDelTexto(a) {
   for (const m of texto.matchAll(/plazo (?:de presentaci[oó]n de (?:las )?solicitudes|para (?:presentar|solicitar)|de solicitud)[^]{0,350}/gi)) trozos.push(m[0]);
   // «Las solicitudes podrán presentarse en el plazo de diez días hábiles, contados a partir del día siguiente al de
   // la publicación…» (decretos forales del BOTHA): el plazo va detrás de «solicitudes … presentarse»
-  for (const m of texto.matchAll(/solicitud(?:es)?\b[^.]{0,60}?\bpresentar(?:se|án)?\b[^.]{0,40}?\ben el plazo de[^]{0,300}/gi)) trozos.push(m[0]);
+  // También «Las solicitudes se deberán realizar a través de la sede electrónica, en el plazo de 20 días contados a
+  // partir del día siguiente a la fecha de la publicación…» (convocatorias municipales de Gipuzkoa cuya ficha de la BDNS
+  // solo dice «según las bases»; tarea bdns-plazo-segun-bases, 22/11)
+  for (const m of texto.matchAll(/solicitud(?:es)?\b[^.]{0,60}?\b(?:presentar(?:se|án)?|realizar(?:se|án)?|formular(?:se|án)?|cursar(?:se|án)?)\b[^.]{0,40}?\ben el plazo de[^]{0,300}/gi)) trozos.push(m[0]);
   const desde = a.publicacion || a.registrada || '';
   const vale = (f) => f && f >= desde && f.slice(0, 4) - desde.slice(0, 4) <= 1;
   const MES = '(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)';
@@ -751,6 +754,26 @@ async function main() {
     const t = quitaRepetidas(partes.filter(Boolean).join('\n\n').trim());
     if (t) { fuentes[a.id] = t; fs.writeFileSync(path.join(DIR_F, nombreF(a.id)), t); }
     delete a._texto; delete a._docs; delete a._ficha; delete a._urls; delete a._extractos;
+  }
+  // Cierre leído de la documentación recién descargada (tarea bdns-plazo-segun-bases, 22/11): finDelTexto solo veía
+  // el texto de la pasada anterior, así que una convocatoria de la BDNS sin fecha de fin («según las bases») cuya
+  // documentación se bajaba por primera vez (o con otro id) se publicaba como abierta aunque el plazo ya hubiera
+  // terminado (p. ej. bdns-931520, Ordizia: 20 días desde el BOG del 2/10/2026 → cerró el 2/11/2026). Se repite el
+  // cálculo con el texto de esta pasada y se quitan las que resultan cerradas.
+  {
+    const cerradas = [];
+    let conFin = 0;
+    ayudas = ayudas.filter((a) => {
+      if (a.fin || a.permanente || !fuentes[a.id]) return true;
+      finDelTexto(a);
+      if (!a.fin) return true;
+      conFin++;
+      a.estado = estado(a);
+      if (a.estado !== 'cerrada') return true;
+      cerradas.push(a.id); delete fuentes[a.id];
+      return false;
+    });
+    log(`Cierre leído de la documentación nueva: ${conFin} con fecha de fin, ${cerradas.length} cerradas y retiradas${cerradas.length ? ' · ' + cerradas.slice(0, 40).join(', ') : ''}`);
   }
   // Fuera los textos de ayudas que ya no existen
   const vivos = new Set(Object.keys(fuentes).map(nombreF));

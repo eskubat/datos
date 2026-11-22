@@ -970,7 +970,8 @@
   "seccion": "datos",
   "quien": "Claude",
   "prioridad": 20,
-  "estado": "pendiente",
-  "fecha": "2026-11-22"
+  "estado": "hecha",
+  "fecha": "2026-11-22",
+  "nota": "El cálculo del cierre a partir del texto (finDelTexto) ya leía bien «Las solicitudes se deberán realizar… en el plazo de 20 días… publicación» de Ordizia, pero solo con la documentación de la pasada anterior, y la de bdns-931520 se bajó de nuevo hoy, así que salió abierta. Ahora recolector/index.js repite el cálculo con la documentación recién descargada y retira las que resultan cerradas; también acepta «realizar/formular/cursar» además de «presentar». Con los textos de hoy se cierran 4 que salían abiertas sin fecha: bdns-931520 (fin 2026-11-02), bdns-931492, bdns-934718 y bdns-934689; no se esperan ayudas nuevas."
  }
 ]
