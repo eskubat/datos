@@ -118,7 +118,7 @@
  },
  {
   "id": "bdns-881062",
-  "h": "2f41733c81edbcfc",
+  "h": "7dc51e6ae729651b",
   "titulo": "Deportes",
   "organismoSugerido": "ayto-amorebieta-etxano",
   "organismoFuente": "Ayuntamiento de amorebieta-etxano",
@@ -127,7 +127,7 @@
  },
  {
   "id": "bdns-881055",
-  "h": "a0361cdcf8ea987a",
+  "h": "dada80a76f1dc73d",
   "titulo": "Fiestas",
   "organismoSugerido": "ayto-amorebieta-etxano",
   "organismoFuente": "Ayuntamiento de amorebieta-etxano",
@@ -315,6 +315,15 @@
   "caracteres": 300000
  },
  {
+  "id": "bdns-883989",
+  "h": "8cd00de5577d157d",
+  "titulo": "Bases específicas de subvenciones para la Emancipación de los jóvenes",
+  "organismoSugerido": "ayto-zumarraga",
+  "organismoFuente": "Ayuntamiento de zumarraga",
+  "archivo": "cache/fuentes/bdns-883989-7fee53f1.txt",
+  "caracteres": 55521
+ },
+ {
   "id": "bdns-881454",
   "h": "990ef1c63fe3faa1",
   "titulo": "Ayudas auzo-taxi",
@@ -334,7 +343,7 @@
  },
  {
   "id": "bdns-881317",
-  "h": "227fb6b62f4984a6",
+  "h": "c27b603a90fbd3da",
   "titulo": "Convocatoria y bases reguladoras de becas mensuales de formación a participantes en el servicio de intervención socioeducativa y psicosocial",
   "organismoSugerido": "ayto-donostia-san-sebastian",
   "organismoFuente": "Ayuntamiento de donostia/san sebastián",
@@ -592,15 +601,6 @@
   "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
   "archivo": "cache/fuentes/bdns-913552-9ac606f4.txt",
   "caracteres": 86404
- },
- {
-  "id": "bdns-895045",
-  "h": "037cb564acd456a5",
-  "titulo": "Ayudas económicas a situaciones de necesidad en el municipio",
-  "organismoSugerido": "ayto-amurrio",
-  "organismoFuente": "Ayuntamiento de amurrio",
-  "archivo": "cache/fuentes/bdns-895045-4f89cb24.txt",
-  "caracteres": 132132
  },
  {
   "id": "bdns-882027",

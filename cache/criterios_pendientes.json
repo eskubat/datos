@@ -2085,7 +2085,7 @@
  },
  {
   "id": "bdns-881055",
-  "h": "9b0d6ce7cc80955f",
+  "h": "2bad68096fad40da",
   "titulo": "Fiestas",
   "para": [
    "particular",
@@ -3252,8 +3252,8 @@
  },
  {
   "id": "bdns-883989",
-  "h": "db5976fec1f5146a",
-  "titulo": "Subvenciones para jóvenes que alquilan vivienda o se autoemplean",
+  "h": "e56d1ea2e50acd1a",
+  "titulo": "Bases específicas de subvenciones para la Emancipación de los jóvenes",
   "para": [
    "particular",
    "autonomo"
@@ -3315,7 +3315,7 @@
  },
  {
   "id": "bdns-881317",
-  "h": "48e99b5bd7c0e27f",
+  "h": "2150c602844a4db1",
   "titulo": "Convocatoria y bases reguladoras de becas mensuales de formación a participantes en el servicio de intervención socioeducativa y psicosocial",
   "para": [
    "particular"
@@ -5252,8 +5252,8 @@
  },
  {
   "id": "bdns-895045",
-  "h": "b712f31818dddfc9",
-  "titulo": "Ayudas económicas a situaciones de necesidad en el municipio",
+  "h": "62cee0ea31385dbd",
+  "titulo": "Ayudas municipales para personas y familias en situación de necesidad",
   "para": [
    "particular"
   ],
@@ -5638,6 +5638,20 @@
   "revisar": false
  },
  {
+  "id": "prest-gipuzkoa-peap",
+  "h": "d3a77d3658b32296",
+  "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "empleo",
+   "familia"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-peap-5825c94d.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-araba-pnc",
   "h": "89f930ea395d5a97",
   "titulo": "Pensión no contributiva de jubilación o invalidez para personas sin recursos",
@@ -5650,6 +5664,20 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-araba-pnc-6fc67e01.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-gipuzkoa-pnc",
+  "h": "bc3fff81ddb4a496",
+  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
   "revisar": false
  },
  {
