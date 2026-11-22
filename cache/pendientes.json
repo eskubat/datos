@@ -189,13 +189,22 @@
   "caracteres": 300000
  },
  {
-  "id": "ue-crea-media-2027-tvonline-1",
-  "h": "594ec78e4c088425",
-  "titulo": "TV and online content Animation projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
-  "caracteres": 6321
+  "id": "bdns-893232",
+  "h": "8d0f1a21d2937b09",
+  "titulo": "Convocatoria pública de las subvenciones del programa de auzo-taxi",
+  "organismoSugerido": "ayto-onati",
+  "organismoFuente": "Ayuntamiento de oñati",
+  "archivo": "cache/fuentes/bdns-893232-73532198.txt",
+  "caracteres": 291727
+ },
+ {
+  "id": "bdns-878248",
+  "h": "b26299dc30fef35f",
+  "titulo": "Subvenciones. : Subvenciones para la inversión digital de los comercios participantes en la plataforma OTT y/o de venta online irun. market",
+  "organismoSugerido": "ayto-irun",
+  "organismoFuente": "Ayuntamiento de irun",
+  "archivo": "cache/fuentes/bdns-878248-958ed039.txt",
+  "caracteres": 78927
  },
  {
   "id": "ue-crea-media-2027-tvonline-2",
@@ -214,6 +223,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
   "caracteres": 6320
+ },
+ {
+  "id": "ue-crea-media-2027-tvonline-1",
+  "h": "594ec78e4c088425",
+  "titulo": "TV and online content Animation projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
+  "caracteres": 6321
  },
  {
   "id": "ara-01362004",
@@ -430,6 +448,15 @@
   "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
   "archivo": "cache/fuentes/bdns-913552-9ac606f4.txt",
   "caracteres": 86404
+ },
+ {
+  "id": "bdns-878070",
+  "h": "4ac537fefc59f1b3",
+  "titulo": "Decreto del Alcalde 1232/25, de 18 de diciembre",
+  "organismoSugerido": "ayto-iurreta",
+  "organismoFuente": "Ayuntamiento de iurreta",
+  "archivo": "cache/fuentes/bdns-878070-57fc20e9.txt",
+  "caracteres": 21846
  },
  {
   "id": "botha-2026-131-03265-c-pdf",

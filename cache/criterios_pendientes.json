@@ -733,8 +733,8 @@
  },
  {
   "id": "bdns-890111",
-  "h": "1c993f0214306aac",
-  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la promoción de nuevas empresas",
+  "h": "87c75fb1e113ae9b",
+  "titulo": "Ayudas para crear o traspasar un negocio y alquilar el local",
   "para": [
    "autonomo",
    "empresa"
@@ -3013,10 +3013,11 @@
  },
  {
   "id": "bdns-893232",
-  "h": "051adcad968cf8e0",
-  "titulo": "Subvenciones auzo-taxi para desplazarse en taxi desde barrios rurales",
+  "h": "9634db419cf530d4",
+  "titulo": "Convocatoria pública de las subvenciones del programa de auzo-taxi",
   "para": [
-   "particular"
+   "autonomo",
+   "empresa"
   ],
   "temas": [],
   "archivo": "cache/fuentes/bdns-893232-73532198.txt",
@@ -5296,6 +5297,17 @@
   "revisar": false
  },
  {
+  "id": "bdns-878070",
+  "h": "34be2b8a744e6825",
+  "titulo": "Decreto del Alcalde 1232/25, de 18 de diciembre",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bdns-878070-57fc20e9.txt",
+  "revisar": false
+ },
+ {
   "id": "bog-c2607316-htm",
   "h": "5377f180fa7fe747",
   "titulo": "Ayudas para el transporte a tratamientos de adicciones",
@@ -5520,19 +5532,6 @@
   "revisar": false
  },
  {
-  "id": "prest-bizkaia-pnc-incapacidad",
-  "h": "ba1a61d381ec383f",
-  "titulo": "Pensión no contributiva de incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-bizkaia-pnc-incapacidad-55586f81.txt",
-  "revisar": false
- },
- {
   "id": "prest-bono-social-electrico",
   "h": "17d0c1c6d10433f4",
   "titulo": "Bono social para pagar menos en la factura de la luz",
@@ -5545,6 +5544,19 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-bono-social-electrico-a18ad288.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-bizkaia-pnc-incapacidad",
+  "h": "ba1a61d381ec383f",
+  "titulo": "Pensión no contributiva de incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-bizkaia-pnc-incapacidad-55586f81.txt",
   "revisar": false
  },
  {
@@ -5617,20 +5629,6 @@
   "revisar": false
  },
  {
-  "id": "prest-gipuzkoa-pnc",
-  "h": "bc3fff81ddb4a496",
-  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "familia",
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
-  "revisar": false
- },
- {
   "id": "prest-gipuzkoa-pnc-complemento-vivienda",
   "h": "aa241f0db858f98f",
   "titulo": "Ayudas para pagar el alquiler a pensionistas no contributivos",
@@ -5657,20 +5655,6 @@
   "revisar": false
  },
  {
-  "id": "prest-gipuzkoa-pnc",
-  "h": "bc3fff81ddb4a496",
-  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "familia",
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
-  "revisar": false
- },
- {
   "id": "prest-gipuzkoa-pevs",
   "h": "dece049115be9491",
   "titulo": "Prestación para pagar una residencia o centro de día privado a personas dependientes",
@@ -5681,19 +5665,6 @@
    "familia"
   ],
   "archivo": "cache/fuentes/prest-gipuzkoa-pevs-4f9aa203.txt",
-  "revisar": false
- },
- {
-  "id": "prest-gipuzkoa-pece",
-  "h": "8c8ebab370c29e63",
-  "titulo": "Prestación para cuidar en casa a una persona dependiente",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "familia"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-pece-cedb76bd.txt",
   "revisar": false
  },
  {
@@ -5726,6 +5697,20 @@
   "revisar": false
  },
  {
+  "id": "prest-gipuzkoa-pnc",
+  "h": "bc3fff81ddb4a496",
+  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-araba-pecef",
   "h": "d1882d94b3e5c137",
   "titulo": "Ayuda para cuidar en familia a una persona en situación de dependencia",
@@ -5754,6 +5739,17 @@
   "revisar": false
  },
  {
+  "id": "prest-araba-pevs",
+  "h": "47b578c0f318894c",
+  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-bizkaia-lismi-movilidad",
   "h": "f9fcbdd7c3c5db41",
   "titulo": "Ayudas para gastos de transporte de personas con discapacidad",
@@ -5764,17 +5760,6 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-bizkaia-lismi-movilidad-e5897cf6.txt",
-  "revisar": false
- },
- {
-  "id": "prest-araba-pevs",
-  "h": "47b578c0f318894c",
-  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
-  "para": [
-   "particular"
-  ],
-  "temas": [],
-  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
   "revisar": false
  },
  {
