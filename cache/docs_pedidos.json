@@ -508,6 +508,19 @@
   "urls": [
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2022/08/30/II-3854_cas.pdf",
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/904761"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/904761",
+    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+   },
+   {
+    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2022/08/30/II-3854_cas.pdf",
+    "motivo": "no es PDF (text/html, 45818 bytes)"
+   }
   ]
  },
  "bdns-904617": {
@@ -516,6 +529,19 @@
   "urls": [
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2022/08/30/II-3855_cas.pdf",
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/904617"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/904617",
+    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+   },
+   {
+    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2022/08/30/II-3855_cas.pdf",
+    "motivo": "no es PDF (text/html, 49214 bytes)"
+   }
   ]
  },
  "bdns-938065": {
@@ -523,6 +549,19 @@
   "botha": [],
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/938065"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/938065",
+    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
+   },
+   {
+    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/11/BOB-2026a212.pdf",
+    "motivo": "no es PDF (text/html, 49214 bytes)"
+   }
   ]
  }
 }
