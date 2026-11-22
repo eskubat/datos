@@ -27,6 +27,24 @@
   "caracteres": 4021
  },
  {
+  "id": "bdns-895774",
+  "h": "f8fb4b9dcdd3853d",
+  "titulo": "Subvenciones para actos y eventos culturales, deportivos o dirigidos a la igualdad de género o a la conciliación corresponsable o a la inclusión",
+  "organismoSugerido": "ayto-beasain",
+  "organismoFuente": "Ayuntamiento de beasain",
+  "archivo": "cache/fuentes/bdns-895774-884e0630.txt",
+  "caracteres": 69421
+ },
+ {
+  "id": "bdns-896479",
+  "h": "1db2813433182e34",
+  "titulo": "Bases para la concesión de subvenciones para subvencionar los gastos de matriculación en cursos de euskera",
+  "organismoSugerido": "ayto-eskoriatza",
+  "organismoFuente": "Ayuntamiento de eskoriatza",
+  "archivo": "cache/fuentes/bdns-896479-d1ca32e6.txt",
+  "caracteres": 79403
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-partz-weblan00-content-es",
   "h": "26e279a1f12f5c42",
   "titulo": "Subvenciones destinadas a incentivar la conversión de contratos indefinidos a tiempo parcial en contratos indefinidos a tiempo completo",
@@ -45,6 +63,60 @@
   "caracteres": 38537
  },
  {
+  "id": "bdns-890639",
+  "h": "78e3c3ab86a70b68",
+  "titulo": "Ayudas económicas para actuaciones de mejora energética en edificios y viviendas en el término municipal",
+  "organismoSugerido": "ayto-beasain",
+  "organismoFuente": "Ayuntamiento de beasain",
+  "archivo": "cache/fuentes/bdns-890639-af66b343.txt",
+  "caracteres": 40340
+ },
+ {
+  "id": "bdns-890633",
+  "h": "5b6a0aea999a0d67",
+  "titulo": "Bases para fomentar el euso del euskera en rotulaciones",
+  "organismoSugerido": "ayto-beasain",
+  "organismoFuente": "Ayuntamiento de beasain",
+  "archivo": "cache/fuentes/bdns-890633-5ce754ff.txt",
+  "caracteres": 35962
+ },
+ {
+  "id": "bdns-890629",
+  "h": "95e9aff31be4e479",
+  "titulo": "Bases para la concesión de ayudas para revitalizar el sector comercial",
+  "organismoSugerido": "ayto-beasain",
+  "organismoFuente": "Ayuntamiento de beasain",
+  "archivo": "cache/fuentes/bdns-890629-56040c7b.txt",
+  "caracteres": 41132
+ },
+ {
+  "id": "bdns-890216",
+  "h": "fc33029c91e8c95a",
+  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la contratación de personas provenientes de procesos de inserción socio-laboral",
+  "organismoSugerido": "ayto-onati",
+  "organismoFuente": "Ayuntamiento de oñati",
+  "archivo": "cache/fuentes/bdns-890216-da0728e4.txt",
+  "caracteres": 250811
+ },
+ {
+  "id": "bdns-890165",
+  "h": "6b3ec94d4760f1b8",
+  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la contratación de personas desempleadas",
+  "organismoSugerido": "ayto-onati",
+  "organismoFuente": "Ayuntamiento de oñati",
+  "archivo": "cache/fuentes/bdns-890165-eb8748cc.txt",
+  "caracteres": 257834
+ },
+ {
+  "id": "bdns-890111",
+  "h": "952e3e00afdcd4e5",
+  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la promoción de nuevas empresas",
+  "organismoSugerido": "ayto-onati",
+  "organismoFuente": "Ayuntamiento de oñati",
+  "archivo": "cache/fuentes/bdns-890111-55bde52b.txt",
+  "caracteres": 222923
+ },
+ {
   "id": "bob-bob-2026a215-ii-5802-",
   "h": "ed43e2ba0faec9be",
   "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -52,6 +124,15 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a215-ii-5802--1dac77fc.txt",
   "caracteres": 5593
+ },
+ {
+  "id": "bdns-895708",
+  "h": "8a368e87fddd84dd",
+  "titulo": "Subvenciones al alquiler para la recuperación de locales comerciales",
+  "organismoSugerido": "ayto-azkoitia",
+  "organismoFuente": "Ayuntamiento de azkoitia",
+  "archivo": "cache/fuentes/bdns-895708-d76f7a65.txt",
+  "caracteres": 79873
  },
  {
   "id": "ue-horizon-eic-2026-prize-wip",
@@ -88,6 +169,42 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
   "caracteres": 5840
+ },
+ {
+  "id": "bdns-890627",
+  "h": "2c3295229b6ceee7",
+  "titulo": "Bases reguladoras para la concesión de subvenciones a beasaindarras",
+  "organismoSugerido": "ayto-beasain",
+  "organismoFuente": "Ayuntamiento de beasain",
+  "archivo": "cache/fuentes/bdns-890627-ce3b31bc.txt",
+  "caracteres": 43402
+ },
+ {
+  "id": "bdns-890271",
+  "h": "29ff82aae72e2deb",
+  "titulo": "Bases específicas para Ayudas económicas destinadas a atender las necesidades derivadas de la salud",
+  "organismoSugerido": "ayto-astigarraga",
+  "organismoFuente": "Ayuntamiento de astigarraga",
+  "archivo": "cache/fuentes/bdns-890271-10af014a.txt",
+  "caracteres": 39905
+ },
+ {
+  "id": "bdns-887711",
+  "h": "e96bc739af453e3b",
+  "titulo": "Criterios de Emergencia Social (AES) y cuantías por conceptos",
+  "organismoSugerido": "ayto-donostia-san-sebastian",
+  "organismoFuente": "Ayuntamiento de donostia/san sebastián",
+  "archivo": "cache/fuentes/bdns-887711-4258dacc.txt",
+  "caracteres": 132214
+ },
+ {
+  "id": "bdns-889154",
+  "h": "df0035443c0824ef",
+  "titulo": "Convocatoria del servicio de alojamiento de personas mayores en sistuación de dependencia grado i",
+  "organismoSugerido": "ayto-amorebieta-etxano",
+  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
+  "archivo": "cache/fuentes/bdns-889154-2e875905.txt",
+  "caracteres": 39678
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -160,6 +277,15 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ays-monte-plafor-615f0fe0.txt",
   "caracteres": 1778
+ },
+ {
+  "id": "bdns-929714",
+  "h": "350945b2c14700ab",
+  "titulo": "Subvenciones a asociaciones para organizar colonias y campamentos de verano",
+  "organismoSugerido": "ayto-barakaldo",
+  "organismoFuente": "Ayuntamiento de barakaldo",
+  "archivo": "cache/fuentes/bdns-929714-71f80b33.txt",
+  "caracteres": 214972
  },
  {
   "id": "bdns-901867",
@@ -349,6 +475,96 @@
   "organismoFuente": "Ayuntamiento de hernani",
   "archivo": "cache/fuentes/bdns-891115-fbb05822.txt",
   "caracteres": 115315
+ },
+ {
+  "id": "bdns-890382",
+  "h": "cc597419521db691",
+  "titulo": "Subvenciones para los rótulos en euskara o en euskara y castellano en establecimientos comerciales",
+  "organismoSugerido": "ayto-donostia-san-sebastian",
+  "organismoFuente": "Ayuntamiento de donostia/san sebastián",
+  "archivo": "cache/fuentes/bdns-890382-cacbeda2.txt",
+  "caracteres": 63653
+ },
+ {
+  "id": "bdns-890370",
+  "h": "626cf17ec254239e",
+  "titulo": "Subvenciones para realizar actividades que tengan como objetivo la normalización del euskera",
+  "organismoSugerido": "ayto-donostia-san-sebastian",
+  "organismoFuente": "Ayuntamiento de donostia/san sebastián",
+  "archivo": "cache/fuentes/bdns-890370-59226476.txt",
+  "caracteres": 69294
+ },
+ {
+  "id": "bdns-890270",
+  "h": "de216d6e6a4e02eb",
+  "titulo": "Bases específicas de las ayudas en materia social",
+  "organismoSugerido": "ayto-astigarraga",
+  "organismoFuente": "Ayuntamiento de astigarraga",
+  "archivo": "cache/fuentes/bdns-890270-0c1931b9.txt",
+  "caracteres": 39565
+ },
+ {
+  "id": "bdns-890242",
+  "h": "22981b67b22e0256",
+  "titulo": "Subvenciones del Área de Euskara correspondientes",
+  "organismoSugerido": "ayto-lezo",
+  "organismoFuente": "Ayuntamiento de lezo",
+  "archivo": "cache/fuentes/bdns-890242-15cd9a48.txt",
+  "caracteres": 145271
+ },
+ {
+  "id": "bdns-890221",
+  "h": "84d13c9c9ec70112",
+  "titulo": "Subvenciones del Área de Euskara correspondientes",
+  "organismoSugerido": "ayto-lezo",
+  "organismoFuente": "Ayuntamiento de lezo",
+  "archivo": "cache/fuentes/bdns-890221-233e035a.txt",
+  "caracteres": 144899
+ },
+ {
+  "id": "bdns-890177",
+  "h": "79532748f9ddf55c",
+  "titulo": "Subvenciones del Área de Euskara correspondientes",
+  "organismoSugerido": "ayto-lezo",
+  "organismoFuente": "Ayuntamiento de lezo",
+  "archivo": "cache/fuentes/bdns-890177-bb40c20e.txt",
+  "caracteres": 144904
+ },
+ {
+  "id": "bdns-889972",
+  "h": "3d6dee4bd65d6954",
+  "titulo": "Subvenciones del Área de Euskara correspondientes",
+  "organismoSugerido": "ayto-lezo",
+  "organismoFuente": "Ayuntamiento de lezo",
+  "archivo": "cache/fuentes/bdns-889972-8800b0a2.txt",
+  "caracteres": 145090
+ },
+ {
+  "id": "bdns-889920",
+  "h": "e157cea2b0e35465",
+  "titulo": "Subvenciones del Área de Euskara correspondientes",
+  "organismoSugerido": "ayto-lezo",
+  "organismoFuente": "Ayuntamiento de lezo",
+  "archivo": "cache/fuentes/bdns-889920-bd903def.txt",
+  "caracteres": 145354
+ },
+ {
+  "id": "bdns-889856",
+  "h": "02543fea249114ea",
+  "titulo": "Subvenciones del Área de Euskara correspondientes",
+  "organismoSugerido": "ayto-lezo",
+  "organismoFuente": "Ayuntamiento de lezo",
+  "archivo": "cache/fuentes/bdns-889856-9f045ab4.txt",
+  "caracteres": 145016
+ },
+ {
+  "id": "bdns-889615",
+  "h": "3b3241f8a365c876",
+  "titulo": "Subvenciones para apoyo a proyectos culturales y eventos y festivales consolidados",
+  "organismoSugerido": "ayto-vitoria-gasteiz",
+  "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
+  "archivo": "cache/fuentes/bdns-889615-f25da2dc.txt",
+  "caracteres": 163869
  },
  {
   "id": "bdns-921964",
