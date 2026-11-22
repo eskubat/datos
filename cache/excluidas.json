@@ -693,5 +693,15 @@
   "parecidaA": "bdns-897355",
   "motivo": "Comunicación previa de la próxima convocatoria del mismo programa que bdns-897355 (convocatoria 2025).",
   "fecha": "2026-11-22"
+ },
+ "bdns-885396": {
+  "parecidaA": "bdns-910085",
+  "motivo": "Ayudas sociales no periódicas de Arrasate/Mondragón 2026: 885396 es la 1.ª convocatoria y 910085 la 2.ª, con las mismas bases, solicitantes y plazo hasta el 1/12/2026; las dos llegan por la BDNS.",
+  "fecha": "2026-11-22"
+ },
+ "bdns-910085": {
+  "parecidaA": "bdns-885396",
+  "motivo": "Ayudas sociales no periódicas de Arrasate/Mondragón 2026: 885396 es la 1.ª convocatoria y 910085 la 2.ª, con las mismas bases, solicitantes y plazo hasta el 1/12/2026; las dos llegan por la BDNS.",
+  "fecha": "2026-11-22"
  }
 }

@@ -340,7 +340,8 @@
   "https://ejercito.defensa.gob.es/premios-ejercito/2027/convocatoria-2027.pdf",
   "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1504185",
   "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1501322",
-  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1501319"
+  "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1501319",
+  "https://www.boe.es/boe/dias/2018/04/05/pdfs/BOE-A-2018-4660.pdf"
  ],
  "ara-ayudas-a-asociaciones-y-fundaciones-para-contribuir-a-la-reh": [
   "https://www.araba.eus/botha/Boletines/2025/047/2025_047_01218_C.pdf"
@@ -742,7 +743,8 @@
   "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1436391"
  ],
  "eus-ayuda-subvencion-2026-pi2026-c-weblan00-content-es": [
-  "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cd2026004546"
+  "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cd2026004546",
+  "https://www.euskadi.eus/bopv2/datos/2026/10/2604546a.pdf"
  ],
  "bdns-943626": [
   "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1560038"
@@ -795,5 +797,11 @@
  ],
  "bdns-890216": [
   "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2026/03/23/c2601409.pdf"
+ ],
+ "bdns-890382": [
+  "https://www.donostia.eus/documents/d/asset-library-100431/errotuluak_euskaraz_jartzeko_dirulaguntzen_oinarriak_bases_reguladoras_para_la_subvenciones_para_poner_los_rotulos_en_euskera"
+ ],
+ "bdns-890370": [
+  "https://www.donostia.eus/documents/d/asset-library-508439/euskararen-normalizazioa-dirulaguntza-subvenciones-normalizacion-euskera"
  ]
 }

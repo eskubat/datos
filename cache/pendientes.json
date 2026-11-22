@@ -36,24 +36,6 @@
   "caracteres": 300000
  },
  {
-  "id": "bdns-918655",
-  "h": "fd42889f5ad1f0dd",
-  "titulo": "Viii campaña reparto bonos para reforzar el canal de venta de proximidad",
-  "organismoSugerido": "ayto-errenteria",
-  "organismoFuente": "Ayuntamiento de errenteria",
-  "archivo": "cache/fuentes/bdns-918655-c5a1a785.txt",
-  "caracteres": 128955
- },
- {
-  "id": "bdns-890216",
-  "h": "0906c6d050721032",
-  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la contratación de personas provenientes de procesos de inserción socio-laboral",
-  "organismoSugerido": "ayto-onati",
-  "organismoFuente": "Ayuntamiento de oñati",
-  "archivo": "cache/fuentes/bdns-890216-da0728e4.txt",
-  "caracteres": 250824
- },
- {
   "id": "bdns-890165",
   "h": "6b3ec94d4760f1b8",
   "titulo": "Bases reguladoras y convocatoria de las subvenciones para la contratación de personas desempleadas",
@@ -63,15 +45,6 @@
   "caracteres": 257834
  },
  {
-  "id": "bdns-890111",
-  "h": "77ce215960425761",
-  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la promoción de nuevas empresas",
-  "organismoSugerido": "ayto-onati",
-  "organismoFuente": "Ayuntamiento de oñati",
-  "archivo": "cache/fuentes/bdns-890111-55bde52b.txt",
-  "caracteres": 222923
- },
- {
   "id": "bob-bob-2026a215-ii-5802-",
   "h": "ed43e2ba0faec9be",
   "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -79,15 +52,6 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a215-ii-5802--1dac77fc.txt",
   "caracteres": 5593
- },
- {
-  "id": "bdns-885466",
-  "h": "44ab185d02d1c585",
-  "titulo": "Ayudas a particulares y familias para paliar situaciones de extrema necesidad y/o exclusión social",
-  "organismoSugerido": "ayto-getaria",
-  "organismoFuente": "Ayuntamiento de getaria",
-  "archivo": "cache/fuentes/bdns-885466-55a03557.txt",
-  "caracteres": 291588
  },
  {
   "id": "bdns-885396",
@@ -133,24 +97,6 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
   "caracteres": 5840
- },
- {
-  "id": "bdns-886687",
-  "h": "488b9fb26bf2e875",
-  "titulo": "Convocatoria para la concesión de ayudas dirigidas a promover la generación de empleo en el municipio",
-  "organismoSugerido": "ayto-amorebieta-etxano",
-  "organismoFuente": "Ayuntamiento de amorebieta-etxano",
-  "archivo": "cache/fuentes/bdns-886687-7df0ea90.txt",
-  "caracteres": 32904
- },
- {
-  "id": "bdns-893217",
-  "h": "e554be4035614b34",
-  "titulo": "Subvenciones para celebración de fiestas patronales en el municipio",
-  "organismoSugerido": "ayto-zigoitia",
-  "organismoFuente": "Ayuntamiento de zigoitia",
-  "archivo": "cache/fuentes/bdns-893217-1d10e265.txt",
-  "caracteres": 25116
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -243,159 +189,6 @@
   "caracteres": 300000
  },
  {
-  "id": "bdns-895646",
-  "h": "548b2f9f72c9c6a4",
-  "titulo": "Subvenciones a conceder a los Concejos",
-  "organismoSugerido": "ayto-lantaron",
-  "organismoFuente": "Ayuntamiento de lantarón",
-  "archivo": "cache/fuentes/bdns-895646-7fad87ff.txt",
-  "caracteres": 7319
- },
- {
-  "id": "bdns-894356",
-  "h": "c39d23cca565521e",
-  "titulo": "Subvenciones para el fomento de las explotaciones agropecuarias del municipio",
-  "organismoSugerido": "ayto-barrundia",
-  "organismoFuente": "Ayuntamiento de barrundia",
-  "archivo": "cache/fuentes/bdns-894356-7bcac14a.txt",
-  "caracteres": 33946
- },
- {
-  "id": "bdns-893428",
-  "h": "46402fea20e95ffb",
-  "titulo": "Subvenciones obras rehabilitación de viviendas",
-  "organismoSugerido": "ayto-barrundia",
-  "organismoFuente": "Ayuntamiento de barrundia",
-  "archivo": "cache/fuentes/bdns-893428-d9bb8f6f.txt",
-  "caracteres": 33822
- },
- {
-  "id": "bdns-893232",
-  "h": "a5af04233c157676",
-  "titulo": "Convocatoria pública de las subvenciones del programa de auzo-taxi",
-  "organismoSugerido": "ayto-onati",
-  "organismoFuente": "Ayuntamiento de oñati",
-  "archivo": "cache/fuentes/bdns-893232-73532198.txt",
-  "caracteres": 288945
- },
- {
-  "id": "bdns-891115",
-  "h": "e44269040b0acd66",
-  "titulo": "Convocatoria de ayudas económicas individualizadas destinadas a prevenir",
-  "organismoSugerido": "ayto-hernani",
-  "organismoFuente": "Ayuntamiento de hernani",
-  "archivo": "cache/fuentes/bdns-891115-fbb05822.txt",
-  "caracteres": 115315
- },
- {
-  "id": "bdns-890382",
-  "h": "cc597419521db691",
-  "titulo": "Subvenciones para los rótulos en euskara o en euskara y castellano en establecimientos comerciales",
-  "organismoSugerido": "ayto-donostia-san-sebastian",
-  "organismoFuente": "Ayuntamiento de donostia/san sebastián",
-  "archivo": "cache/fuentes/bdns-890382-cacbeda2.txt",
-  "caracteres": 63653
- },
- {
-  "id": "bdns-890370",
-  "h": "626cf17ec254239e",
-  "titulo": "Subvenciones para realizar actividades que tengan como objetivo la normalización del euskera",
-  "organismoSugerido": "ayto-donostia-san-sebastian",
-  "organismoFuente": "Ayuntamiento de donostia/san sebastián",
-  "archivo": "cache/fuentes/bdns-890370-59226476.txt",
-  "caracteres": 69294
- },
- {
-  "id": "bdns-890270",
-  "h": "de216d6e6a4e02eb",
-  "titulo": "Bases específicas de las ayudas en materia social",
-  "organismoSugerido": "ayto-astigarraga",
-  "organismoFuente": "Ayuntamiento de astigarraga",
-  "archivo": "cache/fuentes/bdns-890270-0c1931b9.txt",
-  "caracteres": 39565
- },
- {
-  "id": "bdns-890242",
-  "h": "22981b67b22e0256",
-  "titulo": "Subvenciones del Área de Euskara correspondientes",
-  "organismoSugerido": "ayto-lezo",
-  "organismoFuente": "Ayuntamiento de lezo",
-  "archivo": "cache/fuentes/bdns-890242-15cd9a48.txt",
-  "caracteres": 145271
- },
- {
-  "id": "bdns-890221",
-  "h": "84d13c9c9ec70112",
-  "titulo": "Subvenciones del Área de Euskara correspondientes",
-  "organismoSugerido": "ayto-lezo",
-  "organismoFuente": "Ayuntamiento de lezo",
-  "archivo": "cache/fuentes/bdns-890221-233e035a.txt",
-  "caracteres": 144899
- },
- {
-  "id": "bdns-890177",
-  "h": "79532748f9ddf55c",
-  "titulo": "Subvenciones del Área de Euskara correspondientes",
-  "organismoSugerido": "ayto-lezo",
-  "organismoFuente": "Ayuntamiento de lezo",
-  "archivo": "cache/fuentes/bdns-890177-bb40c20e.txt",
-  "caracteres": 144904
- },
- {
-  "id": "bdns-889972",
-  "h": "3d6dee4bd65d6954",
-  "titulo": "Subvenciones del Área de Euskara correspondientes",
-  "organismoSugerido": "ayto-lezo",
-  "organismoFuente": "Ayuntamiento de lezo",
-  "archivo": "cache/fuentes/bdns-889972-8800b0a2.txt",
-  "caracteres": 145090
- },
- {
-  "id": "bdns-889920",
-  "h": "e157cea2b0e35465",
-  "titulo": "Subvenciones del Área de Euskara correspondientes",
-  "organismoSugerido": "ayto-lezo",
-  "organismoFuente": "Ayuntamiento de lezo",
-  "archivo": "cache/fuentes/bdns-889920-bd903def.txt",
-  "caracteres": 145354
- },
- {
-  "id": "bdns-889856",
-  "h": "02543fea249114ea",
-  "titulo": "Subvenciones del Área de Euskara correspondientes",
-  "organismoSugerido": "ayto-lezo",
-  "organismoFuente": "Ayuntamiento de lezo",
-  "archivo": "cache/fuentes/bdns-889856-9f045ab4.txt",
-  "caracteres": 145016
- },
- {
-  "id": "bdns-889615",
-  "h": "3b3241f8a365c876",
-  "titulo": "Subvenciones para apoyo a proyectos culturales y eventos y festivales consolidados",
-  "organismoSugerido": "ayto-vitoria-gasteiz",
-  "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
-  "archivo": "cache/fuentes/bdns-889615-f25da2dc.txt",
-  "caracteres": 163869
- },
- {
-  "id": "bdns-884762",
-  "h": "d5749fa3ef2e884d",
-  "titulo": "Programa municipal de ayudas de sostenimiento",
-  "organismoSugerido": "ayto-laudio-llodio",
-  "organismoFuente": "Ayuntamiento de laudio/llodio",
-  "archivo": "cache/fuentes/bdns-884762-191176e2.txt",
-  "caracteres": 213163
- },
- {
-  "id": "bdns-921964",
-  "h": "11d614fd706d042f",
-  "titulo": "Premios Ejército",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Ejército de tierra",
-  "archivo": "cache/fuentes/bdns-921964-7dd71bd1.txt",
-  "caracteres": 32597
- },
- {
   "id": "ue-crea-media-2027-tvonline-1",
   "h": "594ec78e4c088425",
   "titulo": "TV and online content Animation projects",
@@ -423,33 +216,6 @@
   "caracteres": 6320
  },
  {
-  "id": "bdns-936041",
-  "h": "6b1570b99ae89110",
-  "titulo": "10ª edición del Concurso Infantil de Relatos ‘Txiki Baskardo’",
-  "organismoSugerido": "ayto-getxo",
-  "organismoFuente": "Ayuntamiento de getxo",
-  "archivo": "cache/fuentes/bdns-936041-28515870.txt",
-  "caracteres": 266030
- },
- {
-  "id": "bdns-936011",
-  "h": "a9acaf359cf74a43",
-  "titulo": "Convocatoria de la 10ª edición del Concurso de Novela Corta Ramiro Pinilla",
-  "organismoSugerido": "ayto-getxo",
-  "organismoFuente": "Ayuntamiento de getxo",
-  "archivo": "cache/fuentes/bdns-936011-f75e9b72.txt",
-  "caracteres": 272437
- },
- {
-  "id": "bdns-940351",
-  "h": "59a9c93b6f4aeda9",
-  "titulo": "Subvenciones forales destinadas a la organización de competiciones deportivas federadas en el THB",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación foral de Bizkaia",
-  "archivo": "cache/fuentes/bdns-940351-70cfadcb.txt",
-  "caracteres": 210648
- },
- {
   "id": "ara-01362004",
   "h": "a2f6dd95e1dcce18",
   "titulo": "Ayuda para el fomento y puesta en valor del terroir rioja alavesa. fomento del terroir A traves de la viticultura. . medidas 1,3 y 4",
@@ -466,15 +232,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-filmdist-9cdefc48.txt",
   "caracteres": 3631
- },
- {
-  "id": "bdns-941955",
-  "h": "68aefbba9756f50e",
-  "titulo": "Ayudas a la producción de cortometrajes realizados",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Instituto de la cinematografía y de las artes audiovisuales",
-  "archivo": "cache/fuentes/bdns-941955-a66b2e9c.txt",
-  "caracteres": 300000
  },
  {
   "id": "ara-01362003",
@@ -502,15 +259,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-cs-resist-ii-product-innovation-open-call-385d00a0.txt",
   "caracteres": 4876
- },
- {
-  "id": "eus-ayuda-subvencion-2026-pi2026-c-weblan00-content-es",
-  "h": "6a97eb7ab248a159",
-  "titulo": "Ayudas para el desarrollo de proyectos integrales de empleo, formación e inserción laboral",
-  "organismoSugerido": "lanbide",
-  "organismoFuente": "Lanbide - Servicio Público Vasco de Empleo",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-pi2026-c-weblan00-content-es-051f0233.txt",
-  "caracteres": 300000
  },
  {
   "id": "bdns-942548",
@@ -664,24 +412,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-extraordinarias-y-temporales-para-el-transporte-p-444e21a1.txt",
   "caracteres": 42502
- },
- {
-  "id": "bdns-942099",
-  "h": "e94451fa5fb11b9b",
-  "titulo": "Convocatoria de subvenciones a entidades colaboradoras de los servicios sociales municipales",
-  "organismoSugerido": "ayto-portugalete",
-  "organismoFuente": "Ayuntamiento de portugalete",
-  "archivo": "cache/fuentes/bdns-942099-aa8a2bbd.txt",
-  "caracteres": 300000
- },
- {
-  "id": "bdns-942070",
-  "h": "eaaaf8ee67238fea",
-  "titulo": "Convocatoria de ayudas económicas a vecinas y vecinos que constituyan una familia numerosa",
-  "organismoSugerido": "ayto-portugalete",
-  "organismoFuente": "Ayuntamiento de portugalete",
-  "archivo": "cache/fuentes/bdns-942070-e985e690.txt",
-  "caracteres": 258311
  },
  {
   "id": "bdns-942048",
