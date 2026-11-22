@@ -18,6 +18,15 @@
   "caracteres": 4021
  },
  {
+  "id": "bdns-875052",
+  "h": "29df2cd294e6411a",
+  "titulo": "Subvención a jóvenes para acceder a consultas de atención psicológica a través del “psikobono durango”",
+  "organismoSugerido": "ayto-durango",
+  "organismoFuente": "Ayuntamiento de durango",
+  "archivo": "cache/fuentes/bdns-875052-a45c166c.txt",
+  "caracteres": 53561
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias-y-forestales-2026",
   "h": "91adb78e4800f435",
   "titulo": "Ayudas a las agrupaciones de personas productoras agrarias y forestales incluidas en el pepac",
@@ -43,6 +52,15 @@
   "organismoFuente": "Ayuntamiento de oñati",
   "archivo": "cache/fuentes/bdns-890165-eb8748cc.txt",
   "caracteres": 257834
+ },
+ {
+  "id": "bdns-890111",
+  "h": "f874fba1d03a47e1",
+  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la promoción de nuevas empresas",
+  "organismoSugerido": "ayto-onati",
+  "organismoFuente": "Ayuntamiento de oñati",
+  "archivo": "cache/fuentes/bdns-890111-55bde52b.txt",
+  "caracteres": 222923
  },
  {
   "id": "bob-bob-2026a215-ii-5802-",
@@ -178,6 +196,15 @@
   "organismoFuente": "Departamento de alimentación, desarrollo rural, agricultura y pesca",
   "archivo": "cache/fuentes/bdns-897355-04ebc981.txt",
   "caracteres": 300000
+ },
+ {
+  "id": "bdns-875709",
+  "h": "14d02bfc6bf81bbb",
+  "titulo": "Convocatoria para la concesion de subvenciones para el uso del servicio auzotaxi",
+  "organismoSugerido": "ayto-mungia",
+  "organismoFuente": "Ayuntamiento de mungia",
+  "archivo": "cache/fuentes/bdns-875709-2761b705.txt",
+  "caracteres": 41413
  },
  {
   "id": "ue-crea-media-2027-tvonline-2",
@@ -421,6 +448,15 @@
   "organismoFuente": "Ayuntamiento de vitoria-gasteiz",
   "archivo": "cache/fuentes/bdns-913552-9ac606f4.txt",
   "caracteres": 86404
+ },
+ {
+  "id": "bdns-875077",
+  "h": "3340fc5b64c4e21b",
+  "titulo": "Subvención para el uso del servicio de taxi lagun",
+  "organismoSugerido": "ayto-durango",
+  "organismoFuente": "Ayuntamiento de durango",
+  "archivo": "cache/fuentes/bdns-875077-d3ad273e.txt",
+  "caracteres": 40777
  },
  {
   "id": "botha-2026-131-03265-c-pdf",
