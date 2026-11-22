@@ -721,11 +721,9 @@
   "motivo": "Subvención directa, extraordinaria o nominativa ya concedida a una entidad concreta (lote de 18 de Errenteria, Azpeitia, Galdakao, Barakaldo y Larrabetzu): nadie más puede pedirla. Decisión del responsable, 18/11/2026."
  },
  "bob-bob-2026a199-ii-5301-": {
-  "ocultarHastaFicha": true,
-  "huellaFicha": "235b616e4626186e",
-  "motivo": "El anuncio del BOB-2026a199 (II-5301, 16/10/2026) fija el 29/10/2026 como plazo máximo de solicitud. Tarea de resúmenes, 22/11/2026.",
   "estado": "cerrada",
-  "fin": "2026-10-29"
+  "fin": "2026-10-29",
+  "motivo": "Anuncio del BOB de 16/10/2026 (II-5301): solicitudes hasta el 29/10/2026. Tarea de resúmenes, 22/11/2026."
  },
  "bog-c2606587-htm": {
   "ocultarHastaFicha": true,
@@ -933,10 +931,22 @@
  },
  "bdns-903706": {
   "ocultar": true,
-  "motivo": "Concesión directa ya resuelta de una ayuda de máxima necesidad a una persona concreta (informe de Servicios Sociales de Ortuella de 21/04/2026, según el Reglamento de 26/04/2012); no es una convocatoria que otros puedan pedir. Criterio del responsable (18/11/2026) sobre subvenciones directas."
+  "motivo": "Concesión de la ayuda de máxima necesidad de Ortuella ya hecha a una persona concreta (informe de la trabajadora social de 21/04/2026, 364,42 € de fianza y seguro de vivienda); nadie más puede pedirla. Criterio del responsable (18/11/2026) sobre subvenciones nominativas o directas. Tarea de resúmenes, 22/11/2026."
  },
  "bdns-901214": {
   "ocultar": true,
   "motivo": "Subvención directa del Ayuntamiento de Amurrio a Aiara Antrexatak Dantza Taldea para sus actividades culturales de 2025, ya liquidada (Junta de Gobierno Local 26/03/2026); nadie más puede pedirla. Criterio del responsable (18/11/2026) sobre subvenciones nominativas o directas."
+ },
+ "bdns-900911": {
+  "ocultar": true,
+  "motivo": "Subvención directa nominativa del Ayuntamiento de Larrabetzu a Gurpide Elkartea (44.000 €, art. 22.2.a de la Ley 38/2003, decreto de Alcaldía 2026); nadie más puede pedirla. Criterio del responsable (18/11/2026) sobre subvenciones nominativas o directas. Tarea de resúmenes, 22/11/2026."
+ },
+ "bdns-899478": {
+  "ocultar": true,
+  "motivo": "Ayuda directa extraordinaria del Gobierno Vasco (Consejo de Gobierno 9/09/2025) ya concedida a los cuatro atuneros cañeros con base en Dakar del Anexo I por el fin del protocolo pesquero UE-Senegal; nadie más puede pedirla. Criterio del responsable (18/11/2026). Tarea de resúmenes, 22/11/2026."
+ },
+ "bdns-899477": {
+  "ocultar": true,
+  "motivo": "Ayuda directa extraordinaria del Gobierno Vasco (Consejo de Gobierno 9/09/2025) ya concedida a los armadores del Anexo I por la mala costera de la caballa de 2025; nadie más puede pedirla. Criterio del responsable (18/11/2026). Tarea de resúmenes, 22/11/2026."
  }
 }
