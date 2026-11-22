@@ -904,5 +904,23 @@
   "estado": "ok",
   "url": "https://www.araba.eus/botha/Boletines/2026/040/2026_040_00908_C.pdf",
   "probadas": []
+ },
+ "bdns-881434": {
+  "titulo": "Ordenanza reguladora de las ayudas sociales individuales del Ayuntamiento de Galdakao (Boletín Oficial de Bizkaia, 28 de octubre de 2008, n.º 207, pág. 48)",
+  "botha": [],
+  "urls": [
+   "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2008/10/20081028a207.pdf"
+  ],
+  "origen": "tarea de fichas: la convocatoria 2026 (BDNS 881434) remite a esa ordenanza y no dice qué cubre, cuánto ni quién puede pedirla",
+  "fecha": "2026-11-22"
+ },
+ "bdns-880363": {
+  "titulo": "Bases reguladoras de las subvenciones para la rehabilitación y mejora de edificios residenciales y viviendas del ámbito de Surbisa en Bilbao 2024-2027, texto refundido (Boletín Oficial de Bizkaia, 26 de noviembre de 2025, II-6827)",
+  "botha": [],
+  "urls": [
+   "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2025/11/26/II-6827_cas.pdf"
+  ],
+  "origen": "tarea de fichas: faltan las cuantías (Base Séptima) y los requisitos de la convocatoria 2026 de Surbisa (BDNS 880363)",
+  "fecha": "2026-11-22"
  }
 }

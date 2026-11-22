@@ -297,78 +297,6 @@
   "caracteres": 300000
  },
  {
-  "id": "bdns-883989",
-  "h": "8cd00de5577d157d",
-  "titulo": "Bases específicas de subvenciones para la Emancipación de los jóvenes",
-  "organismoSugerido": "ayto-zumarraga",
-  "organismoFuente": "Ayuntamiento de zumarraga",
-  "archivo": "cache/fuentes/bdns-883989-7fee53f1.txt",
-  "caracteres": 55521
- },
- {
-  "id": "bdns-881454",
-  "h": "990ef1c63fe3faa1",
-  "titulo": "Ayudas auzo-taxi",
-  "organismoSugerido": "ayto-galdakao",
-  "organismoFuente": "Ayuntamiento de galdakao",
-  "archivo": "cache/fuentes/bdns-881454-e5890434.txt",
-  "caracteres": 31060
- },
- {
-  "id": "bdns-881342",
-  "h": "74e351c5488fd7ee",
-  "titulo": "Convocatoria y bases reguladoras de ayudas de apoyo al Plan de Trabajo Compartido",
-  "organismoSugerido": "ayto-donostia-san-sebastian",
-  "organismoFuente": "Ayuntamiento de donostia/san sebastián",
-  "archivo": "cache/fuentes/bdns-881342-b7cc3f68.txt",
-  "caracteres": 176223
- },
- {
-  "id": "bdns-881317",
-  "h": "c27b603a90fbd3da",
-  "titulo": "Convocatoria y bases reguladoras de becas mensuales de formación a participantes en el servicio de intervención socioeducativa y psicosocial",
-  "organismoSugerido": "ayto-donostia-san-sebastian",
-  "organismoFuente": "Ayuntamiento de donostia/san sebastián",
-  "archivo": "cache/fuentes/bdns-881317-071824c2.txt",
-  "caracteres": 286259
- },
- {
-  "id": "bdns-880996",
-  "h": "f75d0895dab2956c",
-  "titulo": "Bases y convocatoria para la concesión de subvenciones del área de Euskera",
-  "organismoSugerido": "ayto-hernani",
-  "organismoFuente": "Ayuntamiento de hernani",
-  "archivo": "cache/fuentes/bdns-880996-f7cd884b.txt",
-  "caracteres": 245289
- },
- {
-  "id": "bdns-879133",
-  "h": "eddb40ef9c67cd43",
-  "titulo": "Bases subvenciones contratación apoyo en el hogar",
-  "organismoSugerido": "ayto-leioa",
-  "organismoFuente": "Ayuntamiento de leioa",
-  "archivo": "cache/fuentes/bdns-879133-521909ad.txt",
-  "caracteres": 54168
- },
- {
-  "id": "bdns-879132",
-  "h": "8b69b20c90af639a",
-  "titulo": "Bases prestación vinculada alojamiento personas mayores",
-  "organismoSugerido": "ayto-leioa",
-  "organismoFuente": "Ayuntamiento de leioa",
-  "archivo": "cache/fuentes/bdns-879132-ebf1a81e.txt",
-  "caracteres": 73360
- },
- {
-  "id": "bdns-879086",
-  "h": "e1539c7f1fc14a15",
-  "titulo": "Convocatoria y bases reguladoras de ayudas económicas para el acceso de personas sin hogar a centros hosteleros y selección de dichos centros",
-  "organismoSugerido": "ayto-donostia-san-sebastian",
-  "organismoFuente": "Ayuntamiento de donostia/san sebastián",
-  "archivo": "cache/fuentes/bdns-879086-6d9c89e9.txt",
-  "caracteres": 128507
- },
- {
   "id": "ue-crea-media-2027-tvonline-2",
   "h": "2bb80164abe11ee5",
   "titulo": "TV and online content Documentary projects",
@@ -628,15 +556,6 @@
   "organismoFuente": "Ayuntamiento de amurrio",
   "archivo": "cache/fuentes/bdns-882027-883f5e47.txt",
   "caracteres": 5966
- },
- {
-  "id": "bdns-880363",
-  "h": "f4ec2ea2c4dd3f80",
-  "titulo": "Acuerdo de 06.11. del Presidente de surbisa",
-  "organismoSugerido": "surbisa",
-  "organismoFuente": "Sociedad urbanística de rehabilitación de bilbao, sa (surbisa)",
-  "archivo": "cache/fuentes/bdns-880363-3c3d5f77.txt",
-  "caracteres": 7396
  },
  {
   "id": "bdns-879982",
