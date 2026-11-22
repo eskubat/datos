@@ -29,11 +29,11 @@
   "origen": "tarea de fichas: la convocatoria 2026 (BDNS 942867) remite a esas bases y no están en la documentación",
   "fecha": "2026-11-22",
   "estado": "fallo",
-  "intentos": 3,
+  "intentos": 4,
   "probadas": [
    {
     "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2024/09/BOB-2024a173.pdf",
-    "motivo": "no es PDF (text/html, 43758 bytes)"
+    "motivo": "no es PDF (text/html, 46706 bytes)"
    }
   ],
   "nota": "Portada quitada (19/11/2026). URL deducida, sin comprobar: el BOB-2024a180 es del 18/9/2024, así que el del lunes 9/9/2024 sería el 173. El recolector solo la acepta si una página del anuncio encaja con el título."
@@ -300,7 +300,7 @@
   ],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
    {
     "url": "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cd2026001161",
@@ -316,7 +316,7 @@
   ],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
    {
     "url": "https://egoitza.gipuzkoa.eus/gaobog/castell/bog/2020/07/29/c2003558.pdf",
@@ -345,7 +345,7 @@
   "urls": [],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": []
  },
  "bdns-910721": {
@@ -356,23 +356,20 @@
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2020/06/24/II-1853_cas.pdf",
    "https://www.cecobi.es/wp-content/uploads/2022/01/ayudas-economicas-extraordinarias-dirigidas-a-empresas-Casco-Historico-Portu.pdf"
   ],
-  "estado": "fallo",
+  "estado": "ok",
   "fecha": "2026-11-22",
   "intentos": 1,
   "probadas": [
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/06/12/II-3143_cas.pdf",
-    "motivo": "no es PDF (text/html, 46570 bytes)"
+    "motivo": "no es PDF (text/html, 43690 bytes)"
    },
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2020/06/24/II-1853_cas.pdf",
-    "motivo": "no es PDF (text/html, 42718 bytes)"
-   },
-   {
-    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/06/BOB-2026a110.pdf",
-    "motivo": "no es PDF (text/html, 49406 bytes)"
+    "motivo": "no es PDF (text/html, 46290 bytes)"
    }
-  ]
+  ],
+  "url": "https://www.cecobi.es/wp-content/uploads/2022/01/ayudas-economicas-extraordinarias-dirigidas-a-empresas-Casco-Historico-Portu.pdf"
  },
  "bdns-910362": {
   "titulo": "Bases reguladoras de las ayudas económicas individuales y familiares municipales para paliar situaciones de exclusión social y/o extrema necesidad, Ayuntamiento de Azpeitia (BOG nº 61, 30 de marzo de 2022)",
@@ -397,15 +394,15 @@
   ],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
    {
-    "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2014/02/20140221a036.pdf#page=73",
-    "motivo": "es de otra convocatoria"
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/929714",
+    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
    },
    {
-    "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1522205",
-    "motivo": "es de otra convocatoria"
+    "url": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/929714",
+    "motivo": "BDNS: Unexpected token '<', \"<html>\n\t<h\"... is not valid JSON"
    }
   ]
  },
@@ -458,7 +455,7 @@
   ],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
    {
     "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/920799",
@@ -474,7 +471,7 @@
   ],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
    {
     "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/900270",
@@ -490,7 +487,7 @@
   ],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
    {
     "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/938070",
@@ -498,7 +495,7 @@
    },
    {
     "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/11/BOB-2026a212.pdf",
-    "motivo": "no es PDF (text/html, 45126 bytes)"
+    "motivo": "no es PDF (text/html, 43926 bytes)"
    }
   ]
  },
@@ -511,7 +508,7 @@
   ],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
    {
     "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/904761",
@@ -519,7 +516,7 @@
    },
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2022/08/30/II-3854_cas.pdf",
-    "motivo": "no es PDF (text/html, 45818 bytes)"
+    "motivo": "no es PDF (text/html, 45794 bytes)"
    }
   ]
  },
@@ -532,7 +529,7 @@
   ],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
    {
     "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/904617",
@@ -540,7 +537,7 @@
    },
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2022/08/30/II-3855_cas.pdf",
-    "motivo": "no es PDF (text/html, 49214 bytes)"
+    "motivo": "no es PDF (text/html, 49002 bytes)"
    }
   ]
  },
@@ -552,7 +549,7 @@
   ],
   "estado": "fallo",
   "fecha": "2026-11-22",
-  "intentos": 1,
+  "intentos": 2,
   "probadas": [
    {
     "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/938065",
@@ -560,7 +557,7 @@
    },
    {
     "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/11/BOB-2026a212.pdf",
-    "motivo": "no es PDF (text/html, 49214 bytes)"
+    "motivo": "no es PDF (text/html, 48098 bytes)"
    }
   ]
  },
