@@ -200,7 +200,7 @@ general
 Oñati, a 24 de septiembre de 2026.— La
 Alcaldesa.
 
-### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1409470
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1409469
 OÑATIKO UDALA
 AYUNTAMIENTO DE OÑATI
 Enpresa berriak sustatzeko dirulaguntzen oinarri arautzaileak eta 2026ko deialdia.
@@ -469,143 +469,6 @@ Artículo 13. Interpretación de las bases
 Oinarri-arau hauek interpretatzeari buruz sortu daitezkeen zalantzak oinarri hauek onartzeko organo eskudunak erabakiko ditu, dagokion Sozioekonomia batzordearen proposamena aztertu eta gero.
 Las dudas que puedan surgir respecto de a la interpretación de estas bases serán resueltas por el órgano competente para la aprobación de las presentes bases, previo informe, en su caso, de la Comisión de Socioeconomía.
 
-### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1409779
-PERTSONA LANGABETUAK KONTRATATZEKO
-LAGUNTZAK
-E040
-AYUDAS PARA LA CONTRATACIÓN DE PERSONAS
-DESEMPLEADAS
-ESKARIA AURKEZTEN DUEN PERTSONA
-PERSONA QUE PRESENTA LA SOLICITUD
-1. abizena / 1.er apellido
-2. abizena / 2.º apellido
-Izena /Nombre
-NAN-AIZ-Pasaportea / DNI-NIE-Pasaporte
-Interesduna naiz / Soy la persona interesada
-Honako hau ordezkatzen dut: / Represento a:
-Ordezkatuaren NAN-AIZ-Pasaportea-IFZ:/DNI-NIE-Pasaporte-NIF del representado/a:
-Zk. / N.º
-Kalea / Calle
-JAKINARAZI HEMEN / NOTIFICAR EN
-Solairua / Piso
-Aldea / Mano
-Posta kodea / Código postal
-Herria / Municipio
-Lurraldea / Provincia
-Telefonoa / Teléfono
-E-posta / e-mail
-Mugikorra / Móvil
-ERAKUNDEAREN LEGEZKO ORDEZKARIA / REPRESENTANTE LEGAL DE LA ENTIDAD
-IZEN ABIZENAK / NOMBRE Y APELLIDOS
-KARGUA /CARGO
-NAN / DNI
-DIRULAGUNTZA ORDAINTZEKO KONTU KORRONTE ZENBAKIA / CUENTA BANCARIA PARA EL ABONO DE LA AYUDA
-Titularra / Titular
-IBAN kodea (24 digitu) / Código IBAN (24 dígitos)
-E
-S
-DIRUZ LAGUNTZEKO KONTRATUAK / CONTRATOS A SUBVENCIONAR
-KONTRATUAREN TITULARRAREN IDENTIFIKAZIOA/
-IDENTIFICACIÓN DEL TITULAR DEL CONTRATO
-NAN
-IZEN-ABIZENAK
-LANPOSTUA
-DNI
-NOMBRE Y APELLIDOS
-PUESTO DE TRABAJO
-
-OÑATI: Foruen Enparantza,1
-7:30-15:30
-IFZ / NIF
-P2006300D
-www.oñati.eus/eu/tramiteak
-www.oñati.eus/es/tramites
-943 780411 / haz@onati.eus
-O Ñ A T I K O
-U D A L A
-Eskatzaileari
-informatzen
-zaio,
-Oñatiko
-Udalak
-ezarritako baldintzen datuak zuzenean egiaztatuko
-dituela datuen arloko bitartekotzako plataformatik eta
-beste administrazioetatik. Hala ere, egiaztatze horri uko
-egiteko aukera izango du eskatzaileak. Kasu horretan,
-dagokion dokumentazioa aurkeztu beharko du.
-Se informa al solicitante, que el ayuntamiento de Oñati va
-a verificar los requisitos establecidos desde los servicios
-de la plataforma de intermediación de datos y otras
-administraciones. El solicitante tendrá opción a oponerse
-a esa verificación, en cuyo caso deberá presentar la
-documentación pertinente.
-Aurka nago, eta beraz, eskatutako dokumentazioa aurkezten dut.
-No estoy de acuerdo, y en consecuencia, aporto la documentación requerida
-BITARTEKOTZAKO PLATAFORMATIK ESKATUKO DIREN
-ZERBITZUAK
-SERVICIOS QUE SE SOLICITARÁN MEDIANTE LA
-PLATAFORMA DE INTERMEDIACIÓN DE DATOS
-Poliziaren zuzendaritza nagusia: Nortasun datuen kontsulta
-eta egiaztatzea
-Dirección General de la Policía: Consulta y
-verificación de datos de identidad
-G.F.A.: Zerga-betebeharren ordainketa egunean edukitzea
-D.F.G.: Consulta de estar al corriente de obligaciones
-kontsulta
-tributarias
-Gizarte Segurantzaren Diruzaintza Nagusia: gsdnarekiko
-Tesorería General de la Seguridad Social: Consulta de estar al
-betebeharren ordainketa egunean edukitzearen kontsulta
-corriente de pago de obligaciones con tgss
-Gizarte Segurantzaren Diruzaintza Nagusia: Gizarte
-Tesorería General de la Seguridad Social: Consulta de esta
-segurantzan data jakin batean alta egina izatea kontsultatzeko dado de alta en fecha concreta en la Seguridad Social
-zerbitzua
-LANBIDE: Diru-sarrerak bermatzeko errenta kontsultatzeko
-LANBIDE: Consulta de renta de garantía de ingresos
-zerbitzua (dagokion kasuan)
-(en el caso que corresponda)
-Gizarte Segurantzaren Diruzaintza Nagusia: LanTesorería General de la Seguridad Social: Servicio de
-ibilbidea kontsultatzeko zerbitzua (dagokion kasuan)
-consulta de vida laboral (en el caso que corresponda)
-AURKEZTU BEHARREKO DOKUMENTAZIOA
-DOCUMENTACIÓN A APORTAR
-Gizarte Segurantzako institutua: Alta egoeran dauden langileen Instituto Nacional de la Seguridad Social: Informe plantilla
-batez besteko plantillaren txostena
-media de trabajadores en situación de alta
-Dirulaguntza eskatzen deneko pertsonaren lan kontratua.
-Contrato de trabajo de la persona por la que se solicita la
-ayuda.
-Dirulaguntza ingresatu beharko litzatekeen kontu
-Documento acreditativo de la titularidad de la cuenta corriente
-korrontearen titularitatea egiaztatzen duen agiria.
-en la que debería ingresarse la subvención.
-Data (uuuu/hh/ee) / Fecha (yyyy/mm/dd)
-Los datos personales contenidos en esta solicitud se recogen
-con el consentimiento del interesado, y serán objeto de
-tratamiento automatizado por el Ayuntamiento de Oñati, quien
-actuará con arreglo a lo establecido en la L.O. 3/2018, de 5 de
-diciembre, de Protección de Datos Personales y garantía de los
-derechos digitales. Los interesados podrán ejercer los derechos
-de acceso, cancelación, rectificación y oposición ante el
-Ayuntamiento de Oñati.
-Eskaerako datu pertsonalak interesatuaren onespenez
-jasotzen dira eta Oñatiko Udalak tratamendu automatizatua
-emango die, abenduaren 5eko 3/2018, Lege Organikoan (Datu
-Pertsonalak Babesteari eta eskubide digitalak bermatzeari
-buruzkoa) izapidetutakoa jarraituz. Interesatuek datuok
-eskuratzeko, ezeztatzeko, zuzentzeko eta aurka egiteko
-eskubidea erabili ahal izango dute Oñatiko Udalaren aurrean.
-OÑATI: Foruen Enparantza,1
-
-7:30-15:30
-Sinadura / Firma
-IFZ / NIF
-P2006300D
-www.oñati.eus/eu/tramiteak
-www.oñati.eus/es/tramites
-943 780411 / haz@onati.eus
-
 ### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1409780
 1. ERANSKINA: ERANTZUKIZUNPEKO
 ADIERZAPENA
@@ -749,6 +612,143 @@ con arreglo a lo establecido en la L.O. 3/2018, de 5 de diciembre, de
 Protección de Datos Personales y garantía de los derechos digitales.
 Las personas interesadas podrán ejercer los derechos de acceso,
 cancelación, rectificación y oposición ante el Ayuntamiento de Oñati.
+www.oñati.eus/eu/tramiteak
+www.oñati.eus/es/tramites
+943 780411 / haz@onati.eus
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1409779
+PERTSONA LANGABETUAK KONTRATATZEKO
+LAGUNTZAK
+E040
+AYUDAS PARA LA CONTRATACIÓN DE PERSONAS
+DESEMPLEADAS
+ESKARIA AURKEZTEN DUEN PERTSONA
+PERSONA QUE PRESENTA LA SOLICITUD
+1. abizena / 1.er apellido
+2. abizena / 2.º apellido
+Izena /Nombre
+NAN-AIZ-Pasaportea / DNI-NIE-Pasaporte
+Interesduna naiz / Soy la persona interesada
+Honako hau ordezkatzen dut: / Represento a:
+Ordezkatuaren NAN-AIZ-Pasaportea-IFZ:/DNI-NIE-Pasaporte-NIF del representado/a:
+Zk. / N.º
+Kalea / Calle
+JAKINARAZI HEMEN / NOTIFICAR EN
+Solairua / Piso
+Aldea / Mano
+Posta kodea / Código postal
+Herria / Municipio
+Lurraldea / Provincia
+Telefonoa / Teléfono
+E-posta / e-mail
+Mugikorra / Móvil
+ERAKUNDEAREN LEGEZKO ORDEZKARIA / REPRESENTANTE LEGAL DE LA ENTIDAD
+IZEN ABIZENAK / NOMBRE Y APELLIDOS
+KARGUA /CARGO
+NAN / DNI
+DIRULAGUNTZA ORDAINTZEKO KONTU KORRONTE ZENBAKIA / CUENTA BANCARIA PARA EL ABONO DE LA AYUDA
+Titularra / Titular
+IBAN kodea (24 digitu) / Código IBAN (24 dígitos)
+E
+S
+DIRUZ LAGUNTZEKO KONTRATUAK / CONTRATOS A SUBVENCIONAR
+KONTRATUAREN TITULARRAREN IDENTIFIKAZIOA/
+IDENTIFICACIÓN DEL TITULAR DEL CONTRATO
+NAN
+IZEN-ABIZENAK
+LANPOSTUA
+DNI
+NOMBRE Y APELLIDOS
+PUESTO DE TRABAJO
+
+OÑATI: Foruen Enparantza,1
+7:30-15:30
+IFZ / NIF
+P2006300D
+www.oñati.eus/eu/tramiteak
+www.oñati.eus/es/tramites
+943 780411 / haz@onati.eus
+O Ñ A T I K O
+U D A L A
+Eskatzaileari
+informatzen
+zaio,
+Oñatiko
+Udalak
+ezarritako baldintzen datuak zuzenean egiaztatuko
+dituela datuen arloko bitartekotzako plataformatik eta
+beste administrazioetatik. Hala ere, egiaztatze horri uko
+egiteko aukera izango du eskatzaileak. Kasu horretan,
+dagokion dokumentazioa aurkeztu beharko du.
+Se informa al solicitante, que el ayuntamiento de Oñati va
+a verificar los requisitos establecidos desde los servicios
+de la plataforma de intermediación de datos y otras
+administraciones. El solicitante tendrá opción a oponerse
+a esa verificación, en cuyo caso deberá presentar la
+documentación pertinente.
+Aurka nago, eta beraz, eskatutako dokumentazioa aurkezten dut.
+No estoy de acuerdo, y en consecuencia, aporto la documentación requerida
+BITARTEKOTZAKO PLATAFORMATIK ESKATUKO DIREN
+ZERBITZUAK
+SERVICIOS QUE SE SOLICITARÁN MEDIANTE LA
+PLATAFORMA DE INTERMEDIACIÓN DE DATOS
+Poliziaren zuzendaritza nagusia: Nortasun datuen kontsulta
+eta egiaztatzea
+Dirección General de la Policía: Consulta y
+verificación de datos de identidad
+G.F.A.: Zerga-betebeharren ordainketa egunean edukitzea
+D.F.G.: Consulta de estar al corriente de obligaciones
+kontsulta
+tributarias
+Gizarte Segurantzaren Diruzaintza Nagusia: gsdnarekiko
+Tesorería General de la Seguridad Social: Consulta de estar al
+betebeharren ordainketa egunean edukitzearen kontsulta
+corriente de pago de obligaciones con tgss
+Gizarte Segurantzaren Diruzaintza Nagusia: Gizarte
+Tesorería General de la Seguridad Social: Consulta de esta
+segurantzan data jakin batean alta egina izatea kontsultatzeko dado de alta en fecha concreta en la Seguridad Social
+zerbitzua
+LANBIDE: Diru-sarrerak bermatzeko errenta kontsultatzeko
+LANBIDE: Consulta de renta de garantía de ingresos
+zerbitzua (dagokion kasuan)
+(en el caso que corresponda)
+Gizarte Segurantzaren Diruzaintza Nagusia: LanTesorería General de la Seguridad Social: Servicio de
+ibilbidea kontsultatzeko zerbitzua (dagokion kasuan)
+consulta de vida laboral (en el caso que corresponda)
+AURKEZTU BEHARREKO DOKUMENTAZIOA
+DOCUMENTACIÓN A APORTAR
+Gizarte Segurantzako institutua: Alta egoeran dauden langileen Instituto Nacional de la Seguridad Social: Informe plantilla
+batez besteko plantillaren txostena
+media de trabajadores en situación de alta
+Dirulaguntza eskatzen deneko pertsonaren lan kontratua.
+Contrato de trabajo de la persona por la que se solicita la
+ayuda.
+Dirulaguntza ingresatu beharko litzatekeen kontu
+Documento acreditativo de la titularidad de la cuenta corriente
+korrontearen titularitatea egiaztatzen duen agiria.
+en la que debería ingresarse la subvención.
+Data (uuuu/hh/ee) / Fecha (yyyy/mm/dd)
+Los datos personales contenidos en esta solicitud se recogen
+con el consentimiento del interesado, y serán objeto de
+tratamiento automatizado por el Ayuntamiento de Oñati, quien
+actuará con arreglo a lo establecido en la L.O. 3/2018, de 5 de
+diciembre, de Protección de Datos Personales y garantía de los
+derechos digitales. Los interesados podrán ejercer los derechos
+de acceso, cancelación, rectificación y oposición ante el
+Ayuntamiento de Oñati.
+Eskaerako datu pertsonalak interesatuaren onespenez
+jasotzen dira eta Oñatiko Udalak tratamendu automatizatua
+emango die, abenduaren 5eko 3/2018, Lege Organikoan (Datu
+Pertsonalak Babesteari eta eskubide digitalak bermatzeari
+buruzkoa) izapidetutakoa jarraituz. Interesatuek datuok
+eskuratzeko, ezeztatzeko, zuzentzeko eta aurka egiteko
+eskubidea erabili ahal izango dute Oñatiko Udalaren aurrean.
+OÑATI: Foruen Enparantza,1
+
+7:30-15:30
+Sinadura / Firma
+IFZ / NIF
+P2006300D
 www.oñati.eus/eu/tramiteak
 www.oñati.eus/es/tramites
 943 780411 / haz@onati.eus
