@@ -824,9 +824,19 @@
    "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2023/11/16/bo231116.pdf"
   ],
   "probadas": [
-   "https://www.araba.eus/botha/Boletines/2026/133/2026_133_03267_C.pdf"
+   {
+    "url": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2023/04/19/bo230419.pdf",
+    "motivo": "HTTP 404"
+   },
+   {
+    "url": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2023/11/16/bo231116.pdf",
+    "motivo": "HTTP 404"
+   }
   ],
-  "nota": "El 22/11/2026 el flujo dio estado ok con un documento equivocado (BOTHA 133/2026, colonias felinas de Álava); se vuelve a pedir."
+  "nota": "El 22/11/2026 el flujo dio estado ok con un documento equivocado (BOTHA 133/2026, colonias felinas de Álava); se vuelve a pedir.",
+  "estado": "ok",
+  "url": "https://www.araba.eus/botha/Boletines/2026/133/2026_133_03267_C.pdf",
+  "fecha": "2026-11-22"
  },
  "bdns-895045": {
   "titulo": "Ayudas económicas a situaciones de necesidad en el municipio de Amurrio 2026 (bases en BOTHA 2025/044)",
@@ -837,13 +847,29 @@
    "https://www.araba.eus/botha/Boletines/2025/044/2025_044_01146_C.pdf"
   ],
   "origen": "tarea de fichas: el documento de la BDNS 895045 es solo el decreto de prórroga del presupuesto 2026; faltan bases y convocatoria",
-  "fecha": "2026-11-22"
+  "fecha": "2026-11-22",
+  "estado": "ok",
+  "url": "https://www.araba.eus/botha/Boletines/2025/044/2025_044_01146_C.pdf",
+  "probadas": []
  },
  "bdns-942048": {
   "titulo": "Convocatoria 2026 de ayudas económicas a vecinas y vecinos del municipio de Portugalete que cuenten con escasos recursos (BDNS 942048, registrada el 13 de noviembre de 2026; extracto en el Boletín Oficial de Bizkaia)",
   "botha": [],
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/942048"
+  ],
+  "estado": "ok",
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1555633",
+  "fecha": "2026-11-22",
+  "probadas": [
+   {
+    "url": "https://www.bizkaia.eus/es/bob/resultados?p_p_id=IYBIWBCC&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_IYBIWBCC_mvcRenderCommandName=%2Fdetail&_IYBIWBCC_bdate=20240611&_IYBIWBCC_bnum=112",
+    "motivo": "es de otra convocatoria"
+   },
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1555632",
+    "motivo": "PDF sin texto (620877 bytes)"
+   }
   ]
  }
 }
