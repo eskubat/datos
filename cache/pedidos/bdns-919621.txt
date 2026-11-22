@@ -1,0 +1,279 @@
+URL: https://eskoriatza.eus/es/tramites/subvenciones/ayudas-economicas-para-tratamiento-de-adicciones-2026/
+Descargado: 2026-11-22
+
+	
+
+<!DOCTYPE html>
+<html lang="lang="es-ES" prefix="og: http://ogp.me/ns#"" dir="ltr">
+<head>
+    <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/a13db20befcaca7cf6c31671f7c59858.js"></script> 
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://eskoriatza.eus/wp-content/themes/eskoriatza2022/favicon.ico" >
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ayudas económicas para tratamiento de adicciones (2026) - Eskoriatza</title>
+
+
+    <link media="all" rel="stylesheet" href="https://eskoriatza.eus/wp-content/themes/eskoriatza2022/css/style.css?v=20250603">
+
+
+    <link media="all" rel="stylesheet" href="https://eskoriatza.eus/wp-content/themes/eskoriatza2022/css/fontawesome-min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|Yanone+Kaffeesatz:400,700"
+          rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&amp;display=swap"
+          rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+    <script type="text/javascript" src="https://eskoriatza.eus/wp-content/themes/eskoriatza2022/js/jquery.main.js?v=202303311746"></script>
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="https://eskoriatza.eus/wp-content/themes/eskoriatza2022/css/ie.css"><![endif]-->
+
+
+		
+	<link rel="alternate" hreflang="es-es" href="https://eskoriatza.eus/es/tramites/subvenciones/ayudas-economicas-para-tratamiento-de-adicciones-2026/" />
+<link rel="alternate" hreflang="eu" href="https://eskoriatza.eus/tramiteak/dirulaguntzak/adikzioak-tratatzeko-dirulaguntzak-2026/" />
+
+<!-- This site is optimized with the Yoast SEO plugin v5.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://eskoriatza.eus/es/tramites/subvenciones/ayudas-economicas-para-tratamiento-de-adicciones-2026/" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Ayudas económicas para tratamiento de adicciones (2026) - Eskoriatza" />
+<meta property="og:url" content="https://eskoriatza.eus/es/tramites/subvenciones/ayudas-economicas-para-tratamiento-de-adicciones-2026/" />
+<meta property="og:site_name" content="Eskoriatza" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/eskoriatza.eus\/es\/","name":"Eskoriatza","potentialAction":{"@type":"SearchAction","target":"https:\/\/eskoriatza.eus\/es\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//eskoriatza.eus' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='https://eskoriatza.eus/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://eskoriatza.eus/es/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://eskoriatza.eus/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 4.8.2" />
+<link rel='shortlink' href='https://eskoriatza.eus/es/?p=42827' />
+<link rel="alternate" type="application/json+oembed" href="https://eskoriatza.eus/es/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feskoriatza.eus%2Fes%2Ftramites%2Fsubvenciones%2Fayudas-economicas-para-tratamiento-de-adicciones-2026%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://eskoriatza.eus/es/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feskoriatza.eus%2Fes%2Ftramites%2Fsubvenciones%2Fayudas-economicas-para-tratamiento-de-adicciones-2026%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:3.8.1 stt:16,2;" />
+</head>
+<body>
+
+
+<div id="header">
+    <div class="holder">
+        <strong class="logo"><a href="https://eskoriatza.eus/es">EskoriatzaKo Udala</a></strong>
+        <div class="right" id="right">
+            <div class="search">
+	<form id="searchform" action="https://eskoriatza.eus/es/">
+		<fieldset>
+			<input type="text" class="text" name="s" id="s" >
+			<input type="submit" class="btn" value="Buscar">
+		</fieldset>
+	</form>
+</div>
+
+
+<script>
+    /**
+ * Stop empty searches
+ *
+ * @author Thomas Scholz http://toscho.de
+ * @param  $ jQuery object
+ * @return bool|object
+ */
+(function( $ ) {
+   $.fn.preventEmptySubmit = function( options ) {
+      
+       var settings = {
+           inputselector: "#s",
+           msg          : "Don’t waste your time with an empty search!"
+       };
+       if ( options ) {
+           $.extend( settings, options );
+       };
+       this.submit( function() {
+            
+           var s = $( this ).find( settings.inputselector );
+           if ( ! s.val() ) {
+               //alert( settings.msg );
+               s.focus();
+               return false;
+           }
+           return true;
+       });
+       return this;
+   };
+})( jQuery );
+</script>            <div class="nav-block">
+                <ul id="nav" class="menu"><li id="menu-item-210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210"><a href="https://eskoriatza.eus/es/ayuntamiento/">Ayuntamiento</a></li>
+<li id="menu-item-212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-212"><a href="https://eskoriatza.eus/es/servicios/">Servicios</a></li>
+<li id="menu-item-209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209"><a href="https://eskoriatza.eus/es/eskoriatza/">Eskoriatza</a></li>
+<li id="menu-item-15489" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15489"><a target="_blank" href="https://uzt.gipuzkoa.eus/WAS/AYTO/USCServicioCiudadanoVer15WEB/home.do?De=CA034">Trámites</a></li>
+<li id="menu-item-39844" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39844"><a href="https://www.eskoriatzakoagenda.eus/">Agenda</a></li>
+<li id="menu-item-34391" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34391"><a href="https://eskoriatza.eus/es/quejas-y-sugerencias/">Contacto</a></li>
+</ul>                <a class="lang" href="https://eskoriatza.eus/tramiteak/dirulaguntzak/adikzioak-tratatzeko-dirulaguntzak-2026/">EU</a>            </div>
+        </div>
+        <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" data-target="right"><span
+                    aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a></div>
+</div>
+
+
+				
+<div id="main" class="inner">
+	<ul class="breadcrumbs">
+ 		<li>
+			<!-- Breadcrumb NavXT 5.7.1 -->
+<a title="Go to Eskoriatza." href="https://eskoriatza.eus/es" class="home">Eskoriatza</a> &gt; <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Ir a Subvenciones." href="https://eskoriatza.eus/es/tramites/subvenciones/" class="post post-dirulaguntzak-archive"><span property="name">Subvenciones</span></a><meta property="position" content="2"></span> &gt; <span property="itemListElement" typeof="ListItem"><span property="name">Ayudas económicas para tratamiento de adicciones (2026)</span><meta property="position" content="3"></span> 		</li>
+	</ul>
+
+	  	
+	<div class="main-holder">
+
+		<div id="content">
+			<div class="c1">
+
+				<h1 class="page-title">Ayudas económicas para tratamiento de adicciones (2026)</h1>
+				<ul class="tabs">
+					
+                    				</ul>
+								
+				<div class="info-table-holder">
+
+					<table>
+												<tr>
+							<th>Descripción:</th>
+							<td><p>Las ayudas se destinarán a cubrir los gastos de transporte derivados de la asistencia a los centros de tratamiento dándose prioridad al acceso en los centros de tratamiento públicos o concertados de la CAPV.</p>
+<p>Se consideran gastos de transporte tanto los realizados en transporte público como en vehículo propio desde el municipio de Eskoriatza hasta el centro de tratamiento; si bien, a efectos de concesión de las ayudas se tendrán en cuenta el número de viajes mensuales, máximo de dos personas (persona afectada y su acompañante), en función del coste del transporte público con tarjeta.</p>
+</td>
+						</tr>
+																								<tr>
+							<th>Departamento:</th>
+							<td>Servicios sociales</td>
+						</tr>
+																								<tr>
+							<th>Situación:</th>
+							<td>Plazo de solicitud abierto</td>
+						</tr>
+						                                                    <tr>
+                                <th>Cuantía asignada:</th>
+                                <td>3000 €</td>
+                            </tr>
+                        
+                                                    <tr>
+                                <th>Normativa aplicable:</th>
+                                <td><ul>
+<li><strong>Bases</strong> (<a href="https://eskoriatza.eus/wp-content/uploads/2026/06/2026_DL_Oinarriak_Adikzioen.pdf">PDF</a>)</li>
+<li><strong>Bases y convocatoria (</strong><a href="https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2026/09/04/c2605792.pdf">BOG</a> 04/09/2026; <a href="https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2026/09/14/c2605865.pdf">BOG</a> 14/09/2026<strong>)</strong></li>
+</ul>
+                                </td>
+                            </tr>
+                        
+
+                        
+                        
+                                                            <tr>
+                                    <th>Último día para presentar solicitudes:</th>
+                                                                        <td>
+                                    30/11/2026                                    </td>
+                                </tr>
+                            
+                                                            <tr>
+                                    <th>Tramitación presencial:</th>
+                                    <td><h3><a href="https://eskoriatza.eus/es/servicios/hzi/" target="_blank" rel="noopener">H@ZI</a> &#8211; Ayuntamiento</h3>
+<ul>
+<li>De lunes a viernes &#8211; 9:00 – 13:30</li>
+</ul>
+<p>Más información:</p>
+<ul>
+<li><a title="Se abrirá una nueva ventana." href="http://eskoriatza.eus/es/servicios/servicios-sociales/" target="_blank" rel="external noopener">Servicios Sociales</a> &#8211; Ayuntamiento &#8211; 943 71 31 36</li>
+</ul>
+</td>
+                                </tr>
+                            
+                                                            <tr>
+                                    <th>Tramitación online:</th>
+                                    <td><a target="_blank" href="https://udal.egoitza.gipuzkoa.eus/WAS/AYTO/USCServicioCiudadanoVer15WEB/home.do?De=CA034124635">Sede electrónica</a></td>
+                                </tr>
+
+                            
+                                                            <tr>
+                                    <th>Documentación a presentar:</th>
+                                    <td><p>1.-<a href="https://eskua.eskoriatza.eus/Orokorrak/OR_DirulaguntzaEskaeraOrokorra.pdf">Impreso de Solicitud</a> de subvención. En el impreso declaración expresa de los siguientes términos (en caso de no indicarlos, será necesario presentar el justificante que lo acredite):</p>
+<ul>
+<li>No hallarse incurso en ningún proceso de devolución económica ante la administración.</li>
+<li>No haber solicitado otra subvención para la misma actividad.</li>
+<li>No haber recibido sanción administrativa o penal por discriminación sexual o por infringir la normativa vigente y aplicable en materia de igualdad entre hombres y mujeres.</li>
+<li>Que sus fines y objetivos no son contrarios al principio de igualdad entre mujeres y Que sus fines y objetivos no son contrarios al principio de igualdad entre mujeres y hombres.hombres.</li>
+<li>Que no está incurso en ninguna de las causas de prohibición de los artículos 132. y 13.3 de la Ley 38/2003.de la Ley 38/2003.</li>
+</ul>
+<p>2.- El Ayuntamiento de Eskoriatza solicitará directamente a otras administraciones los datos necesarios para acreditar el cumplimiento de las obligaciones tributarias y con la Seguridad Social por parte del solicitante. En el caso de que la persona solicitante se oponga a ello en la instancia, deberá presentar la documen tación acreditativa de hallarse al corriente de sus obligaciones tributarias y frente a la Seguridad Social.</p>
+<p>3.- Junto con el impreso de solicitud se deberá presentar también la siguiente documentación:</p>
+<ul>
+<li>Certificado de ingresos de la unidad convivencial (solicitante, cónyuge y descendientes a su cargo).</li>
+<li>Justificante expedido por el centro de tratamiento, donde se notifique haber estado como mínimo 2 meses en tratamiento.</li>
+<li>Cualquier otra documentación que la comisión informativa de Servicios Sociales pueda considerar necesaria.</li>
+</ul>
+</td>
+                                </tr>
+                            
+                                                    					</table>
+				</div>
+							</div>
+		</div>
+
+		<div id="sidebar">
+	<div class="box">
+		<h3 class="title">Trámites </h3>
+        <ul class="menu lnt">
+			<li><a target="_blank" href="https://uzt.gipuzkoa.eus/WAS/AYTO/USCServicioCiudadanoVer15WEB/home.do?De=034&hizkuntza=CA">Trámites municipales</a></li>
+			<li class="active">
+                <a href="https://eskoriatza.eus/es/tramites/subvenciones/">Subvenciones</a>
+                                    <ul>
+                                                        <li ><a href="https://eskoriatza.eus/es/tramites/subvenciones/?saila=elizateak">Anteiglesias</a></li>
+                                                                                    <li ><a href="https://eskoriatza.eus/es/tramites/subvenciones/?saila=kultura">Cultura</a></li>
+                                                                                    <li ><a href="https://eskoriatza.eus/es/tramites/subvenciones/?saila=kirolak">Deportes</a></li>
+                                                                                    <li ><a href="https://eskoriatza.eus/es/tramites/subvenciones/?saila=garapenekonomikoa">Desarrollo económico</a></li>
+                                                                                    <li ><a href="https://eskoriatza.eus/es/tramites/subvenciones/?saila=euskara">Euskera</a></li>
+                                                                                    <li ><a href="https://eskoriatza.eus/es/tramites/subvenciones/?saila=gazteria">Juventud</a></li>
+                                                                                                            <li ><a href="https://eskoriatza.eus/es/tramites/subvenciones/?saila=ingurugiroa">Medioambiente</a></li>
+                                                                                                                                                            <li ><a href="https://eskoriatza.eus/es/tramites/subvenciones/?saila=gizartezerbitzuak">Servicios sociales</a></li>
+                                                                                    <li ><a href="https://eskoriatza.eus/es/tramites/subvenciones/?saila=turismoa">Turismo</a></li>
+                                                                                    <li ><a href="https://eskoriatza.eus/es/tramites/subvenciones/?saila=hirigintza">Urbanismo</a></li>
+                                                                        </ul>
+                                                </li>
+			<li ><a href="https://eskoriatza.eus/es/tramites/perfil-del-contratante/">Perfil del contratante</a></li>       
+        </ul>		
+	</div>
+</div>
+	</div>
+	</div>
+
+
+<!-- Your Google Analytics Plugin is missing the tracking ID -->
+
+
+
+    <div id="footer">
+    <div class="deskargatu">
+        <h4>Descargar Eskoriatza APP</h4>
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.elkarmedia.eskoritzaApp&gl=ES"><img src="https://eskoriatza.eus/wp-content/themes/eskoriatza2022/images/ico-google-play.png" width="120"></a>
+    </div>
+    <ul class="social">
+        <li><a href="https://eskoriatza.eus/albisteak/feed/"> <i class="fa fa-rss"></i></a></li>
+        <li><a href="https://twitter.com/eskoriatzaudala"> <i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.facebook.com/pages/Eskoriatzako-Udala/233734289980271"> <i class="fa fa-facebook"></i></a></li>
+    </ul>
+        <address><a href="https://eskoriatza.eus/es" class="name">Eskoriatzako Udala</a> <span>Fernando Eskoriatza plaza 1</span> <span>20540 Eskoriatza (Gipuzkoa)</span> <strong><span>Tel.: 943 71 44 07</span> <a href="mailto:&#x68;&#x61;&#x7a;&#x69;&commat;&#x65;&#x73;&#x6b;&#x6f;&#x72;&#x69;&#x61;&#x74;&#x7a;&#x61;&period;&#x65;&#x75;&#x73;">&#x68;&#x61;&#x7a;&#x69;&commat;&#x65;&#x73;&#x6b;&#x6f;&#x72;&#x69;&#x61;&#x74;&#x7a;&#x61;&period;&#x65;&#x75;&#x73;</a></strong></address>
+                <ul class="list">
+            <li><strong><a href="https://eskoriatza.eus/es/quejas-y-sugerencias/">Contacto </a></strong></li>
+        </ul>
+        <ul id="menu-footer_es" class="list"><li id="menu-item-37322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37322"><a href="https://eskoriatza.eus/es/aviso-legal/">Aviso  legal</a></li>
+<li id="menu-item-37321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37321"><a href="https://eskoriatza.eus/es/ayuntamiento/politica-de-privacidad/">Política  de  privacidad</a></li>
+<li id="menu-item-37320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37320"><a href="https://eskoriatza.eus/es/politica-de-cookies/">Política  de  cookies</a></li>
+</ul></div>
+	<script type='text/javascript' src='https://eskoriatza.eus/wp-includes/js/wp-embed.min.js?ver=4.8.2'></script>
+</body>
+</html>
+
+

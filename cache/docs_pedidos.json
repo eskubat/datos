@@ -253,34 +253,59 @@
   "botha": [],
   "urls": [
    "https://www.urretxu.eus/eu/component/rsfiles/download-file/files?path=i_subvenciones/2026-DirulaguntzenOinarriak/DL27-Oinarriak2026.pdf"
-  ]
+  ],
+  "estado": "ok",
+  "url": "https://www.urretxu.eus/eu/component/rsfiles/download-file/files?path=i_subvenciones/2026-DirulaguntzenOinarriak/DL27-Oinarriak2026.pdf",
+  "fecha": "2026-11-22",
+  "probadas": []
  },
  "bdns-918616": {
   "titulo": "Ordenanza municipal para la promoción de la accesibilidad a las viviendas (Ayuntamiento de Basauri)",
   "botha": [],
   "urls": [
    "https://www.basauri.eus/sites/basauri/files/2023-04/ordenanza_municipal_de_promocion_de_la_accesibilidad.pdf"
-  ]
+  ],
+  "estado": "ok",
+  "url": "https://www.basauri.eus/sites/basauri/files/2023-04/ordenanza_municipal_de_promocion_de_la_accesibilidad.pdf",
+  "fecha": "2026-11-22",
+  "probadas": []
  },
  "bdns-918883": {
   "titulo": "Criterios para la concesión de Ayudas de Emergencia Social (AES) durante el año 2026 en el Ayuntamiento de Basauri",
   "botha": [],
   "urls": [
    "https://www.euskadi.eus/bopv2/datos/2026/04/2601627a.pdf"
-  ]
+  ],
+  "estado": "ok",
+  "url": "https://www.euskadi.eus/bopv2/datos/2026/04/2601627a.pdf",
+  "fecha": "2026-11-22",
+  "probadas": []
  },
  "bdns-919621": {
   "titulo": "Ayudas económicas para el tratamiento de adicciones 2026 (Ayuntamiento de Eskoriatza)",
   "botha": [],
   "urls": [
    "https://eskoriatza.eus/es/tramites/subvenciones/ayudas-economicas-para-tratamiento-de-adicciones-2026/"
-  ]
+  ],
+  "estado": "ok",
+  "url": "https://eskoriatza.eus/es/tramites/subvenciones/ayudas-economicas-para-tratamiento-de-adicciones-2026/",
+  "fecha": "2026-11-22",
+  "probadas": []
  },
  "bdns-913719": {
   "titulo": "Ayudas de emergencia social 2026 (Ayuntamiento de Amurrio)",
   "botha": [],
   "urls": [
    "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cd2026001161"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cd2026001161",
+    "motivo": "es de otra convocatoria"
+   }
   ]
  },
  "bdns-919936": {
@@ -288,6 +313,19 @@
   "botha": [],
   "urls": [
    "https://egoitza.gipuzkoa.eus/gaobog/castell/bog/2020/07/29/c2003558.pdf"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://egoitza.gipuzkoa.eus/gaobog/castell/bog/2020/07/29/c2003558.pdf",
+    "motivo": "HTTP 404"
+   },
+   {
+    "url": "https://www.araba.eus/botha/Boletines/2025/006/2025_006_03587_C.pdf",
+    "motivo": "HTTP 404"
+   }
   ]
  },
  "bdns-911631": {
@@ -295,6 +333,10 @@
   "botha": [],
   "urls": [
    "https://www.astigarraga.eus/es/-/garapenerako-lankidetza-progamaren-dirulaguntzak-2026"
-  ]
+  ],
+  "estado": "ok",
+  "url": "https://www.astigarraga.eus/es/-/garapenerako-lankidetza-progamaren-dirulaguntzak-2026",
+  "fecha": "2026-11-22",
+  "probadas": []
  }
 }
