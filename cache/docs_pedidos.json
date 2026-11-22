@@ -912,7 +912,15 @@
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2008/10/20081028a207.pdf"
   ],
   "origen": "tarea de fichas: la convocatoria 2026 (BDNS 881434) remite a la ordenanza y las páginas de requisitos y cuantías de la resolución son imágenes sin texto",
-  "fecha": "2026-11-22"
+  "fecha": "2026-11-22",
+  "estado": "fallo",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2008/10/20081028a207.pdf",
+    "motivo": "no es PDF (text/html, 45458 bytes)"
+   }
+  ]
  },
  "bdns-880363": {
   "titulo": "Bases reguladoras de las subvenciones para la rehabilitación y mejora de edificios residenciales y viviendas del ámbito de Surbisa en Bilbao 2024-2027, texto refundido (Boletín Oficial de Bizkaia, 26 de noviembre de 2025, II-6827)",
