@@ -45,15 +45,6 @@
   "caracteres": 257834
  },
  {
-  "id": "bdns-890111",
-  "h": "f874fba1d03a47e1",
-  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la promoción de nuevas empresas",
-  "organismoSugerido": "ayto-onati",
-  "organismoFuente": "Ayuntamiento de oñati",
-  "archivo": "cache/fuentes/bdns-890111-55bde52b.txt",
-  "caracteres": 222923
- },
- {
   "id": "bob-bob-2026a215-ii-5802-",
   "h": "ed43e2ba0faec9be",
   "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -457,6 +448,15 @@
   "organismoFuente": "Ayuntamiento de amorebieta-etxano",
   "archivo": "cache/fuentes/bdns-942548-835312a3.txt",
   "caracteres": 47711
+ },
+ {
+  "id": "bdns-878679",
+  "h": "f844961e401b3c30",
+  "titulo": "D. F. 141/ de la D. F. B. , de 29 de diciembre,",
+  "organismoSugerido": "dfb",
+  "organismoFuente": "Diputación foral de Bizkaia",
+  "archivo": "cache/fuentes/bdns-878679-c1cb31c2.txt",
+  "caracteres": 200132
  },
  {
   "id": "bdns-941154",

@@ -733,8 +733,8 @@
  },
  {
   "id": "bdns-890111",
-  "h": "1c993f0214306aac",
-  "titulo": "Bases reguladoras y convocatoria de las subvenciones para la promoción de nuevas empresas",
+  "h": "87c75fb1e113ae9b",
+  "titulo": "Ayudas para crear o traspasar un negocio y alquilar el local",
   "para": [
    "autonomo",
    "empresa"
@@ -4356,6 +4356,20 @@
    "emprendimiento"
   ],
   "archivo": "cache/fuentes/bdns-899204-61a22a18.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-878679",
+  "h": "898e3ce3ff03611c",
+  "titulo": "D. F. 141/ de la D. F. B. , de 29 de diciembre,",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-878679-c1cb31c2.txt",
   "revisar": false
  },
  {
