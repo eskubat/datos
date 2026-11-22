@@ -1,16 +1,3208 @@
-### Extracto de la fuente
-Extracto publicado en el boletín:
-1.Objeto de la subvención.
-El objeto de esta convocatoria: Ayudas económicas destinadas para las obras de mejora de la accesibilidad y eficiencia energética, de viviendas y edificios residenciales.
-2.Importe de la subvención.
-El importe máximo de la suma de las subvenciones a conceder asciende a la cantidad de 25.000 €, con cargo a la partida. 1.7000.480.152.20.01.2026 (1000)..
-3. Plazo de presentación de solicitudes. El plazo de presentación de solicitudes será hasta el 15 de diciembre de 2026 y desde el día siguiente a la publicación del anuncio en el BOLETÍN OFICIAL de Gipuzkoa. La información detallada se encuentra a disposición de las personas o colectivos interesados en la siguiente páginas web: Ayuntamiento: https://www.urretxu.eus/eu/component/rsfiles/download-file/files?path=i_subvenciones/2026-DirulaguntzenOinarriak/DL27-Oinarriak2026.pdf
-Título: Ayudas económicas destinadas para las obras de mejora de la accesibilidad y eficiencia energética, de viviendas y edificios residenciales
-Título en euskera: Urretxun dauden etxebizitzetan eta bizitegi-eraikinetan, irisgarritasuna eta energia eraginkortasuna hobetzeko lanetarako dirulaguntzak
-Organismo: URRETXU · AYUNTAMIENTO DE URRETXU
-Finalidad: Otras Prestaciones económicas
-Beneficiarios: PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
-Inicio del plazo: A partir del día siguiente a la publicación de la convocatoria en el BOGipuzkoa
-Presupuesto total de la convocatoria: 25000 euros
-Sectores: OTROS SERVICIOS
-Instrumento: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN
+### Documento de la convocatoria: https://www.urretxu.eus/eu/component/rsfiles/download-file/files?path=i_subvenciones/2026-DirulaguntzenOinarriak/DL27-Oinarriak2026.pdf
+Urretxun dauden etxebizitzetan eta bizitegieraikinetan, irisgarritasuna eta energia
+eraginkortasuna hobetzeko lanetarako
+dirulaguntzak emateko oinarri arautzaileak
+eta 2026ko deialdia.
+Bases
+reguladoras
+generales
+y
+convocatoria 2026 para la concesión de
+ayudas económicas destinadas para las
+obras de mejora de la accesibilidad y
+eficiencia energética, de viviendas y
+edificios residenciales
+Sarrera.
+Introducción.
+Euskadiko Toki Erakundeei buruzko apirilaren
+7ko 2/2016 Legeko 17 artikuluak Udalari
+hainbat esparrutan jarduteko ahal- mena
+ematen dio, ezargarri den legearen babesean.
+Lege horretako 17.1.7) artikuluaren arabera,
+udalerriek eskumen propioak baliatu ahal
+izango dituzte, besteak beste, honako eremu
+honetan: «Hirigintza-materiaren antolamendua,
+kudeaketa, exekuzioa eta diziplina» eta
+bestetik, 17.1.8) artikuluak honako es- kumen
+hau baliatzen die udalei: Ingurumenaren
+babesa eta garapen jasangarria modu
+osagarrian antolatzea, sustatzea, kudeatzea
+eta defendatzea, hiriguneetan kutsadura
+akustikoa, ar- giaren kutsadura eta airearen
+kutsaduraren aurkako babesa barne hartuta.».
+El artículo 17 de la Ley 2/2016, de 7 de
+abril, de Instituciones Locales de Euskadi,
+faculta al Ayuntamiento para actuar en
+diversos ámbitos al amparo de la ley
+aplicable. De acuerdo con el artículo 17.1.7)
+de la citada Ley, los municipios podrán
+ejercer competencias propias en materia
+de «ordenación, gestión, ejecución y
+disciplina de la materia urbanística» y el
+artículo 17.1.8) a los municipios en materia
+de ordenación, promoción, gestión y
+defensa complementaria de la protección
+del medio ambiente y del desarrollo
+sostenible, incluyendo la contaminación
+acústica, la contaminación lumínica y la
+protección contra la contaminación del aire
+en los núcleos urbanos.
+Eskumen horien baitan, 20/1997 Legea,
+abenduaren 4koa, Irisgarritasuna Sustatzekoak
+honako xede hau du: «Botere publikoek legea
+eraginkortasunez bete dadin beharrezkoak
+diren ekintza positiboko neurriak hartzea
+sustatuko dute»; hori horrela, Udalak ekintza
+positiboko neurriak sustatuko ditu birgaitze
+inbersioetan
+irisgarritasuna
+hobetzeko.
+Bestetik, Etxebizitzaren ekainaren 18ko 3/2015
+Legeak Zioen Azalpenean adierazten duenez,
+eraikinak
+birgaitzea
+eta
+hiri-eremuak
+berroneratzea ekintza publiko bat da,
+lehentasunezkoa etxebizitza duin eta egoki bat
+En el marco de estas competencias, la Ley
+20/1997, de 4 de diciembre, para la
+Promoción de la Accesibilidad tiene por
+objeto promover por parte de los poderes
+públicos la adopción de las medidas de
+acción positiva necesarias para el eficaz
+cumplimiento de la ley, promoviendo el
+Ayuntamiento medidas de acción positiva
+para la mejora de la accesibilidad en las
+inversiones en rehabilitación. Por su parte,
+la Ley 3/2015, de 18 de junio, de Vivienda,
+señala en su Exposición de Motivos que la
+rehabilitación de edificios y la regeneración
+de espacios urbanos es una acción pública
+eskuratzeko
+dagokionez.
+eskubidearekin
+duen
+loturari prioritaria en su relación con el derecho de
+acceso a una vivienda digna y adecuada.
+Azkenik, 4/2019 Legea, otsailaren 21ekoa,
+Euskal Autono mia Erkidegoko Jasangarritasun
+Energetikoari
+buruzkoak
+II.
+kapituluan
+xedatutakoa arabera «EAEko administrazio
+publikoek neurri eraginkorrak hartu beharko
+dituzte lege honen helburuak lortzeko.»
+Legean, toki- eta foru-administrazioek energia
+jasangarriko ekintza planak garatuko dituztela
+aurreikusten da, eta zehazki, lege horretako 15.
+artikuluan bultzada-neurriak ezar- tzen dira
+honako hau adieraziz: Euskal Autonomia
+Erkidegoko administrazio publikoek, beren
+eskumenak baliatuz eta energiaren alorrean
+eskumena duen sailaren laguntzarekin eta
+koordinazioarekin, lege honetako helburuak
+lortzeko beharrezko diren neurriak bultzatuko
+dituzte.
+Urretxuko Udalak, azken urteotan, herritarren
+irisgarritasuna hobetzeko hainbat ekintza
+burutu ditu, igogailu publikoak, arrapalak,
+espaloiak eta abar eraikiz. Gainera, hainbat
+hobari
+aplikatu
+dira
+bide
+publikoa
+okupatzeagatiko tasetan, bai jabeen erkidegoek
+eraikinen kanpoko inguratzaileen (fatxaden)
+eraginkortasun
+energetikoa
+hobetzeko
+egindako obretan, bai bizitegi-eraikinetan
+igogailuak jartzeko irisgarritasuna hobetzeko
+obretan.
+Hala eta guztiz ere, azken urteotan, eraikinen
+irisgarritasun-baldintzak
+eta
+energia-
+Finalmente, la Ley 4/2019, de 21 de febrero,
+de Sostenibilidad Energética de la
+Comunidad Autónoma del País Vasco,
+establece en su Capítulo II la obligación de
+las Administraciones Públicas Vascas de
+adoptar medidas eficaces para alcanzar los
+objetivos de la presente Ley. La Ley prevé
+el desarrollo de planes de acción de energía
+sostenible por parte de las administraciones
+locales y forales y, en concreto, su artículo
+15 establece medidas de impulso
+señalando que las administraciones
+públicas vascas, en el ejercicio de sus
+competencias y con el apoyo
+y
+coordinación del departamento competente
+en materia de energía, impulsarán las
+medidas necesarias para alcanzar los
+objetivos de la presente ley.
+El Ayuntamiento de Urretxu, en los últimos
+años, ha llevado a cabo distintas acciones
+para mejorar la accesibilidad de la
+ciudadanía con la construcción de varios
+ascensores públicos, rampas, mejora de
+las aceras, etc,... Además de haber
+colaborado,
+aplicando
+diversas
+bonificaciones en las tasas por ocupación de
+vía pública, tanto en obras llevadas a cabo
+por las comunidades de propietarios para la
+mejora de la eficiencia energética de las
+envolventes exteriores de los edificios
+(fachadas), así como en las obras de mejora
+de la accesibilidad para la instalación de
+ascensores en los edificios residenciales.
+A pesar de ello, en los últimos años, se han
+añadido retos que hacen preciso mejorar
+eraginkortasuna hobetu
+erronkak gehitu dira.
+beharra
+dakarten
+las condiciones de accesibilidad y la
+eficiencia energética de los edificios.
+Argi geratu da birgaitze-jarduera ikuspegi
+integral batetik sustatu behar dela, hala nola
+irisgarritasuna eta energia eraginkortasuna
+kontuan hartuz. Kontua ez da soilik energiafakturak eta emisioak murriztea. Politika berri
+horren arrakastaren funtsezko elementua,
+etxebizitzen eta eraikinen jabeak diren eta/edo
+etxebizitza eta eraikin horiek beren benetako
+birgaitze-eskariaren
+hartzaileak
+eta
+erabakitzaileak diren pertsonak dira, eta
+birgaitze horrek balio ekonomikoa, erosotasuna
+eta bizi-kalitatearen hobekuntza ekarri behar
+dizkie, inbertitzeko ahaleginaren ordain gisa.
+Bestetik, berritzeak aukera asko sor ditzake,
+baita irismen handiko onura sozialak,
+ingurumenekoak eta ekonomikoak ere. Eskuhartze berarekin, eraikin osasungarriagoak,
+ekologikoagoak eta irisgarriagoak, lor daitezke.
+Ha quedado claro que la actuación
+rehabilitadora debe promoverse desde una
+perspectiva integral, como la mejora de la
+accesibilidad y la eficiencia energética. No
+se trata solo de reducir las facturas
+energéticas y las emisiones, un elemento
+clave del éxito de esta nueva política
+consiste en que, a las personas
+propietarias de viviendas y edificios, que
+son las destinatarias y determinantes de su
+demanda real de rehabilitación, debe
+aportarles valor económico, comodidad y
+mejora de su calidad de vida como
+contrapartida
+al
+esfuerzo
+inversor.
+Además, la actividad de renovación y mejora
+de los edificios residenciales puede generar
+muchas
+oportunidades,
+así
+como
+beneficios sociales, medioambientales y
+económicos de gran alcance, ya que con
+dicha intervención se pueden conseguir
+edificios más saludables, ecológicos y
+accesibles. Es por ello que, como se ha
+señalado anteriormente, se concederán
+ayudas para mejorar la accesibilidad y la
+eficiencia energética de viviendas y
+edificios.
+Hori dela eta, lehen aipatu den moduan,
+etxebizitzen eta eraikinen irisgarritasuna eta
+energia-eraginkortasuna hobetzeko laguntzak
+emango dira.
+Laguntza hauek Urretxuko dirulaguntzen 20262028
+plan
+estrategikoan
+jaso
+dira,
+Dirulaguntzei buruzko azaroaren 17ko 38/2003
+Lege Orokorraren 8.1 artikuluak eskatzen duen
+bezala. Oinarri hauen xede diren dirulaguntzei,
+bertan ezarritakoaz gain, honako hauek
+aplikatuko zaizkie: Urretxuko Udalaren
+Dirulaguntzak Emateko Ordenantza Arautzailea
+eta oinarri hauetan aurreikusi ez den guztian,
+Dirulaguntzei buruzko azaroaren 17ko 38/2003
+Estas ayudas han sido recogidas en el Plan
+Estratégico de Subvenciones 2026-2028
+de Urretxu, tal y como exige el artículo 8.1
+de la Ley 38/2003, de 17 de noviembre,
+General de Subvenciones. A las
+subvenciones objeto de estas bases les
+serán de aplicación, además de lo
+establecido en las mismas, la Ordenanza
+Reguladora
+de la
+Concesión de
+Subvenciones del Ayuntamiento de
+Urretxu y en lo no previsto en las mismas,
+Lege Orokorra eta uztailaren 21eko 887/2006
+Errege
+Dekretuaren
+bidez
+onartutako
+Erregelamendua aplikatuko dira.
+la Ley 38/2003, de 17 de noviembre,
+General de Subvenciones y el Reglamento
+aprobado por Real Decreto 887/2006, de
+21 de julio.
+1.Xedea.
+1.Objeto.
+Oinarri hauek arautzen dituzten dirulaguntzen
+xedea da Urretxuko udalerrian kokatutako etxe
+bizitzetan eta bizitegi eraikinetan irisgarritasuna
+eta energia eraginkortasuna hobetzeko
+obretarako laguntzak arautzea.
+El objeto de las subvenciones cuyo
+otorgamiento regulan las presentes bases
+es regular la concesión de ayudas para las
+obras de mejora de la accesibilidad y la
+eficiencia energética en viviendas y
+edificios residenciales del municipio de
+Urretxu.
+Oinarri hauen baitan goian aipatutako Dentro de estas bases de esta convocatoria
+helburuak betetzeko 2 lerro bereizten dira:
+se distinguen 2 líneas para el cumplimiento
+de los objetivos arriba mencionados:
+1.- Irisgarritasuna hobetzeko lanak.
+2.- Energia eraginkortasuna hobetzeko lanak.
+1.- Mejora de la accesibilidad.
+2.Diru-baliabideak.
+2.Recursos económicos.
+2026ko aurrekontu ekitaldian programa honen
+xede diren dirulaguntzetara bideratutako diru
+kopurua
+25.000€koa
+izango
+da
+eta
+1.7000.480.152.20.01.2026 (1000).aurrekontu
+partidatik finantzatuko da.
+El importe de las ayudas convocadas a
+través del presente programa asciende a la
+cantidad de 25.000 € para el ejercicio
+presupuestario 2026, y será financiado con
+cargo de la partida presupuestaria
+1.7000.480.152.20.01.2026 (1000).
+2.- Mejora de la eficiencia energética.
+3. Jarduera lagungarriak.
+1.
+lerroa:
+jarduerak.
+3. Obras subvencionables.
+Irisgarritasuna
+hobetzeko
+*
+— Elementu komunetan egindakoak:
+Bizitegi eraikinetako jarduketen kasuan
+honako lan hauek lagunduko dira: igogailuak
+lehen aldiz instalatzeko lanak, dagoeneko
+martxan dagoen igogailu bateko ibilbidea
+(bide publikotik etxe bizitza bakoitzera
+bitartekoa) irisgarri bihurtzeko lanak eta
+pasabideak/ateak
+egokitzeko
+lanak:
+zabalera, norabidea, etab. aldatzekoak
+eta/edo
+beharrezkoak
+diren
+mekanismo/elementuak instalatzekoak.
+— Elementu pribatiboetan egindakoak:
+Etxe bizi tzen barruko irisgarritasuna
+hobetze
+ko
+jarduketen
+kasuan,
+bainugeletako
+barrualdeak
+hobetzea
+lagunduko da: bainuontziak dutxekin,
+pasoko ateekin, komunen egokitzapenarekin
+eta abarrekin ordezkatzea, eta segurtasun
+elementu finkoak instalatzea, hala nola
+bainuontzi
+ko
+eserlekuak,
+txorrotak,
+oholtzak, barrak eta/edo euskarriak. Beti ere,
+mugikortasun urriko pertsonak edo 65 urtetik
+gorakoak bizi badira.
+Pertsona batek mugikortasun murriztua
+duela joko da urriaren 18ko 888/2022 Errege
+Dekretuaren arabera % 25eko edo
+gehiagoko ehunekoa duenean.
+2.
+lerroa:
+Energia
+hobetzeko jarduerak.
+Línea 1. Obras
+accesibilidad.
+de
+mejora
+de
+la
+—
+Relativas a elementos comunes: En
+el caso de actuaciones en edificios
+residenciales se apoyarán las obras de
+primera instalación de ascensores, la
+conversión en accesible del recorrido de un
+ascensor ya en funcionamiento (desde la vía
+pública hasta cada vivienda) y la adecuación
+de pasos/puertas: modificación de ancho,
+dirección,
+etc.
+y/o
+instalación
+de
+mecanismos/elementos necesarios.
+—
+Relativas a elementos privativos: En
+el caso de las actuaciones de mejora de la
+accesibilidad en el interior de las viviendas
+se apoyarán las mejoras de los interiores de
+los baños: sustitución de bañeras por
+duchas, puertas de paso, acondicionamiento
+de aseos, etc., e instalación de elementos
+fijos de seguridad como asientos de bañera,
+grifos, mamparas, barras y/o soportes.
+Siempre y cuando, habiten personas con
+movilidad reducida o mayores de 65 años.
+Se considera que una persona tiene
+movilidad reducida cuando tiene un
+porcentaje igual o superior al 25 % según el
+Real Decreto 888/2022, de 18 de octubre.
+eraginkortasuna
+Línea 2. Obras de mejora de la eficiencia
+energética.
+Elementu komunetan egindakoak:
+Bizitegi eraikinetako jarduketen kasuan
+honako lan hauek lagunduko dira:
+eraikinaren inguratzaile termikoa eta
+beharrezko isolamendua hobetzeko lanak.
+Relativas a elementos comunes: En el
+caso
+de
+actuaciones
+en
+edificios
+residenciales se apoyarán las obras de
+mejora de la envolvente térmica del edificio
+o aislamiento necesario del edificio.
+Elementu pribatiboetan egindakoak: Etxe
+bizitzen kasuan, energia-eraginkortasuna
+hobetzea,
+etxebizitzaren
+inguratzaile
+termikoa
+hobetzeko
+lanak
+(itxiturei
+isolamendu termikoa gehitzekoak, arotzeria
+eta beirakiak ordezkatzekoak.
+Relativas a elementos privativos:
+Mejora de la eficiencia energética mediante
+obras de mejora de la envolvente térmica de
+la vivienda (aumento del aislamiento térmico
+de los cierres, sustitución de carpinterías y
+cristales.
+Urte bateko epean portal berdineko
+etxebizitza kopuruan %25ª baino gehiagotan
+aurreikusitako norbanako lan berdinak,
+komunitate lanak bezala kontsideratuko dira.
+Las mismas obras individuales previstas en
+el plazo de un año que afecten a más del 25
+% del número de viviendas por portal se
+considerarán comunitarias.
+4. Eskatzaileak/Onuradunak.
+Izaera orokorrez, onuradunek Urretxuko
+Udalak dirulaguntzak emateko onartutako
+ordenantza arautzailearen 7. Artikuluan
+eskatutako baldintzak bete beharko dituzte
+(2022ko uztailaren 29ko Gipuzkoako
+ALDIZKARI OFIZIALA, 144. zk.), bai eta
+azaroaren 17ko 38/2003 dirulaguntzen
+legeak
+13.
+artikuluan
+ezarritako
+betebeharrak ere.
+4. Solicitantes/Beneficiarias.
+Con carácter general, las personas
+beneficiarias deberán cumplir los requisitos
+exigidos en el artículo 7 de la Ordenanza
+reguladora de la concesión de subvenciones
+aprobada por el Ayuntamiento de Urretxu
+(BOLETÍN OFICIAL de Gipuzkoa n.º 144, de
+29 de julio de 2022), así como las
+obligaciones establecidas en el artículo 13
+de la Ley 38/2003, de 17 de noviembre, de
+subvenciones.
+El régimen de las presentes subvenciones
+Honako dirulaguntza hauen araubidea soil- será de aplicación exclusivamente para
+soilik aplikatuko da bizitegi eraikinetan.
+intervenciones en edificios residenciales.
+4.1 Elementu
+komunetan
+egindako
+lanetan, zuzeneko onuradunak izango dira,
+hain justu, legez eratutako Jabekideen
+Erkidegoak.
+Honako atal honetan xedatutako laguntzen
+izapideak,
+bestalde,
+Jabekideen
+Erkidegoaren ordezkariak egin beharko ditu;
+betiere, Jabetza Horizontalaren Legean
+xedatutako modu eta baldintzetan. Gainera,
+haren ardura izango da dirulaguntzaren eta
+diruz lagun tzen diren jarduketak egiteko
+beharrezkoak diren erabakien barne
+kudeaketa.
+4.1.
+En las obras de elementos
+comunes serán beneficiarias directas las
+comunidades de propietarios legalmente
+constituidas. La tramitación de las ayudas
+contempladas en el presente apartado
+deberá efectuarse por quien represente a la
+comunidad de propietarios/as en los
+términos establecidos en la Ley de
+Propiedad Horizontal. Asimismo, será
+responsable de la gestión interna de la
+subvención y de las decisiones necesarias
+para la realización de las actuaciones
+subvencionadas.
+4.2
+Elementu pribatiboetako obretan:
+4.2.
+En
+las
+obras
+de
+elementos
+privativos:
+Serán personas beneficiarias las
+a)
+Etxebizitzen jabeak edo familia a)
+solicitantes
+que sean personas propietarias
+bakarreko edo bi familiako eraikinen jabeak
+de viviendas o propietarias de edificios
+diren eskatzaileak izango dira onuradunak.
+unifamiliares o bifamiliares.
+b)
+Será requisito necesario que la
+b)
+Onuradunaren bizitegi eta ohiko
+vivienda tenga condición de vivienda
+egoitza izan beharko da. Hori, udal
+habitual del/la beneficiario/a. Lo cual, deberá
+erroldaren bitartez egiaztatu beharko da.
+quedar acreditado a través del padrón
+municipal.
+Betekizun hori salbuetsia geratuko da
+Se exceptúa el requisito mencionado en los
+ondorengo egoeretan:
+siguientes supuestos:
+- Las viviendas incorporadas o que se
+Alokairu-merkatuko
+bitartekaritza
+programaren publiko batean gutxienez sei vayan a incorporar a alguno de los
+urtez sartutako edo sartuko diren etxe programas públicos de intermediación en el
+mercado del alquiler durante un plazo
+bizitzak.
+mínimo de seis años.
+- Errentamenduan
+lagatako
+- Las
+viviendas
+cedidas
+en
+etxebizitzak.
+arrendamiento.
+- Lan, osasun edo mendekotasun
+- Las viviendas desocupadas de forma
+arrazoiengatik aldi baterako jenderik gabe
+temporal
+por razones laborales, de salud o
+dauden etxebizitzak.
+dependencia de forma justificada.
+- Indarrean
+dagoen
+araudian
+- Las viviendas que no cumplen los
+ezarritako irisgarritasun-baldintzak bete tzen
+requisitos
+de accesibilidad establecidos en la
+ez dituzten etxebizitzak, baldin eta
+vigente
+y
+hayan
+sido
+Mugikortasun murriztua edo desgaitasun normativa
+desocupadas
+por
+personas
+discapacitadas,
+sentsoriala duten desgaituek okupatze ari
+utzi badiote, indarreko araudian ezarritako con movilidad reducida o discapacidad
+sensorial por no cumplir esta los requisitos
+irisgarritasun baldintzak ez betetzeagatik.
+de accesibilidad establecidos en la
+normativa vigente.
+- Ezkontza-banaketa, dibortzioa edo
+- Las viviendas adjudicadas a un solo
+izatezko bikotearen haustura dela eta
+miembro de la pareja en caso de separación
+bikoteko kide bakar bati esleitutako etxe
+matrimonial, divorcio o ruptura de pareja de
+bizitzak, esleipendun ez diren pertsonek
+hecho,
+cuando
+las
+personas
+no
+etxebizitza abandonatu behar dituztenean.
+adjudicatarias tengan que abandonarlas.
+- Genero-indarkeriaren ondorioz edo
+- Las viviendas abandonadas a
+behar bezala egiaztatutako antzeko arrazoi consecuencia de la violencia de género o de
+sozialen ondorioz abandonatutako etxe razones similares de índole social
+bizitzak.
+debidamente acreditadas.
+c)
+Los ingresos anuales ponderados de
+c)
+Onuradunen
+familia-unitatearen la unidad familiar no pueden superar en
+urteko diru sarrera haztatuak ezingo du, ningún caso, los 45.500 euros anuales.
+inondik inora, 45.500 eurotik gorakoa izan.
+Los ingresos computables serán las bases
+Diru-sarrera konputagarriak zerga oinarri
+imponibles generales, las bases imponibles
+orokorrak, aurrezpenaren zerga oinarriak,
+del ahorro, las bonificaciones aplicadas a los
+lan etekinei aplikatutako hobariak eta
+rendimientos del trabajo y las rentas exentas
+zergarik gabeko errentak izango dira.
+de impuestos.
+2025 ekitaldi fiskalari dagozkion dirusarrerak hartuko dira kontuan (organo
+kudeatzailea arduratuko da baldintza hori
+instrukzio fasean egiaztatzeaz).
+Se tendrán en cuenta los ingresos
+correspondientes al ejercicio fiscal 2025
+(será el órgano gestor el encargado de
+verificar esta condición en la fase de
+instrucción).
+Lortutako diru-sarrerak Eusko Jaurlaritzaren
+babes publikoko etxebizitzen araubide
+juridikoari eta etxebizitzaren eta lurzoruaren
+inguruko
+finantza-neurriei
+buruzko
+martxoaren 4ko 39/2008 Dekretuaren
+arabera haztatuko dira.
+Bizikidetza Unitateko kide guztiek Urretxuko
+Udaleko zerga, tasa, ariel eta zehapenen
+ordainketak egunera izan behar dituzte.
+Los ingresos obtenidos se ponderarán, de
+conformidad al Decreto 39/2008, de 4 de
+marzo, sobre régimen jurídico de viviendas
+de protección pública y medidas financieras
+en materia de vivienda y suelo del Gobierno
+Vasco.
+Todos los miembros de la Unidad
+Convivencial tendrán que estar al corriente
+del pago de impuestos, tasas, arbitrios y
+sanciones del Ayuntamiento de Urretxu.
+5. Diruz lagunduko diren jardueretako 5. Requisitos a cumplir por los edificios
+de las actividades a subvencionar.
+eraikinek bete beharreko baldintzak.
+5.1. Urretxuko udalerri barnean egotea.
+5.1. Estar situado en el término municipal de
+Urretxu.
+5.2. 15 urte baino gehiago izatea, ez egotea
+5.2. Tener una antigüedad superior a 15
+hondatuta eta ez izatea lanak egiteko udal
+años, no estar declarado en ruina y que no
+baimena galarazteko moduko hirigintza
+tenga una afección urbanística que impida
+erasanik.
+la autorización municipal para realizar
+obras.
+5.3.
+Eraikinen sestra gaineko %80a
+5.3. Destinar al menos el 80% de su parte
+bizitegi erabilerara bideratuta egotea.
+Jenderik gabeko eraikinetako obrak ez dira
+diruz lagunduko. Eraikin bat jenderik gabe
+dagoela ulertzen da etxebizitzen %75 baino
+gehiago okupatu gabe dagoenean.
+sobre rasante a uso residencial. No se
+ayudarán económicamente a los edificios
+que estén deshabitados. Se entiende que
+un edificio esta deshabitado cuando más del
+75% de las viviendas no se encuentran
+ocupadas.
+6. Diruz lagundu daitezkeen gastuak.
+6. Gastos subvencionables.
+6.1. Diruz lagungarri diren jarduketei ekiteko 6.1. Respecto al plazo de inicio y fin de las
+eta amaitzeko epeari dagokionez:
+actuaciones subvencionables:
+Gastu hautagarritzat hartuko dira laguntza
+hauen xedearekin lotura zuzena duten obra
+edo jarduerak; betiere, 2026ko urtarrilaren
+1etik aurrera hasitakoak eta 2027ko
+azaroaren 30a baino lehen amaitzen
+direnak. Obra-lizentzia edo zuinketaren
+egiaztapen-akta edo horren ordezko
+dokumentua hartuko da hasiera-datatzat.
+Se considerarán gastos subvencionables las
+obras
+o
+actividades
+directamente
+relacionadas con el objeto de estas ayudas,
+iniciadas a partir del 1 de enero de 2026 y
+que finalicen antes del 30 de noviembre
+de 2027. Se considerará como fecha de
+inicio la licencia de obras o el acta de
+comprobación de replanteo o documento
+que le sustituya.
+Gerora
+sortutako
+egoeren
+ondorioz,
+ezarritako epean amaitu direla justifikatu
+ezin duten obren kasuan, gainjarritako
+egoera hori aintzat hartu eta dagokion
+salbuespena aplikatzeko eskatu beharko
+dute, gutxienez epe hori amaitu baino
+hilabete lehenago.
+Para aquellas obras que debido a
+situaciones sobrevenidas no puedan
+justificar su finalización dentro del plazo
+establecido, al menos 1 mes antes de la
+finalización del mismo, deberán solicitar que
+dicha circunstancia sea tomada en
+consideración y que se pueda aplicar una
+excepción a dicha regla general.
+Dagokion balorazioa egin ondoren, eta
+udalaren aldeko txosten teknikoa jaso
+ondoren, gauzatutako zati proportzionala
+likidatu eta gauzatu gabe dagoen zatiaren
+laguntza eskatu ahal izango da berriro
+ondorengo deialdian, hala onartzen bada,
+gehienez ere, aurreko laguntzan onartutako
+jasotzeke dagoen zenbatekoa eskatuz.
+Tras la pertinente valoración y una vez
+obtenido
+informe
+técnico
+municipal
+favorable, se podrá liquidar la parte
+proporcional ejecutada, pudiendo volver a
+solicitar la ayuda en la siguiente
+convocatoria, si esta se aprobase, de la
+parte pendiente de ejecución, solicitando,
+como máximo, la cuantía pendiente de
+recepción aprobada en la ayuda anterior.
+6.2
+Gastu hautagarri modura hartuko 6.2
+Se
+considerarán
+gastos
+dira
+lerro
+bakoitzerako
+onuradunak
+aurkezten duen obraren exekuziorako
+zehaztutako aurrekontuan jasota agertzen
+direnak, eta haren garapenarekin zuzenean
+lotuta daudenak. Gastu hautagarriak
+gutxienez 1.500 € aurrekontua izan behar
+etxebizitza bakoitzeko.
+Era berean, dirulaguntza aitortzeko, gastu
+hautagarriari dagokion udal lizentziaren
+eskaera burututa izatea galdatuko da.
+Aitorturiko
+dirulaguntzaren
+ordainketa
+jasotzeko berriz, udal lizentzia aitortua izatea
+eta ezarritako udal zerga ordaintzea
+beharrezkoa izango da.
+subvencionables aquellos gastos en cada
+línea que figuran recogidos en el
+presupuesto desglosado y detallado de la
+ejecución de obra que presente el/la
+beneficiario/a, y los que estén directamente
+vinculados a su desarrollo. El gasto
+subvencionable
+deberá
+tener
+un
+presupuesto mínimo de 1.500 € por vivienda.
+Asimismo, para el reconocimiento de la
+subvención se exigirá haber realizado la
+solicitud
+de
+licencia
+municipal
+correspondiente al gasto elegible. Para el
+abono de la subvención reconocida se
+requerirá el reconocimiento de la licencia
+municipal y el pago del impuesto municipal
+establecido.
+6.3.
+Ez dira diruz lagungarri izango 6.3.
+No
+se
+considerarán
+gastos
+zeharkako zergak (BEZa kasu).
+subvencionables los impuestos indirectos
+(como el IVA).
+Se
+considerarán
+gastos
+6.4.
+Diruz lagungarri izango dira birgaitze 6.4.
+jarduketa
+horrengatik
+ordaindutako subvencionables los derechos, tasas y otros
+precios públicos satisfechos por razón de la
+eskubide, tasa eta prezio publikoak.
+citada actuación de rehabilitación.
+6.5.
+Orobat, gastu guztiak merkatuko 6.5.
+Asimismo, todos los gastos
+batez besteko prezioekin bat etorri beharko deberán ajustarse a los precios medios de
+dira.
+mercado.
+6.6.
+Erakunde eskatzaileak aurkeztutako
+aurrekontuan diruz ezin lagundu daitezkeen
+gastuak jasoko balira, edo diruz lagundu
+daitezkeen
+gastu
+izanik
+horietarako
+ezarritako muga gaindituko balute, edo
+modu nabarian neurriz gaindikoak izango
+balira, horiek baztertu edo alboratu egingo
+dira, dirulaguntzaren muga zehazteko oinarri
+modura baliagarri izango den diruz lagundu
+daitezkeen gastuen aurrekontua ezartze
+aldera.
+6.7.
+Egindako
+gastutzat
+hartuko
+6.6.
+En caso de que el presupuesto
+presentado por la entidad solicitante
+incluyera gastos considerados como no
+subvencionables, o que siéndolo superasen
+el límite fijado para ellos, o fueran
+manifiestamente exagerados, se procederá
+a su eliminación o depuración al objeto de
+fijar
+el
+presupuesto
+de
+gastos
+subvencionables que servirá de base para la
+determinación del límite de la subvención.
+da 6.7.
+Si bien se considerará gasto
+zehaztutako justifikazio aldia amaitu aurretik
+benetan ordaindu dena, halaber onartu
+egingo dira dirulaguntzaren erakunde
+onuradunak ordaintzeko dituen gastuak,
+dagozkien faktura edo froga baliokidea duten
+agirien bidez justifikatuta daudenean.
+realizado aquél que haya sido efectivamente
+pagado con anterioridad a la finalización del
+periodo de justificación determinado, se
+admitirá también el que, estando pendiente
+de pago por la entidad beneficiaria de la
+subvención, se encuentre justificado
+mediante las correspondientes facturas o
+documentos de valor probatorio equivalente.
+7. Dirulaguntzetarako
+eskaerak
+7.Forma y plazo de presentación de las
+aurkezteko modua eta epea.
+solicitudes de subvención.
+7.1.
+Eskaerak
+aurkezteko
+modua:
+Forma de presentación: Quienes
+Laguntza horiek jaso nahi dituztenek deialdi 7.1.
+deseen
+optar a estas ayudas deberán
+honetan zehaztutako ereduaren araberako
+eskabide eredu ofiziala bete eta aurkeztu presentar una solicitud cumplimentada de
+beharko dute. Normalizatutako inprimakia acuerdo con el modelo oficial que se
+Udalaren sarrera erregistroan eta Urretxuko concrete en la presente convocatoria. El
+Udalaren webgunean eskuratu ahal izango impreso normalizado estará disponible en el
+registro municipal y en la página web del
+da.
+Ayuntamiento de Urretxu.
+Eskaerak aurkezteko bideak:
+Medios para la presentación de solicitudes:
+Aurrez aurre: eskabideak Urretxuko —
+Presencialmente: Las solicitudes se
+Udaleko erregistro orokorrean aurkeztu presentarán en el registro general del
+behar
+dira,
+astelehenetik
+ostiralera, Ayuntamiento de Urretxu, de lunes a viernes,
+08:00etatik 14:00etara.
+de 08:00 a 14:00 horas.
+Erregistro elektronikoa: eskabidea
+modu elektronikoan aurkeztu ahal izango da
+udalaren
+web-helbidean:
+https://www.urretxu.eus.
+Eskabidea izapidetzeko eta dokumentazioa
+aurkezteko
+bide
+presentziala
+edo
+elektronikoa erabiltzeak, ez du esan nahi
+nahitaez erabili behar denik prozeduraren
+hurrengo izapideetan, eta edozein unetan
+alda daiteke.
+—
+Registro electrónico: Se podrá
+presentar la solicitud de manera electrónica
+a través de la dirección web del
+ayuntamiento: https://www.urretxu.eus.
+El empleo de un medio, presencial o
+electrónico, en el trámite de solicitud y
+aportación de documentación, no obliga a su
+utilización en los sucesivos trámites del
+procedimiento, pudiendo modificarse en
+cualquier momento.
+Eskabidea ordezkari baten bidez egiten Si la solicitud se realiza mediante
+bada, ordezkaritza egiaztatu beharko da, representante, se deberá acreditar la
+Administrazio
+Publikoen
+Administrazio
+Prozedura Erkidearen urriaren 1eko 39/2015
+Legearen
+5.
+eta
+6.
+artikuluetan
+ezarritakoaren arabera.
+representación conforme a lo establecido en
+los artículos 5 y 6 de la Ley 39/2015, de 1 de
+octubre, del Procedimiento Administrativo
+Común de las Administraciones Públicas.
+7.2.
+7.2.
+Documentación a presentar por las
+entidades solicitantes:
+Aurkeztu beharreko agiriak:
+Izaera orokorrez, eskaera-orriarekin batera
+Con carácter general, junto a la solicitud
+(eskaera eredua), honako agiriak aurkeztu
+(modelo normalizado de solicitud), deberá
+beharko dira:
+presentarse la siguiente documentación:
+1.- Elementu
+kasuan:
+indibidualetako
+obren
+1.- En caso de obras de elementos
+individuales:
+a)
+Eskatzailearen
+edo/eta
+haren
+a)
+Fotocopia del DNI del solicitante y/o
+ordezkariaren eta familia kideen Nortasun representante de la entidad solicitante y de
+Agirien kopia bat.
+los miembros de la unidad convivencial.
+b)
+Zaharberritu beharreko elementuen
+b)
+Fotografías en color de los elementos
+kolorezko argazkiak.
+a rehabilitar.
+Presupuestos detallados de los
+c)
+Egin beharreko lanei dagozkien c)
+gremios
+correspondientes a las obras a
+gremioen
+aurrekontu
+zehaztuak
+eta
+realizar y de los honorarios técnicos
+teknikarien ordainsarienak.
+correspondientes.
+d)
+Kontuaren titulartasuna egiazta tzen
+duen agiria.
+e)
+f)
+Jabetzaren titulartasuna egiaztatzen
+duen agiria.
+Documento que acredite la titularidad
+de la cuenta.
+d)
+Documento que acredite la titularidad
+de la propiedad.
+e)
+2.- Elementu komunetan egindako obren 2.- En caso de las obras en elementos
+kasuan:
+comunes:
+Eskaera jabe erkidegoak burutzen — Cuando la solicitud la
+duenean:
+comunidad de propietarios:
+realice
+la
+a)
+Eraikinen Azterketa Teknikoaren a)
+Informe de Inspección Técnica de
+txostena, elementu komunen lanetarako, Edificios, para obras de elementos comunes,
+aplikagarria den araudian ezarritako en los términos que resulten de la normativa
+eskakizunen baitan.
+de aplicación.
+Fotocopia del NIF de la Comunidad
+b)
+Jabekide Elkartearen Identifikazio b)
+de Propietarios.
+Fiskalerako Zenbakiaren (IFZ) fotokopia.
+Fotocopia del acta de la Comunidad
+c)
+Jabekide
+Elkarteak
+egindako c)
+bileraren aktaren fotokopia, dirulaguntza de propietarios con el acuerdo de solicitud
+eskatzeko
+eta
+Jabekide
+elkartearen de la ayuda y facultando la representación
+ordezkaritza
+eskuordetzeko
+erabakiak de la Comunidad.
+jasotzen dituenean.
+d)
+Dirulaguntza zein lanetarako eskatu
+den, proiektua edo hala badagokio,
+oroitidazkia, atalka banatutako aurrekontua,
+eta obra baimenaren kopia.
+d)
+Obra para la que se solicita la
+subvención, proyecto, o en su caso
+memoria, presupuesto desglosado por
+partidas y copia de la licencia.
+e)
+Eraikinak jabe bakarra badauka, e)
+En caso de un/a único/a propietario/a
+eraikinaren etxebizitzen gutxienez % 80ren del edificio, contratos de arrendamiento en
+alokatze kontratuak, indarrean daudenak.
+vigor de al menos el 80 % de las viviendas
+del edificio.
+Documento que acredite la titularidad
+f)
+Kontuaren titulartasuna egiaztatzen f)
+de la cuenta.
+duen agiria.
+7. 3. diru-laguntzak emateko Oinarri
+Orokorrekek xedatzen duten arabera,
+Urretxuko Udalak honako baldintza hauek
+egiaztatuko ditu deialdi honetan ematen
+dituen diru-laguntzak eskuratzeko, datuen
+bitartekotzako plataformatik eta beste
+administrazio batzuetatik (NISAE), zehazki:
+7.3. Tal y como establecen las Bases
+generales para el otorgamiento de
+subvenciones, el Ayuntamiento de Urretxu
+va a verificar los siguientes requisitos para
+acceder a las subvenciones que otorgue en
+esta convocatoria, desde la plataforma de
+intermediación
+de
+datos
+y
+otras
+administraciones, NISAE, en concreto:
+Certificado de estar al corriente de
+Gizarte
+Segurantzarekiko betebeharrak egunean dituela egiaztatzen sus obligaciones -frente a la Seguridad
+Social.
+duen agiria.
+Certificado de estar al corriente de
+Foru
+Ogasunekiko
+zerga betebeharrak egunean dituela egiaztatzen sus obligaciones tributarias frente a las
+Haciendas Forales,
+duen agiria.
+-
+PFEZ-ren dtuak Foru Ogasunetan.
+Consulta datos
+Haciendas Forales.
+I.R.P.F.
+en
+las
+Interesdunak horiek erabiltzearen aurka Cuando la persona interesada se oponga al
+egiten badu, dagozkion datuak edo uso de los mismos deberá aportar los datos
+dokumentuak aurkeztu beharko ditu.
+o documentos correspondientes.
+Se realizarán de oficio las consultas de datos
+Urretxuko Udalak ofizioz egiaztatuko du del propio Ayuntamientos de Urretxu:
+berak dituen datu hauek:
+Las certificaciones de estar al
+Urretxuko Udalarekiko betebeharrak corriente con el Ayuntamiento de Urretxu.
+betetzen direla
+La existencia de licencia de obras.
+Obra-baimena izatea.
+El requisito de que la vivienda tenga
+Etxebizitza onuradunaren ohiko condición de vivienda habitual del/la
+etxebizitza izateko baldintza, Biztanleen beneficiario/a, mediante la consulta del
+Padrón municipal de Habitantes.
+Udal Erroldaren kontsultaren bidez.
+Bizikidetza-unitateko
+kopurua,
+Biztanleen
+Udal
+kontsultatuz.
+7.4.
+El número de miembros de la unidad
+kideen Errolda convivencial, mediante la consulta del
+Padrón municipal de Habitantes.
+Eskaerak aurkezteko epea.
+7.4. Plazo de presentación de solicitudes.
+2026ko deialdiari dagozkion eskabideak
+oinarri hauek argitaratu eta hurrengo
+egunetik aurrera aurkeztu ahal izango dira,
+eta eskabideak aurkezteko epea 2026ko
+abenduaren 15ean amaituko da.
+Las solicitudes correspondientes a la
+convocatoria 2026 podrán presentarse
+desde el día siguiente a la publicación de
+estas bases y el plazo de presentación de
+solicitudes finalizará el 15 de diciembre de
+2026.
+8. Eskaeraren akatsak zuzentzea.
+8. Subsanación de la solicitud.
+Eskaerak edo horrekin batera aurkezten den
+dokumentazioak ez baditu identifikazio
+datuak biltzen, akatsen bat badu edo zerbait
+falta bada, eskatzaileari eskatuko zaio,
+urriaren 1eko Administrazio Publikoen
+Administrazio
+Prozedura
+Erkidearen
+Legeak
+68.1
+artikuluan
+ezarritakoari jarraiki, hamar eguneko epean
+akats horiek zuzendu ditzan; eta adieraziko
+zaio hori egin ezen, eskaeran atzera egin
+duela ulertuko dela, aipatu legearen 21.4
+artikuluan aurreikusitakoaren arabera.
+Si la solicitud o la documentación que debe
+acompañarla no reunieran los datos de
+identificación, adolecieran de algún error o
+fueran incompletas, se requerirá a la entidad
+solicitante, de acuerdo con lo establecido en
+el artículo 68.1 de la Ley 39/2015, de 1 de
+octubre, del procedimiento administrativo
+común de las administraciones públicas,
+para que, en el plazo de diez días, subsane
+los defectos detectados, con indicación de
+que, si así no lo hiciera, se le tendrá por
+desistida de su petición, en los términos
+previstos en el artículo 21.4 de ese mismo
+texto legal.
+Organo instruktoreak eskatzaileari eskatu
+ahalko dio eskaera ebaluatu eta erabakia har El órgano instructor podrá requerir a las
+tzeko
+beharrezkotzat
+jotzen
+duen entidades
+solicitantes
+cuanta
+dokumentazio eta informazio osagarri oro.
+documentación
+e
+información
+complementaria considere necesarias para
+la adecuada evaluación y resolución de la
+solicitud presentada.
+9. Emateko prozedura.
+Deialdi honetan araututako dirulaguntza,
+Dirulaguntzei buruzko azaroaren 17ko
+38/2003 Lege Orokorraren 22. Artikuluan
+ezarritakoaren
+arabera
+emango
+da,
+konkurrentzia ez lehiakorraren arabera.
+9. Procedimiento de concesión.
+La concesión de la subvención regulada en
+esta convocatoria se realizará de acuerdo
+con lo establecido en el artículo 22 de la Ley
+38/2003, de 17 de noviembre, General de
+Prozedura ofizioz hasiko da, organo Subvenciones, mediante concurrencia no
+eskudunak onartutako eta Gipuzkoako competitiva.
+ALDIZKARI OFIZIALEAN argitaratutako El procedimiento se iniciará de oficio,
+deialdi publikoaren bidez.
+mediante convocatoria pública aprobada por
+el órgano competente y publica- da en el
+10. Eskaeren ebaluazio irizpideak
+10.Criterios
+solicitudes.
+de
+evaluación
+de
+las
+Deialdira aurkezten diren eskaerak oinarri
+arautzaileetan jarduera lerro bakoitzerako Las solicitudes que se presenten a la
+zehazten diren irizpideen arabera baloratuko convocatoria se valorarán de acuerdo con
+dira.
+los criterios que para cada una de las líneas
+de actuación se establecen.
+11. Gehieneko zenbatekoa, muga eta 11. Cuantía máxima, limitación y
+bateragarritasuna beste dirulaguntza compatibilidad con otras subvenciones.
+batzuekin.
+Para los trabajos considerados privativos.
+Lan pribatiboak.
+Las personas que cumplan los requisitos
+Laguntzen onuradun izateko betekizunak
+para ser beneficiarias podrán beneficiarse
+bete tzen dituzten pertsonek itzuli beharrik
+de ayudas individuales a fondo perdido por
+gabeko banakako laguntzak jaso ahal izango
+la ejecución, de Importe: 30 % del gasto
+dituzte
+elementu
+pribatiboetako
+subvencionable (IVA excluido) con un límite
+jarduerentzat honako zenbatekoan: Diruz de 3.000 euros.
+laguntzeko moduko gastuaren (BEZa kanpo)
+% 30a, 3.000 euroko mugarekin.
+Komunitate lanak.
+Dirulaguntza
+orokorrak:
+Jabetza
+horizontaleko
+edo
+jabe
+bakarreko
+araubideko
+eraikinetan
+egiten
+diren
+erkidegoen obretan, onuradun izateko
+betekizunak bete tzen direnean, aurrekontu
+babesgarriaren % 40ko dirulaguntza
+aitortuko da atari bakoitzeko, 8.000 euroko
+mugarekin.
+Trabajos considerados comunitarios.
+En las obras de comunidades que se
+realicen en edificios de propiedad horizontal
+o en caso de propietarios únicos, cuando se
+cumplan los requisitos para ser beneficiario,
+se reconocerá una subvención del 40 % del
+presupuesto protegible por portal, con un
+límite de 8.000 euros.
+Dirulaguntzaren zenbatekoa eskatzaileak
+helarazitako dokumentazioaren arabera
+ezarriko
+da,
+aurrekontuaren
+erabilgarritasuna
+eta
+jarduera-ildo
+bakoitzeko
+eranskinean
+zehaztutako
+dirulaguntzak balora tzeko irizpideak
+kontuan izanik.
+El importe de la subvención se fijará con
+arreglo a la documentación aportada por la
+persona/entidad solicitante, teniendo en
+cuenta las disponibilidades presupuestarias
+y los criterios de valoración de las
+subvenciones definidas en las bases
+específicas de cada línea de actuación.
+Lerro desberdinetako dirulaguntzak elkarren
+artean bateragarriak dira.
+Jarduera nagusitzat gastu
+handiena duena ulertuko da.
+babesgarri
+Oinarri hauen xede diren dirulaguntzak
+bateragarriak izango dira Estatuko, Europar
+Batasuneko
+edo
+nazio
+arteko
+organismoetako edozein administrazio edo
+entitate publiko nahiz pribatutik eratorrita,
+helburu bererako diren beste dirulaguntza,
+laguntza, diru sarrera edo baliabide
+batzuekin, batera gertatzen diren beste
+dirulaguntzak arautzeko araudian horri
+dagokionez ezar daitekeenaren kalterik
+gabe.
+Las actuaciones subvencionables de las
+distintas líneas son compatibles entre sí.
+Se entenderá por actividad principal aquella
+que tenga un mayor gasto protegible.
+Las subvenciones objeto de las presentes
+bases serán compatibles con otras
+subvenciones, ayudas, ingresos o recursos
+para la misma finalidad, procedentes de
+cualesquiera administraciones o entes
+públicos o privados, estatales, de la Unión
+Europea o de organismos internacionales,
+sin perjuicio de lo que al respecto pudiera
+establecer la normativa reguladora de las
+otras subvenciones concurrentes.
+Oinarri hauetan araututako dirulaguntzen
+zenbatekoa ezingo du, inolaz ere, diruz
+lagundutako jardueraren kostua gaindi tzen
+duen zenbatekoa izan, bakarka edo beste
+dirulaguntza, laguntza, diru sarrera edo
+baliabide batekin batera.
+El importe de las subvenciones reguladas en
+estas bases en ningún caso podrá ser de tal
+cuantía
+que,
+aisladamente
+o
+en
+concurrencia con otras subvenciones,
+ayudas, ingresos o recursos, supere el coste
+de la actividad subvencionada.
+Dirulaguntza emateko kontuan izaniko
+baldintzetan egiten den edozein aldaketak
+eta, edozein kasutan, oinarri hauetan
+baimendutako kasuez aparteko bestelako
+ekarpen batzuen eskurapenak, emakidaren
+ebazpena aldatzea ekarri ahalko du.
+Toda alteración de las condiciones tenidas
+en cuenta para la concesión de la
+subvención y, en todo caso, la obtención
+concurrente de otras aportaciones fuera de
+los casos permitidos en las presentes bases
+podrá dar lugar a la modificación de la
+resolución de concesión.
+12. Prozedura antolatu eta bideratze ko 12. Órganos competentes para la
+eskumena duten organoak.
+ordenación
+instrucción
+del
+procedimiento.
+Udaleko
+Idazkaritza
+Sailari
+dagokio
+dirulaguntzak
+emateko
+prozedura
+antolatzea.
+Instrukzio fasea dirulaguntza eskaeraren
+aurre ebaluazioarekin hasiko da eta
+horretarako, dirulaguntzaren onuradun
+izateko ezarritako baldintzak betetzen diren
+egiaztatuko da.
+Instrukzio-organoak
+aztertuko
+ditu
+eskabideak, eta eskabideen balorazio
+txostena egingo du. Txosten hori Lurraldea
+Informazio Batzordeari igorriko zaio,
+egindako ebaluazioaren emaitza emango
+duen ebazpen proposamena egin dezan;
+eta, ondoren, eskumena duen organoa den
+Tokiko Gobernu Batzordeari aurkeztuko
+Corresponderá al Departamento de
+Secretaría del Ayuntamiento la ordenación
+del procedimiento de concesión de las
+subvenciones.
+La fase de instrucción se iniciará con la
+preevaluación de la solicitud de subvención,
+que consistirá en la verificación del
+cumplimiento
+de
+las
+condiciones
+establecidas para adquirir la condición de
+entidad beneficiaria de la subvención.
+Las solicitudes serán analizadas por el
+órgano instructor que elaborará un informe
+de valoración de las mismas. Dicho informe
+será sometido a la Comisión Informativa de
+Territorio que, a su vez, emitirá una
+propuesta de resolución en la que se
+concretará el resultado de la evaluación
+efectuada, y que será elevada a la Junta de
+Gobierno Local como órgano competente
+zaio, onartu dezan.
+para su aprobación.
+13. Dirulaguntzak emateko ebazpena.
+13. Resolución de concesión.
+Lurraldea Informazio Batzordeak egindako
+proposamena ikusita, Tokiko Gobernu
+Batzordeak prozedura ebatziko du ebazpen
+arrazoitu bidez oinarrietan xedatutakoaren
+arabera, eta prozeduran ebazpenaren
+oinarriak egiaztatu beharko dira.
+A la vista de la propuesta elevada por la
+Comisión Informativa de Territorio, la Junta
+de
+Gobierno
+Local
+resolverá
+el
+procedimiento mediante resolución motivada
+de conformidad con lo que dispongan las
+bases, debiendo quedar acreditados en el
+procedimiento los fundamentos de su
+resolución.
+La resolución definitiva del procedimiento se
+notificará a las personas interesadas de
+conformidad a lo establecido en el artículo
+45 de la Ley 39/2015, de 1 de octubre, del
+Procedimiento Administrativo Común de las
+Administraciones Públicas.
+Prozeduraren behin betiko ebazpena
+interesdunei jakinaraziko zaie, Administrazio
+Publikoen
+Administrazio
+Prozedura
+Erkidearen urriaren 1eko 39/2015 Legearen
+45. Artikuluan aurreikusitakoarekin bat
+etorriz.
+Laguntzak emateko prozedura ebazteko
+azken eguna 2026ko abenduaren 31 izango
+da.
+Aurreko atalean adierazitako gehieneko
+epea amaitzerako ez bada ebazpenik eman,
+interesatuek administrazioaren isiltasunez
+beraien eskaerak ezetsiak izan direla uler
+dezakete.
+14.
+Onuradunen
+konpromisoak.
+betebehar
+El plazo máximo que se establece para
+resolver es el 31 de diciembre de 2026.
+Transcurrido el plazo máximo señalado en el
+apartado anterior sin haberse dado la
+resolución, las entidades interesadas podrán
+entender desestimadas sus solicitudes por
+silencio administrativo.
+14. Obligaciones y compromisos de las
+eta entidades beneficiarias.
+Onuradunek dirulaguntza onartzeak berekin
+dakar oinarri hauetan eta Azpeitiko Udalaren
+Dirulaguntzak
+Emateko
+Ordenantza
+Arautzailean orohar ezarritako betebeharrak
+betetzea
+(2022ko
+uztailaren
+29ko
+Gipuzkoako ALDIZKARI OFIZIALA, 144.
+zk.).
+La aceptación de la subvención por parte de
+las personas/entidades beneficiarias implica
+la sujeción a las obligaciones establecidas
+con carácter general en las presentes bases,
+y en la Ordenanza Reguladora de la
+Concesión
+de
+Subvenciones
+del
+Ayuntamiento
+de Urretxu (BOLETÍN
+OFICIAL de Gipuzkoa n.º 144, de 29 de julio
+de 2022).
+15. Dirulaguntzak ordaintzea.
+Dirulaguntza
+ordainaldi
+bakarrean
+ordainduko da, ondorengo artikuluan
+zehaztuko den justifikazio-dokumentazioa
+aurkeztu ondoren, eta Udalak dirulaguntza
+justifikatu dela egiaztatu ondoren.
+Ordainketak egitea, erakunde onuradunek
+zerga
+betebeharrak
+eta
+Gizarte
+Segurantzarekiko betebeharrak egunean
+dituztela egiaztatzera baldintzatua egongo
+da, eguneratze hau instrukzio organoaren
+ardura izango da, betiere 6 hilabeteko
+indarraldia gainditu badute.
+15. Abono de las subvenciones.
+El pago de la subvención se efectuará
+mediante un único pago, previa presentación
+de la documentación justificativa enumerada
+en el artículo siguiente, y comprobado su
+cumplimiento por el Ayuntamiento.
+La realización de los pagos estará
+condicionada a que el órgano responsable
+de
+la
+instrucción
+actualice,
+la
+documentación acreditativa de encontrarse
+al corriente en sus obligaciones tributarias y
+con la Seguridad Social correspondiente a
+las entidades beneficiarias, siempre que se
+haya rebasado el plazo de 6 meses de
+vigencia de la misma.
+16. Dirulaguntzen justifikazioa.
+15. Justificación de las subvenciones.
+Justifikazioa aurkezteko gehienezko epea 3
+hilabetekoa izango da, obra bukatzen
+denetik aurrera. Nolanahi ere, obrak
+justifikatuta egon beharko dira 2027koo
+abenduaren 1a baino lehen.
+El plazo máximo de presentación de la
+justificación será de 3 meses desde la
+finalización de las obras y en todo caso,
+antes del 1 de diciembre del 2027.
+Se entiende que la obra ha finalizado en la
+fecha en que se emite el Certificado Final de
+Uste izango da obra bukatuta dagoela Obra Obra, y en caso de que no haya sido
+Bukaerako Ziurtagirian ageri den egunerako. necesaria su emisión, en la fecha de la
+Egiaztagiria beharrezkoa ez bada, fakturen última de las facturas
+azken data izango da kontuan.
+Justifikazio egiteko honako dokumentuak Para la justificación, las beneficiarias de
+aurkeztu beharko dituzte linea guztietako todas las líneas deberán presentar la
+siguiente documentación:
+onuradunek:
+a)
+Documentación fin de obras y
+a)
+Dirulaguntza
+ematean
+jarritako fotografías en color de las obras realizadas
+baldintzak bete izana egiaztatzen duten como justificación del cumplimiento de las
+dokumentuak:
+obren
+amaierako condiciones impuestas en la concesión de la
+dokumentazioa eta egindako lanen gaineko subvención.
+argazkiak, koloretan.
+• Justificante de los pagos realizados.
+• En caso de que la ITE presentada
+• Egindako ordainketen egiaztagiriak.
+junto con la documentación inicial se
+• Hasierako
+dokumentazioarekin
+identifiquen patologías con grados de
+batera aurkeztutako EITak 1
+intervención 1 (inmediata), 2 (muy
+(berehalakoa), 2 (oso presakoa)
+urgente) y/o 3 (urgente) se deberá de
+eta/edo 3 (presakoa) eskuhartze
+presentar
+el
+certificado
+de
+mailak dituzten patologiak identifika
+subsanación de las mismas.
+tzen baditu, horiek zuzendu izanaren
+b)
+Una relación clasificada de los
+ziurtagiria aurkeztu beharko da.
+gastos de la actividad subvencionada, con
+b)
+Diruz
+lagundutako
+jardueraren
+identificación de la persona contratista y del
+gastuak sailka tzen dituen zerrenda, non
+documento, su importe, fecha de emisión y,
+adieraziko diren kontratista eta dokumentua,
+en su caso, fecha de pago. Se indicarán las
+zenbatekoa, jaulkipen data eta, hala
+desviaciones acaecidas en relación con el
+badagokio, ordainketa data. Dirulaguntzaren
+presupuesto presentado con la solicitud de
+eskaeran aurkeztutako aurrekontuarekiko
+subvención.
+izandako desbiderapenak adieraziko dira.
+c)
+Fakturak edo merkatuko trafiko
+juridikoan edo administrazioan pareko froga
+balioa duten gainerako dokumentuak eta
+beste gastu batzuen egiaztagiriak aurreko
+paragrafoan aipatutako zerrendakoak eta
+hala badagokio, ordainketa egin dela egiazta
+tzen duen dokumentazioa.
+Las facturas o documentos de valor
+probatorio equivalente en el tráfico jurídico
+mercantil o con eficacia administrativa y
+justificantes de otros gastos, incorporados
+en la relación a que se hace referencia en el
+párrafo anterior y, en su caso, la
+documentación acreditativa del pago.
+c)
+d)
+Una relación detallada de otros
+d)
+Diruz lagundutako jarduera finantza
+ingresos o subvenciones que hayan
+tzeko izan diren beste diru sarrera edo lagun
+financiado la actividad subvencionada, con
+tzen zerrenda, zenbatekoa eta jatorria barne.
+indicación del importe y su procedencia.
+e)
+Hala badagokio, aplikatuko gabeko
+e)
+En su caso, la carta de pago en el
+soberakinen kasuan ordainketa karta.
+supuesto de remanentes no aplicados.
+El Ayuntamiento podrá realizar actuaciones
+Urretxuko
+Udalak
+diruz
+lagundutako
+de comprobación o evaluación de los
+proiektuak edo jarduerak egiaztatu edo
+proyectos y actividades subvencionadas,
+ebaluatu ahalko ditu, erakunde onuradunari
+previo aviso a la entidad beneficiaria, en las
+aurretik
+abisatuta,
+eta
+erakundeak
+que ésta deberá facilitar el acceso a los
+erraztasunak eman beharko dizkio, behar
+duen lekuetara joan eta informazioa
+eskuratzeko.
+Egiaztapen horretatik ondorioztatuko balitz
+diruz lagundu daitekeen gastua emandako
+dirulaguntza baino txikiagoa dela, edo
+dirulaguntza zuritze ko ezarritako baldintzak
+edo laguntzaren xede zena ez dela bete
+(osorik edo zati batean), dirulaguntza jaso
+duen erakundeari horren berri emango zaio,
+egiaztapenaren emaitzekin batera; eta
+hasiera emango zaio dirulaguntza jasotze ko
+eskubidea galdu dela aitortzeko prozedurari
+edo, hala badagokio, dirulaguntza osorik edo
+zati batean itzul tzeko Oinarri hauetan 18
+artikuluan aurreikusitako prozedurari.
+Dirulaguntza zuritzeko ezarritako epean ez
+bada
+16.1.
+artikuluan
+adierazitako
+dokumentazioa aurkezten, eskumena duen
+organoak
+onuradunari
+errekerimendua
+egingo dio 15 eguneko epean aurkez dezan.
+Epe berri hori amaitutakoan ere ez badira
+frogagiriak
+aurkeztu,
+dirulaguntza
+kobratzeko eskubidea galduko du edo 18.
+oinarri hauetan aurreikusitako itzultzeko
+prozedura hasiko
+da.
+Hori
+guztia,
+salbuespen gisa, baimendu daitezkeen
+balizko luzapenen kalterik gabe.
+lugares y la información que se requiera.
+Si como resultado de dicha comprobación se
+dedujera que el gasto subvencionable ha
+sido inferior a la subvención concedida, o
+que se han incumplido, total o parcialmente,
+los requisitos establecidos para la
+justificación de la subvención o los fines para
+los que fue concedida la misma, se
+comunicará tal circunstancia a la entidad
+subvencionada junto a los resultados de la
+comprobación realizada; y se iniciará el
+procedimiento para declarar la pérdida del
+derecho de cobro de la subvención o, en su
+caso, el procedimiento de reintegro total o
+parcial de la subvención previsto en el
+artículo 18 de estas bases.
+Transcurrido el plazo establecido para la
+justificación de la subvención sin que se
+hubiese presentado la documentación a que
+se refiere en artículo 16.1., el órgano
+competente requerirá a la entidad
+beneficiaria para que en el plazo de 15 días
+aporte la misma. Transcurrido este nuevo
+plazo, la falta de presentación de la
+justificación llevará aparejada la pérdida del
+derecho de cobro de la subvención o el inicio
+del procedimiento de reintegro previsto en el
+artículo 18 de estas bases. Todo ello sin
+perjuicio de las posibles prórrogas que, con
+carácter excepcional, se hayan podido
+autorizar.
+16. Dirulaguntza emateko ebazpenaren 16. Modificación de la resolución de
+aldaketa.
+concesión.
+Erakunde onuradunek dirulaguntza ematen
+duen organoari eskatu ahal izango diote,
+diruz lagundutako jarduera egiteko epea
+amaitu aurretik, ebazpena alda dezan
+Las entidades beneficiarias podrán solicitar
+del órgano concedente, antes de que
+concluya el plazo para la realización de la
+actividad subvencionada, modificaciones de
+finkatutako epeak luzatzeko, emandako
+dirulaguntza murrizteko, edo jardueran
+bildutako ekintzak aldatzeko, baimenduak
+izango dira aurreikusi gabeko gertaeren
+ondorio direnean edo jardueraren helburua
+lortzeko beharrezkoak direnean, betiere
+dirulaguntzaren xedea aldatzen ez bada eta
+hirugarrenen eskubideak kaltetzen ez
+badira.
+Organo emaileak aldatu dezake dirulaguntza
+ematea onartzen duen ebazpena, aurrez
+erakunde interesatuarekin bilduta eta
+funtsak aplikatu aurretik, baldin eta
+dirulaguntza emateko kontuan izandako
+baldin tzen aldaketak helburu zen interes
+publikoa lortzea eragozten edo zailtzen badu
+eta
+onuradunari
+ez
+bazaio
+kalte
+ekonomikorik eragitn.
+la re- solución de concesión que supongan
+ampliación de los plazos fijados, reducción
+del importe concedido o alteración de las
+acciones que se integran en la actividad,
+que serán autorizadas cuando traigan su
+causa en circunstancias imprevistas o sean
+necesarias para el buen fin de la actuación,
+siempre que no se altere el objeto o finalidad
+de la subvención y no se dañen derechos de
+terceras personas.
+El órgano concedente también podrá
+modificar de oficio la resolución de
+concesión, previa audiencia a la entidad
+interesada y antes de la aplicación de los
+fondos, cuando la alteración de las
+condiciones tenidas en cuenta para la
+concesión impida o dificulte la consecución
+del interés público perseguido y no se
+irroguen perjuicios económicos a la
+beneficiaria.
+17. Dirulaguntzen itzulketa.
+17. Reintegro de las subvenciones.
+Erakunde onuradunak ez baditu oinarri
+orokor, oinarri espezifiko eta gainerako
+araudi aplikagarrian ezarritako baldintza eta
+betebehar guztiak bete tzen, dirulaguntza
+jasotzeko eskubidea guztiz edo zati batean
+galdutzat joko zaio, eta dirulaguntza osoa
+edo zati bat eta dagozkion berandutza
+interesak itzuli beharko ditu, Urretxuko
+Udalaren Dirulaguntzak arautzen dituen
+Ordenantzan xedatutakoaren arabera.
+El incumplimiento por parte de la entidad
+beneficiaria de cualquiera de los requisitos y
+obligaciones establecidos en las presentes
+Bases Generales, en las específicas y
+demás normativa aplicable, dará lugar a la
+declaración de la pérdida total o parcial del
+derecho a la percepción de la subvención y
+a la obligación de reintegrar ésta total o
+parcialmente junto con los intereses de
+demora correspondientes, conforme a lo
+dispuesto en la Ordenanza reguladora de la
+Concesión
+de
+Subvenciones
+del
+Ayuntamiento de Urretxu.
+Ez-betetzeak
+mailakatzeko
+proportzionaltasun irizpideak erabiliko dira: Para graduar los incumplimientos se
+egindako lanen eta proiektu guztiaren eta utilizarán criterios de proporcionalidad, que
+jasotako
+zenbatekoaren
+arteko serán estimados en función de los trabajos
+proportzioaren arabera.
+18. Araudi aplikagarria.
+Oinarri hauen xede diren dirulaguntzei,
+bertan ezarritakoaz gain, honako hauek
+aplikatuko zaizkie: Urretxuko Udalaren
+Dirulaguntzak
+Emateko
+Ordenantza
+Arautzailea eta oinarri hauetan aurreikusi ez
+den
+guztian,
+Dirulaguntzei
+buruzko
+azaroaren 17ko 38/2003 Lege Orokorra eta
+uztailaren
+21eko
+Errege
+Dekretuaren
+bidez
+onartutako
+Erregelamendua aplikatuko dira.
+Oinarri
+hauetan
+arau
+tzen
+diren
+dirulaguntzak ez dira Estatuko laguntza
+modura hartuko Europar Batasuneko
+Funtzionamendurako Ituneko 107. artikuluko
+1. atalean ezarritakoaren arabera; izan ere,
+ez dute eraginik Estatu Kideen arteko
+merkataritza trukeetan.
+19. Datu pertsonalen babesa.
+realizados respecto a la totalidad del
+proyecto y a los importes percibidos.
+18. Normativa aplicable.
+Las subvenciones objeto de las presentes
+bases se regirán, además de por lo
+dispuesto en las mismas, por la Ordenanza
+Reguladora
+de
+la
+Concesión
+de
+Subvenciones del Ayuntamiento de Urretxu
+y en todo lo no previsto en las presentes
+bases, será de aplicación la Ley 38/2003 de
+17 de noviembre General de Subvenciones
+y su Reglamento de desarrollo aprobado por
+Real Decreto 887/2006 de 21 de julio.
+Las subvenciones reguladas en estas bases
+no constituyen ayuda estatal en los términos
+establecidos en el apartado 1 del artículo
+107 del Tratado de Funcionamiento de la
+Unión Europea, dado que no afectan a
+intercambios comerciales entre Estados
+miembros.
+19. Protección de datos de carácter
+personal.
+Jakinarazten dizugu zure datu pertsonalak
+Urretxuko Udalaren (Iparragirre 20, Urretxu)
+Se informa que sus datos personales serán
+ardurapeko datu tratamendu batean sartuko
+incluidos en un tratamiento de datos cuyo
+direla. Datuak eskuratzeko, zuzentzeko,
+responsable es el Ayuntamiento de Urretxu
+kentzeko, mugatzeko eta aurkaratzeko
+(Iparragirre 20, Urretxu) y ante la cual podrá
+eskubideak gauzatu ahal izango dituzu,
+ejercer los derechos de acceso, rectificación,
+helbide horretara idatzi bat bidaliz.
+supresión, limitación y oposición, enviando
+un escrito dirigido a la misma.
+Zure datu pertsonalak tratatze ko helburua
+da diru-laguntzen deialdia kudeatzea eta Sus datos personales serán tratados con la
+ebaztea, deialdiak duen interes publikoan finalidad de gestión y resolución de la
+eta parte har tze ko egin duzun eskaeran convocatoria de subvenciones, basado en el
+interés público de la convocatoria y en su
+oinarrituta.
+solicitud de participación en ella.
+Eskatzaileen datuak jakinarazi ahal izango
+zaizkie
+zerga
+administrazioari
+eta
+fiskalizazio organoei kontabilitate kontrola
+egiteko, eta banketxeei, ordainketak
+kudeatzeko. Era berean, beste hirugarren
+batzuei jakinaraziko zaizkie, lege mailako
+araudian jaso tzen diren kasuetan.
+Los datos relativos a las personas
+solicitantes podrían ser comunicados a la
+administración tributaria, a órganos de
+fiscalización, para el control contable y a
+entidades bancarias para gestionar los
+abonos. Igualmente, se comunicarán a otros
+terceros en supuestos contemplados en
+normas de rango de ley.
+Datuak dirulaguntza emateko prozeduraren
+tramitazioak
+eta
+sor
+daitezkeen
+erreklamazioen tramitazioak irauten duen
+bitartean gordeko dira.
+Zure datu pertsonalen tratamenduari eta
+zure eskubideen erabilerari dagokienez,
+harremanetan jar zaitezke helbide honetan:
+urretxu@urretxu.eus
+Los datos serán conservados durante la
+tramitación del procedimiento de concesión
+de la subvención y de las reclamaciones que
+se puedan formular.
+Por lo que respecta a las cuestiones relativas
+al tratamiento de sus datos personales y al
+ejercicio de sus derechos puede ponerse en
+contacto
+en
+esta
+dirección:
+urretxu@urretxu.eus
+EGINBIDEA: Oinarri hauek Udalbatzak 2026ko ekainaren 29an onartu zituen.
+DILIGENCIA: Para hacer constar que las presentes Bases fueron aprobadas por el Ayuntamiento
+Pleno el 29 de junio de 2026.
+Idazkariak
+MARIA JOSE
+BEGUIRISTAIN
+ZABALO 15994003X
+Firmado digitalmente por
+MARIA JOSE
+BEGUIRISTAIN ZABALO 15994003X
+Fecha: 2026.07.09
+10:50:36 +02'00'
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1491146
+DIRU LAGUNTZAK EMATEKO
+OINARRI-ARAU OROKORRAK
+BASES GENERALES
+OTORGAMIENTO
+SUBVENCIONES.
+PARA
+EL
+DE
+I.XEDEA
+1. artikulua.
+Oinarri-arau hauek arautzen dute
+2026ko urterako diru-laguntzak eta
+laguntzak
+emateko
+prozedura
+orokorra; horren kudeaketa Urretxuko
+Udalari dagokio.
+I.OBJETO
+Artículo 1.
+Estas bases regulan el procedimiento
+general para la concesión de
+subvenciones y ayudas para el año
+2026, cuya gestión corresponde al
+Ayuntamiento de Urretxu.
+2. artikulua.
+Genero
+berdintasunaren
+arloko
+betebeharrak:
+Diru-laguntzaren baten onuradun
+diren pertsona eta entitate guztiek,
+diru-laguntza lerroa eta emateko
+prozedura edozein dela ere, honako
+hauek bete beharko dituzte:
+Artículo 2
+Obligaciones en materia de igualdad
+de género
+Todas las personas y entidades
+beneficiarias de alguna subvención,
+cualquiera
+que
+sea
+la
+línea
+subvencional y el procedimiento de
+concesión, están obligadas a:
+a) Erabilera ez sexista egin
+beharra diruz lagundutako
+programa,
+proiektu
+edo
+jarduerak
+sustatzeko
+elementu gisa prestatzen
+diren kartel, testu eta agirietan
+agertzen diren edukietan,
+hizkeran nahiz irudietan.
+b) Diruz lagundutako programa,
+proiektu
+eta
+jardueretan
+genero ikuspegia txertatzea.
+c) Sexu
+arrazoiengatik,
+zuzenean
+edo
+zeharka,
+bazterketa ekarriko duen
+programa,
+proiektu
+edo
+jarduerarik ez sortzea.
+a) Realizar un uso no sexista del
+lenguaje e imágenes en los
+contenidos de los carteles,
+textos y documentos que se
+elaboren como elementos de
+promoción de los programas,
+proyectos
+o
+actividades
+subvencionadas.
+b) Incorporar la perspectiva de
+género en los programas,
+proyectos y actividades objeto
+de subvención.
+c) No generar ningún programa,
+proyecto o actividad que
+implique una discriminación
+1
+Diru laguntzen oinarri orokorrak 2026
+3. artikulua.
+Ezingo dira diru-laguntza deialdi
+honetara aurkeztu, diru-laguntzak
+edo laguntza publikoak eskuratzeko
+aukera
+santzio
+penal
+edo
+administratiboaren bidez galduta
+dutenak
+eta
+santzio
+horren
+ebazpenak ezarriko duen epean.
+Halaber, ezingo dira deialdi honetara
+aurkeztu, horretarako gaitasunik ez
+duela esanez legezko debekuan
+sartuta daudenak. Debeku horietan
+barne
+izango
+da
+sexuagatiko
+diskriminazioaren ondorioz jasotako
+debekua, beti ere Emakumeen eta
+Gizonen
+Berdintasunerakoa eta
+Emakumeen aurkako Indarkeria
+Matxistarik Gabeko otsailaren 18ko
+4/2005 Legearen seigarren Azken
+Xedapenean jasotakoari jarraiki.
+-Genero
+edo/eta
+sexualitate
+arrazoiengatik diskriminatzen duten
+proiektuak edo berdintasunaren
+oinarriak errespetatzen ez dituztenak.
+-Emakumeen eta gizonezkoen arteko
+aukera
+berdintasunerako
+printzipioaren aurkako helburuak,
+sarbide sistema, funtzionamendua,
+ibilbidea, jarduketa, antolamendua
+edo estatutuak dituzten pertsona
+fisiko edo juridikoak.
+directa o indirecta por razón de
+sexo.
+Artículo 3
+No podrán concurrir a estas ayudas,
+durante el periodo que establezca la
+correspondiente sanción, la persona o
+entidad solicitante que se encuentre
+sancionada
+penal
+o
+administrativamente con la pérdida de
+la posibilidad de obtención de
+subvenciones o ayudas públicas, o se
+halle incursa en prohibición legal
+alguna que la inhabilite para ello, con
+inclusión de las que se hayan
+producido por discriminación de sexo
+de conformidad con lo dispuesto en la
+Disposición Final sexta de la Ley
+4/2005, de 18 de febrero, para la
+Igualdad de Mujeres y Hombres y
+Vidas Libres de Violencia Machista
+contra las Mujeres..
+-Aquellos proyectos que discriminen
+por motivos de género y/o sexualidad
+o que no respeten los principios de
+igualdad.
+-Las personas físicas o jurídicas cuyos
+fines u objetivos, sistema de admisión
+o acceso, funcionamiento, trayectoria,
+actuación, organización o estatutos
+sean contrarios al principio de igualdad
+de oportunidades entre mujeres y
+hombres.
+-Sexu
+arrazoiengatik
+sarbide
+prozesuan edo funtzionamenduan
+bazterketa egiten duten elkarteak.
+-Las asociaciones que en su proceso
+de admisión o en su funcionamiento
+discriminen por razón de sexo.
+4. artikulua.
+Oinarri-arauok
+eta
+dirulaguntza
+ematean indarrean dauden gainerako
+arauek arautuko dute dirulaguntza
+hauek ematea eta Udalaren eta
+onuradunen
+arteko
+harreman
+juridikoa.
+Oinarri-arau espezifikoek berariaz
+beste erregulazio mota bat ezartzen
+ez badute behintzat, oinarri-arau
+orokor hauetan ezarritako xedapenak
+eta baldintzak aplikatuko zaizkie
+Udalak onartutako laguntza edo
+dirulaguntza programa guztiei.
+Oinarri-arauotan agertzen ez den
+guztian honakoak aplikatuko dira:
+Urretxuko Udalaren Dirulaguntzak
+arautzeko Ordenantza Orokorra,
+Dirulaguntzen
+Lege
+Orokorra eta indarrean dauden
+gainerako
+arauak,
+gai
+honi
+aplikatzekoak.
+Artículo 4
+La concesión de estas ayudas y la
+relación jurídica entre el Ayuntamiento
+y la entidad beneficiaria se regirá por
+las presentes bases y demás
+normativa vigente en el momento de su
+concesión.
+Salvo que las bases específicas
+establezcan expresamente otro tipo de
+regulación, las disposiciones y
+requisitos
+establecidos
+en
+las
+presentes bases generales serán de
+aplicación a todos los programas de
+ayuda o subvención aprobados por el
+Ayuntamiento.
+En todo lo no previsto en las presentes
+bases, será de aplicación la
+Ordenanza General reguladora de la
+concesión de subvenciones del
+Ayuntamiento de Urretxu, la Ley
+38/2003, General de Subvenciones, y
+demás normativa vigente aplicable a
+esta materia.
+II.ONURADUNAK
+5. artikulua.
+Laguntza jaso ahal izango dute, batez
+ere, Urretxun egoitza eta jardun
+eremua daukaten pertsonek eta
+berdintasun printzipioak bermatzen
+dituzten elkarteek edo entitateek, eta,
+salbuespenez, nahiz eta egoitza eta
+jardun eremua Urretxun ez izan,
+II. BENEFICIARIOS/BENEFICIARIAS
+Artículo 5.
+Podrán optar a estas ayudas,
+principalmente, aquellas personas y
+asociaciones o entidades que tengan
+su sede y ámbito de actuación en
+Urretxu, que fomenten valores de
+igualdad de hombres y mujeres, y,
+excepcionalmente, aquéllas otras
+3
+Diru laguntzen oinarri orokorrak 2026
+Urretxuko biztanleentzako programak
+garatzen dituzte edota Udalak
+interesgarritzat jotzen dituen ekintzak
+edo proiektuak garatzen dituzten
+beste entitate batzuk.
+Elkarteak edo entitateak izena
+emanda egongo dira Autonomia
+Erkidegoko Elkarteen Erregistroan
+edo
+beste
+erregistro
+publiko
+batzuetan, eta identifikazio fiskaleko
+kodearen jabe izango dira.
+entidades que, aún no teniendo su
+sede o su ámbito de actuación en
+Urretxu, desarrollen actividades o
+proyectos dirigidos a ciudadanos de
+Urretxu y/o considerados de interés
+por parte del Ayuntamiento.
+Las Asociaciones o Entidades deberán
+hallarse inscritas en el Registro de
+Asociaciones de la Comunidad
+Autónoma u otros registros públicos, y
+hallarse
+en
+posesión
+del
+correspondiente
+código
+de
+identificación fiscal.
+III.ESKABIDEAK
+ETA
+AURKEZTEKO EPEA
+6. artikulua.
+Aurkezten diren laguntza eskabideak,
+Udalak egindako eskabide ereduaren
+arabera aurkeztuko dira. Eskabidea
+interesdun guztiei emango zaie,
+udaletxean
+nahiz
+dirulaguntzen
+tramite administratiboaren ardura
+duten udaleko sail eta bulegoetan.
+Modu berean, Udalaren web orrian
+aurkitu
+ahal
+izan
+dezakete
+interesdunek aipatu eskabide-orria.
+III. SOLICITUDES Y PLAZO DE
+PRESENTACIÓN
+Artículo 6.
+Las solicitudes de ayudas que se
+presenten,
+se
+redactarán
+de
+conformidad con el modelo de
+instancia
+elaborado
+por
+el
+Ayuntamiento, que se facilitará a todos
+los interesados, tanto en la Casa
+Consistorial como en los diferentes
+departamentos
+y
+dependencias
+municipales encargadas del trámite
+administrativo de las subvenciones,
+así como en la página web municipal.
+Dichas solicitudes se podrán presentar
+presencialmente en el Registro
+General del Ayuntamiento de Urretxu,
+en horario de 9:00 a 14:00, de lunes a
+viernes o en el registro electrónico del
+Ayuntamiento
+de
+Urretxu
+,
+www.urretxu.eus
+Aipatutako eskabideak, aurrez-aurre
+Urretxuko
+Udaleko
+Erregistro
+Orokorran 9:00etatik 14:00etarako
+ordutegian
+eta
+astelehenetik
+ostiralera aurkeztu ahal izango dira,
+edota Urretxuko Udaleko erregistro
+elektronikoan www.urretxu.eus .
+Aipatu eskabide eredu hori elkarte
+edo entitate eskatzailearen pertsona
+ordezkariak edo erantzuleak beteko
+du.
+La
+persona
+representante
+o
+responsable de la asociación o entidad
+solicitante cumplimentará el modelo de
+instancia citado en el párrafo anterior.
+7. artikulua.
+Oro har, eta beste epe batzuk jarrita
+dituzten laguntza programak izan
+ezik, eskabideak 30 laneguneko
+epean aurkeztu behar dira, deialdia
+Gipuzkoako
+ALDIZKARI
+OFIZIALEAN argitaratu eta hurrengo
+egunetik kontatzen hasita.
+Artículo 7.
+Con carácter general, y con la
+excepción de aquellos programas de
+ayuda que tengan establecidos otros
+plazos, las solicitudes deberán
+presentarse en el plazo de 30 días
+hábiles, contado a partir del día
+siguiente al de publicación de la
+convocatoria en el BOLETIN OFICIAL
+de Gipuzkoa.
+IV.EKARRI BEHARREKO AGIRIAK
+8. artikulua.
+Eskabidearekin batera agiri hauek
+aurkeztuko dira nahitaez, laguntza
+programa bakoitzaren oinarri-arau
+espezifikoetan
+eskatzen
+den
+dokumentazioaren kalterik gabe eta
+eskatzaileak
+interesgarritzat
+jo
+ditzakeen beste agiri batzuen kalterik
+gabe:
+IV.DOCUMENTACIÓN A APORTAR
+Artículo 8.
+Las
+solicitudes
+deberán
+ir
+acompañadas obligatoriamente, sin
+perjuicio de la documentación que sea
+exigida en las bases específicas de
+cada programa de ayudas y de aquélla
+otra que el solicitante considere de
+interés, de la siguiente documentación:
+a) Eskaera egiten duenaren nortasun
+juridikoa egiaztatzeko dokumentuak:
+a) Documentos acreditativos de la
+personalidad del/la solicitante:
+Pertsona
+fisikoek:
+baliokidea.
+edo
+Personas físicas: DNI o documento
+equivalente.
+Pertsona juridikoek: entitate eraketa
+jasotzen
+duen
+eskritura
+edo
+dokumentua eta estatutoak, Elkarte
+Erregistroan
+edo
+dagokion
+Personas jurídicas: escritura o
+documento en que conste la
+constitución de la entidad y los
+estatutos, debidamente inscritos en el
+NAN
+5
+Diru laguntzen oinarri orokorrak 2026
+erregistroan
+inskribatuta.
+behar
+den
+moduan
+Registro de Asociaciones o en el que
+corresponda.
+Sozietate zibilak edo ondasunkomunitateak: eraketa kontratua, IFZ
+eta sozietate zibila edo ondasunkomunitatea osatzen duten pertsona
+guztien NANa edo baliokidea.
+Sociedades civiles y comunidades de
+bienes: contrato de constitución, NIF y
+DNI de todas las personas que
+constituyan la sociedad civil o la
+comunidad de bienes.
+b) Legezko ordezkaritzaren kasuan,
+legezko ordezkariaren NANa edo
+horren balio bereko dokumentua eta
+ordezkaritzaren egiaztapena agiri
+bidez. Egiaztapen hori notarioahalordez, eskritura bidez., edo
+Urretxuko Udalaren ordezkaritza
+ereduan..).
+b) En caso de representación legal,
+DNI o equivalente de la persona
+representante
+y
+acreditación
+documental de esa representación. La
+acreditación podrá hacerse mediante
+poderes notariales, escrituras, o
+documento de representación de
+acuerdo al modelo facilitado por el
+Ayuntamiento de Urretxu…).
+c) Eskatzailearen banku-kontuaren
+titulartasuna frogatzen duen agiria,
+eskatzailearen nortasunarekin bat
+etorriko
+dena
+(agiri
+hauetako
+edozeinek balioko du horretarako:
+bankuko kontu- laburpena, libreta edo
+bankuak egindako egiaztagiria.
+c) Documento justificativo de la
+titularidad de la cuenta bancaria del/la
+solicitante que tiene que coincidir con
+la identidad de la persona solicitante
+(extracto bancario, libreta, certificado
+emitido por la entidad bancaria…)
+d) Zinpeko aitorpena, dirulaguntza
+edo laguntza publikoak jasotzeko
+aukera galtzearekin zigortuta ez
+dagoela edo horretarako gaitasunik
+ez duela esanez legezko debekuan
+sartuta ez dagoela azalduko duena.
+Debeku horietan barne izango da
+sexuagakiko
+diskriminazioaren
+ondorioz jasotako debekua, beti ere,
+Emakumeen
+eta
+Gizonen
+Berdintasunerakoa eta Emakumeen
+d) Declaración jurada de no estar
+sancionada
+penal
+ni
+administrativamente con la pérdida de
+la posibilidad de obtención de
+subvenciones o ayudas públicas, ni de
+hallarse incursa en prohibición legal
+alguna que la inhabilite para ello, con
+inclusión de las que se hayan
+producido por discriminación de sexo
+de conformidad con lo dispuesto en la
+Disposición Final sexta de la Ley
+4/2005, de 18 de febrero, para la
+aurkako
+Indarkeria
+Matxistarik
+Gabeko otsailaren 18ko 4/2005
+Legearen
+seigarren
+Azken
+Xedapenean
+jasotakoari
+jarraiki
+jasandako debekuak.
+Igualdad de Mujeres y Hombres y
+Vidas Libres de Violencia Machista
+contra las Mujeres..
+Urretxuko
+Udalak,
+NISAEren
+Nodoaren bidez, beharrezkoak diren
+egiaztapenak eta kontsultak egingo
+ditu interesdunek administrazioaren
+esku jarri dituzten datuei buruz. Baita
+Urretxuko Udalak emandako dirulaguntza
+guztien
+administrazioizapideak egiteko eskatzen den beste
+edozein ere.
+El Ayuntamiento de Urretxu mediante
+el Nodo de NISAE, va a realizar las
+comprobaciones
+y
+consultas
+necesarias de los datos de las
+personas interesadas que obren en
+poder de la Administración, así como
+cualquier otra requerida para la
+tramitación administrativa de todas las
+subvenciones otorgadas por el
+Ayuntamiento de Urretxu.
+Horregatik, elkarreragingarriak izan
+daitezkeen datuak eskatzeari utziko
+zaio, baldin eta interesduna datu
+horiek erabiltzearen aurka agertzen
+ez bada; kasu horretan, dagozkion
+datuak edo dokumentuak aurkeztu
+beharko ditu.
+Administrazio publikoen arteko datubitartekaritzarako oinarria urriaren
+1eko
+Legearen
+28.
+Artikuluan zehazten da, non aitortzen
+baita herritarrek eskubidea dutela ez
+aurkezteko edozein administraziok
+egindako dokumentuak, jatorrizko
+dokumentuak, ezarri beharrekoa den
+araudiak eskatzen ez dituen datuak
+edo dokumentuak, edo interesdunak
+aurretik
+edozein
+administraziori
+emandakoak
+Es por ello que se dejarán de solicitar
+datos que puedan ser interoperables,
+siempre y cuando la persona
+interesada, no se oponga al uso de los
+mismos, en cuyo caso deberá aportar
+los
+datos
+o
+documentos
+correspondientes.
+El fundamento para la intermediación
+de datos entre las Administraciones
+Públicas se concreta en el artículo 28
+de la Ley 39/2015, de 1 de octubre,
+donde se reconoce el derecho de la
+ciudadanía a no aportar documentos
+que hayan sido elaborados por
+cualquier Administración, documentos
+originales, datos o documentos no
+exigidos por la normativa reguladora
+aplicable o que hayan sido aportados
+anteriormente
+por
+la
+persona
+interesada a cualquier Administración.
+7
+Diru laguntzen oinarri orokorrak 2026
+Era berean, 40/2015 Legearen 155.
+Artikuluak adierazten duena gogora
+ekarriz,
+administrazioek
+elkarri
+lagundu behar diote datu-trukean, eta
+herritarrei buruzko datuak, haien esku
+daudenak, eman behar dituzte.
+Horren haritik, Urretxuko Udalak
+honako baldintza hauek egiaztatuko
+ditu ematen dituen dirulaguntzak
+eskuratu ahal izateko, NISAeren,
+datuen eta beste administrazio
+batzuen
+bitartekaritzarako
+plataformaren zerbitzuen bidez:
+• Gizarte
+Segurantzarekiko
+betebeharrak egunean dituela
+egiaztatzen duen agiria.
+• Foru Ogasunekiko zerga
+betebeharrak egunean dituela
+egiaztatzen duen agiria.
+Urretxuko Udalak ofizioz egiaztatuko
+du
+Udalarekiko
+betebeharrak
+betetzen direla .
+V. ERABAKIA
+9. artikulua.
+Aurkeztutako eskabidea izapidetzea
+egokituko zaie, laguntza programen
+arabera, administrazio unitateei edo
+udal arloei, eta horiek arduratuko dira
+eskumenen eremuari dagozkion
+proiektuak aztertzen eta ebaluatzen.
+Asimismo, existe el deber de las
+Administraciones de colaborar, tal y
+como indica el artículo 155 de la Ley
+40/2015 en el entorno del intercambio
+de datos, debiendo facilitar los datos
+relativos a la ciudadanía que obren en
+poder de estas.
+En este sentido, el Ayuntamiento de
+Urretxu va a verificar los siguientes
+requisitos para acceder a las
+subvenciones que otorgue en las
+distintas convocatorias, desde la
+plataforma de intermediación de datos
+y otras administraciones, NISAE:
+- Certificado de estar al corriente
+de sus obligaciones frente a la
+Seguridad Social.
+- Certificado de estar al corriente
+de sus obligaciones tributarias
+frente a las Haciendas Forales,
+Las certificaciones de estar al corriente
+con el Ayuntamiento de Urretxu se
+realizará de oficio.
+V. RESOLUCIÓN
+Artículo 9.
+La tramitación de las solicitudes
+presentadas corresponderá, por razón
+del programa de ayudas que se trate,
+a
+las
+diferentes
+unidades
+administrativas o áreas municipales,
+que serán las encargadas del examen
+y evaluación de los proyectos
+correspondientes al ámbito de sus
+competencias.
+10. artikulua.
+Administrazio unitate edo udal arlo
+bati baino gehiagori eraginez gero
+proiektuek, aztertu egingo dira eta
+haien txosten global bat egin,
+inplikaturik dauden sailek batera
+sinatutako agiri edo txosten baten
+bidez.
+Artículo 10.
+Caso de proyectos que afecten a más
+de un departamento o área municipal,
+se procederá al análisis e informe
+global
+del
+mismo,
+mediante
+documento
+o
+informe
+suscrito
+conjuntamente por las unidades
+administrativas o áreas implicadas.
+11. artikulua.
+Zerbitzu teknikoek txostena egin eta
+gero, gaiaren eskumeneko batzorde
+informatzaileak,
+akordio
+proposamena egingo dio Tokiko
+Gobernu Batzarrari, onarpena egin
+dezan.
+Artículo 11
+Emitido informe por parte de los
+servicios técnicos correspondientes, la
+Comisión Informativa competente por
+razón de la materia, elevará la
+propuesta de acuerdo a la Junta de
+Gobierno Local, para su aprobación.
+12. artikulua.
+Erabakiak eman eta jakinarazteko
+gehieneko epea 6 hilekoa izango da,
+deialdian adierazten den eskabideak
+aurkezteko epea bukatuko den
+egunetik kontatzen hasita. Artikulu
+honetan
+xedatutako
+epeari
+dagokionez, abuztua baliogabeko
+hilabetetzat hartuko da. Epe hori
+igarotakoan, berariazko erabakirik
+eman gabe, eskabidea ez dela onartu
+ulertuko da.
+Artículo 12.
+El plazo máximo para dictar y notificar
+las resoluciones que correspondan
+será de 6 meses, contado a partir de la
+finalización
+del
+plazo
+para
+presentación de solicitudes indicado
+en la convocatoria. A los efectos del
+plazo establecido en este artículo, el
+mes de agosto se considerará inhábil.
+Transcurrido este plazo sin que se
+haya dictado resolución expresa, se
+entenderá que la solicitud ha sido
+desestimada.
+El Ayuntamiento dará publicidad a
+todas las subvenciones concedidas,
+en la forma prevista en el artículo 18 de
+la Ley 38/2003, de 17 de noviembre,
+General de Subvenciones.
+Emandako
+dirulaguntza
+guztien
+publizitatea egingo du Udalak,
+Dirulaguntzen
+azaroaren
+17ko
+38/2003 Lege Orokorraren 18.
+Artikuluan aurreikusitakoaren eran.
+9
+Diru laguntzen oinarri orokorrak 2026
+VI. ESKABIDEAK BALORATZEKO
+IRIZPIDEAK
+13. artikulua.
+Laguntza programa bakoitzaren
+oinarri-arau espezifikoetan jasotzen
+direnak izango dira, oinarri-arau
+hauen eranskin moduan agertzen
+dira.
+VI.CRITERIOS DE VALORACIÓN DE
+LAS SOLICITUDES
+Artículo 13.
+Serán los recogidos en las bases
+específicas de cada programa de
+ayudas, que figuran como anexos a las
+presentes bases.
+VII.
+EMAN
+BEHARREKO
+DIRULAGUNTZEN
+GEHIENEKO
+ZENBATEKOA
+ETA
+DIRU KOPURU HORREN IZAERA
+14. artikulua.
+Deialdi honetako oinarri-arauetan
+programa bakoitzari eskainiko zaion
+diru-kopurua zehazten da, bai eta
+handitu daitekeen edo ez.
+VII.IMPORTE
+MÁXIMO
+SUBVENCIONES
+A
+CONCEDER Y CARÁCTER DE
+DICHA DOTACIÓN
+Artículo 14.
+En las bases específicas de la
+presente convocatoria se concreta la
+dotación económica destinada a cada
+programa, así como el carácter
+ampliable o no de la misma.
+No obstante, con carácter general, y
+salvo que se disponga lo contrario en
+las bases específicas, dicha dotación
+tendrá carácter limitativo y no será
+susceptible de ampliación dentro del
+ejercicio.
+Nolanahi ere, oro har, eta oinarri-arau
+espezifikoetan kontrakorik xedatu
+ezean, aurrekontu kopuru hori
+mugatua izango da eta ezin izango da
+urtealdian bertan handitu.
+VIII.
+ALDI
+BEREAN
+BESTE
+LAGUNTZA BATZUK JASOTZEKO
+AUKERA ETA FINANTZAKETA
+MUGAK
+15. artikulua.
+Oro har, eta laguntza programa
+bakoitzaren
+oinarri-arauek
+kontrakorik xedatu ezean, udal
+dirulaguntza aldi berean eta batera
+agertzeko aukera onartzen da, nahiz
+beste Administrazio batzuetatik,
+partikularretatik eta abarretik datozen
+VIII.
+POSIBILIDAD
+DE
+CONCURRENCIA
+CON
+OTRAS
+AYUDAS
+Y
+LÍMITES
+DE
+FINANCIACIÓN
+Artículo 15.
+Con carácter general, y salvo que las
+bases de cada programa de ayudas
+disponga lo contrario, se admite la
+posibilidad
+de
+concurrencia
+o
+compatibilidad de percepción de la
+subvención municipal con otras
+fuentes de financiación, bien sean
+dirulaguntzen bidez diru sarrerak
+izan, nahiz garatu nahi den proiektua
+edo jarduera finantzatzeko ezarri
+diren diru-ekarpenak edo kuotak izan.
+ingresos
+por
+subvenciones
+procedentes de otras Administraciones, de particulares, etc., o se
+traten de aportaciones o cuotas fijadas
+para la financiación del proyecto o
+actividad que pretende ser llevada a
+cabo.
+16. artikulua.
+Beste finantzabide batzuekin batera
+lortuz
+gero,
+eta
+oinarri-arau
+espezifikoek beste erregulazio bat
+ezarri ezean, finantza muga ezartzen
+da izandako gastuaren %100ean,
+hau
+da,
+ezin
+da
+inoiz
+gainfinantzaketarik izan Udalaren
+dirulaguntzarekin.
+Horri buruz, eta dirulaguntzak
+emateko udal akordioetan berariaz
+beste doitze edo erregularizatze
+sistema bat adierazten ez bada,
+dirulaguntzaren
+bukaerako
+ordainketan edo likidazioan, Udalak
+egin beharrekoak benetan izandako
+gastuak eta diru sarrerak ikusi eta
+gero, ordaindu beharreko kopurua
+zuzenduko da, gainfinantzaketa hori
+izan ez dadin, eta itzuli egingo zaio
+edo itzuli egin beharko du, hala
+badagokio,
+ordaindutako
+aurrerakinaren zati bat edo aurrerakin
+osoa, hala behar izanez gero.
+Artículo 16.
+En caso de concurrencia con otras
+fuentes de financiación, y salvo que las
+bases específicas establezcan otra
+regulación, el límite de financiación
+queda establecido en el 100% del
+gasto producido, esto es, nunca debe
+darse una sobrefinanciación con
+ayuda económica del Ayuntamiento.
+A este respecto, y salvo que en los
+acuerdos municipales de concesión de
+subvenciones
+se
+indique
+expresamente otro sistema de ajuste o
+regularización, en el pago final o
+liquidación de la subvención, a realizar
+por el Ayuntamiento a la vista de los
+gastos
+e
+ingresos
+realmente
+producidos, se efectuará la oportuna
+rectificación del importe a abonar, al
+objeto de que dicha sobrefinanciación
+no tenga lugar, con reintegro o
+devolución, en su caso, de parte o de
+la totalidad del anticipo abonado, si ello
+fuera necesario.
+IX.
+DIRULAGUNTZA
+ORDAINTZEKO ERA ETA EPEAK.
+AURRERAKINEN AUKERA
+17. artikulua.
+IX.FORMA Y PLAZOS DE ABONO DE
+LA SUBVENCIÓN. POSIBILIDAD DE
+ANTICIPOS
+Artículo 17.
+11
+Diru laguntzen oinarri orokorrak 2026
+Dirulaguntza jaso ahal izateko
+dirulaguntzaren helburua bete izana
+frogatu beharko da, horretarako
+organo eskudunek aurkeztu zen
+aurrekontuari
+buruz
+onartutako
+kopuruak eta portzentajeak hartuko
+dira erreferentzia gisa, eta entitate
+titular eskatzaileari ordainduko zaio,
+aurkeztutako eskabide ereduan hark
+emandako datuen arabera.
+El abono de la subvención se realizará,
+previa justificación del cumplimiento de
+la finalidad para la que se concedió,
+tomando como referencia las cuantías
+y los porcentajes, respecto del
+presupuesto presentado, aprobados
+por los órganos competentes y se
+librará a la entidad titular solicitante de
+la misma, de conformidad con los
+datos facilitados por ésta en el modelo
+de solicitud presentado.
+18. artikulua.
+Dirulaguntza ordaintzeko, kontuan
+hartuko dira jardueratik edo diruz
+lagundutako
+programatik
+ondorioztatutako ezaugarriak eta
+finantza beharrak.
+Artículo 18.
+Para el pago de la subvención se
+tendrá en cuenta las características y
+necesidades financieras derivadas de
+la
+actividad
+o
+programa
+subvencionado.
+Con carácter general, se admite la
+posibilidad de pago de anticipos a
+cuenta, y salvo que en las bases
+específicas
+se
+señalen
+otras
+cantidades, se procederá al abono de
+la siguiente forma:
+Oro har, konturako aurrerakinez
+ordaintzeko aukera onartzen da, eta
+oinarri-arau espezifikoetan beste
+kopuru batzuk adierazten ez badira,
+honela ordainduko da diru-laguntza:
+— onartu den kopuruaren %75,
+justifikatu
+beharreko
+aurrerakin
+gisara,
+onuradunak
+emandako
+dirulaguntza onartu eta gero eta
+gehienez ere hil bateko epean,
+akordioa hartuko den egunetik
+kontatzen hasita.
+— gainerako %25, organo eskudunak
+dirulaguntzaren likidazioa onartu eta
+gero, hau da, diruz lagundutako
+programa
+edo
+jardueraren
+dokumentazioa eta justifikazio osoa
+eta zuzena entregatu eta gero.
+— 75% de la cantidad aprobada, en
+concepto de anticipo a justificar, una
+vez aceptada por la persona
+beneficiaria la subvención concedida y
+en el plazo máximo de un mes contado
+a partir de la adopción del oportuno
+acuerdo.
+— 25% restante, una vez aprobada por
+el órgano competente la liquidación de
+la
+subvención,
+esto
+es,
+con
+posterioridad a la entrega de la
+documentación
+y
+justificación
+completa y correcta del programa o
+actividad subvencionada.
+Aurkeztutako likidazioa hasieran
+aurkeztu ziren gastuen aurrekontua
+baino txikiagoa izanez gero, gutxitu
+egingo da dirulaguntza, oinarri-arau
+espezifikoek beste erregulazio bat
+xedatu ezean, benetan burutu den
+portzentaje mailara.
+X. DIRULAGUNTZAREN NORAKOA
+FROGATZEKO EPEAK ETA ERAK
+19. artikulua.
+Dirulaguntza programek beste egunik
+ezarri ezean, epe hauek ezartzen
+dira,
+oro
+har,
+diru-laguntzen
+justifikazioa aurkezteko:
+Jatorrizko
+agirien
+euskarriekin
+aurkeztu behar direnak, 2027ko
+urtarrilaren 20a baino lehen.
+Salbuespenez,
+urteko
+azken
+bihilekoan garatu beharreko jarduera
+edo programen kasuan, dagozkion
+frogagiriak 2027 urteko urtarrilaren
+30era arte aurkeztu ahal izango dira.
+Dena
+den,
+kasu
+horretan,
+dirulaguntza xede diren eta burutu
+diren jardueren azalpen memoriari
+buruzko dokumentazioa aurkeztu
+beharko da 2027ko urtarrilaren 20a
+baino lehen, lortutako emaitzen
+balorazio batekin batera.
+En el supuesto de que la liquidación
+presentada fuera por importe inferior al
+presupuesto de gastos inicialmente
+presentado, se minorará, salvo que las
+bases específicas dispongan otra
+regulación, la subvención al porcentaje
+realmente ejecutado.
+X.PLAZOS
+Y
+FORMAS
+DE
+JUSTIFICACIÓN DEL DESTINO DE
+LA SUBVENCIÓN
+Artículo 19.
+Salvo que los distintos programas de
+subvención establezcan otras fechas,
+se establecen, con carácter general,
+los siguientes plazos para la
+presentación de la justificación de las
+subvenciones:
+Las que deban ser presentadas con
+soporte de documentos originales,
+antes del 20 de enero de 2027.
+Excepcionalmente, para el caso de
+aquellas actividades o programas que
+vayan a desarrollarse dentro del último
+bimestre del año, podrá admitirse la
+presentación de
+los oportunos
+justificantes hasta el 30 de enero del
+año 2027. En ese caso la memoria
+explicativa de las actividades objeto de
+subvención que hayan sido llevadas a
+cabo, junto con una valoración de los
+resultados obtenidos, deberá ser
+presentada antes del 20 de enero de
+2027.
+13
+Diru laguntzen oinarri orokorrak 2026
+Dirulaguntzen justifikazioari buruzko
+dokumentazioa epe barruan aurkeztu
+ezean, beste tramiterik gabe,
+likidatzeko
+dagoen
+dirulaguntza
+kopurua
+kobratzeko
+eskubidea
+galduko da. Halaber, Udaleko
+dagokion administrazio unitateak
+espedientea hasiko du ofizioz,
+ordainduta dauden aurrerakinak itzuli
+daitezen.
+La no presentación en plazo de la
+documentación
+relativa
+a
+la
+justificación de las subvenciones,
+supondrá, sin más trámite, la pérdida
+del derecho al cobro del importe de
+subvención
+que
+se
+encuentre
+pendiente de liquidación, así como el
+inicio, de oficio, por parte de la unidad
+administrativa correspondiente del
+Ayuntamiento, de un expediente
+tendente al reintegro o devolución de
+los anticipos que hubieran sido
+abonados.
+XI. OBLIGAZIOAK EZ BETETZEA.
+ITZULKETA
+KASUAK
+ETA
+PROZEDURA
+20. artikulua.
+Beste erabakirik ezean, ez betetzea
+konsideratuko da, hasiera baten
+dirulaguntza emateko onartu diren
+jarduera edo programen %50etik
+behera bakarrik egiten bada, diruz
+lagundutako jarduera edo programa
+bete ez dela ulertuko da.
+XI.INCUMPLIMIENTO
+DE
+OBLIGACIONES. SUPUESTOS DE
+REINTEGRO Y PROCEDIMIENTO
+Artículo 20.
+Salvo acuerdo expreso en otro sentido,
+se considera incumplimiento un nivel
+de ejecución inferior al 50% de las
+actividades o programas aprobados
+inicialmente que han sido objeto de la
+subvención.
+21. artikulua.
+Itzultzeko
+prozedura
+pertsona
+fisikoen edo juridikoen kontra
+zuzenduko da, edo nortasun juridikoa
+ez daukaten pertsona fisiko edo
+juridikoen taldeetako kideen kontra,
+dirulaguntzaren
+eskatzaile
+edo
+onuradun agertzen direnak.
+Dirulaguntza (gehi berandutzako
+interesak) itzuleko obligazioaren
+ondorioz sortuko den erantzukizun
+solidarioa,
+edo
+subsidiarioa,
+erabakitzeko,
+azaroaren
+17ko
+Artículo 21.
+El procedimiento de reintegro se
+dirigirá contra las personas físicas o
+jurídicas, o contra las y los miembros
+de las agrupaciones de personas
+físicas o jurídicas que no tengan
+personalidad jurídica, que figuren
+como solicitantes o beneficiarias de la
+subvención.
+Para
+la
+determinación
+de la
+responsabilidad
+solidaria,
+o
+subsidiaria, según proceda, de la
+obligación de reintegro de la
+Dirulaguntzen
+Lege
+Orokorraren
+40.
+artikuluan
+xedatutakoari lotuko zaio.
+XII. BERMEAK
+22. artikulua.
+Oinarri-arau
+espezifikoek
+edo
+dirulaguntza
+emateko
+akordio
+zehatzek besterik xedatu ezean,
+emandako laguntzengatik ez da
+Udalaren
+aldeko
+beharrezko
+bermeak exijitzea jotzen.
+XIII. OINARRIEN INTERPRETAZIOA
+ETA BALIABIDEAK
+23. artikulua.
+Oinarri-arau hauek interpretatzeari
+buruz sortu daitezkeen zalantzak
+deialdi hau onartzeko organo
+eskuduna den Tokiko Gobernu
+Batzordeak erabakiko ditu. Hala
+badagokio, Programaren arabera
+dagokion batzorde informatzailearen
+txostena aztertu eta gero hartuko du
+erabaki hori.
+24. artikulua.
+Oinarri hauek onartzeko erabakiak
+administrazio-bideak ahitzen ditu eta
+erabaki
+horren
+aurka
+administrazioarekiko
+auzierrekurtsoa aurkeztu aurretik, nahi
+izanez
+gero,
+berraztertzeko
+errekurtsoa jarri ahal izango da,
+oinarriak Gipuzkoako ALDIZKARI
+OFIZIALEAN
+argitaratu
+eta
+subvención, más los correspondientes
+intereses de demora, se estará a lo
+dispuesto en el artículo 40 de la Ley
+38/2003, de 17 de noviembre, General
+de Subvenciones.
+XII.GARANTÍAS
+Artículo 22.
+Salvo que las bases específicas o los
+acuerdos concretos de concesión de
+subvención dispongan lo contrario, no
+se considera necesaria la exigencia de
+garantías a favor del Ayuntamiento por
+razón de las ayudas otorgadas.
+XIII.INTERPRETACIÓN
+DE
+LAS
+BASES Y RECURSOS
+Artículo 23
+Las dudas que puedan surgir respecto
+de la interpretación de estas bases
+serán resueltas por el órgano
+competente para la aprobación de la
+presente convocatoria, la Junta de
+Gobierno Local, previo informe, en su
+caso, de la Comisión Informativa
+correspondiente
+por
+razón
+del
+programa.
+Artículo 24.
+Contra el acuerdo de aprobación de las
+presentes bases, y que es definitivo en
+vía administrativa, se podrá interponer
+con carácter potestativo recurso de
+reposición previo al ContenciosoAdministrativo, en el plazo de un mes
+o bien interponer directamente recurso
+contencioso-administrativo ante el
+15
+Diru laguntzen oinarri orokorrak 2026
+hilabeteko epean Donostian egoitza
+duen
+Administrazioarekiko
+Auzitarako Epaitegian. Bestetik,
+zuzenean administrazioarekiko auzierrekurtsoa jarri ahal izango da
+Epaitegi beraren aurrean, oinarriak
+argitaratu eta bi hilabeteko epean.
+Juzgado
+de
+lo
+ContenciosoAdministrativo
+de
+Donostia-San
+Sebastián, en el plazo de dos meses,
+contados ambos plazos a partir del día
+siguiente al de la publicación de las
+presentes bases en el BOLETIN
+OFICIAL de Gipuzkoa.
+Eta hori, bidezkotzat jotzen den beste
+edozein egintzaren edo errekurtsoren
+kalterik gabe.
+Y ello, sin perjuicio de cualquier otra
+acción o recurso que se estime
+procedente ejercitar.
+EGINBIDEA: Oinarri hauek Udalbatzak 2026ko martxoaren 30ean onartu zituen.
+DILIGENCIA: Para hacer constar que las presentes Bases fueron aprobadas por el
+Ayuntamiento Pleno el 30 de marzo de 2026.
+Idazkariak,
+MARIA JOSE Firmado digitalmente
+por MARIA JOSE
+BEGUIRISTA BEGUIRISTAIN
+- 15994003X
+IN ZABALO - ZABALO
+Fecha: 2026.03.31
+13:49:19 +02'00'
+15994003X
