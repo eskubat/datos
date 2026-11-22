@@ -982,7 +982,8 @@
   "seccion": "base",
   "quien": "Claude",
   "prioridad": 5,
-  "estado": "pendiente",
-  "fecha": "2026-11-22"
+  "estado": "hecha",
+  "fecha": "2026-11-22",
+  "nota": "Causa: en la recolección de las 06:45 UTC la API de la BDNS devolvió HTML en vez de JSON, la fuente falló entera y se conservaron sus ayudas de la publicación anterior, que no guarda la lista de documentos (_docs); por eso esos documentos ni se pidieron y la reutilización del texto anterior no llegó a actuar. Ahora, cuando una fuente falla, cada ayuda conservada recupera de cache/fuentes/<id>.txt sus secciones «### Título: url» (sin ficha ni extractos) y el texto se rehace en el mismo orden y con los mismos títulos (probado sin red con bdns-937455, 939817 y 939560: texto idéntico salvo el extracto del boletín, que se añade después como siempre); además un 404 de la API de documentos de la BDNS ya no borra la sección si hay texto anterior. No trae ayudas nuevas: se espera que un fallo de la BDNS deje de devolver fichas hechas a la cola; las ~108 que quedan se resuelven con la tarea de resúmenes (sus textos ya están en cache/textos_claude) o al volver la BDNS en la próxima recolección."
  }
 ]

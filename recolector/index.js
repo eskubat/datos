@@ -56,6 +56,19 @@ async function enriquecer(ayudas) {
 const log = (m) => console.log(new Date().toISOString().slice(11, 19), m);
 const hoy = new Date().toISOString().slice(0, 10);
 
+// Secciones «### Título: url» del texto anterior de una ayuda, salvo la ficha y los extractos (se rehacen solos)
+function seccionesPrevias(a) {
+  let t = '';
+  try { t = fs.readFileSync(path.join('cache', 'fuentes', nombreFuente(a.id)), 'utf8'); } catch { return []; }
+  const out = [];
+  for (const m of t.matchAll(/^### (.+?): (\S+)$/gm)) {
+    const [, titulo, url] = m;
+    if (url === a.url || /^Ficha oficial$|^Extracto/i.test(titulo) || out.some((x) => x.url === url)) continue;
+    out.push({ url, texto: titulo });
+  }
+  return out;
+}
+
 function leerPrevio() {
   try { return JSON.parse(fs.readFileSync(path.join(SALIDA, 'ayudas.json'), 'utf8')); } catch { return null; }
 }
@@ -321,6 +334,11 @@ async function main() {
     } catch (e) {
       // Si una fuente falla, conservamos lo que había de ella en la publicación anterior
       const anteriores = previo ? previo.ayudas.filter((a) => a.origen === f.clave) : [];
+      // La publicación anterior no guarda los documentos que traía la fuente (p. ej. los «Documento de la
+      // convocatoria» de la API de la BDNS van en _docs, que no se publica): sin ellos, el 22/11 la BDNS no respondió
+      // y 138 fichas hechas perdieron esas secciones y volvieron a la cola (tarea bdns-documentos-perdidos-22nov).
+      // Se toman del texto anterior (cache/fuentes/<id>.txt), en su orden y con su título, para volver a montarlo igual.
+      for (const a of anteriores) a._secciones = seccionesPrevias(a);
       resultados[f.clave] = anteriores;
       estadoFuentes[f.clave] = { nombre: f.nombre, ok: false, error: String(e.message || e), registros: anteriores.length, conservados: true };
       log(`ERROR en ${f.nombre}: ${e.message || e}`);
@@ -753,7 +771,7 @@ async function main() {
     for (const e of a._extractos || []) partes.push(`### Extracto del boletín (${e.nombre}): ${e.url}\n${e.texto}`);
     const t = quitaRepetidas(partes.filter(Boolean).join('\n\n').trim());
     if (t) { fuentes[a.id] = t; fs.writeFileSync(path.join(DIR_F, nombreF(a.id)), t); }
-    delete a._texto; delete a._docs; delete a._ficha; delete a._urls; delete a._extractos;
+    delete a._texto; delete a._docs; delete a._ficha; delete a._urls; delete a._extractos; delete a._secciones;
   }
   // Cierre leído de la documentación recién descargada (tarea bdns-plazo-segun-bases, 22/11): finDelTexto solo veía
   // el texto de la pasada anterior, así que una convocatoria de la BDNS sin fecha de fin («según las bases») cuya

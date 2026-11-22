@@ -183,6 +183,7 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
   };
   const res = {};
   const BORRADO = new Set([404, 410]);
+  const DOC_BDNS = /\/bdnstrans\/api\/convocatorias\/documentos\?/;
   await enParalelo(ayudas, 4, async (a) => {
     // Secciones «### Título: url» del texto anterior de la ayuda
     const anteriores = new Map();
@@ -192,7 +193,9 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
     }
     const obtenerOPrevio = async (u) => {
       const d = await obtener(u);
-      if (d || BORRADO.has(estados[u]) || !anteriores.has(u)) return d;
+      // Un 404 de la API de documentos de la BDNS no es definitivo: la convocatoria sigue publicada con ese documento
+      // en su lista (tarea bdns-documentos-perdidos-22nov), así que se reutiliza el texto anterior
+      if (d || (BORRADO.has(estados[u]) && !DOC_BDNS.test(u)) || !anteriores.has(u)) return d;
       respaldos++;
       return { tipo: 'previo', texto: anteriores.get(u), enlaces: [] };
     };
@@ -203,6 +206,9 @@ export async function documentacion(ayudas, { log = console.log, max = 300000, e
     const principal = a._ficha ? { texto: a._ficha, enlaces: [] } : a.url ? await obtenerOPrevio(a.url) : null;
     if (principal) add('Ficha oficial', a.url, principal.texto);
     const cola = [
+      // Ayuda conservada de una fuente que hoy falló: primero las secciones de su texto anterior, en su orden y con
+      // su título (marcadas como hijo: sus enlaces ya estaban en la lista), para que el texto y la huella no cambien
+      ...(a._secciones || []).filter((s) => !alFinal(a).includes(s.url)).map((s) => ({ ...s, hijo: true })),
       ...extra(a).map((u) => ({ url: u, texto: 'Documento de la convocatoria' })),
       ...[a.bases, a.boletin].filter(Boolean).map((u) => ({ url: u, texto: u === a.bases ? 'Bases reguladoras' : 'Boletín oficial' })),
       ...((principal && principal.enlaces) || []),
