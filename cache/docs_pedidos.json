@@ -347,5 +347,47 @@
   "fecha": "2026-11-22",
   "intentos": 1,
   "probadas": []
+ },
+ "bdns-910721": {
+  "titulo": "Convocatoria 2026 del programa municipal de ayudas económicas extraordinarias dirigidas a empresas con ubicación de negocio en el Casco Histórico de Portugalete (BOB, 12 de junio de 2026, II-3143)",
+  "botha": [],
+  "urls": [
+   "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/06/12/II-3143_cas.pdf",
+   "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2020/06/24/II-1853_cas.pdf"
+  ]
+ },
+ "bdns-910362": {
+  "titulo": "Bases reguladoras de las ayudas económicas individuales y familiares municipales para paliar situaciones de exclusión social y/o extrema necesidad, Ayuntamiento de Azpeitia (BOG nº 61, 30 de marzo de 2022)",
+  "botha": [],
+  "urls": [
+   "https://www.azpeitia.eus/tramiteak/dirulaguntza-programak/tramitean/gizarte-bazterkeriako-eta-behar-larriko-egoerei-aurre-egiteko-norbanako-eta-familientzako-udal-laguntza/1-oinarriak_fudal_gao.pdf",
+   "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2022/03/30/c2201679.pdf"
+  ]
+ },
+ "bdns-929714": {
+  "titulo": "Subvención a asociaciones para la organización de colonias y campamentos de verano 2026, Ayuntamiento de Barakaldo (BDNS 929714, recibida el 16/09/2026)",
+  "botha": [],
+  "urls": [
+   "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/929714"
+  ]
+ },
+ "bdns-910373": {
+  "titulo": "Bases de las ayudas a la rehabilitación de viviendas y edificios residenciales de Vitoria-Gasteiz 2026-2027 (Junta de Gobierno Local 15/05/2026; extracto BOTHA nº 67, 12 de junio de 2026)",
+  "botha": [
+   "2026_067_01687"
+  ],
+  "urls": [
+   "http://www.araba.eus/botha/Boletines/2026/067/2026_067_01687_E.pdf",
+   "https://www.vitoria-gasteiz.org/docs/wb021/contenidosEstaticos/adjuntos/es/34/28/103428.pdf"
+  ]
+ },
+ "bdns-910375": {
+  "titulo": "Bases de las ayudas a la rehabilitación de viviendas y edificios residenciales del Casco Medieval de Vitoria-Gasteiz 2026-2027 (extracto BOTHA nº 67, 12 de junio de 2026)",
+  "botha": [
+   "2026_067_01689"
+  ],
+  "urls": [
+   "http://www.araba.eus/botha/Boletines/2026/067/2026_067_01689_E.pdf"
+  ]
  }
 }

@@ -723,7 +723,9 @@
  "bob-bob-2026a199-ii-5301-": {
   "ocultarHastaFicha": true,
   "huellaFicha": "235b616e4626186e",
-  "motivo": "Retenida hasta tener la ordenanza municipal de subvenciones de Arantzazu a la que remite el anuncio y rehacer la ficha. Decisión del responsable, 18/11/2026."
+  "motivo": "El anuncio del BOB-2026a199 (II-5301, 16/10/2026) fija el 29/10/2026 como plazo máximo de solicitud. Tarea de resúmenes, 22/11/2026.",
+  "estado": "cerrada",
+  "fin": "2026-10-29"
  },
  "bog-c2606587-htm": {
   "ocultarHastaFicha": true,
@@ -819,5 +821,109 @@
  "bdns-919946": {
   "ocultar": true,
   "motivo": "Subvención directa para la acción vecinal del barrio de Mendelu (Hondarribia), destinada a su asociación vecinal; nadie más puede pedirla. Criterio del responsable (18/11/2026) sobre subvenciones nominativas o directas."
+ },
+ "bdns-920008": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a la Asociación Santi Mami para la Conservación de la Festividad de Santi Mami (línea D, fiestas de Santimami) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919993": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a Inguraketa Zamudioko Argazkilaritza Taldea (línea C, promoción del arte) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919982": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a Eguraldi Ona Jai Batzordea (línea D, actos festivos) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919978": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a Bizi Zamudio (línea I, fomento del comercio; la línea J de comercio también es nominativa) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919974": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a Zizegorri (línea C, micología) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919967": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a Txorierri Basket (línea A, baloncesto) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919957": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a Zamudioko Kamara Korala (línea C, canto y folclore) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919952": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a Lagatzu Euskara Elkartea (línea B, euskera) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919949": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a la Asociación de Padres y Madres de Alumnos Elizalde (línea C, formación del alumnado del centro público) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919945": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a Arroeta Mendi Taldea (línea A, montaña) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919943": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a Zamudioko Arbolantxa Esku Pilota Elkartea (línea A, pelota) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919939": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a un grupo de música tradicional con nombre (Gazte Elai Txistu Taldea o Bertoko Soinu Tresnen Elkartea; línea C, formación musical) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919849": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a una asociación de mujeres con nombre (Lagunandre o Zapata Gorriak; línea C, igualdad de género) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919848": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a Gezi Bide (línea A, tiro con arco) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919846": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a Hiru Bat Dantza Taldea (línea C, danzas) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919845": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a Zamudio Racing Elkartea (línea A, deporte del motor) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919687": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a Zamudioko Aldekoa Boxeo Kluba (línea A, boxeo) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919659": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a una asociación con nombre (Lagunandre o Zapata Gorriak; línea C, igualdad de género) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919643": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a la Sociedad Club de Cazadores Txorierri (línea A, caza y tiro) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919619": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a Zamudio Kirol Elkartea (línea A, fútbol) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-919021": {
+  "ocultar": true,
+  "motivo": "Subvención nominativa a Zamudioko Adintsuen Elkartea (línea de actividades de la tercera edad) (Plan Estratégico de Subvenciones de Zamudio 2023-2026, anexo I): nadie más puede pedirla. Criterio del responsable (18/11/2026)."
+ },
+ "bdns-907820": {
+  "estado": "cerrada",
+  "fin": "2026-07-01",
+  "motivo": "Plazo de 20 días hábiles desde el día siguiente a la publicación del decreto en el BOTHA n.º 63 (3/6/2026): último día 1/7/2026 (art. 30.2 Ley 39/2015). Tarea de resúmenes, 22/11/2026."
+ },
+ "bdns-907789": {
+  "estado": "cerrada",
+  "fin": "2026-07-01",
+  "motivo": "Plazo de 20 días hábiles desde el día siguiente a la publicación del decreto en el BOTHA n.º 63 (3/6/2026): último día 1/7/2026 (art. 30.2 Ley 39/2015). Tarea de resúmenes, 22/11/2026."
+ },
+ "bdns-907785": {
+  "estado": "cerrada",
+  "fin": "2026-07-01",
+  "motivo": "Plazo de 20 días hábiles desde el día siguiente a la publicación del decreto en el BOTHA n.º 63 (3/6/2026): último día 1/7/2026 (art. 30.2 Ley 39/2015). Tarea de resúmenes, 22/11/2026."
+ },
+ "bdns-916083": {
+  "estado": "cerrada",
+  "fin": "2026-10-31",
+  "motivo": "Extracto del BOG de 10/07/2026: plazo de solicitud hasta el 31/10/2026. Tarea de resúmenes, 22/11/2026."
  }
 }
