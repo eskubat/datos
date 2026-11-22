@@ -36,6 +36,60 @@
   "caracteres": 300000
  },
  {
+  "id": "bdns-895731",
+  "h": "712a5348f190b260",
+  "titulo": "Bases para la concesión de subvenciones para fomentar la comercialización y consumo de productos",
+  "organismoSugerido": "ayto-beasain",
+  "organismoFuente": "Ayuntamiento de beasain",
+  "archivo": "cache/fuentes/bdns-895731-5cb5f82d.txt",
+  "caracteres": 38076
+ },
+ {
+  "id": "bdns-893215",
+  "h": "85e2e4b61f2a7fc7",
+  "titulo": "Bases reguladoras de la convocatoria de subvenciones Auzotaxi",
+  "organismoSugerido": "ayto-leioa",
+  "organismoFuente": "Ayuntamiento de leioa",
+  "archivo": "cache/fuentes/bdns-893215-79522a28.txt",
+  "caracteres": 300000
+ },
+ {
+  "id": "bdns-892465",
+  "h": "bf49949b45b3c314",
+  "titulo": "Bases reguladoras de la convocatoria de subvenciones de carácter ordinario para la organización de actividades culturales en los barrios",
+  "organismoSugerido": "ayto-leioa",
+  "organismoFuente": "Ayuntamiento de leioa",
+  "archivo": "cache/fuentes/bdns-892465-48409fe6.txt",
+  "caracteres": 104032
+ },
+ {
+  "id": "bdns-891842",
+  "h": "a24a36ff64742feb",
+  "titulo": "Subvenciones. Ayudas económicas para tratamiento de diferentes tipos de adicciones",
+  "organismoSugerido": "ayto-onati",
+  "organismoFuente": "Ayuntamiento de oñati",
+  "archivo": "cache/fuentes/bdns-891842-fc54f19c.txt",
+  "caracteres": 38537
+ },
+ {
+  "id": "bdns-891839",
+  "h": "73c69757f4c50afa",
+  "titulo": "Subvenciones. Ayuda municipal para la instalación de detectores de fuego en domicilios particulares",
+  "organismoSugerido": "ayto-onati",
+  "organismoFuente": "Ayuntamiento de oñati",
+  "archivo": "cache/fuentes/bdns-891839-5917f832.txt",
+  "caracteres": 44099
+ },
+ {
+  "id": "bdns-891394",
+  "h": "5a877288880ac2e5",
+  "titulo": "Subvenciones del programa auzo-taxi y su convocatoria pública",
+  "organismoSugerido": "ayto-azpeitia",
+  "organismoFuente": "Ayuntamiento de azpeitia",
+  "archivo": "cache/fuentes/bdns-891394-df6417f1.txt",
+  "caracteres": 89742
+ },
+ {
   "id": "bob-bob-2026a215-ii-5802-",
   "h": "ed43e2ba0faec9be",
   "titulo": "Convocatoria de subvenciones destinadas a facilitar la emancipación de las personas jóvenes",
@@ -43,6 +97,24 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a215-ii-5802--1dac77fc.txt",
   "caracteres": 5593
+ },
+ {
+  "id": "bdns-931954",
+  "h": "5d09bb37c2725909",
+  "titulo": "Subvenciones de libre concurrencia para el fomento de la contratación de personas jóvenes desempleadas",
+  "organismoSugerido": "ayto-laudio-llodio",
+  "organismoFuente": "Ayuntamiento de laudio/llodio",
+  "archivo": "cache/fuentes/bdns-931954-b1f54f15.txt",
+  "caracteres": 260558
+ },
+ {
+  "id": "bdns-895708",
+  "h": "c0fdc64bab0e2ccc",
+  "titulo": "Subvenciones al alquiler para la recuperación de locales comerciales",
+  "organismoSugerido": "ayto-azkoitia",
+  "organismoFuente": "Ayuntamiento de azkoitia",
+  "archivo": "cache/fuentes/bdns-895708-d76f7a65.txt",
+  "caracteres": 61450
  },
  {
   "id": "ue-horizon-eic-2026-prize-wip",
@@ -79,6 +151,42 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
   "caracteres": 5840
+ },
+ {
+  "id": "bdns-934706",
+  "h": "7b2823adf59861ec",
+  "titulo": "Subvenciones a asociaciones deportivas del municipio para la impartición de cursos del ámbito deportivo en euskera",
+  "organismoSugerido": "ayto-ordizia",
+  "organismoFuente": "Ayuntamiento de ordizia",
+  "archivo": "cache/fuentes/bdns-934706-a83bc262.txt",
+  "caracteres": 243240
+ },
+ {
+  "id": "bdns-895805",
+  "h": "2814186eb0e06637",
+  "titulo": "Subvenciones para familias",
+  "organismoSugerido": "ayto-elgoibar",
+  "organismoFuente": "Ayuntamiento de elgoibar",
+  "archivo": "cache/fuentes/bdns-895805-5cbcb207.txt",
+  "caracteres": 166083
+ },
+ {
+  "id": "bdns-893896",
+  "h": "a08b9c164431ac21",
+  "titulo": "Ekintzaile",
+  "organismoSugerido": "spri",
+  "organismoFuente": "Agencia vasca de desarrollo empresarial",
+  "archivo": "cache/fuentes/bdns-893896-adeb511f.txt",
+  "caracteres": 300000
+ },
+ {
+  "id": "bdns-893245",
+  "h": "f0c75108fe68844a",
+  "titulo": "Subvención asociaciones de carácter socio-cultural, deportivas y de promoción del medio natural",
+  "organismoSugerido": "ayto-barrundia",
+  "organismoFuente": "Ayuntamiento de barrundia",
+  "archivo": "cache/fuentes/bdns-893245-478afdcf.txt",
+  "caracteres": 33229
  },
  {
   "id": "bdns-939400",
@@ -118,12 +226,12 @@
  },
  {
   "id": "bdns-896202",
-  "h": "30d2bf8c781e93c2",
+  "h": "92f9c11ba37ba9a2",
   "titulo": "Subvenciones para sufragar gastos por la organización de fiestas patronales",
   "organismoSugerido": "ayto-urkabustaiz",
   "organismoFuente": "Ayuntamiento de urkabustaiz",
   "archivo": "cache/fuentes/bdns-896202-2c595483.txt",
-  "caracteres": 65057
+  "caracteres": 69865
  },
  {
   "id": "bdns-942560",
@@ -187,6 +295,24 @@
   "organismoFuente": "Ayuntamiento de urretxu",
   "archivo": "cache/fuentes/bdns-898968-68e6b026.txt",
   "caracteres": 52325
+ },
+ {
+  "id": "bdns-893217",
+  "h": "8cd2611e138f3fb3",
+  "titulo": "Subvenciones para celebración de fiestas patronales en el municipio",
+  "organismoSugerido": "ayto-zigoitia",
+  "organismoFuente": "Ayuntamiento de zigoitia",
+  "archivo": "cache/fuentes/bdns-893217-1d10e265.txt",
+  "caracteres": 13923
+ },
+ {
+  "id": "bdns-892885",
+  "h": "e647a08392b7440a",
+  "titulo": "Convocatoria de acceso al programa de Ayudas económicas para la mejora del aspecto visual externo de locales comerciales La Vieja, San Francisco",
+  "organismoSugerido": "bilbao-ekintza",
+  "organismoFuente": "Bilbao ekintza",
+  "archivo": "cache/fuentes/bdns-892885-9d3bf1cb.txt",
+  "caracteres": 21921
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -540,6 +666,42 @@
   "caracteres": 7319
  },
  {
+  "id": "bdns-894356",
+  "h": "c39d23cca565521e",
+  "titulo": "Subvenciones para el fomento de las explotaciones agropecuarias del municipio",
+  "organismoSugerido": "ayto-barrundia",
+  "organismoFuente": "Ayuntamiento de barrundia",
+  "archivo": "cache/fuentes/bdns-894356-7bcac14a.txt",
+  "caracteres": 33946
+ },
+ {
+  "id": "bdns-893428",
+  "h": "46402fea20e95ffb",
+  "titulo": "Subvenciones obras rehabilitación de viviendas",
+  "organismoSugerido": "ayto-barrundia",
+  "organismoFuente": "Ayuntamiento de barrundia",
+  "archivo": "cache/fuentes/bdns-893428-d9bb8f6f.txt",
+  "caracteres": 33822
+ },
+ {
+  "id": "bdns-893232",
+  "h": "a5af04233c157676",
+  "titulo": "Convocatoria pública de las subvenciones del programa de auzo-taxi",
+  "organismoSugerido": "ayto-onati",
+  "organismoFuente": "Ayuntamiento de oñati",
+  "archivo": "cache/fuentes/bdns-893232-73532198.txt",
+  "caracteres": 288945
+ },
+ {
+  "id": "bdns-891115",
+  "h": "e44269040b0acd66",
+  "titulo": "Convocatoria de ayudas económicas individualizadas destinadas a prevenir",
+  "organismoSugerido": "ayto-hernani",
+  "organismoFuente": "Ayuntamiento de hernani",
+  "archivo": "cache/fuentes/bdns-891115-fbb05822.txt",
+  "caracteres": 115315
+ },
+ {
   "id": "bdns-921964",
   "h": "11d614fd706d042f",
   "titulo": "Premios Ejército",
@@ -547,15 +709,6 @@
   "organismoFuente": "Ejército de tierra",
   "archivo": "cache/fuentes/bdns-921964-7dd71bd1.txt",
   "caracteres": 32597
- },
- {
-  "id": "ue-crea-media-2027-tvonline-1",
-  "h": "594ec78e4c088425",
-  "titulo": "TV and online content Animation projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
-  "caracteres": 6321
  },
  {
   "id": "ue-crea-media-2027-tvonline-2",
@@ -574,6 +727,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
   "caracteres": 6320
+ },
+ {
+  "id": "ue-crea-media-2027-tvonline-1",
+  "h": "594ec78e4c088425",
+  "titulo": "TV and online content Animation projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
+  "caracteres": 6321
  },
  {
   "id": "bdns-936041",

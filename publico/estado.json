@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "generado": "2026-11-22T12:57:50.517Z",
-  "total": 464,
+  "generado": "2026-11-22T14:13:35.314Z",
+  "total": 479,
   "porAmbito": {
     "estado": 59,
-    "euskadi": 85,
-    "municipio": 203,
+    "euskadi": 86,
+    "municipio": 217,
     "ue": 33,
     "territorio": 84
   },
   "porEstado": {
-    "abierta": 376,
+    "abierta": 391,
     "proxima": 46,
     "sinfecha": 42
   },
-  "previstas": 641,
+  "previstas": 636,
   "fuentes": {
     "euskadi": {
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
       "registros": 129,
-      "segundos": 29,
+      "segundos": 30,
       "erroresFicha": 0
     },
     "gipuzkoa": {
@@ -40,8 +40,8 @@
     "bdns": {
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
-      "registros": 904,
-      "segundos": 162,
+      "registros": 918,
+      "segundos": 171,
       "erroresFicha": 0
     },
     "boletines": {
@@ -55,7 +55,7 @@
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 19,
-      "segundos": 18,
+      "segundos": 16,
       "erroresFicha": 0
     },
     "europa": {
@@ -66,9 +66,9 @@
     }
   },
   "enlaces": {
-    "comprobados": 787,
-    "rotos": 5,
+    "comprobados": 814,
+    "rotos": 2,
     "sustituidos": 1,
-    "quitados": 4
+    "quitados": 1
   }
 }

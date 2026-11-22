@@ -215,7 +215,7 @@
  {
   "id": "bdns-939389",
   "h": "1c6d6eaa2481da08",
-  "titulo": "Bases reguladoras y convocatoria del Concurso de Escaparates",
+  "titulo": "Concurso de escaparates para comercios",
   "para": [
    "autonomo",
    "empresa"
@@ -257,7 +257,7 @@
  {
   "id": "bdns-895774",
   "h": "e060905cc69fd815",
-  "titulo": "Subvenciones para actos y eventos culturales, deportivos o dirigidos a la igualdad de género o a la conciliación corresponsable o a la inclusión",
+  "titulo": "Subvenciones para organizar actividades culturales, deportivas, de igualdad e inclusión",
   "para": [
    "particular",
    "asociacion"
@@ -274,7 +274,7 @@
  {
   "id": "bdns-896479",
   "h": "2be3788950c5d0f7",
-  "titulo": "Bases para la concesión de subvenciones para subvencionar los gastos de matriculación en cursos de euskera",
+  "titulo": "Subvenciones para pagar la matrícula de cursos de euskera y barnetegis",
   "para": [
    "particular"
   ],
@@ -580,7 +580,7 @@
  },
  {
   "id": "bdns-895731",
-  "h": "41e8237b72aa5a23",
+  "h": "3306236d94ca6585",
   "titulo": "Bases para la concesión de subvenciones para fomentar la comercialización y consumo de productos",
   "para": [
    "autonomo",
@@ -591,6 +591,55 @@
    "emprendimiento"
   ],
   "archivo": "cache/fuentes/bdns-895731-5cb5f82d.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-893215",
+  "h": "7a12d0c114dd592d",
+  "titulo": "Bases reguladoras de la convocatoria de subvenciones Auzotaxi",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bdns-893215-79522a28.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-891842",
+  "h": "caa42957bec2273a",
+  "titulo": "Subvenciones. Ayudas económicas para tratamiento de diferentes tipos de adicciones",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-891842-fc54f19c.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-891839",
+  "h": "4b86a9241bc4fce4",
+  "titulo": "Subvenciones. Ayuda municipal para la instalación de detectores de fuego en domicilios particulares",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-891839-5917f832.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-891394",
+  "h": "b805796433065884",
+  "titulo": "Subvenciones del programa auzo-taxi y su convocatoria pública",
+  "para": [
+   "particular",
+   "ayuntamiento"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bdns-891394-df6417f1.txt",
   "revisar": false
  },
  {
@@ -674,6 +723,21 @@
   "revisar": false
  },
  {
+  "id": "bdns-931954",
+  "h": "2774f28371ab4f09",
+  "titulo": "Subvenciones de libre concurrencia para el fomento de la contratación de personas jóvenes desempleadas",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "empleo",
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-931954-b1f54f15.txt",
+  "revisar": false
+ },
+ {
   "id": "bdns-938573",
   "h": "b1f97f0d1368dcbd",
   "titulo": "Ayudas para participar en la feria de deportes de invierno de Grenoble",
@@ -690,10 +754,9 @@
  {
   "id": "bdns-938096",
   "h": "706f9467414e35b6",
-  "titulo": "Subvenciones para el fomento de proyectos del sector primario. Convocatoria",
+  "titulo": "Subvenciones para proyectos del sector primario",
   "para": [
-   "autonomo",
-   "empresa"
+   "autonomo"
   ],
   "temas": [
    "rural"
@@ -730,12 +793,10 @@
  {
   "id": "bdns-910439",
   "h": "8f58fba9c385ec1d",
-  "titulo": "Subvenciones del área de servicios sociales",
+  "titulo": "Subvenciones para proyectos sociales, de cooperación y de ayuda humanitaria",
   "para": [
-   "autonomo",
-   "empresa",
    "asociacion",
-   "ayuntamiento"
+   "particular"
   ],
   "temas": [
    "social"
@@ -745,8 +806,8 @@
  },
  {
   "id": "bdns-910362",
-  "h": "8e7138aae951b7cf",
-  "titulo": "Ayudas económicas individuales y familiares municipales para paliar situaciones de exclusión social y/o extrema necesidad",
+  "h": "27005c4b03d2da17",
+  "titulo": "Ayudas económicas para personas y familias en exclusión social o extrema necesidad",
   "para": [
    "particular"
   ],
@@ -771,7 +832,7 @@
  },
  {
   "id": "bdns-895708",
-  "h": "3d5985a6f42c5958",
+  "h": "6e7b03bc4218c4af",
   "titulo": "Subvenciones al alquiler para la recuperación de locales comerciales",
   "para": [
    "autonomo",
@@ -797,22 +858,6 @@
   "revisar": false
  },
  {
-  "id": "bdns-943839",
-  "h": "e0d74203abb7d405",
-  "titulo": "Cursos de euskera en centros vascos (26/27)",
-  "para": [
-   "asociacion",
-   "autonomo",
-   "empresa"
-  ],
-  "temas": [
-   "cultura",
-   "estudios"
-  ],
-  "archivo": "cache/fuentes/bdns-943839-f4132ebb.txt",
-  "revisar": false
- },
- {
   "id": "bdns-942229",
   "h": "19d24a6dc87f135e",
   "titulo": "Ayudas eTwinning para que el profesorado asista a encuentros de formación",
@@ -828,7 +873,7 @@
  {
   "id": "bdns-938475",
   "h": "4127927bddc65a6e",
-  "titulo": "Bases reguladoras de la convocatoria de subvenciones para fomentar el alquiler asequible",
+  "titulo": "Subvenciones para alquilar viviendas vacías a precio asequible",
   "para": [
    "particular"
   ],
@@ -841,12 +886,10 @@
  {
   "id": "bdns-935443",
   "h": "b0834b0cb27079b7",
-  "titulo": "Concurso carteles carnavales",
+  "titulo": "Concurso de carteles para los carnavales",
   "para": [
    "particular",
-   "asociacion",
-   "autonomo",
-   "empresa"
+   "autonomo"
   ],
   "temas": [
    "cultura"
@@ -913,7 +956,7 @@
  {
   "id": "bdns-938418",
   "h": "f5eb5fcdb5392158",
-  "titulo": "Bases para la concesión de subvenciones a quienes obtengan el título de \"Monitor/a o Director/a de Actividades de Tiempo Libre Infantil",
+  "titulo": "Subvenciones para obtener en euskera el título de monitor o director de tiempo libre",
   "para": [
    "particular"
   ],
@@ -1003,8 +1046,10 @@
  {
   "id": "eus-ayuda-subvencion-2026-subvenciones-para-proyectos-editoriales-y-audiovisuales-en-el-ambito-de-la-diaspora-vasca-2026",
   "h": "42d7f9b3cc1a98ec",
-  "titulo": "Subvenciones para proyectos editoriales y audiovisuales en el ámbito de la Diáspora Vasca",
+  "titulo": "Subvenciones para proyectos editoriales y audiovisuales sobre la diáspora vasca",
   "para": [
+   "particular",
+   "autonomo",
    "empresa",
    "asociacion"
   ],
@@ -1033,10 +1078,9 @@
  {
   "id": "bdns-940056",
   "h": "955f77d7de83678e",
-  "titulo": "Ayudas públicas en del Programa Nacional de Exploración Minera",
+  "titulo": "Ayudas para la exploración minera de materias primas fundamentales",
   "para": [
-   "empresa",
-   "autonomo"
+   "empresa"
   ],
   "temas": [
    "energia",
@@ -1089,7 +1133,7 @@
  {
   "id": "bdns-940263",
   "h": "37fbe10d60e6dd2a",
-  "titulo": "Bases del concurso de carteles de navidad",
+  "titulo": "Concurso de carteles de Navidad para escolares de primaria",
   "para": [
    "particular"
   ],
@@ -1101,8 +1145,8 @@
  },
  {
   "id": "bdns-910721",
-  "h": "83e6b43e5c354659",
-  "titulo": "Decreto de Alcaldía, de fecha 1 de junio de,",
+  "h": "e7fff3c027b83423",
+  "titulo": "Ayudas para instalar un negocio en el Casco Histórico",
   "para": [
    "autonomo",
    "empresa"
@@ -1180,7 +1224,7 @@
  {
   "id": "bdns-941574",
   "h": "13f59f66bb80a983",
-  "titulo": "Programa balidatu, programa de ayudas de apoyo para la validación de tecnologías de proyectos empresariales innovadores en un entorno real",
+  "titulo": "Ayudas Balidatu para que startups prueben su tecnología en un entorno real",
   "para": [
    "autonomo",
    "empresa"
@@ -1237,10 +1281,11 @@
  {
   "id": "bdns-939545",
   "h": "d7934d60dd111dd9",
-  "titulo": "Subvenciones económicas por parte para el desarrollo en materia de actividad física y deporte para las temporadas y/o",
+  "titulo": "Subvenciones para promover la actividad física y el deporte",
   "para": [
-   "particular",
-   "asociacion"
+   "autonomo",
+   "asociacion",
+   "ayuntamiento"
   ],
   "temas": [
    "cultura",
@@ -1278,7 +1323,7 @@
  {
   "id": "bdns-905086",
   "h": "f3e94f557559ad82",
-  "titulo": "Convocatoria del de las ayudas municipales de garantia de ingresos e inclusión social",
+  "titulo": "Ayudas municipales de garantía de ingresos e inclusión social",
   "para": [
    "particular"
   ],
@@ -1291,7 +1336,7 @@
  {
   "id": "bdns-905058",
   "h": "1d5320bec33eb3f7",
-  "titulo": "Convocatoria y cuantías máximas para las Ayudas de Emergencia Social",
+  "titulo": "Ayudas de emergencia social para gastos básicos y de vivienda",
   "para": [
    "particular"
   ],
@@ -1332,7 +1377,7 @@
  },
  {
   "id": "bdns-895805",
-  "h": "8a77c25490b8c359",
+  "h": "2ed3736e3f5afd59",
   "titulo": "Subvenciones para familias",
   "para": [
    "particular"
@@ -1342,6 +1387,19 @@
    "educacion"
   ],
   "archivo": "cache/fuentes/bdns-895805-5cbcb207.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-893896",
+  "h": "7dbd4187797957b0",
+  "titulo": "Ekintzaile",
+  "para": [
+   "empresa",
+   "particular",
+   "autonomo"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bdns-893896-adeb511f.txt",
   "revisar": false
  },
  {
@@ -1358,7 +1416,7 @@
  {
   "id": "bdns-911292",
   "h": "05c4265d5c410416",
-  "titulo": "Ayudas de \"Euskera y Multiculturalidad\" en el tiempo libre",
+  "titulo": "Ayudas para actividades de tiempo libre en euskera para niños y niñas",
   "para": [
    "particular"
   ],
@@ -1379,20 +1437,6 @@
    "estudios"
   ],
   "archivo": "cache/fuentes/bdns-938065-f917aee7.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-937108",
-  "h": "62c4a462dc018797",
-  "titulo": "Decreto de Alcaldia nº /1663 del 14/07/, por lo",
-  "para": [
-   "autonomo",
-   "empresa"
-  ],
-  "temas": [
-   "cultura"
-  ],
-  "archivo": "cache/fuentes/bdns-937108-7f4aaefa.txt",
   "revisar": false
  },
  {
@@ -1794,6 +1838,21 @@
    "social"
   ],
   "archivo": "cache/fuentes/bdns-898968-68e6b026.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-892885",
+  "h": "adc9c6c62d90b08b",
+  "titulo": "Convocatoria de acceso al programa de Ayudas económicas para la mejora del aspecto visual externo de locales comerciales La Vieja, San Francisco",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "comercio",
+   "emprendimiento"
+  ],
+  "archivo": "cache/fuentes/bdns-892885-9d3bf1cb.txt",
   "revisar": false
  },
  {
@@ -2762,6 +2821,57 @@
    "social"
   ],
   "archivo": "cache/fuentes/bdns-895653-f3fe89b8.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-894356",
+  "h": "21cb49fc064bb5e3",
+  "titulo": "Subvenciones para el fomento de las explotaciones agropecuarias del municipio",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "rural"
+  ],
+  "archivo": "cache/fuentes/bdns-894356-7bcac14a.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-893428",
+  "h": "3a0735521c9658c5",
+  "titulo": "Subvenciones obras rehabilitación de viviendas",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "vivienda"
+  ],
+  "archivo": "cache/fuentes/bdns-893428-d9bb8f6f.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-893232",
+  "h": "eef3023bab40148f",
+  "titulo": "Convocatoria pública de las subvenciones del programa de auzo-taxi",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bdns-893232-73532198.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-891115",
+  "h": "c636e2c3fa681302",
+  "titulo": "Convocatoria de ayudas económicas individualizadas destinadas a prevenir",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-891115-fbb05822.txt",
   "revisar": false
  },
  {
@@ -5032,20 +5142,6 @@
   "revisar": false
  },
  {
-  "id": "prest-gipuzkoa-pnc",
-  "h": "bc3fff81ddb4a496",
-  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "familia",
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
-  "revisar": false
- },
- {
   "id": "prest-araba-pnc",
   "h": "89f930ea395d5a97",
   "titulo": "Pensión no contributiva de jubilación o invalidez para personas sin recursos",
@@ -5058,6 +5154,20 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-araba-pnc-6fc67e01.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-gipuzkoa-pnc",
+  "h": "bc3fff81ddb4a496",
+  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
   "revisar": false
  },
  {
@@ -5089,6 +5199,17 @@
   "revisar": false
  },
  {
+  "id": "prest-araba-pevs",
+  "h": "47b578c0f318894c",
+  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-bizkaia-lismi-movilidad",
   "h": "f9fcbdd7c3c5db41",
   "titulo": "Ayudas para gastos de transporte de personas con discapacidad",
@@ -5099,17 +5220,6 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-bizkaia-lismi-movilidad-e5897cf6.txt",
-  "revisar": false
- },
- {
-  "id": "prest-araba-pevs",
-  "h": "47b578c0f318894c",
-  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
-  "para": [
-   "particular"
-  ],
-  "temas": [],
-  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
   "revisar": false
  },
  {
