@@ -4321,7 +4321,7 @@
  {
   "id": "bdns-878679",
   "h": "898e3ce3ff03611c",
-  "titulo": "D. F. 141/ de la D. F. B. , de 29 de diciembre,",
+  "titulo": "Ayudas para comprar productos de apoyo para personas con dependencia o discapacidad",
   "para": [
    "particular"
   ],
@@ -5520,6 +5520,19 @@
   "revisar": false
  },
  {
+  "id": "prest-bizkaia-pnc-incapacidad",
+  "h": "ba1a61d381ec383f",
+  "titulo": "Pensión no contributiva de incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-bizkaia-pnc-incapacidad-55586f81.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-bono-social-electrico",
   "h": "17d0c1c6d10433f4",
   "titulo": "Bono social para pagar menos en la factura de la luz",
@@ -5532,19 +5545,6 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-bono-social-electrico-a18ad288.txt",
-  "revisar": false
- },
- {
-  "id": "prest-bizkaia-pnc-incapacidad",
-  "h": "ba1a61d381ec383f",
-  "titulo": "Pensión no contributiva de incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-bizkaia-pnc-incapacidad-55586f81.txt",
   "revisar": false
  },
  {
@@ -5641,6 +5641,33 @@
    "vivienda"
   ],
   "archivo": "cache/fuentes/prest-gipuzkoa-pnc-complemento-vivienda-a15baccd.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-gipuzkoa-pece",
+  "h": "8c8ebab370c29e63",
+  "titulo": "Prestación para cuidar en casa a una persona dependiente",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-pece-cedb76bd.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-gipuzkoa-pnc",
+  "h": "bc3fff81ddb4a496",
+  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
   "revisar": false
  },
  {
