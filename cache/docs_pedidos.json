@@ -765,11 +765,19 @@
   "urls": [
    "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2026/03/23/c2601409.pdf",
    "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1409784"
-  ]
+  ],
+  "estado": "ok",
+  "url": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2026/03/23/c2601409.pdf",
+  "fecha": "2026-11-22",
+  "probadas": []
  },
  "bdns-895653": {
   "titulo": "Bases reguladoras y convocatoria de las subvenciones en materia de carácter social, cultura y deporte del Ayuntamiento de Lantarón, ejercicio 2026 (BOTHA, marzo de 2026)",
   "botha": [],
-  "urls": []
+  "urls": [],
+  "estado": "fallo",
+  "fecha": "2026-11-22",
+  "intentos": 1,
+  "probadas": []
  }
 }
