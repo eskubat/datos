@@ -1005,8 +1005,8 @@
   "seccion": "revision",
   "quien": "Claude",
   "prioridad": 3,
-  "estado": "pendiente",
+  "estado": "hecha",
   "fecha": "2026-11-22",
-  "nota": "Añadida al plan de mejoras"
+  "nota": "RE_VINCULO de recolector/resumen.js acepta ahora «registro municipal…» y «registro de entidades/asociaciones…» como prueba de «domicilio», salvo los registros autonómicos o estatales (País Vasco, Euskadi, nacional…). Rehecha la ficha de bdns-939450 (Busturia) con vinculo_territorial «domicilio»: pasa la comprobación y en publico/ayudas.json sale con exigeVinculo true y sin aviso de revisión. No cambia el número de ayudas."
  }
 ]

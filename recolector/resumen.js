@@ -148,7 +148,9 @@ function comprobarVersion(r, fuente = '') {
 export const VINCULOS = ['empadronamiento', 'domicilio', 'actividad', 'ninguno'];
 export const VINCULOS_EXIGEN = ['empadronamiento', 'domicilio'];
 export const esForalOMunicipal = (id) => /^(?:df[abg]$|ayto-|bilbao-|donostia-|fomento-|behargintza|inguralde)/.test(String(id || ''));
-const RE_VINCULO = /empadronad|empadronamiento|\bresid(?:ir|an|en|encia|ente)|vecin[oa]|domicilio|domiciliad|\bsede\b/i;
+// La inscripción obligatoria en un registro municipal de entidades o asociaciones también prueba «domicilio»
+// (criterio del responsable, 22/11/2026, docs/CATEGORIZACION.md); no cuentan los registros autonómicos o estatales.
+const RE_VINCULO = /empadronad|empadronamiento|\bresid(?:ir|an|en|encia|ente)|vecin[oa]|domicilio|domiciliad|\bsede\b|\bregistro\s+municipal\b|\bregistro\s+(?:general\s+)?(?:local\s+)?de\s+(?:entidades|asociaciones)\b(?![^.\n]{0,60}(?:pa[ií]s\s+vasco|euskadi|gobierno\s+vasco|comunidad\s+aut[oó]noma|ministerio|nacional|del\s+estado))/i;
 const textoVersiones = (vs) => Object.values(vs && typeof vs === 'object' ? vs : {}).flatMap((v) => [
   ...(Array.isArray(v && v.quien_puede_pedirla) ? v.quien_puede_pedirla.map((q) => (q && q.texto) || '') : []),
   ...(Array.isArray(v && v.requisitos) ? v.requisitos.flatMap((g) => (Array.isArray(g && g.requisitos) ? g.requisitos : [])) : []),
