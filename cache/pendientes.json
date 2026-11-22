@@ -351,33 +351,6 @@
   "caracteres": 289509
  },
  {
-  "id": "ue-crea-media-2027-tvonline-2",
-  "h": "2bb80164abe11ee5",
-  "titulo": "TV and online content Documentary projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
-  "caracteres": 6324
- },
- {
-  "id": "ue-crea-media-2027-tvonline-3",
-  "h": "edb329094bf69b46",
-  "titulo": "TV and online content Fiction projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
-  "caracteres": 6320
- },
- {
-  "id": "ue-crea-media-2027-tvonline-1",
-  "h": "594ec78e4c088425",
-  "titulo": "TV and online content Animation projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
-  "caracteres": 6321
- },
- {
   "id": "bdns-941791",
   "h": "c95f39503a6ce26d",
   "titulo": "Premio Nacional de Estadística a la trayectoria científica",
@@ -441,15 +414,6 @@
   "caracteres": 36508
  },
  {
-  "id": "ue-crea-media-2027-filmdist",
-  "h": "93d43372d8be537d",
-  "titulo": "European Film Distribution",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-filmdist-9cdefc48.txt",
-  "caracteres": 3631
- },
- {
   "id": "bdns-941955",
   "h": "f7cd80abc9f1528b",
   "titulo": "Ayudas a la producción de cortometrajes ya realizados",
@@ -502,24 +466,6 @@
   "organismoFuente": "Ayuntamiento de Hernani",
   "archivo": "cache/fuentes/bdns-942978-0ac78f70.txt",
   "caracteres": 200105
- },
- {
-  "id": "ue-cs-resist-ii-process-innovation-open-call",
-  "h": "b40050bc3e34dc61",
-  "titulo": "Resist II process innovation OPEN CALL",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-cs-resist-ii-process-innovation-open-call-3fffea60.txt",
-  "caracteres": 4954
- },
- {
-  "id": "ue-cs-resist-ii-product-innovation-open-call",
-  "h": "f09824129f1f3b5a",
-  "titulo": "Resist II product innovation OPEN CALL",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-cs-resist-ii-product-innovation-open-call-385d00a0.txt",
-  "caracteres": 4876
  },
  {
   "id": "bdns-940347",
