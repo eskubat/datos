@@ -1030,7 +1030,8 @@
   "seccion": "datos",
   "quien": "Claude",
   "prioridad": 50,
-  "estado": "pendiente",
-  "fecha": "2026-11-23"
+  "estado": "hecha",
+  "fecha": "2026-11-23",
+  "nota": "La BDNS publica el mismo PDF con dos idDocumento (bdns-901439: 1442304/1442305; bdns-918655: 1492486/1492487) y, si el copiado en textos_claude era el otro, cambiaban las huellas estable y sin orden. Nueva huella de contenido «hc» en recolector/resumen.js (contenidos distintos de las secciones, sin cabeceras ni los ya copiados), que aceptan fichaVigente, incorporar.js y el recolector; puesta a las 420 fichas vigentes. No cambia el número de ayudas; se espera que estas fichas dejen de volver a la cola."
  }
 ]
