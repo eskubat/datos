@@ -36,24 +36,6 @@
   "caracteres": 300000
  },
  {
-  "id": "bdns-918655",
-  "h": "8524f71c3c8bc4d4",
-  "titulo": "Viii campaña reparto bonos para reforzar el canal de venta de proximidad",
-  "organismoSugerido": "ayto-errenteria",
-  "organismoFuente": "Ayuntamiento de errenteria",
-  "archivo": "cache/fuentes/bdns-918655-c5a1a785.txt",
-  "caracteres": 128955
- },
- {
-  "id": "bdns-901439",
-  "h": "b63fca547e07026a",
-  "titulo": "Subvenciones destinadas a grupos musicales o solistas locales para la realización de grabaciones",
-  "organismoSugerido": "ayto-arrasate-mondragon",
-  "organismoFuente": "Ayuntamiento de arrasate/mondragón",
-  "archivo": "cache/fuentes/bdns-901439-e65022be.txt",
-  "caracteres": 15359
- },
- {
   "id": "bdns-890165",
   "h": "6b3ec94d4760f1b8",
   "titulo": "Bases reguladoras y convocatoria de las subvenciones para la contratación de personas desempleadas",
@@ -196,24 +178,6 @@
   "organismoFuente": "Departamento de alimentación, desarrollo rural, agricultura y pesca",
   "archivo": "cache/fuentes/bdns-897355-04ebc981.txt",
   "caracteres": 300000
- },
- {
-  "id": "bdns-872884",
-  "h": "a30d68595a0e0ae5",
-  "titulo": "De subvenciones a personas físicas usuarias infraestructura AP-68 (autopista Bilbao-Zaragoza) en tramos sometidos a peaje y titularidad",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación foral de Bizkaia",
-  "archivo": "cache/fuentes/bdns-872884-2bfa1a11.txt",
-  "caracteres": 92259
- },
- {
-  "id": "bdns-872882",
-  "h": "bf49038649b47f0d",
-  "titulo": "Bases reguladoras y convocatoria de subvenciones a personas físicas usuarias de las infraestructuras viarias",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación foral de Bizkaia",
-  "archivo": "cache/fuentes/bdns-872882-e3b8b31e.txt",
-  "caracteres": 96535
  },
  {
   "id": "ue-crea-media-2027-tvonline-1",

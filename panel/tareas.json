@@ -1021,5 +1021,16 @@
   "estado": "hecha",
   "fecha": "2026-11-23",
   "nota": "La API de la BDNS devuelve a veces los documentos de una convocatoria en otro orden (bdns-890111) y eso cambiaba h y he. Ahora cada ficha guarda también una huella sin orden («ho», huellaOrden en recolector/resumen.js: las secciones ordenadas antes de calcularla) y fichaVigente la acepta; incorporar.js la guarda en las fichas nuevas y el recolector la añade a las que siguen valiendo, y ya se ha añadido a 474 de las 482 fichas actuales. Probado: bdns-890111 con sus dos documentos intercambiados sigue vigente y con un cambio real vuelve a la cola; no cambia ninguna ayuda publicada."
+ },
+ {
+  "id": "bdns-iddocumento-alterna",
+  "titulo": "No volver a poner en cola una ficha cuando solo cambia el idDocumento de la BDNS",
+  "detalle": "Problema: bdns-901439 (grabaciones musicales de Arrasate) y bdns-918655 (bonos de Errenteria) volvieron a cache/pendientes.json en el commit 0a2f74d (23/11) aunque su texto no cambió: en cache/fuentes solo cambia la primera línea «### Documento de la convocatoria: …idDocumento=1442305» → «…1442304» (y 1492486 → 1492487 en Errenteria), porque la BDNS da a veces el mismo documento bilingüe con otro id. La huella estable sin líneas «### …: url» debería haberlo cubierto y no lo hizo. Qué hacer: revisar por qué fichaVigente no acepta estas dos (¿he guardado antes de quitar las cabeceras, o con el texto de textos_claude incluido?) y corregirlo. Comprobación: tras la próxima recolección, si solo cambia la URL de la cabecera, ninguna de las dos vuelve a la cola.",
+  "fuente": "Tarea de resúmenes",
+  "seccion": "datos",
+  "quien": "Claude",
+  "prioridad": 50,
+  "estado": "pendiente",
+  "fecha": "2026-11-23"
  }
 ]
