@@ -1,4 +1,4 @@
 {
- "fecha": "2026-11-22",
- "nota": "Tras el recolector de hoy (05:55 UTC) las siete fuentes están bien y sin errores de ficha (euskadi 129, Gipuzkoa 27, Álava 145, BDNS 888, boletines 154, prestaciones 19, UE 29); el cambio de bdns-plazo-segun-bases funcionó (bdns-931520, 931492, 934718 y 934689 ya no salen abiertas) y no hay nada que deshacer."
+ "fecha": "2026-11-23",
+ "nota": "Tras el recolector de hoy (05:53 UTC) las siete fuentes están bien y sin errores de ficha (euskadi 129, Gipuzkoa 27, Álava 145, BDNS 991, boletines 154, prestaciones 19, UE 29); de lo hecho el 22 y 23, la huella sin orden (fuentes-orden-documentos-estable) no bastó para bdns-901439 y bdns-918655, que volvieron a la cola porque la BDNS da el mismo PDF con dos idDocumento y el copiado en textos_claude era el otro: se añade la huella de contenido «hc» (recolector/resumen.js), puesta a 416 fichas vigentes, y ambas salen de la cola."
 }

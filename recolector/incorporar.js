@@ -1,7 +1,7 @@
 // Incorpora los resúmenes escritos por la tarea de Claude (cache/nuevos.json):
 // los valida contra el texto de la fuente, los guarda en cache/resumenes.json y los aplica a publico/ayudas.json.
 import fs from 'node:fs';
-import { validar, aplicar, huella, huellaEstable, huellaOrden, fichaVigente } from './resumen.js';
+import { validar, aplicar, huella, huellaEstable, huellaOrden, huellaContenido, fichaVigente } from './resumen.js';
 import { comprobarTitulo, aplicarTitulos } from './titulos.js';
 import { textosClaude } from './textos.js';
 
@@ -21,7 +21,7 @@ for (const r of nuevos) {
   // la huella es solo la del texto del recolector, para que la ficha no vuelva a pendientes.
   const v = validar(r, fuente + textosClaude(r.id));
   campos += v.errores.length;
-  cache[r.id] = { h: huella(fuente), he: huellaEstable(r.id, fuente), ho: huellaOrden(r.id, fuente), r: v, modelo: 'claude', fecha: new Date().toISOString().slice(0, 10) };
+  cache[r.id] = { h: huella(fuente), he: huellaEstable(r.id, fuente), ho: huellaOrden(r.id, fuente), hc: huellaContenido(r.id, fuente), r: v, modelo: 'claude', fecha: new Date().toISOString().slice(0, 10) };
   hechos.add(r.id);
   ok++;
 }
@@ -51,7 +51,7 @@ if (pub) {
   let conHe = 0;
   for (const [id, t] of Object.entries(fuentes)) { const c = cache[id]; if (c && !c.he && c.h === huella(t)) { c.he = huellaEstable(id, t); conHe++; } }
   // y huella sin orden a las que siguen valiendo para su texto actual
-  for (const [id, t] of Object.entries(fuentes)) { const c = cache[id]; if (c && !c.ho && fichaVigente(c, id, t)) { c.ho = huellaOrden(id, t); conHe++; } }
+  for (const [id, t] of Object.entries(fuentes)) { const c = cache[id]; if (c && (!c.ho || !c.hc) && fichaVigente(c, id, t)) { if (!c.ho) c.ho = huellaOrden(id, t); if (!c.hc) c.hc = huellaContenido(id, t); conHe++; } }
   if (conHe) fs.writeFileSync('cache/resumenes.json', JSON.stringify(cache));
   const n = aplicar(pub.ayudas, fuentes, cache);
   pub.resumidas = n;

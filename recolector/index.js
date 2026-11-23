@@ -8,7 +8,7 @@ import * as forales from './forales.js';
 import * as boletines from './boletines.js';
 import * as prestaciones from './prestaciones.js';
 import { claveLinea } from './historico.js';
-import { aplicar, huella, huellaOrden, fichaVigente } from './resumen.js';
+import { aplicar, huella, huellaOrden, huellaContenido, fichaVigente } from './resumen.js';
 import { documentacion, quitaRepetidas } from './enlaces.js';
 import { docsCopiados } from './textos.js';
 import { resolver, POR_ID, CATALOGO } from './organismos.js';
@@ -846,8 +846,12 @@ async function main() {
     const enCola = new Set(pendientes.map((p) => p.id));
     for (const a of ayudas) {
       const c = cacheRes[a.id];
-      if (!c || c.ho || !fuentes[a.id] || enCola.has(a.id)) continue;
-      if (fichaVigente(c, a.id, fuentes[a.id], a._hastaFicha && a._hastaFicha.huellaFicha)) { c.ho = huellaOrden(a.id, fuentes[a.id]); conHo++; }
+      if (!c || (c.ho && c.hc) || !fuentes[a.id] || enCola.has(a.id)) continue;
+      if (fichaVigente(c, a.id, fuentes[a.id], a._hastaFicha && a._hastaFicha.huellaFicha)) {
+        if (!c.ho) c.ho = huellaOrden(a.id, fuentes[a.id]);
+        if (!c.hc) c.hc = huellaContenido(a.id, fuentes[a.id]);
+        conHo++;
+      }
     }
     if (conHo) fs.writeFileSync(path.join('cache', 'resumenes.json'), JSON.stringify(cacheRes));
     log(`Fichas con huella sin orden añadida: ${conHo}`);
