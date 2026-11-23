@@ -301,8 +301,8 @@
    "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cd2026001161"
   ],
   "estado": "fallo",
-  "fecha": "2026-11-22",
-  "intentos": 4,
+  "fecha": "2026-11-23",
+  "intentos": 5,
   "probadas": [
    {
     "url": "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cd2026001161",
@@ -317,12 +317,12 @@
    "https://egoitza.gipuzkoa.eus/gaobog/castell/bog/2020/07/29/c2003558.pdf"
   ],
   "estado": "fallo",
-  "fecha": "2026-11-22",
-  "intentos": 4,
+  "fecha": "2026-11-23",
+  "intentos": 5,
   "probadas": [
    {
     "url": "https://egoitza.gipuzkoa.eus/gaobog/castell/bog/2020/07/29/c2003558.pdf",
-    "motivo": "HTTP 404"
+    "motivo": "red: fetch failed"
    }
   ]
  },
@@ -342,8 +342,8 @@
   "botha": [],
   "urls": [],
   "estado": "fallo",
-  "fecha": "2026-11-22",
-  "intentos": 4,
+  "fecha": "2026-11-23",
+  "intentos": 5,
   "probadas": []
  },
  "bdns-910721": {
@@ -390,8 +390,8 @@
    "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/929714"
   ],
   "estado": "fallo",
-  "fecha": "2026-11-22",
-  "intentos": 4,
+  "fecha": "2026-11-23",
+  "intentos": 5,
   "probadas": [
    {
     "url": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2014/02/20140221a036.pdf#page=73",
@@ -488,12 +488,12 @@
    "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/904761"
   ],
   "estado": "fallo",
-  "fecha": "2026-11-22",
-  "intentos": 4,
+  "fecha": "2026-11-23",
+  "intentos": 5,
   "probadas": [
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2022/08/30/II-3854_cas.pdf",
-    "motivo": "no es PDF (text/html, 42846 bytes)"
+    "motivo": "no es PDF (text/html, 49046 bytes)"
    },
    {
     "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1452019",
@@ -611,12 +611,12 @@
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2018/10/09/II-4151_cas.pdf"
   ],
   "estado": "fallo",
-  "fecha": "2026-11-22",
-  "intentos": 3,
+  "fecha": "2026-11-23",
+  "intentos": 4,
   "probadas": [
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2018/10/09/II-4151_cas.pdf?hash=64d3e918e53d17ce977dd0d89137c1fa",
-    "motivo": "no es PDF (text/html, 46795 bytes)"
+    "motivo": "no es PDF (text/html, 47614 bytes)"
    },
    {
     "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1550652",
@@ -624,7 +624,7 @@
    },
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2018/10/09/II-4151_cas.pdf",
-    "motivo": "no es PDF (text/html, 49543 bytes)"
+    "motivo": "no es PDF (text/html, 47362 bytes)"
    }
   ]
  },
@@ -679,13 +679,13 @@
   "urls": [
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2014/04/20140402a064.pdf"
   ],
-  "fecha": "2026-11-22",
+  "fecha": "2026-11-23",
   "estado": "fallo",
-  "intentos": 3,
+  "intentos": 4,
   "probadas": [
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2014/04/20140402a064.pdf",
-    "motivo": "no es PDF (text/html, 47434 bytes)"
+    "motivo": "no es PDF (text/html, 47458 bytes)"
    }
   ]
  },
@@ -706,8 +706,8 @@
   "botha": [],
   "urls": [],
   "estado": "fallo",
-  "fecha": "2026-11-22",
-  "intentos": 3,
+  "fecha": "2026-11-23",
+  "intentos": 4,
   "probadas": []
  },
  "bdns-893245": {
@@ -740,8 +740,8 @@
   "botha": [],
   "urls": [],
   "estado": "fallo",
-  "fecha": "2026-11-22",
-  "intentos": 3,
+  "fecha": "2026-11-23",
+  "intentos": 4,
   "probadas": []
  },
  "bdns-894356": {
@@ -749,8 +749,8 @@
   "botha": [],
   "urls": [],
   "estado": "fallo",
-  "fecha": "2026-11-22",
-  "intentos": 3,
+  "fecha": "2026-11-23",
+  "intentos": 4,
   "probadas": []
  },
  "bdns-893428": {
@@ -758,8 +758,8 @@
   "botha": [],
   "urls": [],
   "estado": "fallo",
-  "fecha": "2026-11-22",
-  "intentos": 3,
+  "fecha": "2026-11-23",
+  "intentos": 4,
   "probadas": []
  },
  "bdns-895646": {
@@ -767,8 +767,8 @@
   "botha": [],
   "urls": [],
   "estado": "fallo",
-  "fecha": "2026-11-22",
-  "intentos": 3,
+  "fecha": "2026-11-23",
+  "intentos": 4,
   "probadas": []
  },
  "bdns-885466": {
@@ -877,13 +877,13 @@
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2008/10/20081028a207.pdf"
   ],
   "origen": "tarea de fichas: la convocatoria 2026 (BDNS 881434) remite a esa ordenanza y no dice qué cubre, cuánto ni quién puede pedirla",
-  "fecha": "2026-11-22",
+  "fecha": "2026-11-23",
   "estado": "fallo",
-  "intentos": 4,
+  "intentos": 5,
   "probadas": [
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2008/10/20081028a207.pdf",
-    "motivo": "no es PDF (text/html, 51458 bytes)"
+    "motivo": "no es PDF (text/html, 46234 bytes)"
    }
   ]
  },
@@ -894,13 +894,13 @@
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2025/11/26/II-6827_cas.pdf"
   ],
   "origen": "tarea de fichas: faltan las cuantías (Base Séptima) y los requisitos de la convocatoria 2026 de Surbisa (BDNS 880363)",
-  "fecha": "2026-11-22",
+  "fecha": "2026-11-23",
   "estado": "fallo",
-  "intentos": 3,
+  "intentos": 4,
   "probadas": [
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2025/11/26/II-6827_cas.pdf",
-    "motivo": "no es PDF (text/html, 47094 bytes)"
+    "motivo": "no es PDF (text/html, 48978 bytes)"
    }
   ]
  }

@@ -1,19 +1,5 @@
 [
  {
-  "id": "bdns-938459",
-  "h": "928909e2c8ac1775",
-  "titulo": "Ayudas para exponer en la feria de iluminación Light Middle East de Dubái",
-  "para": [
-   "empresa"
-  ],
-  "temas": [
-   "comercio",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/bdns-938459-9418196f.txt",
-  "revisar": false
- },
- {
   "id": "bdns-938213",
   "h": "724f8e04c90581fe",
   "titulo": "Concurso Gilda Eguna para promocionar la hostelería de barra",
@@ -243,11 +229,9 @@
  {
   "id": "bdns-875052",
   "h": "bf21ce14a0130d4a",
-  "titulo": "Subvención a jóvenes para acceder a consultas de atención psicológica a través del “psikobono durango”",
+  "titulo": "Bonos Psikobono para consultas psicológicas de jóvenes",
   "para": [
-   "particular",
-   "autonomo",
-   "ayuntamiento"
+   "particular"
   ],
   "temas": [
    "social"
@@ -748,7 +732,7 @@
  },
  {
   "id": "bdns-890111",
-  "h": "87c75fb1e113ae9b",
+  "h": "1c993f0214306aac",
   "titulo": "Ayudas para crear o traspasar un negocio y alquilar el local",
   "para": [
    "autonomo",
@@ -3329,6 +3313,17 @@
   "revisar": false
  },
  {
+  "id": "bdns-875709",
+  "h": "fa4efd8c268e3e09",
+  "titulo": "Ayudas para desplazarse en Auzotaxi desde los barrios rurales",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bdns-875709-2761b705.txt",
+  "revisar": false
+ },
+ {
   "id": "extra-gv-gaztelagun-2026",
   "h": "641a729cac3c7842",
   "titulo": "Ayudas Gaztelagun para el alquiler de vivienda de jóvenes",
@@ -5200,19 +5195,6 @@
   "revisar": false
  },
  {
-  "id": "bdns-926043",
-  "h": "b04543f99628ee17",
-  "titulo": "Premios de los concursos de ganado latxo y queso del Artzain Eguna",
-  "para": [
-   "autonomo"
-  ],
-  "temas": [
-   "rural"
-  ],
-  "archivo": "cache/fuentes/bdns-926043-a5b54456.txt",
-  "revisar": false
- },
- {
   "id": "bdns-920446",
   "h": "f57ee21d388dea47",
   "titulo": "Concurso de cocina Sukalki",
@@ -5324,10 +5306,9 @@
  {
   "id": "bdns-875077",
   "h": "c296341f2a44e997",
-  "titulo": "Subvención para el uso del servicio de taxi lagun",
+  "titulo": "Ayudas para usar el servicio de taxi Lagun",
   "para": [
-   "particular",
-   "ayuntamiento"
+   "particular"
   ],
   "temas": [
    "social"
@@ -5739,20 +5720,6 @@
   "revisar": false
  },
  {
-  "id": "prest-araba-peap",
-  "h": "b7167957c542832d",
-  "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "empleo",
-   "educacion"
-  ],
-  "archivo": "cache/fuentes/prest-araba-peap-b3e1675d.txt",
-  "revisar": false
- },
- {
   "id": "prest-araba-pecef",
   "h": "d1882d94b3e5c137",
   "titulo": "Ayuda para cuidar en familia a una persona en situación de dependencia",
@@ -5764,6 +5731,20 @@
    "familia"
   ],
   "archivo": "cache/fuentes/prest-araba-pecef-b232c1b3.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-araba-peap",
+  "h": "b7167957c542832d",
+  "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "empleo",
+   "educacion"
+  ],
+  "archivo": "cache/fuentes/prest-araba-peap-b3e1675d.txt",
   "revisar": false
  },
  {
