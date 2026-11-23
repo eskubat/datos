@@ -523,10 +523,9 @@
  },
  {
   "id": "bdns-918655",
-  "h": "c605b745ad7e1b70",
-  "titulo": "Bonos de descuento para comprar en el comercio local",
+  "h": "32f20c1cc64b412b",
+  "titulo": "Viii campaña reparto bonos para reforzar el canal de venta de proximidad",
   "para": [
-   "particular",
    "autonomo",
    "empresa"
   ],
@@ -568,8 +567,8 @@
  },
  {
   "id": "bdns-901439",
-  "h": "6697ddd919434354",
-  "titulo": "Subvenciones para grabar discos y videoclips de grupos y solistas locales",
+  "h": "c2408206eec07632",
+  "titulo": "Subvenciones destinadas a grupos musicales o solistas locales para la realización de grabaciones",
   "para": [
    "particular",
    "asociacion"
@@ -675,7 +674,7 @@
  },
  {
   "id": "bdns-890633",
-  "h": "2c917cf1df073ddc",
+  "h": "bcaca68fd2c0eec7",
   "titulo": "Subvenciones para poner en euskera rótulos, imagen corporativa y webs de comercios",
   "para": [
    "autonomo",
@@ -3324,6 +3323,28 @@
   "revisar": false
  },
  {
+  "id": "bdns-872884",
+  "h": "07ab32900af10191",
+  "titulo": "De subvenciones a personas físicas usuarias infraestructura AP-68 (autopista Bilbao-Zaragoza) en tramos sometidos a peaje y titularidad",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bdns-872884-2bfa1a11.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-872882",
+  "h": "517a3fe8ac24aeb6",
+  "titulo": "Bases reguladoras y convocatoria de subvenciones a personas físicas usuarias de las infraestructuras viarias",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bdns-872882-e3b8b31e.txt",
+  "revisar": false
+ },
+ {
   "id": "extra-gv-gaztelagun-2026",
   "h": "641a729cac3c7842",
   "titulo": "Ayudas Gaztelagun para el alquiler de vivienda de jóvenes",
@@ -4400,7 +4421,7 @@
  },
  {
   "id": "bdns-941145",
-  "h": "921ec2e0789c106a",
+  "h": "22bc108fc9e3fe2d",
   "titulo": "España crece-ICO crecimiento y expansión (MRR) (exenciones por categorías)",
   "para": [
    "autonomo",
@@ -5691,6 +5712,20 @@
   "revisar": false
  },
  {
+  "id": "prest-gipuzkoa-pnc",
+  "h": "bc3fff81ddb4a496",
+  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-araba-pnc",
   "h": "89f930ea395d5a97",
   "titulo": "Pensión no contributiva de jubilación o invalidez para personas sin recursos",
@@ -5703,20 +5738,6 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-araba-pnc-6fc67e01.txt",
-  "revisar": false
- },
- {
-  "id": "prest-gipuzkoa-pnc",
-  "h": "bc3fff81ddb4a496",
-  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "familia",
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
   "revisar": false
  },
  {
