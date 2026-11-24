@@ -1,4 +1,4 @@
 {
- "fecha": "2026-11-23",
- "nota": "Tras el recolector de hoy (05:53 UTC) las siete fuentes están bien y sin errores de ficha (euskadi 129, Gipuzkoa 27, Álava 145, BDNS 991, boletines 154, prestaciones 19, UE 29); de lo hecho el 22 y 23, la huella sin orden (fuentes-orden-documentos-estable) no bastó para bdns-901439 y bdns-918655, que volvieron a la cola porque la BDNS da el mismo PDF con dos idDocumento y el copiado en textos_claude era el otro: se añade la huella de contenido «hc» (recolector/resumen.js), puesta a 420 fichas vigentes, y ambas salen de la cola."
+ "fecha": "2026-11-24",
+ "nota": "Tras el recolector de hoy (05:48 UTC) las siete fuentes están bien y sin errores de ficha (euskadi 127, Gipuzkoa 27, Álava 146, BDNS 997, boletines 155, prestaciones 19, UE 29; 523 ayudas); no hay tareas cerradas después de la última comprobación y bdns-901439 y bdns-918655 siguen fuera de la cola, así que la huella de contenido «hc» aguanta."
 }
