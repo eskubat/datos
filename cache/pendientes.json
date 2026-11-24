@@ -1,14 +1,5 @@
 [
  {
-  "id": "bdns-906384",
-  "h": "7d8ce37b5695018d",
-  "titulo": "Ciberseguridad Industrial",
-  "organismoSugerido": "spri",
-  "organismoFuente": "Agencia vasca de desarrollo empresarial",
-  "archivo": "cache/fuentes/bdns-906384-4f32c435.txt",
-  "caracteres": 300000
- },
- {
   "id": "bdns-938576",
   "h": "715ecdde12fd2e87",
   "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación maison&objet París del 14 de enero de al 18 de enero",
@@ -16,6 +7,15 @@
   "organismoFuente": "Icex españa exportación e inversiones, ep e.",
   "archivo": "cache/fuentes/bdns-938576-f3296b40.txt",
   "caracteres": 4021
+ },
+ {
+  "id": "bdns-943436",
+  "h": "fe4433669884b0ff",
+  "titulo": "Subvenciones, en régimen de concurrencia competitiva",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Servicio público de empleo estatal",
+  "archivo": "cache/fuentes/bdns-943436-a5636ad1.txt",
+  "caracteres": 60826
  },
  {
   "id": "eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias-y-forestales-2026",
@@ -63,15 +63,6 @@
   "caracteres": 71718
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip",
-  "h": "ed2bdc6e55313d53",
-  "titulo": "The European Prize for Women Innovators",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
-  "caracteres": 12244
- },
- {
   "id": "ue-horizon-eit-2026-prize-wip-leadership",
   "h": "15aa8d5b5b10edef",
   "titulo": "Women Leadership Category",
@@ -79,6 +70,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-horizon-eit-2026-prize-wip-leadership-00ee7b4c.txt",
   "caracteres": 12241
+ },
+ {
+  "id": "ue-horizon-eic-2026-prize-wip",
+  "h": "ed2bdc6e55313d53",
+  "titulo": "The European Prize for Women Innovators",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
+  "caracteres": 12244
  },
  {
   "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
@@ -97,6 +97,33 @@
   "organismoFuente": "Ayuntamiento de Santurtzi",
   "archivo": "cache/fuentes/bob-bob-2026a219-ii-6013--34b23e54.txt",
   "caracteres": 5840
+ },
+ {
+  "id": "bdns-944124",
+  "h": "eb11b96431e9f018",
+  "titulo": "Programa de Ayudas ONEKIN, . REG (UE) 717/",
+  "organismoSugerido": "gv-alimentacion",
+  "organismoFuente": "Alimentación, Desarrollo Rural, Agricultura y Pesca",
+  "archivo": "cache/fuentes/bdns-944124-a84cc8bd.txt",
+  "caracteres": 233884
+ },
+ {
+  "id": "bdns-944123",
+  "h": "c981f13eff6eb826",
+  "titulo": "Programa de Ayudas ONEKIN, . REG (UE) 1408/",
+  "organismoSugerido": "gv-alimentacion",
+  "organismoFuente": "Alimentación, Desarrollo Rural, Agricultura y Pesca",
+  "archivo": "cache/fuentes/bdns-944123-c94206df.txt",
+  "caracteres": 233884
+ },
+ {
+  "id": "bdns-944122",
+  "h": "c36b3f1d0ce6c935",
+  "titulo": "Programa de Ayudas ONEKIN Reg. (UE) /2831",
+  "organismoSugerido": "gv-alimentacion",
+  "organismoFuente": "Alimentación, Desarrollo Rural, Agricultura y Pesca",
+  "archivo": "cache/fuentes/bdns-944122-7a3e8321.txt",
+  "caracteres": 233884
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -180,15 +207,6 @@
   "caracteres": 300000
  },
  {
-  "id": "ue-crea-media-2027-tvonline-2",
-  "h": "2bb80164abe11ee5",
-  "titulo": "TV and online content Documentary projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
-  "caracteres": 6324
- },
- {
   "id": "ue-crea-media-2027-tvonline-3",
   "h": "edb329094bf69b46",
   "titulo": "TV and online content Fiction projects",
@@ -205,6 +223,24 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
   "caracteres": 6321
+ },
+ {
+  "id": "ue-crea-media-2027-tvonline-2",
+  "h": "2bb80164abe11ee5",
+  "titulo": "TV and online content Documentary projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
+  "caracteres": 6324
+ },
+ {
+  "id": "ue-cs-comprehensive-and-inclusive-support-for-women-and-girls-victims-of-gbv",
+  "h": "fa279a6f0c44c027",
+  "titulo": "Comprehensive and inclusive support for women and girls' victims of GBV",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-comprehensive-and-inclusive-support-for-women-and-girl-05a604a5.txt",
+  "caracteres": 9472
  },
  {
   "id": "ara-01362004",
@@ -271,7 +307,7 @@
  },
  {
   "id": "bdns-941145",
-  "h": "e3238599e53dfd01",
+  "h": "91ead15a5cc54f49",
   "titulo": "España crece-ICO crecimiento y expansión (MRR) (exenciones por categorías)",
   "organismoSugerido": "estado",
   "organismoFuente": "Instituto de crédito oficial",
@@ -351,6 +387,24 @@
   "caracteres": 300000
  },
  {
+  "id": "ara-garantias-alquiler-vivienda-adhesion-personas-arrendadoras",
+  "h": "7fbd8a7d8edd8cfb",
+  "titulo": "Programa de garantías al alquiler de viviendas - adhesión arrendadores",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-garantias-alquiler-vivienda-adhesion-personas-arrendador-365c506c.txt",
+  "caracteres": 138050
+ },
+ {
+  "id": "ara-01122002",
+  "h": "fe2121c02515a4c4",
+  "titulo": "Ayudas forestales",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-01122002-f280766c.txt",
+  "caracteres": 11938
+ },
+ {
   "id": "ara-ayudas-turismo-actividad-ayuntamientos-2026",
   "h": "bd13c5857921e44a",
   "titulo": "Ayudas gastos de actividad turística en Ayuntamientos",
@@ -403,6 +457,33 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-extraordinarias-y-temporales-para-el-transporte-p-444e21a1.txt",
   "caracteres": 42502
+ },
+ {
+  "id": "bdns-944168",
+  "h": "1c8386fd63e12bb0",
+  "titulo": "Ayudas para financiar trabajos de conservación o enriquecimiento de bienes inmuebles del Patrimonio Histórico Español",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de agenda urbana y arquitectura",
+  "archivo": "cache/fuentes/bdns-944168-079b7a45.txt",
+  "caracteres": 193806
+ },
+ {
+  "id": "bdns-944018",
+  "h": "235a9485452a3a5e",
+  "titulo": "Ayudas, en régimen de concurrencia competitiva",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de patrimonio cultural y bellas artes",
+  "archivo": "cache/fuentes/bdns-944018-c430491e.txt",
+  "caracteres": 158177
+ },
+ {
+  "id": "bdns-944013",
+  "h": "351348141806bdf3",
+  "titulo": "Udako euskal unibertsitatea (ueu) humanitate digitalen ikerketa gunea egitasmoa // universidad vasca de verano proyecto humanidad digital",
+  "organismoSugerido": "ayto-errenteria",
+  "organismoFuente": "Ayuntamiento de errenteria",
+  "archivo": "cache/fuentes/bdns-944013-6a7b2fdf.txt",
+  "caracteres": 247508
  },
  {
   "id": "bdns-940546",

@@ -1,62 +1,5 @@
 [
  {
-  "id": "bdns-938213",
-  "h": "724f8e04c90581fe",
-  "titulo": "Concurso Gilda Eguna para promocionar la hostelería de barra",
-  "para": [
-   "particular",
-   "autonomo",
-   "empresa"
-  ],
-  "temas": [
-   "comercio",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/bdns-938213-fe96fbdb.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-937455",
-  "h": "777e6cb3ea31d496",
-  "titulo": "Ayudas para los gastos de participación en el Consejo Económico y Social",
-  "para": [
-   "asociacion",
-   "particular"
-  ],
-  "temas": [],
-  "archivo": "cache/fuentes/bdns-937455-54de5a52.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-906384",
-  "h": "20b3e4cea10b3324",
-  "titulo": "Ciberseguridad Industrial",
-  "para": [
-   "empresa",
-   "autonomo"
-  ],
-  "temas": [
-   "digitalizacion",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/bdns-906384-4f32c435.txt",
-  "revisar": false
- },
- {
-  "id": "extra-spri-ciberseguridad-industrial-2026",
-  "h": "8798bd77fe574f4b",
-  "titulo": "Programa de ayudas Ciberseguridad Industrial",
-  "para": [
-   "empresa"
-  ],
-  "temas": [
-   "digitalizacion",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/extra-spri-ciberseguridad-industrial-2026-befb04f2.txt",
-  "revisar": false
- },
- {
   "id": "gip-cucu25",
   "h": "89fb10113f9384ae",
   "titulo": "Bonos Kultura Bonua para comprar libros, música y películas",
@@ -1230,6 +1173,51 @@
   "revisar": false
  },
  {
+  "id": "bdns-944124",
+  "h": "7e244e06cd29be18",
+  "titulo": "Programa de Ayudas ONEKIN, . REG (UE) 717/",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "rural",
+   "digitalizacion"
+  ],
+  "archivo": "cache/fuentes/bdns-944124-a84cc8bd.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-944123",
+  "h": "9a5ff0abc80f8ccd",
+  "titulo": "Programa de Ayudas ONEKIN, . REG (UE) 1408/",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "rural",
+   "digitalizacion"
+  ],
+  "archivo": "cache/fuentes/bdns-944123-c94206df.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-944122",
+  "h": "abe32a99d8405dde",
+  "titulo": "Programa de Ayudas ONEKIN Reg. (UE) /2831",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "rural",
+   "digitalizacion"
+  ],
+  "archivo": "cache/fuentes/bdns-944122-7a3e8321.txt",
+  "revisar": false
+ },
+ {
   "id": "bdns-940263",
   "h": "37fbe10d60e6dd2a",
   "titulo": "Concurso de carteles de Navidad para escolares de primaria",
@@ -2238,7 +2226,7 @@
  },
  {
   "id": "eus-ayuda-subvencion-2026-eiaaffuntsaarrantzagarape",
-  "h": "62dc25dbcc53086d",
+  "h": "df29902193a12b0f",
   "titulo": "Pesca: el FEMPA, Fondo Europeo Marítimo, de Pesca y de Acuicultura",
   "para": [
    "empresa"
@@ -2614,7 +2602,7 @@
  },
  {
   "id": "bdns-927909",
-  "h": "e6fdfb0c52bbc4ca",
+  "h": "e85dadd4bc6c00cf",
   "titulo": "Subvenciones para fomentar la natalidad",
   "para": [
    "particular"
@@ -4422,7 +4410,7 @@
  },
  {
   "id": "bdns-941145",
-  "h": "22bc108fc9e3fe2d",
+  "h": "921ec2e0789c106a",
   "titulo": "España crece-ICO crecimiento y expansión (MRR) (exenciones por categorías)",
   "para": [
    "autonomo",
@@ -4958,6 +4946,23 @@
   ],
   "temas": [],
   "archivo": "cache/fuentes/ara-ap-1-peaje-social-9137d057.txt",
+  "revisar": false
+ },
+ {
+  "id": "ara-apoyo-a-jovenes-informadores-en-centros-educativos-alaveses-f62501",
+  "h": "a600ecd007f65b25",
+  "titulo": "Ayudas para la red de jóvenes informadores en institutos",
+  "para": [
+   "ayuntamiento",
+   "asociacion",
+   "empresa"
+  ],
+  "temas": [
+   "estudios",
+   "educacion",
+   "social"
+  ],
+  "archivo": "cache/fuentes/ara-apoyo-a-jovenes-informadores-en-centros-educativos-alave-48a4b2a7.txt",
   "revisar": false
  },
  {
@@ -5543,19 +5548,6 @@
   "revisar": false
  },
  {
-  "id": "prest-bizkaia-pnc-incapacidad",
-  "h": "ba1a61d381ec383f",
-  "titulo": "Pensión no contributiva de incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-bizkaia-pnc-incapacidad-55586f81.txt",
-  "revisar": false
- },
- {
   "id": "prest-bono-social-electrico",
   "h": "17d0c1c6d10433f4",
   "titulo": "Bono social para pagar menos en la factura de la luz",
@@ -5568,6 +5560,19 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-bono-social-electrico-a18ad288.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-bizkaia-pnc-incapacidad",
+  "h": "ba1a61d381ec383f",
+  "titulo": "Pensión no contributiva de incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-bizkaia-pnc-incapacidad-55586f81.txt",
   "revisar": false
  },
  {
@@ -5666,20 +5671,6 @@
   "revisar": false
  },
  {
-  "id": "prest-gipuzkoa-pnc",
-  "h": "bc3fff81ddb4a496",
-  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "familia",
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
-  "revisar": false
- },
- {
   "id": "prest-gipuzkoa-pevs",
   "h": "dece049115be9491",
   "titulo": "Prestación para pagar una residencia o centro de día privado a personas dependientes",
@@ -5719,6 +5710,20 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-araba-pnc-6fc67e01.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-gipuzkoa-pnc",
+  "h": "bc3fff81ddb4a496",
+  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
   "revisar": false
  },
  {

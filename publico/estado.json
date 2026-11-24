@@ -1,61 +1,61 @@
 {
   "version": 1,
-  "generado": "2026-11-23T07:47:03.200Z",
-  "total": 520,
+  "generado": "2026-11-24T05:48:59.800Z",
+  "total": 523,
   "porAmbito": {
-    "euskadi": 86,
+    "territorio": 89,
     "municipio": 257,
-    "estado": 58,
-    "ue": 33,
-    "territorio": 86
+    "estado": 59,
+    "euskadi": 85,
+    "ue": 33
   },
   "porEstado": {
-    "abierta": 432,
-    "proxima": 47,
-    "sinfecha": 41
+    "abierta": 433,
+    "proxima": 46,
+    "sinfecha": 44
   },
   "previstas": 621,
   "fuentes": {
     "euskadi": {
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
-      "registros": 129,
-      "segundos": 39,
+      "registros": 127,
+      "segundos": 35,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 27,
-      "segundos": 28,
+      "segundos": 21,
       "erroresFicha": 0
     },
     "araba": {
       "nombre": "Diputación Foral de Álava (ayudas en vigor)",
       "ok": true,
-      "registros": 135,
-      "segundos": 122,
+      "registros": 146,
+      "segundos": 43,
       "erroresFicha": 0
     },
     "bdns": {
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
-      "registros": 991,
-      "segundos": 180,
+      "registros": 997,
+      "segundos": 186,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 155,
-      "segundos": 8,
+      "segundos": 7,
       "erroresFicha": 0
     },
     "prestaciones": {
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 19,
-      "segundos": 21,
+      "segundos": 17,
       "erroresFicha": 0
     },
     "europa": {
@@ -66,7 +66,7 @@
     }
   },
   "enlaces": {
-    "comprobados": 903,
+    "comprobados": 907,
     "rotos": 2,
     "sustituidos": 1,
     "quitados": 1

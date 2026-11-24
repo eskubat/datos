@@ -1,0 +1,157 @@
+### Ficha oficial: https://egoitza.araba.eus/es/inicio/tramites/fitxa/01122002
+titulo pestana: Sobre el procedimiento
+descripcion:
+Decreto Foral 40/2026, de 3 de noviembre. Aprobar las bases reguladoras del Plan de Ayudas Forestales del Territorio Histórico de Álava
+titulo: Normativa
+Más información: Una vez cursada la solicitud y antes de concederse la ayuda, la Guardería Forestal levantará un acta de comprobación sobre el terreno para verificar que la inversión no ha sido iniciada, que la inversión pretendida es conveniente, adecuada y acorde a la ayuda solicitada y cuantificar las unidades a ejecutar.
+Con carácter general, no se podrán iniciar las inversiones hasta que la Guardería Forestal levante el acta de control sobre el terreno.
+A quién va dirigido: Personas físicas o jurídicas y Entidades Públicas, propietarias o titulares de derechos de uso o disfrute de los terrenos forestales
+tipo recurso: Recurso de Reposición
+Organismo: Diputado General
+Plazo: 1 Meses
+Plazo de resolución: 6 Meses
+titulo: Resolución
+Silencio administrativo de la persona interesada: Negativo
+Inicio Persona Interesada: Sí
+valor: Servicio de Montes
+titulo: Organismo competente
+titulo pestana: Después de la presentación
+valor: montes@araba.eus
+titulo: Correo electrónico
+titulo: Teléfono
+accion: Tramitar
+descripcion tramite: Solicitud de pago de la ayuda concedida
+denominacion tramite: Solicitud del Pago
+descripcion:
+Las personas no obligadas a la presentación telemática tendrán también la opción de hacer su solicitud en impreso normalizado y presentarla ante el Registro General de la Diputación Foral de Álava, o ante la Oficina Comarcal Agraria correspondiente a la ubicación de los terrenos objeto de la inversión, todo ello sin perjuicio de lo establecido en el artículo 16.4 de la Ley de Procedimiento Administrativo Común de las Administraciones Públicas.
+titulo: Presencial
+descripcion:
+Necesitarás alguno de estos sistemas de identificación digital:
+BAK
+BAKQ
+Certificado electrónico
+Certificado Profesional en la nube
+titulo: Electrónico
+estado: Fuera de plazo
+descripcion plazo: Pendiente de apertura del plazo
+titulo: Plazo de presentación
+descripcion: Documentación a presentar en caso de la línea 8.5 (ordenación, propiedad y uso público)
+descripcion documento: Aprobación del proyecto de ordenación o plan por la entidad propietaria.
+nombre documento: Aprobación del proyecto de ordenación entidad
+descripcion documento: Documentos técnicos en PDF y en formato editable (Word, Excel; planos en DWG o shape)
+nombre documento: Documentos técnicos
+descripcion documento: Solicitud de inclusión de los terrenos en el Monte de Utilidad Pública
+condicion documento: 8.5 Ordenación, propiedad
+descripcion: Con carácter general
+descripcion documento: Cesión de derechos de cobro
+descripcion documento:
+Factura con descripción, medición e importe de las unidades (si la inversión no está modulado o si se trata de entidades públicas y la inversión supera los 5.000 euros)
+nombre documento: Factura
+descripcion documento:
+Justificante de pago (si la inversión no está modulada o si se trata de entidades públicas y las inversiones superan los 5.000 euros). Los pagos superiores a 1.000 euros se justificarán por documentos de transferencia bancaria.
+nombre documento: Justificante de pago
+descripcion: Documentación a aportar en caso de la línea de ayudas 8.1 (forestación)
+descripcion documento: Documento del proveedor de la semilla o planta debidamente cumplimentado
+condicion documento: 8.1 Forestación
+descripcion: Documentación a presentar en caso de la línea 4.3 (infraestructuras silvopascícolas, viarias y biodesbroces).
+descripcion documento: Estatutos de uso y mantenimiento de los equipos colectivos aprobados por la entidad.
+nombre documento: Equipos colectivos: Estatutos de uso
+descripcion documento: Factura del producto aplicado con su composición (fitosanitarios, abonos y enmiendas).
+nombre documento: Mejoras de pastos: factura del producto
+descripcion documento: Pistas forestales: albaranes de entrega del árido (tonelaje, procedencia y tipo de material).
+nombre documento: Pistas forestales: albaranes árido
+condicion documento: 4.3 Infraestructuras
+descripcion: Documentación a presentar en caso de la línea 8.6 (inversiones para la mejora del potencial forestal).
+descripcion documento: Producto aplicado y dosis en la factura de compra o de la empresa que haya realizado el abonado
+nombre documento: Factura abonado
+descripcion documento: Documentos técnicos en PDF y en formato editable (Word, Excel; planos en DWG o shape).
+nombre documento: Plan Técnico de Gestión Forestal Sostenible
+condicion documento: 8.6 Potencial forestal
+descripcion: Documentación a presentar en caso de la línea 8.3 (prevención de daños forestales)
+descripcion documento: Producto aplicado y dosis en la factura de compra o de la empresa que haya realizado el tratamiento fitosanitario.
+nombre documento: Factura de compra de tratamiento
+condicion documento: 8.3 Prevención
+descripcion: Solicitud a presentar en caso de entidades públicas
+descripcion documento: Solicitud de pago para entidad públicas
+condicion documento: Entidades públicas
+descripcion: Solicitud a presentar en caso de particulares
+descripcion documento: Solicitud de pago para particulares
+condicion documento: Particulares
+titulo: Documentación
+titulo pestana: Presentación del trámite
+descripcion tramite: Solicitud de ayudas forestales
+denominacion tramite: Solicitud de la Ayuda
+descripcion:
+Únicamente personas físicas. Las personas no obligadas a la presentación telemática tendrán también la opción de hacer su solicitud en impreso normalizado y presentarla ante el Registro General de la Diputación Foral de Álava, o ante la Oficina Comarcal Agraria correspondiente a la ubicación de los terrenos objeto de la inversión, todo ello sin perjuicio de lo establecido en el artículo 16.4 de la Ley de Procedimiento Administrativo Común de las Administraciones Públicas.
+descripcion documento:
+En caso de abonados, informe técnico con análisis de suelo o, en abonado foliar, memoria o informe técnico que justifique el tratamiento.
+nombre documento: Abonado: informe técnico con análisis de suelo
+descripcion documento:
+En caso de adquisición de terrenos: informe de tasación y acreditación de que la propiedad está depurada física y jurídicamente.
+nombre documento: Adquisición de terrenos: informe de tasación
+descripcion documento: En caso de proyectos de ordenación o planes técnicos de gestión: pliego de condiciones que ha de regir la redacción.
+nombre documento: Proyectos de ordenación o planes técnicos de gestión: pliego de condiciones
+descripcion documento: En caso de actuaciones de reforzamiento de la propiedad forestal: títulos de propiedad u otra documentación.
+nombre documento: Títulos de propiedad u otra documentación
+descripcion documento: Ficha de terceros: https://egoitza.araba.eus/es/inicio/tramites/fitxa/alta-terceros
+nombre documento: Alta de datos de terceros
+descripcion documento: Documentación justificativa para la priorización de la ayuda (contratación de mujeres, condición de joven o mujer).
+nombre documento: Documentación justificativa priorización
+descripcion documento: Presupuesto de la inversión a realizar (sólo cuando la inversión no está modulada)
+nombre documento: Presupuesto de la inversión
+descripcion documento: Solicitud de ayuda línea 43 - Infraestructuras silvopascícolas, viarias y biodesbroces (solo para trámite presencial).
+nombre documento: Solicitud de ayuda línea 43 - Infraestructuras silvopascícolas, viarias y biodesbroces
+descripcion documento: Solicitud de ayuda línea 81 - Forestación (solo para trámite presencial).
+nombre documento: Solicitud de ayuda línea 81 - Forestación
+descripcion documento: Solicitud de ayuda línea 83 - Prevención de daños forestales (solo para trámite presencial).
+nombre documento: Solicitud de ayuda línea 83 - Prevención de daños forestales
+descripcion documento: Solicitud de ayuda línea 85 - Ordenación, propiedad y uso público (solo para trámite presencial).
+nombre documento: Solicitud de ayuda línea 85 - Ordenación, propiedad y uso público
+descripcion documento: Solicitud de ayuda línea 86 - Inversiones para la mejora del potencial forestal (solo para trámite presencial).
+nombre documento: Solicitud de ayuda línea 86 - Inversiones para la mejora del potencial forestal
+descripcion documento: Solicitud de ayuda línea 99 - Conservación de los bosques (solo para trámite presencial)
+nombre documento: Solicitud de ayuda línea 99 - Conservación de los bosques
+descripcion documento: Solicitud de ayuda medida 84 - Reparación de daños forestales (solo para trámite presencial).
+nombre documento: Solicitud de ayuda medida 84 - Reparación de daños forestales
+descripcion documento: En caso de los biodesbroces: memoria con la información necesaria.
+nombre documento: Biodesbroces: memoria descriptiva
+descripcion documento:
+En caso de cierres silvopascícolas: conformidad expresa de las entidades o particulares colindantes o entidades coparticipes, cuando sea necesario.
+nombre documento: Cierres silvopascícolas: conformidad colindantes
+descripcion documento: En caso de enmiendas y abonados: informe técnico de recomendación en base a resultados de análisis de suelos.
+nombre documento: Enmiendas y abonados: informe técnico
+descripcion documento: En caso de manga ganadera: proyecto técnico o memoria.
+nombre documento: Manga ganadera: proyecto técnico o memoria.
+descripcion documento:
+En caso de pistas forestales: proyecto o propuesta técnica para las nuevas pistas, así como de memoria con la descripción detallada de las actuaciones para el acondicionamiento o reparación de pistas.
+nombre documento: Pistas forestales: proyecto o propuesta técnica
+descripcion: Documentación a aportar en caso de la línea de ayudas 8.1 forestación
+descripcion documento:
+Memoria técnica firmada por la persona técnica forestal competente donde se indiquen los objetivos, la metodología a emplear y el aumento esperado del valor económico de la masa forestal
+nombre documento: Memoria técnica en caso de micorrización
+finalidad:
+Inversiones para la conservación, aumento del valor medioambiental y económico de los bosques:
+Medida 99. Conservación de los bosques.
+Medida 8.1. Forestación y creación de masas arboladas:
+plantación de árboles o siembra, reposición de marras y micorrización.
+cierres de plantaciones y protectores
+Medida 8.3. Prevención de daños forestales: desbroces, clareos y claras, podas, abonados, tratamientos fitosanitarios y otros en bosques y plantaciones.
+Medida 8.5. Ordenación, propiedad y uso público:
+elaboración de Planes de Ordenación y Planes de Gestión Forestal Sostenible.
+reforzamiento de la propiedad forestal: deslindes, amojonamientos, catalogación, permutas, inventarios, etc.
+planes técnicos de gestión de pastos, planes de prevención de incendios, planes de protección de interfaz urbano-forestal, señalamientos, etc.
+adquisición de enclavados y terrenos colindantes a montes.
+actuaciones relacionadas con el uso público (señalética, senderos, etc.).
+Medida 4.3. Infraestructuras silvopascícolas, viarias y biodesbroces:
+cierres ganaderos, construcción de abrevaderos, pasos canadienses, mangas, desbroces de pastos, etc.
+arreglo de pistas, afirmado-hormigonado, arreglo de explanación y cunetas, apertura de nueva pista, desbroces laterales, etc.
+biodesbroces, pastoreo dirigido a la prevención de incendios.
+equipos de uso colectivo (cubas de extinción, trituradoras, desbrozadoras, etc).
+actuaciones en zonas de interfaz urbano-forestal, etc.
+Medida 8.6. Inversiones para la mejora del potencial forestal:
+elaboración de planes técnicos de gestión forestal sostenible.
+abonados.
+Medida 8.4. Reparación de daños forestales tras incendios forestales o catástrofes naturales (vendavales, granizo, plagas o enfermedades).
+estado: En plazo
+descripcion plazo: ABIERTO (20/11/2026 - 31/12/2028)
+titulo: Ayudas forestales 2027
