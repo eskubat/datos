@@ -466,7 +466,7 @@
  },
  {
   "id": "bdns-918655",
-  "h": "32f20c1cc64b412b",
+  "h": "c605b745ad7e1b70",
   "titulo": "Bonos de descuento para comprar en el comercio local",
   "para": [
    "particular",
@@ -618,7 +618,7 @@
  },
  {
   "id": "bdns-890633",
-  "h": "bcaca68fd2c0eec7",
+  "h": "2c917cf1df073ddc",
   "titulo": "Subvenciones para poner en euskera rótulos, imagen corporativa y webs de comercios",
   "para": [
    "autonomo",
@@ -1160,7 +1160,7 @@
  {
   "id": "eus-ayuda-subvencion-2026-programa-onekin",
   "h": "feaa90bc55af1157",
-  "titulo": "Ayudas Onekin para consultoría en la cadena alimentaria y de la madera",
+  "titulo": "Programa ONEKIN - Ayudas destinadas a apoyar procesos de maduración de ideas y de definición de proyectos de digitalización",
   "para": [
    "autonomo",
    "empresa"
@@ -1972,7 +1972,7 @@
  },
  {
   "id": "bdns-934005",
-  "h": "60e4f03b290c7d2e",
+  "h": "572f55c47ec9d03f",
   "titulo": "Ayudas para limpiar pintadas en fachadas de comunidades de propietarios",
   "para": [
    "particular",
@@ -2602,7 +2602,7 @@
  },
  {
   "id": "bdns-927909",
-  "h": "e85dadd4bc6c00cf",
+  "h": "e6fdfb0c52bbc4ca",
   "titulo": "Subvenciones para fomentar la natalidad",
   "para": [
    "particular"
@@ -4273,6 +4273,17 @@
   "revisar": false
  },
  {
+  "id": "bdns-944251",
+  "h": "70764599785a26e8",
+  "titulo": "Bases reguladoras de la convocatoria de subvenciones Auzotaxi",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bdns-944251-7669a78e.txt",
+  "revisar": false
+ },
+ {
   "id": "bdns-926671",
   "h": "e6caa8eaad0703f6",
   "titulo": "Ayudas a deportistas para competir en pruebas oficiales estatales e internacionales",
@@ -5658,6 +5669,20 @@
   "revisar": false
  },
  {
+  "id": "prest-gipuzkoa-pnc",
+  "h": "bc3fff81ddb4a496",
+  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-gipuzkoa-pece",
   "h": "8c8ebab370c29e63",
   "titulo": "Prestación para cuidar en casa a una persona dependiente",
@@ -5684,20 +5709,6 @@
   "revisar": false
  },
  {
-  "id": "prest-gipuzkoa-peap",
-  "h": "d3a77d3658b32296",
-  "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "empleo",
-   "familia"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-peap-5825c94d.txt",
-  "revisar": false
- },
- {
   "id": "prest-araba-pnc",
   "h": "89f930ea395d5a97",
   "titulo": "Pensión no contributiva de jubilación o invalidez para personas sin recursos",
@@ -5710,20 +5721,6 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-araba-pnc-6fc67e01.txt",
-  "revisar": false
- },
- {
-  "id": "prest-gipuzkoa-pnc",
-  "h": "bc3fff81ddb4a496",
-  "titulo": "Pensión no contributiva de jubilación o incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "familia",
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-b8ebdeb8.txt",
   "revisar": false
  },
  {

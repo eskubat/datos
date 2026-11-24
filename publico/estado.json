@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generado": "2026-11-24T05:48:59.800Z",
-  "total": 523,
+  "generado": "2026-11-24T17:11:45.206Z",
+  "total": 524,
   "porAmbito": {
     "territorio": 89,
     "municipio": 257,
     "estado": 59,
     "euskadi": 85,
-    "ue": 33
+    "ue": 34
   },
   "porEstado": {
-    "abierta": 433,
-    "proxima": 46,
-    "sinfecha": 44
+    "abierta": 434,
+    "proxima": 47,
+    "sinfecha": 43
   },
   "previstas": 621,
   "fuentes": {
@@ -20,55 +20,55 @@
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
       "registros": 127,
-      "segundos": 35,
+      "segundos": 89,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 27,
-      "segundos": 21,
+      "segundos": 26,
       "erroresFicha": 0
     },
     "araba": {
       "nombre": "Diputación Foral de Álava (ayudas en vigor)",
       "ok": true,
       "registros": 146,
-      "segundos": 43,
+      "segundos": 23,
       "erroresFicha": 0
     },
     "bdns": {
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
-      "registros": 997,
-      "segundos": 186,
+      "registros": 1002,
+      "segundos": 205,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 155,
-      "segundos": 7,
+      "segundos": 9,
       "erroresFicha": 0
     },
     "prestaciones": {
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 19,
-      "segundos": 17,
+      "segundos": 137,
       "erroresFicha": 0
     },
     "europa": {
       "nombre": "Funding & Tenders Portal (Comisión Europea), convocatorias sin consorcio",
       "ok": true,
-      "registros": 29,
+      "registros": 30,
       "erroresFicha": 0
     }
   },
   "enlaces": {
     "comprobados": 907,
-    "rotos": 2,
+    "rotos": 3,
     "sustituidos": 1,
-    "quitados": 1
+    "quitados": 2
   }
 }
