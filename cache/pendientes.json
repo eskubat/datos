@@ -9,15 +9,6 @@
   "caracteres": 4021
  },
  {
-  "id": "bdns-943436",
-  "h": "fe4433669884b0ff",
-  "titulo": "Subvenciones, en régimen de concurrencia competitiva",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Servicio público de empleo estatal",
-  "archivo": "cache/fuentes/bdns-943436-a5636ad1.txt",
-  "caracteres": 60826
- },
- {
   "id": "eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias-y-forestales-2026",
   "h": "91adb78e4800f435",
   "titulo": "Ayudas a las agrupaciones de personas productoras agrarias y forestales incluidas en el pepac",
@@ -234,15 +225,6 @@
   "caracteres": 6324
  },
  {
-  "id": "ue-cs-comprehensive-and-inclusive-support-for-women-and-girls-victims-of-gbv",
-  "h": "fa279a6f0c44c027",
-  "titulo": "Comprehensive and inclusive support for women and girls' victims of GBV",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-cs-comprehensive-and-inclusive-support-for-women-and-girl-05a604a5.txt",
-  "caracteres": 9472
- },
- {
   "id": "ara-01362004",
   "h": "a2f6dd95e1dcce18",
   "titulo": "Ayuda para el fomento y puesta en valor del terroir rioja alavesa. fomento del terroir A traves de la viticultura. . medidas 1,3 y 4",
@@ -387,15 +369,6 @@
   "caracteres": 300000
  },
  {
-  "id": "ara-garantias-alquiler-vivienda-adhesion-personas-arrendadoras",
-  "h": "7fbd8a7d8edd8cfb",
-  "titulo": "Programa de garantías al alquiler de viviendas - adhesión arrendadores",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-garantias-alquiler-vivienda-adhesion-personas-arrendador-365c506c.txt",
-  "caracteres": 138050
- },
- {
   "id": "ara-01122002",
   "h": "fe2121c02515a4c4",
   "titulo": "Ayudas forestales",
@@ -457,24 +430,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-extraordinarias-y-temporales-para-el-transporte-p-444e21a1.txt",
   "caracteres": 42502
- },
- {
-  "id": "bdns-944168",
-  "h": "1c8386fd63e12bb0",
-  "titulo": "Ayudas para financiar trabajos de conservación o enriquecimiento de bienes inmuebles del Patrimonio Histórico Español",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Dirección general de agenda urbana y arquitectura",
-  "archivo": "cache/fuentes/bdns-944168-079b7a45.txt",
-  "caracteres": 193806
- },
- {
-  "id": "bdns-944018",
-  "h": "235a9485452a3a5e",
-  "titulo": "Ayudas, en régimen de concurrencia competitiva",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Dirección general de patrimonio cultural y bellas artes",
-  "archivo": "cache/fuentes/bdns-944018-c430491e.txt",
-  "caracteres": 158177
  },
  {
   "id": "bdns-944013",

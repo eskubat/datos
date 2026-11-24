@@ -703,5 +703,30 @@
   "parecidaA": "bdns-885396",
   "motivo": "Ayudas sociales no periódicas de Arrasate/Mondragón 2026: 885396 es la 1.ª convocatoria y 910085 la 2.ª, con las mismas bases, solicitantes y plazo hasta el 1/12/2026; las dos llegan por la BDNS.",
   "fecha": "2026-11-22"
+ },
+ "bdns-944122": {
+  "parecidaA": "eus-ayuda-subvencion-2026-programa-onekin",
+  "motivo": "Misma convocatoria Onekin 2026 (Orden de 27/10/2026, misma página oficial de euskadi.eus): tres registros de la BDNS, uno por régimen de minimis (717/2014 pesca, 1408/2013 agrario, 2023/2831 general), y la ficha de euskadi.eus ya publicada; solo cambia el reglamento de minimis.",
+  "fecha": "2026-11-24"
+ },
+ "bdns-944123": {
+  "parecidaA": "eus-ayuda-subvencion-2026-programa-onekin",
+  "motivo": "Misma convocatoria Onekin 2026 (Orden de 27/10/2026, misma página oficial de euskadi.eus): tres registros de la BDNS, uno por régimen de minimis (717/2014 pesca, 1408/2013 agrario, 2023/2831 general), y la ficha de euskadi.eus ya publicada; solo cambia el reglamento de minimis.",
+  "fecha": "2026-11-24"
+ },
+ "bdns-944124": {
+  "parecidaA": "eus-ayuda-subvencion-2026-programa-onekin",
+  "motivo": "Misma convocatoria Onekin 2026 (Orden de 27/10/2026, misma página oficial de euskadi.eus): tres registros de la BDNS, uno por régimen de minimis (717/2014 pesca, 1408/2013 agrario, 2023/2831 general), y la ficha de euskadi.eus ya publicada; solo cambia el reglamento de minimis.",
+  "fecha": "2026-11-24"
+ },
+ "eus-ayuda-subvencion-2026-programa-onekin": {
+  "parecidaA": "bdns-944122",
+  "motivo": "Misma convocatoria Onekin 2026 (Orden de 27/10/2026, misma página oficial de euskadi.eus): tres registros de la BDNS, uno por régimen de minimis (717/2014 pesca, 1408/2013 agrario, 2023/2831 general), y la ficha de euskadi.eus ya publicada; solo cambia el reglamento de minimis.",
+  "fecha": "2026-11-24"
+ },
+ "ara-01122002": {
+  "parecidaA": "ara-ays-monte-plafor",
+  "motivo": "Mismo título («Ayudas forestales») y mismo organismo (Diputación Foral de Álava): ara-01122002 es el plan de ayudas forestales 2027 (Decreto Foral 40/2026, plazo del 20/11/2026 al 31/12/2028) y ara-ays-monte-plafor el del plan anterior, pendiente a su vez de decidir con ara-01122001.",
+  "fecha": "2026-11-24"
  }
 }
