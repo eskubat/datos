@@ -1,14 +1,3 @@
-### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1557814
-Convocatoria de subvenciones para la financiación de Proyectos de Cooperación y
-Desarrollo en el año 2026
-En cumplimiento de lo dispuesto en la convocatoria aprobada mediante Decreto de
-Alcaldía 1068/26, de 17 de noviembre, se abre el plazo de presentación de solicitudes del
-1 a 18 de diciembre de 2026, ambos inclusive.
-Los detalles y condiciones de esta convocatoria se hallan recogidas en las Bases
-reguladoras publicadas en la página web municipal.
-Lo que se publica para su conocimiento público y para que surta los efectos oportunos.
-Balmaseda, 18 de noviembre de 2026. El Alcalde.- Alfonso San Vicente de la Horra.
-
 ### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1557819
 DECRETO DE ALCALDIA
 Vista la propuesta de convocatoria realizada por la concejalía de Acción Social, de subvenciones
@@ -66,3 +55,14 @@ Balmaseda, a fecha de la firma electrónica
 EL ALCALDE,
 D. Alfonso San Vicente de la Horra
 I.F.K.-C.I.F P4810400D San Severino plaza 1-48800 Balmaseda - T. 946800000 - F. 946102053 - ayto@balmaseda.eus.-www.balmaseda.eus
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1557814
+Convocatoria de subvenciones para la financiación de Proyectos de Cooperación y
+Desarrollo en el año 2026
+En cumplimiento de lo dispuesto en la convocatoria aprobada mediante Decreto de
+Alcaldía 1068/26, de 17 de noviembre, se abre el plazo de presentación de solicitudes del
+1 a 18 de diciembre de 2026, ambos inclusive.
+Los detalles y condiciones de esta convocatoria se hallan recogidas en las Bases
+reguladoras publicadas en la página web municipal.
+Lo que se publica para su conocimiento público y para que surta los efectos oportunos.
+Balmaseda, 18 de noviembre de 2026. El Alcalde.- Alfonso San Vicente de la Horra.

@@ -24,8 +24,8 @@ Necesitarás alguno de estos sistemas de identificación digital:
 BAKQ
 Certificado electrónico
 titulo: Electrónico
-estado: Fuera de plazo
-descripcion plazo: Pendiente de apertura del plazo
+estado: En plazo
+descripcion plazo: ABIERTO (23/11/2026 - 18/12/2026)
 descripcion plazo ampliada: Desde el 23 de noviembre al 18 de diciembre
 titulo: Plazo de presentación
 descripcion: Para todos los casos
@@ -36,6 +36,7 @@ condicion documento: CON CARÁCTER GENERAL
 titulo: Documentación
 titulo pestana: Presentación del trámite
 descripcion tramite: Solicitud
+estado: Fuera de plazo
 descripcion plazo: CERRADO (03/07/2026 - 31/07/2026)
 descripcion plazo ampliada: Del 3 al 31 de julio
 nombre documento: Certificación acuerdo del Pleno
@@ -45,7 +46,6 @@ nombre documento: Titulaciones
 condicion documento: CON CARACTER GENERAL
 finalidad:
 Financiación de proyectos que se realicen con jóvenes y que permitan a las entidades locales promocionar servicios o programas que satisfagan las necesidades de las personas jóvenes de sus localidades relacionadas con la educación en el tiempo libre y la participación juvenil.
-estado: En plazo
 descripcion plazo: ABIERTO (26/06/2026 - 18/12/2026)
 descripcion plazo ampliada: Del 26 de junio de 2026 a 18 de diciembre de 2026
 titulo: Subvención para Entidades locales que lleven a cabo actividades dirigidas a la juventud

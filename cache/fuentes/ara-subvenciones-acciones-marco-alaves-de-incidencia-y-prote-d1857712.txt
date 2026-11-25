@@ -11,12 +11,12 @@ También podrán acogerse a estas ayudas agrupaciones de entidades, siempre que 
 Quedan expresamente excluidas de acceder a estas ayudas:
 a. Las asociaciones o entidades que no hayan justificado suficientemente y en los plazos previstos los gastos correspondientes a las subvenciones recibidas en ejercicios anteriores, salvo que a juicio de la dirección se hubieran justificado suficientemente las razones de la no justificación.
 b. Las instituciones y servicios dependientes del Estado, la administración autonómica, las entidades locales, las entidades de ahorro y empresas.
-tipo recurso: Recurso contencioso-Administrativo
-Organismo: Juzgados de lo Contencioso-Administrativo de Vitoria-Gasteiz
-Plazo: 2 Meses
 tipo recurso: Recurso de Reposición
 Organismo: Diputado de Igualdad, Euskera y Gobernanza.
 Plazo: 1 Meses
+tipo recurso: Recurso contencioso-Administrativo
+Organismo: Juzgados de lo Contencioso-Administrativo de Vitoria-Gasteiz
+Plazo: 2 Meses
 Plazo de resolución: 3 Meses
 Inicio Oficio: Sí
 Silencio administrativo de oficio: Negativo

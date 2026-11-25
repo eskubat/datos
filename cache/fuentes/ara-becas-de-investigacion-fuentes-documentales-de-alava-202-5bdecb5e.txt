@@ -10,13 +10,13 @@ descripcion: Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Com�
 descripcion: Reguladora de la Jurisdicción Contencioso-administrativa.
 titulo: Normativa
 A quién va dirigido: Personas físicas que a 1 de enero de 2026 hayan finalizado los estudios conducentes a la obtención del título de licenciatura o titulación de grado en humanidades y/o disciplinas relacionadas, en el curso académico 2014-2015 o fecha posterior. Los títulos obtenidos en el extranjero o en centros docentes de titularidad privada, deberán estar convalidados o reconocidos y tener plenos efectos civiles en el momento de la concesión de las becas. Las personas solicitantes deberán presentar una memoria explicativa del proyecto de investigación a desarrollar, avalado por un profesor o profesora especialista que apoye la utilidad e interés del proyecto. No podrán ser beneficiarias de estas becas las personas que hayan sido perceptoras de las mismas en alguna convocatoria anterior. Tampoco podrán beneficiarse de estas ayudas las personas en quienes concurra alguna de las circunstancias recogidas en el artículo 12.2 de la Norma Foral 11/2016, de 19 de octubre, de Subvenciones del Territorio Histórico de Álava.
+tipo recurso: Recurso contencioso-Administrativo
+Organismo: Juzgado correspondiente
+Plazo: 2 Meses
 tipo recurso: Recurso de Reposición
 Organismo: Diputada Foral titular del Departamento de
 Cultura y Deporte,
 Plazo: 1 Meses
-tipo recurso: Recurso contencioso-Administrativo
-Organismo: Juzgado correspondiente
-Plazo: 2 Meses
 Plazo de resolución: 3 Meses
 titulo: Resolución
 Silencio administrativo de la persona interesada: Negativo

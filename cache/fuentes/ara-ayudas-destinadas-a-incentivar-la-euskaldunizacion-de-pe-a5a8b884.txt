@@ -6,12 +6,12 @@ titulo: Normativa
 A quién va dirigido: 1. La persona beneficiaria ha de matricularse en un euskaltegi homologado de Álava o del enclave de Treviño antes del 1 de octubre de 2026. A la hora de la matriculación, el euskaltegi aplicará, si procede, el descuento correspondiente a cada módulo en el caso de cada beneficiaria.
 2. Podrán optar a esta convocatoria todas las personas físicas que reúnan las siguientes características:— Ser mayor de edad o cumplir 18 años en el año 2026.— Estar empadronada en el Territorio Histórico de Álava o en el enclave de Treviño con anterioridad al 1 de octubre de 2026.— Matricularse en cualquiera de los niveles A2A2, B1A2, B1B1, B2B1, B2B2, C1B2, C1C1 y C2C1 en un euskaltegi homologado por HABE en Álava o enclave de Treviño.
 3. Quedan expresamente excluidas del programa las personas peticionarias que presten sus servicios en las administraciones públicas y cuyos cursos de aprendizaje y capacitación lingüística en euskera sean financiados por el IVAP
-tipo recurso: Recurso de Reposición
-Organismo: Diputado/a de Igualdad, Euskera y Gobernanza
-Plazo: 1 Meses
 tipo recurso: Recurso contencioso-Administrativo
 Organismo: Juzgados de lo Contencioso-Administrativo de Vitoria-Gasteiz
 Plazo: 2 Meses
+tipo recurso: Recurso de Reposición
+Organismo: Diputado/a de Igualdad, Euskera y Gobernanza
+Plazo: 1 Meses
 Plazo de resolución: 6 Meses
 Inicio Oficio: Sí
 Silencio administrativo de oficio: Negativo
@@ -1653,6 +1653,646 @@ Emisor del certificado: CN=EAEko HAetako langileen CA - CA personal de AAPP vasc
 Número de serie: 267116
 Fecha de firma: 2026.08.28 23:00:02 Z
 2026-02434
+
+### Documento de la convocatoria: https://egoitza.araba.eus/es/inicio/tramites?p_p_id=ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet&p_p_lifecycle=2&p_p_cacheability=cacheLevelPage&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_url=https%3A%2F%2Fegoitza.araba.eus%2FAPIEgoitza%2Fsgcpsapi%2Fv1%2Fprocedimientos%2Ftramites%2F0104400101%2Fdocumentos%2F%257BC08D4635-AF47-C6F5-AC99-A085E0400000%257D&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_cmd=getDocumentBinario&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_mvcRenderCommandName=%2Fccasa%2Fregistro&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_id_registro=convocatoria-subvenciones-medios-euskera
+www.araba.eus
+HELDUEN Helduen
+EUSKALDUNTZEA SUSTATZEKO
+DIRU-LAGUNTZETAN
+ERAKUNDE
+LAGUNTZAILE GISA PARTE
+HARTZEKO
+euskalduntzea
+sustatzeko
+diru-laguntzetan
+erakunde
+ESKAERA (ERAKUNDE LAGUNTZAILE GISA LAGUNTZEN PROGRAMAN PARTE HARTZEN DUTEN EUSKALTEGIEK BETE
+laguntzaile
+gisa
+parte
+hartzeko
+eskaera
+(erakunde
+laguntzaile
+BEHARREKOA)
+gisa
+laguntzen
+programan
+parte EN
+hartzen
+dutenECONÓMICAS
+euskaltegiek
+beteA
+SOLICITUD DE
+INCORPORACIÓN
+COMO ENTIDAD
+COLABORADORA
+LAS AYUDAS
+DESTINADAS
+INCENTIVARbeharrekoa)
+LA EUSKALDUNIZACIÓN DE PERSONAS ADULTAS (A RELLENAR POR LOS EUSKALTEGIS QUE TOMEN PARTE
+EN EL PROGRAMA DE AYUDAS COMO ENTIDADES COLABORADORAS)
+Solicitud de incorporación como entidad colaboradora en las
+ayudas económicas destinadas a incentivar la euskaldunización
+de personas adultas (a rellenar por los euskaltegis que tomen
+parte en el programa de ayudas como entidades colaboradoras)
+Berdintasun, Euskara
+eta Gobernantza Saila
+Departamento de Igualdad, Euskara
+y Gobernanza
+Euskararen eta Gobernu
+Irekiaren Zuzendaritza
+2026
+2026
+Dirección de Euskera
+y Gobierno Abierto
+II. ERANSKINA n ANEXO II
+Eskaera zk. n Nº Solicitud
+Eskaera data n Fecha Solicitud
+(Administrazioak betetzeko n A cumplimentar por la Administración)
+ESKATZAILEA n SOLICITANTE
+Identifikazio zk. IZK n Nº identificativo NIF
+Sozietatearen izena n Razón social
+Helbidea (kalea) n Domicilio (calle)
+Zk. n Núm.
+Lurralde Historikoa n
+Territorio Histórico
+Herrialdea n País
+Telefonoa n Telefóno
+Udalerria n Municipio
+Mugikorra n Móvil
+Eskra. n Escal.
+Letra
+Solairua n Piso
+Aldea n Mano
+Herria n Localidad
+Faxa n Fax
+P.K. n C.P.
+Posta elektronikoa n Correo electrónico
+LEGEZKO ORDEZKARIA n REPRESENTANTE LEGAL
+(Pertsona juridikoentzat nahitaezkoa da n Obligatorio para las personas jurídicas)
+Identifikazio agiria n Documento identificativo Identifikazio zk. n Nº identificativo
+IKZ
+NIF
+AIZ
+NIE
+Emakumea
+Mujer
+Izena n Nombre
+Lehen abizena n Primer apellido
+Protokolo zk. n Nº Protocolo
+Telefonoa n Telefóno
+Sexua n Sexo
+Besteren bat
+Otro
+Data n Fecha
+Mugikorra n Móvil
+Gizona
+Hombre
+Ez binarioa
+No binario
+Bigarren abizena n Segundo apellido
+Notarioa n Notario
+Faxa n Fax
+Posta elektronikoa n Correo electrónico
+JAKINARAZPENAK n NOTIFICACIONES
+Administrazio Publikoen Administrazio Prozedura Erkidearen urriaren 1eko 39/2015 Legearen 43.1 artikuluan aurreikusitakoaren arabera, jakinarazpen elektronikoak Arabako Foru Aldundiaren egoitza elektronikoan agertzeko sistemaren bidez
+egingo dira. Hartzaileek egoitza elektroniko horretako “nire jakinarazpenak” atalean eskuratu ahal izango dituzte.
+Jakinarazpen elektronikoak eskuratu ahal izango dituzte hartzaileek eta/edo, hala badagokio, haiek gaitutako pertsonek.
+Erakunde eskatzaileak gailu elektroniko bat eta/edo helbide elektroniko bat identifikatu ahal izango du, abisuak bidaltzeko balioko duena, egoitza elektronikoan jakinarazpen bat eskuragarri jarri dela jakinaraziz. Hala ere, ohar hori egiten
+ez bada ere, jakinarazpena guztiz baliozkoa izango da:
+RE. 26/291
+Conforme a lo previsto en el artículo 43.1 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común
+de las Administraciones Públicas, las notificaciones electrónicas se practicarán por el sistema de comparecencia en sede
+electrónica de la Diputación Foral de Álava. Las personas destinatarias podrán acceder a ellas en el apartado “Mis notificaciones” de dicha sede electrónica.
+Berdintasun, Euskara eta
+Gobernantza Saila
+Departamento de Igualdad, Euskera
+y Gobernanza
+Euskararen eta Gobernu Irekiaren
+Zuzendaritza
+Dirección de Euskera y Gobierno
+Abierto
+Euskararen Foru Zerbitzua
+Servicio Foral de Euskera
+Probintzia plaza
+01001 Vitoria-Gasteiz
+Tel. 945 18 18 18
+www.araba.eus
+HELDUEN EUSKALDUNTZEA SUSTATZEKO DIRU-LAGUNTZETAN ERAKUNDE LAGUNTZAILE GISA PARTE HARTZEKO
+ESKAERA (ERAKUNDE LAGUNTZAILE GISA LAGUNTZEN PROGRAMAN PARTE HARTZEN DUTEN EUSKALTEGIEK BETE
+BEHARREKOA)
+SOLICITUD DE INCORPORACIÓN COMO ENTIDAD COLABORADORA EN LAS AYUDAS ECONÓMICAS DESTINADAS A
+INCENTIVAR LA EUSKALDUNIZACIÓN DE PERSONAS ADULTAS (A RELLENAR POR LOS EUSKALTEGIS QUE TOMEN PARTE
+EN EL PROGRAMA DE AYUDAS COMO ENTIDADES COLABORADORAS)
+2026
+Conforme a lo previsto en el artículo 43.1 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común
+de las Administraciones Públicas, las notificaciones electrónicas se practicarán por el sistema de comparecencia en sede
+electrónica de la Diputación Foral de Álava. Las personas destinatarias podrán acceder a ellas en el apartado “Mis notificaciones” de dicha sede electrónica.
+Podrán acceder a las notificaciones electrónicas las personas destinatarias de las mismas y/o, en su caso, las personas
+habilitadas por ellas.
+La entidad solicitante podrá identificar un dispositivo electrónico y/o una dirección de correo electrónico que servirán
+para el envío de los avisos informándole de la puesta a disposición de una notificación en la sede electrónica. No obstante, la falta de práctica de este aviso no impedirá que la notificación sea considerada plenamente válida:
+Telefono mugikor zenbakia n Número de teléfono móvil
+Posta elektronikoa n Correo electrónico
+BANKUEN DATUAK (HIRUGARRENEN FITXA) (2) n DATOS BANCARIOS (FICHA DE TERCEROS) (2)
+Aurretik Arabako Foru Aldundiaren diru-sarrerarik jaso ez bada edo banku-helbideratzearen datuak aldatzen badira soilik
+bete beharko da. n Cumplimentar únicamente en caso de no haber percibido anteriormente ningún ingreso de la Diputación Foral de Álava o en caso de modificación de los datos de la domiciliación bancaria.
+BANKUA n BANCO
+IBAN
+SWIFT
+(FINANTZA ENTITATEAK bete behar du) n
+(A rellenar por la ENTIDAD FINANCIERA)
+(ESKATZAILEAK bete behar du) n
+(A rellenar por la persona SOLICITANTE)
+Finantza entitatearen adostasuna (sinadura eta zigilua) n
+Conforme entidad financiera (firma y sello)
+Hirugarren interesdunaren sinadura edota entitatearen
+zigilua n Firma de la persona interesada y/o sello de la
+entidad interesada
+……………………., ………..(e)ko……………………...............
+……………………., ………..(e)ko……………….............……..
+aren…………….(e)an
+aren…………….(e)an
+En…………………………………., a……… de…………………
+En…………………………………., a……… de…………………
+de………….
+de………….
+Finantza erakundeak ZIURTATZEN du lehen adierazitako
+banku kontua “ESKATZAILEA” atalean ageri den pertsona
+fisiko edo juridiko interesdunaren izenean eta IFZarekin
+dagoela irekita, eta pertsona interesdun hori kontuaren
+titular gisa ageri dela.
+La entidad financiera CERTIFICA que la cuenta bancaria
+anteriormente señalada figura abierta al NIF y nombre
+de la persona física o jurídica interesada que figura en el
+apartado “SOLICITANTE”, y que dicha persona interesada
+figura como titular de la cuenta.
+ADIERAZI BI AUKERETAKO BAT:
+Alta eskatzen da Arabako Foru Aldundiaren hirugarren moduan, ESKAERA HONI IFZ-REN FOTOKOPIA ERANTSITA
+Bankuko datuak eguneratzea eskatzen da, dagoeneko
+altan egonik Arabako Foru aldundiaren hirugarren moduan.
+INDICAR UNA DE LAS DOS OPCIONES:
+Se solicita el alta como Tercero de la Diputación Foral de
+Álava, para lo cual SE ADJUNTA FOTOCOPIA DEL NIF A
+LA PRESENTE SOLICITUD.
+Se solicita la puesta al día de los datos bancarios como
+Tercero de la Diputación Foral de Álava ya dado de alta.
+Berdintasun, Euskara eta
+Gobernantza Saila
+Departamento de Igualdad, Euskera
+y Gobernanza
+Euskararen eta Gobernu Irekiaren
+Zuzendaritza
+Dirección de Euskera y Gobierno
+Abierto
+Euskararen Foru Zerbitzua
+Servicio Foral de Euskera
+Probintzia plaza
+01001 Vitoria-Gasteiz
+Tel. 945 18 18 18
+www.araba.eus
+HELDUEN EUSKALDUNTZEA SUSTATZEKO DIRU-LAGUNTZETAN ERAKUNDE LAGUNTZAILE GISA PARTE HARTZEKO
+ESKAERA (ERAKUNDE LAGUNTZAILE GISA LAGUNTZEN PROGRAMAN PARTE HARTZEN DUTEN EUSKALTEGIEK BETE
+BEHARREKOA)
+SOLICITUD DE INCORPORACIÓN COMO ENTIDAD COLABORADORA EN LAS AYUDAS ECONÓMICAS DESTINADAS A
+INCENTIVAR LA EUSKALDUNIZACIÓN DE PERSONAS ADULTAS (A RELLENAR POR LOS EUSKALTEGIS QUE TOMEN PARTE
+EN EL PROGRAMA DE AYUDAS COMO ENTIDADES COLABORADORAS)
+2026
+ESKATZEN DU n SOLICITA
+Helduen euskalduntzea sustatzeko diru-laguntzen kudeaketan erakunde laguntzaile gisa sartzea. n La incorporación
+como entidad colaboradora en la gestión de las ayudas económicas destinadas a incentivar la euskaldunización de personas adultas.
+(Tokia eta data n Lugar y fecha)
+Ordezkariaren sinadura n Firma del/la representante
+ERANTZUKIZUNPEKO DEKLARAZIOA
+DECLARACIÓN RESPONSABLE
+Adierazten dut erakunde laguntzaile izateko deialdian eskatzen diren baldintzak betetzen ditudala, eta baimena
+ematen diot Euskararen Foru Zerbitzuari ofizioz egiazta
+dezan honako baldintza hauek betetzen direla:
+Declaro que cumplo los requisitos exigidos en la convocatoria para ser entidad colaboradora y autorizo al Servicio
+Foral de Euskera a realizar de oficio la comprobación del
+cumplimiento de los siguientes requisitos:
+- HABEk homologatzea eta dagokion erregistroan
+inskribatzea.
+- Homologación por HABE e inscripción en el correspondiente registro.
+- Ordezkatzen dudan erakundeak zerga-betebeharrak eta Gizarte Segurantzarekikoak egunean izatea.
+- Estar al día en el cumplimiento de las obligaciones tributarias y con la Seguridad Social de la entidad a la que represento.
+Era berean, berdintasunaren arloko araudia betez, hau
+adierazten dut:
+Asimismo, en cumplimiento de la normativa en materia
+de igualdad DECLARO:
+- Ez ordezkatzen dudan erakundeak, ez ordezkatzen dudan erakundearen gobernu- edo administrazio-organoetako kide den pertsona juridiko edo erakunderen batek,
+onarpen-prozesuetan edo funtzionamenduan sexuagatiko
+zuzeneko edo/eta zeharkako diskriminazio-ekintzak egiten
+dituenik, DLOren 13. artikuluan eta Euskadiko Berdintasunerako Legearen 24. artikuluan (2) xedatutakoaren arabera.
+- Que ni la organización a la que represento, ni persona jurídica o entidad alguna de las que forman parte de los órganos de gobierno o administración de la entidad a la que
+represento realizamos actos de discriminación directa y/o
+indirecta por razón de sexo en los procesos de admisión
+o en el funcionamiento de conformidad con lo estipulado
+en el artículo 13 de la LGS y artículo 24 (2) de la Ley de
+Igualdad de Euskadi.
+- Ez ordezkatzen dudan elkarte edo erakundeak, ez eta
+haren gobernu- edo administrazio-organoetako kide den
+inork ere, ez duela zigor administratiborik edo penalik
+jaso abuztuaren 4ko 5/2000 Legegintzako Errege Dekretuak onartutako Lan-arloko Arau-hauste eta Zehapenei
+buruzko Legearen Testu Bateginetik eratorritako sexu-bereizkeriagatik eta/edo emakumeen eta gizonen berdintasunaren arloko arau-hausteengatik.
+- Que ni la asociación u organización a la que represento,
+ni persona alguna de las que forman parte de sus órganos
+de gobierno o administración, han sido sancionadas penal y/o administrativamente por discriminación por razón
+de sexo y/o por infracciones en materia de igualdad entre
+mujeres y hombres derivadas del Texto Refundido de la
+Ley de Infracciones y Sanciones en el Orden Social, aprobado por Real Decreto Legislativo 5/2000, de 4 de agosto.
+Berdintasun, Euskara eta
+Gobernantza Saila
+Departamento de Igualdad, Euskera
+y Gobernanza
+Euskararen eta Gobernu Irekiaren
+Zuzendaritza
+Dirección de Euskera y Gobierno
+Abierto
+Euskararen Foru Zerbitzua
+Servicio Foral de Euskera
+Probintzia plaza
+01001 Vitoria-Gasteiz
+Tel. 945 18 18 18
+www.araba.eus
+HELDUEN EUSKALDUNTZEA SUSTATZEKO DIRU-LAGUNTZETAN ERAKUNDE LAGUNTZAILE GISA PARTE HARTZEKO
+ESKAERA (ERAKUNDE LAGUNTZAILE GISA LAGUNTZEN PROGRAMAN PARTE HARTZEN DUTEN EUSKALTEGIEK BETE
+BEHARREKOA)
+SOLICITUD DE INCORPORACIÓN COMO ENTIDAD COLABORADORA EN LAS AYUDAS ECONÓMICAS DESTINADAS A
+INCENTIVAR LA EUSKALDUNIZACIÓN DE PERSONAS ADULTAS (A RELLENAR POR LOS EUSKALTEGIS QUE TOMEN PARTE
+EN EL PROGRAMA DE AYUDAS COMO ENTIDADES COLABORADORAS)
+2026
+Oharra (1)
+Nota (1)
+Europako Parlamentuaren eta Kontseiluaren 2016ko apirilaren
+27ko 2016/679 (EB) Erregelamenduan (DBEO) eta Datu Pertsonalak Babesteari eta eskubide digitalak bermatzeari buruzko abenduaren 5eko 3/2018 Lege Organikoan ezarritakoa betetze aldera,
+jakinarazten dizugu zuk ematen dizkiguzun datuak Arabako Foru
+Aldundiaren titulartasuneko T095 BERDINTASUN, EUSKARA ETA
+GOBERNANTZA SAILAK IZAPIDETUTAKO DIRULAGUNTZAK
+KUDEATZEA fitxategian sartuko direla. Fitxategi horren tratamenduak Arabako Lurralde Historikoan euskararen erabilera
+sustatzeko jarduerak kudeatzeko egiten dira. Zure datuen konfidentzialtasuna bermatzen dugu, eta ez zaizkie hirugarrenei jakinarazten legez gaitutako kasuetatik kanpo.
+Con objeto de dar cumplimiento a lo establecido en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de
+abril de 2016 (RGPD) y en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos
+digitales, le informamos que los datos que usted nos facilita van
+a ser incluidos en el fichero T095 GESTIÓN DE SUBVENCIONES
+DEL DEPARTAMENTO DE IGUALDAD, EUSKERA Y GOBERNANZA titularidad de Diputación Foral de Álava cuyos tratamientos se
+realizan para la gestión de las actividades de promoción del uso
+del euskera en el Territorio Histórico de Álava. Garantizamos la
+confidencialidad de sus datos, no siendo comunicados a terceras
+personas fuera de los supuestos habilitados legalmente.
+Datuak atzitzeko, ezabatzeko, aurkaratzeko eta mugatzeko eskubideak baliatu ahal izango dituzu DBEOk aitortzen dituen eskubideez baliatzeko. Horretarako, Arabako Foru Aldundiko Erregistro Bulegora jo beharko duzu Probintzia plaza 5, PK 01001
+Vitoria-Gasteiz - Araba). Informazio gehiago nahi izanez gero:
+Usted podrá ejercitar sus derechos de acceso rectificación, supresión, oposición y limitación que reconoce el RGPD dirigiéndose
+a la Oficina de Registro de la Diputación Foral de Álava, Plaza
+de la Provincia, 5, CP 01001 Vitoria - Gasteiz (Álava). Para más
+información:
+https://web.araba.eus/eu/tratamenduen-lege-ohar-hedatua
+https://web.araba.eus/es/aviso-legal-ampliado
+Oharra (2)
+Nota (2)
+Zuk emandako banku datuak hirugarrenen eta interesdunen fitxategian erregistratuko dira, zeina Administrazio honen titularitatekoa baita, aurrekontu gauzatzeari eta aurrekontuz kanpoko
+gauzatzeari dagozkion eragiketen izapideak egiteko. Atal honetan
+emandako datuak ez dira tratatuko edo komunikatuko, baldin eta
+lehenago egindako ordainketen ondorioz, dagoeneko alta eman
+bazaie identifikazio eta banku datuei, berriro ere kobratzea hautatzeko eman direnei.
+Los datos bancarios facilitados por usted se registrarán en el
+Fichero de Terceros e interesados titularidad de esta Administración para realizar la tramitación de operaciones de ejecución
+presupuestaria y extrapresupuestaria. No se tratarán ni comunicarán los datos cumplimentados en este apartado si como consecuencia de pagos realizados con anterioridad, ya estuvieran
+dados de alta los datos identificativos y bancarios por los que de
+nuevo se optara para el cobro.
+Berdintasun, Euskara eta
+Gobernantza Saila
+Departamento de Igualdad, Euskera
+y Gobernanza
+Euskararen eta Gobernu Irekiaren
+Zuzendaritza
+Dirección de Euskera y Gobierno
+Abierto
+Euskararen Foru Zerbitzua
+Servicio Foral de Euskera
+Probintzia plaza
+01001 Vitoria-Gasteiz
+Tel. 945 18 18 18
+
+### Documento de la convocatoria: https://egoitza.araba.eus/es/inicio/tramites?p_p_id=ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet&p_p_lifecycle=2&p_p_cacheability=cacheLevelPage&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_url=https%3A%2F%2Fegoitza.araba.eus%2FAPIEgoitza%2Fsgcpsapi%2Fv1%2Fprocedimientos%2Ftramites%2F0104400101%2Fdocumentos%2F%257B0B4018D6-7011-C88B-9A16-9FB7E9000001%257D&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_cmd=getDocumentBinario&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_mvcRenderCommandName=%2Fccasa%2Fregistro&_ANPWCOMU_lector_json_module_ANPWCOMULectorJsonModulePortlet_id_registro=convocatoria-subvenciones-medios-euskera
+III. ERANSKINA/ ANEXO III
+Euskaltegiekin sinatzeko lan-hitzarmen orokorraren eredua
+Modelo de Convenio de colaboración general para suscribir con Euskaltegis
+BERDINTASUN, EUSKARA ETA
+GOBERNANTZA SAILAREN ETA
+XXXX EUSKALTEGIAREN ARTEKO
+LANKIDETZA HITZARMENA,
+HELDUEN EUSKALDUNTZEA
+SUSTATZEKO BIDERATUTAKO 20262027 IKASTURTEKO
+DIRULAGUNTZAK KUDEATZEKO.
+CONVENIO DE COLABORACIÓN ENTRE
+EL DEPARTAMENTO DE IGUALDAD,
+EUSKERA Y GOBERNANZA Y EL
+EUSKALTEGI XXXX, PARA LA GESTIÓN
+DE LAS AYUDAS DESTINADAS A
+INCENTIVAR LA EUSKALDUNIZACIÓN
+DE PERSONAS ADULTAS, CURSO 20262027
+Gasteiz, xxxx(e)ko xxxxaren xx(a).
+En Vitoria – Gasteiz, a xx de xx de xxxx
+ESKU HARTU DUTE
+INTERVIENEN
+Alde batetik, Iñaki Gurtubai Artetxe,
+Arabako Foru Aldundiko Berdintasun,
+Euskara eta Gobernantzako foru-diputatua,
+Ahaldun Nagusiaren azaroaren 27ko
+172/2024 Foru Dekretuaren bidez izendatua,
+Arabako Foru Aldundiaren Gobernu,
+Antolaketa eta Araubide Juridikoari buruzko
+martxoaren 15eko 10/2023 Foru Arauak
+emandako ahalmenen arabera jarduten
+duena.
+De una parte, Iñaki Gurtubai Artetxe, diputado
+foral de Igualdad, Euskera y Gobernanza de la
+Diputación Foral de Álava, nombrado mediante
+Decreto Foral 172/2024 del Diputado General,
+de 27 de noviembre y que actúa en virtud de las
+facultades conferidas por la Norma Foral
+10/2023, de 15 de marzo, de gobierno,
+organización y régimen jurídico de la
+Diputación Foral de Álava.
+Bestetik, XXXX jauna/andrea, XXXXren De otra parte, D/Dª XXXX, representante legal
+legezko ordezkaria, XXXX(e)k emandako de XXXX, según poder conferido XXXX.
+boterearen arabera.
+Bi ordezkariek gaitasun juridiko nahikoa
+aitortzen diote elkarri, eta adostu dute
+sinatzea dokumentu honetan jasotzen den
+konpromisoa, hitzarmen hau elkarrekin
+izenpetuta.
+Ambos
+representantes
+se
+reconocen
+mutuamente capacidad jurídica suficiente y
+acuerdan suscribir el compromiso que se recoge
+en el presente documento mediante la
+suscripción conjunta del presente convenio.
+ADIERAZTEN DUTE
+EXPONEN
+1.- Arabako Foru Aldundiko Berdintasun,
+Euskara
+eta
+Gobernantzako
+foru
+diputatuaren Sailak euskara sustatzeko
+hainbat ekintza eta programa sustatzen ditu,
+euskara ikasten ahalegintzen diren pertsonei
+laguntzeko neurriak bultzatuz.
+1.- Que el Departamento del diputado foral de
+Igualdad, Euskera y Gobernanza de la
+Diputación Foral de Álava promueve diversas
+acciones y programas de promoción del
+euskera, impulsando medidas que redunden en
+apoyar a aquellas personas que se esfuerzan en
+el aprendizaje del euskera.
+2.- Berdintasun, Euskara eta Gobernantzako
+foru diputatuaren XXX Foru Aginduaren
+bidez, 2026-2027 ikasturterako helduen
+euskalduntzea sustatzeko diru-laguntzen
+deialdi publikoa onartu da, norgehiagokaaraubidean,
+2026-2027
+ikasturterako.
+Arabako
+euskaltegietan
+2026-2027
+ikasturtean matrikulatzen diren Araban edo
+Trebiñun erroldatutako 18 urtetik gorako
+pertsonen euskalduntzea sustatzea du xede
+deialdi horrek, eta prozeduraren instrukzioorgano izendatu du Euskara eta Gobernu
+Irekiaren Zuzendaritza.
+2.- Que mediante Orden Foral del diputado de
+Igualdad, Euskera y Gobernanza, XXX, se ha
+aprobado la convocatoria de ayudas
+económicas, en régimen de concurrencia
+competitiva, destinadas a incentivar la
+euskaldunización de personas adultas, curso
+2026-2027, cuyo objeto es el de incentivar la
+euskaldunización de las personas mayores de
+18 años empadronadas en Álava o Treviño que
+se matriculen en el curso 2026-2027 en los
+euskaltegis de Álava, nombrando órgano de
+instructor del procedimiento a la dirección de
+Euskera y Gobierno Abierto del Departamento
+de Igualdad, Euskera y Gobernanza.
+3.- Deialdi horretako bosgarren klausulak
+erakunde laguntzaileekin aritzeko aukera
+aurreikusten du, xedapen honetan ezarritako
+baldintzak betetzen dituzten pertsona
+matrikulatuen eskaerak kudeatu eta
+izapidetzeko.
+3.- Que la cláusula quinta de la mencionada
+convocatoria contempla la posibilidad de contar
+con entidades colaboradoras para la gestión y
+tramitación de las solicitudes de las personas
+matriculadas que cumplan los requisitos
+establecidos en esta disposición.
+4.- Ikasleak matrikulatzen diren euskaltegiek 4.- Que teniendo en cuenta que los euskaltegis
+kudeatu eta izapidetu ditzakete eraginkorren en los que se matriculen las y los alumnos son
+eskaerak.
+quienes de forma más eficaz pueden realizar la
+gestión y la tramitación de las solicitudes.
+5.- Horregatik guztiagatik, Arabako
+Lurralde Historikoko Dirulaguntzei buruzko
+urriaren 19ko 11/2016 Foru Arauak 15.
+artikuluan xedatutakoarekin bat etorriz
+adosten dute bi aldeek lankidetza hitzarmen
+hau sinatzea, zeina klausula hauen arabera
+arautuko baita
+5.- Por todo lo expuesto ambas partes acuerdan
+de conformidad con lo dispuesto en el artículo
+15 de la Norma Foral 11/2016, de 19 de octubre,
+de Subvenciones del Territorio Histórico de
+Álava, suscribir el presente convenio de
+colaboración que se regirá por las siguientes
+KLAUSULAK
+CLÁUSULAS
+Lehenengoa. Hitzarmen honen bidez,
+Berdintasun, Euskara eta Gobernantza
+diputatuaren
+sailaren
+eta
+XXXX
+euskaltegiaren arteko lankidetza bidea ezarri
+nahi da, helduen euskalduntzea sustatzeko
+bideratutako
+2026-2027
+ikasturteko
+dirulaguntzak kudeatu eta izapidetzeko.
+Primera. El presente convenio pretende
+establecer el cauce de colaboración entre el
+Departamento del diputado foral de Igualdad,
+Euskera y Gobernanza y el euskaltegi
+XXXXXX, para la gestión y tramitación de las
+ayudas económicas destinadas a incentivar la
+euskaldunización de personas adultas, curso
+2026-2027.
+Lankidetza hori 2026-2027 ikasturteko
+laguntzak kudeatzera zabaltzen da, bai eta
+hitzarmenaren indarraldian egon daitezkeen
+laguntzetara ere.
+La colaboración se extiende a la gestión de las
+ayudas correspondiente al curso 2026-2027, así
+como a las que puedan darse durante el periodo
+de vigencia del convenio.
+Bigarrena.
+Erakunde
+laguntzailearen
+eginkizuna izango da Berdintasun, Euskara
+eta Gobernantza Saileko foru diputatuaren
+XXX Foru Aginduan ezarritako baldintzak
+betetzen dituzten pertsona matrikulatuen
+eskaerak kudeatu eta izapidetzea.
+Segunda. La función de la entidad colaboradora
+consistirá en proceder a la gestión y tramitación
+de las solicitudes de las personas matriculadas
+que cumplan los requisitos establecidos en la
+Orden Foral del diputado foral de Igualdad,
+Euskera y Gobernanza, XXX.
+Hirugarrena. Euskaltegi bakoitzak 2024ko
+urriaren 25 baino lehen aurkeztu beharko du
+Euskararen Foru Zerbitzuan laguntza honen
+bidez aplikatzen den deskontua aplikatu
+zaien eskaera guztien zerrenda ziurtatua,
+eskaera guztiak euskaltegian beterik
+daudela.
+Tercera. Dentro del plazo comprendido hasta el
+último viernes de octubre cada euskaltegi ha de
+presentar en el Servicio Foral de Euskera la
+relación certificada con todas las solicitudes
+cumplimentadas en su centro a las que se les ha
+aplicado el descuento objeto de esta ayuda.
+Laugarrena. Nola laguntza matrikularen
+zenbatekoari aplikatuko zaion deskontu bat
+den, erakunde laguntzaileei ordainduko
+zaizkie dirulaguntzak, ikastegi bakoitzean
+matrikulatutako onuradunen kopuruaren
+arabera, behin deialdia ebatzi ondoren.
+Cuarta. Al tratarse de un descuento que se va a
+aplicar al importe de la matrícula, el pago de las
+ayudas se realizará a las entidades
+colaboradoras, atendiendo al número de
+personas beneficiarias matriculadas en cada
+centro, una vez resuelta la convocatoria.
+Bosgarrena. Erakunde laguntzailearen
+aldeko konpentsazio ekonomikoa 3 eurokoa
+izango da kudeatutako eta onartutako
+matrikula bakoitzeko.
+Quinta. Se fija como compensación económica
+a favor de la entidad colaboradora la cantidad
+de 3 euros por cada matricula gestionada y
+aceptada.
+Seigarrena. Erakunde laguntzaileak honako
+hauetan ezarritakoa bete beharko du:
+Arabako Lurralde Historikoko Dirulaguntzei
+buruzko urriaren 19ko 11/2016 Foru
+Arauaren 11., 12. eta 14. artikuluak, eta Foru
+Gobernu Kontseiluaren uztailaren 21eko
+23/2020 Foru Dekretua (2020ko uztailaren
+27ko ALHAO, 84. zk.), zeinaren bidez
+onespena
+ematen baitzaie Diputatu
+Nagusiaren Sailak lehiaketa bidez emango
+dituen dirulaguntzak arautuko dituzten
+oinarri orokorrei.
+Sexta. La entidad colaboradora deberá cumplir
+con lo establecido en los artículos 11, 12 y 14
+de la Norma Foral 11/2016, de 19 de octubre,
+de Subvenciones del Territorio Histórico de
+Álava y en el Decreto Foral 23/2020 de 21 de
+julio del Consejo de Gobierno Foral, publicado
+en el BOTHA número 84 de 27 de julio de
+2020, que aprobó las bases reguladoras
+generales aplicables a las subvenciones que se
+otorguen en régimen de concurrencia
+competitiva en el ámbito de las competencias
+del Departamento del Diputado General.
+Zazpigarrena. Aldeek nahitaez bete beharko
+dute datu pertsonalen babesari buruzko
+araudia, azken onuradunei buruz lortutako
+datuei dagokienez, eta datu horien
+erabileraren gainean beharrezkoak izan
+daitezkeen adostasun guztiak eskatuko
+dizkiete.
+Séptima. Las partes se obligan a cumplir la
+normativa sobre protección de datos de carácter
+personal, con respecto a los datos obtenidos de
+los beneficiarios/as finales, recabando de los
+mismos/as cuantos consentimientos relativos a
+su uso, puedan resultar necesarios.
+Zortzigarrena. Hitzarmen honek lau urteko
+iraupena izango du, sinatzen den egunetik
+aurrera, eta bat etorriz Arabako Lurralde
+Historikoko Dirulaguntzei buruzko urriaren
+Octava. El presente convenio tendrá una
+duración de cuatro años, a partir de la fecha de
+su firma y de acuerdo con lo establecido en la
+Norma Foral 11/2016, de 19 de octubre, de
+19ko 11/2016 Foru Arauan ezarritakoarekin,
+automatikoki luzatu ahal izango da, baina
+hitzarmenaren guztizko iraupena ezingo da
+sei urte baino luzeagoa izan, nahiz eta
+oinarrien xedapenak aldatu eta haiek ekitaldi
+jakin baterako aurreikusten ez badira ere.
+Subvenciones del Territorio Histórico de Álava,
+podrá ser prorrogado de forma automática sin
+que, en conjunto la duración total del convenio
+pueda exceder de seis años, aunque cambien las
+resoluciones de la convocatoria o incluso en el
+supuesto de no preverse éstas para un
+determinado ejercicio.
+Deialdia ekitaldi jakin batean egiten ez bada, La vigencia se mantendrá en suspensión, en el
+indarraldia etenda egongo da.
+caso de no realizarse la convocatoria en un
+determinado ejercicio.
+Hitzarmen honetako xedapenak osorik edo
+partez aldatu ahal izango dira, bi alderdiak
+ados jarrita. Halaber, alderdietako edozeinek
+hitzarmena salatu ahal izango du hiru
+hilabete lehenago jakinarazita. Kasu
+horretan, bi alderdiek hitzematen dute
+konpromisoei eutsiko dietela onuradunei
+emandako laguntzen aldi osoa amaitu arte.
+Las disposiciones del presente convenio podrán
+ser total o parcialmente modificadas por
+acuerdo de las partes, asimismo, cualquiera de
+ellas podrá denunciar el convenio con un
+preaviso de tres meses, en cuyo caso ambas
+partes se comprometen a mantener los
+compromisos hasta la finalización del periodo
+completo de las ayudas concedidas a los/as
+beneficiarios/as.
+Bederatzigarrena.
+Hitzarmen
+hau
+suntsiarazteko arrazoia izango da bertan
+ezarritako akordioak ez betetzea, baita haren
+izaerari darion eta indarrean dagoen legerian
+jasotzen den beste edozein arrazoi ere.
+Novena. Son causas de resolución del presente
+convenio
+el
+incumplimiento
+de
+las
+estipulaciones contempladas en el mismo y
+cualesquiera otras que derivadas de su
+naturaleza estén recogidas en la legislación
+vigente.
+Eta ados daudela adierazteko, bi alderdiek
+hitzarmen hau sinatu dute bi aletan eta
+ondorio
+bakarrarekin,
+dokumentuaren
+hasieran zehaztutako leku-egunetan.
+Y en prueba de conformidad las partes
+intervinientes firman el presente convenio por
+duplicado y en un solo efecto, en el lugar y
+fecha señalados en el encabezamiento.
 
 ### Documento de la convocatoria: https://web.araba.eus/documents/d/araba/ayudas-aprender-euskera_hoja-de-mano-2025-26_ok-pdf
 2025-2026 IKASTURTEA

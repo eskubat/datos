@@ -25,8 +25,8 @@ Plazo de resolución: No tiene
 titulo: Resolución
 Silencio administrativo de la persona interesada: Según Normativa
 Inicio Persona Interesada: Sí
-valor: Servicio de Tributos Indirectos
 valor: Sección de Impuesto sobre el Valor Añadido e Impuestos Especiales
+valor: Servicio de Tributos Indirectos
 titulo: Organismo competente
 titulo pestana: Presentación del trámite
 descripcion: Hacienda Foral de Álava

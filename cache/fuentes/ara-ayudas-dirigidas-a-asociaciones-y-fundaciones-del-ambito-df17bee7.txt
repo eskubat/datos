@@ -94,10 +94,23 @@ descripcion documento: Memoria teknikoa (eus)
 descripcion documento: Memoria técnica (cas)
 condicion documento: CON CARÁCTER GENERAL
 titulo: Documentación
+descripcion: IFBS
+descripcion tramite:
+Presentar la documentación justificativa de los gastos de mantenimiento y de personal subvencionados.
+Este trámite está dirigido exclusivamente a las entidades beneficiarias.
+denominacion tramite: Justificación de la ayuda
+descripcion plazo: ABIERTO (18/06/2026 - 00:01 - 15/02/2027)
+descripcion plazo ampliada:
+Plazo general de justificación: hasta el 31 de diciembre de 2026.
+Determinadas facturas, justificantes de pago y nóminas podrán presentarse hasta el 15 de enero de 2027, y determinados documentos tributarios y de Seguridad Social hasta el 15 de febrero de 2027.
+descripcion documento: Anexo Instancia (cas)
+descripcion documento: Anexo Memoria (cas)
+descripcion documento: Eskabidearen eranskina (eus)
+descripcion documento: Memoriaren eranskina (eus)
 finalidad:
 Ayudas dirigidas a asociaciones y fundaciones sin ánimo de lucro para financiar determinados gastos de funcionamiento, mantenimiento de la sede y personal correspondientes al ejercicio 2026.
 Las ayudas se conceden en régimen de concurrencia competitiva.
-descripcion plazo: ABIERTO (12/02/2026 - 00:01 - 30/11/2026)
+descripcion plazo: ABIERTO (12/02/2026 - 00:01 - 15/02/2027)
 titulo: Ayudas para el mantenimiento de asociaciones y fundaciones del ámbito de los servicios sociales (2026)
 
 ### Documento de la convocatoria: https://www.araba.eus/botha/Boletines/2016/120/2016_120_03817_C.pdf
