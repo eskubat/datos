@@ -1,4 +1,4 @@
 {
- "fecha": "2026-11-24",
- "nota": "Tras el recolector de hoy (05:48 UTC) las siete fuentes están bien y sin errores de ficha (euskadi 127, Gipuzkoa 27, Álava 146, BDNS 997, boletines 155, prestaciones 19, UE 29; 523 ayudas); no hay tareas cerradas después de la última comprobación y bdns-901439 y bdns-918655 siguen fuera de la cola, así que la huella de contenido «hc» aguanta."
+ "fecha": "2026-11-25",
+ "nota": "Tras el recolector de hoy (05:48 UTC) las siete fuentes están bien y sin errores de ficha (euskadi 126, Gipuzkoa 26, Álava 146, BDNS 992, boletines 157, prestaciones 19, UE 28; 521 ayudas); no hay tareas cerradas después de la última comprobación y en el plan solo quedan tareas bloqueadas."
 }
