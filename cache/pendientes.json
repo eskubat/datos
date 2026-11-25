@@ -1,14 +1,5 @@
 [
  {
-  "id": "bdns-938576",
-  "h": "715ecdde12fd2e87",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación maison&objet París del 14 de enero de al 18 de enero",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
-  "archivo": "cache/fuentes/bdns-938576-f3296b40.txt",
-  "caracteres": 4021
- },
- {
   "id": "eus-ayuda-subvencion-2026-agrupaciones-productoras-agrarias-y-forestales-2026",
   "h": "91adb78e4800f435",
   "titulo": "Ayudas a las agrupaciones de personas productoras agrarias y forestales incluidas en el pepac",
@@ -54,15 +45,6 @@
   "caracteres": 71718
  },
  {
-  "id": "ue-horizon-eic-2026-prize-wip",
-  "h": "ed2bdc6e55313d53",
-  "titulo": "The European Prize for Women Innovators",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
-  "caracteres": 12244
- },
- {
   "id": "ue-horizon-eit-2026-prize-wip-leadership",
   "h": "15aa8d5b5b10edef",
   "titulo": "Women Leadership Category",
@@ -72,6 +54,15 @@
   "caracteres": 12241
  },
  {
+  "id": "ue-horizon-eic-2026-prize-wip",
+  "h": "ed2bdc6e55313d53",
+  "titulo": "The European Prize for Women Innovators",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
+  "caracteres": 12244
+ },
+ {
   "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
   "h": "40b562d93f954fa5",
   "titulo": "Rising Innovators category",
@@ -79,6 +70,24 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-risinginnovators-94da8641.txt",
   "caracteres": 12248
+ },
+ {
+  "id": "bdns-944578",
+  "h": "1d6096f81392c433",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación IDEX Abu Dabi del 25 de enero de al 29 de enero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944578-16f9cfb6.txt",
+  "caracteres": 4607
+ },
+ {
+  "id": "bdns-944616",
+  "h": "5268929ef7b1b3d1",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación Innatex Hofheim Am Taunus del 16 al 18 de enero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944616-d09c0074.txt",
+  "caracteres": 5906
  },
  {
   "id": "bob-bob-2026a219-ii-6013-",
@@ -117,6 +126,15 @@
   "caracteres": 233884
  },
  {
+  "id": "bdns-944663",
+  "h": "d29f8ff72b9d4097",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación KBIS Las Vegas (Estados Unidos) del 2 al 4 de febrero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944663-8e29f90a.txt",
+  "caracteres": 5502
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-eventos-sociales",
   "h": "2ddf39c4e53ae6ec",
   "titulo": "Ayudas, acogidas al régimen de mínimis, para la realización de eventos sociales",
@@ -124,6 +142,33 @@
   "organismoFuente": "Alimentación, Desarrollo Rural, Agricultura y Pesca",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-eventos-sociales-97a480d0.txt",
   "caracteres": 290361
+ },
+ {
+  "id": "bdns-944018",
+  "h": "832abcfdbecfdc21",
+  "titulo": "Ayudas, en régimen de concurrencia competitiva",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de patrimonio cultural y bellas artes",
+  "archivo": "cache/fuentes/bdns-944018-c430491e.txt",
+  "caracteres": 162879
+ },
+ {
+  "id": "bdns-944571",
+  "h": "089bd01b5c901739",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación Europort Rotterdam del 2 de noviembre de al 5 de noviembre",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944571-a6ff5d6d.txt",
+  "caracteres": 6613
+ },
+ {
+  "id": "bdns-944611",
+  "h": "c184e9f887ec60a6",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación INDX kidswear Birmingham del 14 al 15 de febrero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944611-2e20235e.txt",
+  "caracteres": 5577
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -198,6 +243,15 @@
   "caracteres": 1778
  },
  {
+  "id": "bdns-944673",
+  "h": "2433a62e9472cee2",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación growtech WEST africa Lagos del 26 al 28 de enero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944673-59d82c7e.txt",
+  "caracteres": 5486
+ },
+ {
   "id": "bdns-897355",
   "h": "a764866bceaab05b",
   "titulo": "Programa de ayudas digitalización cadena alim. y madera",
@@ -205,6 +259,114 @@
   "organismoFuente": "Departamento de alimentación, desarrollo rural, agricultura y pesca",
   "archivo": "cache/fuentes/bdns-897355-04ebc981.txt",
   "caracteres": 300000
+ },
+ {
+  "id": "bdns-944562",
+  "h": "911d273eb587d73e",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación integrated systems europe Barcelona del 2 al 5 de febrero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944562-3eb9875a.txt",
+  "caracteres": 30277
+ },
+ {
+  "id": "bdns-944626",
+  "h": "522ba74d66a2adc6",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación lineapelle milán febrero Milán del 23 al 25 de febrero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944626-176ffd67.txt",
+  "caracteres": 5378
+ },
+ {
+  "id": "bdns-944683",
+  "h": "368badbe34d3c445",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación Anuga FoodTec Colonia (Alemania) del 23 al 26 de febrero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944683-fedc06cf.txt",
+  "caracteres": 5557
+ },
+ {
+  "id": "bdns-944624",
+  "h": "a5db88c8547910bf",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación Scoop I Londres del 16 de febrero de al 18 de febrero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944624-34e09b41.txt",
+  "caracteres": 6091
+ },
+ {
+  "id": "bdns-944613",
+  "h": "458810806086757a",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación Harrogate Fashion Week I Harrogate del 7 al 9 de febrero",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944613-2580c889.txt",
+  "caracteres": 6101
+ },
+ {
+  "id": "bdns-944636",
+  "h": "5f53d6b0f05cc3a5",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación en KEY-The Energy Transition Expo Rimini del 10 al 12 de marzo",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944636-10eafc3b.txt",
+  "caracteres": 10100
+ },
+ {
+  "id": "botha-2026-136-03317-c-pdf",
+  "h": "db12bb8806d35f89",
+  "titulo": "Concesión y denegación de subvenciones de la convocatoria de ayudas del Servicio de Educación para el apoyo a niñas y niños con dificultades",
+  "organismoSugerido": "ayto-vitoria-gasteiz",
+  "organismoFuente": "Ayuntamiento de Vitoria-Gasteiz",
+  "archivo": "cache/fuentes/botha-2026-136-03317-c-pdf-3384298b.txt",
+  "caracteres": 9474
+ },
+ {
+  "id": "bdns-944854",
+  "h": "12b4ac7f8d2dc7fb",
+  "titulo": "Ayudas para la difusión, el fomento y la investigación de la arquitectura correspondientes",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de agenda urbana y arquitectura",
+  "archivo": "cache/fuentes/bdns-944854-f1439d70.txt",
+  "caracteres": 19392
+ },
+ {
+  "id": "bdns-944644",
+  "h": "92aa32c7f3c20868",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación ISH Frankfurt (Alemania) del 15 al 19 de marzo",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944644-bed67243.txt",
+  "caracteres": 5518
+ },
+ {
+  "id": "ue-cs-secure-call-2-secure-second-open-call-for-proposals",
+  "h": "6a0a0a257d9fb1c9",
+  "titulo": "Secure-CALL #2 - secure Second Open Call For Proposals",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-secure-call-2-secure-second-open-call-for-proposals-eba67867.txt",
+  "caracteres": 234735
+ },
+ {
+  "id": "bdns-944669",
+  "h": "aaa581dd9e6c8902",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria Asociación FIBO Colonia del 8 al 11 de abril",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944669-b56bbce1.txt",
+  "caracteres": 3771
+ },
+ {
+  "id": "bdns-944551",
+  "h": "a70421c496e5ef97",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación WHX Miami Miami del 16 de junio de al 18 de junio",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944551-edd3f5d2.txt",
+  "caracteres": 16061
  },
  {
   "id": "ue-crea-media-2027-tvonline-3",
@@ -216,6 +378,15 @@
   "caracteres": 6320
  },
  {
+  "id": "ue-crea-media-2027-tvonline-1",
+  "h": "594ec78e4c088425",
+  "titulo": "TV and online content Animation projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
+  "caracteres": 6321
+ },
+ {
   "id": "ue-crea-media-2027-tvonline-2",
   "h": "2bb80164abe11ee5",
   "titulo": "TV and online content Documentary projects",
@@ -225,13 +396,13 @@
   "caracteres": 6324
  },
  {
-  "id": "ue-crea-media-2027-tvonline-1",
-  "h": "594ec78e4c088425",
-  "titulo": "TV and online content Animation projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
-  "caracteres": 6321
+  "id": "bdns-944671",
+  "h": "79c3f8909a9675a3",
+  "titulo": "Ayudas selectivas para la producción de largometrajes sobre proyecto",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Instituto de la cinematografía y de las artes audiovisuales",
+  "archivo": "cache/fuentes/bdns-944671-10554ba6.txt",
+  "caracteres": 300000
  },
  {
   "id": "ara-01362004",
@@ -252,6 +423,15 @@
   "caracteres": 3631
  },
  {
+  "id": "bdns-944631",
+  "h": "2e2a3c62697cc40d",
+  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación en intersolar + power2drive Múnich del 8 al 10 de junio",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Icex españa exportación e inversiones, ep e.",
+  "archivo": "cache/fuentes/bdns-944631-3449a28a.txt",
+  "caracteres": 10590
+ },
+ {
   "id": "ara-01362003",
   "h": "57620d155403cc57",
   "titulo": "Ayuda para el fomento y puesta en valor del terroir rioja alavesa. fomento del terroir a traves de la viticultura",
@@ -259,6 +439,15 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01362003-2cf30e1e.txt",
   "caracteres": 37231
+ },
+ {
+  "id": "bdns-942978",
+  "h": "6d54d72d6c5067df",
+  "titulo": "Bases y convocatoria de subvenciones para el desarrollo de los programas festivos",
+  "organismoSugerido": "ayto-hernani",
+  "organismoFuente": "Ayuntamiento de hernani",
+  "archivo": "cache/fuentes/bdns-942978-0ac78f70.txt",
+  "caracteres": 251650
  },
  {
   "id": "ue-cs-resist-ii-process-innovation-open-call",
@@ -295,6 +484,15 @@
   "organismoFuente": "Ayuntamiento de amorebieta-etxano",
   "archivo": "cache/fuentes/bdns-942548-835312a3.txt",
   "caracteres": 47711
+ },
+ {
+  "id": "bdns-944630",
+  "h": "196e16d533e275cd",
+  "titulo": "Convocatoria para la concesion de subvenciones para el uso del servicio auzotaxi",
+  "organismoSugerido": "ayto-mungia",
+  "organismoFuente": "Ayuntamiento de mungia",
+  "archivo": "cache/fuentes/bdns-944630-83c48dd7.txt",
+  "caracteres": 44036
  },
  {
   "id": "bdns-941154",
@@ -396,13 +594,13 @@
   "caracteres": 11938
  },
  {
-  "id": "ara-alava-innova-digitaliza-empresas-2026",
-  "h": "d506588f2f61a969",
-  "titulo": "Álava Innova - Descarboniza _Empresas y Autónomos",
+  "id": "ara-ayudas-inversiones-explotaciones-agrarias-2026",
+  "h": "e6daa39c36ed4c64",
+  "titulo": "Ayudas a las inversiones en explotaciones agrarias",
   "organismoSugerido": "dfa",
   "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-alava-innova-digitaliza-empresas-2026-74bf274c.txt",
-  "caracteres": 220860
+  "archivo": "cache/fuentes/ara-ayudas-inversiones-explotaciones-agrarias-2026-7127bfed.txt",
+  "caracteres": 187431
  },
  {
   "id": "ara-ayudas-turismo-actividad-ayuntamientos-2026",
@@ -457,6 +655,51 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-extraordinarias-y-temporales-para-el-transporte-p-444e21a1.txt",
   "caracteres": 42502
+ },
+ {
+  "id": "bdns-944819",
+  "h": "04df379cfb19b69e",
+  "titulo": "Ayuda extraordinaria por el incremento de los costes de los agricultores por el uso de productos fertilizantes",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Fondo español de garantía agraria",
+  "archivo": "cache/fuentes/bdns-944819-7b92a674.txt",
+  "caracteres": 300000
+ },
+ {
+  "id": "bdns-944809",
+  "h": "b4fa633c83d40c74",
+  "titulo": "Ayudas para la participación de películas españolas en festivales celebrados entre octubre de y septiembre",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Instituto de la cinematografía y de las artes audiovisuales",
+  "archivo": "cache/fuentes/bdns-944809-b94fa649.txt",
+  "caracteres": 160349
+ },
+ {
+  "id": "bdns-944743",
+  "h": "52b50147e61745df",
+  "titulo": "Ayudas, en régimen de concurrencia competitiva, para la promoción del arte contemporáneo español",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de patrimonio cultural y bellas artes",
+  "archivo": "cache/fuentes/bdns-944743-b075222d.txt",
+  "caracteres": 175633
+ },
+ {
+  "id": "bdns-944661",
+  "h": "4b6db65540feff44",
+  "titulo": "Ayudas para financiar trabajos de conservación o enriquecimiento de bienes inmuebles del Patrimonio Histórico Español",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de agenda urbana y arquitectura",
+  "archivo": "cache/fuentes/bdns-944661-aeb7c6b6.txt",
+  "caracteres": 216050
+ },
+ {
+  "id": "bdns-944600",
+  "h": "a5ae3d02e040c18c",
+  "titulo": "Subvenciones destinadas a entidades deportivas para su actividad anual dentro del ejercicio presupuestario en vigor",
+  "organismoSugerido": "ayto-mungia",
+  "organismoFuente": "Ayuntamiento de mungia",
+  "archivo": "cache/fuentes/bdns-944600-d8479afe.txt",
+  "caracteres": 94968
  },
  {
   "id": "bdns-940546",
