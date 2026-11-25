@@ -728,5 +728,15 @@
   "parecidaA": "ara-ays-monte-plafor",
   "motivo": "Mismo título («Ayudas forestales») y mismo organismo (Diputación Foral de Álava): ara-01122002 es el plan de ayudas forestales 2027 (Decreto Foral 40/2026, plazo del 20/11/2026 al 31/12/2028) y ara-ays-monte-plafor el del plan anterior, pendiente a su vez de decidir con ara-01122001.",
   "fecha": "2026-11-24"
+ },
+ "bdns-944251": {
+  "parecidaA": "bdns-893215",
+  "motivo": "Mismo programa Auzotaxi del Ayuntamiento de Leioa (taxi subvencionado desde Santimami, Santsoena y Peruri) y misma página oficial: bdns-944251 es la convocatoria 2027 (hasta el 30/11/2027) y bdns-893215 la de 2026 (hasta el 30/11/2026), con las mismas condiciones.",
+  "fecha": "2026-11-25"
+ },
+ "bdns-893215": {
+  "parecidaA": "bdns-944251",
+  "motivo": "Mismo programa Auzotaxi del Ayuntamiento de Leioa (taxi subvencionado desde Santimami, Santsoena y Peruri) y misma página oficial: bdns-944251 es la convocatoria 2027 (hasta el 30/11/2027) y bdns-893215 la de 2026 (hasta el 30/11/2026), con las mismas condiciones.",
+  "fecha": "2026-11-25"
  }
 }

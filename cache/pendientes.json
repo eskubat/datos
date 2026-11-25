@@ -117,15 +117,6 @@
   "caracteres": 233884
  },
  {
-  "id": "ara-subvenciones-acciones-marco-alaves-de-incidencia-y-proteccio",
-  "h": "f2ae164e128892c1",
-  "titulo": "Subvenciones dirigidas a asociaciones y entidades sin ánimo de lucro, en régimen de libre concurrencia",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-subvenciones-acciones-marco-alaves-de-incidencia-y-prote-d1857712.txt",
-  "caracteres": 47827
- },
- {
   "id": "eus-ayuda-subvencion-2026-eventos-sociales",
   "h": "2ddf39c4e53ae6ec",
   "titulo": "Ayudas, acogidas al régimen de mínimis, para la realización de eventos sociales",
@@ -216,15 +207,6 @@
   "caracteres": 300000
  },
  {
-  "id": "ue-cs-secure-call-2-secure-second-open-call-for-proposals",
-  "h": "ee13c0104610e155",
-  "titulo": "Secure-CALL #2 - secure Second Open Call For Proposals",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-cs-secure-call-2-secure-second-open-call-for-proposals-eba67867.txt",
-  "caracteres": 9204
- },
- {
   "id": "ue-crea-media-2027-tvonline-3",
   "h": "edb329094bf69b46",
   "titulo": "TV and online content Fiction projects",
@@ -250,15 +232,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-1-2d60b9b8.txt",
   "caracteres": 6321
- },
- {
-  "id": "bdns-944222",
-  "h": "8861bb9338ba895b",
-  "titulo": "Subvenciones forales destinadas a proyectos de participación ciudadana y social promovidos por entidades locales",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación foral de Bizkaia",
-  "archivo": "cache/fuentes/bdns-944222-ca6946f1.txt",
-  "caracteres": 171161
  },
  {
   "id": "ara-01362004",
@@ -423,15 +396,6 @@
   "caracteres": 11938
  },
  {
-  "id": "ara-ayudas-destinadas-a-incentivar-la-euskaldunizacion-de-person",
-  "h": "e2d8da95a73a91de",
-  "titulo": "Subvención para incentivar la euskaldunización de personas adultas",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-destinadas-a-incentivar-la-euskaldunizacion-de-pe-a5a8b884.txt",
-  "caracteres": 94045
- },
- {
   "id": "ara-alava-innova-digitaliza-empresas-2026",
   "h": "d506588f2f61a969",
   "titulo": "Álava Innova - Descarboniza _Empresas y Autónomos",
@@ -441,15 +405,6 @@
   "caracteres": 220860
  },
  {
-  "id": "ara-ayudas-inversiones-explotaciones-agrarias-2026",
-  "h": "58379571a0a20e0c",
-  "titulo": "Ayudas a las inversiones en explotaciones agrarias",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-inversiones-explotaciones-agrarias-2026-7127bfed.txt",
-  "caracteres": 180380
- },
- {
   "id": "ara-ayudas-turismo-actividad-ayuntamientos-2026",
   "h": "bd13c5857921e44a",
   "titulo": "Ayudas gastos de actividad turística en Ayuntamientos",
@@ -457,24 +412,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-turismo-actividad-ayuntamientos-2026-81b4af38.txt",
   "caracteres": 34820
- },
- {
-  "id": "ara-becas-de-investigacion-fuentes-documentales-de-alava-2026",
-  "h": "5d0f763a393c52e3",
-  "titulo": "Becas de investigación “Fuentes Documentales”",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-becas-de-investigacion-fuentes-documentales-de-alava-202-5bdecb5e.txt",
-  "caracteres": 93057
- },
- {
-  "id": "ara-ayudas-dirigidas-a-asociaciones-y-fundaciones-del-ambito-de-",
-  "h": "ae43ebcf7dabac19",
-  "titulo": "Ayudas para el mantenimiento de asociaciones y fundaciones del ámbito de los servicios sociales",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-ayudas-dirigidas-a-asociaciones-y-fundaciones-del-ambito-df17bee7.txt",
-  "caracteres": 280179
  },
  {
   "id": "ara-ayudas-turismo-actividad-cuadrillas-2026",
@@ -504,15 +441,6 @@
   "caracteres": 32163
  },
  {
-  "id": "ara-convocatoria-de-subvenciones-con-destino-a-entidades-locales",
-  "h": "2bc2e3e5e6e5439d",
-  "titulo": "Subvención para Entidades locales que lleven a cabo actividades dirigidas a la juventud",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-convocatoria-de-subvenciones-con-destino-a-entidades-loc-bb0adde9.txt",
-  "caracteres": 72509
- },
- {
   "id": "ara-01484",
   "h": "3815f86d0e390e6b",
   "titulo": "Peaje Social AP-68",
@@ -529,15 +457,6 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-ayudas-extraordinarias-y-temporales-para-el-transporte-p-444e21a1.txt",
   "caracteres": 42502
- },
- {
-  "id": "bdns-944395",
-  "h": "2a62431f526b059d",
-  "titulo": "Ayudas para financiar trabajos de conservación o enriquecimiento de bienes inmuebles del Patrimonio Histórico Español",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Dirección general de agenda urbana y arquitectura",
-  "archivo": "cache/fuentes/bdns-944395-f71d7ae1.txt",
-  "caracteres": 216050
  },
  {
   "id": "bdns-940546",
