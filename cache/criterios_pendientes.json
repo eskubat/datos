@@ -519,7 +519,7 @@
  },
  {
   "id": "bdns-890633",
-  "h": "bcaca68fd2c0eec7",
+  "h": "2c917cf1df073ddc",
   "titulo": "Subvenciones para poner en euskera rótulos, imagen corporativa y webs de comercios",
   "para": [
    "autonomo",
@@ -576,7 +576,7 @@
  },
  {
   "id": "bdns-890111",
-  "h": "87c75fb1e113ae9b",
+  "h": "1c993f0214306aac",
   "titulo": "Ayudas para crear o traspasar un negocio y alquilar el local",
   "para": [
    "autonomo",
@@ -803,9 +803,8 @@
  {
   "id": "bdns-944578",
   "h": "2ec1bc18018eed3d",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación IDEX Abu Dabi del 25 de enero de al 29 de enero",
+  "titulo": "Ayudas para exponer en la feria de defensa IDEX de Abu Dabi",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -900,9 +899,8 @@
  {
   "id": "bdns-944616",
   "h": "bb1a5ae9db162dc2",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación Innatex Hofheim Am Taunus del 16 al 18 de enero",
+  "titulo": "Ayudas para exponer en la feria de moda sostenible Innatex de Alemania",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -1573,9 +1571,8 @@
  {
   "id": "bdns-944663",
   "h": "9d8ade01665c71bc",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación KBIS Las Vegas (Estados Unidos) del 2 al 4 de febrero",
+  "titulo": "Ayudas para exponer en la feria de baño y cocina KBIS de Las Vegas",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -1844,9 +1841,8 @@
  {
   "id": "bdns-944571",
   "h": "13adc65fcb8570c6",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación Europort Rotterdam del 2 de noviembre de al 5 de noviembre",
+  "titulo": "Ayudas para exponer en la feria marítima Europort de Róterdam",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -1921,9 +1917,8 @@
  {
   "id": "bdns-944611",
   "h": "3b3023bc836e887e",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación INDX kidswear Birmingham del 14 al 15 de febrero",
+  "titulo": "Ayudas para exponer en la feria de moda infantil INDX Kids de Birmingham",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -1948,7 +1943,7 @@
  },
  {
   "id": "bdns-934005",
-  "h": "60e4f03b290c7d2e",
+  "h": "572f55c47ec9d03f",
   "titulo": "Ayudas para limpiar pintadas en fachadas de comunidades de propietarios",
   "para": [
    "particular",
@@ -2468,9 +2463,8 @@
  {
   "id": "bdns-944673",
   "h": "afab49c2bd662c6f",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación growtech WEST africa Lagos del 26 al 28 de enero",
+  "titulo": "Ayudas para exponer en la feria agrícola Growtech West Africa de Lagos",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -2593,7 +2587,7 @@
  },
  {
   "id": "bdns-927909",
-  "h": "e6fdfb0c52bbc4ca",
+  "h": "e85dadd4bc6c00cf",
   "titulo": "Subvenciones para fomentar la natalidad",
   "para": [
    "particular"
@@ -3292,17 +3286,6 @@
   "revisar": false
  },
  {
-  "id": "bdns-875709",
-  "h": "fa4efd8c268e3e09",
-  "titulo": "Ayudas para desplazarse en Auzotaxi desde los barrios rurales",
-  "para": [
-   "particular"
-  ],
-  "temas": [],
-  "archivo": "cache/fuentes/bdns-875709-2761b705.txt",
-  "revisar": false
- },
- {
   "id": "bdns-872884",
   "h": "07ab32900af10191",
   "titulo": "Ayudas por los peajes de la AP-68 para particulares",
@@ -3356,9 +3339,8 @@
  {
   "id": "bdns-944562",
   "h": "43e3a0dc705c0d8e",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación integrated systems europe Barcelona del 2 al 5 de febrero",
+  "titulo": "Ayudas para exponer en la feria audiovisual ISE de Barcelona",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -3371,9 +3353,8 @@
  {
   "id": "bdns-944626",
   "h": "1c5df927f15eb517",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación lineapelle milán febrero Milán del 23 al 25 de febrero",
+  "titulo": "Ayudas para exponer en la feria de curtidos Lineapelle de Milán",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -3432,9 +3413,8 @@
  {
   "id": "bdns-944683",
   "h": "d857098d47a5fe8e",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación Anuga FoodTec Colonia (Alemania) del 23 al 26 de febrero",
+  "titulo": "Ayudas para exponer en la feria de tecnología alimentaria Anuga FoodTec",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -3447,9 +3427,8 @@
  {
   "id": "bdns-944624",
   "h": "719a68eee721eff3",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación Scoop I Londres del 16 de febrero de al 18 de febrero",
+  "titulo": "Ayudas para exponer en la feria de moda Scoop de Londres",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -3462,9 +3441,8 @@
  {
   "id": "bdns-944613",
   "h": "b19ba3dc3874eee6",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación Harrogate Fashion Week I Harrogate del 7 al 9 de febrero",
+  "titulo": "Ayudas para exponer en la feria de moda Harrogate Fashion Week",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -3588,9 +3566,8 @@
  {
   "id": "bdns-944636",
   "h": "6c87b4ba4143cf23",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación en KEY-The Energy Transition Expo Rimini del 10 al 12 de marzo",
+  "titulo": "Ayudas para exponer en la feria de energía KEY de Rímini",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -3632,12 +3609,13 @@
  {
   "id": "bdns-944854",
   "h": "e8834b72dd20ac88",
-  "titulo": "Ayudas para la difusión, el fomento y la investigación de la arquitectura correspondientes",
+  "titulo": "Ayudas para difundir, fomentar e investigar la arquitectura",
   "para": [
    "particular",
-   "asociacion",
    "autonomo",
-   "empresa"
+   "empresa",
+   "asociacion",
+   "ayuntamiento"
   ],
   "temas": [
    "cultura",
@@ -3649,9 +3627,8 @@
  {
   "id": "bdns-944644",
   "h": "0a8f3137f6aa1b23",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación ISH Frankfurt (Alemania) del 15 al 19 de marzo",
+  "titulo": "Ayudas para exponer en la feria de climatización ISH de Fráncfort",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -3678,6 +3655,18 @@
   "revisar": false
  },
  {
+  "id": "ue-cs-secure-call-2-secure-second-open-call-for-proposals",
+  "h": "d8b63405672a81e7",
+  "titulo": "Ayudas Secure para que las pymes cumplan la ley europea de ciberresiliencia",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-cs-secure-call-2-secure-second-open-call-for-proposals-eba67867.txt",
+  "revisar": false
+ },
+ {
   "id": "ara-subvenciones-participacion-actividades-deporte-escolar-2026",
   "h": "a70ecff89a353efc",
   "titulo": "Subvenciones a entidades por participar en el deporte escolar",
@@ -3695,9 +3684,8 @@
  {
   "id": "bdns-944669",
   "h": "538b4c611c3b3791",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria Asociación FIBO Colonia del 8 al 11 de abril",
+  "titulo": "Ayudas para exponer en la feria de fitness FIBO de Colonia",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -3796,9 +3784,8 @@
  {
   "id": "bdns-944551",
   "h": "fd7576f8d30f8582",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación WHX Miami Miami del 16 de junio de al 18 de junio",
+  "titulo": "Ayudas para exponer en la feria de tecnología sanitaria WHX Miami",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -3890,6 +3877,21 @@
    "empleo"
   ],
   "archivo": "cache/fuentes/bdns-924199-574a900b.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-945119",
+  "h": "6ca2869be8f943b9",
+  "titulo": "Decreto foral 97/ de 26 de noviembre, regulador de becas destinadas al personal técnico de deporte",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "cultura",
+   "estudios",
+   "deporte"
+  ],
+  "archivo": "cache/fuentes/bdns-945119-7dd5e8ea.txt",
   "revisar": false
  },
  {
@@ -3985,9 +3987,8 @@
  {
   "id": "bdns-944671",
   "h": "1f9efc7d9d8b89a3",
-  "titulo": "Ayudas selectivas para la producción de largometrajes sobre proyecto",
+  "titulo": "Ayudas para producir largometrajes de especial valor cultural",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -4080,9 +4081,8 @@
  {
   "id": "bdns-944631",
   "h": "af089a5b76a7f812",
-  "titulo": "Concesión de ayudas para la Participación Agrupada en la Feria_Asociación en intersolar + power2drive Múnich del 8 al 10 de junio",
+  "titulo": "Ayudas para exponer en las ferias de energía Intersolar y Power2Drive",
   "para": [
-   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -4196,6 +4196,20 @@
   "revisar": false
  },
  {
+  "id": "bdns-942978",
+  "h": "377989b5736f69f3",
+  "titulo": "Subvenciones para organizar actividades en las fiestas del pueblo",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-942978-0ac78f70.txt",
+  "revisar": false
+ },
+ {
   "id": "bdns-938401",
   "h": "6c45603141b60d9f",
   "titulo": "Ayudas para exponer en la feria Fabtech de fabricación metálica",
@@ -4260,17 +4274,6 @@
    "emprendimiento"
   ],
   "archivo": "cache/fuentes/extra-msca-pf-2027-194cb28b.txt",
-  "revisar": false
- },
- {
-  "id": "ue-horizon-widera-2027-03-widening-01",
-  "h": "a655c1a0ff8ea9f5",
-  "titulo": "Becas ERA Fellowships para investigar en países europeos que refuerzan su ciencia",
-  "para": [
-   "particular"
-  ],
-  "temas": [],
-  "archivo": "cache/fuentes/ue-horizon-widera-2027-03-widening-01-a38cdad2.txt",
   "revisar": false
  },
  {
@@ -4448,6 +4451,20 @@
   ],
   "temas": [],
   "archivo": "cache/fuentes/bdns-942548-835312a3.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-944973",
+  "h": "7c6d8927dbf1e25f",
+  "titulo": "Bases prestación vinculada alojamiento personas mayores",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "familia",
+   "social"
+  ],
+  "archivo": "cache/fuentes/bdns-944973-647589b2.txt",
   "revisar": false
  },
  {
@@ -4811,20 +4828,6 @@
   "revisar": false
  },
  {
-  "id": "ara-garantias-alquiler-vivienda-adhesion-personas-arrendadoras",
-  "h": "3d62581063f60454",
-  "titulo": "Ayudas con garantías de alquiler para propietarios de viviendas rurales",
-  "para": [
-   "particular",
-   "asociacion"
-  ],
-  "temas": [
-   "vivienda"
-  ],
-  "archivo": "cache/fuentes/ara-garantias-alquiler-vivienda-adhesion-personas-arrendador-365c506c.txt",
-  "revisar": false
- },
- {
   "id": "ara-garantias-alquiler-vivienda-adhesion-personas-arrendatarias",
   "h": "0c39a7ff487e93bd",
   "titulo": "Ayudas para inquilinos que buscan vivienda de alquiler en zonas rurales",
@@ -5017,25 +5020,11 @@
   "revisar": false
  },
  {
-  "id": "ara-alava-innova-digitaliza-empresas-2026",
-  "h": "c4cc44425ac5a4b3",
-  "titulo": "Álava Innova - Descarboniza _Empresas y Autónomos",
-  "para": [
-   "autonomo",
-   "empresa"
-  ],
-  "temas": [
-   "digitalizacion",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/ara-alava-innova-digitaliza-empresas-2026-74bf274c.txt",
-  "revisar": false
- },
- {
   "id": "ara-ayudas-inversiones-explotaciones-agrarias-2026",
   "h": "fa33624875651724",
-  "titulo": "Ayudas a las inversiones en explotaciones agrarias",
+  "titulo": "Ayudas para invertir en explotaciones agrarias",
   "para": [
+   "autonomo",
    "empresa"
   ],
   "temas": [
@@ -5188,6 +5177,47 @@
   "revisar": false
  },
  {
+  "id": "bdns-945088",
+  "h": "192e85d236da1cdb",
+  "titulo": "Decreto Alcaldía 1045-26, de 9 de nov y 1090-26 de 19 nov convocatoria subvenciones para la rehabilitación de fachadas",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "vivienda"
+  ],
+  "archivo": "cache/fuentes/bdns-945088-bd137cf4.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-945007",
+  "h": "ed0581b80d04231b",
+  "titulo": "Ayudas al sector de venta ambulante durante las fiestas patronales",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "comercio",
+   "emprendimiento"
+  ],
+  "archivo": "cache/fuentes/bdns-945007-443c9060.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-944928",
+  "h": "36a8b55560337176",
+  "titulo": "Subvenciones a deportistas individuales de alto nivel",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "deporte"
+  ],
+  "archivo": "cache/fuentes/bdns-944928-e8cb9f5d.txt",
+  "revisar": false
+ },
+ {
   "id": "bdns-944819",
   "h": "1e3af6ba34dea697",
   "titulo": "Ayuda extraordinaria por el incremento de los costes de los agricultores por el uso de productos fertilizantes",
@@ -5204,10 +5234,9 @@
  {
   "id": "bdns-944809",
   "h": "a76ef7a9437f8600",
-  "titulo": "Ayudas para la participación de películas españolas en festivales celebrados entre octubre de y septiembre",
+  "titulo": "Ayudas para llevar películas españolas a festivales internacionales",
   "para": [
-   "empresa",
-   "autonomo"
+   "empresa"
   ],
   "temas": [
    "cultura"
@@ -5218,7 +5247,7 @@
  {
   "id": "bdns-944743",
   "h": "e9d263d3f5e37a63",
-  "titulo": "Ayudas, en régimen de concurrencia competitiva, para la promoción del arte contemporáneo español",
+  "titulo": "Ayudas a galerías de arte para ferias y exposiciones de arte contemporáneo",
   "para": [
    "autonomo",
    "empresa"
@@ -5240,6 +5269,20 @@
    "educacion"
   ],
   "archivo": "cache/fuentes/bdns-943626-eedd8058.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-942787",
+  "h": "c701eb3cd43103f9",
+  "titulo": "Subvenciones para la ITE y la rehabilitación de edificios",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "vivienda"
+  ],
+  "archivo": "cache/fuentes/bdns-942787-db560dda.txt",
   "revisar": false
  },
  {
@@ -5768,6 +5811,19 @@
   "revisar": false
  },
  {
+  "id": "prest-bizkaia-pnc-incapacidad",
+  "h": "ba1a61d381ec383f",
+  "titulo": "Pensión no contributiva de incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-bizkaia-pnc-incapacidad-55586f81.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-bono-social-electrico",
   "h": "17d0c1c6d10433f4",
   "titulo": "Bono social para pagar menos en la factura de la luz",
@@ -5780,19 +5836,6 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-bono-social-electrico-a18ad288.txt",
-  "revisar": false
- },
- {
-  "id": "prest-bizkaia-pnc-incapacidad",
-  "h": "ba1a61d381ec383f",
-  "titulo": "Pensión no contributiva de incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-bizkaia-pnc-incapacidad-55586f81.txt",
   "revisar": false
  },
  {
@@ -5851,19 +5894,6 @@
   "revisar": false
  },
  {
-  "id": "prest-gipuzkoa-pnc-complemento-vivienda",
-  "h": "aa241f0db858f98f",
-  "titulo": "Ayudas para pagar el alquiler a pensionistas no contributivos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "vivienda"
-  ],
-  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-complemento-vivienda-a15baccd.txt",
-  "revisar": false
- },
- {
   "id": "prest-ss-hijo-cargo-discapacidad",
   "h": "68e536e9e631a55d",
   "titulo": "Prestación por hijo o menor a cargo con discapacidad",
@@ -5875,6 +5905,19 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-ss-hijo-cargo-discapacidad-3a01a189.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-gipuzkoa-pnc-complemento-vivienda",
+  "h": "aa241f0db858f98f",
+  "titulo": "Ayudas para pagar el alquiler a pensionistas no contributivos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "vivienda"
+  ],
+  "archivo": "cache/fuentes/prest-gipuzkoa-pnc-complemento-vivienda-a15baccd.txt",
   "revisar": false
  },
  {
@@ -5947,31 +5990,6 @@
   "revisar": false
  },
  {
-  "id": "prest-araba-pecef",
-  "h": "d1882d94b3e5c137",
-  "titulo": "Ayuda para cuidar en familia a una persona en situación de dependencia",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "vivienda",
-   "familia"
-  ],
-  "archivo": "cache/fuentes/prest-araba-pecef-b232c1b3.txt",
-  "revisar": false
- },
- {
-  "id": "prest-araba-pevs",
-  "h": "47b578c0f318894c",
-  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
-  "para": [
-   "particular"
-  ],
-  "temas": [],
-  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
-  "revisar": false
- },
- {
   "id": "prest-araba-peap",
   "h": "b7167957c542832d",
   "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
@@ -5986,6 +6004,20 @@
   "revisar": false
  },
  {
+  "id": "prest-araba-pecef",
+  "h": "d1882d94b3e5c137",
+  "titulo": "Ayuda para cuidar en familia a una persona en situación de dependencia",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "vivienda",
+   "familia"
+  ],
+  "archivo": "cache/fuentes/prest-araba-pecef-b232c1b3.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-bizkaia-lismi-movilidad",
   "h": "f9fcbdd7c3c5db41",
   "titulo": "Ayudas para gastos de transporte de personas con discapacidad",
@@ -5996,6 +6028,17 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-bizkaia-lismi-movilidad-e5897cf6.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-araba-pevs",
+  "h": "47b578c0f318894c",
+  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
   "revisar": false
  },
  {

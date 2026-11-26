@@ -198,13 +198,13 @@
   "caracteres": 300000
  },
  {
-  "id": "botha-2026-136-03317-c-pdf",
-  "h": "aed4b8a8d665214b",
-  "titulo": "Concesión y denegación de subvenciones de la convocatoria de ayudas del Servicio de Educación para el apoyo a niñas y niños con dificultades",
-  "organismoSugerido": "ayto-vitoria-gasteiz",
-  "organismoFuente": "Ayuntamiento de Vitoria-Gasteiz",
-  "archivo": "cache/fuentes/botha-2026-136-03317-c-pdf-3384298b.txt",
-  "caracteres": 9472
+  "id": "bdns-944661",
+  "h": "ff422065505214ba",
+  "titulo": "Ayudas para financiar trabajos de conservación o enriquecimiento de bienes inmuebles del Patrimonio Histórico Español",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de agenda urbana y arquitectura",
+  "archivo": "cache/fuentes/bdns-944661-aeb7c6b6.txt",
+  "caracteres": 223221
  },
  {
   "id": "ue-crea-media-2027-tvonline-3",
@@ -232,6 +232,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
   "caracteres": 6324
+ },
+ {
+  "id": "bdns-945119",
+  "h": "51eb625d0abf4c7c",
+  "titulo": "Decreto foral 97/ de 26 de noviembre, regulador de becas destinadas al personal técnico de deporte",
+  "organismoSugerido": "dfb",
+  "organismoFuente": "Diputación foral de Bizkaia",
+  "archivo": "cache/fuentes/bdns-945119-7dd5e8ea.txt",
+  "caracteres": 227683
  },
  {
   "id": "ara-01362004",
@@ -295,6 +304,15 @@
   "organismoFuente": "Ayuntamiento de amorebieta-etxano",
   "archivo": "cache/fuentes/bdns-942548-835312a3.txt",
   "caracteres": 47711
+ },
+ {
+  "id": "bdns-944973",
+  "h": "c0fa2e5e28a9b53f",
+  "titulo": "Bases prestación vinculada alojamiento personas mayores",
+  "organismoSugerido": "ayto-leioa",
+  "organismoFuente": "Ayuntamiento de leioa",
+  "archivo": "cache/fuentes/bdns-944973-647589b2.txt",
+  "caracteres": 73938
  },
  {
   "id": "bdns-944630",
@@ -405,15 +423,6 @@
   "caracteres": 11938
  },
  {
-  "id": "ara-alava-innova-digitaliza-empresas-2026",
-  "h": "d506588f2f61a969",
-  "titulo": "Álava Innova - Descarboniza _Empresas y Autónomos",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-alava-innova-digitaliza-empresas-2026-74bf274c.txt",
-  "caracteres": 220860
- },
- {
   "id": "ara-ayudas-turismo-actividad-ayuntamientos-2026",
   "h": "bd13c5857921e44a",
   "titulo": "Ayudas gastos de actividad turística en Ayuntamientos",
@@ -468,6 +477,42 @@
   "caracteres": 42502
  },
  {
+  "id": "bdns-945088",
+  "h": "6341689e88432740",
+  "titulo": "Decreto Alcaldía 1045-26, de 9 de nov y 1090-26 de 19 nov convocatoria subvenciones para la rehabilitación de fachadas",
+  "organismoSugerido": "ayto-iurreta",
+  "organismoFuente": "Ayuntamiento de iurreta",
+  "archivo": "cache/fuentes/bdns-945088-bd137cf4.txt",
+  "caracteres": 12682
+ },
+ {
+  "id": "bdns-945007",
+  "h": "dc2fc49f6b2a8ea4",
+  "titulo": "Ayudas al sector de venta ambulante durante las fiestas patronales",
+  "organismoSugerido": "ayto-urduna-orduna",
+  "organismoFuente": "Ayuntamiento de urduña/orduña",
+  "archivo": "cache/fuentes/bdns-945007-443c9060.txt",
+  "caracteres": 366
+ },
+ {
+  "id": "bdns-944928",
+  "h": "ef3ab276d43064cb",
+  "titulo": "Subvenciones a deportistas individuales de alto nivel",
+  "organismoSugerido": "ayto-elgoibar",
+  "organismoFuente": "Ayuntamiento de elgoibar",
+  "archivo": "cache/fuentes/bdns-944928-e8cb9f5d.txt",
+  "caracteres": 154250
+ },
+ {
+  "id": "bdns-944876",
+  "h": "e1b4f45c281fdf33",
+  "titulo": "Subvenciones del Ayto. destinadas a entidades",
+  "organismoSugerido": "ayto-mungia",
+  "organismoFuente": "Ayuntamiento de mungia",
+  "archivo": "cache/fuentes/bdns-944876-75fae983.txt",
+  "caracteres": 85514
+ },
+ {
   "id": "bdns-944819",
   "h": "04df379cfb19b69e",
   "titulo": "Ayuda extraordinaria por el incremento de los costes de los agricultores por el uso de productos fertilizantes",
@@ -502,14 +547,5 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/botha-2026-131-03265-c-pdf-601695a9.txt",
   "caracteres": 29159
- },
- {
-  "id": "bog-c2607596-htm",
-  "h": "a37610a5b9b58e99",
-  "titulo": "Subvenciones de. Rectificación del: subvenciones para la mejora de la eficiencia energética",
-  "organismoSugerido": "ayto-irun",
-  "organismoFuente": "Ayuntamiento de Irun",
-  "archivo": "cache/fuentes/bog-c2607596-htm-bda14d0e.txt",
-  "caracteres": 1795
  }
 ]
