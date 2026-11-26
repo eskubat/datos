@@ -916,5 +916,15 @@
   "url": "https://www.araba.eus/botha/Boletines/2026/030/2026_030_00628_C.pdf",
   "fecha": "2026-11-25",
   "probadas": []
+ },
+ "bdns-944819": {
+  "titulo": "Real Decreto-ley 7/2026, de 20 de marzo, artículo 50: ayuda extraordinaria por el incremento de los costes de los agricultores por el uso de productos fertilizantes (BOE núm. 71, de 21 de marzo de 2026)",
+  "botha": [],
+  "urls": [
+   "https://www.boe.es/buscar/act.php?id=BOE-A-2026-6544",
+   "https://www.boe.es/boe/dias/2026/03/21/pdfs/BOE-A-2026-6544.pdf"
+  ],
+  "origen": "tarea de fichas: el texto descargado se corta antes del artículo 50",
+  "fecha": "2026-11-26"
  }
 }

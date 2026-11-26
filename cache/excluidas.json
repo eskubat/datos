@@ -738,5 +738,15 @@
   "parecidaA": "bdns-944251",
   "motivo": "Mismo programa Auzotaxi del Ayuntamiento de Leioa (taxi subvencionado desde Santimami, Santsoena y Peruri) y misma página oficial: bdns-944251 es la convocatoria 2027 (hasta el 30/11/2027) y bdns-893215 la de 2026 (hasta el 30/11/2026), con las mismas condiciones.",
   "fecha": "2026-11-25"
+ },
+ "bdns-944630": {
+  "parecidaA": "bdns-875709",
+  "motivo": "Auzotaxi de Mungia, convocatoria 2027 (viajes de enero a diciembre de 2027, salvo agosto, solicitudes hasta el 31/12/2027); la de 2026 (bdns-875709) tiene las mismas bases, los mismos bonos (10 trayectos a 20, 60 y 80 €) y los mismos destinatarios.",
+  "fecha": "2026-11-26"
+ },
+ "bdns-875709": {
+  "parecidaA": "bdns-944630",
+  "motivo": "Auzotaxi de Mungia, convocatoria 2026 (abierta hasta el 31/12/2026); la de 2027 (bdns-944630) repite las bases, los bonos y los destinatarios para los viajes de 2027.",
+  "fecha": "2026-11-26"
  }
 }
