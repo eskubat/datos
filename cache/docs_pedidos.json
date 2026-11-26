@@ -925,6 +925,18 @@
    "https://www.boe.es/boe/dias/2026/03/21/pdfs/BOE-A-2026-6544.pdf"
   ],
   "origen": "tarea de fichas: el texto descargado se corta antes del artículo 50",
-  "fecha": "2026-11-26"
+  "fecha": "2026-11-26",
+  "estado": "fallo",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-6544",
+    "motivo": "es de otra convocatoria"
+   },
+   {
+    "url": "https://www.boe.es/boe/dias/2026/03/21/pdfs/BOE-A-2026-6544.pdf",
+    "motivo": "es de otra convocatoria"
+   }
+  ]
  }
 }
