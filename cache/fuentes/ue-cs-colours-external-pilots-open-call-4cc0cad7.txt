@@ -1,0 +1,50 @@
+### Extracto de la fuente
+COLOURS External Pilots Open Call
+Proyecto europeo que la convoca: A European Collaborative Cloud for Cultural Heritage – Innovative tools for the study, conservation and restoration of heritage objects
+Convocatoria en cascada (fondos europeos repartidos por un proyecto a terceros)
+Identificador: HORIZON-CL2-2024-HERITAGE-ECCCH-01-05
+Apertura: 2026-11-26
+Cierre: 2027-01-27
+es_SortDate: 2026-11-26T00:00:00.000+0000
+beneficiaryAdministration: Applications may be submitted only via FundingBox Platform . See Terms & Conditions . 
+ Selection follows a 6-step process: 
+ Eligibility check 
+ Pre-scoring (optional) 
+ Independent Individual Evaluation based on criteria described in Terms & Conditions 
+ Online interview for top-scoring applicants 
+ Selection Consensus Meeting to select finalists, based on evaluation, interview, and COLOURS project goals 
+ Legal and ethical review of pre-selected projects prior to Sub-Grant Agreement signature
+description: COLOURS External Pilots Open Call will select up to 10 projects to use advanced digital tools for color-sensitive artefact restoration. 
+ Funding up to €60k (single entities) or €100k (consortia, max €60k/partner) as a lump sum, with technical mentoring over 3 stages of up to 9 months: 
+ Stage 1 (Planning, up to 1 month, 10% grant up to €10k), 
+ Stage 2 (Preparation, up to 4 months, 45% grant up to €45k), 
+ Stage 3 (Testing & Reporting, up to 4 months, 45% grant up to €45k).
+title: A European Collaborative Cloud for Cultural Heritage – Innovative tools for the study, conservation and restoration of heritage objects
+esST_checksum: 834FA5679E15BAE0E37A9F9826F3F8435FDAAC1C58BD8D4FFED69D2B582151EA
+duration: up to 9 months
+destinationDetails: Applications may be submitted only via FundingBox Platform . See Terms & Conditions . 
+ Selection follows a 6-step process: 
+ Eligibility check 
+ Pre-scoring (optional) 
+ Independent Individual Evaluation based on criteria described in Terms & Conditions 
+ Online interview for top-scoring applicants 
+ Selection Consensus Meeting to select finalists, based on evaluation, interview, and COLOURS project goals 
+ Legal and ethical review of pre-selected projects prior to Sub-Grant Agreement signature
+esST_FileName: file.txt
+projectAcronym: COLOURS
+callTitle: COLOURS External Pilots Open Call
+furtherInformation: Applicants can propose restoration pilots focusing on colour-sensitive heritage objects, address at least one or combine elements across multiple thematic scenarios, using the digital tools from the COLOURS Toolkit. 
+ Who can apply: 
+ single Cultural Heritage Institutions (CHIs) with in-house conservation teams 
+ consortia of a CHI end-user and conservation entity, 
+ from EU Member States, OCTs, or Horizon Europe Associated Countries. 
+ Helpdesk: colours.help@fundingbox.com. 
+ https://colours-eccch.eu
+caName: COLOURS External Pilots Open Call
+es_ContentType: text/plain
+esDA_FirstIngestDate: 2026-11-17T17:23:56.715+0100
+esDA_IngestDate: 2026-11-17T17:24:06.659+0100
+closingDate: 2026-11-17T00:00:00Z
+esST_URL: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46906387
+esDA_QueueDate: 2026-11-17T17:24:06.653+0100
+projectName: Collaborative On-cloud Lab for the conservation and digital restoration of ColOUred heritage collectionS

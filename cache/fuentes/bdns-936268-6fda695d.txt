@@ -1278,6 +1278,217 @@ concreta la solicitud, fecha, firma de la
 persona interesada y nombre del fichero.
 12
 
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539729
+KI1401_D002
+TITULARRA ETA KONTUA
+TITULAR Y CUENTA
+Kontuaren titularra / Titular de la cuenta
+Izen soziala
+Razón social
+IFZ…
+NIF…
+Helbidea
+Domicilio
+Herria
+Población
+PK
+CP
+Herrialdea
+País
+Telefonoak
+Teléfonos
+Probintzia
+Provincia
+Kontuaren titularraren edo bere legezko ordezkariaren sinadura eta data
+Firma de el/la titular de la cuenta o su representante legal y fecha
+Banku erakundeak bete beharreko datuak / Datos a rellenar por la entidad bancaria
+Bankua
+Banco
+Agentzia
+Agencia
+Herria
+Población
+Goian aipatutako entitatea ondoko kontu honen
+titularra dela ziurtatzen dugu:
+PK
+CP
+Certificamos que la entidad arriba referenciada es
+titular de la siguiente cuenta:
+Banku erakundea: sinadura, zigilua eta data / Entidad bancaria: firma, sello y fecha
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539734
+KI1401_D005
+ESKATUTAKO ETA/EDO KOBRATUTAKO BESTE DIRULAGUNTZEI ETA
+LAGUNTZEI BURUZKO ERANTZUKIZUNPEKO ADIERAZPENA /
+DECLARACIÓN RESPONSABLE DE OTRAS SUBVENCIONES Y AYUDAS
+COBRADAS Y/O SOLICITADAS
+Dirulaguntzaren datuak / Datos de la subvención
+Dirulaguntza
+Subvención
+APARTEKO IZAERA DUTEN KIROL LEHIAKETETARA ETA
+TXAPELKETETARA JOATEKO DIRULAGUNTZAK / SUBVENCIONES
+PARA LA ASISTENCIA A CAMPEONATOS Y COMPETICIONES DE
+CARÁCTER EXTRAORDINARIO
+Deialdiaren urtea
+Año de la convocatoria
+Aitorpen-egilea / Declarante
+Izen abizenak
+Nombre y apellidos
+NAN / DNI
+Nire izenean edo honako
+erakundearen ordezkari gisa
+Por mi mismo/a o en
+representación de la siguiente
+entidad
+IFZ / NIF
+Honako hau naizen aldetik:
+En calidad de
+ERANTZUKIZUNEZ
+AITORTZEN
+DUT,
+dirulaguntzaren onuradunari dagokionez,
+DECLARO BAJO MI RESPONSABILIDAD,
+respecto el/la beneficiario/a de la subvención,
+que
+Dirulaguntzaren xede den jarduera aurrera eramateko EZ dela ez eskatu ez eskuratu
+beste laguntzarik; Eibarko Udalari baino ez zaio eskatu. / Para ejecutar la actividad
+objeto de la subvención NO se han solicitado ni obtenido otras ayudas aparte de la
+correspondiente a la solicitada al Ayuntamiento de Eibar.
+Dirulaguntzaren xede den jarduera aurrera eramateko ondoren adierazten diren
+laguntzak eskatu eta/edo eskuratu direla: / Para ejecutar la actividad objeto de la
+subvención se han solicitado y/u obtenido las siguientes ayudas:
+Eskatutako dirulaguntzen zerrenda / Relación de subvenciones solicitadas
+Erakundea
+Organismo
+Diruz lagundutako programa
+Programa subvencionado
+Halaber, konpromisoa hartzen dut organo instrukzio-egileari berehala
+jakinarazteko (zirkunstantzia horren berri izan bezain laster), baldin
+eta laguntza-programa honen esparruan eskatutako jarduera edo
+helburu bererako beste edozein dirulaguntza edo laguntza jasotzen
+badut, adierazpen hau sinatu ondoren.
+Eskatutako diru-kopurua (€)
+Importe solicitado (€)
+Jasotako diru-kopurua (€)
+Importe concedido (€)
+Así mismo, manifiesto el compromiso de comunicar fehacientemente
+de inmediato al órgano instructor, en cuanto se tenga conocimiento de
+tal circunstancia, la concesión de cualquier otra subvención o ayuda
+para la misma actuación o finalidad que la solicitada en el contexto del
+presente programa de ayudas, que pueda suceder en fecha posterior
+a la de firma de esta declaración.
+Sinadura / Firma
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539731
+2. DIRUZ LAGUNDUTAKO PROIEKTUA/JARDUERA EGITEKO ESKURATUTAKO DIRU-SARRERAK / INGRESOS OBTENIDOS PARA EL
+PROYECTO/ACTIVIDAD SUBVENCIONADO/A
+KONTZEPTUA (sarreren salmenta, beste dirulaguntzak…) / CONCEPTO (venta de entradas, otras subvenciones...)
+DIRU-SARRERAK GUZTIRA / TOTAL INGRESOS
+ZENBATEKOA / IMPORTE
+0,00
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539733
+1. DIRUZ LAGUNDUTAKO PROIEKTUA/JARDUERA EGITEAN SORTUTAKO GASTUAK / GASTOS DERIVADOS DEL PROYECTO/ACTIVIDAD
+SUBVENCIONADO/A
+Ondoren azaltzen diren gastu hauek diruz lagundutako jarduerati/programatik sortutako gastuei dagozkienak dira eta dagoeneko ordainduta daude. / Los
+datos que a continuación se indican corresponden a gastos derivados de la actividad/programa subvencionada/o y están ya abonados.
+HURRENKERA
+ZK.
+Nº ORDEN
+HARTZEKODUNA
+GASTU
+FAKTURA FAKTURA ORDAINKETA ZENBATEKOA
+BEZ
+ZENBATEKOA EGOTZITAKO EGOTZITAKO
+BEZa
+KONTZEPTUA
+ZENB.
+DATA
+EGUNA
+BEZ gabe
+kenkarria BEZa barne
+%
+ZENBATEKOA
+/ ACREEDOR
+IZENA /
+NOMBRE
+IFZ /
+NIF
+CONCEPTO
+GASTO
+Nº
+FECHA
+FACTURA FACTURA FECHA PAGO
+IMPORTE sin
+IVA
+IVA
+IVA
+deducible
+IMPORTE con
+IVA
+% IMPUTADO
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+GASTUAK GUZTIRA /
+TOTAL GASTOS
+IMPORTE
+IMPUTADO
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+0,00
+
 ### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539730
 KI1401_D003
 JARDUKETA TXOSTENA: DIRUZ LAGUNDUTAKO
@@ -1591,217 +1802,6 @@ lagundu daitezkeen gastuak ezin dira inola ere berreskuratu edo konpentsatu, Dir
 de la subvención NO está sujeto/a al Impuesto sobre el Valor Añadido (IVA) y que en ningún caso
 los gastos subvencionables son susceptibles de recuperación o compensación, de acuerdo al
 artículo 31.8 de la Ley 38/2003, de 17 de noviembre, general de subvenciones.
-
-### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539731
-2. DIRUZ LAGUNDUTAKO PROIEKTUA/JARDUERA EGITEKO ESKURATUTAKO DIRU-SARRERAK / INGRESOS OBTENIDOS PARA EL
-PROYECTO/ACTIVIDAD SUBVENCIONADO/A
-KONTZEPTUA (sarreren salmenta, beste dirulaguntzak…) / CONCEPTO (venta de entradas, otras subvenciones...)
-DIRU-SARRERAK GUZTIRA / TOTAL INGRESOS
-ZENBATEKOA / IMPORTE
-0,00
-
-### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539729
-KI1401_D002
-TITULARRA ETA KONTUA
-TITULAR Y CUENTA
-Kontuaren titularra / Titular de la cuenta
-Izen soziala
-Razón social
-IFZ…
-NIF…
-Helbidea
-Domicilio
-Herria
-Población
-PK
-CP
-Herrialdea
-País
-Telefonoak
-Teléfonos
-Probintzia
-Provincia
-Kontuaren titularraren edo bere legezko ordezkariaren sinadura eta data
-Firma de el/la titular de la cuenta o su representante legal y fecha
-Banku erakundeak bete beharreko datuak / Datos a rellenar por la entidad bancaria
-Bankua
-Banco
-Agentzia
-Agencia
-Herria
-Población
-Goian aipatutako entitatea ondoko kontu honen
-titularra dela ziurtatzen dugu:
-PK
-CP
-Certificamos que la entidad arriba referenciada es
-titular de la siguiente cuenta:
-Banku erakundea: sinadura, zigilua eta data / Entidad bancaria: firma, sello y fecha
-
-### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539734
-KI1401_D005
-ESKATUTAKO ETA/EDO KOBRATUTAKO BESTE DIRULAGUNTZEI ETA
-LAGUNTZEI BURUZKO ERANTZUKIZUNPEKO ADIERAZPENA /
-DECLARACIÓN RESPONSABLE DE OTRAS SUBVENCIONES Y AYUDAS
-COBRADAS Y/O SOLICITADAS
-Dirulaguntzaren datuak / Datos de la subvención
-Dirulaguntza
-Subvención
-APARTEKO IZAERA DUTEN KIROL LEHIAKETETARA ETA
-TXAPELKETETARA JOATEKO DIRULAGUNTZAK / SUBVENCIONES
-PARA LA ASISTENCIA A CAMPEONATOS Y COMPETICIONES DE
-CARÁCTER EXTRAORDINARIO
-Deialdiaren urtea
-Año de la convocatoria
-Aitorpen-egilea / Declarante
-Izen abizenak
-Nombre y apellidos
-NAN / DNI
-Nire izenean edo honako
-erakundearen ordezkari gisa
-Por mi mismo/a o en
-representación de la siguiente
-entidad
-IFZ / NIF
-Honako hau naizen aldetik:
-En calidad de
-ERANTZUKIZUNEZ
-AITORTZEN
-DUT,
-dirulaguntzaren onuradunari dagokionez,
-DECLARO BAJO MI RESPONSABILIDAD,
-respecto el/la beneficiario/a de la subvención,
-que
-Dirulaguntzaren xede den jarduera aurrera eramateko EZ dela ez eskatu ez eskuratu
-beste laguntzarik; Eibarko Udalari baino ez zaio eskatu. / Para ejecutar la actividad
-objeto de la subvención NO se han solicitado ni obtenido otras ayudas aparte de la
-correspondiente a la solicitada al Ayuntamiento de Eibar.
-Dirulaguntzaren xede den jarduera aurrera eramateko ondoren adierazten diren
-laguntzak eskatu eta/edo eskuratu direla: / Para ejecutar la actividad objeto de la
-subvención se han solicitado y/u obtenido las siguientes ayudas:
-Eskatutako dirulaguntzen zerrenda / Relación de subvenciones solicitadas
-Erakundea
-Organismo
-Diruz lagundutako programa
-Programa subvencionado
-Halaber, konpromisoa hartzen dut organo instrukzio-egileari berehala
-jakinarazteko (zirkunstantzia horren berri izan bezain laster), baldin
-eta laguntza-programa honen esparruan eskatutako jarduera edo
-helburu bererako beste edozein dirulaguntza edo laguntza jasotzen
-badut, adierazpen hau sinatu ondoren.
-Eskatutako diru-kopurua (€)
-Importe solicitado (€)
-Jasotako diru-kopurua (€)
-Importe concedido (€)
-Así mismo, manifiesto el compromiso de comunicar fehacientemente
-de inmediato al órgano instructor, en cuanto se tenga conocimiento de
-tal circunstancia, la concesión de cualquier otra subvención o ayuda
-para la misma actuación o finalidad que la solicitada en el contexto del
-presente programa de ayudas, que pueda suceder en fecha posterior
-a la de firma de esta declaración.
-Sinadura / Firma
-
-### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1539733
-1. DIRUZ LAGUNDUTAKO PROIEKTUA/JARDUERA EGITEAN SORTUTAKO GASTUAK / GASTOS DERIVADOS DEL PROYECTO/ACTIVIDAD
-SUBVENCIONADO/A
-Ondoren azaltzen diren gastu hauek diruz lagundutako jarduerati/programatik sortutako gastuei dagozkienak dira eta dagoeneko ordainduta daude. / Los
-datos que a continuación se indican corresponden a gastos derivados de la actividad/programa subvencionada/o y están ya abonados.
-HURRENKERA
-ZK.
-Nº ORDEN
-HARTZEKODUNA
-GASTU
-FAKTURA FAKTURA ORDAINKETA ZENBATEKOA
-BEZ
-ZENBATEKOA EGOTZITAKO EGOTZITAKO
-BEZa
-KONTZEPTUA
-ZENB.
-DATA
-EGUNA
-BEZ gabe
-kenkarria BEZa barne
-%
-ZENBATEKOA
-/ ACREEDOR
-IZENA /
-NOMBRE
-IFZ /
-NIF
-CONCEPTO
-GASTO
-Nº
-FECHA
-FACTURA FACTURA FECHA PAGO
-IMPORTE sin
-IVA
-IVA
-IVA
-deducible
-IMPORTE con
-IVA
-% IMPUTADO
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-GASTUAK GUZTIRA /
-TOTAL GASTOS
-IMPORTE
-IMPUTADO
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
-0,00
 
 ### Boletín oficial: https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2026/10/29/c2606919.pdf
 207

@@ -171,6 +171,15 @@
   "caracteres": 5577
  },
  {
+  "id": "bdns-942623",
+  "h": "06e7fe5606934339",
+  "titulo": "Bases reguladoras de la convocatoria de subvenciones a asociaciones culturales y clubs deportivos",
+  "organismoSugerido": "ayto-ribera-baja-erribera-beitia",
+  "organismoFuente": "Ayuntamiento de ribera baja/erribera beitia",
+  "archivo": "cache/fuentes/bdns-942623-856035f8.txt",
+  "caracteres": 150843
+ },
+ {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
   "h": "b0ecc4da6bcbfe27",
   "titulo": "EDIP, Programa Europeo de la Industria de Defensa",
@@ -316,21 +325,30 @@
  },
  {
   "id": "botha-2026-136-03317-c-pdf",
-  "h": "db12bb8806d35f89",
+  "h": "aed4b8a8d665214b",
   "titulo": "Concesión y denegación de subvenciones de la convocatoria de ayudas del Servicio de Educación para el apoyo a niñas y niños con dificultades",
   "organismoSugerido": "ayto-vitoria-gasteiz",
   "organismoFuente": "Ayuntamiento de Vitoria-Gasteiz",
   "archivo": "cache/fuentes/botha-2026-136-03317-c-pdf-3384298b.txt",
-  "caracteres": 9474
+  "caracteres": 9472
+ },
+ {
+  "id": "ue-cs-colours-external-pilots-open-call",
+  "h": "15889ff79c138ccf",
+  "titulo": "Colours External Pilots Open Call",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-cs-colours-external-pilots-open-call-4cc0cad7.txt",
+  "caracteres": 3340
  },
  {
   "id": "bdns-944854",
-  "h": "12b4ac7f8d2dc7fb",
+  "h": "feccfe092dff140d",
   "titulo": "Ayudas para la difusión, el fomento y la investigación de la arquitectura correspondientes",
   "organismoSugerido": "estado",
   "organismoFuente": "Dirección general de agenda urbana y arquitectura",
   "archivo": "cache/fuentes/bdns-944854-f1439d70.txt",
-  "caracteres": 19392
+  "caracteres": 106930
  },
  {
   "id": "bdns-944644",
@@ -594,6 +612,15 @@
   "caracteres": 11938
  },
  {
+  "id": "ara-alava-innova-digitaliza-empresas-2026",
+  "h": "d506588f2f61a969",
+  "titulo": "Álava Innova - Descarboniza _Empresas y Autónomos",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-alava-innova-digitaliza-empresas-2026-74bf274c.txt",
+  "caracteres": 220860
+ },
+ {
   "id": "ara-ayudas-inversiones-explotaciones-agrarias-2026",
   "h": "e6daa39c36ed4c64",
   "titulo": "Ayudas a las inversiones en explotaciones agrarias",
@@ -702,6 +729,15 @@
   "caracteres": 94968
  },
  {
+  "id": "bdns-942787",
+  "h": "f3d565444dc23520",
+  "titulo": "Convocatoria pública",
+  "organismoSugerido": "ayto-errenteria",
+  "organismoFuente": "Ayuntamiento de errenteria",
+  "archivo": "cache/fuentes/bdns-942787-db560dda.txt",
+  "caracteres": 147749
+ },
+ {
   "id": "bdns-940546",
   "h": "16ed25c9ea6aed6e",
   "titulo": "Y segunda convocatoria de subvenciones para financiar los gastos de preproducción",
@@ -727,5 +763,14 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/botha-2026-131-03265-c-pdf-601695a9.txt",
   "caracteres": 29159
+ },
+ {
+  "id": "bog-c2607596-htm",
+  "h": "a37610a5b9b58e99",
+  "titulo": "Subvenciones de. Rectificación del: subvenciones para la mejora de la eficiencia energética",
+  "organismoSugerido": "ayto-irun",
+  "organismoFuente": "Ayuntamiento de Irun",
+  "archivo": "cache/fuentes/bog-c2607596-htm-bda14d0e.txt",
+  "caracteres": 1795
  }
 ]
