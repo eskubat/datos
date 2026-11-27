@@ -338,7 +338,7 @@
  },
  {
   "id": "bdns-918655",
-  "h": "32f20c1cc64b412b",
+  "h": "c605b745ad7e1b70",
   "titulo": "Bonos de descuento para comprar en el comercio local",
   "para": [
    "particular",
@@ -383,7 +383,7 @@
  },
  {
   "id": "bdns-901439",
-  "h": "c2408206eec07632",
+  "h": "6697ddd919434354",
   "titulo": "Subvenciones para grabar discos y videoclips de grupos y solistas locales",
   "para": [
    "particular",
@@ -490,7 +490,7 @@
  },
  {
   "id": "bdns-890633",
-  "h": "bcaca68fd2c0eec7",
+  "h": "2c917cf1df073ddc",
   "titulo": "Subvenciones para poner en euskera rótulos, imagen corporativa y webs de comercios",
   "para": [
    "autonomo",
@@ -547,7 +547,7 @@
  },
  {
   "id": "bdns-890111",
-  "h": "1c993f0214306aac",
+  "h": "87c75fb1e113ae9b",
   "titulo": "Ayudas para crear o traspasar un negocio y alquilar el local",
   "para": [
    "autonomo",
@@ -1886,6 +1886,20 @@
   "revisar": false
  },
  {
+  "id": "bdns-944743",
+  "h": "eff16e1450981625",
+  "titulo": "Ayudas, en régimen de concurrencia competitiva, para la promoción del arte contemporáneo español",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-944743-b075222d.txt",
+  "revisar": false
+ },
+ {
   "id": "bdns-944611",
   "h": "3b3023bc836e887e",
   "titulo": "Ayudas para exponer en la feria de moda infantil INDX Kids de Birmingham",
@@ -1914,7 +1928,7 @@
  },
  {
   "id": "bdns-934005",
-  "h": "572f55c47ec9d03f",
+  "h": "60e4f03b290c7d2e",
   "titulo": "Ayudas para limpiar pintadas en fachadas de comunidades de propietarios",
   "para": [
    "particular",
@@ -2543,7 +2557,7 @@
  },
  {
   "id": "bdns-927981",
-  "h": "25df1ca7195ebc3e",
+  "h": "7025aab9fc68a193",
   "titulo": "Subvenciones para contratar a personas desempleadas y establecerse como autónomo",
   "para": [
    "autonomo",
@@ -2558,7 +2572,7 @@
  },
  {
   "id": "bdns-927909",
-  "h": "e85dadd4bc6c00cf",
+  "h": "e6fdfb0c52bbc4ca",
   "titulo": "Subvenciones para fomentar la natalidad",
   "para": [
    "particular"
@@ -3232,7 +3246,7 @@
  {
   "id": "bdns-879132",
   "h": "5a24828282b8bada",
-  "titulo": "Ayudas para pagar una plaza privada de alojamiento para personas mayores",
+  "titulo": "Bases prestación vinculada alojamiento personas mayores",
   "para": [
    "particular"
   ],
@@ -3371,8 +3385,8 @@
   "revisar": false
  },
  {
-  "id": "eus-ayuda-subvencion-2026-enp-2027",
-  "h": "80e935b57f4ec894",
+  "id": "eus-ayuda-subvencion-2026-enp-2027-webema01-contentemakunde-es",
+  "h": "a3cbeb17ba7b746a",
   "titulo": "Subvenciones destinadas a empresas, entidades privadas",
   "para": [
    "particular",
@@ -3383,12 +3397,12 @@
    "emprendimiento",
    "social"
   ],
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-enp-2027-767509a2.txt",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-enp-2027-webema01-contentemakunde--e12d8fe4.txt",
   "revisar": false
  },
  {
-  "id": "eus-ayuda-subvencion-2026-ind-2027",
-  "h": "85a1da8fd0682600",
+  "id": "eus-ayuda-subvencion-2026-ind-2027-webema01-contentemakunde-es",
+  "h": "71941d88d5fbfb9f",
   "titulo": "(prevención comportamientos violentos) Subvenciones a organizaciones, asociaciones y fundaciones",
   "para": [
    "particular",
@@ -3397,7 +3411,7 @@
   "temas": [
    "social"
   ],
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-ind-2027-dc0cf4c0.txt",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-ind-2027-webema01-contentemakunde--0bfaee02.txt",
   "revisar": false
  },
  {
@@ -3609,14 +3623,13 @@
  },
  {
   "id": "bdns-944854",
-  "h": "e8834b72dd20ac88",
-  "titulo": "Ayudas para difundir, fomentar e investigar la arquitectura",
+  "h": "85be31bf37bfdd97",
+  "titulo": "Ayudas para la difusión, el fomento y la investigación de la arquitectura correspondientes",
   "para": [
    "particular",
-   "autonomo",
-   "empresa",
    "asociacion",
-   "ayuntamiento"
+   "autonomo",
+   "empresa"
   ],
   "temas": [
    "cultura",
@@ -3883,7 +3896,7 @@
  {
   "id": "bdns-945119",
   "h": "6ca2869be8f943b9",
-  "titulo": "Decreto foral 97/ de 26 de noviembre, regulador de becas destinadas al personal técnico de deporte",
+  "titulo": "Becas para la matrícula de la formación de técnicos deportivos",
   "para": [
    "particular"
   ],
@@ -3983,6 +3996,20 @@
   ],
   "temas": [],
   "archivo": "cache/fuentes/ue-erc-2027-poc-2a851c0f.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-945164",
+  "h": "31dd4d188ac5d169",
+  "titulo": "Ayudas a la distribución de películas de largometraje y conjuntos de cortometrajes comunitarios e iberoamericanos",
+  "para": [
+   "empresa",
+   "autonomo"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-945164-2c8d6e74.txt",
   "revisar": false
  },
  {
@@ -4152,6 +4179,20 @@
   "revisar": false
  },
  {
+  "id": "bdns-945330",
+  "h": "475fd1dfb438585e",
+  "titulo": "Subvenciones para el aprendizaje del euskara",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "estudios",
+   "educacion"
+  ],
+  "archivo": "cache/fuentes/bdns-945330-6654f0ed.txt",
+  "revisar": false
+ },
+ {
   "id": "bdns-911829",
   "h": "7044e6846f123941",
   "titulo": "Ayudas para el transporte escolar a programas educativos municipales",
@@ -4275,6 +4316,17 @@
    "emprendimiento"
   ],
   "archivo": "cache/fuentes/extra-msca-pf-2027-194cb28b.txt",
+  "revisar": false
+ },
+ {
+  "id": "ue-horizon-widera-2027-03-widening-01",
+  "h": "a655c1a0ff8ea9f5",
+  "titulo": "Becas ERA Fellowships para investigar en países europeos que refuerzan su ciencia",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/ue-horizon-widera-2027-03-widening-01-a38cdad2.txt",
   "revisar": false
  },
  {
@@ -4829,20 +4881,6 @@
   "revisar": false
  },
  {
-  "id": "ara-garantias-alquiler-vivienda-adhesion-personas-arrendadoras",
-  "h": "3d62581063f60454",
-  "titulo": "Ayudas con garantías de alquiler para propietarios de viviendas rurales",
-  "para": [
-   "particular",
-   "asociacion"
-  ],
-  "temas": [
-   "vivienda"
-  ],
-  "archivo": "cache/fuentes/ara-garantias-alquiler-vivienda-adhesion-personas-arrendador-365c506c.txt",
-  "revisar": false
- },
- {
   "id": "ara-garantias-alquiler-vivienda-adhesion-personas-arrendatarias",
   "h": "0c39a7ff487e93bd",
   "titulo": "Ayudas para inquilinos que buscan vivienda de alquiler en zonas rurales",
@@ -5035,21 +5073,6 @@
   "revisar": false
  },
  {
-  "id": "ara-alava-innova-digitaliza-empresas-2026",
-  "h": "c4cc44425ac5a4b3",
-  "titulo": "Álava Innova - Descarboniza _Empresas y Autónomos",
-  "para": [
-   "autonomo",
-   "empresa"
-  ],
-  "temas": [
-   "digitalizacion",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/ara-alava-innova-digitaliza-empresas-2026-74bf274c.txt",
-  "revisar": false
- },
- {
   "id": "ara-ayudas-inversiones-explotaciones-agrarias-2026",
   "h": "fa33624875651724",
   "titulo": "Ayudas para invertir en explotaciones agrarias",
@@ -5207,6 +5230,47 @@
   "revisar": false
  },
  {
+  "id": "bdns-945340",
+  "h": "812078fd25fc21e7",
+  "titulo": "Subvenciones, en régimen de concurrencia competitiva, para la promoción de la lectura y las letras españolas",
+  "para": [
+   "empresa",
+   "asociacion",
+   "autonomo"
+  ],
+  "temas": [
+   "cultura"
+  ],
+  "archivo": "cache/fuentes/bdns-945340-01cabe3e.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-945337",
+  "h": "f51d058649484564",
+  "titulo": "Decreto 1044-26, de 9 de noviembre y Decreto 1087-26, de 19 de noviembre",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "vivienda"
+  ],
+  "archivo": "cache/fuentes/bdns-945337-eee38b55.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-945307",
+  "h": "f550c7850ec2c436",
+  "titulo": "Decreto 1043-26, de 9 de noviembre, y decreto 1086-26, de 19 de noviembre",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "vivienda"
+  ],
+  "archivo": "cache/fuentes/bdns-945307-6c4e9a6e.txt",
+  "revisar": false
+ },
+ {
   "id": "bdns-945088",
   "h": "192e85d236da1cdb",
   "titulo": "Decreto Alcaldía 1045-26, de 9 de nov y 1090-26 de 19 nov convocatoria subvenciones para la rehabilitación de fachadas",
@@ -5237,7 +5301,7 @@
  {
   "id": "bdns-944928",
   "h": "36a8b55560337176",
-  "titulo": "Subvenciones a deportistas individuales de alto nivel",
+  "titulo": "Subvenciones a deportistas de alto nivel en disciplinas individuales",
   "para": [
    "particular"
   ],
@@ -5249,8 +5313,8 @@
  },
  {
   "id": "bdns-944819",
-  "h": "1e3af6ba34dea697",
-  "titulo": "Ayuda extraordinaria por el incremento de los costes de los agricultores por el uso de productos fertilizantes",
+  "h": "3c6c76b675d08850",
+  "titulo": "Ayudas a agricultores por la subida del precio de los fertilizantes",
   "para": [
    "autonomo",
    "empresa"
@@ -5263,29 +5327,16 @@
  },
  {
   "id": "bdns-944809",
-  "h": "a76ef7a9437f8600",
-  "titulo": "Ayudas para llevar películas españolas a festivales internacionales",
+  "h": "217eb8fe40181aab",
+  "titulo": "Ayudas para la participación de películas españolas en festivales celebrados entre octubre de y septiembre",
   "para": [
-   "empresa"
+   "empresa",
+   "autonomo"
   ],
   "temas": [
    "cultura"
   ],
   "archivo": "cache/fuentes/bdns-944809-b94fa649.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-944743",
-  "h": "e9d263d3f5e37a63",
-  "titulo": "Ayudas a galerías de arte para ferias y exposiciones de arte contemporáneo",
-  "para": [
-   "autonomo",
-   "empresa"
-  ],
-  "temas": [
-   "cultura"
-  ],
-  "archivo": "cache/fuentes/bdns-944743-b075222d.txt",
   "revisar": false
  },
  {
@@ -5828,6 +5879,20 @@
   "revisar": false
  },
  {
+  "id": "botha-2026-137-03336-c-pdf",
+  "h": "ff67d0325a1d32fc",
+  "titulo": "Resolución de la concejala delegada del Departamento de Promoción Económica, Empleo, Comercio y Turismo",
+  "para": [
+   "empresa"
+  ],
+  "temas": [
+   "empleo",
+   "comercio"
+  ],
+  "archivo": "cache/fuentes/botha-2026-137-03336-c-pdf-29463b56.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-bizkaia-pnc-jubilacion",
   "h": "9bef8f7b6d9cb591",
   "titulo": "Pensión no contributiva de jubilación para personas sin recursos",
@@ -6034,6 +6099,17 @@
   "revisar": false
  },
  {
+  "id": "prest-araba-pevs",
+  "h": "47b578c0f318894c",
+  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
+  "revisar": false
+ },
+ {
   "id": "prest-araba-peap",
   "h": "b7167957c542832d",
   "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
@@ -6045,17 +6121,6 @@
    "educacion"
   ],
   "archivo": "cache/fuentes/prest-araba-peap-b3e1675d.txt",
-  "revisar": false
- },
- {
-  "id": "prest-araba-pevs",
-  "h": "47b578c0f318894c",
-  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
-  "para": [
-   "particular"
-  ],
-  "temas": [],
-  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
   "revisar": false
  },
  {

@@ -45,15 +45,6 @@
   "caracteres": 71718
  },
  {
-  "id": "ue-horizon-eit-2026-prize-wip-leadership",
-  "h": "15aa8d5b5b10edef",
-  "titulo": "Women Leadership Category",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-horizon-eit-2026-prize-wip-leadership-00ee7b4c.txt",
-  "caracteres": 12241
- },
- {
   "id": "ue-horizon-eic-2026-prize-wip",
   "h": "ed2bdc6e55313d53",
   "titulo": "The European Prize for Women Innovators",
@@ -61,6 +52,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-horizon-eic-2026-prize-wip-fe1aec45.txt",
   "caracteres": 12244
+ },
+ {
+  "id": "ue-horizon-eit-2026-prize-wip-leadership",
+  "h": "15aa8d5b5b10edef",
+  "titulo": "Women Leadership Category",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-horizon-eit-2026-prize-wip-leadership-00ee7b4c.txt",
+  "caracteres": 12241
  },
  {
   "id": "ue-horizon-eic-2026-prize-wip-risinginnovators",
@@ -115,6 +115,15 @@
   "organismoFuente": "Alimentación, Desarrollo Rural, Agricultura y Pesca",
   "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-eventos-sociales-97a480d0.txt",
   "caracteres": 290361
+ },
+ {
+  "id": "bdns-944743",
+  "h": "f4515cfe37d41842",
+  "titulo": "Ayudas, en régimen de concurrencia competitiva, para la promoción del arte contemporáneo español",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de patrimonio cultural y bellas artes",
+  "archivo": "cache/fuentes/bdns-944743-b075222d.txt",
+  "caracteres": 183009
  },
  {
   "id": "eus-ayuda-subvencion-2026-260706defentsaproiektutaf",
@@ -198,6 +207,51 @@
   "caracteres": 300000
  },
  {
+  "id": "eus-ayuda-subvencion-2026-enp-2027-webema01-contentemakunde-es",
+  "h": "9a8f42117b88a5c7",
+  "titulo": "Subvenciones destinadas a empresas, entidades privadas",
+  "organismoSugerido": "emakunde",
+  "organismoFuente": "Emakunde - Instituto Vasco de la Mujer",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-enp-2027-webema01-contentemakunde--e12d8fe4.txt",
+  "caracteres": 119720
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-ind-2027-webema01-contentemakunde-es",
+  "h": "94ed3c90433b9429",
+  "titulo": "(prevención comportamientos violentos) Subvenciones a organizaciones, asociaciones y fundaciones",
+  "organismoSugerido": "emakunde",
+  "organismoFuente": "Emakunde - Instituto Vasco de la Mujer",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-ind-2027-webema01-contentemakunde--0bfaee02.txt",
+  "caracteres": 299125
+ },
+ {
+  "id": "bdns-944661",
+  "h": "e31834479754e046",
+  "titulo": "Ayudas para financiar trabajos de conservación o enriquecimiento de bienes inmuebles del Patrimonio Histórico Español",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de agenda urbana y arquitectura",
+  "archivo": "cache/fuentes/bdns-944661-aeb7c6b6.txt",
+  "caracteres": 218645
+ },
+ {
+  "id": "bdns-944854",
+  "h": "cfc099463a0e70d4",
+  "titulo": "Ayudas para la difusión, el fomento y la investigación de la arquitectura correspondientes",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general de agenda urbana y arquitectura",
+  "archivo": "cache/fuentes/bdns-944854-f1439d70.txt",
+  "caracteres": 117602
+ },
+ {
+  "id": "bdns-945358",
+  "h": "89c004764320289d",
+  "titulo": "Subvenciones para actividades culturales previstas",
+  "organismoSugerido": "ayto-oiartzun",
+  "organismoFuente": "Ayuntamiento de oiartzun",
+  "archivo": "cache/fuentes/bdns-945358-ac016497.txt",
+  "caracteres": 92452
+ },
+ {
   "id": "ue-crea-media-2027-tvonline-3",
   "h": "edb329094bf69b46",
   "titulo": "TV and online content Fiction projects",
@@ -205,6 +259,15 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-3-69225138.txt",
   "caracteres": 6320
+ },
+ {
+  "id": "ue-crea-media-2027-tvonline-2",
+  "h": "2bb80164abe11ee5",
+  "titulo": "TV and online content Documentary projects",
+  "organismoSugerido": "ue",
+  "organismoFuente": "Unión Europea",
+  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
+  "caracteres": 6324
  },
  {
   "id": "ue-crea-media-2027-tvonline-1",
@@ -216,13 +279,13 @@
   "caracteres": 6321
  },
  {
-  "id": "ue-crea-media-2027-tvonline-2",
-  "h": "2bb80164abe11ee5",
-  "titulo": "TV and online content Documentary projects",
-  "organismoSugerido": "ue",
-  "organismoFuente": "Unión Europea",
-  "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
-  "caracteres": 6324
+  "id": "bdns-945164",
+  "h": "6363c7ba3153006f",
+  "titulo": "Ayudas a la distribución de películas de largometraje y conjuntos de cortometrajes comunitarios e iberoamericanos",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Instituto de la cinematografía y de las artes audiovisuales",
+  "archivo": "cache/fuentes/bdns-945164-2c8d6e74.txt",
+  "caracteres": 186955
  },
  {
   "id": "ara-01362004",
@@ -250,6 +313,15 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01362003-2cf30e1e.txt",
   "caracteres": 37231
+ },
+ {
+  "id": "bdns-945330",
+  "h": "74e66a2fb0ed3aa9",
+  "titulo": "Subvenciones para el aprendizaje del euskara",
+  "organismoSugerido": "ayto-donostia-san-sebastian",
+  "organismoFuente": "Ayuntamiento de donostia/san sebastián",
+  "archivo": "cache/fuentes/bdns-945330-6654f0ed.txt",
+  "caracteres": 203846
  },
  {
   "id": "ue-cs-resist-ii-process-innovation-open-call",
@@ -405,15 +477,6 @@
   "caracteres": 11938
  },
  {
-  "id": "ara-alava-innova-digitaliza-empresas-2026",
-  "h": "d506588f2f61a969",
-  "titulo": "Álava Innova - Descarboniza _Empresas y Autónomos",
-  "organismoSugerido": "dfa",
-  "organismoFuente": "Diputación Foral de Álava",
-  "archivo": "cache/fuentes/ara-alava-innova-digitaliza-empresas-2026-74bf274c.txt",
-  "caracteres": 220860
- },
- {
   "id": "ara-ayudas-turismo-actividad-ayuntamientos-2026",
   "h": "bd13c5857921e44a",
   "titulo": "Ayudas gastos de actividad turística en Ayuntamientos",
@@ -468,6 +531,33 @@
   "caracteres": 42502
  },
  {
+  "id": "bdns-945340",
+  "h": "558910bdd58c5e72",
+  "titulo": "Subvenciones, en régimen de concurrencia competitiva, para la promoción de la lectura y las letras españolas",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Dirección general del libro, del cómic y de la lectura",
+  "archivo": "cache/fuentes/bdns-945340-01cabe3e.txt",
+  "caracteres": 164261
+ },
+ {
+  "id": "bdns-945337",
+  "h": "2403f24b22b14a72",
+  "titulo": "Decreto 1044-26, de 9 de noviembre y Decreto 1087-26, de 19 de noviembre",
+  "organismoSugerido": "ayto-iurreta",
+  "organismoFuente": "Ayuntamiento de iurreta",
+  "archivo": "cache/fuentes/bdns-945337-eee38b55.txt",
+  "caracteres": 13513
+ },
+ {
+  "id": "bdns-945307",
+  "h": "f4444bde004acaff",
+  "titulo": "Decreto 1043-26, de 9 de noviembre, y decreto 1086-26, de 19 de noviembre",
+  "organismoSugerido": "ayto-iurreta",
+  "organismoFuente": "Ayuntamiento de iurreta",
+  "archivo": "cache/fuentes/bdns-945307-6c4e9a6e.txt",
+  "caracteres": 14261
+ },
+ {
   "id": "bdns-945088",
   "h": "6341689e88432740",
   "titulo": "Decreto Alcaldía 1045-26, de 9 de nov y 1090-26 de 19 nov convocatoria subvenciones para la rehabilitación de fachadas",
@@ -484,6 +574,15 @@
   "organismoFuente": "Ayuntamiento de urduña/orduña",
   "archivo": "cache/fuentes/bdns-945007-443c9060.txt",
   "caracteres": 366
+ },
+ {
+  "id": "bdns-944809",
+  "h": "3441d0f17febb68c",
+  "titulo": "Ayudas para la participación de películas españolas en festivales celebrados entre octubre de y septiembre",
+  "organismoSugerido": "estado",
+  "organismoFuente": "Instituto de la cinematografía y de las artes audiovisuales",
+  "archivo": "cache/fuentes/bdns-944809-b94fa649.txt",
+  "caracteres": 163998
  },
  {
   "id": "bdns-940546",
@@ -511,5 +610,14 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/botha-2026-131-03265-c-pdf-601695a9.txt",
   "caracteres": 29159
+ },
+ {
+  "id": "botha-2026-137-03336-c-pdf",
+  "h": "dc0409e42cc22a58",
+  "titulo": "Resolución de la concejala delegada del Departamento de Promoción Económica, Empleo, Comercio y Turismo",
+  "organismoSugerido": "ayto-vitoria-gasteiz",
+  "organismoFuente": "Ayuntamiento de Vitoria-Gasteiz",
+  "archivo": "cache/fuentes/botha-2026-137-03336-c-pdf-29463b56.txt",
+  "caracteres": 10333
  }
 ]

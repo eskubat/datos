@@ -1,0 +1,3314 @@
+### Ficha oficial: https://sede.mcu.gob.es/SedeApp/SecuredArea/MiSitio/inicio
+Identificación de usuario - Sede Electrónica ICAA
+Sede Electrónica
+Instituto de la Cinematografía y de las Artes Audiovisuales
+Sede Electrónica ICAA
+Sede de Cultura
+Autenticación
+¡Atención! Javascript es un requisito obligatorio. Por favor, actívelo.
+Identificación de Usuario
+Para acceder al trámite, debe autenticarse. Este proceso requiere estar
+inscrito en el Registro de Empresas Cinematográficas
+o contar con un certificado digital reconocido.
+Información del Registro de Empresas del ICAA
+Información sobre la pasarela de autenticación Cl@ve
+Cancelar y salir
+
+### Documento de la convocatoria: https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1564260
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+MINISTERIO
+DE CULTURA
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+Resolución del Organismo Autónomo Instituto de la Cinematografía y de las Artes
+Audiovisuales, por la que se convocan ayudas a la distribución de películas de
+largometraje y conjuntos de cortometrajes comunitarios e iberoamericanos para el año
+2027.
+El artículo 28 de la Ley 55/2007, de 28 de diciembre, del Cine prevé la concesión de ayudas para
+fomentar la distribución de películas de largometraje y conjuntos de cortometrajes, comunitarios
+e iberoamericanos en salas de exhibición cinematográfica, cuyo objeto es subvencionar hasta el
+50 por 100 del coste del tiraje de copias, del subtitulado, de la publicidad y promoción y de los
+medios técnicos y de los recursos necesarios para el acercamiento de las películas a colectivos
+de personas con discapacidad necesarios para la realización de planes de distribución en España
+por parte de distribuidores independientes.
+La Orden CUD/508/2021, de 25 de mayo, por la que se establecen las bases reguladoras de las
+ayudas a la distribución de películas previstas en el artículo 28 de la Ley 55/2007, de 28 de
+diciembre, del Cine, modificada por la Orden CUD/553/2023, de 31 de mayo, establece las bases
+reguladoras de estas ayudas.
+La presente convocatoria de ayudas se lleva a cabo al amparo del artículo 149.2 de la
+Constitución Española, sin perjuicio de las competencias asumidas por las Comunidades
+Autónomas y Ciudades con Estatuto de Autonomía en materia de cultura. La gestión centralizada
+de estas subvenciones se fundamenta, como ha venido estableciendo una consolidada
+jurisprudencia del Tribunal Constitucional, en la responsabilidad que asume el Estado de
+preservar el patrimonio cultural común y en la necesidad de garantizar iguales posibilidades de
+acceso, obtención y disfrute por parte de los potenciales destinatarios con independencia de su
+procedencia geográfica, así como en la orientación de las ayudas hacia actividades de ámbito
+estatal o proyección internacional. En efecto, teniendo en cuenta el carácter de las medidas que
+se contemplan, resulta imprescindible establecer un sistema estatal de ayudas que compense la
+desigual implantación en el territorio de los agentes del sector, sin que ello impida el
+establecimiento de diferentes medidas de fomento por parte de las Comunidades Autónomas
+dentro de su competencia. En todo caso, la caracterización constitucional de la cultura como
+competencia concurrente entre el Estado y las Comunidades Autónomas hace necesaria una
+estrecha colaboración entre los distintos entes territoriales. Las conclusiones y recomendaciones
+fruto de las actividades de la Conferencia Sectorial de Cultura se han tenido en cuenta a la hora
+de diseñar la presente convocatoria de ayudas.
+Las medidas de accesibilidad universal se establecen como requisito obligatorio para las
+películas solicitantes, de acuerdo con lo establecido en la Orden CUD/508/2021.
+Por último, el presente régimen de ayudas ha sido comunicado a la Comisión Europea, de
+acuerdo con el Reglamento (UE) nº 651/2014 de la Comisión, de 17 de junio de 2014, por el que
+se declaran determinadas categorías de ayudas compatibles con el mercado interior en
+aplicación de los artículos 107 y 108 del Tratado.
+Asimismo, esta línea de ayudas se incluyó en el Plan Estratégico de Subvenciones de este
+Ministerio 2021-2023 y en el Plan Estratégico de Subvenciones para el período 2024-2026
+aprobado por Orden Ministerial de 3 de junio de 2024.
+En su virtud, recibido informe favorable de la Abogacía del Estado y de la Intervención Delegada
+del Departamento y oídas las Comunidades Autónomas, este Instituto ha resuelto convocar las
+ayudas a la distribución de películas de largometraje y conjuntos de cortometrajes comunitarios
+e iberoamericanos para el año 2027 de acuerdo con las siguientes normas:
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+MINISTERIO
+DE CULTURA
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+Primera. Objeto, condiciones y régimen jurídico.
+1. Se convoca para el año 2027 la concesión de ayudas a la distribución de películas de
+largometraje y conjuntos de cortometrajes, comunitarios e iberoamericanos (países miembros
+del Programa Ibermedia), destinados a la distribución en salas de exhibición, principalmente
+en versión original, que hayan sido calificados en España durante 2025 y 2026 y que cumplan
+los siguientes requisitos:
+a)
+Que el estreno comercial de la película en España se haya llevado a cabo en el último
+trimestre de 2025 o durante 2026 y que el plan de distribución de la película en España
+haya sido realizado esencialmente entre las referidas fechas.
+En el caso de las películas extranjeras, éstas deberán tener una antigüedad inferior a
+dos años desde su estreno comercial en su país de origen hasta la fecha de estreno
+comercial de la película en España o bien no haber sido estrenada previamente en su
+país de origen. En el caso de los conjuntos de cortometrajes, deberá cumplir este
+requisito al menos el 70 % de los cortometrajes que integran el conjunto.
+Únicamente a efectos de esta convocatoria, se considerará fecha de estreno la
+correspondiente al primer día de exhibición pública y continuada de la película en salas
+cinematográficas en régimen de explotación comercial, no considerándose como tal los
+pases en festivales, estrenos previos, presentaciones, ni proyecciones promocionales.
+Se seguirá el mismo criterio para determinar la fecha de estreno de una película en su
+país de origen.
+b)
+Que la distribución territorial realizada por la distribuidora solicitante abarque:
+1. En el caso de largometrajes, un mínimo de doce provincias y tres Comunidades
+Autónomas;
+2. En el caso de películas documentales y películas distribuidas exclusivamente en
+versión original en un idioma distinto de los oficiales del Estado, un mínimo de cuatro
+provincias;
+3. En el caso de cortometrajes, que deberán formar un conjunto para ser distribuidos
+en una misma sesión cinematográfica de duración estándar, un mínimo de cuatro
+provincias.
+Esta información se cotejará con la obtenida por el Organismo Autónomo Instituto de la
+Cinematografía y de las Artes Audiovisuales (ICAA en adelante) en aplicación del artículo
+17 del Real Decreto 1084/2015, de 4 de diciembre, por el que se desarrolla la Ley
+55/2007, de 28 de diciembre, del Cine.
+A efectos del cómputo territorial solamente se tendrá en cuenta la distribución realizada
+hasta el fin de plazo de presentación de solicitudes en las salas de exhibición
+cinematográfica que cumplan con sus obligaciones de control de asistencia y declaración
+de rendimientos con la concurrencia de las entidades denominadas «Buzones», esto es,
+a través del procedimiento ordinario previsto en la Orden CUL/1772/2011, de 21 de junio,
+por la que se establecen los procedimientos para el cómputo de espectadores de las
+películas cinematográficas, así como las obligaciones, requisitos y funcionalidades
+técnicas de los programas informáticos a efectos del control de asistencia y rendimiento
+de las obras cinematográficas en las salas de exhibición. Únicamente a efectos de esta
+convocatoria, se establece la posibilidad de acreditar la distribución, hasta un máximo
+de tres provincias, mediante certificado emitido por filmotecas o cinematecas públicas
+indicando fecha, título y número de asistentes.
+Se entiende por sesión cinematográfica de duración estándar aquella que tenga una
+duración mínima de sesenta minutos. Se exceptúan los cortometrajes calificados con el
+distintivo de «especialmente recomendada para la infancia» en los que no se exigirá una
+duración mínima determinada.
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+MINISTERIO
+DE CULTURA
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+c)
+d)
+Que las películas no hayan sido objeto de valoración en convocatorias de años
+anteriores.
+Que las películas incluyan, como medidas de accesibilidad universal, los sistemas de
+audiodescripción y subtitulado especial que cumplan las normas UNE correspondientes.
+En el caso de películas distribuidas únicamente en versión original en una lengua distinta
+de las oficiales del Estado, solamente será exigible el subtitulado especial.
+2. Cuando se trate de películas en coproducción entre Estados Miembros de la UE y terceros
+países no iberoamericanos que hayan sido calificadas en España como nacionales del tercer
+país, dichas películas podrán ser objeto de solicitud.
+3. La concesión de las ayudas se efectuará mediante el procedimiento de concurrencia
+competitiva establecido en el artículo 22.1 de la Ley 38/2003, de 17 de noviembre, General
+de Subvenciones.
+4. Las ayudas cuya concesión se convoca mediante esta resolución se ajustarán a lo establecido
+en ella; a la Ley 38/2003, de 17 de noviembre, General de Subvenciones y a su Reglamento,
+aprobado por el Real Decreto 887/2006, de 21 de julio, a la Ley 55/2007, de 28 de diciembre,
+del Cine y a su Reglamento, aprobado por el Real Decreto 1084/2015, de 4 de diciembre, y a
+la Orden CUD/508/2021, de 25 de mayo, por la que se establecen las bases reguladoras de
+las ayudas a la distribución de películas previstas en el artículo 28 de la Ley 55/2007, de 28
+de diciembre, del Cine. Con carácter supletorio, regirá la Ley 39/2015, de 1 de octubre, del
+Procedimiento Administrativo Común de las Administraciones Públicas, así como cualquier
+otra disposición normativa que por su naturaleza pudiera resultar de aplicación.
+Segunda. Dotación e imputación presupuestaria.
+1. La financiación de las ayudas incluidas en esta convocatoria se realizará con cargo al
+presupuesto de gastos del ICAA para 2027, destinándose 4.000.000 euros de la aplicación
+24.103.470 «Fondo de Protección a la Cinematografía», incluida en los créditos del Programa
+335C «Cinematografía».
+2. En los términos previstos en el artículo 58 del Real Decreto 887/2006 se prevé la posibilidad
+de fijar una cuantía adicional, por un importe máximo de 500.000 euros, cuya aplicación a la
+concesión de esta línea de subvenciones no requerirá de una nueva convocatoria. La
+efectividad de la cuantía adicional quedará condicionada a la declaración de disponibilidad
+del crédito en el mismo concepto presupuestario y, en su caso, a la aprobación previa de la
+modificación presupuestaria que proceda, en un momento anterior a la resolución de la
+concesión de la subvención.
+3. De conformidad con lo previsto en el artículo 56 del RD 887/2006, por el que se aprueba el
+Reglamento de la Ley 38/2003, General de Subvenciones, la presente convocatoria se tramita
+con carácter anticipado.
+Las cuantías que figuran en los párrafos anteriores tienen carácter estimado por lo que la
+concesión de las subvenciones de la presente convocatoria queda condicionada a la existencia
+de crédito presupuestario adecuado y suficiente en el momento de la resolución de concesión.
+En los supuestos en los que el crédito que resulte de la aprobación definitiva los Presupuestos
+Generales del Estado para 2027 fuera superior a la cuantía inicialmente estimada, el órgano
+gestor podrá decidir la aplicación o no del exceso a la convocatoria, previa tramitación del
+correspondiente expediente de gasto antes de la resolución, sin necesidad de nueva
+convocatoria.
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+MINISTERIO
+DE CULTURA
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+Los efectos de todos los actos de trámite dictados en el expediente de gasto se entenderán
+condicionados a que, al dictarse la resolución de concesión, subsistan las mismas circunstancias
+de hecho y de derecho existentes en el momento en que fueron producidos dichos actos.
+Tercera. Cuantía de las ayudas.
+1. El importe de la ayuda individual no podrá superar el 50 % de los gastos subvencionables
+relacionados en la norma Quinta.
+2. La cuantía máxima de la ayuda por película será de 150.000 euros y, por empresa beneficiaria
+y sus vinculadas (de acuerdo con la definición de vinculación del artículo 68.2 del Real Decreto
+887/2006, de 21 de julio) no podrá superar el 15 % de la dotación presupuestaria total
+señalada en la norma Segunda reduciéndose proporcionalmente, si procede, los importes de
+cada ayuda de dicha empresa beneficiaria.
+3. Para la cuantificación de la ayuda en cada caso se procederá de la siguiente forma:
+a)
+b)
+Se partirá del importe máximo posible de ayuda a conceder, que será la cantidad menor
+entre la cuantía máxima de la ayuda, la solicitada y el 50 % de los gastos
+subvencionables declarados.
+Se tomará la puntuación final otorgada por el Comité Asesor de Ayudas a la Distribución
+previsto en el artículo 16 de la Orden CUD/508/2021, de 25 de mayo, a cada solicitud y
+se aplicará la siguiente tabla:
+Puntuación final otorgada y tramos
+c)
+d)
+e)
+f)
+Tramo
+Puntos desde
+Puntos hasta
+1
+2
+3
+4
+5
+50
+60
+70
+80
+90
+59,99
+69,99
+79,99
+89,99
+100
+Porcentaje a aplicar al importe
+máximo posible de ayuda a
+conceder
+75 %
+85 %
+90 %
+95 %
+100 %
+Se multiplicará el importe máximo posible de ayuda a conceder por el porcentaje
+obtenido de la tabla de la letra anterior.
+Si la cantidad calculada según lo anterior sumada al importe de otras ayudas
+computables a efectos del límite de intensidad aplicable concedidas al solicitante para la
+misma actividad supera los límites máximos de intensidad establecidos por el artículo 21
+del Real Decreto 1084/2015, de 4 de diciembre, el exceso se deducirá de la cantidad
+calculada según las letras anteriores.
+En todo caso, si la cantidad calculada según lo anterior sumada al importe de otras
+ayudas que no computen a efectos del cálculo de intensidad anterior, supera el importe
+de los costes totales de distribución admitidos, el exceso se deducirá de la cantidad
+calculada según las letras anteriores.
+Finalmente, el importe calculado según las reglas anteriores se redondeará a la centena
+inferior más próxima.
+En cualquier caso, la puntuación final mínima para poder optar a la ayuda será de 50 puntos.
+En caso de que se produzca un empate en la puntuación entre varias solicitudes y la dotación
+presupuestaria disponible no sea suficiente para atender a todos ellas, para deshacer dicho
+empate se acudirá a la puntuación obtenida por las solicitudes, en el orden en que se relacionan
+los criterios en la norma Novena.3 de esta Resolución.
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+MINISTERIO
+DE CULTURA
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+Cuarta. Personas beneficiarias.
+Podrán ser beneficiarias de estas ayudas las empresas distribuidoras independientes, de
+conformidad con lo dispuesto en el artículo 4 ñ) de la Ley 55/2007, de 28 de diciembre, y que
+cumplan los requisitos establecidos en el artículo 5 de la Orden CUD/508/2021, de 25 de mayo.
+Quinta. Gastos subvencionables.
+1. Se consideran subvencionables los siguientes gastos de distribución de la película:
+a)
+Tiraje de las copias utilizadas en la distribución:
+1º. Master digital de la película y/o avance.
+2º. Copias digitales de la película y/o avance.
+3º. Claves de protección (KDM).
+4º. Internegativo óptico de la película y/o avance.
+5º. Copias en 35 mm de la película y/o avance.
+6º. Gastos en concepto de VPF (Virtual Print Fee).
+7º. Almacenamiento y envío de copias.
+b)
+Subtitulado estándar de la película y/o avance;
+c)
+Doblaje, siempre que en la distribución se hayan incluido un mínimo de seis copias
+subtituladas, excepto las películas calificadas en España como «especialmente
+recomendada para la infancia» y las películas cuya versión original sea en una o varias
+de las lenguas oficiales del Estado;
+d)
+Publicidad, se incluyen los siguientes conceptos:
+1º. Diseño, adaptación e impresión del cartel de la película para publicidad exterior.
+2º. Diseño e impresión de folletos, dípticos y similares.
+3º. Diseño e impresión del cartel para publicidad en salas cinematográficas, así como
+su adaptación para pantallas y soportes físicos digitales instalados en ellas.
+4º. Diseño y producción de cuñas de radio y de contenidos publicitarios para prensa,
+televisión, internet, redes sociales y plataformas digitales, incluyendo la adaptación
+del diseño del cartel para espacios online, bannering y animaciones tipo gif.
+5º. Otro material publicitario y merchandising promocional no incluido en las categorías
+anteriores.
+6º. Compra de espacios publicitarios en los distintos medios: televisión, radio, prensa
+escrita, exterior, páginas web, redes sociales, salas cinematográficas, etc.
+e)
+Promoción, se incluyen los siguientes conceptos:
+1º. Dosieres y su envío y proyecciones de prensa tanto presenciales como online.
+2º. Contratación específica de agentes de prensa y publicistas para promoción de la
+película, tanto para campañas presenciales como online, incluida la contratación de
+diferentes agencias de comunicación y marketing para cada una de las estrategias
+de promoción en función del soporte y/o naturaleza. No se incluye el pago por
+servicios del propio personal de la empresa distribuidora ni de las personas que
+hayan intervenido directa o indirectamente en la producción y realización de la
+película.
+3º. Recepciones, fiestas y eventos promocionales sobre el estreno de la película,
+presenciales o virtuales. Se incluye: alquiler de salas y equipamiento para el evento,
+catering y contratación de personal auxiliar para asistencia y animación del mismo,
+así como el desplazamiento en transporte público, clase turista, económica o similar
+y el alojamiento del personal autoral, creativo o artístico de la película a eventos
+promocionales, que habrán de aparecer identificados en las facturas y tendrán el
+límite diario por persona del importe correspondiente al Grupo 1, anexos II y III, del
+Real Decreto 462/2002, de 24 de mayo, sobre indemnizaciones por razón del
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+MINISTERIO
+DE CULTURA
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+servicio.. Los gastos de alojamiento corresponderán a los días de celebración del
+evento, que habrán de especificarse en la memoria.
+4º. Investigación de mercado sobre la distribución de la película, incluyendo estudios
+relacionados con el marketing, análisis y trabajo de detección de nuevos públicos,
+testeo previo con público asistente, así como estudios relacionados con el enfoque
+de comunicación y promoción de las obras en el entorno digital.
+5º. Página específica y otras aplicaciones para internet de la película, incluyendo
+perfiles y páginas en redes sociales.
+6º. Nuevas tecnologías: aplicaciones para móvil, aplicaciones 3D/4D y similares.
+f)
+Medidas contra la piratería, tales como seguimiento y observación en redes sociales de
+la efectividad de dichas medidas, sistemas de prevención y protección contra accesos
+no autorizados y descargas ilegales de la película y otras medidas análogas.
+g)
+Medios técnicos y recursos invertidos para la accesibilidad universal de la película:
+1º. Inclusión de sistemas de audiodescripción que cumplan la norma UNE 153020;
+2º. Inclusión de sistemas de subtitulado especial que cumplan la norma UNE 153010;
+3º. Traducción a lengua de signos española realizada por profesionales que sigan las
+recomendaciones del CNLSE o, en su caso, de su equivalente autonómico para la
+lengua de signos catalana.
+h)
+Medios técnicos y recursos invertidos para la sostenibilidad de la actividad de distribución
+de la película objeto de solicitud:
+1º. Análisis o estudios de medición de la huella de carbono o del impacto ambiental,
+2º. Alquiler por la utilización de servidores certificados como sostenibles o «verdes»,
+3º. Contratación de proveedores de servicios de mensajería certificados como
+ecológicos.
+2. Los gastos incluidos en las letras d) y e) del número anterior deberán representar, al menos,
+un 30 % del importe total de los gastos de distribución declarados. El incumplimiento de este
+requisito supondrá la desestimación automática de la solicitud de ayuda.
+3. Para ser considerados como gastos subvencionables, todos los gastos anteriores deben
+haber sido soportados por la empresa distribuidora solicitante y referirse a la distribución en
+salas de exhibición de la película objeto de la ayuda. No se podrán subvencionar los gastos
+mencionados cuando, total o parcialmente, hayan sido reconocidos como gasto imputado al
+productor.
+4. En ningún caso tendrán la consideración de gastos subvencionables:
+a)
+b)
+c)
+d)
+e)
+Los sueldos, salarios o cualquier otro tipo de retribución o remuneración, seguros
+sociales o impuestos del personal de la empresa distribuidora.
+El mantenimiento y funcionamiento ordinario de la empresa distribuidora tales como
+alquileres de locales, gastos financieros, licencias, impuestos, asesoría legal, consumos
+ordinarios (electricidad, gas, agua, teléfono…), acceso a Internet, equipamiento, etc.
+Las dietas, invitaciones o comidas que no estén enmarcadas en lo previsto en el apartado
+1.e) 3º.
+Las tasas por la calificación de la película y los impuestos indirectos, tales como IVA,
+IGIC u otros similares, cuando sean susceptibles de recuperación o compensación.
+Todos aquellos gastos no especificados exactamente como subvencionables en esta
+convocatoria
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+MINISTERIO
+DE CULTURA
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+Sexta. Solicitudes.
+La presentación de la solicitud para optar a estas ayudas implicará la conformidad con lo
+dispuesto en la presente convocatoria y en la Orden CUD/508/2021, de 25 de mayo, y supone la
+aceptación expresa y formal de lo establecido en las mismas.
+Las solicitudes, junto con toda la documentación relacionada en la norma Séptima, se
+presentarán obligatoriamente en la Sede Electrónica asociada del Ministerio de Cultura
+(enlace a Sede Electrónica), conforme a los requisitos que la rigen. Asimismo, se
+acompañarán los modelos normalizados disponibles en la misma.
+Las solicitudes se presentarán por la persona que actúe en nombre o representación de la
+persona jurídica solicitante, mediante certificado electrónico de persona jurídica a nombre de la
+entidad solicitante o bien certificado electrónico de persona física a nombre del representante
+legal de la entidad. En ambos casos, el certificado electrónico deberá estar emitido por alguna
+de las autoridades de certificación reconocidas por la Administración General del Estado.
+Si la solicitud no se acompaña de toda la documentación relacionada en la norma Séptima o
+adolece de algún defecto subsanable, será de aplicación lo establecido en el artículo 23.5 de la
+Ley 38/2003, de 17 de noviembre. No obstante, los documentos presentados en blanco no se
+considerarán defectos subsanables, sino que se continuará con su tramitación a efectos de la
+instrucción del expediente.
+Todos los actos y trámites relativos al procedimiento de gestión de estas ayudas serán
+notificados a las empresas interesadas mediante comparecencia en la Sede Electrónica
+asociada del Ministerio de Cultura o a través de la dirección habilitada única, a los efectos
+previstos en el artículo 43 de la Ley 39/2015, de 1 de octubre.
+Séptima. Documentación.
+1. En la solicitud y formulario que forma parte integrante de la misma, se incluirá, como mínimo,
+la información que a continuación se detalla, y se aportará, la documentación que se indica:
+a)
+Anexo III: Autoevaluación de la participación en festivales y premios y honores obtenidos
+de los incluidos en los anexos I y II, adjuntando o bien las invitaciones o certificados de
+los promotores de los festivales o de los convocantes de los premios y honores o bien
+una declaración responsable del productor, agente de ventas o distribuidor internacional
+de la película acreditando la participación en el festival y en la sección correspondiente.
+b)
+Anexo IV: Autoevaluación del riesgo asumido para su consideración como obra difícil.
+c)
+Anexo V: Declaración responsable de las ayudas selectivas obtenidas por la película. Se
+aportarán las resoluciones de concesión (salvo las correspondientes al ICAA) o una
+declaración responsable del productor o agente de ventas o distribuidor internacional de
+la película acreditando las ayudas declaradas.
+d)
+Anexo VI: Gastos subvencionables del presupuesto de distribución ejecutado. Se
+incluirán los gastos subvencionables a cargo del distribuidor y que puedan ser objeto de
+ayuda. Los importes se expresarán sin IVA, IGIC o impuestos similares.
+Anexo VII: Declaración responsable descrita en el apartado 2.
+Memoria que exponga el plan de promoción, que responda a los criterios de valoración
+señalados en las normas Novena 3.c) y f). El documento no podrá superar las 12 páginas
+ni las 4.000 palabras. No se tendrá en consideración lo que supere estos límites. Deberá
+incluir:
+1. El plan de distribución realizado indicando las copias distribuidas y su tipo (VO,
+VOS,VD), el ámbito territorial alcanzado desagregado por provincias y CCAA,
+número de semanas en cartel y número de espectadores alcanzado.
+e)
+f)
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+MINISTERIO
+DE CULTURA
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+2.
+3.
+4.
+5.
+6.
+Breve sinopsis de la película y competencia durante su distribución.
+Presupuesto total, sin impuestos, utilizado en el plan de promoción.
+Detalle de todas las actividades llevadas a cabo para la distribución de la película,
+con especial atención a la campaña de lanzamiento, incluyendo el plan de medios
+publicitarios. Se incluirá la parte asumida por el productor de la película, en su caso.
+Se precisará el ámbito territorial en el que se han desarrollado y, en su caso, las
+acciones dirigidas a un ámbito territorial específico.
+Detalle de la campaña de marketing digital y publicidad online. Se precisará el
+ámbito territorial en el que se han desarrollado y, en su caso, las acciones dirigidas
+a un ámbito territorial específico.
+Detalle de la aplicación de nuevas tecnologías aplicadas a la distribución,
+herramientas transmedia y herramientas de desarrollo de públicos (analíticas o
+estudio de públicos, transmedia: podcast, marketing de guerrilla; geolocalización,
+utilización de QR, estrenos o screenings en VOD…)
+g)
+Autorización expresa al ICAA para que obtenga, de forma directa, la acreditación del
+cumplimiento de estar al corriente en el pago de sus obligaciones tributarias y con la
+Seguridad Social.
+En el caso de que no se efectúe dicha autorización, la empresa solicitante deberá aportar
+las correspondientes certificaciones administrativas positivas, a efectos de
+subvenciones, expedidas por los órganos competentes. Las empresas deberán estar al
+corriente del cumplimiento de dichas obligaciones durante todo el procedimiento de
+tramitación de las ayudas, hasta el pago de las mismas.
+Si la empresa consta como inexistente en la Seguridad Social, deberá presentar el
+correspondiente informe de inexistencia y una declaración responsable en la que
+manifieste que no tiene obligación de cotizar en ningún régimen de la Seguridad Social
+ni dispone de empleados contratados a su cargo.
+En todo caso, las distribuidoras solicitantes con domicilio fiscal en la Comunidad
+Autónoma del País Vasco o la Comunidad Foral de Navarra presentarán certificado de
+estar al corriente de sus obligaciones tributarias con la respectiva Hacienda Foral y,
+además, certificado de estar al corriente con la AEAT.
+h)
+Resumen de las actividades de distribución y promoción realizadas por la solicitante,
+detallando su participación y experiencia en la distribución de películas de calidad y
+valores artísticos destacados, preferentemente en versión original o subtitulada en los
+últimos cinco años (máximo 3 páginas).
+i)
+Documento acreditativo de la adquisición por la solicitante de los derechos de distribución
+de la película en España en salas de exhibición: contrato o deal memo. En el caso de
+que la solicitante no hubiera adquirido los derechos directamente al productor, agente de
+ventas o distribuidor internacional, será necesario presentar toda la cadena de contratos
+existente.
+j)
+En el caso de películas extranjeras, acreditación de la fecha del estreno comercial de la
+película en el país de origen mediante certificación de la autoridad competente en la
+materia en dicho país. Si dicha entidad no lo emitiera, se presentará una declaración
+responsable del productor o distribuidor internacional de la película.
+k)
+Acreditación de la incorporación del sistema de audiodescripción para personas ciegas
+o con discapacidad visual, así como del sistema de subtitulado especial para personas
+sordas, mediante certificado emitido por la empresa que los haya realizado, el cual
+deberá hacer referencia expresa a los códigos de las normas UNE correspondientes:
+UNE 153010 para subtitulado especial y UNE 153020 para audiodescripción.
+l)
+Acreditación de un centro o empresa que siga las recomendaciones establecidas por el
+CNLSE sobre la calidad del sistema de lengua de signos española o, en su caso, de su
+equivalente autonómico para la lengua de signos catalana.
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+MINISTERIO
+DE CULTURA
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+m) Si la empresa solicitante no tiene residencia fiscal en territorio español, certificado de
+residencia fiscal emitido por las autoridades competentes de su país de residencia.
+n)
+En caso de que la ayuda solicitada supere los 30.000 € y, según la normativa contable,
+la distribuidora no pueda presentar cuenta de pérdidas y ganancias abreviada, certificado
+emitido por auditor inscrito en el Registro Oficial de Auditores de Cuentas que acredite
+el cumplimiento de los plazos de pago establecidos en la Ley 3/2004, de 29 de diciembre,
+indicando el plazo efectivo de pago de la empresa cliente, con independencia de
+cualquier instrumento de financiación utilizado para el cobro anticipado por parte de la
+empresa proveedora.
+o)
+Si se da el caso de la norma Primera.2, certificado de nacionalidad de la película
+expedido por la autoridad competente en la materia en el Estado miembro de la UE
+coproductor donde se acredite su condición de comunitaria.
+p)
+Declaración responsable de empresas vinculadas, según el modelo del Anexo VIII de
+esta resolución.
+q)
+Cuando se trate de películas que no hubieran sido calificadas en España por el ICAA,
+resolución de calificación por edades de la película expedida por el órgano competente
+de la Comunidad Autónoma correspondiente.
+2. El representante legal de la distribuidora solicitante realizará una declaración responsable
+para hacer constar que:
+a)
+b)
+c)
+d)
+e)
+f)
+g)
+Es distribuidor independiente, de acuerdo con la definición del artículo 4 ñ) de la Ley
+55/2007, de 28 de diciembre, del Cine;
+Está dado de alta en el Registro Administrativo de Empresas Cinematográficas y
+Audiovisuales, regulado por la Orden CUD/582/2020, de 26 de junio, por la que se
+establecen las bases reguladoras de las ayudas estatales para la producción de
+largometrajes y de cortometrajes y regula la estructura del Registro Administrativo de
+Empresas Cinematográficas y Audiovisuales y que los datos que constan no han sufrido
+modificación respecto de los ya existentes o bien en caso contrario, se adjunta la
+documentación acreditativa de la modificación;
+Está al corriente en el pago de obligaciones por reintegro, conforme al artículo 25 del
+Real Decreto 887/2006, de 21 de julio, y se compromete a mantener su cumplimiento
+durante el periodo de tiempo inherente al procedimiento de concesión de la ayuda (art.
+69 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las
+Administraciones Públicas);
+Se encuentra al corriente de las obligaciones de reembolso de subvenciones, conforme
+al artículo 9 de la Orden CUD/508/2021, de 25 de mayo, y se compromete a mantener
+su cumplimiento durante el periodo de tiempo inherente al procedimiento de concesión
+de la ayuda (art. 69 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo
+Común de las Administraciones Públicas);
+No ha sido objeto de sanción con la pérdida de la posibilidad de obtener subvenciones
+por incumplimiento de cualquier normativa, en especial de la que resulte de aplicación
+en materia de igualdad entre mujeres y hombres (Texto Refundido de la Ley sobre
+Infracciones y Sanciones en el Orden Social, aprobado por Real Decreto Legislativo
+5/2000, de 4 de agosto),
+No está incurso en ninguno de los demás supuestos del artículo 13.2 de la Ley 38/2003,
+de 17 de noviembre,
+Cumple con la normativa sobre la cuota de reserva de puestos de trabajo para personas
+con discapacidad (Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se
+aprueba el Texto Refundido de la Ley General de derechos de las personas con
+discapacidad y de su inclusión social).
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+MINISTERIO
+DE CULTURA
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+h)
+i)
+Ayudas solicitadas y/o recibidas para la misma actividad (se aportarán las resoluciones
+de concesión o una declaración responsable del productor o agente de ventas o
+distribuidor internacional de la película acreditando las ayudas declaradas).
+En caso de que la ayuda solicitada supere los 30.000 € y, según la normativa contable,
+la distribuidora pueda presentar cuenta de pérdidas y ganancias abreviada, que cumple
+los plazos de pago previstos en la Ley 3/2004, de 29 de diciembre, por la que se
+establecen medidas de lucha contra la morosidad en las operaciones comerciales.
+3. Toda la documentación se presentará en formato PDF.
+Octava. Plazo de presentación de solicitudes.
+1. El plazo de presentación de las solicitudes será de 15 días hábiles a partir del día 1 de febrero,
+finalizando a las 14 horas, hora peninsular, del último día de plazo. Todas las solicitudes
+recibidas finalizado el plazo de presentación indicado serán automáticamente excluidas del
+procedimiento.
+2. Finalizado el plazo de presentación de solicitudes, se hará pública en la página web del ICAA
+(enlace a página web) la lista provisional de admitidos y excluidos a la convocatoria con
+indicación en cada caso de los motivos de exclusión. Los solicitantes excluidos dispondrán
+de un plazo de cinco días hábiles, contados a partir del siguiente a la publicación de dicha
+lista, para presentar las alegaciones que consideren contra los motivos de su exclusión.
+Finalizado el plazo indicado y estudiadas las alegaciones presentadas, se dictará la
+correspondiente resolución motivada que igualmente se hará pública en la página de internet
+del ICAA.
+Novena. Instrucción del procedimiento y criterios de valoración.
+1. El órgano competente para la instrucción del procedimiento de concesión de las ayudas
+incluidas en la presente convocatoria es la Subdirección General de Promoción y Relaciones
+Internacionales del ICAA.
+2. Las solicitudes serán evaluadas por el Comité Asesor de Ayudas a la Distribución, regulado
+y con la composición prevista en el artículo 16 de la Orden CUD/508/2021, de 25 de mayo,
+aplicando los criterios de valoración relacionados en el apartado siguiente y emitirá informe
+no vinculante en el que se concretará el resultado de la evaluación efectuada, que elevará al
+órgano instructor.
+3. Las solicitudes admitidas serán valoradas mediante la aplicación de los criterios que a
+continuación se indican y de acuerdo a las ponderaciones máximas que se expresan, sin que
+en ningún caso pueda superarse la puntuación máxima de 100 puntos en total:
+a)
+La calidad y el interés cultural de las películas distribuidas concurrentes a la convocatoria,
+valorando cuestiones tales como la presencia en festivales, la obtención de premios de
+prestigio en el ámbito cinematográfico, el especial valor cultural de la película acreditado
+por la obtención de ayudas selectivas españolas o internacionales, así como el número
+de espectadores obtenidos en su exhibición en salas, hasta 30 puntos:
+1. Hasta 10 puntos por la participación en festivales y obtención de premios incluidos
+en el Anexo I de esta resolución para el caso de largometrajes y el Anexo II para el
+caso de cortometrajes, con la puntuación que consta en ellos. Sólo se valorará una
+de las circunstancias, ya que haber sido premiado implica la participación
+2. Hasta 5 puntos por el especial valor cultural de la película acreditado por la
+obtención de ayudas selectivas. Se consideran selectivas aquellas que hayan sido
+determinadas por un comité de valoración o selección de la Administración General
+del Estado, de las CCAA, de algún Estado Miembro de la Unión Europea, de la
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+MINISTERIO
+DE CULTURA
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+3.
+Comisión Europea o de un fondo de coproducción internacional. Se valorarán
+especialmente las ayudas selectivas a la producción de largometrajes sobre
+proyecto y las ayudas para la producción de cortometrajes del ICAA; las ayudas
+selectivas concedidas por las CCAA; las líneas de apoyo a los contenidos
+audiovisuales del Programa MEDIA 2014-2020 (Single Project y Slate Funding) y
+del Programa MEDIA 2021-2027 (European Co-Development, European Slate
+Development y European Mini Slate Development); las ayudas a coproducción de
+EURIMAGES; las ayudas a coproducción de IBERMEDIA y las ayudas a desarrollo
+de largometrajes de IBERMEDIA. Cualquier otra ayuda de carácter selectivo
+otorgada por la autoridad nacional competente de un Estado Miembro de la Unión
+Europea podrá declararse para su valoración por el Comité.
+Hasta 15 puntos por asistencia del público en salas:
+1º. Largometrajes: se asignará 1 punto por cada 3.000 espectadores.
+2º. Documentales y películas distribuidas mayoritaria o exclusivamente en versión
+original (VO/VOSE) en una lengua distinta de las oficiales del Estado: se
+asignará 1 punto por 1.000 espectadores y 2 puntos por cada 1.000 más.
+3º. Conjuntos de cortometrajes: se asignará 1 punto por cada 50 espectadores.
+b)
+El riesgo asumido por la distribuidora solicitante en la distribución de la película por
+tratarse de obras consideradas como obras difíciles de acuerdo con lo establecido en el
+artículo 21.2 del Real Decreto 1084/2015, de 4 de diciembre, hasta 7 puntos:
+1. Si cumple con el supuesto de especial valor cultural de la letra f) del artículo
+mencionado: 3 puntos; el Comité determinará las películas o conjuntos de
+cortometrajes que se consideran dentro de este supuesto de especial valor cultural.
+2. Si la película cumple con uno de los otros supuestos del citado artículo: 3 puntos; y
+3. Si la película cumple con dos o más de los otros supuestos del artículo antedicho: 4
+puntos
+c)
+El presupuesto para la ejecución del plan de distribución y promoción de las películas,
+valorando especialmente la coherencia del mismo a dicha ejecución atendiendo al
+número de copias distribuidas y al ámbito territorial alcanzado: hasta 25 puntos. Se
+valorarán los siguientes aspectos:
+1. La coherencia del presupuesto en relación al plan de distribución planteado, hasta
+5 puntos;
+2. Las actividades llevadas a cabo para la distribución de la película y campaña
+promocional de lanzamiento con especial atención a la originalidad de las
+actividades promocionales para visibilizar el título y la alineación entre el plan de
+marketing y el de prensa y promoción, hasta 10 puntos;
+3. El esfuerzo realizado respecto al ámbito territorial de distribución alcanzado, hasta
+5 puntos; y
+4. La adecuación de todo lo anterior al impacto de la distribución llevada a cabo, hasta
+5 puntos.
+d)
+El ámbito territorial de distribución de la película: hasta 15 puntos:
+1. Largometrajes:
+a) mínimo de doce provincias y tres CCAA, 1 punto; y
+b) por cada provincia adicional, 1 punto.
+2. Conjuntos de cortometrajes, películas documentales o películas distribuidas
+únicamente en versión original en una lengua distinta de las oficiales del Estado:
+a) mínimo de cuatro provincias, 3 puntos; y
+b) por cada provincia adicional, 2 puntos.
+e) La distribución de las películas en versión original. Se tendrá en cuenta, en porcentaje, la
+proporción del número de copias en VO y VOS respecto al número total de copias
+distribuidas, es decir, (VO+VOS)/(VO+VOS+VD): hasta 15 puntos, a razón de 1,5 puntos
+por cada percentil completo. Las copias dobladas de películas españolas entre lenguas
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+MINISTERIO
+DE CULTURA
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+oficiales españolas computarán como VO de manera que todas las lenguas oficiales
+españolas se valoren en igualdad.
+f)
+La incorporación de nuevas tecnologías a la distribución, valorando la aplicación de
+tecnologías de innovación que amplíen el campo de acción posible: hasta 1 punto.
+g) El historial de la empresa distribuidora, con especial atención a los cinco últimos años, y
+la experiencia en la distribución de películas de calidad y de valores artísticos destacados,
+preferentemente en la Unión Europea y en Iberoamérica: hasta 7 puntos.
+h) Puesta a disposición de las empresas exhibidoras de copias que incluyan la traducción a
+lengua de signos española, cuya calidad haya sido acreditada de acuerdo con las
+recomendaciones establecidas por el CNLSE o, en su caso, de su equivalente autonómico
+para la lengua de signos catalana: 2 puntos.
+4. Para la valoración de las condiciones de accesibilidad para las personas con discapacidad de
+las solicitudes, el Comité podrá recabar el consejo del Centro Español del Subtitulado y la
+Audiodescripción (CESyA) y del Centro de Normalización Lingüística de la Lengua de Signos
+Española (CNSLE) del Real Patronato sobre Discapacidad, definidos como centros estatales
+técnicos de referencia en materia de accesibilidad audiovisual para personas con
+discapacidad por el artículo 109.1 de la Ley 13/2022, de 7 de julio, General de Comunicación
+Audiovisual.
+Décima. Propuestas de resolución.
+1. El órgano instructor a la vista del expediente y del informe no vinculante del Comité expedirá
+certificación en la que conste que, de la información que obra en su poder, se desprende que
+los solicitantes propuestos cumplen con todos los requisitos necesarios para acceder a las
+ayudas. Realizada dicha certificación, formulará la propuesta de resolución provisional y la
+notificará a las personas interesadas mediante publicación en la página web del ICAA (enlace
+a página web) concediéndoles un plazo de cinco días hábiles para formular alegaciones.
+Examinadas estas, se formulará la propuesta de resolución definitiva, que deberá expresar la
+relación de solicitantes para los que se propone la concesión de la subvención, su cuantía y
+la evaluación final alcanzada por cada solicitud.
+2. La propuesta de resolución definitiva no crea derecho alguno a favor de la persona
+beneficiaria propuesta frente a la Administración, mientras no se le haya notificado la
+resolución de concesión.
+Undécima. Resolución.
+1. Formulada la propuesta de resolución definitiva, y de acuerdo con lo previsto en el artículo 10
+de la Ley 38/2003, de 17 de noviembre, la persona titular de la Dirección General del ICAA
+resolverá el procedimiento.
+2. La resolución de concesión será motivada, debiendo quedar, en cualquier caso, acreditados
+los fundamentos de la resolución que se adopte, conforme a lo establecido en el artículo 25.2
+de la Ley 38/2003, de 17 de noviembre. Dicha resolución, además de contener la relación de
+solicitantes para los que se concede la ayuda y la cuantía de la misma, especificando la
+evaluación realizada por el Comité, hará constar de manera expresa la desestimación del
+resto de las solicitudes y en ella figurará la película distribuida subvencionada y el importe de
+la ayuda. Asimismo, se incluirá una relación ordenada por puntuación de todas aquellas
+solicitudes que, cumpliendo con los requisitos para obtener la condición de beneficiario, no
+hayan sido estimadas por agotamiento de la cuantía máxima del crédito fijado en la
+convocatoria.
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+MINISTERIO
+DE CULTURA
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+En el caso de que alguno de los beneficiarios renunciara a la ayuda, y siempre que se hubiera
+liberado crédito suficiente para atender, al menos, una de las solicitudes desestimadas por
+agotamiento del crédito, se podrá acordar, sin necesidad de nueva convocatoria, la concesión
+de la ayuda al solicitante o solicitantes siguientes, en orden de su puntuación. Para ello, se
+comunicará la opción a los interesados, a fin de que manifiesten su aceptación en el plazo
+improrrogable de cinco días hábiles. Una vez aceptada la propuesta por parte del solicitante
+o solicitantes, la persona titular de la Dirección General del ICAA dictará el acto de concesión.
+3. El plazo máximo para dictar y notificar la resolución de concesión no podrá exceder de seis
+meses, a contar desde el día siguiente a aquél en que termine el plazo de presentación de
+solicitudes. El vencimiento del plazo máximo sin haberse notificado la resolución legitima a
+las personas interesadas para entender desestimada la solicitud a efectos de la interposición
+de los recursos que procedan.
+4. La resolución del procedimiento se notificará a los interesados de acuerdo con lo previsto en
+el artículo 26 de la Ley 38/2003, de 17 de noviembre. La relación de beneficiarios se publicará
+en la Base de Datos Nacional de Subvenciones, de acuerdo con el procedimiento establecido
+en el artículo 20.8 de la misma norma, y estará disponible en la página web del ICAA (enlace
+a página web).
+5. La resolución de concesión agota la vía administrativa, pudiendo interponerse contra ella
+recurso potestativo de reposición ante el mismo órgano que la dictó, en el plazo de un mes,
+de acuerdo con lo dispuesto en los artículos 123 y 124 de la Ley 39/2015, de 1 de octubre,
+pudiendo presentarse en el Registro Electrónico General, disponible en el Punto de Acceso
+General electrónico (PAGe), en la Sede Electrónica asociada del Ministerio de Cultura (enlace
+a Sede Electrónica), así como en cualquiera de los lugares indicados en el artículo 16.4 de la
+citada Ley; con identificación y firma electrónica del interesado o de su representante; o bien
+ser impugnada directamente ante el orden contencioso–administrativo en la forma y plazo
+previstos en la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contenciosoadministrativa.
+Duodécima. Concurrencia de ayudas.
+No se podrá conceder más de una ayuda para la distribución de una misma película por la misma
+empresa solicitante, ni su cuantía superar en concurrencia con subvenciones o ayudas de otras
+administraciones públicas o de otros entes públicos o privados, nacionales, de la Unión Europea
+o internacionales, los límites de intensidad establecidos en el artículo 21 del Real Decreto
+1084/2015, de 4 de diciembre o, en el caso de que se trate de ayudas europeas que no computen
+a efectos del cálculo de la intensidad, la cuantía total no podrá superar el importe total de los
+gastos subvencionables de la distribución presentada por la empresa solicitante.
+Decimotercera. Modificación de la resolución
+1. Podrá modificarse la resolución de concesión como consecuencia de la alteración de las
+condiciones tenidas en cuenta para la concesión y, particularmente, cuando se produzca una
+modificación en relación con los gastos subvencionables. En todo caso, la obtención
+concurrente de otras aportaciones fuera de los casos permitidos en las normas anteriores,
+podrá dar lugar a la modificación de la resolución de concesión, en los términos que en cada
+caso sea necesario.
+2. Una vez recaída la resolución de concesión, la persona beneficiaria podrá solicitar la
+modificación de su contenido, si concurren las circunstancias previstas en el apartado
+anterior, que se podrá autorizar siempre que no dañe derechos de tercero.
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+MINISTERIO
+DE CULTURA
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+3. El plazo para resolver y notificar la resolución será de un mes, transcurrido el cual las
+personas interesadas podrán entender desestimada su solicitud.
+Decimocuarta. Obligaciones de la persona beneficiaria y justificación de la ayuda.
+1. Las personas beneficiarias de las ayudas deben cumplir con las obligaciones establecidas en
+el artículo 13 de la Orden CUD/508/2021, de 25 de mayo. En concreto, vendrán obligadas a
+facilitar cuantas actuaciones de comprobación efectúe el Organismo y quedarán sometidos a
+las actividades de control financiero que corresponden a la Intervención General de la
+Administración del Estado y a las previstas en la legislación del Tribunal de Cuentas, a
+quienes facilitarán cuanta información les sea requerida al efecto. Para ello, los beneficiarios
+pondrán a disposición los libros contables, registros y demás documentos debidamente
+auditados en los términos exigidos por la legislación aplicable, así como conservarán los
+documentos justificativos de la aplicación de los fondos recibidos en tanto puedan ser objeto
+de dichas actuaciones y, en todo caso, durante cuatro años desde la fecha de concesión de
+la ayuda.
+2. Las personas beneficiarias tienen la obligación de poner en conocimiento del Organismo,
+inmediatamente después de producirse, la obtención concurrente de subvenciones o ayudas
+otorgadas por otros entes públicos o privados, nacionales, de la Unión Europea o
+internacionales, circunstancia que podrá dar lugar a la minoración de la ayuda si se superan
+los límites máximos de intensidad contenidos en el artículo 21 del Real Decreto 1084/2015,
+de 4 de diciembre o el importe total de los gastos subvencionables de la distribución
+presentada por la empresa solicitante.
+Asimismo, el ICAA aplicará dicha minoración cuando, en el ejercicio de sus competencias,
+compruebe que se produce tal exceso en la intensidad de las ayudas otorgadas por las
+Administraciones Públicas o en el importe total de los gastos subvencionables de la
+distribución presentada por la empresa solicitante.
+3. Los beneficiarios estarán obligados en el plazo máximo de un mes desde la notificación de la
+resolución de concesión a justificar la ayuda concedida bajo la modalidad de cuenta
+justificativa con aportación de justificantes de gasto prevista en el artículo 72 del Real Decreto
+887/2006, de 21 de julio. Para ello, los beneficiarios deberán presentar en la Sede Electrónica
+asociada del Ministerio de Cultura (enlace a Sede Electrónica), conforme a los requisitos que
+lo rigen:
+a) Una memoria de actuación justificativa del cumplimiento de las condiciones impuestas
+en la concesión de la ayuda, con indicación de las actividades realizadas y de los
+resultados obtenidos.
+b)
+c)
+d)
+Una relación clasificada de los gastos subvencionables de la distribución, con
+identificación del acreedor y de la factura, concepto facturado, su importe, fecha de
+emisión y fecha de pago, en formato electrónico Excel, ordenada conforme a las mismas
+categorías que figuran en el presupuesto del anexo VI.
+Las facturas o documentos de valor probatorio equivalente en el tráfico jurídico mercantil
+o con eficacia administrativa incorporados en la relación a que se hace referencia en el
+párrafo anterior. Las facturas relativas a los gastos de desplazamiento y alojamiento del
+personal autoral, creativo o artístico de la película a eventos promocionales, habrán de
+incluir su identificación en las mismas.
+La documentación acreditativa de los pagos de las facturas del párrafo anterior. Se
+admitirá la compensación con las salas de exhibición siempre que quede acreditada su
+relación con la distribución de la película objeto de la subvención y el justificante de pago
+que se aporte identifique la factura a la que corresponde. En el caso de que el pago se
+haya realizado con remesas se aportará el justificante bancario del pago junto con el
+documento acreditativo del detalle de la remesa.
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+MINISTERIO
+DE CULTURA
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+e)
+f)
+En su caso, las tres ofertas que, en aplicación del artículo 31.3 de la Ley 38/2003, de 17
+de noviembre, el beneficiario haya solicitado de diferentes proveedores, con carácter
+previo a la contratación, salvo que por sus especiales características no exista en el
+mercado suficiente número de entidades que realicen la obra, presten el servicio o
+suministren el bien, o salvo que el gasto se hubiere realizado con anterioridad a la
+subvención.
+Una relación detallada de otras ayudas o subvenciones que hayan financiado la actividad
+subvencionada con indicación del importe y su procedencia, en su caso.
+4. Las personas beneficiarias de las ayudas, además, están obligadas a hacer constar la
+colaboración del ICAA en su página de Internet en relación con la película, así como en todos
+los materiales de distribución de la película objeto de la ayuda que se editen a partir de la
+concesión de la misma, mediante la inserción del logotipo facilitado por el Organismo en una
+parte destacada, visible y claramente apreciable por el público.
+Decimoquinta. Pago de la ayuda.
+1. El pago de la ayuda se efectuará una vez justificada la ejecución del plan de distribución. La
+ordenación del pago será nominativa a favor de los respectivos beneficiarios y se realizará en
+un único plazo.
+2. En aplicación del artículo 34.5 de la Ley 38/2003, de 17 de noviembre, para hacer efectivo el
+pago de la ayuda, el beneficiario deberá hallarse al corriente en el cumplimiento de sus
+obligaciones tributarias y frente a la Seguridad Social, a cuyo efecto no será necesario aportar
+nuevas certificaciones si las anteriores no han caducado, en caso de que no hubiera
+autorizado al ICAA la consulta de sus datos en la Agencia Tributaria y en la Seguridad Social.
+Igualmente, el beneficiario no podrá ser deudor por resolución de procedencia de reintegro ni
+de reembolso y, en aplicación del artículo 13 de la Orden CUD/508/2021, de 25 de mayo,
+deberá tener residencial legal o establecimiento en España antes de la ordenación del pago.
+3. Si no se justificara fehacientemente la totalidad del presupuesto de distribución presentado
+en la solicitud, el pago se realizará por la cantidad resultante de dividir el gasto subvencionable
+finalmente justificado entre el presupuesto presentado en la solicitud, multiplicado por el
+importe de la ayuda concedida. Esta circunstancia implicará automáticamente la declaración
+de pérdida del derecho al cobro de la ayuda por el importe no justificado, lo que se comunicará
+al beneficiario.
+Decimosexta. Reintegro e infracciones y sanciones.
+1. Procederá el reintegro de las cantidades percibidas y la exigencia del interés de demora
+correspondiente desde el momento del pago de la ayuda cuando concurran las causas
+legalmente establecidas. Será causa de reintegro total de la ayuda recibida el incumplimiento
+de la obligación establecida en la norma Decimocuarta.4.
+2. En el supuesto de incumplimiento parcial, la fijación de la cantidad que deba ser reintegrada
+se determinará en aplicación del principio de proporcionalidad y teniendo en cuenta el hecho
+de que el citado incumplimiento se aproxime significativamente al cumplimiento total y se
+acredite por las personas beneficiarias una actuación inequívocamente tendente a la
+satisfacción de sus compromisos.
+3. En todo caso, será de aplicación en materia de reintegro de las ayudas el régimen establecido
+en el Título II de la Ley 38/2003, de 17 de noviembre, y en el Título III del Real Decreto
+887/2006, de 21 de julio.
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+MINISTERIO
+DE CULTURA
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+4. El régimen de infracciones y sanciones administrativas aplicables será el establecido en el
+Título IV de la Ley 38/2003, de 17 de noviembre, que se desarrolla en el Título IV del Real
+Decreto 887/2006, de 21 de julio.
+Decimoséptima. Recursos.
+Esta resolución agota la vía administrativa, pudiendo interponerse contra ella recurso
+potestativo de reposición ante el mismo órgano que la dictó, en el plazo de un mes, de
+acuerdo con lo dispuesto en los artículos 123 y 124 de la Ley 39/2015, de 1 de octubre,
+pudiendo presentarse en el Registro Electrónico General, disponible en el Punto de Acceso
+General electrónico (PAGe), en la Sede Electrónica asociada del Ministerio de Cultura
+(enlace a Sede Electrónica), así como en cualquiera de los lugares indicados en el artículo
+16.4 de la citada Ley; con identificación y firma electrónica del interesado o de su
+representante; o bien ser impugnada directamente ante el orden contencioso–administrativo
+en la forma y plazo previstos en la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción
+Contencioso-administrativa.
+La Directora General del Instituto de la Cinematografía y de las Artes Audiovisuales O.A., Marta
+Serrano San José
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+MINISTERIO
+DE CULTURA
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+ANEXO I
+VALORACIÓN FESTIVALES PREMIOS Y HONORES - LARGOMETRAJES
+Festivales internacionales
+Festivales
+Internationale Filmfestspiele Berlin.
+Berlinale
+Stuttgart International Festival of
+Animated Films (ITFS)
+Festival Internacional de Cine de Mar
+del Plata
+BAFICI – Buenos Aires Festival
+Internacional de Cine Independiente
+Sydney Film Festival
+Viennale Festival
+Anima - Brussels International
+Animation Film Festival
+Sofia International Film Festival
+Toronto International Film Festival
+Hot Docs Canadian International
+Documentary Festival
+Ottawa International Animation
+Festival
+Montreal Film Festival (World Film
+Festival)
+Chilemonos
+País
+Alemania
+Alemania
+Argentina
+Secciones
+Participación
+Sección oficial a concurso o competición
+Resto de secciones
+Sección oficial a concurso o competición
+Resto de secciones
+Sección oficial a concurso o competición
+Resto de secciones
+3
+2
+2
+1
+2
+1
+Participación
+y Premio
+5
+4
+3
+2
+4
+2
+Argentina
+Todas las secciones
+1
+2
+Australia
+Austria
+Todas las secciones
+Todas las secciones
+1
+2
+2
+2
+Bélgica
+Todas las secciones
+2
+3
+Bulgaria
+Canadá
+Todas las secciones
+Todas las secciones
+1
+2
+2
+4
+Canadá
+Todas las secciones
+2
+3
+Canadá
+Todas las secciones
+2
+3
+2
+1
+1
+4
+2
+2
+Chile
+Sección oficial a concurso o competición
+Resto de secciones
+Todas las secciones
+Shanghai International Film Festival
+China
+Todas las secciones
+2
+4
+Hong Kong International Film Festival
+China
+Todas las secciones
+2
+4
+Colombia
+Todas las secciones
+2
+3
+Festival Internacional de Cine de
+Cartagena de Indias
+Busan International Film Festival
+CPH:DOX
+Sundance Film Festival
+Tribeca Film Festival
+SXSW Film Festival Austin
+New York Film Festival
+Fantastic Fest Austin
+Animation is Film Festival
+Canadá
+Corea del
+Sur
+Dinamarca
+Estados
+Unidos
+Estados
+Unidos
+Estados
+Unidos
+Estados
+Unidos
+Estados
+Unidos
+Estados
+Unidos
+Cairo International Film Festival
+Egipto
+Tallin Black Nights Film Festival
+Estonia
+Festival de Cannes
+Francia
+Festival international du film
+d'animation d'Annecy
+Goa IFFI - India International Film
+Festival
+JIO Mami - Mumbai Film Festival
+La Biennale di Venezia / Mostra
+Internazionale d'Arte Cinematografica
+Torino Film Festival
+Cartoons on the Bay, Pulcinella
+Awards
+Francia
+Todas las secciones
+2
+3
+Todas las secciones
+Sección oficial a concurso o competición
+Resto de secciones
+1
+2
+1
+2
+3
+2
+Todas las secciones
+1
+2
+Todas las secciones
+1
+2
+Todas las secciones
+2
+2
+Todas las secciones
+1
+2
+Todas las secciones
+1
+2
+Sección oficial a concurso o competición
+Resto de secciones
+Sección oficial a concurso o competición
+Resto de secciones
+Sección oficial a concurso o competición
+Resto de secciones
+Sección oficial a concurso o competición
+Resto de secciones
+2
+1
+2
+1
+3
+2
+3
+1
+3
+2
+4
+2
+5
+4
+5
+2
+India
+Todas las secciones
+2
+3
+India
+Italia
+Todas las secciones
+Sección oficial a concurso o competición
+Resto de secciones
+Todas las secciones
+2
+3
+2
+2
+3
+5
+4
+3
+Italia
+Todas las secciones
+1
+2
+Italia
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+MINISTERIO
+DE CULTURA
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+Festivales
+Tokyo International Film Festival
+(TIFF)
+Festival Internacional de Cine de
+Guadalajara (FICG)
+International Film Festival Rotterdam
+International Documentary Film
+Festival Amsterdam (IDFA)
+País
+Secciones
+Participación
+Participación
+y Premio
+Japón
+Todas las secciones
+2
+3
+México
+Todas las secciones
+1
+2
+Países
+Bajos
+Países
+Bajos
+Sección oficial a concurso o competición
+Resto de secciones
+Sección oficial a concurso o competición
+Resto de secciones
+Sección oficial a concurso o competición
+Resto de secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+2
+1
+2
+1
+2
+1
+1
+1
+1
+4
+2
+4
+2
+3
+2
+2
+2
+2
+Todas las secciones
+1
+2
+Todas las secciones
+2
+4
+Warsaw International Film Festival
+Polonia
+Indie Lisboa Film Festival
+DOC Lisboa
+Cinanima
+Portugal
+Portugal
+Portugal
+Reino
+Unido
+República
+Checa
+London Film Festival (BFI)
+Karlovy Vary International Film
+Festival
+Transilvania International Film
+Festival
+Moscow International Film Festival
+Rumanía
+Todas las secciones
+1
+2
+Rusia
+Todas las secciones
+2
+4
+Suecia
+Todas las secciones
+1
+2
+Stockholm Film Festival
+Visions du Rèel, Festival International
+de Cinema Nyon
+Suiza
+Todas las secciones
+1
+2
+2
+1
+1
+4
+2
+2
+1
+2
+Festival del Film Locarno
+Suiza
+Istanbul Film Festival
+Kyiv International Film Festival,
+Molodist.
+Turquía
+Sección oficial a concurso o competición
+Resto de secciones
+Todas las secciones
+Ucrania
+Todas las secciones
+Festivales nacionales
+Secciones
+Participación
+Participación
++ Premio
+2
+Festivales
+Localidad
+D`A Film Festival
+Festival Internacional de Documentales
+DocsBarcelona
+Festival Internacional de Cine Documental
+y Cortometraje de Bilbao ZINEBI
+Barcelona
+Todas las secciones
+1
+Barcelona
+Todas las secciones
+1
+2
+2
+1
+3
+3
+2
+5
+Sección oficial a concurso o competición
+Bilbao
+Resto de secciones
+Donostia - San Sección oficial a concurso o competición
+Sebastian
+Resto de secciones
+2
+4
+Gijón
+Sección oficial a concurso o competición
+Resto de secciones
+2
+1
+3
+2
+Festival de Huelva de Cine Iberoamericano
+Huelva
+Todas las secciones
+1
+2
+Festival Internacional de Documentales
+DocumentaMadrid
+Madrid
+Todas las secciones
+1
+2
+Festival de Málaga
+Málaga
+Festival Internacional de Cine de Las
+Palmas de Gran Canaria
+2
+1
+3
+2
+Todas las secciones
+1
+2
+Todas las secciones
+2
+3
+Atlántida Mallorca Film Festival
+Festival Punto de Vista
+Weird
+Las Palmas de
+Gran Canaria
+Las Palmas de
+Gran Canaria
+Mallorca
+Pamplona
+Segovia
+Sección oficial a concurso o competición
+Resto de secciones
+Festival de Cine Europeo de Sevilla
+Sevilla
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Sección oficial a concurso o competición
+Resto de secciones
+Sección oficial a concurso o competición
+Resto de secciones
+Todas las secciones
+Todas las secciones
+Sección oficial a concurso o competición
+Resto de secciones
+1
+1
+2
+2
+1
+2
+1
+1
+1
+2
+1
+2
+2
+3
+3
+2
+3
+2
+2
+2
+3
+2
+Todas las secciones
+1
+2
+Festival Internacional de Cine de San
+Sebastián / Donostia Zinemaldia
+Festival Internacional de Cine de Gijón
+Animayo
+Sitges. Festival Internacional de Cinema
+Sitges
+Fantàstic de Catalunya.
+Mostra de Valencia Cinema del Mediterrani
+Valencia
+Cinema Jove
+Valencia
+Semana Internacional de Cine de
+Valladolid
+Valladolid (Seminci).
+Miradasdoc. Festival Internacional de Cine
+Guía de Isora
+Documental.
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+MINISTERIO
+DE CULTURA
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+Premios y honores
+Premio
+País
+Nominación
+Premios Goya (Academia de las Artes y las Ciencias Cinematográficas de España)
+Premios Quirino de la Animación Iberoamericana
+Premios Forqué
+Premios Oscar (Academia de las Artes y Ciencias Cinematográficas de Hollywood) /
+The Oscars (Academy of Motion Picture Arts and Sciences).
+España
+España
+España
+Estados
+Unidos
+2
+2
+2
+Nominación+
+Premio
+3
+3
+3
+4
+5
+Premios Globos de Oro (Asociación de la Prensa Extranjera de Hollywood) / Golden
+Globe Awards (The Hollywood Foreign Press Association).
+Estados
+Unidos
+Estados
+Unidos
+3
+4
+2
+3
+Europa
+2
+3
+Francia
+Europa
+España /
+Iberoamérica
+UE
+Reino Unido
+2
+2
+3
+4
+Premios ANNIE (Premios de la Asociación Internacional de Cine de Animación)
+Premios de Cine Europeo EFA (Academia de Cine Europeo)/ European Film Awards
+EFA (European Film Academy).
+European Animation Awards. Emile Awards
+Eurodoc
+Premios Platino
+Premios de Academias de cine nacionales de Estados Miembros de la UE
+Premios BAFTA (Premios de Cine de la Academia Británica)
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+2
+4
+2
+2
+3
+3
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+MINISTERIO
+DE CULTURA
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+ANEXO II
+VALORACIÓN FESTIVALES, PREMIOS Y HONORES - Conjuntos de CORTOMETRAJES
+Festivales internacionales
+Participación
+y Premio
+4
+3
+2
+2
+Festivales
+País
+Sección
+Participación
+Internationale Filmfestspiele Berlin. Berlinale
+International Film Festival Oberhausen
+DOK Leipzig
+Interfilm Berlin
+Stuttgart International Festival of Animated Film
+(ITFS)
+FilmFest Dresden
+BAFICI – Buenos Aires Festival Internacional de
+Cine Independiente
+Sydney Film Festival
+Viennale Festival
+Vienna Independent Shorts (VIS)
+Anima - Brussels International Animation Film
+Festival
+Anima Mundi
+Belo Horizonte International Short Film Festival
+Sao Paulo International Short Film Festival
+Ottawa International Animation Festival
+Toronto International Film Festival (TIFF)
+Hot Docs Canadian International Documentary
+Film Festival.
+Chilemonos
+Shanghai International Film Festival.
+Bogoshorts Festival de Cortos de Bogotá
+Festival Internacional de cine de Cartagena de
+Indias – FICCI
+Busan International Film Festival
+Animafest Zagreb
+Sundance Film Festival
+Tribeca Film Festival
+SXSW Film Festival Austin
+Nashville Film Festival
+Austin Film Festival
+Slamdance Film Festival
+Fantastic Fest Austin
+Tallinn Black Nights Film Festival
+Tampere Film Festival
+Festival de Cannes
+Festival International du film d’animation d’Annecy
+Festival International du Court Métrage de
+Clermont Ferrand
+La Biennale di Venezia / Mostra Internazionale
+d’Arte Cinematografica
+Cartoons on the Bay, Pulcinella Awards
+Hiroshima International Animation Festival
+Tokyo International Film Festival
+Sapporo International Short Film Festival
+Riga International Film Festival
+Festival Internacional de Cine de Guadalajara
+Pixelatl
+International Film Festival Rotterdam
+International Documentary Film Festival
+Amsterdam (IDFA)
+Krakow Film Festival
+Warsaw International Film Festival
+Curtas Vila do Conde
+Cinanima
+London Film Festival (BFI)
+Glasgow Short Film Festival
+Alemania
+Alemania
+Alemania
+Alemania
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+2
+2
+1
+1
+Alemania
+Todas las secciones
+2
+3
+Alemania
+Todas las secciones
+1
+2
+Argentina
+Todas las secciones
+1
+2
+Australia
+Austria
+Austria
+Todas las secciones
+Todas las secciones
+Todas las secciones
+1
+2
+1
+2
+2
+2
+Bélgica
+Todas las secciones
+1
+2
+Brasil
+Brasil
+Brasil
+Canadá
+Canadá
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+1
+1
+1
+1
+2
+2
+2
+2
+2
+3
+Canadá
+Todas las secciones
+2
+3
+Chile
+China
+Colombia
+Todas las secciones
+Todas las secciones
+Todas las secciones
+1
+1
+1
+2
+2
+2
+Colombia
+Todas las secciones
+1
+2
+Corea del Sur
+Croacia
+Estados Unidos
+Estados Unidos
+Estados Unidos
+Estados Unidos
+Estados Unidos
+Estados Unidos
+Estados Unidos
+Estonia
+Finlandia
+Francia
+Francia
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+1
+1
+2
+1
+1
+1
+1
+1
+1
+2
+1
+2
+2
+2
+2
+3
+2
+2
+2
+2
+2
+2
+3
+2
+4
+4
+Francia
+Todas las secciones
+2
+3
+Italia
+Todas las secciones
+2
+4
+Italia
+Japón
+Japón
+Japón
+Letonia
+México
+México
+Países Bajos
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+3
+Países Bajos
+Todas las secciones
+2
+3
+Polonia
+Polonia
+Portugal
+Portugal
+Reino Unido
+Reino Unido
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+1
+2
+1
+1
+1
+1
+2
+3
+2
+2
+2
+2
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+MINISTERIO
+DE CULTURA
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+Festivales
+País
+Sección
+Participación
+Encounters Bristol Film Festival
+Edinburgh International Film Festival
+Reino Unido
+Reino Unido
+Todas las secciones
+Todas las secciones
+1
+1
+Participación
+y Premio
+2
+2
+Raindance Film Festival
+Reino Unido
+Todas las secciones
+1
+2
+Karlovy Vary International Film Festival
+Transilvania International Film Festival
+Moscow International Film Festival
+St. Petersburg Message to Man International Film
+Festival
+Stokholm Film Festival
+Festival del Film Locarno
+Visions du Réel
+Internationale Kurzfilmtage Winterthur
+Kyiv International Film Festival, Molodist
+República
+Checa
+Rumanía
+Rusia
+Todas las secciones
+2
+3
+Todas las secciones
+Todas las secciones
+1
+2
+2
+3
+Rusia
+Todas las secciones
+1
+2
+Suecia
+Suiza
+Suiza
+Suiza
+Ucrania
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+1
+2
+1
+1
+1
+2
+4
+2
+2
+2
+Festivales nacionales
+Localidad
+Festival de Cortometrajes de Aguilar de Campoo
+Festival de Cine Independiente de Albacete.
+ABYCINE
+Festival de Cine de Alcalá de Henares ALCINE
+Festival Internacional de Cine de Almería
+Avilés Action Film Festival
+Festival Ibérico de Cinema de Badajoz
+Festival Internacional de Documentales
+DocsBarcelona
+Festival de Cines Independiente L’Alternativa
+Festival Internacional de Cine Documental y
+Cortometraje de Bilbao ZINEBI
+Festival Internacional de Cine de Gijón
+Festival Internacional de Cine de Las Palmas de
+Gran Canaria
+Aguilar de Campoo
+Todas las secciones
+1
+Albacete
+Todas las secciones
+1
+2
+Alcalá de Henares
+Almería
+Avilés
+Badajoz
+Todas las secciones
+Todas las secciones
+Todas las secciones
+Todas las secciones
+1
+1
+1
+1
+2
+2
+2
+2
+Barcelona
+Todas las secciones
+1
+2
+Barcelona
+Todas las secciones
+1
+2
+Animayo
+Festival de Cine Solidario de Guadalajara.
+FESCIGU
+Festival Internacional de Cine Huesca
+Animac. Mostra Internacional de Cinema
+d’Animació de Catalunya
+Festival Internacional de Documentales
+DocumentaMadrid
+Cortogenia
+Festival de Cine de Madrid -Plataforma Nuevos
+Realizadores
+Festival de Málaga
+Semana del Cine de Medina del Campo
+Festival Internacional de Cine Documental de
+Navarra Punto de Vista
+Curtocircuito. Festival Internacional de Cine
+Weird
+Sitges. Festival Internacional de Cinema
+Fantàstic de Catalunya
+Certamen Internacional de Cortos Ciudad de
+Soria
+Festival Internacional de Cortometrajes de
+Torrelavega
+Festival Internacional de Cine de Valencia
+Cinema Jove
+Semana Internacional de Cine de Valladolid
+(Seminci)
+Miradasdoc. Festival Internacional de Cine
+Documental.
+Sección
+Participación
+Participación
+y Premio
+2
+Festivales
+Bilbao
+Todas las secciones
+2
+3
+Gijón
+Las Palmas de Gran
+Canaria
+Las Palmas de Gran
+Canaria
+Todas las secciones
+2
+3
+Todas las secciones
+1
+2
+Todas las secciones
+1
+2
+Guadalajara
+Todas las secciones
+1
+2
+Huesca
+Todas las secciones
+1
+2
+Lleida
+Todas las secciones
+1
+2
+Madrid
+Todas las secciones
+1
+2
+Madrid
+Todas las secciones
+1
+2
+Madrid
+Todas las secciones
+1
+2
+Málaga
+Medina del Campo
+Todas las secciones
+Todas las secciones
+2
+2
+3
+3
+Pamplona
+Todas las secciones
+2
+3
+Santiago de
+Compostela
+Segovia
+Todas las secciones
+1
+2
+Todas las secciones
+1
+2
+Sitges
+Todas las secciones
+2
+3
+Soria
+Todas las secciones
+1
+2
+Torrelavega
+Todas las secciones
+1
+2
+Valencia
+Todas las secciones
+1
+2
+Valladolid
+Todas las secciones
+2
+3
+Isora
+Todas las secciones
+1
+2
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+MINISTERIO
+DE CULTURA
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+Premios y honores
+Premio
+País
+Nominación
+Premios Goya (Academia de las Artes y las Ciencias Cinematográficas de España)
+Premios Quirino de la Animación Iberoamericana
+Premios Oscar (Academia de las Artes y Ciencias Cinematográficas de Hollywood) / The
+Oscars (Academy of Motion Picture Arts and Sciences).
+Premios Forqué
+España
+España
+Estados
+Unidos
+España
+Estados
+Unidos
+2
+2
+Premios ANNIE (Premios de la Asociación Internacional de Cine de Animación)
+Premios de Cine Europeo EFA (Academia de Cine Europeo) / European Film Awards EFA
+(European Film Academy).
+European Animation Awards. Emile Awards
+Eurodoc
+Premios Platino
+Premios de Academias de cine nacionales de Estados Miembros de la UE
+Premios BAFTA (Premios de Cine de la Academia Británica)
+Nominación +
+Premio
+4
+3
+3
+5
+2
+3
+2
+3
+Europa
+2
+4
+Francia
+Europa
+España /
+Iberoamérica
+1
+2
+2
+4
+2
+4
+UE
+1
+2
+Reino Unido
+1
+2
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+MINISTERIO
+DE CULTURA
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+ANEXO III
+AUTOEVALUACIÓN DE PARTICIPACIÓN EN FESTIVALES Y PREMIOS INCLUIDOS EN ANEXOS I Y II
+Distribuidora Solicitante
+Puntos finales
+LARGOMETRAJE / CONJUNTO DE CORTOMETRAJES
+0
+Instrucciones:
+A) Rellene solo los casilleros sombreados, utilizando la lista desplegable.
+La distribuidora solicitante declara, de conformidad con el artículo 69 de la Ley 39/2015, de 1 de B) En caso necesario, añada filas pulsando el boton "Añadir Filas" de la sección
+octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, la veracidad correspondiente.
+C) Aceptar usar macros para poder añadir filas.
+de la información consignada en este formulario.
+D) Rellene sus participaciones en la sección de "Largometrajes" y/o "Cortometrajes",
+según corresponda.
+LARGOMETRAJES
+Festivales
+Festivales Internacionales
+Seleccione: Festival || Sección
+Pais
+Premio Sí/No
+Total Puntuación
+Festivales Nacionales
+Festivales Nacionales Largos
+Seleccione: Festival || Sección
+Localidad
+Premios y Honores
+Premios y Honores Largos
+Total Puntuación
+Seleccione premios y honores nominados
+Festivales Internacionales
+Premio Sí/No
+Añadir Filas
+Puntuación
+0 Puntos
+Añadir Filas
+Puntuación
+0 Puntos
+Premio Sí/No
+Añadir Filas
+Puntuación
+Total Puntuación
+0 Puntos
+Pais
+CORTOMETRAJES
+Festivales Internacionales Cortos
+Seleccione: Festival || Sección
+Pais
+Festivales Nacionales
+Festivales Nacionales Cortos
+Seleccione: Festival || Sección
+Localidad
+Premios y Honores
+Premios y Honores Cortos
+Seleccione premios y honores nominados
+Premio Sí/No
+Total Puntuación
+Premio Sí/No
+Total Puntuación
+Pais
+Añadir Filas
+Puntuación
+0 Puntos
+Añadir Filas
+Puntuación
+0 Puntos
+Premio Sí/No
+Añadir Filas
+Puntuación
+Total Puntuación
+0 Puntos
+(Firma electrónica visible del representante legal de la distribuidora solicitante)
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+MINISTERIO
+DE CULTURA
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+ANEXO IV
+AUTOEVALUACIÓN DE CONSIDERACIÓN COMO OBRA DIFICIL
+Rellene sólo los casilleros de color blanco.
+La consideración como obra difícil se realizará de acuerdo con lo establecido en el artículo 21.2 del Real Decreto 1084/2015, de 4
+de diciembre. La puntuación máxima a obtener será de 7 puntos a razón a razón de 3 puntos si cumple, a juicio del Comité Asesor
+de Ayudas a la Distribución, con el supuesto de especial valor cultural establecido en el apartado f), 3 puntos si cumple con 1 de
+los supuestos y 4 puntos si cumple con 2 o más de los supuestos establecidos a continuación.
+La distribuidora solicitante declara, de conformidad con el artículo 69 de la Ley 39/2015, de 1 de octubre, del Procedimiento
+Administrativo Común de las Administraciones Públicas, la veracidad de la información consignada en este formulario.
+Distribuidora
+Solicitante:
+Largometraje
+/ Conjunto de
+Cortometrajes
+SUPUESTOS
+1.Producción transfronteriza financiada por más de un Estado miembro de la UE.
+2. a) Cortometrajes.
+CUMPLIMIENTO
+SI/NO
+NO
+NO
+2.b) Las obras audiovisuales dirigidas por una persona que no haya dirigido o codirigido
+más de dos largometrajes calificados para su explotación comercial en salas de
+exhibición cinematográfica cuyo presupuesto de producción no supere 1.500.000 euros.
+NO
+2.c) Las obras audiovisuales rodadas íntegramente en alguna de las lenguas cooficiales
+distintas al castellano que se proyecten en España en dicho idioma cooficial o
+subtitulado.
+NO
+2.d) Las obras audiovisuales realizadas exclusivamente por directores o directoras con
+un grado de discapacidad igual o superior al 33% reconocido por el órgano competente.
+NO
+2.e) Las obras audiovisuales realizadas exclusivamente por directoras.
+NO
+2.g) Documentales
+NO
+2.h) Las obras de animación cuyo presupuesto de producción no supere 2.500.000
+euros.
+NO
+2.i) Las obras audiovisuales realizadas en régimen de coproducción con países
+iberoamericanos.
+NO
+TOTAL SUPUESTOS QUE SE CUMPLEN
+0
+PUNTUACIÓN
+0
+(Firma electrónica visible del representante legal de la empresa distribuidora solicitante)
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+MINISTERIO
+DE CULTURA
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+ANEXO V
+DECLARACIÓN DE AYUDAS OBTENIDAS POR LA PELICULA
+Señale las ayudas selectivas obtenidas por el largometraje o conjunto de cortometrajes. En caso necesario,
+añadir filas.
+Se acompañarán las resoluciones de concesión (salvo las correspondientes al ICAA) o una declaración
+responsable del productor o agente de ventas o distribuidor internacional de la película acreditando las
+ayudas declaradas.
+Empresa Distribuidora Solicitante
+Largometraje / Conjunto de
+Cortometrajes
+AYUDAS SELECTIVAS OBTENIDAS
+ICAA – Ayudas selectivas para la producción de largometrajes sobre proyecto
+ICAA – Ayudas a productores independientes para la producción de cortometrajes sobre proyecto
+ICAA – Ayudas a productores independientes para la producción de cortometrajes realizados
+MEDIA 2014-2020 – Single Project
+MEDIA 2014-2020 – Slate Funding
+MEDIA 2021-2027 – European Co-Development
+MEDIA 2021-2027 – European Slate Development
+MEDIA 2021-2027 – European Mini Slate Development
+EURIMAGES – Coproducción
+IBERMEDIA – Coproducción
+IBERMEDIA – Desarrollo de largometrajes
+CCAA – Cualquier ayuda selectiva otorgada por la autoridad competente de una Comunidad
+Autónoma relacionada con el desarrollo y la producción de una obra audiovisual (indicar cuál)
+Cualquier otra ayuda de carácter selectivo otorgada por la autoridad nacional competente de
+un Estado Miembro de la UE, relacionada con el desarrollo y la producción de una obra
+audiovisual (indicar cuál):
+Euros
+Euros
+Euros
+(Firma electrónica visible del representante legal de la empresa distribuidora solicitante)
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+MINISTERIO
+DE CULTURA
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+ANEXO VI
+PRESUPUESTO DE DISTRIBUCIÓN EJECUTADO TOTAL (IMPORTES SIN IVA)
+GASTOS SUBVENCIONABLES
+Distribuidora Solicitante
+Largometraje / Conjunto de
+Cortometrajes
+A. TIRAJE DE COPIAS
+Master digital de la película y/o avance
+Copias digitales de la película y/o avance
+Claves de protección (KDM )
+Internegativo óptico de la película y/o avance
+Copias en 35mm de la película y/o avance
+Gastos en concepto de VPF (Virtual Print Fee)
+Almacenamiento y envío de copias
+Importes (€)
+Total A.
+0,00
+B. SUBTITULADO ESTÁNDAR
+C. DOBLAJE
+D. PUBLICIDAD
+D.1. Materiales
+Diseño, adaptación e impresión del cartel de la película para publicidad exterior
+Diseño e impresión de folletos, dípticos y similares
+Diseño e impresión del cartel (publicidad en salas cinematográficas) y adapción a pantallas y
+soportes físicos digitales
+Diseño y producción de publicidad radio, prensa, televisión, redes sociales y plataformas digitales
+Otro material publicitario y merchandising promocional no incluido (especificar):
+--
+Total D.1
+0,00
+D.2 Compra de Espacios
+Televisión
+Radio
+Diarios y Suplementos
+Revistas
+Exterior
+Internet
+Páginas web
+Redes sociales
+Salas Cinematográficas
+Otros espacios (especificar):
+--
+Total D.2
+Total D.
+0,00
+0,00
+E. MATERIALES DE PROMOCIÓN
+Dosieres, envíos postales de documentación y proyecciones de prensa
+Contratación específica de agentes de prensa y publicistas
+Recepciones, fiestas y eventos promocionales del estreno
+Investigación mercado
+Página específica y otras aplicaciones para internet de la película (redes sociales)
+Nuevas tecnologías de distribución: aplicaciones para móvil, aplicaciones 3D/4D y similares.
+Total E.
+0,00
+F. MEDIDAS CONTRA LA PIRATERÍA
+Descripción detallada (añadir anexos, en su caso, para mayor detalle):
+G. ACCESIBILIDAD
+Inclusión de sistemas de audiodescripción según norma UNE 153020
+Inclusión de sistemas de subtitulado especial según norma UNE 153010
+Inclusión de lengua de signos española según las recomendaciones del CNLSE y/o
+catalana
+Total G.
+0,00
+H. SOSTENIBILIDAD
+Análisis o estudios de medición de la huella de carbono o del impacto ambiental (adjuntar
+análisis o estudio)
+Alquiler por la utilización de servidores certificados como sostenibles (adjuntar
+certificado)
+Contratación de proveedores de servicios de mensajería certificados como ecológicos
+(adjuntar cerfificado)
+Total H.
+0,00
+GASTOS SUBVENCIONABLES TOTALES
+0,00
+AYUDA QUE SE SOLICITA (Máximo 50% gastos subvencionables totales)
+(Firma electrónica visible del representante legal de la distribuidora solicitante)
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+MINISTERIO
+DE CULTURA
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+ANEXO VII
+DECLARACIONES RESPONSABLES
+Distribuidora Solicitante
+Largometraje / Conjunto de
+Cortometrajes
+Don/Doña ___________________________________________________ con DNI ______________,
+en calidad de representante legal de la empresa distribuidora solicitante DECLARA que:
+Es distribuidor independiente, de acuerdo con la definición del artículo 4 ñ) de la Ley 55/2007, de 28 de diciembre, del Cine.
+Está dado de alta en el Registro Administrativo de Empresas Cinematográficas y Audiovisuales, regulado por la Orden
+CUD/582/2020, de 26 de junio, por la que se establecen las bases reguladoras de las ayudas estatales para la producción de
+largometrajes y de cortometrajes y regula la estructura del Registro Administrativo de Empresas Cinematográficas y
+Audiovisuales, de 26 de junio, y los datos que constan no han sufrido modificación respecto de los ya existentes o bien en
+caso contrario, adjunta la documentación acreditativa de la modificación.
+Está al corriente en el pago de obligaciones por reintegro de subvenciones, conforme al artículo 25 del Real Decreto
+887/2006, de 21 de julio. Además, se compromete a mantener su cumplimiento durante el periodo de tiempo inherente al
+procedimiento de concesión de la ayuda (art. 69 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común
+de las Administraciones Públicas).
+Está al corriente de las obligaciones de reembolso de subvenciones, conforme al artículo 9 de la Orden CUD/508/2021, de
+25 de mayo. Además, se compromete a mantener su cumplimiento durante el periodo de tiempo inherente al procedimiento
+de concesión de la ayuda (art. 69 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las
+Administraciones Públicas).
+No ha sido objeto de sanción con la pérdida de la posibilidad de obtener subvenciones por incumplimiento de cualquier
+normativa, en especial de la que resulte de aplicación en materia de igualdad entre mujeres y hombres (Texto Refundido de
+la Ley sobre Infracciones y Sanciones en el Orden Social, aprobado por Real Decreto Legislativo 5/2000, de 4 de agosto).
+No se halla incurso en ninguno de los supuestos del artículo 13.2 de la Ley 38/2003, de 17 de noviembre.
+Cumple con la normativa sobre la cuota de reserva de puestos de trabajo para personas con discapacidad (Real Decreto
+Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las
+personas con discapacidad y de su inclusión social).
+(Marcar si procede) La ayuda solicitada supera los 30.000 € y, según la normativa contable, la distribuidora
+puede presentar cuenta de pérdidas y ganancias abreviada, cumple los plazos de pago previstos en la Ley
+3/2004, de 29 de diciembre, por la que se establecen medidas de lucha contra la morosidad en las operaciones
+comerciales.
+Ha solicitado y/o recibido las siguientes ayudas para la misma actividad (distribución de la película). Se acompañarán las
+resoluciones de concesión o una declaración responsable del productor o agente de ventas o distribuidor internacional de la
+película acreditando las ayudas declaradas:
+Organismo
+Ayuda
+Importe solicitado (€)
+Importe concedido (€)
+(Firma electrónica visible del representante legal de la distribuidora solicitante)
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+INFORME DE FIRMA, no sustituye al documento original | C.S.V. : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529 | Puede verificar la integridad de este documento en la siguiente dirección: https://run.gob.es/hsblF8yLcR
+INSTITUTO DE LA CINEMATOGRAFÍA Y
+DE LAS ARTES AUDIOVISUALES
+MINISTERIO
+DE CULTURA
+SUBDIRECCIÓN GENERAL DE PROMOCIÓN
+Y RELACIONES INTERNACIONALES
+ANEXO VIII
+Don/Doña:
+con DNI:
+Representante legal
+de la Distribuidora:
+con NIF:
+DECLARACIÓN RESPONSABLE DE EMPRESAS VINCULADAS
+DECLARA:
+Que, de conformidad con lo dispuesto en el artículo 69 de la Ley 39/2015, de 1 de octubre, del Procedimiento
+Administrativo Común de las Administraciones Públicas, y en relación con el criterio de vinculación previsto en
+el artículo 68.2 del Real Decreto 887/2006, de 21 de julio, por el que se aprueba el Reglamento de la Ley
+General de Subvenciones, la empresa distribuidora solicitante:
+NO CUENTA con empresas distribuidoras vinculadas.
+CUENTA con las siguientes empresas distribuidoras vinculadas:
+Razón Social
+Empresa vinculada 1
+Empresa vinculada 2
+Empresa vinculada 3
+Empresa vinculada 4
+Empresa vinculada 5
+Empresa vinculada 6
+Empresa vinculada 7
+Empresa vinculada 8
+Empresa vinculada 9
+Empresa vinculada 10
+Para que conste a los efectos oportunos, en el día de la firma.
+(Firma electrónica visible del representante legal de la distribuidora solicitante)
+CSV : GEN-c87d-a5f7-0253-8a28-2480-a7aa-188c-3529
+DIRECCIÓN DE VALIDACIÓN : https://run.gob.es/hsblF8yLcR
+FIRMANTE(1) : MARTA SERRANO SAN JOSÉ | FECHA : 26/11/2026 15:44 | NOTAS : F
+NIF
+
+### Bases reguladoras: https://www.boe.es/buscar/act.php?id=BOE-A-2021-8863
+BOE-A-2021-8863 Orden CUD/508/2021, de 25 de mayo, por la que se establecen las bases reguladoras de las ayudas a la distribución de películas previstas en el artículo 28 de la Ley 55/2007, de 28 de diciembre, del Cine.
+Agencia Estatal Boletín Oficial del Estado
+Ir a contenido
+Consultar el diario oficial BOE
+Idioma actual:
+Castellano / es
+Puede seleccionar otro idioma:
+es / Castellano
+ca / Català
+gl / Galego
+eu / Euskara
+va / Valencià
+en / English
+fr / Français
+Mi BOE Desconectado.
+Pulse para acceder al servicio 'Mi BOE'
+Diarios Oficiales
+BOE
+BORME
+Otros diarios oficiales
+Información Jurídica
+Todo el Derecho
+Biblioteca Jurídica Digital
+Otros servicios
+Notificaciones
+Edictos judiciales
+Portal de subastas
+Anunciantes
+Datos abiertos
+Está Vd. en
+Documento consolidado BOE-A-2021-8863
+Legislación consolidadaEste texto consolidado es de carácter informativo y no tiene valor jurídico.
+La consolidación consiste en integrar en un solo texto, sin valor oficial, las modificaciones, correcciones y derogaciones de carácter expreso que una norma ha tenido desde su origen, con el objetivo de facilitar el acceso al Derecho vigente. Para fines jurídicos, debe consultarse la publicación oficial.
+Ayuda
+Orden CUD/508/2021, de 25 de mayo, por la que se establecen las bases reguladoras de las ayudas a la distribución de películas previstas en el artículo 28 de la Ley 55/2007, de 28 de diciembre, del Cine.
+Publicado en:
+«BOE» núm. 126, de 27/05/2021.
+Entrada en vigor:
+28/05/2021
+Departamento:
+Ministerio de Cultura y Deporte
+Referencia:
+BOE-A-2021-8863
+Permalink ELI:
+https://www.boe.es/eli/es/o/2021/05/25/cud508/con
+Seleccionar redacción:
+Última actualización publicada el 02/06/2023
+Texto inicial publicado el 27/05/2021
+PDF
+ePUB
+Completo
+Completo
+Solo Texto
+Texto
+Índice
+Índice
+Análisis
+Análisis
+Recibir alerta
+Texto consolidado: «Última actualización, publicada el 02/06/2023»
+Ir a:
+Seleccionar apartado
+[Preámbulo]
+Artículo 1
+Artículo 2
+Artículo 3
+Artículo 4
+Artículo 5
+Artículo 6
+Artículo 7
+Artículo 8
+Artículo 9
+Artículo 10
+Artículo 11
+Artículo 12
+Artículo 13
+Artículo 14
+Artículo 15
+Artículo 16
+Artículo 17
+Disposición adicional primera
+Disposición adicional segunda
+Disposición transitoria única
+Disposición derogatoria única
+Disposición final primera
+Disposición final segunda
+Disposición final tercera
+[Firma]
+[Bloque 1: #pr]
+Con esta orden se continúa la nueva sistemática para el establecimiento de las bases reguladoras de las ayudas a la cinematografía y al audiovisual que regula la Ley 55/2007, de 28 de diciembre, del Cine y que se recogen en la Orden CUD/769/2018, de 17 de julio, por la que se establecen las bases reguladoras de las ayudas previstas en el capítulo III de la Ley 55/2007, de 28 de diciembre, del Cine, y se determina la estructura del Registro Administrativo de Empresas Cinematográficas y Audiovisuales.
+Dada la amplitud, variedad y complejidad del sistema estatal de ayudas existente, se ha optado por establecer las bases reguladoras de las diferentes líneas de ayudas a través de órdenes ministeriales independientes, que agrupen de una manera homogénea las ayudas de acuerdo con la tipología que se contempla en la norma legal. De esta forma se busca elaborar normas más sencillas que faciliten tanto su aplicación y sus eventuales adaptaciones por parte de la Administración como su comprensión por parte de la ciudadanía.
+Este nuevo sistema se inauguró con la Orden CUD/582/2020, de 26 de junio, por la que se establecen las bases reguladoras de las ayudas estatales para la producción de largometrajes y de cortometrajes y regula la estructura del Registro Administrativo de Empresas Cinematográficas y Audiovisuales; y se continúa en esta nueva orden, cuyo objeto es el establecimiento de las bases reguladores de las ayudas a la distribución de películas reguladas en el artículo 28 de la Ley 55/2007, de 28 de diciembre. El objetivo que se persigue con esta revisión de las bases reguladoras de las ayudas a la distribución es alinear el sistema de ayudas en toda la cadena de valor del sector audiovisual en base a criterios similares y adaptados a las necesidades de un sector dinámico y cambiante.
+De esta manera, en cuanto a la forma de presentación de las solicitudes, así como a la notificación de todos los actos y trámites del procedimiento de gestión de las ayudas, se dispone la obligatoriedad de que se realice a través de la sede electrónica asociada del Ministerio de Cultura y Deporte, tal y como se viene realizando desde su establecimiento en la Orden CUD/769/2018, de 17 de julio, dado que las personas beneficiarias de las ayudas o son personas jurídicas, en cuyo caso la relación entre la Administración y las personas interesadas obligatoriamente ha de hacerse por medios electrónicos según establece el artículo 14.2 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, o bien se trata de personas físicas que, por motivo de su dedicación profesional a la distribución cinematográfica y audiovisual, cuentan necesariamente con la infraestructura y la capacidad técnica precisa para efectuar su comunicación por medios electrónicos, por lo que también quedan sujetas a esta obligación en virtud del artículo 14.3 de la misma norma.
+En primer lugar, se flexibiliza para los conjuntos de cortometrajes el relativo a la antigüedad máxima que deben tener desde la fecha de estreno comercial en su país de origen. Asimismo, se reduce el ámbito territorial mínimo exigible para los largometrajes permitiendo un margen mayor para que las convocatorias se adapten a la coyuntura específica de cada año. Y para la distribución de películas documentales se establece el mismo ámbito territorial que el previsto para los conjuntos de cortometrajes, más reducido que el general.
+En segundo lugar, se incluyen por primera vez los gastos en medidas de sostenibilidad entre los gastos subvencionables.
+En tercer lugar, se reorganizan los criterios de valoración de las solicitudes admitidas y la puntuación que se otorga a cada uno. De este modo, por primera vez se valora, además de la presencia en festivales y el número de espectadores, el hecho de que la película haya obtenido ayudas selectivas a la producción (en España o en el entorno internacional) que vienen a certificar su especial valor cultural. También es novedad valorar la distribución de «obras difíciles», de manera que el apoyo estatal a este tipo de películas no se limite al momento de su producción, sino que las acompañe a lo largo de las distintas etapas de la cadena de valor. Adicionalmente, y al hilo de esta última cuestión, las referencias a la intensidad de las ayudas se equiparan a la normativa europea y a lo establecido en el Real Decreto 1090/2020, de 9 de diciembre, por el que se modifica el Real Decreto 1084/2015, de 4 de diciembre, por el que se desarrolla la Ley 55/2007, de 28 de diciembre, del Cine. Por último, se introduce una medida con impacto en materia de igualdad de oportunidades, pero ya desde la perspectiva de las medidas incentivadoras, que incluye puntuación adicional por la puesta a disposición de las empresas exhibidoras de copias que incorporen lenguas de signos españolas reconocidas en España como propias de las personas sordas, reguladas en la Ley 27/2007, de 23 de octubre, por la que se reconocen las lenguas de signos españolas y se regulan los medios de apoyo a la comunicación oral de las personas sordas, con discapacidad auditiva y sordociegas.
+En cuarto lugar, en cumplimiento de la normativa europea en materia de ayudas de estado, las bases reguladoras recogen de manera más precisa la obligatoriedad de cumplir con la intensidad máxima permitida, cuestión que deberá ser tenida en cuenta para el cálculo de la cuantía individual de la ayuda.
+En quinto lugar, se incorporan los supuestos en los que podría ser modificada la resolución de concesión de las ayudas. Asimismo, se prevé que el órgano instructor realice una propuesta de resolución provisional y que se de publicidad a la puntuación que cada solicitante haya obtenido en cada uno de los criterios de valoración de la convocatoria.
+En la parte final de la norma destacan varias disposiciones cuyo objetivo es lograr una transición no disruptiva entre las bases reguladoras que se derogan y las contenidas en esta orden, así como atender a las necesidades del año 2020 y siguientes marcados por el impacto de la COVID-19.
+En este sentido, la disposición adicional primera establece especificidades para la convocatoria de 2021, tanto en cuanto a los requisitos de acceso como en los criterios de valoración de las solicitudes admitidas.
+Asimismo, puesto que han continuado las restricciones relacionadas con la crisis sanitaria más allá del 31 de diciembre de 2020, la disposición adicional segunda prevé la posibilidad de extender, durante el periodo en que existan dichas medidas restrictivas, los beneficios asociados a la asunción de riesgos por la distribución efectuada en salas de exhibición durante ese periodo.
+La disposición derogatoria deroga parcialmente la Orden CUD/769/2018, de 17 de julio, que continuará vigente para el resto de las ayudas que en la misma se regulan.
+Asimismo, se incluyen tres disposiciones finales. La primera corresponde a la habilitación competencial, y residencia la misma en los artículos 149.1.13.ª y 149.2 de la Constitución española. La segunda es la que autoriza a la persona titular de la Dirección General del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales para dictar resoluciones para la aplicación de la orden. La disposición final tercera establece la entrada en vigor el día siguiente al de la publicación de la norma en el «Boletín Oficial del Estado».
+Las ayudas objeto de estas bases reguladoras son compatibles con el mercado interior con arreglo al artículo 107, apartado 3, del Tratado, y quedan exentas de la obligación de notificación prevista en el artículo 108, apartado 3, del Tratado, de acuerdo con lo establecido en el artículo 54 del Reglamento (UE) N.º 651/2014 de la Comisión, de 17 de junio de 2014, por el que se declaran determinadas categorías de ayudas compatibles con el mercado interior en aplicación de los artículos 107 y 108 del Tratado.
+La gestión centralizada de estas ayudas estatales viene determinada por el especial carácter e interés de las mismas, que justificó su regulación en el Capítulo III de la Ley 55/2007, de 28 de diciembre, del Cine como un conjunto de medidas de fomento e incentivos a la cinematografía y al audiovisual fundamentadas en la responsabilidad que asume el Estado de preservar el patrimonio cultural común. En este sentido, y de acuerdo con la jurisprudencia consolidada del Tribunal Constitucional en materia de subvenciones, corresponde al Estado la gestión en los casos en que resulte imprescindible para asegurar su plena efectividad dentro de la ordenación básica del sector. Se trata de un sector de características especiales en el que es clave la articulación de medidas que conjuguen, desde una visión general y amplia, las relaciones y los intereses de tan amplio espectro de agentes. Asimismo, la desigual implantación en el territorio de este sector tan heterogéneo hace que resulte necesaria la gestión centralizada de las ayudas para garantizar iguales posibilidades de obtención y disfrute por parte de sus potenciales destinatarios en todo el territorio nacional. Todo ello sin perjuicio de las medidas de fomento que las Comunidades Autónomas puedan establecer de acuerdo con su normativa propia.
+En cualquier caso, debe destacarse que no se han suscitado hasta la fecha controversias competenciales ante el Tribunal Constitucional en relación con la gestión centralizada de las ayudas estatales a la cinematografía y al audiovisual que se han ido implementando mediante las sucesivas bases reguladoras.
+En la elaboración de esta norma han sido consultadas las entidades representativas de los sectores afectados y las Comunidades Autónomas.
+La presente norma se adecúa a los principios de buena regulación contenidos en el artículo 129 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. Es necesaria y eficaz ya que es el medio más adecuado para actualizar, favorecer y sistematizar las ayudas al sector del cine, y concretamente al sector de la distribución. Es proporcional porque contiene la regulación necesaria que exige la normativa sobre subvenciones e impone las obligaciones necesarias de acuerdo con dicha normativa. Dota al ordenamiento de seguridad jurídica ya que es coherente, y completa el ordenamiento jurídico de mayor rango normativo con la necesaria aprobación de bases reguladoras mediante orden ministerial de acuerdo con la normativa tanto nacional como de la Unión Europea en materia de subvenciones; asimismo viene a sustituir e integrar la anterior normativa facilitando así su conocimiento y comprensión y, por tanto, la toma de decisiones de personas y empresas. Es transparente porque quedan claros los objetivos de esta iniciativa como se refleja en este preámbulo y porque se ha posibilitado a los destinatarios de la norma su participación activa. Y, por último, es eficiente al evitar cargas administrativas accesorias y racionalizar la regulación y la gestión de los recursos públicos que se destinan al sector del cine.
+En cumplimiento de lo previsto en el artículo 17.1 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, esta orden ha sido informada por la Abogacía del Estado y por la Intervención Delegada en el Departamento.
+En su virtud, con la aprobación previa del Ministro de Política Territorial y Función Pública, dispongo:
+Subir
+[Bloque 2: #a1]
+Artículo 1. Objeto.
+Esta orden establece las bases reguladoras de las ayudas estatales previstas en el artículo 28 de la Ley 55/2007, de 28 de diciembre, del Cine, a la distribución de películas de largometraje y conjuntos de cortometrajes, comunitarios e iberoamericanos, principalmente en versión original, en todo tipo de salas de exhibición cinematográfica, que hayan sido calificados en España.
+Subir
+[Bloque 3: #a2]
+Artículo 2. Marco normativo.
+Las ayudas reguladas en esta orden se regirán, además de por lo dispuesto en la misma, por la Ley 55/2007, de 28 de diciembre, del Cine y por el Real Decreto 1084/2015, de 4 de diciembre, por el que se desarrolla la Ley 55/2007, de 28 de diciembre, del Cine. Además, les serán de aplicación la Ley 38/2003, de 17 de noviembre, General de Subvenciones, el Reglamento de dicha Ley, aprobado por el Real Decreto 887/2006, de 21 de julio, la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, y las restantes disposiciones de general aplicación, así como por la normativa europea aplicable en la materia.
+Subir
+[Bloque 4: #a3]
+Artículo 3. Principios generales y compatibilidad de las ayudas.
+1. La gestión de las ayudas reguladas en esta orden se realizará de acuerdo con los principios de publicidad, transparencia, concurrencia, igualdad y no discriminación, eficacia en el cumplimiento de objetivos y eficiencia en la asignación y utilización de los recursos públicos.
+2. Las ayudas reguladas en esta orden son compatibles con la percepción de otras para la misma finalidad, siempre que su importe conjunto no supere los límites de intensidad de las ayudas a la producción establecidos en el artículo 21 del Real Decreto 1084/2015, de 4 de diciembre, de acuerdo con la equiparación entre las intensidades de las ayudas a la producción y de las ayudas a la distribución que realiza el apartado 52.4 de la Comunicación de la Comisión sobre la ayuda estatal a las obras cinematográficas y otras producciones del sector audiovisual (2013/C 332/01), así como el artículo 54.7 del Reglamento (UE) no 651/2014 de la Comisión, de 17 de junio de 2014, por el que se declaran determinadas categorías de ayudas compatibles con el mercado interior en aplicación de los artículos 107 y 108 del Tratado. Para determinar si se respeta la intensidad máxima de ayuda resultará de aplicación lo establecido en el artículo 21.3 del Real Decreto 1084/2015, de 4 de diciembre.
+3. No se podrá conceder más de una ayuda para la distribución de la misma película por la misma persona solicitante, ni su cuantía superar, aisladamente o en concurrencia con subvenciones o ayudas de otras administraciones públicas o de otros entes públicos o privados, nacionales, de la Unión Europea o internacionales, el importe total del coste correspondiente a los gastos subvencionables de la distribución presentado por la empresa solicitante.
+4. Las ayudas son intransmisibles.
+Subir
+[Bloque 5: #a4]
+Artículo 4. Procedimiento de concesión, ordenación e instrucción.
+1. El procedimiento de concesión de las ayudas se tramitará en régimen de concurrencia competitiva, regulado en los artículos 23 al 27, ambos inclusive, de la Ley 38/2003, de 17 de noviembre, y 58 al 64, ambos inclusive, del Reglamento de dicha Ley, mediante convocatoria única dentro de los créditos anuales destinados a las mismas.
+2. El procedimiento se iniciará de oficio mediante convocatoria de la persona titular de la Dirección General del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales publicada en la Base de Datos Nacional de Subvenciones con el contenido necesario que exige el artículo 23 de la Ley 38/2003, de 17 de noviembre. El extracto de la convocatoria se publicará en el «Boletín Oficial del Estado».
+3. Tanto la ordenación como la instrucción se llevará a cabo por la Subdirección General de Promoción y Relaciones Internacionales, que realizará tanto los actos que sean precisos de ordenación el procedimiento como todas las actuaciones necesarias para el examen, conocimiento y comprobación de los datos en virtud de los cuales determinará las solicitudes admitidas al procedimiento. Asimismo, dicho órgano formulará la propuesta de resolución.
+Subir
+[Bloque 6: #a5]
+Artículo 5. Requisitos para obtener la condición de persona beneficiaria y de la actividad.
+1. Las personas solicitantes de las ayudas deberán cumplir los siguientes requisitos generales:
+a) No haber sido objeto de la sanción consistente en la pérdida de la posibilidad de obtener subvenciones por el incumplimiento de la normativa en materia de igualdad entre mujeres y hombres de acuerdo con lo previsto en el texto refundido de la Ley sobre Infracciones y Sanciones en el Orden Social, aprobado por el Real Decreto Legislativo 5/2000, de 4 de agosto.
+b) No incurrir en ninguno de los supuestos previstos en los apartados 2 y 3 bis del artículo 13 de la Ley 38/2003, de 17 de noviembre.
+c) Cumplir con la obligación sobre la cuota de reserva de puestos de trabajo para personas con discapacidad, en el caso de que le sea aplicable, de acuerdo con lo establecido en el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, aprobado por el Real Decreto Legislativo 1/2013, de 29 de noviembre.
+d) Ser distribuidor o distribuidora independiente en los términos previstos en el artículo 4 ñ) de la Ley 55/2007, de 28 de diciembre, y tener los derechos de distribución en España de la película.
+2. Cuando la distribución se haya realizado de manera conjunta por empresas distribuidoras en régimen de codistribución, la totalidad deberá cumplir con los requisitos establecidos, y para obtener la condición de personas beneficiarias deberán constituir una agrupación de empresas que actuará a través de la persona representante designada y con capacidad de representación para actuar en nombre y por cuenta de la totalidad de los miembros de la agrupación a los efectos de la presentación de la solicitud de la ayuda y de su documentación acreditativa, del cumplimiento de las obligaciones derivadas del otorgamiento de la subvención y de su justificación.
+Para la constitución de la agrupación de empresas se utilizará el modelo de acuerdo normalizado, que estará disponible en la sede electrónica asociada del Ministerio de Cultura y Deporte. En la solicitud de la ayuda deberán hacerse constar expresamente los compromisos de ejecución asumidos por cada miembro de la agrupación, quienes tendrán, en su caso, igualmente la condición de persona beneficiaria, así como el importe de la ayuda que, en su caso, les correspondería de manera individual.
+No podrá disolverse la agrupación hasta que hayan transcurrido los plazos de prescripción para el reintegro y las infracciones, en su caso, previstos en los artículos 39 y 65 de la Ley 38/2003, de 17 de noviembre.
+3. Además, respecto a la distribución realizada deben cumplirse los siguientes requisitos específicos:
+a) El estreno comercial de la película debe haber tenido lugar en los períodos y condiciones que se establezcan en las correspondientes convocatorias y la distribución ha tenido que realizarse en salas de exhibición cinematográfica.
+b) Las películas extranjeras tienen que tener una antigüedad inferior a dos años desde el estreno comercial en su país de origen hasta su estreno comercial en España. En el caso de los conjuntos de cortometrajes, deberá cumplir este requisito al menos el 70 % de los cortometrajes que integran el conjunto.
+c) La distribución tiene que alcanzar el ámbito territorial mínimo que se establezca en la convocatoria, y no podrá ser inferior a doce provincias y tres comunidades autónomas en el caso de largometrajes ni a cuatro provincias en el caso de conjuntos de cortometrajes o películas documentales y películas distribuidas exclusivamente en versión original en un idioma distinto de los oficiales del Estado.
+Se modifican los apartados 1.b), 2 y 3.c) por el art. 3.1 de la Orden CUD/553/2023, de 31 de mayo. Ref. BOE-A-2023-13188
+Subir
+[Bloque 7: #a6]
+Artículo 6. Gastos subvencionables.
+Las ayudas podrán subvencionar hasta el límite establecido legalmente los siguientes gastos relativos a la distribución realizada, siempre que hayan sido soportados por la empresa distribuidora solicitante:
+a) Tiraje de copias.
+b) Subtitulado y doblaje, siempre que se proceda a la distribución de un número mínimo de seis copias subtituladas, obligación que no será exigible cuando se trate películas especialmente recomendadas para la infancia, ni en el caso de películas cuya versión original sea una lengua oficial española.
+c) Publicidad y promoción.
+d) Medidas adoptadas contra la piratería tales como sistemas de prevención y protección contra accesos y descargas ilegales o no autorizados, seguimiento y vigilancia en redes sociales u otros similares.
+f) Medios técnicos y recursos invertidos para la sostenibilidad.
+Los gastos podrán ser desarrollados en la correspondiente convocatoria. A los efectos de estas ayudas, no se podrán subvencionar los gastos mencionados cuando, en todo o en parte, hayan sido reconocidos como gasto imputado a la empresa productora.
+Subir
+[Bloque 8: #a7]
+Artículo 7. Cuantía de la ayuda.
+1. Las convocatorias podrán determinar una puntuación mínima necesaria para poder acceder a las ayudas.
+2. En las convocatorias se establecerá la cuantía total destinada a estas ayudas. De dicha cuantía podrá destinarse hasta un máximo del 10 % para la distribución de conjuntos de cortometrajes y películas documentales.
+3. Para la cuantificación de cada ayuda individual se tendrán en cuenta las disponibilidades presupuestarias, el total de los gastos subvencionables declarados, la cantidad solicitada, el importe de la máxima ayuda posible a conceder, la intensidad de la ayuda, el límite establecido legalmente y la evaluación de la solicitud correspondiente. En cualquier caso, en cada convocatoria se establecerá tanto el importe máximo de la ayuda individual a percibir por película o conjunto de cortometrajes, que no podrá superar los 200.000 euros, como el porcentaje máximo sobre la dotación destinada en el ejercicio a esta línea de ayudas a percibir por una empresa distribuidora, o conjunto de distribuidoras vinculadas, dentro del mismo ejercicio presupuestario, que no podrá superar el 20 %. A estos efectos se atenderá a la definición de vinculación establecida en el artículo 68.2 del Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.
+Subir
+[Bloque 9: #a8]
+Artículo 8. Forma y plazo de presentación de las solicitudes.
+1. Las solicitudes se presentarán exclusivamente de forma electrónica en el Registro Electrónico General, disponible en el Punto de Acceso General electrónico (PAGe), así como en la sede electrónica asociada del Ministerio de Cultura y Deporte, mediante los modelos normalizados disponibles en la misma.
+2. La solicitud deberá contener una autorización expresa para que el órgano instructor obtenga de forma directa las acreditaciones del cumplimiento de las obligaciones tributarias y con la Seguridad Social. En caso contrario, la persona solicitante deberá aportar las correspondientes certificaciones, de acuerdo con lo que se establece en el artículo siguiente.
+3. El plazo máximo de presentación de las solicitudes será de treinta días hábiles a contar desde el día siguiente al de la publicación del extracto de la convocatoria y se concretará en la respectiva convocatoria.
+4. Cuando la solicitud o alguno de los documentos que la acompañen adolezca de algún defecto se requerirá a la persona interesada para que los subsane, de acuerdo con lo establecido en el artículo 23.5 de la Ley 38/2003, de 17 de noviembre.
+5. En el caso de las ayudas a la distribución de conjuntos de cortometrajes, se podrá prever en la correspondiente convocatoria la solicitud conjunta de todas las empresas distribuidoras que participaron en la codistribución, en las condiciones del artículo 5.2.
+Subir
+[Bloque 10: #a9]
+Artículo 9. Documentación a presentar.
+1. La persona solicitante deberá presentar junto con la solicitud:
+a) El presupuesto ejecutado total de la distribución realizada y la memoria de las actividades de distribución y promoción realizadas por la distribuidora solicitante.
+b) Autorización expresa al Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales para que este obtenga de forma directa la acreditación del cumplimiento de estar al corriente en el pago de las obligaciones tributarias y con la Seguridad Social, en los términos establecidos en los artículos 18 y 19 del Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones. En el caso de que no se efectúe dicha autorización, deberá aportar las correspondientes certificaciones administrativas positivas, a efectos de subvenciones, expedidas por los órganos competentes. Si la validez de dichas certificaciones hubiera caducado, deberán renovarse con anterioridad a dictarse la propuesta de resolución y al pago de la ayuda.
+c) Declaración responsable sobre los siguientes aspectos:
+1.º Que los datos que constan en el Registro Administrativo de Empresas Cinematográficas y Audiovisuales del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales no han sufrido modificación respecto de los existentes o, en otro caso, documentación suficiente que acredite las modificaciones efectuadas. Cuando no figure de alta en el citado Registro, deberá aportar la documentación necesaria para efectuar la inscripción, que es la establecida en el artículo 31 del Real Decreto 1084/2015, de 4 de diciembre.
+2.º Que está al corriente en el pago de obligaciones por reintegro y por reembolso de subvenciones, así como de comprometerse a mantener su cumplimiento durante el periodo de tiempo inherente al procedimiento de concesión de la ayuda.
+3.º Que no ha sido objeto de sanción con la pérdida de la posibilidad de obtener subvenciones por incumplimiento de cualquier normativa, en especial de la que resulte de aplicación en materia de igualdad entre mujeres y hombres.
+4.º Que no incurre en ninguno de los supuestos del artículo 13.2 de la Ley 38/2003, de 17 de noviembre.
+5.º Subvenciones o ayudas de otras administraciones públicas o de otros entes públicos o privados, nacionales, de la Unión Europea o internacionales obtenidas para la realización de la misma actividad o proyecto.
+6.º Cumplimiento de la normativa sobre la cuota de reserva de puestos de trabajo para personas con discapacidad.
+2. Cuando las empresas soliciten ayuda por importe superior a 30.000 euros:
+a) si de acuerdo con la normativa contable pueden presentar cuenta de pérdidas y ganancias abreviada, deberán aportar declaración responsable sobre el cumplimiento de los plazos de pago previstos en la Ley 3/2004, de 29 de diciembre, por la que se establecen medidas de lucha contra la morosidad en las operaciones comerciales.
+b) si de acuerdo con la normativa contable no pueden presentar cuenta de pérdidas y ganancias abreviada, deberán aportar certificación sobre el cumplimiento de los plazos de pago previstos en la Ley 3/2004, de 29 de diciembre, que será emitida por auditor inscrito en el Registro Oficial de Auditores de Cuentas, y que atenderá al plazo efectivo de los pagos de la empresa cliente con independencia de cualquier financiación para el cobro anticipado de la empresa proveedora.
+3. En las convocatorias se podrá requerir la presentación de la documentación adicional que se considere para la comprobación de todos los requisitos exigidos.
+Se modifica el apartado 2 y se añade el 3 por el art. 3.2 de la Orden CUD/553/2023, de 31 de mayo. Ref. BOE-A-2023-13188
+Subir
+[Bloque 11: #a1-2]
+Artículo 10. Valoración de las solicitudes admitidas.
+El Comité Asesor de Ayudas a la Distribución, regulado en el artículo 16, realizará la valoración de las solicitudes admitidas atendiendo a los siguientes criterios de acuerdo con las ponderaciones máximas que se expresan, conforme al baremo que se establecerá de manera pormenorizada en las correspondientes convocatorias:
+a) La calidad y el interés cultural de las películas distribuidas concurrentes a la convocatoria, valorando cuestiones tales como la presencia en festivales, la obtención de premios de prestigio en el ámbito cinematográfico, el especial valor cultural de la película acreditado por la obtención de ayudas selectivas españolas o internacionales, así como el número de espectadores obtenidos en su exhibición en salas: hasta 30 puntos.
+b) El riesgo asumido por la distribuidora solicitante en la distribución de la película por tratarse de obras calificadas como obras difíciles de acuerdo con lo establecido en el artículo 21.2 del Real Decreto 1084/2015, de 4 de diciembre, teniendo en cuenta para ello si la obra tiene encaje en una o en varias de las categorías de obra difícil que regula dicho artículo: hasta 7 puntos.
+c) El presupuesto para la ejecución del plan de distribución y promoción de las películas, valorando especialmente la coherencia del mismo a dicha ejecución atendiendo al número de copias distribuidas y al ámbito territorial alcanzado: hasta 25 puntos.
+d) El ámbito territorial de distribución de la película: siempre que supere al ámbito mínimo establecido en el artículo 5 y según se establezca en la convocatoria: hasta 15 puntos.
+e) La distribución de las películas en versión original: hasta 15 puntos.
+f) La incorporación de nuevas tecnologías a la distribución: hasta 1 punto.
+g) El historial de las empresas distribuidoras, con especial atención a los cinco últimos años, y la experiencia en la distribución de películas de calidad y de valores artísticos destacados, preferentemente en la Unión Europea y en Iberoamérica: hasta 7 puntos.
+h) Por la puesta a disposición de las empresas exhibidoras, a petición de estas, de copias que incorporen lenguas de signos españolas reconocidas en España como propias de las personas sordas, se obtendrán 2 puntos adicionales, sin que en ningún caso pueda superarse la puntuación máxima de 100 resultante de la suma de la valoración.
+Subir
+[Bloque 12: #a1-3]
+Artículo 11. Resolución.
+1. La valoración efectuada por el Comité Asesor de Ayudas a la Distribución deberá ser motivada y se incorporará a la correspondiente acta que será trasladada al órgano instructor y a la que podrán acceder las personas solicitantes que estén interesadas.
+2. El órgano instructor, a la vista del expediente, formulará la propuesta de resolución provisional, debidamente motivada, y la notificará a las personas interesadas, concediéndoles un plazo de 10 días hábiles para formular alegaciones. Examinadas éstas, se formulará la propuesta de resolución definitiva, en la que se incluirá la relación de solicitantes para quienes se propone la concesión de la ayuda y la cuantía de la misma, especificando su evaluación según los criterios de valoración de la convocatoria.
+Se podrá prescindir del trámite de audiencia cuando no figuren en el procedimiento ni sean tenidos en cuenta otros hechos ni otras alegaciones y pruebas que las aducidas por las personas interesadas. En este caso, la propuesta de resolución formulada tendrá el carácter de definitiva.
+3. La resolución de concesión, que pondrá fin a la vía administrativa, se dictará por la persona titular de la Dirección General del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales, deberá ser motivada y hacer alusión, en su caso, a las valoraciones realizadas por el Comité Asesor de Ayudas a la Distribución y determinará las personas beneficiarias, la cuantía de la ayuda y, en su caso y de manera expresa, la desestimación del resto de las solicitudes.
+Asimismo, podrá incluir una relación ordenada de todas las solicitudes que, cumpliendo con las condiciones para resultar beneficiarias, no hayan sido estimadas por rebasarse la cuantía máxima del crédito fijado en la convocatoria, con indicación de la puntuación otorgada a cada una de ellas en función de los criterios de valoración previstos en la misma.
+En el caso de renuncia por parte de alguna de las personas beneficiarias, y siempre que se hubiera liberado crédito suficiente para atender, al menos, una de las solicitudes de la relación ordenada de solicitudes no estimadas a la que se ha hecho referencia anteriormente, se podrá acordar, sin necesidad de nueva convocatoria, la concesión de la subvención a quienes figuren como siguientes en orden de su puntuación. Para ello, se les comunicará la opción a fin de que manifiesten su aceptación en el plazo improrrogable de diez días hábiles. Una vez aceptada la propuesta, la persona titular de la Dirección General del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales dictará el acto de concesión.
+4. El plazo máximo para dictar y notificar la resolución será de cuatro meses a partir de la publicación del extracto de la convocatoria, salvo que la misma posponga sus efectos a una fecha posterior. El vencimiento de dicho plazo para la notificación de la resolución sin que se haya practicado, faculta a las personas interesadas para entender desestimada su solicitud a efectos de la interposición de los recursos que procedan.
+5. En la resolución se detallará el régimen de recursos procedente, con la indicación de que contra la misma podrá interponerse recurso contencioso-administrativo ante los Juzgados Centrales de lo Contencioso-Administrativo, según lo previsto en el artículo 9 c) de la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-Administrativa, en el plazo de dos meses desde su notificación. En el caso de no impugnarla directamente, de acuerdo con lo dispuesto en los artículos 123 y 124 de la Ley 39/2015, de 1 de octubre, la resolución podrá ser recurrida potestativamente en reposición, ante el mismo órgano que la dictó, en el plazo de un mes.
+6. A los efectos previstos en el artículo 43 de la Ley 39/2015, de 1 de octubre, todos los actos y trámites relativos al procedimiento de gestión de las ayudas serán notificados mediante su puesta a disposición de las personas interesadas en la Dirección Electrónica Habilitada única. Asimismo, de forma complementaria a lo anterior, se podrán notificar en la sede electrónica asociada del Ministerio de Cultura y Deporte.
+Subir
+[Bloque 13: #a1-4]
+Artículo 12. Modificación de la resolución.
+1. Podrá modificarse la resolución como consecuencia de la alteración de las condiciones tenidas en cuenta para la concesión y, particularmente, cuando se produzca una modificación en relación con los gastos subvencionables a los que se hace referencia en los artículos 5 y 6. En todo caso, la obtención concurrente de otras aportaciones fuera de los casos permitidos en las normas anteriores, podrá dar lugar a la modificación de la resolución de concesión.
+2. Una vez recaída la resolución de concesión la persona beneficiaria podrá solicitar la modificación de su contenido, si concurren las circunstancias previstas en el apartado anterior, que se podrá autorizar siempre que no dañe derechos de tercero.
+3. El plazo para resolver y notificar la resolución será de un mes, transcurrido el cual las personas interesadas podrán entender desestimada su solicitud
+Subir
+[Bloque 14: #a1-5]
+Artículo 13. Obligaciones.
+Las personas beneficiarias de las ayudas deben:
+a) Acreditar la realización de la distribución y justificar el gasto subvencionado en el plazo de un mes desde la notificación de concesión, bajo la modalidad de cuenta justificativa prevista en el artículo 72 del Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, incluyendo las facturas o documentos de valor probatorio equivalente en el tráfico jurídico mercantil o con eficacia administrativa y sus correspondientes justificantes de pago, así como aportar los documentos que les sean requeridos por el Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales para justificar las ayudas concedidas.
+b) Tener residencia legal o establecimiento en España en el momento de la percepción efectiva de las ayudas.
+c) Poner a disposición del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales y, en su caso, a efectos del control financiero que corresponda a la Intervención General de la Administración del Estado y al Tribunal de Cuentas, los libros contables, registros y demás documentos debidamente auditados en los términos exigidos por la legislación aplicable, así como conservar los documentos justificativos de la aplicación de los fondos recibidos en tanto puedan ser objeto de dichas actuaciones y, en todo caso, durante cuatro años desde la fecha de concesión de la ayuda.
+d) Estar al corriente en el cumplimiento de sus obligaciones tributarias y frente a la Seguridad Social así como no tener deudas por resolución de procedencia de reintegro o reembolso de subvenciones, con anterioridad a dictarse la propuesta de resolución y a la realización del pago. La acreditación de estos extremos se efectuará conforme a lo establecido en el artículo 9.1.b).
+e) Comunicar al Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales la obtención de cualesquiera subvenciones o ayudas, nacionales, de la Unión Europea o internacionales, que financien la actividad subvencionada tan pronto como se conozca, a los efectos de comprobar que se cumple con la normativa comunitaria en cuanto a la acumulación de ayudas de acuerdo con las intensidades máximas permitidas.
+El exceso de subvenciones recibidas de acuerdo con las intensidades máximas previstas en el artículo 21 del Real Decreto 1084/2015, de 4 de diciembre, dará lugar a la minoración de la ayuda en lo que exceda dicho límite.
+El Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales aplicará dicha minoración cuando, en el ejercicio de sus competencias, compruebe que se produce tal exceso en la intensidad de las ayudas otorgadas por las Administraciones Públicas.
+Los rendimientos financieros que se generen por los fondos librados a las personas beneficiarias incrementarán el importe de las subvenciones concedidas, y se aplicarán igualmente a la actividad subvencionada.
+f) Difundir la colaboración del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales en la realización de la actividad objeto de la ayuda, mediante la inserción de su logotipo facilitado por el mismo. La difusión se realizará de forma tal que sea claramente apreciable por el público.
+Subir
+[Bloque 15: #a1-6]
+Artículo 14. Pago.
+1. El pago de la ayuda se efectuará una vez comprobada la justificación a que se refiere el artículo 13 a). De no presentarse dicha justificación por el importe total del presupuesto ejecutado de la distribución presentado junto con la solicitud de la ayuda, se realizará el pago por la cantidad resultante de dividir el gasto finalmente justificado entre el presupuesto ejecutado presentado junto con la solicitud, multiplicado por el importe de la ayuda concedida. Esta justificación parcial implicará automáticamente la pérdida del derecho al cobro de la ayuda por el importe no justificado.
+2. No podrá realizarse el pago sin la acreditación del cumplimiento por la persona beneficiaria de los requisitos contenidos en el artículo 13.d), cuya ausencia ocasionará la pérdida del derecho al cobro de la ayuda.
+Subir
+[Bloque 16: #a1-7]
+Artículo 15. Reintegro y graduación de incumplimientos. Devolución a iniciativa de la persona beneficiaria.
+1. Procederá el reintegro de las cantidades percibidas y la exigencia del interés de demora desde el momento del pago de la subvención en los supuestos y conforme al procedimiento establecido en la Ley 38/2003, de 17 de noviembre.
+En todo caso, la obligación de reintegro será independiente de la imposición de las sanciones que conforme a la ley resulten exigibles.
+2. En el caso de incumplimiento parcial, la fijación de la cantidad que deba ser reintegrada se determinará en aplicación del principio de proporcionalidad y teniendo en cuenta el hecho de que el citado incumplimiento se aproxime significativamente al cumplimiento total y se acredite por los beneficiarios una actuación inequívocamente tendente a la satisfacción de sus compromisos.
+3. Se entenderá por devolución a iniciativa de la persona beneficiaria la devolución voluntaria de la cantidad percibida sin previo requerimiento por parte del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales. En este caso, se calcularán los intereses de demora a satisfacer de acuerdo con lo previsto en el artículo 38 de la Ley 38/2003, de 17 de noviembre, desde la fecha de pago de la ayuda hasta el momento en que se produzca la devolución efectiva.
+Subir
+[Bloque 17: #a1-8]
+Artículo 16. Comité Asesor de Ayudas a la Distribución.
+1. Como órgano de valoración de las ayudas a las que se refiere esta orden, dependerá del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales el Comité Asesor de Ayudas a la Distribución, integrado por un mínimo de cinco y un máximo de siete vocales.
+2. La presidencia de dicho comité corresponderá a la persona titular de la Dirección General del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales y la vicepresidencia, a la persona titular de la Subdirección General de Promoción y Relaciones Internacionales. Para la secretaría se nombrará por la presidencia del comité a una persona que desempeñe su trabajo como personal funcionario o laboral en la Subdirección General de Promoción y Relaciones Internacionales, que actuará con derecho a voz pero sin voto.
+3. La designación de las vocalías se llevará a cabo entre profesionales de la cinematografía y del audiovisual que reúnan las condiciones necesarias de aptitud e idoneidad para el desempeño de las funciones correspondientes, teniendo en cuenta, además, la diversidad territorial de España y su nombramiento se efectuará mediante resolución de la Dirección General del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales, que será publicada en el «Boletín Oficial del Estado». La composición se ajustará al principio de presencia equilibrada de mujeres y hombres que establece el artículo 54 de la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.
+4. A este comité le serán de aplicación las secciones 3.ª y 4.ª del capítulo II del título preliminar de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público; así como las reglas generales establecidas en los apartados 2 y 3 del artículo 34 del Real Decreto 1084/2015, de 4 de diciembre. Asimismo, según el artículo 34.4 de la citada norma, su funcionamiento será atendido con los medios personales, técnicos y presupuestarios del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales.
+5. Cualquier comunicación de las personas solicitantes o interesadas en las solicitudes presentadas con las personas integrantes de las vocalías con el fin de aportar apreciaciones sobre las mismas, sin haber sido requerido formalmente para ello por el comité, comportará la exclusión y el archivo de la correspondiente solicitud, sin perjuicio de cualquier otra responsabilidad que se pudiera derivar de dicha comunicación.
+Subir
+[Bloque 18: #a1-9]
+Artículo 17. Ayudas a la distribución en soporte videográfico o a través de internet.
+Se podrán convocar ayudas a la distribución de películas en soporte videográfico o a través de internet siempre que incorporen sistemas de audiodescripción para personas ciegas y con discapacidad visual y sistemas de subtitulado especial y/o de lengua de signos para personas sordas y con discapacidad auditiva, con las condiciones y requisitos que se establezcan en cada convocatoria, de acuerdo con lo previsto en esta orden en aquellos aspectos que resulten de aplicación.
+Subir
+[Bloque 19: #da]
+Disposición adicional primera. Especialidades de la convocatoria de ayudas a la distribución de películas a convocar en 2021.
+1. En la convocatoria de ayudas a la distribución que se efectúe en el año 2021, los requisitos establecidos en los párrafos b) y d) del artículo 5.2 se aplicarán como se indica a continuación:
+a) El requisito de la antigüedad inferior a 2 años al que se refiere el artículo 5.2 b) podrá establecerse en 3 años.
+2. Asimismo, en dicha convocatoria se aplicarán los siguientes criterios de valoración en lugar de los establecidos en el artículo 10:
+a) La calidad y el interés cultural de las películas distribuidas concurrentes a la convocatoria, valorando cuestiones tales como la presencia en festivales, la obtención de premios de prestigio en el ámbito cinematográfico, el especial valor cultural de la película acreditado por la obtención de ayudas selectivas españolas o internacionales, así como el número de espectadores obtenidos en su exhibición en salas: hasta 25 puntos.
+b) El riesgo asumido por la distribuidora solicitante en la distribución de la película por tratarse de obras calificadas como obras difíciles de acuerdo con lo establecido en el artículo 21.2 del Real Decreto 1084/2015, de 4 de diciembre, hasta 15 puntos. Dentro de esta puntuación se otorgarán automáticamente 8 puntos cuando la distribución de las películas en salas de exhibición se haya efectuado entre el 14 de febrero y el 31 de diciembre de 2020.
+c) El presupuesto para la ejecución del plan de distribución y promoción de las películas, valorando especialmente la coherencia del mismo a dicha ejecución atendiendo al número de copias distribuidas y al ámbito territorial alcanzado: hasta 17 puntos.
+g) El historial de la empresa distribuidora, con especial atención a los cinco últimos años, y la experiencia en la distribución de películas de calidad y de valores artísticos destacados, preferentemente en la Unión Europea y en Iberoamérica: hasta 7 puntos.
+Subir
+[Bloque 20: #da-2]
+Disposición adicional segunda. Medida de flexibilización en la valoración de las solicitudes para hacer frente al impacto económico de la COVID-19.
+En las convocatorias de ayudas a la distribución posteriores a la del año 2021, se podrán aplicar los criterios de valoración establecidos en los párrafos b) y c) del apartado 2 de la disposición adicional primera, a la distribución en salas de exhibición que se efectúe durante el periodo en que existan medidas que limiten la libertad de circulación, la permanencia de personas en espacios públicos o los aforos máximos, amparadas en el Real Decreto 926/2020, de 25 de octubre, por el que se declara el estado de alarma para contener la propagación de infecciones causadas por el SARS-CoV-2 o normas similares, o aprobadas por las autoridades autonómicas competentes.
+Subir
+[Bloque 21: #dt]
+Subir
+[Bloque 22: #dd]
+Disposición derogatoria única. Derogación normativa.
+A la entrada en vigor de esta orden quedan derogados los artículos 40 a 46, ambos incluidos, y el artículo 70.1 b) de la Orden CUD/769/2018, de 17 de julio, por la que se establecen las bases reguladoras de las ayudas previstas en el Capítulo III de la Ley 55/2007, de 28 de diciembre, del Cine, y se determina la estructura del Registro Administrativo de Empresas Cinematográficas y Audiovisuales.
+Subir
+[Bloque 23: #df]
+Disposición final primera. Título competencial.
+La presente orden se dicta al amparo del artículo 149.1.13.ª de la Constitución que atribuye la competencia exclusiva al Estado en bases y coordinación de la planificación general de la actividad económica y del artículo 149.2 de la Constitución que dispone que, sin perjuicio de las competencias que podrán asumir las Comunidades Autónomas, el Estado considerará el servicio de la cultura como deber y atribución esencial y facilitará la comunicación cultural entre las Comunidades Autónomas, de acuerdo con ellas.
+Subir
+[Bloque 24: #df-2]
+Disposición final segunda. Aplicación.
+Se autoriza a la persona titular de la Dirección General del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales para dictar las resoluciones que sean precisas para la aplicación de lo dispuesto en esta orden, así como para establecer los modelos oficiales que correspondan.
+Subir
+[Bloque 25: #df-3]
+Disposición final tercera. Entrada en vigor.
+Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».
+Subir
+[Bloque 26: #fi]
+Madrid, 25 de mayo de 2021.–El Ministro de Cultura y Deporte, José Manuel Rodríguez Uribes.
+Subir
+Este documento es de carácter informativo y no tiene valor jurídico.
+Ayúdenos a mejorar: puede dirigir sus comentarios y sugerencias a nuestro Servicio de atención al ciudadano
+Contactar
+Sobre la sede electrónica
+Mapa
+Protección de datos
+Sistema Interno de Información
+Tutoriales
+Empleo en la AEBOE
+Avda. de Manoteras, 54 - 28050 Madrid
+
+### PDF: https://www.boe.es/buscar/pdf/2021/BOE-A-2021-8863-consolidado.pdf
+LEGISLACIÓN CONSOLIDADA
+Orden CUD/508/2021, de 25 de mayo, por la que se establecen las
+bases reguladoras de las ayudas a la distribución de películas
+previstas en el artículo 28 de la Ley 55/2007, de 28 de diciembre, del
+Cine.
+Ministerio de Cultura y Deporte
+«BOE» núm. 126, de 27 de mayo de 2021
+Referencia: BOE-A-2021-8863
+TEXTO CONSOLIDADO
+Última modificación: 02 de junio de 2023
+Con esta orden se continúa la nueva sistemática para el establecimiento de las bases
+reguladoras de las ayudas a la cinematografía y al audiovisual que regula la Ley 55/2007, de
+28 de diciembre, del Cine y que se recogen en la Orden CUD/769/2018, de 17 de julio, por la
+que se establecen las bases reguladoras de las ayudas previstas en el capítulo III de la Ley
+55/2007, de 28 de diciembre, del Cine, y se determina la estructura del Registro
+Administrativo de Empresas Cinematográficas y Audiovisuales.
+Dada la amplitud, variedad y complejidad del sistema estatal de ayudas existente, se ha
+optado por establecer las bases reguladoras de las diferentes líneas de ayudas a través de
+órdenes ministeriales independientes, que agrupen de una manera homogénea las ayudas
+de acuerdo con la tipología que se contempla en la norma legal. De esta forma se busca
+elaborar normas más sencillas que faciliten tanto su aplicación y sus eventuales
+adaptaciones por parte de la Administración como su comprensión por parte de la
+ciudadanía.
+Este nuevo sistema se inauguró con la Orden CUD/582/2020, de 26 de junio, por la que
+s
+[…]
+Artículo 1. Objeto.
+Esta orden establece las bases reguladoras de las ayudas estatales previstas en el
+artículo 28 de la Ley 55/2007, de 28 de diciembre, del Cine, a la distribución de películas de
+largometraje y conjuntos de cortometrajes, comunitarios e iberoamericanos, principalmente
+en versión original, en todo tipo de salas de exhibición cinematográfica, que hayan sido
+calificados en España.
+Artículo 2. Marco normativo.
+Las ayudas reguladas en esta orden se regirán, además de por lo dispuesto en la
+misma, por la Ley 55/2007, de 28 de diciembre, del Cine y por el Real Decreto 1084/2015,
+de 4 de diciembre, por el que se desarrolla la Ley 55/2007, de 28 de diciembre, del Cine.
+Además, les serán de aplicación la Ley 38/2003, de 17 de noviembre, General de
+Subvenciones, el Reglamento de dicha Ley, aprobado por el Real Decreto 887/2006, de 21
+de julio, la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las
+Administraciones Públicas, la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector
+Público, y las restantes disposiciones de general aplicación, así como por la normativa
+europea aplicable en la materia.
+Artículo 3. Principios generales y compatibilidad de las ayudas.
+1. La gestión de las ayudas reguladas en esta orden se realizará de acuerdo con los
+principios de publicidad, transparencia, concurrencia, igualdad y no discriminación, eficacia
+en el cumplimiento de objetivos y eficiencia en la asignación y utilización de los recursos
+públicos.
+2. Las ayudas reguladas en esta orden son compatibles con la percepción de otras para
+la misma finalidad, siempre que su importe conjunto no supere los límites de intensidad de
+las ayudas a la producción establecidos en el artículo 21 del Real Decreto 1084/2015, de 4
+de diciembre, de acuerdo con la equiparación entre las intensidades de las ayudas a la
+producción y de las ayudas a la distribución que realiza el apartado 52.4 de la Comunicación
+de la Comisión sobre la ayuda estatal a las obras cinematográficas y otras producciones del
+sector audiovisual (2013/C 332/01), así como el artículo 54.7 del Reglamento (UE) no
+651/2014 de la Comisión, de 17 de junio de 2014, por el que se declaran determinadas
+categorías de ayudas compatibles con el mercado interior en aplicación de los artículos 107
+y 108 del Tratado. Para determinar si se respeta la intensidad máxima de ayuda resultará de
+aplicación lo establecido en el artículo 21.3 del Real Decreto 1084/2015, de 4 de diciembre.
+3. No se podrá conceder más de una ayuda para la distribución de la misma película por
+la misma persona solicitante, ni su cuantía superar, aisladamente o en concurrencia con
+subvenciones o ayudas de otras administraciones públicas o de otros entes públicos o
+privados, nacionales, de la Unión Europea o internacionales, el importe total del coste
+correspondiente a los gastos subvencionables de la distribución presentado por la empresa
+solicitante.
+4. Las ayudas son intransmisibles.
+LEGISLACIÓN CONSOLIDADA
+Artículo 4. Procedimiento de concesión, ordenación e instrucción.
+1. El procedimiento de concesión de las ayudas se tramitará en régimen de concurrencia
+competitiva, regulado en los artículos 23 al 27, ambos inclusive, de la Ley 38/2003, de 17 de
+noviembre, y 58 al 64, ambos inclusive, del Reglamento de dicha Ley, mediante convocatoria
+única dentro de los créditos anuales destinados a las mismas.
+2. El procedimiento se iniciará de oficio mediante convocatoria de la persona titular de la
+Dirección General del Organismo Autónomo Instituto de la Cinematografía y de las Artes
+Audiovisuales publicada en la Base de Datos Nacional de Subvenciones con el contenido
+necesario que exige el artículo 23 de la Ley 38/2003, de 17 de noviembre. El extracto de la
+convocatoria se publicará en el «Boletín Oficial del Estado».
+3. Tanto la ordenación como la instrucción se llevará a cabo por la Subdirección General
+de Promoción y Relaciones Internacionales, que realizará tanto los actos que sean precisos
+de ordenación el procedimiento como todas las actuaciones necesarias para el examen,
+conocimiento y comprobación de los datos en virtud de los cuales determinará las solicitudes
+admitidas al procedimiento. Asimismo, dicho órgano formulará la propuesta de resolución.
+Artículo 5. Requisitos para obtener la condición de persona beneficiaria y de la actividad.
+1. Las personas solicitantes de las ayudas deberán cumplir los siguientes requisitos
+generales:
+a) No haber sido objeto de la sanción consistente en la pérdida de la posibilidad de
+obtener subvenciones por el incumplimiento de la normativa en materia de igualdad entre
+mujeres y hombres de acuerdo con lo previsto en el texto refundido de la Ley sobre
+Infracciones y Sanciones en el Orden Social, aprobado por el Real Decreto Legislativo
+5/2000, de 4 de agosto.
+b) No incurrir en ninguno de los supuestos previstos en los apartados 2 y 3 bis del
+artículo 13 de la Ley 38/2003, de 17 de noviembre.
+c) Cumplir con la obligación sobre la cuota de reserva de puestos de trabajo para
+personas con discapacidad, en el caso de que le sea aplicable, de acuerdo con lo
+establecido en el Texto Refundido de la Ley General de derechos de las personas con
+discapacidad y de su inclusión social, aprobado por el Real Decreto Legislativo 1/2013, de
+29 de noviembre.
+d) Ser distribuidor o distribuidora independiente en los términos previstos en el artículo 4
+ñ) de la Ley 55/2007, de 28 de diciembre, y tener los derechos de distribución en España de
+la película.
+2. Cuando la distribución se haya realizado de manera conjunta por empresas
+distribuidoras en régimen de codistribución, la totalidad deberá cumplir con los requisitos
+establecidos, y para obtener la condición de personas beneficiarias deberán constituir una
+agrupación de empresas que actuará a través de la persona representante designada y con
+capacidad de representación para actuar en nombre y por cuenta de la totalidad de los
+miembros de la agrupación a los efectos de la presentación de la solicitud de la ayuda y de
+su documentación acreditativa, del cumplimiento de las obligaciones derivadas del
+otorgamiento de la subvención y de su justificación.
+Para la constitución de la agrupación de empresas se utilizará el modelo de acuerdo
+normalizado, que estará disponible en la sede electrónica asociada del Ministerio de Cultura
+y Deporte. En la solicitud de la ayuda deberán hacerse constar expresamente los
+compromisos de ejecución asumidos por cada miembro de la agrupación, quienes tendrán,
+en su caso, igualmente la condición de persona beneficiaria, así como el importe de la ayuda
+que, en su caso, les correspondería de manera individual.
+No podrá disolverse la agrupación hasta que hayan transcurrido los plazos de
+prescripción para el reintegro y las infracciones, en su caso, previstos en los artículos 39 y
+65 de la Ley 38/2003, de 17 de noviembre.
+3. Además, respecto a la distribución realizada deben cumplirse los siguientes requisitos
+específicos:
+LEGISLACIÓN CONSOLIDADA
+a) El estreno comercial de la película debe haber tenido lugar en los períodos y
+condiciones que se establezcan en las correspondientes convocatorias y la distribución ha
+tenido que realizarse en salas de exhibición cinematográfica.
+b) Las películas extranjeras tienen que tener una antigüedad inferior a dos años desde el
+estreno comercial en su país de origen hasta su estreno comercial en España. En el caso de
+los conjuntos de cortometrajes, deberá cumplir este requisito al menos el 70 % de los
+cortometrajes que integran el conjunto.
+c) La distribución tiene que alcanzar el ámbito territorial mínimo que se establezca en la
+convocatoria, y no podrá ser inferior a doce provincias y tres comunidades autónomas en el
+caso de largometrajes ni a cuatro provincias en el caso de conjuntos de cortometrajes o
+películas documentales y películas distribuidas exclusivamente en versión original en un
+idioma distinto de los oficiales del Estado.
+d) Las películas objeto de solicitud deben incluir, como medidas de accesibilidad
+universal, los sistemas de audiodescripción y subtitulado especial que cumplan las normas
+UNE correspondientes.
+Artículo 6. Gastos subvencionables.
+Las ayudas podrán subvencionar hasta el límite establecido legalmente los siguientes
+gastos relativos a la distribución realizada, siempre que hayan sido soportados por la
+empresa distribuidora solicitante:
+a) Tiraje de copias.
+b) Subtitulado y doblaje, siempre que se proceda a la distribución de un número mínimo
+de seis copias subtituladas, obligación que no será exigible cuando se trate películas
+especialmente recomendadas para la infancia, ni en el caso de películas cuya versión
+original sea una lengua oficial española.
+c) Publicidad y promoción.
+d) Medidas adoptadas contra la piratería tales como sistemas de prevención y protección
+contra accesos y descargas ilegales o no autorizados, seguimiento y vigilancia en redes
+sociales u otros similares.
+e) Medios técnicos y recursos invertidos para la accesibilidad universal de las películas a
+personas con discapacidad.
+f) Medios técnicos y recursos invertidos para la sostenibilidad.
+Los gastos podrán ser desarrollados en la correspondiente convocatoria. A los efectos
+de estas ayudas, no se podrán subvencionar los gastos mencionados cuando, en todo o en
+parte, hayan sido reconocidos como gasto imputado a la empresa productora.
+Artículo 7. Cuantía de la ayuda.
+1. Las convocatorias podrán determinar una puntuación mínima necesaria para poder
+acceder a las ayudas.
+2. En las convocatorias se establecerá la cuantía total destinada a estas ayudas. De
+dicha cuantía podrá destinarse hasta un máximo del 10 % para la distribución de conjuntos
+de cortometrajes y películas documentales.
+3. Para la cuantificación de cada ayuda individual se tendrán en cuenta las
+disponibilidades presupuestarias, el total de los gastos subvencionables declarados, la
+cantidad solicitada, el importe de la máxima ayuda posible a conceder, la intensidad de la
+ayuda, el límite establecido legalmente y la evaluación de la solicitud correspondiente. En
+cualquier caso, en cada convocatoria se establecerá tanto el importe máximo de la ayuda
+individual a percibir por película o conjunto de cortometrajes, que no podrá superar los
+200.000 euros, como el porcentaje máximo sobre la dotación destinada en el ejercicio a esta
+línea de ayudas a percibir por una empresa distribuidora, o conjunto de distribuidoras
+vinculadas, dentro del mismo ejercicio presupuestario, que no podrá superar el 20 %. A
+estos efectos se atenderá a la definición de vinculación establecida en el artículo 68.2 del
+Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.
+LEGISLACIÓN CONSOLIDADA
+Artículo 8. Forma y plazo de presentación de las solicitudes.
+1. Las solicitudes se presentarán exclusivamente de forma electrónica en el Registro
+Electrónico General, disponible en el Punto de Acceso General electrónico (PAGe), así como
+en la sede electrónica asociada del Ministerio de Cultura y Deporte, mediante los modelos
+normalizados disponibles en la misma.
+2. La solicitud deberá contener una autorización expresa para que el órgano instructor
+obtenga de forma directa las acreditaciones del cumplimiento de las obligaciones tributarias
+y con la Seguridad Social. En caso contrario, la persona solicitante deberá aportar las
+correspondientes certificaciones, de acuerdo con lo que se establece en el artículo siguiente.
+3. El plazo máximo de presentación de las solicitudes será de treinta días hábiles a
+contar desde el día siguiente al de la publicación del extracto de la convocatoria y se
+concretará en la respectiva convocatoria.
+4. Cuando la solicitud o alguno de los documentos que la acompañen adolezca de algún
+defecto se requerirá a la persona interesada para que los subsane, de acuerdo con lo
+establecido en el artículo 23.5 de la Ley 38/2003, de 17 de noviembre.
+5. En el caso de las ayudas a la distribución de conjuntos de cortometrajes, se podrá
+prever en la correspondiente convocatoria la solicitud conjunta de todas las empresas
+distribuidoras que participaron en la codistribución, en las condiciones del artículo 5.2.
+Artículo 9. Documentación a presentar.
+1. La persona solicitante deberá presentar junto con la solicitud:
+a) El presupuesto ejecutado total de la distribución realizada y la memoria de las
+actividades de distribución y promoción realizadas por la distribuidora solicitante.
+b) Autorización expresa al Organismo Autónomo Instituto de la Cinematografía y de las
+Artes Audiovisuales para que este obtenga de forma directa la acreditación del cumplimiento
+de estar al corriente en el pago de las obligaciones tributarias y con la Seguridad Social, en
+los términos establecidos en los artículos 18 y 19 del Reglamento de la Ley 38/2003, de 17
+de noviembre, General de Subvenciones. En el caso de que no se efectúe dicha
+autorización, deberá aportar las correspondientes certificaciones administrativas positivas, a
+efectos de subvenciones, expedidas por los órganos competentes. Si la validez de dichas
+certificaciones hubiera caducado, deberán renovarse con anterioridad a dictarse la propuesta
+de resolución y al pago de la ayuda.
+c) Declaración responsable sobre los siguientes aspectos:
+1.º Que los datos que constan en el Registro Administrativo de Empresas
+Cinematográficas y Audiovisuales del Organismo Autónomo Instituto de la Cinematografía y
+de las Artes Audiovisuales no han sufrido modificación respecto de los existentes o, en otro
+caso, documentación suficiente que acredite las modificaciones efectuadas. Cuando no
+figure de alta en el citado Registro, deberá aportar la documentación necesaria para efectuar
+la inscripción, que es la establecida en el artículo 31 del Real Decreto 1084/2015, de 4 de
+diciembre.
+2.º Que está al corriente en el pago de obligaciones por reintegro y por reembolso de
+subvenciones, así como de comprometerse a mantener su cumplimiento durante el periodo
+de tiempo inherente al procedimiento de concesión de la ayuda.
+3.º Que no ha sido objeto de sanción con la pérdida de la posibilidad de obtener
+subvenciones por incumplimiento de cualquier normativa, en especial de la que resulte de
+aplicación en materia de igualdad entre mujeres y hombres.
+4.º Que no incurre en ninguno de los supuestos del artículo 13.2 de la Ley 38/2003, de
+17 de noviembre.
+5.º Subvenciones o ayudas de otras administraciones públicas o de otros entes públicos
+o privados, nacionales, de la Unión Europea o internacionales obtenidas para la realización
+de la misma actividad o proyecto.
+6.º Cumplimiento de la normativa sobre la cuota de reserva de puestos de trabajo para
+personas con discapacidad.
+2. Cuando las empresas soliciten ayuda por importe superior a 30.000 euros:
+LEGISLACIÓN CONSOLIDADA
+a) si de acuerdo con la normativa contable pueden presentar cuenta de pérdidas y
+ganancias abreviada, deberán aportar declaración responsable sobre el cumplimiento de los
+plazos de pago previstos en la Ley 3/2004, de 29 de diciembre, por la que se establecen
+medidas de lucha contra la morosidad en las operaciones comerciales.
+b) si de acuerdo con la normativa contable no pueden presentar cuenta de pérdidas y
+ganancias abreviada, deberán aportar certificación sobre el cumplimiento de los plazos de
+pago previstos en la Ley 3/2004, de 29 de diciembre, que será emitida por auditor inscrito en
+el Registro Oficial de Auditores de Cuentas, y que atenderá al plazo efectivo de los pagos de
+la empresa cliente con independencia de cualquier financiación para el cobro anticipado de
+la empresa proveedora.
+3. En las convocatorias se podrá requerir la presentación de la documentación adicional
+que se considere para la comprobación de todos los requisitos exigidos.
+Artículo 10. Valoración de las solicitudes admitidas.
+El Comité Asesor de Ayudas a la Distribución, regulado en el artículo 16, realizará la
+valoración de las solicitudes admitidas atendiendo a los siguientes criterios de acuerdo con
+las ponderaciones máximas que se expresan, conforme al baremo que se establecerá de
+manera pormenorizada en las correspondientes convocatorias:
+a) La calidad y el interés cultural de las películas distribuidas concurrentes a la
+convocatoria, valorando cuestiones tales como la presencia en festivales, la obtención de
+premios de prestigio en el ámbito cinematográfico, el especial valor cultural de la película
+acreditado por la obtención de ayudas selectivas españolas o internacionales, así como el
+número de espectadores obtenidos en su exhibición en salas: hasta 30 puntos.
+b) El riesgo asumido por la distribuidora solicitante en la distribución de la película por
+tratarse de obras calificadas como obras difíciles de acuerdo con lo establecido en el artículo
+21.2 del Real Decreto 1084/2015, de 4 de diciembre, teniendo en cuenta para ello si la obra
+tiene encaje en una o en varias de las categorías de obra difícil que regula dicho artículo:
+hasta 7 puntos.
+c) El presupuesto para la ejecución del plan de distribución y promoción de las películas,
+valorando especialmente la coherencia del mismo a dicha ejecución atendiendo al número
+de copias distribuidas y al ámbito territorial alcanzado: hasta 25 puntos.
+d) El ámbito territorial de distribución de la película: siempre que supere al ámbito
+mínimo establecido en el artículo 5 y según se establezca en la convocatoria: hasta 15
+puntos.
+e) La distribución de las películas en versión original: hasta 15 puntos.
+f) La incorporación de nuevas tecnologías a la distribución: hasta 1 punto.
+g) El historial de las empresas distribuidoras, con especial atención a los cinco últimos
+años, y la experiencia en la distribución de películas de calidad y de valores artísticos
+destacados, preferentemente en la Unión Europea y en Iberoamérica: hasta 7 puntos.
+h) Por la puesta a disposición de las empresas exhibidoras, a petición de estas, de
+copias que incorporen lenguas de signos españolas reconocidas en España como propias
+de las personas sordas, se obtendrán 2 puntos adicionales, sin que en ningún caso pueda
+superarse la puntuación máxima de 100 resultante de la suma de la valoración.
+Artículo 11. Resolución.
+1. La valoración efectuada por el Comité Asesor de Ayudas a la Distribución deberá ser
+motivada y se incorporará a la correspondiente acta que será trasladada al órgano instructor
+y a la que podrán acceder las personas solicitantes que estén interesadas.
+2. El órgano instructor, a la vista del expediente, formulará la propuesta de resolución
+provisional, debidamente motivada, y la notificará a las personas interesadas,
+concediéndoles un plazo de 10 días hábiles para formular alegaciones. Examinadas éstas,
+se formulará la propuesta de resolución definitiva, en la que se incluirá la relación de
+solicitantes para quienes se propone la concesión de la ayuda y la cuantía de la misma,
+especificando su evaluación según los criterios de valoración de la convocatoria.
+Se podrá prescindir del trámite de audiencia cuando no figuren en el procedimiento ni
+sean tenidos en cuenta otros hechos ni otras alegaciones y pruebas que las aducidas por las
+LEGISLACIÓN CONSOLIDADA
+personas interesadas. En este caso, la propuesta de resolución formulada tendrá el carácter
+de definitiva.
+3. La resolución de concesión, que pondrá fin a la vía administrativa, se dictará por la
+persona titular de la Dirección General del Organismo Autónomo Instituto de la
+Cinematografía y de las Artes Audiovisuales, deberá ser motivada y hacer alusión, en su
+caso, a las valoraciones realizadas por el Comité Asesor de Ayudas a la Distribución y
+determinará las personas beneficiarias, la cuantía de la ayuda y, en su caso y de manera
+expresa, la desestimación del resto de las solicitudes.
+Asimismo, podrá incluir una relación ordenada de todas las solicitudes que, cumpliendo
+con las condiciones para resultar beneficiarias, no hayan sido estimadas por rebasarse la
+cuantía máxima del crédito fijado en la convocatoria, con indicación de la puntuación
+otorgada a cada una de ellas en función de los criterios de valoración previstos en la misma.
+En el caso de renuncia por parte de alguna de las personas beneficiarias, y siempre que
+se hubiera liberado crédito suficiente para atender, al menos, una de las solicitudes de la
+relación ordenada de solicitudes no estimadas a la que se ha hecho referencia
+anteriormente, se podrá acordar, sin necesidad de nueva convocatoria, la concesión de la
+subvención a quienes figuren como siguientes en orden de su puntuación. Para ello, se les
+comunicará la opción a fin de que manifiesten su aceptación en el plazo improrrogable de
+diez días hábiles. Una vez aceptada la propuesta, la persona titular de la Dirección General
+del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales dictará
+el acto de concesión.
+4. El plazo máximo para dictar y notificar la resolución será de cuatro meses a partir de la
+publicación del extracto de la convocatoria, salvo que la misma posponga sus efectos a una
+fecha posterior. El vencimiento de dicho plazo para la notificación de la resolución sin que se
+haya practicado, faculta a las personas interesadas para entender desestimada su solicitud a
+efectos de la interposición de los recursos que procedan.
+5. En la resolución se detallará el régimen de recursos procedente, con la indicación de
+que contra la misma podrá interponerse recurso contencioso-administrativo ante los
+Juzgados Centrales de lo Contencioso-Administrativo, según lo previsto en el artículo 9 c) de
+la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-Administrativa, en
+el plazo de dos meses desde su notificación. En el caso de no impugnarla directamente, de
+acuerdo con lo dispuesto en los artículos 123 y 124 de la Ley 39/2015, de 1 de octubre, la
+resolución podrá ser recurrida potestativamente en reposición, ante el mismo órgano que la
+dictó, en el plazo de un mes.
+6. A los efectos previstos en el artículo 43 de la Ley 39/2015, de 1 de octubre, todos los
+actos y trámites relativos al procedimiento de gestión de las ayudas serán notificados
+mediante su puesta a disposición de las personas interesadas en la Dirección Electrónica
+Habilitada única. Asimismo, de forma complementaria a lo anterior, se podrán notificar en la
+sede electrónica asociada del Ministerio de Cultura y Deporte.
+Artículo 12. Modificación de la resolución.
+1. Podrá modificarse la resolución como consecuencia de la alteración de las
+condiciones tenidas en cuenta para la concesión y, particularmente, cuando se produzca una
+modificación en relación con los gastos subvencionables a los que se hace referencia en los
+artículos 5 y 6. En todo caso, la obtención concurrente de otras aportaciones fuera de los
+casos permitidos en las normas anteriores, podrá dar lugar a la modificación de la resolución
+de concesión.
+2. Una vez recaída la resolución de concesión la persona beneficiaria podrá solicitar la
+modificación de su contenido, si concurren las circunstancias previstas en el apartado
+anterior, que se podrá autorizar siempre que no dañe derechos de tercero.
+3. El plazo para resolver y notificar la resolución será de un mes, transcurrido el cual las
+personas interesadas podrán entender desestimada su solicitud
+Artículo 13. Obligaciones.
+Las personas beneficiarias de las ayudas deben:
+a) Acreditar la realización de la distribución y justificar el gasto subvencionado en el
+plazo de un mes desde la notificación de concesión, bajo la modalidad de cuenta justificativa
+LEGISLACIÓN CONSOLIDADA
+prevista en el artículo 72 del Reglamento de la Ley 38/2003, de 17 de noviembre, General de
+Subvenciones, incluyendo las facturas o documentos de valor probatorio equivalente en el
+tráfico jurídico mercantil o con eficacia administrativa y sus correspondientes justificantes de
+pago, así como aportar los documentos que les sean requeridos por el Organismo Autónomo
+Instituto de la Cinematografía y de las Artes Audiovisuales para justificar las ayudas
+concedidas.
+b) Tener residencia legal o establecimiento en España en el momento de la percepción
+efectiva de las ayudas.
+c) Poner a disposición del Organismo Autónomo Instituto de la Cinematografía y de las
+Artes Audiovisuales y, en su caso, a efectos del control financiero que corresponda a la
+Intervención General de la Administración del Estado y al Tribunal de Cuentas, los libros
+contables, registros y demás documentos debidamente auditados en los términos exigidos
+por la legislación aplicable, así como conservar los documentos justificativos de la aplicación
+de los fondos recibidos en tanto puedan ser objeto de dichas actuaciones y, en todo caso,
+durante cuatro años desde la fecha de concesión de la ayuda.
+d) Estar al corriente en el cumplimiento de sus obligaciones tributarias y frente a la
+Seguridad Social así como no tener deudas por resolución de procedencia de reintegro o
+reembolso de subvenciones, con anterioridad a dictarse la propuesta de resolución y a la
+realización del pago. La acreditación de estos extremos se efectuará conforme a lo
+establecido en el artículo 9.1.b).
+e) Comunicar al Organismo Autónomo Instituto de la Cinematografía y de las Artes
+Audiovisuales la obtención de cualesquiera subvenciones o ayudas, nacionales, de la Unión
+Europea o internacionales, que financien la actividad subvencionada tan pronto como se
+conozca, a los efectos de comprobar que se cumple con la normativa comunitaria en cuanto
+a la acumulación de ayudas de acuerdo con las intensidades máximas permitidas.
+El exceso de subvenciones recibidas de acuerdo con las intensidades máximas previstas
+en el artículo 21 del Real Decreto 1084/2015, de 4 de diciembre, dará lugar a la minoración
+de la ayuda en lo que exceda dicho límite.
+El Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales
+aplicará dicha minoración cuando, en el ejercicio de sus competencias, compruebe que se
+produce tal exceso en la intensidad de las ayudas otorgadas por las Administraciones
+Públicas.
+Los rendimientos financieros que se generen por los fondos librados a las personas
+beneficiarias incrementarán el importe de las subvenciones concedidas, y se aplicarán
+igualmente a la actividad subvencionada.
+f) Difundir la colaboración del Organismo Autónomo Instituto de la Cinematografía y de
+las Artes Audiovisuales en la realización de la actividad objeto de la ayuda, mediante la
+inserción de su logotipo facilitado por el mismo. La difusión se realizará de forma tal que sea
+claramente apreciable por el público.
+Artículo 14. Pago.
+1. El pago de la ayuda se efectuará una vez comprobada la justificación a que se refiere
+el artículo 13 a). De no presentarse dicha justificación por el importe total del presupuesto
+ejecutado de la distribución presentado junto con la solicitud de la ayuda, se realizará el
+pago por la cantidad resultante de dividir el gasto finalmente justificado entre el presupuesto
+ejecutado presentado junto con la solicitud, multiplicado por el importe de la ayuda
+concedida. Esta justificación parcial implicará automáticamente la pérdida del derecho al
+cobro de la ayuda por el importe no justificado.
+2. No podrá realizarse el pago sin la acreditación del cumplimiento por la persona
+beneficiaria de los requisitos contenidos en el artículo 13.d), cuya ausencia ocasionará la
+pérdida del derecho al cobro de la ayuda.
+Artículo 15. Reintegro y graduación de incumplimientos. Devolución a iniciativa de la
+persona beneficiaria.
+1. Procederá el reintegro de las cantidades percibidas y la exigencia del interés de
+demora desde el momento del pago de la subvención en los supuestos y conforme al
+procedimiento establecido en la Ley 38/2003, de 17 de noviembre.
+LEGISLACIÓN CONSOLIDADA
+En todo caso, la obligación de reintegro será independiente de la imposición de las
+sanciones que conforme a la ley resulten exigibles.
+2. En el caso de incumplimiento parcial, la fijación de la cantidad que deba ser
+reintegrada se determinará en aplicación del principio de proporcionalidad y teniendo en
+cuenta el hecho de que el citado incumplimiento se aproxime significativamente al
+cumplimiento total y se acredite por los beneficiarios una actuación inequívocamente
+tendente a la satisfacción de sus compromisos.
+3. Se entenderá por devolución a iniciativa de la persona beneficiaria la devolución
+voluntaria de la cantidad percibida sin previo requerimiento por parte del Organismo
+Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales. En este caso, se
+calcularán los intereses de demora a satisfacer de acuerdo con lo previsto en el artículo 38
+de la Ley 38/2003, de 17 de noviembre, desde la fecha de pago de la ayuda hasta el
+momento en que se produzca la devolución efectiva.
+Artículo 16. Comité Asesor de Ayudas a la Distribución.
+1. Como órgano de valoración de las ayudas a las que se refiere esta orden, dependerá
+del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales el
+Comité Asesor de Ayudas a la Distribución, integrado por un mínimo de cinco y un máximo
+de siete vocales.
+2. La presidencia de dicho comité corresponderá a la persona titular de la Dirección
+General del Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales
+y la vicepresidencia, a la persona titular de la Subdirección General de Promoción y
+Relaciones Internacionales. Para la secretaría se nombrará por la presidencia del comité a
+una persona que desempeñe su trabajo como personal funcionario o laboral en la
+Subdirección General de Promoción y Relaciones Internacionales, que actuará con derecho
+a voz pero sin voto.
+3. La designación de las vocalías se llevará a cabo entre profesionales de la
+cinematografía y del audiovisual que reúnan las condiciones necesarias de aptitud e
+idoneidad para el desempeño de las funciones correspondientes, teniendo en cuenta,
+además, la diversidad territorial de España y su nombramiento se efectuará mediante
+resolución de la Dirección General del Organismo Autónomo Instituto de la Cinematografía y
+de las Artes Audiovisuales, que será publicada en el «Boletín Oficial del Estado». La
+composición se ajustará al principio de presencia equilibrada de mujeres y hombres que
+establece el artículo 54 de la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva
+de mujeres y hombres.
+4. A este comité le serán de aplicación las secciones 3.ª y 4.ª del capítulo II del título
+preliminar de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público; así
+como las reglas generales establecidas en los apartados 2 y 3 del artículo 34 del Real
+Decreto 1084/2015, de 4 de diciembre. Asimismo, según el artículo 34.4 de la citada norma,
+su funcionamiento será atendido con los medios personales, técnicos y presupuestarios del
+Organismo Autónomo Instituto de la Cinematografía y de las Artes Audiovisuales.
+5. Cualquier comunicación de las personas solicitantes o interesadas en las solicitudes
+presentadas con las personas integrantes de las vocalías con el fin de aportar apreciaciones
+sobre las mismas, sin haber sido requerido formalmente para ello por el comité, comportará
+la exclusión y el archivo de la correspondiente solicitud, sin perjuicio de cualquier otra
+responsabilidad que se pudiera derivar de dicha comunicación.
+Artículo 17. Ayudas a la distribución en soporte videográfico o a través de internet.
+Se podrán convocar ayudas a la distribución de películas en soporte videográfico o a
+través de internet siempre que incorporen sistemas de audiodescripción para personas
+ciegas y con discapacidad visual y sistemas de subtitulado especial y/o de lengua de signos
+para personas sordas y con discapacidad auditiva, con las condiciones y requisitos que se
+establezcan en cada convocatoria, de acuerdo con lo previsto en esta orden en aquellos
+aspectos que resulten de aplicación.
+LEGISLACIÓN CONSOLIDADA
+Disposición adicional primera. Especialidades de la convocatoria de ayudas a la
+distribución de películas a convocar en 2021.
+1. En la convocatoria de ayudas a la distribución que se efectúe en el año 2021, los
+requisitos establecidos en los párrafos b) y d) del artículo 5.2 se aplicarán como se indica a
+continuación:
+a) El requisito de la antigüedad inferior a 2 años al que se refiere el artículo 5.2 b) podrá
+establecerse en 3 años.
+b) No se exigirá el requisito de incluir las medidas de accesibilidad universal a las que se
+refiere el artículo 5.2 d).
+2. Asimismo, en dicha convocatoria se aplicarán los siguientes criterios de valoración en
+lugar de los establecidos en el artículo 10:
+a) La calidad y el interés cultural de las películas distribuidas concurrentes a la
+convocatoria, valorando cuestiones tales como la presencia en festivales, la obtención de
+premios de prestigio en el ámbito cinematográfico, el especial valor cultural de la película
+acreditado por la obtención de ayudas selectivas españolas o internacionales, así como el
+número de espectadores obtenidos en su exhibición en salas: hasta 25 puntos.
+b) El riesgo asumido por la distribuidora solicitante en la distribución de la película por
+tratarse de obras calificadas como obras difíciles de acuerdo con lo establecido en el artículo
+21.2 del Real Decreto 1084/2015, de 4 de diciembre, hasta 15 puntos. Dentro de esta
+puntuación se otorgarán automáticamente 8 puntos cuando la distribución de las películas en
+salas de exhibición se haya efectuado entre el 14 de febrero y el 31 de diciembre de 2020.
+c) El presupuesto para la ejecución del plan de distribución y promoción de las películas,
+valorando especialmente la coherencia del mismo a dicha ejecución atendiendo al número
+de copias distribuidas y al ámbito territorial alcanzado: hasta 17 puntos.
+d) El ámbito territorial de distribución de la película: siempre que supere al ámbito
+mínimo establecido en el artículo 5 y según se establezca en la convocatoria: hasta 15
+puntos.
+e) La distribución de las películas en versión original: hasta 15 puntos.
+f) La incorporación de nuevas tecnologías a la distribución: hasta 1 punto.
+g) El historial de la empresa distribuidora, con especial atención a los cinco últimos años,
+y la experiencia en la distribución de películas de calidad y de valores artísticos destacados,
+preferentemente en la Unión Europea y en Iberoamérica: hasta 7 puntos.
+h) La incorporación como medidas de accesibilidad universal, de los sistemas de
+audiodescripción y subtitulado especial que cumplan las normas UNE correspondientes:
+hasta 5 puntos.
+Disposición adicional segunda. Medida de flexibilización en la valoración de las
+solicitudes para hacer frente al impacto económico de la COVID-19.
+En las convocatorias de ayudas a la distribución posteriores a la del año 2021, se podrán
+aplicar los criterios de valoración establecidos en los párrafos b) y c) del apartado 2 de la
+disposición adicional primera, a la distribución en salas de exhibición que se efectúe durante
+el periodo en que existan medidas que limiten la libertad de circulación, la permanencia de
+personas en espacios públicos o los aforos máximos, amparadas en el Real Decreto
+926/2020, de 25 de octubre, por el que se declara el estado de alarma para contener la
+propagación de infecciones causadas por el SARS-CoV-2 o normas similares, o aprobadas
+por las autoridades autonómicas competentes.
+Disposición transitoria única.
+accesibilidad universal.
+Aplicación del nuevo requisito sobre medidas de
+El requisito establecido en el artículo 5.2 d), relativo a la inclusión de las medidas de
+accesibilidad universal, no se exigirá cuando la distribución se refiera a películas estrenadas
+antes de la entrada en vigor de esta orden.
+LEGISLACIÓN CONSOLIDADA
+Disposición derogatoria única. Derogación normativa.
+A la entrada en vigor de esta orden quedan derogados los artículos 40 a 46, ambos
+incluidos, y el artículo 70.1 b) de la Orden CUD/769/2018, de 17 de julio, por la que se
+establecen las bases reguladoras de las ayudas previstas en el Capítulo III de la Ley
+55/2007, de 28 de diciembre, del Cine, y se determina la estructura del Registro
+Administrativo de Empresas Cinematográficas y Audiovisuales.
+Disposición final primera. Título competencial.
+La presente orden se dicta al amparo del artículo 149.1.13.ª de la Constitución que
+atribuye la competencia exclusiva al Estado en bases y coordinación de la planificación
+general de la actividad económica y del artículo 149.2 de la Constitución que dispone que,
+sin perjuicio de las competencias que podrán asumir las Comunidades Autónomas, el Estado
+considerará el servicio de la cultura como deber y atribución esencial y facilitará la
+comunicación cultural entre las Comunidades Autónomas, de acuerdo con ellas.
+Disposición final segunda. Aplicación.
+Se autoriza a la persona titular de la Dirección General del Organismo Autónomo
+Instituto de la Cinematografía y de las Artes Audiovisuales para dictar las resoluciones que
+sean precisas para la aplicación de lo dispuesto en esta orden, así como para establecer los
+modelos oficiales que correspondan.
+Disposición final tercera. Entrada en vigor.
+Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del
+Estado».
+Madrid, 25 de mayo de 2021.–El Ministro de Cultura y Deporte, José Manuel Rodríguez
+Uribes.
+Este texto consolidado no tiene valor jurídico.
