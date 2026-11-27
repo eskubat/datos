@@ -944,6 +944,15 @@
   "botha": [],
   "urls": [
    "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1563908"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-27",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1563908",
+    "motivo": "es de otra convocatoria"
+   }
   ]
  },
  "bdns-945007": {
@@ -951,6 +960,15 @@
   "botha": [],
   "urls": [
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2025/06/25/II-3809_cas.pdf"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-27",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2025/06/25/II-3809_cas.pdf",
+    "motivo": "no es PDF (text/html, 45742 bytes)"
+   }
   ]
  },
  "bdns-945119": {
@@ -958,6 +976,15 @@
   "botha": [],
   "urls": [
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2025/11/06/I-1149_cas.pdf"
+  ],
+  "estado": "fallo",
+  "fecha": "2026-11-27",
+  "intentos": 1,
+  "probadas": [
+   {
+    "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2025/11/06/I-1149_cas.pdf",
+    "motivo": "no es PDF (text/html, 48543 bytes)"
+   }
   ]
  }
 }
