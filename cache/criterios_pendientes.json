@@ -1,34 +1,5 @@
 [
  {
-  "id": "eus-ayuda-subvencion-2026-egonlabur-2027",
-  "h": "b9a51a67712ded72",
-  "titulo": "Ayudas Egonlabur para estancias de investigación predoctoral en el extranjero",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "estudios"
-  ],
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-egonlabur-2027-a3dffbf3.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-941594",
-  "h": "c9fa5782d50e6f9d",
-  "titulo": "Bonos de compra para el comercio y la hostelería locales",
-  "para": [
-   "particular",
-   "autonomo",
-   "empresa"
-  ],
-  "temas": [
-   "comercio",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/bdns-941594-4458d2f0.txt",
-  "revisar": false
- },
- {
   "id": "bdns-939389",
   "h": "1c6d6eaa2481da08",
   "titulo": "Concurso de escaparates para comercios",
@@ -367,7 +338,7 @@
  },
  {
   "id": "bdns-918655",
-  "h": "c605b745ad7e1b70",
+  "h": "32f20c1cc64b412b",
   "titulo": "Bonos de descuento para comprar en el comercio local",
   "para": [
    "particular",
@@ -412,7 +383,7 @@
  },
  {
   "id": "bdns-901439",
-  "h": "6697ddd919434354",
+  "h": "c2408206eec07632",
   "titulo": "Subvenciones para grabar discos y videoclips de grupos y solistas locales",
   "para": [
    "particular",
@@ -519,7 +490,7 @@
  },
  {
   "id": "bdns-890633",
-  "h": "2c917cf1df073ddc",
+  "h": "bcaca68fd2c0eec7",
   "titulo": "Subvenciones para poner en euskera rótulos, imagen corporativa y webs de comercios",
   "para": [
    "autonomo",
@@ -2197,7 +2168,7 @@
  },
  {
   "id": "eus-ayuda-subvencion-2026-eiaaffuntsaarrantzagarape",
-  "h": "df29902193a12b0f",
+  "h": "62dc25dbcc53086d",
   "titulo": "Pesca: el FEMPA, Fondo Europeo Marítimo, de Pesca y de Acuicultura",
   "para": [
    "empresa"
@@ -2572,7 +2543,7 @@
  },
  {
   "id": "bdns-927981",
-  "h": "7025aab9fc68a193",
+  "h": "25df1ca7195ebc3e",
   "titulo": "Subvenciones para contratar a personas desempleadas y establecerse como autónomo",
   "para": [
    "autonomo",
@@ -3397,6 +3368,36 @@
   ],
   "temas": [],
   "archivo": "cache/fuentes/ue-erc-2027-cog-ec4a4bd6.txt",
+  "revisar": false
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-enp-2027",
+  "h": "80e935b57f4ec894",
+  "titulo": "Subvenciones destinadas a empresas, entidades privadas",
+  "para": [
+   "particular",
+   "empresa",
+   "asociacion"
+  ],
+  "temas": [
+   "emprendimiento",
+   "social"
+  ],
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-enp-2027-767509a2.txt",
+  "revisar": false
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-ind-2027",
+  "h": "85a1da8fd0682600",
+  "titulo": "(prevención comportamientos violentos) Subvenciones a organizaciones, asociaciones y fundaciones",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-ind-2027-dc0cf4c0.txt",
   "revisar": false
  },
  {
@@ -4828,6 +4829,20 @@
   "revisar": false
  },
  {
+  "id": "ara-garantias-alquiler-vivienda-adhesion-personas-arrendadoras",
+  "h": "3d62581063f60454",
+  "titulo": "Ayudas con garantías de alquiler para propietarios de viviendas rurales",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "vivienda"
+  ],
+  "archivo": "cache/fuentes/ara-garantias-alquiler-vivienda-adhesion-personas-arrendador-365c506c.txt",
+  "revisar": false
+ },
+ {
   "id": "ara-garantias-alquiler-vivienda-adhesion-personas-arrendatarias",
   "h": "0c39a7ff487e93bd",
   "titulo": "Ayudas para inquilinos que buscan vivienda de alquiler en zonas rurales",
@@ -5017,6 +5032,21 @@
    "familia"
   ],
   "archivo": "cache/fuentes/ara-ayudas-destinadas-a-incentivar-la-euskaldunizacion-de-pe-a5a8b884.txt",
+  "revisar": false
+ },
+ {
+  "id": "ara-alava-innova-digitaliza-empresas-2026",
+  "h": "c4cc44425ac5a4b3",
+  "titulo": "Álava Innova - Descarboniza _Empresas y Autónomos",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "digitalizacion",
+   "emprendimiento"
+  ],
+  "archivo": "cache/fuentes/ara-alava-innova-digitaliza-empresas-2026-74bf274c.txt",
   "revisar": false
  },
  {
@@ -5811,19 +5841,6 @@
   "revisar": false
  },
  {
-  "id": "prest-bizkaia-pnc-incapacidad",
-  "h": "ba1a61d381ec383f",
-  "titulo": "Pensión no contributiva de incapacidad para personas sin recursos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "social"
-  ],
-  "archivo": "cache/fuentes/prest-bizkaia-pnc-incapacidad-55586f81.txt",
-  "revisar": false
- },
- {
   "id": "prest-bono-social-electrico",
   "h": "17d0c1c6d10433f4",
   "titulo": "Bono social para pagar menos en la factura de la luz",
@@ -5836,6 +5853,19 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-bono-social-electrico-a18ad288.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-bizkaia-pnc-incapacidad",
+  "h": "ba1a61d381ec383f",
+  "titulo": "Pensión no contributiva de incapacidad para personas sin recursos",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-bizkaia-pnc-incapacidad-55586f81.txt",
   "revisar": false
  },
  {
@@ -5990,20 +6020,6 @@
   "revisar": false
  },
  {
-  "id": "prest-araba-peap",
-  "h": "b7167957c542832d",
-  "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "empleo",
-   "educacion"
-  ],
-  "archivo": "cache/fuentes/prest-araba-peap-b3e1675d.txt",
-  "revisar": false
- },
- {
   "id": "prest-araba-pecef",
   "h": "d1882d94b3e5c137",
   "titulo": "Ayuda para cuidar en familia a una persona en situación de dependencia",
@@ -6018,16 +6034,17 @@
   "revisar": false
  },
  {
-  "id": "prest-bizkaia-lismi-movilidad",
-  "h": "f9fcbdd7c3c5db41",
-  "titulo": "Ayudas para gastos de transporte de personas con discapacidad",
+  "id": "prest-araba-peap",
+  "h": "b7167957c542832d",
+  "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
   "para": [
    "particular"
   ],
   "temas": [
-   "social"
+   "empleo",
+   "educacion"
   ],
-  "archivo": "cache/fuentes/prest-bizkaia-lismi-movilidad-e5897cf6.txt",
+  "archivo": "cache/fuentes/prest-araba-peap-b3e1675d.txt",
   "revisar": false
  },
  {
@@ -6039,6 +6056,19 @@
   ],
   "temas": [],
   "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-bizkaia-lismi-movilidad",
+  "h": "f9fcbdd7c3c5db41",
+  "titulo": "Ayudas para gastos de transporte de personas con discapacidad",
+  "para": [
+   "particular"
+  ],
+  "temas": [
+   "social"
+  ],
+  "archivo": "cache/fuentes/prest-bizkaia-lismi-movilidad-e5897cf6.txt",
   "revisar": false
  },
  {

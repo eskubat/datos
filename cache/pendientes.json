@@ -198,6 +198,24 @@
   "caracteres": 300000
  },
  {
+  "id": "eus-ayuda-subvencion-2026-enp-2027",
+  "h": "2cebb5e12fbae90f",
+  "titulo": "Subvenciones destinadas a empresas, entidades privadas",
+  "organismoSugerido": "emakunde",
+  "organismoFuente": "Emakunde - Instituto Vasco de la Mujer",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-enp-2027-767509a2.txt",
+  "caracteres": 298297
+ },
+ {
+  "id": "eus-ayuda-subvencion-2026-ind-2027",
+  "h": "90413cb6ef04240a",
+  "titulo": "(prevención comportamientos violentos) Subvenciones a organizaciones, asociaciones y fundaciones",
+  "organismoSugerido": "emakunde",
+  "organismoFuente": "Emakunde - Instituto Vasco de la Mujer",
+  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-ind-2027-dc0cf4c0.txt",
+  "caracteres": 299135
+ },
+ {
   "id": "bdns-944661",
   "h": "ff422065505214ba",
   "titulo": "Ayudas para financiar trabajos de conservación o enriquecimiento de bienes inmuebles del Patrimonio Histórico Español",
@@ -421,6 +439,15 @@
   "organismoFuente": "Diputación Foral de Álava",
   "archivo": "cache/fuentes/ara-01122002-f280766c.txt",
   "caracteres": 11938
+ },
+ {
+  "id": "ara-alava-innova-digitaliza-empresas-2026",
+  "h": "d506588f2f61a969",
+  "titulo": "Álava Innova - Descarboniza _Empresas y Autónomos",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-alava-innova-digitaliza-empresas-2026-74bf274c.txt",
+  "caracteres": 220860
  },
  {
   "id": "ara-ayudas-turismo-actividad-ayuntamientos-2026",

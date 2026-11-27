@@ -1,61 +1,61 @@
 {
   "version": 1,
-  "generado": "2026-11-26T17:26:41.513Z",
-  "total": 543,
+  "generado": "2026-11-27T05:48:53.478Z",
+  "total": 544,
   "porAmbito": {
-    "euskadi": 85,
-    "estado": 75,
-    "municipio": 260,
-    "territorio": 89,
+    "euskadi": 86,
+    "municipio": 259,
+    "territorio": 91,
+    "estado": 74,
     "ue": 34
   },
   "porEstado": {
-    "abierta": 446,
-    "proxima": 50,
-    "sinfecha": 47
+    "abierta": 447,
+    "proxima": 49,
+    "sinfecha": 48
   },
   "previstas": 621,
   "fuentes": {
     "euskadi": {
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
-      "registros": 126,
-      "segundos": 33,
+      "registros": 127,
+      "segundos": 42,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 26,
-      "segundos": 19,
+      "segundos": 20,
       "erroresFicha": 0
     },
     "araba": {
       "nombre": "Diputación Foral de Álava (ayudas en vigor)",
       "ok": true,
       "registros": 146,
-      "segundos": 19,
+      "segundos": 21,
       "erroresFicha": 0
     },
     "bdns": {
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
-      "registros": 1007,
-      "segundos": 179,
+      "registros": 1001,
+      "segundos": 182,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 160,
-      "segundos": 6,
+      "segundos": 7,
       "erroresFicha": 0
     },
     "prestaciones": {
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 19,
-      "segundos": 18,
+      "segundos": 19,
       "erroresFicha": 0
     },
     "europa": {
@@ -66,9 +66,9 @@
     }
   },
   "enlaces": {
-    "comprobados": 930,
-    "rotos": 2,
+    "comprobados": 927,
+    "rotos": 1,
     "sustituidos": 0,
-    "quitados": 2
+    "quitados": 1
   }
 }
