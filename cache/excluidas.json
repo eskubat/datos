@@ -748,5 +748,15 @@
   "parecidaA": "bdns-944630",
   "motivo": "Auzotaxi de Mungia, convocatoria 2026 (abierta hasta el 31/12/2026); la de 2027 (bdns-944630) repite las bases, los bonos y los destinatarios para los viajes de 2027.",
   "fecha": "2026-11-26"
+ },
+ "bdns-944973": {
+  "parecidaA": "bdns-879132",
+  "motivo": "Mismo programa del Ayuntamiento de Leioa (prestación para pagar una plaza privada de vivienda comunitaria o apartamento tutelado a personas mayores de 65 años con dependencia de grado I en lista de espera), con bases casi idénticas: bdns-944973 es la convocatoria 2027 (Decreto 2026007840, hasta el 31/12/2027) y bdns-879132 la de 2026 (hasta el 31/12/2026).",
+  "fecha": "2026-11-27"
+ },
+ "bdns-879132": {
+  "parecidaA": "bdns-944973",
+  "motivo": "Mismo programa del Ayuntamiento de Leioa (prestación para pagar una plaza privada de vivienda comunitaria o apartamento tutelado a personas mayores de 65 años con dependencia de grado I en lista de espera), con bases casi idénticas: bdns-944973 es la convocatoria 2027 (Decreto 2026007840, hasta el 31/12/2027) y bdns-879132 la de 2026 (hasta el 31/12/2026).",
+  "fecha": "2026-11-27"
  }
 }

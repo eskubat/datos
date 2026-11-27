@@ -938,5 +938,26 @@
     "motivo": "es de otra convocatoria"
    }
   ]
+ },
+ "bdns-945088": {
+  "titulo": "Convocatoria de subvenciones para la rehabilitación de fachadas, cubiertas y supresión de barreras arquitectónicas en edificios de uso residencial colectivo de Iurreta (Decretos de Alcaldía 1045/26, de 9 de noviembre, y 1090/26, de 19 de noviembre de 2026)",
+  "botha": [],
+  "urls": [
+   "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1563908"
+  ]
+ },
+ "bdns-945007": {
+  "titulo": "Bases reguladoras de las ayudas al sector de venta ambulante durante las fiestas patronales de Urduña/Orduña (BOB, 25 de junio de 2025, II-3809) y convocatoria 2026 (BDNS 945007)",
+  "botha": [],
+  "urls": [
+   "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2025/06/25/II-3809_cas.pdf"
+  ]
+ },
+ "bdns-945119": {
+  "titulo": "Becas para personal técnico de deporte de la DFB (tabla de porcentajes de la base 10); convocatoria anterior en BOB, 6 de noviembre de 2025, I-1149",
+  "botha": [],
+  "urls": [
+   "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2025/11/06/I-1149_cas.pdf"
+  ]
  }
 }

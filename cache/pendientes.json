@@ -198,33 +198,6 @@
   "caracteres": 300000
  },
  {
-  "id": "eus-ayuda-subvencion-2026-enp-2027",
-  "h": "2cebb5e12fbae90f",
-  "titulo": "Subvenciones destinadas a empresas, entidades privadas",
-  "organismoSugerido": "emakunde",
-  "organismoFuente": "Emakunde - Instituto Vasco de la Mujer",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-enp-2027-767509a2.txt",
-  "caracteres": 298297
- },
- {
-  "id": "eus-ayuda-subvencion-2026-ind-2027",
-  "h": "90413cb6ef04240a",
-  "titulo": "(prevención comportamientos violentos) Subvenciones a organizaciones, asociaciones y fundaciones",
-  "organismoSugerido": "emakunde",
-  "organismoFuente": "Emakunde - Instituto Vasco de la Mujer",
-  "archivo": "cache/fuentes/eus-ayuda-subvencion-2026-ind-2027-dc0cf4c0.txt",
-  "caracteres": 299135
- },
- {
-  "id": "bdns-944661",
-  "h": "ff422065505214ba",
-  "titulo": "Ayudas para financiar trabajos de conservación o enriquecimiento de bienes inmuebles del Patrimonio Histórico Español",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Dirección general de agenda urbana y arquitectura",
-  "archivo": "cache/fuentes/bdns-944661-aeb7c6b6.txt",
-  "caracteres": 223221
- },
- {
   "id": "ue-crea-media-2027-tvonline-3",
   "h": "edb329094bf69b46",
   "titulo": "TV and online content Fiction projects",
@@ -250,15 +223,6 @@
   "organismoFuente": "Unión Europea",
   "archivo": "cache/fuentes/ue-crea-media-2027-tvonline-2-31e2b380.txt",
   "caracteres": 6324
- },
- {
-  "id": "bdns-945119",
-  "h": "51eb625d0abf4c7c",
-  "titulo": "Decreto foral 97/ de 26 de noviembre, regulador de becas destinadas al personal técnico de deporte",
-  "organismoSugerido": "dfb",
-  "organismoFuente": "Diputación foral de Bizkaia",
-  "archivo": "cache/fuentes/bdns-945119-7dd5e8ea.txt",
-  "caracteres": 227683
  },
  {
   "id": "ara-01362004",
@@ -520,33 +484,6 @@
   "organismoFuente": "Ayuntamiento de urduña/orduña",
   "archivo": "cache/fuentes/bdns-945007-443c9060.txt",
   "caracteres": 366
- },
- {
-  "id": "bdns-944928",
-  "h": "ef3ab276d43064cb",
-  "titulo": "Subvenciones a deportistas individuales de alto nivel",
-  "organismoSugerido": "ayto-elgoibar",
-  "organismoFuente": "Ayuntamiento de elgoibar",
-  "archivo": "cache/fuentes/bdns-944928-e8cb9f5d.txt",
-  "caracteres": 154250
- },
- {
-  "id": "bdns-944876",
-  "h": "e1b4f45c281fdf33",
-  "titulo": "Subvenciones del Ayto. destinadas a entidades",
-  "organismoSugerido": "ayto-mungia",
-  "organismoFuente": "Ayuntamiento de mungia",
-  "archivo": "cache/fuentes/bdns-944876-75fae983.txt",
-  "caracteres": 85514
- },
- {
-  "id": "bdns-944819",
-  "h": "04df379cfb19b69e",
-  "titulo": "Ayuda extraordinaria por el incremento de los costes de los agricultores por el uso de productos fertilizantes",
-  "organismoSugerido": "estado",
-  "organismoFuente": "Fondo español de garantía agraria",
-  "archivo": "cache/fuentes/bdns-944819-7b92a674.txt",
-  "caracteres": 300000
  },
  {
   "id": "bdns-940546",
