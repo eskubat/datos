@@ -1,61 +1,61 @@
 {
   "version": 1,
-  "generado": "2026-11-27T17:20:00.119Z",
-  "total": 550,
+  "generado": "2026-11-28T05:44:12.239Z",
+  "total": 546,
   "porAmbito": {
-    "euskadi": 86,
-    "municipio": 264,
-    "territorio": 89,
-    "estado": 76,
+    "municipio": 260,
+    "euskadi": 85,
+    "territorio": 91,
+    "estado": 75,
     "ue": 35
   },
   "porEstado": {
-    "abierta": 447,
-    "proxima": 53,
-    "sinfecha": 50
+    "abierta": 443,
+    "proxima": 52,
+    "sinfecha": 51
   },
-  "previstas": 621,
+  "previstas": 622,
   "fuentes": {
     "euskadi": {
       "nombre": "Gobierno Vasco (Open Data Euskadi y euskadi.eus)",
       "ok": true,
-      "registros": 129,
-      "segundos": 41,
+      "registros": 126,
+      "segundos": 32,
       "erroresFicha": 0
     },
     "gipuzkoa": {
       "nombre": "Diputación Foral de Gipuzkoa (sede electrónica)",
       "ok": true,
       "registros": 26,
-      "segundos": 22,
+      "segundos": 16,
       "erroresFicha": 0
     },
     "araba": {
       "nombre": "Diputación Foral de Álava (ayudas en vigor)",
       "ok": true,
       "registros": 146,
-      "segundos": 20,
+      "segundos": 19,
       "erroresFicha": 0
     },
     "bdns": {
       "nombre": "Base de Datos Nacional de Subvenciones (incluye Diputación de Bizkaia y ayuntamientos)",
       "ok": true,
-      "registros": 1007,
-      "segundos": 216,
+      "registros": 988,
+      "segundos": 169,
       "erroresFicha": 0
     },
     "boletines": {
       "nombre": "Boletines oficiales (BOPV, BOB, BOG, BOTHA)",
       "ok": true,
       "registros": 161,
-      "segundos": 8,
+      "segundos": 5,
       "erroresFicha": 0
     },
     "prestaciones": {
       "nombre": "Prestaciones permanentes (lista de páginas oficiales)",
       "ok": true,
       "registros": 19,
-      "segundos": 20,
+      "segundos": 18,
       "erroresFicha": 0
     },
     "europa": {
@@ -66,7 +66,7 @@
     }
   },
   "enlaces": {
-    "comprobados": 938,
+    "comprobados": 934,
     "rotos": 1,
     "sustituidos": 0,
     "quitados": 1

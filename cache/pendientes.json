@@ -477,6 +477,15 @@
   "caracteres": 11938
  },
  {
+  "id": "ara-alava-innova-digitaliza-empresas-2026",
+  "h": "d506588f2f61a969",
+  "titulo": "Álava Innova - Descarboniza _Empresas y Autónomos",
+  "organismoSugerido": "dfa",
+  "organismoFuente": "Diputación Foral de Álava",
+  "archivo": "cache/fuentes/ara-alava-innova-digitaliza-empresas-2026-74bf274c.txt",
+  "caracteres": 220860
+ },
+ {
   "id": "ara-ayudas-turismo-actividad-ayuntamientos-2026",
   "h": "bd13c5857921e44a",
   "titulo": "Ayudas gastos de actividad turística en Ayuntamientos",
@@ -532,21 +541,21 @@
  },
  {
   "id": "bdns-945340",
-  "h": "558910bdd58c5e72",
+  "h": "a64ba622fa9ba3a7",
   "titulo": "Subvenciones, en régimen de concurrencia competitiva, para la promoción de la lectura y las letras españolas",
   "organismoSugerido": "estado",
   "organismoFuente": "Dirección general del libro, del cómic y de la lectura",
   "archivo": "cache/fuentes/bdns-945340-01cabe3e.txt",
-  "caracteres": 164261
+  "caracteres": 164684
  },
  {
   "id": "bdns-945337",
-  "h": "2403f24b22b14a72",
+  "h": "92048708e2d34bc4",
   "titulo": "Decreto 1044-26, de 9 de noviembre y Decreto 1087-26, de 19 de noviembre",
   "organismoSugerido": "ayto-iurreta",
   "organismoFuente": "Ayuntamiento de iurreta",
   "archivo": "cache/fuentes/bdns-945337-eee38b55.txt",
-  "caracteres": 13513
+  "caracteres": 13936
  },
  {
   "id": "bdns-945307",

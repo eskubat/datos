@@ -925,9 +925,9 @@
    "https://www.boe.es/boe/dias/2026/03/21/pdfs/BOE-A-2026-6544.pdf"
   ],
   "origen": "tarea de fichas: el texto descargado se corta antes del artículo 50",
-  "fecha": "2026-11-27",
+  "fecha": "2026-11-28",
   "estado": "fallo",
-  "intentos": 2,
+  "intentos": 3,
   "probadas": [
    {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-6544",
@@ -946,8 +946,8 @@
    "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1563908"
   ],
   "estado": "fallo",
-  "fecha": "2026-11-27",
-  "intentos": 1,
+  "fecha": "2026-11-28",
+  "intentos": 2,
   "probadas": [
    {
     "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/documentos?vpd=GE&idDocumento=1563908",
@@ -962,12 +962,12 @@
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2025/06/25/II-3809_cas.pdf"
   ],
   "estado": "fallo",
-  "fecha": "2026-11-27",
-  "intentos": 1,
+  "fecha": "2026-11-28",
+  "intentos": 2,
   "probadas": [
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2025/06/25/II-3809_cas.pdf",
-    "motivo": "no es PDF (text/html, 46238 bytes)"
+    "motivo": "no es PDF (text/html, 44874 bytes)"
    }
   ]
  },
@@ -978,12 +978,12 @@
    "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2025/11/06/I-1149_cas.pdf"
   ],
   "estado": "fallo",
-  "fecha": "2026-11-27",
-  "intentos": 1,
+  "fecha": "2026-11-28",
+  "intentos": 2,
   "probadas": [
    {
     "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2025/11/06/I-1149_cas.pdf",
-    "motivo": "no es PDF (text/html, 44458 bytes)"
+    "motivo": "no es PDF (text/html, 47298 bytes)"
    }
   ]
  }

@@ -1,10 +1,10 @@
 {
- "generado": "2026-11-27T17:20:00.073Z",
+ "generado": "2026-11-28T05:44:12.159Z",
  "noticias": [
   {
    "id": "eus-ayuda-subvencion-2026-cefmugazgaindikoberriztag",
    "titulo": "CEF Energía. Mecanismo Conectar Europa. Proyectos transfronterizos de energía renovable. Se prevé una nueva convocatoria para noviembre de 2026.",
-   "url": "https://www.euskadi.eus/ayuda_subvencion/2026/cefmugazgaindikoberriztag/web01-s1leheki/es/",
+   "url": "https://www.euskadi.eus/ayuda_subvencion/2026/cefmugazgaindikoberriztag/web01-tramite/es/",
    "accion": "no_es_ayuda",
    "nota": "Informa de las subvenciones CEF Energía ya concedidas (unos 126 M€ a 3 proyectos transfronterizos de renovables); no anuncia una convocatoria abierta ni da plazo.",
    "ayudaId": null
@@ -60,7 +60,7 @@
   {
    "id": "eus-ayuda-subvencion-2026-eiaaffuntsaarrantzagarape",
    "titulo": "PESCA. El FEMPA, Fondo Europeo Marítimo, de Pesca y de Acuicultura, cubre el 70% de la ayuda que el Gobierno Vasco ha destinado (2,1 millones) para la diversificación y el empleo en las zonas pesqueras de Euskadi, mediante una convocatoria, que apoyará inversiones empresariales, creación de empleo y proyectos de interés colectivo vinculados a la economía azul",
-   "url": "https://www.euskadi.eus/ayuda_subvencion/2026/eiaaffuntsaarrantzagarape/web01-s1leheki/es/",
+   "url": "https://www.euskadi.eus/ayuda_subvencion/2026/eiaaffuntsaarrantzagarape/web01-tramite/es/",
    "accion": "duplicada",
    "nota": "Noticia de Irekia (Consejo de Gobierno 15/09/2026) sobre los 2,1 M€ FEMPA para la EDLP del GALP Itsas Garapen Elkartea, que ya tenemos como ayuda abierta hasta el 17/11/2026.",
    "ayudaId": "eus-ayuda-subvencion-2026-ayudas-al-amparo-de-la-estrategia-de-desarrollo-local-participativo-2026"

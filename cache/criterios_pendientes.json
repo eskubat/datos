@@ -1,60 +1,5 @@
 [
  {
-  "id": "bdns-939389",
-  "h": "1c6d6eaa2481da08",
-  "titulo": "Concurso de escaparates para comercios",
-  "para": [
-   "autonomo",
-   "empresa"
-  ],
-  "temas": [
-   "comercio",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/bdns-939389-c30c30c0.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-937284",
-  "h": "087413464c5cb93e",
-  "titulo": "Bonos para comprar en el comercio y los servicios de Ordizia",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "comercio",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/bdns-937284-dfd8942a.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-906408",
-  "h": "bd8c33fd1d63cbdb",
-  "titulo": "Ayudas para renovar la electricidad y poner ducha a mayores de 75 años",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "vivienda"
-  ],
-  "archivo": "cache/fuentes/bdns-906408-f48594c9.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-875052",
-  "h": "bf21ce14a0130d4a",
-  "titulo": "Bonos Psikobono para consultas psicológicas de jóvenes",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "social"
-  ],
-  "archivo": "cache/fuentes/bdns-875052-a45c166c.txt",
-  "revisar": false
- },
- {
   "id": "bdns-895774",
   "h": "a64097bbf2f8fc61",
   "titulo": "Subvenciones para organizar actividades culturales, deportivas, de igualdad e inclusión",
@@ -338,7 +283,7 @@
  },
  {
   "id": "bdns-918655",
-  "h": "c605b745ad7e1b70",
+  "h": "32f20c1cc64b412b",
   "titulo": "Bonos de descuento para comprar en el comercio local",
   "para": [
    "particular",
@@ -383,7 +328,7 @@
  },
  {
   "id": "bdns-901439",
-  "h": "6697ddd919434354",
+  "h": "c2408206eec07632",
   "titulo": "Subvenciones para grabar discos y videoclips de grupos y solistas locales",
   "para": [
    "particular",
@@ -547,7 +492,7 @@
  },
  {
   "id": "bdns-890111",
-  "h": "87c75fb1e113ae9b",
+  "h": "6e70a30d6f924cb1",
   "titulo": "Ayudas para crear o traspasar un negocio y alquilar el local",
   "para": [
    "autonomo",
@@ -1928,7 +1873,7 @@
  },
  {
   "id": "bdns-934005",
-  "h": "60e4f03b290c7d2e",
+  "h": "572f55c47ec9d03f",
   "titulo": "Ayudas para limpiar pintadas en fachadas de comunidades de propietarios",
   "para": [
    "particular",
@@ -2182,7 +2127,7 @@
  },
  {
   "id": "eus-ayuda-subvencion-2026-eiaaffuntsaarrantzagarape",
-  "h": "62dc25dbcc53086d",
+  "h": "df29902193a12b0f",
   "titulo": "Pesca: el FEMPA, Fondo Europeo Marítimo, de Pesca y de Acuicultura",
   "para": [
    "empresa"
@@ -2606,31 +2551,6 @@
   ],
   "temas": [],
   "archivo": "cache/fuentes/bdns-923213-64f8aebf.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-922783",
-  "h": "859ad0984e5285a9",
-  "titulo": "Ayudas Auto+ para que particulares compren vehículos eléctricos",
-  "para": [
-   "particular"
-  ],
-  "temas": [
-   "energia",
-   "emprendimiento"
-  ],
-  "archivo": "cache/fuentes/bdns-922783-f5986355.txt",
-  "revisar": false
- },
- {
-  "id": "bdns-922776",
-  "h": "7424b1a28c99e758",
-  "titulo": "Subvenciones para usar el taxi desde barrios rurales sin transporte público",
-  "para": [
-   "particular"
-  ],
-  "temas": [],
-  "archivo": "cache/fuentes/bdns-922776-7e36e615.txt",
   "revisar": false
  },
  {
@@ -3290,6 +3210,17 @@
   ],
   "temas": [],
   "archivo": "cache/fuentes/bdns-872882-e3b8b31e.txt",
+  "revisar": false
+ },
+ {
+  "id": "bdns-922776",
+  "h": "7424b1a28c99e758",
+  "titulo": "Subvenciones para usar el taxi desde barrios rurales sin transporte público",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/bdns-922776-7e36e615.txt",
   "revisar": false
  },
  {
@@ -4881,6 +4812,20 @@
   "revisar": false
  },
  {
+  "id": "ara-garantias-alquiler-vivienda-adhesion-personas-arrendadoras",
+  "h": "3d62581063f60454",
+  "titulo": "Ayudas con garantías de alquiler para propietarios de viviendas rurales",
+  "para": [
+   "particular",
+   "asociacion"
+  ],
+  "temas": [
+   "vivienda"
+  ],
+  "archivo": "cache/fuentes/ara-garantias-alquiler-vivienda-adhesion-personas-arrendador-365c506c.txt",
+  "revisar": false
+ },
+ {
   "id": "ara-garantias-alquiler-vivienda-adhesion-personas-arrendatarias",
   "h": "0c39a7ff487e93bd",
   "titulo": "Ayudas para inquilinos que buscan vivienda de alquiler en zonas rurales",
@@ -5073,6 +5018,21 @@
   "revisar": false
  },
  {
+  "id": "ara-alava-innova-digitaliza-empresas-2026",
+  "h": "c4cc44425ac5a4b3",
+  "titulo": "Álava Innova - Descarboniza _Empresas y Autónomos",
+  "para": [
+   "autonomo",
+   "empresa"
+  ],
+  "temas": [
+   "digitalizacion",
+   "emprendimiento"
+  ],
+  "archivo": "cache/fuentes/ara-alava-innova-digitaliza-empresas-2026-74bf274c.txt",
+  "revisar": false
+ },
+ {
   "id": "ara-ayudas-inversiones-explotaciones-agrarias-2026",
   "h": "fa33624875651724",
   "titulo": "Ayudas para invertir en explotaciones agrarias",
@@ -5231,7 +5191,7 @@
  },
  {
   "id": "bdns-945340",
-  "h": "812078fd25fc21e7",
+  "h": "a112c66b06dc2b8f",
   "titulo": "Subvenciones, en régimen de concurrencia competitiva, para la promoción de la lectura y las letras españolas",
   "para": [
    "empresa",
@@ -5246,7 +5206,7 @@
  },
  {
   "id": "bdns-945337",
-  "h": "f51d058649484564",
+  "h": "45792587aa89ee85",
   "titulo": "Decreto 1044-26, de 9 de noviembre y Decreto 1087-26, de 19 de noviembre",
   "para": [
    "particular"
@@ -6099,17 +6059,6 @@
   "revisar": false
  },
  {
-  "id": "prest-araba-pevs",
-  "h": "47b578c0f318894c",
-  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
-  "para": [
-   "particular"
-  ],
-  "temas": [],
-  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
-  "revisar": false
- },
- {
   "id": "prest-araba-peap",
   "h": "b7167957c542832d",
   "titulo": "Ayuda para contratar asistencia personal a personas dependientes",
@@ -6134,6 +6083,17 @@
    "social"
   ],
   "archivo": "cache/fuentes/prest-bizkaia-lismi-movilidad-e5897cf6.txt",
+  "revisar": false
+ },
+ {
+  "id": "prest-araba-pevs",
+  "h": "47b578c0f318894c",
+  "titulo": "Prestación para pagar un servicio de atención a la dependencia",
+  "para": [
+   "particular"
+  ],
+  "temas": [],
+  "archivo": "cache/fuentes/prest-araba-pevs-aa810482.txt",
   "revisar": false
  },
  {
